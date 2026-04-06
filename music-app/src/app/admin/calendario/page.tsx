@@ -326,75 +326,59 @@ export default function CalendarPage() {
                                     btn.textContent = "A submeter...";
                                     btn.disabled = true;
                                     try {
-                                      // Step 1: Submit image generation (async)
                                       const res = await adminFetch("/api/admin/generate-verse-reel", {
                                         method: "POST",
                                         headers: { "Content-Type": "application/json" },
-                                        body: JSON.stringify({
-                                          caption: action.caption,
-                                          albumSlug: action.albumSlug,
-                                          trackNumber: action.trackNumber,
-                                        }),
+                                        body: JSON.stringify({ caption: action.caption, albumSlug: action.albumSlug, trackNumber: action.trackNumber }),
                                       });
-                                      if (!res.ok) { alert(`Erro ${res.status}: ${(await res.json()).erro || res.statusText}`); return; }
                                       const data = await res.json();
+                                      console.log("[reel] step1:", res.status, data);
+                                      if (!res.ok) { alert(`Erro ${res.status}: ${data.erro || JSON.stringify(data)}`); return; }
 
-                                      // If got image directly (rare)
-                                      let imageUrl = data.imageUrl;
-
-                                      // Step 2: Poll fal.ai for image
+                                      let imageUrl = data.imageUrl as string | undefined;
                                       if (!imageUrl && data.falTaskId) {
                                         btn.textContent = "A gerar imagem...";
-                                        for (let i = 0; i < 40; i++) {
-                                          await new Promise(r => setTimeout(r, 3000));
+                                        for (let i = 0; i < 60; i++) {
+                                          await new Promise(r => setTimeout(r, 2000));
                                           const sRes = await adminFetch(`/api/admin/generate-verse-reel/status?falTaskId=${data.falTaskId}`);
-                                          if (!sRes.ok) continue;
                                           const sData = await sRes.json();
+                                          console.log("[reel] poll:", i, sData);
                                           if (sData.imageUrl) { imageUrl = sData.imageUrl; break; }
-                                          if (sData.status === "FAILED") { alert("fal.ai falhou a gerar imagem."); return; }
-                                          btn.textContent = `A gerar imagem... ${Math.min(i * 3, 95)}%`;
+                                          if (sData.status === "FAILED") { alert("fal.ai falhou."); return; }
+                                          btn.textContent = `A gerar imagem... ${Math.min(Math.round(i * 1.7), 95)}%`;
                                         }
                                       }
-
-                                      if (!imageUrl) { alert("Timeout — imagem não foi gerada."); return; }
+                                      if (!imageUrl) { alert(`Sem imagem. API devolveu: ${JSON.stringify(data)}`); return; }
                                       window.open(imageUrl, "_blank");
 
-                                      // Step 3: Animate with Runway
                                       btn.textContent = "A enviar para Runway...";
                                       const animRes = await adminFetch("/api/admin/generate-verse-reel/animate", {
                                         method: "POST",
                                         headers: { "Content-Type": "application/json" },
-                                        body: JSON.stringify({
-                                          imageUrl,
-                                          caption: action.caption,
-                                          albumSlug: action.albumSlug,
-                                          trackNumber: action.trackNumber,
-                                        }),
+                                        body: JSON.stringify({ imageUrl, caption: action.caption, albumSlug: action.albumSlug, trackNumber: action.trackNumber }),
                                       });
-                                      if (!animRes.ok) { alert(`Runway erro: ${(await animRes.json()).erro || animRes.statusText}`); return; }
                                       const animData = await animRes.json();
+                                      console.log("[reel] animate:", animRes.status, animData);
+                                      if (!animRes.ok) { alert(`Runway: ${animData.erro || JSON.stringify(animData)}`); return; }
 
                                       if (animData.runwayTaskId) {
-                                        btn.textContent = "A animar vídeo...";
                                         const params = new URLSearchParams({ taskId: animData.runwayTaskId });
                                         if (action.albumSlug) params.set("album", action.albumSlug);
                                         if (action.trackNumber) params.set("track", String(action.trackNumber));
-
-                                        for (let i = 0; i < 60; i++) {
+                                        for (let i = 0; i < 90; i++) {
                                           await new Promise(r => setTimeout(r, 3000));
                                           const vRes = await adminFetch(`/api/admin/runway/status?${params}`);
-                                          if (!vRes.ok) continue;
                                           const vData = await vRes.json();
-                                          if (vData.status === "complete" && vData.videoUrl) {
-                                            window.open(vData.videoUrl, "_blank");
-                                            break;
-                                          }
-                                          if (vData.status === "error") { alert(`Runway falhou: ${vData.error || "erro"}`); break; }
-                                          btn.textContent = `A animar... ${Math.min(i * 3, 95)}%`;
+                                          console.log("[reel] video:", i, vData);
+                                          if (vData.status === "complete" && vData.videoUrl) { window.open(vData.videoUrl, "_blank"); alert("Reel gerado!"); break; }
+                                          if (vData.status === "error") { alert(`Runway falhou: ${vData.error}`); break; }
+                                          btn.textContent = `A animar vídeo... ${Math.min(Math.round(i * 1.5), 95)}%`;
                                         }
+                                      } else {
+                                        alert(`Sem taskId Runway: ${JSON.stringify(animData)}`);
                                       }
-                                    } catch (e) {
-                                      alert(`Erro: ${(e as Error).message}`);
+                                    } catch (err) {
+                                      alert(`Erro JS: ${(err as Error).message}`);
                                     } finally {
                                       btn.textContent = origText;
                                       btn.disabled = false;
