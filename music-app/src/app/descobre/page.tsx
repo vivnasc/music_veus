@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRecommendations } from "@/hooks/useRecommendations";
@@ -23,12 +24,28 @@ const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }>
   mare: { pt: "Maré", en: "Tide", sub: "O que vai e volta" },
 };
 
-function getFeaturedAlbum(product: string): Album | null {
+function getFeaturedAlbum(product: string, publishedKeys: Set<string>): Album | null {
+  // Prefer an album that has published audio (and therefore covers)
+  const published = ALL_ALBUMS.find(
+    (a) => a.product === product && a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
+  );
+  if (published) return published;
+  // Fallback to first album in collection
   return ALL_ALBUMS.find((a) => a.product === product) || null;
 }
 
 export default function DescobrePage() {
   const recommendations = useRecommendations(16);
+  const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
+
+  useEffect(() => {
+    fetch("/api/published-tracks")
+      .then((r) => r.json())
+      .then((data: { tracks?: string[] }) => {
+        if (data.tracks) setPublishedKeys(new Set(data.tracks));
+      })
+      .catch(() => {});
+  }, []);
 
   const géneros = ALL_LISTS.filter((l) => l.category === "genero");
   const moods = ALL_LISTS.filter((l) => l.category === "mood");
@@ -87,22 +104,27 @@ export default function DescobrePage() {
           <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">Colecções</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {COLLECTION_PRODUCTS.map((product) => {
-              const album = getFeaturedAlbum(product);
+              const album = getFeaturedAlbum(product, publishedKeys);
               const label = COLLECTION_LABELS[product];
-              if (!album || !label) return null;
+              // Only show collections that have at least one published album
+              const hasPublished = ALL_ALBUMS.some(
+                (a) => a.product === product && a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
+              );
+              if (!album || !label || !hasPublished) return null;
               return (
                 <Link
                   key={product}
                   href={`/album/${album.slug}`}
                   className="group block rounded-xl overflow-hidden"
                 >
-                  <div className="aspect-square relative overflow-hidden bg-[#1a1a2e]">
+                  <div className="aspect-square relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}44)` }}>
                     <Image
                       src={getTrackCoverUrl(album.slug, 1)}
                       alt={label.pt}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform brightness-50"
                       unoptimized
+                      onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                     />
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
                       <span className="text-xl font-semibold text-white">{label.pt}</span>
@@ -117,26 +139,34 @@ export default function DescobrePage() {
         </section>
 
         {/* Géneros */}
-        <CuratedSection title="Géneros" lists={géneros} />
+        <CuratedSection title="Géneros" lists={géneros} publishedKeys={publishedKeys} />
 
         {/* Energia */}
-        <CuratedSection title="Energia" lists={moods} />
+        <CuratedSection title="Energia" lists={moods} publishedKeys={publishedKeys} />
 
         {/* Temas */}
-        <CuratedSection title="Temas" lists={temas} />
+        <CuratedSection title="Temas" lists={temas} publishedKeys={publishedKeys} />
       </div>
     </main>
   );
 }
 
-function CuratedSection({ title, lists }: { title: string; lists: CuratedList[] }) {
-  if (lists.length === 0) return null;
+function CuratedSection({ title, lists, publishedKeys }: { title: string; lists: CuratedList[]; publishedKeys: Set<string> }) {
+  // Filter each list to only include published tracks, hide empty lists
+  const filtered = lists
+    .map((list) => ({
+      ...list,
+      tracks: list.tracks.filter((t) => publishedKeys.has(`${t.albumSlug}-t${t.trackNumber}`)),
+    }))
+    .filter((list) => list.tracks.length > 0);
+
+  if (filtered.length === 0) return null;
 
   return (
     <section>
       <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">{title}</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-        {lists.map((list) => {
+        {filtered.map((list) => {
           const coverTrack = list.tracks[0];
           return (
             <Link
@@ -144,18 +174,15 @@ function CuratedSection({ title, lists }: { title: string; lists: CuratedList[] 
               href={`/lista/${list.slug}`}
               className="group block rounded-xl overflow-hidden"
             >
-              <div className="aspect-square relative overflow-hidden bg-[#1a1a2e]">
-                {coverTrack ? (
-                  <Image
-                    src={getTrackCoverUrl(coverTrack.albumSlug, coverTrack.trackNumber)}
-                    alt={list.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform brightness-[0.4]"
-                    unoptimized
-                  />
-                ) : (
-                  <div className="w-full h-full" style={{ background: `linear-gradient(135deg, ${list.color}44, ${list.color}11)` }} />
-                )}
+              <div className="aspect-square relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${list.color}44, ${list.color}11)` }}>
+                <Image
+                  src={getTrackCoverUrl(coverTrack.albumSlug, coverTrack.trackNumber)}
+                  alt={list.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform brightness-[0.4]"
+                  unoptimized
+                  onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                />
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
                   <span className="text-lg font-semibold text-white">{list.title}</span>
                   <span className="text-[10px] text-white/50 mt-1 line-clamp-2 max-w-[80%]">{list.subtitle}</span>
