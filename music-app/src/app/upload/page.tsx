@@ -537,7 +537,7 @@ export default function UploadPage() {
         ) : (
           /* Album grid */
           <div className="space-y-8">
-            {(["espelho", "no", "livro", "curso", "espiritual"] as const).map(product => {
+            {(["espelho", "no", "livro", "curso", "incenso", "eter", "nua", "sangue", "fibra", "grao", "mare"] as const).map(product => {
               const albumsInCategory = filteredAlbums.filter(a => a.product === product);
               if (albumsInCategory.length === 0) return null;
 

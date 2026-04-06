@@ -164,10 +164,13 @@ function ProductFilter({
     { key: "no", label: "Nos" },
     { key: "livro", label: "Livro" },
     { key: "curso", label: "Cursos" },
-    { key: "espiritual", label: "Espiritual" },
-    { key: "vida", label: "Vida" },
-    { key: "cosmic", label: "Cosmic" },
-    { key: "romance", label: "Romance" },
+    { key: "incenso", label: "Incenso" },
+    { key: "eter", label: "Éter" },
+    { key: "nua", label: "Nua" },
+    { key: "sangue", label: "Sangue" },
+    { key: "fibra", label: "Fibra" },
+    { key: "grao", label: "Grão" },
+    { key: "mare", label: "Maré" },
   ];
 
   return (
