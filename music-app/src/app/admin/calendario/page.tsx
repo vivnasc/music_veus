@@ -318,12 +318,73 @@ export default function CalendarPage() {
                                   Gerar Story
                                 </button>
                               )}
+                              {action.type === "reel" && action.caption && (
+                                <button
+                                  onClick={async () => {
+                                    const btn = document.activeElement as HTMLButtonElement;
+                                    const origText = btn.textContent;
+                                    btn.textContent = "A gerar imagem...";
+                                    btn.disabled = true;
+                                    try {
+                                      // Step 1: fal.ai image + Runway animation
+                                      const res = await adminFetch("/api/admin/generate-verse-reel", {
+                                        method: "POST",
+                                        headers: { "Content-Type": "application/json" },
+                                        body: JSON.stringify({
+                                          caption: action.caption,
+                                          albumSlug: action.albumSlug,
+                                          trackNumber: action.trackNumber,
+                                        }),
+                                      });
+                                      const data = await res.json();
+
+                                      if (data.imageUrl) {
+                                        window.open(data.imageUrl, "_blank");
+                                      }
+
+                                      if (data.runwayTaskId) {
+                                        // Step 2: Poll Runway for video
+                                        btn.textContent = "A animar vídeo...";
+                                        const params = new URLSearchParams({ taskId: data.runwayTaskId });
+                                        if (data.albumSlug) params.set("album", data.albumSlug);
+                                        if (data.trackNumber) params.set("track", String(data.trackNumber));
+
+                                        for (let i = 0; i < 60; i++) {
+                                          await new Promise(r => setTimeout(r, 3000));
+                                          const statusRes = await adminFetch(`/api/admin/runway/status?${params}`);
+                                          const statusData = await statusRes.json();
+
+                                          if (statusData.status === "complete" && statusData.videoUrl) {
+                                            window.open(statusData.videoUrl, "_blank");
+                                            break;
+                                          }
+                                          if (statusData.status === "error") {
+                                            alert(`Runway falhou: ${statusData.error || "erro desconhecido"}`);
+                                            break;
+                                          }
+                                          btn.textContent = `A animar... ${Math.min(i * 5, 95)}%`;
+                                        }
+                                      } else if (!data.imageUrl) {
+                                        alert(data.erro || "Erro ao gerar reel");
+                                      }
+                                    } catch (e) {
+                                      alert(`Erro: ${(e as Error).message}`);
+                                    } finally {
+                                      btn.textContent = origText;
+                                      btn.disabled = false;
+                                    }
+                                  }}
+                                  className="px-3 py-1.5 rounded-lg bg-violet-600/30 text-violet-400 text-xs min-h-[44px]"
+                                >
+                                  Gerar Reel IA
+                                </button>
+                              )}
                               {action.type === "reel" && action.trackNumber && (
                                 <Link
                                   href={`/admin/producao?album=${action.albumSlug}`}
-                                  className="px-3 py-1.5 rounded-lg bg-violet-600/30 text-violet-400 text-xs min-h-[44px] flex items-center"
+                                  className="px-3 py-1.5 rounded-lg bg-white/5 text-[#666680] text-xs min-h-[44px] flex items-center"
                                 >
-                                  Gerar Reel
+                                  Reel Capa
                                 </Link>
                               )}
                               {action.type === "carrossel" && (

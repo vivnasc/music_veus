@@ -370,7 +370,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
         trackNumber: track.number,
         energy: track.energy,
         flavor: track.flavor,
-        duration: track.duration,
+        duration: track.durationSeconds,
       }),
     }).catch(() => {});
 
