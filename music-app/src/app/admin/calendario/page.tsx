@@ -459,6 +459,8 @@ export default function CalendarPage() {
                                       );
                                     } catch { return null; }
                                   })()}
+                                </>
+                              )}
                               {action.type === "reel" && action.trackNumber && (
                                 <Link
                                   href={`/admin/producao?album=${action.albumSlug}`}
