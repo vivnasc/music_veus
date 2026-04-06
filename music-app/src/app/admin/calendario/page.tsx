@@ -539,22 +539,43 @@ export default function CalendarPage() {
                                           if (!found) { alert(`Timeout no clip ${idx + 1}`); return; }
                                         }
 
-                                        // Step 4: Compose short (3 clips + track audio)
-                                        setGenerating(p => ({ ...p, [key]: "4/4 A montar vídeo com música..." }));
-                                        const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNum}`;
+                                        // Step 4: Mount with Shotstack (3 clips + audio + text)
+                                        setGenerating(p => ({ ...p, [key]: "4/4 Shotstack a montar..." }));
+                                        const sbUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+                                        const audioUrl = `${sbUrl}/storage/v1/object/public/audios/albums/${albumSlug.replace(/[^a-z0-9-]/g, "")}/faixa-${String(trackNum).padStart(2, "0")}.mp3`;
 
-                                        const { composeShort } = await import("@/lib/short-composer");
-                                        const blob = await composeShort(clipUrls, audioSrc, track, alb, (p) => {
-                                          setGenerating(prev => ({ ...prev, [key]: `4/4 ${p.message}` }));
+                                        const verse = (() => {
+                                          if (!track.lyrics) return "";
+                                          const lines = track.lyrics.split("\n").filter((l: string) => { const t = l.trim(); return t.length > 15 && t.length < 80 && !t.startsWith("["); });
+                                          return lines[0]?.trim() || "";
+                                        })();
+
+                                        const shotRes = await adminFetch("/api/admin/shotstack/render", {
+                                          method: "POST",
+                                          headers: { "Content-Type": "application/json" },
+                                          body: JSON.stringify({
+                                            clipUrls,
+                                            audioUrl,
+                                            verse,
+                                            trackTitle: track.title,
+                                            albumTitle: alb.title,
+                                          }),
                                         });
+                                        const shotData = await shotRes.json();
+                                        if (!shotRes.ok || !shotData.id) { alert(`Shotstack: ${shotData.erro || JSON.stringify(shotData)}`); return; }
 
-                                        // Download
-                                        const ext = blob.type.includes("mp4") ? "mp4" : "webm";
-                                        const a = document.createElement("a");
-                                        a.href = URL.createObjectURL(blob);
-                                        a.download = `${track.title} — Loranne.${ext}`;
-                                        a.click();
-                                        setGeneratedImages(p => ({ ...p, [key]: "done" }));
+                                        // Poll Shotstack
+                                        for (let i = 0; i < 120; i++) {
+                                          await new Promise(r => setTimeout(r, 3000));
+                                          const sRes = await adminFetch(`/api/admin/shotstack/status?id=${shotData.id}`);
+                                          const sData = await sRes.json();
+                                          if (sData.status === "done" && sData.videoUrl) {
+                                            setGeneratedImages(p => ({ ...p, [key]: sData.videoUrl }));
+                                            break;
+                                          }
+                                          if (sData.status === "failed") { alert(`Shotstack falhou: ${sData.error}`); return; }
+                                          setGenerating(p => ({ ...p, [key]: `4/4 A renderizar... ${Math.min(Math.round(i * 1.2), 95)}%` }));
+                                        }
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);
                                       } finally {
@@ -571,8 +592,10 @@ export default function CalendarPage() {
                                   >
                                     Produção
                                   </Link>
-                                  {generatedImages[key] === "done" && (
-                                    <span className="text-[10px] text-green-400">Descarregado</span>
+                                  {generatedImages[key] && generatedImages[key] !== "done" && (
+                                    <a href={generatedImages[key]} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded-lg bg-green-600/30 text-green-400 text-xs min-h-[44px] flex items-center">
+                                      Ver reel
+                                    </a>
                                   )}
                                 </>
                               )}
