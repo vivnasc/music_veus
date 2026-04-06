@@ -82,7 +82,7 @@ São perguntas silenciosas
 Que a noite benedisse
 
 [Outro]
-E quando finalmente páro
+E quando finalmente paro
 Num banco frio de jardim
 Percebo que nada é raro
 Nesta cidade dentro de mim
@@ -7288,7 +7288,7 @@ De pura simplicidade
 O limão flutua à tona
 Como um sol dentro do copo
 E a noite que nos coroa
-Começa assim — com um golo e um topo
+Começa assim — com um gole e um topo
 
 [Pre-Chorus]
 O primeiro gole da noite
