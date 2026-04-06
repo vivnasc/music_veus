@@ -506,7 +506,7 @@ export default function CalendarPage() {
                                               imageUrl: imgUrl,
                                               promptText: runwayPrompts[idx],
                                               duration: 5,
-                                              ratio: "768:1280",
+                                              ratio: "9:16",
                                             }),
                                           });
                                           return res.json();
