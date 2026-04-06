@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const { albumSlug, trackNumber, imageBase64, promptText, duration, ratio } = await req.json();
+    const { albumSlug, trackNumber, imageBase64, imageUrl, promptText, duration, ratio } = await req.json();
 
     if (!albumSlug || !trackNumber) {
       return NextResponse.json({ erro: "albumSlug e trackNumber obrigatórios." }, { status: 400 });
@@ -68,6 +68,16 @@ export async function POST(req: NextRequest) {
         const mimeType = blob.type || `image/${ext === "jpg" ? "jpeg" : ext}`;
         promptImage = `data:${mimeType};base64,${buffer.toString("base64")}`;
         break;
+      }
+    }
+
+    // Fallback to provided imageUrl (e.g. from fal.ai)
+    if (!promptImage && imageUrl) {
+      const imgRes = await fetch(imageUrl);
+      if (imgRes.ok) {
+        const blob = await imgRes.blob();
+        const buffer = Buffer.from(await blob.arrayBuffer());
+        promptImage = `data:${blob.type || "image/png"};base64,${buffer.toString("base64")}`;
       }
     }
 

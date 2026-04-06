@@ -419,24 +419,59 @@ export default function CalendarPage() {
                                   Gerar Story
                                 </button>
                               )}
-                              {action.type === "reel" && action.caption && (
+                              {action.type === "reel" && action.caption && action.trackNumber && (
                                 <>
                                   <button
                                     disabled={!!generating[key]}
                                     onClick={async () => {
-                                      setGenerating(p => ({ ...p, [key]: "A gerar imagem..." }));
+                                      setGenerating(p => ({ ...p, [key]: "1/3 A gerar imagem..." }));
                                       try {
-                                        const res = await adminFetch("/api/admin/generate-verse-reel", {
+                                        // Step 1: fal.ai — generate image from verse
+                                        const imgRes = await adminFetch("/api/admin/generate-verse-reel", {
                                           method: "POST",
                                           headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({ caption: action.caption, albumSlug: action.albumSlug, trackNumber: action.trackNumber }),
+                                          body: JSON.stringify({ caption: action.caption }),
                                         });
-                                        const data = await res.json();
-                                        if (!res.ok || !data.imageUrl) {
-                                          alert(`Erro: ${data.erro || JSON.stringify(data)}`);
-                                          return;
+                                        const imgData = await imgRes.json();
+                                        if (!imgRes.ok || !imgData.imageUrl) { alert(`fal.ai: ${imgData.erro || JSON.stringify(imgData)}`); return; }
+
+                                        setGeneratedImages(p => ({ ...p, [`${key}-img`]: imgData.imageUrl }));
+                                        setGenerating(p => ({ ...p, [key]: "2/3 A animar com Runway..." }));
+
+                                        // Step 2: Runway — animate image to video
+                                        const runRes = await adminFetch("/api/admin/runway/generate", {
+                                          method: "POST",
+                                          headers: { "Content-Type": "application/json" },
+                                          body: JSON.stringify({
+                                            albumSlug: action.albumSlug,
+                                            trackNumber: action.trackNumber,
+                                            imageUrl: imgData.imageUrl,
+                                            promptText: "Slow cinematic movement, gentle light particles floating, subtle camera push-in, ethereal and dreamy atmosphere",
+                                            duration: 5,
+                                            ratio: "720:1280",
+                                          }),
+                                        });
+                                        const runData = await runRes.json();
+                                        if (!runRes.ok || !runData.taskId) { alert(`Runway: ${runData.erro || JSON.stringify(runData)}`); return; }
+
+                                        // Step 3: Poll Runway status
+                                        setGenerating(p => ({ ...p, [key]: "3/3 A processar vídeo..." }));
+                                        const params = new URLSearchParams({
+                                          taskId: runData.taskId,
+                                          album: action.albumSlug,
+                                          track: String(action.trackNumber),
+                                        });
+                                        for (let i = 0; i < 120; i++) {
+                                          await new Promise(r => setTimeout(r, 3000));
+                                          const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
+                                          const sData = await sRes.json();
+                                          if (sData.status === "complete" && sData.videoUrl) {
+                                            setGeneratedImages(p => ({ ...p, [key]: sData.videoUrl }));
+                                            break;
+                                          }
+                                          if (sData.status === "error") { alert(`Runway: ${sData.error}`); return; }
+                                          setGenerating(p => ({ ...p, [key]: `3/3 A processar... ${Math.min(Math.round(i * 1.2), 95)}%` }));
                                         }
-                                        setGeneratedImages(p => ({ ...p, [key]: data.imageUrl }));
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);
                                       } finally {
@@ -447,9 +482,14 @@ export default function CalendarPage() {
                                   >
                                     {generating[key] || "Gerar Reel IA"}
                                   </button>
+                                  {generatedImages[`${key}-img`] && (
+                                    <a href={generatedImages[`${key}-img`]} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded-lg bg-blue-600/20 text-blue-400 text-xs min-h-[44px] flex items-center">
+                                      Imagem
+                                    </a>
+                                  )}
                                   {generatedImages[key] && (
                                     <a href={generatedImages[key]} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded-lg bg-green-600/30 text-green-400 text-xs min-h-[44px] flex items-center">
-                                      Ver imagem
+                                      Ver vídeo
                                     </a>
                                   )}
                                 </>
