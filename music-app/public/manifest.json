@@ -1,0 +1,29 @@
+{
+  "name": "Véus by Loranne",
+  "short_name": "Véus",
+  "description": "A banda sonora da tua transformação. Música original de Loranne.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0D1A",
+  "theme_color": "#0D0D1A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/veus_music-favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/veus_music_favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/veus_music_favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["music", "entertainment"]
+}

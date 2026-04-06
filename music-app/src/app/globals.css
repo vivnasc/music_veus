@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-mundo-bg: #0D0D1A;
+  --color-mundo-bg-light: #1A1A2E;
+  --color-mundo-creme: #F5F0E6;
+  --color-mundo-dourado: #C9A96E;
+  --color-mundo-muted: #a0a0b0;
+  --color-mundo-muted-dark: #666680;
+
+  --font-display: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--color-mundo-bg);
+  color: var(--color-mundo-creme);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: rgba(201, 169, 110, 0.3);
+  color: var(--color-mundo-creme);
+}
+
+/* Hide scrollbar for lyrics */
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }

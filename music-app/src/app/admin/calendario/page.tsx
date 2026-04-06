@@ -1,0 +1,372 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import { ALL_ALBUMS } from "@/data/albums";
+import { adminFetch } from "@/lib/admin-fetch";
+
+type ContentAction = {
+  type: "reel" | "carrossel" | "story" | "post" | "partilha";
+  label: string;
+  trackNumber?: number;
+  albumSlug: string;
+  caption?: string;
+};
+
+type DayPlan = {
+  date: string;
+  actions: ContentAction[];
+};
+
+function getAlbumTitle(slug: string): string {
+  return ALL_ALBUMS.find(a => a.slug === slug)?.title || slug;
+}
+
+function getTrackTitle(slug: string, num: number): string {
+  const album = ALL_ALBUMS.find(a => a.slug === slug);
+  return album?.tracks.find(t => t.number === num)?.title || `Faixa ${num}`;
+}
+
+function getAlbumColor(slug: string): string {
+  return ALL_ALBUMS.find(a => a.slug === slug)?.color || "#C9A96E";
+}
+
+function pickVerse(slug: string, trackNum: number): string {
+  const album = ALL_ALBUMS.find(a => a.slug === slug);
+  const track = album?.tracks.find(t => t.number === trackNum);
+  if (!track?.lyrics) return "";
+  const lines = track.lyrics.split("\n").filter(l => {
+    const t = l.trim();
+    return t.length > 15 && t.length < 80 && !t.startsWith("[");
+  });
+  return lines[0]?.trim() || "";
+}
+
+const PLAN: DayPlan[] = [
+  // ── SEMANA 1: Lancamento "Os Sete Temas do Despertar" ──
+  { date: "2026-04-01", actions: [
+    { type: "reel", label: "Reel — O Convite", albumSlug: "livro-filosofico", trackNumber: 1, caption: '"Ha uma porta que nao se ve\nno centro exacto do teu peito"\n\nO Convite — Loranne\nmusic.seteveus.space\n\n#loranne #veus #oconvite #ouve' },
+  ]},
+  { date: "2026-04-02", actions: [
+    { type: "carrossel", label: "Carrossel — Os Sete Temas do Despertar", albumSlug: "livro-filosofico", caption: "Os Sete Temas do Despertar.\n9 faixas. O primeiro album.\n\n1. O Convite\n2. The Impermanence of You\n3. A Cadeira Vazia\n4. The Whirlwind\n5. A Plenitude que Ja Esta\n6. The Fertile Dark\n7. O Horizonte\n8. The Reunion\n9. O Reflexo Final\n\nCada faixa e uma camada.\nTira uma e ve o que aparece por baixo.\n\nmusic.seteveus.space\n\n#loranne #veus #despertar #ouve" },
+  ]},
+  { date: "2026-04-03", actions: [
+    { type: "reel", label: "Reel — A Cadeira Vazia", albumSlug: "livro-filosofico", trackNumber: 3, caption: '"A memoria e uma sala escura\ncom cadeiras viradas para tras\nSentas-te e olhas o que ja foi\ncomo se pudesses mudar o que ja nao faz"\n\nA Cadeira Vazia — Loranne\nmusic.seteveus.space\n\n#loranne #veus #memoria #passado' },
+  ]},
+  { date: "2026-04-04", actions: [
+    { type: "reel", label: "Reel — The Fertile Dark", albumSlug: "livro-filosofico", trackNumber: 6, caption: '"Let the emptiness be full\nof all the things you cannot name\nThe fertile dark will hold your roots\nuntil you bloom without the shame"\n\nThe Fertile Dark — Loranne\nmusic.seteveus.space\n\n#loranne #veus #thefertiledark #bloom' },
+  ]},
+  { date: "2026-04-05", actions: [
+    { type: "reel", label: "Reel — A Plenitude que Ja Esta", albumSlug: "livro-filosofico", trackNumber: 5, caption: '"Para — nao ha nada a conquistar\nA plenitude nao e uma meta\nEsta aqui, no exacto lugar\nonde largaste a bicicleta"\n\nA Plenitude que Ja Esta — Loranne\nmusic.seteveus.space\n\n#loranne #veus #plenitude #parar' },
+  ]},
+  { date: "2026-04-06", actions: [
+    { type: "post", label: "Post — sobre o album", albumSlug: "livro-filosofico", caption: "Escrevi estas cancoes no escuro.\nNao no escuro dramatico.\nNo escuro de uma terca-feira as tres da manha, com o cha frio e o corpo a dizer coisas que a boca nao sabia dizer.\n\n9 faixas.\nAlgumas em portugues. Outras em ingles.\nTodas no mesmo sitio — esse lugar entre o peito e a garganta onde as coisas ficam presas.\n\nSe ouvires e sentires um arrepio estranho, nao e a musica.\nEs tu a reconheceres-te.\n\nmusic.seteveus.space\n\n#loranne #veus #despertar #sentir" },
+  ]},
+
+  // ── SEMANA 2: Viagem + Saudade + Sangue Aceso ──
+  { date: "2026-04-07", actions: [
+    { type: "reel", label: "Reel — Vertigem (Vasto)", albumSlug: "cosmic-vasto", trackNumber: 1, caption: '"Olhei para cima e o chao fugiu\nO ceu nao tem fundo e eu tambem nao\nA vertigem de existir\nE a mesma de cair — sem chao"\n\nVertigem — Loranne\nVasto\nmusic.seteveus.space\n\n#loranne #veus #vasto #vertigem #ceu' },
+  ]},
+  { date: "2026-04-08", actions: [
+    { type: "reel", label: "Reel — The Impermanence of You", albumSlug: "livro-filosofico", trackNumber: 2, caption: '"Nothing stays — nothing was meant to stay\nThe self you grip is made of rain\nLet the permanence dissolve like morning\nand find what lives beneath the pain"\n\nThe Impermanence of You — Loranne\nmusic.seteveus.space\n\n#loranne #veus #impermanence #letgo' },
+  ]},
+  { date: "2026-04-09", actions: [
+    { type: "reel", label: "Reel — O teu lado da cama (Saudade)", albumSlug: "romance-saudade", trackNumber: 1, caption: '"O teu lado da cama esta frio\nA marca do teu corpo desapareceu\nMas eu deito-me do meu lado\nComo se o teu ainda existisse"\n\nSaudade — Loranne\nmusic.seteveus.space\n\n#loranne #veus #saudade #falta #amor' },
+  ]},
+  { date: "2026-04-10", actions: [
+    { type: "carrossel", label: "Carrossel — Viagem", albumSlug: "cosmic-viagem", caption: "Viagem.\n10 faixas entre o corpo e o cosmos.\n\n\"Home is not a place\nHome is a frequency I recognise\nWhen the noise stops\nAnd the body softens\"\n\nOnde e que acabas tu e comeca o universo?\n\nmusic.seteveus.space\n\n#loranne #veus #viagem #cosmic #ouve" },
+  ]},
+  { date: "2026-04-11", actions: [
+    { type: "reel", label: "Reel — Sangue Aceso", albumSlug: "vida-sangue-aceso", trackNumber: 1, caption: '"O primeiro passo doi\nO segundo ja nao para\nO corpo acorda e depois\nJa nao precisa de cara"\n\nSangue Aceso — Loranne\nmusic.seteveus.space\n\n#loranne #veus #sangueaceso #corpo #acordar' },
+  ]},
+  { date: "2026-04-12", actions: [
+    { type: "reel", label: "Reel — The Body Keeps the Tale", albumSlug: "espelho-ilusao", trackNumber: 5, caption: '"Oh, the body keeps the tale\nWritten underneath the skin\nEvery scar\'s a letter sent\nFrom the girl I\'ve always been"\n\nThe Body Keeps the Tale — Loranne\nmusic.seteveus.space\n\n#loranne #veus #body #skin #memoria' },
+  ]},
+  { date: "2026-04-13", actions: [
+    { type: "reel", label: "Reel — Rendicao (domingo)", albumSlug: "vida-rendicao", trackNumber: 5, caption: '"O corpo fica mais pesado\nQue o colchao que o segura\nOs bracos sao de chumbo dourado\nA gravidade e uma ternura"\n\nRendicao — Loranne\nmusic.seteveus.space\n\n#loranne #veus #rendicao #descanso #domingo' },
+  ]},
+
+  // ── SEMANA 3: Pele + Frequencia + Duas Vozes + Estacoes ──
+  { date: "2026-04-14", actions: [
+    { type: "reel", label: "Reel — Frequencia", albumSlug: "espiritual-frequencia", trackNumber: 1, caption: '"Sao sete da manha e a cabeca ja comecou\nAntes do corpo sair da cama\nJa o dia inteiro passou\nDez ideias a falar ao mesmo tempo"\n\nFrequencia — Loranne\nmusic.seteveus.space\n\n#loranne #veus #frequencia #cabeca #neurodivergente' },
+  ]},
+  { date: "2026-04-15", actions: [
+    { type: "post", label: "Post — sobre Duas Vozes", albumSlug: "romance-duas-vozes", caption: "\"Contas-me o teu dia e eu finjo que ouco\nmas estou a olhar para as tuas maos\nA forma como seguras o copo\ncomo se o copo fosse uma oracao\"\n\nHa cancoes que so fazem sentido a dois.\nEste album e sobre o amor no quotidiano.\nO prato no micro-ondas. A cama desfeita. O silencio bom.\n\nDuas Vozes. Para ouvir ao lado de alguem.\nOu sozinha a lembrar de alguem.\n\nmusic.seteveus.space\n\n#loranne #veus #duasvozes #amor #quotidiano #ouve" },
+  ]},
+  { date: "2026-04-16", actions: [
+    { type: "reel", label: "Reel — Sinal", albumSlug: "cosmic-sinal", trackNumber: 1, caption: '"O arrepio veio do nada\nNinguem tocou, ninguem falou\nEstava na fila do supermercado\nE o corpo inteiro arrepiou"\n\nSinal — Loranne\nmusic.seteveus.space\n\n#loranne #veus #sinal #arrepio #corpo' },
+  ]},
+  { date: "2026-04-17", actions: [
+    { type: "carrossel", label: "Carrossel — Pele", albumSlug: "cosmic-romance", caption: "Pele.\n10 faixas sobre a linguagem mais antiga.\n\n\"Apaixonei-me pelo teu cansaco\nPela forma como despes o dia\nPelo suspiro entre a porta e o sofa\nPela tua falta de energia\"\n\nPara ouvir a dois. Ou sozinha a pensar em alguem.\n\nmusic.seteveus.space\n\n#loranne #veus #pele #amor #ouve" },
+  ]},
+  { date: "2026-04-18", actions: [
+    { type: "reel", label: "Reel — Ressurreicao (Estacoes)", albumSlug: "vida-estacoes", trackNumber: 1, caption: '"Houve um tempo em que fiquei deitada\ndentro de mim mesma, pedra sobre pedra\nO corpo pesado como terra molhada\no peito fechado como quem nao medra"\n\nEstacoes — Loranne\nmusic.seteveus.space\n\n#loranne #veus #estacoes #renascer #primavera' },
+  ]},
+  { date: "2026-04-19", actions: [
+    { type: "reel", label: "Reel — Mascara (Frequencia)", albumSlug: "espiritual-frequencia", trackNumber: 3, caption: '"De manha visto a mascara\nQue sorri na hora certa\nQue fala no tom certo\nQue parece estar desperta\nAntes mesmo de sair\nJa ensaiei quem vou ser"\n\nFrequencia — Loranne\nmusic.seteveus.space\n\n#loranne #veus #frequencia #mascara #neurodivergente' },
+  ]},
+  { date: "2026-04-20", actions: [
+    { type: "reel", label: "Reel — Honestidade Quieta (domingo)", albumSlug: "espelho-ilusao", trackNumber: 6, caption: '"Nao preciso de ser mais\nNao preciso de mudar\nSo preciso deste instante\nQuieto como o fundo do mar"\n\nHonestidade Quieta — Loranne\nmusic.seteveus.space\n\n#loranne #veus #honestidade #calma #domingo' },
+  ]},
+
+  // ── SEMANA 4: Heranca + Culpa + O Circulo + fecho ──
+  { date: "2026-04-21", actions: [
+    { type: "reel", label: "Reel — A Mae Que Viu", albumSlug: "no-heranca", trackNumber: 1, caption: '"A mae que viu guardou a chuva inteira\nCoseu o ceu para nao te molhar\nPorque dizer era partir-te em dois pedacos\nE eu preferi calar a te partir ao luar"\n\nA Mae Que Viu — Loranne\nmusic.seteveus.space\n\n#loranne #veus #mae #silencio' },
+  ]},
+  { date: "2026-04-22", actions: [
+    { type: "post", label: "Post — sobre maes", albumSlug: "no-heranca", caption: "\"Years I held the rain inside my chest\nYears I kept the storm from breaking through\nI wore the silence like a wedding dress\nWaiting for the dawn to come from you\"\n\nEsta cancao e cantada pela mae.\n\nA maior parte das pessoas que a ouvem ficam em silencio durante uns segundos.\nDepois dizem: a minha mae nunca me disse isto. Mas sei que era isto.\n\nPoe a ouvir e depois liga a tua mae.\nOu nao ligues. Mas ouve.\n\nmusic.seteveus.space\n\n#loranne #veus #mae #ouve" },
+  ]},
+  { date: "2026-04-23", actions: [
+    { type: "reel", label: "Reel — Permission", albumSlug: "espelho-culpa", trackNumber: 5, caption: '"But the birds don\'t earn the morning\nAnd the river doesn\'t pay for rain\nThe wildflower grows without permission\nAnd still the sun comes back again"\n\nPermission — Loranne\nmusic.seteveus.space\n\n#loranne #veus #permission #liberdade' },
+  ]},
+  { date: "2026-04-24", actions: [
+    { type: "reel", label: "Reel — O Circulo", albumSlug: "o-circulo", trackNumber: 1, caption: '"Quando acabam as palavras todas\nE o silencio fica so\nHa qualquer coisa ainda acesa\nQue nao sabe dizer adeus"\n\nO Circulo — Loranne\nmusic.seteveus.space\n\n#loranne #veus #ocirculo #silencio' },
+  ]},
+  { date: "2026-04-25", actions: [
+    { type: "reel", label: "Reel — Heranca das avos", albumSlug: "espelho-culpa", trackNumber: 4, caption: '"A minha avo lavava roupa no rio\nCom as maos rachadas e o ventre cheio\nNunca disse quero, nunca disse eu\nMorreu com os sonhos ainda no seio"\n\nHeranca — Loranne\nmusic.seteveus.space\n\n#loranne #veus #heranca #avos #mulheres' },
+  ]},
+  { date: "2026-04-26", actions: [
+    { type: "reel", label: "Reel — Desatar", albumSlug: "no-heranca", trackNumber: 5, caption: '"Desatar nao e destruir o que era nosso\nDesatar e dar ao fio espaco e ar\nO no que nos unia era o mesmo no\nQue nos impedia de nos encontrar"\n\nDesatar — Loranne\nmusic.seteveus.space\n\n#loranne #veus #desatar #liberdade' },
+  ]},
+  { date: "2026-04-27", actions: [
+    { type: "reel", label: "Reel — Luz Crua (domingo manha)", albumSlug: "vida-luz-crua", trackNumber: 1, caption: '"Antes de abrir os olhos\nO mundo ja existe la fora\nOs passaros cantam seus orgulhos\nMas eu fico mais uma hora"\n\nLuz Crua — Loranne\nmusic.seteveus.space\n\n#loranne #veus #luzcrua #manha #domingo' },
+  ]},
+  { date: "2026-04-28", actions: [
+    { type: "reel", label: "Reel — Devagar (Espelho do Medo)", albumSlug: "espelho-medo", trackNumber: 7, caption: '"Devagar como a lua sobe\nDevagar como a mare vem\nDevagar como a ferida fecha\nDevagar como quem quer bem"\n\nDevagar — Loranne\nmusic.seteveus.space\n\n#loranne #veus #devagar #calma' },
+  ]},
+  { date: "2026-04-29", actions: [
+    { type: "post", label: "Post — verso A Roda", albumSlug: "espelho-ilusao", caption: "\"Roda, roda, roda sem parar\nQuem e esta mulher que vive no meu lugar\nRoda, roda, roda sem sentir\nHa alguem ca dentro a pedir pra sair\"\n\nHa uma cancao para o momento em que percebes que estas a viver no automatico.\nO sorriso certo. A resposta certa. A vida certa.\nTudo certo — menos tu.\n\nA Roda. Poe nos phones.\n\nmusic.seteveus.space\n\n#loranne #veus #aroda #automatico #ouve" },
+  ]},
+  { date: "2026-04-30", actions: [
+    { type: "reel", label: "Reel — O Reflexo Final", albumSlug: "livro-filosofico", trackNumber: 9, caption: '"Olha devagar, sem pressa\nO reflexo ja nao mente\nEs tu — sempre foste tu\no principio e o presente"\n\nO Reflexo Final — Loranne\nmusic.seteveus.space\n\n#loranne #veus #reflexo #verdade' },
+  ]},
+];
+
+const TYPE_COLORS: Record<string, string> = {
+  reel: "bg-violet-600/20 text-violet-400 border-violet-500/30",
+  carrossel: "bg-pink-600/20 text-pink-400 border-pink-500/30",
+  story: "bg-amber-600/20 text-amber-400 border-amber-500/30",
+  post: "bg-blue-600/20 text-blue-400 border-blue-500/30",
+  partilha: "bg-green-600/20 text-green-400 border-green-500/30",
+};
+
+const TYPE_LABELS: Record<string, string> = {
+  reel: "Reel",
+  carrossel: "Carrossel",
+  story: "Story",
+  post: "Post",
+  partilha: "Partilha",
+};
+
+function formatDate(iso: string): string {
+  const d = new Date(iso);
+  const dias = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
+  const meses = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
+  return `${dias[d.getDay()]} ${d.getDate()} ${meses[d.getMonth()]}`;
+}
+
+function isToday(iso: string): boolean {
+  const d = new Date(iso).toDateString();
+  return d === new Date().toDateString();
+}
+
+function isPast(iso: string): boolean {
+  return new Date(iso) < new Date(new Date().toDateString());
+}
+
+export default function CalendarPage() {
+  const [doneState, setDoneState] = useState<Record<string, boolean>>({});
+  const [expandedCaption, setExpandedCaption] = useState<string | null>(null);
+
+  // Load from localStorage on mount (client-only)
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("veus:content-calendar");
+      if (saved) setDoneState(JSON.parse(saved));
+    } catch {}
+  }, []);
+
+  function toggleDone(key: string) {
+    setDoneState(prev => {
+      const next = { ...prev, [key]: !prev[key] };
+      localStorage.setItem("veus:content-calendar", JSON.stringify(next));
+      return next;
+    });
+  }
+
+  const totalActions = PLAN.reduce((s, d) => s + d.actions.length, 0);
+  const doneCount = Object.values(doneState).filter(Boolean).length;
+
+  return (
+    <div className="min-h-screen bg-[#0D0D1A] px-4 sm:px-6 py-10">
+      <div className="max-w-screen-md mx-auto">
+        <div className="flex items-center justify-between mb-8">
+          <div>
+            <h1 className="font-display text-2xl font-bold text-[#F5F0E6]">Plano de Conteudo</h1>
+            <p className="text-sm text-[#666680] mt-1">Abril 2026 — Instagram + Partilha</p>
+          </div>
+          <Link href="/admin/producao" className="text-xs text-[#666680] hover:text-[#a0a0b0]">Producao</Link>
+        </div>
+
+        {/* Progress */}
+        <div className="mb-8 rounded-xl bg-white/[0.03] border border-white/5 p-4">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-sm text-[#a0a0b0]">{doneCount} / {totalActions} feitos</span>
+            <span className="text-sm text-[#C9A96E]">{Math.round((doneCount / totalActions) * 100)}%</span>
+          </div>
+          <div className="h-2 rounded-full bg-white/5">
+            <div className="h-full rounded-full bg-[#C9A96E] transition-all" style={{ width: `${(doneCount / totalActions) * 100}%` }} />
+          </div>
+        </div>
+
+        {/* Days */}
+        <div className="space-y-4">
+          {PLAN.map((day) => {
+            const today = isToday(day.date);
+            const past = isPast(day.date);
+            const allDone = day.actions.every((_, i) => doneState[`${day.date}-${i}`]);
+
+            return (
+              <div
+                key={day.date}
+                className={`rounded-xl border p-4 transition-colors ${
+                  today ? "border-[#C9A96E]/40 bg-[#C9A96E]/5" :
+                  past && allDone ? "border-green-900/30 bg-green-950/10 opacity-50" :
+                  past ? "border-white/5 bg-white/[0.01] opacity-70" :
+                  "border-white/5 bg-white/[0.02]"
+                }`}
+              >
+                <div className="flex items-center gap-2 mb-3">
+                  <span className={`text-sm font-semibold ${today ? "text-[#C9A96E]" : "text-[#a0a0b0]"}`}>
+                    {formatDate(day.date)}
+                  </span>
+                  {today && <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#C9A96E]/20 text-[#C9A96E]">Hoje</span>}
+                </div>
+
+                <div className="space-y-3">
+                  {day.actions.map((action, i) => {
+                    const key = `${day.date}-${i}`;
+                    const done = doneState[key] || false;
+                    const showCaption = expandedCaption === key;
+
+                    return (
+                      <div key={i} className={`rounded-lg border p-3 ${done ? "opacity-40" : ""} ${TYPE_COLORS[action.type] || "border-white/10"}`}>
+                        <div className="flex items-start gap-3">
+                          <button
+                            onClick={() => toggleDone(key)}
+                            className={`w-6 h-6 rounded-md border-2 flex items-center justify-center shrink-0 mt-0.5 min-w-[44px] min-h-[44px] ${
+                              done ? "border-green-500 bg-green-500" : "border-current/40"
+                            }`}
+                          >
+                            {done && <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4"><path d="M20 6L9 17l-5-5" /></svg>}
+                          </button>
+
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              <span className="text-[10px] font-bold uppercase tracking-wider">{TYPE_LABELS[action.type]}</span>
+                              <div className="w-2 h-2 rounded-full" style={{ backgroundColor: getAlbumColor(action.albumSlug) }} />
+                              <span className="text-xs text-[#a0a0b0]">{getAlbumTitle(action.albumSlug)}</span>
+                            </div>
+                            <p className={`text-sm mt-1 ${done ? "line-through" : "text-[#F5F0E6]"}`}>
+                              {action.label}
+                            </p>
+
+                            {action.caption && (
+                              <button
+                                onClick={() => setExpandedCaption(showCaption ? null : key)}
+                                className="text-[10px] text-[#C9A96E] mt-1 hover:underline"
+                              >
+                                {showCaption ? "Esconder legenda" : "Ver legenda"}
+                              </button>
+                            )}
+
+                            {showCaption && action.caption && (
+                              <div className="mt-2 p-3 rounded-lg bg-black/20 border border-white/5 relative">
+                                <pre className="text-xs text-[#a0a0b0] whitespace-pre-wrap leading-relaxed">{action.caption}</pre>
+                                <button
+                                  onClick={() => {
+                                    navigator.clipboard.writeText(action.caption!);
+                                  }}
+                                  className="absolute top-2 right-2 text-[10px] px-2 py-1 rounded bg-[#C9A96E]/20 text-[#C9A96E]"
+                                >
+                                  Copiar
+                                </button>
+                              </div>
+                            )}
+
+                            {/* Action buttons */}
+                            <div className="mt-2 flex flex-wrap gap-2">
+                              {action.type === "story" && action.trackNumber && (
+                                <button
+                                  onClick={async () => {
+                                    const { generateShareCard, downloadBlob } = await import("@/lib/share-card");
+                                    const { getAlbumCover, getTrackCoverUrl } = await import("@/lib/album-covers");
+                                    const alb = ALL_ALBUMS.find(a => a.slug === action.albumSlug);
+                                    if (!alb) return;
+                                    const track = alb.tracks.find(t => t.number === action.trackNumber);
+                                    if (!track) return;
+                                    let cover = getAlbumCover(alb);
+                                    try {
+                                      const probe = await fetch(getTrackCoverUrl(alb.slug, track.number), { method: "HEAD" });
+                                      if (probe.ok) cover = getTrackCoverUrl(alb.slug, track.number);
+                                    } catch {}
+                                    const blob = await generateShareCard(track, alb, cover, "story");
+                                    downloadBlob(blob, `Story — ${track.title}.png`);
+                                  }}
+                                  className="px-3 py-1.5 rounded-lg bg-amber-600/30 text-amber-400 text-xs min-h-[44px]"
+                                >
+                                  Gerar Story
+                                </button>
+                              )}
+                              {action.type === "reel" && action.trackNumber && (
+                                <Link
+                                  href={`/admin/producao?album=${action.albumSlug}`}
+                                  className="px-3 py-1.5 rounded-lg bg-violet-600/30 text-violet-400 text-xs min-h-[44px] flex items-center"
+                                >
+                                  Gerar Reel
+                                </Link>
+                              )}
+                              {action.type === "carrossel" && (
+                                <button
+                                  onClick={async () => {
+                                    const { generateCarousel } = await import("@/lib/carousel-generator");
+                                    const { getAlbumCover, getTrackCoverUrl } = await import("@/lib/album-covers");
+                                    const alb = ALL_ALBUMS.find(a => a.slug === action.albumSlug);
+                                    if (!alb) return;
+                                    let cover = getAlbumCover(alb);
+                                    try {
+                                      const probe = await fetch(getTrackCoverUrl(alb.slug, 1), { method: "HEAD" });
+                                      if (probe.ok) cover = getTrackCoverUrl(alb.slug, 1);
+                                    } catch {}
+                                    await generateCarousel(alb, cover);
+                                  }}
+                                  className="px-3 py-1.5 rounded-lg bg-pink-600/30 text-pink-400 text-xs min-h-[44px]"
+                                >
+                                  Gerar Carrossel
+                                </button>
+                              )}
+                            </div>
+                          </div>
+
+                          {/* Quick link to production */}
+                          {action.trackNumber && (
+                            <Link
+                              href={`/admin/producao?album=${action.albumSlug}`}
+                              className="text-[10px] text-[#666680] hover:text-[#a0a0b0] shrink-0"
+                            >
+                              Producao
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}
