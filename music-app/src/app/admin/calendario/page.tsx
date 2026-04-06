@@ -442,14 +442,16 @@ export default function CalendarPage() {
                                         });
                                         const imgData = await imgRes.json();
                                         if (!imgRes.ok || !imgData.imageUrl) { alert(`fal.ai: ${imgData.erro || JSON.stringify(imgData)}`); return; }
+                                        // Proxy image to avoid CORS tainting the canvas
+                                        const proxiedImg = `/api/admin/proxy-image?url=${encodeURIComponent(imgData.imageUrl)}`;
                                         setGeneratedImages(p => ({ ...p, [`${key}-img`]: imgData.imageUrl }));
 
-                                        // Step 2: Generate reel (canvas + audio) using fal.ai image as cover
-                                        setGenerating(p => ({ ...p, [key]: "2/3 A gravar vídeo com música..." }));
+                                        // Step 2: Generate short (canvas animation + track audio)
+                                        setGenerating(p => ({ ...p, [key]: "2/3 A gravar short com música..." }));
                                         const { generateReel, REEL_SIZE_STATUS } = await import("@/lib/reel-generator");
                                         const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNum}`;
 
-                                        const blob = await generateReel(track, alb, imgData.imageUrl, audioSrc, (p) => {
+                                        const blob = await generateReel(track, alb, proxiedImg, audioSrc, (p) => {
                                           setGenerating(prev => ({ ...prev, [key]: `2/3 ${p.message}` }));
                                         }, undefined, REEL_SIZE_STATUS);
 
