@@ -449,12 +449,66 @@ export default function CalendarPage() {
                                     try {
                                       const urls = JSON.parse(generatedImages[key]) as string[];
                                       return (
-                                        <div className="flex gap-2 mt-2 w-full">
-                                          {urls.map((url, idx) => (
-                                            <a key={idx} href={url} download={`reel-${action.albumSlug}-${idx + 1}.jpg`} className="block w-1/3">
-                                              <img src={url} alt={`Opção ${idx + 1}`} className="w-full rounded-lg" />
-                                            </a>
-                                          ))}
+                                        <div className="mt-2 w-full">
+                                          <p className="text-[10px] text-[#666680] mb-1">Clica numa imagem para gerar o reel:</p>
+                                          <div className="flex gap-2">
+                                            {urls.map((url, idx) => (
+                                              <button
+                                                key={idx}
+                                                disabled={!!generating[`${key}-reel`]}
+                                                onClick={async () => {
+                                                  const albumSlug = action.albumSlug;
+                                                  const trackNum = action.trackNumber!;
+                                                  const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
+                                                  if (!alb) return;
+                                                  const track = alb.tracks.find(t => t.number === trackNum);
+                                                  if (!track) return;
+
+                                                  setGenerating(p => ({ ...p, [`${key}-reel`]: "A gerar reel..." }));
+                                                  try {
+                                                    const { generateReel, REEL_SIZE_STATUS } = await import("@/lib/reel-generator");
+                                                    const proxiedImg = `/api/admin/proxy-image?url=${encodeURIComponent(url)}`;
+                                                    const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNum}`;
+
+                                                    const blob = await generateReel(track, alb, proxiedImg, audioSrc, (p) => {
+                                                      setGenerating(prev => ({ ...prev, [`${key}-reel`]: p.message }));
+                                                    }, undefined, REEL_SIZE_STATUS);
+
+                                                    // Upload
+                                                    const safeAlbum = albumSlug.replace(/[^a-z0-9-]/g, "");
+                                                    const safeTrack = String(trackNum).padStart(2, "0");
+                                                    const ext = blob.type.includes("mp4") ? "mp4" : "webm";
+                                                    const filename = `albums/${safeAlbum}/faixa-${safeTrack}-reel.${ext}`;
+                                                    const signedRes = await adminFetch("/api/admin/signed-upload-url", {
+                                                      method: "POST",
+                                                      headers: { "Content-Type": "application/json" },
+                                                      body: JSON.stringify({ filename }),
+                                                    });
+                                                    const { signedUrl } = await signedRes.json();
+                                                    if (signedUrl) {
+                                                      await fetch(signedUrl, { method: "PUT", headers: { "Content-Type": blob.type || "video/mp4" }, body: blob });
+                                                    }
+
+                                                    // Download
+                                                    const a = document.createElement("a");
+                                                    a.href = URL.createObjectURL(blob);
+                                                    a.download = `${track.title} — Loranne.${ext}`;
+                                                    a.click();
+                                                  } catch (err) {
+                                                    alert(`Erro: ${(err as Error).message}`);
+                                                  } finally {
+                                                    setGenerating(p => { const n = { ...p }; delete n[`${key}-reel`]; return n; });
+                                                  }
+                                                }}
+                                                className="block w-1/3 rounded-lg overflow-hidden hover:ring-2 hover:ring-violet-500 transition-all"
+                                              >
+                                                <img src={url} alt={`Opção ${idx + 1}`} className="w-full" />
+                                              </button>
+                                            ))}
+                                          </div>
+                                          {generating[`${key}-reel`] && (
+                                            <p className="text-[10px] text-violet-400 mt-1">{generating[`${key}-reel`]}</p>
+                                          )}
                                         </div>
                                       );
                                     } catch { return null; }
