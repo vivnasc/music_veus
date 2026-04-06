@@ -1,38 +1,31 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
 
-const RUNWAY_API = "https://api.dev.runwayml.com/v1";
-
 /**
- * Generate a verse reel: fal.ai image from caption → Runway video animation.
+ * Step 1: Submit image generation to fal.ai (async queue).
  *
  * POST /api/admin/generate-verse-reel
- * { caption: string, albumSlug: string, trackNumber?: number, duration?: number }
+ * { caption: string, albumSlug?: string, trackNumber?: number }
  *
- * Pipeline:
- * 1. Build visual prompt from the verse/caption
- * 2. Generate image via fal.ai flux-pro (1080x1920 vertical)
- * 3. Animate via Runway Gen-3 (image→video, 5s)
- * 4. Return task IDs for polling
+ * Returns: { falTaskId: string, status: "QUEUED" }
+ * Client must then poll /status?falTaskId=xxx
+ * When image is ready, client calls /animate to send to Runway.
  */
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
   if (!auth.ok) return auth.response;
 
   const falKey = process.env.FAL_KEY;
-  const runwayKey = process.env.RUNWAY_API_KEY;
-
   if (!falKey) return NextResponse.json({ erro: "FAL_KEY não configurada." }, { status: 500 });
-  if (!runwayKey) return NextResponse.json({ erro: "RUNWAY_API_KEY não configurada." }, { status: 500 });
 
-  const { caption, albumSlug, trackNumber, duration } = await req.json();
+  const { caption, albumSlug, trackNumber } = await req.json();
   if (!caption) return NextResponse.json({ erro: "caption é obrigatório." }, { status: 400 });
 
   const visualPrompt = buildVisualPrompt(caption);
 
   try {
-    // Step 1: Generate image via fal.ai (synchronous with fal.run)
-    const falRes = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
+    // Submit to fal.ai queue (async — does NOT wait for result)
+    const falRes = await fetch("https://queue.fal.run/fal-ai/flux-pro/v1.1", {
       method: "POST",
       headers: {
         "Authorization": `Key ${falKey}`,
@@ -51,50 +44,17 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ erro: `fal.ai: ${err}` }, { status: 502 });
     }
 
-    const falData = await falRes.json();
-    const imageUrl = falData.images?.[0]?.url;
-    if (!imageUrl) {
-      return NextResponse.json({ erro: "fal.ai não devolveu imagem." }, { status: 502 });
+    const data = await falRes.json();
+
+    // Sync response (unlikely with queue but handle it)
+    if (data.images?.[0]?.url) {
+      return NextResponse.json({ imageUrl: data.images[0].url, albumSlug, trackNumber });
     }
 
-    // Step 2: Download image and convert to base64 for Runway
-    const imgRes = await fetch(imageUrl);
-    if (!imgRes.ok) {
-      return NextResponse.json({ erro: "Falha a descarregar imagem do fal.ai." }, { status: 502 });
-    }
-    const imgBlob = await imgRes.blob();
-    const imgBuffer = Buffer.from(await imgBlob.arrayBuffer());
-    const promptImage = `data:${imgBlob.type || "image/png"};base64,${imgBuffer.toString("base64")}`;
-
-    // Step 3: Send to Runway for animation
-    const runwayRes = await fetch(`${RUNWAY_API}/image_to_video`, {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${runwayKey}`,
-        "Content-Type": "application/json",
-        "X-Runway-Version": "2024-11-06",
-      },
-      body: JSON.stringify({
-        model: "gen3a_turbo",
-        promptImage,
-        promptText: buildMotionPrompt(caption),
-        duration: duration || 5,
-        ratio: "720:1280",
-        watermark: false,
-      }),
-    });
-
-    if (!runwayRes.ok) {
-      const err = await runwayRes.text();
-      return NextResponse.json({ erro: `Runway: ${runwayRes.status} — ${err}`, imageUrl }, { status: 502 });
-    }
-
-    const runwayData = await runwayRes.json();
-
+    // Async — return task ID for polling
     return NextResponse.json({
-      status: "generating",
-      imageUrl,
-      runwayTaskId: runwayData.id,
+      falTaskId: data.request_id,
+      status: "QUEUED",
       albumSlug,
       trackNumber,
     });
@@ -116,20 +76,4 @@ function buildVisualPrompt(caption: string): string {
     "Colour palette: deep blacks, warm amber, soft gold, muted earth tones.",
     "9:16 vertical composition, cinematic lighting.",
   ].join(" ");
-}
-
-function buildMotionPrompt(caption: string): string {
-  const verseMatch = caption.match(/"([^"]+)"/);
-  const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ").slice(0, 100) : "";
-
-  // Subtle, poetic motion — not dramatic
-  const moods = [
-    "Slow cinematic push-in, gentle light particles drifting",
-    "Slow dolly movement, soft atmospheric haze shifting",
-    "Gentle camera drift, warm light rays moving slowly",
-    "Subtle parallax movement, floating dust particles in golden light",
-  ];
-  const mood = moods[Math.floor(Math.random() * moods.length)];
-
-  return `${mood}. Ethereal, dreamy, contemplative atmosphere. ${verse ? `Mood: ${verse}` : ""}`;
 }
