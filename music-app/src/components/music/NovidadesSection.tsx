@@ -26,7 +26,7 @@ export default function NovidadesSection() {
       if (album) items.push({ album, trackCount: count });
     }
     items.sort((a, b) => ALL_ALBUMS.indexOf(b.album) - ALL_ALBUMS.indexOf(a.album));
-    return items.slice(0, 8);
+    return items;
   })();
 
   if (!loading && albums.length === 0) return null;
