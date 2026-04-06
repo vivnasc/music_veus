@@ -1,20 +1,22 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useRecommendations } from "@/hooks/useRecommendations";
 import { ALL_LISTS, type CuratedList } from "@/data/curated-lists";
 import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
+import { getTrackCoverUrl } from "@/lib/album-covers";
 
 const COLLECTION_PRODUCTS = ["incenso", "eter", "nua", "sangue", "fibra", "grao", "mare"] as const;
 
-const COLLECTION_LABELS: Record<string, string> = {
-  incenso: "Incenso",
-  eter: "Eter",
-  nua: "Nua",
-  sangue: "Sangue",
-  fibra: "Fibra",
-  grao: "Grao",
-  mare: "Mare",
+const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }> = {
+  incenso: { pt: "Incenso", en: "Incense", sub: "O fumo que sobe — o sagrado sem nome" },
+  eter: { pt: "Éter", en: "Ether", sub: "O invisível que se sente" },
+  nua: { pt: "Nua", en: "Bare", sub: "A nudez emocional do amor" },
+  sangue: { pt: "Sangue", en: "Blood", sub: "O que não se escolhe, o que se herda" },
+  fibra: { pt: "Fibra", en: "Fiber", sub: "O corpo que insiste" },
+  grao: { pt: "Grão", en: "Grain", sub: "O pequeno que faz o todo" },
+  mare: { pt: "Maré", en: "Tide", sub: "O que vai e volta" },
 };
 
 function getFeaturedAlbum(product: string): Album | null {
@@ -24,156 +26,129 @@ function getFeaturedAlbum(product: string): Album | null {
 export default function DescobrePage() {
   const recommendations = useRecommendations(16);
 
-  const generos = ALL_LISTS.filter((l) => l.category === "genero");
+  const géneros = ALL_LISTS.filter((l) => l.category === "genero");
   const moods = ALL_LISTS.filter((l) => l.category === "mood");
   const temas = ALL_LISTS.filter((l) => l.category === "tema");
 
   return (
-    <main className="min-h-screen bg-[#0a0a0f] pb-32">
-      <div className="max-w-screen-lg mx-auto px-6 py-8 space-y-12">
-        {/* Header */}
-        <h1 className="font-display text-3xl font-bold text-[#F5F0E6]">
-          Descobre
-        </h1>
+    <main className="min-h-screen bg-[#0D0D1A] text-[#F5F0E6] pb-32">
+      {/* Header */}
+      <div className="sticky top-0 z-20 bg-[#0D0D1A]/95 backdrop-blur-sm px-4 pt-4 pb-3">
+        <div className="flex items-center gap-3">
+          <Link
+            href="/"
+            className="shrink-0 p-1.5 -ml-1.5 rounded-lg hover:bg-white/5 transition-colors"
+            aria-label="Voltar"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M15 18l-6-6 6-6" />
+            </svg>
+          </Link>
+          <h1 className="text-lg font-semibold">Descobre</h1>
+        </div>
+      </div>
 
+      <div className="max-w-screen-lg mx-auto px-4 space-y-10">
         {/* Para Ti */}
         {recommendations.length > 0 && (
           <section>
-            <h2 className="font-display text-2xl font-semibold text-[#F5F0E6] mb-4">
-              Para ti
-            </h2>
+            <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">Para ti</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-              {recommendations.map(
-                ({
-                  track,
-                  album,
-                }: {
-                  track: AlbumTrack;
-                  album: Album;
-                }) => (
-                  <Link
-                    key={`rec-${album.slug}-${track.number}`}
-                    href={`/album/${album.slug}`}
-                    className="group text-left p-3 rounded-xl bg-white/[0.03] hover:bg-white/[0.07] transition-all block"
-                  >
-                    <div
-                      className="aspect-square rounded-lg mb-3 flex items-center justify-center relative overflow-hidden"
-                      style={{
-                        background: `linear-gradient(135deg, ${album.color} 0%, ${album.color}66 100%)`,
-                      }}
-                    >
-                      <svg
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="h-8 w-8 text-white/20 group-hover:text-white/40 transition-colors"
-                      >
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
-                    </div>
-                    <p className="text-sm font-medium text-[#F5F0E6] truncate">
-                      {track.title}
-                    </p>
-                    <p className="text-xs text-[#666680] truncate mt-0.5">
-                      Loranne
-                    </p>
-                  </Link>
-                )
-              )}
+              {recommendations.map(({ track, album }: { track: AlbumTrack; album: Album }) => (
+                <Link
+                  key={`rec-${album.slug}-${track.number}`}
+                  href={`/album/${album.slug}`}
+                  className="group text-left block"
+                >
+                  <div className="aspect-square rounded-lg mb-1.5 overflow-hidden bg-[#1a1a2e]">
+                    <Image
+                      src={getTrackCoverUrl(album.slug, track.number)}
+                      alt={track.title}
+                      width={160}
+                      height={160}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      unoptimized
+                    />
+                  </div>
+                  <p className="text-xs text-[#c0c0d0] truncate">{track.title}</p>
+                  <p className="text-[10px] text-[#666680] truncate">{album.title}</p>
+                </Link>
+              ))}
             </div>
           </section>
         )}
 
-        {/* Curated: Generos */}
-        <CuratedSection title="Generos" lists={generos} />
-
-        {/* Curated: Moods */}
-        <CuratedSection title="Mood" lists={moods} />
-
-        {/* Curated: Temas */}
-        <CuratedSection title="Temas" lists={temas} />
-
-        {/* Collections */}
+        {/* Colecções */}
         <section>
-          <h2 className="font-display text-2xl font-semibold text-[#F5F0E6] mb-4">
-            Colecoes
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">Colecções</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {COLLECTION_PRODUCTS.map((product) => {
               const album = getFeaturedAlbum(product);
-              if (!album) return null;
+              const label = COLLECTION_LABELS[product];
+              if (!album || !label) return null;
               return (
                 <Link
                   key={product}
                   href={`/album/${album.slug}`}
-                  className="group block rounded-xl overflow-hidden bg-white/[0.03] hover:bg-white/[0.07] transition-all"
+                  className="group block rounded-xl overflow-hidden"
                 >
-                  <div
-                    className="aspect-square flex items-center justify-center"
-                    style={{
-                      background: `linear-gradient(135deg, ${album.color} 0%, ${album.color}44 100%)`,
-                    }}
-                  >
-                    <span className="text-white/30 text-lg font-display font-semibold group-hover:text-white/50 transition-colors">
-                      {COLLECTION_LABELS[product]}
-                    </span>
+                  <div className="aspect-square relative overflow-hidden bg-[#1a1a2e]">
+                    <Image
+                      src={getTrackCoverUrl(album.slug, 1)}
+                      alt={label.pt}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform brightness-50"
+                      unoptimized
+                    />
+                    <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
+                      <span className="text-xl font-semibold text-white">{label.pt}</span>
+                      <span className="text-[10px] text-white/50 mt-0.5">{label.en}</span>
+                    </div>
                   </div>
-                  <div className="p-3">
-                    <p className="text-sm font-medium text-[#c0c0d0] truncate">
-                      {album.title}
-                    </p>
-                    <p className="text-xs text-[#666680] truncate mt-0.5">
-                      {album.subtitle}
-                    </p>
-                  </div>
+                  <p className="text-[10px] text-[#666680] mt-1.5 px-1 line-clamp-1">{label.sub}</p>
                 </Link>
               );
             })}
           </div>
         </section>
+
+        {/* Géneros */}
+        <CuratedSection title="Géneros" lists={géneros} />
+
+        {/* Mood */}
+        <CuratedSection title="Mood" lists={moods} />
+
+        {/* Temas */}
+        <CuratedSection title="Temas" lists={temas} />
       </div>
     </main>
   );
 }
 
-function CuratedSection({
-  title,
-  lists,
-}: {
-  title: string;
-  lists: CuratedList[];
-}) {
+function CuratedSection({ title, lists }: { title: string; lists: CuratedList[] }) {
   if (lists.length === 0) return null;
 
   return (
     <section>
-      <h2 className="font-display text-2xl font-semibold text-[#F5F0E6] mb-4">
-        {title}
-      </h2>
+      <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">{title}</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
         {lists.map((list) => (
-          <div
+          <Link
             key={list.slug}
-            className="group p-4 rounded-xl bg-white/[0.03] hover:bg-white/[0.07] transition-all cursor-pointer"
+            href={`/lista/${list.slug}`}
+            className="group p-4 rounded-xl bg-white/[0.03] hover:bg-white/[0.07] transition-all block"
           >
             <div
-              className="w-10 h-10 rounded-lg mb-3 flex items-center justify-center"
-              style={{ backgroundColor: `${list.color}33` }}
+              className="w-8 h-8 rounded-full mb-2 flex items-center justify-center"
+              style={{ backgroundColor: `${list.color}22` }}
             >
-              <span
-                className="text-lg font-bold"
-                style={{ color: list.color }}
-              >
+              <span className="text-xs font-bold" style={{ color: list.color }}>
                 {list.title.charAt(0)}
               </span>
             </div>
             <p className="text-sm font-medium text-[#c0c0d0]">{list.title}</p>
-            <p className="text-xs text-[#a0a0b0] mt-1 line-clamp-2">
-              {list.subtitle}
-            </p>
-            <p className="text-xs text-[#666680] mt-2">
-              {list.tracks.length} faixas
-            </p>
-          </div>
+            <p className="text-xs text-[#666680] mt-1">{list.tracks.length} faixas</p>
+          </Link>
         ))}
       </div>
     </section>
