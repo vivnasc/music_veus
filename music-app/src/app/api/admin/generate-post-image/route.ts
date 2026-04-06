@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
       },
       body: JSON.stringify({
         prompt: bgPrompt,
-        image_size: { width: 1080, height: 1080 },
+        image_size: { width: 1080, height: 1350 },
         num_images: 1,
         safety_tolerance: 5,
       }),

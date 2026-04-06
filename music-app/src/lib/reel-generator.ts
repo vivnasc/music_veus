@@ -11,7 +11,7 @@ const FPS = 24;
 
 // Presets
 export const REEL_SIZE_STATUS = { w: 720, h: 1280 } as const;  // WhatsApp Status (9:16)
-export const REEL_SIZE_INSTA = { w: 1080, h: 1080 } as const;  // Instagram Post (1:1)
+export const REEL_SIZE_INSTA = { w: 1080, h: 1350 } as const;  // Instagram Post (4:5)
 
 function pickLyric(track: AlbumTrack): string | null {
   if (!track.lyrics) return null;

@@ -81,10 +81,11 @@ function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number)
 }
 
 async function overlayTextOnImage(bgUrl: string, caption: string): Promise<string> {
-  const SIZE = 1080;
+  const W = 1080;
+  const H = 1350;
   const canvas = document.createElement("canvas");
-  canvas.width = SIZE;
-  canvas.height = SIZE;
+  canvas.width = W;
+  canvas.height = H;
   const ctx = canvas.getContext("2d")!;
 
   // Load background
@@ -95,15 +96,15 @@ async function overlayTextOnImage(bgUrl: string, caption: string): Promise<strin
     img.onerror = reject;
     img.src = bgUrl;
   });
-  ctx.drawImage(img, 0, 0, SIZE, SIZE);
+  ctx.drawImage(img, 0, 0, W, H);
 
   // Dark gradient overlay for text readability
-  const grad = ctx.createLinearGradient(0, 0, 0, SIZE);
+  const grad = ctx.createLinearGradient(0, 0, 0, H);
   grad.addColorStop(0, "rgba(0, 0, 0, 0.3)");
   grad.addColorStop(0.4, "rgba(0, 0, 0, 0.5)");
   grad.addColorStop(1, "rgba(0, 0, 0, 0.6)");
   ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, SIZE, SIZE);
+  ctx.fillRect(0, 0, W, H);
 
   // Extract and render text
   const displayText = extractDisplayText(caption);
@@ -115,15 +116,15 @@ async function overlayTextOnImage(bgUrl: string, caption: string): Promise<strin
     ctx.shadowColor = "rgba(0,0,0,0.8)";
     ctx.shadowBlur = 12;
 
-    const maxWidth = SIZE - 160;
+    const maxWidth = W - 160;
     const lines = wrapText(ctx, displayText, maxWidth);
     const lineHeight = fontSize * 1.55;
     const totalHeight = lines.length * lineHeight;
-    let y = (SIZE - totalHeight) / 2 + fontSize * 0.5;
+    let y = (H - totalHeight) / 2 + fontSize * 0.5;
 
     for (const line of lines) {
       if (!line.trim()) { y += lineHeight * 0.5; continue; }
-      ctx.fillText(line, SIZE / 2, y);
+      ctx.fillText(line, W / 2, y);
       y += lineHeight;
     }
   }
@@ -133,10 +134,10 @@ async function overlayTextOnImage(bgUrl: string, caption: string): Promise<strin
   ctx.font = "bold 22px Georgia, serif";
   ctx.fillStyle = "rgba(201, 169, 110, 0.9)";
   ctx.textAlign = "center";
-  ctx.fillText("Loranne", SIZE / 2, SIZE - 55);
+  ctx.fillText("Loranne", W / 2, H - 55);
   ctx.font = "15px sans-serif";
   ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
-  ctx.fillText("music.seteveus.space", SIZE / 2, SIZE - 30);
+  ctx.fillText("music.seteveus.space", W / 2, H - 30);
 
   return canvas.toDataURL("image/png");
 }
