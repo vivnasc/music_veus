@@ -323,42 +323,29 @@ export default function CalendarPage() {
                                   onClick={async (e) => {
                                     const btn = e.currentTarget;
                                     const origText = btn.textContent;
-                                    btn.textContent = "A submeter...";
+                                    btn.textContent = "A gerar imagem...";
                                     btn.disabled = true;
                                     try {
+                                      // Step 1: Generate image (sync — API waits up to 60s)
                                       const res = await adminFetch("/api/admin/generate-verse-reel", {
                                         method: "POST",
                                         headers: { "Content-Type": "application/json" },
                                         body: JSON.stringify({ caption: action.caption, albumSlug: action.albumSlug, trackNumber: action.trackNumber }),
                                       });
                                       const data = await res.json();
-                                      console.log("[reel] step1:", res.status, data);
                                       if (!res.ok) { alert(`Erro ${res.status}: ${data.erro || JSON.stringify(data)}`); return; }
+                                      if (!data.imageUrl) { alert(`Sem imagem: ${JSON.stringify(data)}`); return; }
 
-                                      let imageUrl = data.imageUrl as string | undefined;
-                                      if (!imageUrl && data.falTaskId) {
-                                        btn.textContent = "A gerar imagem...";
-                                        for (let i = 0; i < 60; i++) {
-                                          await new Promise(r => setTimeout(r, 2000));
-                                          const sRes = await adminFetch(`/api/admin/generate-verse-reel/status?falTaskId=${data.falTaskId}`);
-                                          const sData = await sRes.json();
-                                          console.log("[reel] poll:", i, sData);
-                                          if (sData.imageUrl) { imageUrl = sData.imageUrl; break; }
-                                          if (sData.status === "FAILED") { alert("fal.ai falhou."); return; }
-                                          btn.textContent = `A gerar imagem... ${Math.min(Math.round(i * 1.7), 95)}%`;
-                                        }
-                                      }
-                                      if (!imageUrl) { alert(`Sem imagem. API devolveu: ${JSON.stringify(data)}`); return; }
-                                      window.open(imageUrl, "_blank");
+                                      window.open(data.imageUrl, "_blank");
 
+                                      // Step 2: Animate with Runway
                                       btn.textContent = "A enviar para Runway...";
                                       const animRes = await adminFetch("/api/admin/generate-verse-reel/animate", {
                                         method: "POST",
                                         headers: { "Content-Type": "application/json" },
-                                        body: JSON.stringify({ imageUrl, caption: action.caption, albumSlug: action.albumSlug, trackNumber: action.trackNumber }),
+                                        body: JSON.stringify({ imageUrl: data.imageUrl, caption: action.caption, albumSlug: action.albumSlug, trackNumber: action.trackNumber }),
                                       });
                                       const animData = await animRes.json();
-                                      console.log("[reel] animate:", animRes.status, animData);
                                       if (!animRes.ok) { alert(`Runway: ${animData.erro || JSON.stringify(animData)}`); return; }
 
                                       if (animData.runwayTaskId) {
@@ -369,7 +356,6 @@ export default function CalendarPage() {
                                           await new Promise(r => setTimeout(r, 3000));
                                           const vRes = await adminFetch(`/api/admin/runway/status?${params}`);
                                           const vData = await vRes.json();
-                                          console.log("[reel] video:", i, vData);
                                           if (vData.status === "complete" && vData.videoUrl) { window.open(vData.videoUrl, "_blank"); alert("Reel gerado!"); break; }
                                           if (vData.status === "error") { alert(`Runway falhou: ${vData.error}`); break; }
                                           btn.textContent = `A animar vídeo... ${Math.min(Math.round(i * 1.5), 95)}%`;
@@ -378,7 +364,7 @@ export default function CalendarPage() {
                                         alert(`Sem taskId Runway: ${JSON.stringify(animData)}`);
                                       }
                                     } catch (err) {
-                                      alert(`Erro JS: ${(err as Error).message}`);
+                                      alert(`Erro: ${(err as Error).message}`);
                                     } finally {
                                       btn.textContent = origText;
                                       btn.disabled = false;
@@ -421,35 +407,21 @@ export default function CalendarPage() {
                                   onClick={async (e) => {
                                     const btn = e.currentTarget;
                                     const origText = btn.textContent;
-                                    btn.textContent = "A submeter...";
+                                    btn.textContent = "A gerar imagem...";
                                     btn.disabled = true;
                                     try {
+                                      // Sync call — API waits up to 60s for fal.ai result
                                       const res = await adminFetch("/api/admin/generate-post-image", {
                                         method: "POST",
                                         headers: { "Content-Type": "application/json" },
-                                        body: JSON.stringify({
-                                          caption: action.caption || "",
-                                          albumTitle: getAlbumTitle(action.albumSlug),
-                                        }),
+                                        body: JSON.stringify({ caption: action.caption || "", albumTitle: getAlbumTitle(action.albumSlug) }),
                                       });
-                                      if (!res.ok) { alert(`Erro ${res.status}: ${(await res.json()).erro || res.statusText}`); return; }
                                       const data = await res.json();
-
+                                      if (!res.ok) { alert(`Erro ${res.status}: ${data.erro || JSON.stringify(data)}`); return; }
                                       if (data.imageUrl) {
                                         window.open(data.imageUrl, "_blank");
-                                      } else if (data.taskId) {
-                                        btn.textContent = "A gerar imagem...";
-                                        for (let i = 0; i < 40; i++) {
-                                          await new Promise(r => setTimeout(r, 2000));
-                                          const sRes = await adminFetch(`/api/admin/generate-post-image/status?taskId=${data.taskId}`);
-                                          if (!sRes.ok) continue;
-                                          const sData = await sRes.json();
-                                          if (sData.imageUrl) { window.open(sData.imageUrl, "_blank"); break; }
-                                          if (sData.status === "FAILED") { alert("Falhou a gerar imagem."); break; }
-                                          btn.textContent = `A gerar... ${Math.min(i * 3, 95)}%`;
-                                        }
                                       } else {
-                                        alert(data.erro || "Erro ao gerar imagem");
+                                        alert(`Sem imagem: ${JSON.stringify(data)}`);
                                       }
                                     } catch (e) {
                                       alert(`Erro: ${(e as Error).message}`);
