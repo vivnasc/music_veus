@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { useMusicPlayer } from "@/contexts/MusicPlayerContext";
 import { useCustomTitles } from "@/hooks/useCustomTitles";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
@@ -242,11 +243,15 @@ export default function FullPlayer() {
     >
       {/* ── BLURRED COVER BACKGROUND ── */}
       <div className="absolute inset-0 overflow-hidden">
-        <img
+        <Image
           src={coverSrc}
           alt=""
+          fill
           className="absolute inset-0 w-full h-full object-cover scale-110 blur-[60px] opacity-30"
           aria-hidden="true"
+          priority={false}
+          quality={20}
+          unoptimized
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D1A]/70 via-[#0D0D1A]/85 to-[#0D0D1A]" />
       </div>
@@ -295,10 +300,15 @@ export default function FullPlayer() {
                   </div>
                 )}
                 <div className="relative aspect-square rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.5)] overflow-hidden">
-                  <img
+                  <Image
                     src={coverSrc}
                     alt={displayTitle}
+                    width={280}
+                    height={280}
                     className="absolute inset-0 w-full h-full object-cover"
+                    priority
+                    quality={85}
+                    unoptimized
                     onError={(e) => {
                       setTrackCover(null);
                       if (currentAlbum) (e.target as HTMLImageElement).src = getAlbumCover(currentAlbum);
@@ -359,7 +369,7 @@ export default function FullPlayer() {
               <p className="text-[9px] uppercase tracking-[0.25em] text-[#666680] mb-3">A tocar</p>
               <div className="flex items-center gap-3 p-3 rounded-2xl bg-white/[0.06] mb-8">
                 <div className="w-11 h-11 rounded-xl overflow-hidden shrink-0 shadow-lg">
-                  <img src={coverSrc} alt={displayTitle} className="w-full h-full object-cover" />
+                  <Image src={coverSrc} alt={displayTitle} width={48} height={48} className="w-full h-full object-cover" unoptimized />
                 </div>
                 <div className="flex-1 min-w-0">
                   <p className="text-sm font-semibold truncate" style={{ color: albumColor }}>{displayTitle}</p>

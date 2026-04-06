@@ -54,6 +54,7 @@ type MusicPlayerState = {
   duration: number;
   volume: number;
   shuffle: boolean;
+  shuffleHistory: number[];
   infinite: boolean;
   repeat: RepeatMode;
   showFullPlayer: boolean;
@@ -174,6 +175,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       duration: 0,
       volume: 1,
       shuffle: false,
+      shuffleHistory: [],
       infinite: false,
       repeat: "off",
       showFullPlayer: false,
@@ -206,9 +208,22 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
         audio.pause();
         return { ...s, currentTime: audio.currentTime, isPlaying: false, previewExpired: true };
       }
+      // Fallback: if duration is still 0 and audio.duration is now valid, update it
+      if (s.duration === 0 && isFinite(audio.duration) && audio.duration > 0) {
+        return { ...s, currentTime: audio.currentTime, duration: audio.duration };
+      }
       return { ...s, currentTime: audio.currentTime };
     });
-    const onMeta = () => setState(s => ({ ...s, duration: audio.duration }));
+    const onMeta = () => {
+      if (isFinite(audio.duration) && audio.duration > 0) {
+        setState(s => ({ ...s, duration: audio.duration }));
+      }
+    };
+    const onDurationChange = () => {
+      if (isFinite(audio.duration) && audio.duration > 0) {
+        setState(s => ({ ...s, duration: audio.duration }));
+      }
+    };
     const onEnded = () => handleEnded();
     const onPlay = () => setState(s => ({ ...s, isPlaying: true }));
     const onPause = () => setState(s => ({ ...s, isPlaying: false }));
@@ -224,6 +239,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
 
     audio.addEventListener("timeupdate", onTime);
     audio.addEventListener("loadedmetadata", onMeta);
+    audio.addEventListener("durationchange", onDurationChange);
     audio.addEventListener("ended", onEnded);
     audio.addEventListener("play", onPlay);
     audio.addEventListener("pause", onPause);
@@ -237,6 +253,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     return () => {
       audio.removeEventListener("timeupdate", onTime);
       audio.removeEventListener("loadedmetadata", onMeta);
+      audio.removeEventListener("durationchange", onDurationChange);
       audio.removeEventListener("ended", onEnded);
       audio.removeEventListener("play", onPlay);
       audio.removeEventListener("pause", onPause);
@@ -265,10 +282,23 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       });
       let nextIdx: number;
 
+      let shuffleHistoryUpdate: number[] | undefined;
       if (prev.shuffle) {
-        const availableIndices = prev.queue.map((_, i) => i).filter(i => i !== currentIdx);
+        const history = new Set(prev.shuffleHistory || []);
+        history.add(currentIdx);
+        let availableIndices = prev.queue.map((_, i) => i).filter(i => !history.has(i));
+        if (availableIndices.length === 0) {
+          // All played, reset
+          availableIndices = prev.queue.map((_, i) => i).filter(i => i !== currentIdx);
+          history.clear();
+        }
         if (availableIndices.length === 0) return { ...prev, isPlaying: false };
-        nextIdx = availableIndices[Math.floor(Math.random() * availableIndices.length)];
+        // Prefer different energy
+        const currentEnergy = prev.currentTrack?.energy;
+        const differentEnergy = availableIndices.filter(i => prev.queue[i].energy !== currentEnergy);
+        const pool = differentEnergy.length > 0 ? differentEnergy : availableIndices;
+        nextIdx = pool[Math.floor(Math.random() * pool.length)];
+        shuffleHistoryUpdate = [...Array.from(history), nextIdx];
       } else {
         nextIdx = currentIdx + 1;
       }
@@ -319,6 +349,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
         currentAlbum: album,
         isPlaying: !!(nextTrack && album),
         previewExpired: false,
+        ...(shuffleHistoryUpdate !== undefined ? { shuffleHistory: shuffleHistoryUpdate } : {}),
       };
     });
   }, []);
@@ -339,6 +370,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       isPlaying: true,
       showFullPlayer: true,
       audioError: null,
+      shuffleHistory: [],
     }));
   }, []);
 
@@ -447,7 +479,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const toggleShuffle = useCallback(() => {
-    setState(s => ({ ...s, shuffle: !s.shuffle }));
+    setState(s => ({ ...s, shuffle: !s.shuffle, shuffleHistory: [] }));
   }, []);
 
   const toggleInfinite = useCallback(() => {
@@ -498,6 +530,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       duration: 0,
       showFullPlayer: false,
       audioError: null,
+      shuffleHistory: [],
     }));
   }, []);
 

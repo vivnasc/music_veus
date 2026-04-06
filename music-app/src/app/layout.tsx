@@ -9,6 +9,7 @@ import AuthGate from "@/components/music/AuthGate";
 import RegisterSW from "@/components/RegisterSW";
 import PushPrompt from "@/components/music/PushPrompt";
 import DonationNudge from "@/components/music/DonationNudge";
+import OfflineIndicator from "@/components/music/OfflineIndicator";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -61,6 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="antialiased overflow-x-hidden">
+        <OfflineIndicator />
         <MusicPlayerProvider>
           <SubscriptionProvider>
             <div className="min-h-screen bg-[#0D0D1A] text-[#F5F0E6]">

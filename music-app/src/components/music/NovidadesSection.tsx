@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ALL_ALBUMS, type Album } from "@/data/albums";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
@@ -59,10 +60,13 @@ export default function NovidadesSection() {
             className="group"
           >
             <div className="relative aspect-square rounded-xl overflow-hidden shadow-lg mb-2">
-              <img
+              <Image
                 src={getTrackCoverUrl(album.slug, getCoverTrack(album.slug))}
                 alt={album.title}
+                width={160}
+                height={160}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                unoptimized
                 onError={(e) => { (e.target as HTMLImageElement).src = getAlbumCover(album); }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />

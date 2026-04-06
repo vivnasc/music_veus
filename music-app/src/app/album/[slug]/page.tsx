@@ -133,10 +133,13 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
       <div className="relative overflow-hidden">
         {/* Background image blur */}
         <div className="absolute inset-0">
-          <img
+          <Image
             src={sunoCover}
             alt=""
+            fill
             className="absolute inset-0 w-full h-full object-cover blur-[60px] scale-110 opacity-30"
+            quality={20}
+            unoptimized
             onError={(e) => { (e.target as HTMLImageElement).src = poseCover; }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D1A]/50 via-[#0D0D1A]/80 to-[#0D0D1A]" />
@@ -156,10 +159,14 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
           <div className="flex flex-col sm:flex-row gap-6 items-start">
             {/* Album art */}
             <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-xl shadow-2xl shrink-0 overflow-hidden relative">
-              <img
+              <Image
                 src={sunoCover}
                 alt={album.title}
+                width={240}
+                height={240}
                 className="absolute inset-0 w-full h-full object-cover"
+                priority
+                unoptimized
                 onError={(e) => { (e.target as HTMLImageElement).src = poseCover; }}
               />
               <div
