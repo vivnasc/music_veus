@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { useMusicPlayer } from "@/contexts/MusicPlayerContext";
 import { useSubscriptionGate } from "@/contexts/SubscriptionContext";
 import { useDownloads } from "@/hooks/useDownloads";
@@ -76,10 +77,13 @@ export default function TrackRow({ track, album, isActive }: Props) {
       >
         {/* Track cover with number overlay */}
         <div className="h-12 w-12 shrink-0 rounded-lg overflow-hidden relative bg-white/5">
-          <img
+          <Image
             src={getTrackCoverUrl(album.slug, track.number)}
             alt=""
+            width={40}
+            height={40}
             className="h-full w-full object-cover"
+            unoptimized
             onError={(e) => { (e.target as HTMLImageElement).src = getAlbumCover(album); }}
           />
           {/* Number or playing indicator overlay */}

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useLocalListeningData } from "@/hooks/useLocalListeningData";
 import { ALL_ALBUMS, type AlbumTrack, type Album } from "@/data/albums";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
@@ -40,10 +41,13 @@ export default function RecentlyPlayedSection() {
             className="shrink-0 flex items-center gap-3 px-3 py-2 bg-white/[0.04] hover:bg-white/[0.08] rounded-lg transition-colors w-48"
           >
             <div className="h-10 w-10 shrink-0 rounded-md overflow-hidden" style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}88)` }}>
-              <img
+              <Image
                 src={getTrackCoverUrl(album.slug, track.number)}
                 alt=""
+                width={48}
+                height={48}
                 className="w-full h-full object-cover"
+                unoptimized
                 onError={(e) => {
                   const img = e.target as HTMLImageElement;
                   img.onerror = null;

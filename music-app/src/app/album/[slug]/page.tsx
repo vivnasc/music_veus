@@ -133,10 +133,13 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
       <div className="relative overflow-hidden">
         {/* Background image blur */}
         <div className="absolute inset-0">
-          <img
+          <Image
             src={sunoCover}
             alt=""
+            fill
             className="absolute inset-0 w-full h-full object-cover blur-[60px] scale-110 opacity-30"
+            quality={20}
+            unoptimized
             onError={(e) => { (e.target as HTMLImageElement).src = poseCover; }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D1A]/50 via-[#0D0D1A]/80 to-[#0D0D1A]" />
@@ -156,10 +159,14 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
           <div className="flex flex-col sm:flex-row gap-6 items-start">
             {/* Album art */}
             <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-xl shadow-2xl shrink-0 overflow-hidden relative">
-              <img
+              <Image
                 src={sunoCover}
                 alt={album.title}
+                width={240}
+                height={240}
                 className="absolute inset-0 w-full h-full object-cover"
+                priority
+                unoptimized
                 onError={(e) => { (e.target as HTMLImageElement).src = poseCover; }}
               />
               <div
@@ -344,6 +351,34 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
           </p>
         </div>
       </div>
+
+      {/* Related albums */}
+      {(() => {
+        const related = ALBUMS.filter(a => a.product === album.product && a.slug !== album.slug).slice(0, 6);
+        if (related.length === 0) return null;
+        const collectionNames: Record<string, string> = {
+          espelho: "Espelhos", no: "Nós", livro: "Livro", curso: "Cursos",
+          incenso: "Incenso", eter: "Éter", nua: "Nua", sangue: "Sangue",
+          fibra: "Fibra", grao: "Grão", mare: "Maré",
+        };
+        return (
+          <section className="mt-8 px-4 pb-8">
+            <h3 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">
+              Mais em {collectionNames[album.product] || album.product}
+            </h3>
+            <div className="flex gap-3 overflow-x-auto scrollbar-none pb-2">
+              {related.map(r => (
+                <a key={r.slug} href={`/album/${r.slug}`} className="flex-shrink-0 w-28">
+                  <div className="w-28 h-28 rounded-lg bg-[#1a1a2e] mb-1.5 overflow-hidden">
+                    <img src={`/api/music/stream?album=${r.slug}&track=1&type=cover`} alt={r.title} className="w-full h-full object-cover" loading="lazy" />
+                  </div>
+                  <p className="text-xs text-[#c0c0d0] truncate">{r.title}</p>
+                </a>
+              ))}
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Playlist modal for album */}
       {showPlaylistModal && (
