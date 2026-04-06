@@ -54,9 +54,9 @@ export async function GET() {
               trackCount++;
             }
 
-            // Track earliest file date as album publication date
+            // Track latest file date as album publication date (most recent activity)
             const fileDate = (file as { created_at?: string }).created_at;
-            if (fileDate && (!earliestDate || fileDate < earliestDate)) {
+            if (fileDate && (!earliestDate || fileDate > earliestDate)) {
               earliestDate = fileDate;
             }
           }
