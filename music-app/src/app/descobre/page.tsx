@@ -115,8 +115,8 @@ export default function DescobrePage() {
         {/* Géneros */}
         <CuratedSection title="Géneros" lists={géneros} />
 
-        {/* Mood */}
-        <CuratedSection title="Mood" lists={moods} />
+        {/* Energia */}
+        <CuratedSection title="Energia" lists={moods} />
 
         {/* Temas */}
         <CuratedSection title="Temas" lists={temas} />
@@ -132,24 +132,35 @@ function CuratedSection({ title, lists }: { title: string; lists: CuratedList[] 
     <section>
       <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">{title}</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-        {lists.map((list) => (
-          <Link
-            key={list.slug}
-            href={`/lista/${list.slug}`}
-            className="group p-4 rounded-xl bg-white/[0.03] hover:bg-white/[0.07] transition-all block"
-          >
-            <div
-              className="w-8 h-8 rounded-full mb-2 flex items-center justify-center"
-              style={{ backgroundColor: `${list.color}22` }}
+        {lists.map((list) => {
+          const coverTrack = list.tracks[0];
+          return (
+            <Link
+              key={list.slug}
+              href={`/lista/${list.slug}`}
+              className="group block rounded-xl overflow-hidden"
             >
-              <span className="text-xs font-bold" style={{ color: list.color }}>
-                {list.title.charAt(0)}
-              </span>
-            </div>
-            <p className="text-sm font-medium text-[#c0c0d0]">{list.title}</p>
-            <p className="text-xs text-[#666680] mt-1">{list.tracks.length} faixas</p>
-          </Link>
-        ))}
+              <div className="aspect-square relative overflow-hidden bg-[#1a1a2e]">
+                {coverTrack ? (
+                  <Image
+                    src={getTrackCoverUrl(coverTrack.albumSlug, coverTrack.trackNumber)}
+                    alt={list.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform brightness-[0.4]"
+                    unoptimized
+                  />
+                ) : (
+                  <div className="w-full h-full" style={{ background: `linear-gradient(135deg, ${list.color}44, ${list.color}11)` }} />
+                )}
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
+                  <span className="text-lg font-semibold text-white">{list.title}</span>
+                  <span className="text-[10px] text-white/50 mt-1 line-clamp-2 max-w-[80%]">{list.subtitle}</span>
+                </div>
+              </div>
+              <p className="text-[10px] text-[#666680] mt-1.5 px-1">{list.tracks.length} faixas</p>
+            </Link>
+          );
+        })}
       </div>
     </section>
   );
