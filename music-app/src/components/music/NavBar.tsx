@@ -33,14 +33,14 @@ export default function NavBar() {
         </Link>
 
         {/* Nav links */}
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-0.5 sm:gap-1 overflow-x-auto scrollbar-hide">
           {NAV_ITEMS.map(item => {
             const isActive = pathname === item.href;
             return (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+                className={`flex items-center justify-center gap-2 px-3 py-2 min-h-[44px] min-w-[44px] rounded-lg text-sm transition-colors ${
                   isActive
                     ? "text-[#F5F0E6] bg-white/5"
                     : "text-[#666680] hover:text-[#a0a0b0] hover:bg-white/5"
@@ -57,7 +57,7 @@ export default function NavBar() {
           {/* Inspira */}
           <Link
             href="/inspira"
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+            className={`flex items-center justify-center gap-2 px-3 py-2 min-h-[44px] min-w-[44px] rounded-lg text-sm transition-colors ${
               pathname === "/inspira"
                 ? "text-[#F5F0E6] bg-white/5"
                 : "text-[#666680] hover:text-[#a0a0b0] hover:bg-white/5"
@@ -72,7 +72,7 @@ export default function NavBar() {
           {/* Apoiar */}
           <Link
             href="/apoiar"
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+            className={`flex items-center justify-center gap-2 px-3 py-2 min-h-[44px] min-w-[44px] rounded-lg text-sm transition-colors ${
               pathname === "/apoiar"
                 ? "text-[#C9A96E] bg-[#C9A96E]/10"
                 : "text-[#C9A96E]/60 hover:text-[#C9A96E] hover:bg-[#C9A96E]/5"
@@ -89,7 +89,7 @@ export default function NavBar() {
             <>
               <Link
                 href="/admin/producao"
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+                className={`flex items-center justify-center gap-2 px-3 py-2 min-h-[44px] min-w-[44px] rounded-lg text-sm transition-colors ${
                   pathname === "/admin/producao"
                     ? "text-[#F5F0E6] bg-white/5"
                     : "text-[#666680] hover:text-[#a0a0b0] hover:bg-white/5"
@@ -103,7 +103,7 @@ export default function NavBar() {
               </Link>
               <Link
                 href="/upload"
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+                className={`flex items-center justify-center gap-2 px-3 py-2 min-h-[44px] min-w-[44px] rounded-lg text-sm transition-colors ${
                   pathname === "/upload"
                     ? "text-[#F5F0E6] bg-white/5"
                     : "text-[#666680] hover:text-[#a0a0b0] hover:bg-white/5"
@@ -121,7 +121,7 @@ export default function NavBar() {
           {userId ? (
             <Link
               href="/conta"
-              className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+              className={`flex items-center justify-center gap-2 px-3 py-2 min-h-[44px] min-w-[44px] rounded-lg text-sm transition-colors ${
                 pathname === "/conta"
                   ? "text-[#F5F0E6] bg-white/5"
                   : "text-[#666680] hover:text-[#a0a0b0] hover:bg-white/5"
@@ -135,7 +135,7 @@ export default function NavBar() {
           ) : (
             <Link
               href="/login"
-              className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+              className={`flex items-center justify-center gap-2 px-3 py-2 min-h-[44px] min-w-[44px] rounded-lg text-sm transition-colors ${
                 pathname === "/login"
                   ? "text-[#C9A96E] bg-[#C9A96E]/10"
                   : "text-[#C9A96E] hover:bg-[#C9A96E]/10"
