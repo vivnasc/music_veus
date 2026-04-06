@@ -2,35 +2,53 @@
 
 import { useState, useEffect } from "react";
 
-let cachedKeys: Set<string> | null = null;
-let fetchPromise: Promise<Set<string>> | null = null;
+export type PublishedAlbumInfo = {
+  trackCount: number;
+  publishedAt: string;
+};
+
+type PublishedData = {
+  keys: Set<string>;
+  albums: Record<string, PublishedAlbumInfo>;
+};
+
+let cached: PublishedData | null = null;
+let fetchPromise: Promise<PublishedData> | null = null;
 
 /**
- * Shared hook for published track keys. Single fetch, shared across all components.
+ * Shared hook for published track keys and album publication dates.
+ * Single fetch, shared across all components.
  */
 export function usePublishedTracks() {
-  const [keys, setKeys] = useState<Set<string>>(cachedKeys || new Set());
-  const [loading, setLoading] = useState(!cachedKeys);
+  const [data, setData] = useState<PublishedData>(cached || { keys: new Set(), albums: {} });
+  const [loading, setLoading] = useState(!cached);
 
   useEffect(() => {
-    if (cachedKeys) { setKeys(cachedKeys); setLoading(false); return; }
+    if (cached) { setData(cached); setLoading(false); return; }
 
     if (!fetchPromise) {
       fetchPromise = fetch("/api/published-tracks")
         .then(r => r.json())
-        .then(data => {
-          const set = new Set<string>(data.tracks || []);
-          cachedKeys = set;
-          return set;
+        .then(res => {
+          const result: PublishedData = {
+            keys: new Set<string>(res.tracks || []),
+            albums: res.albums || {},
+          };
+          cached = result;
+          return result;
         })
-        .catch(() => new Set<string>());
+        .catch(() => ({ keys: new Set<string>(), albums: {} }));
     }
 
-    fetchPromise.then(set => {
-      setKeys(set);
+    fetchPromise.then(result => {
+      setData(result);
       setLoading(false);
     });
   }, []);
 
-  return { publishedKeys: keys, loading };
+  return {
+    publishedKeys: data.keys,
+    publishedAlbums: data.albums,
+    loading,
+  };
 }
