@@ -7,9 +7,12 @@ import { ALL_LISTS, type CuratedList } from "@/data/curated-lists";
 import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
 import { getTrackCoverUrl } from "@/lib/album-covers";
 
-const COLLECTION_PRODUCTS = ["incenso", "eter", "nua", "sangue", "fibra", "grao", "mare"] as const;
+const COLLECTION_PRODUCTS = ["espelho", "no", "curso", "incenso", "eter", "nua", "sangue", "fibra", "grao", "mare"] as const;
 
 const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }> = {
+  espelho: { pt: "Espelhos", en: "Mirrors", sub: "A transformação interior — os 7 véus" },
+  no: { pt: "Nós", en: "Knots", sub: "Entre duas pessoas — os 7 nós" },
+  curso: { pt: "Cursos", en: "Courses", sub: "Escola dos Véus" },
   incenso: { pt: "Incenso", en: "Incense", sub: "O fumo que sobe — o sagrado sem nome" },
   eter: { pt: "Éter", en: "Ether", sub: "O invisível que se sente" },
   nua: { pt: "Nua", en: "Bare", sub: "A nudez emocional do amor" },
