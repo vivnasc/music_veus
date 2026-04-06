@@ -82,15 +82,18 @@ function pickVerse(slug: string, trackNum: number): string {
  */
 /** Extract the best text to show on the image from a caption */
 function extractDisplayText(caption: string): string {
-  // Try to find verse between quotes (handles newlines)
+  // Try to find verse between quotes — take only the first 2 lines
   const verseMatch = caption.match(/"([\s\S]+?)"/);
-  if (verseMatch) return verseMatch[1].trim();
+  if (verseMatch) {
+    const verseLines = verseMatch[1].trim().split("\n").filter(l => l.trim());
+    return verseLines.slice(0, 2).join("\n");
+  }
 
-  // No quotes — use first meaningful lines (skip hashtags, links, short lines)
+  // No quotes — take just the first impactful sentence
   const lines = caption.split("\n")
     .map(l => l.trim())
     .filter(l => l.length > 10 && !l.startsWith("#") && !l.includes("music.seteveus") && !l.includes("http"));
-  return lines.slice(0, 4).join("\n");
+  return lines[0] || "";
 }
 
 /** Word-wrap text to fit canvas width */
