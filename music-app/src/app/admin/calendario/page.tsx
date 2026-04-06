@@ -425,60 +425,16 @@ export default function CalendarPage() {
                                   <button
                                     disabled={!!generating[key]}
                                     onClick={async () => {
-                                      const albumSlug = action.albumSlug;
-                                      const trackNum = action.trackNumber!;
-                                      const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
-                                      if (!alb) { alert("Álbum não encontrado"); return; }
-                                      const track = alb.tracks.find(t => t.number === trackNum);
-                                      if (!track) { alert("Faixa não encontrada"); return; }
-
-                                      setGenerating(p => ({ ...p, [key]: "1/3 A gerar imagem IA..." }));
+                                      setGenerating(p => ({ ...p, [key]: "A gerar 3 imagens..." }));
                                       try {
-                                        // Step 1: fal.ai — generate image from verse
-                                        const imgRes = await adminFetch("/api/admin/generate-verse-reel", {
+                                        const res = await adminFetch("/api/admin/generate-verse-reel", {
                                           method: "POST",
                                           headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({ caption: action.caption }),
+                                          body: JSON.stringify({ caption: action.caption, numImages: 3 }),
                                         });
-                                        const imgData = await imgRes.json();
-                                        if (!imgRes.ok || !imgData.imageUrl) { alert(`fal.ai: ${imgData.erro || JSON.stringify(imgData)}`); return; }
-                                        // Proxy image to avoid CORS tainting the canvas
-                                        const proxiedImg = `/api/admin/proxy-image?url=${encodeURIComponent(imgData.imageUrl)}`;
-                                        setGeneratedImages(p => ({ ...p, [`${key}-img`]: imgData.imageUrl }));
-
-                                        // Step 2: Generate short (canvas animation + track audio)
-                                        setGenerating(p => ({ ...p, [key]: "2/3 A gravar short com música..." }));
-                                        const { generateReel, REEL_SIZE_STATUS } = await import("@/lib/reel-generator");
-                                        const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNum}`;
-
-                                        const blob = await generateReel(track, alb, proxiedImg, audioSrc, (p) => {
-                                          setGenerating(prev => ({ ...prev, [key]: `2/3 ${p.message}` }));
-                                        }, undefined, REEL_SIZE_STATUS);
-
-                                        // Step 3: Upload to Supabase
-                                        setGenerating(p => ({ ...p, [key]: "3/3 A enviar..." }));
-                                        const safeAlbum = albumSlug.replace(/[^a-z0-9-]/g, "");
-                                        const safeTrack = String(trackNum).padStart(2, "0");
-                                        const ext = blob.type.includes("mp4") ? "mp4" : "webm";
-                                        const filename = `albums/${safeAlbum}/faixa-${safeTrack}-reel-ia.${ext}`;
-
-                                        const signedRes = await adminFetch("/api/admin/signed-upload-url", {
-                                          method: "POST",
-                                          headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({ filename }),
-                                        });
-                                        const { signedUrl } = await signedRes.json();
-                                        if (!signedUrl) { alert("Erro ao gerar URL de upload"); return; }
-
-                                        await fetch(signedUrl, {
-                                          method: "PUT",
-                                          headers: { "Content-Type": blob.type || "video/mp4" },
-                                          body: blob,
-                                        });
-
-                                        const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-                                        const videoUrl = `${supabaseUrl}/storage/v1/object/public/audios/${filename}`;
-                                        setGeneratedImages(p => ({ ...p, [key]: videoUrl }));
+                                        const data = await res.json();
+                                        if (!res.ok || !data.imageUrls?.length) { alert(`Erro: ${data.erro || JSON.stringify(data)}`); return; }
+                                        setGeneratedImages(p => ({ ...p, [key]: JSON.stringify(data.imageUrls) }));
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);
                                       } finally {
@@ -487,20 +443,22 @@ export default function CalendarPage() {
                                     }}
                                     className="px-3 py-1.5 rounded-lg bg-violet-600/30 text-violet-400 text-xs min-h-[44px]"
                                   >
-                                    {generating[key] || "Gerar Short IA"}
+                                    {generating[key] || "Gerar Imagens IA"}
                                   </button>
-                                  {generatedImages[`${key}-img`] && (
-                                    <a href={generatedImages[`${key}-img`]} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded-lg bg-blue-600/20 text-blue-400 text-xs min-h-[44px] flex items-center">
-                                      Imagem
-                                    </a>
-                                  )}
-                                  {generatedImages[key] && (
-                                    <a href={generatedImages[key]} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded-lg bg-green-600/30 text-green-400 text-xs min-h-[44px] flex items-center">
-                                      Ver short
-                                    </a>
-                                  )}
-                                </>
-                              )}
+                                  {generatedImages[key] && (() => {
+                                    try {
+                                      const urls = JSON.parse(generatedImages[key]) as string[];
+                                      return (
+                                        <div className="flex gap-2 mt-2 w-full">
+                                          {urls.map((url, idx) => (
+                                            <a key={idx} href={url} download={`reel-${action.albumSlug}-${idx + 1}.jpg`} className="block w-1/3">
+                                              <img src={url} alt={`Opção ${idx + 1}`} className="w-full rounded-lg" />
+                                            </a>
+                                          ))}
+                                        </div>
+                                      );
+                                    } catch { return null; }
+                                  })()}
                               {action.type === "reel" && action.trackNumber && (
                                 <Link
                                   href={`/admin/producao?album=${action.albumSlug}`}
