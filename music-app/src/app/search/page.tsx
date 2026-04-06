@@ -333,20 +333,23 @@ export default function SearchPage() {
             {!activeFilter && (
               <>
                 {[
-                  { title: "Espelhos", sub: "A transformação interior", products: ["espelho"] },
-                  { title: "Nós", sub: "Entre duas pessoas", products: ["no"] },
-                  { title: "Espiritual", sub: "O sagrado no corpo", products: ["espiritual"] },
-                  { title: "Vida", sub: "Música do dia-a-dia", products: ["vida"] },
-                  { title: "Cursos", sub: "Escola dos Véus", products: ["curso"] },
-                  { title: "Livro", sub: "Livro filosófico", products: ["livro"] },
-                  { title: "Cosmic", sub: "O corpo como portal cósmico", products: ["cosmic"] },
-                  { title: "Romance", sub: "Loranne apaixonada", products: ["romance"] },
-                ].map(({ title, sub, products }) => {
+                  { title: "Espelhos", sub: "A transformação interior", subEn: "Inner transformation", products: ["espelho"] },
+                  { title: "Nós", sub: "Entre duas pessoas", subEn: "Between two people", products: ["no"] },
+                  { title: "Incenso", sub: "O fumo que sobe — o sagrado sem nome", subEn: "Incense", products: ["incenso"] },
+                  { title: "Éter", sub: "O invisível que se sente", subEn: "Ether", products: ["eter"] },
+                  { title: "Nua", sub: "A nudez emocional do amor", subEn: "Bare", products: ["nua"] },
+                  { title: "Sangue", sub: "O que não se escolhe, o que se herda", subEn: "Blood", products: ["sangue"] },
+                  { title: "Fibra", sub: "O corpo que insiste", subEn: "Fiber", products: ["fibra"] },
+                  { title: "Grão", sub: "O pequeno que faz o todo", subEn: "Grain", products: ["grao"] },
+                  { title: "Maré", sub: "O que vai e volta", subEn: "Tide", products: ["mare"] },
+                  { title: "Cursos", sub: "Escola dos Véus", subEn: "Courses", products: ["curso"] },
+                  { title: "Livro", sub: "Livro filosófico", subEn: "Book", products: ["livro"] },
+                ].map(({ title, sub, subEn, products }) => {
                   const albums = ALL_ALBUMS.filter(a => products.includes(a.product) && publishedAlbums.has(a.slug));
                   if (albums.length === 0) return null;
                   return (
                     <section key={title}>
-                      <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-1">{title}</h2>
+                      <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-1">{title} <span className="text-[#555568] font-normal normal-case tracking-normal">{subEn}</span></h2>
                       <p className="text-xs text-[#666680] mb-3">{sub}</p>
                       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
                         {albums.map(album => (
