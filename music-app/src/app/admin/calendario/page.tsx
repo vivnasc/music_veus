@@ -5,6 +5,36 @@ import Link from "next/link";
 import { ALL_ALBUMS } from "@/data/albums";
 import { adminFetch } from "@/lib/admin-fetch";
 
+// Loranne images without text, good quality, grouped by mood
+const LORANNE_IMAGES: Record<string, string[]> = {
+  spiritual: ["/poses/velas-01.png", "/poses/velas-02.png", "/poses/velas-03.png", "/poses/velas-04.png"],
+  intimate: ["/poses/loranne8-01.png", "/poses/loranne8-02.png", "/poses/loranne8-03.png", "/poses/loranne8-04.png", "/poses/loranne6-01.png", "/poses/loranne6-02.png", "/poses/loranne6-03.png"],
+  movement: ["/poses/loranne3-01.png", "/poses/loranne3-02.png", "/poses/loranne3-03.png", "/poses/loranne3-04.png", "/poses/loranne3-05.png"],
+  contemplative: ["/poses/loranne5-01.png", "/poses/loranne5-02.png", "/poses/loranne5-03.png", "/poses/loranne5-04.png", "/poses/loranne5-05.png"],
+  vulnerable: ["/poses/loranne6-04.png", "/poses/loranne6-05.png", "/poses/loranne6-06.png", "/poses/loranne6-07.png"],
+  iconic: ["/Loranne.png", "/poses/loranne-hero.png"],
+};
+
+// Map album collection to image mood
+function getImageMood(albumSlug: string): string {
+  const album = ALL_ALBUMS.find(a => a.slug === albumSlug);
+  if (!album) return "iconic";
+  const p = album.product;
+  if (p === "incenso") return "spiritual";
+  if (p === "nua") return "intimate";
+  if (p === "fibra") return "movement";
+  if (p === "mare" || p === "grao") return "contemplative";
+  if (p === "sangue" || p === "no") return "vulnerable";
+  if (p === "eter" || p === "espelho") return "contemplative";
+  return "iconic";
+}
+
+function pickLorannImage(albumSlug: string, trackNumber: number): string {
+  const mood = getImageMood(albumSlug);
+  const images = LORANNE_IMAGES[mood] || LORANNE_IMAGES.iconic;
+  return images[(trackNumber - 1) % images.length];
+}
+
 type ContentAction = {
   type: "reel" | "carrossel" | "story" | "post" | "partilha";
   label: string;
@@ -420,21 +450,81 @@ export default function CalendarPage() {
                                   Gerar Story
                                 </button>
                               )}
-                              {action.type === "reel" && action.caption && action.trackNumber && (
+                              {action.type === "reel" && action.trackNumber && (
                                 <>
                                   <button
                                     disabled={!!generating[key]}
                                     onClick={async () => {
-                                      setGenerating(p => ({ ...p, [key]: "A gerar 3 imagens..." }));
+                                      const albumSlug = action.albumSlug;
+                                      const trackNum = action.trackNumber!;
+                                      const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
+                                      if (!alb) { alert("Álbum não encontrado"); return; }
+                                      const track = alb.tracks.find(t => t.number === trackNum);
+                                      if (!track) { alert("Faixa não encontrada"); return; }
+
+                                      // Pick Loranne image based on mood
+                                      const lorannImg = pickLorannImage(albumSlug, trackNum);
+
+                                      setGenerating(p => ({ ...p, [key]: "1/3 A enviar para Runway..." }));
                                       try {
-                                        const res = await adminFetch("/api/admin/generate-verse-reel", {
+                                        // Step 1: Send Loranne image to Runway
+                                        const imgUrl = `${window.location.origin}${lorannImg}`;
+                                        const runRes = await adminFetch("/api/admin/runway/generate", {
                                           method: "POST",
                                           headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({ caption: action.caption, numImages: 3 }),
+                                          body: JSON.stringify({
+                                            albumSlug,
+                                            trackNumber: trackNum,
+                                            imageUrl: imgUrl,
+                                            promptText: "Slow cinematic movement, gentle fabric flowing, subtle light shift, ethereal and dreamy atmosphere, the veil moves softly",
+                                            duration: 5,
+                                            ratio: "720:1280",
+                                          }),
                                         });
-                                        const data = await res.json();
-                                        if (!res.ok || !data.imageUrls?.length) { alert(`Erro: ${data.erro || JSON.stringify(data)}`); return; }
-                                        setGeneratedImages(p => ({ ...p, [key]: JSON.stringify(data.imageUrls) }));
+                                        const runData = await runRes.json();
+                                        if (!runRes.ok) { alert(`Runway: ${runData.erro || JSON.stringify(runData)}`); return; }
+
+                                        // If video already exists, use it
+                                        if (runData.status === "exists" && runData.videoUrl) {
+                                          setGenerating(p => ({ ...p, [key]: "2/3 A compor com música..." }));
+                                        } else if (runData.taskId) {
+                                          // Step 2: Poll Runway
+                                          setGenerating(p => ({ ...p, [key]: "2/3 Runway a processar..." }));
+                                          const params = new URLSearchParams({ taskId: runData.taskId, album: albumSlug, track: String(trackNum) });
+                                          let videoReady = false;
+                                          for (let i = 0; i < 120; i++) {
+                                            await new Promise(r => setTimeout(r, 3000));
+                                            const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
+                                            const sData = await sRes.json();
+                                            if (sData.status === "complete" && sData.videoUrl) { videoReady = true; break; }
+                                            if (sData.status === "error") { alert(`Runway: ${sData.error}`); return; }
+                                            setGenerating(p => ({ ...p, [key]: `2/3 Runway... ${Math.min(Math.round(i * 1.2), 95)}%` }));
+                                          }
+                                          if (!videoReady) { alert("Timeout — Runway não terminou."); return; }
+                                        } else {
+                                          alert(`Resposta inesperada: ${JSON.stringify(runData)}`); return;
+                                        }
+
+                                        // Step 3: Compose short (Runway video + track audio)
+                                        setGenerating(p => ({ ...p, [key]: "3/3 A compor short com música..." }));
+                                        const safeAlbum = albumSlug.replace(/[^a-z0-9-]/g, "");
+                                        const safeTrack = String(trackNum).padStart(2, "0");
+                                        const hookVideoUrl = `${process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co"}/storage/v1/object/public/audios/albums/${safeAlbum}/faixa-${safeTrack}-hook.mp4`;
+                                        const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNum}`;
+
+                                        const { composeShort } = await import("@/lib/short-composer");
+                                        const blob = await composeShort(hookVideoUrl, audioSrc, track, alb, (p) => {
+                                          setGenerating(prev => ({ ...prev, [key]: `3/3 ${p.message}` }));
+                                        });
+
+                                        // Download
+                                        const ext = blob.type.includes("mp4") ? "mp4" : "webm";
+                                        const a = document.createElement("a");
+                                        a.href = URL.createObjectURL(blob);
+                                        a.download = `${track.title} — Loranne.${ext}`;
+                                        a.click();
+
+                                        setGeneratedImages(p => ({ ...p, [key]: "done" }));
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);
                                       } finally {
@@ -443,85 +533,18 @@ export default function CalendarPage() {
                                     }}
                                     className="px-3 py-1.5 rounded-lg bg-violet-600/30 text-violet-400 text-xs min-h-[44px]"
                                   >
-                                    {generating[key] || "Gerar Imagens IA"}
+                                    {generating[key] || "Gerar Reel"}
                                   </button>
-                                  {generatedImages[key] && (() => {
-                                    try {
-                                      const urls = JSON.parse(generatedImages[key]) as string[];
-                                      return (
-                                        <div className="mt-2 w-full">
-                                          <p className="text-[10px] text-[#666680] mb-1">Clica numa imagem para gerar o reel:</p>
-                                          <div className="flex gap-2">
-                                            {urls.map((url, idx) => (
-                                              <button
-                                                key={idx}
-                                                disabled={!!generating[`${key}-reel`]}
-                                                onClick={async () => {
-                                                  const albumSlug = action.albumSlug;
-                                                  const trackNum = action.trackNumber!;
-                                                  const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
-                                                  if (!alb) return;
-                                                  const track = alb.tracks.find(t => t.number === trackNum);
-                                                  if (!track) return;
-
-                                                  setGenerating(p => ({ ...p, [`${key}-reel`]: "A gerar reel..." }));
-                                                  try {
-                                                    const { generateReel, REEL_SIZE_STATUS } = await import("@/lib/reel-generator");
-                                                    const proxiedImg = `/api/admin/proxy-image?url=${encodeURIComponent(url)}`;
-                                                    const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNum}`;
-
-                                                    const blob = await generateReel(track, alb, proxiedImg, audioSrc, (p) => {
-                                                      setGenerating(prev => ({ ...prev, [`${key}-reel`]: p.message }));
-                                                    }, undefined, REEL_SIZE_STATUS);
-
-                                                    // Upload
-                                                    const safeAlbum = albumSlug.replace(/[^a-z0-9-]/g, "");
-                                                    const safeTrack = String(trackNum).padStart(2, "0");
-                                                    const ext = blob.type.includes("mp4") ? "mp4" : "webm";
-                                                    const filename = `albums/${safeAlbum}/faixa-${safeTrack}-reel.${ext}`;
-                                                    const signedRes = await adminFetch("/api/admin/signed-upload-url", {
-                                                      method: "POST",
-                                                      headers: { "Content-Type": "application/json" },
-                                                      body: JSON.stringify({ filename }),
-                                                    });
-                                                    const { signedUrl } = await signedRes.json();
-                                                    if (signedUrl) {
-                                                      await fetch(signedUrl, { method: "PUT", headers: { "Content-Type": blob.type || "video/mp4" }, body: blob });
-                                                    }
-
-                                                    // Download
-                                                    const a = document.createElement("a");
-                                                    a.href = URL.createObjectURL(blob);
-                                                    a.download = `${track.title} — Loranne.${ext}`;
-                                                    a.click();
-                                                  } catch (err) {
-                                                    alert(`Erro: ${(err as Error).message}`);
-                                                  } finally {
-                                                    setGenerating(p => { const n = { ...p }; delete n[`${key}-reel`]; return n; });
-                                                  }
-                                                }}
-                                                className="block w-1/3 rounded-lg overflow-hidden hover:ring-2 hover:ring-violet-500 transition-all"
-                                              >
-                                                <img src={url} alt={`Opção ${idx + 1}`} className="w-full" />
-                                              </button>
-                                            ))}
-                                          </div>
-                                          {generating[`${key}-reel`] && (
-                                            <p className="text-[10px] text-violet-400 mt-1">{generating[`${key}-reel`]}</p>
-                                          )}
-                                        </div>
-                                      );
-                                    } catch { return null; }
-                                  })()}
+                                  <Link
+                                    href={`/admin/producao?album=${action.albumSlug}`}
+                                    className="px-3 py-1.5 rounded-lg bg-white/5 text-[#666680] text-xs min-h-[44px] flex items-center"
+                                  >
+                                    Produção
+                                  </Link>
+                                  {generatedImages[key] === "done" && (
+                                    <span className="text-[10px] text-green-400">Descarregado</span>
+                                  )}
                                 </>
-                              )}
-                              {action.type === "reel" && action.trackNumber && (
-                                <Link
-                                  href={`/admin/producao?album=${action.albumSlug}`}
-                                  className="px-3 py-1.5 rounded-lg bg-white/5 text-[#666680] text-xs min-h-[44px] flex items-center"
-                                >
-                                  Reel Capa
-                                </Link>
                               )}
                               {action.type === "carrossel" && (
                                 <button
