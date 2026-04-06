@@ -642,20 +642,11 @@ export default function CalendarPage() {
                                   <button
                                     disabled={!!generating[key]}
                                     onClick={async () => {
-                                      setGenerating(p => ({ ...p, [key]: "A gerar fundo..." }));
+                                      setGenerating(p => ({ ...p, [key]: "A compor..." }));
                                       try {
-                                        // Step 1: Get background image from fal.ai
-                                        const res = await adminFetch("/api/admin/generate-post-image", {
-                                          method: "POST",
-                                          headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({ caption: action.caption || "", albumTitle: getAlbumTitle(action.albumSlug) }),
-                                        });
-                                        const data = await res.json();
-                                        if (!res.ok || !data.imageUrl) { alert(`Erro: ${data.erro || JSON.stringify(data)}`); return; }
-
-                                        // Step 2: Overlay text on canvas
-                                        setGenerating(p => ({ ...p, [key]: "A compor imagem..." }));
-                                        const finalUrl = await overlayTextOnImage(data.imageUrl, action.caption || "");
+                                        // Use Loranne image as background (no fal.ai)
+                                        const lorannImg = pickLorannImages(action.albumSlug, 1, 1)[0];
+                                        const finalUrl = await overlayTextOnImage(lorannImg, action.caption || "");
                                         setGeneratedImages(p => ({ ...p, [key]: finalUrl }));
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);
@@ -665,7 +656,7 @@ export default function CalendarPage() {
                                     }}
                                     className="px-3 py-1.5 rounded-lg bg-blue-600/30 text-blue-400 text-xs min-h-[44px]"
                                   >
-                                    {generating[key] || "Gerar Post IA"}
+                                    {generating[key] || "Gerar Post"}
                                   </button>
                                   {generatedImages[key] && (
                                     <>
