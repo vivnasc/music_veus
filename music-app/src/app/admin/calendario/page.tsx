@@ -46,7 +46,41 @@ function pickVerse(slug: string, trackNum: number): string {
  * Overlay verse text + branding on a background image using browser canvas.
  * Returns a data URL of the final composite image.
  */
-async function overlayTextOnImage(bgUrl: string, verse: string): Promise<string> {
+/** Extract the best text to show on the image from a caption */
+function extractDisplayText(caption: string): string {
+  // Try to find verse between quotes (handles newlines)
+  const verseMatch = caption.match(/"([\s\S]+?)"/);
+  if (verseMatch) return verseMatch[1].trim();
+
+  // No quotes — use first meaningful lines (skip hashtags, links, short lines)
+  const lines = caption.split("\n")
+    .map(l => l.trim())
+    .filter(l => l.length > 10 && !l.startsWith("#") && !l.includes("music.seteveus") && !l.includes("http"));
+  return lines.slice(0, 4).join("\n");
+}
+
+/** Word-wrap text to fit canvas width */
+function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number): string[] {
+  const result: string[] = [];
+  for (const paragraph of text.split("\n")) {
+    if (!paragraph.trim()) { result.push(""); continue; }
+    const words = paragraph.split(" ");
+    let line = "";
+    for (const word of words) {
+      const test = line ? `${line} ${word}` : word;
+      if (ctx.measureText(test).width > maxWidth && line) {
+        result.push(line);
+        line = word;
+      } else {
+        line = test;
+      }
+    }
+    if (line) result.push(line);
+  }
+  return result;
+}
+
+async function overlayTextOnImage(bgUrl: string, caption: string): Promise<string> {
   const SIZE = 1080;
   const canvas = document.createElement("canvas");
   canvas.width = SIZE;
@@ -63,39 +97,46 @@ async function overlayTextOnImage(bgUrl: string, verse: string): Promise<string>
   });
   ctx.drawImage(img, 0, 0, SIZE, SIZE);
 
-  // Dark overlay for text readability
-  ctx.fillStyle = "rgba(0, 0, 0, 0.45)";
+  // Dark gradient overlay for text readability
+  const grad = ctx.createLinearGradient(0, 0, 0, SIZE);
+  grad.addColorStop(0, "rgba(0, 0, 0, 0.3)");
+  grad.addColorStop(0.4, "rgba(0, 0, 0, 0.5)");
+  grad.addColorStop(1, "rgba(0, 0, 0, 0.6)");
+  ctx.fillStyle = grad;
   ctx.fillRect(0, 0, SIZE, SIZE);
 
-  // Verse text
-  if (verse) {
-    const lines = verse.split("\n").filter(l => l.trim());
-    const fontSize = lines.length > 6 ? 36 : lines.length > 4 ? 42 : 48;
-    ctx.font = `italic ${fontSize}px Georgia, serif`;
+  // Extract and render text
+  const displayText = extractDisplayText(caption);
+  if (displayText) {
+    const fontSize = 44;
+    ctx.font = `italic ${fontSize}px Georgia, "Times New Roman", serif`;
     ctx.fillStyle = "#FFFFFF";
     ctx.textAlign = "center";
-    ctx.shadowColor = "rgba(0,0,0,0.6)";
-    ctx.shadowBlur = 8;
+    ctx.shadowColor = "rgba(0,0,0,0.8)";
+    ctx.shadowBlur = 12;
 
-    const lineHeight = fontSize * 1.5;
+    const maxWidth = SIZE - 160;
+    const lines = wrapText(ctx, displayText, maxWidth);
+    const lineHeight = fontSize * 1.55;
     const totalHeight = lines.length * lineHeight;
-    let y = (SIZE - totalHeight) / 2 + fontSize;
+    let y = (SIZE - totalHeight) / 2 + fontSize * 0.5;
 
     for (const line of lines) {
-      ctx.fillText(line.trim(), SIZE / 2, y, SIZE - 120);
+      if (!line.trim()) { y += lineHeight * 0.5; continue; }
+      ctx.fillText(line, SIZE / 2, y);
       y += lineHeight;
     }
   }
 
   // Branding
   ctx.shadowBlur = 0;
-  ctx.font = "20px Georgia, serif";
-  ctx.fillStyle = "rgba(201, 169, 110, 0.8)";
+  ctx.font = "bold 22px Georgia, serif";
+  ctx.fillStyle = "rgba(201, 169, 110, 0.9)";
   ctx.textAlign = "center";
-  ctx.fillText("Loranne", SIZE / 2, SIZE - 50);
-  ctx.font = "14px sans-serif";
-  ctx.fillStyle = "rgba(255, 255, 255, 0.4)";
-  ctx.fillText("music.seteveus.space", SIZE / 2, SIZE - 28);
+  ctx.fillText("Loranne", SIZE / 2, SIZE - 55);
+  ctx.font = "15px sans-serif";
+  ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
+  ctx.fillText("music.seteveus.space", SIZE / 2, SIZE - 30);
 
   return canvas.toDataURL("image/png");
 }
@@ -458,9 +499,7 @@ export default function CalendarPage() {
 
                                         // Step 2: Overlay text on canvas
                                         setGenerating(p => ({ ...p, [key]: "A compor imagem..." }));
-                                        const verseMatch = (action.caption || "").match(/"([^"]+)"/);
-                                        const verse = verseMatch ? verseMatch[1].replace(/\\n/g, "\n") : "";
-                                        const finalUrl = await overlayTextOnImage(data.imageUrl, verse);
+                                        const finalUrl = await overlayTextOnImage(data.imageUrl, action.caption || "");
                                         setGeneratedImages(p => ({ ...p, [key]: finalUrl }));
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);
