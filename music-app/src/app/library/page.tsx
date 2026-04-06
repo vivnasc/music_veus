@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ALL_ALBUMS } from "@/data/albums";
@@ -9,7 +9,6 @@ import { useMusicPlayer, formatTime as fmt } from "@/contexts/MusicPlayerContext
 import { useLibrary } from "@/hooks/useLibrary";
 import { useDownloads } from "@/hooks/useDownloads";
 import { usePlaylists } from "@/hooks/usePlaylists";
-import { usePublishedTracks } from "@/hooks/usePublishedTracks";
 import { getAlbumCover } from "@/lib/album-covers";
 import AlbumCard from "@/components/music/AlbumCard";
 
@@ -44,7 +43,17 @@ type Tab = "albums" | "favoritos" | "playlists" | "recentes" | "offline";
 
 export default function LibraryPage() {
   const [activeTab, setActiveTab] = useState<Tab>("albums");
-  const { publishedKeys } = usePublishedTracks();
+  const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
+
+  // Fetch published tracks to determine which albums have audio
+  useEffect(() => {
+    fetch("/api/published-tracks")
+      .then(r => r.json())
+      .then((data: { tracks?: string[] }) => {
+        if (data.tracks) setPublishedKeys(new Set(data.tracks));
+      })
+      .catch(() => {});
+  }, []);
   const [creatingPlaylist, setCreatingPlaylist] = useState(false);
   const [newPlaylistName, setNewPlaylistName] = useState("");
   const { favorites, recents } = useLibrary();

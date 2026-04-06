@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useLocalListeningData } from "@/hooks/useLocalListeningData";
-import { usePublishedTracks } from "@/hooks/usePublishedTracks";
 import { ALL_ALBUMS, type AlbumTrack, type Album } from "@/data/albums";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
 
@@ -19,15 +18,12 @@ function resolveTrack(
 
 export default function RecentlyPlayedSection() {
   const { recents } = useLocalListeningData();
-  const { publishedKeys } = usePublishedTracks();
 
   if (recents.length === 0) return null;
 
   const resolved = recents
     .map((r) => resolveTrack(r.trackNumber, r.albumSlug))
-    .filter((r): r is { track: AlbumTrack; album: Album } =>
-      r !== null && publishedKeys.has(`${r.album.slug}-t${r.track.number}`)
-    );
+    .filter(Boolean) as { track: AlbumTrack; album: Album }[];
 
   if (resolved.length === 0) return null;
 

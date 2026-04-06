@@ -9,7 +9,7 @@ import { usePublishedTracks } from "@/hooks/usePublishedTracks";
 
 export default function NovidadesSection() {
   const { getCoverTrack } = useAlbumCovers();
-  const { publishedKeys, albumDates, loading } = usePublishedTracks();
+  const { publishedKeys, loading } = usePublishedTracks();
 
   const albums = (() => {
     if (publishedKeys.size === 0) return [];
@@ -24,12 +24,7 @@ export default function NovidadesSection() {
       const album = ALL_ALBUMS.find(a => a.slug === slug);
       if (album) items.push({ album, trackCount: count });
     }
-    // Sort by most recently published audio (newest first)
-    items.sort((a, b) => {
-      const dateA = albumDates[a.album.slug] || "";
-      const dateB = albumDates[b.album.slug] || "";
-      return dateB.localeCompare(dateA);
-    });
+    items.sort((a, b) => ALL_ALBUMS.indexOf(b.album) - ALL_ALBUMS.indexOf(a.album));
     return items.slice(0, 8);
   })();
 
