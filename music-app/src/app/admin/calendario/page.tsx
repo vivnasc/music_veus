@@ -424,7 +424,14 @@ export default function CalendarPage() {
                                   <button
                                     disabled={!!generating[key]}
                                     onClick={async () => {
-                                      setGenerating(p => ({ ...p, [key]: "1/3 A gerar imagem..." }));
+                                      const albumSlug = action.albumSlug;
+                                      const trackNum = action.trackNumber!;
+                                      const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
+                                      if (!alb) { alert("Álbum não encontrado"); return; }
+                                      const track = alb.tracks.find(t => t.number === trackNum);
+                                      if (!track) { alert("Faixa não encontrada"); return; }
+
+                                      setGenerating(p => ({ ...p, [key]: "1/3 A gerar imagem IA..." }));
                                       try {
                                         // Step 1: fal.ai — generate image from verse
                                         const imgRes = await adminFetch("/api/admin/generate-verse-reel", {
@@ -434,44 +441,41 @@ export default function CalendarPage() {
                                         });
                                         const imgData = await imgRes.json();
                                         if (!imgRes.ok || !imgData.imageUrl) { alert(`fal.ai: ${imgData.erro || JSON.stringify(imgData)}`); return; }
-
                                         setGeneratedImages(p => ({ ...p, [`${key}-img`]: imgData.imageUrl }));
-                                        setGenerating(p => ({ ...p, [key]: "2/3 A animar com Runway..." }));
 
-                                        // Step 2: Runway — animate image to video
-                                        const runRes = await adminFetch("/api/admin/runway/generate", {
+                                        // Step 2: Generate reel (canvas + audio) using fal.ai image as cover
+                                        setGenerating(p => ({ ...p, [key]: "2/3 A gravar vídeo com música..." }));
+                                        const { generateReel, REEL_SIZE_STATUS } = await import("@/lib/reel-generator");
+                                        const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNum}`;
+
+                                        const blob = await generateReel(track, alb, imgData.imageUrl, audioSrc, (p) => {
+                                          setGenerating(prev => ({ ...prev, [key]: `2/3 ${p.message}` }));
+                                        }, undefined, REEL_SIZE_STATUS);
+
+                                        // Step 3: Upload to Supabase
+                                        setGenerating(p => ({ ...p, [key]: "3/3 A enviar..." }));
+                                        const safeAlbum = albumSlug.replace(/[^a-z0-9-]/g, "");
+                                        const safeTrack = String(trackNum).padStart(2, "0");
+                                        const ext = blob.type.includes("mp4") ? "mp4" : "webm";
+                                        const filename = `albums/${safeAlbum}/faixa-${safeTrack}-reel-ia.${ext}`;
+
+                                        const signedRes = await adminFetch("/api/admin/signed-upload-url", {
                                           method: "POST",
                                           headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({
-                                            albumSlug: action.albumSlug,
-                                            trackNumber: action.trackNumber,
-                                            imageUrl: imgData.imageUrl,
-                                            promptText: "Slow cinematic movement, gentle light particles floating, subtle camera push-in, ethereal and dreamy atmosphere",
-                                            duration: 5,
-                                            ratio: "720:1280",
-                                          }),
+                                          body: JSON.stringify({ filename }),
                                         });
-                                        const runData = await runRes.json();
-                                        if (!runRes.ok || !runData.taskId) { alert(`Runway: ${runData.erro || JSON.stringify(runData)}`); return; }
+                                        const { signedUrl } = await signedRes.json();
+                                        if (!signedUrl) { alert("Erro ao gerar URL de upload"); return; }
 
-                                        // Step 3: Poll Runway status
-                                        setGenerating(p => ({ ...p, [key]: "3/3 A processar vídeo..." }));
-                                        const params = new URLSearchParams({
-                                          taskId: runData.taskId,
-                                          album: action.albumSlug,
-                                          track: String(action.trackNumber),
+                                        await fetch(signedUrl, {
+                                          method: "PUT",
+                                          headers: { "Content-Type": blob.type || "video/mp4" },
+                                          body: blob,
                                         });
-                                        for (let i = 0; i < 120; i++) {
-                                          await new Promise(r => setTimeout(r, 3000));
-                                          const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
-                                          const sData = await sRes.json();
-                                          if (sData.status === "complete" && sData.videoUrl) {
-                                            setGeneratedImages(p => ({ ...p, [key]: sData.videoUrl }));
-                                            break;
-                                          }
-                                          if (sData.status === "error") { alert(`Runway: ${sData.error}`); return; }
-                                          setGenerating(p => ({ ...p, [key]: `3/3 A processar... ${Math.min(Math.round(i * 1.2), 95)}%` }));
-                                        }
+
+                                        const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+                                        const videoUrl = `${supabaseUrl}/storage/v1/object/public/audios/${filename}`;
+                                        setGeneratedImages(p => ({ ...p, [key]: videoUrl }));
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);
                                       } finally {
@@ -480,7 +484,7 @@ export default function CalendarPage() {
                                     }}
                                     className="px-3 py-1.5 rounded-lg bg-violet-600/30 text-violet-400 text-xs min-h-[44px]"
                                   >
-                                    {generating[key] || "Gerar Reel IA"}
+                                    {generating[key] || "Gerar Short IA"}
                                   </button>
                                   {generatedImages[`${key}-img`] && (
                                     <a href={generatedImages[`${key}-img`]} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded-lg bg-blue-600/20 text-blue-400 text-xs min-h-[44px] flex items-center">
@@ -489,7 +493,7 @@ export default function CalendarPage() {
                                   )}
                                   {generatedImages[key] && (
                                     <a href={generatedImages[key]} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded-lg bg-green-600/30 text-green-400 text-xs min-h-[44px] flex items-center">
-                                      Ver vídeo
+                                      Ver short
                                     </a>
                                   )}
                                 </>
