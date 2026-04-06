@@ -1,13 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
 
+// Allow up to 60s for fal.ai to generate the image
+export const maxDuration = 60;
+
 /**
  * Generate a post image via fal.ai based on the caption text.
+ * Uses synchronous fal.run — waits for the image and returns it directly.
  *
  * POST /api/admin/generate-post-image
  * { caption: string, albumTitle?: string }
- *
- * Returns: { imageUrl: string } or { taskId: string, status: "IN_QUEUE" }
+ * Returns: { imageUrl: string }
  */
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
@@ -23,12 +26,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ erro: "caption é obrigatório." }, { status: 400 });
   }
 
-  // Extract the poetic/emotional essence from the caption for the image prompt
   const visualPrompt = buildVisualPrompt(caption, albumTitle);
 
   try {
-    // Use fal.ai flux-pro for high-quality image generation
-    const response = await fetch("https://queue.fal.run/fal-ai/flux-pro/v1.1", {
+    // Synchronous call — fal.run waits for the result
+    const response = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
       method: "POST",
       headers: {
         "Authorization": `Key ${falKey}`,
@@ -44,37 +46,25 @@ export async function POST(req: NextRequest) {
 
     if (!response.ok) {
       const err = await response.text();
-      return NextResponse.json({ erro: `fal.ai error: ${err}` }, { status: 502 });
+      return NextResponse.json({ erro: `fal.ai: ${response.status} — ${err}` }, { status: 502 });
     }
 
     const data = await response.json();
 
-    // queue.fal.run returns request_id for async processing
-    if (data.request_id && !data.images) {
-      return NextResponse.json({ taskId: data.request_id, status: "IN_QUEUE" });
-    }
-
-    // If we get images directly (sync response)
     if (data.images?.[0]?.url) {
       return NextResponse.json({ imageUrl: data.images[0].url });
     }
 
-    return NextResponse.json({ erro: "Resposta inesperada do fal.ai", data }, { status: 502 });
+    return NextResponse.json({ erro: "fal.ai não devolveu imagem.", data }, { status: 502 });
   } catch (e) {
     return NextResponse.json({ erro: `Erro: ${(e as Error).message}` }, { status: 500 });
   }
 }
 
-/**
- * Transform a Portuguese/English caption into a visual prompt for image generation.
- * Extracts the emotional mood and creates a cinematic scene description.
- */
 function buildVisualPrompt(caption: string, albumTitle?: string): string {
-  // Extract just the quoted verse/poetry part (between quotes)
   const verseMatch = caption.match(/"([^"]+)"/);
   const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : "";
 
-  // Use the verse for emotional context, the rest for theme
   const cleanCaption = caption
     .replace(/"[^"]*"/g, "")
     .replace(/#\w+/g, "")

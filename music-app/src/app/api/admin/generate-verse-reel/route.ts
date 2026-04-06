@@ -1,15 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
 
+// Allow up to 60s for fal.ai to generate the image
+export const maxDuration = 60;
+
 /**
- * Step 1: Submit image generation to fal.ai (async queue).
+ * Generate a verse reel image via fal.ai (synchronous).
+ * Uses fal.run — waits for the image and returns it directly.
+ * Client then sends the imageUrl to /animate for Runway video.
  *
  * POST /api/admin/generate-verse-reel
  * { caption: string, albumSlug?: string, trackNumber?: number }
- *
- * Returns: { falTaskId: string, status: "QUEUED" }
- * Client must then poll /status?falTaskId=xxx
- * When image is ready, client calls /animate to send to Runway.
+ * Returns: { imageUrl: string }
  */
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
@@ -24,8 +26,8 @@ export async function POST(req: NextRequest) {
   const visualPrompt = buildVisualPrompt(caption);
 
   try {
-    // Submit to fal.ai queue (async — does NOT wait for result)
-    const falRes = await fetch("https://queue.fal.run/fal-ai/flux-pro/v1.1", {
+    // Synchronous call — fal.run waits for the result
+    const falRes = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
       method: "POST",
       headers: {
         "Authorization": `Key ${falKey}`,
@@ -41,23 +43,17 @@ export async function POST(req: NextRequest) {
 
     if (!falRes.ok) {
       const err = await falRes.text();
-      return NextResponse.json({ erro: `fal.ai: ${err}` }, { status: 502 });
+      return NextResponse.json({ erro: `fal.ai: ${falRes.status} — ${err}` }, { status: 502 });
     }
 
     const data = await falRes.json();
+    const imageUrl = data.images?.[0]?.url;
 
-    // Sync response (unlikely with queue but handle it)
-    if (data.images?.[0]?.url) {
-      return NextResponse.json({ imageUrl: data.images[0].url, albumSlug, trackNumber });
+    if (!imageUrl) {
+      return NextResponse.json({ erro: "fal.ai não devolveu imagem.", data }, { status: 502 });
     }
 
-    // Async — return task ID for polling
-    return NextResponse.json({
-      falTaskId: data.request_id,
-      status: "QUEUED",
-      albumSlug,
-      trackNumber,
-    });
+    return NextResponse.json({ imageUrl, albumSlug, trackNumber });
   } catch (e) {
     return NextResponse.json({ erro: `Erro: ${(e as Error).message}` }, { status: 500 });
   }
