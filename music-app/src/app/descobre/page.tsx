@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRecommendations } from "@/hooks/useRecommendations";
@@ -23,12 +24,28 @@ const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }>
   mare: { pt: "Maré", en: "Tide", sub: "O que vai e volta" },
 };
 
-function getFeaturedAlbum(product: string): Album | null {
+function getFeaturedAlbum(product: string, publishedKeys: Set<string>): Album | null {
+  // Prefer an album that has published audio (and therefore covers)
+  const published = ALL_ALBUMS.find(
+    (a) => a.product === product && a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
+  );
+  if (published) return published;
+  // Fallback to first album in collection
   return ALL_ALBUMS.find((a) => a.product === product) || null;
 }
 
 export default function DescobrePage() {
   const recommendations = useRecommendations(16);
+  const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
+
+  useEffect(() => {
+    fetch("/api/published-tracks")
+      .then((r) => r.json())
+      .then((data: { tracks?: string[] }) => {
+        if (data.tracks) setPublishedKeys(new Set(data.tracks));
+      })
+      .catch(() => {});
+  }, []);
 
   const géneros = ALL_LISTS.filter((l) => l.category === "genero");
   const moods = ALL_LISTS.filter((l) => l.category === "mood");
@@ -87,7 +104,7 @@ export default function DescobrePage() {
           <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">Colecções</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {COLLECTION_PRODUCTS.map((product) => {
-              const album = getFeaturedAlbum(product);
+              const album = getFeaturedAlbum(product, publishedKeys);
               const label = COLLECTION_LABELS[product];
               if (!album || !label) return null;
               return (
@@ -96,13 +113,14 @@ export default function DescobrePage() {
                   href={`/album/${album.slug}`}
                   className="group block rounded-xl overflow-hidden"
                 >
-                  <div className="aspect-square relative overflow-hidden bg-[#1a1a2e]">
+                  <div className="aspect-square relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}44)` }}>
                     <Image
                       src={getTrackCoverUrl(album.slug, 1)}
                       alt={label.pt}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform brightness-50"
                       unoptimized
+                      onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                     />
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
                       <span className="text-xl font-semibold text-white">{label.pt}</span>
