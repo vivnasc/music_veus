@@ -29,10 +29,14 @@ function getImageMood(albumSlug: string): string {
   return "iconic";
 }
 
-function pickLorannImage(albumSlug: string, trackNumber: number): string {
+function pickLorannImages(albumSlug: string, trackNumber: number, count: number): string[] {
   const mood = getImageMood(albumSlug);
   const images = LORANNE_IMAGES[mood] || LORANNE_IMAGES.iconic;
-  return images[(trackNumber - 1) % images.length];
+  const result: string[] = [];
+  for (let i = 0; i < count; i++) {
+    result.push(images[(trackNumber - 1 + i) % images.length]);
+  }
+  return result;
 }
 
 type ContentAction = {
@@ -462,59 +466,86 @@ export default function CalendarPage() {
                                       const track = alb.tracks.find(t => t.number === trackNum);
                                       if (!track) { alert("Faixa não encontrada"); return; }
 
-                                      // Pick Loranne image based on mood
-                                      const lorannImg = pickLorannImage(albumSlug, trackNum);
-
-                                      setGenerating(p => ({ ...p, [key]: "1/3 A enviar para Runway..." }));
                                       try {
-                                        // Step 1: Send Loranne image to Runway
-                                        const imgUrl = `${window.location.origin}${lorannImg}`;
-                                        const runRes = await adminFetch("/api/admin/runway/generate", {
+                                        // Step 1: Generate AI image from verse (fal.ai)
+                                        setGenerating(p => ({ ...p, [key]: "1/4 A gerar imagem IA do verso..." }));
+                                        const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
                                           method: "POST",
                                           headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({
-                                            albumSlug,
-                                            trackNumber: trackNum,
-                                            imageUrl: imgUrl,
-                                            promptText: "Slow cinematic movement, gentle fabric flowing, subtle light shift, ethereal and dreamy atmosphere, the veil moves softly",
-                                            duration: 5,
-                                            ratio: "720:1280",
-                                          }),
+                                          body: JSON.stringify({ caption: action.caption || track.description }),
                                         });
-                                        const runData = await runRes.json();
-                                        if (!runRes.ok) { alert(`Runway: ${runData.erro || JSON.stringify(runData)}`); return; }
+                                        const aiData = await aiRes.json();
+                                        if (!aiRes.ok || !aiData.imageUrls?.[0]) { alert(`fal.ai: ${aiData.erro || JSON.stringify(aiData)}`); return; }
+                                        const aiImageUrl = aiData.imageUrls[0];
 
-                                        // If video already exists, use it
-                                        if (runData.status === "exists" && runData.videoUrl) {
-                                          setGenerating(p => ({ ...p, [key]: "2/3 A compor com música..." }));
-                                        } else if (runData.taskId) {
-                                          // Step 2: Poll Runway
-                                          setGenerating(p => ({ ...p, [key]: "2/3 Runway a processar..." }));
-                                          const params = new URLSearchParams({ taskId: runData.taskId, album: albumSlug, track: String(trackNum) });
-                                          let videoReady = false;
+                                        // Step 2: Pick 2 Loranne images + 1 AI image → send 3 to Runway in parallel
+                                        const loranneImgs = pickLorannImages(albumSlug, trackNum, 2);
+                                        const imageUrls = [
+                                          `${window.location.origin}${loranneImgs[0]}`,
+                                          aiImageUrl,
+                                          `${window.location.origin}${loranneImgs[1]}`,
+                                        ];
+
+                                        setGenerating(p => ({ ...p, [key]: "2/4 A enviar 3 clips para Runway..." }));
+                                        const runwayPrompts = [
+                                          "Slow cinematic movement, gentle fabric flowing, subtle light shift, ethereal atmosphere, the veil moves softly",
+                                          "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
+                                          "Gentle camera drift, soft fabric movement, light particles floating, intimate and warm atmosphere",
+                                        ];
+
+                                        const runwayResults = await Promise.all(imageUrls.map(async (imgUrl, idx) => {
+                                          const res = await adminFetch("/api/admin/runway/generate", {
+                                            method: "POST",
+                                            headers: { "Content-Type": "application/json" },
+                                            body: JSON.stringify({
+                                              albumSlug,
+                                              trackNumber: trackNum * 10 + idx, // unique per clip
+                                              imageUrl: imgUrl,
+                                              promptText: runwayPrompts[idx],
+                                              duration: 5,
+                                              ratio: "720:1280",
+                                            }),
+                                          });
+                                          return res.json();
+                                        }));
+
+                                        // Step 3: Poll all Runway tasks
+                                        setGenerating(p => ({ ...p, [key]: "3/4 Runway a processar 3 clips..." }));
+                                        const clipUrls: string[] = [];
+                                        const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+
+                                        for (let idx = 0; idx < runwayResults.length; idx++) {
+                                          const rd = runwayResults[idx];
+                                          if (rd.status === "exists" && rd.videoUrl) {
+                                            clipUrls.push(rd.videoUrl);
+                                            continue;
+                                          }
+                                          if (!rd.taskId) { alert(`Runway clip ${idx + 1}: ${rd.erro || JSON.stringify(rd)}`); return; }
+
+                                          const params = new URLSearchParams({ taskId: rd.taskId });
+                                          let found = false;
                                           for (let i = 0; i < 120; i++) {
                                             await new Promise(r => setTimeout(r, 3000));
                                             const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
                                             const sData = await sRes.json();
-                                            if (sData.status === "complete" && sData.videoUrl) { videoReady = true; break; }
-                                            if (sData.status === "error") { alert(`Runway: ${sData.error}`); return; }
-                                            setGenerating(p => ({ ...p, [key]: `2/3 Runway... ${Math.min(Math.round(i * 1.2), 95)}%` }));
+                                            if (sData.status === "complete" && sData.videoUrl) {
+                                              clipUrls.push(sData.videoUrl);
+                                              found = true;
+                                              break;
+                                            }
+                                            if (sData.status === "error") { alert(`Runway clip ${idx + 1}: ${sData.error}`); return; }
+                                            setGenerating(p => ({ ...p, [key]: `3/4 Clip ${idx + 1}/3... ${Math.min(Math.round(i * 1.2), 95)}%` }));
                                           }
-                                          if (!videoReady) { alert("Timeout — Runway não terminou."); return; }
-                                        } else {
-                                          alert(`Resposta inesperada: ${JSON.stringify(runData)}`); return;
+                                          if (!found) { alert(`Timeout no clip ${idx + 1}`); return; }
                                         }
 
-                                        // Step 3: Compose short (Runway video + track audio)
-                                        setGenerating(p => ({ ...p, [key]: "3/3 A compor short com música..." }));
-                                        const safeAlbum = albumSlug.replace(/[^a-z0-9-]/g, "");
-                                        const safeTrack = String(trackNum).padStart(2, "0");
-                                        const hookVideoUrl = `${process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co"}/storage/v1/object/public/audios/albums/${safeAlbum}/faixa-${safeTrack}-hook.mp4`;
+                                        // Step 4: Compose short (3 clips + track audio)
+                                        setGenerating(p => ({ ...p, [key]: "4/4 A montar vídeo com música..." }));
                                         const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNum}`;
 
                                         const { composeShort } = await import("@/lib/short-composer");
-                                        const blob = await composeShort(hookVideoUrl, audioSrc, track, alb, (p) => {
-                                          setGenerating(prev => ({ ...prev, [key]: `3/3 ${p.message}` }));
+                                        const blob = await composeShort(clipUrls, audioSrc, track, alb, (p) => {
+                                          setGenerating(prev => ({ ...prev, [key]: `4/4 ${p.message}` }));
                                         });
 
                                         // Download
@@ -523,7 +554,6 @@ export default function CalendarPage() {
                                         a.href = URL.createObjectURL(blob);
                                         a.download = `${track.title} — Loranne.${ext}`;
                                         a.click();
-
                                         setGeneratedImages(p => ({ ...p, [key]: "done" }));
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);

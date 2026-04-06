@@ -1,14 +1,12 @@
 /**
- * Compose a music short from a Runway video + track audio.
- * Loops the video to fill the duration, mixes with track audio,
- * and overlays verse text + branding.
+ * Compose a music short from multiple Runway video clips + track audio.
+ * Plays clips in sequence, overlays verse text + branding, records with MediaRecorder.
  *
- * Result: a proper 15s music short for Instagram Reels / YouTube Shorts.
+ * Result: 15s video with multiple scenes + track music.
  */
 
 import type { Album, AlbumTrack } from "@/data/albums";
 
-const SHORT_DURATION = 15;
 const FPS = 30;
 const SHORT_W = 1080;
 const SHORT_H = 1920;
@@ -41,43 +39,67 @@ function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number)
   return lines;
 }
 
+function getMime(): string {
+  const candidates = [
+    'video/mp4;codecs="avc1.42E01E,mp4a.40.2"',
+    "video/mp4",
+    "video/webm;codecs=vp9,opus",
+    "video/webm;codecs=vp8,opus",
+    "video/webm",
+  ];
+  for (const mime of candidates) {
+    if (typeof MediaRecorder !== "undefined" && MediaRecorder.isTypeSupported(mime)) return mime;
+  }
+  return "video/webm";
+}
+
+async function loadVideo(url: string): Promise<HTMLVideoElement> {
+  const video = document.createElement("video");
+  video.crossOrigin = "anonymous";
+  video.muted = true;
+  video.playsInline = true;
+  video.preload = "auto";
+  await new Promise<void>((resolve, reject) => {
+    video.oncanplaythrough = () => resolve();
+    video.onerror = () => reject(new Error(`Vídeo não carregou: ${url}`));
+    video.src = url;
+    video.load();
+  });
+  return video;
+}
+
 export type ShortProgress = {
-  phase: "loading" | "recording" | "finalizing" | "done" | "error";
+  phase: string;
   progress: number;
   message: string;
 };
 
+/**
+ * @param clipUrls — Array of Runway video URLs (each ~5s)
+ * @param audioSrc — Track audio URL
+ */
 export async function composeShort(
-  videoUrl: string,
+  clipUrls: string[],
   audioSrc: string,
   track: AlbumTrack,
   album: Album,
   onProgress?: (p: ShortProgress) => void,
   audioStartSeconds?: number,
 ): Promise<Blob> {
-  const report = (phase: ShortProgress["phase"], progress: number, message: string) => {
+  const report = (phase: string, progress: number, message: string) => {
     onProgress?.({ phase, progress, message });
   };
 
-  report("loading", 0, "A carregar vídeo...");
+  if (clipUrls.length === 0) throw new Error("Sem clips de vídeo");
 
-  // Load video
-  const video = document.createElement("video");
-  video.crossOrigin = "anonymous";
-  video.muted = true;
-  video.playsInline = true;
-  video.preload = "auto";
-
-  await new Promise<void>((resolve, reject) => {
-    video.oncanplaythrough = () => resolve();
-    video.onerror = () => reject(new Error("Vídeo não carregou"));
-    video.src = videoUrl;
-    video.load();
-  });
-
-  report("loading", 0.3, "A carregar áudio...");
+  // Load all video clips
+  report("loading", 0, "A carregar clips...");
+  const clips = await Promise.all(clipUrls.map(url => loadVideo(url)));
+  const clipDurations = clips.map(v => v.duration || 5);
+  const totalDuration = clipDurations.reduce((a, b) => a + b, 0);
 
   // Load audio
+  report("loading", 0.4, "A carregar áudio...");
   const audioResponse = await fetch(audioSrc);
   if (!audioResponse.ok) throw new Error(`Áudio não disponível (${audioResponse.status})`);
   const audioArrayBuffer = await audioResponse.arrayBuffer();
@@ -85,12 +107,11 @@ export async function composeShort(
   const audioBuffer = await audioCtx.decodeAudioData(audioArrayBuffer);
 
   const startOffset = audioStartSeconds !== undefined
-    ? Math.min(audioStartSeconds, Math.max(0, audioBuffer.duration - SHORT_DURATION))
-    : Math.min(30, Math.max(0, audioBuffer.duration - SHORT_DURATION - 5));
+    ? Math.min(audioStartSeconds, Math.max(0, audioBuffer.duration - totalDuration))
+    : Math.min(30, Math.max(0, audioBuffer.duration - totalDuration - 5));
 
-  report("loading", 0.6, "A configurar gravação...");
-
-  // Canvas for compositing
+  // Canvas
+  report("loading", 0.7, "A configurar...");
   const canvas = document.createElement("canvas");
   canvas.width = SHORT_W;
   canvas.height = SHORT_H;
@@ -108,7 +129,6 @@ export async function composeShort(
     ...destination.stream.getAudioTracks(),
   ]);
 
-  // MediaRecorder
   const mimeType = getMime();
   const recorder = new MediaRecorder(combined, {
     mimeType,
@@ -118,44 +138,61 @@ export async function composeShort(
   const chunks: Blob[] = [];
   recorder.ondataavailable = (e) => { if (e.data.size > 0) chunks.push(e.data); };
 
-  // Verse text
   const verse = pickLyric(track);
 
   // Start recording
   report("recording", 0, "A gravar...");
   recorder.start(100);
-  bufferSource.start(0, startOffset, SHORT_DURATION + 0.5);
+  bufferSource.start(0, startOffset, totalDuration + 0.5);
 
-  // Play video looped
-  video.currentTime = 0;
-  await video.play();
+  // Play clips in sequence
+  const totalFrames = Math.round(totalDuration * FPS);
+  let currentClipIdx = 0;
+  let clipStartTime = 0;
 
-  const totalFrames = SHORT_DURATION * FPS;
-  const videoDuration = video.duration || 5;
+  // Start first clip
+  clips[0].currentTime = 0;
+  await clips[0].play();
 
   for (let frame = 0; frame < totalFrames; frame++) {
     const t = frame / FPS;
 
-    // Loop video
-    const videoTime = t % videoDuration;
-    if (Math.abs(video.currentTime - videoTime) > 0.2) {
-      video.currentTime = videoTime;
+    // Determine which clip to show
+    let elapsed = 0;
+    for (let i = 0; i < clips.length; i++) {
+      if (t < elapsed + clipDurations[i]) {
+        if (i !== currentClipIdx) {
+          // Switch clip
+          clips[currentClipIdx].pause();
+          currentClipIdx = i;
+          clipStartTime = elapsed;
+          clips[i].currentTime = 0;
+          await clips[i].play();
+        }
+        break;
+      }
+      elapsed += clipDurations[i];
     }
 
-    // Draw video frame scaled to fill canvas (cover)
-    const vw = video.videoWidth || SHORT_W;
-    const vh = video.videoHeight || SHORT_H;
+    const activeClip = clips[currentClipIdx];
+
+    // Draw video frame (cover fit)
+    const vw = activeClip.videoWidth || SHORT_W;
+    const vh = activeClip.videoHeight || SHORT_H;
     const scale = Math.max(SHORT_W / vw, SHORT_H / vh);
     const dw = vw * scale;
     const dh = vh * scale;
     const dx = (SHORT_W - dw) / 2;
     const dy = (SHORT_H - dh) / 2;
-    ctx.drawImage(video, dx, dy, dw, dh);
 
-    // Verse text (fade in at 1s, fade out at 13s)
+    ctx.fillStyle = "#000";
+    ctx.fillRect(0, 0, SHORT_W, SHORT_H);
+    ctx.drawImage(activeClip, dx, dy, dw, dh);
+
+    // Verse text (fade in/out)
     if (verse) {
-      const fadeIn = Math.min(1, t / 1);
-      const fadeOut = t > SHORT_DURATION - 2 ? Math.max(0, (SHORT_DURATION - t) / 2) : 1;
+      const fadeIn = Math.min(1, t / 1.5);
+      const fadeOut = t > totalDuration - 2 ? Math.max(0, (totalDuration - t) / 2) : 1;
       const alpha = fadeIn * fadeOut;
 
       ctx.save();
@@ -168,16 +205,16 @@ export async function composeShort(
 
       const lines = wrapText(ctx, verse, SHORT_W - 120);
       const lineHeight = 58;
-      const textY = SHORT_H * 0.7;
+      const textY = SHORT_H * 0.72;
       lines.forEach((line, i) => {
         ctx.fillText(line, SHORT_W / 2, textY + i * lineHeight);
       });
       ctx.restore();
     }
 
-    // Branding (bottom)
+    // Branding
     ctx.save();
-    const brandAlpha = frame > FPS * 2 ? 0.7 : (frame / (FPS * 2)) * 0.7;
+    const brandAlpha = Math.min(0.8, t / 2);
     ctx.globalAlpha = brandAlpha;
     ctx.font = "bold 24px Georgia, serif";
     ctx.fillStyle = "rgba(201, 169, 110, 1)";
@@ -195,38 +232,19 @@ export async function composeShort(
       report("recording", frame / totalFrames, `A gravar... ${Math.round((frame / totalFrames) * 100)}%`);
     }
 
-    // Wait for next frame
     await new Promise(r => setTimeout(r, 1000 / FPS));
   }
 
   // Stop
-  video.pause();
+  clips.forEach(v => v.pause());
   bufferSource.stop();
   recorder.stop();
 
-  report("finalizing", 0.9, "A finalizar...");
-
-  await new Promise<void>(resolve => {
-    recorder.onstop = () => resolve();
-  });
-
+  report("finalizing", 0.95, "A finalizar...");
+  await new Promise<void>(resolve => { recorder.onstop = () => resolve(); });
   await audioCtx.close();
 
   const blob = new Blob(chunks, { type: mimeType });
   report("done", 1, "Pronto!");
   return blob;
-}
-
-function getMime(): string {
-  const candidates = [
-    'video/mp4;codecs="avc1.42E01E,mp4a.40.2"',
-    "video/mp4",
-    "video/webm;codecs=vp9,opus",
-    "video/webm;codecs=vp8,opus",
-    "video/webm",
-  ];
-  for (const mime of candidates) {
-    if (typeof MediaRecorder !== "undefined" && MediaRecorder.isTypeSupported(mime)) return mime;
-  }
-  return "video/webm";
 }
