@@ -42,6 +42,64 @@ function pickVerse(slug: string, trackNum: number): string {
   return lines[0]?.trim() || "";
 }
 
+/**
+ * Overlay verse text + branding on a background image using browser canvas.
+ * Returns a data URL of the final composite image.
+ */
+async function overlayTextOnImage(bgUrl: string, verse: string): Promise<string> {
+  const SIZE = 1080;
+  const canvas = document.createElement("canvas");
+  canvas.width = SIZE;
+  canvas.height = SIZE;
+  const ctx = canvas.getContext("2d")!;
+
+  // Load background
+  const img = new Image();
+  img.crossOrigin = "anonymous";
+  await new Promise<void>((resolve, reject) => {
+    img.onload = () => resolve();
+    img.onerror = reject;
+    img.src = bgUrl;
+  });
+  ctx.drawImage(img, 0, 0, SIZE, SIZE);
+
+  // Dark overlay for text readability
+  ctx.fillStyle = "rgba(0, 0, 0, 0.45)";
+  ctx.fillRect(0, 0, SIZE, SIZE);
+
+  // Verse text
+  if (verse) {
+    const lines = verse.split("\n").filter(l => l.trim());
+    const fontSize = lines.length > 6 ? 36 : lines.length > 4 ? 42 : 48;
+    ctx.font = `italic ${fontSize}px Georgia, serif`;
+    ctx.fillStyle = "#FFFFFF";
+    ctx.textAlign = "center";
+    ctx.shadowColor = "rgba(0,0,0,0.6)";
+    ctx.shadowBlur = 8;
+
+    const lineHeight = fontSize * 1.5;
+    const totalHeight = lines.length * lineHeight;
+    let y = (SIZE - totalHeight) / 2 + fontSize;
+
+    for (const line of lines) {
+      ctx.fillText(line.trim(), SIZE / 2, y, SIZE - 120);
+      y += lineHeight;
+    }
+  }
+
+  // Branding
+  ctx.shadowBlur = 0;
+  ctx.font = "20px Georgia, serif";
+  ctx.fillStyle = "rgba(201, 169, 110, 0.8)";
+  ctx.textAlign = "center";
+  ctx.fillText("Loranne", SIZE / 2, SIZE - 50);
+  ctx.font = "14px sans-serif";
+  ctx.fillStyle = "rgba(255, 255, 255, 0.4)";
+  ctx.fillText("music.seteveus.space", SIZE / 2, SIZE - 28);
+
+  return canvas.toDataURL("image/png");
+}
+
 const PLAN: DayPlan[] = [
   // ── SEMANA 1: Lançamento "Os Sete Temas do Despertar" ──
   { date: "2026-04-01", actions: [
@@ -387,19 +445,23 @@ export default function CalendarPage() {
                                   <button
                                     disabled={!!generating[key]}
                                     onClick={async () => {
-                                      setGenerating(p => ({ ...p, [key]: "A gerar imagem..." }));
+                                      setGenerating(p => ({ ...p, [key]: "A gerar fundo..." }));
                                       try {
+                                        // Step 1: Get background image from fal.ai
                                         const res = await adminFetch("/api/admin/generate-post-image", {
                                           method: "POST",
                                           headers: { "Content-Type": "application/json" },
                                           body: JSON.stringify({ caption: action.caption || "", albumTitle: getAlbumTitle(action.albumSlug) }),
                                         });
                                         const data = await res.json();
-                                        if (!res.ok || !data.imageUrl) {
-                                          alert(`Erro: ${data.erro || JSON.stringify(data)}`);
-                                          return;
-                                        }
-                                        setGeneratedImages(p => ({ ...p, [key]: data.imageUrl }));
+                                        if (!res.ok || !data.imageUrl) { alert(`Erro: ${data.erro || JSON.stringify(data)}`); return; }
+
+                                        // Step 2: Overlay text on canvas
+                                        setGenerating(p => ({ ...p, [key]: "A compor imagem..." }));
+                                        const verseMatch = (action.caption || "").match(/"([^"]+)"/);
+                                        const verse = verseMatch ? verseMatch[1].replace(/\\n/g, "\n") : "";
+                                        const finalUrl = await overlayTextOnImage(data.imageUrl, verse);
+                                        setGeneratedImages(p => ({ ...p, [key]: finalUrl }));
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);
                                       } finally {
@@ -408,12 +470,15 @@ export default function CalendarPage() {
                                     }}
                                     className="px-3 py-1.5 rounded-lg bg-blue-600/30 text-blue-400 text-xs min-h-[44px]"
                                   >
-                                    {generating[key] || "Gerar Imagem IA"}
+                                    {generating[key] || "Gerar Post IA"}
                                   </button>
                                   {generatedImages[key] && (
-                                    <a href={generatedImages[key]} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded-lg bg-green-600/30 text-green-400 text-xs min-h-[44px] flex items-center">
-                                      Ver imagem
-                                    </a>
+                                    <>
+                                      <a href={generatedImages[key]} download={`post-${action.albumSlug}.png`} className="px-3 py-1.5 rounded-lg bg-green-600/30 text-green-400 text-xs min-h-[44px] flex items-center">
+                                        Descarregar
+                                      </a>
+                                      <img src={generatedImages[key]} alt="Preview" className="mt-2 w-full max-w-[300px] rounded-lg" />
+                                    </>
                                   )}
                                 </>
                               )}
