@@ -361,6 +361,19 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     const queue = trackList || album.tracks;
     setSourceAndPlay(audio, track, album, blobUrlRef);
 
+    // Fire-and-forget play event tracking
+    fetch("/api/music/play-event", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        albumSlug: album.slug,
+        trackNumber: track.number,
+        energy: track.energy,
+        flavor: track.flavor,
+        duration: track.duration,
+      }),
+    }).catch(() => {});
+
     setState(s => ({
       ...s,
       currentTrack: track,
