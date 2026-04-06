@@ -467,23 +467,22 @@ export default function CalendarPage() {
                                       if (!track) { alert("Faixa não encontrada"); return; }
 
                                       try {
-                                        // Step 1: Generate AI image from verse (fal.ai)
-                                        setGenerating(p => ({ ...p, [key]: "1/4 A gerar imagem IA do verso..." }));
+                                        // Step 1: Generate 2 AI images from verse (fal.ai)
+                                        setGenerating(p => ({ ...p, [key]: "1/4 A gerar 2 imagens IA..." }));
                                         const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
                                           method: "POST",
                                           headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({ caption: action.caption || track.description }),
+                                          body: JSON.stringify({ caption: action.caption || track.description, numImages: 2 }),
                                         });
                                         const aiData = await aiRes.json();
-                                        if (!aiRes.ok || !aiData.imageUrls?.[0]) { alert(`fal.ai: ${aiData.erro || JSON.stringify(aiData)}`); return; }
-                                        const aiImageUrl = aiData.imageUrls[0];
+                                        if (!aiRes.ok || !aiData.imageUrls?.length) { alert(`fal.ai: ${aiData.erro || JSON.stringify(aiData)}`); return; }
 
-                                        // Step 2: Pick 2 Loranne images + 1 AI image → send 3 to Runway in parallel
-                                        const loranneImgs = pickLorannImages(albumSlug, trackNum, 2);
+                                        // Step 2: 1 Loranne + 2 AI → send 3 to Runway in parallel
+                                        const loranneImgs = pickLorannImages(albumSlug, trackNum, 1);
                                         const imageUrls = [
                                           `${window.location.origin}${loranneImgs[0]}`,
-                                          aiImageUrl,
-                                          `${window.location.origin}${loranneImgs[1]}`,
+                                          aiData.imageUrls[0],
+                                          aiData.imageUrls[1] || aiData.imageUrls[0],
                                         ];
 
                                         setGenerating(p => ({ ...p, [key]: "2/4 A enviar 3 clips para Runway..." }));
