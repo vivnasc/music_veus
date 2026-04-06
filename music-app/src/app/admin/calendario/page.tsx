@@ -177,6 +177,8 @@ function isPast(iso: string): boolean {
 export default function CalendarPage() {
   const [doneState, setDoneState] = useState<Record<string, boolean>>({});
   const [expandedCaption, setExpandedCaption] = useState<string | null>(null);
+  const [generatedImages, setGeneratedImages] = useState<Record<string, string>>({});
+  const [generating, setGenerating] = useState<Record<string, string>>({});
 
   // Load from localStorage on mount (client-only)
   useEffect(() => {
@@ -319,61 +321,39 @@ export default function CalendarPage() {
                                 </button>
                               )}
                               {action.type === "reel" && action.caption && (
-                                <button
-                                  onClick={async (e) => {
-                                    const btn = e.currentTarget;
-                                    const origText = btn.textContent;
-                                    btn.textContent = "A gerar imagem...";
-                                    btn.disabled = true;
-                                    try {
-                                      // Step 1: Generate image (sync — API waits up to 60s)
-                                      const res = await adminFetch("/api/admin/generate-verse-reel", {
-                                        method: "POST",
-                                        headers: { "Content-Type": "application/json" },
-                                        body: JSON.stringify({ caption: action.caption, albumSlug: action.albumSlug, trackNumber: action.trackNumber }),
-                                      });
-                                      const data = await res.json();
-                                      if (!res.ok) { alert(`Erro ${res.status}: ${data.erro || JSON.stringify(data)}`); return; }
-                                      if (!data.imageUrl) { alert(`Sem imagem: ${JSON.stringify(data)}`); return; }
-
-                                      window.open(data.imageUrl, "_blank");
-
-                                      // Step 2: Animate with Runway
-                                      btn.textContent = "A enviar para Runway...";
-                                      const animRes = await adminFetch("/api/admin/generate-verse-reel/animate", {
-                                        method: "POST",
-                                        headers: { "Content-Type": "application/json" },
-                                        body: JSON.stringify({ imageUrl: data.imageUrl, caption: action.caption, albumSlug: action.albumSlug, trackNumber: action.trackNumber }),
-                                      });
-                                      const animData = await animRes.json();
-                                      if (!animRes.ok) { alert(`Runway: ${animData.erro || JSON.stringify(animData)}`); return; }
-
-                                      if (animData.runwayTaskId) {
-                                        const params = new URLSearchParams({ taskId: animData.runwayTaskId });
-                                        if (action.albumSlug) params.set("album", action.albumSlug);
-                                        if (action.trackNumber) params.set("track", String(action.trackNumber));
-                                        for (let i = 0; i < 90; i++) {
-                                          await new Promise(r => setTimeout(r, 3000));
-                                          const vRes = await adminFetch(`/api/admin/runway/status?${params}`);
-                                          const vData = await vRes.json();
-                                          if (vData.status === "complete" && vData.videoUrl) { window.open(vData.videoUrl, "_blank"); alert("Reel gerado!"); break; }
-                                          if (vData.status === "error") { alert(`Runway falhou: ${vData.error}`); break; }
-                                          btn.textContent = `A animar vídeo... ${Math.min(Math.round(i * 1.5), 95)}%`;
+                                <>
+                                  <button
+                                    disabled={!!generating[key]}
+                                    onClick={async () => {
+                                      setGenerating(p => ({ ...p, [key]: "A gerar imagem..." }));
+                                      try {
+                                        const res = await adminFetch("/api/admin/generate-verse-reel", {
+                                          method: "POST",
+                                          headers: { "Content-Type": "application/json" },
+                                          body: JSON.stringify({ caption: action.caption, albumSlug: action.albumSlug, trackNumber: action.trackNumber }),
+                                        });
+                                        const data = await res.json();
+                                        if (!res.ok || !data.imageUrl) {
+                                          alert(`Erro: ${data.erro || JSON.stringify(data)}`);
+                                          return;
                                         }
-                                      } else {
-                                        alert(`Sem taskId Runway: ${JSON.stringify(animData)}`);
+                                        setGeneratedImages(p => ({ ...p, [key]: data.imageUrl }));
+                                      } catch (err) {
+                                        alert(`Erro: ${(err as Error).message}`);
+                                      } finally {
+                                        setGenerating(p => { const n = { ...p }; delete n[key]; return n; });
                                       }
-                                    } catch (err) {
-                                      alert(`Erro: ${(err as Error).message}`);
-                                    } finally {
-                                      btn.textContent = origText;
-                                      btn.disabled = false;
-                                    }
-                                  }}
-                                  className="px-3 py-1.5 rounded-lg bg-violet-600/30 text-violet-400 text-xs min-h-[44px]"
-                                >
-                                  Gerar Reel IA
-                                </button>
+                                    }}
+                                    className="px-3 py-1.5 rounded-lg bg-violet-600/30 text-violet-400 text-xs min-h-[44px]"
+                                  >
+                                    {generating[key] || "Gerar Reel IA"}
+                                  </button>
+                                  {generatedImages[key] && (
+                                    <a href={generatedImages[key]} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded-lg bg-green-600/30 text-green-400 text-xs min-h-[44px] flex items-center">
+                                      Ver imagem
+                                    </a>
+                                  )}
+                                </>
                               )}
                               {action.type === "reel" && action.trackNumber && (
                                 <Link
@@ -403,37 +383,39 @@ export default function CalendarPage() {
                                 </button>
                               )}
                               {action.type === "post" && (
-                                <button
-                                  onClick={async (e) => {
-                                    const btn = e.currentTarget;
-                                    const origText = btn.textContent;
-                                    btn.textContent = "A gerar imagem...";
-                                    btn.disabled = true;
-                                    try {
-                                      // Sync call — API waits up to 60s for fal.ai result
-                                      const res = await adminFetch("/api/admin/generate-post-image", {
-                                        method: "POST",
-                                        headers: { "Content-Type": "application/json" },
-                                        body: JSON.stringify({ caption: action.caption || "", albumTitle: getAlbumTitle(action.albumSlug) }),
-                                      });
-                                      const data = await res.json();
-                                      if (!res.ok) { alert(`Erro ${res.status}: ${data.erro || JSON.stringify(data)}`); return; }
-                                      if (data.imageUrl) {
-                                        window.open(data.imageUrl, "_blank");
-                                      } else {
-                                        alert(`Sem imagem: ${JSON.stringify(data)}`);
+                                <>
+                                  <button
+                                    disabled={!!generating[key]}
+                                    onClick={async () => {
+                                      setGenerating(p => ({ ...p, [key]: "A gerar imagem..." }));
+                                      try {
+                                        const res = await adminFetch("/api/admin/generate-post-image", {
+                                          method: "POST",
+                                          headers: { "Content-Type": "application/json" },
+                                          body: JSON.stringify({ caption: action.caption || "", albumTitle: getAlbumTitle(action.albumSlug) }),
+                                        });
+                                        const data = await res.json();
+                                        if (!res.ok || !data.imageUrl) {
+                                          alert(`Erro: ${data.erro || JSON.stringify(data)}`);
+                                          return;
+                                        }
+                                        setGeneratedImages(p => ({ ...p, [key]: data.imageUrl }));
+                                      } catch (err) {
+                                        alert(`Erro: ${(err as Error).message}`);
+                                      } finally {
+                                        setGenerating(p => { const n = { ...p }; delete n[key]; return n; });
                                       }
-                                    } catch (e) {
-                                      alert(`Erro: ${(e as Error).message}`);
-                                    } finally {
-                                      btn.textContent = origText;
-                                      btn.disabled = false;
-                                    }
-                                  }}
-                                  className="px-3 py-1.5 rounded-lg bg-blue-600/30 text-blue-400 text-xs min-h-[44px]"
-                                >
-                                  Gerar Imagem IA
-                                </button>
+                                    }}
+                                    className="px-3 py-1.5 rounded-lg bg-blue-600/30 text-blue-400 text-xs min-h-[44px]"
+                                  >
+                                    {generating[key] || "Gerar Imagem IA"}
+                                  </button>
+                                  {generatedImages[key] && (
+                                    <a href={generatedImages[key]} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 rounded-lg bg-green-600/30 text-green-400 text-xs min-h-[44px] flex items-center">
+                                      Ver imagem
+                                    </a>
+                                  )}
+                                </>
                               )}
                             </div>
                           </div>

@@ -6,8 +6,6 @@ export const maxDuration = 60;
 
 /**
  * Generate a verse reel image via fal.ai (synchronous).
- * Uses fal.run — waits for the image and returns it directly.
- * Client then sends the imageUrl to /animate for Runway video.
  *
  * POST /api/admin/generate-verse-reel
  * { caption: string, albumSlug?: string, trackNumber?: number }
@@ -26,7 +24,6 @@ export async function POST(req: NextRequest) {
   const visualPrompt = buildVisualPrompt(caption);
 
   try {
-    // Synchronous call — fal.run waits for the result
     const falRes = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
       method: "POST",
       headers: {
@@ -37,7 +34,7 @@ export async function POST(req: NextRequest) {
         prompt: visualPrompt,
         image_size: { width: 720, height: 1280 },
         num_images: 1,
-        safety_tolerance: "5",
+        safety_tolerance: 5,
       }),
     });
 

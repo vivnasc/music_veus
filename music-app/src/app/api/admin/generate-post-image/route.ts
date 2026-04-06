@@ -29,7 +29,6 @@ export async function POST(req: NextRequest) {
   const visualPrompt = buildVisualPrompt(caption, albumTitle);
 
   try {
-    // Synchronous call — fal.run waits for the result
     const response = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
       method: "POST",
       headers: {
@@ -40,7 +39,7 @@ export async function POST(req: NextRequest) {
         prompt: visualPrompt,
         image_size: { width: 1080, height: 1080 },
         num_images: 1,
-        safety_tolerance: "5",
+        safety_tolerance: 5,
       }),
     });
 
