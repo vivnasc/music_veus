@@ -26,7 +26,7 @@ export default function NovidadesSection() {
     items.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
     const thirtyDaysAgo = Date.now() - 30 * 24 * 60 * 60 * 1000;
     const recent = items.filter(i => new Date(i.publishedAt).getTime() > thirtyDaysAgo);
-    return recent.length >= 3 ? recent.slice(0, 8) : items.slice(0, 6);
+    return recent.length >= 3 ? recent.slice(0, 6) : items.slice(0, 6);
   })();
 
   if (!loading && albums.length === 0) return null;
