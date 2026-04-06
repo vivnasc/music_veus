@@ -10,7 +10,7 @@ export const FASE1_LYRICS: Record<string, string> = {
   // CORPO ABERTO (yoga, corpo que flui)
   // ─────────────────────────────────────────────
 
-  "vida-corpo-aberto/1": `[Verse 1]
+  "fibra-corpo-aberto/1": `[Verse 1]
 O ar entra devagar
 Como se pedisse licença ao corpo
 O peito abre sem forçar
@@ -89,7 +89,7 @@ Estás aqui
 Sempre estiveste
 Respira`,
 
-  "vida-corpo-aberto/2": `[Verse 1]
+  "fibra-corpo-aberto/2": `[Verse 1]
 The shoulders hold a story
 Of everything unsaid
 A library of worry
@@ -168,7 +168,7 @@ You've always been
 Just stretch
 And see`,
 
-  "vida-corpo-aberto/3": `[Verse 1]
+  "fibra-corpo-aberto/3": `[Verse 1]
 Um pé no chão, o outro no ar
 O corpo oscila e não cai
 Há um centro que não sei nomear
@@ -244,7 +244,7 @@ De balançar
 Sem nunca cair
 De verdade`,
 
-  "vida-corpo-aberto/4": `[Verse 1]
+  "fibra-corpo-aberto/4": `[Verse 1]
 They said be strong, be rigid
 Stand tall and never break
 But strength was never frigid
@@ -320,7 +320,7 @@ And you will never
 Be broken
 Just reshaped`,
 
-  "vida-corpo-aberto/5": `[Verse 1]
+  "fibra-corpo-aberto/5": `[Verse 1]
 Deito-me no chão da sala
 O frio das tábuas entra pelo corpo
 A gravidade não fala
@@ -401,7 +401,7 @@ O peso do corpo
 É a coisa mais leve
 Que alguma vez senti`,
 
-  "vida-corpo-aberto/6": `[Verse 1]
+  "fibra-corpo-aberto/6": `[Verse 1]
 The jaw unclenches first
 A tiny revolution starts
 The fists that feared the worst
@@ -481,7 +481,7 @@ And lighter
 Is the bravest thing
 You've ever been`,
 
-  "vida-corpo-aberto/7": `[Verse 1]
+  "fibra-corpo-aberto/7": `[Verse 1]
 Nasce um movimento dentro
 Que não pedi nem forcei
 Como uma onda sem vento
@@ -559,7 +559,7 @@ Nunca esteve na cabeça
 Esteve sempre
 Nas mãos`,
 
-  "vida-corpo-aberto/8": `[Verse 1]
+  "fibra-corpo-aberto/8": `[Verse 1]
 The spine remembers standing
 Before the world pushed down
 Each vertebra demanding
@@ -638,7 +638,7 @@ The other holds
 You up
 From the inside`,
 
-  "vida-corpo-aberto/9": `[Verse 1]
+  "fibra-corpo-aberto/9": `[Verse 1]
 O corpo esquece os ossos
 Esquece que é matéria dura
 Torna-se rio entre poços
@@ -717,7 +717,7 @@ Foi água
 Sempre foi
 Água`,
 
-  "vida-corpo-aberto/10": `[Verse 1]
+  "fibra-corpo-aberto/10": `[Verse 1]
 The practice ends in silence
 The body hums with peace
 A quiet kind of guidance
@@ -805,7 +805,7 @@ Remember — namaste`,
   // TOALHA POSTA (comida, família, mesa)
   // ─────────────────────────────────────────────
 
-  "vida-toalha-posta/1": `[Verse 1]
+  "grao-toalha-posta/1": `[Verse 1]
 O cheiro sobe pelas escadas
 Entra nos quartos sem bater
 Acorda gente adormecida
@@ -882,7 +882,7 @@ Vem — há sempre lugar
 Para mais um prato
 E mais um abraço`,
 
-  "vida-toalha-posta/2": `[Verse 1]
+  "grao-toalha-posta/2": `[Verse 1]
 The table groans with weight
 Of dishes passed and stories told
 We're always slightly late
@@ -959,7 +959,7 @@ Same table
 Same chairs
 Same beautiful noise`,
 
-  "vida-toalha-posta/3": `[Verse 1]
+  "grao-toalha-posta/3": `[Verse 1]
 O primeiro gole desce devagar
 A pressa fica do lado de fora
 O mundo começa a abrandar
@@ -1038,7 +1038,7 @@ A casa, a porta
 A vida que fermentou
 Devagar`,
 
-  "vida-toalha-posta/4": `[Verse 1]
+  "grao-toalha-posta/4": `[Verse 1]
 The ink has faded brown
 The card is stained with oil
 Her handwriting slows me down
@@ -1113,7 +1113,7 @@ To this table
 To the place
 Where she never left`,
 
-  "vida-toalha-posta/5": `[Verse 1]
+  "grao-toalha-posta/5": `[Verse 1]
 Um grão de sal na ponta do dedo
 O prato acorda num segundo
 O sal não pede nem tem medo
@@ -1191,7 +1191,7 @@ Mora a sabedoria
 De quem cozinhou
 Com amor`,
 
-  "vida-toalha-posta/6": `[Verse 1]
+  "grao-toalha-posta/6": `[Verse 1]
 We've fought across this wood
 Slammed fists and broken bread
 Cried into the food
@@ -1271,7 +1271,7 @@ And remember
 This is what love
 Looks like`,
 
-  "vida-toalha-posta/7": `[Verse 1]
+  "grao-toalha-posta/7": `[Verse 1]
 O doce já acabou
 Mas ninguém se levantou
 A conversa é a sobremesa
@@ -1350,7 +1350,7 @@ O melhor da refeição
 É o que não se comeu
 Foi o que ficou`,
 
-  "vida-toalha-posta/8": `[Verse 1]
+  "grao-toalha-posta/8": `[Verse 1]
 The counter was too high
 I'd stand upon a chair
 And watch her hands fly by
@@ -1432,7 +1432,7 @@ Being safe
 Being small
 Being loved`,
 
-  "vida-toalha-posta/9": `[Verse 1]
+  "grao-toalha-posta/9": `[Verse 1]
 Levantem os copos todos
 Pelos que estão e os que virão
 Por todos os nossos modos
@@ -1514,7 +1514,7 @@ Aos copos que se partem
 De pé, sentados, juntos
 Sempre juntos`,
 
-  "vida-toalha-posta/10": `[Verse 1]
+  "grao-toalha-posta/10": `[Verse 1]
 The belt is slightly tight
 The top button undone
 The world feels warm and right
@@ -1602,7 +1602,7 @@ Full`,
   // SAL NA PELE (sol, praia, calor)
   // ─────────────────────────────────────────────
 
-  "vida-sal-na-pele/1": `[Verse 1]
+  "grao-sal-na-pele/1": `[Verse 1]
 O segundo antes do salto
 O ar quente colado na pele
 O mundo visto do alto
@@ -1678,7 +1678,7 @@ Aqui em baixo
 Do que alguma vez fui
 Lá em cima`,
 
-  "vida-sal-na-pele/2": `[Verse 1]
+  "grao-sal-na-pele/2": `[Verse 1]
 The ocean dries upon my arm
 A white and gentle trace
 The sun has done its simple charm
@@ -1754,7 +1754,7 @@ And wrote it
 On my skin
 For free`,
 
-  "vida-sal-na-pele/3": `[Verse 1]
+  "grao-sal-na-pele/3": `[Verse 1]
 O som que embala a sesta
 Começa antes de eu deitar
 A orquestra sem bilhete
@@ -1833,7 +1833,7 @@ Nem para onde vou
 Só me deixa dormir
 Ao som das cigarras`,
 
-  "vida-sal-na-pele/4": `[Verse 1]
+  "grao-sal-na-pele/4": `[Verse 1]
 A line across my shoulder
 Where the strap refused to move
 A memory that's bolder
@@ -1912,7 +1912,7 @@ A proof that you
 Showed up
 And lived`,
 
-  "vida-sal-na-pele/5": `[Verse 1]
+  "grao-sal-na-pele/5": `[Verse 1]
 A areia nos bolsos, nos sapatos
 Na mala, no cabelo, no carro
 A praia segue-me como um gato
@@ -1992,7 +1992,7 @@ Completamente embora
 E eu agradeço
 Cada grão que ficou`,
 
-  "vida-sal-na-pele/6": `[Verse 1]
+  "grao-sal-na-pele/6": `[Verse 1]
 The clock struck nine but the sky said no
 The golden light refused to leave
 As if the sun had nowhere to go
@@ -2072,7 +2072,7 @@ Endless
 Shining
 One`,
 
-  "vida-sal-na-pele/7": `[Verse 1]
+  "grao-sal-na-pele/7": `[Verse 1]
 O gelado pinga no braço
 A barquinha foge da mão
 Dois minutos de embaraço
@@ -2150,7 +2150,7 @@ Que o frio
 Encontrou o quente
 Na ponta da língua`,
 
-  "vida-sal-na-pele/8": `[Verse 1]
+  "grao-sal-na-pele/8": `[Verse 1]
 The shoes came off in May
 And haven't been seen since
 My feet found their own way
@@ -2227,7 +2227,7 @@ To come home
 And say hello
 Again`,
 
-  "vida-sal-na-pele/9": `[Verse 1]
+  "grao-sal-na-pele/9": `[Verse 1]
 O sol já foi mas o calor ficou
 A noite traz a sua própria luz
 A brisa morna que do mar soprou
@@ -2305,7 +2305,7 @@ A sentir o verão
 Passar devagar
 Pela pele`,
 
-  "vida-sal-na-pele/10": `[Verse 1]
+  "grao-sal-na-pele/10": `[Verse 1]
 The light has changed its angle
 The shadows stretch at four
 The breeze picks up a tangle
@@ -2391,7 +2391,7 @@ And you`,
   // ABRIGO (frio, aconchego, quietude)
   // ─────────────────────────────────────────────
 
-  "vida-abrigo/1": `[Verse 1]
+  "grao-abrigo/1": `[Verse 1]
 O som começa no telhado
 Primeiro leve, depois mais
 A casa fica do meu lado
@@ -2469,7 +2469,7 @@ Que a terra inventou
 Para quem precisa
 De parar`,
 
-  "vida-abrigo/2": `[Verse 1]
+  "grao-abrigo/2": `[Verse 1]
 The duvet wraps around me twice
 A fortress made of thread
 The world outside is cold as ice
@@ -2546,7 +2546,7 @@ That everything can wait
 Except this warmth
 This is mine`,
 
-  "vida-abrigo/3": `[Verse 1]
+  "grao-abrigo/3": `[Verse 1]
 A panela no fogão
 O vapor sobe e não pára
 O cheiro enche a divisão
@@ -2624,7 +2624,7 @@ Só aquece
 E isso é tudo
 Que o inverno precisa`,
 
-  "vida-abrigo/4": `[Verse 1]
+  "grao-abrigo/4": `[Verse 1]
 The flames don't ask for anything
 They dance because they can
 The oldest show on earth that sings
@@ -2699,7 +2699,7 @@ That's enough
 That's always been
 Enough`,
 
-  "vida-abrigo/5": `[Verse 1]
+  "grao-abrigo/5": `[Verse 1]
 Enrolo o cachecol duas vezes
 Três se o frio apertar
 Saio de casa como quem tece
@@ -2778,7 +2778,7 @@ Cada inverno
 Como se estivessem
 Aqui ao lado`,
 
-  "vida-abrigo/6": `[Verse 1]
+  "grao-abrigo/6": `[Verse 1]
 The sky has lost its colour
 But somehow gained its depth
 The grey is not a duller
@@ -2856,7 +2856,7 @@ That makes
 Everything else
 Glow`,
 
-  "vida-abrigo/7": `[Verse 1]
+  "grao-abrigo/7": `[Verse 1]
 A chávena entre as mãos
 O vapor sobe ao rosto
 As conversas são em vão
@@ -2934,7 +2934,7 @@ Enquanto o vapor
 Ainda sobe
 E a vida ainda pára`,
 
-  "vida-abrigo/8": `[Verse 1]
+  "grao-abrigo/8": `[Verse 1]
 It started with a whisper
 A single flake came down
 Then thousands joined its sister
@@ -3014,7 +3014,7 @@ Can start again
 Can always
 Start again`,
 
-  "vida-abrigo/9": `[Verse 1]
+  "grao-abrigo/9": `[Verse 1]
 As mãos geladas no bolso
 Procuram qualquer calor
 O inverno é um colosso
@@ -3092,7 +3092,7 @@ O pretexto mais bonito
 Para ficar
 Mais perto`,
 
-  "vida-abrigo/10": `[Verse 1]
+  "grao-abrigo/10": `[Verse 1]
 The key turns in the lock
 The warmth hits like a wall
 The coat falls on the hook
@@ -3176,7 +3176,7 @@ Is mine`,
   // PRIMEIRA LUZ (despertar, rituais matinais)
   // ─────────────────────────────────────────────
 
-  "vida-primeira-luz/1": `[Verse 1]
+  "grao-primeira-luz/1": `[Verse 1]
 O primeiro segundo é confuso
 A luz entra de lado
 O corpo ainda é um recluso
@@ -3254,7 +3254,7 @@ Do zero
 Sem medo
 Estou aqui`,
 
-  "vida-primeira-luz/2": `[Verse 1]
+  "grao-primeira-luz/2": `[Verse 1]
 Before the alarm, before the rush
 The sky begins to blush
 A painter with no audience
@@ -3333,7 +3333,7 @@ To wake
 One minute
 Earlier`,
 
-  "vida-primeira-luz/3": `[Verse 1]
+  "grao-primeira-luz/3": `[Verse 1]
 O som da máquina a moer
 O cheiro enche a cozinha
 Antes de tudo acontecer
@@ -3411,7 +3411,7 @@ Que é o templo
 Mais honesto
 Que conheço`,
 
-  "vida-primeira-luz/4": `[Verse 1]
+  "grao-primeira-luz/4": `[Verse 1]
 It screams at six fifteen
 The rudest sound alive
 A tiny little machine
@@ -3490,7 +3490,7 @@ Horrible
 Necessary
 Sound`,
 
-  "vida-primeira-luz/5": `[Verse 1]
+  "grao-primeira-luz/5": `[Verse 1]
 O gesto é quase nada
 A mão puxa o tecido
 A luz entra calada
@@ -3567,7 +3567,7 @@ Puxa a cortina
 E respira
 O dia é teu`,
 
-  "vida-primeira-luz/6": `[Verse 1]
+  "grao-primeira-luz/6": `[Verse 1]
 The water hits my shoulders
 And washes off the dream
 The night becomes much older
@@ -3647,7 +3647,7 @@ Into the day
 Lighter
 Than I walked in`,
 
-  "vida-primeira-luz/7": `[Verse 1]
+  "grao-primeira-luz/7": `[Verse 1]
 O papel na mesa espera
 A caneta já na mão
 Escrever o que se espera
@@ -3724,7 +3724,7 @@ De dizer ao dia
 Estou aqui
 E tenho um plano`,
 
-  "vida-primeira-luz/8": `[Verse 1]
+  "grao-primeira-luz/8": `[Verse 1]
 The door clicks shut behind me
 The air is sharp and new
 The pavement tries to find me
@@ -3805,7 +3805,7 @@ And the earth
 Having the oldest
 Conversation`,
 
-  "vida-primeira-luz/9": `[Verse 1]
+  "grao-primeira-luz/9": `[Verse 1]
 O espelho está embaciado
 O dedo limpa um círculo
 Do outro lado um rosto cansado
@@ -3886,7 +3886,7 @@ De manhã
 A coisa mais bonita
 Que o espelho já viu`,
 
-  "vida-primeira-luz/10": `[Verse 1]
+  "grao-primeira-luz/10": `[Verse 1]
 The curtains part, the light comes in
 A brand new page to write
 Whatever yesterday has been
@@ -3977,7 +3977,7 @@ Day`,
   // BOCA ABERTA (gargalhadas, leveza, brincadeira)
   // ─────────────────────────────────────────────
 
-  "vida-boca-aberta/1": `[Verse 1]
+  "grao-boca-aberta/1": `[Verse 1]
 Começa no fundo da barriga
 Um tremor que não se pede
 Uma coisa que obriga
@@ -4056,7 +4056,7 @@ Sem pedir
 Só rir
 Ri`,
 
-  "vida-boca-aberta/2": `[Verse 1]
+  "grao-boca-aberta/2": `[Verse 1]
 I made a face in the mirror
 And laughed at what I saw
 The sillier I got the clearer
@@ -4134,7 +4134,7 @@ Because nothing
 Is sometimes
 Everything`,
 
-  "vida-boca-aberta/3": `[Verse 1]
+  "grao-boca-aberta/3": `[Verse 1]
 O homem entra no café
 Pede um café com leite
 A senhora diz porquê
@@ -4214,7 +4214,7 @@ Não é a piada
 É a noite
 É o amor que se repete`,
 
-  "vida-boca-aberta/4": `[Verse 1]
+  "grao-boca-aberta/4": `[Verse 1]
 It started with a finger
 A gentle poke below the rib
 The laughter wouldn't linger
@@ -4293,7 +4293,7 @@ So completely
 Helplessly
 Alive`,
 
-  "vida-boca-aberta/5": `[Verse 1]
+  "grao-boca-aberta/5": `[Verse 1]
 Dói a barriga de tanto rir
 Os abdominais de riso
 Não há ginásio que possa medir
@@ -4371,7 +4371,7 @@ Rir
 Até o corpo
 Dizer obrigado`,
 
-  "vida-boca-aberta/6": `[Verse 1]
+  "grao-boca-aberta/6": `[Verse 1]
 It only takes a glance
 Across a crowded room
 And suddenly we're in a trance
@@ -4453,7 +4453,7 @@ And the retelling
 That's enough
 That's everything`,
 
-  "vida-boca-aberta/7": `[Verse 1]
+  "grao-boca-aberta/7": `[Verse 1]
 Há um palhaço dentro de mim
 Que não pedi nem convidei
 Aparece assim sem fim
@@ -4535,7 +4535,7 @@ Que o palhaço
 Sempre foi a parte
 Mais sábia de ti`,
 
-  "vida-boca-aberta/8": `[Verse 1]
+  "grao-boca-aberta/8": `[Verse 1]
 It started as a giggle
 A tiny little sound
 And then it grew to wriggle
@@ -4615,7 +4615,7 @@ You'll ever do
 Is weep
 From too much joy`,
 
-  "vida-boca-aberta/9": `[Verse 1]
+  "grao-boca-aberta/9": `[Verse 1]
 Apareceu sem eu pedir
 Sem razão nem motivo
 A boca curvou-se a sorrir
@@ -4697,7 +4697,7 @@ Só de um rosto
 Que se deixa ser
 Bonito de graça`,
 
-  "vida-boca-aberta/10": `[Verse 1]
+  "grao-boca-aberta/10": `[Verse 1]
 When was the last time you laughed
 Until your whole body shook
 When was the last time you half
@@ -4784,7 +4784,7 @@ That you're allowed`,
   // ASFALTO VIVO (correr, estrada, resistência)
   // ─────────────────────────────────────────────
 
-  "vida-asfalto-vivo/1": `[Verse 1]
+  "fibra-asfalto-vivo/1": `[Verse 1]
 Os primeiros metros ardem
 O corpo protesta e reclama
 Os músculos não são cobardes
@@ -4865,7 +4865,7 @@ Passa
 E o resto
 É voo`,
 
-  "vida-asfalto-vivo/2": `[Verse 1]
+  "fibra-asfalto-vivo/2": `[Verse 1]
 The pain was there at mile one
 A heaviness in my chest
 My lungs were begging to be done
@@ -4946,7 +4946,7 @@ This is what I came for
 Every single morning
 This is what I run for`,
 
-  "vida-asfalto-vivo/3": `[Verse 1]
+  "fibra-asfalto-vivo/3": `[Verse 1]
 Inspira dois três quatro
 Expira dois três quatro
 O ritmo não é abstracto
@@ -5026,7 +5026,7 @@ Tão antigo
 Quanto o primeiro fôlego
 Que alguma vez tiraste`,
 
-  "vida-asfalto-vivo/4": `[Verse 1]
+  "fibra-asfalto-vivo/4": `[Verse 1]
 My soles keep up the rhythm
 Against the concrete stage
 A conversation with them
@@ -5108,7 +5108,7 @@ The pavement was there
 And it will be there
 Tomorrow`,
 
-  "vida-asfalto-vivo/5": `[Verse 1]
+  "fibra-asfalto-vivo/5": `[Verse 1]
 A rua inclina sem aviso
 O corpo pede para parar
 As pernas perdem o sorriso
@@ -5189,7 +5189,7 @@ E lembra-te
 Que a subida
 É onde te constróis`,
 
-  "vida-asfalto-vivo/6": `[Verse 1]
+  "fibra-asfalto-vivo/6": `[Verse 1]
 The beat drops in my earbuds
 The bass line hits my feet
 The tiredness disappears because
@@ -5271,7 +5271,7 @@ The beat
 Always the beat
 Always one more song`,
 
-  "vida-asfalto-vivo/7": `[Verse 1]
+  "fibra-asfalto-vivo/7": `[Verse 1]
 O sol ainda não nasceu
 A rua é só minha
 O silêncio é o troféu
@@ -5352,7 +5352,7 @@ Há os meus pés
 E a estrada
 E mais nada`,
 
-  "vida-asfalto-vivo/8": `[Verse 1]
+  "fibra-asfalto-vivo/8": `[Verse 1]
 The legs are screaming louder
 The lungs are made of fire
 But somewhere in the powder
@@ -5434,7 +5434,7 @@ Because I always show up
 And showing up
 Is the finish line`,
 
-  "vida-asfalto-vivo/9": `[Verse 1]
+  "fibra-asfalto-vivo/9": `[Verse 1]
 O treino já acabou
 Os músculos estão quentes
 O corpo que se superou
@@ -5514,7 +5514,7 @@ A pulsar de vida
 De gratidão
 De silêncio bom`,
 
-  "vida-asfalto-vivo/10": `[Verse 1]
+  "fibra-asfalto-vivo/10": `[Verse 1]
 The alarm will ring tomorrow
 At the same ungodly hour
 And I will fight the sorrow
@@ -5602,7 +5602,7 @@ That's the promise`,
   // AZUL FUNDO (natação, água, silêncio)
   // ─────────────────────────────────────────────
 
-  "vida-azul-fundo/1": `[Verse 1]
+  "fibra-azul-fundo/1": `[Verse 1]
 A borda da piscina é o limite
 Entre o mundo e o silêncio
 Os pés largam a parede e o convite
@@ -5684,7 +5684,7 @@ E eu
 E o silêncio mais bonito
 Que o mundo não sabe dar`,
 
-  "vida-azul-fundo/2": `[Verse 1]
+  "fibra-azul-fundo/2": `[Verse 1]
 My arms spread wide like wings
 My body gives its weight
 The water holds all things
@@ -5767,7 +5767,7 @@ Let go
 Float
 Be held`,
 
-  "vida-azul-fundo/3": `[Verse 1]
+  "fibra-azul-fundo/3": `[Verse 1]
 Um braço corta a água
 Depois o outro segue
 O ritmo limpa a mágoa
@@ -5848,7 +5848,7 @@ Tu sabes
 Mesmo quando pensas
 Que não sabes`,
 
-  "vida-azul-fundo/4": `[Verse 1]
+  "fibra-azul-fundo/4": `[Verse 1]
 The lungs were screaming under
 The chest was tight and closed
 And then the surface thunder
@@ -5930,7 +5930,7 @@ And so are you
 Breathe
 You've earned this`,
 
-  "vida-azul-fundo/5": `[Verse 1]
+  "fibra-azul-fundo/5": `[Verse 1]
 A cor da piscina é outra
 Diferente do mar e do céu
 Um azul que acalma e que mostra
@@ -6012,7 +6012,7 @@ Que me diz
 Sem palavras
 Que tudo vai ficar bem`,
 
-  "vida-azul-fundo/6": `[Verse 1]
+  "fibra-azul-fundo/6": `[Verse 1]
 Twenty-five metres there
 Twenty-five metres back
 A meditation in the bare
@@ -6094,7 +6094,7 @@ And your willingness
 To go back and forth
 Until you're free`,
 
-  "vida-azul-fundo/7": `[Verse 1]
+  "fibra-azul-fundo/7": `[Verse 1]
 Lá fora o frio morde
 A janela está embaciada
 Mas aqui dentro tudo acorde
@@ -6175,7 +6175,7 @@ Aqui dentro é sempre hora
 De ficar e de flutuar
 Não saio daqui`,
 
-  "vida-azul-fundo/8": `[Verse 1]
+  "fibra-azul-fundo/8": `[Verse 1]
 The board is rough beneath my feet
 The water far below
 The jump demands a kind of heat
@@ -6259,7 +6259,7 @@ To step off the edge
 And fall
 Into the yes`,
 
-  "vida-azul-fundo/9": `[Verse 1]
+  "fibra-azul-fundo/9": `[Verse 1]
 Debaixo de água não há telefone
 Não há nome nem chamada
 O silêncio é um horizonte
@@ -6342,7 +6342,7 @@ O silêncio
 E a versão mais calma
 De mim`,
 
-  "vida-azul-fundo/10": `[Verse 1]
+  "fibra-azul-fundo/10": `[Verse 1]
 The light above was waiting
 A shimmer through the blue
 My arms were not debating
@@ -6431,7 +6431,7 @@ Break through`,
   // BARRA CARREGADA (ginásio, ferro, força)
   // ─────────────────────────────────────────────
 
-  "vida-barra-carregada/1": `[Verse 1]
+  "fibra-barra-carregada/1": `[Verse 1]
 Os braços rodam devagar
 O pescoço estica e geme
 O corpo começa a acordar
@@ -6511,7 +6511,7 @@ Agora o ferro
 Agora o treino
 Agora eu`,
 
-  "vida-barra-carregada/2": `[Verse 1]
+  "fibra-barra-carregada/2": `[Verse 1]
 The bar sits on the rack
 Unmoved, uncaring, cold
 It doesn't care I'm back
@@ -6595,7 +6595,7 @@ The truth about yourself
 Lives underneath
 The bar`,
 
-  "vida-barra-carregada/3": `[Verse 1]
+  "fibra-barra-carregada/3": `[Verse 1]
 Uma vez, outra vez, mais uma
 O corpo conta sem contar
 A dor é espuma
@@ -6678,7 +6678,7 @@ Que se constrói
 Tudo o que importa
 Repetição`,
 
-  "vida-barra-carregada/4": `[Verse 1]
+  "fibra-barra-carregada/4": `[Verse 1]
 The gym mirror doesn't blink
 It watches every rep
 And makes me pause and think
@@ -6762,7 +6762,7 @@ Look at yourself
 You're building something
 Beautiful`,
 
-  "vida-barra-carregada/5": `[Verse 1]
+  "fibra-barra-carregada/5": `[Verse 1]
 A primeira gota cai no banco
 A segunda cai no chão
 O suor não pede aplauso franco
@@ -6844,7 +6844,7 @@ E o suor
 Não mente
 Nunca mentiu`,
 
-  "vida-barra-carregada/6": `[Verse 1]
+  "fibra-barra-carregada/6": `[Verse 1]
 The weight I lifted yesterday
 Today feels slightly light
 And in this subtle way
@@ -6926,7 +6926,7 @@ Is just another word
 For showing up
 Again and again`,
 
-  "vida-barra-carregada/7": `[Verse 1]
+  "fibra-barra-carregada/7": `[Verse 1]
 Hoje o corpo fica quieto
 As pernas não vão ao ginásio
 O músculo cresce em segredo
@@ -7009,7 +7009,7 @@ Só no esforço
 Constrói-se também
 No silêncio`,
 
-  "vida-barra-carregada/8": `[Verse 1]
+  "fibra-barra-carregada/8": `[Verse 1]
 A number on a screen
 That nobody will see
 A victory so clean
@@ -7094,7 +7094,7 @@ Because the only record
 Worth breaking
 Is your own`,
 
-  "vida-barra-carregada/9": `[Verse 1]
+  "fibra-barra-carregada/9": `[Verse 1]
 A barra está carregada
 Os pés firmes no chão
 A desculpa foi cancelada
@@ -7178,7 +7178,7 @@ Mesmo quando custa
 Principalmente
 Quando custa`,
 
-  "vida-barra-carregada/10": `[Verse 1]
+  "fibra-barra-carregada/10": `[Verse 1]
 They said I wasn't built for this
 That strong was not my frame
 But every rep became a kiss
@@ -7268,7 +7268,7 @@ Is yours`,
   // LUZ MANSA (pôr-do-sol, house chill, relaxamento)
   // ─────────────────────────────────────────────
 
-  "vida-luz-mansa/1": `[Verse 1]
+  "mare-luz-mansa/1": `[Verse 1]
 A varanda é o meu palco
 O céu muda de cenário
 O copo na mão, o corpo no salto
@@ -7348,7 +7348,7 @@ O coração meio cheio
 E este entardecer
 Que ninguém me pode tirar`,
 
-  "vida-luz-mansa/2": `[Verse 1]
+  "mare-luz-mansa/2": `[Verse 1]
 The light turns gold at seven
 The shadows stretch like cats
 And everything feels heaven
@@ -7433,7 +7433,7 @@ And feel
 How beautiful
 Everything already is`,
 
-  "vida-luz-mansa/3": `[Verse 1]
+  "mare-luz-mansa/3": `[Verse 1]
 A rede balança entre duas árvores
 O corpo pesa e não pesa
 Os pensamentos são avatares
@@ -7516,7 +7516,7 @@ Enquanto tu
 Fazes o que importa
 Nada`,
 
-  "vida-luz-mansa/4": `[Verse 1]
+  "mare-luz-mansa/4": `[Verse 1]
 The clock says half past five
 But I've decided to ignore
 The point of being alive
@@ -7601,7 +7601,7 @@ Falling through the window
 That's the speed
 That's enough`,
 
-  "vida-luz-mansa/5": `[Verse 1]
+  "mare-luz-mansa/5": `[Verse 1]
 A brisa entrou pela janela
 Sem bater, sem avisar
 Trouxe o cheiro da viela
@@ -7683,7 +7683,7 @@ E deixar
 Que o mundo
 Viesse ter contigo`,
 
-  "vida-luz-mansa/6": `[Verse 1]
+  "mare-luz-mansa/6": `[Verse 1]
 It's Tuesday but it feels like rest
 The kind of afternoon that lingers
 I'm wearing yesterday's vest
@@ -7765,7 +7765,7 @@ And you exist
 And that's enough
 Of a reason`,
 
-  "vida-luz-mansa/7": `[Verse 1]
+  "mare-luz-mansa/7": `[Verse 1]
 O céu decide sem aviso
 Mudar de azul para rosa
 O momento é tão preciso
@@ -7850,7 +7850,7 @@ Porque o pôr-do-sol
 Nunca se repete
 E nunca decepciona`,
 
-  "vida-luz-mansa/8": `[Verse 1]
+  "mare-luz-mansa/8": `[Verse 1]
 The evening settles in like dust
 On furniture you love
 And all the daily rush and trust
@@ -7940,7 +7940,7 @@ Softly
 Like you always deserved
 To be held`,
 
-  "vida-luz-mansa/9": `[Verse 1]
+  "mare-luz-mansa/9": `[Verse 1]
 A linha é tão fina
 Entre o céu e o mar
 A distância é divina
@@ -8021,7 +8021,7 @@ Só preciso de existir
 Neste espaço entre o céu
 E o mar`,
 
-  "vida-luz-mansa/10": `[Verse 1]
+  "mare-luz-mansa/10": `[Verse 1]
 The sun has gone but left a gift
 A warmth that hums and glows
 A gentle atmospheric shift

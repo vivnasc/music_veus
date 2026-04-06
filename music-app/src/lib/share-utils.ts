@@ -2,23 +2,23 @@
  * Share URL utilities — short URLs for cleaner sharing.
  *
  * music.seteveus.space/o/pele-7  instead of
- * music.seteveus.space/partilha/cosmic-romance/7
+ * music.seteveus.space/partilha/nua-pele/7
  */
 
 const SLUG_TO_SHORT: Record<string, string> = {
   // Romance
-  "cosmic-romance": "pele",
-  "romance-carta": "carta",
-  "romance-saudade": "saudade",
-  "romance-fogo-lento": "fogo",
-  "romance-ninho": "ninho",
+  "nua-pele": "pele",
+  "nua-carta": "carta",
+  "nua-saudade": "saudade",
+  "nua-fogo-lento": "fogo",
+  "nua-ninho": "ninho",
   // Cosmic
-  "cosmic-viagem": "viagem",
-  "cosmic-orbita": "orbita",
-  "cosmic-poeira": "poeira",
-  "cosmic-vasto": "vasto",
-  "cosmic-sinal": "sinal",
-  "cosmic-eter": "eter",
+  "eter-viagem": "viagem",
+  "eter-orbita": "orbita",
+  "eter-poeira": "poeira",
+  "eter-vasto": "vasto",
+  "eter-sinal": "sinal",
+  "eter": "eter",
   // Espelhos
   "espelho-ilusao": "ilusao",
   "espelho-medo": "medo",

@@ -11,7 +11,7 @@ export const ESPIRITUAL_LYRICS: Record<string, string> = {
   // ALBUM: TRAVESSIA
   // ─────────────────────────────────────────────
 
-  "travessia/1": `[Verse 1]
+  "incenso-travessia/1": `[Verse 1]
 Antes do mundo entrar pela porta
 antes do primeiro ruido do dia
 Há um gesto que só pertence a ti
@@ -55,7 +55,7 @@ antes de ser de alguém
 O corpo sabe disso
 antes da mente também`,
 
-  "travessia/2": `[Verse 1]
+  "incenso-travessia/2": `[Verse 1]
 There is a place no clock can find
 between the in and out
 A country with no language yet
@@ -99,7 +99,7 @@ and I have been there now
 The space between the breaths
 is my cathedral and my vow`,
 
-  "travessia/3": `[Verse 1]
+  "incenso-travessia/3": `[Verse 1]
 Os pés afundam na lama
 o barro sobe entre os dedos
 Não há templo mais antigo
@@ -135,7 +135,7 @@ e fico
 Aqui e sagrado
 aqui e real`,
 
-  "travessia/4": `[Verse 1]
+  "incenso-travessia/4": `[Verse 1]
 There's a fire in my chest that I was told to swallow
 a fist behind my teeth they said was not allowed
 I smiled through every theft and turned the other hollow
@@ -189,7 +189,7 @@ let it burn
 what survives the fire
 was always yours`,
 
-  "travessia/5": `[Verse 1]
+  "incenso-travessia/5": `[Verse 1]
 Fecho os olhos na beira da água
 dobro os joelhos devagar
 não há padre nem promessa —
@@ -239,7 +239,7 @@ serei a mesma
 mas por dentro
 lavada`,
 
-  "travessia/6": `[Verse 1]
+  "incenso-travessia/6": `[Verse 1]
 Eu trago no sangue uma mulher que nunca vi
 que pariu de pé, que chorou calada no quintal
 que engoliu o grito pra que eu pudesse existir
@@ -290,7 +290,7 @@ eu estou de pé
 eu estou de pé
 eu estou de pé por voces`,
 
-  "travessia/7": `[Verse 1]
+  "incenso-travessia/7": `[Verse 1]
 Sit still — not because it's peaceful
 but because the muscles learn
 to stop performing rest for others
@@ -333,7 +333,7 @@ Stillness is not a gift
 It is a skill
 Built with trembling hands`,
 
-  "travessia/8": `[Verse 1]
+  "incenso-travessia/8": `[Verse 1]
 Não foi bonito como dizem
 não foi necessario não foi certo
 ardeu porque ardeu porque ardeu
@@ -384,7 +384,7 @@ Queimou
 e ficaste
 queimou`,
 
-  "travessia/9": `[Verse 1]
+  "incenso-travessia/9": `[Verse 1]
 You almost miss it if you aren't looking down
 a colour that's not ready to be seen
 the smallest thing that ever dared to grow
@@ -439,7 +439,7 @@ First green
 just that
 first green`,
 
-  "travessia/10": `[Verse 1]
+  "incenso-travessia/10": `[Verse 1]
 Antes de haver palavra
 há um peito que se fecha
 O ar não quer entrar
@@ -483,7 +483,7 @@ há um peito que se abre
 O ar quer entrar agora
 a noite já e madre`,
 
-  "travessia/11": `[Verse 1]
+  "incenso-travessia/11": `[Verse 1]
 The light went out and I stopped running
 my knees found earth, my hands found still
 the dark is not the thing that's hunting
@@ -540,7 +540,7 @@ she always finds you`,
   // ALBUM: HUMUS
   // ─────────────────────────────────────────────
 
-  "humus/1": `[Verse 1]
+  "incenso-humus/1": `[Verse 1]
 O lencol ainda guarda a forma
 do corpo que sonhou sem lei
 Passo a mão como quem perdoa
@@ -584,7 +584,7 @@ aliso a mente
 o dia ainda não chegou
 mas já estou presente`,
 
-  "humus/2": `[Verse 1]
+  "incenso-humus/2": `[Verse 1]
 No shoes between my skin and stone
 no layer left to soften what is real
 The soles of feet have their own knowing
@@ -619,7 +619,7 @@ One step then another
 the ground holds
 the ground holds`,
 
-  "humus/3": `[Verse 1]
+  "incenso-humus/3": `[Verse 1]
 Chorei tanto que fui ao mar perguntar
 Onde vai o que eu choro aqui
 O mar disse não sei distinguir
@@ -672,7 +672,7 @@ Sal no rosto
 Sal no mar
 Sal`,
 
-  "humus/4": `[Verse 1]
+  "incenso-humus/4": `[Verse 1]
 [Female] I can't see the bottom from this place
 I can't see my hands before my face
 The dark has no edge, no wall, no seam
@@ -716,7 +716,7 @@ and everything that follows after death
 [Both] The ground is rising up to meet you
 trust the dark — it holds us all`,
 
-  "humus/5": `[Verse 1]
+  "incenso-humus/5": `[Verse 1]
 A coluna e o eixo do mundo
 entre a lama e o mais azul
 a gravidade puxa em baixo
@@ -767,7 +767,7 @@ nem só céu
 sou o eixo
 sou eu`,
 
-  "humus/6": `[Verse 1 - Female]
+  "incenso-humus/6": `[Verse 1 - Female]
 I gave the morning, gave the night
 Gave until my spine went thin
 Poured the last drop into silence
@@ -842,7 +842,7 @@ Put the cup away
 You are not less
 For needing this today`,
 
-  "humus/7": `[Verse 1]
+  "incenso-humus/7": `[Verse 1]
 [Female] Estou de pé no meio do vazio
 os braços caidos ao lado do corpo
 Não rezei não pedi não chamei
@@ -885,7 +885,7 @@ há um espaço que chama a descansar
 [Male] Já estou a cair
 [Both] E eu já não fujo da gentileza`,
 
-  "humus/8": `[Verse 1]
+  "incenso-humus/8": `[Verse 1]
 The fruit goes soft before it feeds the ground
 the leaf turns dark before it gives its gift
 the body of the thing that lived and fell
@@ -936,7 +936,7 @@ Compost
 and wait
 compost`,
 
-  "humus/9": `[Verse 1]
+  "incenso-humus/9": `[Verse 1]
 Não é metafora, não é imagem bonita
 Não é a palavra que se usa no poema
 A chama que sou e real como fome
@@ -998,7 +998,7 @@ Quando já não resta nada
 Só a chama
 Sempre só a chama`,
 
-  "humus/10": `[Verse 1]
+  "incenso-humus/10": `[Verse 1]
 Não sabes que está lá
 ainda não tem forma
 a semente no escuro
@@ -1053,7 +1053,7 @@ debaixo`,
   // ALBUM: FOLEGO
   // ─────────────────────────────────────────────
 
-  "folego/1": `[Verse 1]
+  "incenso-folego/1": `[Verse 1]
 Abre a boca devagar
 deixa o mundo entrar
 o ar que vem de tão longe
@@ -1102,7 +1102,7 @@ Inspira
 só isso
 inspira`,
 
-  "folego/2": `[Verse 1]
+  "incenso-folego/2": `[Verse 1]
 [Female]
 I stand before the door
 my hand upon the handle
@@ -1143,7 +1143,7 @@ you are not the same
 Step through
 nothing stays the same`,
 
-  "folego/3": `[Verse 1]
+  "incenso-folego/3": `[Verse 1]
 Há uma coisa em mim que sabe antes
 que fareja o perigo e o desejo igual
 Não aprendeu em livro nenhum
@@ -1179,7 +1179,7 @@ o bicho sabe
 Escuta
 antes de falar`,
 
-  "folego/4": `[Verse 1]
+  "incenso-folego/4": `[Verse 1]
 [Female]
 I don't pray when the storm has passed
 I pray when the thunder shakes the frame
@@ -1218,7 +1218,7 @@ Still burning
 This is the prayer
 this is the turning`,
 
-  "folego/5": `[Verse 1]
+  "incenso-folego/5": `[Verse 1]
 Abro as mãos e não há nada —
 nem chave nem mapa nem razão
 Só a pele é o ar entre os dedos
@@ -1260,7 +1260,7 @@ sem pedir licença nem propostos
 Não preciso de segurar
 para existir`,
 
-  "folego/6": `[Verse 1]
+  "incenso-folego/6": `[Verse 1]
 I pressed my mouth against the dark
 and asked for any sign
 The ceiling gave me nothing back
@@ -1304,7 +1304,7 @@ I will keep asking
 mouth to the wall
 I will keep asking`,
 
-  "folego/7": `[Verse 1]
+  "incenso-folego/7": `[Verse 1]
 O chão me chama e eu respondo com o pé
 o quadril desenha o que a boca não diz
 não preciso saber pra onde o corpo me le
@@ -1355,7 +1355,7 @@ Pe no chão
 mão no ar
 a dança e tudo o que eu sei rezar`,
 
-  "folego/8": `[Verse 1]
+  "incenso-folego/8": `[Verse 1]
 You could miss it in the dark — it's that small
 A red point holding on inside the cold
 Not looking for the wind, not looking for the wall
@@ -1412,7 +1412,7 @@ Still here
 Warm to the touch
 Still here`,
 
-  "folego/9": `[Verse 1]
+  "incenso-folego/9": `[Verse 1]
 Antes da palavra havia um som
 Antes do som havia o ar
 Antes do ar havia o peito
@@ -1469,7 +1469,7 @@ Hum
 Só isso
 Só isso`,
 
-  "folego/10": `[Verse 1]
+  "incenso-folego/10": `[Verse 1]
 Sai pela boca o que não precisas
 o ar usado o ar que já fez
 o corpo sabe o que é gasto
@@ -1522,7 +1522,7 @@ expira`,
   // ALBUM: DEMORA
   // ─────────────────────────────────────────────
 
-  "demora/1": `[Verse 1]
+  "incenso-demora/1": `[Verse 1]
 Há uma parte de ti que não treme
 que não foge quando o peito arde
 que não grita quando o mundo geme
@@ -1572,7 +1572,7 @@ só estar aqui
 A testemunha já acordou
 dentro de ti`,
 
-  "demora/2": `[Verse 1]
+  "incenso-demora/2": `[Verse 1]
 The armour didn't fall with drama
 it melted slow, like morning ice
 One day my shoulders just forgot
@@ -1616,7 +1616,7 @@ Not broken — open
 Something that can finally bend
 toward the light`,
 
-  "demora/3": `[Verse 1]
+  "incenso-demora/3": `[Verse 1]
 O quarto estava vazio é não estava
 tirei os moveis os quadros os sons
 É o que sobrou entre as quatro paredes
@@ -1659,7 +1659,7 @@ Esvaziei tudo
 e fiquei cheia
 pela primeira vez`,
 
-  "demora/4": `[Verse 1]
+  "incenso-demora/4": `[Verse 1]
 Left foot then right foot
 the oldest conversation known
 The ground receives me every time
@@ -1709,7 +1709,7 @@ right foot
 left foot
 home`,
 
-  "demora/5": `[Verse 1]
+  "incenso-demora/5": `[Verse 1]
 Não sei a quem dirijo
 não sei se há quem escute
 Só sei que este joelho
@@ -1759,7 +1759,7 @@ mesmo sem saber o que pedes
 pede
 porque o grito já saiu`,
 
-  "demora/6": `[Verse 1]
+  "incenso-demora/6": `[Verse 1]
 I opened my hands at dawn
 not asking, not reaching far
 Just holding the open air
@@ -1803,7 +1803,7 @@ not finished, not afraid
 Just hands that had been open
 and knew what prayer was made`,
 
-  "demora/7": `[Verse 1]
+  "incenso-demora/7": `[Verse 1]
 Não é fogo que destroi portas
 não é labaredas nem grito
 É o fogo que aquece as paredes
@@ -1852,7 +1852,7 @@ Manso
 como só o fogo verdadeiro
 sabe ser`,
 
-  "demora/8": `[Verse 1]
+  "incenso-demora/8": `[Verse 1]
 The chest locks up without warning
 the throat forgets its job
 the body grabs for something
@@ -1905,7 +1905,7 @@ Breathless
 and then
 the breath`,
 
-  "demora/9": `[Verse 1]
+  "incenso-demora/9": `[Verse 1]
 Plantaram-me num lugar estranho
 num solo que não escolhi
 mas as raízes foram fundo
@@ -1957,7 +1957,7 @@ são a mesma coisa
 sou a árvore
 sou inteira`,
 
-  "demora/10": `[Verse 1]
+  "incenso-demora/10": `[Verse 1]
 It's 3am and the kitchen's dark
 and I'm standing at the sink
 the tap is running over both my hands
@@ -2007,7 +2007,7 @@ you don't need the sea
 just the kitchen, just the 3am
 just the tap running free`,
 
-  "demora/11": `[Verse 1]
+  "incenso-demora/11": `[Verse 1]
 Fecho os olhos e o mundo lá fora
 fica do lado de fora onde pertence
 Não é fuga — é o gesto mais honesto
@@ -2052,7 +2052,7 @@ sem desconto`,
   // ALBUM: CORPO CELESTE
   // ─────────────────────────────────────────────
 
-  "corpo-celeste/1": `[Verse 1]
+  "incenso-corpo-celeste/1": `[Verse 1]
 De pé diante do oceano
 as palavras param no dente
 A boca abre e não sai nada
@@ -2102,7 +2102,7 @@ só continua
 e eu fico
 a olhar`,
 
-  "corpo-celeste/2": `[Verse 1]
+  "incenso-corpo-celeste/2": `[Verse 1]
 There are lines across my body
 That I drew by living wrong
 Every scar holds a decision
@@ -2144,7 +2144,7 @@ I did not choose
 These are the doors
 I walked through`,
 
-  "corpo-celeste/3": `[Verse 1]
+  "incenso-corpo-celeste/3": `[Verse 1]
 As costelas são arcos
 Curvados sobre o sagrado
 Protegem o que não tem nome
@@ -2186,7 +2186,7 @@ A mais velha oração
 As costelas respiram
 Ainda`,
 
-  "corpo-celeste/4": `[Verse 1]
+  "incenso-corpo-celeste/4": `[Verse 1]
 [Female]
 My skin remembers the cold of the floor
 The night you found me and didn't say a word
@@ -2240,7 +2240,7 @@ The skin is singing
 Can you hear it
 The skin is singing`,
 
-  "corpo-celeste/5": `[Verse 1]
+  "incenso-corpo-celeste/5": `[Verse 1]
 O calcio nós meus ossos
 veio de uma estrela morta
 O ferro no meu sangue
@@ -2290,7 +2290,7 @@ sagrada poeira
 a respirar
 sagrada`,
 
-  "corpo-celeste/6": `[Verse 1]
+  "incenso-corpo-celeste/6": `[Verse 1]
 [Female] I looked up and the sky had no edge
 no frame no ceiling no wall
 [Male] I looked up and felt my body
@@ -2331,7 +2331,7 @@ and the infinite holds us right
 was the only
 ground`,
 
-  "corpo-celeste/7": `[Verse 1]
+  "incenso-corpo-celeste/7": `[Verse 1]
 O sangue desce como a mare que obedece
 a lua puxa e o meu corpo responde
 não há vergonha no que nasce e desaparece
@@ -2385,7 +2385,7 @@ o sangue volta
 eu volto
 sempre volto`,
 
-  "corpo-celeste/8": `[Verse 1]
+  "incenso-corpo-celeste/8": `[Verse 1]
 I am small
 smaller than my plans had claimed
 Smaller than the space I occupied
@@ -2434,7 +2434,7 @@ Small
 and finally
 enough`,
 
-  "corpo-celeste/9": `[Verse 1]
+  "incenso-corpo-celeste/9": `[Verse 1]
 Diziam que o peito e pequeno
 que só cabe o coração
 Mas eu abri o meu devagar
@@ -2485,7 +2485,7 @@ só não sabia
 que eu era
 o espaço`,
 
-  "corpo-celeste/10": `[Verse 1]
+  "incenso-corpo-celeste/10": `[Verse 1]
 The bathroom light is merciless
 it shows me every year
 The skin beneath my eyes is thin
@@ -2539,7 +2539,7 @@ still yours`,
   // ALBUM: CORRENTEZA
   // ─────────────────────────────────────────────
 
-  "correnteza/1": `[Verse 1]
+  "incenso-correnteza/1": `[Verse 1]
 Há um sitio onde a água nasce
 antes de ter nome ou rumo
 antes de ser chuva ou fio
@@ -2589,7 +2589,7 @@ não espera quem a reclame
 nasce porque tem de nascer
 antes de ter nome — antes de ter fome`,
 
-  "correnteza/2": `[Verse 1]
+  "incenso-correnteza/2": `[Verse 1]
 I feel it in the morning
 Before I know my name
 A current moving through me
@@ -2639,7 +2639,7 @@ It only changes name
 Same river
 all the same`,
 
-  "correnteza/3": `[Verse 1]
+  "incenso-correnteza/3": `[Verse 1]
 Não fiz nada para merecer
 não rezei não paguei nenhum preço
 E no entanto chegou de mansinho
@@ -2688,7 +2688,7 @@ Não mereci
 e isso é o mais bonito
 que alguma vez me aconteceu`,
 
-  "correnteza/4": `[Verse 1]
+  "incenso-correnteza/4": `[Verse 1]
 I held the ceiling with my teeth
 I held the morning with my fists
 And when my fingers finally opened
@@ -2734,7 +2734,7 @@ I'm falling
 I haven't landed yet
 And maybe that's the point`,
 
-  "correnteza/5": `[Verse 1]
+  "incenso-correnteza/5": `[Verse 1]
 Dar não é um acto de coragem
 Não é titulo nem lição
 É a mão que pousa o pão na mesa
@@ -2784,7 +2784,7 @@ O pão parte
 Nada se perde
 Nada se parte`,
 
-  "correnteza/6": `[Verse 1]
+  "incenso-correnteza/6": `[Verse 1]
 [Female]
 No bread, no wine, no borrowed hymn
 just a room with too much truth inside
@@ -2843,7 +2843,7 @@ We didn't pray
 We just stayed
 And that was everything`,
 
-  "correnteza/7": `[Verse 1]
+  "incenso-correnteza/7": `[Verse 1]
 Caio do céu sem saber o que sou
 Uma gota pequena no ar
 Não sei o rio de onde vim
@@ -2897,7 +2897,7 @@ Rio
 Mar
 Uma só`,
 
-  "correnteza/8": `[Verse 1]
+  "incenso-correnteza/8": `[Verse 1]
 I come from the hill where the rains begin
 Where the red earth drinks the sky
 I find the river somewhere in the valley
@@ -2950,7 +2950,7 @@ Running
 Running
 Into the open sea`,
 
-  "correnteza/9": `[Verse 1]
+  "incenso-correnteza/9": `[Verse 1]
 Há um lugar onde o rio para
 De saber que é rio ainda
 Onde o nome que carregava
@@ -3004,7 +3004,7 @@ Juntas
 Desaguamos
 Juntas`,
 
-  "correnteza/10": `[Verse 1]
+  "incenso-correnteza/10": `[Verse 1]
 A torneira abre devagar
 a água cai nas mãos abertas
 Fria primeiro, depois morna
@@ -3052,7 +3052,7 @@ o que o dia te deu`,
   // ALBUM: O QUE RESTA
   // ─────────────────────────────────────────────
 
-  "o-que-resta/1": `[Verse 1]
+  "incenso-o-que-resta/1": `[Verse 1]
 No centro do corpo existe
 Uma nave comprida e calma
 Com paredes que são carne
@@ -3101,7 +3101,7 @@ Entro
 Sento
 O eco faz o resto`,
 
-  "o-que-resta/2": `[Verse 1]
+  "incenso-o-que-resta/2": `[Verse 1]
 I used to think that silence
 was the sound of nothing there
 But silence has a texture
@@ -3149,7 +3149,7 @@ with everything that's tough
 I listened to the silence
 And it said my name`,
 
-  "o-que-resta/3": `[Verse 1]
+  "incenso-o-que-resta/3": `[Verse 1]
 Tira o nome que te puseram cedo
 Tira o emprego que te da o lugar
 Tira a morada, tira o papel
@@ -3205,7 +3205,7 @@ Fica parada
 Vê o que não se tira
 Vê o que sempre estava`,
 
-  "o-que-resta/4": `[Verse 1]
+  "incenso-o-que-resta/4": `[Verse 1]
 [Male] I carried a match for years
 kept it dry against my skin
 Waiting for a room that was ready
@@ -3245,7 +3245,7 @@ once
 and the dark
 changed shape`,
 
-  "o-que-resta/5": `[Verse 1]
+  "incenso-o-que-resta/5": `[Verse 1]
 Antes da chama há um instante
 tão fino que mal existe
 Um tremor a meio do peito
@@ -3294,7 +3294,7 @@ A faisca não pede permissão
 simplesmente
 acende`,
 
-  "o-que-resta/6": `[Verse 1]
+  "incenso-o-que-resta/6": `[Verse 1]
 They said the fire was out — they made their calls
 They counted what was left and wrote it down
 They put their hands against the cooling walls
@@ -3350,7 +3350,7 @@ That is not hope
 That is fact
 That is fact`,
 
-  "o-que-resta/7": `[Verse 1]
+  "incenso-o-que-resta/7": `[Verse 1]
 Debaixo da pele existe o musculo tenso
 Debaixo do musculo existe o medo antigo
 Debaixo do medo, antes de tudo o que penso
@@ -3407,7 +3407,7 @@ Não se veste
 Não se empresta
 Não se esquece`,
 
-  "o-que-resta/8": `[Verse 1]
+  "incenso-o-que-resta/8": `[Verse 1]
 I tried the word God and it closed a door
 I tried universe and it rang hollow
 I tried source and light and higher power
@@ -3461,7 +3461,7 @@ Not the word
 What the word is reaching for
 That`,
 
-  "o-que-resta/9": `[Verse 1]
+  "incenso-o-que-resta/9": `[Verse 1]
 Procurei em templos de pedra
 Procurei em livros sagrados
 Procurei em vozes mais altas
@@ -3502,7 +3502,7 @@ Aqui
 Sempre foi aqui
 O altar sou eu`,
 
-  "o-que-resta/10": `[Verse 1]
+  "incenso-o-que-resta/10": `[Verse 1]
 Cala como o mar depois da onda
 como o corpo depois de chorar
 Não é castigo nem abandono
@@ -3545,7 +3545,7 @@ Cala
 E ouve
 o que sobra quando a voz se vai`,
 
-  "o-que-resta/11": `[Verse 1]
+  "incenso-o-que-resta/11": `[Verse 1]
 I did not earn this sunrise
 or the lungs that let me breathe
 This morning came regardless
@@ -3592,7 +3592,7 @@ it is só tender`,
   // ALBUM: LIMIAR
   // ─────────────────────────────────────────────
 
-  "limiar/1": `[Verse 1]
+  "incenso-limiar/1": `[Verse 1]
 A raiz trabalha no escuro
 sem palco e sem louvor
 ninguém fotografa o fundo
@@ -3642,7 +3642,7 @@ ninguém te vê
 mas e por ti
 que tudo cresce`,
 
-  "limiar/2": `[Verse 1]
+  "incenso-limiar/2": `[Verse 1]
 [Male]
 I am the weight of stone and root
 the patient dark below
@@ -3697,7 +3697,7 @@ and both is whole
 both
 and whole is home`,
 
-  "limiar/3": `[Verse 1]
+  "incenso-limiar/3": `[Verse 1]
 Tenho os dedos brancos de apertar
 as unhas cravadas na palma da mão
 O corpo inteiro feito de segurar
@@ -3742,7 +3742,7 @@ Talvez cair
 seja o primeiro gesto
 de confiar`,
 
-  "limiar/4": `[Verse 1]
+  "incenso-limiar/4": `[Verse 1]
 My lungs burned for air
 my arms fought the weight
 I pushed through the surface
@@ -3793,7 +3793,7 @@ I'm just breathing
 on purpose
 for once`,
 
-  "limiar/5": `[Verse 1]
+  "incenso-limiar/5": `[Verse 1]
 Já não nado contra a água
 já não luto com a corrente fria
 O meu corpo virou margem
@@ -3835,7 +3835,7 @@ e deixa o que sempre foi meu aqui
 Não preciso de nadar
 quando sou a água`,
 
-  "limiar/6": `[Verse 1]
+  "incenso-limiar/6": `[Verse 1]
 My hands are open to the morning light
 Not surrendered — just released
 Like a tree that holds its leaves all summer
@@ -3895,7 +3895,7 @@ Offered — not lost
 Still standing in the morning
 Still rooted in the frost`,
 
-  "limiar/7": `[Verse 1]
+  "incenso-limiar/7": `[Verse 1]
 Saiste de casa sem guarda-chuva
 o céu já estava cinzento e grave
 A primeira gota bateu na nuca
@@ -3955,7 +3955,7 @@ até o último rio
 que te corre pelo corpo
 te devolver ao teu nome próprio`,
 
-  "limiar/8": `[Verse 1]
+  "incenso-limiar/8": `[Verse 1]
 I kept looking up for something wide
 some ceiling I could finally break
 but the sky was never overhead —
@@ -4002,7 +4002,7 @@ You are not beneath the sky
 You are the sky
 You carry it`,
 
-  "limiar/9": `[Verse 1]
+  "incenso-limiar/9": `[Verse 1]
 Dobro os joelhos por vontade
 não por peso que me força
 Este chão frio é firme
@@ -4046,7 +4046,7 @@ e o chão recebe bem
 De joelhos, inteira, quieta
 sou de mim o que me convem`,
 
-  "limiar/10": `[Verse 1]
+  "incenso-limiar/10": `[Verse 1]
 O alho parte entre os dedos
 o azeite aquece na mão
 O sal não pede licença
@@ -4101,7 +4101,7 @@ de cada vez`,
   // ALBUM: O CIRCULO
   // ─────────────────────────────────────────────
 
-  "o-circulo/1": `[Verse 1]
+  "incenso-o-circulo/1": `[Verse 1]
 Quando acabam as palavras todas
 É o silêncio fica só
 Há qualquer coisa ainda acesa
@@ -4154,7 +4154,7 @@ Sem nome
 Sem nome
 Aqui`,
 
-  "o-circulo/2": `[Verse 1]
+  "incenso-o-circulo/2": `[Verse 1]
 [Female] I forgot how to kneel
 forgot how to be still
 My calendar says Tuesday
@@ -4195,7 +4195,7 @@ we just stopped seeking
 [Male] let me follow them
 [Both] home`,
 
-  "o-circulo/3": `[Verse 1]
+  "incenso-o-circulo/3": `[Verse 1]
 Ninguém vem a este lugar
 ninguém conhece este fundo
 O desamparo é tão vasto
@@ -4250,7 +4250,7 @@ e alguma coisa
 neste escuro
 ouve`,
 
-  "o-circulo/4": `[Verse 1]
+  "incenso-o-circulo/4": `[Verse 1]
 The crust breaks in my hands
 steam rises like a sigh
 No altar no sacrament
@@ -4294,7 +4294,7 @@ that is the whole prayer
 Break the bread
 and know that you were there`,
 
-  "o-circulo/5": `[Verse 1]
+  "incenso-o-circulo/5": `[Verse 1]
 Pensei que o caminho era só meu
 que o peso só eu o sabia levar
 que a escuridão era privada
@@ -4348,7 +4348,7 @@ e a frase que me parte
 e me reconstroi
 ao mesmo tempo`,
 
-  "o-circulo/6": `[Verse 1]
+  "incenso-o-circulo/6": `[Verse 1]
 [Female]
 I spent years trying to be everything
 The loudest voice in every hall
@@ -4407,7 +4407,7 @@ Not everything
 Enough
 And that is the whole story`,
 
-  "o-circulo/7": `[Verse 1]
+  "incenso-o-circulo/7": `[Verse 1]
 Fui ensinada a ser mais
 A ocupar mais e dar mais
 Mas há uma coisa que aprendi
@@ -4456,7 +4456,7 @@ Um
 Só um
 E isso chega`,
 
-  "o-circulo/8": `[Verse 1]
+  "incenso-o-circulo/8": `[Verse 1]
 A grain of sand holds its position
 Through tide and wind and passing years
 Not trying to be anything other
@@ -4498,7 +4498,7 @@ The beach is whole
 Without ambition
 Still and full`,
 
-  "o-circulo/9": `[Verse 1]
+  "incenso-o-circulo/9": `[Verse 1]
 Eu sozinha sou sussurro
 tu sozinha es sussurro também
 mas quando as duas abrimos a boca
@@ -4549,7 +4549,7 @@ de pés no chão
 de peito aberto
 nós`,
 
-  "o-circulo/10": `[Verse 1]
+  "incenso-o-circulo/10": `[Verse 1]
 Já pedi com o grito
 já pedi com o pranto
 Já pedi ao silêncio
@@ -4604,7 +4604,7 @@ fico`,
   // ALBUM: O GESTO
   // ─────────────────────────────────────────────
 
-  "o-gesto/1": `[Verse 1]
+  "incenso-o-gesto/1": `[Verse 1]
 Não tem tecto nem campainha
 não tem vitral nem altar de pedra
 Só o peito aberto na escuridão
@@ -4649,7 +4649,7 @@ Entra
 Está sempre aberta
 a catedral que es tu`,
 
-  "o-gesto/2": `[Verse 1]
+  "incenso-o-gesto/2": `[Verse 1]
 The moment between the in and out
 is longer than you think
 the body knows to pause there
@@ -4698,7 +4698,7 @@ Hold
 just hold
 then let it go`,
 
-  "o-gesto/3": `[Verse 1]
+  "incenso-o-gesto/3": `[Verse 1]
 Não disse amem com a boca
 não levantei a voz
 O corpo disse amem por mim
@@ -4742,7 +4742,7 @@ mas disse com o ser
 O corpo tem um idioma
 e e o primeiro a responder`,
 
-  "o-gesto/4": `[Verse 1]
+  "incenso-o-gesto/4": `[Verse 1]
 Há um fogo em mim que não é raiva
 não é febre, não é destruição
 É o que fica quando tiras tudo
@@ -4784,7 +4784,7 @@ não te apagues
 Arde
 foste feita para isso`,
 
-  "o-gesto/5": `[Verse 1]
+  "incenso-o-gesto/5": `[Verse 1]
 Entro na cozinha de manhã cedo
 O chão ainda frio, o ar ainda escuro
 Mas os pés sabem o que fazer
@@ -4840,7 +4840,7 @@ Não porque me rendem
 As mãos servem livres
 Quando os pés compreendem`,
 
-  "o-gesto/6": `[Verse 1]
+  "incenso-o-gesto/6": `[Verse 1]
 Sou um grão de areia
 num deserto sem limite
 tão pequena que o vento
@@ -4891,7 +4891,7 @@ e o começo
 de dizer sim
 ao que sou`,
 
-  "o-gesto/7": `[Verse 1]
+  "incenso-o-gesto/7": `[Verse 1]
 Houve noites tão fechadas
 que esqueci que tinha luz
 Houve dias tão carregados
@@ -4940,7 +4940,7 @@ Ainda brilha
 e isso basta
 ainda brilha`,
 
-  "o-gesto/8": `[Verse 1]
+  "incenso-o-gesto/8": `[Verse 1]
 Não sou o centro — nunca fui
 Passei anos a fingir que era
 Mas a verdade é um alívio
@@ -4982,7 +4982,7 @@ Sem merito
 Sem esforco
 Pertenco`,
 
-  "o-gesto/9": `[Verse 1]
+  "incenso-o-gesto/9": `[Verse 1]
 Tenho a casa cheia de coisas bonitas
 Tenho as respostas que me pediram
 Mas no meio do peito há um buraco
@@ -5035,7 +5035,7 @@ Aqui
 Aberto
 Meu`,
 
-  "o-gesto/10": `[Verse 1]
+  "incenso-o-gesto/10": `[Verse 1]
 Não foste tu que decidiste
 a primeira vez que encheste os pulmões
 o corpo simplesmente abriu
@@ -5084,7 +5084,7 @@ Respiro
 mesmo assim
 respiro`,
 
-  "o-gesto/11": `[Verse 1]
+  "incenso-o-gesto/11": `[Verse 1]
 O botão sai devagar
 a camisa escorrega do ombro
 Cada peça que cai no chão
@@ -5138,7 +5138,7 @@ a única que ninguém me dói`,
   // ALBUM: VENTRE
   // ─────────────────────────────────────────────
 
-  "espiritual-ventre/1": `[Verse 1]
+  "sangue-ventre/1": `[Verse 1]
 Antes de saber o teu nome
 O meu corpo já te fazia espaço
 As ancas alargavam em silêncio
@@ -5173,7 +5173,7 @@ Já eras
 De alguma forma
 Já eras`,
 
-  "espiritual-ventre/2": `[Verse 1]
+  "sangue-ventre/2": `[Verse 1]
 The room was cold and the gel was cold
 And the screen was grey and small
 Then a sound appeared — not mine
@@ -5207,7 +5207,7 @@ Tiny drum
 I hear you
 I'm coming`,
 
-  "espiritual-ventre/3": `[Verse 1]
+  "sangue-ventre/3": `[Verse 1]
 Ninguém te avisa
 Que o corpo se abre como a terra
 Que a dor é um portal
@@ -5243,7 +5243,7 @@ Parti
 E nasci
 Outra vez`,
 
-  "espiritual-ventre/4": `[Verse 1]
+  "sangue-ventre/4": `[Verse 1]
 The room was painted yellow
 For someone who never came
 The mobile turns in silence
@@ -5285,7 +5285,7 @@ Every morning
 Like a prayer
 For what could have been`,
 
-  "espiritual-ventre/5": `[Verse 1]
+  "sangue-ventre/5": `[Verse 1]
 São três da manhã
 O mundo inteiro dorme
 Menos eu e esta boca pequena
@@ -5321,7 +5321,7 @@ Eu estou aqui
 Dorme
 Que o leite sabe a casa`,
 
-  "espiritual-ventre/6": `[Verse 1]
+  "sangue-ventre/6": `[Verse 1]
 They call me mama in the morning
 And darling in the night
 But somewhere in between the names
@@ -5361,7 +5361,7 @@ A woman
 First
 And always`,
 
-  "espiritual-ventre/7": `[Verse 1]
+  "sangue-ventre/7": `[Verse 1]
 Dizem-me que vou mudar de ideias
 Dizem-me que é diferente quando é teu
 Dizem-me que uma mulher sem filhos
@@ -5398,7 +5398,7 @@ Sem filhos
 Inteira
 Com tudo`,
 
-  "espiritual-ventre/8": `[Verse 1]
+  "sangue-ventre/8": `[Verse 1]
 My mother sang a song to me
 In a language she half-remembered
 A melody from her own mother
@@ -5434,7 +5434,7 @@ Whispered once
 Hush
 And be held`,
 
-  "espiritual-ventre/9": `[Verse 1]
+  "sangue-ventre/9": `[Verse 1]
 Começou com um soluço
 Pequeno como uma semente
 Depois os olhos brilharam
@@ -5474,7 +5474,7 @@ Ri
 Que o mundo precisa
 Desse som`,
 
-  "espiritual-ventre/10": `[Verse 1]
+  "sangue-ventre/10": `[Verse 1]
 My mother's mother carried water
 Three miles before the sun
 Her mother's mother carried children
@@ -5518,7 +5518,7 @@ Mine`,
   // ALBUM: NEVOEIRO
   // ─────────────────────────────────────────────
 
-  "espiritual-nevoeiro/1": `[Verse 1]
+  "incenso-nevoeiro/1": `[Verse 1]
 Hoje não consigo
 Não há razão, não há nome
 É só um peso que acordou comigo
@@ -5543,7 +5543,7 @@ Hoje não
 E está tudo bem
 Hoje não`,
 
-  "espiritual-nevoeiro/2": `[Verse 1]
+  "incenso-nevoeiro/2": `[Verse 1]
 The sky is blue but I see grey
 The coffee's warm but I feel cold
 Everyone asks how I'm doing
@@ -5571,7 +5571,7 @@ Will lift
 It always does
 I wait`,
 
-  "espiritual-nevoeiro/3": `[Verse 1]
+  "incenso-nevoeiro/3": `[Verse 1]
 O primeiro comprimido
 Ficou na palma da mão
 Dez minutos a olhar
@@ -5606,7 +5606,7 @@ Existe
 E eu
 Atravessei`,
 
-  "espiritual-nevoeiro/4": `[Verse 1]
+  "incenso-nevoeiro/4": `[Verse 1]
 The room is small, the chair is soft
 The clock ticks louder than it should
 She asks me how I feel
@@ -5638,7 +5638,7 @@ And the walls
 Held
 And so did I`,
 
-  "espiritual-nevoeiro/5": `[Verse 1]
+  "incenso-nevoeiro/5": `[Verse 1]
 O coração dispara
 E não há perigo nenhum
 A cabeça diz que há incêndio
@@ -5668,7 +5668,7 @@ O alarme
 Passa
 Sempre passa`,
 
-  "espiritual-nevoeiro/6": `[Verse 1]
+  "incenso-nevoeiro/6": `[Verse 1]
 After the flood
 The water pulls back slowly
 The mud is everywhere
@@ -5701,7 +5701,7 @@ After everything
 Still
 Here`,
 
-  "espiritual-nevoeiro/7": `[Verse 1]
+  "incenso-nevoeiro/7": `[Verse 1]
 Estive um ano a ensaiar
 A frase mais difícil do mundo
 Três palavras pequenas
@@ -5734,7 +5734,7 @@ E dissê-lo
 Foi o começo
 De me salvar`,
 
-  "espiritual-nevoeiro/8": `[Verse 1]
+  "incenso-nevoeiro/8": `[Verse 1]
 Today was a good day
 Not great, not shining, just good
 I ate breakfast and I meant it
@@ -5765,7 +5765,7 @@ Today was good
 That's enough
 Today was good`,
 
-  "espiritual-nevoeiro/9": `[Verse 1]
+  "incenso-nevoeiro/9": `[Verse 1]
 Ninguém vê a cicatriz
 Porque não está na pele
 Está algures entre o peito
@@ -5800,7 +5800,7 @@ Sem se ver
 E é real
 Sempre foi`,
 
-  "espiritual-nevoeiro/10": `[Verse 1]
+  "incenso-nevoeiro/10": `[Verse 1]
 First it was a crack
 In the ceiling of the dark
 Then it was a line
@@ -5842,7 +5842,7 @@ Returns`,
   // ALBUM: FREQUÊNCIA
   // ─────────────────────────────────────────────
 
-  "espiritual-frequencia/1": `[Verse 1]
+  "incenso-frequencia/1": `[Verse 1]
 São sete da manhã e a cabeça já começou
 Antes do corpo sair da cama
 Já o dia inteiro passou
@@ -5909,7 +5909,7 @@ O barulho
 Aprendo
 A ouvir`,
 
-  "espiritual-frequencia/2": `[Verse 1]
+  "incenso-frequencia/2": `[Verse 1]
 The world went quiet
 Not because it stopped
 But because I found the thing
@@ -5994,7 +5994,7 @@ I disappear
 To finally
 Be whole`,
 
-  "espiritual-frequencia/3": `[Verse 1]
+  "incenso-frequencia/3": `[Verse 1]
 De manhã visto a máscara
 Que sorri na hora certa
 Que fala no tom certo
@@ -6069,7 +6069,7 @@ Inteira
 Diferente
 E suficiente`,
 
-  "espiritual-frequencia/4": `[Verse 1]
+  "incenso-frequencia/4": `[Verse 1]
 The doctor said three letters
 And the room rearranged
 Thirty years of wondering
@@ -6161,7 +6161,7 @@ Not who I am
 But how I see
 Every part of me`,
 
-  "espiritual-frequencia/5": `[Verse 1]
+  "incenso-frequencia/5": `[Verse 1]
 O supermercado é demasiado
 As luzes, os sons, as cores
 O corpo quer fugir
@@ -6243,7 +6243,7 @@ E cabe outra vez
 Dentro de mim
 Sem me romper`,
 
-  "espiritual-frequencia/6": `[Verse 1]
+  "incenso-frequencia/6": `[Verse 1]
 They said I was too much
 Too fast, too loud, too scattered
 They said I needed fixing
@@ -6327,7 +6327,7 @@ Magnificent
 Different
 And enough`,
 
-  "espiritual-frequencia/7": `[Verse 1]
+  "incenso-frequencia/7": `[Verse 1]
 Passei anos a sentir-me de fora
 Como quem olha pela janela
 Conversas a acontecer
@@ -6412,7 +6412,7 @@ Sem esforço
 Só eu
 Inteira`,
 
-  "espiritual-frequencia/8": `[Verse 1]
+  "incenso-frequencia/8": `[Verse 1]
 My mind connects the dots
 That nobody else can see
 Between a song, a colour
@@ -6490,7 +6490,7 @@ It's different
 Not despite
 Because of it`,
 
-  "espiritual-frequencia/9": `[Verse 1]
+  "incenso-frequencia/9": `[Verse 1]
 O mundo corre a cem
 Eu vou a sessenta e cinco
 Não é lentidão — é escolha
@@ -6572,7 +6572,7 @@ Meu lugar
 No momento certo
 De estar`,
 
-  "espiritual-frequencia/10": `[Verse 1]
+  "incenso-frequencia/10": `[Verse 1]
 They call it disorder
 I call it another station
 Static in the background

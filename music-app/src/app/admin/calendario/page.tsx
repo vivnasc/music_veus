@@ -65,45 +65,45 @@ const PLAN: DayPlan[] = [
 
   // ── SEMANA 2: Viagem + Saudade + Sangue Aceso ──
   { date: "2026-04-07", actions: [
-    { type: "reel", label: "Reel — Vertigem (Vasto)", albumSlug: "cosmic-vasto", trackNumber: 1, caption: '"Olhei para cima e o chao fugiu\nO ceu nao tem fundo e eu tambem nao\nA vertigem de existir\nE a mesma de cair — sem chao"\n\nVertigem — Loranne\nVasto\nmusic.seteveus.space\n\n#loranne #veus #vasto #vertigem #ceu' },
+    { type: "reel", label: "Reel — Vertigem (Vasto)", albumSlug: "eter-vasto", trackNumber: 1, caption: '"Olhei para cima e o chao fugiu\nO ceu nao tem fundo e eu tambem nao\nA vertigem de existir\nE a mesma de cair — sem chao"\n\nVertigem — Loranne\nVasto\nmusic.seteveus.space\n\n#loranne #veus #vasto #vertigem #ceu' },
   ]},
   { date: "2026-04-08", actions: [
     { type: "reel", label: "Reel — The Impermanence of You", albumSlug: "livro-filosofico", trackNumber: 2, caption: '"Nothing stays — nothing was meant to stay\nThe self you grip is made of rain\nLet the permanence dissolve like morning\nand find what lives beneath the pain"\n\nThe Impermanence of You — Loranne\nmusic.seteveus.space\n\n#loranne #veus #impermanence #letgo' },
   ]},
   { date: "2026-04-09", actions: [
-    { type: "reel", label: "Reel — O teu lado da cama (Saudade)", albumSlug: "romance-saudade", trackNumber: 1, caption: '"O teu lado da cama esta frio\nA marca do teu corpo desapareceu\nMas eu deito-me do meu lado\nComo se o teu ainda existisse"\n\nSaudade — Loranne\nmusic.seteveus.space\n\n#loranne #veus #saudade #falta #amor' },
+    { type: "reel", label: "Reel — O teu lado da cama (Saudade)", albumSlug: "nua-saudade", trackNumber: 1, caption: '"O teu lado da cama esta frio\nA marca do teu corpo desapareceu\nMas eu deito-me do meu lado\nComo se o teu ainda existisse"\n\nSaudade — Loranne\nmusic.seteveus.space\n\n#loranne #veus #saudade #falta #amor' },
   ]},
   { date: "2026-04-10", actions: [
-    { type: "carrossel", label: "Carrossel — Viagem", albumSlug: "cosmic-viagem", caption: "Viagem.\n10 faixas entre o corpo e o cosmos.\n\n\"Home is not a place\nHome is a frequency I recognise\nWhen the noise stops\nAnd the body softens\"\n\nOnde e que acabas tu e comeca o universo?\n\nmusic.seteveus.space\n\n#loranne #veus #viagem #cosmic #ouve" },
+    { type: "carrossel", label: "Carrossel — Viagem", albumSlug: "eter-viagem", caption: "Viagem.\n10 faixas entre o corpo e o cosmos.\n\n\"Home is not a place\nHome is a frequency I recognise\nWhen the noise stops\nAnd the body softens\"\n\nOnde e que acabas tu e comeca o universo?\n\nmusic.seteveus.space\n\n#loranne #veus #viagem #cosmic #ouve" },
   ]},
   { date: "2026-04-11", actions: [
-    { type: "reel", label: "Reel — Sangue Aceso", albumSlug: "vida-sangue-aceso", trackNumber: 1, caption: '"O primeiro passo doi\nO segundo ja nao para\nO corpo acorda e depois\nJa nao precisa de cara"\n\nSangue Aceso — Loranne\nmusic.seteveus.space\n\n#loranne #veus #sangueaceso #corpo #acordar' },
+    { type: "reel", label: "Reel — Sangue Aceso", albumSlug: "fibra-sangue-aceso", trackNumber: 1, caption: '"O primeiro passo doi\nO segundo ja nao para\nO corpo acorda e depois\nJa nao precisa de cara"\n\nSangue Aceso — Loranne\nmusic.seteveus.space\n\n#loranne #veus #sangueaceso #corpo #acordar' },
   ]},
   { date: "2026-04-12", actions: [
     { type: "reel", label: "Reel — The Body Keeps the Tale", albumSlug: "espelho-ilusao", trackNumber: 5, caption: '"Oh, the body keeps the tale\nWritten underneath the skin\nEvery scar\'s a letter sent\nFrom the girl I\'ve always been"\n\nThe Body Keeps the Tale — Loranne\nmusic.seteveus.space\n\n#loranne #veus #body #skin #memoria' },
   ]},
   { date: "2026-04-13", actions: [
-    { type: "reel", label: "Reel — Rendicao (domingo)", albumSlug: "vida-rendicao", trackNumber: 5, caption: '"O corpo fica mais pesado\nQue o colchao que o segura\nOs bracos sao de chumbo dourado\nA gravidade e uma ternura"\n\nRendicao — Loranne\nmusic.seteveus.space\n\n#loranne #veus #rendicao #descanso #domingo' },
+    { type: "reel", label: "Reel — Rendicao (domingo)", albumSlug: "mare-rendicao", trackNumber: 5, caption: '"O corpo fica mais pesado\nQue o colchao que o segura\nOs bracos sao de chumbo dourado\nA gravidade e uma ternura"\n\nRendicao — Loranne\nmusic.seteveus.space\n\n#loranne #veus #rendicao #descanso #domingo' },
   ]},
 
   // ── SEMANA 3: Pele + Frequencia + Duas Vozes + Estacoes ──
   { date: "2026-04-14", actions: [
-    { type: "reel", label: "Reel — Frequencia", albumSlug: "espiritual-frequencia", trackNumber: 1, caption: '"Sao sete da manha e a cabeca ja comecou\nAntes do corpo sair da cama\nJa o dia inteiro passou\nDez ideias a falar ao mesmo tempo"\n\nFrequencia — Loranne\nmusic.seteveus.space\n\n#loranne #veus #frequencia #cabeca #neurodivergente' },
+    { type: "reel", label: "Reel — Frequencia", albumSlug: "incenso-frequencia", trackNumber: 1, caption: '"Sao sete da manha e a cabeca ja comecou\nAntes do corpo sair da cama\nJa o dia inteiro passou\nDez ideias a falar ao mesmo tempo"\n\nFrequencia — Loranne\nmusic.seteveus.space\n\n#loranne #veus #frequencia #cabeca #neurodivergente' },
   ]},
   { date: "2026-04-15", actions: [
-    { type: "post", label: "Post — sobre Duas Vozes", albumSlug: "romance-duas-vozes", caption: "\"Contas-me o teu dia e eu finjo que ouco\nmas estou a olhar para as tuas maos\nA forma como seguras o copo\ncomo se o copo fosse uma oracao\"\n\nHa cancoes que so fazem sentido a dois.\nEste album e sobre o amor no quotidiano.\nO prato no micro-ondas. A cama desfeita. O silencio bom.\n\nDuas Vozes. Para ouvir ao lado de alguem.\nOu sozinha a lembrar de alguem.\n\nmusic.seteveus.space\n\n#loranne #veus #duasvozes #amor #quotidiano #ouve" },
+    { type: "post", label: "Post — sobre Duas Vozes", albumSlug: "nua-duas-vozes", caption: "\"Contas-me o teu dia e eu finjo que ouco\nmas estou a olhar para as tuas maos\nA forma como seguras o copo\ncomo se o copo fosse uma oracao\"\n\nHa cancoes que so fazem sentido a dois.\nEste album e sobre o amor no quotidiano.\nO prato no micro-ondas. A cama desfeita. O silencio bom.\n\nDuas Vozes. Para ouvir ao lado de alguem.\nOu sozinha a lembrar de alguem.\n\nmusic.seteveus.space\n\n#loranne #veus #duasvozes #amor #quotidiano #ouve" },
   ]},
   { date: "2026-04-16", actions: [
-    { type: "reel", label: "Reel — Sinal", albumSlug: "cosmic-sinal", trackNumber: 1, caption: '"O arrepio veio do nada\nNinguem tocou, ninguem falou\nEstava na fila do supermercado\nE o corpo inteiro arrepiou"\n\nSinal — Loranne\nmusic.seteveus.space\n\n#loranne #veus #sinal #arrepio #corpo' },
+    { type: "reel", label: "Reel — Sinal", albumSlug: "eter-sinal", trackNumber: 1, caption: '"O arrepio veio do nada\nNinguem tocou, ninguem falou\nEstava na fila do supermercado\nE o corpo inteiro arrepiou"\n\nSinal — Loranne\nmusic.seteveus.space\n\n#loranne #veus #sinal #arrepio #corpo' },
   ]},
   { date: "2026-04-17", actions: [
-    { type: "carrossel", label: "Carrossel — Pele", albumSlug: "cosmic-romance", caption: "Pele.\n10 faixas sobre a linguagem mais antiga.\n\n\"Apaixonei-me pelo teu cansaco\nPela forma como despes o dia\nPelo suspiro entre a porta e o sofa\nPela tua falta de energia\"\n\nPara ouvir a dois. Ou sozinha a pensar em alguem.\n\nmusic.seteveus.space\n\n#loranne #veus #pele #amor #ouve" },
+    { type: "carrossel", label: "Carrossel — Pele", albumSlug: "nua-pele", caption: "Pele.\n10 faixas sobre a linguagem mais antiga.\n\n\"Apaixonei-me pelo teu cansaco\nPela forma como despes o dia\nPelo suspiro entre a porta e o sofa\nPela tua falta de energia\"\n\nPara ouvir a dois. Ou sozinha a pensar em alguem.\n\nmusic.seteveus.space\n\n#loranne #veus #pele #amor #ouve" },
   ]},
   { date: "2026-04-18", actions: [
-    { type: "reel", label: "Reel — Ressurreicao (Estacoes)", albumSlug: "vida-estacoes", trackNumber: 1, caption: '"Houve um tempo em que fiquei deitada\ndentro de mim mesma, pedra sobre pedra\nO corpo pesado como terra molhada\no peito fechado como quem nao medra"\n\nEstacoes — Loranne\nmusic.seteveus.space\n\n#loranne #veus #estacoes #renascer #primavera' },
+    { type: "reel", label: "Reel — Ressurreicao (Estacoes)", albumSlug: "grao-estacoes", trackNumber: 1, caption: '"Houve um tempo em que fiquei deitada\ndentro de mim mesma, pedra sobre pedra\nO corpo pesado como terra molhada\no peito fechado como quem nao medra"\n\nEstacoes — Loranne\nmusic.seteveus.space\n\n#loranne #veus #estacoes #renascer #primavera' },
   ]},
   { date: "2026-04-19", actions: [
-    { type: "reel", label: "Reel — Mascara (Frequencia)", albumSlug: "espiritual-frequencia", trackNumber: 3, caption: '"De manha visto a mascara\nQue sorri na hora certa\nQue fala no tom certo\nQue parece estar desperta\nAntes mesmo de sair\nJa ensaiei quem vou ser"\n\nFrequencia — Loranne\nmusic.seteveus.space\n\n#loranne #veus #frequencia #mascara #neurodivergente' },
+    { type: "reel", label: "Reel — Mascara (Frequencia)", albumSlug: "incenso-frequencia", trackNumber: 3, caption: '"De manha visto a mascara\nQue sorri na hora certa\nQue fala no tom certo\nQue parece estar desperta\nAntes mesmo de sair\nJa ensaiei quem vou ser"\n\nFrequencia — Loranne\nmusic.seteveus.space\n\n#loranne #veus #frequencia #mascara #neurodivergente' },
   ]},
   { date: "2026-04-20", actions: [
     { type: "reel", label: "Reel — Honestidade Quieta (domingo)", albumSlug: "espelho-ilusao", trackNumber: 6, caption: '"Nao preciso de ser mais\nNao preciso de mudar\nSo preciso deste instante\nQuieto como o fundo do mar"\n\nHonestidade Quieta — Loranne\nmusic.seteveus.space\n\n#loranne #veus #honestidade #calma #domingo' },
@@ -120,7 +120,7 @@ const PLAN: DayPlan[] = [
     { type: "reel", label: "Reel — Permission", albumSlug: "espelho-culpa", trackNumber: 5, caption: '"But the birds don\'t earn the morning\nAnd the river doesn\'t pay for rain\nThe wildflower grows without permission\nAnd still the sun comes back again"\n\nPermission — Loranne\nmusic.seteveus.space\n\n#loranne #veus #permission #liberdade' },
   ]},
   { date: "2026-04-24", actions: [
-    { type: "reel", label: "Reel — O Circulo", albumSlug: "o-circulo", trackNumber: 1, caption: '"Quando acabam as palavras todas\nE o silencio fica so\nHa qualquer coisa ainda acesa\nQue nao sabe dizer adeus"\n\nO Circulo — Loranne\nmusic.seteveus.space\n\n#loranne #veus #ocirculo #silencio' },
+    { type: "reel", label: "Reel — O Circulo", albumSlug: "incenso-o-circulo", trackNumber: 1, caption: '"Quando acabam as palavras todas\nE o silencio fica so\nHa qualquer coisa ainda acesa\nQue nao sabe dizer adeus"\n\nO Circulo — Loranne\nmusic.seteveus.space\n\n#loranne #veus #ocirculo #silencio' },
   ]},
   { date: "2026-04-25", actions: [
     { type: "reel", label: "Reel — Heranca das avos", albumSlug: "espelho-culpa", trackNumber: 4, caption: '"A minha avo lavava roupa no rio\nCom as maos rachadas e o ventre cheio\nNunca disse quero, nunca disse eu\nMorreu com os sonhos ainda no seio"\n\nHeranca — Loranne\nmusic.seteveus.space\n\n#loranne #veus #heranca #avos #mulheres' },
@@ -129,7 +129,7 @@ const PLAN: DayPlan[] = [
     { type: "reel", label: "Reel — Desatar", albumSlug: "no-heranca", trackNumber: 5, caption: '"Desatar nao e destruir o que era nosso\nDesatar e dar ao fio espaco e ar\nO no que nos unia era o mesmo no\nQue nos impedia de nos encontrar"\n\nDesatar — Loranne\nmusic.seteveus.space\n\n#loranne #veus #desatar #liberdade' },
   ]},
   { date: "2026-04-27", actions: [
-    { type: "reel", label: "Reel — Luz Crua (domingo manha)", albumSlug: "vida-luz-crua", trackNumber: 1, caption: '"Antes de abrir os olhos\nO mundo ja existe la fora\nOs passaros cantam seus orgulhos\nMas eu fico mais uma hora"\n\nLuz Crua — Loranne\nmusic.seteveus.space\n\n#loranne #veus #luzcrua #manha #domingo' },
+    { type: "reel", label: "Reel — Luz Crua (domingo manha)", albumSlug: "grao-luz-crua", trackNumber: 1, caption: '"Antes de abrir os olhos\nO mundo ja existe la fora\nOs passaros cantam seus orgulhos\nMas eu fico mais uma hora"\n\nLuz Crua — Loranne\nmusic.seteveus.space\n\n#loranne #veus #luzcrua #manha #domingo' },
   ]},
   { date: "2026-04-28", actions: [
     { type: "reel", label: "Reel — Devagar (Espelho do Medo)", albumSlug: "espelho-medo", trackNumber: 7, caption: '"Devagar como a lua sobe\nDevagar como a mare vem\nDevagar como a ferida fecha\nDevagar como quem quer bem"\n\nDevagar — Loranne\nmusic.seteveus.space\n\n#loranne #veus #devagar #calma' },
