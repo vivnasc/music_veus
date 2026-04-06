@@ -1,29 +1,30 @@
 "use client";
 
 import { useEffect } from "react";
+import { useLibrary } from "@/hooks/useLibrary";
+import { ADMIN_EMAIL } from "@/lib/admin-auth";
 
 /**
  * Protections against downloading music and copying lyrics.
- *
- * - Blocks right-click everywhere (not just audio elements)
- * - Blocks save shortcuts (Ctrl+S, Cmd+S)
- * - Blocks devtools shortcuts (F12, Ctrl+Shift+I/J/C)
- * - Blocks drag on audio/image elements
- * - Blocks text selection on lyrics via CSS class
- * - Blocks "Save As" (Ctrl+Shift+S)
- *
- * Note: These are deterrents, not bulletproof. A determined user
- * can always bypass client-side protections. The goal is to make
- * casual downloading/copying inconvenient.
+ * Disabled for admin users so they can use devtools and right-click.
  */
 export default function NoDownload() {
+  const { userEmail } = useLibrary();
+  const isAdmin = userEmail === ADMIN_EMAIL;
+
   useEffect(() => {
-    // Block right-click globally
+    // Skip all protections for admin
+    if (isAdmin) return;
+
+    // Block right-click on audio/media elements only (not globally)
     function blockContext(e: MouseEvent) {
-      e.preventDefault();
+      const target = e.target as HTMLElement;
+      if (target.tagName === "AUDIO" || target.tagName === "VIDEO" || target.closest(".lyrics-content")) {
+        e.preventDefault();
+      }
     }
 
-    // Block keyboard shortcuts for save, devtools, source view
+    // Block keyboard shortcuts for save only (not devtools)
     function blockKeys(e: KeyboardEvent) {
       // Ctrl/Cmd + S (save)
       if ((e.ctrlKey || e.metaKey) && e.key === "s") {
@@ -31,26 +32,6 @@ export default function NoDownload() {
       }
       // Ctrl/Cmd + Shift + S (save as)
       if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === "S") {
-        e.preventDefault();
-      }
-      // Ctrl/Cmd + U (view source)
-      if ((e.ctrlKey || e.metaKey) && e.key === "u") {
-        e.preventDefault();
-      }
-      // F12 (devtools)
-      if (e.key === "F12") {
-        e.preventDefault();
-      }
-      // Ctrl/Cmd + Shift + I (devtools)
-      if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === "I") {
-        e.preventDefault();
-      }
-      // Ctrl/Cmd + Shift + J (console)
-      if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === "J") {
-        e.preventDefault();
-      }
-      // Ctrl/Cmd + Shift + C (inspect element)
-      if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === "C") {
         e.preventDefault();
       }
     }
@@ -89,7 +70,7 @@ export default function NoDownload() {
       document.removeEventListener("dragstart", blockDrag);
       document.removeEventListener("copy", blockCopy);
     };
-  }, []);
+  }, [isAdmin]);
 
   // Global CSS to prevent text selection on lyrics
   return (
