@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { adminFetch } from "@/lib/admin-fetch";
 
 export default function MigrateSlugsPage() {
   const [log, setLog] = useState<string[]>([]);
@@ -11,9 +12,8 @@ export default function MigrateSlugsPage() {
     setLoading(true);
     setLog([dryRun ? "A verificar..." : "A migrar..."]);
     try {
-      const res = await fetch("/api/admin/migrate-slugs", {
+      const res = await adminFetch("/api/admin/migrate-slugs", {
         method: dryRun ? "GET" : "POST",
-        credentials: "include",
       });
       const data = await res.json();
       if (data.erro) {
