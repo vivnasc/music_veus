@@ -6676,7 +6676,7 @@ And I didn't give a damn
 
 [Chorus]
 Barefoot — on the earth
-Barefoot — like a birth
+Barefoot — a rebirth
 Every step a homecoming
 Every blade a friend
 Barefoot — is the fastest way
@@ -6707,7 +6707,7 @@ E a cozinha é o Madison
 O molho salpica a camisa
 E eu não quero saber
 Estou no refrão mais alto
-E o fogão sabe a prazer
+E tudo sabe a prazer
 
 [Chorus]
 Cozinhar a cantar
@@ -6767,13 +6767,13 @@ This`,
 Chove — e toda a gente corre
 Eu paro — e olho para as poças
 São espelhos invertidos
-Onde o céu cabe nas nossas
+Onde o céu cabe nas nossas mãos
 
 [Verse 2]
 Salto com os dois pés
 Como se tivesse cinco anos
 A água sobe e molha tudo
-E eu rio dos meus próprios enganos
+E eu rio dos meus próprios planos
 
 [Chorus]
 Saltar — nas poças de chuva
@@ -6783,7 +6783,7 @@ E as poças são para mim
 Quem disse que os adultos
 Não podem ser crianças
 Quem disse que a dignidade
-Não cabe nas danças
+não dança nas poças
 De quem salta descalça
 Na chuva de abril
 
@@ -6829,7 +6829,7 @@ Always`,
 
   "grao-festa/7": `[Verse 1]
 É de baunilha com pepitas
-Derrete-me no queixo
+Derrete-se no queixo
 Estou sentada no passeio
 E o mundo está perfeito
 
@@ -6847,8 +6847,8 @@ Sem pressa e sem tormento
 As coisas mais bonitas da vida
 Cabem numa bola de gelado
 A alegria não é complicada
-É fria, é doce — e é comprada
-Por moedas no bolso
+É fria, é doce — e cabe
+Numa moeda do bolso
 Nada mais
 
 [Outro]
@@ -6877,7 +6877,7 @@ And leaves me lighter than air
 Dance floor — I close my eyes
 Dance floor — I disappear
 Into the beat, into the bass
-Into the most honest version of here
+Into the only place that's clear
 No name, no face
 Just the dance
 Just the space
@@ -6898,7 +6898,7 @@ E saiu um riso tamanho
 Ela olhou para mim
 Eu olhei para ela
 E as duas caímos
-Como quem cai de uma estrela
+Como quem já não tem cautela
 
 [Chorus]
 Gargalhada — a que dói na barriga
@@ -6935,7 +6935,7 @@ That carries me through snow
 Thank you — for everything
 Thank you — for nothing in particular
 Thank you — for the ordinary
-Tuesday afternoon spectacular
+a Tuesday that turns spectacular
 For the bread, the rain, the blanket
 For the friend who texts at noon
 For the moon that shows up nightly

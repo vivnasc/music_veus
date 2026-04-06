@@ -196,7 +196,7 @@ I am here`,
 As folhas caem como quem desiste
 mas sem drama — com elegância
 Soltam-se do ramo em silêncio
-com a graça de quem já foi dança
+com a graça de uma última dança
 
 [Verse 2]
 O ar tem cheiro a lenha e a terra
@@ -286,7 +286,7 @@ a ouvir o que ficou sem som
 Noite mais longa
 o mundo recolhe e eu recolho
 Não é solidão — é o encontro
-comigo por debaixo de cada escolho
+comigo por debaixo de cada agasalho
 
 [Bridge]
 O solstício de inverno é uma promessa
@@ -322,7 +322,7 @@ not empty but reaching
 Into the places light won't go
 where something ancient waits
 The longest night is not the end
-it's where the new day gestates
+it's where the new day waits
 
 [Bridge]
 From tomorrow on
@@ -354,7 +354,7 @@ de quem decidiu não esperar
 Fogo novo — não preciso de Janeiro
 para começar de novo
 Fogo novo — qualquer segunda-feira
-é terreno de recomeço e de chovo
+é terreno fértil, terreno novo
 Acendo o que quero que viva
 enterro o que já morreu
 O calendário é uma moldura
@@ -364,7 +364,7 @@ o tempo real sou eu
 Doze badaladas ou nenhuma
 tanto faz, tanto vale
 O corpo sabe quando muda
-sem precisar de confettis nem de baile
+sem precisar de confetes nem de baile
 
 [Outro]
 Fogo novo
@@ -2328,8 +2328,7 @@ Oceano interior — sou mais funda do que pensava
 Oceano interior — há vida onde eu julgava
 que era escuro e vazio e frio
 Há corais que crescem no silêncio
-há peixes que brilham no navio
-afundado do que eu já fui
+há luz no destroço do que eu já fui
 
 [Bridge]
 O corpo é setenta por cento água
@@ -2403,7 +2402,7 @@ mas o pensamento pára — e esse é o momento
 De perceber que o fundo não é o fim
 é onde a pressão revela
 o que sobrevive a tudo
-o que é osso, o que é estrela
+o que é osso, o que é pérola
 
 [Bridge]
 Afundar não é morrer
@@ -2440,10 +2439,10 @@ to push up from beneath
 I didn't plan this resurrection
 I didn't know I'd make it through
 I just ran out of breath down there
-and the surface called — and grew
+and the surface called me through
 
 [Bridge]
-Every drowning has an upward
+Every drowning has a turning
 every deep has its release
 The body knows the way to air
 even when the mind has lost its peace
@@ -2469,7 +2468,7 @@ que o corpo responde sem falar
 Fico parada no meio da rua
 com a roupa colada à pele
 A chuva lava o que o chuveiro não alcança
-o que está debaixo do que é ele
+o que está debaixo do que se vê
 
 [Chorus]
 Chove em mim — e eu deixo
@@ -2499,7 +2498,7 @@ leve`,
 Rivers don't run in straight lines
 they bend around the stone
 They don't fight what's in the way
-they find another zone
+they find another home
 
 [Verse 2]
 I used to push through everything
@@ -2509,7 +2508,7 @@ and the rock erodes eventually
 
 [Chorus]
 Flow — not force but patience
-Flow — not speed but faith
+Flow — not speed but grace
 Flow — the water always wins
 because it doesn't need to race
 The river doesn't hate the mountain
@@ -2554,7 +2553,7 @@ o nome, a idade, a culpa
 Água quente — volto ao início
 ao líquido de antes do nascimento
 O banho é o ritual
-mais antigo e mais lento
+mais antigo e mais atento
 
 [Bridge]
 Dez minutos na banheira
@@ -2623,7 +2622,7 @@ somos o mesmo organismo — humano
 Cada lágrima é uma onda pequena
 que cai de um penhasco interior
 Não a segures — deixa cair
-o mar não tem vergonha da sua cor
+o mar não tem vergonha da sua dor
 
 [Chorus]
 Chorar é devolver ao mar
@@ -2677,7 +2676,7 @@ the same — but deeper than before
 The sea doesn't apologize for storms
 the sea just breathes and waits
 And when the water settles down
-it mirrors back — the sky, the fate
+it mirrors back the sky, the weight
 
 [Outro]
 Still now
@@ -3499,7 +3498,7 @@ e ainda assim — a casa suporta
 Eu chego quando tu já dormes
 e encontro o prato no micro-ondas
 O bilhete na mesa diz "aqueci-te o jantar"
-e é a carta de amor mais redonda
+e é a carta de amor que não se manda
 
 [Chorus - Both]
 Dois ritmos — na mesma casa
@@ -3515,7 +3514,7 @@ está tudo o que importa — aqui
 Às vezes cruzamo-nos no corredor
 e o toque é breve como um suspiro
 Mas nesse segundo cabe um dia inteiro
-um "estou aqui" sem retiro
+um "estou aqui" que eu respiro
 
 [Outro - Both]
 A luz acesa
@@ -3580,7 +3579,7 @@ antes de chegar à boca — como um dom
 Os detalhes — é aí que o amor mora
 não no grande gesto, não na flor
 Nos detalhes — no copo, no riso
-na meia que eu procuro com ardor
+na meia que eu encontro pelo chão
 No café que tu fazes sem eu pedir
 no beijo na testa ao sair
 Os detalhes são o amor verdadeiro
@@ -3590,7 +3589,7 @@ o que se constrói sem decidir
 Sei que me amas pela forma
 como pões o meu casaco no cabide
 Não de qualquer maneira — com cuidado
-como quem guarda algo que preside
+como quem guarda algo que não se mede
 
 [Outro - Both]
 O copo
@@ -3706,8 +3705,8 @@ did anyone make you feel small today
 Underneath the words
 there's always another conversation
 Underneath "how was your day"
-is "are you still in this relation
-ship with me, with us, with the life we built
+is "do you still choose this — choose me
+choose us, choose the quiet we built
 from coffee cups and borrowed time"
 Underneath the words
 is a love that speaks in pantomime
@@ -3716,7 +3715,7 @@ is a love that speaks in pantomime
 We've been together long enough
 to hear the words behind the words
 Long enough to know the silence
-is sometimes louder than the thirds — the chords
+is sometimes louder than the chords
 
 [Outro - Both]
 How was your day
@@ -3733,13 +3732,13 @@ everything`,
 Trouxe-te flores sem razão
 sem aniversário, sem pedido de desculpa
 Só porque a banca no mercado
-tinha girassóis com a cor da tua culpa — não, da tua luz
+tinha girassóis com a cor da tua luz
 
 [Verse 2 - Female]
 Recebo as flores e sei
 que não é um gesto — é uma frase
 "Estou a pensar em ti" dito
-com pétalas em vez de voz — sem quase
+com pétalas em vez de voz — sem frase
 
 [Chorus - Both]
 Flores sem razão
@@ -3780,7 +3779,7 @@ and that's when you're most clear — most here
 You caught me — wet and out of tune
 standing in the steam
 I haven't sung since I was young
-since before I learned to deem — myself too much
+since before I learned to dream — of being less
 
 [Chorus - Both]
 Sing — even out of tune
@@ -3817,13 +3816,13 @@ allowed`,
 Adormeceste no sofá com o livro no peito
 e eu fiquei a olhar como quem rouba
 Um momento de paz tão completo
-que o ar à volta — parecia uma alcova
+que até o tempo fez uma pausa
 
 [Verse 2 - Male]
 Acordei e estavas a olhar para mim
 com aqueles olhos de quem sabe
 Sabe que o amor não é fogo de artifício
-é a brasa que no sofá cabe
+é a brasa calma que não se sabe
 
 [Chorus - Both]
 O sofá — o altar do nosso amor
@@ -3885,7 +3884,7 @@ I love you — standing here
 Let me hear it now — with breath
 not just with gestures and with deeds
 I love you — is the simplest truth
-and the only one — that feeds
+and the only one we need
 
 [Outro - Both]
 I love you

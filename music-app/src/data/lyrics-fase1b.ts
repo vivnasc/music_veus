@@ -860,7 +860,7 @@ O que guardou desde a infância
 Cada gesto é uma palavra
 Que a boca nunca soube
 E o corpo finalmente lavra
-O campo que a mente não coube
+O campo onde a mente não coube
 
 [Chorus]
 O primeiro passo é sagrado
@@ -1156,7 +1156,7 @@ Com uma enorme precisão
 De quem sabe que a tontice
 É sagrada, é necessária
 Que o corpo que se entontece
-É o corpo que se liberta e é aliada
+É o corpo que se liberta e é aliado
 
 [Chorus]
 Gira que o mundo gira contigo
@@ -1181,7 +1181,7 @@ Cada giro é um antigo
 Passo para revivir
 
 [Outro]
-Quando finalmente páro
+Quando finalmente paro
 O mundo ainda gira
 E tudo fica mais claro
 Quando a tontice respira
@@ -1203,7 +1203,7 @@ But I know I'm not coming back
 [Verse 2]
 The bass is a second heartbeat
 That replaced the one I had
-My arms move on their own two feet
+My arms move to their own two beats
 My body is beautifully mad
 I closed my eyes three songs ago
 And haven't opened them since
@@ -1286,7 +1286,7 @@ Com a forma de viver
 Cada poro é uma torneira
 Que se abriu para o calor
 A pele brilha como cera
-E o suor é o meu suor
+E o suor tem o seu valor
 
 [Pre-Chorus]
 Suor doce, suor de dança
@@ -1323,7 +1323,7 @@ De um corpo vivo e desperto
 [Bridge]
 Lembras-te de ter vergonha
 De suar, de ficar molhada
-Agora cada gota é uma fronha
+Agora cada gota é uma proeza
 Onde o corpo está deitado
 Em conforto, em aceitação
 Em sal e em calor
@@ -1353,7 +1353,7 @@ The urgency dissolves and lifts
 And what remains is just the rest
 My arms drop gently to my sides
 My head tilts back to face the air
-I stop performing, stop the hides
+I stop performing, stop the lies
 And stand completely bare
 
 [Verse 2]
@@ -1608,7 +1608,7 @@ Do vento que me vem lamber
 Obrigada é pouco
 Para o que o corpo faz
 Mas é tudo o que tenho
-E espero que te baste e satisfaz
+E espero que te baste e satisfaça
 
 [Chorus]
 Obrigada, corpo que me carrega
@@ -1781,7 +1781,7 @@ E junto-as ao meu coração
 A lista tem o teu nome
 E o nome da rua de casa
 O pão que mata a fome
-A sombra da árvore que abrasa
+A sombra da árvore que me abraça
 O livro que li três vezes
 A música que me fez chorar
 Os primeiros dias dos meses
@@ -1957,7 +1957,7 @@ Não é um gesto extremo
 Para quem quer receber
 Tem primeiro de largar
 Para quem quer viver
-Tem primeiro de abrir o palmar
+Tem primeiro de abrir a palma
 
 [Chorus]
 Mãos abertas para tudo
@@ -2009,7 +2009,7 @@ Even when I said I'm done
 Thank you for the sweat and ache
 For every fever that you fought
 For every morning I could wake
-Because of battles you had brought
+Because of battles you had fought
 
 [Verse 3]
 Thank you, heart, for every beat
@@ -2060,7 +2060,7 @@ Como se a manhã fosse uma oliva
 Que alguém me deu para provar
 A luz entrou pela janela
 Sem pedir licença nem bilhete
-E a primeira coisa mais bela
+E a primeira coisa bela
 Foi perceber que estou neste banquete
 
 [Verse 2]
@@ -2181,7 +2181,7 @@ By simply being there
 Thank God for the small things
 The invisible and mild
 The tiny unremarkable things
-That make the world worth while
+That make the world worthwhile
 
 [Bridge]
 We chase the big ones all our lives
@@ -2233,7 +2233,7 @@ O que a lua fez
 Estar cheia não é ter muito
 É sentir que nada falta
 É um copo sem luto
-É uma mesa sem a falta
+É uma mesa que está farta
 
 [Chorus]
 Estou cheia de gratidão
@@ -5598,7 +5598,7 @@ Que toco é sempre a do baralho
 
 [Outro]
 A minha mãe esperava no portão
-Com um sorriso maior que o dela
+Com um sorriso maior que o meu
 E eu corri com o coração
 Na mão para contar-lhe aquela
 Primeira coisa que aprendi
@@ -5627,7 +5627,7 @@ And feel the most magnificent bloom
 Of freedom I have ever met
 
 [Pre-Chorus]
-Keys in your hand means nobody
+Keys in your hand mean nobody
 Can tell you when to sleep
 Your home is now your body
 And the promises you keep
@@ -5843,7 +5843,7 @@ The city is teaching me how`,
   "grao-porta-aberta/5": `[Verse 1]
 O telefone pesa como pedra
 Quando é para ligar a casa
-A mão treme e a voz medra
+A mão treme e a voz hesita
 Porque sei que quando a minha mãe me abraça
 Pela voz — vou querer chorar
 E chorar é admitir
@@ -5912,7 +5912,7 @@ Eu sei que tu estarás lá
 Despeço-me com um beijo
 Que atravessa o telefone
 E guardo o meu desejo
-De que a distância não me done
+De que a distância não me doa
 Tanto como hoje
 Porque amanhã vai ser mais fácil
 E a saudade que me move
@@ -6010,7 +6010,7 @@ De adulta — sem poder reclamar
 Sentei-me à mesa com a factura
 E uma calculadora velha
 A olhar para cada linha escura
-Como quem lê uma ovelha
+Como quem lê uma linha vermelha
 Negra entre números brancos
 Quilowatts e impostos e taxas
 O adulto senta-se em bancos
@@ -6165,7 +6165,7 @@ Que não passa na mesma vez
 [Verse 2]
 Pego no lápis e desenho
 Uma rua que ainda não existe
-Com o traço tímido de quem tenho
+Com o traço tímido que tenho
 A coragem de quem insiste
 Em criar o caminho ao caminhar
 Em fazer a estrada ao andar
@@ -7131,7 +7131,7 @@ E uma criança anda a despacho
 A cidade vista de cima
 É mais bonita do que a ras
 E esta varanda é a rima
-Mais perfeita do meu paz
+Mais perfeita da minha paz
 
 [Pre-Chorus]
 A varanda é o espaço
@@ -7143,11 +7143,11 @@ De céu que é meu — e é verso
 Varanda quente ao fim do dia
 Os pés descalços nas pedras mornas
 A melhor companhia
-É o silêncio sem contornas
+É o silêncio sem retornos
 O mundo lá em baixo corre
 E eu aqui em cima fico
 A ver como o sol morre
-De uma morte bonita — e eu fico rico
+De uma morte bonita — e eu fico rica
 
 [Verse 3]
 Trago a cadeira mais velha
@@ -7294,7 +7294,7 @@ Começa assim — com um golo e um topo
 O primeiro gole da noite
 É a porta que se abre
 Para um entardecer sem açoite
-Sem compromisso e sem abre
+Sem pressa e sem debate
 
 [Chorus]
 Gelo no copo, sol no céu
@@ -7456,7 +7456,7 @@ Uma mulher e um retrato
 Descalça e o mundo é mais perto
 Os pés sentem a terra através
 Da pedra e do que está aberto
-Entre o meu corpo e o mês
+Entre o meu corpo e os meus pés
 De Julho ou Agosto — tanto faz
 Quando os pés estão descalços
 E a noite é capaz
@@ -7475,7 +7475,7 @@ De todas as minhas cicatrizes
 [Chorus]
 Descalça — e sou eu mesma
 Sem salto e sem disfarce
-Os pés são a minha emblema
+Os pés são o meu emblema
 De quem não precisa de alarde
 
 [Bridge]
@@ -7512,7 +7512,7 @@ From white to pink to purple sky
 Each minute paints a different scene
 A landscape made of steam and light
 The most expensive thing I've seen
-That costs me absolutely right
+That costs me absolutely nothing
 
 [Verse 2]
 A cloud that was a ship at five
@@ -7595,7 +7595,7 @@ Companhia que a varanda me dá
 
 [Verse 2]
 O vinho sabe a verão
-A fruta e a sal e a preguiça
+A fruta e o sal e a preguiça
 É o sabor da não-acção
 De quem não tem hora nem cobiça
 O primeiro gole desce lento
@@ -7799,7 +7799,7 @@ E os mesmos pontos que traçavam
 São o mesmo desejo
 De saber onde se está
 De encontrar o caminho
-Cada estrela é um alá
+Cada estrela é um olá
 De um universo que é vizinho
 
 [Chorus]
@@ -7812,7 +7812,7 @@ De luz que é o meu abrigo
 Quando a última estrela se acender
 E o céu estiver completo
 Vou saber que não preciso de mais ninguém
-Para me sentir inteiro
+Para me sentir inteira
 A varanda e as estrelas
 São tudo o que eu peço
 A noite e as centelhas
@@ -7831,7 +7831,7 @@ Between the sky and all the floors
 [Verse 2]
 Another day has come and gone
 Another spin around the star
-And I was here from dusk to dawn
+And I was here from dawn to dusk
 Or close enough — right where you are
 The balcony has held me tight
 Through all the colours of the sky
@@ -7842,7 +7842,7 @@ I want to say a soft goodbye
 Goodnight is not a sad word
 It's the gentlest of thanks
 A quiet and beautiful byword
-For gratitude in the ranks
+For gratitude and thanks
 
 [Chorus]
 Goodnight, world — and thank you
