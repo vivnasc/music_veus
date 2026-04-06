@@ -61,12 +61,12 @@ function buildVisualPrompt(caption: string): string {
   const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : caption.slice(0, 200);
 
   return [
-    "Cinematic vertical frame, moody and atmospheric.",
-    "Dark tones with warm golden light accents, film grain, shallow depth of field.",
-    "No text, no words, no letters, no watermarks, no people's faces.",
-    "Emotionally evocative scene, dreamlike, European art-house cinema aesthetic.",
-    `Visual interpretation of: "${verse.slice(0, 250)}"`,
-    "Colour palette: deep blacks, warm amber, soft gold, muted earth tones.",
-    "9:16 vertical composition, cinematic lighting.",
+    "Beautiful editorial photograph, warm natural light, high quality.",
+    "No text, no words, no letters, no watermarks, no logos.",
+    "Show a concrete, real scene that illustrates this story:",
+    `"${verse.slice(0, 250)}"`,
+    "The image should feel like a moment captured — intimate, real, warm.",
+    "Soft warm tones, natural light, slightly desaturated film look.",
+    "9:16 vertical composition, shallow depth of field.",
   ].join(" ");
 }

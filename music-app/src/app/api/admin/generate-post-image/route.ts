@@ -73,15 +73,13 @@ function buildVisualPrompt(caption: string, albumTitle?: string): string {
     .trim();
 
   return [
-    "Cinematic, moody, editorial photography style.",
-    "Dark atmospheric tones, warm golden accents, film grain.",
-    "No text, no words, no letters, no watermarks.",
-    "Emotionally evocative scene inspired by:",
+    "Beautiful editorial photograph, warm natural light, high quality.",
+    "No text, no words, no letters, no watermarks, no logos.",
+    "Show a concrete, real scene that illustrates this story:",
     verse ? `"${verse.slice(0, 200)}"` : "",
-    cleanCaption ? `Context: ${cleanCaption.slice(0, 150)}` : "",
-    albumTitle ? `Album mood: ${albumTitle}` : "",
-    "Style: intimate, poetic, European art-house cinema aesthetic.",
-    "Colour palette: deep blacks, warm amber, soft gold, muted earth tones.",
-    "Square format 1:1 composition.",
+    cleanCaption ? `${cleanCaption.slice(0, 200)}` : "",
+    "The image should feel like a moment captured — intimate, real, warm.",
+    "Soft warm tones, natural light, slightly desaturated film look.",
+    "Square 1:1 composition, shallow depth of field.",
   ].filter(Boolean).join(" ");
 }
