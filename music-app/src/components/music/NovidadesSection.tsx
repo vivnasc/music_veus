@@ -22,9 +22,11 @@ export default function NovidadesSection() {
       }
     }
 
-    // Sort by publication date — newest first
+    // Sort by publication date — newest first, show only recent (last 30 days or top 6)
     items.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
-    return items;
+    const thirtyDaysAgo = Date.now() - 30 * 24 * 60 * 60 * 1000;
+    const recent = items.filter(i => new Date(i.publishedAt).getTime() > thirtyDaysAgo);
+    return recent.length >= 3 ? recent.slice(0, 8) : items.slice(0, 6);
   })();
 
   if (!loading && albums.length === 0) return null;
