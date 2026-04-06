@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
 import { createClient } from "@supabase/supabase-js";
 
+export const maxDuration = 120;
+
 const RUNWAY_API = "https://api.dev.runwayml.com/v1";
 const BUCKET = "audios";
 
@@ -73,11 +75,20 @@ export async function POST(req: NextRequest) {
 
     // Fallback to provided imageUrl (e.g. from fal.ai)
     if (!promptImage && imageUrl) {
-      const imgRes = await fetch(imageUrl);
-      if (imgRes.ok) {
-        const blob = await imgRes.blob();
-        const buffer = Buffer.from(await blob.arrayBuffer());
-        promptImage = `data:${blob.type || "image/png"};base64,${buffer.toString("base64")}`;
+      try {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 20000);
+        const imgRes = await fetch(imageUrl, { signal: controller.signal });
+        clearTimeout(timeout);
+        if (imgRes.ok) {
+          const blob = await imgRes.blob();
+          const buffer = Buffer.from(await blob.arrayBuffer());
+          promptImage = `data:${blob.type || "image/jpeg"};base64,${buffer.toString("base64")}`;
+        } else {
+          console.warn(`[runway/generate] imageUrl fetch failed: ${imgRes.status}`);
+        }
+      } catch (e) {
+        console.warn(`[runway/generate] imageUrl fetch error:`, e);
       }
     }
 

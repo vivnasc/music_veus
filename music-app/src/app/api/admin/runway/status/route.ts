@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
 import { createClient } from "@supabase/supabase-js";
 
+export const maxDuration = 60;
+
 const RUNWAY_API = "https://api.dev.runwayml.com/v1";
 const BUCKET = "audios";
 

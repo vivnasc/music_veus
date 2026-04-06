@@ -28,57 +28,26 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ erro: "clipUrls e audioUrl obrigatórios." }, { status: 400 });
   }
 
-  // Build timeline: clips in sequence + audio track + text overlay
   const clipDuration = 5;
   const totalDuration = clipUrls.length * clipDuration;
 
-  const videoClips = clipUrls.map((url: string, idx: number) => ({
-    asset: {
-      type: "video",
-      src: url,
-      trim: 0,
-      volume: 0, // mute original video
-    },
-    start: idx * clipDuration,
-    length: clipDuration,
-    transition: idx > 0 ? { in: "fade", out: "fade" } : { out: "fade" },
-  }));
-
-  // Audio from track (start at ~30s for the best part)
-  const audioTrack = {
-    clips: [{
-      asset: {
-        type: "audio",
-        src: audioUrl,
-        trim: 30,
-        volume: 1,
-      },
-      start: 0,
-      length: totalDuration,
-    }],
-  };
-
-  // Text overlays
+  // Track 1 (top): text overlays
   const textClips = [];
-
-  // Verse text
   if (verse) {
     textClips.push({
       asset: {
         type: "html",
-        html: `<p style="font-family:Georgia,serif;font-style:italic;font-size:42px;color:white;text-align:center;text-shadow:0 2px 15px rgba(0,0,0,0.8);padding:0 40px;line-height:1.5">${escapeHtml(verse)}</p>`,
+        html: `<p style="font-family:Georgia,serif;font-style:italic;font-size:42px;color:white;text-align:center;text-shadow:0 2px 15px rgba(0,0,0,0.8);padding:0 60px;line-height:1.5">${escapeHtml(verse)}</p>`,
         width: 1080,
-        height: 400,
+        height: 500,
       },
       start: 1,
       length: totalDuration - 2,
       position: "center",
-      offset: { x: 0, y: 0.15 },
+      offset: { x: 0, y: 0.12 },
       transition: { in: "fade", out: "fade" },
     });
   }
-
-  // Branding
   textClips.push({
     asset: {
       type: "html",
@@ -89,16 +58,44 @@ export async function POST(req: NextRequest) {
     start: 1.5,
     length: totalDuration - 2,
     position: "bottom",
-    offset: { x: 0, y: -0.04 },
+    offset: { x: 0, y: -0.03 },
     transition: { in: "fade", out: "fade" },
   });
+
+  // Track 2: video clips in sequence with crossfade
+  const videoClips = clipUrls.map((url: string, idx: number) => ({
+    asset: {
+      type: "video",
+      src: url,
+      trim: 0,
+      volume: 0,
+    },
+    start: idx * clipDuration,
+    length: clipDuration,
+    transition: {
+      in: idx > 0 ? "fade" : undefined,
+      out: "fade",
+    },
+  }));
+
+  // Track 3: audio
+  const audioClips = [{
+    asset: {
+      type: "audio",
+      src: audioUrl,
+      trim: 30,
+      volume: 1,
+    },
+    start: 0,
+    length: totalDuration,
+  }];
 
   const timeline = {
     background: "#000000",
     tracks: [
-      { clips: textClips },  // text on top
-      { clips: videoClips },  // video clips
-      audioTrack,             // audio
+      { clips: textClips },
+      { clips: videoClips },
+      { clips: audioClips },
     ],
   };
 
@@ -106,7 +103,7 @@ export async function POST(req: NextRequest) {
     timeline,
     output: {
       format: "mp4",
-      resolution: "hd",       // 1080p
+      resolution: "hd",
       aspectRatio: "9:16",
       fps: 30,
     },

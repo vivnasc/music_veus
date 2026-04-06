@@ -479,8 +479,9 @@ export default function CalendarPage() {
 
                                         // Step 2: 1 Loranne + 2 AI → send 3 to Runway in parallel
                                         const loranneImgs = pickLorannImages(albumSlug, trackNum, 1);
+                                        const prodUrl = "https://music.seteveus.space";
                                         const imageUrls = [
-                                          `${window.location.origin}${loranneImgs[0]}`,
+                                          `${prodUrl}${loranneImgs[0]}`,
                                           aiData.imageUrls[0],
                                           aiData.imageUrls[1] || aiData.imageUrls[0],
                                         ];
@@ -521,7 +522,11 @@ export default function CalendarPage() {
                                           }
                                           if (!rd.taskId) { alert(`Runway clip ${idx + 1}: ${rd.erro || JSON.stringify(rd)}`); return; }
 
-                                          const params = new URLSearchParams({ taskId: rd.taskId });
+                                          const params = new URLSearchParams({
+                                            taskId: rd.taskId,
+                                            album: albumSlug,
+                                            track: String(trackNum * 10 + idx),
+                                          });
                                           let found = false;
                                           for (let i = 0; i < 120; i++) {
                                             await new Promise(r => setTimeout(r, 3000));
@@ -538,10 +543,22 @@ export default function CalendarPage() {
                                           if (!found) { alert(`Timeout no clip ${idx + 1}`); return; }
                                         }
 
-                                        // Step 4: Mount with Shotstack (3 clips + audio + text)
-                                        setGenerating(p => ({ ...p, [key]: "4/4 Shotstack a montar..." }));
+                                        // Step 4: Validate clips + mount with Shotstack
+                                        setGenerating(p => ({ ...p, [key]: "4/4 A validar clips..." }));
+
+                                        // Validate all clip URLs are accessible
+                                        const clipChecks = await Promise.all(clipUrls.map(url => fetch(url, { method: "HEAD" }).then(r => r.ok).catch(() => false)));
+                                        const badClips = clipChecks.filter(ok => !ok).length;
+                                        if (badClips > 0) { alert(`${badClips} clip(s) inacessíveis. Os vídeos do Runway podem ter expirado.`); return; }
+
                                         const sbUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
                                         const audioUrl = `${sbUrl}/storage/v1/object/public/audios/albums/${albumSlug.replace(/[^a-z0-9-]/g, "")}/faixa-${String(trackNum).padStart(2, "0")}.mp3`;
+
+                                        // Validate audio exists
+                                        const audioCheck = await fetch(audioUrl, { method: "HEAD" }).then(r => r.ok).catch(() => false);
+                                        if (!audioCheck) { alert(`Áudio não encontrado: ${audioUrl}`); return; }
+
+                                        setGenerating(p => ({ ...p, [key]: "4/4 Shotstack a montar..." }));
 
                                         const verse = (() => {
                                           if (!track.lyrics) return "";
