@@ -203,7 +203,7 @@ function cursoPrompt(theme: string, emotion: string, production: string, lang: "
 
 const ESPELHO_ILUSAO: AlbumDef = {
   slug: "espelho-ilusao",
-  title: "O Espelho da Ilusão",
+  title: "Ilusão",
   subtitle: "Quando a vida que tens não foi a que escolheste",
   product: "espelho",
   veu: 1,
@@ -221,7 +221,7 @@ const ESPELHO_ILUSAO: AlbumDef = {
 
 const ESPELHO_MEDO: AlbumDef = {
   slug: "espelho-medo",
-  title: "O Espelho do Medo",
+  title: "Medo",
   subtitle: "Quando o medo decide por ti",
   product: "espelho",
   veu: 2,
@@ -239,7 +239,7 @@ const ESPELHO_MEDO: AlbumDef = {
 
 const ESPELHO_CULPA: AlbumDef = {
   slug: "espelho-culpa",
-  title: "O Espelho da Culpa",
+  title: "Culpa",
   subtitle: "Quando te castigas por querer mais",
   product: "espelho",
   veu: 3,
@@ -257,7 +257,7 @@ const ESPELHO_CULPA: AlbumDef = {
 
 const ESPELHO_IDENTIDADE: AlbumDef = {
   slug: "espelho-identidade",
-  title: "O Espelho da Identidade",
+  title: "Identidade",
   subtitle: "Quando já não sabes quem és sem os outros",
   product: "espelho",
   veu: 4,
@@ -275,7 +275,7 @@ const ESPELHO_IDENTIDADE: AlbumDef = {
 
 const ESPELHO_CONTROLO: AlbumDef = {
   slug: "espelho-controlo",
-  title: "O Espelho do Controlo",
+  title: "Controlo",
   subtitle: "Quando segurar é a única forma que conheces",
   product: "espelho",
   veu: 5,
@@ -293,7 +293,7 @@ const ESPELHO_CONTROLO: AlbumDef = {
 
 const ESPELHO_DESEJO: AlbumDef = {
   slug: "espelho-desejo",
-  title: "O Espelho do Desejo",
+  title: "Desejo",
   subtitle: "Quando desejas tudo menos o que precisas",
   product: "espelho",
   veu: 6,
@@ -311,7 +311,7 @@ const ESPELHO_DESEJO: AlbumDef = {
 
 const ESPELHO_SEPARACAO: AlbumDef = {
   slug: "espelho-separacao",
-  title: "O Espelho da Separação",
+  title: "Separação",
   subtitle: "Quando te afastas de ti mesma para pertenceres",
   product: "espelho",
   veu: 7,
@@ -349,7 +349,7 @@ function noAlbum(
   };
 }
 
-const NO_HERANCA = noAlbum(1, "no-heranca", "O Nó da Herança", "O silêncio herdado entre mãe e filha", [
+const NO_HERANCA = noAlbum(1, "no-heranca", "Herança", "O silêncio herdado entre mãe e filha", [
   { number: 1, title: "A Mae que Viu", description: "Helena sempre soube", lang: "PT", energy: "whisper", prompt: noPrompt("mother who always saw, patient knowing", "patient, aching, maternal, waiting love", "warm cello-like synth, maternal vocal texture, gentle humming layer", "PT", "whisper"), durationSeconds: 240 },
   { number: 2, title: "Years of Waiting", description: "Esperar que a filha veja", lang: "EN", energy: "steady", prompt: noPrompt("years of waiting for your daughter to see, patient love", "slow, patient, enduring, building", "sustained pad, patient piano, walking rhythm, time passing", "EN", "steady"), durationSeconds: 240 },
   { number: 3, title: "Duas Mulheres", description: "Mae e filha, frente a frente", lang: "PT", energy: "raw", flavor: "folk", prompt: noPrompt("two women face to face, mother and daughter, raw meeting", "raw, vulnerable, brave, painfully honest", "two vocal textures meeting, tentative harmony, stripped production", "PT", "raw", "folk"), durationSeconds: 240 },
@@ -357,7 +357,7 @@ const NO_HERANCA = noAlbum(1, "no-heranca", "O Nó da Herança", "O silêncio he
   { number: 5, title: "Desatar", description: "O no que se solta", lang: "PT", energy: "anthem", flavor: "gospel", prompt: noPrompt("untying the knot, the bond that loosens, freedom together", "freeing, triumphant, relieved, declarative", "full arrangement, driving rhythm, layered vocals, triumphant release", "PT", "anthem", "gospel"), durationSeconds: 300 },
 ]);
 
-const NO_SILENCIO = noAlbum(2, "no-silencio", "O Nó do Silêncio", "O que o medo calou entre eles", [
+const NO_SILENCIO = noAlbum(2, "no-silencio", "Silêncio", "O que o medo calou entre eles", [
   { number: 1, title: "O Que Não Disse", description: "Rui e Ana e o silêncio entre eles", lang: "PT", energy: "raw", prompt: noPrompt("what was never said between lovers, loaded silence", "tense, painfully honest, aching", "solo voice, two melodic lines in silence, tension in gaps", "PT", "raw"), durationSeconds: 240 },
   { number: 2, title: "Protect or Hide", description: "Quando proteger e esconder", lang: "EN", energy: "steady", prompt: noPrompt("protecting as hiding, love expressed as silence", "conflicted, protective, walking pace", "guarded vocal melody, mid-tempo rhythm, emotional walls", "EN", "steady"), durationSeconds: 240 },
   { number: 3, title: "A Primeira Palavra", description: "Quebrar o silêncio", lang: "PT", energy: "whisper", prompt: noPrompt("the first word that breaks the silence, brave beginning", "brave, trembling, hopeful, cracking open", "first note breaking silence, tentative vocal dialogue emerging", "PT", "whisper"), durationSeconds: 240 },
@@ -365,7 +365,7 @@ const NO_SILENCIO = noAlbum(2, "no-silencio", "O Nó do Silêncio", "O que o med
   { number: 5, title: "Voice", description: "Encontrar a voz que calaste", lang: "EN", energy: "anthem", flavor: "gospel", prompt: noPrompt("finding the voice you silenced, speaking truth at last", "empowered, declarative, liberated, triumphant", "two voices in powerful harmony, driving drums, liberation", "EN", "anthem", "gospel"), durationSeconds: 300 },
 ]);
 
-const NO_SACRIFICIO = noAlbum(3, "no-sacrificio", "O Nó do Sacrifício", "A culpa disfarçada de entrega", [
+const NO_SACRIFICIO = noAlbum(3, "no-sacrificio", "Sacrifício", "A culpa disfarçada de entrega", [
   { number: 1, title: "Dar Ate Esvaziar", description: "Filipe e Luísa e a entrega sem retorno", lang: "PT", energy: "steady", prompt: noPrompt("giving until empty, sacrifice without return", "depleted, noble, exhausted", "diminishing melody, walking rhythm, notes being given away", "PT", "steady"), durationSeconds: 240 },
   { number: 2, title: "Love or Debt", description: "Quando amar parece pagar", lang: "EN", energy: "pulse", prompt: noPrompt("love as debt, paying off guilt through giving", "transactional, driving, urgent realization", "counting rhythmic pattern, driving beat, weighted bass", "EN", "pulse"), durationSeconds: 240 },
   { number: 3, title: "Receber", description: "Aprender a receber sem culpa", lang: "PT", energy: "whisper", prompt: noPrompt("learning to receive without guilt, accepting grace", "opening, softening, grateful, permission", "warmth flowing in, receiving melody, gratitude in voice", "PT", "whisper"), durationSeconds: 240 },
@@ -373,7 +373,7 @@ const NO_SACRIFICIO = noAlbum(3, "no-sacrificio", "O Nó do Sacrifício", "A cul
   { number: 5, title: "True Giving", description: "Dar sem se perder", lang: "EN", energy: "anthem", prompt: noPrompt("true giving without losing yourself, generous freedom", "generous, powerful, loving, declarative", "generous flowing melody, layered vocals, triumphant chorus", "EN", "anthem"), durationSeconds: 300 },
 ]);
 
-const NO_VERGONHA = noAlbum(4, "no-vergonha", "O Nó da Vergonha", "A máscara que caiu entre dois estranhos", [
+const NO_VERGONHA = noAlbum(4, "no-vergonha", "Vergonha", "A máscara que caiu entre dois estranhos", [
   { number: 1, title: "Dois Estranhos", description: "Vitor e Mariana e o encontro sem máscara", lang: "PT", energy: "steady", prompt: noPrompt("two strangers meeting unmasked, raw encounter", "raw, exposed, curious, electric", "two unfamiliar melodic textures meeting, walking rhythm, curiosity", "PT", "steady"), durationSeconds: 240 },
   { number: 2, title: "Seen", description: "A vergonha de ser reconhecido", lang: "EN", energy: "raw", prompt: noPrompt("being truly seen, the shame of being recognized", "vulnerable, exposed, trembling, naked beauty", "exposed solo vocal, stripped production, trembling beauty", "EN", "raw"), durationSeconds: 240 },
   { number: 3, title: "Sem Papeis", description: "Quando os papeis caem entre dois", lang: "PT", energy: "pulse", prompt: noPrompt("roles falling away between two people, authenticity emerging", "liberating, energetic, brave, momentum", "driving rhythm, layers dropping away, simplifying to truth", "PT", "pulse"), durationSeconds: 240 },
@@ -381,7 +381,7 @@ const NO_VERGONHA = noAlbum(4, "no-vergonha", "O Nó da Vergonha", "A máscara q
   { number: 5, title: "Unapologetic", description: "Existir sem pedir desculpa", lang: "EN", energy: "anthem", prompt: noPrompt("existing without apology, unapologetic being", "free, proud, powerful, sovereign", "proud melody, driving drums, layered vocal strength, triumphant", "EN", "anthem"), durationSeconds: 300 },
 ]);
 
-const NO_SOLIDAO = noAlbum(5, "no-solidao", "O Nó da Solidão", "O controlo que isolou quem mais amava", [
+const NO_SOLIDAO = noAlbum(5, "no-solidao", "Solidão", "O controlo que isolou quem mais amava", [
   { number: 1, title: "Ilha", description: "Isabel e Pedro e o isolamento do controlo", lang: "PT", energy: "raw", prompt: noPrompt("island, isolation through control, surrounded but alone", "isolated, painfully honest, lonely", "solo vocal surrounded by empty space, island of sound", "PT", "raw"), durationSeconds: 240 },
   { number: 2, title: "Holding Too Tight", description: "Quando cuidar e aprisionar", lang: "EN", energy: "pulse", flavor: "house", prompt: noPrompt("holding too tight, when caring becomes a cage", "gripping, urgent, suffocating energy", "tight driving rhythm around a trapped melody, tension", "EN", "pulse", "house"), durationSeconds: 240 },
   { number: 3, title: "Soltar", description: "Abrir as maos", lang: "PT", energy: "whisper", prompt: noPrompt("releasing, opening hands, letting go of grip", "releasing, letting flow, exhaling control", "opening rhythm, releasing notes into space, breathing room", "PT", "whisper"), durationSeconds: 240 },
@@ -389,7 +389,7 @@ const NO_SOLIDAO = noAlbum(5, "no-solidao", "O Nó da Solidão", "O controlo que
   { number: 5, title: "Bridge", description: "A solidao que se transforma em ponte", lang: "EN", energy: "anthem", prompt: noPrompt("solitude becoming a bridge, loneliness transformed to connection", "connecting, triumphant, hopeful, powerful", "bridge melody connecting voices, driving drums, triumphant hope", "EN", "anthem"), durationSeconds: 300 },
 ]);
 
-const NO_VAZIO = noAlbum(6, "no-vazio", "O Nó do Vazio", "O desejo que esvaziou a amizade", [
+const NO_VAZIO = noAlbum(6, "no-vazio", "Vazio", "O desejo que esvaziou a amizade", [
   { number: 1, title: "Amigas", description: "Lena e Sofia e o que o desejo fez entre elas", lang: "PT", energy: "whisper", prompt: noPrompt("friends, what desire did to the friendship", "nostalgic, aching, lost, bittersweet", "nostalgic melody, fading harmony, sense of loss", "PT", "whisper"), durationSeconds: 240 },
   { number: 2, title: "The Hole", description: "O vazio que nenhuma relacao preenche", lang: "EN", energy: "raw", prompt: noPrompt("the void no relationship fills, inner emptiness", "empty, echoing, painfully honest", "solo vocal, hollow reverb textures, vast empty sonic space", "EN", "raw"), durationSeconds: 240 },
   { number: 3, title: "Sem Preencher", description: "Estar no vazio sem fugir", lang: "PT", energy: "steady", prompt: noPrompt("sitting with emptiness without fleeing, staying present", "still, present, building courage", "minimal but grounded production, walking rhythm, still vocal", "PT", "steady"), durationSeconds: 240 },
@@ -397,7 +397,7 @@ const NO_VAZIO = noAlbum(6, "no-vazio", "O Nó do Vazio", "O desejo que esvaziou
   { number: 5, title: "True Friendship", description: "O espaço onde o desejo verdadeiro mora", lang: "EN", energy: "anthem", prompt: noPrompt("true friendship, the space where authentic desire lives", "genuine, powerful, complete, celebratory", "warm duet, layered vocals, driving chorus, triumphant peace", "EN", "anthem"), durationSeconds: 300 },
 ]);
 
-const NO_PERTENCA = noAlbum(7, "no-pertenca", "O Nó da Pertença", "A separação que reinventou o lar", [
+const NO_PERTENCA = noAlbum(7, "no-pertenca", "Pertença", "A separação que reinventou o lar", [
   { number: 1, title: "O Lar que Sufocava", description: "Helena T. e Miguel C. e o lar que já não cabia", lang: "PT", energy: "pulse", flavor: "house", prompt: noPrompt("the home that suffocated, outgrown space", "claustrophobic, driving urgency, needing air", "compressed production, driving beat, heavy textures, need for space", "PT", "pulse", "house"), durationSeconds: 240 },
   { number: 2, title: "Leaving", description: "A coragem de sair para encontrar", lang: "EN", energy: "raw", prompt: noPrompt("courage to leave in order to find, necessary departure", "brave, painfully honest, bittersweet", "solo departure melody, brave vocal, stripped production", "EN", "raw"), durationSeconds: 240 },
   { number: 3, title: "Sozinho", description: "O vazio fertil da solidao", lang: "PT", energy: "whisper", prompt: noPrompt("fertile solitude, alone but growing, discovering self", "solitary, growing, spacious, self-discovery", "solo vocal growing and expanding, discovering new range", "PT", "whisper"), durationSeconds: 240 },
