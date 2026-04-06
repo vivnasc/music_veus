@@ -348,26 +348,51 @@ export default function CalendarPage() {
                               {action.type === "post" && (
                                 <button
                                   onClick={async () => {
-                                    const { generateShareCard, downloadBlob } = await import("@/lib/share-card");
-                                    const { getAlbumCover, getTrackCoverUrl } = await import("@/lib/album-covers");
-                                    const alb = ALL_ALBUMS.find(a => a.slug === action.albumSlug);
-                                    if (!alb) return;
-                                    const track = action.trackNumber
-                                      ? alb.tracks.find(t => t.number === action.trackNumber)
-                                      : alb.tracks[0];
-                                    if (!track) return;
-                                    let cover = getAlbumCover(alb);
+                                    const btn = document.activeElement as HTMLButtonElement;
+                                    const origText = btn.textContent;
+                                    btn.textContent = "A gerar...";
+                                    btn.disabled = true;
                                     try {
-                                      const coverTrack = action.trackNumber || 1;
-                                      const probe = await fetch(getTrackCoverUrl(alb.slug, coverTrack), { method: "HEAD" });
-                                      if (probe.ok) cover = getTrackCoverUrl(alb.slug, coverTrack);
-                                    } catch {}
-                                    const blob = await generateShareCard(track, alb, cover, "square");
-                                    downloadBlob(blob, `Post — ${alb.title}.png`);
+                                      const res = await adminFetch("/api/admin/generate-post-image", {
+                                        method: "POST",
+                                        headers: { "Content-Type": "application/json" },
+                                        body: JSON.stringify({
+                                          caption: action.caption || "",
+                                          albumTitle: getAlbumTitle(action.albumSlug),
+                                        }),
+                                      });
+                                      const data = await res.json();
+                                      if (data.imageUrl) {
+                                        window.open(data.imageUrl, "_blank");
+                                      } else if (data.taskId) {
+                                        // Poll for result
+                                        btn.textContent = "A processar...";
+                                        for (let i = 0; i < 30; i++) {
+                                          await new Promise(r => setTimeout(r, 2000));
+                                          const statusRes = await adminFetch(`/api/admin/generate-post-image/status?taskId=${data.taskId}`);
+                                          const statusData = await statusRes.json();
+                                          if (statusData.imageUrl) {
+                                            window.open(statusData.imageUrl, "_blank");
+                                            break;
+                                          }
+                                          if (statusData.status === "FAILED") {
+                                            alert("Falhou a gerar imagem.");
+                                            break;
+                                          }
+                                        }
+                                      } else {
+                                        alert(data.erro || "Erro ao gerar imagem");
+                                      }
+                                    } catch (e) {
+                                      alert(`Erro: ${(e as Error).message}`);
+                                    } finally {
+                                      btn.textContent = origText;
+                                      btn.disabled = false;
+                                    }
                                   }}
                                   className="px-3 py-1.5 rounded-lg bg-blue-600/30 text-blue-400 text-xs min-h-[44px]"
                                 >
-                                  Gerar Imagem
+                                  Gerar Imagem IA
                                 </button>
                               )}
                             </div>
