@@ -11,7 +11,7 @@ export const COSMIC_LYRICS: Record<string, string> = {
   // VIAGEM — O corpo como portal cósmico
   // ─────────────────────────────────────────────
 
-  "cosmic-viagem/1": `[Verse 1]
+  "eter-viagem/1": `[Verse 1]
 Fecho os olhos e o corpo fica
 Como roupa pousada na cadeira
 Algo em mim levanta sem peso
@@ -61,7 +61,7 @@ E todas as manhãs esqueço
 Mas o corpo guarda a viagem
 Num calor que eu reconheço`,
 
-  "cosmic-viagem/2": `[Verse 1]
+  "eter-viagem/2": `[Verse 1]
 The spine releases first
 Then the jaw
 Then the name I carry all day long
@@ -111,7 +111,7 @@ Not empty
 Full of everything
 That has no weight`,
 
-  "cosmic-viagem/3": `[Verse 1]
+  "eter-viagem/3": `[Verse 1]
 Antes do meu nome houve silêncio
 Antes do silêncio houve um som
 Um tom tão grave que não se ouve
@@ -160,7 +160,7 @@ Anterior
 Antes de tudo
 Eu já era`,
 
-  "cosmic-viagem/4": `[Verse 1]
+  "eter-viagem/4": `[Verse 1]
 There is a thread I feel at night
 Thin as spider silk but sure
 It runs from somewhere near my navel
@@ -211,7 +211,7 @@ And I return
 Heavy with stars
 Hungry for bread`,
 
-  "cosmic-viagem/5": `[Verse 1]
+  "eter-viagem/5": `[Verse 1]
 Tirei a pele e não doeu
 Tirei o nome e não chorei
 Tirei o medo e o que ficou
@@ -260,7 +260,7 @@ Sem pele
 Finalmente do tamanho
 Que sempre fui`,
 
-  "cosmic-viagem/6": `[Verse 1]
+  "eter-viagem/6": `[Verse 1]
 I read somewhere that iron in my blood
 Was forged inside a dying star
 That every atom in my hand
@@ -310,7 +310,7 @@ Returning
 Stardust
 Always`,
 
-  "cosmic-viagem/7": `[Verse 1]
+  "eter-viagem/7": `[Verse 1]
 Há um oceano que não molha
 Que não se vê da janela
 Sobe de noite pelo peito acima
@@ -360,7 +360,7 @@ Eu deixo
 A maré desce
 Eu fico`,
 
-  "cosmic-viagem/8": `[Verse 1]
+  "eter-viagem/8": `[Verse 1]
 When the moon slides between
 The sun and my ordinary Tuesday
 Something ancient in the blood
@@ -416,7 +416,7 @@ True
 Gone
 But you saw me`,
 
-  "cosmic-viagem/9": `[Verse 1]
+  "eter-viagem/9": `[Verse 1]
 Há uma nota que o universo toca
 Desde o princípio sem parar
 Grave demais para os ouvidos
@@ -467,7 +467,7 @@ Eu é que andava
 Com demasiado ruído
 Para ouvir`,
 
-  "cosmic-viagem/10": `[Verse 1]
+  "eter-viagem/10": `[Verse 1]
 Home is not the door I lock
 Or the window I look through
 Home is not the street I know
@@ -525,7 +525,7 @@ At all`,
   // ÉTER — O invisível que se sente
   // ─────────────────────────────────────────────
 
-  "cosmic-eter/1": `[Verse 1]
+  "eter/1": `[Verse 1]
 Estás na sala é eu estou na sala
 E entre nós há qualquer coisa densa
 Que não se vê nem se pode tocar
@@ -574,7 +574,7 @@ Entre
 É onde tudo acontece
 Antes de acontecer`,
 
-  "cosmic-eter/2": `[Verse 1]
+  "eter/2": `[Verse 1]
 Between the note that ends
 And the note that starts
 There is a country
@@ -626,7 +626,7 @@ Of everything
 That sound
 Cannot contain`,
 
-  "cosmic-eter/3": `[Verse 1]
+  "eter/3": `[Verse 1]
 Não o vejo mas a pele sabe
 Qualquer coisa passou por aqui
 Como um perfume sem dono
@@ -675,7 +675,7 @@ Invisível
 Mas eu sinto
 E isso basta`,
 
-  "cosmic-eter/4": `[Verse 1]
+  "eter/4": `[Verse 1]
 I breathe in something without a name
 Something the lungs don't recognise
 Thinner than oxygen, thicker than nothing
@@ -725,7 +725,7 @@ Thick with everything
 I forgot
 To feel`,
 
-  "cosmic-eter/5": `[Verse 1]
+  "eter/5": `[Verse 1]
 Saíram todos e a sala ficou
 Com o formato dos seus corpos no ar
 As cadeiras ainda quentes
@@ -775,7 +775,7 @@ Fica
 Mesmo quando já não há
 Ninguém para notar`,
 
-  "cosmic-eter/6": `[Verse 1]
+  "eter/6": `[Verse 1]
 I stand two metres from your skin
 And something pulls without a rope
 A force with no direction home
@@ -825,7 +825,7 @@ Between
 Not touching
 But held`,
 
-  "cosmic-eter/7": `[Verse 1]
+  "eter/7": `[Verse 1]
 Há um fio que eu não vejo
 Que liga o meu peito ao teu
 Que liga a árvore à chuva
@@ -875,7 +875,7 @@ Não se vê
 Mas segura
 Tudo`,
 
-  "cosmic-eter/8": `[Verse 1]
+  "eter/8": `[Verse 1]
 The chair is still warm
 Where you used to sit
 The dent in the pillow
@@ -926,7 +926,7 @@ Carefully
 Like a museum
 Of air`,
 
-  "cosmic-eter/9": `[Verse 1]
+  "eter/9": `[Verse 1]
 Quase toquei na tua mão
 Quase disse o que sentia
 Quase fiquei mais um segundo
@@ -977,7 +977,7 @@ Hoje
 É tudo ou é a paz
 De ter tentado`,
 
-  "cosmic-eter/10": `[Verse 1]
+  "eter/10": `[Verse 1]
 The Greeks believed in something
 Between the earth and stars
 A substance without substance
@@ -1035,7 +1035,7 @@ Together`,
   // ÓRBITA — As forças invisíveis que nos movem
   // ─────────────────────────────────────────────
 
-  "cosmic-orbita/1": `[Verse 1]
+  "eter-orbita/1": `[Verse 1]
 O mesmo erro com outro rosto
 O mesmo bar com outro nome
 A mesma ferida com outra desculpa
@@ -1085,7 +1085,7 @@ Não é castigo
 É convite
 Para finalmente ver`,
 
-  "cosmic-orbita/2": `[Verse 1]
+  "eter-orbita/2": `[Verse 1]
 Something pulls me from the left
 When I try to walk straight
 A weight without a source
@@ -1139,7 +1139,7 @@ I stop resisting
 Pull
 I follow`,
 
-  "cosmic-orbita/3": `[Verse 1]
+  "eter-orbita/3": `[Verse 1]
 A lua não pergunta se pode
 Entrar pela janela do meu quarto
 Não pede licença ao meu sangue
@@ -1189,7 +1189,7 @@ Manda
 Eu obedeço
 Com prazer`,
 
-  "cosmic-orbita/4": `[Verse 1]
+  "eter-orbita/4": `[Verse 1]
 I always choose the same door
 The one that creaks and sticks
 The one that leads to the kitchen
@@ -1239,7 +1239,7 @@ But this time
 I walk through
 With my eyes open`,
 
-  "cosmic-orbita/5": `[Verse 1]
+  "eter-orbita/5": `[Verse 1]
 Os pés sabem o caminho para a tua casa
 Mesmo quando a cabeça diz que não
 O corpo tem uma rota antiga
@@ -1289,7 +1289,7 @@ Os pés sabem
 A cabeça aprende
 Depois`,
 
-  "cosmic-orbita/6": `[Verse 1]
+  "eter-orbita/6": `[Verse 1]
 The blood rises without permission
 Twice a day the chest fills
 Then empties like the shoreline
@@ -1340,7 +1340,7 @@ Because I've learned
 The high
 Always returns`,
 
-  "cosmic-orbita/7": `[Verse 1]
+  "eter-orbita/7": `[Verse 1]
 Outra vez aqui
 Na mesma esquina do mesmo medo
 Outra vez a mesma pergunta
@@ -1390,7 +1390,7 @@ Mas cada volta
 Estou mais perto
 Do centro`,
 
-  "cosmic-orbita/8": `[Verse 1]
+  "eter-orbita/8": `[Verse 1]
 I circle you the way the earth
 Circles the indifferent sun
 Close enough to feel the warmth
@@ -1441,7 +1441,7 @@ Not further
 Just here
 Turning`,
 
-  "cosmic-orbita/9": `[Verse 1]
+  "eter-orbita/9": `[Verse 1]
 Há qualquer coisa que me puxa
 Para baixo quando quero subir
 Para a esquerda quando vou à direita
@@ -1490,7 +1490,7 @@ O que me puxa
 Puxou-me
 Para mim`,
 
-  "cosmic-orbita/10": `[Verse 1]
+  "eter-orbita/10": `[Verse 1]
 I always end up here
 This bench, this view, this same old sky
 Different year, different coat
@@ -1545,7 +1545,7 @@ Wider eyes`,
   // POEIRA — Somos matéria antiga
   // ─────────────────────────────────────────────
 
-  "cosmic-poeira/1": `[Verse 1]
+  "eter-poeira/1": `[Verse 1]
 Este carbono que me faz
 Já foi estrela, já foi sol
 Já foi a folha de uma árvore
@@ -1595,7 +1595,7 @@ Emprestado
 Grato
 Breve`,
 
-  "cosmic-poeira/2": `[Verse 1]
+  "eter-poeira/2": `[Verse 1]
 This body is a loan
 Signed by the universe
 No interest charged
@@ -1647,7 +1647,7 @@ And grateful
 For every second
 Of the loan`,
 
-  "cosmic-poeira/3": `[Verse 1]
+  "eter-poeira/3": `[Verse 1]
 A cinza não é o fim
 É o princípio disfarçado
 O que parece destruição
@@ -1697,7 +1697,7 @@ Não é fim
 É adubo
 Para o que vem`,
 
-  "cosmic-poeira/4": `[Verse 1]
+  "eter-poeira/4": `[Verse 1]
 This valley was a river once
 These hills were ocean floor
 The stone beneath my feet
@@ -1748,7 +1748,7 @@ Is here
 Will be here
 After all of us`,
 
-  "cosmic-poeira/5": `[Verse 1]
+  "eter-poeira/5": `[Verse 1]
 O ferro no meu sangue
 Nasceu numa supernova
 Uma estrela que morreu
@@ -1800,7 +1800,7 @@ De estrelas mortas
 Que vivem
 Em mim`,
 
-  "cosmic-poeira/6": `[Verse 1]
+  "eter-poeira/6": `[Verse 1]
 The apple core I threw away
 Will be a tree by spring
 The coffee grounds, the eggshell
@@ -1850,7 +1850,7 @@ Return me
 To the soil
 I came from`,
 
-  "cosmic-poeira/7": `[Verse 1]
+  "eter-poeira/7": `[Verse 1]
 Fui moldada pelo primeiro grito
 E remoldada pela primeira perda
 Fui barro nas mãos da vida
@@ -1900,7 +1900,7 @@ Ainda mole
 Ainda a ser
 Ainda`,
 
-  "cosmic-poeira/8": `[Verse 1]
+  "eter-poeira/8": `[Verse 1]
 There is a place inside the bone
 That remembers being stone
 A place inside the blood
@@ -1950,7 +1950,7 @@ The bones know
 I just had to get quiet
 Enough to listen`,
 
-  "cosmic-poeira/9": `[Verse 1]
+  "eter-poeira/9": `[Verse 1]
 Chegou a hora de devolver
 O que nunca me pertenceu
 O oxigénio, o ferro, a água
@@ -2000,7 +2000,7 @@ Com amor
 E fico
 Parte de tudo`,
 
-  "cosmic-poeira/10": `[Verse 1]
+  "eter-poeira/10": `[Verse 1]
 I am dust and I am fine with it
 Not the poetic kind
 The actual kind
@@ -2054,7 +2054,7 @@ That was enough`,
   // VASTO — O medo e a beleza de ser pequena
   // ─────────────────────────────────────────────
 
-  "cosmic-vasto/1": `[Verse 1]
+  "eter-vasto/1": `[Verse 1]
 Olhei para cima e o chão fugiu
 O céu não tem fundo e eu também não
 A vertigem de existir
@@ -2104,7 +2104,7 @@ Olho para cima
 E caio
 Para dentro`,
 
-  "cosmic-vasto/2": `[Verse 1]
+  "eter-vasto/2": `[Verse 1]
 I am small enough to sit
 Inside a single beam of light
 Small enough to be forgotten
@@ -2154,7 +2154,7 @@ Not less
 Just small
 And free`,
 
-  "cosmic-vasto/3": `[Verse 1]
+  "eter-vasto/3": `[Verse 1]
 Deitei-me no chão do quintal
 E deixei o céu entrar
 Primeiro nos olhos
@@ -2205,7 +2205,7 @@ Chão nas costas
 Nada a fazer
 Tudo a ser`,
 
-  "cosmic-vasto/4": `[Verse 1]
+  "eter-vasto/4": `[Verse 1]
 The infinite showed up on Tuesday
 Between the laundry and the lunch
 Not in a temple or a vision
@@ -2255,7 +2255,7 @@ Tuesday
 Just this
 Just here`,
 
-  "cosmic-vasto/5": `[Verse 1]
+  "eter-vasto/5": `[Verse 1]
 A humildade não é curvar
 É abrir os braços ao tamanho real
 Sou pequena — e por isso livre
@@ -2305,7 +2305,7 @@ Não é menos
 É exacto
 É real`,
 
-  "cosmic-vasto/6": `[Verse 1]
+  "eter-vasto/6": `[Verse 1]
 From here the earth is a marble
 Blue and white and very small
 From here my house, my street, my grief
@@ -2357,7 +2357,7 @@ So held
 So small
 So safe`,
 
-  "cosmic-vasto/7": `[Verse 1]
+  "eter-vasto/7": `[Verse 1]
 Um grão de areia na minha mão
 Contém o mundo inteiro
 A mesma matéria que faz o sol
@@ -2407,7 +2407,7 @@ Presente
 Inteiro
 Aqui`,
 
-  "cosmic-vasto/8": `[Verse 1]
+  "eter-vasto/8": `[Verse 1]
 I stood at the edge of the ocean
 And the beauty broke my chest
 Not gently like a sunrise
@@ -2457,7 +2457,7 @@ Not by sadness
 By how much
 There is to feel`,
 
-  "cosmic-vasto/9": `[Verse 1]
+  "eter-vasto/9": `[Verse 1]
 Uma respiração contém
 O princípio e o fim do mundo
 Inspiro o que as árvores deram
@@ -2508,7 +2508,7 @@ Uma vez
 É tudo
 É suficiente`,
 
-  "cosmic-vasto/10": `[Verse 1]
+  "eter-vasto/10": `[Verse 1]
 They call the universe vast
 Like it's out there beyond the glass
 But I am vast on the inside
@@ -2562,7 +2562,7 @@ Vast`,
   // SINAL — Mensagens que não vêm em palavras
   // ─────────────────────────────────────────────
 
-  "cosmic-sinal/1": `[Verse 1]
+  "eter-sinal/1": `[Verse 1]
 O arrepio veio do nada
 Ninguém tocou, ninguém falou
 Estava na fila do supermercado
@@ -2613,7 +2613,7 @@ Oiço-te
 Sigo-te
 Confio`,
 
-  "cosmic-sinal/2": `[Verse 1]
+  "eter-sinal/2": `[Verse 1]
 The same dream every night this week
 The same house, the same stairs
 The same door that I never open
@@ -2663,7 +2663,7 @@ Until I listen
 The door opens
 When I stop running`,
 
-  "cosmic-sinal/3": `[Verse 1]
+  "eter-sinal/3": `[Verse 1]
 Onze e onze no relógio
 Outra vez — terceira vez hoje
 Pode ser coincidência
@@ -2713,7 +2713,7 @@ Não sei porquê
 Mas sei
 Que sei`,
 
-  "cosmic-sinal/4": `[Verse 1]
+  "eter-sinal/4": `[Verse 1]
 Before my head decided no
 My stomach had already turned
 Before the logic lined up right
@@ -2764,7 +2764,7 @@ Gut
 I trust you now
 Finally`,
 
-  "cosmic-sinal/5": `[Verse 1]
+  "eter-sinal/5": `[Verse 1]
 Senti antes de saber
 Que algo ia mudar
 O corpo ficou diferente
@@ -2814,7 +2814,7 @@ E já não tenho medo
 O corpo é o meu radar
 O meu mais velho segredo`,
 
-  "cosmic-sinal/6": `[Verse 1]
+  "eter-sinal/6": `[Verse 1]
 The birds stopped singing first
 Two seconds before the car
 A silence so specific
@@ -2866,7 +2866,7 @@ Still
 Waiting
 For us to look up`,
 
-  "cosmic-sinal/7": `[Verse 1]
+  "eter-sinal/7": `[Verse 1]
 O cheiro apareceu do nada
 No corredor do escritório
 O perfume da minha avó
@@ -2917,7 +2917,7 @@ Veio dizer-me
 Estou aqui
 Sempre estive`,
 
-  "cosmic-sinal/8": `[Verse 1]
+  "eter-sinal/8": `[Verse 1]
 I've been here before
 This corner, this light, this word
 The exact same feeling
@@ -2967,7 +2967,7 @@ Already lived
 Already known
 Still new`,
 
-  "cosmic-sinal/9": `[Verse 1]
+  "eter-sinal/9": `[Verse 1]
 Há uma voz que fala baixo
 Mais baixo que o pensamento
 Mais baixo que a dúvida
@@ -3017,7 +3017,7 @@ Fala
 Eu finalmente
 Ouço`,
 
-  "cosmic-sinal/10": `[Verse 1]
+  "eter-sinal/10": `[Verse 1]
 The feather on the pavement
 The song on the radio at the right time
 The stranger who said exactly
@@ -3074,7 +3074,7 @@ Open my eyes`,
   // ALBUM: RAIZ VERMELHA
   // ─────────────────────────────────────────────
 
-  "cosmic-raiz-vermelha/1": `[Verse 1]
+  "eter-raiz-vermelha/1": `[Verse 1]
 Nasci numa terra de pó vermelho
 Antes de ter nome já tinha chão
 Os pés descalços sabiam o caminho
@@ -3116,7 +3116,7 @@ No sangue
 Nos sonhos
 Em mim`,
 
-  "cosmic-raiz-vermelha/2": `[Verse 1]
+  "eter-raiz-vermelha/2": `[Verse 1]
 They ask me where I'm from
 And I smile because the answer
 Is a map with no borders
@@ -3154,7 +3154,7 @@ In between
 Is the most honest
 Place I know`,
 
-  "cosmic-raiz-vermelha/3": `[Verse 1]
+  "eter-raiz-vermelha/3": `[Verse 1]
 Sonho em changana
 Acordo em português
 Trabalho em inglês
@@ -3193,7 +3193,7 @@ Sonho em changana
 É aí que moro
 É aí que sou`,
 
-  "cosmic-raiz-vermelha/4": `[Verse 1]
+  "eter-raiz-vermelha/4": `[Verse 1]
 They want a simple answer
 A box, a tick, a line
 But I was made of overlapping maps
@@ -3234,7 +3234,7 @@ All mine
 All beautiful
 All true`,
 
-  "cosmic-raiz-vermelha/5": `[Verse 1]
+  "eter-raiz-vermelha/5": `[Verse 1]
 A capulana da minha mãe
 Cheirava a amendoim e sol
 Amarrava-me às costas dela
@@ -3273,7 +3273,7 @@ Capulana
 Enrola-me
 Outra vez`,
 
-  "cosmic-raiz-vermelha/6": `[Verse 1]
+  "eter-raiz-vermelha/6": `[Verse 1]
 I write about a place I didn't build
 I sing about a soil I sometimes visit
 I carry someone else's memories
@@ -3306,7 +3306,7 @@ Honouring
 Is the quietest
 Form of love`,
 
-  "cosmic-raiz-vermelha/7": `[Verse 1]
+  "eter-raiz-vermelha/7": `[Verse 1]
 A minha avó nunca andou de avião
 Nunca viu neve, nunca viu o mar gelado
 Mas sabia o nome de cada planta
@@ -3346,7 +3346,7 @@ Sempre soube
 E eu
 Estou a aprender a ouvir`,
 
-  "cosmic-raiz-vermelha/8": `[Verse 1]
+  "eter-raiz-vermelha/8": `[Verse 1]
 She put the seed into the ground
 Like dropping a letter in the post
 Trusting that the earth would open it
@@ -3386,7 +3386,7 @@ And wait
 And trust
 The garden always answers`,
 
-  "cosmic-raiz-vermelha/9": `[Verse 1]
+  "eter-raiz-vermelha/9": `[Verse 1]
 Sou filha do sol e da chuva
 Sou neta do mar e do pó
 Sou feita de tantas histórias
@@ -3428,7 +3428,7 @@ Toda eu
 Inteira
 Livre`,
 
-  "cosmic-raiz-vermelha/10": `[Verse 1]
+  "eter-raiz-vermelha/10": `[Verse 1]
 Wherever I have slept
 The root was there beneath the bed
 Wherever I have wept
@@ -3473,7 +3473,7 @@ Wherever I land`,
   // ALBUM: PORTO
   // ─────────────────────────────────────────────
 
-  "cosmic-porto/1": `[Verse 1]
+  "eter-porto/1": `[Verse 1]
 A mala está aberta há três dias
 Tiro e ponho, ponho e tiro
 O casaco de inverno ou o vestido leve
@@ -3502,7 +3502,7 @@ A mala
 Abro
 O mundo`,
 
-  "cosmic-porto/2": `[Verse 1]
+  "eter-porto/2": `[Verse 1]
 The departure gate is a church
 Where everyone prays in silence
 Hands gripping boarding passes
@@ -3533,7 +3533,7 @@ One more time
 One more goodbye
 One more beginning`,
 
-  "cosmic-porto/3": `[Verse 1]
+  "eter-porto/3": `[Verse 1]
 Em Lisboa dizem: és africana
 Em Maputo dizem: pareces portuguesa
 No meio fico eu
@@ -3560,7 +3560,7 @@ O meu sotaque
 É o meu endereço
 Mais verdadeiro`,
 
-  "cosmic-porto/4": `[Verse 1]
+  "eter-porto/4": `[Verse 1]
 At thirty I learned a new word for bread
 At thirty-one I learned to dream in it
 At thirty-two I told a joke
@@ -3595,7 +3595,7 @@ New world
 Same heart
 Wider`,
 
-  "cosmic-porto/5": `[Verse 1]
+  "eter-porto/5": `[Verse 1]
 Fiz o caril da minha mãe
 Na cozinha mais fria do mundo
 O cheiro subiu pelas escadas
@@ -3622,7 +3622,7 @@ E por um minuto
 Estava lá
 Outra vez`,
 
-  "cosmic-porto/6": `[Verse 1]
+  "eter-porto/6": `[Verse 1]
 Where are you from — they ask
 And I take a breath before I start
 Because the answer is a novel
@@ -3653,7 +3653,7 @@ Now
 Home
 Eventually`,
 
-  "cosmic-porto/7": `[Verse 1]
+  "eter-porto/7": `[Verse 1]
 Sou a tradutora na mesa
 A que explica a piada
 A que diz: lá isso quer dizer outra coisa
@@ -3682,7 +3682,7 @@ Mas não parto
 Ligo
 Sempre ligo`,
 
-  "cosmic-porto/8": `[Verse 1]
+  "eter-porto/8": `[Verse 1]
 I spent years trying to fit
 Into a place that wasn't home
 Until I realised that home
@@ -3714,7 +3714,7 @@ Here
 Wherever here is
 I belong`,
 
-  "cosmic-porto/9": `[Verse 1]
+  "eter-porto/9": `[Verse 1]
 Há uma palavra que só nós temos
 Os outros tentaram traduzir
 Disseram longing, disseram missing
@@ -3745,7 +3745,7 @@ De todas as que sei
 Porque é a prova
 De que amei`,
 
-  "cosmic-porto/10": `[Verse 1]
+  "eter-porto/10": `[Verse 1]
 I've been looking for the harbour
 Since the day I left the shore
 Every city felt like almost

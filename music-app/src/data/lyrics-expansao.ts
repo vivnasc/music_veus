@@ -24,7 +24,7 @@ export const EXPANSAO_LYRICS: Record<string, string> = {
   // Ciclos do ano como ciclos interiores
   // ─────────────────────────────────────────────
 
-  "vida-estacoes/1": `[Verse 1]
+  "grao-estacoes/1": `[Verse 1]
 Houve um tempo em que fiquei deitada
 dentro de mim mesma, pedra sobre pedra
 O corpo pesado como terra molhada
@@ -78,7 +78,7 @@ e era Páscoa dentro de mim
 Não porque alguém voltou
 mas porque eu decidi nascer`,
 
-  "vida-estacoes/2": `[Verse 1]
+  "grao-estacoes/2": `[Verse 1]
 There was a stone I carried in my chest
 for months or maybe more
 I called it safety, called it rest
@@ -121,7 +121,7 @@ not because the story says I should
 but because my body finally decided
 that it could`,
 
-  "vida-estacoes/3": `[Verse 1]
+  "grao-estacoes/3": `[Verse 1]
 O sol demora mais hoje
 como quem se recusa a sair
 O ar tem peso de ouro
@@ -157,7 +157,7 @@ que bom
 que bom
 que bom`,
 
-  "vida-estacoes/4": `[Verse 1]
+  "grao-estacoes/4": `[Verse 1]
 The longest day unfolds like cloth
 the sun refusing night
 My skin remembers something old
@@ -192,7 +192,7 @@ I am here
 I am whole
 I am here`,
 
-  "vida-estacoes/5": `[Verse 1]
+  "grao-estacoes/5": `[Verse 1]
 As folhas caem como quem desiste
 mas sem drama — com elegância
 Soltam-se do ramo em silêncio
@@ -230,7 +230,7 @@ E o que fica
 nu
 e inteiro`,
 
-  "vida-estacoes/6": `[Verse 1]
+  "grao-estacoes/6": `[Verse 1]
 The trees undress without a sound
 no shame in standing bare
 They've done this dance a thousand times
@@ -266,7 +266,7 @@ The trunk remains
 the rings remain
 the roots remain`,
 
-  "vida-estacoes/7": `[Verse 1]
+  "grao-estacoes/7": `[Verse 1]
 A noite mais longa abraça o mundo
 e eu não luto contra ela
 Acendo uma vela no escuro
@@ -302,7 +302,7 @@ e eu tenho o meu
 aqui dentro
 a arder devagar`,
 
-  "vida-estacoes/8": `[Verse 1]
+  "grao-estacoes/8": `[Verse 1]
 The dark arrived at four today
 and I did not resist
 I lit a candle, shut the door
@@ -338,7 +338,7 @@ I sit with the small flame
 that lives inside my chest
 and will not stop`,
 
-  "vida-estacoes/9": `[Verse 1]
+  "grao-estacoes/9": `[Verse 1]
 Meia-noite e o mundo finge que muda
 os relógios voltam ao início
 Mas a mudança verdadeira
@@ -376,7 +376,7 @@ sem plateia
 Só eu
 e a decisão de arder`,
 
-  "vida-estacoes/10": `[Verse 1]
+  "grao-estacoes/10": `[Verse 1]
 Midnight strikes and the world pretends
 a number changes everything
 But I've been reborn in April rain
@@ -417,7 +417,7 @@ to begin`,
   // Herança africana, diáspora, terra de origem, saudade de casa
   // ─────────────────────────────────────────────
 
-  "vida-raiz/1": `[Verse 1]
+  "sangue-raiz/1": `[Verse 1]
 Há um chão que me conhece de cor
 um chão vermelho que pintou os meus pés
 Antes de eu saber o meu nome
@@ -452,7 +452,7 @@ na minha boca
 na memória
 que o corpo nunca perde`,
 
-  "vida-raiz/2": `[Verse 1]
+  "sangue-raiz/2": `[Verse 1]
 There's a rhythm in my hips
 that no city could erase
 A drumbeat underneath my walk
@@ -489,7 +489,7 @@ I am the tree
 that grew where it was not planted
 And still — I bloom`,
 
-  "vida-raiz/3": `[Verse 1]
+  "sangue-raiz/3": `[Verse 1]
 A capulana da minha mãe
 tem o mapa de quem ela foi
 Cada padrão é uma história
@@ -524,7 +524,7 @@ amarro e existo
 com a dignidade
 de quem sabe donde veio`,
 
-  "vida-raiz/4": `[Verse 1]
+  "sangue-raiz/4": `[Verse 1]
 The kitchen smells of cumin and bay
 my mother's hands move without looking
 She learned this recipe from her mother's mother
@@ -559,7 +559,7 @@ the patient hand
 This is where I come from
 this is where I stand`,
 
-  "vida-raiz/5": `[Verse 1]
+  "sangue-raiz/5": `[Verse 1]
 Danço no escuro da sala
 como a avó dançava no terreiro
 Os pés descalços batem no chão
@@ -595,7 +595,7 @@ como quem reza
 como quem volta a casa
 sem sair do lugar`,
 
-  "vida-raiz/6": `[Verse 1]
+  "sangue-raiz/6": `[Verse 1]
 I left home at seventeen
 with a suitcase and a prayer
 The airport smelled of floor wax and goodbye
@@ -629,7 +629,7 @@ I am two worlds
 whole
 and breathing`,
 
-  "vida-raiz/7": `[Verse 1]
+  "sangue-raiz/7": `[Verse 1]
 O Índico é mais quente do que lembras
 a água abraça em vez de empurrar
 As ondas não têm pressa de chegar
@@ -665,7 +665,7 @@ de qualquer mar
 e procuro
 a tua cor`,
 
-  "vida-raiz/8": `[Verse 1]
+  "sangue-raiz/8": `[Verse 1]
 The elders sit beneath the shade
 and time bends around their words
 They speak in proverbs, not in rush
@@ -701,7 +701,7 @@ with a woman
 who refused
 to bend`,
 
-  "vida-raiz/9": `[Verse 1]
+  "sangue-raiz/9": `[Verse 1]
 Volto a casa e já não reconheço
 as ruas mudaram de nome e de cor
 O mercado tem outros rostos
@@ -737,7 +737,7 @@ mas aqui
 O chão reconhece-me
 mesmo que eu hesite`,
 
-  "vida-raiz/10": `[Verse 1]
+  "sangue-raiz/10": `[Verse 1]
 My daughter asks me where we're from
 and I hold continents in my reply
 I say — from warm red earth and ocean salt
@@ -782,7 +782,7 @@ that never ends`,
   // Maternidade — o corpo que gera, o medo, o amor sem fundo
   // ─────────────────────────────────────────────
 
-  "vida-mae/1": `[Verse 1]
+  "sangue-mae/1": `[Verse 1]
 Antes de te conhecer já te carregava
 um peso doce debaixo do peito
 O corpo mudou de forma e de mapa
@@ -815,7 +815,7 @@ O corpo sabe
 antes da mente
 antes do mundo`,
 
-  "vida-mae/2": `[Verse 1]
+  "sangue-mae/2": `[Verse 1]
 The first cry split the room in half
 and time began again
 Everything before that sound
@@ -851,7 +851,7 @@ inside out
 and I have never
 been more whole`,
 
-  "vida-mae/3": `[Verse 1]
+  "sangue-mae/3": `[Verse 1]
 São três da manhã e o corpo levanta
 sem pensar, sem decidir
 Os pés encontram o chão no escuro
@@ -888,7 +888,7 @@ Não é sacrifício
 é a coisa mais certa
 que já fiz`,
 
-  "vida-mae/4": `[Verse 1]
+  "sangue-mae/4": `[Verse 1]
 They don't tell you about the guilt
 that comes wrapped in the gift
 The voice that says you're not enough
@@ -922,7 +922,7 @@ you are enough
 the trying
 is the proof`,
 
-  "vida-mae/5": `[Verse 1]
+  "sangue-mae/5": `[Verse 1]
 O meu corpo tem um mapa novo
 feito de estrias e de leite
 Uma geografia que ninguém ensina
@@ -957,7 +957,7 @@ de uma viagem
 que ninguém mais
 pode fazer por mim`,
 
-  "vida-mae/6": `[Verse 1]
+  "sangue-mae/6": `[Verse 1]
 I look at you asleep and count
 each breath like stolen gold
 I memorize your hand — so small
@@ -996,7 +996,7 @@ I am the wall
 between you
 and everything`,
 
-  "vida-mae/7": `[Verse 1]
+  "sangue-mae/7": `[Verse 1]
 Disseste "mamã" e o mundo parou
 como se a palavra tivesse peso
 A boca tão pequena para um nome tão grande
@@ -1032,7 +1032,7 @@ tornei-me
 outra vez
 pela primeira vez`,
 
-  "vida-mae/8": `[Verse 1]
+  "sangue-mae/8": `[Verse 1]
 She's outgrowing my arms now
 leaving fingerprints on the wall
 The height marks on the doorframe
@@ -1068,7 +1068,7 @@ when you look back
 I'll be the door
 that's always open`,
 
-  "vida-mae/9": `[Verse 1]
+  "sangue-mae/9": `[Verse 1]
 Há dias em que me tranco na casa de banho
 e choro sem som, sem razão
 Não é tristeza — é excesso
@@ -1104,7 +1104,7 @@ a segurar o mundo
 de joelhos
 com graça`,
 
-  "vida-mae/10": `[Verse 1]
+  "sangue-mae/10": `[Verse 1]
 When she sleeps I become myself again
 for seventeen minutes, maybe less
 I drink cold tea standing at the window
@@ -1149,7 +1149,7 @@ and who I still am`,
   // Perda profunda — morte, fim, ausência, o corpo que fica
   // ─────────────────────────────────────────────
 
-  "espiritual-luto/1": `[Verse 1]
+  "incenso-luto/1": `[Verse 1]
 O telefone tocou às seis da manhã
 e o corpo soube antes da voz
 Há notícias que não precisam de palavras
@@ -1186,7 +1186,7 @@ a tentar perceber
 porque é que tudo
 continua`,
 
-  "espiritual-luto/2": `[Verse 1]
+  "incenso-luto/2": `[Verse 1]
 The chair is still warm
 or maybe that's my imagination
 The glass beside the bed still has
@@ -1225,7 +1225,7 @@ as if leaving
 was something
 you could undo`,
 
-  "espiritual-luto/3": `[Verse 1]
+  "incenso-luto/3": `[Verse 1]
 As pessoas dizem "força"
 como se a força fosse o que eu preciso
 O que eu preciso é de licença
@@ -1261,7 +1261,7 @@ só fica
 o silêncio é suficiente
 quando é honesto`,
 
-  "espiritual-luto/4": `[Verse 1]
+  "incenso-luto/4": `[Verse 1]
 Grief visits in the grocery store
 between the bread and milk
 It lands on my shoulder like a bird
@@ -1298,7 +1298,7 @@ and let it come
 all of it
 all at once`,
 
-  "espiritual-luto/5": `[Verse 1]
+  "incenso-luto/5": `[Verse 1]
 A primeira vez que ri depois de ti
 senti-me culpada como uma ladra
 Como se rir fosse uma traição
@@ -1336,7 +1336,7 @@ porque o corpo
 recusa-se
 a ser tumba`,
 
-  "espiritual-luto/6": `[Verse 1]
+  "incenso-luto/6": `[Verse 1]
 I wear your sweater on the bad days
 the one with the hole in the left sleeve
 It smells less like you every wash
@@ -1373,7 +1373,7 @@ to the felt
 from the here
 to the everywhere`,
 
-  "espiritual-luto/7": `[Verse 1]
+  "incenso-luto/7": `[Verse 1]
 Um ano depois e ainda procuro
 o teu nome no ecrã do telefone
 Ainda guardo o teu lado da cama
@@ -1415,7 +1415,7 @@ a viver com ela
 como se vive
 com o próprio coração`,
 
-  "espiritual-luto/8": `[Verse 1]
+  "incenso-luto/8": `[Verse 1]
 The first birthday after you died
 I set a plate — I know, I know
 But the table looked so wrong without it
@@ -1450,7 +1450,7 @@ that's empty
 and full
 at the same time`,
 
-  "espiritual-luto/9": `[Verse 1]
+  "incenso-luto/9": `[Verse 1]
 Sonhei contigo esta noite
 estavas na cozinha como sempre
 A fazer chá com as mãos calmas
@@ -1485,7 +1485,7 @@ A porta está aberta
 a chávena
 está sempre pronta`,
 
-  "espiritual-luto/10": `[Verse 1]
+  "incenso-luto/10": `[Verse 1]
 There will come a day I say your name
 and smile before I cry
 A day the memory is warm
@@ -1534,7 +1534,7 @@ okay`,
   // A noite acordada — pensamentos às 3h, o corpo que não desliga
   // ─────────────────────────────────────────────
 
-  "vida-insonia/1": `[Verse 1]
+  "grao-insonia/1": `[Verse 1]
 O tecto tem fissuras que só eu conheço
 sei o mapa delas de cor
 São três da manhã e o corpo não desliga
@@ -1570,7 +1570,7 @@ e a noite continua
 e nada pára
 especialmente eu`,
 
-  "vida-insonia/2": `[Verse 1]
+  "grao-insonia/2": `[Verse 1]
 The ceiling knows my face by now
 we've met too many nights
 My body says it's tired
@@ -1606,7 +1606,7 @@ one more thought
 just one more
 just one`,
 
-  "vida-insonia/3": `[Verse 1]
+  "grao-insonia/3": `[Verse 1]
 Conto carneiros que se transformam
 em listas de coisas por fazer
 O primeiro é um email que não enviei
@@ -1643,7 +1643,7 @@ como sempre
 a lista ganhou
 outra vez`,
 
-  "vida-insonia/4": `[Verse 1]
+  "grao-insonia/4": `[Verse 1]
 The blue light of my phone at two AM
 is the only honest company
 I scroll through other people's lives
@@ -1680,7 +1680,7 @@ with no one left
 to scroll through
 except myself`,
 
-  "vida-insonia/5": `[Verse 1]
+  "grao-insonia/5": `[Verse 1]
 O corpo diz dorme
 a mente diz espera
 Há uma guerra civil no escuro
@@ -1718,7 +1718,7 @@ cabeça
 rendo-me
 e fico`,
 
-  "vida-insonia/6": `[Verse 1]
+  "grao-insonia/6": `[Verse 1]
 There's a woman in the kitchen at four AM
 boiling water she won't drink
 Standing barefoot on cold tiles
@@ -1757,7 +1757,7 @@ who carries the house
 in silence
 at four`,
 
-  "vida-insonia/7": `[Verse 1]
+  "grao-insonia/7": `[Verse 1]
 Ouço a respiração de toda a casa
 o cão que sonha, a máquina que zumbe
 O frigorífico é um órgão de catedral
@@ -1796,7 +1796,7 @@ que eu estou
 acordada
 a ouvir`,
 
-  "vida-insonia/8": `[Verse 1]
+  "grao-insonia/8": `[Verse 1]
 At five the birds begin
 before the light, before the reason
 A tentative first note
@@ -1835,7 +1835,7 @@ through another night
 and morning
 is my proof`,
 
-  "vida-insonia/9": `[Verse 1]
+  "grao-insonia/9": `[Verse 1]
 O primeiro raio de sol é uma trégua
 entre mim e a minha própria cabeça
 A luz entra devagar pela cortina
@@ -1871,7 +1871,7 @@ Bom dia
 ao dia que veio
 mesmo assim`,
 
-  "vida-insonia/10": `[Verse 1]
+  "grao-insonia/10": `[Verse 1]
 Tonight I will not fight it
 I will let the dark be dark
 I will lie here like a boat
@@ -1914,7 +1914,7 @@ for now`,
   // Raiva como força sagrada — limites, a voz que se recusa a calar
   // ─────────────────────────────────────────────
 
-  "espiritual-furia/1": `[Verse 1]
+  "incenso-furia/1": `[Verse 1]
 Ensinaram-me a engolir o fogo
 a guardar a raiva debaixo da língua
 Sorrir quando o mundo me pisa
@@ -1952,7 +1952,7 @@ e hoje
 arde
 para fora`,
 
-  "espiritual-furia/2": `[Verse 1]
+  "incenso-furia/2": `[Verse 1]
 They told me anger wasn't ladylike
 they told me swallow, smile, be sweet
 But the rage inside my ribcage
@@ -1992,7 +1992,7 @@ is silence
 and silence
 was killing me`,
 
-  "espiritual-furia/3": `[Verse 1]
+  "incenso-furia/3": `[Verse 1]
 A primeira vez que disse não
 o mundo não acabou
 O chão não abriu, o céu não caiu
@@ -2030,7 +2030,7 @@ ponto final
 o resto é silêncio
 meu`,
 
-  "espiritual-furia/4": `[Verse 1]
+  "incenso-furia/4": `[Verse 1]
 You touched my boundary like a wall
 you didn't know was there
 And when I flinched you looked surprised
@@ -2070,7 +2070,7 @@ it's a door
 with a lock
 that I hold`,
 
-  "espiritual-furia/5": `[Verse 1]
+  "incenso-furia/5": `[Verse 1]
 Há uma raiva antiga nos meus ossos
 que não é minha — é da minha avó
 Da avó da minha avó que trabalhou
@@ -2109,7 +2109,7 @@ eu grito
 e o grito
 é uma oração`,
 
-  "espiritual-furia/6": `[Verse 1]
+  "incenso-furia/6": `[Verse 1]
 The table falls silent when I speak my truth
 the fork paused, the wine glass held mid-air
 They didn't expect the quiet one
@@ -2149,7 +2149,7 @@ every corner
 they thought
 was empty`,
 
-  "espiritual-furia/7": `[Verse 1]
+  "incenso-furia/7": `[Verse 1]
 Bati com a porta e a casa tremeu
 os quadros balançaram na parede
 E eu fiquei do outro lado
@@ -2188,7 +2188,7 @@ a respirar
 pela primeira vez
 sem pedir licença`,
 
-  "espiritual-furia/8": `[Verse 1]
+  "incenso-furia/8": `[Verse 1]
 There is a scream inside my chest
 that has no words — just weight
 It doesn't ask for understanding
@@ -2227,7 +2227,7 @@ and mine
 and I will not
 apologize`,
 
-  "espiritual-furia/9": `[Verse 1]
+  "incenso-furia/9": `[Verse 1]
 Depois da fúria vem a calma
 como depois da tempestade vem o mar
 O corpo treme, as mãos arrefecem
@@ -2264,7 +2264,7 @@ tinha gritado
 o que precisava
 de ser gritado`,
 
-  "espiritual-furia/10": `[Verse 1]
+  "incenso-furia/10": `[Verse 1]
 I learned to hold my fire like a lantern
 not a weapon — not a bomb
 To carry my rage with steady hands
@@ -2311,7 +2311,7 @@ without flame`,
   // O corpo como água — fluir, afogar, submergir, emergir
   // ─────────────────────────────────────────────
 
-  "cosmic-oceano/1": `[Verse 1]
+  "eter-oceano/1": `[Verse 1]
 O meu corpo é feito de água
 mais de metade é mar
 E quando fecho os olhos à noite
@@ -2346,7 +2346,7 @@ porque o fundo
 se lembra
 de ser mar`,
 
-  "cosmic-oceano/2": `[Verse 1]
+  "eter-oceano/2": `[Verse 1]
 I am more ocean than I thought
 more tide than solid ground
 The pull I feel beneath my skin
@@ -2383,7 +2383,7 @@ and neither one
 is less
 than the other`,
 
-  "cosmic-oceano/3": `[Verse 1]
+  "eter-oceano/3": `[Verse 1]
 Afundei — não de uma vez
 mas devagar, como quem desce escadas
 Cada degrau mais fundo, mais escuro
@@ -2420,7 +2420,7 @@ a certeza
 de quem já não tem
 mais nada a perder`,
 
-  "cosmic-oceano/4": `[Verse 1]
+  "eter-oceano/4": `[Verse 1]
 The surface breaks and I come through
 gasping, wild, alive
 Water streaming from my hair
@@ -2459,7 +2459,7 @@ and dripping
 with everything
 I survived`,
 
-  "cosmic-oceano/5": `[Verse 1]
+  "eter-oceano/5": `[Verse 1]
 A chuva cai sobre a minha pele
 como mãos que sabem onde tocar
 Cada gota é uma pergunta
@@ -2495,7 +2495,7 @@ e eu fico
 cada vez mais
 leve`,
 
-  "cosmic-oceano/6": `[Verse 1]
+  "eter-oceano/6": `[Verse 1]
 Rivers don't run in straight lines
 they bend around the stone
 They don't fight what's in the way
@@ -2534,7 +2534,7 @@ not by force
 but by refusing
 to stop`,
 
-  "cosmic-oceano/7": `[Verse 1]
+  "eter-oceano/7": `[Verse 1]
 O banho é o meu templo
 a banheira é o meu altar
 A água quente dissolve
@@ -2574,7 +2574,7 @@ só corpo
 só água
 só calor`,
 
-  "cosmic-oceano/8": `[Verse 1]
+  "eter-oceano/8": `[Verse 1]
 The sea at night is a different animal
 black glass that breathes and waits
 I stand at the edge with bare feet
@@ -2613,7 +2613,7 @@ where I end
 and the universe
 begins`,
 
-  "cosmic-oceano/9": `[Verse 1]
+  "eter-oceano/9": `[Verse 1]
 As lágrimas são água salgada
 o mesmo sal do oceano
 O corpo chora e o mar responde
@@ -2651,7 +2651,7 @@ que precisa de cair
 para voltar
 a subir`,
 
-  "cosmic-oceano/10": `[Verse 1]
+  "eter-oceano/10": `[Verse 1]
 After the storm the sea goes still
 not empty — just complete
 The rage has said its piece
@@ -2698,7 +2698,7 @@ enough`,
   // Começos — mudar de cidade, começar de novo, o primeiro dia
   // ─────────────────────────────────────────────
 
-  "vida-primeiro-passo/1": `[Verse 1]
+  "grao-primeiro-passo/1": `[Verse 1]
 A mala está feita e pesa mais
 do que a roupa que lá pus
 Pesa o medo, pesa a dúvida
@@ -2735,7 +2735,7 @@ ou não vem
 mas este
 este é meu`,
 
-  "vida-primeiro-passo/2": `[Verse 1]
+  "grao-primeiro-passo/2": `[Verse 1]
 New city, new key, new silence
 the walls don't know my name
 The echo of my footsteps sounds
@@ -2775,7 +2775,7 @@ but sitting still
 in the mess
 of becoming`,
 
-  "vida-primeiro-passo/3": `[Verse 1]
+  "grao-primeiro-passo/3": `[Verse 1]
 O primeiro dia de trabalho
 com as mãos a tremer no colo
 Ninguém sabe quem eu sou aqui
@@ -2812,7 +2812,7 @@ tudo possível
 tudo
 a começar`,
 
-  "vida-primeiro-passo/4": `[Verse 1]
+  "grao-primeiro-passo/4": `[Verse 1]
 She left the ring on the kitchen counter
 next to the salt — poetic and plain
 Walked out with one bag and both shoes untied
@@ -2850,7 +2850,7 @@ and she
 does not
 adjust it`,
 
-  "vida-primeiro-passo/5": `[Verse 1]
+  "grao-primeiro-passo/5": `[Verse 1]
 Tenho quarenta anos e começo do zero
 como se os outros não contassem
 Começo com rugas e com história
@@ -2888,7 +2888,7 @@ o que importa
 escolhi
 começar`,
 
-  "vida-primeiro-passo/6": `[Verse 1]
+  "grao-primeiro-passo/6": `[Verse 1]
 The blank page doesn't judge
 it sits there, patient, white
 Waiting for the first word
@@ -2927,7 +2927,7 @@ and that's
 enough
 to begin`,
 
-  "vida-primeiro-passo/7": `[Verse 1]
+  "grao-primeiro-passo/7": `[Verse 1]
 A primeira refeição sozinha
 sem ninguém do outro lado da mesa
 O garfo pesa mais sem testemunha
@@ -2963,7 +2963,7 @@ silêncio cheio
 tudo cheio
 de mim`,
 
-  "vida-primeiro-passo/8": `[Verse 1]
+  "grao-primeiro-passo/8": `[Verse 1]
 I said hello to my reflection
 for the first time without flinching
 Not fixing my hair, not checking for flaws
@@ -3003,7 +3003,7 @@ to look
 without
 looking away`,
 
-  "vida-primeiro-passo/9": `[Verse 1]
+  "grao-primeiro-passo/9": `[Verse 1]
 Plantei uma semente no vaso da janela
 sem saber se ia resultar
 Reguei-a todos os dias como quem reza
@@ -3042,7 +3042,7 @@ porque a terra disse sim
 e a água disse sim
 e o sol disse sim`,
 
-  "vida-primeiro-passo/10": `[Verse 1]
+  "grao-primeiro-passo/10": `[Verse 1]
 Tonight I sleep in a bed I chose
 in a room I painted myself
 The colour is wrong — too bright, too bold
@@ -3090,7 +3090,7 @@ mine`,
   // Crise de identidade — quem sou quando tudo o que construí cai
   // ─────────────────────────────────────────────
 
-  "espiritual-espelho-partido/1": `[Verse 1]
+  "incenso-espelho-partido/1": `[Verse 1]
 O espelho caiu e partiu-se em sete
 cada pedaço mostra um rosto diferente
 A boca de uma, os olhos de outra
@@ -3128,7 +3128,7 @@ no meio
 a tentar
 juntar`,
 
-  "espiritual-espelho-partido/2": `[Verse 1]
+  "incenso-espelho-partido/2": `[Verse 1]
 I woke up one morning and didn't recognise
 the woman in the bathroom mirror
 Same face, same hands, same morning light
@@ -3166,7 +3166,7 @@ but I know
 I am still
 standing`,
 
-  "espiritual-espelho-partido/3": `[Verse 1]
+  "incenso-espelho-partido/3": `[Verse 1]
 Perdi o emprego e com ele perdi
 o direito de responder "sou"
 Sou o quê agora — sem cartão
@@ -3200,7 +3200,7 @@ sou o que fica
 quando não faço
 nada`,
 
-  "espiritual-espelho-partido/4": `[Verse 1]
+  "incenso-espelho-partido/4": `[Verse 1]
 The divorce papers sit on the table
 next to the fruit bowl — mundane and mythic
 Seventeen years summarised in sections
@@ -3240,7 +3240,7 @@ whole
 terrifying
 one`,
 
-  "espiritual-espelho-partido/5": `[Verse 1]
+  "incenso-espelho-partido/5": `[Verse 1]
 Cortei o cabelo e chorei no salão
 como se o cabelo fosse quem eu era
 A cabeleireira não disse nada
@@ -3280,7 +3280,7 @@ a nova
 a crua
 a que cortou`,
 
-  "espiritual-espelho-partido/6": `[Verse 1]
+  "incenso-espelho-partido/6": `[Verse 1]
 I said I was fine so many times
 the word lost all its meaning
 Fine is the fence around the fire
@@ -3323,7 +3323,7 @@ just raw
 just done
 pretending`,
 
-  "espiritual-espelho-partido/7": `[Verse 1]
+  "incenso-espelho-partido/7": `[Verse 1]
 Olho para as minhas mãos e não reconheço
 o que elas fizeram, o que elas seguraram
 Parecem mãos de outra pessoa
@@ -3360,7 +3360,7 @@ e o possível
 é mais
 do que eu pensava`,
 
-  "espiritual-espelho-partido/8": `[Verse 1]
+  "incenso-espelho-partido/8": `[Verse 1]
 The photos on my phone tell a story
 of someone I performed with care
 She smiled in all the right places
@@ -3401,7 +3401,7 @@ this mess
 this
 me`,
 
-  "espiritual-espelho-partido/9": `[Verse 1]
+  "incenso-espelho-partido/9": `[Verse 1]
 Estou a juntar os pedaços
 sem pressa, sem cola, sem manual
 Cada pedaço é um pedaço válido
@@ -3440,7 +3440,7 @@ não é o que era
 é mais honesto
 é mais — eu`,
 
-  "espiritual-espelho-partido/10": `[Verse 1]
+  "incenso-espelho-partido/10": `[Verse 1]
 I don't know who I am today
 and that's the truest thing I've said
 Not lost — just between chapters
@@ -3489,7 +3489,7 @@ I will be`,
   // Estrutura: [Female] e [Male] marcam quem canta. [Both] para uníssono.
   // ─────────────────────────────────────────────
 
-  "romance-duas-vozes/1": `[Verse 1 - Female]
+  "nua-duas-vozes/1": `[Verse 1 - Female]
 Eu falo de manhã — tu falas de noite
 Eu abro as cortinas — tu fechas a porta
 O relógio entre nós bate em tempos diferentes
@@ -3527,7 +3527,7 @@ de ser perfeito
 para ser
 presente`,
 
-  "romance-duas-vozes/2": `[Verse 1 - Female]
+  "nua-duas-vozes/2": `[Verse 1 - Female]
 I didn't hear the argument
 I heard the silence after
 The way you breathed like someone drowning
@@ -3564,7 +3564,7 @@ room
 we've ever
 been in`,
 
-  "romance-duas-vozes/3": `[Verse 1 - Female]
+  "nua-duas-vozes/3": `[Verse 1 - Female]
 Contas-me o teu dia e eu finjo que ouço
 mas estou a olhar para as tuas mãos
 A forma como seguras o copo
@@ -3603,7 +3603,7 @@ nos gestos
 que ninguém
 fotografa`,
 
-  "romance-duas-vozes/4": `[Verse 1 - Male]
+  "nua-duas-vozes/4": `[Verse 1 - Male]
 I remember the day you cried
 in the supermarket parking lot
 And I didn't try to fix it
@@ -3644,7 +3644,7 @@ the tears
 the quiet
 the enough`,
 
-  "romance-duas-vozes/5": `[Verse 1 - Female]
+  "nua-duas-vozes/5": `[Verse 1 - Female]
 Envelheces e eu vejo
 o rapaz que foste nos teus olhos
 Os cabelos brancos na têmpora
@@ -3690,7 +3690,7 @@ não nos tirou nada
 deu-nos
 tudo isto`,
 
-  "romance-duas-vozes/6": `[Verse 1 - Female]
+  "nua-duas-vozes/6": `[Verse 1 - Female]
 I'm telling you about my day
 but what I'm really saying is — see me
 Not the report, not the project
@@ -3729,7 +3729,7 @@ I'm still here
 means
 everything`,
 
-  "romance-duas-vozes/7": `[Verse 1 - Male]
+  "nua-duas-vozes/7": `[Verse 1 - Male]
 Trouxe-te flores sem razão
 sem aniversário, sem pedido de desculpa
 Só porque a banca no mercado
@@ -3770,7 +3770,7 @@ sem motivo
 e mesmo assim
 aqui`,
 
-  "romance-duas-vozes/8": `[Verse 1 - Female]
+  "nua-duas-vozes/8": `[Verse 1 - Female]
 I heard you singing in the shower
 a song I haven't heard in years
 You thought you were alone
@@ -3813,7 +3813,7 @@ decides
 it's not
 allowed`,
 
-  "romance-duas-vozes/9": `[Verse 1 - Female]
+  "nua-duas-vozes/9": `[Verse 1 - Female]
 Adormeceste no sofá com o livro no peito
 e eu fiquei a olhar como quem rouba
 Um momento de paz tão completo
@@ -3853,7 +3853,7 @@ como quem
 partilha
 tudo`,
 
-  "romance-duas-vozes/10": `[Verse 1 - Male]
+  "nua-duas-vozes/10": `[Verse 1 - Male]
 I don't say it enough — I know
 the words get lost in laundry and in bills
 But when I see you in the morning light

@@ -5,7 +5,7 @@ const BUCKET = "audios";
 
 /**
  * Rename a folder in Supabase Storage by copying all files and deleting originals.
- * POST /api/admin/rename-folder { from: "cosmic-romance", to: "romance-pele" }
+ * POST /api/admin/rename-folder { from: "old-slug", to: "new-slug" }
  */
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);

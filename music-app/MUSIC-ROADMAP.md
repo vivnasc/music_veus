@@ -30,26 +30,26 @@ Prioridade: alegria, desporto, chill, texturas do quotidiano, relacoes.
 
 | # | Titulo | Slug | Coleccao | Tema | Sabores sugeridos |
 |---|--------|------|----------|------|-------------------|
-| 1 | Boca Aberta | vida-boca-aberta | grão | Gargalhadas, tolice, brincar — o album mais leve | funk, bossa |
-| 2 | Asfalto Vivo | vida-asfalto-vivo | fibra | Correr — asfalto, respiracao, endorfinas, a conversa contigo mesma | house, pulse |
-| 3 | Azul Fundo | vida-azul-fundo | fibra | Natacao — agua, silencio debaixo de agua, bracos que cortam, paz | whisper, steady |
-| 4 | Barra Carregada | vida-barra-carregada | fibra | Ginasio, pesos, forca feminina, o corpo que se constroi | house, pulse |
-| 5 | Luz Mansa | vida-luz-mansa | maré | House chill, sunset sessions, after-workout calm, corpo em paz | house, bossa |
-| 6 | Corpo Aberto | vida-corpo-aberto | fibra | Yoga, pilates, tai chi, o corpo que flui sem forca | whisper, steady |
-| 7 | Toalha Posta | vida-toalha-posta | grão | Comida, cozinhar, refeicoes em familia, vinho, comunhao | bossa, folk |
-| 8 | Sal na Pele | vida-sal-na-pele | grão | Calor, praia, sal na pele, cigarras, tempo suspenso | house, marrabenta |
-| 9 | Abrigo | vida-abrigo | grão | Frio, cobertores, chuva na janela, sopa, solidao que cura | whisper, jazz |
-| 10 | Primeira Luz | vida-primeira-luz | grão | Rituais matinais, primeiro cafe, luz na pele | bossa, steady |
-| 11 | Lua Acordada | vida-lua-acordada | maré | Passeios nocturnos, luzes da cidade, pensamentos as 3h | jazz, house |
-| 12 | Pés Descalços | vida-pes-descalcos | incenso | O corpo que se move antes da mente perceber | house, funk, marrabenta |
-| 13 | Mãos Juntas | vida-maos-juntas | incenso | Obrigada como pratica, nao platitude | gospel, folk |
-| 14 | Olhos de Criança | vida-olhos-de-crianca | éter | O espanto de perguntar porque — perguntas de crianca | steady, whisper |
-| 15 | Sangue Antigo | vida-sangue-antigo | éter | Os mortos que vivem em nos, raizes, memoria do ADN | folk, gospel |
-| 16 | Mesmo Sangue | vida-mesmo-sangue | sangue | Irmaos — brigas, proteccao, reencontro | steady, raw |
-| 17 | Sombra do Pai | vida-sombra-do-pai | sangue | Pais — ausencia, silencio, o que nunca disseram | raw, whisper |
-| 18 | Porta Aberta | vida-porta-aberta | grão | Primeiros dias — escola, emprego, cidade | steady, pulse |
-| 19 | Nó de Ouro | vida-no-de-ouro | grão | Votos, pes frios, dancar mal, promessas publicas | bossa, anthem |
-| 20 | Varanda Quente | vida-varanda-quente | maré | House chill puro — por do sol, varanda, vinho, serenidade | house |
+| 1 | Boca Aberta | grao-boca-aberta | grão | Gargalhadas, tolice, brincar — o album mais leve | funk, bossa |
+| 2 | Asfalto Vivo | fibra-asfalto-vivo | fibra | Correr — asfalto, respiracao, endorfinas, a conversa contigo mesma | house, pulse |
+| 3 | Azul Fundo | fibra-azul-fundo | fibra | Natacao — agua, silencio debaixo de agua, bracos que cortam, paz | whisper, steady |
+| 4 | Barra Carregada | fibra-barra-carregada | fibra | Ginasio, pesos, forca feminina, o corpo que se constroi | house, pulse |
+| 5 | Luz Mansa | mare-luz-mansa | maré | House chill, sunset sessions, after-workout calm, corpo em paz | house, bossa |
+| 6 | Corpo Aberto | fibra-corpo-aberto | fibra | Yoga, pilates, tai chi, o corpo que flui sem forca | whisper, steady |
+| 7 | Toalha Posta | grao-toalha-posta | grão | Comida, cozinhar, refeicoes em familia, vinho, comunhao | bossa, folk |
+| 8 | Sal na Pele | grao-sal-na-pele | grão | Calor, praia, sal na pele, cigarras, tempo suspenso | house, marrabenta |
+| 9 | Abrigo | grao-abrigo | grão | Frio, cobertores, chuva na janela, sopa, solidao que cura | whisper, jazz |
+| 10 | Primeira Luz | grao-primeira-luz | grão | Rituais matinais, primeiro cafe, luz na pele | bossa, steady |
+| 11 | Lua Acordada | mare-lua-acordada | maré | Passeios nocturnos, luzes da cidade, pensamentos as 3h | jazz, house |
+| 12 | Pés Descalços | incenso-pes-descalcos | incenso | O corpo que se move antes da mente perceber | house, funk, marrabenta |
+| 13 | Mãos Juntas | incenso-maos-juntas | incenso | Obrigada como pratica, nao platitude | gospel, folk |
+| 14 | Olhos de Criança | eter-olhos-de-crianca | éter | O espanto de perguntar porque — perguntas de crianca | steady, whisper |
+| 15 | Sangue Antigo | eter-sangue-antigo | éter | Os mortos que vivem em nos, raizes, memoria do ADN | folk, gospel |
+| 16 | Mesmo Sangue | sangue-mesmo-sangue | sangue | Irmaos — brigas, proteccao, reencontro | steady, raw |
+| 17 | Sombra do Pai | sangue-sombra-do-pai | sangue | Pais — ausencia, silencio, o que nunca disseram | raw, whisper |
+| 18 | Porta Aberta | grao-porta-aberta | grão | Primeiros dias — escola, emprego, cidade | steady, pulse |
+| 19 | Nó de Ouro | grao-no-de-ouro | grão | Votos, pes frios, dancar mal, promessas publicas | bossa, anthem |
+| 20 | Varanda Quente | mare-varanda-quente | maré | House chill puro — por do sol, varanda, vinho, serenidade | house |
 
 ### Notas Fase 1:
 - 4 albuns de desporto/corpo → Fibra (Asfalto Vivo, Azul Fundo, Barra Carregada, Corpo Aberto)
