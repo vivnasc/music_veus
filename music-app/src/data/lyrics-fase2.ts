@@ -9136,4 +9136,528 @@ The future is listening
 Dream forward
 And it already loves you back`,
 
+// ─────────────────────────────────────────────
+// COMBUSTÃO (euforia, explodir de vida)
+// ─────────────────────────────────────────────
+
+"grao-combustao/1": `[Verse 1]
+Último minuto, bola no ar
+O estádio pára, o mundo pára
+E de repente — a rede treme
+E o grito sai de onde não se declara
+
+[Verse 2]
+Abraço o estranho ao meu lado
+Choro sem vergonha, rio a gritar
+O corpo é só vibração pura
+E o peito não consegue parar
+
+[Pre-Chorus]
+O golo é mais que futebol
+É a permissão de explodir
+
+[Chorus]
+Golo — o grito que vem do fundo
+Golo — a euforia sem filtro
+O corpo inteiro em combustão
+Golo — e o mundo faz sentido por um minuto
+
+[Verse 3]
+Não importa a liga nem o resultado
+O que importa é aquele segundo
+Onde toda a gente é uma só
+E a alegria engole o mundo
+
+[Chorus]
+Golo — o grito que vem do fundo
+Golo — a euforia sem filtro
+O corpo inteiro em combustão
+Golo — e o mundo faz sentido por um minuto
+
+[Bridge]
+E depois a voz falha e o corpo treme
+E olhas à volta e toda a gente chora
+Não de tristeza — de pura vida
+O golo transformou-nos — agora
+
+[Chorus]
+Golo — grita mais alto
+Golo — não guardes nada
+Golo — a vida inteira num segundo
+Golo — a mais pura gargalhada
+
+[Outro]
+Golo
+E o mundo explode
+Golo
+E estamos todos vivos`,
+
+"grao-combustao/2": `[Verse 1]
+The email came at ten to three
+A Tuesday afternoon, nothing planned
+Three words that changed the architecture
+Of everything I'd ever scanned
+
+[Verse 2]
+I read it twice, I read it three times
+I stood up, sat down, stood again
+Then screamed alone inside my kitchen
+A celebration without men
+
+[Pre-Chorus]
+They said yes
+Two letters — infinite meaning
+
+[Chorus]
+Yes! — the world just shifted
+Yes! — the screen said so
+Yes! — I'm screaming in my kitchen
+Yes! — and nobody needs to know
+
+[Verse 3]
+I called my mother, couldn't speak
+Just happy breathing down the line
+She understood without a word
+That something had aligned
+
+[Chorus]
+Yes! — the world just shifted
+Yes! — the screen said so
+Yes! — I'm screaming in my kitchen
+Yes! — and the tears just flow
+
+[Bridge]
+The validation of a yes
+After years of quiet no
+Is the detonation of a lifetime
+Of believing in the undertow
+
+[Chorus]
+Yes! — this is for every inbox
+Yes! — for every waiting game
+Yes! — the word that lights the fuse
+Yes! — and nothing is the same
+
+[Outro]
+Yes
+They said yes
+And I said yes to everything
+That follows`,
+
+"grao-combustao/3": `[Verse 1]
+Não sei quando é que começou
+Se foi o sorriso ou a voz
+Mas de repente o telemóvel
+Já não é meu — é de nós dois
+
+[Verse 2]
+Verifico o ecrã de dois em dois minutos
+Sorrio sozinha no metro como louca
+O estômago faz coisas que a ciência
+Não explica — e a cabeça está pouca
+
+[Pre-Chorus]
+Já é tarde para fugir
+A queda já começou
+
+[Chorus]
+Apaixonar — o tombo mais bonito
+Apaixonar — o medo mais gostoso
+Sei que vou sofrer, sei que vou voar
+E escolho tudo — por ser tão luminoso
+
+[Verse 3]
+O mundo ganha cores que não tinha
+O café sabe melhor, a rua brilha
+E eu rio-me de mim mesma a apaixonar
+Como uma adolescente com uma anilha
+
+[Chorus]
+Apaixonar — o tombo mais bonito
+Apaixonar — o medo mais gostoso
+Sei que vou sofrer, sei que vou voar
+E escolho tudo — por ser tão luminoso
+
+[Bridge]
+A ciência diz que é dopamina
+Serotonina, oxitocina
+Mas o corpo diz que é magia
+E o coração ganha e elimina
+
+[Chorus]
+Apaixonar — a combustão mais doce
+Apaixonar — a mais bonita febre
+Caio de propósito e com gosto
+Apaixonar — e que o mundo me celebre
+
+[Outro]
+Estou a cair
+E a sorrir
+Estou a cair
+E não quero parar`,
+
+"grao-combustao/4": `[Verse 1]
+The handshake came, the words were said
+"We're pleased to offer you the role"
+I smiled professionally and waited
+Until the lift to lose control
+
+[Verse 2]
+I called my mother in the car park
+"They chose me, Mum" — and then I cried
+Not from sadness but from something
+Like a decade's doubt just died
+
+[Pre-Chorus]
+Quietly proud
+Loudly alive
+
+[Chorus]
+Promotion — the quiet firework
+Promotion — they saw me, finally
+The champagne is cold, the pride is warm
+Promotion — I earned this, honestly
+
+[Verse 3]
+I won't make a scene, I'll celebrate
+With a good glass and a long bath
+But inside I'm dancing on the ceiling
+Rewriting the entire aftermath
+
+[Chorus]
+Promotion — the quiet firework
+Promotion — they saw me, finally
+The champagne is cold, the pride is warm
+Promotion — I earned this, honestly
+
+[Bridge]
+It's not about the title or the money
+It's about the years of being good
+And quiet and steady and overlooked
+Until someone saw you — and understood
+
+[Chorus]
+Promotion — for every year I waited
+Promotion — for every doubt I fought
+Promotion — the recognition landed
+Promotion — exactly when I thought it wouldn't
+
+[Outro]
+They chose me
+And I choose to celebrate
+Quietly
+With everything I've got`,
+
+"grao-combustao/5": `[Verse 1]
+A chuva cai e toda a gente corre
+Para debaixo dos toldos e dos alpendres
+Eu fico no meio da rua
+E começo a dançar — sem emendas
+
+[Verse 2]
+O vestido cola-se ao corpo
+O cabelo escorre como um rio
+E eu rio-me tão alto que os vizinhos
+Pensam que enlouqueci — mas é desafio
+
+[Pre-Chorus]
+Largar o controlo
+É a forma mais pura de dançar
+
+[Chorus]
+Dança na chuva — encharcada e livre
+Dança na chuva — o controlo foi-se
+O corpo move-se sem pedir licença
+E a chuva é a melhor música que ouvi
+
+[Verse 3]
+Uma criança junta-se a mim
+Um velho sorri da janela
+E por um momento somos todos loucos
+Do tipo mais bonito — sob a aquarela
+
+[Chorus]
+Dança na chuva — encharcada e livre
+Dança na chuva — o controlo foi-se
+O corpo move-se sem pedir licença
+E a chuva é a melhor música que ouvi
+
+[Bridge]
+Controlar é o oposto de viver
+E a chuva ensina o que o sol não diz
+Larga tudo, deixa molhar
+E serás a pessoa mais feliz
+
+[Chorus]
+Dança na chuva — sem guarda-chuva
+Dança na chuva — sem desculpa
+Molhada até aos ossos e a rir
+Dança na chuva — a vida mais adulta
+
+[Outro]
+Chove
+E eu danço
+Chove
+E sou livre — finalmente`,
+
+"grao-combustao/6": `[Verse 1]
+The ribbon broke across my chest
+A thing so thin it could mean nothing
+But after twenty miles of doubt
+That ribbon meant — everything
+
+[Verse 2]
+My legs forgot they wanted to quit
+My lungs forgot they begged to stop
+The finish line erased the pain
+And left just glory at the top
+
+[Pre-Chorus]
+Any finish line
+In any race you run
+
+[Chorus]
+Finish line — the crossing point of everything
+Finish line — where effort meets release
+The body and the triumph collide
+Finish line — the most expensive peace
+
+[Verse 3]
+It's not just marathons and races
+It's the thesis, the divorce, the birth
+Every finish line's a moment
+Where you proved your stubborn worth
+
+[Chorus]
+Finish line — the crossing point of everything
+Finish line — where effort meets release
+The body and the triumph collide
+Finish line — the most expensive peace
+
+[Bridge]
+And in that second at the crossing
+When everything and nothing meets
+You understand why you kept running
+Through the blisters and the self-defeats
+
+[Chorus]
+Finish line — you did it
+Finish line — it's done
+Finish line — the sweetest crossing
+Finish line — you won — you won
+
+[Outro]
+Cross the line
+Fall to your knees
+Cross the line
+And breathe — you're free`,
+
+"grao-combustao/7": `[Verse 1]
+Duas linhas cor-de-rosa
+Num teste de farmácia barato
+A casa de banho é o sítio mais importante
+Do planeta — neste exacto acto
+
+[Verse 2]
+Rio e choro ao mesmo tempo
+As mãos tremem, o teste treme
+Ligo-te e não consigo falar
+Só respiro — e tu percebes o que vem
+
+[Pre-Chorus]
+Duas linhas
+E o mundo antes e depois
+
+[Chorus]
+Teste positivo — o chão mexeu
+Teste positivo — tudo mudou
+Duas linhas cor-de-rosa
+E a gravidade da minha vida virou
+
+[Verse 3]
+Sento-me no chão da casa de banho
+O azulejo frio nas costas
+E seguro o teste como um troféu
+Das mais impossíveis apostas
+
+[Chorus]
+Teste positivo — o chão mexeu
+Teste positivo — tudo mudou
+Duas linhas cor-de-rosa
+E a gravidade da minha vida virou
+
+[Bridge]
+Há medo misturado com a alegria
+Há perguntas que ainda não têm voz
+Mas debaixo de tudo isto
+Há um amor que é maior que nós
+
+[Chorus]
+Teste positivo — estou com medo
+Teste positivo — estou a rir
+Teste positivo — o futuro começou
+Teste positivo — a vida vai-se abrir
+
+[Outro]
+Duas linhas
+E tudo muda
+Duas linhas
+E começo — outra vez`,
+
+"grao-combustao/8": `[Verse 1]
+Windows down and music up
+The motorway is melting gold
+No destination, just the road
+And every mile is unconrolled
+
+[Verse 2]
+My arm is out the window sailing
+Catching wind like a child's hand
+The playlist is ridiculous
+And I am singing — unplanned
+
+[Pre-Chorus]
+Nowhere to be
+Is the best place to go
+
+[Chorus]
+Road trip — windows down, soul up
+Road trip — the freedom of the wheel
+No agenda, no arrival
+Road trip — the most electric feel
+
+[Verse 3]
+A gas station coffee, warm and bad
+A sunset stop to stretch my legs
+The road unrolling like a promise
+That doesn't need to beg
+
+[Chorus]
+Road trip — windows down, soul up
+Road trip — the freedom of the wheel
+No agenda, no arrival
+Road trip — the most electric feel
+
+[Bridge]
+The combustion isn't in the engine
+It's in the chest of those who drive
+Without a map, without a reason
+Just to feel completely alive
+
+[Chorus]
+Road trip — this is combustion
+Road trip — the purest kind
+Road trip — the road, the wind, the nothing
+Road trip — leaving everything behind
+
+[Outro]
+Drive
+Keep driving
+The road has no end
+And that's the point`,
+
+"grao-combustao/9": `[Verse 1]
+O sol nasce e eu ainda não dormi
+Mas não de cansaço — de vida
+A melhor noite da minha existência
+Acabou — e eu ainda estou partida
+
+[Verse 2]
+Caminho para casa com a cidade a acordar
+Os padeiros já trabalham, os gatos espreguiçam
+E eu brilho de uma luz que não é minha
+É de tudo o que vivi — que as horas deslizam
+
+[Pre-Chorus]
+Tudo brilha
+Quando a noite foi tão boa
+
+[Chorus]
+Amanhecer — depois da melhor noite
+Amanhecer — o mundo em dourado
+Caminho para casa sem pressa
+E cada passo é abençoado
+
+[Verse 3]
+O café do quiosque sabe a ouro
+O jornal não tem más notícias hoje
+E eu sorrio para estranhos sem razão
+Porque a noite que vivi ainda me acolhe
+
+[Chorus]
+Amanhecer — depois da melhor noite
+Amanhecer — o mundo em dourado
+Caminho para casa sem pressa
+E cada passo é abençoado
+
+[Bridge]
+Há dias que são normais e passam
+E há noites que mudam a cor da vida
+O amanhecer depois dessas noites
+É a prova de que a alegria é cumprida
+
+[Chorus]
+Amanhecer — brilho sem razão
+Amanhecer — a cidade é minha
+Amanhecer — o resto não importa
+Amanhecer — eu sou a rainha
+
+[Outro]
+O sol nasce
+E eu brilho com ele
+O sol nasce
+E a noite vive — em mim`,
+
+"grao-combustao/10": `[Verse 1]
+This is for every scream of joy
+For every time you felt the fuse
+For every goal and every yes
+And every pair of dancing shoes
+
+[Verse 2]
+This is for positive tests and finish lines
+For road trips with the windows down
+For falling in love against your will
+For every time you wore the crown
+
+[Pre-Chorus]
+You are alive
+And that is everything
+
+[Chorus]
+Alive — the anthem of combustion
+Alive — for every bursting heart
+Alive — the primal scream of being
+Alive — the oldest form of art
+
+[Verse 3]
+Not every day will be this bright
+Not every moment is a flame
+But when combustion comes — don't fight it
+Scream your joy and shout your name
+
+[Chorus]
+Alive — the anthem of combustion
+Alive — for every bursting heart
+Alive — the primal scream of being
+Alive — the oldest form of art
+
+[Bridge]
+And the choir sings for the euphoric
+For the drenched and dancing ones
+For the crying in the kitchen
+For the racing under suns
+
+[Chorus]
+Alive — this is your anthem
+Alive — sing it with your chest
+Alive — the greatest thing you've ever been
+Alive — and nothing less
+
+[Outro]
+I'm alive
+Scream it
+I'm alive
+And the world hears you`,
+
 };
