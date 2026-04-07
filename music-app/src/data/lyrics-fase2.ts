@@ -3294,4 +3294,548 @@ Still here — I tell the morning sky
 Still here — and every day it's clearer
 That still here is how I'll fly`,
 
+  // ─────────────────────────────────────────────
+  // FOGO ENGOLIDO (a raiva que as mulheres engolem)
+  // ─────────────────────────────────────────────
+
+  "incenso-fogo-engolido/1": `[Verse 1]
+A garganta arde como se tivesse
+Engolido um carvão aceso
+E o sorriso que o rosto tece
+É a tampa do meu incêndio preso
+
+[Verse 2]
+Anos a morder a língua
+Até sangrar por dentro sem se ver
+A raiva é uma água antiga
+Que corre funda sem ninguém saber
+
+[Pre-Chorus]
+Engolir — o verbo mais caro
+Que uma mulher aprende a conjugar
+
+[Chorus]
+Engolir o fogo, engolir a voz
+Engolir a raiva que ninguém viu
+Engolir o grito que mora em nós
+Desde o dia em que alguém nos partiu
+A garganta guarda o que a boca cala
+O maxilar fecha o que o peito diz
+E o corpo todo é uma sala
+Cheia de fumo sem saída — e raiz
+
+[Verse 3]
+A minha mãe engolia igual
+A avó engoliu antes dela
+E este fogo hereditário e tal
+Arde em mim como uma vela
+
+[Chorus]
+Engolir o fogo, engolir a voz
+Engolir a raiva que ninguém viu
+
+[Bridge]
+Mas o corpo cobra o que a boca não disse
+O estômago cobra, o pescoço, a pele
+E cada raiva que eu não admitisse
+Ficou cravada no meu esqueleto de pele
+
+[Chorus]
+Engolir — o fogo que eu não disse
+Engolir — a raiva que ficou
+Engolir — até ao dia em que eu visse
+Que o fogo engolido me queimou
+
+[Outro]
+A garganta pede para abrir
+O fogo pede para sair
+E eu — devagar — vou aprender a sentir
+Que a raiva não é o oposto de existir`,
+
+  "incenso-fogo-engolido/2": `[Verse 1]
+I smiled through the meeting's slight
+The joke at my expense — I laughed
+I smiled through the losing fight
+Of every word I should have crafted
+
+[Verse 2]
+My face is a performance piece
+A mask of calm that never cracks
+The smile is a ten-year lease
+On a rage that lives behind my back
+
+[Pre-Chorus]
+They call it grace, they call it poise
+I call it a fire without a voice
+
+[Chorus]
+Smile — while the building burns inside
+Smile — while the blood behind your teeth
+Smile — there is nowhere left to hide
+The fury underneath the wreath
+Be nice, be kind, be moderate
+Be everything they want you to be
+Be small, be soft, be temperate
+While inside you're the angriest sea
+
+[Verse 3]
+The women in my family smiled
+Through poverty, through men, through loss
+They smiled and swallowed every wild
+Emotion — and I bore the cost
+
+[Chorus]
+Smile — while the building burns inside
+Smile — while the blood behind your teeth
+
+[Bridge]
+What if the smile is not a gift
+But a cage we learned to wear
+What if the rage behind the rift
+Is the truest thing in there
+
+[Chorus]
+Smile — I'm done performing calm
+Smile — I'm done swallowing glass
+Smile — this is my own embalm
+Of a rage I'm finally going to pass
+
+[Outro]
+The smile relaxes on my face
+And what replaces it is real
+Not rage but something in its place
+The freedom of allowing what I feel`,
+
+  "incenso-fogo-engolido/3": `[Verse 1]
+O maxilar está cerrado há anos
+Como uma porta que ninguém abre
+Os dentes guardam os enganos
+De cada vez que eu disse nada — sabre
+
+[Verse 2]
+À noite range sem parar
+O dentista diz que é stress
+Mas eu sei que é a raiva a tentar
+Sair por entre o que eu não fiz
+
+[Pre-Chorus]
+O corpo fala quando a boca não
+E o maxilar é o primeiro a gritar
+
+[Chorus]
+Maxilar cerrado, palavras presas
+Maxilar que guarda o que não disse
+Maxilar com todas as surpresas
+De uma raiva que nunca fui capaz de dar queixa e fosse
+Dor de cabeça, dor no ombro
+Dor que os médicos não acham
+Porque a dor é o assombro
+De mil palavras que se agacham
+
+[Verse 3]
+Fui à fisioterapeuta e chorei
+Quando ela me tocou no maxilar
+Saíram coisas que eu não planeei
+E a raiva começou a desaguar
+
+[Chorus]
+Maxilar cerrado, palavras presas
+Maxilar que guarda o que não disse
+
+[Bridge]
+Abrir a boca não é só falar
+É deixar o corpo soltar o peso
+Abrir o maxilar é libertar
+O grito que ficou preso
+
+[Chorus]
+Maxilar — abre devagar
+Maxilar — deixa o ar entrar
+Maxilar — o que tens a guardar
+Já não precisa de ficar
+
+[Outro]
+Bocejo largo como quem nasce
+A boca abre e o ar entra
+E cada raiva que eu quis que se apagasse
+Sai devagar — e o corpo centra`,
+
+  "incenso-fogo-engolido/4": `[Verse 1]
+I said it in a meeting, clear and loud
+A single syllable — just no
+The room went quiet like a cloud
+Had landed in the status quo
+
+[Verse 2]
+No — I won't stay late again
+No — that deadline isn't mine
+No — I'm done explaining when
+My boundaries are not a crime
+
+[Pre-Chorus]
+The sky didn't fall, the walls stayed up
+No was just a word, not a bomb
+
+[Chorus]
+No — and the world kept turning
+No — and the sun still rose
+No — and instead of burning
+The fire settled to a close
+The first no cost me everything
+The second no cost me less
+The third no came out like a king
+And the fourth — was just a yes to rest
+
+[Verse 3]
+My mother never said the word
+My grandmother said it even less
+But I stand here and I am the third
+Generation — learning to say yes to no, I confess
+
+[Chorus]
+No — and the world kept turning
+No — and the sun still rose
+
+[Bridge]
+No is not aggressive, no is not unkind
+No is the most loving thing you'll ever find
+No to what depletes you, no to what corrodes
+No is how the fire finds its road
+
+[Chorus]
+No — the anthem of the liberated
+No — the hymn of self-respect
+No — for everyone who's waited
+Too long — for the word they'd neglect
+
+[Outro]
+I practise in the mirror now
+N-O — two letters, nothing more
+And every time I say it, wow
+The fire becomes a door`,
+
+  "incenso-fogo-engolido/5": `[Verse 1]
+O grito estava preso há dez anos
+Na cave do meu corpo entre os rins
+Um dia saiu sem planos
+No carro, sozinha, entre os jardins
+
+[Verse 2]
+Gritei tão alto que o volante tremeu
+Gritei até ficar sem ar
+E tudo o que o silêncio comeu
+Voltou em forma de gritar
+
+[Pre-Chorus]
+O grito é o parto da raiva
+Dói — e depois respiras
+
+[Chorus]
+Grito que saiu da cave
+Grito que partiu o vidro do silêncio
+Grito que finalmente coube
+Na boca que era um cemitério
+Gritei pela avó que não gritou
+Gritei pela mãe que engoliu
+Gritei por mim que se calou
+E gritei até que o fogo saiu
+
+[Verse 3]
+Parei o carro e fiquei quieta
+O eco do grito no habitáculo
+E pela primeira vez completa
+Senti o corpo sem obstáculo
+
+[Chorus]
+Grito que saiu da cave
+Grito que partiu o vidro do silêncio
+
+[Bridge]
+Gritar não é violência
+Gritar é o corpo a pedir
+A licença da existência
+De sentir para existir
+
+[Chorus]
+Grito — o mais bonito que eu fiz
+Grito — que libertou o fogo
+Grito — que me disse és feliz
+Agora — que o silêncio largou o jogo
+
+[Outro]
+Liguei o carro e segui viagem
+A estrada era a mesma de antes
+Mas eu era outra personagem
+Com a voz devolvida e os pulmões diamantes`,
+
+  "incenso-fogo-engolido/6": `[Verse 1]
+The anger doesn't burn to break
+It burns to clean the kitchen floor
+At two AM when I'm awake
+And cannot take one second more
+
+[Verse 2]
+I run the fury down the road
+Each step a word I couldn't say
+I run until the heavy load
+Dissolves to sweat and flies away
+
+[Pre-Chorus]
+Fury doesn't have to be a weapon
+It can be a broom, a run, a song
+
+[Chorus]
+Fury that cleans instead of breaks
+Fury that runs instead of hits
+Fury that shakes instead of quakes
+Fury that lights instead of splits
+I cleaned the house at half past two
+I ran the park at half past four
+And everything I couldn't say to you
+Dissolved into the kitchen floor
+
+[Verse 3]
+My hands are raw from scrubbing tile
+My legs are sore from angry miles
+But the rage has shrunk to half a smile
+And the fire has settled into piles
+
+[Chorus]
+Fury that cleans instead of breaks
+Fury that runs instead of hits
+
+[Bridge]
+Not every fire needs to be put out
+Some fires need to be put to work
+The fury is not what life's about
+But it's the fuel that makes things perk
+
+[Chorus]
+Fury — redirected, not repressed
+Fury — channelled, not denied
+Fury — put to use and dressed
+In sweat and bleach and midnight ride
+
+[Outro]
+The kitchen shines, my body aches
+The anger's spent, the morning comes
+And all the fury it takes
+Is now the rhythm of the drums`,
+
+  "incenso-fogo-engolido/7": `[Verse 1]
+Sentada na mesa de família
+O prato cheio, a boca vazia
+A provocação foi a cartilha
+E eu mordi a língua como quem fiava
+
+[Verse 2]
+Mas desta vez a língua não ficou
+A língua soltou-se da mordida
+E a mesa virou — ou não virou
+Mas a minha voz acordou da ferida
+
+[Pre-Chorus]
+A mesa é o altar mais perigoso
+Onde o silêncio sempre serviu
+
+[Chorus]
+A mesa virou e eu fiquei de pé
+A mesa virou e eu disse o que sentia
+A mesa virou e já não sei porquê
+Tive medo de ter a minha via
+Não gritei — mas também não calei
+Não parti pratos — mas parti o gelo
+Pela primeira vez eu recusei
+Ser a paz — quando a paz era um selo
+
+[Verse 3]
+Ele olhou para mim sem saber
+O que fazer com alguém que fala
+E eu descobri que me defender
+É só sentar-me direita na sala
+
+[Chorus]
+A mesa virou e eu fiquei de pé
+A mesa virou e eu disse o que sentia
+
+[Bridge]
+A voz dele era a provocação
+A minha voz era a resposta
+E pela primeira vez na canção
+Dois fogos conversaram à posta
+
+[Chorus]
+A mesa virou — não de raiva
+Mas de verdade finalmente dita
+A mesa virou — não de magoa
+Mas de coragem que há muito dormita
+
+[Outro]
+Depois da mesa houve silêncio
+Não o silêncio de sempre — mas novo
+Um silêncio de respeito e apreço
+De quem finalmente ouviu o meu fogo`,
+
+  "incenso-fogo-engolido/8": `[Verse 1]
+The fire passed through me like wind
+Through paper — quick and clean
+And what remained when fury thinned
+Was softer than I'd ever been
+
+[Verse 2]
+The house is quiet, the storm has gone
+The teacup rattles on the shelf
+And I am sitting here at dawn
+Surprised by what remains of self
+
+[Pre-Chorus]
+After the fire — ash
+After the ash — light
+
+[Chorus]
+Ash — what's left is lighter now
+Ash — the heavy burned away
+Ash — I don't remember how
+The anger turned to this — a grey
+That isn't sad but settled, clear
+Like morning after heavy rain
+The fury left and what is here
+Is someone who will never hold again
+
+[Verse 3]
+I look at my reflection, soft
+The jaw unclenched, the shoulders down
+The eyes less hard, the brow aloft
+The woman without the angry crown
+
+[Chorus]
+Ash — what's left is lighter now
+Ash — the heavy burned away
+
+[Bridge]
+We're told that anger is the enemy
+But anger that is felt and freed
+Becomes a kind of gentle remedy
+For everything we learned to need
+
+[Chorus]
+Ash — the peace that follows fire
+Ash — the calm that follows rage
+Ash — the truth beneath the wire
+Ash — the silence on the page
+
+[Outro]
+I sweep the ash and underneath
+The floor is clean and white and new
+The fire took what was beneath
+And left me something finally true`,
+
+  "incenso-fogo-engolido/9": `[Verse 1]
+O fogo já não engulo
+O fogo seguro na mão
+Como quem segura um galo
+Sem medo e sem ilusão
+
+[Verse 2]
+A raiva deixou de ser monstro
+Passou a ser companheira
+Senta-se ao meu lado no rostro
+E diz-me olha — a verdadeira
+
+[Pre-Chorus]
+O fogo livre não queima
+O fogo livre aquece
+
+[Chorus]
+Fogo livre que já não engulo
+Fogo que seguro sem queimar
+Fogo que deixou de ser um nulo
+E aprendeu a iluminar
+A raiva não é o inimigo
+A raiva é o mapa do que falta
+E quando eu a trago como amigo
+O corpo inteiro se exalta
+
+[Verse 3]
+Zango-me e respiro fundo
+A raiva vem e eu deixo vir
+Não a engulo nem a afundo
+Deixo-a chegar, estar e ir
+
+[Chorus]
+Fogo livre que já não engulo
+Fogo que seguro sem queimar
+
+[Bridge]
+A mulher que engole fogo adoece
+A mulher que cospe fogo destrói
+Mas a mulher que segura o fogo aquece
+E transforma o mundo com a voz que a dói
+
+[Chorus]
+Fogo livre — a raiva que amadureceu
+Fogo livre — o calor que não arde
+Fogo livre — o corpo que cresceu
+Ao lado do fogo — sem ser covarde
+
+[Outro]
+O fogo mora em mim como sempre morou
+Mas agora tem um quarto com janela
+E a raiva que antes me queimou
+Agora é a luz da minha vela`,
+
+  "incenso-fogo-engolido/10": `[Verse 1]
+We lit the world before they let us speak
+We carried fire when they gave us ash
+We burned in silence every week
+And still they called us rash
+
+[Verse 2]
+But every woman I have ever known
+Has held a furnace in her chest
+Has smiled through temperatures unknown
+And called the burning blessed
+
+[Pre-Chorus]
+No more swallowing, no more dimming
+Today the fire learns to sing
+
+[Chorus]
+Burn bright — the anthem for the women
+Who stopped swallowing the flame
+Burn bright — the fire is not a demon
+It's the holiest of claims
+We burned in silence for too long
+We held the match behind our teeth
+But now the fire is a song
+And every woman finds her sheath
+
+[Verse 3]
+My daughter watches how I speak
+She sees me angry and she sees me stay
+She sees me fierce and she sees me weak
+And she learns fire is okay
+
+[Chorus]
+Burn bright — the anthem for the women
+Who stopped swallowing the flame
+
+[Bridge]
+From mother to daughter to daughter
+The fire passes like a gift
+No longer burning, no more slaughter
+Just a light that starts to shift
+
+[Chorus]
+Burn bright — for every silent grandmother
+Burn bright — for every swallowed scream
+Burn bright — for every unknown mother
+Burn bright — until the fire is seen
+
+[Outro]
+The fire is ours and it is sacred
+The rage is ours and it is clean
+And every woman who was naked
+In her fury — is the bravest thing I've seen`,
+
 };
