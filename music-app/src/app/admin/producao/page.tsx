@@ -1882,18 +1882,6 @@ export default function AlbumProductionPage() {
 
             <button
               onClick={async () => {
-                if (!confirm("Apagar todas as capas antigas (caminho sem albums/)?")) return;
-                const res = await adminFetch("/api/admin/cleanup-old-covers", { method: "POST" });
-                const data = await res.json();
-                alert(`${data.deleted || 0} capas antigas apagadas.\n${(data.details || []).join("\n") || "Nenhuma encontrada."}`);
-              }}
-              className="rounded-lg bg-red-900/30 px-4 py-2.5 text-xs text-red-400 hover:bg-red-900/50 transition"
-            >
-              Limpar capas fantasma
-            </button>
-
-            <button
-              onClick={async () => {
                 const title = prompt("Titulo da notificacao:", "Nova musica");
                 if (!title) return;
                 const body = prompt("Mensagem:", "Loranne lancou musica nova. Vem ouvir.");

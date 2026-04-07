@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { ALL_ALBUMS } from "@/data/albums";
+import { adminFetch } from "@/lib/admin-fetch";
 
 // ─────────────────────────────────────────────
 // Tipos
@@ -221,9 +222,46 @@ function isPast(iso: string): boolean {
 export default function LancamentosPage() {
   const [releases, setReleases] = useState<Release[]>(RELEASES);
   const [expandedSlug, setExpandedSlug] = useState<string | null>(null);
+  // audioMap: "albumSlug" → Set of track numbers that have audio
+  const [audioMap, setAudioMap] = useState<Record<string, Set<number>>>({});
+  const [loadingAudio, setLoadingAudio] = useState(true);
+
+  // Fetch production status from Supabase
+  useEffect(() => {
+    adminFetch("/api/admin/audio-status")
+      .then((r) => r.json())
+      .then((data) => {
+        const map: Record<string, Set<number>> = {};
+        for (const key of (data.existing || []) as string[]) {
+          const match = key.match(/^(.+)-t(\d+)$/);
+          if (match) {
+            const slug = match[1];
+            const num = parseInt(match[2], 10);
+            if (!map[slug]) map[slug] = new Set();
+            map[slug].add(num);
+          }
+        }
+        setAudioMap(map);
+        setLoadingAudio(false);
+      })
+      .catch(() => setLoadingAudio(false));
+  }, []);
+
+  // Helper: how many tracks of an album have audio
+  function producedCount(slug: string): number {
+    return audioMap[slug]?.size || 0;
+  }
 
   const published = releases.filter((r: Release) => r.status === "publicado");
   const upcoming = releases.filter((r: Release) => r.status !== "publicado");
+
+  // Albums with audio that are NOT in the release schedule
+  const scheduledSlugs = new Set(releases.map((r: Release) => r.albumSlug));
+  const otherProduced = !loadingAudio
+    ? ALL_ALBUMS.filter(
+        (a) => !scheduledSlugs.has(a.slug) && (audioMap[a.slug]?.size || 0) > 0
+      )
+    : [];
   const totalTracks = releases.reduce((sum: number, r: Release) => sum + getTrackCount(r.albumSlug), 0);
   const publishedTracks = published.reduce((sum: number, r: Release) => sum + getTrackCount(r.albumSlug), 0);
 
@@ -290,10 +328,15 @@ export default function LancamentosPage() {
       </div>
 
       {/* Stats */}
-      <div className="max-w-4xl mx-auto mb-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
+      <div className="max-w-4xl mx-auto mb-8 grid grid-cols-2 sm:grid-cols-5 gap-3">
         <StatCard label="Publicados" value={published.length} color="#4ade80" />
         <StatCard label="Agendados" value={releases.filter((r: Release) => r.status === "agendado").length} color="#60a5fa" />
         <StatCard label="Em produção" value={releases.filter((r: Release) => r.status === "em-producao").length} color="#fbbf24" />
+        <StatCard
+          label="Faixas c/ áudio"
+          value={loadingAudio ? "..." : String(Object.keys(audioMap).reduce((s, k) => s + (audioMap[k]?.size || 0), 0))}
+          color="#c08aaa"
+        />
         <StatCard label="Total faixas" value={`${publishedTracks}/${totalTracks}`} color="#C9A96E" />
       </div>
 
@@ -327,6 +370,9 @@ export default function LancamentosPage() {
               expanded={expandedSlug === r.albumSlug}
               onToggle={() => setExpandedSlug(expandedSlug === r.albumSlug ? null : r.albumSlug)}
               onCycleStatus={() => cycleStatus(r.albumSlug)}
+              produced={producedCount(r.albumSlug)}
+              loadingAudio={loadingAudio}
+              audioTracks={audioMap[r.albumSlug]}
             />
           ))}
         </div>
@@ -346,11 +392,80 @@ export default function LancamentosPage() {
                 expanded={expandedSlug === r.albumSlug}
                 onToggle={() => setExpandedSlug(expandedSlug === r.albumSlug ? null : r.albumSlug)}
                 onCycleStatus={() => cycleStatus(r.albumSlug)}
+                produced={producedCount(r.albumSlug)}
+                loadingAudio={loadingAudio}
+                audioTracks={audioMap[r.albumSlug]}
               />
             ))}
           </div>
         </div>
       ))}
+
+      {/* Other produced albums not in schedule */}
+      {otherProduced.length > 0 && (
+        <div className="max-w-4xl mx-auto mb-10">
+          <h2 className="text-sm font-semibold text-[#fbbf24] uppercase tracking-wider mb-4">
+            Já produzidos (fora da agenda)
+          </h2>
+          <p className="text-xs text-[#666680] mb-3">
+            Álbuns com áudio produzido que ainda não estão na agenda de lançamento.
+          </p>
+          <div className="space-y-2">
+            {otherProduced.map((album) => {
+              const done = audioMap[album.slug]?.size || 0;
+              const total = album.tracks.length;
+              const pct = Math.round((done / total) * 100);
+              const collection = getCollectionLabel(album.slug);
+              const collColor = getCollectionColor(album.slug);
+              return (
+                <div
+                  key={album.slug}
+                  className="flex items-center gap-3 p-3 rounded-xl border border-white/5 bg-white/[0.02]"
+                >
+                  <div
+                    className="w-1 h-10 rounded-full flex-shrink-0"
+                    style={{ backgroundColor: album.color }}
+                  />
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm font-semibold truncate">{album.title}</span>
+                      <span
+                        className="text-[10px] px-1.5 py-0.5 rounded-full uppercase tracking-wider"
+                        style={{ color: collColor, backgroundColor: `${collColor}15` }}
+                      >
+                        {collection}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2 mt-1">
+                      <div className="flex-1 h-1.5 bg-white/5 rounded-full overflow-hidden max-w-[120px]">
+                        <div
+                          className="h-full rounded-full"
+                          style={{
+                            width: `${pct}%`,
+                            background: pct === 100 ? "#4ade80" : "#fbbf24",
+                          }}
+                        />
+                      </div>
+                      <span className="text-[10px] text-[#a0a0b0]">
+                        {done}/{total} faixas
+                      </span>
+                    </div>
+                  </div>
+                  <span
+                    className="text-[10px] px-2 py-1 rounded-full uppercase tracking-wider font-semibold"
+                    style={{
+                      color: pct === 100 ? "#4ade80" : "#fbbf24",
+                      backgroundColor: pct === 100 ? "rgba(74,222,128,0.1)" : "rgba(251,191,36,0.1)",
+                    }}
+                  >
+                    {pct === 100 ? "Pronto" : "Em produção"}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* DistroKid tips */}
       <div className="max-w-4xl mx-auto mt-12 p-4 rounded-xl border border-white/5 bg-white/[0.02]">
@@ -404,11 +519,17 @@ function ReleaseCard({
   expanded,
   onToggle,
   onCycleStatus,
+  produced,
+  loadingAudio,
+  audioTracks,
 }: {
   release: Release;
   expanded: boolean;
   onToggle: () => void;
   onCycleStatus: () => void;
+  produced: number;
+  loadingAudio: boolean;
+  audioTracks?: Set<number>;
 }) {
   const album = getAlbum(release.albumSlug);
   const statusCfg = STATUS_CONFIG[release.status];
@@ -480,6 +601,23 @@ function ReleaseCard({
             {trackCount} faixas &middot; {ptCount} PT / {enCount} EN
             {release.notes && <span className="hidden sm:inline"> &middot; {release.notes}</span>}
           </div>
+          {/* Production progress */}
+          {!loadingAudio && release.status !== "publicado" && (
+            <div className="flex items-center gap-2 mt-1">
+              <div className="flex-1 h-1.5 bg-white/5 rounded-full overflow-hidden max-w-[100px]">
+                <div
+                  className="h-full rounded-full transition-all"
+                  style={{
+                    width: `${trackCount > 0 ? (produced / trackCount) * 100 : 0}%`,
+                    background: produced === trackCount ? "#4ade80" : produced > 0 ? "#fbbf24" : "#666680",
+                  }}
+                />
+              </div>
+              <span className="text-[10px]" style={{ color: produced === trackCount ? "#4ade80" : produced > 0 ? "#fbbf24" : "#666680" }}>
+                {produced}/{trackCount} produzidas
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Status badge */}
@@ -533,6 +671,13 @@ function ReleaseCard({
                 className="flex items-center gap-2 text-xs py-1 px-2 rounded hover:bg-white/[0.02]"
               >
                 <span className="text-[#666680] w-4 text-right">{track.number}</span>
+                {audioTracks && (
+                  <span
+                    className="w-2 h-2 rounded-full flex-shrink-0"
+                    style={{ backgroundColor: audioTracks.has(track.number) ? "#4ade80" : "#333" }}
+                    title={audioTracks.has(track.number) ? "Áudio produzido" : "Sem áudio"}
+                  />
+                )}
                 <span className="flex-1 truncate">{track.title}</span>
                 <span className="text-[10px] text-[#666680]">{track.lang}</span>
                 <span
