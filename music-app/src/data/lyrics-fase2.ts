@@ -3838,4 +3838,548 @@ The rage is ours and it is clean
 And every woman who was naked
 In her fury — is the bravest thing I've seen`,
 
+  // ─────────────────────────────────────────────
+  // SEM MOTIVO (alegria sem razão)
+  // ─────────────────────────────────────────────
+
+  "grao-sem-motivo/1": `[Verse 1]
+A música começou sozinha
+Dentro da minha cabeça às oito
+E os pés descalços na cozinha
+Já sabiam o que fazer com o azeite
+
+[Verse 2]
+A colher de pau virou microfone
+O avental virou capa de herói
+E eu dancei como quem come
+Sem plateia e sem aquele dói
+
+[Pre-Chorus]
+Ninguém está a ver — e é por isso
+Que esta dança é o paraíso
+
+[Chorus]
+Cozinha, colher de pau e pijama
+A dança mais feia e mais bonita
+Cozinha onde ninguém me chama
+E o corpo faz o que lhe dita
+Sem coreografia, sem ensaio
+Sem vergonha e sem espelho
+A cozinha é o meu maio
+E o corpo é o meu conselho
+
+[Verse 3]
+O gato olha com desprezo
+Do canto da bancada em cima
+Mas eu danço com o meu peso
+E a manhã é a minha rima
+
+[Chorus]
+Cozinha, colher de pau e pijama
+A dança mais feia e mais bonita
+
+[Bridge]
+Se dançasses como eu danço aqui
+Descalça no frio do chão
+Perceberias que o melhor de mim
+Nasce quando não tem explicação
+
+[Chorus]
+Cozinha — o meu palco secreto
+Colher de pau — o meu microfone
+Pijama — o meu figurino completo
+E a alegria — o meu nome
+
+[Outro]
+A música acabou na minha cabeça
+E eu fiquei ofegante no chão
+Com o gato a olhar-me com pressa
+E o café a pedir atenção`,
+
+  "grao-sem-motivo/2": `[Verse 1]
+It started from nowhere — a tickle in my throat
+A giggle that I didn't plan
+No joke, no punchline, no anecdote
+Just laughter from a woman, not a man
+
+[Verse 2]
+I was in the supermarket, aisle three
+When the laughter climbed from gut to mouth
+No reason, no cause, just a feeling of free
+That bubbled like a river heading south
+
+[Pre-Chorus]
+The best laugh has no reason
+It arrives like weather — and it stays
+
+[Chorus]
+No reason — just laughing in the aisle
+No reason — the tears are running down
+No reason — I haven't laughed in a while
+And this is the most beautiful sound
+No one told a joke, no one slipped and fell
+I just laughed because my body said
+It's time — and I can't even tell
+What was funny — but my joy is fed
+
+[Verse 3]
+The woman next to me started too
+She had no idea what was wrong
+Two strangers laughing in the blue
+Of a Tuesday — singing the same song
+
+[Chorus]
+No reason — just laughing in the aisle
+No reason — the tears are running down
+
+[Bridge]
+Laughter without cause is the purest kind
+It comes from somewhere underneath the bone
+A place that logic cannot find
+Where the body keeps its joy on loan
+
+[Chorus]
+No reason — this is the anthem
+For every laugh that came from thin air
+No reason — a human phantom
+Of joy that lives in the everywhere
+
+[Outro]
+I left the shop with tears on my face
+And a bag of groceries and grace
+No reason for the smile in place
+Except that life — is sometimes kind with no trace`,
+
+  "grao-sem-motivo/3": `[Verse 1]
+Está a chover e há um charco na rua
+E os meus sapatos são novos
+Mas os meus pés são da lua
+E a lua salta em charcos como os lobos
+
+[Verse 2]
+Splash — a água gelada nos tornozelos
+Splash — o riso que sai sem licença
+Os sapatos agora são modelos
+De uma liberdade sem defesa
+
+[Pre-Chorus]
+A criança que eu fui não morreu
+Só estava descalça lá dentro
+
+[Chorus]
+Charco — salto com sapatos e tudo
+Charco — sem pensar no preço
+Charco — não sou nenhum canhudo
+Sou uma mulher que não tem preço
+A água espirra para todo o lado
+Os pés estão encharcados e felizes
+E este acto descontrolado
+É o mais saudável das raízes
+
+[Verse 3]
+Uma criança olha-me da janela
+E sorri como quem percebe
+Que os adultos também dão com a bola
+Quando a chuva é mais do que promete
+
+[Chorus]
+Charco — salto com sapatos e tudo
+Charco — sem pensar no preço
+
+[Bridge]
+A vida adulta é seca demais
+Cheia de cuidado e de senso
+Mas o charco diz — vens ou não vais
+E eu salto — sem consenso
+
+[Chorus]
+Charco — o baptismo da alegria
+Charco — a licença da infância
+Charco — porque sim e porque é dia
+Charco — porque a vida é uma dança
+
+[Outro]
+Cheguei a casa encharcada até aos ossos
+Os sapatos perdidos na folia
+Mas os pés tinham mais gozo
+Do que todo o resto do dia`,
+
+  "grao-sem-motivo/4": `[Verse 1]
+The windows are down, the highway is mine
+The song on the radio — I don't know the words
+But I'm singing like I've drunk the finest wine
+And my voice — it sounds like broken birds
+
+[Verse 2]
+I'm off-key and I don't care one bit
+The trucker next to me is staring hard
+I'm performing every note of it
+Like I'm winning a musical award
+
+[Pre-Chorus]
+The worst singer in the car
+Is the freest person by far
+
+[Chorus]
+Sing along — windows down and volume up
+Sing along — who cares if I'm flat
+Sing along — fill the entire cup
+Of this morning with the sound of that
+Bad singing is a human right
+Bad singing is a prayer
+Bad singing in the morning light
+Is the bravest thing out there
+
+[Verse 3]
+The chorus hits and I hit it wrong
+Every note a glorious mistake
+But I am here inside this song
+And nothing else is real — nothing's fake
+
+[Chorus]
+Sing along — windows down and volume up
+Sing along — who cares if I'm flat
+
+[Bridge]
+They teach us to be quiet and correct
+To pitch-perfect our entire lives
+But the voice that earns the most respect
+Is the one that simply tries
+
+[Chorus]
+Sing along — this is the anthem
+For every car and every shower voice
+Sing along — you beautiful phantom
+Of joy — you always have a choice
+
+[Outro]
+The song ends and I turn it up again
+From the top, with even more conviction
+My voice is terrible — and then
+It's the most beautiful addiction`,
+
+  "grao-sem-motivo/5": `[Verse 1]
+Sopro e a bolha sai redonda
+Transparente, irisada, lenta
+Flutua no ar como uma onda
+E explode — sem que ninguém se arrepenta
+
+[Verse 2]
+Três segundos de existência
+Três segundos de beleza pura
+E na sua breve permanência
+Ensina-me toda a literatura
+
+[Pre-Chorus]
+A alegria não precisa de durar
+Para ser real — basta chegar
+
+[Chorus]
+Bolhas de sabão no ar da tarde
+Cada uma um universo que rebenta
+Bolhas que não pedem alarde
+Bolhas que a alegria inventa
+Sopro, flutua, desaparece
+Sem drama e sem explicação
+E o que me aquece e me fortalece
+É que posso soprar outra — sem razão
+
+[Verse 3]
+A minha filha sopra ao meu lado
+Os olhos grandes como luas
+E eu percebo que o dado
+Mais bonito da vida são estas ruas
+
+[Chorus]
+Bolhas de sabão no ar da tarde
+Cada uma um universo que rebenta
+
+[Bridge]
+Não precisas de ficar para importar
+Não precisas de ser forte para valer
+Às vezes a beleza está em rebentar
+E no gesto de voltar a fazer
+
+[Chorus]
+Bolhas — o poema mais curto
+Bolhas — a alegria mais simples
+Bolhas — o sopro mais puro
+E a vida — feita de instantes assim, simples
+
+[Outro]
+A última bolha levou mais longe
+Perdeu-se entre as árvores e o sol
+E eu fiquei aqui com o que responde
+A tudo — um sopro e um farol`,
+
+  "grao-sem-motivo/6": `[Verse 1]
+In the park with no one looking
+At forty-two years old I went
+Head over heels — the world was cooking
+Up the most ridiculous event
+
+[Verse 2]
+My hands on the grass, my feet in the air
+For half a second I was upside down
+The sky was the ground and I didn't care
+That I nearly broke my back and my crown
+
+[Pre-Chorus]
+The body remembers what the mind forgot
+That gravity is just a suggestion
+
+[Chorus]
+Cartwheel at forty — who says I can't
+Cartwheel at forty — the park is my stage
+Cartwheel at forty — I'm not elegant
+But I'm free from every cage
+The world flipped for half a breath
+And in that flip I found the girl
+Who wasn't afraid of falling — or death
+Who just wanted to see the world twirl
+
+[Verse 3]
+A teenager laughed and I waved back
+Not embarrassed but triumphant
+Because the coolest thing I've been, in fact
+Is the woman who's magnificently nonchalant
+
+[Chorus]
+Cartwheel at forty — who says I can't
+Cartwheel at forty — the park is my stage
+
+[Bridge]
+Youth is not an age, it's an attitude
+And the attitude is this:
+Fall down, get up, don't be subdued
+By anyone who says you should be less than bliss
+
+[Chorus]
+Cartwheel — for every body that remembers
+Cartwheel — for every heart that spins
+Cartwheel — for every age, all members
+Of the club where joy begins
+
+[Outro]
+I walked home with grass in my hair
+And a bruise on my left knee
+The most successful day — I swear
+Was the day I set the cartwheel free`,
+
+  "grao-sem-motivo/7": `[Verse 1]
+Os braços vão para todo o lado
+Os pés não sabem o que fazem
+O ritmo está completamente errado
+E as ancas contradizem todas as frases
+
+[Verse 2]
+Não é dança — é uma rebelião
+Do corpo contra a elegância
+É uma declaração
+De independência da dança
+
+[Pre-Chorus]
+A dança mais feia do mundo
+É a mais honesta — sem segundo
+
+[Chorus]
+Dança feia — braços por todo o lado
+Dança feia — sem ritmo e sem vergonha
+Dança feia — o corpo revoltado
+Contra a ideia de que a alegria é uma vergonha
+Danço mal e danço muito
+Danço fora de compasso
+E este corpo sem produto
+É o mais livre que há no espaço
+
+[Verse 3]
+O espelho da sala mostra tudo
+E eu rio-me de mim mesma
+Porque esta dança de veludo
+É a coisa mais sábia que se expressa
+
+[Chorus]
+Dança feia — braços por todo o lado
+Dança feia — sem ritmo e sem vergonha
+
+[Bridge]
+Se toda a gente dançasse assim
+Sem medo de ser ridícula
+O mundo seria um jardim
+De corpos em festa — que partícula
+
+[Chorus]
+Dança feia — o mais bonito que faço
+Dança feia — a minha oração
+Dança feia — o meu abraço
+Ao corpo que é — sem operação
+
+[Outro]
+Paro de dançar e fico a rir
+Ofegante e descabelada
+E percebo que viver e existir
+É isto — uma dança desajeitada`,
+
+  "grao-sem-motivo/8": `[Verse 1]
+It's melting down my wrist in streams
+Vanilla mixed with afternoon
+The cone is cracking at the seams
+And I am racing with the moon
+
+[Verse 2]
+I lick the chocolate from my thumb
+The sun is doing half the work
+My fingers are deliciously dumb
+And sticky is my favourite perk
+
+[Pre-Chorus]
+Forget the napkin, forget the mess
+Ice cream is a baptism of excess
+
+[Chorus]
+Ice cream dripping down my hand
+And I am not a grown-up anymore
+Ice cream — life is contraband
+When you eat it standing by the shore
+Sticky fingers, happy face
+The simplest pleasure money buys
+A cone of summer, a cup of grace
+And the melting — part of the surprise
+
+[Verse 3]
+My daughter has it on her nose
+Her brother has it on his shirt
+And this is how the summer goes
+One drip at a time — the sweetest hurt
+
+[Chorus]
+Ice cream dripping down my hand
+And I am not a grown-up anymore
+
+[Bridge]
+We complicate the simple things
+We plan and schedule and discuss
+But ice cream only asks for lickings
+And a tongue that makes a fuss
+
+[Chorus]
+Ice cream — the anthem of the simple
+Ice cream — for every sticky day
+Ice cream — for every grin and dimple
+Ice cream — the melting is the way
+
+[Outro]
+The cone is gone, my hand is sweet
+I wipe it on my summer dress
+And walk barefoot down the street
+The happiest kind of mess`,
+
+  "grao-sem-motivo/9": `[Verse 1]
+O abraço durou mais do que o normal
+Nenhum dos dois queria largar
+Como se o corpo soubesse o sinal
+De que este abraço era para ficar
+
+[Verse 2]
+Os braços apertaram mais um pouco
+As costas encaixaram sem esforço
+E o mundo inteiro ficou louco
+De nós — que não largávamos o reforço
+
+[Pre-Chorus]
+O abraço longo não se pede
+Acontece — e quando acontece, ficas
+
+[Chorus]
+Abraço longo — mais que o normal
+Abraço longo — ninguém quer largar
+Abraço longo — o hospital
+De quem precisa de quem para ficar
+Sem palavras, sem explicação
+Só dois corpos que decidiram
+Que a conversa é do coração
+E os braços que a transmitiram
+
+[Verse 3]
+Quando finalmente nos largámos
+Os olhos estavam húmidos e quentes
+E sem dizer nada percebámos
+Que este abraço curou o que os dentes
+
+[Chorus]
+Abraço longo — mais que o normal
+Abraço longo — ninguém quer largar
+
+[Bridge]
+O mundo precisa de menos palavras
+E de mais abraços que demoram
+Menos discursos e mais lavras
+De corpos que se amparam e decoram
+
+[Chorus]
+Abraço longo — o gesto mais simples
+Abraço longo — a cura sem nome
+Abraço longo — dois corpos simples
+A dizer o que a boca não come
+
+[Outro]
+Ainda sinto o calor dos teus braços
+Horas depois — como uma marca
+E sei que os melhores espaços
+São os que cabem dentro de um abraço e uma arca`,
+
+  "grao-sem-motivo/10": `[Verse 1]
+They said that happiness was earned
+Through work and sweat and sacrifice
+But something in my body learned
+That joy is free — and that suffice
+
+[Verse 2]
+I danced for nothing, laughed for less
+I hugged for no occasion
+I wore my joy like a summer dress
+With zero need for a persuasion
+
+[Pre-Chorus]
+Joy without a reason is the purest
+Joy without a cause — the surest
+
+[Chorus]
+Joy — the anthem for the unreasonable
+Joy — for every dance that no one saw
+Joy — the hymn of the uncontainable
+Joy — that breaks every law
+You don't need a reason to be happy
+You don't need a cause to feel alive
+Just be — and let the body be snappy
+And the joy will arrive, arrive, arrive
+
+[Verse 3]
+The world is selling you a cure
+For a disease you never had
+The disease of being not-quite-sure
+If you're allowed to be this glad
+
+[Chorus]
+Joy — the anthem for the unreasonable
+Joy — for every dance that no one saw
+
+[Bridge]
+Happiness is not an achievement
+It's not a reward for being good
+It's a birthright and a retrievement
+Of something we always understood
+
+[Chorus]
+Joy — for every puddle jumper
+Joy — for every kitchen dancer
+Joy — for every beautiful bumper
+Joy — the only real answer
+
+[Outro]
+I close my eyes and I feel it rise
+The joy that needs no invitation
+From somewhere deep beneath the skies
+A human, happy, standing ovation`,
+
 };
