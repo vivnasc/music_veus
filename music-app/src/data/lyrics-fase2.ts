@@ -5990,4 +5990,530 @@ Open your hands
 And see — they were never empty
 They were holding you`,
 
+// ─────────────────────────────────────────────
+// LONGE E BEM (a saudade doce de quem amas)
+// ─────────────────────────────────────────────
+
+"nua-longe-e-bem/1": `[Verse 1]
+Estás longe e eu sei que estás bem
+Sei pela luz nas tuas fotos
+Pelo sorriso que não mente
+Pelos olhos que conheço como ninguém
+
+[Verse 2]
+A saudade hoje não dói
+Aquece como um chá esquecido
+É saber que algures no mundo
+Alguém que amo está inteiro e vivo
+
+[Pre-Chorus]
+Longe não é perder
+Longe é amar em diferido
+
+[Chorus]
+Longe mas bem — a saudade que aquece
+Longe mas bem — o amor que não esmorece
+Sei que estás lá, sei que estás bem
+E isso basta — basta para mim também
+
+[Verse 3]
+Há quem diga que a distância mata
+Eu digo que destila o que é real
+Tira o excesso, tira o ruído
+E deixa só o essencial
+
+[Chorus]
+Longe mas bem — a saudade que aquece
+Longe mas bem — o amor que não esmorece
+Sei que estás lá, sei que estás bem
+E isso basta — basta para mim também
+
+[Bridge]
+E quando a noite aperta mais
+E o silêncio pesa no sofá
+Fecho os olhos e sinto-te perto
+Porque o amor não sabe de GPS
+
+[Chorus]
+Longe mas bem — e eu estou bem contigo longe
+Longe mas bem — este fio invisível
+Liga-nos além de qualquer mapa
+Longe mas bem — e isso é tudo
+
+[Outro]
+Estás longe
+Estás bem
+E eu sorrio
+Porque te tenho sem te ter`,
+
+"nua-longe-e-bem/2": `[Verse 1]
+Your morning is my midnight here
+I send a text into the dark
+And somewhere six hours ahead
+You read it with your coffee spark
+
+[Verse 2]
+We share the same moon, different windows
+The same rain but different streets
+You're waking up, I'm falling down
+Into the space where dreaming meets
+
+[Pre-Chorus]
+Time bends for those who love
+Across the spinning of the earth
+
+[Chorus]
+Time zones — but love keeps no clock
+Time zones — my heart doesn't adjust
+When you're in daylight, I'm in stars
+But somehow, somehow — we're in sync
+
+[Verse 3]
+I do the math before I call
+Your afternoon, my breaking dawn
+The numbers dance like little bridges
+Connecting dusk to coming sun
+
+[Chorus]
+Time zones — but love keeps no clock
+Time zones — my heart doesn't adjust
+When you're in daylight, I'm in stars
+But somehow, somehow — we're in sync
+
+[Bridge]
+There's a moment every day
+When we overlap in light
+A golden minute, maybe two
+When both our skies are bright
+
+[Chorus]
+Time zones — they can't divide
+Time zones — what lives inside
+The love that wakes when you wake
+And sleeps when you close your eyes
+
+[Outro]
+Good morning there
+Goodnight from here
+Same love — different hours
+Same love — crystal clear`,
+
+"nua-longe-e-bem/3": `[Verse 1]
+Três palavras num ecrã pequeno
+"Estou bem, e tu?" — mais nada
+E no entanto estas sete letras
+Valem mais que uma balada
+
+[Verse 2]
+Não preciso de discursos grandes
+Nem de cartas com dez páginas
+O conforto mora no mais simples
+Numa frase sem gramática
+
+[Pre-Chorus]
+Pensaste em mim
+E isso é tudo
+
+[Chorus]
+Mensagem — pequena e enorme
+Mensagem — cabe no bolso
+Três palavras que cruzam oceanos
+E aquecem como um abraço grosso
+
+[Verse 3]
+Às vezes mando só um coração
+Ou uma foto do café
+E tu respondes com um sol
+E eu sei que o mundo está de pé
+
+[Chorus]
+Mensagem — pequena e enorme
+Mensagem — cabe no bolso
+Três palavras que cruzam oceanos
+E aquecem como um abraço grosso
+
+[Bridge]
+A tecnologia não é fria
+Quando é usada com ternura
+Um ponto azul que diz "estou aqui"
+É a mais moderna forma de candura
+
+[Chorus]
+Mensagem — continuo contigo
+Mensagem — em qualquer fuso
+Três palavras que bastam sempre
+"Estou bem, e tu?" — o mundo é nosso
+
+[Outro]
+Estou bem
+E tu?
+Estou bem
+Sempre que perguntas`,
+
+"nua-longe-e-bem/4": `[Verse 1]
+A photograph arrived today
+Your face tanned brown, your laughter wide
+You're standing somewhere I don't know
+With people I've not met beside
+
+[Verse 2]
+A pang — not pain, just recognition
+That life continues out of sight
+You're building days I'm not inside
+And somehow that is more than right
+
+[Pre-Chorus]
+You look so happy there
+And that's enough for me
+
+[Chorus]
+Photograph — your smile across the miles
+Photograph — I hold it like a prayer
+You're happy somewhere far from here
+And that's the best news I could hear
+
+[Verse 3]
+I zoom in on the small details
+The sunburn on your shoulder blade
+The glass of wine, the setting sun
+The perfect life that you have made
+
+[Chorus]
+Photograph — your smile across the miles
+Photograph — I hold it like a prayer
+You're happy somewhere far from here
+And that's the best news I could hear
+
+[Bridge]
+Love is being glad for someone's joy
+Even when you're not the cause
+Even when the photograph reminds you
+Of the distance and its gentle claws
+
+[Chorus]
+Photograph — I save it on my phone
+Photograph — it lights the darker nights
+You're happy — that's my happiness
+Photograph — and everything's alright
+
+[Outro]
+You look so happy
+And I'm so glad
+That's love — being happy
+For the joy you have`,
+
+"nua-longe-e-bem/5": `[Verse 1]
+O aeroporto é uma igreja estranha
+Onde a saudade nasce e morre
+A mesma porta serve para adeus
+E para o abraço que socorre
+
+[Verse 2]
+As partidas têm um gosto a sal
+As chegadas sabem a café
+Eu conheço este corredor de cor
+Cada azulejo, cada pé
+
+[Pre-Chorus]
+A mesma porta
+Para ir e para voltar
+
+[Chorus]
+Aeroporto — templo da saudade
+Aeroporto — onde o tempo pára
+Entre o "vai" e o "já chegou"
+Vive o amor que nunca acaba
+
+[Verse 3]
+As malas giram no tapete
+Como relógios a contar
+Cada volta é uma promessa
+De quem voltou para ficar
+
+[Chorus]
+Aeroporto — templo da saudade
+Aeroporto — onde o tempo pára
+Entre o "vai" e o "já chegou"
+Vive o amor que nunca acaba
+
+[Bridge]
+Há quem odeie despedidas
+Eu aprendi a agradecer
+Se me despeço é porque tenho
+Alguém de quem me vou doer
+
+[Chorus]
+Aeroporto — não te tenho medo
+Aeroporto — és a prova viva
+De que amo alguém o suficiente
+Para doer quando partira
+
+[Outro]
+Partidas e chegadas
+A mesma porta, o mesmo chão
+O aeroporto é só o lugar
+Onde se mede o coração`,
+
+"nua-longe-e-bem/6": `[Verse 1]
+A voice note came across the sea
+Three seconds of your morning laugh
+It cracked the distance clean in half
+And brought you right in front of me
+
+[Verse 2]
+I played it once, I played it twice
+I held my phone against my ear
+Your voice — a postcard made of air
+The cheapest trip, the highest price
+
+[Pre-Chorus]
+Three seconds long
+A lifetime wide
+
+[Chorus]
+Voice note — three seconds of home
+Voice note — I'm never alone
+Your laugh compressed in tiny waves
+Crossing oceans, filling caves
+Voice note — you're here in my phone
+
+[Verse 3]
+You said nothing special, just
+"Good morning, look at this blue sky"
+But in your tone I heard the truth
+That we're still close, you and I
+
+[Chorus]
+Voice note — three seconds of home
+Voice note — I'm never alone
+Your laugh compressed in tiny waves
+Crossing oceans, filling caves
+Voice note — you're here in my phone
+
+[Bridge]
+Technology is cold, they say
+But not when warmth is what you send
+A voice, a laugh, a "hey, I'm here"
+Is all we need to mend the bend
+
+[Chorus]
+Voice note — I save every one
+Voice note — my collection of sun
+Your voice is home without an address
+Voice note — we're never undone
+
+[Outro]
+Send me another
+Send me the sound of your day
+Three seconds is enough
+To make the distance go away`,
+
+"nua-longe-e-bem/7": `[Verse 1]
+Tu olhas para a lua em Lisboa
+Eu olho para a lua daqui
+A mesma lua, duas janelas
+E o mesmo amor a dividir
+
+[Verse 2]
+Eu digo "olha, está cheia"
+Tu dizes "aqui também"
+E nessa troca tão pequena
+Cabe mais do que convém
+
+[Pre-Chorus]
+A noite une o que o dia separa
+A lua é a ponte entre nós
+
+[Chorus]
+Lua partilhada — o mesmo céu
+Lua partilhada — o mesmo véu
+Dois olhares, duas cidades
+Uma só lua — duas saudades
+
+[Verse 3]
+Eu canto baixo na varanda
+Tu ouves longe, imaginas
+E a distância entre os dois
+É só um fio de neblinas
+
+[Chorus]
+Lua partilhada — o mesmo céu
+Lua partilhada — o mesmo véu
+Dois olhares, duas cidades
+Uma só lua — duas saudades
+
+[Bridge]
+E se a lua nos vê ao mesmo tempo
+Então estamos juntos nessa luz
+Não importa o mapa nem o vento
+A lua sabe — e isso nos conduz
+
+[Chorus]
+Lua partilhada — esta noite é nossa
+Lua partilhada — além de qualquer morada
+Onde a lua chega, nós chegamos
+Lua partilhada — e basta
+
+[Outro]
+Boa noite daí
+Boa noite daqui
+A lua é testemunha
+De que estamos aqui`,
+
+"nua-longe-e-bem/8": `[Verse 1]
+I gave you roots when you were small
+I gave you wings when you were grown
+I didn't know that letting go
+Would be the hardest love I've known
+
+[Verse 2]
+You flew so far, so fast, so free
+And every mile felt like a gift
+Wrapped in the ache of missing you
+But love was never meant to drift
+
+[Pre-Chorus]
+Hold on by letting go
+That's the paradox of love
+
+[Chorus]
+Roots and wings — I gave you both
+Roots and wings — and kept my oath
+To love you more than I love having you
+Roots and wings — the hardest truth
+
+[Verse 3]
+They say if you love something, set it free
+I always thought it was a cliché
+But standing at the gate, I understood
+Love flies — and that's okay
+
+[Chorus]
+Roots and wings — I gave you both
+Roots and wings — and kept my oath
+To love you more than I love having you
+Roots and wings — the hardest truth
+
+[Bridge]
+And now I watch you soar from here
+A tiny dot against the blue
+The roots I gave will bring you back
+The wings I gave will carry you through
+
+[Chorus]
+Roots and wings — the gift of love
+Roots and wings — push and pull above
+I loved you enough to let you go
+Roots and wings — that's all I know
+
+[Outro]
+Fly far
+Come back
+Fly far
+I'll be here when you land`,
+
+"nua-longe-e-bem/9": `[Verse 1]
+Vejo-te ao longe no corredor
+As pernas correm sem eu mandar
+O corpo sabe antes da mente
+Que chegou a hora de te abraçar
+
+[Verse 2]
+Embato contigo como uma onda
+Desculpa o impacto, desculpa o choro
+É que tenho meses de saudade
+Guardados aqui dentro como ouro
+
+[Pre-Chorus]
+Todos os dias sem ti
+Cabem neste segundo
+
+[Chorus]
+Regresso — o abraço que apaga os mapas
+Regresso — a saudade que explode em riso
+Estás aqui, estás aqui, estás aqui
+E o mundo volta a fazer sentido
+
+[Verse 3]
+Cheiras a avião e a cansaço
+Mas debaixo disso cheiras a tu
+E eu inspiro fundo como louca
+Porque este cheiro é a minha luz
+
+[Chorus]
+Regresso — o abraço que apaga os mapas
+Regresso — a saudade que explode em riso
+Estás aqui, estás aqui, estás aqui
+E o mundo volta a fazer sentido
+
+[Bridge]
+As chegadas são o melhor lugar
+Do aeroporto e da vida
+Porque provam que a distância
+É sempre e apenas temporária
+
+[Chorus]
+Regresso — nunca me canso deste abraço
+Regresso — o mais bonito dos começos
+Estás aqui — e por agora chega
+Regresso — o resto falamos depois
+
+[Outro]
+Não digas nada
+Fica só assim
+Mais um segundo
+Estás aqui — e basta`,
+
+"nua-longe-e-bem/10": `[Verse 1]
+I used to think that close meant near
+That love required the same room
+But distance taught me something strange
+That closeness blooms beyond the gloom
+
+[Verse 2]
+You're far away, a dot on a map
+A name that glows on my phone screen
+But closer than the morning air
+The closest far I've ever been
+
+[Pre-Chorus]
+Distance doesn't dilute
+It distills
+
+[Chorus]
+Still close — beyond the miles
+Still close — through different skies
+Love doesn't need a postcode
+Still close — through open eyes
+
+[Verse 3]
+The noise of nearness falls away
+When distance strips it to the bone
+What's left is pure, undiluted love
+The strongest kind I've ever known
+
+[Chorus]
+Still close — beyond the miles
+Still close — through different skies
+Love doesn't need a postcode
+Still close — through open eyes
+
+[Bridge]
+You carry me without knowing
+In the way you start your day
+And I carry you in every sunset
+That I watch from far away
+
+[Chorus]
+Still close — and always will be
+Still close — it's not a place
+It's the knowing that you're out there
+Still close — love transcends space
+
+[Outro]
+Far away
+And still so close
+Far away
+And that's the thing about love — it knows`,
+
 };
