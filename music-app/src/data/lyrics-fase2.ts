@@ -8088,4 +8088,528 @@ A hand held in the dark
 Small love — the biggest love
 That ever left its mark`,
 
+// ─────────────────────────────────────────────
+// LAMA E CÉU (trail running, montanha, liberdade)
+// ─────────────────────────────────────────────
+
+"fibra-lama-e-ceu/1": `[Verse 1]
+O asfalto acaba e a terra começa
+Os ténis afundam, o corpo acorda
+O trilho serpenteia entre os carvalhos
+E a cidade fica para trás — absorta
+
+[Verse 2]
+O cheiro muda — pinheiro e musgo
+O som muda — pássaros e vento
+Os pulmões enchem de outra coisa
+E o corpo lembra o que é alimento
+
+[Pre-Chorus]
+A terra debaixo dos pés
+É mais honesta que o betão
+
+[Chorus]
+Trilho — começa onde a estrada acaba
+Trilho — a terra toma conta de mim
+Os pés encontram raízes e pedras
+E eu encontro-me — finalmente assim
+
+[Verse 3]
+As primeiras centenas de metros doem
+O corpo resmunga, a mente duvida
+Mas depois de um quilómetro no mato
+Já não sei onde acaba a floresta e começa a minha vida
+
+[Chorus]
+Trilho — começa onde a estrada acaba
+Trilho — a terra toma conta de mim
+Os pés encontram raízes e pedras
+E eu encontro-me — finalmente assim
+
+[Bridge]
+Cada curva é uma surpresa
+Cada subida uma decisão
+Correr no trilho é a pergunta:
+Confias em ti? — e a resposta é o chão
+
+[Chorus]
+Trilho — a minha estrada de terra
+Trilho — o meu caminho sagrado
+Onde o asfalto acaba
+Eu começo — e corro — e sou
+
+[Outro]
+A terra chama
+Eu respondo
+Com os pés
+E com o corpo todo`,
+
+"fibra-lama-e-ceu/2": `[Verse 1]
+The incline hits and the quads ignite
+Each step a small negotiation
+Between the pull of gravity
+And the push of pure determination
+
+[Verse 2]
+The lungs are screaming, legs are heavy
+But the view keeps getting wide
+Every metre up the mountain
+Is a layer of self that's purified
+
+[Pre-Chorus]
+Up, up, up
+The climb is the teacher
+
+[Chorus]
+Uphill — the fight against the earth
+Uphill — where strength meets stubborn will
+Each step a tiny revolution
+Uphill — the mountain tests until
+
+[Verse 3]
+My heart rate peaks, my vision narrows
+Everything reduces to the ground
+One foot in front of one more foot
+The simplest, hardest sound
+
+[Chorus]
+Uphill — the fight against the earth
+Uphill — where strength meets stubborn will
+Each step a tiny revolution
+Uphill — the mountain tests until
+
+[Bridge]
+And just when I think I can't keep going
+A gap between the trees reveals
+The whole world spread below like mercy
+And that's the view that heals
+
+[Chorus]
+Uphill — I earned this view
+Uphill — with every burning step
+Uphill — the mountain doesn't lie
+Uphill — it gives back what you've kept
+
+[Outro]
+One more step
+One more step
+The top is closer
+Than you think`,
+
+"fibra-lama-e-ceu/3": `[Verse 1]
+A lama engole o ténis inteiro
+Escorrego, agarro-me a um ramo
+Rio alto como uma criança
+E perco a dignidade sem reclamar
+
+[Verse 2]
+O barro nos joelhos, na cara, nas mãos
+A chuva transforma o trilho em rio
+E eu danço nesta confusão
+Com uma alegria que desafia o frio
+
+[Pre-Chorus]
+Sujar-se é a permissão
+Para voltar a ser selvagem
+
+[Chorus]
+Lama — o baptismo da montanha
+Lama — a liberdade de sujar
+Nos joelhos, na cara, na alma
+Lama — a coragem de escorregar
+
+[Verse 3]
+Os da cidade não compreendem
+Porque volto suja e a sorrir
+Mas quem já correu na lama sabe
+Que é ali que se aprende a existir
+
+[Chorus]
+Lama — o baptismo da montanha
+Lama — a liberdade de sujar
+Nos joelhos, na cara, na alma
+Lama — a coragem de escorregar
+
+[Bridge]
+A lama leva o verniz todo embora
+A pose, o perfume, o controlo
+E debaixo desse barro todo
+Encontras a pessoa — o miolo
+
+[Chorus]
+Lama — sou mais eu na lama
+Lama — do que em qualquer espelho
+A montanha lava-me com barro
+E eu volto limpa — por dentro
+
+[Outro]
+Suja
+Feliz
+Viva
+É isto — correr na lama`,
+
+"fibra-lama-e-ceu/4": `[Verse 1]
+The final push through thinning trees
+The air so clear it cuts my lungs
+I crest the ridge and there it is
+The view the mountain always sung
+
+[Verse 2]
+My legs are shot, my hands are mud
+My heart is louder than the wind
+But the world below unfolds like cloth
+And every step has been redeemed
+
+[Pre-Chorus]
+The summit doesn't lie
+You either earned it or you didn't
+
+[Chorus]
+Summit — the view that pays for everything
+Summit — where breath and beauty fight
+The mountain gave me what I earned
+Summit — a cathedral of light
+
+[Verse 3]
+I stand here gasping, filthy, broken
+And more alive than I have been
+The world below is ants and problems
+Up here — it's everything between
+
+[Chorus]
+Summit — the view that pays for everything
+Summit — where breath and beauty fight
+The mountain gave me what I earned
+Summit — a cathedral of light
+
+[Bridge]
+There's no shortcut to this feeling
+No helicopter to this view
+The summit only speaks to those
+Who climbed the whole way through
+
+[Chorus]
+Summit — I scream into the wind
+Summit — and the wind screams back
+Summit — this is why I run
+Summit — this is what I lack — no more
+
+[Outro]
+Look at this
+Just look at this
+The whole world
+From the top — and it was worth every step`,
+
+"fibra-lama-e-ceu/5": `[Verse 1]
+O riacho aparece entre as pedras
+Gelado, transparente, vivo
+Tiro os ténis e entro sem pensar
+O grito que dou é primitivo
+
+[Verse 2]
+A água corta o calor dos pés
+Cada dedo acorda como novo
+Os músculos agradecem em silêncio
+E o cansaço sai com o renovo
+
+[Pre-Chorus]
+A natureza é a melhor enfermeira
+Não cobra e não pergunta
+
+[Chorus]
+Riacho — gelado e santo
+Riacho — o alívio que a montanha dá
+Os pés na água cristalina
+E o corpo diz — obrigada, estou cá
+
+[Verse 3]
+Bebo um gole da corrente
+Sabe a pedra, a musgo, a raiz
+É a água mais pura que provei
+E o momento mais feliz
+
+[Chorus]
+Riacho — gelado e santo
+Riacho — o alívio que a montanha dá
+Os pés na água cristalina
+E o corpo diz — obrigada, estou cá
+
+[Bridge]
+A montanha dá e a montanha tira
+Dá subidas que te partem ao meio
+Mas depois dá-te um riacho assim
+E o equilíbrio volta — cheio
+
+[Chorus]
+Riacho — o posto de socorro da natureza
+Riacho — sem fila e sem espera
+A água gelada nos pés quentes
+É a melhor coisa da carreira
+
+[Outro]
+Fico mais um minuto
+Os pés na corrente
+A montanha cuida de mim
+E eu cuido dela — igualmente`,
+
+"fibra-lama-e-ceu/6": `[Verse 1]
+Eyes down, feet quick, the roots are waiting
+Each one a lesson in attention
+You can't run trails with half a mind
+The forest demands your full intention
+
+[Verse 2]
+A rock, a root, a hidden dip
+The ground is never what it seems
+Trail running is a conversation
+Between your feet and forest dreams
+
+[Pre-Chorus]
+Focus — or fall
+The trail decides
+
+[Chorus]
+Roots — each one a teacher
+Roots — each one a test
+The trail doesn't care about your playlist
+Roots — they demand your best
+
+[Verse 3]
+I learned to read the ground like braille
+Each bump a letter, each gap a word
+The trail is telling me a story
+In a language only feet have heard
+
+[Chorus]
+Roots — each one a teacher
+Roots — each one a test
+The trail doesn't care about your playlist
+Roots — they demand your best
+
+[Bridge]
+And when you find the flow between the roots
+When feet and forest sync in time
+It's meditation at full speed
+It's prayer without a rhyme
+
+[Chorus]
+Roots — I dance between you now
+Roots — we found our rhythm somehow
+Roots — you taught me how to see
+Roots — by making me look down — to set me free
+
+[Outro]
+Over roots
+Between stones
+My feet have found
+A language of their own`,
+
+"fibra-lama-e-ceu/7": `[Verse 1]
+A névoa desce e o mundo desaparece
+Dez metros de visibilidade — talvez menos
+Corro no vazio branco e cinzento
+E a montanha torna-se mistério — e veneno
+
+[Verse 2]
+Não vejo para onde vou
+Só vejo o passo que estou a dar
+O trilho existe debaixo dos pés
+Mesmo quando o olhar não consegue confirmar
+
+[Pre-Chorus]
+Correr na névoa é confiar
+No que não se vê
+
+[Chorus]
+Névoa — correr no vazio
+Névoa — confiar no chão
+Quando o mundo desaparece
+Só resta a fé — e a minha mão
+
+[Verse 3]
+Os sons amplificam na bruma
+Uma gota cai como um trovão
+O meu coração é o único GPS
+E bate como uma instrução
+
+[Chorus]
+Névoa — correr no vazio
+Névoa — confiar no chão
+Quando o mundo desaparece
+Só resta a fé — e a minha mão
+
+[Bridge]
+E há uma beleza neste branco
+Nesta solidão tão absoluta
+Eu e a montanha e mais nada
+A névoa como um véu — a rota
+
+[Chorus]
+Névoa — ensinas-me a confiar
+Névoa — no que não posso ver
+Que o chão existe mesmo sem prova
+E que basta um passo para o saber
+
+[Outro]
+Corro
+Sem ver
+Confio
+E o trilho aparece — sempre`,
+
+"fibra-lama-e-ceu/8": `[Verse 1]
+The descent begins and gravity takes over
+My legs become a negotiation
+Between control and reckless joy
+A falling, flying conversation
+
+[Verse 2]
+My knees absorb each rocky impact
+My arms swing wide for balance now
+The downhill runner doesn't fight
+The mountain down — just learns to bow
+
+[Pre-Chorus]
+Let gravity be your partner
+Not your enemy
+
+[Chorus]
+Downhill — the controlled fall
+Downhill — where reckless meets the wall
+Knees bent, arms wide, eyes forward
+Downhill — the wildest ride of all
+
+[Verse 3]
+Each switchback is a small surrender
+Each straight a burst of speed and trust
+The mountain drops beneath my feet
+And fear gives way to wanderlust
+
+[Chorus]
+Downhill — the controlled fall
+Downhill — where reckless meets the wall
+Knees bent, arms wide, eyes forward
+Downhill — the wildest ride of all
+
+[Bridge]
+They say it's harder going down
+Than climbing up — and it's true
+The uphill tests your body's strength
+The downhill tests your courage through
+
+[Chorus]
+Downhill — I'm flying now
+Downhill — the earth falls fast
+Downhill — gravity and I
+Downhill — are friends at last
+
+[Outro]
+Falling forward
+Catching ground
+Downhill running
+Is the best sound`,
+
+"fibra-lama-e-ceu/9": `[Verse 1]
+A frontal corta o escuro
+Um cone de luz no nada
+Corro de noite pela montanha
+E o mundo inteiro é esta estrada
+
+[Verse 2]
+Cada som é dez vezes maior
+O ramo que parte, a coruja, o vento
+Os olhos não servem para nada
+Só os pés e o pressentimento
+
+[Pre-Chorus]
+De noite a montanha é outra
+Mais honesta e mais crua
+
+[Chorus]
+Noite no monte — só eu e a luz
+Noite no monte — o medo e a coragem
+Corro no escuro com uma frontal
+E descubro que a bravura é a paisagem
+
+[Verse 3]
+As sombras dançam com a frontal
+E tudo parece vivo e atento
+A montanha respira à minha volta
+E eu sou mais pequena — e mais contente
+
+[Chorus]
+Noite no monte — só eu e a luz
+Noite no monte — o medo e a coragem
+Corro no escuro com uma frontal
+E descubro que a bravura é a paisagem
+
+[Bridge]
+De noite não há como mentir
+Não há filtro, não há fachada
+És tu, a montanha e o teu medo
+E o medo — torna-se estrada
+
+[Chorus]
+Noite no monte — o mais cru de tudo
+Noite no monte — o mais puro correr
+Quando o escuro te tira o controlo
+É aí que descobres quem podes ser
+
+[Outro]
+Escuro
+Frontal
+Coragem
+E corro — até o sol nascer`,
+
+"fibra-lama-e-ceu/10": `[Verse 1]
+This is for everyone who chose the dirt
+Who left the pavement for the trees
+Who traded clean shoes for the mud
+And straight lines for the wild degrees
+
+[Verse 2]
+This is for summit mornings frozen
+For stream crossings sharp with cold
+For mud-baptisms and night-run terrors
+For the stories trails have told
+
+[Pre-Chorus]
+We chose the hard and beautiful
+We chose the wild and free
+
+[Chorus]
+Wild — the anthem of the trail
+Wild — for every who chose the mountain
+Wild — for mud and fog and summits
+Wild — for drinking from the fountain
+
+[Verse 3]
+We're not runners on a treadmill
+We're conversations with the earth
+We measure runs in views, not minutes
+In wonder, not in worth
+
+[Chorus]
+Wild — the anthem of the trail
+Wild — for everyone who chose the mountain
+Wild — for mud and fog and summits
+Wild — for drinking from the fountain
+
+[Bridge]
+The mountain doesn't care about your time
+Your splits, your pace, your PB chart
+It only cares that you showed up
+And gave it everything — your heart
+
+[Chorus]
+Wild — we are the trail runners
+Wild — we are the dirt believers
+Wild — we chose lama e céu
+Wild — and we are mountain weavers
+
+[Outro]
+Run wild
+Run free
+Run dirty
+Run — like the mountain made you`,
+
 };
