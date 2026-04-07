@@ -114,7 +114,7 @@ export async function POST(req: NextRequest) {
         promptImage,
         promptText: promptText || "Slow cinematic movement, gentle light particles floating, subtle camera push-in, ethereal and dreamy atmosphere",
         duration: duration || 5,
-        ratio: ratio || "9:16",
+        ratio: ratio || "768:1280",
         watermark: false,
       }),
     });
