@@ -1662,4 +1662,548 @@ The faces glow from somewhere far
 And what I keep tonight
 Is not the image — but the star`,
 
+  // ─────────────────────────────────────────────
+  // OLHOS ARREGALADOS (espanto, maravilha)
+  // ─────────────────────────────────────────────
+
+  "eter-olhos-arregalados/1": `[Verse 1]
+O céu riscou-se sem avisar
+Uma linha branca no escuro
+E eu pedi um desejo ao luar
+Sem saber se era puro
+
+[Verse 2]
+Durou um segundo — talvez menos
+O tempo de um pestanejo só
+Mas naquele instante éramos plenos
+Eu e a estrela — pó a pó
+
+[Pre-Chorus]
+O universo pisca e eu estou lá
+No sítio certo à hora certa
+
+[Chorus]
+Estrela cadente, risca no céu
+Estrela que cai e que ensina
+Que o universo não é teu
+Mas de vez em quando inclina
+A cabeça e diz olha para cima
+Está tudo a arder de bonito
+E nesse segundo a vida rima
+Com um desejo infinito
+
+[Verse 3]
+Nunca contei o desejo a ninguém
+Talvez se conte não se realize
+Mas a verdade é que ele também
+Não precisa de ser o que eu disse
+
+[Chorus]
+Estrela cadente, risca no céu
+Estrela que cai e que ensina
+
+[Bridge]
+O desejo era só uma desculpa
+Para olhar para cima por um segundo
+E lembrar-me que sem culpa
+O céu é o mais bonito do mundo
+
+[Chorus]
+Estrela cadente, obrigada
+Por me parares no meio do dia
+Por me lembrares que cada madrugada
+Tem um milagre à espera da via
+
+[Outro]
+A estrela caiu e eu fiquei
+A olhar para onde ela esteve
+E no silêncio eu encontrei
+O espanto mais leve`,
+
+  "eter-olhos-arregalados/2": `[Verse 1]
+I stepped outside and the world had changed
+Overnight, without a sound
+The street I knew had rearranged
+In white — the whitest ground
+
+[Verse 2]
+The branches held their frosted arms
+Like dancers frozen mid-embrace
+And everything had winter charms
+The silence wore a crystal face
+
+[Pre-Chorus]
+The world decided to begin again
+In white — and nobody was warned
+
+[Chorus]
+First snow, first hush, first wonder of the year
+The world made new in frozen lace
+First snow, the child inside me here
+Catching flakes upon my face
+Every tree a chandelier
+Every roof a silver crown
+The first snow taught me how to steer
+My heart from tired to this — look down
+
+[Verse 3]
+I caught a flake upon my tongue
+The way I did at five years old
+And something deep inside me swung
+From numb to warm inside the cold
+
+[Chorus]
+First snow, first hush, first wonder of the year
+The world made new in frozen lace
+
+[Bridge]
+We should have holidays for this
+For the first snow and the first flower
+For every ordinary gift
+That takes us by surprise each hour
+
+[Chorus]
+First snow — I'm standing in the street
+With no umbrella and no plan
+Just a woman with two frozen feet
+Remembering she's a child again
+
+[Outro]
+The snow keeps falling, slow and sure
+And I keep standing, mouth agape
+Some wonders have no single cure
+They just arrive and re-shape`,
+
+  "eter-olhos-arregalados/3": `[Verse 1]
+Acabou de chover e o sol voltou
+E entre a nuvem e o céu
+Uma curva de cor se desenhou
+Como uma ponte entre eu e eu
+
+[Verse 2]
+Sete cores que ninguém pintou
+Penduradas no ar sem fio
+A ciência explica o que brilhou
+Mas não explica o arrepio
+
+[Pre-Chorus]
+A luz partiu-se em sete pedaços
+E cada pedaço é um abraço
+
+[Chorus]
+Arco-íris no meio da tarde
+Sem pedir licença, sem aviso
+Arco-íris que ninguém sabe
+Se é promessa ou é sorriso
+Aparece e o mundo inteiro pára
+Mesmo quem diz que já não liga
+Levanta os olhos e encara
+A beleza que ninguém castiga
+
+[Verse 3]
+Um miúdo aponta com o dedo
+A mãe tira o telemóvel
+E eu fico aqui sem medo
+De parecer vulnerável
+
+[Chorus]
+Arco-íris no meio da tarde
+Sem pedir licença, sem aviso
+
+[Bridge]
+É só água e luz a brincar
+É só física a fazer poesia
+Mas o coração não quer saber
+Só quer sentir a alegria
+
+[Chorus]
+Arco-íris — obrigada por existires
+Por me parares no meio do caos
+Por me lembrares que os prazeres
+São os gestos mais simples que dás
+
+[Outro]
+O arco-íris desfez-se devagar
+Como um sorriso que se fecha
+Mas a cor ficou no meu olhar
+E o espanto ficou na brecha`,
+
+  "eter-olhos-arregalados/4": `[Verse 1]
+A field at dusk and tiny lights
+Begin to blink like earthbound stars
+The fireflies perform their rites
+Of light and dark between the bars
+
+[Verse 2]
+I stand among them, breathing slow
+Each flash a heartbeat not my own
+A conversation, bright and low
+Between the creatures and the stone
+
+[Pre-Chorus]
+Nature makes its own constellations
+Down here, where our feet can touch
+
+[Chorus]
+Fireflies in the field at dusk
+Tiny lanterns, living gold
+Fireflies in the evening husk
+Stories that the dark has told
+I am standing in a universe
+That doesn't need a telescope
+Every flash a tiny verse
+Of light that needs no rope
+
+[Verse 3]
+A child would catch them in a jar
+A scientist would measure waves
+But I just stand beneath the star
+Of insects writing in their caves
+
+[Chorus]
+Fireflies in the field at dusk
+Tiny lanterns, living gold
+
+[Bridge]
+The small things glow the brightest here
+Below the noise, below the fame
+A firefly has more to cheer
+Than any neon with a name
+
+[Chorus]
+Fireflies — I'll stand among you
+Until the dark is all there is
+And every tiny light I knew
+Was proof that wonder never quits
+
+[Outro]
+The field goes dark, the show is done
+The fireflies have gone to sleep
+But in my chest, one still — just one
+Keeps blinking soft, keeps blinking deep`,
+
+  "eter-olhos-arregalados/5": `[Verse 1]
+A mão tão pequena que cabe na minha
+Cinco dedos a agarrar com tanta força
+Como se o meu dedo fosse a vizinha
+Do mundo inteiro — porta e porta
+
+[Verse 2]
+Não sabe andar nem dizer o meu nome
+Mas agarra como quem sabe tudo
+A mão do bebé não tem fome
+De nada que não seja o escudo
+
+[Pre-Chorus]
+Cinco dedos e o universo inteiro
+Numa mão mais pequena que o meu medo
+
+[Chorus]
+Bebé que agarra o meu dedo
+Que segura o mundo na palma
+Bebé que me ensina sem medo
+Que o amor não precisa de calma
+Precisa de descanso e de pele
+De contacto e de calor
+Bebé que me mostra aquele
+Espanto que é o primeiro amor
+
+[Verse 3]
+Chorou e eu segurei mais forte
+Não o dedo — o coração
+E naquela mão sem norte
+Encontrei toda a direcção
+
+[Chorus]
+Bebé que agarra o meu dedo
+Que segura o mundo na palma
+
+[Bridge]
+Antes de falar já sabe
+Antes de andar já ensina
+Que o que é mais frágil é o que cabe
+Mais amor — nesta mão menina
+
+[Chorus]
+Bebé que nasceu agora
+Que cheira a leite e a novo
+Que me mostra em cada hora
+Que o espanto é o que move o povo
+
+[Outro]
+A mão larga-me devagar
+Adormeceu com o dedo meu
+E eu fico aqui sem respirar
+A olhar para o maior museu`,
+
+  "eter-olhos-arregalados/6": `[Verse 1]
+I looked up through the water at the sky
+A membrane between two different worlds
+The light was bending, so was I
+As silence settled, gently furled
+
+[Verse 2]
+Below the surface, sound recedes
+The world becomes a muffled dream
+No traffic, no obligations, no needs
+Just the cathedral of the stream
+
+[Pre-Chorus]
+Another world lives just below
+Where everything we know lets go
+
+[Chorus]
+Ocean floor, looking up at light
+Through water that distorts the day
+Ocean floor, where wrong is right
+And up is just another way
+I float between two universes
+The one above that calls my name
+The one below that softly nurses
+The part of me that has no shame
+
+[Verse 3]
+A fish moves by without concern
+A perfect citizen of blue
+And I am here for once to learn
+That wonder needs a different view
+
+[Chorus]
+Ocean floor, looking up at light
+Through water that distorts the day
+
+[Bridge]
+We spend our lives above the line
+Looking down into the deep
+But from below, the world's design
+Is made of light and things we keep
+
+[Chorus]
+Ocean floor — I'll surface soon
+But take this quiet back with me
+A world that lives beneath the moon
+Where I was weightless, where I was free
+
+[Outro]
+I break the surface, gasp for air
+The sky is wide and blue and plain
+But underneath, the water's prayer
+Still echoes in my silent brain`,
+
+  "eter-olhos-arregalados/7": `[Verse 1]
+O sol desapareceu ao meio-dia
+Como se alguém tivesse desligado a luz
+Os pássaros calaram a harmonia
+E a temperatura fez-se cruz
+
+[Verse 2]
+Saímos todos para a rua
+Com os óculos de cartão
+E olhámos para a lua
+Que engoliu o sol sem explicação
+
+[Pre-Chorus]
+O céu lembrou-nos num minuto
+Que somos pequenos e isto é imenso
+
+[Chorus]
+Eclipse — o dia ficou noite
+Eclipse — o mundo parou de girar
+Eclipse — cada rosto um açoite
+De espanto que não sabe onde pousar
+Estávamos todos a olhar para cima
+Desconhecidos lado a lado
+E nesse momento de estima
+O céu era o único estado
+
+[Verse 3]
+A luz voltou devagar como maré
+E os pássaros voltaram a cantar
+E eu fiquei ali de pé
+Com lágrimas que eu não soube explicar
+
+[Chorus]
+Eclipse — o dia ficou noite
+Eclipse — o mundo parou de girar
+
+[Bridge]
+Há coisas que só o céu pode fazer
+Parar o trânsito e a discussão
+Pôr milhões de pessoas a ver
+O mesmo espanto em comunhão
+
+[Chorus]
+Eclipse — hino do céu que se esconde
+Eclipse — dança do sol e da lua
+Obrigada por me dizeres onde
+Está a beleza — é na rua
+
+[Outro]
+O sol voltou e tudo continuou
+Mas por um minuto éramos iguais
+Humanos a olhar para o que brilhou
+E o espanto — não esquece mais`,
+
+  "eter-olhos-arregalados/8": `[Verse 1]
+The sky cracks open with a sound
+That starts inside my chest, not ears
+A line of white on purple ground
+The oldest of our human fears
+
+[Verse 2]
+I count — one thousand, two thousand, three
+The thunder rolls like furniture
+Moved upstairs by someone free
+From gravity and nomenclature
+
+[Pre-Chorus]
+Beauty that terrifies you into life
+Is the truest beauty there is
+
+[Chorus]
+Lightning splits the evening wide
+And I am small and I am shaking
+Lightning — nowhere left to hide
+The sky is violently waking
+Something primal in my bones
+Remembers fire before we tamed it
+The thunder shakes the cobblestones
+And I'm alive because I named it
+
+[Verse 3]
+Another flash — the garden blooms
+In white for half a second flat
+The trees are caught in flashbulb rooms
+The rain applauds and I stand, hat
+
+[Chorus]
+Lightning splits the evening wide
+And I am small and I am shaking
+
+[Bridge]
+We build our houses, lock our doors
+We civilise the savage out
+But lightning finds us on all fours
+Remembering what awe's about
+
+[Chorus]
+Lightning — let me watch from here
+From this window, dry and warm
+Lightning — teach me how to fear
+The beauty that arrives in storm
+
+[Outro]
+The storm moves on, the streetlights hum
+The puddles hold the sky in pieces
+My heartbeat slowly becomes the drum
+Of a normal night — but wonder never ceases`,
+
+  "eter-olhos-arregalados/9": `[Verse 1]
+São quatro da manhã e o mundo dorme
+Saí descalça para a rua
+O ar é diferente — não é enorme
+É íntimo — a noite é crua
+
+[Verse 2]
+As estrelas ainda estão acordadas
+Os gatos cruzam-se sem medo
+E as ruas são minhas — despejadas
+De tudo menos do segredo
+
+[Pre-Chorus]
+O mundo às quatro é um segredo
+Que só quem não dorme conhece
+
+[Chorus]
+Madrugada — o mundo só meu
+As ruas, o ar, as estrelas
+Madrugada — o silêncio do céu
+É a canção mais linda entre elas
+Não há ninguém, não há relógio
+Não há amanhã nem ontem
+Só eu e a noite num elogio
+Ao espanto que não se esconde
+
+[Verse 3]
+Um carro passa ao longe e desaparece
+O vento traz um cheiro a terra
+E a noite diz que me conhece
+Melhor do que o dia — sem guerra
+
+[Chorus]
+Madrugada — o mundo só meu
+As ruas, o ar, as estrelas
+
+[Bridge]
+Devia estar a dormir e sei
+Mas há uma beleza em não dormir
+Que é ver o que ninguém mais vê
+E ouvir o que ninguém quer ouvir
+
+[Chorus]
+Madrugada — guardo-te para mim
+Este segredo de quem está acordada
+A beleza que não tem fim
+É a beleza de uma madrugada
+
+[Outro]
+Voltei para dentro devagar
+O sol já vem mas não chegou
+E eu levei comigo o ar
+Da noite — que me espantou`,
+
+  "eter-olhos-arregalados/10": `[Verse 1]
+They told me I would lose my wonder
+As the years would stack and pile
+That the sky would cease to thunder
+In the hollow of my smile
+
+[Verse 2]
+They said the rainbow would grow smaller
+The lightning would just be a storm
+That the stars would grow much taller
+But I'd be too old and too warm
+
+[Pre-Chorus]
+They were wrong — my eyes are wide
+The wonder only grew with time
+
+[Chorus]
+Wonder — I refuse to lose you
+Wonder — you're my oldest friend
+Wonder — every time I choose you
+The world lights up from end to end
+I will look up at every rainbow
+I will gasp at every star
+I will stand barefoot in the rain, oh
+I will never stop saying what you are
+
+[Verse 3]
+The child in me is not asleep
+She's standing at the window still
+With eyes that go too wide, too deep
+With a heart that drinks its fill
+
+[Chorus]
+Wonder — I refuse to lose you
+Wonder — you're my oldest friend
+
+[Bridge]
+In a world that sells you cynicism
+In a life that dulls the edge
+Wonder is a gentle prism
+That keeps you standing on the ledge
+
+[Chorus]
+Wonder — the anthem for open eyes
+Wonder — the hymn for those who stare
+Wonder — the prayer that never dies
+For everyone who still looks up and cares
+
+[Outro]
+I look up now and the sky is there
+The same sky that held my childhood gaze
+And I make this vow in open air
+To be amazed for all my days`,
+
 };
