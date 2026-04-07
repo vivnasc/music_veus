@@ -1873,17 +1873,12 @@ export default function AlbumProductionPage() {
               Calendario
             </Link>
 
-            <button
-              onClick={async () => {
-                if (!confirm("Apagar todas as capas antigas (caminho sem albums/)?")) return;
-                const res = await adminFetch("/api/admin/cleanup-old-covers", { method: "POST" });
-                const data = await res.json();
-                alert(`${data.deleted || 0} capas antigas apagadas.\n${(data.details || []).join("\n") || "Nenhuma encontrada."}`);
-              }}
-              className="rounded-lg bg-red-900/30 px-4 py-2.5 text-xs text-red-400 hover:bg-red-900/50 transition"
+            <Link
+              href="/admin/lancamentos"
+              className="rounded-lg bg-purple-900/30 px-4 py-2.5 text-xs min-h-[44px] text-purple-400 hover:bg-purple-900/50 transition flex items-center"
             >
-              Limpar capas fantasma
-            </button>
+              Lançamentos
+            </Link>
 
             <button
               onClick={async () => {
