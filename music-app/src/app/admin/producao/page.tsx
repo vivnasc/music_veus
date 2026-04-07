@@ -1282,7 +1282,7 @@ function TrackRow({
                       ...imgInput,
                       promptText: runwayPrompts[idx],
                       duration: 5,
-                      ratio: "9:16",
+                      ratio: "768:1280",
                     }),
                   });
                   return { ...(await res.json()), clipTrackNum };
