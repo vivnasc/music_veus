@@ -6516,4 +6516,528 @@ And still so close
 Far away
 And that's the thing about love — it knows`,
 
+// ─────────────────────────────────────────────
+// PASSO PEQUENO (pequenos actos de bravura)
+// ─────────────────────────────────────────────
+
+"grao-passo-pequeno/1": `[Verse 1]
+A boca abre e a palavra sai
+Pequena, dura, quase nada — "não"
+E o mundo não acaba como eu temia
+Só muda a forma do salão
+
+[Verse 2]
+Disse não à minha mãe ao domingo
+Disse não ao chefe com sorriso
+Disse não ao espelho que insistia
+Que eu devia ser mais indeciso
+
+[Pre-Chorus]
+Uma sílaba só
+Mas custa mais que qualquer sim
+
+[Chorus]
+Não — a palavra mais pequena e mais pesada
+Não — o gesto mais valente do meu dia
+Não — e o mundo continuou a girar
+Não — e eu continuei de pé, para minha alegria
+
+[Verse 3]
+Não é falta de amor, não é egoísmo
+É a cerca que protege o meu jardim
+E quem me ama a sério vai perceber
+Que o meu não é um sim para mim
+
+[Chorus]
+Não — a palavra mais pequena e mais pesada
+Não — o gesto mais valente do meu dia
+Não — e o mundo continuou a girar
+Não — e eu continuei de pé, para minha alegria
+
+[Bridge]
+Cada não que eu digo a quem não devo
+É um sim que eu dou a quem eu sou
+E a boca treme e a voz falha
+Mas a coluna, essa, endireitou
+
+[Chorus]
+Não — aprendo-te devagar
+Não — és o meu melhor amigo
+Não — ensinas-me a guardar
+O espaço onde eu me abrigo
+
+[Outro]
+Não — e respiro
+Não — e fico
+Não — e sou mais eu
+Do que nunca fui contigo`,
+
+"grao-passo-pequeno/2": `[Verse 1]
+Everyone around me ran for exits
+When the room got hard to breathe
+I looked at all the open doors
+And chose the hardest thing — to not leave
+
+[Verse 2]
+Staying isn't glamorous or pretty
+No one writes a song about the one who stayed
+Sat down in the discomfort and decided
+This is where the real gets made
+
+[Pre-Chorus]
+No applause for staying
+Just the quiet knowing
+
+[Chorus]
+Stay — when leaving would be lighter
+Stay — when every muscle pulls
+Stay — the quiet kind of courage
+Stay — the bravest thing of all
+
+[Verse 3]
+I stayed in the conversation
+When the silence turned to stone
+I stayed in the marriage, in the friendship
+I stayed when I could've gone
+
+[Chorus]
+Stay — when leaving would be lighter
+Stay — when every muscle pulls
+Stay — the quiet kind of courage
+Stay — the bravest thing of all
+
+[Bridge]
+There's a heroism no one sees
+In the one who doesn't move
+Who sits with what is broken
+And believes there's still a groove
+
+[Chorus]
+Stay — not because it's easy
+Stay — because it matters
+Stay — the ground beneath my feet
+Stay — even when it shatters
+
+[Outro]
+I stayed
+And something shifted
+I stayed
+And so did love`,
+
+"grao-passo-pequeno/3": `[Verse 1]
+A mão na maçaneta, o suor nos dedos
+A porta do consultório, a porta da escola
+A porta do emprego novo, a porta da vida
+Cada uma pesa mais do que uma bola
+
+[Verse 2]
+Do outro lado pode estar tudo
+Ou pode não estar nada de jeito
+Mas a coragem não é saber o que vem
+É abrir mesmo com o peito apertado
+
+[Pre-Chorus]
+Uma porta — é só uma porta
+Mas a mão treme na mesma
+
+[Chorus]
+Porta — abro devagar
+Porta — entro sem saber
+O que me espera do outro lado
+Mas já sou mais por estar a abrir
+
+[Verse 3]
+A terapeuta sorri, a sala é quente
+O primeiro dia cheira a papel novo
+A cidade estranha tem um café bom
+E eu descubro que sobrevivo a tudo
+
+[Chorus]
+Porta — abro devagar
+Porta — entro sem saber
+O que me espera do outro lado
+Mas já sou mais por estar a abrir
+
+[Bridge]
+Todas as vidas que vivi
+Começaram numa porta
+Uma mão tremida, um fundo de ar
+E o passo que faz a coisa toda
+
+[Chorus]
+Porta — não preciso de coragem enorme
+Porta — só preciso de um gesto
+A mão na maçaneta, o ar nos pulmões
+E o resto — o resto resolve o resto
+
+[Outro]
+Abro a porta
+E entro
+Abro a porta
+E começo`,
+
+"grao-passo-pequeno/4": `[Verse 1]
+Three words harder than any confession
+Harder than I love you, than I'm leaving
+Three words that strip you to the marrow
+I — need — help — and I mean it
+
+[Verse 2]
+I practised in the mirror forty times
+I wrote it down on seven napkins
+But when the moment came, my voice just cracked
+And the truth fell out in broken fractions
+
+[Pre-Chorus]
+Not weakness — just honesty
+The bravest three-word sentence
+
+[Chorus]
+Ask — even when your voice shakes
+Ask — even when you're drowning
+Ask — the world won't think you're broken
+Ask — it might just think you're human
+
+[Verse 3]
+She held the phone and simply said
+"I can't do this alone anymore"
+And the sky didn't fall, the earth didn't crack
+Just a friend who said "I'm at your door"
+
+[Chorus]
+Ask — even when your voice shakes
+Ask — even when you're drowning
+Ask — the world won't think you're broken
+Ask — it might just think you're human
+
+[Bridge]
+We glorify the ones who do it solo
+Who carry everything and never bend
+But the strongest people that I know
+Are the ones who learned to say — please help me, friend
+
+[Chorus]
+Ask — it's not a weakness
+Ask — it's revolution
+Ask — three words that change the shape of things
+Ask — the smallest, bravest solution
+
+[Outro]
+I need help
+I need help
+And the world answered
+Gently`,
+
+"grao-passo-pequeno/5": `[Verse 1]
+Todos foram embora e eu fiquei
+No hospital, na conversa, na mesa
+Alguém tinha de ficar, e eu fiquei
+Não por dever — por certeza
+
+[Verse 2]
+Ficar quando o quarto cheira a medo
+Ficar quando o silêncio é pesado
+Ficar é o verbo mais difícil
+Quando o corpo quer o outro lado
+
+[Pre-Chorus]
+A presença é a prenda
+Mais cara que se pode dar
+
+[Chorus]
+Ficar — quando todos vão
+Ficar — no olho do furacão
+A coragem não é o barulho
+É o silêncio da minha mão
+
+[Verse 3]
+Não resolvi nada por ficar
+Não disse a frase perfeita ou certa
+Só fiquei — e às vezes é isso
+A porta mais corajosa é a aberta
+
+[Chorus]
+Ficar — quando todos vão
+Ficar — no olho do furacão
+A coragem não é o barulho
+É o silêncio da minha mão
+
+[Bridge]
+E a pessoa olhou para mim
+E não disse obrigada — disse mais
+Disse "ficaste" — com os olhos
+E isso foi o bastante, nada mais
+
+[Chorus]
+Ficar — o verbo mais bonito
+Ficar — conjugado em presença
+Eu fico, tu ficas, nós ficamos
+Ficar — a mais alta sentença
+
+[Outro]
+Fico
+Não porque devo
+Fico
+Porque te vejo`,
+
+"grao-passo-pequeno/6": `[Verse 1]
+Not the sorry said in passing
+Not the sorry said by rote
+Not the sorry that's a reflex
+But the one that grips your throat
+
+[Verse 2]
+This sorry costs me something real
+My pride, my certainty, my floor
+This sorry changes all the furniture
+And opens up a different door
+
+[Pre-Chorus]
+Three letters — one rupture
+One rebuilding of the room
+
+[Chorus]
+Sorry — the one that means it
+Sorry — the one that stings
+Sorry — not a performance
+Sorry — the realest of things
+
+[Verse 3]
+I looked you in the eye and said it
+Without a "but" to hedge the blow
+Just sorry, full stop, no conditions
+The hardest word I'll ever know
+
+[Chorus]
+Sorry — the one that means it
+Sorry — the one that stings
+Sorry — not a performance
+Sorry — the realest of things
+
+[Bridge]
+And the room changed shape around us
+Like the walls let out a breath
+A real apology is surgery
+That cuts but doesn't lead to death
+
+[Chorus]
+Sorry — I won't qualify it
+Sorry — I won't explain it thin
+Sorry — just the word, the weight
+Sorry — let the healing begin
+
+[Outro]
+Sorry
+That's all
+Sorry
+And I mean every letter`,
+
+"grao-passo-pequeno/7": `[Verse 1]
+O primeiro passo é torto e feio
+Cinco minutos de corrida e já sem ar
+A primeira frase do livro, riscada
+O primeiro dia — sem saber onde parar
+
+[Verse 2]
+Ninguém aplaude o primeiro passo
+Porque ninguém o vê, é tão pequeno
+Mas debaixo desse gesto imperfeito
+Mora a semente de tudo o que é pleno
+
+[Pre-Chorus]
+Não precisa ser bonito
+Só precisa de acontecer
+
+[Chorus]
+Primeiro passo — pequeno e torto e meu
+Primeiro passo — é mais que ficar parado
+O caminho começa no imperfeito
+E o imperfeito é abençoado
+
+[Verse 3]
+A conversa que é só uma frase
+A corrida que é só uma rua
+O perdão que é só um olhar
+Tudo começa pequeno — e é tua
+
+[Chorus]
+Primeiro passo — pequeno e torto e meu
+Primeiro passo — é mais que ficar parado
+O caminho começa no imperfeito
+E o imperfeito é abençoado
+
+[Bridge]
+E depois do primeiro vem o segundo
+E o segundo já é mais fácil
+E o terceiro já tem ritmo
+E o quarto já é quase natural
+
+[Chorus]
+Primeiro passo — celebro-te aqui
+Primeiro passo — desajeitado e lindo
+Não é o tamanho que conta
+É o facto de já estar a ir
+
+[Outro]
+Um passo
+Só um
+Pequeno
+Mas meu — e basta`,
+
+"grao-passo-pequeno/8": `[Verse 1]
+My hands were shaking at the table
+My voice a frequency too high
+But I said what I've been swallowing
+And watched it land without a lie
+
+[Verse 2]
+They told me good girls don't make waves
+Good women smile and nod and stay
+But I've been drowning in the quiet
+And today I have something to say
+
+[Pre-Chorus]
+Even when my voice shakes
+Especially when my voice shakes
+
+[Chorus]
+Speak up — even trembling
+Speak up — even small
+Speak up — the truth in a shaking voice
+Is still the truest thing of all
+
+[Verse 3]
+In the meeting, at the dinner
+In the marriage, in the night
+I said the thing I'd been rehearsing
+And the darkness broke to light
+
+[Chorus]
+Speak up — even trembling
+Speak up — even small
+Speak up — the truth in a shaking voice
+Is still the truest thing of all
+
+[Bridge]
+The courage isn't in the volume
+It's in the choosing to be heard
+The bravest people that I know
+Are the ones who spoke the difficult word
+
+[Chorus]
+Speak up — the anthem of the shaking
+Speak up — the song of those who tried
+Speak up — your voice is your power
+Speak up — no longer hide
+
+[Outro]
+Say it
+Even if it trembles
+Say it
+The room will hold your truth`,
+
+"grao-passo-pequeno/9": `[Verse 1]
+Mudei os móveis da sala
+E a luz entrou por outro lado
+Cortei o cabelo sem avisar
+E o espelho pareceu espantado
+
+[Verse 2]
+Uma coisa pequena — só uma
+Mudar o caminho para o trabalho
+E de repente o mundo inteiro
+Girou um grau no seu baralho
+
+[Pre-Chorus]
+Uma peça que se move
+E o tabuleiro muda todo
+
+[Chorus]
+Mudar — uma coisa só
+Mudar — e tudo respira
+O dominó das coisas pequenas
+É a revolução mais bonita
+
+[Verse 3]
+Disse sim ao convite estranho
+Saí sozinha pela primeira vez
+E descobri que a minha vida
+Cabia em mais do que um mês
+
+[Chorus]
+Mudar — uma coisa só
+Mudar — e tudo respira
+O dominó das coisas pequenas
+É a revolução mais bonita
+
+[Bridge]
+Não preciso mudar tudo de uma vez
+Uma peça basta, uma só
+O efeito borboleta mora em mim
+E eu sou o vento — e sou o pó
+
+[Chorus]
+Mudar — começa pequeno
+Mudar — cresce sem medida
+Uma coisa só mudou
+E mudou toda a minha vida
+
+[Outro]
+Uma coisa
+Muda uma coisa
+E vê o que acontece
+Muda uma coisa — e o mundo mexe`,
+
+"grao-passo-pequeno/10": `[Verse 1]
+This is for the text you finally sent
+The boundary you held through shaking knees
+The tear you let fall without apology
+The question asked through gritted teeth
+
+[Verse 2]
+This is for the morning you got up
+When staying in bed felt like the plan
+For the "no" you whispered to yourself
+And the "yes" that made you understand
+
+[Pre-Chorus]
+Nobody saw it
+But it changed everything
+
+[Chorus]
+Small brave — the anthem of the unseen
+Small brave — the courage no one claps
+Small brave — the text, the tear, the step
+Small brave — the world is built on that
+
+[Verse 3]
+You held the line, you asked for help
+You spoke the truth, you changed the route
+You opened up the heavy door
+And walked through every inch of doubt
+
+[Chorus]
+Small brave — the anthem of the unseen
+Small brave — the courage no one claps
+Small brave — the text, the tear, the step
+Small brave — the world is built on that
+
+[Bridge]
+The choir sings for quiet warriors
+For every invisible act of grace
+For every hand that shook but reached
+For every heart that held its place
+
+[Chorus]
+Small brave — we see you now
+Small brave — take your bow
+Small brave — the smallest act of courage
+Small brave — is more than enough somehow
+
+[Outro]
+You were brave today
+In ways nobody saw
+And that's the bravest kind
+The kind without applause`,
+
 };
