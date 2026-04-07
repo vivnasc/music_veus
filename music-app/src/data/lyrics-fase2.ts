@@ -7564,4 +7564,528 @@ Like the garden taught you
 Grow
 Slowly — and surely — and now`,
 
+// ─────────────────────────────────────────────
+// BEIJO NA TESTA (toques suaves, amor mínimo)
+// ─────────────────────────────────────────────
+
+"nua-beijo-na-testa/1": `[Verse 1]
+Os lábios pousam na testa
+Ali onde vivem os pensamentos
+Sem pressa, sem peso, sem ruído
+Só o gesto mais antigo dos afectos
+
+[Verse 2]
+Não pede nada de volta
+Não espera resposta nem sinal
+É o amor na sua forma pura
+Antes de se tornar oral
+
+[Pre-Chorus]
+Um beijo que não é desejo
+É outra coisa — mais funda
+
+[Chorus]
+Beijo na testa — o gesto mais velho
+Beijo na testa — protecção sem palavras
+Os lábios pousam onde a mente vive
+E o mundo inteiro fica mais manso
+
+[Verse 3]
+A minha avó fazia assim
+A minha mãe copiou a arte
+E eu faço agora aos meus filhos
+Este beijo que nunca parte
+
+[Chorus]
+Beijo na testa — o gesto mais velho
+Beijo na testa — protecção sem palavras
+Os lábios pousam onde a mente vive
+E o mundo inteiro fica mais manso
+
+[Bridge]
+Há beijos que queimam, há beijos que passam
+Há beijos que se perdem na rotina
+Mas o beijo na testa fica para sempre
+Como uma bênção feminina
+
+[Chorus]
+Beijo na testa — o meu favorito
+Beijo na testa — vale mais que cem
+Os lábios pousam e dizem sem falar
+"Estou aqui — e tu estás bem"
+
+[Outro]
+Pouso os lábios
+Na tua testa
+E digo tudo
+Sem dizer nada`,
+
+"nua-beijo-na-testa/2": `[Verse 1]
+Her hand in mine at eighty-three
+The fingers bent like river trees
+We hold on not because we must
+But because this is all we need
+
+[Verse 2]
+His skin is thin as morning light
+Her knuckles round as river stones
+Fifty years of holding hands
+Have written love into their bones
+
+[Pre-Chorus]
+No need for words anymore
+The hands remember everything
+
+[Chorus]
+Hold — at eighty, still the same
+Hold — fingers know each other's name
+A grip that tells a lifelong story
+Hold — the quietest kind of glory
+
+[Verse 3]
+They sit in silence, side by side
+The television hums along
+But between their interlocked fingers
+Lives the longest love song
+
+[Chorus]
+Hold — at eighty, still the same
+Hold — fingers know each other's name
+A grip that tells a lifelong story
+Hold — the quietest kind of glory
+
+[Bridge]
+The young ones hold hands tight with fire
+The old ones hold with something more
+A certainty that needs no proof
+A love that doesn't need to score
+
+[Chorus]
+Hold — the autobiography of touch
+Hold — five decades in a clutch
+Hold — the greatest love I've seen
+Hold — was always in between
+
+[Outro]
+Hold my hand
+Like you held it then
+Hold my hand
+And we're young again`,
+
+"nua-beijo-na-testa/3": `[Verse 1]
+Estás a dormir e eu estou acordada
+O quarto está escuro, o relógio brilha
+Puxo a coberta sobre os teus ombros
+E tu nem sabes — és a minha maravilha
+
+[Verse 2]
+Este gesto não tem testemunhas
+Não tem palmas, não tem fotografias
+É o amor na sua forma escondida
+O amor que vive nos bastidores dos dias
+
+[Pre-Chorus]
+Não vais saber que fiz isto
+E é isso que o torna sagrado
+
+[Chorus]
+Coberta — puxo sobre ti no escuro
+Coberta — o amor que ninguém vê
+O gesto mais gentil do mundo
+É cuidar de quem nem sabe que eu lá sou de pé
+
+[Verse 3]
+Ajeito a almofada sem barulho
+Tiro o cabelo dos teus olhos
+E volto para o meu lado da cama
+Rica de gestos e sem escolhos
+
+[Chorus]
+Coberta — puxo sobre ti no escuro
+Coberta — o amor que ninguém vê
+O gesto mais gentil do mundo
+É cuidar de quem nem sabe que eu lá sou de pé
+
+[Bridge]
+O amor verdadeiro não precisa de plateia
+Não precisa de aplausos nem de luz
+Acontece no escuro de um quarto
+Enquanto alguém dorme — e outra vela conduz
+
+[Chorus]
+Coberta — o meu segredo nocturno
+Coberta — o meu ritual de amar
+Puxar a coberta sobre quem amo
+É a minha forma de rezar
+
+[Outro]
+Dormes
+E eu cuido
+Dormes
+E o amor acontece — em silêncio`,
+
+"nua-beijo-na-testa/4": `[Verse 1]
+A strand of hair across your face
+My finger moves it like a feather
+The smallest declaration known
+In any kind of weather
+
+[Verse 2]
+My fingertip traces your cheek
+A centimetre, maybe less
+But in that tiny arc of skin
+Lives everything I can't express
+
+[Pre-Chorus]
+The biggest love
+In the smallest touch
+
+[Chorus]
+Brush — the hair from your face
+Brush — and time stands still
+A fingertip across your skin
+Is the loudest thing I've ever felt
+
+[Verse 3]
+You didn't notice, you were talking
+About the day, the plan, the news
+But my finger on your temple knew
+A tenderness beyond all views
+
+[Chorus]
+Brush — the hair from your face
+Brush — and time stands still
+A fingertip across your skin
+Is the loudest thing I've ever felt
+
+[Bridge]
+They write love songs about fire
+About storms and crashing waves
+But the truest love I've felt
+Is the hair brushed from a face
+
+[Chorus]
+Brush — so small you'd miss it
+Brush — but my skin won't forget
+Brush — the tiniest declaration
+Brush — the best one yet
+
+[Outro]
+One strand of hair
+One fingertip
+One second — and the world
+Was soft enough to live in`,
+
+"nua-beijo-na-testa/5": `[Verse 1]
+Chego a casa e o chá está feito
+A caneca já no sítio certo
+Duas colheres de mel, sem leite
+Alguém me conhece — e está perto
+
+[Verse 2]
+Não pediste nada, não avisaste
+Só ouviste a porta e a chaleira ferveu
+O amor em forma de água quente
+E o mel que sempre me soube a teu
+
+[Pre-Chorus]
+Saber como alguém toma o chá
+É uma forma de intimidade
+
+[Chorus]
+Chá feito — o amor em água quente
+Chá feito — sem pedir, sem dizer
+Saber como tomo o meu chá
+É saber-me de cor — e sem parecer
+
+[Verse 3]
+Há quem traga flores e diamantes
+Eu prefiro a caneca no balcão
+O gesto de quem presta atenção
+E serve o amor em infusão
+
+[Chorus]
+Chá feito — o amor em água quente
+Chá feito — sem pedir, sem dizer
+Saber como tomo o meu chá
+É saber-me de cor — e sem parecer
+
+[Bridge]
+Os grandes gestos enchem os filmes
+Mas a vida é feita dos pequenos
+O chá que espera a minha chegada
+É maior que mil presentes plenos
+
+[Chorus]
+Chá feito — obrigada sem palavras
+Chá feito — o meu ritual contigo
+A caneca quente entre as mãos
+É o abraço mais antigo
+
+[Outro]
+Chegas
+E o chá está pronto
+Chegas
+E o amor está quente`,
+
+"nua-beijo-na-testa/6": `[Verse 1]
+Every night the same three words
+Before the light goes out for good
+"I love you, goodnight" — said so often
+It could be misunderstood
+
+[Verse 2]
+But repetition isn't boredom
+When the words still mean their weight
+Every night for twenty years
+The same three words before the late
+
+[Pre-Chorus]
+Not monotony
+But ceremony
+
+[Chorus]
+Goodnight — the last word every evening
+Goodnight — the bookmark of the day
+I love you, goodnight — said twenty thousand times
+And meant it every single way
+
+[Verse 3]
+Some nights we fight before we say it
+Some nights we barely make it through
+But goodnight still comes, like a promise
+A ritual that renews the glue
+
+[Chorus]
+Goodnight — the last word every evening
+Goodnight — the bookmark of the day
+I love you, goodnight — said twenty thousand times
+And meant it every single way
+
+[Bridge]
+The most romantic thing I know
+Isn't fireworks or champagne
+It's saying I love you, goodnight
+Through every kind of joy and pain
+
+[Chorus]
+Goodnight — our holy repetition
+Goodnight — our anchor in the storm
+Goodnight — the simplest tradition
+Goodnight — that keeps our love warm
+
+[Outro]
+I love you
+Goodnight
+I love you
+Goodnight — always`,
+
+"nua-beijo-na-testa/7": `[Verse 1]
+Ao atravessar a rua juntos
+A tua mão pousa nas minhas costas
+Um gesto automático e antigo
+Que ninguém vê entre as pessoas postas
+
+[Verse 2]
+Não é controlo, não é posse
+É o corpo que protege sem pensar
+A mão que guia sem agarrar
+Que diz "estou aqui" — sem falar
+
+[Pre-Chorus]
+O gesto mais invisível
+É o mais presente de todos
+
+[Chorus]
+Mão nas costas — o escudo suave
+Mão nas costas — o amor que guia
+Um toque que ninguém repara
+Mas que faz o dia todo valer a pena
+
+[Verse 3]
+Na festa cheia de estranhos
+A tua mão encontra o meu centro
+E o mundo encolhe ao tamanho
+Do espaço quente entre os dedos por dentro
+
+[Chorus]
+Mão nas costas — o escudo suave
+Mão nas costas — o amor que guia
+Um toque que ninguém repara
+Mas que faz o dia todo valer a pena
+
+[Bridge]
+Há gestos que são declarações
+Sem cerimónia, sem discurso
+A mão nas costas ao cruzar a estrada
+É o mais honesto dos recursos
+
+[Chorus]
+Mão nas costas — o meu favorito
+Mão nas costas — o toque que segura
+Sem prender, sem forçar, sem pedir
+Só a mão — e toda a ternura
+
+[Outro]
+A tua mão
+Nas minhas costas
+E o mundo
+Fica mais seguro`,
+
+"nua-beijo-na-testa/8": `[Verse 1]
+I love your morning face the most
+Before the mask, before the day
+The puffy eyes, the pillow lines
+The you before you press "play"
+
+[Verse 2]
+Your hair a mess of sleep and dreams
+Your voice still thick with the night
+This face that no one else will see
+Is my favourite kind of light
+
+[Pre-Chorus]
+Before the performance begins
+This is who you really are
+
+[Chorus]
+Morning face — unguarded and raw
+Morning face — the one without a flaw
+Before the world gets in the way
+Your morning face — my favourite display
+
+[Verse 3]
+You'd hate it if you knew I watched
+You'd cover up and look away
+But this face, bare and unassembled
+Is the one I'd choose every day
+
+[Chorus]
+Morning face — unguarded and raw
+Morning face — the one without a flaw
+Before the world gets in the way
+Your morning face — my favourite display
+
+[Bridge]
+The privilege of seeing someone
+Before they put themselves together
+Is the most intimate thing I know
+More than any change of weather
+
+[Chorus]
+Morning face — I love you like this
+Morning face — before the first kiss
+Bare, imperfect, perfectly you
+Morning face — the most honest view
+
+[Outro]
+Don't cover up
+Don't fix your hair
+Your morning face
+Is the one I love beyond compare`,
+
+"nua-beijo-na-testa/9": `[Verse 1]
+Os teus pés frios procuram os meus
+Debaixo da coberta como dois ladrões
+O choque gelado na minha canela
+E eu finjo que reclamo — mas são bênçãos
+
+[Verse 2]
+Todas as noites o mesmo ritual
+Os teus pés de gelo, o meu calor
+Eu reclamo baixinho e tu ris
+E a cama é o lugar mais quente do amor
+
+[Pre-Chorus]
+A queixa que é carinho
+O frio que é pretexto
+
+[Chorus]
+Pé frio — a carta de amor mais estranha
+Pé frio — debaixo da coberta
+Os teus pés gelados nos meus
+É a ternura mais imperfeita e certa
+
+[Verse 3]
+Podias pôr meias, eu sei
+Mas não pões — e eu sei porquê
+É o pretexto para te colares a mim
+E eu finjo não perceber de cada vez
+
+[Chorus]
+Pé frio — a carta de amor mais estranha
+Pé frio — debaixo da coberta
+Os teus pés gelados nos meus
+É a ternura mais imperfeita e certa
+
+[Bridge]
+O amor não mora nos grandes gestos
+Mora nas canelas debaixo do lençol
+Nos pés frios que procuram calor
+Num corpo que é casa, que é sol
+
+[Chorus]
+Pé frio — nunca ponhas meias
+Pé frio — é o meu ritual
+Os teus pés gelados nos meus
+É o amor mais real
+
+[Outro]
+Vem cá
+Com os teus pés frios
+Vem cá
+E eu aqueço — como sempre`,
+
+"nua-beijo-na-testa/10": `[Verse 1]
+This is for the kiss upon the forehead
+For the hand that held at eighty-three
+For the blanket pulled in silence
+And the tea made just for me
+
+[Verse 2]
+This is for the hair brushed from a face
+For the goodnight said through years
+For the hand upon the small of backs
+And the morning face through tears
+
+[Pre-Chorus]
+Love lives in the tiny things
+The gestures smaller than a word
+
+[Chorus]
+Small love — the greatest love of all
+Small love — in gestures barely there
+Small love — not fireworks but daily bread
+Small love — the most tender kind of care
+
+[Verse 3]
+Not diamonds, not declarations
+Not the grand romantic sweep
+But the cold feet under blankets
+And the watch they keep while you sleep
+
+[Chorus]
+Small love — the greatest love of all
+Small love — in gestures barely there
+Small love — not fireworks but daily bread
+Small love — the most tender kind of care
+
+[Bridge]
+And the choir sings for the quiet ones
+For the love that doesn't shout
+For every tiny act of tenderness
+That the world could do without — but can't
+
+[Chorus]
+Small love — this is the real thing
+Small love — this is what lasts
+Small love — in every tiny touch
+Small love — the future and the past
+
+[Outro]
+A kiss on the forehead
+A hand held in the dark
+Small love — the biggest love
+That ever left its mark`,
+
 };
