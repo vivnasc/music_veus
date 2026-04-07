@@ -8612,4 +8612,528 @@ Run free
 Run dirty
 Run — like the mountain made you`,
 
+// ─────────────────────────────────────────────
+// AMANHÃ INVENTADO (saudade do que ainda não aconteceu)
+// ─────────────────────────────────────────────
+
+"eter-amanha-inventado/1": `[Verse 1]
+Estou a lavar a loiça e de repente
+O filme começa sozinho na cabeça
+Uma praia que não conheço, um vestido
+Que ainda não comprei — a vida que me peça
+
+[Verse 2]
+O sabão escorre e eu estou noutro sítio
+Num futuro inventado entre os pratos
+A mente viaja sem passaporte
+E eu sigo-a — sem sapatos
+
+[Pre-Chorus]
+O sonho acordada
+É o cinema mais barato do mundo
+
+[Chorus]
+Sonho acordada — entre duas tarefas
+Sonho acordada — o filme da minha cabeça
+A vida real espera um bocadinho
+Enquanto a imaginação me aqueça
+
+[Verse 3]
+A minha filha chama e eu volto
+Das praias imaginárias para a cozinha
+Mas por um momento estive lá
+Naquele lugar onde tudo é só meu — e minha
+
+[Chorus]
+Sonho acordada — entre duas tarefas
+Sonho acordada — o filme da minha cabeça
+A vida real espera um bocadinho
+Enquanto a imaginação me aqueça
+
+[Bridge]
+Há quem diga que é perda de tempo
+Eu digo que é ensaio para viver
+A mente pratica o futuro
+Antes do corpo o ir fazer
+
+[Chorus]
+Sonho acordada — o meu luxo secreto
+Sonho acordada — a minha fuga favorita
+Entre a loiça e o jantar
+A mente viaja — e a alma agita
+
+[Outro]
+Fecho os olhos
+E estou lá
+Abro os olhos
+E o futuro brilha — de cá`,
+
+"eter-amanha-inventado/2": `[Verse 1]
+Someday — the word that weighs like gold
+And floats like dust at the same time
+Someday I'll write, someday I'll go
+Someday I'll cross that finish line
+
+[Verse 2]
+Someday the house with the blue door
+Someday the conversation that heals
+Someday the trip without return
+Someday the love that finally feels
+
+[Pre-Chorus]
+Someday — beautiful and heavy
+A promise or a prison
+
+[Chorus]
+Someday — the most hopeful word I know
+Someday — the weight I carry slow
+It glows inside like a small lamp
+Someday — a fire from a damp
+
+[Verse 3]
+My grandmother said someday too
+And some of hers never came true
+But the somedays that she whispered
+Still light up everything I do
+
+[Chorus]
+Someday — the most hopeful word I know
+Someday — the weight I carry slow
+It glows inside like a small lamp
+Someday — a fire from a damp
+
+[Bridge]
+What if someday isn't procrastination
+But anticipation's quiet art
+What if the pleasure of someday
+Is the rehearsal of the heart
+
+[Chorus]
+Someday — I'm not waiting, I'm preparing
+Someday — the light inside the seed
+Someday — isn't weakness, it's believing
+Someday — is everything I need
+
+[Outro]
+Someday
+Not yet — but soon
+Someday
+The most beautiful tune`,
+
+"eter-amanha-inventado/3": `[Verse 1]
+O mapa está em branco na mesa
+Nenhum ponto, nenhuma rota marcada
+Mas já sei o sabor do café nessa viagem
+E a cor do sol pela madrugada
+
+[Verse 2]
+Planeio sem bilhete, sem mala feita
+A antecipação é o próprio prazer
+O mapa em branco não é vazio
+É possibilidade a mais não poder
+
+[Pre-Chorus]
+A viagem começa muito antes
+Do primeiro passo no avião
+
+[Chorus]
+Mapa em branco — a viagem antes da viagem
+Mapa em branco — o prazer de imaginar
+Cada rua ainda por descobrir
+Já me aquece — sem eu lá estar
+
+[Verse 3]
+Os guias empilham-se no sofá
+As fotos de estranhos são o meu cinema
+E eu viajo sentada na sala
+Sem sair de casa — sem dilema
+
+[Chorus]
+Mapa em branco — a viagem antes da viagem
+Mapa em branco — o prazer de imaginar
+Cada rua ainda por descobrir
+Já me aquece — sem eu lá estar
+
+[Bridge]
+A antecipação é metade da vida
+O antes é tão bom como o durante
+E o mapa em branco na mesa da sala
+É a prova de que o futuro é fascinante
+
+[Chorus]
+Mapa em branco — o meu quadro favorito
+Mapa em branco — cheio de promessa
+Ainda não fui — e já estou a voltar
+Com saudade de uma viagem que nem começa
+
+[Outro]
+O mapa está em branco
+E por isso mesmo
+É o mapa mais bonito
+Que eu tenho`,
+
+"eter-amanha-inventado/4": `[Verse 1]
+The first page glows inside my mind
+White and warm like morning milk
+The characters are whispering
+Their stories soft as silk
+
+[Verse 2]
+I haven't written a single word
+But the book already breathes
+It lives inside a drawer of dreams
+Where the unborn story weaves
+
+[Pre-Chorus]
+The page is blank
+And that's the most beautiful thing
+
+[Chorus]
+Unwritten — the book that glows inside
+Unwritten — the story yet to start
+The first page lives behind my eyes
+Unwritten — a novel of the heart
+
+[Verse 3]
+I carry characters like secrets
+Their voices only I can hear
+And someday pen will find the paper
+But for now — they're beautifully near
+
+[Chorus]
+Unwritten — the book that glows inside
+Unwritten — the story yet to start
+The first page lives behind my eyes
+Unwritten — a novel of the heart
+
+[Bridge]
+What if the imagining is part of the creation
+What if the dreaming is the draft
+What if the book that glows unwritten
+Is the most honest thing I've crafted
+
+[Chorus]
+Unwritten — you're not nothing, you're potential
+Unwritten — the energy before the spark
+Unwritten — the silence before the symphony
+Unwritten — the light before the dark
+
+[Outro]
+One day I'll write you
+But until then
+You live inside me
+The most beautiful pen`,
+
+"eter-amanha-inventado/5": `[Verse 1]
+Ainda não nasceste e já tens nome
+Já sei a cor dos teus olhos — inventei
+Já te cantei canções de embalar
+Num quarto que ainda não decorei
+
+[Verse 2]
+A tua mão cabe na imaginação
+Tão pequena que o mundo se encolhe
+E eu amo-te já — sem te ver
+Com a força de quem tudo recolhe
+
+[Pre-Chorus]
+Amar quem ainda não existe
+É o acto mais corajoso
+
+[Chorus]
+Filho futuro — já te conheço
+Filho futuro — já te amei
+O teu rosto mora nos meus sonhos
+E eu cuido de ti — mesmo antes de saber
+
+[Verse 3]
+Às vezes tenho medo de te querer
+Antes de saberes que existes
+E se não vieres? E se mudares?
+Mas o amor não tem esses trâmites tristes
+
+[Chorus]
+Filho futuro — já te conheço
+Filho futuro — já te amei
+O teu rosto mora nos meus sonhos
+E eu cuido de ti — mesmo antes de saber
+
+[Bridge]
+E se nunca vieres como eu imagino
+Viráveis de outra forma ou feitio
+Ou talvez não venhas — e o amor
+Que te guardei irá para outro rio
+
+[Chorus]
+Filho futuro — és mais real que muitas coisas
+Filho futuro — que eu toco todos os dias
+O amor que te tenho já existe
+E ilumina as minhas noites e os meus dias
+
+[Outro]
+Ainda não nasceste
+E já te amo
+Ainda não nasceste
+E já és meu — e eu tua`,
+
+"eter-amanha-inventado/6": `[Verse 1]
+I see us old and slow and wrinkled
+Sitting on a bench somewhere
+Your hand on mine, both paper-thin
+The wind in what's left of our hair
+
+[Verse 2]
+We'll argue about the heating still
+And who forgot to buy the bread
+But underneath the daily grumble
+A love so deep it can't be said
+
+[Pre-Chorus]
+Dreaming of being old together
+Is the most romantic thing
+
+[Chorus]
+Old age — I dream of us there
+Old age — with matching creaky knees
+Slow walks and terrible memory
+Old age — the final masterpiece
+
+[Verse 3]
+I'll wear your jumper, you'll wear mine
+We'll finish sentences mid-thought
+The neighbours will think we're eccentric
+But we'll know what we have wrought
+
+[Chorus]
+Old age — I dream of us there
+Old age — with matching creaky knees
+Slow walks and terrible memory
+Old age — the final masterpiece
+
+[Bridge]
+They say youth is the best years
+But I'm saving up for something more
+The beauty of two people choosing
+The same bench, the same door
+
+[Chorus]
+Old age — the dream I haven't earned
+Old age — but I'm working towards
+Old age — beside you, always you
+Old age — our greatest reward
+
+[Outro]
+Grow old with me
+Grow slow with me
+Grow forgetful with me
+And I'll remind you — we were always free`,
+
+"eter-amanha-inventado/7": `[Verse 1]
+Ainda não existe mas eu sei
+Onde fica a janela da cozinha
+O sol entra da esquerda de manhã
+E a porta é verde — como a minha linha
+
+[Verse 2]
+O jardim tem uma oliveira
+Que ainda não plantei mas já dá sombra
+O gato já tem nome — ainda não nasceu
+E a casa já é casa — mesmo na penumbra
+
+[Pre-Chorus]
+Construir com a imaginação
+É a primeira pedra de qualquer futuro
+
+[Chorus]
+Casa imaginada — já vivo lá dentro
+Casa imaginada — já conheço cada canto
+A cozinha cheira a pão de manhã
+E eu acordo nela — mesmo sem espanto
+
+[Verse 3]
+Os quartos têm cortinas que inventei
+A mesa tem a marca de um jantar
+Que ainda não aconteceu — mas sei
+Que vai ser o melhor do lugar
+
+[Chorus]
+Casa imaginada — já vivo lá dentro
+Casa imaginada — já conheço cada canto
+A cozinha cheira a pão de manhã
+E eu acordo nela — mesmo sem espanto
+
+[Bridge]
+Dizem que sonhar não constrói paredes
+Mas eu digo que sim — as primeiras
+A casa começa na cabeça
+E a imaginação é a mais forte das madeiras
+
+[Chorus]
+Casa imaginada — um dia serás real
+Casa imaginada — ou talvez não — e está bem
+Porque a casa mais bonita que eu tive
+Viveu sempre aqui — dentro de mim — além
+
+[Outro]
+A porta é verde
+A janela é grande
+A casa ainda não existe
+Mas o lar — esse já arde`,
+
+"eter-amanha-inventado/8": `[Verse 1]
+Maybe is the bravest word I know
+Not yes, not no, but the open door
+The space between the certain and the void
+Where possibility lives on the floor
+
+[Verse 2]
+Maybe I'll move to another city
+Maybe I'll learn to play guitar
+Maybe the love that hasn't found me
+Is closer than I think it are
+
+[Pre-Chorus]
+Maybe — not hesitation
+But courage wearing casual clothes
+
+[Chorus]
+Maybe — the most hopeful sound
+Maybe — where the brave are found
+Not the ones who have the answers
+But the ones who hold the ground
+
+[Verse 3]
+My mother's maybes became gardens
+My father's maybes became books
+And my maybes — I don't know yet
+But I love the way the future looks
+
+[Chorus]
+Maybe — the most hopeful sound
+Maybe — where the brave are found
+Not the ones who have the answers
+But the ones who hold the ground
+
+[Bridge]
+The world belongs to those who maybe
+Who sit with uncertainty and smile
+Who don't demand that life be certain
+But walk the beautiful unsure mile
+
+[Chorus]
+Maybe — anthem of the open
+Maybe — hymn of the unsure
+Maybe — the most human word
+Maybe — the most honest cure
+
+[Outro]
+Maybe
+And that's enough
+Maybe
+Is more than enough`,
+
+"eter-amanha-inventado/9": `[Verse 1]
+Tenho saudade de um verão
+Que ainda não vivi com os teus olhos
+Saudade de um jantar futuro
+Onde rimos sem escolhos
+
+[Verse 2]
+É o paradoxo mais bonito
+Ter saudade do que está para vir
+Sentir falta de um momento
+Que ainda não aconteceu — mas eu consigo sentir
+
+[Pre-Chorus]
+Saudade do futuro
+O tempo enrolado em espiral
+
+[Chorus]
+Saudade do futuro — o paradoxo que me habita
+Saudade do futuro — ter falta do que vem
+O coração não sabe de calendários
+E ama o que ainda não tem
+
+[Verse 3]
+Às vezes choro por uma felicidade
+Que imagino tão real que dói
+Não é tristeza, é antecipação
+A saudade do futuro me constrói
+
+[Chorus]
+Saudade do futuro — o paradoxo que me habita
+Saudade do futuro — ter falta do que vem
+O coração não sabe de calendários
+E ama o que ainda não tem
+
+[Bridge]
+Se o tempo é um espiral e não uma linha
+Então o futuro já aconteceu algures
+E esta saudade que eu sinto
+É memória — de outra margem de azures
+
+[Chorus]
+Saudade do futuro — a mais estranha saudade
+Saudade do futuro — a mais bonita
+Ter falta do que vem é a prova
+De que a esperança em mim habita
+
+[Outro]
+Tenho saudade
+De te conhecer amanhã
+Tenho saudade
+Do que ainda vem — e já é meu`,
+
+"eter-amanha-inventado/10": `[Verse 1]
+This is for the dreamers and the planners
+For the ones who live in beautiful maybes
+For the blank maps and the unwritten books
+And the futures that shimmer like babies
+
+[Verse 2]
+This is for the houses not yet built
+For the children not yet named
+For the trips not yet taken
+And the love not yet claimed
+
+[Pre-Chorus]
+Dream forward — that's the anthem
+Dream forward — that's the prayer
+
+[Chorus]
+Dream forward — into the beautiful unknown
+Dream forward — you're not lost, you're sown
+Like a seed that hasn't broken ground
+Dream forward — the most hopeful sound
+
+[Verse 3]
+The imagination is a sacred tool
+The future is a canvas white
+And every dream you dream today
+Becomes tomorrow's morning light
+
+[Chorus]
+Dream forward — into the beautiful unknown
+Dream forward — you're not lost, you're sown
+Like a seed that hasn't broken ground
+Dream forward — the most hopeful sound
+
+[Bridge]
+And the choir sings for the not-yet
+For the almost, for the soon
+For every heart that beats towards a future
+Like a moth towards the moon
+
+[Chorus]
+Dream forward — the anthem of tomorrow
+Dream forward — the song of what might be
+Dream forward — into the beautiful maybe
+Dream forward — and set the future free
+
+[Outro]
+Dream forward
+The future is listening
+Dream forward
+And it already loves you back`,
+
 };
