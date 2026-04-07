@@ -3991,7 +3991,7 @@ E não respeita a tristeza
 Não pedi para rir agora
 Não é o momento nem o sítio
 Mas a gargalhada não tem hora
-E transforma o mais solstício
+E torna tudo num feitiço
 Em carnaval — o corpo dobra
 Os ombros sobem e descem
 E a seriedade que me cobra
@@ -4007,7 +4007,7 @@ Mais gargalhada e menos juízo
 Gargalhada, gargalhada
 O corpo lembra que é livre
 Gargalhada desatada
-Que nem o medo a descreve
+Que nem o medo a conteve
 O som que cura sem pedir
 O gesto mais bonito de existir
 A medicina sem receita
@@ -4027,10 +4027,10 @@ O corpo e alguém que me devolveu
 Gargalhada, gargalhada
 O corpo lembra que é livre
 Gargalhada desatada
-Que nem o medo a descreve
+Que nem o medo a conteve
 
 [Bridge]
-A vida ficou séria de mais
+A vida ficou séria demais
 Os ombros ficaram pesados
 Mas basta um riso e os sinais
 De que estamos vivos — são dados
@@ -4148,7 +4148,7 @@ Rimos como a primeira vez
 O tio conta sempre a mesma
 A prima revira os olhos
 Mas o riso é uma festa
-Que não precisa de recolhos
+Que se acende nos seus olhos
 E quando chega a punchline
 Que todos já sabemos de cor
 Rimos não por ser nova — é a fina
@@ -4193,7 +4193,7 @@ Um dia vou contar estas piadas
 Aos meus netos e aos seus
 E elas vão ser gargalhadas
 Velhas — como os deuses gregos e os seus
-Mitos que ninguém acredita
+Mitos em que ninguém acredita
 Mas que toda a gente conta
 Porque a piada é bonita
 Não por ser boa — mas por ser a conta
@@ -4231,7 +4231,7 @@ My lungs are roughly drafting
 A letter from the dead
 I'm gasping — no I'm screaming
 My legs kick at the air
-This isn't dreaming — it's teaming
+This isn't dreaming — it's teeming
 With a joy beyond compare
 
 [Pre-Chorus]
@@ -4274,7 +4274,7 @@ Without the time to try
 To be anything but honest
 Anything but here
 Surrendered to the fondest
-Form of disappear
+Way to disappear
 
 [Chorus]
 Stop, stop — I give up
@@ -4402,7 +4402,7 @@ Inside joke, inside world
 A language built for two
 Inside joke, secret pearl
 That only we see through
-No translation, no explain
+No translation, no refrain
 No subtitle, no refrain
 Just the joy that keeps us sane
 The laughter we maintain
@@ -4412,7 +4412,7 @@ In a world that's gone insane
 Years go by, the joke survives
 It grows but never fades
 These tiny little archive lives
-Of laughters and charades
+Of laughter and charades
 We add new chapters every year
 New references, new signs
 A comedy that's crystal clear
@@ -4423,7 +4423,7 @@ Inside joke, inside world
 A language built for two
 Inside joke, secret pearl
 That only we see through
-No translation, no explain
+No translation, no refrain
 Just the joy that keeps us sane
 
 [Bridge]
@@ -4552,7 +4552,7 @@ Not sadness, not despair
 But joy I can't erase
 My vision blurs with happiness
 My lashes heavy, wet
-The beautiful absurdness
+This beautiful absurdity
 Of the funniest thing yet
 
 [Pre-Chorus]
@@ -4569,7 +4569,7 @@ When laughter feels so bright
 That your eyes can't hold it in
 And your cheeks become a grin
 The body weeps with pleasure
-A grief that's made of treasure
+A joy beyond all measure
 
 [Verse 3]
 My mascara's running south
@@ -4578,7 +4578,7 @@ The sounds that leave my mouth
 Are the happiest I've met
 I'm wiping tears and laughing
 A contradiction whole
-This beautiful cross-staffing
+This beautiful overlapping
 Of the body and the soul
 
 [Chorus]
@@ -4603,7 +4603,7 @@ From the deepest part of night
 Tears of joy, tears of joy
 The overflow of light
 The body weeps with pleasure
-A grief that's made of treasure
+A joy beyond all measure
 
 [Outro]
 Crying and laughing
@@ -4676,7 +4676,7 @@ Há sorrisos ensaiados
 Para foto e para impressão
 Mas os melhores são os dados
 Sem nenhuma explicação
-Os que aparecem despentados
+Os que aparecem despenteados
 E ficam sem permissão
 
 [Chorus]
@@ -4742,7 +4742,7 @@ Is joining in their crowd
 They fall and laugh and fall again
 And get back up with glee
 The seriousness of grown-up men
-Is just forgettery
+Is just forgetfulness
 
 [Chorus]
 Joy, joy, remember joy
@@ -5610,7 +5610,7 @@ Os pés largam a parede e o convite
 O corpo inclina-se para a frente
 A gravidade puxa e cede
 E por um segundo, simplesmente
-Não há nada que me prede
+Não há nada que me prende
 
 [Verse 2]
 O corpo afunda devagar
@@ -5620,13 +5620,13 @@ Para o barulho e a dor
 Os sons lá fora desaparecem
 As vozes tornam-se murmúrio
 E todos os ruídos parecem
-Pertencer a outro augúrio
+Pertencer a outro refúgio
 
 [Pre-Chorus]
 Há um sítio entre a superfície
 E o fundo onde tudo pára
 Onde o mundo perde o ofício
-De me pesar e me compara
+De me pesar e comparar
 
 [Chorus]
 Mergulho fundo, fundo
@@ -5783,7 +5783,7 @@ A mente esvazia devagar
 A braçada é uma disciplina
 Que ensina a não pensar
 A respiração marca o compasso
-De um lado inspiro pelo braço
+De um lado inspiro, ergo o braço
 Do outro lado solto o passo
 De tudo o que é cansaço
 
@@ -5828,7 +5828,7 @@ Mas sei que quando saí
 A mente já não pesava o que eu sei
 O corpo estava exausto
 Mas a cabeça estava limpa
-Como um quadro feito a causto
+Como um quadro feito a custo
 Onde a água redesenha e pinta
 
 [Chorus]
@@ -5865,7 +5865,7 @@ The air tasted of a Thursday
 When everything felt true
 My chest expanded wide and wild
 Like bellows made of joy
-I breathed the way I breathed as child
+I breathed the way I breathed as a child
 Before the world's decoy
 
 [Pre-Chorus]
@@ -5970,7 +5970,7 @@ Que me acalma sem sermão
 Olho para o fundo da piscina
 E vejo só esta cor
 Uma paleta que me ensina
-Que a calma não tem cor
+Que a calma tem esta cor
 Que a paz não precisa
 De razão nem explicação
 Como a brisa que desliza
@@ -6057,7 +6057,7 @@ I shed another block
 The Monday meeting disappears
 The argument dissolves
 The water swallows all my fears
-And all my problems solved
+And all my problems solve
 
 [Chorus]
 Lap after lap
@@ -6097,7 +6097,7 @@ Until you're free`,
   "fibra-azul-fundo/7": `[Verse 1]
 Lá fora o frio morde
 A janela está embaciada
-Mas aqui dentro tudo acorde
+Mas aqui dentro tudo acorda
 Com a água que é aquecida
 O contraste é delicioso
 Entre o gelo que ficou
@@ -6117,7 +6117,7 @@ Não sabem que é inverno agora
 [Pre-Chorus]
 Há luxos que se compram
 E luxos que se sentem
-Os que o corpo descobram
+Os que o corpo descobre
 São os que nunca mentem
 
 [Chorus]
@@ -6152,7 +6152,7 @@ O corpo encontra outra hora
 Às vezes o maior luxo
 Não é viagem nem anel
 É esta água sem repuxo
-Que me aquece a pele e a pele
+Que me aquece a pele e a alma
 É um banho sem pressa
 É um abraço sem mão
 É tudo o que me confessa
@@ -6207,7 +6207,7 @@ The fear is just a second
 Dive, just dive
 The freedom always beckoned
 Before the plunge there's doubt
-After the plunge there's shout
+After the plunge there's a shout
 The air becomes a chapel
 The fall becomes a flight
 And everything that grappled
@@ -6218,7 +6218,7 @@ The air wraps round my body
 For one suspended breath
 And then the water's party
 Begins beneath its depth
-The splash is like an applause
+The splash is like applause
 From something old and wise
 The water breaks because
 It's welcoming the brave who rise
@@ -6229,7 +6229,7 @@ The fear is just a second
 Dive, just dive
 The freedom always beckoned
 Before the plunge there's doubt
-After the plunge there's shout
+After the plunge there's a shout
 
 [Bridge]
 Every dive is a decision
@@ -6317,7 +6317,7 @@ Aqui sou o meu próprio sul
 Não é fugir do mundo
 É encontrar outro quarto
 Um lugar mais profundo
-Onde posso ser mais farto
+Onde posso ser mais farta
 De silêncio verdadeiro
 Não o silêncio da solidão
 Mas o silêncio inteiro
