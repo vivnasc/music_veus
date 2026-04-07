@@ -152,7 +152,7 @@ const PLAN: DayPlan[] = [
     { type: "reel", label: "Reel — O Convite", albumSlug: "livro-filosofico", trackNumber: 1, caption: '"Há uma porta que não se vê\nno centro exacto do teu peito"\n\nO Convite — Loranne\nmusic.seteveus.space\n\n#loranne #veus #oconvite #ouve' },
   ]},
   { date: "2026-04-02", actions: [
-    { type: "carrossel", label: "Carrossel — Os Sete Temas do Despertar", albumSlug: "livro-filosofico", caption: "Os Sete Temas do Despertar.\n9 faixas. O primeiro álbum.\n\n1. O Convite\n2. The Impermanence of You\n3. A Cadeira Vazia\n4. The Whirlwind\n5. A Plenitude que Já Está\n6. The Fertile Dark\n7. O Horizonte\n8. The Reunion\n9. O Reflexo Final\n\nCada faixa é uma camada.\nTira uma e vê o que aparece por baixo.\n\nmusic.seteveus.space\n\n#loranne #veus #despertar #ouve" },
+    { type: "carrossel", label: "Carrossel — Os Sete Temas do Despertar", albumSlug: "livro-filosofico", caption: "os sete temas do despertar.\n9 faixas.\n\n1. o convite\n2. the impermanence of you\n3. a cadeira vazia\n4. the whirlwind\n5. a plenitude que já está\n6. the fertile dark\n7. o horizonte\n8. the reunion\n9. o reflexo final\n\nnão escrevo sobre respostas.\nescrevo sobre ver.\n\nsem justificar.\nsem corrigir.\nsem melhorar o momento.\n\nsó o que está.\ninteiro.\ne suficiente.\n\nmusic.seteveus.space\n\n#loranne #veus #despertar #ouve" },
   ]},
   { date: "2026-04-03", actions: [
     { type: "reel", label: "Reel — A Cadeira Vazia", albumSlug: "livro-filosofico", trackNumber: 3, caption: '"A memória é uma sala escura\ncom cadeiras viradas para trás\nSentas-te e olhas o que já foi\ncomo se pudesses mudar o que já não faz"\n\nA Cadeira Vazia — Loranne\nmusic.seteveus.space\n\n#loranne #veus #memória #passado' },
@@ -164,7 +164,7 @@ const PLAN: DayPlan[] = [
     { type: "reel", label: "Reel — A Plenitude que Já Está", albumSlug: "livro-filosofico", trackNumber: 5, caption: '"Pára — não há nada a conquistar\nA plenitude não é uma meta\nEstá aqui, no exacto lugar\nonde largaste a bicicleta"\n\nA Plenitude que Já Está — Loranne\nmusic.seteveus.space\n\n#loranne #veus #plenitude #parar' },
   ]},
   { date: "2026-04-06", actions: [
-    { type: "post", label: "Post — sobre o álbum", albumSlug: "livro-filosofico", caption: "este álbum não foi feito.\nfoi acontecendo.\n\nentre manhãs lentas\ndanças sem nome\nchuva nos pés\ne gelado a derreter na mão.\n\nnão há mensagem.\nnão há lição.\n\nhá só isto:\nmomentos onde eu parei de resistir\ne fiquei.\n\ne a música apareceu.\n\n9 faixas. português e inglês.\npara ouvir com os olhos fechados\nou a fritar uma cebola.\n\nmusic.seteveus.space\n\n#loranne #veus #despertar #ouve" },
+    { type: "post", label: "Post — sobre o álbum", albumSlug: "livro-filosofico", caption: "este álbum não foi feito.\nfoi acontecendo.\n\nentre o peso do ferro nas mãos\ne o momento em que escolho não fugir.\nentre olhar para números sem medo\ne abrir espaço para receber.\n\nentre ficar quando custa\ne parar quando o corpo pede.\n\nnão há mensagem.\nnão há lição.\n\nhá só isto:\nmomentos em que deixei de negociar comigo\ne fiquei.\n\ne algo em mim alinhou.\n\n9 faixas. português e inglês.\n\nmusic.seteveus.space\n\n#loranne #veus #despertar #ouve" },
   ]},
 
   // ── SEMANA 2: Viagem + Saudade + Sangue Aceso ──
@@ -178,7 +178,7 @@ const PLAN: DayPlan[] = [
     { type: "reel", label: "Reel — O teu lado da cama (Saudade)", albumSlug: "nua-saudade", trackNumber: 1, caption: '"O teu lado da cama está frio\nA marca do teu corpo desapareceu\nMas eu deito-me do meu lado\nComo se o teu ainda existisse"\n\nSaudade — Loranne\nmusic.seteveus.space\n\n#loranne #veus #saudade #falta #amor' },
   ]},
   { date: "2026-04-10", actions: [
-    { type: "carrossel", label: "Carrossel — Viagem", albumSlug: "eter-viagem", caption: "Viagem.\n10 faixas entre o corpo e o cosmos.\n\n\"Home is not a place\nHome is a frequency I recognise\nWhen the noise stops\nAnd the body softens\"\n\nOnde é que acabas tu e começa o universo?\n\nmusic.seteveus.space\n\n#loranne #veus #viagem #cosmic #ouve" },
+    { type: "carrossel", label: "Carrossel — Viagem", albumSlug: "eter-viagem", caption: "viagem.\n10 faixas.\n\nàs vezes é no meio do esforço.\noutras no descanso.\nàs vezes no confronto.\noutras na rendição.\n\nmas é sempre no mesmo lugar:\nquando deixo de resistir.\n\n\"home is not a place\nhome is a frequency I recognise\nwhen the noise stops\nand the body softens\"\n\na viagem não é para fora.\nfoi sempre para dentro.\n\nmusic.seteveus.space\n\n#loranne #veus #viagem #ouve" },
   ]},
   { date: "2026-04-11", actions: [
     { type: "reel", label: "Reel — Sangue Aceso", albumSlug: "fibra-sangue-aceso", trackNumber: 1, caption: '"O primeiro passo dói\nO segundo já não pára\nO corpo acorda e depois\nJá não precisa de cara"\n\nSangue Aceso — Loranne\nmusic.seteveus.space\n\n#loranne #veus #sangueaceso #corpo #acordar' },
@@ -201,7 +201,7 @@ const PLAN: DayPlan[] = [
     { type: "reel", label: "Reel — Sinal", albumSlug: "eter-sinal", trackNumber: 1, caption: '"O arrepio veio do nada\nNinguém tocou, ninguém falou\nEstava na fila do supermercado\nE o corpo inteiro arrepiou"\n\nSinal — Loranne\nmusic.seteveus.space\n\n#loranne #veus #sinal #arrepio #corpo' },
   ]},
   { date: "2026-04-17", actions: [
-    { type: "carrossel", label: "Carrossel — Pele", albumSlug: "nua-pele", caption: "Pele.\n10 faixas sobre a linguagem mais antiga.\n\n\"Apaixonei-me pelo teu cansaço\nPela forma como despes o dia\nPelo suspiro entre a porta e o sofá\nPela tua falta de energia\"\n\nPara ouvir a dois. Ou sozinha a pensar em alguém.\n\nmusic.seteveus.space\n\n#loranne #veus #pele #amor #ouve" },
+    { type: "carrossel", label: "Carrossel — Pele", albumSlug: "nua-pele", caption: "pele.\n10 faixas.\n\nnão escrevo sobre felicidade.\nescrevo quando ela aparece.\n\nsem motivo.\nsem plano.\nsem querer guardar.\n\n\"apaixonei-me pelo teu cansaço\npela forma como despes o dia\npelo suspiro entre a porta e o sofá\npela tua falta de energia\"\n\na pele sabe coisas\nque a boca nunca vai dizer.\n\nmusic.seteveus.space\n\n#loranne #veus #pele #ouve" },
   ]},
   { date: "2026-04-18", actions: [
     { type: "reel", label: "Reel — Ressurreição (Estações)", albumSlug: "grao-estacoes", trackNumber: 1, caption: '"Houve um tempo em que fiquei deitada\ndentro de mim mesma, pedra sobre pedra\nO corpo pesado como terra molhada\no peito fechado como quem não medra"\n\nEstações — Loranne\nmusic.seteveus.space\n\n#loranne #veus #estações #renascer #primavera' },
@@ -239,7 +239,7 @@ const PLAN: DayPlan[] = [
     { type: "reel", label: "Reel — Devagar (Espelho do Medo)", albumSlug: "espelho-medo", trackNumber: 7, caption: '"Devagar como a lua sobe\nDevagar como a maré vem\nDevagar como a ferida fecha\nDevagar como quem quer bem"\n\nDevagar — Loranne\nmusic.seteveus.space\n\n#loranne #veus #devagar #calma' },
   ]},
   { date: "2026-04-29", actions: [
-    { type: "post", label: "Post — verso A Roda", albumSlug: "espelho-ilusao", caption: "não escrevo música para lançar.\nescrevo para ficar.\n\nesta apareceu num dia em que fiz tudo certo.\ncafé. carro. sorriso. trabalho. sorriso.\nalmoço. sorriso. carro. jantar. sofá.\n\ntudo certo.\nmenos eu.\n\n\"roda, roda, roda sem parar\nquem é esta mulher que vive no meu lugar\"\n\na música é só isso.\num registo do agora\nantes de virar memória.\n\nmusic.seteveus.space\n\n#loranne #veus #aroda #ouve" },
+    { type: "post", label: "Post — verso A Roda", albumSlug: "espelho-ilusao", caption: "não escrevo música para lançar.\nescrevo para ficar.\n\nesta apareceu no silêncio entre duas frases.\nnum dia em que fiz tudo certo.\ncafé. carro. sorriso. trabalho. sorriso.\n\ntudo certo.\nmenos eu.\n\n\"roda, roda, roda sem parar\nquem é esta mulher que vive no meu lugar\"\n\na música é só isso.\num registo do instante\nantes de eu voltar a interpretar.\n\nantes de chamar \"bom\" ou \"mau\".\nantes de transformar em história.\n\nsó o que está.\n\nmusic.seteveus.space\n\n#loranne #veus #aroda #ouve" },
   ]},
   { date: "2026-04-30", actions: [
     { type: "reel", label: "Reel — O Reflexo Final", albumSlug: "livro-filosofico", trackNumber: 9, caption: '"Olha devagar, sem pressa\nO reflexo já não mente\nÉs tu — sempre foste tu\no princípio e o presente"\n\nO Reflexo Final — Loranne\nmusic.seteveus.space\n\n#loranne #veus #reflexo #verdade' },
