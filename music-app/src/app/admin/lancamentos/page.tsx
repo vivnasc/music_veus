@@ -22,9 +22,12 @@ type Release = {
 // Dados: álbuns já publicados + agenda dos 10
 // ─────────────────────────────────────────────
 
-// DistroKid recomenda no máximo 2 álbuns/semana para evitar flags do Spotify/Apple Music.
-// A 2/semana, 10 álbuns = 5 semanas completas.
+// 3 álbuns/semana em dias fixos: Segunda, Quarta e Sexta.
+// Sexta coincide com New Music Friday do Spotify = melhor visibilidade.
+// 10 álbuns = 3 semanas + 1 dia (3+3+3+1).
 // Ordem estratégica: começar pelo mais leve, variar colecções e energias.
+
+const RELEASE_DAYS = "Segunda · Quarta · Sexta";
 
 const RELEASES: Release[] = [
   // ── Já publicados ──
@@ -41,72 +44,70 @@ const RELEASES: Release[] = [
     notes: "9 faixas. Companheiro do livro filosófico.",
   },
 
-  // ── Semana 1: Alegria pura (compensar catálogo pesado) ──
+  // ── Semana 1: Alegria + Corpo (Seg 14, Qua 16, Sex 18 Abril) ──
   {
     albumSlug: "grao-festa",
-    releaseDate: "2026-04-14",
+    releaseDate: "2026-04-13",
     status: "a-produzir",
     notes: "Celebração, alegria sem motivo. O álbum mais leve.",
   },
   {
     albumSlug: "grao-boca-aberta",
-    releaseDate: "2026-04-17",
+    releaseDate: "2026-04-15",
     status: "a-produzir",
     notes: "Gargalhadas, tolice, brincar. Funk + bossa.",
   },
-
-  // ── Semana 2: Corpo + Chill (abrir novos territórios) ──
   {
     albumSlug: "fibra-azul-fundo",
-    releaseDate: "2026-04-21",
+    releaseDate: "2026-04-17",
     status: "a-produzir",
     notes: "Natação. Água, silêncio debaixo de água, paz.",
   },
+
+  // ── Semana 2: Chill + Ciclos + Dança (Seg 21, Qua 23, Sex 25 Abril) ──
   {
     albumSlug: "mare-varanda-quente",
-    releaseDate: "2026-04-24",
+    releaseDate: "2026-04-20",
     status: "a-produzir",
     notes: "House chill puro. Pôr-do-sol, varanda, vinho.",
   },
-
-  // ── Semana 3: Ciclos + Dança (energia variada) ──
   {
     albumSlug: "grao-estacoes",
-    releaseDate: "2026-04-28",
+    releaseDate: "2026-04-22",
     status: "a-produzir",
     notes: "Páscoa, solstício, outono, inverno, Ano Novo interior.",
   },
   {
     albumSlug: "incenso-pes-descalcos",
-    releaseDate: "2026-05-01",
+    releaseDate: "2026-04-24",
     status: "a-produzir",
     notes: "O corpo que dança antes da mente. House + marrabenta.",
   },
 
-  // ── Semana 4: Profundidade acessível ──
+  // ── Semana 3: Profundidade + Gratidão + Duetos (Seg 28, Qua 30, Sex 2 Mai) ──
   {
     albumSlug: "eter-oceano",
-    releaseDate: "2026-05-05",
+    releaseDate: "2026-04-27",
     status: "a-produzir",
     notes: "O corpo como água. Profundo mas belo.",
   },
   {
     albumSlug: "incenso-maos-juntas",
-    releaseDate: "2026-05-08",
+    releaseDate: "2026-04-29",
     status: "a-produzir",
     notes: "Gratidão como prática. Gospel + folk.",
   },
-
-  // ── Semana 5: Relações + Recomeços ──
   {
     albumSlug: "nua-duas-vozes",
-    releaseDate: "2026-05-12",
+    releaseDate: "2026-05-01",
     status: "a-produzir",
     notes: "Duetos íntimos. Diálogos cantados no quotidiano.",
   },
+
+  // ── Semana 4: Fecho (Seg 5 Mai) ──
   {
     albumSlug: "grao-porta-aberta",
-    releaseDate: "2026-05-15",
+    releaseDate: "2026-05-04",
     status: "a-produzir",
     notes: "Primeiras vezes: escola, emprego, cidade nova.",
   },
@@ -218,11 +219,10 @@ export default function LancamentosPage() {
   const firstUpcomingDate = upcoming[0]?.releaseDate || "2026-04-14";
   const weekGroups: { week: number; label: string; releases: Release[] }[] = [];
   const weekLabels = [
-    "Semana 1 — Alegria pura",
-    "Semana 2 — Corpo + Chill",
-    "Semana 3 — Ciclos + Dança",
-    "Semana 4 — Profundidade",
-    "Semana 5 — Relações + Recomeços",
+    "Semana 1 — Alegria + Corpo",
+    "Semana 2 — Chill + Ciclos + Dança",
+    "Semana 3 — Profundidade + Duetos",
+    "Semana 4 — Fecho",
   ];
 
   for (const r of upcoming) {
@@ -273,7 +273,7 @@ export default function LancamentosPage() {
           Agenda de Lançamentos
         </h1>
         <p className="text-sm text-[#666680] mt-1">
-          DistroKid &middot; 2 álbuns/semana (limite seguro para Spotify/Apple Music)
+          DistroKid &middot; 3 álbuns/semana &middot; {RELEASE_DAYS}
         </p>
       </div>
 
@@ -345,24 +345,24 @@ export default function LancamentosPage() {
         <h3 className="text-sm font-semibold text-[#C9A96E] mb-3">Notas DistroKid</h3>
         <ul className="text-xs text-[#a0a0b0] space-y-2">
           <li>
-            <span className="text-[#4ade80]">Seguro:</span> 2 álbuns/semana. Não dispara
-            flags de spam no Spotify nem Apple Music.
+            <span className="text-[#4ade80]">Ritmo:</span> 3 álbuns/semana — Segunda, Quarta
+            e Sexta. Espaçamento de 2 dias entre cada lançamento.
           </li>
           <li>
-            <span className="text-[#fbbf24]">Atenção:</span> 3+ álbuns/semana pode resultar
-            em revisão manual ou remoção temporária das plataformas.
-          </li>
-          <li>
-            <span className="text-[#60a5fa]">Dica:</span> Espaçar 2-3 dias entre lançamentos
-            (Seg + Qui, ou Ter + Sex) para melhor distribuição no algoritmo.
+            <span className="text-[#60a5fa]">Sexta-feira:</span> Melhor dia da semana para
+            lançar — coincide com o New Music Friday do Spotify.
           </li>
           <li>
             <span className="text-[#c08aaa]">Ordem:</span> Começar pelos álbuns mais leves
             (Festa, Boca Aberta) para estabelecer identidade alegre antes dos contemplativos.
           </li>
           <li>
-            <span className="text-[#F5F0E6]">Sexta-feira:</span> Melhor dia para lançamentos
-            — coincide com o New Music Friday do Spotify.
+            <span className="text-[#fbbf24]">Atenção:</span> 4+ álbuns/semana pode disparar
+            revisão manual no Spotify. 3/semana é o máximo seguro.
+          </li>
+          <li>
+            <span className="text-[#F5F0E6]">Total:</span> 10 álbuns em ~3.5 semanas
+            (13 Abril → 4 Maio 2026).
           </li>
         </ul>
       </div>
