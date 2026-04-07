@@ -4926,4 +4926,548 @@ Of every jump I've ever made
 And every leap is underlined
 By the courage that will never fade`,
 
+  // ─────────────────────────────────────────────
+  // SALA VAZIA (silêncio como som, meditação, o não-dito)
+  // ─────────────────────────────────────────────
+
+  "eter-sala-vazia/1": `[Verse 1]
+A porta fechou e o som mudou
+Como se o mundo tivesse descido o volume
+E o silêncio que ficou
+É mais alto que qualquer queixume
+
+[Verse 2]
+Ouço a minha respiração
+O frigorífico ao fundo a zumbir
+E o relógio com a sua canção
+De um tempo que insiste em fugir
+
+[Pre-Chorus]
+O silêncio depois de todos saírem
+É o som mais alto que conheço
+
+[Chorus]
+Silêncio — o som mais alto do mundo
+Silêncio depois de toda a gente ir
+Silêncio — profundo, redondo
+Como um oceano que me faz existir
+A sala vazia não está vazia
+Está cheia do que ficou suspenso
+Das palavras que ninguém dizia
+E do ar que é mais denso
+
+[Verse 3]
+Sento-me no chão e escuto
+Cada camada deste nada
+E dentro do silêncio absoluto
+Encontro uma voz — a minha — calada
+
+[Chorus]
+Silêncio — o som mais alto do mundo
+Silêncio depois de toda a gente ir
+
+[Bridge]
+O barulho esconde o que é essencial
+O silêncio mostra tudo nu
+E nesta sala sem sinal
+O que mais ouço — sou eu
+
+[Chorus]
+Silêncio — não é ausência
+Silêncio — é o som que fica
+Quando tiras toda a frequência
+E ouves a alma — magnifica
+
+[Outro]
+O silêncio não precisa de eu falar
+Precisa de eu estar aqui
+E neste gesto de escutar
+Encontro tudo o que perdi`,
+
+  "eter-sala-vazia/2": `[Verse 1]
+The pause between my words and yours
+Is where the meaning actually lives
+The silence in between the doors
+Of what the sentence takes and gives
+
+[Verse 2]
+I said I'm fine — the pause said more
+I said it's nothing — silence screamed
+And in the space beneath the floor
+Of language — everything redeemed
+
+[Pre-Chorus]
+Words are just the furniture
+The silence is the room
+
+[Chorus]
+Between words — the truth is hiding
+Between words — the love is stored
+Between words — the fear is sliding
+Between words — the most ignored
+We listen to the nouns and verbs
+But never to the space between
+Where everything we feel disturbs
+The surface of what's heard and seen
+
+[Verse 3]
+She said goodbye with such a pause
+Before the bye — I heard the stay
+And in that micro-silence's cause
+I found the thing she couldn't say
+
+[Chorus]
+Between words — the truth is hiding
+Between words — the love is stored
+
+[Bridge]
+If we could learn to hear the gaps
+The silences that sentences surround
+We'd find the music in the maps
+Of everything that makes no sound
+
+[Chorus]
+Between words — listen carefully
+Between words — the real song plays
+Between words — tenderly, tenderly
+Is where the truest love stays
+
+[Outro]
+I sit in silence with you now
+No words, no noise, no need to fill
+And in this quiet I find how
+The space between us speaks — and always will`,
+
+  "eter-sala-vazia/3": `[Verse 1]
+Falei sozinha na sala vazia
+E a minha voz voltou para mim
+Como se as paredes repetiam
+Tudo o que eu disse desde o fim
+
+[Verse 2]
+O eco é uma conversa estranha
+Com uma versão que não controlo
+A sala vazia é uma montanha
+De mim — devolvida em protocolo
+
+[Pre-Chorus]
+Ouvir-se é o acto mais solitário
+E o mais revelador
+
+[Chorus]
+Eco — a minha voz devolvida
+Eco — o espelho do som
+Eco — a conversa repetida
+Com a versão de mim que é tom
+Na sala vazia falo e ouço
+O que normalmente o barulho esconde
+E neste eco louco e pouco
+Encontro a voz que me responde
+
+[Verse 3]
+Disse eu estou bem e o eco voltou
+Estou bem — mas com outra inflexão
+Como se a sala escutou
+Algo que eu não pus na entoação
+
+[Chorus]
+Eco — a minha voz devolvida
+Eco — o espelho do som
+
+[Bridge]
+A sala sabe mais de mim
+Do que eu sei de mim mesma
+Porque a sala ouve o que eu finjo que sim
+E devolve o que sou — sem esquema
+
+[Chorus]
+Eco — obrigada por me dizeres
+O que a minha boca disfarça
+Eco — mostra-me quem tu queres
+Que eu seja — na minha própria praça
+
+[Outro]
+O eco morre devagar
+A sala absorve o que sobrou
+E eu fico aqui a escutar
+O silêncio que me devolveu`,
+
+  "eter-sala-vazia/4": `[Verse 1]
+The fridge is humming in the dark
+A symphony of wires and cold
+The radiator leaves its mark
+Of clicking heat — a story told
+
+[Verse 2]
+The house is empty but alive
+With sounds no human ever makes
+A building learning to survive
+The night — with all its tiny shakes
+
+[Pre-Chorus]
+When everyone is gone, the house begins
+To play its own mechanical hymns
+
+[Chorus]
+Hum — the sound of empty rooms
+Hum — the house without its people
+Hum — the radiator blooms
+Hum — the clock tower without the steeple
+Every room has its own frequency
+A note that only silence hears
+The fridge, the pipes, the urgency
+Of a building counting years
+
+[Verse 3]
+I pressed my ear against the wall
+And heard the house breathe in and out
+The plaster held the sound of all
+The living done beyond this route
+
+[Chorus]
+Hum — the sound of empty rooms
+Hum — the house without its people
+
+[Bridge]
+We think that silence means no sound
+But silence is a symphony of small
+A universe of noise that's found
+Only when you press your ear against the wall
+
+[Chorus]
+Hum — I'm listening to the house now
+Hum — the orchestra of nothing
+Hum — and somehow I know how
+To hear the music underneath the stuffing
+
+[Outro]
+The fridge clicks off, the radiator stops
+For three seconds — perfect silence
+Then the clock resumes its drops
+And the house returns to its quiet violence`,
+
+  "eter-sala-vazia/5": `[Verse 1]
+Tudo o que nunca disse flutua
+Nesta sala como pó suspenso
+Os eu amo-te que a boca recua
+Os perdoa-me que nunca foram imenso
+
+[Verse 2]
+O não-dito tem peso e forma
+Ocupa espaço, consome ar
+É uma presença que não se conforma
+Com o lugar que eu lhe quis dar
+
+[Pre-Chorus]
+O que não se diz não desaparece
+Fica — e cresce no escuro
+
+[Chorus]
+O não-dito mora nesta sala
+Vive nas paredes, no tecto, no chão
+Cada palavra que a boca cala
+Vira fantasma e ocupa a estação
+Nunca disse que estava com medo
+Nunca disse que precisava de ti
+E o não-dito virou segredo
+Que vive aqui — mais forte que eu vivi
+
+[Verse 3]
+Se as paredes desta sala falassem
+Diriam tudo o que eu engoli
+Cada mentira que eu quis que me abraçasse
+E cada verdade que eu não permiti
+
+[Chorus]
+O não-dito mora nesta sala
+Vive nas paredes, no tecto, no chão
+
+[Bridge]
+E se eu abrisse a boca agora
+Nesta sala vazia e sem ninguém
+E dissesse tudo o que demora
+A sair — sem filtro e sem além
+
+[Chorus]
+O não-dito sai devagar
+Palavra a palavra — como sementes
+E a sala começa a respirar
+Com o ar dos meus dentes
+
+[Outro]
+Disse tudo para as paredes
+E as paredes não julgaram
+E o não-dito — nas suas redes
+Finalmente se soltou — e as redes pararam`,
+
+  "eter-sala-vazia/6": `[Verse 1]
+I sat and listened to the nothing
+For the first time in my life
+No podcast and no mindless scrolling
+No distraction from the strife
+
+[Verse 2]
+At first the silence was unbearable
+Like a room with too much light
+Then slowly it became more wearable
+Like a coat that fit just right
+
+[Pre-Chorus]
+Silence has layers if you stay
+Textures and temperatures and grey
+
+[Chorus]
+Listen — to what silence says
+Listen — there are layers here
+Listen — underneath the haze
+Of noise — a voice is crystal clear
+The silence has a warm side
+And a cold side, and a deep
+The silence has a place to hide
+And a place to finally weep
+
+[Verse 3]
+I found that silence has a colour
+A kind of grey that shimmers blue
+And in its depths, there's nothing duller
+Just the oldest version of the true
+
+[Chorus]
+Listen — to what silence says
+Listen — there are layers here
+
+[Bridge]
+We fill our lives with sound and fury
+To avoid the quiet underneath
+But the silence is not judge or jury
+It's just the room where we can breathe
+
+[Chorus]
+Listen — the silence is not empty
+Listen — the silence is not void
+Listen — the silence is always plenty
+Listen — and you'll never be annoyed
+
+[Outro]
+I listen now with different ears
+The silence hums its patient song
+And all the noise of all my years
+Was just the silence — all along`,
+
+  "eter-sala-vazia/7": `[Verse 1]
+Sentei-me no chão da sala escura
+A almofada debaixo dos ossos
+E fechei os olhos na aventura
+De ficar quieta com os meus destroços
+
+[Verse 2]
+A respiração é o único som
+O peito sobe e desce em maré
+E devagar — sem saber como ou com
+Quem — descubro que não estou só de pé
+
+[Pre-Chorus]
+Na meditação encontras alguém
+Que estavas a evitar — tu mesma
+
+[Chorus]
+Meditação na sala vazia
+Sentada no chão e no meu centro
+Meditação que não é magia
+Mas a coragem de olhar para dentro
+Não há anjos nem visões
+Só eu e a respiração
+E neste encontro sem ilusões
+Descubro a mais pura canção
+
+[Verse 3]
+Quinze minutos de nada e tudo
+De estar aqui sem ir a lado nenhum
+E quando abro os olhos no mudo
+Da sala — o mundo é outro — é alguém
+
+[Chorus]
+Meditação na sala vazia
+Sentada no chão e no meu centro
+
+[Bridge]
+Meditar não é fugir do mundo
+É encontrar o mundo cá dentro
+O silêncio que parece fundo
+É o mais perto do centro
+
+[Chorus]
+Meditação — não precisa de incenso
+Precisa de chão e de presença
+Meditação — o gesto mais denso
+É o de ficar — na mais pura essência
+
+[Outro]
+Levanto-me devagar como quem nasce
+Os joelhos protestam e os pés
+E a sala que parecia que se desfaz-se
+Está mais presente do que alguma vez`,
+
+  "eter-sala-vazia/8": `[Verse 1]
+Beneath the silence there's a sound
+That science says is always there
+The cosmic background hum of ground
+And sky and time and everywhere
+
+[Verse 2]
+It started with a bang, they say
+And what remains is just this hum
+A frequency that makes its way
+Through everything — the deaf, the dumb
+
+[Pre-Chorus]
+The universe is never quiet
+It hums at frequencies we can't hear
+
+[Chorus]
+White noise — the sound of being
+White noise — the frequency of all
+White noise — the art of seeing
+Sound inside the silent hall
+The universe hums in every atom
+In every cell and every stone
+And if you listen past the phantom
+You'll hear — you've never been alone
+
+[Verse 3]
+I stood in an anechoic room once
+Where all sound dies against the foam
+And even there I heard the drums
+Of my own blood — calling me home
+
+[Chorus]
+White noise — the sound of being
+White noise — the frequency of all
+
+[Bridge]
+We are the noise inside the quiet
+We are the hum inside the still
+Our bodies are a tiny riot
+Of sound — against the universe's will
+
+[Chorus]
+White noise — you're never truly silent
+White noise — the cosmos never stops
+White noise — the gentle and the violent
+White noise — from the bottom to the tops
+
+[Outro]
+I close my eyes and tune to the hum
+The one beneath the silence and the noise
+And in that frequency I've come
+To hear the universe — and its choice`,
+
+  "eter-sala-vazia/9": `[Verse 1]
+A sala vazia não está vazia
+Está cheia de todos os jantares
+De cada riso e cada folia
+De todos os extraordinários e vulgares
+
+[Verse 2]
+As paredes absorveram anos
+De conversas e de televisão
+De choros de bebés e de enganos
+De cada boa e má decisão
+
+[Pre-Chorus]
+O vazio está cheio do que foi
+E do que poderia ter sido
+
+[Chorus]
+Vazio pleno — a sala que lembra
+Cada gesto que aqui se fez
+Vazio pleno — desde Janeiro a Dezembro
+A vida inteira numa só vez
+Não há ninguém aqui agora
+Mas todos estiveram e ficaram
+Impressos na parede e na hora
+Das vidas que aqui passaram
+
+[Verse 3]
+Ponho a mão na parede e sinto
+O calor de todos os que vieram
+E neste toque meu e distinto
+As paredes dizem que se lembram
+
+[Chorus]
+Vazio pleno — a sala que lembra
+Cada gesto que aqui se fez
+
+[Bridge]
+Nenhuma sala está realmente vazia
+Nenhum espaço está verdadeiramente oco
+Porque onde houve vida e alegria
+O ar guarda tudo — pouco a pouco
+
+[Chorus]
+Vazio pleno — obrigada sala
+Por guardares o que eu já esqueci
+Por seres a maior das gala
+De uma vida que aqui vivi
+
+[Outro]
+Saio da sala e fecho a porta
+Mas a sala não se esvazia
+Porque em cada parede morta
+Vive a mais viva melodia`,
+
+  "eter-sala-vazia/10": `[Verse 1]
+I made a lot of noise today
+I talked and typed and filled the air
+With words and sounds that lost their way
+Between my mouth and over there
+
+[Verse 2]
+But now the day is done and still
+The noise retreats like ocean foam
+And in the quiet on the windowsill
+The silence finally comes home
+
+[Pre-Chorus]
+When you stop making noise
+The silence starts to sing
+
+[Chorus]
+Silence sings — can you hear it now
+The melody beneath the words
+Silence sings — it teaches how
+To listen past the noise of herds
+Not the absence of a sound
+But the presence of attention
+Silence sings from underground
+A hymn beyond our comprehension
+
+[Verse 3]
+I used to fear the quiet dark
+The void where nothing seemed to be
+But now I hear in every spark
+Of silence — an entire sea
+
+[Chorus]
+Silence sings — can you hear it now
+The melody beneath the words
+
+[Bridge]
+From nothing comes the purest note
+From stillness comes the truest dance
+The silence wrote the greatest quote
+And gave us all a second chance
+
+[Chorus]
+Silence sings — the anthem of the still
+Silence sings — for every ear that dares
+Silence sings — beneath the windowsill
+Silence sings — and someone, somewhere, cares
+
+[Outro]
+I sit in silence and I hear
+The oldest song the world has known
+A song of nothing, crystal clear
+And I have never been less alone`,
+
 };
