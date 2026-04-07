@@ -1118,4 +1118,548 @@ The sky turns from grey to rose
 I didn't do a single thing, not one
 And it was the most beautiful prose`,
 
+  // ─────────────────────────────────────────────
+  // FOTOGRAFIA VELHA (saudade de um tempo que talvez nunca existiu)
+  // ─────────────────────────────────────────────
+
+  "eter-fotografia-velha/1": `[Verse 1]
+A fotografia amarelou nas bordas
+Mas a memória ficou a cores
+Os rostos tremem como cordas
+De uma guitarra sem autores
+
+[Verse 2]
+Sou eu naquela imagem antiga
+Com olhos que ainda não sabiam
+Que o tempo é uma rapariga
+Que leva tudo o que lhe diam
+
+[Pre-Chorus]
+A foto mente menos que eu
+Mostra o que eu já esqueci de ser
+
+[Chorus]
+Fotografia velha, papel que guarda
+O que os olhos já perderam
+Fotografia velha, prova bastarda
+De dias que já não me querem
+Mas eu quero-os — cada ruga do papel
+Cada risco, cada mancha, cada cor
+Porque a foto é o meu anel
+Com o tempo que morreu e o seu amor
+
+[Verse 3]
+Não me lembro do dia desta foto
+Não me lembro quem carregou no botão
+Mas lembro-me do ar — todo
+E do silêncio antes da canção
+
+[Chorus]
+Fotografia velha, papel que guarda
+O que os olhos já perderam
+
+[Bridge]
+Se eu pudesse entrar na foto
+Diria ao meu eu mais novo
+Não tenhas medo — cada roto
+É um recomeço, não um voto
+
+[Chorus]
+Fotografia velha, luz que fica
+Mesmo quando o dia já passou
+A memória é uma fábrica
+De beleza que ninguém mandou
+
+[Outro]
+Guardo a foto na gaveta
+Não porque esqueça mas porque sei
+Que a saudade é uma poeta
+Que escreve melhor do que eu sei`,
+
+  "eter-fotografia-velha/2": `[Verse 1]
+A polaroid from August, faded white
+The colours bleeding into one
+A moment frozen before flight
+Before we knew that we were done
+
+[Verse 2]
+Your face is there but barely clear
+A ghost between the light and shade
+I feel the distance of a year
+In every colour that has frayed
+
+[Pre-Chorus]
+We didn't know it mattered then
+Now it's all that's left of when
+
+[Chorus]
+Polaroid, shake it one more time
+Bring the colour back to life
+Polaroid, frozen moment, mine
+Before the world became a knife
+A photograph is just a lie
+That tells the truth we couldn't say
+A moment caught before goodbye
+A second saved from going grey
+
+[Verse 3]
+I found it in a shoebox, creased
+Between receipts and rubber bands
+A summer that had long since ceased
+Alive between my shaking hands
+
+[Chorus]
+Polaroid, shake it one more time
+Bring the colour back to life
+
+[Bridge]
+We take a thousand photos now
+On phones that hold a million days
+But nothing hits me quite like how
+This one small square of light still stays
+
+[Chorus]
+Polaroid, you don't need a frame
+You don't need a gallery wall
+You just need someone who'll reclaim
+The love inside you before the fall
+
+[Outro]
+I put the polaroid back down
+Face up, beside my morning cup
+Some memories don't need a crown
+Just someone brave enough to look up`,
+
+  "eter-fotografia-velha/3": `[Verse 1]
+Um cheiro de pão quente na rua
+E de repente tenho dez anos
+A cozinha da avó era sua
+E o mundo não tinha enganos
+
+[Verse 2]
+Basta um cheiro e desaparece
+Tudo o que construí depois
+O corpo lembra, a mente esquece
+Mas o nariz nunca diz adeus
+
+[Pre-Chorus]
+O cheiro não pede licença
+Entra e leva-te sem volta
+
+[Chorus]
+O cheiro que te leva a um lugar
+Que já não existe em lado nenhum
+A cozinha, o quintal, o mar
+De um verão que era só um
+Perfume de quem já se foi
+De roupa lavada ao sol
+De terra depois da chuva — o que dói
+É que o cheiro é o único farol
+
+[Verse 3]
+Passei pela padaria e parei
+O cheiro era exactamente igual
+Ao pão que a avó me deu e eu comi
+Sentada no banco de metal
+
+[Chorus]
+O cheiro que te leva a um lugar
+Que já não existe em lado nenhum
+
+[Bridge]
+Se pudesse engarrafar o cheiro
+Da casa onde fui feliz
+Guardava-o como um tesouro inteiro
+E abria sempre que o coração diz
+
+[Chorus]
+O cheiro fica quando tudo parte
+O último sentido a esquecer
+A memória é uma arte
+E o nariz é quem sabe viver
+
+[Outro]
+Fecho os olhos e inspiro
+A padaria mistura-se com a avó
+E neste gesto eu respiro
+Tudo o que já fui — e já não estou só`,
+
+  "eter-fotografia-velha/4": `[Verse 1]
+The song came on the radio
+The one from that summer, that car
+And suddenly I was seventeen, aglow
+With the feeling of being a star
+
+[Verse 2]
+The windows were down, the road was straight
+Lisa was laughing in the back
+We didn't know we had an expiry date
+We were just kids on a one-way track
+
+[Pre-Chorus]
+Three chords and the past comes flooding in
+Like a dam that held for twenty years
+
+[Chorus]
+Old song on the radio, time collapses
+Back to seventeen, the wind, the night
+Old song on the radio, memory lapses
+Everything was wrong but felt so right
+I can taste the summer on my tongue
+The cheap wine and the borrowed car
+I can hear the words we would have sung
+If we knew how short the summers are
+
+[Verse 3]
+Lisa moved away, the car got sold
+The road was paved over twice since then
+But the song plays and I'm not old
+I'm seventeen and alive again
+
+[Chorus]
+Old song on the radio, time collapses
+Back to seventeen, the wind, the night
+
+[Bridge]
+Music is a time machine
+That doesn't need a ticket back
+It takes you to the in-between
+Of who you were and what you lack
+
+[Chorus]
+Old song on the radio, play it again
+Let me live inside these three minutes
+Let me be that girl in the rain
+Who had nothing and was infinite
+
+[Outro]
+The song ends, the present returns
+I'm standing in a grocery store
+But something in my ribcage burns
+With a summer I cannot ignore`,
+
+  "eter-fotografia-velha/5": `[Verse 1]
+Voltei à casa onde cresci
+Está mais pequena do que eu lembro
+A árvore que eu subia daqui
+É enorme agora — novembro
+
+[Verse 2]
+O meu quarto é uma arrecadação
+Pintaram a porta de outra cor
+E o jardim que era uma nação
+Cabe agora num corredor
+
+[Pre-Chorus]
+A memória amplia o que era pequeno
+E o presente encolhe o que era imenso
+
+[Chorus]
+A casa onde cresci já não me conhece
+A porta não se lembra do meu nome
+As paredes não guardam quem parece
+Ter vivido aqui — só a fome
+Fome de voltar ao que já não é
+Fome de encontrar o que ficou
+Fome de pisar o mesmo pé
+No chão que o tempo já mudou
+
+[Verse 3]
+A vizinha morreu, o cão também
+O muro tem uma rachadura
+E eu estou aqui como quem
+Visita a sua própria sepultura
+
+[Chorus]
+A casa onde cresci já não me conhece
+A porta não se lembra do meu nome
+
+[Bridge]
+Não voltamos aos lugares — voltamos às versões
+De nós que lá ficaram presas
+E cada regresso é uma colecção
+De fantasmas e de surpresas
+
+[Chorus]
+A casa onde cresci vive em mim
+Não nestas paredes nem neste chão
+Vive no sítio onde eu digo sim
+Ao que fui sem pedir perdão
+
+[Outro]
+Fechei a porta e não olhei para trás
+A casa ficou no seu lugar
+E eu levei comigo o que ela faz
+O eco de quem eu aprendi a amar`,
+
+  "eter-fotografia-velha/6": `[Verse 1]
+I found the letters in a drawer
+Tied with string, the ink gone pale
+Handwriting I don't know anymore
+From a love that left no trail
+
+[Verse 2]
+"My dearest" — that's how they begin
+Words from someone I once held
+A version of a love that's been
+Rewritten every time I've knelt
+
+[Pre-Chorus]
+Paper holds what skin forgets
+The weight of words we used to mean
+
+[Chorus]
+Letters from a love I've lost
+Not to death but just to time
+Handwriting I've almost crossed
+Off the map inside my mind
+Who were we when we wrote these lines
+On paper thin as breath and bone
+We were younger, drawing signs
+On each other's skin — now I read alone
+
+[Verse 3]
+"I miss you when the morning comes"
+He wrote that in July, I think
+Now morning comes and morning drums
+And I don't even pause to blink
+
+[Chorus]
+Letters from a love I've lost
+Not to death but just to time
+
+[Bridge]
+Should I burn them, should I keep
+These archives of another heart
+They're not mine, they're not his — deep
+In the drawer, they are their own art
+
+[Chorus]
+Letters from a life I lived
+From a hand I held and let go free
+Every word a gift I give
+Back to the people we used to be
+
+[Outro]
+I tie the string and close the drawer
+These letters don't need me to read them
+They just need a place to store
+The love that time could never bleed from`,
+
+  "eter-fotografia-velha/7": `[Verse 1]
+Aquele verão durou para sempre
+Pelo menos é o que eu conto
+Os dias eram longos como quem mente
+E as noites não tinham desconto
+
+[Verse 2]
+O Pedro tinha um carro velho
+A Rita ria sem parar
+E eu usava aquele espelho
+Para fingir que sabia amar
+
+[Pre-Chorus]
+Noventa e nove — o último verão
+Antes de tudo mudar sem razão
+
+[Chorus]
+O verão de noventa e nove
+Durava mais do que o normal
+Cada dia era uma estrela que se move
+No céu de um tempo que era real
+O Pedro, a Rita, o carro, o rio
+A cassete que não tinha mais
+E eu — sem medo e sem frio
+Num verão que não volta mais
+
+[Verse 3]
+Depois veio Outubro e o trabalho
+Depois veio a vida a sério
+E o verão ficou como um retalho
+Numa colcha cheia de mistério
+
+[Chorus]
+O verão de noventa e nove
+Durava mais do que o normal
+
+[Bridge]
+Será que foi assim tão bom
+Ou a memória pinta o que quer
+Será que o sol tinha aquele tom
+Ou eu preciso de acreditar nesse ser
+
+[Chorus]
+O verão de noventa e nove
+Talvez não tenha sido assim
+Mas a memória é quem o move
+E eu preciso dele dentro de mim
+
+[Outro]
+O Pedro já não ligo há anos
+A Rita casou e foi-se embora
+Mas o verão sem enganos
+Vive em mim como se fosse agora`,
+
+  "eter-fotografia-velha/8": `[Verse 1]
+I'm standing in a kitchen now
+That doesn't exist outside my skull
+The counter where she'd show me how
+To crack an egg and make it full
+
+[Verse 2]
+The steam that rose from pots she'd stir
+The radio that played too low
+The apron that still smelled of her
+Long after she had had to go
+
+[Pre-Chorus]
+The kitchen lives where no one cooks
+In the ghost house of my memory
+
+[Chorus]
+Ghost kitchen, wooden spoon in hand
+Flour on the cheek that isn't there
+Ghost kitchen, I can almost stand
+And feel her fingers in my hair
+The bread she made with tired hands
+The soup that cured what doctors missed
+I'll never taste this food again
+But my tongue remembers what it kissed
+
+[Verse 3]
+I cook her recipe and fail
+The measurements were never written down
+She kept them in a place more frail
+Than paper — in the space between a noun
+
+[Chorus]
+Ghost kitchen, wooden spoon in hand
+Flour on the cheek that isn't there
+
+[Bridge]
+Some kitchens are not rooms but hearts
+That beat in flour and in steam
+And when the woman who cooked departs
+The kitchen becomes a dream
+
+[Chorus]
+Ghost kitchen, I return to you
+Not to cook but just to stand
+In the warm and floury blue
+Of a love I'll never understand
+
+[Outro]
+I close my eyes in my own kitchen
+And for a second, she is here
+The steam rises like a benediction
+And the ghost kitchen is near`,
+
+  "eter-fotografia-velha/9": `[Verse 1]
+Tenho saudades de um tempo
+Que talvez nunca tenha sido assim
+A memória é um instrumento
+Que toca sempre a favor de mim
+
+[Verse 2]
+Lembro-me do sol mais quente
+Das risadas mais compridas
+Da vida mais inocente
+Que não existia nessas vidas
+
+[Pre-Chorus]
+A saudade inventa o que precisa
+E o coração acredita sem prova
+
+[Chorus]
+Saudade inventada, ficção bonita
+A memória é uma romancista
+Que escreve sempre a mesma receita
+Com açúcar a mais e uma vista
+De um passado que nunca existiu
+Exactamente como eu lembro
+Mas a mentira que o corpo sentiu
+É mais verdade que o Dezembro
+
+[Verse 3]
+Talvez o verão não fosse assim
+Talvez a avó não fosse santa
+Talvez eu edite o meu jardim
+E tire as ervas e ponha a planta
+
+[Chorus]
+Saudade inventada, ficção bonita
+A memória é uma romancista
+
+[Bridge]
+E se a saudade for mais real
+Do que o que realmente aconteceu
+Se o que o coração acha genial
+É mais verdade que o viveu
+
+[Chorus]
+Saudade inventada — mas minha
+Ficção bonita — mas sentida
+A memória é uma vizinha
+Que conta a história da nossa vida
+
+[Outro]
+Aceito a saudade como é
+Uma mistura de verdade e invenção
+E ponho os dois ao mesmo pé
+Porque os dois moram no coração`,
+
+  "eter-fotografia-velha/10": `[Verse 1]
+I kept the photograph, the scarf
+The ticket stub, the faded card
+I kept the first half of a laugh
+I kept the easy and the hard
+
+[Verse 2]
+But there are things I couldn't keep
+The way she smelled, the way he walked
+The sound of someone in their sleep
+The rhythm of the way we talked
+
+[Pre-Chorus]
+What you choose to keep — and what keeps you
+Two sides of the same old coin
+
+[Chorus]
+Keep — the word that weighs like gold
+Keep — the act of choosing memory
+Keep — the things that can't be sold
+Keep — the love in inventory
+These objects hold the ghosts of days
+The scarf still smells of someone gone
+We keep them in our human ways
+Because to keep is to carry on
+
+[Verse 3]
+She kept my letters, I kept her ring
+We traded relics of a past
+And in the keeping of each thing
+We proved that love was meant to last
+
+[Chorus]
+Keep — the word that weighs like gold
+Keep — the act of choosing memory
+
+[Bridge]
+Not hoarding but remembering
+Not clinging but respecting
+The act of keeping is a tender thing
+A way of still connecting
+
+[Chorus]
+Keep what keeps you, let the rest go
+Keep the scarf but lose the doubt
+Keep the love and let the grief flow
+That's what keeping is about
+
+[Outro]
+I hold the photograph up to the light
+The faces glow from somewhere far
+And what I keep tonight
+Is not the image — but the star`,
+
 };
