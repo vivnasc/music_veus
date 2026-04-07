@@ -135,7 +135,7 @@ export default function LancamentosPage() {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(newItems)); } catch {}
   }, []);
 
-  // Fetch audio status
+  // Fetch audio status + auto-add fully produced albums
   useEffect(() => {
     adminFetch("/api/admin/audio-status")
       .then((r) => r.json())
@@ -149,6 +149,38 @@ export default function LancamentosPage() {
           }
         }
         setAudioMap(map);
+
+        // Auto-add albums with 100% audio to the schedule as "pronto"
+        setItems((prev) => {
+          const existingSlugs = new Set(prev.map((i) => i.slug));
+          const toAdd: ScheduleItem[] = [];
+          for (const album of ALL_ALBUMS) {
+            if (existingSlugs.has(album.slug)) continue;
+            const produced = map[album.slug]?.size || 0;
+            if (produced >= album.tracks.length && album.tracks.length > 0) {
+              toAdd.push({ slug: album.slug, status: "pronto" });
+            }
+          }
+          // Also upgrade existing "a-produzir" items to "pronto" if fully produced
+          const updated = prev.map((item) => {
+            if (item.status === "a-produzir" || item.status === "em-producao") {
+              const album = ALL_ALBUMS.find((a) => a.slug === item.slug);
+              const produced = map[item.slug]?.size || 0;
+              if (album && produced >= album.tracks.length && album.tracks.length > 0) {
+                return { ...item, status: "pronto" as AlbumStatus };
+              }
+            }
+            return item;
+          });
+          if (toAdd.length === 0 && JSON.stringify(updated) === JSON.stringify(prev)) return prev;
+          // Insert new "pronto" albums after published but before the rest
+          const pubItems = updated.filter((i) => i.status === "publicado" || i.status === "lancado");
+          const rest = updated.filter((i) => i.status !== "publicado" && i.status !== "lancado");
+          const merged = [...pubItems, ...toAdd, ...rest];
+          try { localStorage.setItem(STORAGE_KEY, JSON.stringify(merged)); } catch {}
+          return merged;
+        });
+
         setLoading(false);
       })
       .catch(() => setLoading(false));
