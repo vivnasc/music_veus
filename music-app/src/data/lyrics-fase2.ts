@@ -572,4 +572,550 @@ Lighter now, with open hands
 What I envied, what I feared
 Was just life — making its demands`,
 
+  // ─────────────────────────────────────────────
+  // TARDES VAZIAS (a beleza do nada)
+  // ─────────────────────────────────────────────
+
+  "mare-tardes-vazias/1": `[Verse 1]
+Não há nada para fazer
+Não há pressa nem lugar
+O sofá decidiu dizer
+Que hoje é dia de ficar
+
+[Verse 2]
+O relógio faz tic-tac
+Mas ninguém está a contar
+A tarde é um saco sem fundo
+Onde cabe o mundo inteiro a descansar
+
+[Pre-Chorus]
+Nada — a palavra mais rica
+Quando dita sem culpa no peito
+
+[Chorus]
+Nada para fazer, nada para ser
+Nada para provar a ninguém
+Nada a não ser viver
+E deixar a tarde também
+Nada que doa, nada que pese
+Nada que exija um plano
+Só o corpo que finalmente aquece
+Num silêncio quase humano
+
+[Verse 3]
+Lá fora o mundo continua
+A correr sem mim e sem pressa
+E eu aqui na minha lua
+Descubro que a pausa é uma peça
+
+[Chorus]
+Nada para fazer, nada para ser
+Nada para provar a ninguém
+
+[Bridge]
+A produtividade pode esperar
+O email pode arrefecer
+A vida inteira é feita de parar
+E de às vezes não fazer
+
+[Chorus]
+Nada para fazer — e é perfeito
+Nada para ser — e estou inteira
+Nada a não ser deitar no leito
+Desta tarde que é uma banheira
+
+[Outro]
+A tarde vazia encheu-se de mim
+De tudo o que sou quando paro
+O nada era um jardim
+E eu era a flor mais bonita do cenário`,
+
+  "mare-tardes-vazias/2": `[Verse 1]
+A beam of light across the room
+Dust floating like confetti thrown
+By invisible hands in afternoon
+A private show for me alone
+
+[Verse 2]
+Each particle a tiny world
+Spinning slow in golden air
+The universe in miniature, unfurled
+In a column of light on the stair
+
+[Pre-Chorus]
+The smallest things become enormous
+When you finally stop to see
+
+[Chorus]
+Dust in the light, dust in the air
+A universe I never noticed
+Dust in the beam, floating there
+Dancing without any motive
+Everything slows when you watch it close
+Time becomes thick, becomes honey
+The afternoon holds what nobody knows
+That nothing is everything, funny
+
+[Verse 3]
+I could watch this show for hours
+This slow ballet of almost-nothing
+The dust has more grace than flowers
+When you stop and feel the something
+
+[Chorus]
+Dust in the light, dust in the air
+A universe I never noticed
+Everything small is everywhere
+When your eyes become devoted
+
+[Bridge]
+We chase the big, the loud, the fast
+We run from still and small and slow
+But what I found here, made to last
+Is that the dust already knows
+
+[Chorus]
+Dust in the light, dust in the beam
+The world is here in miniature
+This afternoon is not a dream
+It's the most awake I've ever been, for sure
+
+[Outro]
+The beam moves on, the dust still floats
+I breathe it in, this golden air
+The afternoon wrote tiny notes
+Of beauty — everywhere`,
+
+  "mare-tardes-vazias/3": `[Verse 1]
+Este sofá conhece-me melhor
+Que qualquer confessionário
+Sabe onde dói, onde mora o amor
+E onde o corpo faz inventário
+
+[Verse 2]
+A marca do meu corpo está no tecido
+O formato das minhas costas no encosto
+Cada almofada tem o meu sentido
+E cada mancha tem o meu rosto
+
+[Pre-Chorus]
+Nenhum abraço é tão honesto
+Como o sofá que já sabe o resto
+
+[Chorus]
+O sofá sabe tudo de mim
+Sabe as noites, sabe os dias
+Sabe o choro que não tem fim
+E as gargalhadas mais vazias
+O sofá não julga nem pergunta
+Não precisa de razão
+Só me recebe como quem junta
+O corpo ao chão com compaixão
+
+[Verse 3]
+Aqui chorei quando ele foi embora
+Aqui dormi a primeira sesta do bebé
+Aqui sentei quando chegou a hora
+De perceber que basta ser quem é
+
+[Chorus]
+O sofá sabe tudo de mim
+Sabe as noites, sabe os dias
+
+[Bridge]
+Um dia vou deixar este sofá
+E alguém novo vai sentar-se aqui
+Mas a forma do meu corpo vai ficar
+Como uma carta que eu deixei para ti
+
+[Chorus]
+O sofá guarda tudo de mim
+E eu guardo tudo do sofá
+Este amor estranho e sem fim
+Entre quem fica e quem está
+
+[Outro]
+Sento-me devagar e respiro
+O tecido acolhe-me sem som
+Este sofá é o meu retiro
+E a tarde vazia é o meu dom`,
+
+  "mare-tardes-vazias/4": `[Verse 1]
+Rain on the window like a hand
+Tapping softly, asking in
+The grey outside is contraband
+For the warmth I'm hiding in
+
+[Verse 2]
+No reason to go anywhere
+The rain has cancelled all my plans
+And in this cancellation, there
+Is something close to second chance
+
+[Pre-Chorus]
+The rain gives permission to stay
+To do nothing and call it a day
+
+[Chorus]
+Rain on the window, rain on the glass
+The best excuse to go nowhere
+Rain on the window, let the hours pass
+I'm staying here in my underwear
+Let the world get wet outside
+Let the traffic splash and curse
+I'm on the warm and dry inside
+And doing nothing — it's a universe
+
+[Verse 3]
+The kettle boils, the blanket waits
+The book lies open on my chest
+The rain negotiates the drains
+And I negotiate my rest
+
+[Chorus]
+Rain on the window, rain on the glass
+The best excuse to go nowhere
+
+[Bridge]
+There's a violence to the rain I love
+The way it drums without remorse
+While I lie soft beneath the roof above
+And let it run its course
+
+[Chorus]
+Rain on the window, gentle and loud
+The orchestra of staying home
+Rain on the window, grey as a cloud
+And I have never felt less alone
+
+[Outro]
+The rain stops eventually
+The window clears, the street shines new
+But I'll remember tenderly
+This afternoon the rain made true`,
+
+  "mare-tardes-vazias/5": `[Verse 1]
+O chá ficou frio na caneca
+E eu nem dei conta que o tempo passou
+Estava a olhar pela janela
+E uma hora inteira se roubou
+
+[Verse 2]
+A árvore mexeu com o vento
+Um pássaro pousou no muro
+E eu perdi-me no momento
+Como quem cai num buraco escuro
+
+[Pre-Chorus]
+Mas não era escuro — era largo
+Era tempo sem nome e sem cargo
+
+[Chorus]
+Chá frio na mão, olhos na janela
+Uma hora que não pedi licença
+O mundo passou como uma vela
+E eu fiquei aqui sem presença
+Sem presença e sem ausência
+Só a janela e o olhar
+A mais bonita negligência
+É esquecer-se de estar
+
+[Verse 3]
+O chá frio tem um gosto bom
+De tempo que não foi planeado
+De tarde que não tem um som
+De corpo que está sossegado
+
+[Chorus]
+Chá frio na mão, olhos na janela
+Uma hora que eu não pedi
+
+[Bridge]
+Que desperdício bonito
+Que luxo caro e invisível
+Perder uma hora num grito
+De silêncio inadmissível
+
+[Chorus]
+Chá frio na mão — e tudo bem
+Olhos na janela — e nada mais
+A tarde não pertence a ninguém
+E é por isso que é capaz
+
+[Outro]
+Aqueço outro chá devagar
+Não porque preciso mas porque posso
+E desta vez vou-me lembrar
+De beber antes que esfrie — ou não`,
+
+  "mare-tardes-vazias/6": `[Verse 1]
+The book lies open on my chest
+Page one-forty-something, lost
+I stopped reading but I didn't rest
+I just drifted at no cost
+
+[Verse 2]
+My eyes are heavy, not with sleep
+But with the weight of nothing new
+A lazy kind of feeling, deep
+An afternoon of passing through
+
+[Pre-Chorus]
+Not sleeping, not awake
+Just floating in the in-between
+
+[Chorus]
+Pages on my chest, eyes half-closed
+A body somewhere between here and dream
+Pages on my chest, the afternoon composed
+A symphony of nothing as its theme
+Not reading, not sleeping, just being
+A creature on a sofa, warm and slow
+The afternoon has its own meaning
+When you finally let the pages go
+
+[Verse 3]
+The bookmark fell behind the cushion
+I'll find it later, or I won't
+The plot can wait for my attention
+The afternoon will wait — I don't
+
+[Chorus]
+Pages on my chest, eyes half-closed
+A body somewhere between here and dream
+
+[Bridge]
+There are entire lives in pausing
+In the gap between one breath and next
+The book was just an alibi, causing
+This beautiful excuse to rest
+
+[Chorus]
+Pages on my chest, afternoon on mine
+A treaty signed between my body and the day
+Nothing to accomplish, nothing to define
+Just a human being, gently underway
+
+[Outro]
+The book slides off, I let it fall
+The sofa catches what the hand released
+This afternoon was nothing at all
+And nothing — was a feast`,
+
+  "mare-tardes-vazias/7": `[Verse 1]
+O relógio parou às três
+E ninguém reparou que parou
+A tarde continuou como se
+O tempo fosse um convidado que se sentou
+
+[Verse 2]
+Sem horas não há atraso
+Sem ponteiros não há pressa
+O silêncio é um abraço
+De uma tarde que não peça
+
+[Pre-Chorus]
+Parar o tempo é fácil —
+Basta deixar de olhar
+
+[Chorus]
+Relógio parado, tarde infinita
+O tempo não manda em mim
+Relógio parado, hora bendita
+De não ter princípio nem fim
+O dia deita-se no sofá
+E ninguém o obriga a levantar
+A tarde é o que sempre será
+Quando tu a deixas respirar
+
+[Verse 3]
+Sem compromissos nem alarmes
+A tarde alarga como o rio
+Sem rédeas, bordas, nem enxames
+Só o silêncio e o seu frio
+
+[Chorus]
+Relógio parado, tarde infinita
+O tempo não manda em mim
+
+[Bridge]
+E se eu vivesse sempre assim
+Sem saber que horas são
+Será que o mundo acabava em mim
+Ou eu encontrava outra estação
+
+[Chorus]
+Relógio parado — e eu acordo
+Para o som de não ter som
+A tarde é uma corda
+E eu toco-a com o meu dom
+
+[Outro]
+Não troquei a pilha do relógio
+Deixei a tarde ser eterna
+E descobri neste naufrágio
+Que a paz é uma lanterna`,
+
+  "mare-tardes-vazias/8": `[Verse 1]
+Bare feet on tile, the floor is cool
+The house is empty, windows wide
+I walk from room to room, a fool
+For the feeling of the cool inside
+
+[Verse 2]
+The kitchen tile is coldest here
+Where shadow lives beneath the counter
+I press my soles and feel them clear
+Like a river and a mountain's daughter
+
+[Pre-Chorus]
+When did floors become this beautiful
+When did tiles become this kind
+
+[Chorus]
+Barefoot on the floor, afternoon heat
+The simplest pleasure — cold on warm
+Barefoot on the floor, sole to sheet
+Of tile that cools like a summer storm
+Nothing complicated, nothing grand
+Just feet on a floor in an empty house
+This is something I understand
+This is how the body becomes a mouse
+
+[Verse 3]
+I spread my toes, I feel the grout
+The lines between each square of stone
+This floor has held me, without a doubt
+Through every day I've been alone
+
+[Chorus]
+Barefoot on the floor, afternoon heat
+The simplest pleasure known to skin
+
+[Bridge]
+We spend our lives reaching for the sky
+When everything we need is down
+The floor is where the truth will lie
+The ground is where the lost are found
+
+[Chorus]
+Barefoot on the floor, cool and still
+A body coming home to earth
+These tiles beneath me hold me, will
+Always catch me, for what it's worth
+
+[Outro]
+I sit down on the kitchen floor
+Back against the cabinet, bare
+This afternoon I wanted more
+But more was always here`,
+
+  "mare-tardes-vazias/9": `[Verse 1]
+Os olhos fecham-se sozinhos
+Não pedi, não planeei
+O corpo toma os seus caminhos
+E eu obedeço como quem sei
+
+[Verse 2]
+A cabeça pesa no sofá
+As mãos soltam o que tinham
+E a tarde diz vem cá
+Deita-te nesta paz que é minha
+
+[Pre-Chorus]
+O corpo sabe mais que tu
+A sesta não se pede — vem
+
+[Chorus]
+Os olhos fecham e o mundo some
+A sesta chega como maré
+Sem hora certa e sem nome
+Sem razão e sem porquê
+O corpo desce e o ar abranda
+A tarde embala como um barco
+E eu deixo-me ir nesta varanda
+De sono macio e arco
+
+[Verse 3]
+Dez minutos ou talvez trinta
+O tempo aqui não tem sentido
+A sesta é uma tinta
+Que pinta o dia de esquecido
+
+[Chorus]
+Os olhos fecham e o mundo some
+A sesta chega como maré
+
+[Bridge]
+Dormir de dia é uma rebelião
+Contra o mundo que nunca pára
+Um acto de desobediência e não
+Um acto de quem prepara
+
+[Chorus]
+A sesta veio e eu deixei
+Os olhos fechar como cortinas
+E neste sono que aceitei
+Moram as tardes mais divinas
+
+[Outro]
+Acordo devagar sem saber
+Que dia é, que hora — e não importa
+A sesta ensinou-me a viver
+Com a chave do tempo na porta`,
+
+  "mare-tardes-vazias/10": `[Verse 1]
+They told me time is money, time is gold
+They told me idle hands will rot
+But here I am, doing nothing bold
+And I have never felt this hot
+
+[Verse 2]
+Hot with life, hot with still
+Hot with the audacity of rest
+I filled my afternoon with nil
+And somehow passed the hardest test
+
+[Pre-Chorus]
+The test of stopping in a world
+That only values what you've done
+
+[Chorus]
+Empty afternoon, my anthem plays
+For every couch that held a body still
+Empty afternoon, the laziest praise
+For doing nothing with the highest skill
+I am not productive, I am not on track
+I am lying down and I am staring at the ceiling
+And I am never, ever going back
+To pretending that this isn't healing
+
+[Verse 3]
+The world will spin without my help
+The emails wait, the deadlines too
+But this soft animal of self
+Needs a Sunday afternoon — it's overdue
+
+[Chorus]
+Empty afternoon, my anthem plays
+For every couch that held a body still
+
+[Bridge]
+Let them hustle, let them grind
+Let them optimise their sleep
+I will stay here, unrefined
+In the only rest that's deep
+
+[Chorus]
+Empty afternoon, raise your voice
+For every human who chose rest
+Empty afternoon, it's a choice
+And it's the bravest and the best
+
+[Outro]
+The afternoon is almost done
+The sky turns from grey to rose
+I didn't do a single thing, not one
+And it was the most beautiful prose`,
+
 };
