@@ -24,7 +24,7 @@ type Release = {
 
 // 3 álbuns/semana em dias fixos: Segunda, Quarta e Sexta.
 // Sexta coincide com New Music Friday do Spotify = melhor visibilidade.
-// 10 álbuns = 3 semanas + 1 dia (3+3+3+1).
+// 12 álbuns = 4 semanas completas (3+3+3+3).
 // Ordem estratégica: começar pelo mais leve, variar colecções e energias.
 
 const RELEASE_DAYS = "Segunda · Quarta · Sexta";
@@ -104,12 +104,24 @@ const RELEASES: Release[] = [
     notes: "Duetos íntimos. Diálogos cantados no quotidiano.",
   },
 
-  // ── Semana 4: Fecho (Seg 5 Mai) ──
+  // ── Semana 4: Recomeços + Verão + Noite (Seg 4, Qua 6, Sex 8 Mai) ──
   {
     albumSlug: "grao-porta-aberta",
     releaseDate: "2026-05-04",
     status: "a-produzir",
     notes: "Primeiras vezes: escola, emprego, cidade nova.",
+  },
+  {
+    albumSlug: "grao-sal-na-pele",
+    releaseDate: "2026-05-06",
+    status: "a-produzir",
+    notes: "Praia, calor, sal na pele, cigarras. House + marrabenta.",
+  },
+  {
+    albumSlug: "mare-lua-acordada",
+    releaseDate: "2026-05-08",
+    status: "a-produzir",
+    notes: "Passeios nocturnos, luzes da cidade, pensamentos às 3h.",
   },
 ];
 
@@ -222,7 +234,7 @@ export default function LancamentosPage() {
     "Semana 1 — Alegria + Corpo",
     "Semana 2 — Chill + Ciclos + Dança",
     "Semana 3 — Profundidade + Duetos",
-    "Semana 4 — Fecho",
+    "Semana 4 — Recomeços + Verão + Noite",
   ];
 
   for (const r of upcoming) {
@@ -361,8 +373,8 @@ export default function LancamentosPage() {
             revisão manual no Spotify. 3/semana é o máximo seguro.
           </li>
           <li>
-            <span className="text-[#F5F0E6]">Total:</span> 10 álbuns em ~3.5 semanas
-            (13 Abril → 4 Maio 2026).
+            <span className="text-[#F5F0E6]">Total:</span> 12 álbuns em 4 semanas
+            (13 Abril → 8 Maio 2026).
           </li>
         </ul>
       </div>
