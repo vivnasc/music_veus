@@ -4382,4 +4382,548 @@ The joy that needs no invitation
 From somewhere deep beneath the skies
 A human, happy, standing ovation`,
 
+  // ─────────────────────────────────────────────
+  // SALTO BONITO (palco, primeiro beijo, saltos de fé)
+  // ─────────────────────────────────────────────
+
+  "incenso-salto-bonito/1": `[Verse 1]
+As luzes acendem e o chão treme
+Ou sou eu que tremo — não sei
+As pernas não obedecem a quem me
+Trouxe até aqui — até ao rei
+
+[Verse 2]
+O microfone está frio na mão
+A sala está cheia de gente
+E cada rosto é uma questão
+Que me pergunta — és suficiente
+
+[Pre-Chorus]
+O primeiro passo no palco é uma queda
+Para cima — contra a gravidade
+
+[Chorus]
+Palco — as pernas tremem e a voz não
+Palco — o medo veste-se de luz
+Palco — é a maior oração
+De quem escolheu mostrar o que produz
+A garganta aperta mas o som sai
+O corpo duvida mas os pés ficam
+E este salto que o medo trai
+É o mais bonito que eu dedico
+
+[Verse 3]
+Cantei — mal ou bem não importa
+Cantei até ficar sem ar
+E quando saí por aquela porta
+Sabia que podia recomeçar
+
+[Chorus]
+Palco — as pernas tremem e a voz não
+Palco — o medo veste-se de luz
+
+[Bridge]
+O palco não é só de artistas
+É de quem fala numa reunião
+De quem levanta a mão nas pistas
+De quem diz eu estou aqui — em vão ou não
+
+[Chorus]
+Palco — para todos os que tremem
+Palco — para todos os que ficam
+Palco — para todos os que se entendem
+Com o medo — e mesmo assim se dedicam
+
+[Outro]
+As luzes apagam e eu respiro
+No escuro o coração ainda bate
+E este palco que é o meu retiro
+É a prova de que o medo não me abate`,
+
+  "incenso-salto-bonito/2": `[Verse 1]
+The tilt of a head, the breath held tight
+The distance between two mouths
+Was smaller than the speed of light
+But bigger than all the norths and souths
+
+[Verse 2]
+I don't remember who moved first
+Who closed the gap of half an inch
+I just remember how I burst
+Like something freed from a winch
+
+[Pre-Chorus]
+The universe held its breath
+And time became a photograph
+
+[Chorus]
+First kiss — the moment before the touch
+When the air between us weighed a ton
+First kiss — I never wanted much
+Just this — two people becoming one
+The lips that barely made it there
+The eyes that couldn't stay open
+The electricity in the air
+Of a sentence that's finally spoken
+
+[Verse 3]
+It lasted three seconds, maybe four
+But the aftershock went on for years
+I can still feel it in my core
+The taste of courage mixed with tears
+
+[Chorus]
+First kiss — the moment before the touch
+When the air between us weighed a ton
+
+[Bridge]
+Every first kiss is a leap of faith
+Into the mouth of someone new
+And every time you feel unsafe
+The kiss reminds you — you can get through
+
+[Chorus]
+First kiss — for everyone who leaned in
+First kiss — for everyone who shook
+First kiss — the bravest place I've been
+Is the space before you took
+
+[Outro]
+The kiss ended and the world resumed
+The traffic and the evening rain
+But something in my chest had bloomed
+That nothing could contain`,
+
+  "incenso-salto-bonito/3": `[Verse 1]
+O penhasco não é tão alto
+Quando olhas de longe parece menor
+Mas agora de cima este salto
+É do tamanho do meu maior terror
+
+[Verse 2]
+A água lá em baixo é um espelho
+Verde e azul e sem conselho
+E os meus pés na borda do rochedo
+São tudo o que tenho entre mim e o medo
+
+[Pre-Chorus]
+Três, dois, um — o ar é tudo
+O ar é tudo o que tens
+
+[Chorus]
+Penhasco — o salto mais bonito
+O segundo em que o ar é casa
+Penhasco — o mais antigo grito
+De quem decide que a vida é uma brasa
+Caio — e no meio da queda
+Não há tempo para pensar
+Só o corpo e a seda
+Do vento antes de chegar
+
+[Verse 3]
+A água recebe-me com um estalo
+Gelada e honesta como sempre
+E eu subo a rir como um cavalo
+Porque o medo morreu em Setembro
+
+[Chorus]
+Penhasco — o salto mais bonito
+O segundo em que o ar é casa
+
+[Bridge]
+Saltar não é coragem — é decisão
+É o momento em que os pés dizem chega
+De ficar na borda com a hesitação
+E o corpo inteiro se entrega
+
+[Chorus]
+Penhasco — para todos os que saltaram
+Para todos os que hesitaram e depois
+Para todos os que se molharam
+E riram — porque o medo tem outra voz
+
+[Outro]
+Subo ao penhasco outra vez
+Os pés já sabem o que fazer
+E desta vez o salto fez
+O que a primeira vez não pode — viver`,
+
+  "incenso-salto-bonito/4": `[Verse 1]
+I wrote the letter on a Monday night
+Dear Company, I quit — effective now
+The words were shaking in the light
+Of a decision I didn't know how
+
+[Verse 2]
+No safety net, no plan B ready
+No savings worth the name
+My hands were anything but steady
+But my heart was free of shame
+
+[Pre-Chorus]
+The leap with no net is the truest flight
+Terrifying — and exactly right
+
+[Chorus]
+Leap — into the open air
+With nothing but your nerve and name
+Leap — beyond the desk and chair
+Beyond the safe, beyond the same
+The pavement hit me, I won't lie
+The first month was a starving dog
+But I was standing in my sky
+And breathing through my own dialogue
+
+[Verse 3]
+Three months later in a rented room
+I built the thing I'd always dreamed
+Not a palace, not a tower of bloom
+Just a life that fit the way it seemed
+
+[Chorus]
+Leap — into the open air
+With nothing but your nerve and name
+
+[Bridge]
+They'll say you're reckless, they'll say you're mad
+They'll calculate what you stand to lose
+But the biggest risk I ever had
+Was dying in the shoes I didn't choose
+
+[Chorus]
+Leap — for everyone who quit the safe
+Leap — for everyone who chose the fall
+Leap — for everyone who left the cave
+Leap — you didn't need a net at all
+
+[Outro]
+The letter sits inside a frame now
+Above the desk where I create
+And every morning it reminds me how
+The leap was worth the wait`,
+
+  "incenso-salto-bonito/5": `[Verse 1]
+A palavra sim saiu pequena
+Mais pequena que eu esperava
+Sim — ao pedido, sim — à cena
+Sim — à vida que me assombrava
+
+[Verse 2]
+Sim ao bebé que não planeei
+Sim à cidade que não conheço
+Sim ao emprego que não previ
+Sim — sem rede e sem recesso
+
+[Pre-Chorus]
+Um sim muda a gravitação
+De tudo — antes e depois
+
+[Chorus]
+Sim — a palavra que divide
+A vida em antes e depois
+Sim — que o coração decide
+Antes da cabeça e das suas vozes
+Sim ao casamento com mãos a tremer
+Sim à mudança sem garantia
+Sim — porque o medo de viver
+É maior que o medo da ousadia
+
+[Verse 3]
+Disse sim e o mundo não caiu
+As paredes ficaram de pé
+E tudo o que o sim construiu
+Foi a casa onde moro — com fé
+
+[Chorus]
+Sim — a palavra que divide
+A vida em antes e depois
+
+[Bridge]
+O sim mais difícil não é o grande
+É o sim pequeno de cada dia
+Sim ao café, sim ao que ande
+Sim à coragem da rotina
+
+[Chorus]
+Sim — para todos os que tremeram
+Sim — para todos os que ficaram
+Sim — para todos os que disseram
+A palavra que mais amaram
+
+[Outro]
+O sim fica suspenso no ar
+Como uma semente antes do chão
+E eu fico aqui a olhar
+O jardim que nasceu do meu sim — e da canção`,
+
+  "incenso-salto-bonito/6": `[Verse 1]
+The waiting room had plastic chairs
+The number in my hand was forty-three
+My heart was climbing stairs
+And my portfolio was trembling on my knee
+
+[Verse 2]
+They called my name — a mispronounce
+I stood and walked through double doors
+Every step a kind of pounce
+Into the judgment of the floors
+
+[Pre-Chorus]
+Showing up to be judged is the bravest thing
+When you could have stayed in bed
+
+[Chorus]
+Audition — with my sweaty palms
+Audition — with my shaking voice
+Audition — singing my own psalms
+In a room that will make a choice
+They looked at me and I looked back
+Not the version they expected
+Not polished, not compact
+But present — and unprotected
+
+[Verse 3]
+They said we'll call, the usual line
+I walked into the parking lot
+And cried — not the sad kind but the fine
+The kind that says you gave all you've got
+
+[Chorus]
+Audition — with my sweaty palms
+Audition — with my shaking voice
+
+[Bridge]
+The audition isn't the result
+The audition is the showing up
+The verdict matters less than the adult
+Who walked in with an empty cup
+
+[Chorus]
+Audition — for everyone who tried
+Audition — for everyone who shook
+Audition — for the terrified
+Who entered anyway — and took
+
+[Outro]
+They called on Wednesday, I got in
+But that's not where the story starts
+It starts in plastic chairs, paper-thin
+And a woman holding all her parts`,
+
+  "incenso-salto-bonito/7": `[Verse 1]
+A mão estendida no vazio
+Sem saber se do outro lado
+Alguém a agarra ou se é frio
+O ar que envolve o meu cuidado
+
+[Verse 2]
+Não falamos há três anos
+O silêncio pesou como cimento
+Mas hoje os meus humanos
+Braços estendem-se sem argumento
+
+[Pre-Chorus]
+Estender a mão é cair para a frente
+Sem saber se há chão onde chegas
+
+[Chorus]
+Mão estendida no escuro
+Mão que não sabe se a aceitam
+Mão que é a ponte de um muro
+Que dois corações alimentam
+O gesto mais vulnerável
+É o primeiro — o que inicia
+Porque quem estende é o mais frágil
+E o mais corajoso do dia
+
+[Verse 3]
+Ela olhou para a minha mão
+E demorou — eu quase desisti
+Mas depois segurou com a sua mão
+E o muro caiu — eu senti
+
+[Chorus]
+Mão estendida no escuro
+Mão que não sabe se a aceitam
+
+[Bridge]
+Não é um final feliz perfeito
+Não resolve tudo num abraço
+Mas a mão estendida é um feito
+Que vale mais que qualquer atraso
+
+[Chorus]
+Mão — para todos os que estendem
+Sem garantia de resposta
+Mão — para os que se compreendem
+Que a coragem é na aposta
+
+[Outro]
+A mão que eu estendi ainda treme
+Mas está quente — porque segura outra
+E este gesto que ninguém teme
+É o salto mais bonito que se mostra`,
+
+  "incenso-salto-bonito/8": `[Verse 1]
+The paper trembled in my hands
+The poem I wrote at three AM
+I stood beneath the mic's demands
+And cleared my throat like a held-in hem
+
+[Verse 2]
+The room was dark except the light
+That pointed at my shaking page
+And every word I read that night
+Was extracted from my inner cage
+
+[Pre-Chorus]
+Reading your words aloud is nudity
+Of the most vulnerable kind
+
+[Chorus]
+Open mic — my voice is shaking
+Open mic — the words are steady
+Open mic — my heart is breaking
+Open its walls — and I am ready
+The poem came out like breathing
+Like something that was always there
+And the audience was something beneath me
+Holding me up — not staring, but care
+
+[Verse 3]
+Someone clapped — just one at first
+Then others joined like gentle rain
+And what I thought would be the worst
+Became the antidote to pain
+
+[Chorus]
+Open mic — my voice is shaking
+Open mic — the words are steady
+
+[Bridge]
+You don't need to be a poet
+To stand up and read your truth
+You just need to decide to show it
+And let the room give you the proof
+
+[Chorus]
+Open mic — for every trembling reader
+Open mic — for every shaking page
+Open mic — for every quiet leader
+Who found their voice upon the stage
+
+[Outro]
+I folded up the paper, wet with sweat
+And walked back to my plastic chair
+The bravest thing I've ever said
+Was the poem I dared to share`,
+
+  "incenso-salto-bonito/9": `[Verse 1]
+O aeroporto cheira a despedida
+A mala tem tudo o que eu sou
+E a minha vida conhecida
+Fica deste lado quando eu vou
+
+[Verse 2]
+A mãe chora no canto do café
+O pai finge que está bem
+E eu seguro o passaporte de pé
+Sem saber se volto — ou quando — ou a quem
+
+[Pre-Chorus]
+Ir embora é morrer um pouco
+Para nascer no desconhecido
+
+[Chorus]
+Despedida no aeroporto
+O salto mais longo que dei
+Despedida — um novo porto
+Onde não conheço a lei
+A mala pesa menos que a saudade
+A passagem custa menos que ficar
+E este salto para a liberdade
+É feito de coragem — e de chorar
+
+[Verse 3]
+O avião levanta e eu olho pela janela
+A cidade encolhe como um brinquedo
+E tudo o que eu sabia era dela
+Fica pequeno — inclusive o medo
+
+[Chorus]
+Despedida no aeroporto
+O salto mais longo que dei
+
+[Bridge]
+Ir embora não é fugir
+É escolher o desconhecido
+É dizer ao medo — vou servir
+Outro prato no outro sentido
+
+[Chorus]
+Despedida — para quem partiu
+Para quem ficou com os olhos molhados
+Para quem no aeroporto ouviu
+O som dos sonhos a serem lançados
+
+[Outro]
+O avião aterrou num lugar novo
+As portas abriram e o ar era outro
+E eu — a mais perdida do povo
+Era também a mais encontrada — de rostro`,
+
+  "incenso-salto-bonito/10": `[Verse 1]
+I jumped off a cliff at seventeen
+I kissed a stranger in the rain
+I quit my job at twenty-three
+I moved to a country I couldn't name
+
+[Verse 2]
+I said yes to a child I wasn't ready for
+I said no to a life that wasn't mine
+I opened every single door
+That fear had asked me to decline
+
+[Pre-Chorus]
+Every leap I took is here with me
+Every scar a stamp in my passport
+
+[Chorus]
+Jump — for every leap that terrified you
+Jump — for every risk you took
+Jump — for every door that mystified you
+Jump — for every chance you shook
+This is the anthem of the leapers
+The ones who never had a net
+The pavement scrapers, midnight weepers
+Who jumped before the safety was set
+
+[Verse 3]
+I'm jumping still — at forty-five
+The leaps are smaller but they're real
+Saying sorry, staying alive
+Admitting that I cannot always heal
+
+[Chorus]
+Jump — for every leap that terrified you
+Jump — for every risk you took
+
+[Bridge]
+The beautiful thing about a jump
+Is not the landing — it's the air
+The beautiful thing about the bump
+Is knowing that you dared to dare
+
+[Chorus]
+Jump — the anthem and the hymn
+For every woman, man, and child
+Who stood upon the edge and grim
+And chose the fall — and chose the wild
+
+[Outro]
+I close my eyes and feel the wind
+Of every jump I've ever made
+And every leap is underlined
+By the courage that will never fade`,
+
 };
