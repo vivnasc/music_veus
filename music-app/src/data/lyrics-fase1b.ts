@@ -7129,7 +7129,7 @@ De alguma cozinha lá em baixo
 Um cão ladra sem parar
 E uma criança anda a despacho
 A cidade vista de cima
-É mais bonita do que a ras
+É mais bonita vista de cá
 E esta varanda é a rima
 Mais perfeita da minha paz
 
@@ -7273,7 +7273,7 @@ Of a beautiful, daily creed`,
   "mare-varanda-quente/3": `[Verse 1]
 O gelo estala dentro do copo
 Como uma pequena explosão
-Esse primeiro segundo e o tropo
+Esse primeiro segundo é o tropo
 De todas as noites de verão
 O líquido desce transparente
 Sobre as pedras de cristal
