@@ -2750,4 +2750,548 @@ The light is kind to honest eyes
 And everything I held within
 Is free now — free to rise`,
 
+  // ─────────────────────────────────────────────
+  // TEIMOSA (esperança como sobrevivência teimosa)
+  // ─────────────────────────────────────────────
+
+  "incenso-teimosa/1": `[Verse 1]
+Disseram-me para parar
+Disseram que não ia dar
+Que o mundo não espera por quem cai
+E eu caí — e levantei-me na mesma
+
+[Verse 2]
+O corpo dói dos joelhos esfolados
+O orgulho tem nódoas de lama
+Mas estes pés ensanguentados
+Conhecem o chão e a sua cama
+
+[Pre-Chorus]
+Teimosa — é o nome que me deram
+Teimosa — é o nome que eu aceito
+
+[Chorus]
+Teimosa — a mulher que não pára
+Teimosa — com os ossos partidos
+Teimosa — que a vida é cara
+Mas eu pago com os dias vividos
+Não me peçam para ser sensata
+Não me peçam para aceitar o não
+A teimosia é a minha bata
+E a esperança é a minha canção
+
+[Verse 3]
+A avó era teimosa também
+Criou seis filhos com um salário
+E nunca disse pobre de quem
+Disse vamos — sem calendário
+
+[Chorus]
+Teimosa — a mulher que não pára
+Teimosa — com os ossos partidos
+
+[Bridge]
+A teimosia é a flor mais feia
+Que dá o fruto mais bonito
+É a raiz que não areia
+E o coração que não é finito
+
+[Chorus]
+Teimosa — o hino de quem insiste
+Teimosa — de quem se levanta
+Teimosa — porque a vida existe
+E enquanto existir eu canto — e canta
+
+[Outro]
+Amanhã vou cair outra vez
+E outra vez vou levantar
+Porque a teimosia é a minha tez
+E a esperança é o meu lugar`,
+
+  "incenso-teimosa/2": `[Verse 1]
+I made it through another day
+Not thriving, not shining, just here
+The victory is small and grey
+But it's mine — and it's crystal clear
+
+[Verse 2]
+I got up when the alarm went off
+I brushed my teeth, I tied my shoes
+I walked into the world, cast off
+The voice that said there's nothing left to choose
+
+[Pre-Chorus]
+One more day is not a headline
+But some days it's the only win
+
+[Chorus]
+One more day — I call that winning
+One more breath — I call that gold
+One more morning — new beginning
+One more story left untold
+The world expects a grand survival
+A comeback with a symphony
+But sometimes just arriving at the rival
+Of another sunrise — that is victory
+
+[Verse 3]
+The dishes done, the kids to school
+The meeting held with steady voice
+Nobody saw the broken tool
+That held itself together — by choice
+
+[Chorus]
+One more day — I call that winning
+One more breath — I call that gold
+
+[Bridge]
+The heroes in the movies fight with swords
+The heroes in my kitchen fight with spoons
+And every single one of their rewards
+Is hearing the alarm — and choosing to resume
+
+[Chorus]
+One more day — the bravest chorus
+One more day — the quiet hymn
+For everyone who walked before us
+And everyone who's barely hanging by a limb
+
+[Outro]
+Tonight I'll put my head on the pillow
+And count this day as done
+Tomorrow grows beneath my window
+One more day — another one`,
+
+  "incenso-teimosa/3": `[Verse 1]
+Debaixo do asfalto há uma raiz
+Que empurra a pedra sem se ver
+Ninguém repara no que fiz
+Mas a fissura começa a crescer
+
+[Verse 2]
+Pequena, verde, quase nada
+Uma folha a sair do betão
+A vida insiste — empurra, escada
+Para cima sem pedir perdão
+
+[Pre-Chorus]
+A natureza não desiste nunca
+Mesmo quando o mundo a cimenta
+
+[Chorus]
+Raiz que rebenta o asfalto
+Folha que nasce no impossível
+Verde que cresce sem um salto
+Vida que insiste no invisível
+Se uma semente pode furar
+Um metro de betão e aço
+Então eu posso recomeçar
+Com muito menos e mais espaço
+
+[Verse 3]
+Passei pela fissura no caminho
+E parei para olhar a planta
+Ninguém a regou — cresceu sozinha
+E mesmo assim — vive e canta
+
+[Chorus]
+Raiz que rebenta o asfalto
+Folha que nasce no impossível
+
+[Bridge]
+Não preciso de permissão
+Para crescer no meu betão
+A vida encontra a direcção
+Mesmo na mais dura estação
+
+[Chorus]
+Raiz — sou eu debaixo do peso
+Folha — sou eu no impossível
+Flor — sou eu depois do gesso
+A vida é teimosa e imprevisível
+
+[Outro]
+A planta no asfalto não sabe
+Que é um milagre — simplesmente cresce
+E eu como ela já não cabe
+No impossível — floresço e não esqueço`,
+
+  "incenso-teimosa/4": `[Verse 1]
+The rent was late, the fridge was bare
+The shoes were held with tape and prayer
+I wore my smile like underwear
+Beneath the clothes — nobody's aware
+
+[Verse 2]
+But in the kitchen with the light
+I danced to songs that cost me nothing
+And in the broke of Friday night
+I found a kind of joy worth clutching
+
+[Pre-Chorus]
+Broke but not broken — there's a line
+Between the two, and I walked mine
+
+[Chorus]
+Broke and bright, broke and burning
+Broke but not a single bone
+Broke and still, still yearning
+Broke but never quite alone
+The lights go off, the candles light
+The rent can wait til Monday morning
+I am broke but I am bright
+And my joy is not a warning
+
+[Verse 3]
+My daughter doesn't know we're poor
+She thinks that candlelight is fancy
+She dances barefoot on the floor
+And names our dinner something chancy
+
+[Chorus]
+Broke and bright, broke and burning
+Broke but not a single bone
+
+[Bridge]
+Poverty is not the absence of wealth
+It's the presence of someone who cares
+And my richest most expensive stealth
+Is the laughter on these stairs
+
+[Chorus]
+Broke and bright — this is our anthem
+Broke and bright — for every kitchen dance
+Broke and bright — every phantom
+Bill can't stop us taking one more chance
+
+[Outro]
+Tomorrow I'll work and I'll scrape
+And count the coins again with care
+But tonight the moonlight drapes
+Our broke and bright and beautiful affair`,
+
+  "incenso-teimosa/5": `[Verse 1]
+As mãos sujas de terra castanha
+O barro debaixo das unhas
+Plantei sem saber se amanha
+Ia nascer algo das profundas
+
+[Verse 2]
+A vizinha disse é tarde para plantar
+O calendário diz que não
+Mas as minhas mãos quiseram apostar
+Que a terra ouve o coração
+
+[Pre-Chorus]
+A fé não precisa de garantia
+Plantar é acreditar sem prova
+
+[Chorus]
+Mãos sujas de quem plantou
+Sem saber o que viria depois
+Mãos sujas de quem apostou
+Na terra e nos seus heróis
+A semente não promete nada
+Mas as mãos que a enterram dizem tudo
+A esperança é uma enxada
+Que cava mesmo no mais mudo
+
+[Verse 3]
+Passei semanas a regar o nada
+E pensei que tinha falhado
+Até que um verde na madrugada
+Me disse — eu estive ao teu lado
+
+[Chorus]
+Mãos sujas de quem plantou
+Sem saber o que viria depois
+
+[Bridge]
+A vida é plantar sem garantia
+E regar o que não se vê
+E confiar que algum dia
+O que enterraste vai crescer de pé
+
+[Chorus]
+Mãos sujas — o mais bonito que tenho
+Mãos sujas de fé e de terra
+Mãos sujas são o meu empenho
+E a esperança é a minha guerra
+
+[Outro]
+Limpei as mãos e olhei para o chão
+A planta nasceu sem aviso
+E eu percebi que a plantação
+É a metáfora do meu sorriso`,
+
+  "incenso-teimosa/6": `[Verse 1]
+I tried and failed and tried again
+I sent the application twice
+I got the no, I got the pain
+I got the door shut — not just nice
+
+[Verse 2]
+The last time nearly broke my back
+The last no nearly broke my will
+I packed my heart inside a sack
+And carried it uphill, uphill
+
+[Pre-Chorus]
+But here I am, one more morning
+Filling out one more form
+
+[Chorus]
+Try again — with shaking hands
+Try again — with tired eyes
+Try again — the heart expands
+Every time it breaks and tries
+Not because I'm brave or bold
+Not because I cannot feel
+But because the story's told
+By those who chose to try one more — for real
+
+[Verse 3]
+The coffee's cold, the screen is bright
+My fingers type with clumsy hope
+I hit submit at half past midnight
+And hold the desk like it's a rope
+
+[Chorus]
+Try again — with shaking hands
+Try again — with tired eyes
+
+[Bridge]
+The rawness of beginning again
+When you've already lost the race
+Is not a story about men
+It's a story about grace
+
+[Chorus]
+Try again — the anthem of the bruised
+Try again — the hymn of second starts
+Try again — we've all been used
+But never used up — not our hearts
+
+[Outro]
+The email comes on Thursday noon
+It says congratulations, you're in
+And I cry not for the fortune
+But for every try that held my skin`,
+
+  "incenso-teimosa/7": `[Verse 1]
+Uma vela acesa no escuro
+O vento sopra e ela dança
+Mas não apaga — o fogo é puro
+E a chama é toda esperança
+
+[Verse 2]
+Tão pequena que mal ilumina
+A sala inteira continua escura
+Mas aquele ponto de menina
+É tudo o que preciso — é cura
+
+[Pre-Chorus]
+Uma vela num quarto enorme
+É tudo — quando é tudo o que tens
+
+[Chorus]
+A vela que não apaga
+Mesmo quando o vento insiste
+A vela que não se estraga
+Mesmo quando o escuro existe
+Pequena, frágil, quase nada
+Mas viva — teimosamente viva
+A chama é a minha morada
+E a esperança a minha oliva
+
+[Verse 3]
+A minha avó acendia uma vela
+Quando tudo ia mal sem razão
+Dizia que a luz daquela
+Era o início da solução
+
+[Chorus]
+A vela que não apaga
+Mesmo quando o vento insiste
+
+[Bridge]
+Não preciso de incêndio para ver
+Não preciso de sol para crer
+Uma vela basta para eu saber
+Que o escuro não é o meu ser
+
+[Chorus]
+Vela acesa — sou eu no escuro
+Vela acesa — teimosa e só
+Vela acesa — e o futuro
+É feito desta chama de avó
+
+[Outro]
+O vento para e a vela fica
+Mais firme do que quando soprou
+E eu — como ela — a mais rica
+De quem persistiu e não se apagou`,
+
+  "incenso-teimosa/8": `[Verse 1]
+A crack in the concrete, nothing more
+A thread of green in endless grey
+But from that crack, against the floor
+A flower chose to have its say
+
+[Verse 2]
+No gardener, no gentle hand
+No water but the rain that falls
+It grew where nobody had planned
+Between the cracks of shopping malls
+
+[Pre-Chorus]
+Wildflowers don't ask for permission
+They just grow where they're not supposed to
+
+[Chorus]
+Wildflower in the concrete crack
+Growing where nobody planted you
+Wildflower, turning winter back
+Blooming in the grey and getting through
+You didn't wait for better soil
+You didn't wait for perfect rain
+You pushed through the rock and the toil
+And made beauty out of pain
+
+[Verse 3]
+A girl walked by and picked it off
+Then put it in her jacket breast
+The wildflower didn't even scoff
+It knew that it had passed the test
+
+[Chorus]
+Wildflower in the concrete crack
+Growing where nobody planted you
+
+[Bridge]
+Every woman is a wildflower
+Growing where the world forgot
+Every woman has that power
+To bloom in her allotted spot
+
+[Chorus]
+Wildflower — this is your anthem
+For every crack you pushed right through
+Wildflower — you're no phantom
+You're the realest, bravest view
+
+[Outro]
+The crack is still there in the concrete
+But where one flower grew, now three
+The wildflower's job is to repeat
+The miracle of growing free`,
+
+  "incenso-teimosa/9": `[Verse 1]
+Amanhã existe — isso já é qualquer coisa
+Amanhã o sol nasce outra vez
+E essa certeza tão manhosa
+É a vitória mais simples que fez
+
+[Verse 2]
+Não preciso de mais do que amanhã
+Não preciso que seja perfeito
+Só que exista — como a lã
+Que aquece sem ser feita
+
+[Pre-Chorus]
+A palavra mais bonita do mundo
+É amanhã — quando hoje dói
+
+[Chorus]
+Amanhã existe e isso basta
+Amanhã o café vai ser quente
+Amanhã a vida se engasta
+Numa manhã que é diferente
+Não é promessa de grandeza
+Não é garantia de sucesso
+É só a simples certeza
+De que o tempo me deu acesso
+
+[Verse 3]
+Hoje foi difícil — admito
+Hoje os ombros pesaram mais
+Mas amanhã é um grito
+De silêncio que diz — virás
+
+[Chorus]
+Amanhã existe e isso basta
+Amanhã o café vai ser quente
+
+[Bridge]
+Os grandes planos podem esperar
+As grandes metas também
+Amanhã é só mais um lugar
+Para respirar e ser alguém
+
+[Chorus]
+Amanhã — a palavra que salva
+Amanhã — o dom mais ordinário
+Amanhã — a manhã que se escalda
+De esperança num dia comum e diário
+
+[Outro]
+Deito-me e fecho os olhos devagar
+Amanhã está ali, do outro lado
+E o simples facto de eu esperar
+É a prova de que não desisti — estou acordado`,
+
+  "incenso-teimosa/10": `[Verse 1]
+I should not be here by the numbers
+By the odds, by the charts on the wall
+I should be buried under the slumbers
+Of a world that predicted my fall
+
+[Verse 2]
+But here I am in a Tuesday kitchen
+Making toast and pouring tea
+Not a hero, not a magician
+Just a person who refused to flee
+
+[Pre-Chorus]
+Still here — two words that cost me everything
+Still here — two words that gave me all
+
+[Chorus]
+Still here — the anthem of the standing
+Still here — the hymn of those who stayed
+Still here — not glamorous or commanding
+Just alive — and unafraid
+Not thriving, not on any cover
+Not winning any kind of prize
+Just still here — still above the ground, still over
+The line between survive and die
+
+[Verse 3]
+The scars I have are mostly hidden
+The battle happened inside my chest
+And the fact that I'm not bedridden
+Is the trophy I am holding to my breast
+
+[Chorus]
+Still here — the anthem of the standing
+Still here — the hymn of those who stayed
+
+[Bridge]
+You don't need to climb a mountain
+You don't need to cross a sea
+Just be still here, by the fountain
+Of another morning — that's the key
+
+[Chorus]
+Still here — for everyone who made it
+To Tuesday, Wednesday, or today
+Still here — for everyone who faded
+But came back and chose to stay
+
+[Outro]
+Still here — I whisper to the mirror
+Still here — I tell the morning sky
+Still here — and every day it's clearer
+That still here is how I'll fly`,
+
 };
