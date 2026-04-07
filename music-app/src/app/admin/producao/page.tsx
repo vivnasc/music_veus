@@ -16,6 +16,7 @@ import {
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
 import { adminFetch } from "@/lib/admin-fetch";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
+import { pickLorannImages } from "@/lib/loranne-images";
 
 /** Read ID3 title from an MP3 File */
 async function readId3Title(file: File): Promise<string | null> {
@@ -1218,6 +1219,158 @@ function TrackRow({
             {reelType === "status" ? "Reel Status" : "Reel Insta"}
           </button>
           ))}
+          {/* Generate Short (fal.ai + Runway + Shotstack — 3 images + music) */}
+          <button
+            id={`short-btn-${albumSlug}-${track.number}`}
+            onClick={async () => {
+              const btn = document.getElementById(`short-btn-${albumSlug}-${track.number}`) as HTMLButtonElement;
+              const resultDiv = document.getElementById(`reel-result-${albumSlug}-${track.number}`);
+              if (!btn) return;
+              btn.disabled = true;
+
+              try {
+                const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
+                if (!alb) throw new Error("Album não encontrado");
+                const t = alb.tracks.find(tr => tr.number === track.number);
+                if (!t) throw new Error("Faixa não encontrada");
+
+                // Step 1: Generate 2 AI images from verse (fal.ai)
+                btn.textContent = "1/4 Imagens IA...";
+                const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ caption: t.description, numImages: 2 }),
+                });
+                const aiData = await aiRes.json();
+                if (!aiRes.ok || !aiData.imageUrls?.length) throw new Error(`fal.ai: ${aiData.erro || "sem imagens"}`);
+
+                // Step 2: 1 Loranne + 2 AI → send 3 to Runway
+                btn.textContent = "2/4 Runway...";
+                const loranneImgs = pickLorannImages(albumSlug, track.number, 1);
+                let loranneBase64: string | null = null;
+                try {
+                  const loranneRes = await fetch(loranneImgs[0]);
+                  if (loranneRes.ok) {
+                    const blob = await loranneRes.blob();
+                    const reader = new FileReader();
+                    loranneBase64 = await new Promise<string>((resolve, reject) => {
+                      reader.onloadend = () => resolve(reader.result as string);
+                      reader.onerror = reject;
+                      reader.readAsDataURL(blob);
+                    });
+                  }
+                } catch {}
+
+                const imageInputs: { imageUrl?: string; imageBase64?: string }[] = [
+                  loranneBase64 ? { imageBase64: loranneBase64 } : { imageUrl: `${window.location.origin}${loranneImgs[0]}` },
+                  { imageUrl: aiData.imageUrls[0] },
+                  { imageUrl: aiData.imageUrls[1] || aiData.imageUrls[0] },
+                ];
+                const runwayPrompts = [
+                  "Slow cinematic movement, gentle fabric flowing, subtle light shift, ethereal atmosphere",
+                  "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy",
+                  "Gentle camera drift, soft fabric movement, light particles floating, intimate",
+                ];
+                const runwayResults = await Promise.all(imageInputs.map(async (imgInput, idx) => {
+                  const clipTrackNum = track.number * 100 + idx + 1;
+                  const res = await adminFetch("/api/admin/runway/generate", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                      albumSlug,
+                      trackNumber: clipTrackNum,
+                      ...imgInput,
+                      promptText: runwayPrompts[idx],
+                      duration: 5,
+                      ratio: "9:16",
+                    }),
+                  });
+                  return { ...(await res.json()), clipTrackNum };
+                }));
+
+                // Step 3: Poll Runway tasks
+                btn.textContent = "3/4 Clips...";
+                const clipUrls: string[] = [];
+                for (let idx = 0; idx < runwayResults.length; idx++) {
+                  const rd = runwayResults[idx];
+                  if (rd.status === "exists" && rd.videoUrl) { clipUrls.push(rd.videoUrl); continue; }
+                  if (!rd.taskId) throw new Error(`Runway clip ${idx + 1}: ${rd.erro || "sem taskId"}`);
+                  const params = new URLSearchParams({ taskId: rd.taskId, album: albumSlug, track: String(rd.clipTrackNum) });
+                  let found = false;
+                  for (let i = 0; i < 120; i++) {
+                    await new Promise(r => setTimeout(r, 3000));
+                    const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
+                    const sData = await sRes.json();
+                    if (sData.status === "complete" && sData.videoUrl) { clipUrls.push(sData.videoUrl); found = true; break; }
+                    if (sData.status === "error") throw new Error(`Clip ${idx + 1}: ${sData.error}`);
+                    btn.textContent = `3/4 Clip ${idx + 1}/3 ${Math.min(Math.round(i * 1.2), 95)}%`;
+                  }
+                  if (!found) throw new Error(`Timeout clip ${idx + 1}`);
+                }
+
+                // Step 4: Validate + Shotstack
+                btn.textContent = "4/4 Shotstack...";
+                const clipChecks = await Promise.all(clipUrls.map(url => fetch(url, { method: "HEAD" }).then(r => r.ok).catch(() => false)));
+                if (clipChecks.some(ok => !ok)) throw new Error("Clips inacessíveis — podem ter expirado");
+
+                const sbUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+                const audioUrl = `${sbUrl}/storage/v1/object/public/audios/albums/${albumSlug.replace(/[^a-z0-9-]/g, "")}/faixa-${String(track.number).padStart(2, "0")}.mp3`;
+                const audioCheck = await fetch(audioUrl, { method: "HEAD" }).then(r => r.ok).catch(() => false);
+                if (!audioCheck) throw new Error(`Áudio não encontrado: faixa-${String(track.number).padStart(2, "0")}.mp3`);
+
+                const verse = (() => {
+                  if (!t.lyrics) return "";
+                  const lines = t.lyrics.split("\n").filter((l: string) => { const tr = l.trim(); return tr.length > 15 && tr.length < 80 && !tr.startsWith("["); });
+                  return lines[0]?.trim() || "";
+                })();
+
+                const shotRes = await adminFetch("/api/admin/shotstack/render", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ clipUrls, audioUrl, verse, trackTitle: t.title, albumTitle: alb.title }),
+                });
+                const shotData = await shotRes.json();
+                if (!shotRes.ok || !shotData.id) throw new Error(`Shotstack: ${shotData.erro || "falhou"}`);
+
+                for (let i = 0; i < 120; i++) {
+                  await new Promise(r => setTimeout(r, 3000));
+                  const sRes = await adminFetch(`/api/admin/shotstack/status?id=${shotData.id}`);
+                  const sData = await sRes.json();
+                  if (sData.status === "done" && sData.videoUrl) {
+                    btn.textContent = "Short OK!";
+                    if (resultDiv) {
+                      const vid = document.createElement("video");
+                      vid.src = sData.videoUrl;
+                      vid.controls = true;
+                      vid.playsInline = true;
+                      vid.muted = true;
+                      vid.loop = true;
+                      vid.style.cssText = "max-height:160px;border-radius:6px;margin-top:6px;width:100%";
+                      resultDiv.appendChild(vid);
+
+                      const dl = document.createElement("a");
+                      dl.href = sData.videoUrl;
+                      dl.download = `Short-${t.title}.mp4`;
+                      dl.textContent = "Descarregar Short";
+                      dl.className = "inline-block text-[10px] text-green-400 mt-1 hover:underline";
+                      resultDiv.appendChild(dl);
+                    }
+                    break;
+                  }
+                  if (sData.status === "failed") throw new Error("Shotstack render falhou");
+                  btn.textContent = `4/4 Render ${Math.min(Math.round(i * 1.2), 95)}%`;
+                }
+              } catch (err) {
+                alert(`Erro Short: ${(err as Error).message}`);
+              } finally {
+                btn.disabled = false;
+                setTimeout(() => { btn.textContent = "Gerar Short"; }, 3000);
+              }
+            }}
+            className="shrink-0 rounded px-3 py-2 text-xs font-medium bg-violet-900/30 text-violet-400 hover:bg-violet-900/50"
+          >
+            Gerar Short
+          </button>
           <div id={`reel-result-${albumSlug}-${track.number}`} style={{ maxWidth: "240px" }}></div>
         </div>
       </div>
