@@ -10184,4 +10184,529 @@ Not the wave
 Be the still
 And let the surface rage — you are safe`,
 
+// ─────────────────────────────────────────────
+// NORTE INTERNO (intuição, o corpo que sabe)
+// ─────────────────────────────────────────────
+
+"incenso-norte-interno/1": `[Verse 1]
+O arrepio subiu pelo braço
+Sem aviso, sem razão aparente
+A pele soube antes de mim
+Que algo estava diferente
+
+[Verse 2]
+Não é frio, não é medo
+É o corpo a mandar um telegrama
+Uma mensagem cifrada na pele
+Que a cabeça ainda não reclama
+
+[Pre-Chorus]
+A pele sabe
+Antes de tudo o resto
+
+[Chorus]
+Arrepio — o alarme mais antigo
+Arrepio — o corpo a falar primeiro
+A pele avisa antes das palavras
+E eu aprendo a ser o meu mensageiro
+
+[Verse 3]
+Quando entrei naquela sala
+O arrepio disse — sai daqui
+Não havia razão para ter medo
+Mas o corpo insistiu — e eu ouvi
+
+[Chorus]
+Arrepio — o alarme mais antigo
+Arrepio — o corpo a falar primeiro
+A pele avisa antes das palavras
+E eu aprendo a ser o meu mensageiro
+
+[Bridge]
+Milhões de anos de evolução
+Moram debaixo desta pele
+O arrepio não é capricho
+É a sabedoria mais fiel que eu conheço — dele
+
+[Chorus]
+Arrepio — confio em ti
+Arrepio — meu guia silencioso
+A pele tem razões que a razão desconhece
+E eu sigo — o caminho mais precioso
+
+[Outro]
+A pele arrepia
+E eu escuto
+A pele arrepia
+E eu confio — no escuro`,
+
+"incenso-norte-interno/2": `[Verse 1]
+A knot inside my stomach pulled
+Before the words could form a thought
+I didn't know, I didn't think
+I felt — and what I felt was wrought
+
+[Verse 2]
+The gut is older than the brain
+A hundred million neurons deep
+It knows before the mind can process
+It speaks while consciousness's asleep
+
+[Pre-Chorus]
+Trust the belly
+It was here first
+
+[Chorus]
+Gut — the second brain that whispers
+Gut — the knowing in my core
+The belly says what the head won't
+Gut — the deepest, oldest door
+
+[Verse 3]
+She said the deal was fine, the numbers right
+My head agreed, my gut said run
+I followed logic, lost the lot
+My gut had seen it — before it was done
+
+[Chorus]
+Gut — the second brain that whispers
+Gut — the knowing in my core
+The belly says what the head won't
+Gut — the deepest, oldest door
+
+[Bridge]
+The belly doesn't lie, doesn't spin
+Doesn't rationalise the facts
+It just tightens or it softens
+And waits for you to act
+
+[Chorus]
+Gut — I'm learning to listen
+Gut — to the voice below the voice
+Gut — the body's honest compass
+Gut — my most instinctive choice
+
+[Outro]
+Listen to your belly
+It knows
+Listen to your belly
+It always knows`,
+
+"incenso-norte-interno/3": `[Verse 1]
+As mãos souberam antes de mim
+O barro girou e elas moldaram
+Sem eu pensar, sem eu decidir
+Os dedos agiram — e acertaram
+
+[Verse 2]
+A cozinheira põe sal sem medir
+A mãe embala sem consultar
+O corpo-bússola sabe o caminho
+Antes de a mente se levantar
+
+[Pre-Chorus]
+As mãos guardam uma inteligência
+Mais velha que qualquer ideia
+
+[Chorus]
+Mãos que sabem — antes de eu decidir
+Mãos que sabem — o corpo como guia
+Os dedos lembram o que a mente esquece
+E fazem o certo — com a maior alegria
+
+[Verse 3]
+O pianista não pensa nas teclas
+O padeiro não pensa na massa
+As mãos já têm o mapa todo
+E a mente? A mente só atrapalha
+
+[Chorus]
+Mãos que sabem — antes de eu decidir
+Mãos que sabem — o corpo como guia
+Os dedos lembram o que a mente esquece
+E fazem o certo — com a maior alegria
+
+[Bridge]
+A memória dos músculos é sagrada
+É a mais fiel das bibliotecas
+As mãos que amassam, que embalam, que moldam
+São as mais sábias das nossas bonecas
+
+[Chorus]
+Mãos que sabem — confio em vocês
+Mãos que sabem — mais que qualquer livro
+Os dedos que sabem antes de eu pensar
+São a bússola do que sou — e do que vivo
+
+[Outro]
+As mãos sabem
+Deixa-as fazer
+As mãos sabem
+E tu — só tens de seguir`,
+
+"incenso-norte-interno/4": `[Verse 1]
+There's a voice below my thinking
+Quieter than the quietest thought
+It doesn't argue, doesn't reason
+It just knows — the kind that can't be taught
+
+[Verse 2]
+I hear it only when I stop
+When the noise drops to the floor
+A whisper underneath the whisper
+The truest voice — and nothing more
+
+[Pre-Chorus]
+Below the thoughts
+Below the feelings
+There it is
+
+[Chorus]
+Whisper — the voice beneath the voice
+Whisper — quieter than silence could be
+The one that's always right but never shouts
+Whisper — the truest part of me
+
+[Verse 3]
+She said "don't take that road" so softly
+I almost missed it in the rush
+But when I stopped and listened down
+I heard it — in the holy hush
+
+[Chorus]
+Whisper — the voice beneath the voice
+Whisper — quieter than silence could be
+The one that's always right but never shouts
+Whisper — the truest part of me
+
+[Bridge]
+The loud voices get the attention
+The confident ones take the stage
+But the whisper in the basement
+Has been right on every page
+
+[Chorus]
+Whisper — I'm learning to go quiet
+Whisper — quiet enough to hear you
+Whisper — the signal below the noise
+Whisper — the only voice that's clear and true
+
+[Outro]
+Shh — listen
+Below everything
+There — that voice
+That's the one — follow it`,
+
+"incenso-norte-interno/5": `[Verse 1]
+Acordei com a resposta na boca
+A pergunta que me perseguia há semanas
+O sonho deu-me o que o dia negava
+E eu levantei-me — sem dúvidas nem dramas
+
+[Verse 2]
+Não me lembro de tudo, só de um rio
+E de uma porta que se abriu sozinha
+O inconsciente desenhou um mapa
+Enquanto eu dormia na minha cozinha
+
+[Pre-Chorus]
+O sonho sabe
+O que o dia esconde
+
+[Chorus]
+Sonho guia — o inconsciente como mapa
+Sonho guia — as respostas que a noite dá
+Enquanto eu durmo, algo em mim trabalha
+E quando acordo — o caminho está lá
+
+[Verse 3]
+A minha avó dizia "dorme sobre isso"
+E eu ria como quem não percebe
+Agora sei que o sono é um conselheiro
+E o sonho — o melhor que se recebe
+
+[Chorus]
+Sonho guia — o inconsciente como mapa
+Sonho guia — as respostas que a noite dá
+Enquanto eu durmo, algo em mim trabalha
+E quando acordo — o caminho está lá
+
+[Bridge]
+Não controlo os sonhos — e ainda bem
+Eles são mais sábios que eu acordada
+A noite tece o que o dia desfez
+E entrega-me a manhã — iluminada
+
+[Chorus]
+Sonho guia — confio na noite
+Sonho guia — confio no sono
+O inconsciente tem as chaves todas
+E abre portas — no mais profundo do abandono
+
+[Outro]
+Durmo
+E o sonho trabalha
+Acordo
+E a resposta está — na almofada`,
+
+"incenso-norte-interno/6": `[Verse 1]
+I walked into the wrong room
+At a conference on a Tuesday grey
+The talk was on a thing I'd never heard
+And it changed my life that day
+
+[Verse 2]
+A wrong turn down a side street
+Led me to the shop that had the book
+That had the line that broke me open
+Sometimes the wrong way is the right look
+
+[Pre-Chorus]
+The mistake that wasn't
+The accident that knew
+
+[Chorus]
+Wrong room — but the right moment
+Wrong room — and exactly what I need
+The universe disguises guidance
+As a stumble, as a misdeed
+
+[Verse 3]
+I texted the wrong person once
+And started the most important conversation
+The wrong bus took me to the park
+Where I found my deepest revelation
+
+[Chorus]
+Wrong room — but the right moment
+Wrong room — and exactly what I need
+The universe disguises guidance
+As a stumble, as a misdeed
+
+[Bridge]
+What if there are no wrong turns
+What if every mistake is a nudge
+From something wiser than our plans
+Something that refuses to budge
+
+[Chorus]
+Wrong room — I trust the detours now
+Wrong room — the GPS of the soul
+Wrong room — intuition wears disguises
+Wrong room — and leads me to the whole
+
+[Outro]
+Take the wrong turn
+Open the wrong door
+The right thing
+Was always waiting — on that floor`,
+
+"incenso-norte-interno/7": `[Verse 1]
+A barriga diz não com uma força
+Que a cabeça não consegue explicar
+A folha de Excel diz que sim
+Mas o corpo não quer assinar
+
+[Verse 2]
+Há uma guerra silenciosa
+Entre a lógica e o instinto
+A cabeça mostra os números
+E a barriga mostra — o que eu sinto
+
+[Pre-Chorus]
+Quem tem razão
+A cabeça ou a barriga?
+
+[Chorus]
+Barriga — diz não quando a cabeça diz sim
+Barriga — o conflito mais antigo
+Escolher entre o que faz sentido
+E o que se sente — é o maior perigo
+
+[Verse 3]
+Desta vez segui a barriga
+Perdi dinheiro, ganhei a paz
+A cabeça queixou-se durante meses
+Mas a barriga disse — agora, sê capaz
+
+[Chorus]
+Barriga — diz não quando a cabeça diz sim
+Barriga — o conflito mais antigo
+Escolher entre o que faz sentido
+E o que se sente — é o maior perigo
+
+[Bridge]
+E se a barriga e a cabeça são duas metades
+Da mesma verdade partida?
+A resposta mora entre as duas
+Onde a razão e o instinto dão a mão — pela vida
+
+[Chorus]
+Barriga — estou a aprender a ouvir-te
+Barriga — sem ignorar a cabeça
+Mas quando as duas discordam
+É a ti que eu peço — que me esclareça
+
+[Outro]
+A barriga disse não
+E eu ouvi
+A barriga disse não
+E estava certa — como sempre`,
+
+"incenso-norte-interno/8": `[Verse 1]
+I've been here before — I'm sure of it
+This corner, this light, this air
+But I've never walked this street in my life
+Yet everything says — I was there
+
+[Verse 2]
+The feeling folds me like a page
+Time doubles back upon itself
+The present moment quotes the past
+Like a book from someone else's shelf
+
+[Pre-Chorus]
+A fold in time
+A glitch that means something
+
+[Chorus]
+Déjà vu — the fold in the fabric
+Déjà vu — the time that repeats
+A signal from somewhere deeper
+Déjà vu — where past and future meets
+
+[Verse 3]
+My grandmother called it "the knowing"
+My mother called it just a trick
+But standing here in someone else's past
+I feel something ancient, thick
+
+[Chorus]
+Déjà vu — the fold in the fabric
+Déjà vu — the time that repeats
+A signal from somewhere deeper
+Déjà vu — where past and future meets
+
+[Bridge]
+What if time isn't a line but a spiral
+And déjà vu is where the loops overlap
+What if the recognition is real
+And we're walking on our own map
+
+[Chorus]
+Déjà vu — I trust the recognition
+Déjà vu — the ancient navigation
+Déjà vu — time folding to remind us
+Déjà vu — we've always known the station
+
+[Outro]
+I've been here before
+Or I will be
+The fold in time
+Is just my memory — catching up with me`,
+
+"incenso-norte-interno/9": `[Verse 1]
+O GPS desligou-se na montanha
+E por um momento tive medo
+Mas os pés sabiam o caminho
+E as mãos sabiam o segredo
+
+[Verse 2]
+O corpo tem um norte embutido
+Que não precisa de satélite nem de ecrã
+Os ossos apontam para casa
+Como agulhas de uma bússola irmã
+
+[Pre-Chorus]
+O corpo sabe o norte
+Sempre soube
+
+[Chorus]
+Direcção — o corpo é a bússola
+Direcção — os ossos sabem onde
+Mesmo sem mapa, sem rede, sem sinal
+O corpo encontra — e responde
+
+[Verse 3]
+Os marinheiros antigos navegavam
+Pelas estrelas e pelo vento na cara
+E eu navego pela mesma ciência
+A intuição que o corpo declara
+
+[Chorus]
+Direcção — o corpo é a bússola
+Direcção — os ossos sabem onde
+Mesmo sem mapa, sem rede, sem sinal
+O corpo encontra — e responde
+
+[Bridge]
+A tecnologia é maravilhosa
+Mas debaixo dos circuitos e do código
+Ainda mora um animal antigo
+Que sabe o norte — sem prólogo
+
+[Chorus]
+Direcção — confio no meu corpo
+Direcção — confio no meu norte
+O GPS pode falhar
+Mas a bússola interna é mais forte
+
+[Outro]
+Para norte
+Sempre para norte
+O corpo sabe
+E eu sigo — sem medo da sorte`,
+
+"incenso-norte-interno/10": `[Verse 1]
+This is for the gut that knew before the facts
+For the skin that shivered without the cold
+For the hands that moved before the mind
+For every truth the body told
+
+[Verse 2]
+This is for the dreams that drew the map
+For the wrong room that was right
+For the belly that said no to logic
+And was proven true by morning light
+
+[Pre-Chorus]
+Trust the body
+It was here before the words
+
+[Chorus]
+Trust — the anthem of the body's wisdom
+Trust — for every gut that pulled
+Trust — for every instinct honoured
+Trust — for every doubt that's lulled
+
+[Verse 3]
+The body speaks in shivers and in heat
+In knots and in the loosening of hands
+It speaks the oldest language known to earth
+A language every cell understands
+
+[Chorus]
+Trust — the anthem of the body's wisdom
+Trust — for every gut that pulled
+Trust — for every instinct honoured
+Trust — for every doubt that's lulled
+
+[Bridge]
+And the choir sings from the bones
+From the belly, from the skin
+For the wisdom older than language
+For the knowing held within
+
+[Chorus]
+Trust — this is the final anthem
+Trust — the body always knew
+Trust — the goosebumps and the gut
+Trust — they were always guiding you
+
+[Outro]
+Trust your body
+It knows the way
+Trust your body
+And let it lead — today and every day`,
+
 };
