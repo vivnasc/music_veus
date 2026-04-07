@@ -7040,4 +7040,528 @@ In ways nobody saw
 And that's the bravest kind
 The kind without applause`,
 
+// ─────────────────────────────────────────────
+// TERRA MOLHADA (jardim, natureza, pés na relva)
+// ─────────────────────────────────────────────
+
+"grao-terra-molhada/1": `[Verse 1]
+De manhã cedo, antes do café
+As mãos afundam-se na terra
+O barro debaixo das unhas
+É a medalha desta guerra
+
+[Verse 2]
+Planto sementes sem garantias
+Rego a fé com água fria
+O jardim não me deve nada
+Mas ensina-me a ter paciência dia a dia
+
+[Pre-Chorus]
+A terra sabe o que eu esqueço
+Que tudo cresce no seu tempo
+
+[Chorus]
+Horta — as mãos na terra
+Horta — a oração mais velha
+Planto sem saber o que vem
+E a terra responde quando quer e como quer
+
+[Verse 3]
+Os vizinhos pensam que é passatempo
+Eu sei que é terapia profunda
+Cada semente é um acto de fé
+E cada broto uma resposta do mundo
+
+[Chorus]
+Horta — as mãos na terra
+Horta — a oração mais velha
+Planto sem saber o que vem
+E a terra responde quando quer e como quer
+
+[Bridge]
+E quando a dúvida me come por dentro
+Venho aqui e ponho as mãos no chão
+A terra não julga, não pergunta
+Só recebe — e devolve em germinação
+
+[Chorus]
+Horta — o meu altar de barro
+Horta — a escola mais antiga
+As mãos na terra ensinam-me
+Que a pressa é a pior inimiga
+
+[Outro]
+Planto
+Rego
+Espero
+E a terra ensina-me o resto`,
+
+"grao-terra-molhada/2": `[Verse 1]
+Before the alarm, before the light
+A thrush begins its morning song
+No audience, no microphone
+Just the oldest right from the oldest wrong
+
+[Verse 2]
+A blackbird follows, then a wren
+The garden fills with free concerts
+No tickets sold, no queues to stand
+Just birdsong healing all that hurts
+
+[Pre-Chorus]
+The world had music before us
+And it will sing when we are gone
+
+[Chorus]
+Birdsong — the first sound of the day
+Birdsong — no words, but everything to say
+A chorus older than any church
+Birdsong — a free and ancient search
+
+[Verse 3]
+I learned to name them by their call
+The robin's plea, the wren's bright burst
+Now every morning is a greeting
+From creatures who were always first
+
+[Chorus]
+Birdsong — the first sound of the day
+Birdsong — no words, but everything to say
+A chorus older than any church
+Birdsong — a free and ancient search
+
+[Bridge]
+They sing not for applause or fame
+They sing because the light returned
+And that's the purest reason ever
+To lift a voice and let it burn
+
+[Chorus]
+Birdsong — I wake and I am audience
+Birdsong — to the oldest show on earth
+They sang before we built our walls
+Birdsong — reminding us of worth
+
+[Outro]
+Listen — they're singing now
+Listen — before the noise begins
+The birds were here first
+And their song always wins`,
+
+"grao-terra-molhada/3": `[Verse 1]
+A chuva caiu sobre a relva
+E o mundo inteiro exalou
+Um perfume que não se compra
+Que nenhum frasco capturou
+
+[Verse 2]
+Tiro os sapatos na varanda
+E os pés encontram a relva molhada
+O choque do frio, o cheiro da terra
+A sensação mais sagrada
+
+[Pre-Chorus]
+O perfume mais caro do mundo
+É de graça — e está aqui
+
+[Chorus]
+Chuva na relva — o luxo da terra
+Chuva na relva — perfume sem frasco
+Descalça na relva molhada
+E o mundo cabe neste espaço
+
+[Verse 3]
+Há quem pague fortunas em lojas
+Por fragrâncias que imitam o quê?
+Isto — a chuva na relva ao fim do dia
+O cheiro do chão debaixo do pé
+
+[Chorus]
+Chuva na relva — o luxo da terra
+Chuva na relva — perfume sem frasco
+Descalça na relva molhada
+E o mundo cabe neste espaço
+
+[Bridge]
+E a terra respira depois da chuva
+Como quem dormiu bem pela primeira vez
+E eu respiro com ela, os pés no barro
+E sinto-me rica — sem ter nem um dez
+
+[Chorus]
+Chuva na relva — o meu perfume
+Chuva na relva — a minha igreja
+Descalça, molhada, e em paz
+Chuva na relva — e mais nada deseja
+
+[Outro]
+Chove
+E o mundo cheira a novo
+Chove
+E eu sou parte do chão`,
+
+"grao-terra-molhada/4": `[Verse 1]
+I found a worm while digging deep
+A tiny thing of earth and pink
+It curled around my fingertip
+And made me stop and made me think
+
+[Verse 2]
+This creature moves the entire earth
+Without a shovel, without a plan
+It eats the dark and breathes the soil
+The smallest worker, the strongest hand
+
+[Pre-Chorus]
+Nobody thanks the worm
+But the garden knows
+
+[Chorus]
+Worm — the underground believer
+Worm — the quiet earth-achiever
+Moving mountains grain by grain
+Worm — the hero without name
+
+[Verse 3]
+The soil is not dirt, it's a city
+A billion lives beneath my shoe
+Each worm a tunnel architect
+Each microbe making something new
+
+[Chorus]
+Worm — the underground believer
+Worm — the quiet earth-achiever
+Moving mountains grain by grain
+Worm — the hero without name
+
+[Bridge]
+What if we all worked like worms
+Invisible but changing everything
+Eating the dark, creating the fertile
+Without ever needing a crown or king
+
+[Chorus]
+Worm — I see you now
+Worm — I tip my humble bow
+The garden grows because you toil
+Worm — the sovereign of the soil
+
+[Outro]
+Tiny worker
+Mighty mover
+Beneath my feet
+The earth's best lover`,
+
+"grao-terra-molhada/5": `[Verse 1]
+O primeiro tomate nasceu hoje
+Vermelho como um coração
+Quente do sol, com cheiro a verão
+Colhi-o ali, de pé, com a mão
+
+[Verse 2]
+Pus sal e mordi — o sumo escorreu
+Pelo queixo, pela mão, pelo riso
+Três meses de espera num só fruto
+E nunca provei nada tão preciso
+
+[Pre-Chorus]
+O sabor da paciência
+Tem a forma de um tomate
+
+[Chorus]
+Tomate — quente do sol
+Tomate — com sal e sem prato
+O primeiro da horta é sagrado
+E vale mais que qualquer contrato
+
+[Verse 3]
+A vizinha deu-me uma receita
+Eu dei-lhe dois tomates da horta
+E nessa troca tão antiga
+Senti que o mundo ainda suporta
+
+[Chorus]
+Tomate — quente do sol
+Tomate — com sal e sem prato
+O primeiro da horta é sagrado
+E vale mais que qualquer contrato
+
+[Bridge]
+Três meses a regar uma promessa
+Três meses a falar com uma planta
+E quando o fruto nasce finalmente
+Percebes — a paciência é santa
+
+[Chorus]
+Tomate — o orgulho mais simples
+Tomate — o troféu do jardim
+Vermelho, quente, imperfeito
+Tomate — fizeste de mim quem eu sou por fim
+
+[Outro]
+Com sal
+De pé na horta
+O primeiro tomate
+É sempre o melhor do mundo`,
+
+"grao-terra-molhada/6": `[Verse 1]
+I took my shoes off on the lawn
+And felt the earth beneath my toes
+A current running through the blades
+A charge that only barefoot knows
+
+[Verse 2]
+They call it grounding, call it woo
+But my feet know what science won't
+The grass accepts the weight of me
+And gives me back what concrete don't
+
+[Pre-Chorus]
+Feet on earth — the oldest connection
+The original plug-in
+
+[Chorus]
+Barefoot grass — I'm charging up
+Barefoot grass — the earth below
+My feet remember what my mind forgot
+Barefoot grass — this is where I'm whole
+
+[Verse 3]
+The morning dew between my toes
+The tickle and the cold surprise
+The lawn doesn't ask for shoes or socks
+Just honest feet and open eyes
+
+[Chorus]
+Barefoot grass — I'm charging up
+Barefoot grass — the earth below
+My feet remember what my mind forgot
+Barefoot grass — this is where I'm whole
+
+[Bridge]
+In a world of concrete and of glass
+The bravest thing is bare feet on the grass
+No screen, no noise, no filtered view
+Just the earth and me — and the morning dew
+
+[Chorus]
+Barefoot grass — the simplest cure
+Barefoot grass — the most pure
+My feet on earth, my soul at rest
+Barefoot grass — the planet's best
+
+[Outro]
+Take your shoes off
+Stand right here
+The earth is waiting
+And it's been waiting all year`,
+
+"grao-terra-molhada/7": `[Verse 1]
+O gato dorme na sombra da oliveira
+O corpo como uma letra sem forma
+Não faz nada, não produz nada
+E é o ser mais sábio desta norma
+
+[Verse 2]
+Eu corro, eu faço listas, eu planeio
+E ele? Abre um olho e volta a fechar
+Mestre da arte de existir sem pressa
+Professor de como simplesmente estar
+
+[Pre-Chorus]
+Ronrona baixinho
+Como quem já percebeu tudo
+
+[Chorus]
+Gato no jardim — mestre do nada
+Gato no jardim — zen sem esforço
+Ensina-me a arte de parar
+Sem culpa, sem medo, sem remorso
+
+[Verse 3]
+Move-se do sol para a sombra
+E da sombra para o sol
+Sem relógio, sem agenda
+A vida cabe neste rol
+
+[Chorus]
+Gato no jardim — mestre do nada
+Gato no jardim — zen sem esforço
+Ensina-me a arte de parar
+Sem culpa, sem medo, sem remorso
+
+[Bridge]
+E quando o mundo pede mais de mim
+Olho para o gato e lembro-me
+Que existir já é produção
+E que o melhor de mim mora na atenção
+
+[Chorus]
+Gato no jardim — eu quero ser como tu
+Gato no jardim — sem lista nem plano
+Só o sol na pele, a sombra na hora certa
+E o ronronar de quem é soberano
+
+[Outro]
+Ronrona
+Dorme
+Existe
+E isso — é tudo`,
+
+"grao-terra-molhada/8": `[Verse 1]
+In spring the garden holds its breath
+Then pushes green through frozen ground
+In summer everything explodes
+In gold and red without a sound
+
+[Verse 2]
+In autumn leaves let go like prayers
+The garden strips down to the bone
+In winter rest is not defeat
+It's gathering strength for seeds unsown
+
+[Pre-Chorus]
+Every season has its purpose
+Every wait has its reward
+
+[Chorus]
+Seasons — the garden's patient song
+Seasons — teaching where we went wrong
+You can't rush a rose or force a bloom
+Seasons — there's time, there's always room
+
+[Verse 3]
+I tried to hurry up my life
+Skip winter, rush through autumn's fall
+The garden watched me with its silence
+And whispered — you need them all
+
+[Chorus]
+Seasons — the garden's patient song
+Seasons — teaching where we went wrong
+You can't rush a rose or force a bloom
+Seasons — there's time, there's always room
+
+[Bridge]
+The garden never skips a season
+Even when the cold seems cruel
+The roots are working underground
+Preparing for the spring renewal
+
+[Chorus]
+Seasons — anthem of the patient
+Seasons — hymn of those who wait
+The garden knows what we keep forgetting
+Seasons — nothing good arrives late
+
+[Outro]
+Spring will come
+It always does
+After every winter
+Spring will come — because it must`,
+
+"grao-terra-molhada/9": `[Verse 1]
+Ao fim do dia pego na mangueira
+E o arco de água brilha ao sol
+As plantas bebem sem ter pressa
+E eu sinto-me o melhor caracol
+
+[Verse 2]
+Rego os tomateiros um a um
+Falo com eles em voz baixa
+"Então, hoje cresceste" — e eles nada
+Mas eu juro que a folha se abaxa
+
+[Pre-Chorus]
+Regar é o gesto mais gentil
+Que um ser humano pode ter
+
+[Chorus]
+Rega — ao fim da tarde
+Rega — o ritual mais doce
+Dar água a quem tem sede
+É o acto mais simples e mais nobre
+
+[Verse 3]
+A criança olha e quer ajudar
+Dou-lhe o regador pequeno e torto
+E juntas regamos sem ter pressa
+Duas jardineiras no conforto
+
+[Chorus]
+Rega — ao fim da tarde
+Rega — o ritual mais doce
+Dar água a quem tem sede
+É o acto mais simples e mais nobre
+
+[Bridge]
+E quando a água cai na terra seca
+E a terra absorve sem fazer barulho
+Percebo que cuidar é isto
+Dar sem esperar nada em troco — só orgulho
+
+[Chorus]
+Rega — a minha meditação
+Rega — o meu fim de dia
+A mangueira, o sol, a terra
+Rega — a mais pura alegria
+
+[Outro]
+A água cai
+A terra bebe
+E eu fico ali
+Até o sol se deitar também`,
+
+"grao-terra-molhada/10": `[Verse 1]
+This is for the seed that pushed through dark
+For the root that reached without a map
+For the leaf that turned towards the light
+Without a guide, without a trap
+
+[Verse 2]
+This is for the child that grew in wonder
+For the love that grew from broken ground
+For the idea that grew inside a silence
+Until it made the loudest sound
+
+[Pre-Chorus]
+Everything grows
+Everything grows
+
+[Chorus]
+Grow — the anthem of the patient
+Grow — the song of those who wait
+Grow — slowly, surely, stubbornly
+Grow — nothing beautiful arrives late
+
+[Verse 3]
+The oak was once a tiny seed
+The river once a single drop
+The garden teaches what we need
+The courage not to stop
+
+[Chorus]
+Grow — the anthem of the patient
+Grow — the song of those who wait
+Grow — slowly, surely, stubbornly
+Grow — nothing beautiful arrives late
+
+[Bridge]
+And the choir sings for every root
+For every stem that found the sky
+For every single growing thing
+That chose to reach instead of die
+
+[Chorus]
+Grow — this is for you
+Grow — you're doing it now
+Grow — even when you can't see it
+Grow — the earth can feel you — take a bow
+
+[Outro]
+Grow
+Like the garden taught you
+Grow
+Slowly — and surely — and now`,
+
 };
