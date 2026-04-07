@@ -2206,4 +2206,548 @@ The same sky that held my childhood gaze
 And I make this vow in open air
 To be amazed for all my days`,
 
+  // ─────────────────────────────────────────────
+  // PELE EXPOSTA (vergonha do corpo/classe/cultura — libertação)
+  // ─────────────────────────────────────────────
+
+  "incenso-pele-exposta/1": `[Verse 1]
+Estou nua diante do espelho
+E vejo tudo o que o mundo não vê
+As marcas, as dobras, o velho
+Mapa de quem eu escolhi ser
+
+[Verse 2]
+A barriga não é como dizem
+Os braços não são como querem
+Mas estes ossos que me fizeram
+São os mesmos que me sustêm
+
+[Pre-Chorus]
+Fico aqui — não desvio o olhar
+Fico aqui e deixo o corpo falar
+
+[Chorus]
+Espelho nu, mostra tudo
+Cada cicatriz, cada curva e cada falta
+Espelho nu, sou um escudo
+Feito de pele que nunca se exalta
+Mas fica — fico eu diante de mim
+Sem filtro, sem roupa, sem pose
+E o que vejo no final sem fim
+É um corpo que merece a dose
+
+[Verse 3]
+As pernas que me levaram até aqui
+Têm varizes e têm força
+O peito que eu escondi
+É o mesmo que me endossa
+
+[Chorus]
+Espelho nu, mostra tudo
+Cada cicatriz, cada curva e cada falta
+
+[Bridge]
+Não é bonito como nos jornais
+Não é perfeito como na moldura
+Mas é meu — e isso basta e mais
+É a minha própria escritura
+
+[Chorus]
+Espelho nu — eu fico aqui
+De pé, de frente, sem vergonha
+Espelho nu — e o que eu vi
+É uma mulher que não é sonha
+
+[Outro]
+O espelho não mente nem julga
+Sou eu que trago o tribunal
+E hoje decido que a fúlgida
+Beleza é ser real`,
+
+  "incenso-pele-exposta/2": `[Verse 1]
+I opened my mouth and the room went still
+Not for what I said but how I said it
+The accent that I tried to kill
+Came back — and I couldn't edit
+
+[Verse 2]
+They smiled that way that people do
+When you mispronounce the obvious
+A kindness laced with something blue
+That tells you — you're the foreign one of us
+
+[Pre-Chorus]
+My voice is where I come from
+My tongue is where I was born
+
+[Chorus]
+Accent — the sound of somewhere else
+The map that lives inside my throat
+Accent — the books on different shelves
+The melody inside the note
+I used to hate the way I spoke
+I used to practise in the mirror
+But the more I bent, the more I broke
+And the more my voice became unclear
+
+[Verse 3]
+Then one morning in a crowd
+Someone heard me and they said
+Your voice is music, clear and loud
+Like a river I'd follow to bed
+
+[Chorus]
+Accent — the sound of somewhere else
+The map that lives inside my throat
+
+[Bridge]
+My accent is not a mistake
+It's a heritage, a sonic passport
+It's the sound my grandmother would make
+And her mother — in a different transport
+
+[Chorus]
+Accent — I wear you like a crown
+The sound of home inside my speech
+I will never tone you down
+You are the farthest thing from a breach
+
+[Outro]
+I speak and the room hears music
+From a place they've never been
+My accent is not a gimmick
+It's the most honest thing I've ever been`,
+
+  "incenso-pele-exposta/3": `[Verse 1]
+A cicatriz no braço esquerdo
+Vem de uma queda no quinto ano
+Contava-a com vergonha — agora acordo
+E conto-a como um plano
+
+[Verse 2]
+A do joelho é do parto
+A da barriga é da operação
+Cada marca é um quarto
+Na casa da minha condição
+
+[Pre-Chorus]
+A pele escreve o que a boca não diz
+A pele é o diário mais honesto
+
+[Chorus]
+Cicatriz que eu já escondi
+Agora é história que eu conto
+Cicatriz que já me fez fugir
+Agora é mapa e é ponto
+De partida — não de chegada
+De orgulho — não de disfarce
+A pele conta tudo e nada
+Que não mereça o meu alarde
+
+[Verse 3]
+A avó tinha uma no pescoço
+Nunca contou de onde veio
+Mas eu olhava com destroço
+E ela sorria com o meio
+
+[Chorus]
+Cicatriz que eu já escondi
+Agora é história que eu conto
+
+[Bridge]
+Mostro-te a minha se mostrares a tua
+Não por exibição mas por verdade
+A cicatriz é uma rua
+Que leva sempre à humanidade
+
+[Chorus]
+Cicatriz — não te escondo mais
+Cicatriz — és o meu mapa aberto
+Cada marca que o corpo traz
+É prova de que eu estive perto
+
+[Outro]
+A pele lembra o que eu sobrevivi
+Cada risca é uma linha de vida
+E hoje quando me olho e me vi
+Sou uma colecção de ferida — e saída`,
+
+  "incenso-pele-exposta/4": `[Verse 1]
+I wore the wrong thing to the party
+A dress too bright, too cheap, too loud
+I felt the eyes — not quite a hearty
+Welcome — more a questioning crowd
+
+[Verse 2]
+My shoes were scuffed, my bag was old
+I stood where champagne glasses clinked
+And everything my clothes had told
+The room was: she does not belong — I think
+
+[Pre-Chorus]
+But what if the room was wrong, not me
+What if overdressed means free
+
+[Chorus]
+Wrong clothes, right body, wrong room, right soul
+I wore my mother's bargain pride
+Wrong clothes — but I am whole
+In this dress she saved for and I won't hide
+Let them look, let them whisper, let them stare
+I am every sequin, every stitch
+My mother's hands are in this wear
+And that makes me the richest in the niche
+
+[Verse 3]
+She ironed this dress the night before
+Hung it on the door with care
+Said you look beautiful, my darling girl
+And that was worth more than anything there
+
+[Chorus]
+Wrong clothes, right body, wrong room, right soul
+I wore my mother's bargain pride
+
+[Bridge]
+Fashion is a fortress for the rich
+Style is what the poor invent
+I don't need their label or their stitch
+I need my mother's compliment
+
+[Chorus]
+Wrong clothes — I'll wear them like a flag
+Right body — it carries all I've got
+Wrong clothes are not a drag
+They're proof I came from a lot
+
+[Outro]
+I danced at that party til my feet bled
+In shoes my mother found on sale
+And everything those people said
+Was noise — my mother told the real tale`,
+
+  "incenso-pele-exposta/5": `[Verse 1]
+O lanche que a mãe fez era diferente
+Pão com manteiga enquanto os outros tinham queijo
+E eu olhava para o chão com vergonha e dente
+De não ser igual — e esse era o meu desejo
+
+[Verse 2]
+Os sapatos eram da irmã mais velha
+Dois números a mais, algodão nos dedos
+E a mochila era uma abelha
+Velha que carregava os meus medos
+
+[Pre-Chorus]
+Levei anos a perceber
+Que o lanche tinha amor dentro
+
+[Chorus]
+Mãe pobre que fez tudo com as mãos
+Que acordou mais cedo para o pão
+Que contou moedas sem aviões
+Mas nunca me faltou uma canção
+Mãe pobre — perdoa-me a vergonha
+Que eu senti do teu sacrifício
+Levei uma vida a ver a tristonha
+Verdade: tu eras o edifício
+
+[Verse 3]
+Agora que compro o que quero
+Agora que o queijo sobra na gaveta
+Percebo que o mais caro que eu espero
+É o tempo que ela pôs na minha maqueta
+
+[Chorus]
+Mãe pobre que fez tudo com as mãos
+Que acordou mais cedo para o pão
+
+[Bridge]
+Não era pobreza — era economia
+De quem dá o que não tem
+Não era falta — era poesia
+De quem ama mais do que convém
+
+[Chorus]
+Mãe — a vergonha era minha
+O orgulho devia ter sido
+De cada manhã que eras vizinha
+De um milagre repetido
+
+[Outro]
+Guardei o saco do lanche velho
+Não como lembrança mas como mapa
+De quem me ensinou sem espelho
+Que o amor não tem etiqueta nem capa`,
+
+  "incenso-pele-exposta/6": `[Verse 1]
+I spent my life apologising
+For my skin, my hair, my nose
+Shrinking down and compromising
+Hiding under shapeless clothes
+
+[Verse 2]
+I straightened what was meant to curl
+I lightened what was meant to glow
+I was a self-correcting girl
+Erasing what I'd come to know
+
+[Pre-Chorus]
+Until the day I stood in the sun
+And let my skin drink every ray
+
+[Chorus]
+Skin — I will not apologise
+For the colour that the sun has kissed
+Skin — I see it through new eyes
+Every shade that I had missed
+My skin is where my story lives
+My skin is where my mother danced
+My skin is what the morning gives
+And I will never lower my glance
+
+[Verse 3]
+My daughter touched my arm and said
+Mummy, we're the same brown
+And something in me broke and spread
+Like light across a sleeping town
+
+[Chorus]
+Skin — I will not apologise
+For the colour that the sun has kissed
+
+[Bridge]
+Every beauty standard is a wall
+Built by someone who looked nothing like us
+But the wall is crumbling and the fall
+Reveals a garden — glorious
+
+[Chorus]
+Skin — this anthem is for us
+For every body kept in shade
+Skin — step into the light, no fuss
+You were born to be displayed
+
+[Outro]
+I stand in the sun with my arms spread wide
+My skin drinks the light like a song
+And for the first time I don't hide
+I glow — and I've glowed all along`,
+
+  "incenso-pele-exposta/7": `[Verse 1]
+No trabalho falo de outra forma
+Em casa falo como sou
+No meio há uma norma
+Que me diz quem eu devo ser e onde estou
+
+[Verse 2]
+Engoli o sotaque de Maputo
+Troquei por lisboeta sem pensar
+E quando ligo à mãe ao minuto
+O sotaque volta sem eu notar
+
+[Pre-Chorus]
+A voz que perdi era o meu mapa
+A voz que fingi era a minha capa
+
+[Chorus]
+O sotaque que tentei perder
+Era o mapa de onde eu venho
+O sotaque que não quis ter
+Era o mais bonito e o mais estranho
+Porque a voz não é só som
+A voz é terra e é raiz
+E quando eu falo como sou de bom
+O corpo inteiro diz que sim — é feliz
+
+[Verse 3]
+Um dia na reunião deixei escapar
+Uma palavra como a avó dizia
+E todos olharam mas eu quis ficar
+Naquele sotaque que era meu e brilhava como dia
+
+[Chorus]
+O sotaque que tentei perder
+Era o mapa de onde eu venho
+
+[Bridge]
+A minha voz tem Índico e Tejo
+Tem terra vermelha e azulejo
+E não a troco por nenhum desejo
+De parecer o que não sou — é vejo
+
+[Chorus]
+O sotaque voltou para ficar
+A voz que é minha e de mais ninguém
+É assim que eu vou falar
+Com as cores todas de onde eu vim também
+
+[Outro]
+Falo como a minha avó falou
+Com as vogais abertas e o sol
+E o mundo que me corrigiu
+Agora ouve a minha cor — meu farol`,
+
+  "incenso-pele-exposta/8": `[Verse 1]
+Lines across my belly, silver
+Like a river drawn by hand
+Every mark a kind of quiver
+Left by life that didn't plan
+
+[Verse 2]
+They came with weight, they came with child
+They came with growth and grief and bread
+A body stretching, reconciled
+To becoming more than it had said
+
+[Pre-Chorus]
+The body makes room before you ask
+It draws the map of who you'll be
+
+[Chorus]
+Stretch marks — silver rivers on my skin
+The lines my body drew to grow
+Stretch marks — proof of where I've been
+Of everything I've had to show
+Not scars — but maps of transformation
+Not flaws — but lines of becoming more
+Each one a declaration
+That my body opened up a door
+
+[Verse 3]
+My daughter traces them with her finger
+And asks if they hurt, if they fade
+I tell her that they linger
+Like the best decisions ever made
+
+[Chorus]
+Stretch marks — silver rivers on my skin
+The lines my body drew to grow
+
+[Bridge]
+We hide what makes us real
+Behind the fabric, behind the shame
+But every line I feel
+Is just another way to claim my name
+
+[Chorus]
+Stretch marks — I wear you in the summer
+On the beach, in the light, in the air
+You are not a bummer
+You're the bravest thing I wear
+
+[Outro]
+The mirror shows me silver threads
+On skin that carried more than weight
+And what I see instead of dreads
+Is a body that chose to create`,
+
+  "incenso-pele-exposta/9": `[Verse 1]
+Não é a nudez do corpo que me assusta
+É mostrar quem realmente sou
+Sem a máscara que tudo ajusta
+Sem o papel que o mundo me dou
+
+[Verse 2]
+Despir a competência e a certeza
+Despir a calma fabricada
+Ficar em pele com a fraqueza
+E dizer aqui estou — toda errada
+
+[Pre-Chorus]
+A nudez mais nua é a verdade
+Quando a dizes sem rede por baixo
+
+[Chorus]
+Nua — não de roupa mas de tudo
+De cada pose, cada máscara, cada escudo
+Nua — como quem decide ser
+Exactamente o que é, sem parecer
+É a nudez que mais custa
+A que não é de pele mas de alma
+A que o mundo não ajusta
+Porque não há filtro para tanta calma
+
+[Verse 3]
+Disse-lhe que tinha medo
+Disse-lhe que não sabia
+E nessa nudez sem segredo
+Encontrei mais companhia
+
+[Chorus]
+Nua — não de roupa mas de tudo
+De cada pose, cada máscara, cada escudo
+
+[Bridge]
+O mundo quer que estejas vestida
+De certeza, de poder, de pressa
+Mas a vida — a verdadeira vida
+Começa quando tiras essa peça
+
+[Chorus]
+Nua — o hino de quem se mostra
+De quem diz isto sou eu sem verniz
+Nua — a liberdade que prostra
+Toda a mentira — e me faz feliz
+
+[Outro]
+Fiquei nua diante do mundo
+E o mundo não fugiu
+Ficou ali com o seu segundo
+E disse — finalmente te vi`,
+
+  "incenso-pele-exposta/10": `[Verse 1]
+I took off every mask I own
+The strong one and the funny one
+The mother and the professional tone
+Until there was nothing but the sun
+
+[Verse 2]
+And there I stood in my own light
+With nothing left that wasn't true
+No stage, no script, no need to fight
+Just me — the version no one knew
+
+[Pre-Chorus]
+The storm has passed, the fire is out
+This is what remains of the doubt
+
+[Chorus]
+Bare — with nothing more to prove
+Bare — with nothing left to lose
+Bare — and in this quiet groove
+I find the peace I couldn't choose
+Standing in my own November
+Standing where the noise let go
+I don't need the world to remember
+I just need to let it know
+
+[Verse 3]
+The shame has packed its bags and gone
+Left a forwarding address of null
+And here I stand beneath the dawn
+Completely empty, completely full
+
+[Chorus]
+Bare — with nothing more to prove
+Bare — with nothing left to lose
+
+[Bridge]
+Not brave in the way the world expects
+No armour, no shield, no clever line
+Just a woman standing in her defects
+And calling every one of them mine
+
+[Chorus]
+Bare — this is who I am
+Bare — and I am staying here
+Bare — without a single plan
+Except to live without the fear
+
+[Outro]
+The wind is gentle on bare skin
+The light is kind to honest eyes
+And everything I held within
+Is free now — free to rise`,
+
 };
