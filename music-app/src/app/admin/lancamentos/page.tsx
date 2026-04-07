@@ -110,18 +110,12 @@ function formatDate(iso: string): string {
 
 /**
  * Gerar datas de lançamento: 3/semana (Seg, Qua, Sex)
- * A partir da próxima segunda-feira após hoje.
+ * A partir do próximo dia de lançamento (hoje ou seguinte Seg/Qua/Sex).
  */
 function generateReleaseDates(count: number): string[] {
   const today = new Date();
-  // Find next Monday
-  const start = new Date(today);
-  const dayOfWeek = start.getDay();
-  const daysToMonday = dayOfWeek === 0 ? 1 : dayOfWeek === 1 ? 0 : 8 - dayOfWeek;
-  start.setDate(start.getDate() + daysToMonday);
-
   const dates: string[] = [];
-  const current = new Date(start);
+  const current = new Date(today);
 
   while (dates.length < count) {
     const dow = current.getDay();
