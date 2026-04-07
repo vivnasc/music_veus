@@ -510,7 +510,10 @@ export default function CalendarPage() {
                                             clipUrls.push(rd.videoUrl);
                                             continue;
                                           }
-                                          if (!rd.taskId) { alert(`Runway clip ${idx + 1}: ${rd.erro || JSON.stringify(rd)}`); return; }
+                                          if (!rd.taskId) {
+                                            console.warn(`Runway clip ${idx + 1}: sem taskId — ${rd.erro || JSON.stringify(rd)}`);
+                                            continue; // skip failed clip, try to continue with others
+                                          }
 
                                           const params = new URLSearchParams({
                                             taskId: rd.taskId,
@@ -527,11 +530,15 @@ export default function CalendarPage() {
                                               found = true;
                                               break;
                                             }
-                                            if (sData.status === "error") { alert(`Runway clip ${idx + 1}: ${sData.error}`); return; }
+                                            if (sData.status === "error") {
+                                              console.warn(`Runway clip ${idx + 1} falhou: ${sData.error}`);
+                                              break; // skip this clip, continue with others
+                                            }
                                             setGenerating(p => ({ ...p, [key]: `3/4 Clip ${idx + 1}/3... ${Math.min(Math.round(i * 1.2), 95)}%` }));
                                           }
-                                          if (!found) { alert(`Timeout no clip ${idx + 1}`); return; }
+                                          if (!found) console.warn(`Clip ${idx + 1} não disponível, a continuar com os restantes...`);
                                         }
+                                        if (clipUrls.length < 2) { alert(`Apenas ${clipUrls.length} clip(s) disponíveis. Mínimo 2 necessários. Possível falha de moderação do Runway.`); return; }
 
                                         // Step 4: Validate clips + mount with Shotstack
                                         setGenerating(p => ({ ...p, [key]: "4/4 A validar clips..." }));
