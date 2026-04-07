@@ -1873,6 +1873,13 @@ export default function AlbumProductionPage() {
               Calendario
             </Link>
 
+            <Link
+              href="/admin/lancamentos"
+              className="rounded-lg bg-purple-900/30 px-4 py-2.5 text-xs min-h-[44px] text-purple-400 hover:bg-purple-900/50 transition flex items-center"
+            >
+              Lançamentos
+            </Link>
+
             <button
               onClick={async () => {
                 if (!confirm("Apagar todas as capas antigas (caminho sem albums/)?")) return;
