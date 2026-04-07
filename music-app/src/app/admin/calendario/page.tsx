@@ -6,12 +6,16 @@ import { ALL_ALBUMS } from "@/data/albums";
 import { adminFetch } from "@/lib/admin-fetch";
 
 // Loranne images without text, good quality, grouped by mood
+// EXCLUDED: coloridos (all have album title text), loranne2-08/loranne3-08/loranne6-08 (split/dual images)
 const LORANNE_IMAGES: Record<string, string[]> = {
   spiritual: ["/poses/velas-01.png", "/poses/velas-02.png", "/poses/velas-03.png", "/poses/velas-04.png"],
   intimate: ["/poses/loranne8-01.png", "/poses/loranne8-02.png", "/poses/loranne8-03.png", "/poses/loranne8-04.png", "/poses/loranne6-01.png", "/poses/loranne6-02.png", "/poses/loranne6-03.png"],
-  movement: ["/poses/loranne3-01.png", "/poses/loranne3-02.png", "/poses/loranne3-03.png", "/poses/loranne3-04.png", "/poses/loranne3-05.png"],
-  contemplative: ["/poses/loranne5-01.png", "/poses/loranne5-02.png", "/poses/loranne5-03.png", "/poses/loranne5-04.png", "/poses/loranne5-05.png"],
-  vulnerable: ["/poses/loranne6-04.png", "/poses/loranne6-05.png", "/poses/loranne6-06.png", "/poses/loranne6-07.png"],
+  movement: ["/poses/loranne3-01.png", "/poses/loranne3-02.png", "/poses/loranne3-03.png", "/poses/loranne3-04.png", "/poses/loranne3-05.png", "/poses/loranne3-06.png", "/poses/loranne3-07.png", "/poses/loranne3-09.png"],
+  contemplative: ["/poses/loranne5-01.png", "/poses/loranne5-02.png", "/poses/loranne5-03.png", "/poses/loranne5-04.png", "/poses/loranne5-05.png", "/poses/loranne5-06.png", "/poses/loranne5-07.png", "/poses/loranne5-08.png"],
+  vulnerable: ["/poses/loranne6-04.png", "/poses/loranne6-05.png", "/poses/loranne6-06.png", "/poses/loranne6-07.png", "/poses/loranne6-09.png"],
+  warm: ["/poses/loranne4-01.png", "/poses/loranne4-02.png", "/poses/loranne4-03.png", "/poses/loranne4-04.png", "/poses/loranne4-05.png", "/poses/loranne4-06.png", "/poses/loranne4-07.png", "/poses/loranne4-08.png", "/poses/loranne4-09.png"],
+  strong: ["/poses/loranne7-01.png", "/poses/loranne7-02.png", "/poses/loranne7-03.png", "/poses/loranne7-04.png"],
+  classic: ["/poses/loranne2-01.png", "/poses/loranne2-02.png", "/poses/loranne2-03.png", "/poses/loranne2-04.png", "/poses/loranne2-05.png", "/poses/loranne2-06.png", "/poses/loranne2-07.png", "/poses/loranne2-09.png"],
   iconic: ["/Loranne.png", "/poses/loranne-hero.png"],
 };
 
@@ -23,9 +27,13 @@ function getImageMood(albumSlug: string): string {
   if (p === "incenso") return "spiritual";
   if (p === "nua") return "intimate";
   if (p === "fibra") return "movement";
-  if (p === "mare" || p === "grao") return "contemplative";
-  if (p === "sangue" || p === "no") return "vulnerable";
-  if (p === "eter" || p === "espelho") return "contemplative";
+  if (p === "mare") return "contemplative";
+  if (p === "grao") return "warm";
+  if (p === "sangue") return "vulnerable";
+  if (p === "no") return "strong";
+  if (p === "eter") return "contemplative";
+  if (p === "espelho") return "classic";
+  if (p === "livro" || p === "curso") return "warm";
   return "iconic";
 }
 
@@ -482,11 +490,29 @@ export default function CalendarPage() {
 
                                         // Step 2: 1 Loranne + 2 AI → send 3 to Runway in parallel
                                         const loranneImgs = pickLorannImages(albumSlug, trackNum, 1);
-                                        const prodUrl = "https://music.seteveus.space";
-                                        const imageUrls = [
-                                          `${prodUrl}${loranneImgs[0]}`,
-                                          aiData.imageUrls[0],
-                                          aiData.imageUrls[1] || aiData.imageUrls[0],
+
+                                        // Convert Loranne image to base64 (avoids prod URL dependency)
+                                        let loranneBase64: string | null = null;
+                                        try {
+                                          const loranneRes = await fetch(loranneImgs[0]);
+                                          if (loranneRes.ok) {
+                                            const blob = await loranneRes.blob();
+                                            const reader = new FileReader();
+                                            loranneBase64 = await new Promise<string>((resolve, reject) => {
+                                              reader.onloadend = () => resolve(reader.result as string);
+                                              reader.onerror = reject;
+                                              reader.readAsDataURL(blob);
+                                            });
+                                          }
+                                        } catch (e) {
+                                          console.warn("Failed to load Loranne image locally:", e);
+                                        }
+
+                                        // Build 3 image sources: Loranne (base64) + 2 AI (URLs)
+                                        const imageInputs: { imageUrl?: string; imageBase64?: string }[] = [
+                                          loranneBase64 ? { imageBase64: loranneBase64 } : { imageUrl: `${window.location.origin}${loranneImgs[0]}` },
+                                          { imageUrl: aiData.imageUrls[0] },
+                                          { imageUrl: aiData.imageUrls[1] || aiData.imageUrls[0] },
                                         ];
 
                                         setGenerating(p => ({ ...p, [key]: "2/4 A enviar 3 clips para Runway..." }));
@@ -496,20 +522,22 @@ export default function CalendarPage() {
                                           "Gentle camera drift, soft fabric movement, light particles floating, intimate and warm atmosphere",
                                         ];
 
-                                        const runwayResults = await Promise.all(imageUrls.map(async (imgUrl, idx) => {
+                                        // Use clip index suffix (e.g. track 3 → 301, 302, 303) to avoid collisions
+                                        const runwayResults = await Promise.all(imageInputs.map(async (imgInput, idx) => {
+                                          const clipTrackNum = trackNum * 100 + idx + 1;
                                           const res = await adminFetch("/api/admin/runway/generate", {
                                             method: "POST",
                                             headers: { "Content-Type": "application/json" },
                                             body: JSON.stringify({
                                               albumSlug,
-                                              trackNumber: trackNum * 10 + idx, // unique per clip
-                                              imageUrl: imgUrl,
+                                              trackNumber: clipTrackNum,
+                                              ...imgInput,
                                               promptText: runwayPrompts[idx],
                                               duration: 5,
                                               ratio: "9:16",
                                             }),
                                           });
-                                          return res.json();
+                                          return { ...(await res.json()), clipTrackNum };
                                         }));
 
                                         // Step 3: Poll all Runway tasks
@@ -528,7 +556,7 @@ export default function CalendarPage() {
                                           const params = new URLSearchParams({
                                             taskId: rd.taskId,
                                             album: albumSlug,
-                                            track: String(trackNum * 10 + idx),
+                                            track: String(rd.clipTrackNum),
                                           });
                                           let found = false;
                                           for (let i = 0; i < 120; i++) {
