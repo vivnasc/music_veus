@@ -9,121 +9,24 @@ import { adminFetch } from "@/lib/admin-fetch";
 // Tipos
 // ─────────────────────────────────────────────
 
-type ReleaseStatus = "publicado" | "agendado" | "a-produzir" | "em-producao";
+type ReleaseStatus = "publicado" | "pronto" | "em-producao";
 
 type Release = {
   albumSlug: string;
-  releaseDate: string; // ISO date
+  releaseDate: string;
   status: ReleaseStatus;
-  distrokidUrl?: string;
+  produced: number;
+  total: number;
   notes?: string;
 };
 
 // ─────────────────────────────────────────────
-// Dados: álbuns já publicados + agenda dos 10
+// Álbuns já publicados (fixo)
 // ─────────────────────────────────────────────
 
-// 3 álbuns/semana em dias fixos: Segunda, Quarta e Sexta.
-// Sexta coincide com New Music Friday do Spotify = melhor visibilidade.
-// 12 álbuns = 4 semanas completas (3+3+3+3).
-// Ordem estratégica: começar pelo mais leve, variar colecções e energias.
-
-const RELEASE_DAYS = "Segunda · Quarta · Sexta";
-
-const RELEASES: Release[] = [
-  // ── Já publicados ──
-  {
-    albumSlug: "incenso-frequencia",
-    releaseDate: "2026-03-15",
-    status: "publicado",
-    notes: "Primeiro álbum publicado. 10 faixas.",
-  },
-  {
-    albumSlug: "livro-filosofico",
-    releaseDate: "2026-03-22",
-    status: "publicado",
-    notes: "9 faixas. Companheiro do livro filosófico.",
-  },
-
-  // ── Semana 1: Alegria + Corpo (Seg 14, Qua 16, Sex 18 Abril) ──
-  {
-    albumSlug: "grao-festa",
-    releaseDate: "2026-04-13",
-    status: "a-produzir",
-    notes: "Celebração, alegria sem motivo. O álbum mais leve.",
-  },
-  {
-    albumSlug: "grao-boca-aberta",
-    releaseDate: "2026-04-15",
-    status: "a-produzir",
-    notes: "Gargalhadas, tolice, brincar. Funk + bossa.",
-  },
-  {
-    albumSlug: "fibra-azul-fundo",
-    releaseDate: "2026-04-17",
-    status: "a-produzir",
-    notes: "Natação. Água, silêncio debaixo de água, paz.",
-  },
-
-  // ── Semana 2: Chill + Ciclos + Dança (Seg 21, Qua 23, Sex 25 Abril) ──
-  {
-    albumSlug: "mare-varanda-quente",
-    releaseDate: "2026-04-20",
-    status: "a-produzir",
-    notes: "House chill puro. Pôr-do-sol, varanda, vinho.",
-  },
-  {
-    albumSlug: "grao-estacoes",
-    releaseDate: "2026-04-22",
-    status: "a-produzir",
-    notes: "Páscoa, solstício, outono, inverno, Ano Novo interior.",
-  },
-  {
-    albumSlug: "incenso-pes-descalcos",
-    releaseDate: "2026-04-24",
-    status: "a-produzir",
-    notes: "O corpo que dança antes da mente. House + marrabenta.",
-  },
-
-  // ── Semana 3: Profundidade + Gratidão + Duetos (Seg 28, Qua 30, Sex 2 Mai) ──
-  {
-    albumSlug: "eter-oceano",
-    releaseDate: "2026-04-27",
-    status: "a-produzir",
-    notes: "O corpo como água. Profundo mas belo.",
-  },
-  {
-    albumSlug: "incenso-maos-juntas",
-    releaseDate: "2026-04-29",
-    status: "a-produzir",
-    notes: "Gratidão como prática. Gospel + folk.",
-  },
-  {
-    albumSlug: "nua-duas-vozes",
-    releaseDate: "2026-05-01",
-    status: "a-produzir",
-    notes: "Duetos íntimos. Diálogos cantados no quotidiano.",
-  },
-
-  // ── Semana 4: Recomeços + Verão + Noite (Seg 4, Qua 6, Sex 8 Mai) ──
-  {
-    albumSlug: "grao-porta-aberta",
-    releaseDate: "2026-05-04",
-    status: "a-produzir",
-    notes: "Primeiras vezes: escola, emprego, cidade nova.",
-  },
-  {
-    albumSlug: "grao-sal-na-pele",
-    releaseDate: "2026-05-06",
-    status: "a-produzir",
-    notes: "Praia, calor, sal na pele, cigarras. House + marrabenta.",
-  },
-  {
-    albumSlug: "mare-lua-acordada",
-    releaseDate: "2026-05-08",
-    status: "a-produzir",
-    notes: "Passeios nocturnos, luzes da cidade, pensamentos às 3h.",
-  },
+const PUBLISHED: { slug: string; date: string; notes: string }[] = [
+  { slug: "incenso-frequencia", date: "2026-03-15", notes: "Primeiro álbum publicado." },
+  { slug: "livro-filosofico", date: "2026-03-22", notes: "Companheiro do livro filosófico." },
 ];
 
 // ─────────────────────────────────────────────
@@ -150,17 +53,9 @@ function getCollectionLabel(slug: string): string {
   const album = getAlbum(slug);
   if (!album) return "";
   const labels: Record<string, string> = {
-    espelho: "Espelhos",
-    no: "Nós",
-    livro: "Livro",
-    curso: "Cursos",
-    incenso: "Incenso",
-    eter: "Éter",
-    nua: "Nua",
-    sangue: "Sangue",
-    fibra: "Fibra",
-    grao: "Grão",
-    mare: "Maré",
+    espelho: "Espelhos", no: "Nós", livro: "Livro", curso: "Cursos",
+    incenso: "Incenso", eter: "Éter", nua: "Nua", sangue: "Sangue",
+    fibra: "Fibra", grao: "Grão", mare: "Maré",
   };
   return labels[album.product] || album.product;
 }
@@ -169,26 +64,17 @@ function getCollectionColor(slug: string): string {
   const album = getAlbum(slug);
   if (!album) return "#666";
   const colors: Record<string, string> = {
-    espelho: "#c9b896",
-    no: "#8b9b8e",
-    livro: "#ab9375",
-    curso: "#8aaaca",
-    incenso: "#c08aaa",
-    eter: "#5AAFB4",
-    nua: "#c08a8a",
-    sangue: "#C4745A",
-    fibra: "#7A9B8E",
-    grao: "#D4A853",
-    mare: "#E8956A",
+    espelho: "#c9b896", no: "#8b9b8e", livro: "#ab9375", curso: "#8aaaca",
+    incenso: "#c08aaa", eter: "#5AAFB4", nua: "#c08a8a", sangue: "#C4745A",
+    fibra: "#7A9B8E", grao: "#D4A853", mare: "#E8956A",
   };
   return colors[album.product] || "#666";
 }
 
 const STATUS_CONFIG: Record<ReleaseStatus, { label: string; color: string; bg: string }> = {
   publicado: { label: "Publicado", color: "#4ade80", bg: "rgba(74, 222, 128, 0.1)" },
-  agendado: { label: "Agendado", color: "#60a5fa", bg: "rgba(96, 165, 250, 0.1)" },
+  pronto: { label: "Pronto a lançar", color: "#60a5fa", bg: "rgba(96, 165, 250, 0.1)" },
   "em-producao": { label: "Em produção", color: "#fbbf24", bg: "rgba(251, 191, 36, 0.1)" },
-  "a-produzir": { label: "A produzir", color: "#a0a0b0", bg: "rgba(160, 160, 176, 0.1)" },
 };
 
 function formatDate(iso: string): string {
@@ -198,21 +84,31 @@ function formatDate(iso: string): string {
   return `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]}`;
 }
 
-function getWeekNumber(iso: string, baseDate: string): number {
-  const d = new Date(iso + "T12:00:00").getTime();
-  const b = new Date(baseDate + "T12:00:00").getTime();
-  if (d < b) return -1;
-  return Math.floor((d - b) / (7 * 24 * 60 * 60 * 1000));
-}
+/**
+ * Gerar datas de lançamento: 3/semana (Seg, Qua, Sex)
+ * A partir da próxima segunda-feira após hoje.
+ */
+function generateReleaseDates(count: number): string[] {
+  const today = new Date();
+  // Find next Monday
+  const start = new Date(today);
+  const dayOfWeek = start.getDay();
+  const daysToMonday = dayOfWeek === 0 ? 1 : dayOfWeek === 1 ? 0 : 8 - dayOfWeek;
+  start.setDate(start.getDate() + daysToMonday);
 
-function isToday(iso: string): boolean {
-  const today = new Date().toISOString().slice(0, 10);
-  return iso === today;
-}
+  const dates: string[] = [];
+  const current = new Date(start);
 
-function isPast(iso: string): boolean {
-  const today = new Date().toISOString().slice(0, 10);
-  return iso < today;
+  while (dates.length < count) {
+    const dow = current.getDay();
+    // Monday=1, Wednesday=3, Friday=5
+    if (dow === 1 || dow === 3 || dow === 5) {
+      dates.push(current.toISOString().slice(0, 10));
+    }
+    current.setDate(current.getDate() + 1);
+  }
+
+  return dates;
 }
 
 // ─────────────────────────────────────────────
@@ -220,11 +116,9 @@ function isPast(iso: string): boolean {
 // ─────────────────────────────────────────────
 
 export default function LancamentosPage() {
-  const [releases, setReleases] = useState<Release[]>(RELEASES);
-  const [expandedSlug, setExpandedSlug] = useState<string | null>(null);
-  // audioMap: "albumSlug" → Set of track numbers that have audio
   const [audioMap, setAudioMap] = useState<Record<string, Set<number>>>({});
-  const [loadingAudio, setLoadingAudio] = useState(true);
+  const [loading, setLoading] = useState(true);
+  const [expandedSlug, setExpandedSlug] = useState<string | null>(null);
 
   // Fetch production status from Supabase
   useEffect(() => {
@@ -242,64 +136,77 @@ export default function LancamentosPage() {
           }
         }
         setAudioMap(map);
-        setLoadingAudio(false);
+        setLoading(false);
       })
-      .catch(() => setLoadingAudio(false));
+      .catch(() => setLoading(false));
   }, []);
 
-  // Helper: how many tracks of an album have audio
-  function producedCount(slug: string): number {
-    return audioMap[slug]?.size || 0;
-  }
+  // Build releases from real data
+  const publishedSlugs = new Set(PUBLISHED.map((p) => p.slug));
 
-  const published = releases.filter((r: Release) => r.status === "publicado");
-  const upcoming = releases.filter((r: Release) => r.status !== "publicado");
+  const publishedReleases: Release[] = PUBLISHED.map((p) => ({
+    albumSlug: p.slug,
+    releaseDate: p.date,
+    status: "publicado" as ReleaseStatus,
+    produced: getTrackCount(p.slug),
+    total: getTrackCount(p.slug),
+    notes: p.notes,
+  }));
 
-  // Albums with audio that are NOT in the release schedule
-  const scheduledSlugs = new Set(releases.map((r: Release) => r.albumSlug));
-  const otherProduced = !loadingAudio
-    ? ALL_ALBUMS.filter(
-        (a) => !scheduledSlugs.has(a.slug) && (audioMap[a.slug]?.size || 0) > 0
-      )
-    : [];
-  const totalTracks = releases.reduce((sum: number, r: Release) => sum + getTrackCount(r.albumSlug), 0);
-  const publishedTracks = published.reduce((sum: number, r: Release) => sum + getTrackCount(r.albumSlug), 0);
+  // Albums with ALL tracks produced (100%) — ready to release
+  const readyAlbums = ALL_ALBUMS
+    .filter((a) => {
+      if (publishedSlugs.has(a.slug)) return false;
+      const done = audioMap[a.slug]?.size || 0;
+      return done >= a.tracks.length && a.tracks.length > 0;
+    })
+    .sort((a, b) => {
+      // Sort: lighter energy first (more whisper/steady = lighter)
+      const lightScore = (album: typeof a) => {
+        let s = 0;
+        for (const t of album.tracks) {
+          if (t.energy === "whisper") s += 2;
+          else if (t.energy === "steady") s += 1;
+          else if (t.energy === "anthem") s -= 1;
+          else if (t.energy === "raw") s -= 2;
+        }
+        return s / album.tracks.length;
+      };
+      return lightScore(b) - lightScore(a);
+    });
 
-  // Group upcoming by week
-  const firstUpcomingDate = upcoming[0]?.releaseDate || "2026-04-14";
-  const weekGroups: { week: number; label: string; releases: Release[] }[] = [];
-  const weekLabels = [
-    "Semana 1 — Alegria + Corpo",
-    "Semana 2 — Chill + Ciclos + Dança",
-    "Semana 3 — Profundidade + Duetos",
-    "Semana 4 — Recomeços + Verão + Noite",
-  ];
+  // Albums partially produced
+  const partialAlbums = ALL_ALBUMS.filter((a) => {
+    if (publishedSlugs.has(a.slug)) return false;
+    const done = audioMap[a.slug]?.size || 0;
+    return done > 0 && done < a.tracks.length;
+  });
 
-  for (const r of upcoming) {
-    const wk = getWeekNumber(r.releaseDate, firstUpcomingDate);
-    const existing = weekGroups.find((g) => g.week === wk);
-    if (existing) {
-      existing.releases.push(r);
-    } else {
-      weekGroups.push({
-        week: wk,
-        label: weekLabels[wk] || `Semana ${wk + 1}`,
-        releases: [r],
-      });
+  // Generate dates for ready albums
+  const releaseDates = generateReleaseDates(readyAlbums.length);
+
+  const readyReleases: Release[] = readyAlbums.map((a, i) => ({
+    albumSlug: a.slug,
+    releaseDate: releaseDates[i] || "",
+    status: "pronto" as ReleaseStatus,
+    produced: a.tracks.length,
+    total: a.tracks.length,
+  }));
+
+  // Group ready releases by week (3 per week)
+  const weekGroups: { week: number; releases: Release[] }[] = [];
+  for (let i = 0; i < readyReleases.length; i++) {
+    const weekIdx = Math.floor(i / 3);
+    if (!weekGroups[weekIdx]) {
+      weekGroups[weekIdx] = { week: weekIdx, releases: [] };
     }
+    weekGroups[weekIdx].releases.push(readyReleases[i]);
   }
 
-  function cycleStatus(slug: string) {
-    setReleases((prev: Release[]) =>
-      prev.map((r: Release) => {
-        if (r.albumSlug !== slug) return r;
-        const order: ReleaseStatus[] = ["a-produzir", "em-producao", "agendado", "publicado"];
-        const idx = order.indexOf(r.status);
-        const next = order[(idx + 1) % order.length];
-        return { ...r, status: next };
-      })
-    );
-  }
+  const totalReady = readyAlbums.length;
+  const totalPartial = partialAlbums.length;
+  const totalPublished = publishedReleases.length;
+  const weeksNeeded = Math.ceil(totalReady / 3);
 
   return (
     <div className="min-h-screen bg-[#0D0D1A] text-[#F5F0E6] px-4 py-8 sm:px-8">
@@ -323,176 +230,182 @@ export default function LancamentosPage() {
           Agenda de Lançamentos
         </h1>
         <p className="text-sm text-[#666680] mt-1">
-          DistroKid &middot; 3 álbuns/semana &middot; {RELEASE_DAYS}
+          DistroKid &middot; 3 álbuns/semana &middot; Segunda · Quarta · Sexta
         </p>
       </div>
 
-      {/* Stats */}
-      <div className="max-w-4xl mx-auto mb-8 grid grid-cols-2 sm:grid-cols-5 gap-3">
-        <StatCard label="Publicados" value={published.length} color="#4ade80" />
-        <StatCard label="Agendados" value={releases.filter((r: Release) => r.status === "agendado").length} color="#60a5fa" />
-        <StatCard label="Em produção" value={releases.filter((r: Release) => r.status === "em-producao").length} color="#fbbf24" />
-        <StatCard
-          label="Faixas c/ áudio"
-          value={loadingAudio ? "..." : String(Object.keys(audioMap).reduce((s, k) => s + (audioMap[k]?.size || 0), 0))}
-          color="#c08aaa"
-        />
-        <StatCard label="Total faixas" value={`${publishedTracks}/${totalTracks}`} color="#C9A96E" />
-      </div>
-
-      {/* Progress bar */}
-      <div className="max-w-4xl mx-auto mb-10">
-        <div className="flex items-center justify-between text-xs text-[#666680] mb-2">
-          <span>{published.length} de {releases.length} álbuns publicados</span>
-          <span>{Math.round((published.length / releases.length) * 100)}%</span>
+      {loading ? (
+        <div className="max-w-4xl mx-auto text-center py-20">
+          <p className="text-[#666680]">A carregar estado de produção...</p>
         </div>
-        <div className="w-full h-2 bg-white/5 rounded-full overflow-hidden">
-          <div
-            className="h-full rounded-full transition-all duration-500"
-            style={{
-              width: `${(published.length / releases.length) * 100}%`,
-              background: "linear-gradient(90deg, #4ade80, #C9A96E)",
-            }}
-          />
-        </div>
-      </div>
-
-      {/* Already published */}
-      <div className="max-w-4xl mx-auto mb-10">
-        <h2 className="text-sm font-semibold text-[#666680] uppercase tracking-wider mb-4">
-          Já publicados
-        </h2>
-        <div className="space-y-3">
-          {published.map((r: Release) => (
-            <ReleaseCard
-              key={r.albumSlug}
-              release={r}
-              expanded={expandedSlug === r.albumSlug}
-              onToggle={() => setExpandedSlug(expandedSlug === r.albumSlug ? null : r.albumSlug)}
-              onCycleStatus={() => cycleStatus(r.albumSlug)}
-              produced={producedCount(r.albumSlug)}
-              loadingAudio={loadingAudio}
-              audioTracks={audioMap[r.albumSlug]}
+      ) : (
+        <>
+          {/* Stats */}
+          <div className="max-w-4xl mx-auto mb-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <StatCard label="Publicados" value={totalPublished} color="#4ade80" />
+            <StatCard label="Prontos a lançar" value={totalReady} color="#60a5fa" />
+            <StatCard label="Em produção" value={totalPartial} color="#fbbf24" />
+            <StatCard
+              label="Semanas p/ lançar"
+              value={weeksNeeded > 0 ? weeksNeeded : "—"}
+              color="#C9A96E"
             />
-          ))}
-        </div>
-      </div>
-
-      {/* Upcoming by week */}
-      {weekGroups.map((group) => (
-        <div key={group.week} className="max-w-4xl mx-auto mb-8">
-          <h2 className="text-sm font-semibold text-[#C9A96E] uppercase tracking-wider mb-4">
-            {group.label}
-          </h2>
-          <div className="space-y-3">
-            {group.releases.map((r) => (
-              <ReleaseCard
-                key={r.albumSlug}
-                release={r}
-                expanded={expandedSlug === r.albumSlug}
-                onToggle={() => setExpandedSlug(expandedSlug === r.albumSlug ? null : r.albumSlug)}
-                onCycleStatus={() => cycleStatus(r.albumSlug)}
-                produced={producedCount(r.albumSlug)}
-                loadingAudio={loadingAudio}
-                audioTracks={audioMap[r.albumSlug]}
-              />
-            ))}
           </div>
-        </div>
-      ))}
 
-      {/* Other produced albums not in schedule */}
-      {otherProduced.length > 0 && (
-        <div className="max-w-4xl mx-auto mb-10">
-          <h2 className="text-sm font-semibold text-[#fbbf24] uppercase tracking-wider mb-4">
-            Já produzidos (fora da agenda)
-          </h2>
-          <p className="text-xs text-[#666680] mb-3">
-            Álbuns com áudio produzido que ainda não estão na agenda de lançamento.
-          </p>
-          <div className="space-y-2">
-            {otherProduced.map((album) => {
-              const done = audioMap[album.slug]?.size || 0;
-              const total = album.tracks.length;
-              const pct = Math.round((done / total) * 100);
-              const collection = getCollectionLabel(album.slug);
-              const collColor = getCollectionColor(album.slug);
-              return (
+          {/* Progress bar */}
+          {totalReady > 0 && (
+            <div className="max-w-4xl mx-auto mb-10">
+              <div className="flex items-center justify-between text-xs text-[#666680] mb-2">
+                <span>
+                  {totalPublished} publicados · {totalReady} prontos · {totalPartial} em produção
+                </span>
+                <span>{totalReady} álbuns em {weeksNeeded} semanas</span>
+              </div>
+              <div className="w-full h-2 bg-white/5 rounded-full overflow-hidden">
                 <div
-                  key={album.slug}
-                  className="flex items-center gap-3 p-3 rounded-xl border border-white/5 bg-white/[0.02]"
-                >
-                  <div
-                    className="w-1 h-10 rounded-full flex-shrink-0"
-                    style={{ backgroundColor: album.color }}
-                  />
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm font-semibold truncate">{album.title}</span>
-                      <span
-                        className="text-[10px] px-1.5 py-0.5 rounded-full uppercase tracking-wider"
-                        style={{ color: collColor, backgroundColor: `${collColor}15` }}
-                      >
-                        {collection}
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-2 mt-1">
-                      <div className="flex-1 h-1.5 bg-white/5 rounded-full overflow-hidden max-w-[120px]">
-                        <div
-                          className="h-full rounded-full"
-                          style={{
-                            width: `${pct}%`,
-                            background: pct === 100 ? "#4ade80" : "#fbbf24",
-                          }}
-                        />
-                      </div>
-                      <span className="text-[10px] text-[#a0a0b0]">
-                        {done}/{total} faixas
-                      </span>
-                    </div>
-                  </div>
-                  <span
-                    className="text-[10px] px-2 py-1 rounded-full uppercase tracking-wider font-semibold"
-                    style={{
-                      color: pct === 100 ? "#4ade80" : "#fbbf24",
-                      backgroundColor: pct === 100 ? "rgba(74,222,128,0.1)" : "rgba(251,191,36,0.1)",
-                    }}
-                  >
-                    {pct === 100 ? "Pronto" : "Em produção"}
-                  </span>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      )}
+                  className="h-full rounded-full transition-all duration-500"
+                  style={{
+                    width: `${(totalPublished / (totalPublished + totalReady)) * 100}%`,
+                    background: "linear-gradient(90deg, #4ade80, #C9A96E)",
+                  }}
+                />
+              </div>
+            </div>
+          )}
 
-      {/* DistroKid tips */}
-      <div className="max-w-4xl mx-auto mt-12 p-4 rounded-xl border border-white/5 bg-white/[0.02]">
-        <h3 className="text-sm font-semibold text-[#C9A96E] mb-3">Notas DistroKid</h3>
-        <ul className="text-xs text-[#a0a0b0] space-y-2">
-          <li>
-            <span className="text-[#4ade80]">Ritmo:</span> 3 álbuns/semana — Segunda, Quarta
-            e Sexta. Espaçamento de 2 dias entre cada lançamento.
-          </li>
-          <li>
-            <span className="text-[#60a5fa]">Sexta-feira:</span> Melhor dia da semana para
-            lançar — coincide com o New Music Friday do Spotify.
-          </li>
-          <li>
-            <span className="text-[#c08aaa]">Ordem:</span> Começar pelos álbuns mais leves
-            (Festa, Boca Aberta) para estabelecer identidade alegre antes dos contemplativos.
-          </li>
-          <li>
-            <span className="text-[#fbbf24]">Atenção:</span> 4+ álbuns/semana pode disparar
-            revisão manual no Spotify. 3/semana é o máximo seguro.
-          </li>
-          <li>
-            <span className="text-[#F5F0E6]">Total:</span> 12 álbuns em 4 semanas
-            (13 Abril → 8 Maio 2026).
-          </li>
-        </ul>
-      </div>
+          {/* Already published */}
+          <div className="max-w-4xl mx-auto mb-10">
+            <h2 className="text-sm font-semibold text-[#4ade80] uppercase tracking-wider mb-4">
+              Já publicados
+            </h2>
+            <div className="space-y-3">
+              {publishedReleases.map((r) => (
+                <ReleaseCard
+                  key={r.albumSlug}
+                  release={r}
+                  expanded={expandedSlug === r.albumSlug}
+                  onToggle={() => setExpandedSlug(expandedSlug === r.albumSlug ? null : r.albumSlug)}
+                  audioTracks={audioMap[r.albumSlug]}
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* Ready to release — by week */}
+          {totalReady > 0 && (
+            <div className="max-w-4xl mx-auto mb-10">
+              <h2 className="text-sm font-semibold text-[#60a5fa] uppercase tracking-wider mb-4">
+                Prontos a lançar ({totalReady} álbuns)
+              </h2>
+              <p className="text-xs text-[#666680] mb-4">
+                Todos com áudio completo. Ordem sugerida: dos mais leves aos mais intensos.
+              </p>
+              {weekGroups.map((group) => (
+                <div key={group.week} className="mb-6">
+                  <h3 className="text-xs text-[#C9A96E] uppercase tracking-wider mb-2">
+                    Semana {group.week + 1}
+                  </h3>
+                  <div className="space-y-3">
+                    {group.releases.map((r) => (
+                      <ReleaseCard
+                        key={r.albumSlug}
+                        release={r}
+                        expanded={expandedSlug === r.albumSlug}
+                        onToggle={() => setExpandedSlug(expandedSlug === r.albumSlug ? null : r.albumSlug)}
+                        audioTracks={audioMap[r.albumSlug]}
+                      />
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {totalReady === 0 && !loading && (
+            <div className="max-w-4xl mx-auto mb-10 p-6 rounded-xl border border-white/5 bg-white/[0.02] text-center">
+              <p className="text-[#666680]">
+                Nenhum álbum com todas as faixas produzidas.
+              </p>
+              <p className="text-xs text-[#666680] mt-1">
+                Produz todas as faixas de um álbum na página de Produção para ele aparecer aqui.
+              </p>
+            </div>
+          )}
+
+          {/* Partially produced */}
+          {totalPartial > 0 && (
+            <div className="max-w-4xl mx-auto mb-10">
+              <h2 className="text-sm font-semibold text-[#fbbf24] uppercase tracking-wider mb-4">
+                Em produção ({totalPartial} álbuns)
+              </h2>
+              <p className="text-xs text-[#666680] mb-3">
+                Faltam faixas. Completa a produção para entrarem na fila de lançamento.
+              </p>
+              <div className="space-y-2">
+                {partialAlbums.map((album) => {
+                  const done = audioMap[album.slug]?.size || 0;
+                  const total = album.tracks.length;
+                  const pct = Math.round((done / total) * 100);
+                  const collection = getCollectionLabel(album.slug);
+                  const collColor = getCollectionColor(album.slug);
+                  return (
+                    <div
+                      key={album.slug}
+                      className="flex items-center gap-3 p-3 rounded-xl border border-white/5 bg-white/[0.02]"
+                    >
+                      <div
+                        className="w-1 h-10 rounded-full flex-shrink-0"
+                        style={{ backgroundColor: album.color }}
+                      />
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm font-semibold truncate">{album.title}</span>
+                          <span
+                            className="text-[10px] px-1.5 py-0.5 rounded-full uppercase tracking-wider"
+                            style={{ color: collColor, backgroundColor: `${collColor}15` }}
+                          >
+                            {collection}
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-2 mt-1">
+                          <div className="flex-1 h-1.5 bg-white/5 rounded-full overflow-hidden max-w-[120px]">
+                            <div
+                              className="h-full rounded-full"
+                              style={{ width: `${pct}%`, background: "#fbbf24" }}
+                            />
+                          </div>
+                          <span className="text-[10px] text-[#a0a0b0]">
+                            {done}/{total} faixas ({pct}%)
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* DistroKid tips */}
+          <div className="max-w-4xl mx-auto mt-12 p-4 rounded-xl border border-white/5 bg-white/[0.02]">
+            <h3 className="text-sm font-semibold text-[#C9A96E] mb-3">Notas DistroKid</h3>
+            <ul className="text-xs text-[#a0a0b0] space-y-2">
+              <li>
+                <span className="text-[#4ade80]">Ritmo:</span> 3 álbuns/semana — Segunda, Quarta
+                e Sexta. Espaçamento de 2 dias entre cada lançamento.
+              </li>
+              <li>
+                <span className="text-[#60a5fa]">Sexta-feira:</span> Melhor dia da semana para
+                lançar — coincide com o New Music Friday do Spotify.
+              </li>
+              <li>
+                <span className="text-[#fbbf24]">Atenção:</span> 4+ álbuns/semana pode disparar
+                revisão manual no Spotify. 3/semana é o máximo seguro.
+              </li>
+            </ul>
+          </div>
+        </>
+      )}
     </div>
   );
 }
@@ -503,9 +416,7 @@ export default function LancamentosPage() {
 
 function StatCard({ label, value, color }: { label: string; value: string | number; color: string }) {
   return (
-    <div
-      className="rounded-xl border border-white/5 bg-white/[0.02] p-4 text-center"
-    >
+    <div className="rounded-xl border border-white/5 bg-white/[0.02] p-4 text-center">
       <div className="text-2xl font-bold font-display" style={{ color }}>
         {value}
       </div>
@@ -518,57 +429,39 @@ function ReleaseCard({
   release,
   expanded,
   onToggle,
-  onCycleStatus,
-  produced,
-  loadingAudio,
   audioTracks,
 }: {
   release: Release;
   expanded: boolean;
   onToggle: () => void;
-  onCycleStatus: () => void;
-  produced: number;
-  loadingAudio: boolean;
   audioTracks?: Set<number>;
 }) {
   const album = getAlbum(release.albumSlug);
   const statusCfg = STATUS_CONFIG[release.status];
-  const past = isPast(release.releaseDate);
-  const today = isToday(release.releaseDate);
   const trackCount = getTrackCount(release.albumSlug);
   const collection = getCollectionLabel(release.albumSlug);
   const collColor = getCollectionColor(release.albumSlug);
   const albumColor = getAlbumColor(release.albumSlug);
 
-  // Count languages
   const ptCount = album?.tracks.filter((t) => t.lang === "PT").length || 0;
   const enCount = album?.tracks.filter((t) => t.lang === "EN").length || 0;
 
-  // Energy distribution
-  const energies = album?.tracks.reduce(
-    (acc, t) => {
-      acc[t.energy] = (acc[t.energy] || 0) + 1;
-      return acc;
-    },
-    {} as Record<string, number>
-  ) || {};
+  const energies =
+    album?.tracks.reduce(
+      (acc, t) => {
+        acc[t.energy] = (acc[t.energy] || 0) + 1;
+        return acc;
+      },
+      {} as Record<string, number>
+    ) || {};
 
   return (
-    <div
-      className={`rounded-xl border transition-all duration-200 ${
-        today
-          ? "border-[#C9A96E]/40 bg-[#C9A96E]/5"
-          : past && release.status !== "publicado"
-            ? "border-red-500/20 bg-red-500/5"
-            : "border-white/5 bg-white/[0.02]"
-      }`}
-    >
+    <div className="rounded-xl border border-white/5 bg-white/[0.02] transition-all duration-200">
       {/* Main row */}
       <div
         className="flex items-center gap-4 p-4 cursor-pointer hover:bg-white/[0.02] transition-colors rounded-xl"
         onClick={onToggle}
       >
-        {/* Album color bar */}
         <div
           className="w-1 h-14 rounded-full flex-shrink-0"
           style={{ backgroundColor: albumColor }}
@@ -576,12 +469,9 @@ function ReleaseCard({
 
         {/* Date */}
         <div className="flex-shrink-0 w-20 text-center">
-          <div className={`text-xs ${today ? "text-[#C9A96E]" : "text-[#666680]"}`}>
+          <div className="text-xs text-[#666680]">
             {formatDate(release.releaseDate)}
           </div>
-          {today && (
-            <div className="text-[10px] text-[#C9A96E] font-semibold mt-0.5">HOJE</div>
-          )}
         </div>
 
         {/* Album info */}
@@ -599,41 +489,20 @@ function ReleaseCard({
           </div>
           <div className="text-xs text-[#666680] mt-0.5">
             {trackCount} faixas &middot; {ptCount} PT / {enCount} EN
-            {release.notes && <span className="hidden sm:inline"> &middot; {release.notes}</span>}
+            {release.notes && (
+              <span className="hidden sm:inline"> &middot; {release.notes}</span>
+            )}
           </div>
-          {/* Production progress */}
-          {!loadingAudio && release.status !== "publicado" && (
-            <div className="flex items-center gap-2 mt-1">
-              <div className="flex-1 h-1.5 bg-white/5 rounded-full overflow-hidden max-w-[100px]">
-                <div
-                  className="h-full rounded-full transition-all"
-                  style={{
-                    width: `${trackCount > 0 ? (produced / trackCount) * 100 : 0}%`,
-                    background: produced === trackCount ? "#4ade80" : produced > 0 ? "#fbbf24" : "#666680",
-                  }}
-                />
-              </div>
-              <span className="text-[10px]" style={{ color: produced === trackCount ? "#4ade80" : produced > 0 ? "#fbbf24" : "#666680" }}>
-                {produced}/{trackCount} produzidas
-              </span>
-            </div>
-          )}
         </div>
 
         {/* Status badge */}
-        <button
-          onClick={(e: React.MouseEvent) => {
-            e.stopPropagation();
-            onCycleStatus();
-          }}
-          className="flex-shrink-0 text-[10px] px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold transition-colors hover:opacity-80"
+        <span
+          className="flex-shrink-0 text-[10px] px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold"
           style={{ color: statusCfg.color, backgroundColor: statusCfg.bg }}
-          title="Clicar para mudar estado"
         >
           {statusCfg.label}
-        </button>
+        </span>
 
-        {/* Expand arrow */}
         <div className="text-[#666680] text-xs flex-shrink-0">
           {expanded ? "▲" : "▼"}
         </div>
@@ -642,16 +511,13 @@ function ReleaseCard({
       {/* Expanded details */}
       {expanded && album && (
         <div className="px-4 pb-4 border-t border-white/5 pt-3">
-          {/* Subtitle */}
           <p className="text-xs text-[#a0a0b0] italic mb-3">{album.subtitle}</p>
 
-          {/* Notes */}
           {release.notes && (
             <p className="text-xs text-[#666680] mb-3">{release.notes}</p>
           )}
 
-          {/* Energy distribution */}
-          <div className="flex items-center gap-2 mb-3">
+          <div className="flex items-center gap-2 flex-wrap mb-3">
             <span className="text-[10px] text-[#666680] uppercase">Energias:</span>
             {Object.entries(energies).map(([energy, count]) => (
               <span
@@ -663,7 +529,6 @@ function ReleaseCard({
             ))}
           </div>
 
-          {/* Track list */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-1">
             {album.tracks.map((track) => (
               <div
@@ -674,7 +539,9 @@ function ReleaseCard({
                 {audioTracks && (
                   <span
                     className="w-2 h-2 rounded-full flex-shrink-0"
-                    style={{ backgroundColor: audioTracks.has(track.number) ? "#4ade80" : "#333" }}
+                    style={{
+                      backgroundColor: audioTracks.has(track.number) ? "#4ade80" : "#333",
+                    }}
                     title={audioTracks.has(track.number) ? "Áudio produzido" : "Sem áudio"}
                   />
                 )}
