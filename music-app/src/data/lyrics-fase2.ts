@@ -5470,4 +5470,524 @@ The oldest song the world has known
 A song of nothing, crystal clear
 And I have never been less alone`,
 
+// ─────────────────────────────────────────────
+// MÃOS ABERTAS (perdão como liberdade)
+// ─────────────────────────────────────────────
+
+"incenso-maos-abertas/1": `[Verse 1]
+Trago um peso nos ombros que não é meu
+Um rancor que herdei sem dar por isso
+Cada manhã acordo e carrego o fardo
+De palavras que nunca foram ditas
+
+[Verse 2]
+O corpo sabe antes da cabeça
+A mandíbula presa, as costas curvadas
+Há quem guarde moedas, eu guardo mágoas
+E já nem sei quais são emprestadas
+
+[Pre-Chorus]
+Isto pesa, isto pesa
+Mais do que qualquer mala
+
+[Chorus]
+Peso que não é meu, largo aqui no chão
+Peso que não é meu, abro a minha mão
+Carreguei por anos o que era teu
+Hoje largo o peso que não é meu
+
+[Verse 3]
+Pensei que guardar era ser forte
+Que esquecer era trair a dor
+Mas o corpo grita o que a boca cala
+E o rancor tem um sabor pior
+
+[Chorus]
+Peso que não é meu, largo aqui no chão
+Peso que não é meu, abro a minha mão
+Carreguei por anos o que era teu
+Hoje largo o peso que não é meu
+
+[Bridge]
+E se eu pousar — não caio
+E se eu largar — não perco
+Só descubro que debaixo deste peso
+Sempre estive inteira
+
+[Chorus]
+Peso que não é meu, largo aqui no chão
+Peso que não é meu, abro a minha mão
+Carreguei por anos o que era teu
+Hoje largo o peso — e encontro-me a mim
+
+[Outro]
+Pouso devagar
+E o chão aguenta
+Pouso devagar
+E eu também`,
+
+"incenso-maos-abertas/2": `[Verse 1]
+I didn't know my fist was closed
+Until my fingers started aching
+I held so tight to something old
+I missed the morning light that's breaking
+
+[Verse 2]
+A grudge is just a hand that grips
+A phantom thing that isn't there
+The muscles tense, the knuckles white
+For something made of only air
+
+[Pre-Chorus]
+One finger at a time
+I'm learning how to open
+
+[Chorus]
+Unclench — let the blood return
+Unclench — watch the fingers learn
+That holding on was never strength
+Unclench — and feel the morning burn
+
+[Verse 3]
+I thought that loosening my grip
+Would mean that I was letting slide
+But open palms can hold much more
+Than fists that hold just wounded pride
+
+[Chorus]
+Unclench — let the blood return
+Unclench — watch the fingers learn
+That holding on was never strength
+Unclench — and feel the morning burn
+
+[Bridge]
+The energy it took to hold
+Could light a city, warm a home
+And now my hands are free to build
+Instead of clenching bone on bone
+
+[Chorus]
+Unclench — let the blood return
+Unclench — feel the world in turn
+These open hands can finally touch
+Unclench — there's so much left to learn
+
+[Outro]
+Open now — and nothing falls
+Open now — and everything begins`,
+
+"incenso-maos-abertas/3": `[Verse 1]
+Querida, escrevo-te esta carta
+Que nunca vais ler com os teus olhos
+Cada palavra sai em sangue
+E eu limpo a mesa dos escolhos
+
+[Verse 2]
+Digo tudo o que calei nos jantares
+Cada riso falso, cada engolir
+A fúria toda cabe nestas linhas
+E o papel aguenta sem fugir
+
+[Pre-Chorus]
+Palavra a palavra
+O fogo vai levar
+
+[Chorus]
+Carta nunca enviada, queimo-te aqui
+Vejo as palavras virarem cinza
+O que não disse arde sem mim
+E no fumo encontro a minha trégua
+
+[Verse 3]
+Não é perdão ainda, é outra coisa
+É o ritual de devolver ao ar
+O peso todo destas frases presas
+Que me impediam de respirar
+
+[Chorus]
+Carta nunca enviada, queimo-te aqui
+Vejo as palavras virarem cinza
+O que não disse arde sem mim
+E no fumo encontro a minha trégua
+
+[Bridge]
+O fósforo acende, o papel enrola
+As letras desfazem-se em calor
+Não é vingança, não é desistência
+É só o mais estranho gesto de amor
+
+[Chorus]
+Carta nunca enviada, és livre agora
+E eu sou livre contigo
+O fogo levou o que era de mais
+E deixou só o essencial — o perdão
+
+[Outro]
+As cinzas voam
+Eu fico mais leve
+As cinzas voam
+E eu respiro`,
+
+"incenso-maos-abertas/4": `[Verse 1]
+I didn't forgive you for your sake
+I did it for these tired bones
+For every night I lay awake
+Rehearsing hurt in different tones
+
+[Verse 2]
+They told me it was grace, was holy
+I found it selfish through and through
+The bravest thing I ever did
+Was choosing me instead of hating you
+
+[Pre-Chorus]
+This is not for you
+This was always mine to do
+
+[Chorus]
+Forgive — not because you earned it
+Forgive — because I deserve the air
+Forgive — the weight was never worth it
+Forgive — and find there's room to spare
+
+[Verse 3]
+The chapel filled with every grudge
+I'd carried like a congregation
+I set them free, not out of love
+But out of sheer self-preservation
+
+[Chorus]
+Forgive — not because you earned it
+Forgive — because I deserve the air
+Forgive — the weight was never worth it
+Forgive — and find there's room to spare
+
+[Bridge]
+And the choir sings not for the sinner
+But for the one who chose to breathe
+The organ swells for liberation
+For the one who dared to leave
+
+[Chorus]
+Forgive — and the doors swing wide
+Forgive — feel the rush of sky
+Forgive — not a gift to you
+Forgive — it's how I learned to fly
+
+[Outro]
+I forgive — for me
+I forgive — I'm free
+I forgive — and finally
+I can breathe`,
+
+"incenso-maos-abertas/5": `[Verse 1]
+O espelho mais difícil não tem moldura
+Não está na parede nem na casa de banho
+Está na insónia das três da manhã
+Quando me lembro do que fiz de estranho
+
+[Verse 2]
+Repasso os erros como quem reza
+O terço das falhas, as contas que dói
+Aquela palavra, aquele silêncio
+O mal que fiz a quem me constrói
+
+[Pre-Chorus]
+Se perdoo toda a gente
+Porque é que eu fico de fora?
+
+[Chorus]
+Espelho partido — olho para mim
+Espelho partido — vejo o que fiz
+Mas por entre as fendas entra uma luz
+Que diz que mereço recomeçar daqui
+
+[Verse 3]
+Não sou a versão pior de mim mesma
+Não sou só a soma dos meus erros
+Sou também as vezes que tentei
+E os caminhos que escolhi por menos
+
+[Chorus]
+Espelho partido — olho para mim
+Espelho partido — aceito o que vi
+Por entre as fendas entra uma luz
+Que diz que mereço recomeçar daqui
+
+[Bridge]
+O perdão a mim mesma não é um evento
+É uma prática de cada manhã
+Olhar-me ao espelho e dizer — estás bem
+Tu fizeste o melhor que sabias então
+
+[Chorus]
+Espelho partido — mas eu ainda estou
+Espelho partido — e continuo aqui
+As fendas são parte do que me compõe
+E eu escolho ficar — e perdoar-me a mim
+
+[Outro]
+Estás bem
+Fizeste o melhor que sabias
+Estás bem
+E amanhã saberás mais`,
+
+"incenso-maos-abertas/6": `[Verse 1]
+The phone sits heavy in my hand
+A number I could dial in sleep
+For seven years I've almost called
+For seven years the silence keeps
+
+[Verse 2]
+I wrote the script a hundred times
+Rehearsed each pause, each steady breath
+But real calls don't follow scripts
+And real words don't fear their death
+
+[Pre-Chorus]
+Just press the button
+Let the ringing do the rest
+
+[Chorus]
+Phone call — I don't need the perfect line
+Phone call — just a voice across the wire
+Phone call — it won't fix it, that's just fine
+Phone call — but it opens up a door
+
+[Verse 3]
+She answers and the years collapse
+Her voice the same but older now
+We talk about the weather first
+Then slowly, gently, find out how
+
+[Chorus]
+Phone call — I don't need the perfect line
+Phone call — just a voice across the wire
+Phone call — it won't fix it, that's just fine
+Phone call — but it opens up a door
+
+[Bridge]
+We don't resolve it in one call
+We barely scratch beneath the skin
+But the door that was cemented shut
+Now has a crack to let light in
+
+[Chorus]
+Phone call — made with shaking hands
+Phone call — brave and imperfect
+Phone call — just the first of many
+Phone call — and the silence finally ends
+
+[Outro]
+The call ends and I sit here
+Lighter than I've felt in years
+Nothing's fixed, but something's started
+And that's worth these quiet tears`,
+
+"incenso-maos-abertas/7": `[Verse 1]
+Mãe, eu trouxe tudo o que calei
+Nos jantares de domingo à noite
+Tu servias a comida quente
+E eu engolia o meu açoite
+
+[Verse 2]
+Filha, eu não sabia outra forma
+O meu amor era um escudo torto
+Cada regra era um abraço enviesado
+Cada não era um medo morto
+
+[Pre-Chorus]
+Tantos anos lado a lado
+E um muro entre as duas
+
+[Chorus]
+Mãe e filha — o perdão mais lento
+Mãe e filha — como a maré
+Vai e volta, leva o tempo
+Que tiver de levar até
+
+[Verse 3]
+Não preciso que compreendas tudo
+Só preciso que me deixes entrar
+E eu prometo não trazer a lista
+Das vezes que me fizeste chorar
+
+[Chorus]
+Mãe e filha — o perdão mais fundo
+Mãe e filha — não tem fim
+Não é um dia, é uma vida inteira
+A aprender a dizer — vejo-te em mim
+
+[Bridge]
+Eu sou tu e tu és eu
+Nesta dança geracional
+O que não disseste, eu repito
+O que curei em mim, curo em nós
+
+[Chorus]
+Mãe e filha — mãos abertas
+Mãe e filha — finalmente
+Não é perfeito, mas é nosso
+Este perdão entre a corrente
+
+[Outro]
+Vem cá, mãe
+Desta vez não digo nada
+Vem cá, filha
+Desta vez só ficamos assim`,
+
+"incenso-maos-abertas/8": `[Verse 1]
+I opened my hands this morning
+And checked what fell to the ground
+But nothing dropped, nothing shattered
+Not even a whisper of sound
+
+[Verse 2]
+For years I held so carefully
+As though releasing meant to lose
+But empty hands aren't empty — they're
+Just hands that finally get to choose
+
+[Pre-Chorus]
+Open palms facing the sky
+The bravest posture I know
+
+[Chorus]
+Let go — and nothing falls
+Let go — the world stays whole
+Let go — the hands that held the hurt
+Let go — and find your soul
+
+[Verse 3]
+I thought that if I stopped controlling
+The universe would come apart
+But when I finally loosened my grip
+The only thing that moved — was my heart
+
+[Chorus]
+Let go — and nothing falls
+Let go — the world stays whole
+Let go — the hands that held the hurt
+Let go — and free your soul
+
+[Bridge]
+The paradox of open hands
+They hold more than a fist
+The love, the light, the morning air
+All the things that I had missed
+
+[Chorus]
+Let go — and feel the breeze
+Let go — upon your skin
+Let go — of what was never yours
+Let go — and let life in
+
+[Outro]
+My hands are open now
+And look — they're full of sky`,
+
+"incenso-maos-abertas/9": `[Verse 1]
+Estás à minha frente e eu não sei
+Se o corpo vai ou se congela
+Quem me magoou está aqui tão perto
+E eu trago o peito como uma cancela
+
+[Verse 2]
+Começo rígida, os braços duros
+Um abraço feito de betão
+Mas o corpo sabe o que a mente luta
+E vai amolecendo a contragosto
+
+[Pre-Chorus]
+Músculo a músculo
+O perdão acontece
+
+[Chorus]
+Abraço difícil — o mais corajoso
+Abraço difícil — o corpo que cede
+O que a boca não diz, a pele resolve
+E o rancor derrete entre dois peitos
+
+[Verse 3]
+Não é cinema, não é bonito
+É suor e medo e olhos molhados
+É o gesto mais humano do mundo
+Tocar quem te deixou marcas nos lados
+
+[Chorus]
+Abraço difícil — o mais corajoso
+Abraço difícil — o corpo que cede
+O que a boca não diz, a pele resolve
+E o rancor derrete entre dois peitos
+
+[Bridge]
+E quando largamos — algo mudou
+Não sei explicar, não sei nomear
+Algo que estava partido há anos
+Encaixou sem eu ter de forçar
+
+[Chorus]
+Abraço difícil — não resolveu tudo
+Abraço difícil — mas abriu uma porta
+O corpo lembrou-me do que eu sabia
+Que o toque cura o que a palavra aborta
+
+[Outro]
+Fico mais um segundo
+Mais um segundo só
+E nesse segundo extra
+Cabe o perdão todo`,
+
+"incenso-maos-abertas/10": `[Verse 1]
+This is for every fist that learned to open
+For every jaw that learned to unclench
+For every heart that held a stone for years
+And found the courage to relent
+
+[Verse 2]
+This is for those who started with themselves
+Who looked into the broken glass
+And said — I see you, and you're flawed
+But I'm done punishing the past
+
+[Pre-Chorus]
+Hands open, hands open
+This is how we start
+
+[Chorus]
+Open hands — the anthem of the brave
+Open hands — grace is not a grave
+Open hands — forgiveness isn't weak
+Open hands — it's the strongest thing you'll ever speak
+
+[Verse 3]
+This is for the phone call finally made
+The letter written, burned, or sent
+For the embrace that felt like concrete first
+Then softened to a sacrament
+
+[Chorus]
+Open hands — the anthem of the brave
+Open hands — grace is not a grave
+Open hands — forgiveness isn't weak
+Open hands — it's the strongest thing you'll ever speak
+
+[Bridge]
+And the choir rises not for saints
+But for the ones who tried today
+Who chose to lay the weapon down
+And found they had more room to pray
+
+[Chorus]
+Open hands — we're learning still
+Open hands — we always will
+Open hands — imperfect grace
+Open hands — the human race
+
+[Outro]
+Open your hands
+Open your hands
+And see — they were never empty
+They were holding you`,
+
 };
