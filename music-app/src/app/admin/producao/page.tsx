@@ -1294,7 +1294,7 @@ function TrackRow({
                 for (let idx = 0; idx < runwayResults.length; idx++) {
                   const rd = runwayResults[idx];
                   if (rd.status === "exists" && rd.videoUrl) { clipUrls.push(rd.videoUrl); continue; }
-                  if (!rd.taskId) throw new Error(`Runway clip ${idx + 1}: ${rd.erro || "sem taskId"}`);
+                  if (!rd.taskId) { console.warn(`Runway clip ${idx + 1}: sem taskId — ${rd.erro || ""}`); continue; }
                   const params = new URLSearchParams({ taskId: rd.taskId, album: albumSlug, track: String(rd.clipTrackNum) });
                   let found = false;
                   for (let i = 0; i < 120; i++) {
@@ -1302,11 +1302,12 @@ function TrackRow({
                     const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
                     const sData = await sRes.json();
                     if (sData.status === "complete" && sData.videoUrl) { clipUrls.push(sData.videoUrl); found = true; break; }
-                    if (sData.status === "error") throw new Error(`Clip ${idx + 1}: ${sData.error}`);
+                    if (sData.status === "error") { console.warn(`Clip ${idx + 1} falhou: ${sData.error}`); break; }
                     btn.textContent = `3/4 Clip ${idx + 1}/3 ${Math.min(Math.round(i * 1.2), 95)}%`;
                   }
-                  if (!found) throw new Error(`Timeout clip ${idx + 1}`);
+                  if (!found) console.warn(`Clip ${idx + 1} não disponível, a continuar...`);
                 }
+                if (clipUrls.length < 2) throw new Error(`Apenas ${clipUrls.length} clip(s). Mínimo 2 necessários (possível moderação Runway).`);
 
                 // Step 4: Validate + Shotstack
                 btn.textContent = "4/4 Shotstack...";
