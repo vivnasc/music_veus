@@ -216,18 +216,34 @@ export default function LancamentosPage() {
             }
           }
 
-          // Smart mix: alternate dense (espelho, no, sangue) with lighter (grao, mare, fibra, eter, nua, incenso)
-          const DENSE = new Set(["espelho", "no", "sangue"]);
-          const dense = newReady.filter((a) => DENSE.has(a.product));
-          const light = newReady.filter((a) => !DENSE.has(a.product));
+          // Smart mix: never 2 from same collection in a row, spread evenly
+          // Group by collection
+          const byCollection: Record<string, Album[]> = {};
+          for (const a of newReady) {
+            if (!byCollection[a.product]) byCollection[a.product] = [];
+            byCollection[a.product].push(a);
+          }
+          // Sort collections by size (largest first) so we spread the biggest ones
+          const collections = Object.keys(byCollection).sort(
+            (a, b) => byCollection[b].length - byCollection[a].length
+          );
+          // Round-robin: pick one from each collection in turn
           const mixed: Slot[] = [];
-          let di = 0;
-          let li = 0;
-          // Pattern: light, light, dense — so every 3rd album is dense
-          while (di < dense.length || li < light.length) {
-            if (li < light.length) mixed.push({ slug: light[li++].slug, status: "pronto" });
-            if (li < light.length) mixed.push({ slug: light[li++].slug, status: "pronto" });
-            if (di < dense.length) mixed.push({ slug: dense[di++].slug, status: "pronto" });
+          const cursors: Record<string, number> = {};
+          for (const c of collections) cursors[c] = 0;
+          let placed = 0;
+          const total = newReady.length;
+          while (placed < total) {
+            let placedThisRound = false;
+            for (const c of collections) {
+              if (cursors[c] < byCollection[c].length) {
+                mixed.push({ slug: byCollection[c][cursors[c]].slug, status: "pronto" });
+                cursors[c]++;
+                placed++;
+                placedThisRound = true;
+              }
+            }
+            if (!placedThisRound) break;
           }
 
           // Upgrade existing a-produzir/em-producao → pronto if fully produced
@@ -873,7 +889,7 @@ function UnassignedGroup({
   audioMap: AudioMap;
   onAdd: (slug: string) => void;
 }) {
-  const [collapsed, setCollapsed] = useState(albums.length > 20);
+  const [collapsed, setCollapsed] = useState(false);
 
   return (
     <div className="mb-6">
