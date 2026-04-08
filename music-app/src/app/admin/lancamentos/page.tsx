@@ -24,10 +24,10 @@ const STORAGE_KEY = "veus:lancamentos";
 // Default state (before localStorage)
 // ─────────────────────────────────────────────
 
-const DEFAULT_SLOTS: Slot[] = [
-  { slug: "incenso-frequencia", status: "publicado" },
-  { slug: "livro-filosofico", status: "publicado" },
-];
+// Published albums (separate from calendar slots)
+const PUBLISHED_SLUGS = new Set(["incenso-frequencia", "livro-filosofico"]);
+
+const DEFAULT_SLOTS: Slot[] = [];
 
 // ─────────────────────────────────────────────
 // Helpers
@@ -201,17 +201,36 @@ export default function LancamentosPage() {
         }
         setAudioMap(map);
 
-        // Merge: auto-add fully produced albums, upgrade a-produzir → pronto
+        // Merge: auto-add fully produced albums with smart mix, upgrade statuses
         setSlots((prev: Slot[]) => {
           const existingSlugs = new Set(prev.map((s: Slot) => s.slug));
-          const toAdd: Slot[] = [];
+
+          // Find fully produced albums not yet scheduled
+          const newReady: Album[] = [];
           for (const album of ALL_ALBUMS) {
             if (existingSlugs.has(album.slug)) continue;
+            if (PUBLISHED_SLUGS.has(album.slug)) continue;
             const produced = map[album.slug]?.size || 0;
             if (produced >= album.tracks.length && album.tracks.length > 0) {
-              toAdd.push({ slug: album.slug, status: "pronto" });
+              newReady.push(album);
             }
           }
+
+          // Smart mix: alternate dense (espelho, no, sangue) with lighter (grao, mare, fibra, eter, nua, incenso)
+          const DENSE = new Set(["espelho", "no", "sangue"]);
+          const dense = newReady.filter((a) => DENSE.has(a.product));
+          const light = newReady.filter((a) => !DENSE.has(a.product));
+          const mixed: Slot[] = [];
+          let di = 0;
+          let li = 0;
+          // Pattern: light, light, dense — so every 3rd album is dense
+          while (di < dense.length || li < light.length) {
+            if (li < light.length) mixed.push({ slug: light[li++].slug, status: "pronto" });
+            if (li < light.length) mixed.push({ slug: light[li++].slug, status: "pronto" });
+            if (di < dense.length) mixed.push({ slug: dense[di++].slug, status: "pronto" });
+          }
+
+          // Upgrade existing a-produzir/em-producao → pronto if fully produced
           const updated = prev.map((slot: Slot) => {
             if (slot.status === "a-produzir" || slot.status === "em-producao") {
               const album = ALL_ALBUMS.find((a: Album) => a.slug === slot.slug);
@@ -223,12 +242,10 @@ export default function LancamentosPage() {
             return slot;
           });
 
-          if (toAdd.length === 0 && JSON.stringify(updated) === JSON.stringify(prev)) return prev;
+          if (mixed.length === 0 && JSON.stringify(updated) === JSON.stringify(prev)) return prev;
 
-          // Insert pronto after published/lancado
-          const pub = updated.filter((s: Slot) => s.status === "publicado" || s.status === "lancado");
-          const rest = updated.filter((s: Slot) => s.status !== "publicado" && s.status !== "lancado");
-          const merged = [...pub, ...toAdd, ...rest];
+          // Keep existing order, append new mixed albums at the end
+          const merged = [...updated, ...mixed];
           try {
             localStorage.setItem(STORAGE_KEY, JSON.stringify(merged));
           } catch {
@@ -259,52 +276,68 @@ export default function LancamentosPage() {
     return () => observer.disconnect();
   }, [loaded]);
 
-  // ── Actions ──
+  // ── Actions (calendarIdx = index in non-published slots) ──
 
-  function cycleStatus(idx: number) {
+  // Map calendar index to slots array index
+  function toSlotsIdx(calIdx: number): number {
+    let count = -1;
+    for (let i = 0; i < slots.length; i++) {
+      if (!PUBLISHED_SLUGS.has(slots[i].slug)) count++;
+      if (count === calIdx) return i;
+    }
+    return slots.length; // append position
+  }
+
+  function cycleStatus(calIdx: number) {
+    const si = toSlotsIdx(calIdx);
+    if (si >= slots.length) return;
     const newSlots = [...slots];
-    const slot = newSlots[idx];
-    const si = STATUS_ORDER.indexOf(slot.status);
-    newSlots[idx] = { ...slot, status: STATUS_ORDER[(si + 1) % STATUS_ORDER.length] };
+    const slot = newSlots[si];
+    const sti = STATUS_ORDER.indexOf(slot.status);
+    newSlots[si] = { ...slot, status: STATUS_ORDER[(sti + 1) % STATUS_ORDER.length] };
     save(newSlots);
   }
 
-  function removeSlot(idx: number) {
-    const newSlots = slots.filter((_: Slot, i: number) => i !== idx);
+  function removeSlot(calIdx: number) {
+    const si = toSlotsIdx(calIdx);
+    const newSlots = slots.filter((_: Slot, i: number) => i !== si);
     save(newSlots);
-    if (expandedSlotIdx === idx) setExpandedSlotIdx(null);
+    if (expandedSlotIdx === calIdx) setExpandedSlotIdx(null);
   }
 
-  function moveUp(idx: number) {
-    if (idx <= 0) return;
+  function moveUp(calIdx: number) {
+    if (calIdx <= 0) return;
+    const si = toSlotsIdx(calIdx);
+    const siPrev = toSlotsIdx(calIdx - 1);
     const newSlots = [...slots];
-    [newSlots[idx - 1], newSlots[idx]] = [newSlots[idx], newSlots[idx - 1]];
+    [newSlots[siPrev], newSlots[si]] = [newSlots[si], newSlots[siPrev]];
     save(newSlots);
-    if (expandedSlotIdx === idx) setExpandedSlotIdx(idx - 1);
-    else if (expandedSlotIdx === idx - 1) setExpandedSlotIdx(idx);
+    if (expandedSlotIdx === calIdx) setExpandedSlotIdx(calIdx - 1);
+    else if (expandedSlotIdx === calIdx - 1) setExpandedSlotIdx(calIdx);
   }
 
-  function moveDown(idx: number) {
-    if (idx >= slots.length - 1) return;
+  function moveDown(calIdx: number) {
+    const calSlots = slots.filter((s: Slot) => !PUBLISHED_SLUGS.has(s.slug));
+    if (calIdx >= calSlots.length - 1) return;
+    const si = toSlotsIdx(calIdx);
+    const siNext = toSlotsIdx(calIdx + 1);
     const newSlots = [...slots];
-    [newSlots[idx], newSlots[idx + 1]] = [newSlots[idx + 1], newSlots[idx]];
+    [newSlots[si], newSlots[siNext]] = [newSlots[siNext], newSlots[si]];
     save(newSlots);
-    if (expandedSlotIdx === idx) setExpandedSlotIdx(idx + 1);
-    else if (expandedSlotIdx === idx + 1) setExpandedSlotIdx(idx);
+    if (expandedSlotIdx === calIdx) setExpandedSlotIdx(calIdx + 1);
+    else if (expandedSlotIdx === calIdx + 1) setExpandedSlotIdx(calIdx);
   }
 
-  function swapSlot(slotIdx: number, newSlug: string) {
-    // If newSlug is already in slots, swap positions
+  function swapSlot(calIdx: number, newSlug: string) {
+    const si = toSlotsIdx(calIdx);
     const existingIdx = slots.findIndex((s: Slot) => s.slug === newSlug);
     const newSlots = [...slots];
     if (existingIdx >= 0) {
-      // Swap the two
-      [newSlots[slotIdx], newSlots[existingIdx]] = [newSlots[existingIdx], newSlots[slotIdx]];
+      [newSlots[si], newSlots[existingIdx]] = [newSlots[existingIdx], newSlots[si]];
     } else {
-      // Replace the slot with the new album
       const album = getAlbum(newSlug);
       const status: SlotStatus = album && isFullyProduced(newSlug, audioMap) ? "pronto" : "a-produzir";
-      newSlots[slotIdx] = { slug: newSlug, status };
+      newSlots[si] = { slug: newSlug, status };
     }
     save(newSlots);
     setSwapModalIdx(null);
@@ -321,16 +354,20 @@ export default function LancamentosPage() {
 
   const scheduledSlugs = new Set(slots.map((s: Slot) => s.slug));
 
-  // Generate dates: start from 2026-03-16 (Monday after first published)
-  const startDate = new Date(2026, 2, 16); // March 16, 2026
-  const totalSlotCount = Math.max(slots.length, visibleWeeks * 3);
+  // Generate dates: start from this week (next Mon/Wed/Fri)
+  const startDate = new Date();
+
+  // Also separate published from slots for display
+  const publishedSlots = slots.filter((s: Slot) => PUBLISHED_SLUGS.has(s.slug));
+  const calendarSlots = slots.filter((s: Slot) => !PUBLISHED_SLUGS.has(s.slug));
+  const totalSlotCount = Math.max(calendarSlots.length, visibleWeeks * 3);
   const slotDates = generateSlotDates(startDate, totalSlotCount);
 
   // Stats
   const countByStatus = (s: SlotStatus) => slots.filter((sl: Slot) => sl.status === s).length;
 
-  // Unassigned albums
-  const unassigned = ALL_ALBUMS.filter((a) => !scheduledSlugs.has(a.slug));
+  // Unassigned albums (exclude published and scheduled)
+  const unassigned = ALL_ALBUMS.filter((a) => !scheduledSlugs.has(a.slug) && !PUBLISHED_SLUGS.has(a.slug));
   const unassignedProduced = unassigned.filter((a) => isFullyProduced(a.slug, audioMap));
   const unassignedPartial = unassigned.filter((a) => {
     const { done, total } = audioProgress(a.slug, audioMap);
@@ -376,7 +413,7 @@ export default function LancamentosPage() {
       <div className="max-w-5xl mx-auto mb-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
         <StatCard
           label="Publicados"
-          value={countByStatus("publicado") + countByStatus("lancado")}
+          value={PUBLISHED_SLUGS.size + countByStatus("lancado")}
           color="#4ade80"
         />
         <StatCard label="Prontos" value={countByStatus("pronto")} color="#60a5fa" />
@@ -384,10 +421,32 @@ export default function LancamentosPage() {
         <StatCard label="A produzir" value={countByStatus("a-produzir")} color="#a0a0b0" />
       </div>
 
+      {/* Published (separate) */}
+      {publishedSlots.length > 0 && (
+        <div className="max-w-5xl mx-auto mb-6">
+          <h2 className="text-sm font-semibold text-[#4ade80] uppercase tracking-wider mb-3">
+            Publicados ({publishedSlots.length})
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {publishedSlots.map((s: Slot) => {
+              const album = getAlbum(s.slug);
+              if (!album) return null;
+              return (
+                <div key={s.slug} className="flex items-center gap-2 px-3 py-2 rounded-lg border border-green-500/20 bg-green-500/5">
+                  <div className="w-1 h-6 rounded-full" style={{ backgroundColor: album.color }} />
+                  <span className="text-xs font-semibold">{album.title}</span>
+                  <span className="text-[10px] text-[#4ade80]">Publicado</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* Calendar */}
       <div className="max-w-5xl mx-auto mb-12">
         <h2 className="text-sm font-semibold text-[#C9A96E] uppercase tracking-wider mb-4">
-          Calendario ({slots.length} albums agendados)
+          Calendario ({calendarSlots.length} albums agendados)
         </h2>
 
         {loading && (
@@ -400,7 +459,7 @@ export default function LancamentosPage() {
             const weekSlots: Array<{ globalIdx: number; date: Date; slot: Slot | null }> = [0, 1, 2].map((offset: number) => {
               const globalIdx = weekStart + offset;
               const date = slotDates[globalIdx];
-              const slot: Slot | null = globalIdx < slots.length ? slots[globalIdx] : null;
+              const slot: Slot | null = globalIdx < calendarSlots.length ? calendarSlots[globalIdx] : null;
               return { globalIdx, date, slot };
             });
 
@@ -434,8 +493,8 @@ export default function LancamentosPage() {
                       onRemove={() => removeSlot(globalIdx)}
                       onMoveUp={() => moveUp(globalIdx)}
                       onMoveDown={() => moveDown(globalIdx)}
-                      canMoveUp={globalIdx > 0 && globalIdx < slots.length}
-                      canMoveDown={globalIdx < slots.length - 1}
+                      canMoveUp={globalIdx > 0 && globalIdx < calendarSlots.length}
+                      canMoveDown={globalIdx < calendarSlots.length - 1}
                       onSwap={() => {
                         setSwapModalIdx(globalIdx);
                         setSwapFilter("");
