@@ -2060,6 +2060,14 @@ export default function AlbumProductionPage() {
               Push notificacao
             </button>
 
+            {/* LoRA Training */}
+            <Link
+              href="/admin/lora"
+              className="rounded-lg bg-fuchsia-900/30 px-4 py-2.5 text-xs text-fuchsia-400 hover:bg-fuchsia-900/50 transition flex items-center min-h-[44px]"
+            >
+              Treinar LoRA Loranne
+            </Link>
+
             <div className="flex gap-1 rounded-full bg-mundo-muted-dark/10 p-1">
               <button
                 onClick={() => setViewMode("producao")}

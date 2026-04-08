@@ -18,25 +18,57 @@ export async function POST(req: NextRequest) {
   const falKey = process.env.FAL_KEY;
   if (!falKey) return NextResponse.json({ erro: "FAL_KEY não configurada." }, { status: 500 });
 
-  const { caption, numImages } = await req.json();
+  const { caption, numImages, loraUrl: explicitLoraUrl, triggerWord: explicitTrigger } = await req.json();
   if (!caption) return NextResponse.json({ erro: "caption é obrigatório." }, { status: 400 });
   const count = Math.min(numImages || 1, 4);
 
-  const visualPrompt = buildVisualPrompt(caption);
+  // Auto-detect active LoRA from Supabase if not passed explicitly
+  let loraUrl = explicitLoraUrl || null;
+  let triggerWord = explicitTrigger || "loranne_artist";
+
+  if (!loraUrl) {
+    try {
+      const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
+      const loraConfigUrl = `${supabaseUrl}/storage/v1/object/public/audios/lora/active-lora.json`;
+      const loraRes = await fetch(loraConfigUrl, { next: { revalidate: 300 } });
+      if (loraRes.ok) {
+        const loraConfig = await loraRes.json();
+        if (loraConfig.loraUrl) {
+          loraUrl = loraConfig.loraUrl;
+          triggerWord = loraConfig.triggerWord || "loranne_artist";
+        }
+      }
+    } catch { /* no active LoRA — use Flux Pro without LoRA */ }
+  }
+
+  const visualPrompt = loraUrl
+    ? buildLoraPrompt(caption, triggerWord)
+    : buildVisualPrompt(caption);
+
+  // Use flux-lora endpoint when LoRA is available, otherwise flux-pro
+  const endpoint = loraUrl
+    ? "https://fal.run/fal-ai/flux-lora"
+    : "https://fal.run/fal-ai/flux-pro/v1.1";
+
+  const body: Record<string, unknown> = {
+    prompt: visualPrompt,
+    image_size: { width: 720, height: 1280 },
+    num_images: count,
+    safety_tolerance: 5,
+  };
+
+  if (loraUrl) {
+    body.loras = [{ path: loraUrl, scale: 1.0 }];
+  }
 
   try {
-    const falRes = await fetch("https://fal.run/fal-ai/flux-pro/v1.1", {
+    const falRes = await fetch(endpoint, {
       method: "POST",
       headers: {
         "Authorization": `Key ${falKey}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        prompt: visualPrompt,
-        image_size: { width: 720, height: 1280 },
-        num_images: count,
-        safety_tolerance: 5,
-      }),
+      body: JSON.stringify(body),
     });
 
     if (!falRes.ok) {
@@ -55,6 +87,19 @@ export async function POST(req: NextRequest) {
   } catch (e) {
     return NextResponse.json({ erro: `Erro: ${(e as Error).message}` }, { status: 500 });
   }
+}
+
+function buildLoraPrompt(caption: string, triggerWord: string): string {
+  const verseMatch = caption.match(/"([^"]+)"/);
+  const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : caption.slice(0, 200);
+
+  return [
+    `${triggerWord}, cinematic portrait, warm natural light, high quality photography.`,
+    "No text, no words, no watermarks.",
+    `Scene mood: "${verse.slice(0, 200)}"`,
+    "Warm golden tones, soft shadows, intimate and contemplative atmosphere.",
+    "9:16 vertical composition, shallow depth of field, cinematic bokeh.",
+  ].join(" ");
 }
 
 function buildVisualPrompt(caption: string): string {
