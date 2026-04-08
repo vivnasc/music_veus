@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { adminFetch } from "@/lib/admin-fetch";
 
@@ -25,7 +25,28 @@ export default function LoraPage() {
   const [steps, setSteps] = useState(1000);
   const [status, setStatus] = useState<string | null>(null);
   const [activeLoraUrl, setActiveLoraUrl] = useState<string | null>(null);
+  const [activeTrigger, setActiveTrigger] = useState<string>("loranne_artist");
+  const [genPrompt, setGenPrompt] = useState("");
+  const [genCount, setGenCount] = useState(4);
+  const [generating, setGenerating] = useState(false);
+  const [generatedImages, setGeneratedImages] = useState<string[]>([]);
   const fileRef = useRef<HTMLInputElement>(null);
+
+  // Load active LoRA from Supabase on mount
+  useEffect(() => {
+    fetch("/api/published-tracks") // just to warm up, the real check:
+      .catch(() => {});
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+    fetch(`${supabaseUrl}/storage/v1/object/public/audios/lora/active-lora.json`)
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if (data?.loraUrl) {
+          setActiveLoraUrl(data.loraUrl);
+          setActiveTrigger(data.triggerWord || "loranne_artist");
+        }
+      })
+      .catch(() => {});
+  }, []);
 
   const togglePose = (url: string) => {
     setSelectedPoses(prev => {
@@ -294,7 +315,7 @@ export default function LoraPage() {
         </div>
 
         {/* Train button */}
-        <div className="sticky bottom-0 bg-mundo-bg/90 backdrop-blur py-4 border-t border-mundo-muted-dark/30 -mx-4 px-4 sm:-mx-6 sm:px-6">
+        <div className="mb-8 py-4 border-t border-b border-mundo-muted-dark/30">
           <div className="flex items-center gap-4">
             <button
               onClick={startTraining}
@@ -313,6 +334,137 @@ export default function LoraPage() {
               <span className="text-xs text-red-400">Mínimo 10 imagens</span>
             )}
           </div>
+        </div>
+
+        {/* ── GENERATE NEW IMAGES ── */}
+        <div className="mb-8">
+          <h2 className="font-display text-2xl text-mundo-creme mb-2">Gerar Novas Fotos</h2>
+          {!activeLoraUrl ? (
+            <p className="text-sm text-mundo-muted">
+              Treina o LoRA primeiro para gerar novas fotos da Loranne.
+            </p>
+          ) : (
+            <>
+              <p className="text-sm text-mundo-muted mb-4">
+                LoRA activo — trigger: <strong className="text-fuchsia-400">{activeTrigger}</strong>.
+                Descreve o cenário e gera fotos novas da Loranne.
+              </p>
+
+              <div className="flex flex-wrap gap-3 mb-4">
+                <textarea
+                  value={genPrompt}
+                  onChange={(e) => setGenPrompt(e.target.value)}
+                  placeholder="Ex: sentada num café em Lisboa, luz da tarde pela janela, ar contemplativo"
+                  rows={2}
+                  className="flex-1 min-w-[300px] rounded-lg border border-mundo-muted-dark/30 bg-mundo-bg-light px-3 py-2 text-sm text-mundo-creme placeholder:text-mundo-muted/50"
+                />
+                <div className="flex flex-col gap-2">
+                  <select
+                    value={genCount}
+                    onChange={(e) => setGenCount(parseInt(e.target.value))}
+                    className="rounded-lg border border-mundo-muted-dark/30 bg-mundo-bg-light px-3 py-2 text-sm text-mundo-creme"
+                  >
+                    <option value={1}>1 imagem</option>
+                    <option value={2}>2 imagens</option>
+                    <option value={4}>4 imagens</option>
+                  </select>
+                  <button
+                    onClick={async () => {
+                      if (!genPrompt.trim()) { alert("Escreve uma descrição do cenário."); return; }
+                      setGenerating(true);
+                      try {
+                        const fullPrompt = `${activeTrigger}, ${genPrompt.trim()}. Cinematic portrait, warm natural light, high quality photography. No text, no watermarks. Warm golden tones, intimate atmosphere. 9:16 vertical, shallow depth of field.`;
+                        const res = await adminFetch("/api/admin/generate-verse-reel", {
+                          method: "POST",
+                          headers: { "Content-Type": "application/json" },
+                          body: JSON.stringify({
+                            caption: `"${genPrompt.trim()}"`,
+                            numImages: genCount,
+                            loraUrl: activeLoraUrl,
+                            triggerWord: activeTrigger,
+                          }),
+                        });
+                        const data = await res.json();
+                        if (!res.ok || !data.imageUrls?.length) {
+                          alert(`Erro: ${data.erro || "Sem imagens"}`);
+                        } else {
+                          setGeneratedImages(prev => [...data.imageUrls, ...prev]);
+                        }
+                      } catch (err) {
+                        alert(`Erro: ${err}`);
+                      } finally {
+                        setGenerating(false);
+                      }
+                    }}
+                    disabled={generating || !genPrompt.trim()}
+                    className={`rounded-lg px-4 py-2 text-sm font-medium transition ${
+                      generating
+                        ? "bg-fuchsia-900/30 text-fuchsia-400 animate-pulse"
+                        : "bg-fuchsia-600 text-white hover:bg-fuchsia-500"
+                    }`}
+                  >
+                    {generating ? "A gerar..." : "Gerar"}
+                  </button>
+                </div>
+              </div>
+
+              {/* Quick prompts */}
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  "sentada num café, luz da tarde, ar pensativo",
+                  "a caminhar na praia ao pôr do sol, vento no cabelo",
+                  "num estúdio de gravação, auscultadores, olhos fechados",
+                  "encostada a uma parede de azulejos, sombras geométricas",
+                  "num jardim com flores, manhã de nevoeiro",
+                  "ao piano, luz de velas, momento íntimo",
+                  "na chuva, rua de paralelepípedos, casaco escuro",
+                  "deitada num sofá, livro aberto, luz suave",
+                ].map((p) => (
+                  <button
+                    key={p}
+                    onClick={() => setGenPrompt(p)}
+                    className="rounded-full bg-mundo-muted-dark/10 px-3 py-1 text-[11px] text-mundo-muted hover:text-mundo-creme hover:bg-mundo-muted-dark/20 transition"
+                  >
+                    {p}
+                  </button>
+                ))}
+              </div>
+
+              {/* Generated results */}
+              {generatedImages.length > 0 && (
+                <div>
+                  <div className="flex items-center gap-3 mb-3">
+                    <h3 className="text-sm text-mundo-creme">Geradas ({generatedImages.length})</h3>
+                    <button
+                      onClick={() => setGeneratedImages([])}
+                      className="text-[10px] text-red-400 hover:text-red-300"
+                    >
+                      Limpar
+                    </button>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    {generatedImages.map((url, idx) => (
+                      <div key={idx} className="relative group">
+                        <img
+                          src={url}
+                          alt={`Generated ${idx + 1}`}
+                          className="w-full aspect-[9/16] object-cover rounded-xl border border-mundo-muted-dark/30"
+                        />
+                        <a
+                          href={url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="absolute bottom-2 right-2 rounded-lg bg-black/60 px-2 py-1 text-[10px] text-white opacity-0 group-hover:opacity-100 transition"
+                        >
+                          Abrir
+                        </a>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </>
+          )}
         </div>
       </div>
     </div>
