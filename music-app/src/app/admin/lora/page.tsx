@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { adminFetch } from "@/lib/admin-fetch";
 
-// Existing Loranne poses (clean, no text)
+// All available Loranne poses
 const EXISTING_POSES = [
   "/poses/loranne-hero.png",
   "/Loranne.png",
@@ -18,8 +18,50 @@ const EXISTING_POSES = [
   ...Array.from({ length: 4 }, (_, i) => i + 1).map(i => `/poses/velas-${String(i).padStart(2, "0")}.png`),
 ];
 
+// Best images pre-selected for LoRA training:
+// - Clear/consistent facial features visible (even through veil)
+// - Good lighting and quality
+// - Variety of angles, poses, and compositions
+// - Excludes: velas (no face), loranne5 (too dark/face hidden), redundant poses
+const BEST_FOR_TRAINING: Set<string> = new Set([
+  "/poses/loranne-hero.png",
+  "/Loranne.png",
+  // loranne2: classic warm series, good variety
+  "/poses/loranne2-01.png",
+  "/poses/loranne2-02.png",
+  "/poses/loranne2-03.png",
+  "/poses/loranne2-04.png",
+  "/poses/loranne2-05.png",
+  "/poses/loranne2-06.png",
+  "/poses/loranne2-07.png",
+  // loranne3: dynamic movement, full body
+  "/poses/loranne3-01.png",
+  "/poses/loranne3-03.png",
+  "/poses/loranne3-05.png",
+  "/poses/loranne3-07.png",
+  // loranne4: warm tones, varied angles
+  "/poses/loranne4-02.png",
+  "/poses/loranne4-03.png",
+  "/poses/loranne4-06.png",
+  "/poses/loranne4-07.png",
+  "/poses/loranne4-09.png",
+  // loranne6: intimate close-ups, best face visibility
+  "/poses/loranne6-01.png",
+  "/poses/loranne6-02.png",
+  "/poses/loranne6-03.png",
+  "/poses/loranne6-05.png",
+  "/poses/loranne6-07.png",
+  // loranne7: strong portraits, closest face views
+  "/poses/loranne7-01.png",
+  "/poses/loranne7-02.png",
+  "/poses/loranne7-03.png",
+  // loranne8: close-up detail
+  "/poses/loranne8-02.png",
+  "/poses/loranne8-04.png",
+]);
+
 export default function LoraPage() {
-  const [selectedPoses, setSelectedPoses] = useState<Set<string>>(new Set(EXISTING_POSES));
+  const [selectedPoses, setSelectedPoses] = useState<Set<string>>(new Set(BEST_FOR_TRAINING));
   const [uploadedImages, setUploadedImages] = useState<{ url: string; name: string }[]>([]);
   const [triggerWord, setTriggerWord] = useState("loranne_artist");
   const [steps, setSteps] = useState(1000);
@@ -275,10 +317,16 @@ export default function LoraPage() {
           <div className="flex items-center gap-4 mb-3">
             <h2 className="text-lg text-mundo-creme">Poses existentes ({selectedPoses.size}/{EXISTING_POSES.length})</h2>
             <button
+              onClick={() => setSelectedPoses(new Set(BEST_FOR_TRAINING))}
+              className="text-xs text-fuchsia-400 hover:text-fuchsia-300 font-medium"
+            >
+              Recomendadas (27)
+            </button>
+            <button
               onClick={() => setSelectedPoses(new Set(EXISTING_POSES))}
               className="text-xs text-blue-400 hover:text-blue-300"
             >
-              Seleccionar todas
+              Todas
             </button>
             <button
               onClick={() => setSelectedPoses(new Set())}
