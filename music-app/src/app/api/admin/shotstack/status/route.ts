@@ -10,7 +10,7 @@ export async function GET(req: NextRequest) {
   if (!auth.ok) return auth.response;
 
   const apiKey = process.env.SHOTSTACK_API_KEY;
-  const env = process.env.SHOTSTACK_ENV || "stage";
+  const env = process.env.SHOTSTACK_ENV || "production";
   if (!apiKey) return NextResponse.json({ erro: "SHOTSTACK_API_KEY não configurada." }, { status: 500 });
 
   const baseUrl = env === "production"
