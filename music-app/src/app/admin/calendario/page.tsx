@@ -476,9 +476,9 @@ export default function CalendarPage() {
 
                                         setGenerating(p => ({ ...p, [key]: "2/4 A enviar 3 clips para Runway..." }));
                                         const runwayPrompts = [
-                                          "Slow cinematic movement, gentle fabric flowing, subtle light shift, ethereal atmosphere, the veil moves softly",
-                                          "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
-                                          "Gentle camera drift, soft fabric movement, light particles floating, intimate and warm atmosphere",
+                                          "Very slow subtle zoom in, portrait photograph, gentle light shift on face, minimal movement, ken burns effect",
+                                          "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting across objects, dreamy and contemplative",
+                                          "Gentle camera drift, soft light particles floating, subtle shadows moving, intimate warm atmosphere",
                                         ];
 
                                         // Use clip index suffix (e.g. track 3 → 301, 302, 303) to avoid collisions
@@ -493,7 +493,7 @@ export default function CalendarPage() {
                                               ...imgInput,
                                               promptText: runwayPrompts[idx],
                                               duration: 5,
-                                              ratio: "768:1280",
+                                              ratio: "720:1280",
                                             }),
                                           });
                                           return { ...(await res.json()), clipTrackNum };

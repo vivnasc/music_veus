@@ -1267,9 +1267,9 @@ function TrackRow({
                   { imageUrl: aiData.imageUrls[1] || aiData.imageUrls[0] },
                 ];
                 const runwayPrompts = [
-                  "Slow cinematic movement, gentle fabric flowing, subtle light shift, ethereal atmosphere",
-                  "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy",
-                  "Gentle camera drift, soft fabric movement, light particles floating, intimate",
+                  "Very slow subtle zoom in, portrait photograph, gentle light shift on face, minimal movement, ken burns effect",
+                  "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting across objects, dreamy and contemplative",
+                  "Gentle camera drift, soft light particles floating, subtle shadows moving, intimate warm atmosphere",
                 ];
                 const runwayResults = await Promise.all(imageInputs.map(async (imgInput, idx) => {
                   const clipTrackNum = track.number * 100 + idx + 1;
@@ -1282,7 +1282,7 @@ function TrackRow({
                       ...imgInput,
                       promptText: runwayPrompts[idx],
                       duration: 5,
-                      ratio: "768:1280",
+                      ratio: "720:1280",
                     }),
                   });
                   return { ...(await res.json()), clipTrackNum };
@@ -2054,6 +2054,14 @@ export default function AlbumProductionPage() {
             >
               Push notificacao
             </button>
+
+            {/* LoRA Training */}
+            <Link
+              href="/admin/lora"
+              className="rounded-lg bg-fuchsia-900/30 px-4 py-2.5 text-xs text-fuchsia-400 hover:bg-fuchsia-900/50 transition flex items-center min-h-[44px]"
+            >
+              Treinar LoRA Loranne
+            </Link>
 
             <div className="flex gap-1 rounded-full bg-mundo-muted-dark/10 p-1">
               <button
