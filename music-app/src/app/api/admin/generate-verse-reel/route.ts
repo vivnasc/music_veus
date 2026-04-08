@@ -62,12 +62,12 @@ function buildVisualPrompt(caption: string): string {
   const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : caption.slice(0, 200);
 
   return [
-    "Beautiful editorial photograph, warm natural light, high quality.",
-    "No text, no words, no letters, no watermarks, no logos.",
-    "Show a concrete, real scene that illustrates this story:",
+    "Abstract cinematic still life, warm natural light, high quality.",
+    "NO people, NO faces, NO human figures, NO text, NO words, NO watermarks.",
+    "Show an atmospheric scene with objects, textures, or landscapes that evoke this feeling:",
     `"${verse.slice(0, 250)}"`,
-    "The image should feel like a moment captured — intimate, real, warm.",
-    "Soft warm tones, natural light, slightly desaturated film look.",
-    "9:16 vertical composition, shallow depth of field.",
+    "Think: empty chair by a window, steam from a cup, light through curtains, fabric folds, ocean surface, candle flame, rain on glass, hands on piano keys, open book pages, morning fog.",
+    "Warm golden tones, soft shadows, slightly desaturated film look, intimate and contemplative.",
+    "9:16 vertical composition, shallow depth of field, cinematic bokeh.",
   ].join(" ");
 }
