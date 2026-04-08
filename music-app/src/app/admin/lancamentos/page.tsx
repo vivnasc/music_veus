@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useCallback, useRef, type MouseEvent, type ChangeEvent } from "react";
+import React, { useState, useEffect, useCallback, type MouseEvent, type ChangeEvent } from "react";
 import Link from "next/link";
 import { ALL_ALBUMS, type Album } from "@/data/albums";
 import { adminFetch } from "@/lib/admin-fetch";
@@ -143,19 +143,18 @@ function isFullyProduced(slug: string, audioMap: AudioMap): boolean {
 // Main component
 // ─────────────────────────────────────────────
 
-const INITIAL_WEEKS = 20;
-const LOAD_MORE_WEEKS = 10;
+const EXTRA_EMPTY_WEEKS = 1; // show 1 empty week after last filled slot
 
 export default function LancamentosPage() {
   const [slots, setSlots] = useState<Slot[]>(DEFAULT_SLOTS);
   const [audioMap, setAudioMap] = useState<AudioMap>({});
   const [loading, setLoading] = useState(true);
   const [loaded, setLoaded] = useState(false);
-  const [visibleWeeks, setVisibleWeeks] = useState(INITIAL_WEEKS);
+  const [extraWeeks, setExtraWeeks] = useState(0);
   const [swapModalIdx, setSwapModalIdx] = useState<number | null>(null);
   const [swapFilter, setSwapFilter] = useState("");
   const [expandedSlotIdx, setExpandedSlotIdx] = useState<number | null>(null);
-  const sentinelRef = useRef<HTMLDivElement>(null);
+  // sentinelRef removed — using manual "more weeks" button
 
   // ── Persist ──
 
@@ -275,23 +274,6 @@ export default function LancamentosPage() {
       .catch(() => setLoading(false));
   }, []);
 
-  // ── Infinite scroll ──
-
-  useEffect(() => {
-    const sentinel = sentinelRef.current;
-    if (!sentinel) return;
-    const observer = new IntersectionObserver(
-      (entries: IntersectionObserverEntry[]) => {
-        if (entries[0].isIntersecting) {
-          setVisibleWeeks((v: number) => v + LOAD_MORE_WEEKS);
-        }
-      },
-      { rootMargin: "400px" }
-    );
-    observer.observe(sentinel);
-    return () => observer.disconnect();
-  }, [loaded]);
-
   // ── Actions (calendarIdx = index in non-published slots) ──
 
   // Map calendar index to slots array index
@@ -345,17 +327,30 @@ export default function LancamentosPage() {
   }
 
   function swapSlot(calIdx: number, newSlug: string) {
-    const si = toSlotsIdx(calIdx);
-    const existingIdx = slots.findIndex((s: Slot) => s.slug === newSlug);
-    const newSlots = [...slots];
-    if (existingIdx >= 0) {
-      [newSlots[si], newSlots[existingIdx]] = [newSlots[existingIdx], newSlots[si]];
+    if (slots.some((s: Slot) => s.slug === newSlug)) {
+      // Already scheduled — swap positions if slot exists
+      const si = toSlotsIdx(calIdx);
+      if (si < slots.length) {
+        const existingIdx = slots.findIndex((s: Slot) => s.slug === newSlug);
+        const newSlots = [...slots];
+        [newSlots[si], newSlots[existingIdx]] = [newSlots[existingIdx], newSlots[si]];
+        save(newSlots);
+      }
     } else {
       const album = getAlbum(newSlug);
       const status: SlotStatus = album && isFullyProduced(newSlug, audioMap) ? "pronto" : "a-produzir";
-      newSlots[si] = { slug: newSlug, status };
+      const calSlots = slots.filter((s: Slot) => !PUBLISHED_SLUGS.has(s.slug));
+      if (calIdx < calSlots.length) {
+        // Replace existing slot
+        const si = toSlotsIdx(calIdx);
+        const newSlots = [...slots];
+        newSlots[si] = { slug: newSlug, status };
+        save(newSlots);
+      } else {
+        // Empty slot — add new album
+        save([...slots, { slug: newSlug, status }]);
+      }
     }
-    save(newSlots);
     setSwapModalIdx(null);
     setSwapFilter("");
   }
@@ -376,7 +371,10 @@ export default function LancamentosPage() {
   // Also separate published from slots for display
   const publishedSlots = slots.filter((s: Slot) => PUBLISHED_SLUGS.has(s.slug));
   const calendarSlots = slots.filter((s: Slot) => !PUBLISHED_SLUGS.has(s.slug));
-  const totalSlotCount = Math.max(calendarSlots.length, visibleWeeks * 3);
+  // Only show weeks with content + 1 empty week + any extra requested
+  const filledWeeks = Math.ceil(calendarSlots.length / 3);
+  const visibleWeeks = filledWeeks + EXTRA_EMPTY_WEEKS + extraWeeks;
+  const totalSlotCount = visibleWeeks * 3;
   const slotDates = generateSlotDates(startDate, totalSlotCount);
 
   // Stats
@@ -395,8 +393,6 @@ export default function LancamentosPage() {
   });
 
   // Group slots into weeks for display
-  const totalVisibleSlots = visibleWeeks * 3;
-
   if (!loaded) return null;
 
   return (
@@ -523,8 +519,15 @@ export default function LancamentosPage() {
           })}
         </div>
 
-        {/* Infinite scroll sentinel */}
-        <div ref={sentinelRef} className="h-8" />
+        {/* Add more weeks button */}
+        <div className="flex justify-center mt-6">
+          <button
+            onClick={() => setExtraWeeks((v: number) => v + 4)}
+            className="text-xs px-4 py-2 rounded-full bg-white/5 text-[#666680] hover:text-[#C9A96E] hover:bg-white/10 transition"
+          >
+            + Mais 4 semanas
+          </button>
+        </div>
       </div>
 
       {/* Unassigned section */}
@@ -644,14 +647,19 @@ function SlotRow({
   const dateStr = formatShortDate(date);
 
   if (!slot) {
-    // Empty slot
+    // Empty slot — clickable to add album
     return (
-      <div className="flex items-center gap-3 px-4 py-3 opacity-30">
+      <div
+        className="flex items-center gap-3 px-4 py-3 hover:bg-white/[0.03] cursor-pointer transition group"
+        onClick={onSwap}
+      >
         <div className="w-14 flex-shrink-0 text-center">
           <div className="text-[10px] text-[#666680] font-semibold">{dayLabel}</div>
           <div className="text-[10px] text-[#666680]">{dateStr}</div>
         </div>
-        <div className="flex-1 text-xs text-[#666680] italic">Vazio</div>
+        <div className="flex-1 text-xs text-[#666680] group-hover:text-[#C9A96E] transition-colors">
+          + Escolher album
+        </div>
       </div>
     );
   }
