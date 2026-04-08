@@ -27,6 +27,22 @@ const STORAGE_KEY = "veus:lancamentos-v2"; // v2 forces fresh round-robin mix
 // Published albums (separate from calendar slots)
 const PUBLISHED_SLUGS = new Set(["incenso-frequencia", "livro-filosofico"]);
 
+// Próximos a produzir (ordem estratégica, letras revistas)
+const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] = [
+  { slug: "grao-festa", notes: "Celebração, alegria sem motivo. O mais leve.", lyricsOk: true },
+  { slug: "grao-boca-aberta", notes: "Gargalhadas, tolice, brincar. Funk + bossa.", lyricsOk: true },
+  { slug: "fibra-azul-fundo", notes: "Natação. Água, silêncio debaixo de água.", lyricsOk: true },
+  { slug: "mare-varanda-quente", notes: "House chill. Pôr-do-sol, varanda, vinho.", lyricsOk: true },
+  { slug: "grao-estacoes", notes: "Páscoa, solstício, outono, Ano Novo interior.", lyricsOk: true },
+  { slug: "incenso-pes-descalcos", notes: "O corpo que dança antes da mente.", lyricsOk: true },
+  { slug: "eter-oceano", notes: "O corpo como água. Profundo mas belo.", lyricsOk: true },
+  { slug: "incenso-maos-juntas", notes: "Gratidão como prática. Gospel + folk.", lyricsOk: true },
+  { slug: "nua-duas-vozes", notes: "Duetos íntimos. Diálogos cantados.", lyricsOk: true },
+  { slug: "grao-porta-aberta", notes: "Primeiras vezes: escola, emprego, cidade.", lyricsOk: true },
+  { slug: "grao-sal-na-pele", notes: "Praia, calor, sal na pele, cigarras.", lyricsOk: false },
+  { slug: "mare-lua-acordada", notes: "Passeios nocturnos, pensamentos às 3h.", lyricsOk: false },
+];
+
 const DEFAULT_SLOTS: Slot[] = [];
 
 // ─────────────────────────────────────────────
@@ -527,6 +543,71 @@ export default function LancamentosPage() {
           >
             + Mais 4 semanas
           </button>
+        </div>
+      </div>
+
+      {/* Lista de produção */}
+      <div className="max-w-5xl mx-auto mb-12">
+        <h2 className="text-sm font-semibold text-[#c08aaa] uppercase tracking-wider mb-4">
+          Proximos a produzir ({NEXT_TO_PRODUCE.length} albums)
+        </h2>
+        <p className="text-xs text-[#666680] mb-3">
+          Ordem estrategica: dos mais leves aos mais intensos. Letras revistas (excepto os 2 ultimos).
+        </p>
+        <div className="space-y-2">
+          {NEXT_TO_PRODUCE.map((item, i) => {
+            const album = getAlbum(item.slug);
+            if (!album) return null;
+            const ap = audioProgress(item.slug, audioMap);
+            const isComplete = ap.done >= ap.total && ap.total > 0;
+            const collLabel = getCollectionLabel(album);
+            const collColor = getCollectionColor(album);
+            return (
+              <div
+                key={item.slug}
+                className={`flex items-center gap-3 p-3 rounded-xl border ${
+                  isComplete ? "border-green-500/20 bg-green-500/5" : "border-white/5 bg-white/[0.02]"
+                }`}
+              >
+                <span className="text-[#666680] text-xs w-5 text-right flex-shrink-0">{i + 1}</span>
+                <div className="w-1 h-10 rounded-full flex-shrink-0" style={{ backgroundColor: album.color }} />
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2">
+                    <span className={`text-sm font-semibold truncate ${isComplete ? "line-through text-[#666680]" : ""}`}>
+                      {album.title}
+                    </span>
+                    <span
+                      className="text-[10px] px-1.5 py-0.5 rounded-full uppercase tracking-wider hidden sm:inline"
+                      style={{ color: collColor, backgroundColor: `${collColor}15` }}
+                    >
+                      {collLabel}
+                    </span>
+                  </div>
+                  <div className="text-[10px] text-[#666680] mt-0.5">{item.notes}</div>
+                </div>
+                <div className="flex items-center gap-2 flex-shrink-0">
+                  {ap.done > 0 && (
+                    <span className="text-[10px] text-[#a0a0b0]">{ap.done}/{ap.total}</span>
+                  )}
+                  {isComplete ? (
+                    <span className="text-[10px] px-2 py-1 rounded-full font-semibold text-[#4ade80] bg-[rgba(74,222,128,0.1)]">
+                      Produzido
+                    </span>
+                  ) : (
+                    <span
+                      className="text-[10px] px-2 py-1 rounded-full font-semibold"
+                      style={{
+                        color: item.lyricsOk ? "#c08aaa" : "#f87171",
+                        backgroundColor: item.lyricsOk ? "rgba(192,138,170,0.1)" : "rgba(248,113,113,0.1)",
+                      }}
+                    >
+                      {item.lyricsOk ? "Letra OK" : "Rever letra"}
+                    </span>
+                  )}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
 
