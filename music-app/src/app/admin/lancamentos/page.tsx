@@ -317,6 +317,7 @@ export default function LancamentosPage() {
     const newSlots = slots.filter((_: Slot, i: number) => i !== si);
     save(newSlots);
     if (expandedSlotIdx === calIdx) setExpandedSlotIdx(null);
+    else if (expandedSlotIdx !== null && expandedSlotIdx > calIdx) setExpandedSlotIdx(expandedSlotIdx - 1);
   }
 
   function moveUp(calIdx: number) {
@@ -560,13 +561,19 @@ export default function LancamentosPage() {
             if (!album) return null;
             const ap = audioProgress(item.slug, audioMap);
             const isComplete = ap.done >= ap.total && ap.total > 0;
+            const isPartial = ap.done > 0 && !isComplete;
+            const pct = ap.total > 0 ? Math.round((ap.done / ap.total) * 100) : 0;
             const collLabel = getCollectionLabel(album);
             const collColor = getCollectionColor(album);
             return (
               <div
                 key={item.slug}
                 className={`flex items-center gap-3 p-3 rounded-xl border ${
-                  isComplete ? "border-green-500/20 bg-green-500/5" : "border-white/5 bg-white/[0.02]"
+                  isComplete
+                    ? "border-green-500/20 bg-green-500/5"
+                    : isPartial
+                      ? "border-yellow-500/20 bg-yellow-500/5"
+                      : "border-white/5 bg-white/[0.02]"
                 }`}
               >
                 <span className="text-[#666680] text-xs w-5 text-right flex-shrink-0">{i + 1}</span>
@@ -584,14 +591,35 @@ export default function LancamentosPage() {
                     </span>
                   </div>
                   <div className="text-[10px] text-[#666680] mt-0.5">{item.notes}</div>
-                </div>
-                <div className="flex items-center gap-2 flex-shrink-0">
+                  {/* Progress bar for partial/complete */}
                   {ap.done > 0 && (
-                    <span className="text-[10px] text-[#a0a0b0]">{ap.done}/{ap.total}</span>
+                    <div className="flex items-center gap-2 mt-1">
+                      <div className="w-20 h-1.5 bg-white/5 rounded-full overflow-hidden">
+                        <div
+                          className="h-full rounded-full"
+                          style={{
+                            width: `${pct}%`,
+                            background: isComplete ? "#4ade80" : "#fbbf24",
+                          }}
+                        />
+                      </div>
+                      <span
+                        className="text-[10px]"
+                        style={{ color: isComplete ? "#4ade80" : "#fbbf24" }}
+                      >
+                        {ap.done}/{ap.total}
+                      </span>
+                    </div>
                   )}
+                </div>
+                <div className="flex-shrink-0">
                   {isComplete ? (
                     <span className="text-[10px] px-2 py-1 rounded-full font-semibold text-[#4ade80] bg-[rgba(74,222,128,0.1)]">
                       Produzido
+                    </span>
+                  ) : isPartial ? (
+                    <span className="text-[10px] px-2 py-1 rounded-full font-semibold text-[#fbbf24] bg-[rgba(251,191,36,0.1)]">
+                      Em producao
                     </span>
                   ) : (
                     <span
