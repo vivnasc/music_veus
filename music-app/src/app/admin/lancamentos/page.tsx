@@ -18,7 +18,7 @@ type Slot = {
 
 type AudioMap = Record<string, Set<number>>;
 
-const STORAGE_KEY = "veus:lancamentos";
+const STORAGE_KEY = "veus:lancamentos-v2"; // v2 forces fresh round-robin mix
 
 // ─────────────────────────────────────────────
 // Default state (before localStorage)
@@ -592,8 +592,8 @@ export default function LancamentosPage() {
       {/* Swap modal */}
       {swapModalIdx !== null && (
         <SwapModal
-          currentSlug={slots[swapModalIdx]?.slug || null}
-          allAlbums={ALL_ALBUMS}
+          currentSlug={swapModalIdx < calendarSlots.length ? calendarSlots[swapModalIdx]?.slug || null : null}
+          allAlbums={ALL_ALBUMS.filter((a) => !scheduledSlugs.has(a.slug) && !PUBLISHED_SLUGS.has(a.slug))}
           audioMap={audioMap}
           filter={swapFilter}
           onFilterChange={setSwapFilter}
