@@ -2,6 +2,7 @@ import { ALL_LISTS, resolveList } from "@/data/curated-lists";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import ListTrackRow from "@/components/music/ListTrackRow";
+import ListPlayButtons from "@/components/music/ListPlayButtons";
 import VersionTracks from "@/components/music/VersionTracks";
 import NavBar from "@/components/music/NavBar";
 import type { TrackEnergy } from "@/data/albums";
@@ -66,6 +67,7 @@ export default async function ListPage({ params }: Props) {
               <h1 className="font-display text-3xl font-bold text-[#F5F0E6] mt-1">{list.title}</h1>
               <p className="text-sm text-[#a0a0b0] mt-1">{list.subtitle}</p>
               <p className="text-xs text-[#666680] mt-2">{tracks.length} faixas</p>
+              <ListPlayButtons tracks={tracks} />
             </div>
           </div>
         </div>
