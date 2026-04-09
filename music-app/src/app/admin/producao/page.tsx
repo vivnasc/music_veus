@@ -1963,7 +1963,7 @@ export default function AlbumProductionPage() {
         {/* Filter + View Mode */}
         <div className="mb-6 space-y-4">
           <ProductFilter active={filter} onChange={setFilter} />
-          <div className="flex items-center gap-3 overflow-x-auto scrollbar-none -mx-4 px-4 pb-2">
+          <div className="flex items-center gap-3 overflow-x-auto scrollbar-none -mx-4 px-4 pb-2 sm:flex-wrap sm:overflow-x-visible sm:mx-0 sm:px-0 sm:pb-0">
             {/* Suno model selector */}
             <div className="shrink-0 flex items-center gap-2">
               <label className="text-[10px] uppercase tracking-wider text-mundo-muted">Modelo</label>
