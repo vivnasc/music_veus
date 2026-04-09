@@ -484,58 +484,6 @@ export default function LoraPage() {
                   <div className="flex items-center gap-3 mb-3">
                     <h3 className="text-sm text-mundo-creme">Geradas ({generatedImages.length})</h3>
                     <button
-                      onClick={async () => {
-                        for (let i = 0; i < generatedImages.length; i++) {
-                          try {
-                            const res = await fetch(generatedImages[i]);
-                            const blob = await res.blob();
-                            const a = document.createElement("a");
-                            a.href = URL.createObjectURL(blob);
-                            a.download = `loranne-gerada-${Date.now()}-${i + 1}.png`;
-                            a.click();
-                            URL.revokeObjectURL(a.href);
-                          } catch { /* skip */ }
-                        }
-                      }}
-                      className="text-[10px] text-green-400 hover:text-green-300"
-                    >
-                      Baixar todas (PC)
-                    </button>
-                    <button
-                      onClick={async () => {
-                        const btn = document.activeElement as HTMLButtonElement;
-                        const origText = btn?.textContent || "";
-                        if (btn) btn.textContent = "A guardar...";
-                        let saved = 0;
-                        for (let i = 0; i < generatedImages.length; i++) {
-                          try {
-                            const imgRes = await fetch(generatedImages[i]);
-                            const blob = await imgRes.blob();
-                            const ts = Date.now();
-                            const filename = `lora/geradas/loranne-${ts}-${i + 1}.png`;
-                            const signRes = await adminFetch("/api/admin/signed-upload-url", {
-                              method: "POST",
-                              headers: { "Content-Type": "application/json" },
-                              body: JSON.stringify({ filename }),
-                            });
-                            const signData = await signRes.json();
-                            if (!signRes.ok || !signData.signedUrl) continue;
-                            const upRes = await fetch(signData.signedUrl, {
-                              method: "PUT",
-                              headers: { "Content-Type": "image/png" },
-                              body: blob,
-                            });
-                            if (upRes.ok) saved++;
-                          } catch { /* skip */ }
-                        }
-                        alert(`${saved}/${generatedImages.length} imagens guardadas no Supabase (audios/lora/geradas/)`);
-                        if (btn) btn.textContent = origText;
-                      }}
-                      className="text-[10px] text-blue-400 hover:text-blue-300"
-                    >
-                      Guardar todas (Supabase)
-                    </button>
-                    <button
                       onClick={() => setGeneratedImages([])}
                       className="text-[10px] text-red-400 hover:text-red-300"
                     >
