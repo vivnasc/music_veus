@@ -41,11 +41,9 @@ export async function POST(req: NextRequest) {
     } catch { /* no active LoRA — use Flux Pro without LoRA */ }
   }
 
-  const visualPrompt = loraUrl
-    ? buildLoraPrompt(caption, triggerWord)
-    : buildVisualPrompt(caption);
-
-  // Use flux-lora endpoint when LoRA is available, otherwise flux-pro
+  // Use concept LoRA when available (trained with flux-lora-fast-training)
+  // This learns the visual identity (veils, silhouette, tones) not a face
+  const visualPrompt = buildLorannPrompt(caption, loraUrl ? triggerWord : null);
   const endpoint = loraUrl
     ? "https://fal.run/fal-ai/flux-lora"
     : "https://fal.run/fal-ai/flux-pro/v1.1";
@@ -58,7 +56,7 @@ export async function POST(req: NextRequest) {
   };
 
   if (loraUrl) {
-    body.loras = [{ path: loraUrl, scale: 0.5 }];
+    body.loras = [{ path: loraUrl, scale: 0.8 }];
   }
 
   try {
@@ -89,18 +87,19 @@ export async function POST(req: NextRequest) {
   }
 }
 
-function buildLoraPrompt(caption: string, triggerWord: string): string {
+function buildLorannPrompt(caption: string, triggerWord: string | null): string {
   const verseMatch = caption.match(/"([^"]+)"/);
   const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : caption.slice(0, 200);
 
+  const trigger = triggerWord ? `${triggerWord}, ` : "";
+
   return [
-    // SCENE FIRST — this is what the user asked for
+    // Scene FIRST — what the user described
     `${verse}.`,
-    // Character identity
-    `${triggerWord}, dark-skinned feminine figure draped in translucent golden veil, face completely hidden behind fabric, no visible facial features.`,
-    // Technical
-    "Fine art editorial photography, warm golden light, no text, no watermarks.",
-    "9:16 vertical, shallow depth of field, cinematic bokeh.",
+    // Loranne identity — consistent veiled figure
+    `${trigger}A feminine figure draped in flowing translucent golden fabric and veil. The face is hidden behind the veil. Only the silhouette and body are visible. Warm golden tones, intimate atmosphere.`,
+    // Style
+    "Fine art editorial photography, dramatic chiaroscuro lighting, no text, no watermarks. 9:16 vertical, shallow depth of field.",
   ].join(" ");
 }
 

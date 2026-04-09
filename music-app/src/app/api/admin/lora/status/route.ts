@@ -25,7 +25,7 @@ export async function GET(req: NextRequest) {
 
   try {
     const statusRes = await fetch(
-      `https://queue.fal.run/fal-ai/flux-lora-portrait-trainer/requests/${requestId}/status`,
+      `https://queue.fal.run/fal-ai/flux-lora-fast-training/requests/${requestId}/status`,
       { headers: { "Authorization": `Key ${falKey}` } }
     );
 
@@ -40,7 +40,7 @@ export async function GET(req: NextRequest) {
     if (status === "COMPLETED") {
       // Fetch result
       const resultRes = await fetch(
-        `https://queue.fal.run/fal-ai/flux-lora-portrait-trainer/requests/${requestId}`,
+        `https://queue.fal.run/fal-ai/flux-lora-fast-training/requests/${requestId}`,
         { headers: { "Authorization": `Key ${falKey}` } }
       );
 
