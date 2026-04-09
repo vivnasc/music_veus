@@ -492,9 +492,21 @@ export default function CalendarPage() {
                                 &times;
                               </button>
                             </div>
-                            <p className={`text-sm mt-1 ${done ? "line-through" : "text-[#F5F0E6]"}`}>
-                              {action.label}
-                            </p>
+                            <input
+                              type="text"
+                              value={action.label}
+                              onChange={(e: ChangeEvent<HTMLInputElement>) => {
+                                const newPlan = [...plan];
+                                newPlan[dayIdx] = {
+                                  ...newPlan[dayIdx],
+                                  actions: newPlan[dayIdx].actions.map((a: ContentAction, ai: number) =>
+                                    ai === i ? { ...a, label: e.target.value } : a
+                                  ),
+                                };
+                                savePlan(newPlan);
+                              }}
+                              className={`text-sm mt-1 w-full bg-transparent border-b border-transparent hover:border-white/10 focus:border-[#C9A96E]/50 focus:outline-none ${done ? "line-through text-[#666680]" : "text-[#F5F0E6]"}`}
+                            />
 
                             {action.caption && (
                               <button
