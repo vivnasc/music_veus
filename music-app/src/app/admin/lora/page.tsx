@@ -484,6 +484,24 @@ export default function LoraPage() {
                   <div className="flex items-center gap-3 mb-3">
                     <h3 className="text-sm text-mundo-creme">Geradas ({generatedImages.length})</h3>
                     <button
+                      onClick={async () => {
+                        for (let i = 0; i < generatedImages.length; i++) {
+                          try {
+                            const res = await fetch(generatedImages[i]);
+                            const blob = await res.blob();
+                            const a = document.createElement("a");
+                            a.href = URL.createObjectURL(blob);
+                            a.download = `loranne-gerada-${i + 1}.png`;
+                            a.click();
+                            URL.revokeObjectURL(a.href);
+                          } catch { /* skip */ }
+                        }
+                      }}
+                      className="text-[10px] text-green-400 hover:text-green-300"
+                    >
+                      Descarregar todas
+                    </button>
+                    <button
                       onClick={() => setGeneratedImages([])}
                       className="text-[10px] text-red-400 hover:text-red-300"
                     >
@@ -498,14 +516,32 @@ export default function LoraPage() {
                           alt={`Generated ${idx + 1}`}
                           className="w-full aspect-[9/16] object-cover rounded-xl border border-mundo-muted-dark/30"
                         />
-                        <a
-                          href={url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="absolute bottom-2 right-2 rounded-lg bg-black/60 px-2 py-1 text-[10px] text-white opacity-0 group-hover:opacity-100 transition"
-                        >
-                          Abrir
-                        </a>
+                        <div className="absolute bottom-2 right-2 flex gap-1 opacity-0 group-hover:opacity-100 transition">
+                          <button
+                            onClick={async () => {
+                              try {
+                                const res = await fetch(url);
+                                const blob = await res.blob();
+                                const a = document.createElement("a");
+                                a.href = URL.createObjectURL(blob);
+                                a.download = `loranne-gerada-${idx + 1}.png`;
+                                a.click();
+                                URL.revokeObjectURL(a.href);
+                              } catch { alert("Erro ao descarregar"); }
+                            }}
+                            className="rounded-lg bg-green-600/80 px-2 py-1 text-[10px] text-white hover:bg-green-500"
+                          >
+                            Baixar
+                          </button>
+                          <a
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="rounded-lg bg-black/60 px-2 py-1 text-[10px] text-white hover:bg-black/80"
+                          >
+                            Abrir
+                          </a>
+                        </div>
                       </div>
                     ))}
                   </div>
