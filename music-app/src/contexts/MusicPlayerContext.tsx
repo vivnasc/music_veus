@@ -19,13 +19,19 @@ type QueueTrack = AlbumTrack & { albumSlug?: string };
 
 /**
  * Resolve the album for a track in the queue.
- * If track has albumSlug (from curated list), use that. Otherwise fallback to queueAlbum.
+ * If track has albumSlug (from curated list), use that.
+ * Otherwise try to find the album by matching the track.
+ * Fallback to queueAlbum.
  */
 function resolveAlbumForTrack(track: QueueTrack, fallback: Album | null): Album | null {
   if (track.albumSlug) {
     return ALL_ALBUMS.find(a => a.slug === track.albumSlug) || fallback;
   }
-  return fallback;
+  // Try to find the album that contains this track
+  const found = ALL_ALBUMS.find(a =>
+    a.tracks.some(t => t.number === track.number && t.title === track.title)
+  );
+  return found || fallback;
 }
 
 function proxyUrl(track: AlbumTrack, album: Album): string {
@@ -415,6 +421,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       showFullPlayer: true,
       audioError: null,
       shuffleHistory: [],
+      infinite: true,  // Always enable infinite — smart continuation when queue ends
     }));
   }, []);
 
