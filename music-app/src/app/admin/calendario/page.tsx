@@ -437,167 +437,31 @@ export default function CalendarPage() {
                                       if (!track) { alert("Faixa não encontrada"); return; }
 
                                       try {
-                                        // Step 1: Generate 4 AI images from verse (fal.ai + LoRA)
-                                        setGenerating(p => ({ ...p, [key]: "1/4 A gerar 4 imagens IA..." }));
-                                        const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
-                                          method: "POST",
-                                          headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({ caption: action.caption || track.description, numImages: 4 }),
+                                        setGenerating(p => ({ ...p, [key]: "A preparar reel..." }));
+                                        const { generateReel } = await import("@/lib/reel-generator");
+                                        const { getAlbumCover, getTrackCoverUrl } = await import("@/lib/album-covers");
+
+                                        let coverSrc = getAlbumCover(alb);
+                                        try {
+                                          const probe = await fetch(getTrackCoverUrl(albumSlug, trackNum), { method: "HEAD" });
+                                          if (probe.ok) coverSrc = getTrackCoverUrl(albumSlug, trackNum);
+                                        } catch {}
+
+                                        const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNum}`;
+
+                                        setGenerating(p => ({ ...p, [key]: "A gerar reel..." }));
+                                        const blob = await generateReel(track, alb, coverSrc, audioSrc, (p) => {
+                                          setGenerating(prev => ({ ...prev, [key]: p.message }));
                                         });
-                                        const aiData = await aiRes.json();
-                                        if (!aiRes.ok || !aiData.imageUrls?.length) { alert(`fal.ai: ${aiData.erro || JSON.stringify(aiData)}`); return; }
 
-                                        // Step 2: 2 Loranne poses + 4 AI = 6 clips × 5s = 30s
-                                        const loranneImgs = pickLorannImages(albumSlug, trackNum, 2);
+                                        const url = URL.createObjectURL(blob);
+                                        setGeneratedImages(p => ({ ...p, [key]: url }));
 
-                                        const loranneBase64List: (string | null)[] = [];
-                                        for (const imgPath of loranneImgs) {
-                                          try {
-                                            const loranneRes = await fetch(imgPath);
-                                            if (loranneRes.ok) {
-                                              const blob = await loranneRes.blob();
-                                              const reader = new FileReader();
-                                              const b64 = await new Promise<string>((resolve, reject) => {
-                                                reader.onloadend = () => resolve(reader.result as string);
-                                                reader.onerror = reject;
-                                                reader.readAsDataURL(blob);
-                                              });
-                                              loranneBase64List.push(b64);
-                                            } else {
-                                              loranneBase64List.push(null);
-                                            }
-                                          } catch (e) {
-                                            console.warn("Failed to load Loranne image locally:", e);
-                                            loranneBase64List.push(null);
-                                          }
-                                        }
-
-                                        const imageInputs: { imageUrl?: string; imageBase64?: string }[] = [
-                                          loranneBase64List[0] ? { imageBase64: loranneBase64List[0] } : { imageUrl: `${window.location.origin}${loranneImgs[0]}` },
-                                          { imageUrl: aiData.imageUrls[0] },
-                                          { imageUrl: aiData.imageUrls[1] || aiData.imageUrls[0] },
-                                          loranneBase64List[1] ? { imageBase64: loranneBase64List[1] } : { imageUrl: `${window.location.origin}${loranneImgs[1] || loranneImgs[0]}` },
-                                          { imageUrl: aiData.imageUrls[2] || aiData.imageUrls[0] },
-                                          { imageUrl: aiData.imageUrls[3] || aiData.imageUrls[1] || aiData.imageUrls[0] },
-                                        ];
-
-                                        setGenerating(p => ({ ...p, [key]: "2/4 A enviar 6 clips para Runway..." }));
-                                        const runwayPrompts = [
-                                          "Very slow subtle zoom in, portrait photograph, gentle light shift on face, minimal movement, ken burns effect",
-                                          "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
-                                          "Gentle camera drift, soft light particles floating, subtle shadows moving, intimate warm atmosphere",
-                                          "Very slow pan right, portrait close-up, warm golden light caressing face, ken burns effect",
-                                          "Slow dolly out, atmospheric dust particles, volumetric light beams, ethereal and meditative",
-                                          "Gentle tilt up, soft bokeh lights emerging, warm ambient glow, peaceful contemplation",
-                                        ];
-
-                                        const totalClips = imageInputs.length;
-                                        const runwayResults = await Promise.all(imageInputs.map(async (imgInput, idx) => {
-                                          const clipTrackNum = trackNum * 100 + idx + 1;
-                                          const res = await adminFetch("/api/admin/runway/generate", {
-                                            method: "POST",
-                                            headers: { "Content-Type": "application/json" },
-                                            body: JSON.stringify({
-                                              albumSlug,
-                                              trackNumber: clipTrackNum,
-                                              ...imgInput,
-                                              promptText: runwayPrompts[idx],
-                                              duration: 5,
-                                              ratio: "720:1280",
-                                            }),
-                                          });
-                                          return { ...(await res.json()), clipTrackNum };
-                                        }));
-
-                                        // Step 3: Poll all Runway tasks
-                                        setGenerating(p => ({ ...p, [key]: "3/4 Runway a processar 6 clips..." }));
-                                        const clipUrls: string[] = [];
-
-                                        for (let idx = 0; idx < runwayResults.length; idx++) {
-                                          const rd = runwayResults[idx];
-                                          if (rd.status === "exists" && rd.videoUrl) {
-                                            clipUrls.push(rd.videoUrl);
-                                            continue;
-                                          }
-                                          if (!rd.taskId) {
-                                            console.warn(`Runway clip ${idx + 1}: sem taskId — ${rd.erro || JSON.stringify(rd)}`);
-                                            continue;
-                                          }
-
-                                          const params = new URLSearchParams({
-                                            taskId: rd.taskId,
-                                            album: albumSlug,
-                                            track: String(rd.clipTrackNum),
-                                          });
-                                          let found = false;
-                                          for (let i = 0; i < 120; i++) {
-                                            await new Promise(r => setTimeout(r, 3000));
-                                            const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
-                                            const sData = await sRes.json();
-                                            if (sData.status === "complete" && sData.videoUrl) {
-                                              clipUrls.push(sData.videoUrl);
-                                              found = true;
-                                              break;
-                                            }
-                                            if (sData.status === "error") {
-                                              console.warn(`Runway clip ${idx + 1} falhou: ${sData.error}`);
-                                              break;
-                                            }
-                                            setGenerating(p => ({ ...p, [key]: `3/4 Clip ${idx + 1}/${totalClips}... ${Math.min(Math.round(i * 1.2), 95)}%` }));
-                                          }
-                                          if (!found) console.warn(`Clip ${idx + 1} não disponível, a continuar com os restantes...`);
-                                        }
-                                        if (clipUrls.length < 4) { alert(`Apenas ${clipUrls.length} clip(s) disponíveis. Mínimo 4 necessários para 30s.`); return; }
-
-                                        // Step 4: Validate clips + mount with Shotstack
-                                        setGenerating(p => ({ ...p, [key]: "4/4 A validar clips..." }));
-
-                                        // Validate all clip URLs are accessible
-                                        const clipChecks = await Promise.all(clipUrls.map(url => fetch(url, { method: "HEAD" }).then(r => r.ok).catch(() => false)));
-                                        const badClips = clipChecks.filter(ok => !ok).length;
-                                        if (badClips > 0) { alert(`${badClips} clip(s) inacessíveis. Os vídeos do Runway podem ter expirado.`); return; }
-
-                                        const sbUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-                                        const audioUrl = `${sbUrl}/storage/v1/object/public/audios/albums/${albumSlug.replace(/[^a-z0-9-]/g, "")}/faixa-${String(trackNum).padStart(2, "0")}.mp3`;
-
-                                        // Validate audio exists
-                                        const audioCheck = await fetch(audioUrl, { method: "HEAD" }).then(r => r.ok).catch(() => false);
-                                        if (!audioCheck) { alert(`Áudio não encontrado: ${audioUrl}`); return; }
-
-                                        setGenerating(p => ({ ...p, [key]: "4/4 Shotstack a montar..." }));
-
-                                        const verse = (() => {
-                                          if (!track.lyrics) return "";
-                                          const lines = track.lyrics.split("\n").filter((l: string) => { const t = l.trim(); return t.length > 15 && t.length < 80 && !t.startsWith("["); });
-                                          return lines[0]?.trim() || "";
-                                        })();
-
-                                        const shotRes = await adminFetch("/api/admin/shotstack/render", {
-                                          method: "POST",
-                                          headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({
-                                            clipUrls,
-                                            audioUrl,
-                                            verse,
-                                            trackTitle: track.title,
-                                            albumTitle: alb.title,
-                                          }),
-                                        });
-                                        const shotData = await shotRes.json();
-                                        if (!shotRes.ok || !shotData.id) { alert(`Shotstack: ${shotData.erro || JSON.stringify(shotData)}`); return; }
-
-                                        // Poll Shotstack
-                                        for (let i = 0; i < 120; i++) {
-                                          await new Promise(r => setTimeout(r, 3000));
-                                          const sRes = await adminFetch(`/api/admin/shotstack/status?id=${shotData.id}`);
-                                          const sData = await sRes.json();
-                                          if (sData.status === "done" && sData.videoUrl) {
-                                            setGeneratedImages(p => ({ ...p, [key]: sData.videoUrl }));
-                                            break;
-                                          }
-                                          if (sData.status === "failed") { alert(`Shotstack falhou: ${sData.error}`); return; }
-                                          setGenerating(p => ({ ...p, [key]: `4/4 A renderizar... ${Math.min(Math.round(i * 1.2), 95)}%` }));
-                                        }
+                                        // Also offer download
+                                        const a = document.createElement("a");
+                                        a.href = url;
+                                        a.download = `Reel — ${track.title}.mp4`;
+                                        a.click();
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);
                                       } finally {
