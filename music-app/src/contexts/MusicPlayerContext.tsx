@@ -5,6 +5,7 @@ import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
 import { getCachedAudioUrl } from "@/hooks/useDownloads";
 import { getAlbumCover } from "@/lib/album-covers";
 import { supabase } from "@/lib/supabase";
+import { buildTasteProfile, generateContinuation } from "@/lib/taste-engine";
 
 export function formatTime(s: number): string {
   if (!isFinite(s) || s < 0) return "0:00";
@@ -306,29 +307,59 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       if (nextIdx >= prev.queue.length) {
         if (prev.repeat === "all") {
           nextIdx = 0;
-        } else if (prev.infinite && prev.currentTrack) {
-          const currentEnergy = prev.currentTrack.energy;
-          const allTracks = ALL_ALBUMS.flatMap(a =>
-            a.tracks.map(t => ({ ...t, albumSlug: a.slug } as QueueTrack))
-          );
-          const sameEnergy = allTracks.filter(
-            t => t.energy === currentEnergy && !(t.number === prev.currentTrack!.number && t.albumSlug === prev.currentAlbum?.slug)
-          );
-          if (sameEnergy.length > 0) {
-            const pick = sameEnergy[Math.floor(Math.random() * sameEnergy.length)];
-            const pickAlbum = ALL_ALBUMS.find(a => a.slug === pick.albumSlug);
-            if (pickAlbum) {
-              const newQueue = [...prev.queue, pick];
-              // Fire async play outside setState
-              setTimeout(() => setSourceAndPlay(audioRef.current!, pick, pickAlbum, blobUrlRef), 0);
-              return {
-                ...prev,
-                currentTrack: pick,
-                currentAlbum: pickAlbum,
-                queue: newQueue,
-                isPlaying: true,
-              };
+        } else if (prev.infinite && prev.currentTrack && prev.currentAlbum) {
+          // Smart continuation: use taste engine to pick the best next tracks
+          let profile;
+          try {
+            const energyCounts = JSON.parse(localStorage.getItem("veus:energy-counts") || "{}");
+            const flavorCounts = JSON.parse(localStorage.getItem("veus:flavor-counts") || "{}");
+            const playCounts = JSON.parse(localStorage.getItem("veus:play-counts") || "{}");
+            const recents = JSON.parse(localStorage.getItem("veus:recents") || "[]");
+            profile = buildTasteProfile(energyCounts, flavorCounts, playCounts, recents);
+          } catch {
+            profile = null;
+          }
+
+          let pick: QueueTrack | null = null;
+          let pickAlbum: Album | null = null;
+
+          if (profile && profile.totalPlays >= 3) {
+            // Use taste engine for smart recommendation
+            const continuation = generateContinuation(
+              profile, prev.currentTrack, prev.currentAlbum, prev.queue, 5
+            );
+            if (continuation.length > 0) {
+              const best = continuation[0];
+              pick = { ...best.track, albumSlug: best.album.slug } as QueueTrack;
+              pickAlbum = best.album;
             }
+          }
+
+          // Fallback: random track with similar energy (for new users)
+          if (!pick) {
+            const currentEnergy = prev.currentTrack.energy;
+            const allTracks = ALL_ALBUMS.flatMap(a =>
+              a.tracks.filter(t => t.audioUrl).map(t => ({ ...t, albumSlug: a.slug } as QueueTrack))
+            );
+            const sameEnergy = allTracks.filter(
+              t => t.energy === currentEnergy && !(t.number === prev.currentTrack!.number && t.albumSlug === prev.currentAlbum?.slug)
+            );
+            if (sameEnergy.length > 0) {
+              pick = sameEnergy[Math.floor(Math.random() * sameEnergy.length)];
+              pickAlbum = ALL_ALBUMS.find(a => a.slug === pick!.albumSlug) || null;
+            }
+          }
+
+          if (pick && pickAlbum) {
+            const newQueue = [...prev.queue, pick];
+            setTimeout(() => setSourceAndPlay(audioRef.current!, pick!, pickAlbum!, blobUrlRef), 0);
+            return {
+              ...prev,
+              currentTrack: pick,
+              currentAlbum: pickAlbum,
+              queue: newQueue,
+              isPlaying: true,
+            };
           }
           return { ...prev, isPlaying: false };
         } else {
