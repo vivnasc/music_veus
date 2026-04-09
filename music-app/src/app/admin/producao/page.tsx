@@ -1959,13 +1959,13 @@ export default function AlbumProductionPage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10 overflow-x-hidden">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
         {/* Filter + View Mode */}
-        <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
+        <div className="mb-6 space-y-4">
           <ProductFilter active={filter} onChange={setFilter} />
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 overflow-x-auto scrollbar-none -mx-4 px-4 pb-2">
             {/* Suno model selector */}
-            <div className="flex items-center gap-2">
+            <div className="shrink-0 flex items-center gap-2">
               <label className="text-[10px] uppercase tracking-wider text-mundo-muted">Modelo</label>
               <select
                 value={sunoModel}
@@ -1981,7 +1981,7 @@ export default function AlbumProductionPage() {
             </div>
 
             {/* Persona selector */}
-            <div className="flex items-center gap-2">
+            <div className="shrink-0 flex items-center gap-2">
               <label className="text-[10px] uppercase tracking-wider text-mundo-muted">Persona</label>
               <input
                 type="text"
@@ -2034,28 +2034,28 @@ export default function AlbumProductionPage() {
                   alert(`Erro: ${e}`);
                 }
               }}
-              className="rounded-lg bg-amber-900/30 px-4 py-2.5 text-xs text-amber-400 hover:bg-amber-900/50 transition"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-amber-900/30 px-4 py-2.5 text-xs text-amber-400 hover:bg-amber-900/50 transition"
             >
               Renomear pasta
             </button>
 
             <Link
               href="/admin/calendario"
-              className="rounded-lg bg-blue-900/30 px-4 py-2.5 text-xs min-h-[44px] text-blue-400 hover:bg-blue-900/50 transition flex items-center"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-blue-900/30 px-4 py-2.5 text-xs min-h-[44px] text-blue-400 hover:bg-blue-900/50 transition flex items-center"
             >
               Calendario
             </Link>
 
             <Link
               href="/admin/lancamentos"
-              className="rounded-lg bg-purple-900/30 px-4 py-2.5 text-xs min-h-[44px] text-purple-400 hover:bg-purple-900/50 transition flex items-center"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-purple-900/30 px-4 py-2.5 text-xs min-h-[44px] text-purple-400 hover:bg-purple-900/50 transition flex items-center"
             >
               Lançamentos
             </Link>
 
             <Link
               href="/admin/fotos"
-              className="rounded-lg bg-pink-900/30 px-4 py-2.5 text-xs min-h-[44px] text-pink-400 hover:bg-pink-900/50 transition flex items-center"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-pink-900/30 px-4 py-2.5 text-xs min-h-[44px] text-pink-400 hover:bg-pink-900/50 transition flex items-center"
             >
               Gerar Fotos
             </Link>
@@ -2076,7 +2076,7 @@ export default function AlbumProductionPage() {
                 if (data.ok) alert(`Enviado a ${data.sent} subscritores (${data.failed} falharam)`);
                 else alert(data.erro || "Erro");
               }}
-              className="rounded-lg bg-blue-900/30 px-4 py-2.5 text-xs text-blue-400 hover:bg-blue-900/50 transition"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-blue-900/30 px-4 py-2.5 text-xs text-blue-400 hover:bg-blue-900/50 transition"
             >
               Push notificacao
             </button>
@@ -2084,12 +2084,12 @@ export default function AlbumProductionPage() {
             {/* LoRA Training */}
             <Link
               href="/admin/lora"
-              className="rounded-lg bg-fuchsia-900/30 px-4 py-2.5 text-xs text-fuchsia-400 hover:bg-fuchsia-900/50 transition flex items-center min-h-[44px]"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-fuchsia-900/30 px-4 py-2.5 text-xs text-fuchsia-400 hover:bg-fuchsia-900/50 transition flex items-center min-h-[44px]"
             >
               Treinar LoRA Loranne
             </Link>
 
-            <div className="flex gap-1 rounded-full bg-mundo-muted-dark/10 p-1">
+            <div className="shrink-0 flex gap-1 rounded-full bg-mundo-muted-dark/10 p-1">
               <button
                 onClick={() => setViewMode("producao")}
                 className={`rounded-full px-4 py-2 text-xs font-sans uppercase tracking-wider transition-colors ${
