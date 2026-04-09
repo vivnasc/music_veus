@@ -27,8 +27,15 @@ export async function POST(req: NextRequest) {
 
   const count = Math.min(Math.max(numImages || 1, 1), 4);
 
-  // Prepend LoRA trigger word to user prompt
-  const fullPrompt = `loranne_artist, ${prompt.trim()}`;
+  // Build prompt: LoRA trigger + identity constraints + user scene
+  const identityPrefix =
+    "loranne_artist, feminine silhouette draped in translucent golden veil, " +
+    "face completely hidden by fabric, no visible facial features, " +
+    "no defined race, the veil IS the identity";
+  const styleSuffix =
+    "warm golden light, cinematic editorial photography, " +
+    "ethereal atmosphere, shallow depth of field";
+  const fullPrompt = `${identityPrefix}, ${prompt.trim()}, ${styleSuffix}`;
 
   try {
     const falRes = await fetch("https://fal.run/fal-ai/flux-lora", {
@@ -39,6 +46,9 @@ export async function POST(req: NextRequest) {
       },
       body: JSON.stringify({
         prompt: fullPrompt,
+        negative_prompt:
+          "visible face, facial features, eyes, nose, mouth, clear face, portrait, " +
+          "defined race, skin color, uncovered face, text, watermark, logo",
         loras: [{ path: loraUrl, scale: 1 }],
         image_size: { width: 1024, height: 1024 },
         num_images: count,

@@ -5,14 +5,14 @@ import Link from "next/link";
 import { adminFetch } from "@/lib/admin-fetch";
 
 const QUICK_PROMPTS = [
-  "sentada num cafe, luz da tarde, ar pensativo",
-  "a caminhar na praia ao por do sol, vento no cabelo",
-  "num estudio de gravacao, auscultadores, olhos fechados",
-  "de pe numa varanda em Lisboa, vista para o rio, golden hour",
-  "a cantar ao vivo num palco pequeno, luz quente, intimista",
-  "deitada na relva a olhar o ceu, luz suave de entardecer",
-  "sentada no chao com guitarra, quarto com luz natural",
-  "a caminhar numa rua estreita de Lisboa, sombras longas",
+  "silhueta sentada num cafe, luz da tarde pela janela, veu caindo sobre o rosto",
+  "a caminhar na praia ao por do sol, vento no veu, apenas silhueta contra a luz",
+  "num estudio de gravacao, auscultadores sobre o veu, costas para a camera",
+  "de pe numa varanda em Lisboa, vista para o rio, silhueta recortada contra o ceu",
+  "silhueta a cantar ao vivo num palco pequeno, luz quente por tras, rosto oculto",
+  "deitada na relva, veu dourado espalhado, sem rosto visivel, luz suave",
+  "sentada no chao com guitarra, quarto escuro, apenas contorno e tecido",
+  "a caminhar numa rua estreita de Lisboa, sombras longas, figura envolta em veu",
 ];
 
 const IMAGE_COUNTS = [1, 2, 4] as const;
@@ -86,7 +86,7 @@ export default function FotosPage() {
         </h1>
         <p className="text-sm text-[#a0a0b0] mb-6">
           LoRA activo — trigger: <strong className="text-[#c08aaa]">loranne_artist</strong>.
-          Descreve o cenario e gera fotos novas da Loranne.
+          Descreve o cenario — a identidade (veu, silhueta, sem rosto) e adicionada automaticamente.
         </p>
 
         {/* Generator */}
@@ -98,7 +98,7 @@ export default function FotosPage() {
                 ref={textareaRef}
                 value={prompt}
                 onChange={(e: ChangeEvent<HTMLTextAreaElement>) => setPrompt(e.target.value)}
-                placeholder="Ex: sentada num cafe em Lisboa, luz da tarde pela janela, ar contemplativo"
+                placeholder="Ex: sentada num cafe em Lisboa, luz da tarde pela janela, veu a cair sobre os ombros"
                 className="w-full h-24 rounded-xl bg-[#1a1a2e] border border-white/10 px-4 py-3 text-sm text-[#F5F0E6] placeholder-[#666680] focus:outline-none focus:border-[#c08aaa]/50 resize-y"
                 onKeyDown={(e) => {
                   if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
@@ -257,8 +257,9 @@ export default function FotosPage() {
         <div className="rounded-xl border border-white/5 bg-white/[0.02] p-4 mt-8">
           <h3 className="text-sm font-semibold text-[#C9A96E] mb-2">Dicas</h3>
           <ul className="text-xs text-[#a0a0b0] space-y-1.5">
-            <li>O trigger <strong className="text-[#c08aaa]">loranne_artist</strong> e adicionado automaticamente ao prompt.</li>
-            <li>Descreve o <strong>cenario</strong>, a <strong>luz</strong>, e o <strong>estado de espirito</strong> — a LoRA trata do resto.</li>
+            <li>A <strong className="text-[#c08aaa]">identidade</strong> (veu dourado, silhueta, rosto oculto, sem raca) e injectada automaticamente.</li>
+            <li>Tu descreves apenas o <strong>cenario</strong>, a <strong>luz</strong> e o <strong>estado de espirito</strong>.</li>
+            <li>A Loranne nao tem rosto — o <strong>veu e a identidade</strong>. Prompts com &ldquo;face&rdquo; ou &ldquo;portrait&rdquo; sao evitados.</li>
             <li>Usa <span className="text-[#F5F0E6]">Ctrl+Enter</span> para gerar rapidamente.</li>
             <li>As imagens sao temporarias — descarrega as que quiseres guardar.</li>
           </ul>
