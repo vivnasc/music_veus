@@ -18,14 +18,18 @@ type Slot = {
 
 type AudioMap = Record<string, Set<number>>;
 
-const STORAGE_KEY = "veus:lancamentos-v2"; // v2 forces fresh round-robin mix
+const STORAGE_KEY = "veus:lancamentos-v3"; // v3: dynamic published status
 
 // ─────────────────────────────────────────────
 // Default state (before localStorage)
 // ─────────────────────────────────────────────
 
-// Published albums (separate from calendar slots)
-const PUBLISHED_SLUGS = new Set(["incenso-frequencia", "livro-filosofico", "espelho-ilusao"]);
+// Seed: albums already published (only used on first load when localStorage is empty)
+const INITIAL_PUBLISHED: Slot[] = [
+  { slug: "incenso-frequencia", status: "publicado" },
+  { slug: "livro-filosofico", status: "publicado" },
+  { slug: "espelho-ilusao", status: "publicado" },
+];
 
 // Próximos a produzir (ordem estratégica, letras revistas)
 const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] = [
@@ -43,7 +47,7 @@ const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] = [
   { slug: "mare-lua-acordada", notes: "Passeios nocturnos, pensamentos às 3h.", lyricsOk: false },
 ];
 
-const DEFAULT_SLOTS: Slot[] = [];
+const DEFAULT_SLOTS: Slot[] = [...INITIAL_PUBLISHED];
 
 // ─────────────────────────────────────────────
 // Helpers
@@ -224,7 +228,6 @@ export default function LancamentosPage() {
           const newReady: Album[] = [];
           for (const album of ALL_ALBUMS) {
             if (existingSlugs.has(album.slug)) continue;
-            if (PUBLISHED_SLUGS.has(album.slug)) continue;
             const produced = map[album.slug]?.size || 0;
             if (produced >= album.tracks.length && album.tracks.length > 0) {
               newReady.push(album);
@@ -296,7 +299,7 @@ export default function LancamentosPage() {
   function toSlotsIdx(calIdx: number): number {
     let count = -1;
     for (let i = 0; i < slots.length; i++) {
-      if (!PUBLISHED_SLUGS.has(slots[i].slug)) count++;
+      if (slots[i].status !== "publicado") count++;
       if (count === calIdx) return i;
     }
     return slots.length; // append position
@@ -332,7 +335,7 @@ export default function LancamentosPage() {
   }
 
   function moveDown(calIdx: number) {
-    const calSlots = slots.filter((s: Slot) => !PUBLISHED_SLUGS.has(s.slug));
+    const calSlots = slots.filter((s: Slot) => s.status !== "publicado");
     if (calIdx >= calSlots.length - 1) return;
     const si = toSlotsIdx(calIdx);
     const siNext = toSlotsIdx(calIdx + 1);
@@ -356,7 +359,7 @@ export default function LancamentosPage() {
     } else {
       const album = getAlbum(newSlug);
       const status: SlotStatus = album && isFullyProduced(newSlug, audioMap) ? "pronto" : "a-produzir";
-      const calSlots = slots.filter((s: Slot) => !PUBLISHED_SLUGS.has(s.slug));
+      const calSlots = slots.filter((s: Slot) => s.status !== "publicado");
       if (calIdx < calSlots.length) {
         // Replace existing slot
         const si = toSlotsIdx(calIdx);
@@ -386,8 +389,8 @@ export default function LancamentosPage() {
   const startDate = new Date();
 
   // Also separate published from slots for display
-  const publishedSlots = slots.filter((s: Slot) => PUBLISHED_SLUGS.has(s.slug));
-  const calendarSlots = slots.filter((s: Slot) => !PUBLISHED_SLUGS.has(s.slug));
+  const publishedSlots = slots.filter((s: Slot) => s.status === "publicado");
+  const calendarSlots = slots.filter((s: Slot) => s.status !== "publicado");
   // Only show weeks with content + 1 empty week + any extra requested
   const filledWeeks = Math.ceil(calendarSlots.length / 3);
   const visibleWeeks = filledWeeks + EXTRA_EMPTY_WEEKS + extraWeeks;
@@ -398,7 +401,7 @@ export default function LancamentosPage() {
   const countByStatus = (s: SlotStatus) => slots.filter((sl: Slot) => sl.status === s).length;
 
   // Unassigned albums (exclude published and scheduled)
-  const unassigned = ALL_ALBUMS.filter((a) => !scheduledSlugs.has(a.slug) && !PUBLISHED_SLUGS.has(a.slug));
+  const unassigned = ALL_ALBUMS.filter((a) => !scheduledSlugs.has(a.slug));
   const unassignedProduced = unassigned.filter((a) => isFullyProduced(a.slug, audioMap));
   const unassignedPartial = unassigned.filter((a) => {
     const { done, total } = audioProgress(a.slug, audioMap);
@@ -442,7 +445,7 @@ export default function LancamentosPage() {
       <div className="max-w-5xl mx-auto mb-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
         <StatCard
           label="Publicados"
-          value={PUBLISHED_SLUGS.size + countByStatus("lancado")}
+          value={countByStatus("publicado") + countByStatus("lancado")}
           color="#4ade80"
         />
         <StatCard label="Prontos" value={countByStatus("pronto")} color="#60a5fa" />
@@ -464,7 +467,18 @@ export default function LancamentosPage() {
                 <div key={s.slug} className="flex items-center gap-2 px-3 py-2 rounded-lg border border-green-500/20 bg-green-500/5">
                   <div className="w-1 h-6 rounded-full" style={{ backgroundColor: album.color }} />
                   <span className="text-xs font-semibold">{album.title}</span>
-                  <span className="text-[10px] text-[#4ade80]">Publicado</span>
+                  <button
+                    onClick={() => {
+                      const newSlots = slots.map((sl: Slot) =>
+                        sl.slug === s.slug ? { ...sl, status: "pronto" as SlotStatus } : sl
+                      );
+                      save(newSlots);
+                    }}
+                    className="text-[10px] text-[#4ade80] hover:text-[#fbbf24] transition-colors"
+                    title="Clica para voltar ao calendario"
+                  >
+                    Publicado
+                  </button>
                 </div>
               );
             })}
@@ -702,7 +716,7 @@ export default function LancamentosPage() {
       {swapModalIdx !== null && (
         <SwapModal
           currentSlug={swapModalIdx < calendarSlots.length ? calendarSlots[swapModalIdx]?.slug || null : null}
-          allAlbums={ALL_ALBUMS.filter((a) => !scheduledSlugs.has(a.slug) && !PUBLISHED_SLUGS.has(a.slug))}
+          allAlbums={ALL_ALBUMS.filter((a) => !scheduledSlugs.has(a.slug))}
           audioMap={audioMap}
           filter={swapFilter}
           onFilterChange={setSwapFilter}

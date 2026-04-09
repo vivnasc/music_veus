@@ -1,9 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback, type ChangeEvent } from "react";
 import Link from "next/link";
 import { ALL_ALBUMS } from "@/data/albums";
 import { adminFetch } from "@/lib/admin-fetch";
+
+const CALENDAR_STORAGE_KEY = "veus:content-calendar-plan";
 
 // Loranne images without text, good quality, grouped by mood
 const LORANNE_IMAGES: Record<string, string[]> = {
@@ -176,7 +178,7 @@ async function overlayTextOnImage(bgUrl: string, caption: string): Promise<strin
   return canvas.toDataURL("image/png");
 }
 
-const PLAN: DayPlan[] = [
+const DEFAULT_PLAN: DayPlan[] = [
   // ── SEMANA 1: Lançamento "Os Sete Temas do Despertar" ──
   { date: "2026-04-01", actions: [
     { type: "reel", label: "Reel — O Convite", albumSlug: "livro-filosofico", trackNumber: 1, caption: '"Há uma porta que não se vê\nno centro exacto do teu peito"\n\nO Convite — Loranne\nmusic.seteveus.space\n\n#loranne #veus #oconvite #ouve' },
@@ -310,17 +312,42 @@ function isPast(iso: string): boolean {
   return new Date(iso) < new Date(new Date().toDateString());
 }
 
+type EditTarget = {
+  dayIdx: number;
+  actionIdx: number | null; // null = new action
+  action: ContentAction;
+};
+
 export default function CalendarPage() {
+  const [plan, setPlan] = useState<DayPlan[]>(DEFAULT_PLAN);
+  const [loaded, setLoaded] = useState(false);
   const [doneState, setDoneState] = useState<Record<string, boolean>>({});
   const [expandedCaption, setExpandedCaption] = useState<string | null>(null);
   const [generatedImages, setGeneratedImages] = useState<Record<string, string>>({});
   const [generating, setGenerating] = useState<Record<string, string>>({});
+  const [editTarget, setEditTarget] = useState<EditTarget | null>(null);
+  const [newDayDate, setNewDayDate] = useState("");
 
-  // Load from localStorage on mount (client-only)
+  // Load plan + done state from localStorage
   useEffect(() => {
+    try {
+      const savedPlan = localStorage.getItem(CALENDAR_STORAGE_KEY);
+      if (savedPlan) {
+        const parsed = JSON.parse(savedPlan);
+        if (Array.isArray(parsed) && parsed.length > 0) setPlan(parsed);
+      }
+    } catch {}
     try {
       const saved = localStorage.getItem("veus:content-calendar");
       if (saved) setDoneState(JSON.parse(saved));
+    } catch {}
+    setLoaded(true);
+  }, []);
+
+  const savePlan = useCallback((newPlan: DayPlan[]) => {
+    setPlan(newPlan);
+    try {
+      localStorage.setItem(CALENDAR_STORAGE_KEY, JSON.stringify(newPlan));
     } catch {}
   }, []);
 
@@ -332,8 +359,59 @@ export default function CalendarPage() {
     });
   }
 
-  const totalActions = PLAN.reduce((s, d) => s + d.actions.length, 0);
+  function deleteAction(dayIdx: number, actionIdx: number) {
+    const newPlan = plan.map((day: DayPlan, di: number) => {
+      if (di !== dayIdx) return day;
+      return { ...day, actions: day.actions.filter((_: ContentAction, ai: number) => ai !== actionIdx) };
+    }).filter((d: DayPlan) => d.actions.length > 0);
+    savePlan(newPlan);
+  }
+
+  function saveAction(target: EditTarget) {
+    const newPlan = [...plan];
+    if (target.actionIdx !== null) {
+      newPlan[target.dayIdx] = {
+        ...newPlan[target.dayIdx],
+        actions: newPlan[target.dayIdx].actions.map((a: ContentAction, i: number) =>
+          i === target.actionIdx ? target.action : a
+        ),
+      };
+    } else {
+      newPlan[target.dayIdx] = {
+        ...newPlan[target.dayIdx],
+        actions: [...newPlan[target.dayIdx].actions, target.action],
+      };
+    }
+    savePlan(newPlan);
+    setEditTarget(null);
+  }
+
+  function addDay(dateStr: string) {
+    if (!dateStr) return;
+    const newDay: DayPlan = { date: dateStr, actions: [] };
+    const newPlan = [...plan, newDay].sort((a: DayPlan, b: DayPlan) => a.date.localeCompare(b.date));
+    savePlan(newPlan);
+    setNewDayDate("");
+    const dayIdx = newPlan.findIndex((d: DayPlan) => d.date === dateStr);
+    setEditTarget({
+      dayIdx,
+      actionIdx: null,
+      action: { type: "reel", label: "", albumSlug: ALL_ALBUMS[0]?.slug || "", caption: "" },
+    });
+  }
+
+  function deleteDay(dayIdx: number) {
+    savePlan(plan.filter((_: DayPlan, i: number) => i !== dayIdx));
+  }
+
+  function resetPlan() {
+    savePlan(DEFAULT_PLAN);
+  }
+
+  const totalActions = plan.reduce((s, d) => s + d.actions.length, 0);
   const doneCount = Object.values(doneState).filter(Boolean).length;
+
+  if (!loaded) return null;
 
   return (
     <div className="min-h-screen bg-[#0D0D1A] px-4 sm:px-6 py-10">
@@ -362,7 +440,7 @@ export default function CalendarPage() {
 
         {/* Days */}
         <div className="space-y-4">
-          {PLAN.map((day) => {
+          {plan.map((day, dayIdx) => {
             const today = isToday(day.date);
             const past = isPast(day.date);
             const allDone = day.actions.every((_, i) => doneState[`${day.date}-${i}`]);
@@ -382,6 +460,28 @@ export default function CalendarPage() {
                     {formatDate(day.date)}
                   </span>
                   {today && <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#C9A96E]/20 text-[#C9A96E]">Hoje</span>}
+                  <div className="ml-auto flex items-center gap-1">
+                    <button
+                      onClick={() => setEditTarget({
+                        dayIdx,
+                        actionIdx: null,
+                        action: { type: "reel", label: "", albumSlug: ALL_ALBUMS[0]?.slug || "", caption: "" },
+                      })}
+                      className="text-[10px] px-2 py-1 rounded text-[#666680] hover:text-[#C9A96E] transition-colors"
+                      title="Adicionar accao"
+                    >
+                      + Accao
+                    </button>
+                    {day.actions.length === 0 && (
+                      <button
+                        onClick={() => deleteDay(dayIdx)}
+                        className="text-[10px] px-2 py-1 rounded text-[#666680] hover:text-red-400 transition-colors"
+                        title="Remover dia"
+                      >
+                        &times;
+                      </button>
+                    )}
+                  </div>
                 </div>
 
                 <div className="space-y-3">
@@ -407,6 +507,20 @@ export default function CalendarPage() {
                               <span className="text-[10px] font-bold uppercase tracking-wider">{TYPE_LABELS[action.type]}</span>
                               <div className="w-2 h-2 rounded-full" style={{ backgroundColor: getAlbumColor(action.albumSlug) }} />
                               <span className="text-xs text-[#a0a0b0]">{getAlbumTitle(action.albumSlug)}</span>
+                              <button
+                                onClick={() => setEditTarget({ dayIdx, actionIdx: i, action: { ...action } })}
+                                className="text-[10px] text-[#666680] hover:text-[#C9A96E] transition-colors ml-auto"
+                                title="Editar"
+                              >
+                                ✎
+                              </button>
+                              <button
+                                onClick={() => deleteAction(dayIdx, i)}
+                                className="text-[10px] text-[#666680] hover:text-red-400 transition-colors"
+                                title="Remover"
+                              >
+                                &times;
+                              </button>
                             </div>
                             <p className={`text-sm mt-1 ${done ? "line-through" : "text-[#F5F0E6]"}`}>
                               {action.label}
@@ -421,13 +535,24 @@ export default function CalendarPage() {
                               </button>
                             )}
 
-                            {showCaption && action.caption && (
-                              <div className="mt-2 p-3 rounded-lg bg-black/20 border border-white/5 relative">
-                                <pre className="text-xs text-[#a0a0b0] whitespace-pre-wrap leading-relaxed">{action.caption}</pre>
-                                <button
-                                  onClick={() => {
-                                    navigator.clipboard.writeText(action.caption!);
+                            {showCaption && action.caption != null && (
+                              <div className="mt-2 rounded-lg bg-black/20 border border-white/5 relative">
+                                <textarea
+                                  value={action.caption}
+                                  onChange={(e: ChangeEvent<HTMLTextAreaElement>) => {
+                                    const newPlan = [...plan];
+                                    newPlan[dayIdx] = {
+                                      ...newPlan[dayIdx],
+                                      actions: newPlan[dayIdx].actions.map((a, ai) =>
+                                        ai === i ? { ...a, caption: e.target.value } : a
+                                      ),
+                                    };
+                                    savePlan(newPlan);
                                   }}
+                                  className="w-full p-3 text-xs text-[#a0a0b0] whitespace-pre-wrap leading-relaxed bg-transparent focus:outline-none focus:text-[#F5F0E6] resize-y min-h-[6rem]"
+                                />
+                                <button
+                                  onClick={() => navigator.clipboard.writeText(action.caption!)}
                                   className="absolute top-2 right-2 text-[10px] px-2 py-1 rounded bg-[#C9A96E]/20 text-[#C9A96E]"
                                 >
                                   Copiar
@@ -699,6 +824,178 @@ export default function CalendarPage() {
               </div>
             );
           })}
+        </div>
+
+        {/* Add day + Reset */}
+        <div className="mt-6 flex items-center gap-3">
+          <input
+            type="date"
+            value={newDayDate}
+            onChange={(e: ChangeEvent<HTMLInputElement>) => setNewDayDate(e.target.value)}
+            className="rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-xs text-[#F5F0E6] focus:outline-none focus:border-[#C9A96E]/50"
+          />
+          <button
+            onClick={() => addDay(newDayDate)}
+            disabled={!newDayDate}
+            className="text-xs px-3 py-2 rounded-lg bg-[#C9A96E]/20 text-[#C9A96E] hover:bg-[#C9A96E]/30 transition disabled:opacity-30"
+          >
+            + Novo dia
+          </button>
+          <button
+            onClick={() => {
+              if (confirm("Repor calendario original? Perdes todas as alteracoes.")) resetPlan();
+            }}
+            className="text-xs px-3 py-2 rounded-lg text-[#666680] hover:text-red-400 transition ml-auto"
+          >
+            Repor original
+          </button>
+        </div>
+      </div>
+
+      {/* Edit modal */}
+      {editTarget && (
+        <EditActionModal
+          target={editTarget}
+          onSave={saveAction}
+          onClose={() => setEditTarget(null)}
+        />
+      )}
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────
+// Edit Action Modal
+// ─────────────────────────────────────────────
+
+function EditActionModal({
+  target,
+  onSave,
+  onClose,
+}: {
+  target: EditTarget;
+  onSave: (t: EditTarget) => void;
+  onClose: () => void;
+}) {
+  const [action, setAction] = useState<ContentAction>({ ...target.action });
+  const isNew = target.actionIdx === null;
+
+  const selectedAlbum = ALL_ALBUMS.find(a => a.slug === action.albumSlug);
+
+  function handleSave() {
+    if (!action.label.trim()) {
+      // Auto-generate label
+      const albumTitle = selectedAlbum?.title || action.albumSlug;
+      const trackTitle = action.trackNumber
+        ? selectedAlbum?.tracks.find(t => t.number === action.trackNumber)?.title || `Faixa ${action.trackNumber}`
+        : "";
+      action.label = trackTitle
+        ? `${TYPE_LABELS[action.type]} — ${trackTitle} (${albumTitle})`
+        : `${TYPE_LABELS[action.type]} — ${albumTitle}`;
+    }
+    onSave({ ...target, action });
+  }
+
+  return (
+    <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4" onClick={onClose}>
+      <div
+        className="bg-[#0D0D1A] border border-white/10 rounded-2xl p-6 max-w-lg w-full max-h-[85vh] overflow-y-auto"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="flex items-center justify-between mb-5">
+          <h3 className="font-semibold text-lg text-[#F5F0E6]">
+            {isNew ? "Nova accao" : "Editar accao"}
+          </h3>
+          <button onClick={onClose} className="text-[#666680] hover:text-white text-xl">&times;</button>
+        </div>
+
+        <div className="space-y-4">
+          {/* Type */}
+          <div>
+            <label className="text-[10px] text-[#666680] uppercase tracking-wider block mb-1">Tipo</label>
+            <select
+              value={action.type}
+              onChange={(e) => setAction({ ...action, type: e.target.value as ContentAction["type"] })}
+              className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm text-[#F5F0E6] focus:outline-none focus:border-[#C9A96E]/50"
+            >
+              <option value="reel">Reel</option>
+              <option value="carrossel">Carrossel</option>
+              <option value="post">Post</option>
+              <option value="story">Story</option>
+              <option value="partilha">Partilha</option>
+            </select>
+          </div>
+
+          {/* Album */}
+          <div>
+            <label className="text-[10px] text-[#666680] uppercase tracking-wider block mb-1">Album</label>
+            <select
+              value={action.albumSlug}
+              onChange={(e) => setAction({ ...action, albumSlug: e.target.value, trackNumber: undefined })}
+              className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm text-[#F5F0E6] focus:outline-none focus:border-[#C9A96E]/50"
+            >
+              {ALL_ALBUMS.map(a => (
+                <option key={a.slug} value={a.slug}>{a.title} ({a.product})</option>
+              ))}
+            </select>
+          </div>
+
+          {/* Track */}
+          {selectedAlbum && (
+            <div>
+              <label className="text-[10px] text-[#666680] uppercase tracking-wider block mb-1">Faixa (opcional)</label>
+              <select
+                value={action.trackNumber || ""}
+                onChange={(e) => setAction({ ...action, trackNumber: e.target.value ? Number(e.target.value) : undefined })}
+                className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm text-[#F5F0E6] focus:outline-none focus:border-[#C9A96E]/50"
+              >
+                <option value="">Nenhuma (album inteiro)</option>
+                {selectedAlbum.tracks.map(t => (
+                  <option key={t.number} value={t.number}>{t.number}. {t.title}</option>
+                ))}
+              </select>
+            </div>
+          )}
+
+          {/* Label */}
+          <div>
+            <label className="text-[10px] text-[#666680] uppercase tracking-wider block mb-1">Label (vazio = auto)</label>
+            <input
+              type="text"
+              value={action.label}
+              onChange={(e) => setAction({ ...action, label: e.target.value })}
+              placeholder="Ex: Reel — A Roda (Ilusão)"
+              className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm text-[#F5F0E6] placeholder-[#666680] focus:outline-none focus:border-[#C9A96E]/50"
+            />
+          </div>
+
+          {/* Caption */}
+          <div>
+            <label className="text-[10px] text-[#666680] uppercase tracking-wider block mb-1">Legenda / Caption</label>
+            <textarea
+              value={action.caption || ""}
+              onChange={(e) => setAction({ ...action, caption: e.target.value })}
+              placeholder="Texto para Instagram..."
+              rows={6}
+              className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm text-[#F5F0E6] placeholder-[#666680] focus:outline-none focus:border-[#C9A96E]/50 resize-y"
+            />
+          </div>
+        </div>
+
+        {/* Save */}
+        <div className="flex justify-end gap-3 mt-6">
+          <button
+            onClick={onClose}
+            className="text-xs px-4 py-2 rounded-lg text-[#666680] hover:text-[#a0a0b0] transition"
+          >
+            Cancelar
+          </button>
+          <button
+            onClick={handleSave}
+            className="text-xs px-5 py-2 rounded-lg bg-[#C9A96E] text-[#0D0D1A] font-semibold hover:bg-[#d4b06a] transition"
+          >
+            {isNew ? "Adicionar" : "Guardar"}
+          </button>
         </div>
       </div>
     </div>
