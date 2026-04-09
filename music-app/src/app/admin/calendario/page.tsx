@@ -437,51 +437,61 @@ export default function CalendarPage() {
                                       if (!track) { alert("Faixa não encontrada"); return; }
 
                                       try {
-                                        // Step 1: Generate 2 AI images from verse (fal.ai)
-                                        setGenerating(p => ({ ...p, [key]: "1/4 A gerar 2 imagens IA..." }));
+                                        // Step 1: Generate 4 AI images from verse (fal.ai + LoRA)
+                                        setGenerating(p => ({ ...p, [key]: "1/4 A gerar 4 imagens IA..." }));
                                         const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
                                           method: "POST",
                                           headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({ caption: action.caption || track.description, numImages: 2 }),
+                                          body: JSON.stringify({ caption: action.caption || track.description, numImages: 4 }),
                                         });
                                         const aiData = await aiRes.json();
                                         if (!aiRes.ok || !aiData.imageUrls?.length) { alert(`fal.ai: ${aiData.erro || JSON.stringify(aiData)}`); return; }
 
-                                        // Step 2: 1 Loranne + 2 AI → send 3 to Runway in parallel
-                                        const loranneImgs = pickLorannImages(albumSlug, trackNum, 1);
+                                        // Step 2: 2 Loranne poses + 4 AI = 6 clips × 5s = 30s
+                                        const loranneImgs = pickLorannImages(albumSlug, trackNum, 2);
 
-                                        // Convert Loranne image to base64 (avoids prod URL dependency)
-                                        let loranneBase64: string | null = null;
-                                        try {
-                                          const loranneRes = await fetch(loranneImgs[0]);
-                                          if (loranneRes.ok) {
-                                            const blob = await loranneRes.blob();
-                                            const reader = new FileReader();
-                                            loranneBase64 = await new Promise<string>((resolve, reject) => {
-                                              reader.onloadend = () => resolve(reader.result as string);
-                                              reader.onerror = reject;
-                                              reader.readAsDataURL(blob);
-                                            });
+                                        const loranneBase64List: (string | null)[] = [];
+                                        for (const imgPath of loranneImgs) {
+                                          try {
+                                            const loranneRes = await fetch(imgPath);
+                                            if (loranneRes.ok) {
+                                              const blob = await loranneRes.blob();
+                                              const reader = new FileReader();
+                                              const b64 = await new Promise<string>((resolve, reject) => {
+                                                reader.onloadend = () => resolve(reader.result as string);
+                                                reader.onerror = reject;
+                                                reader.readAsDataURL(blob);
+                                              });
+                                              loranneBase64List.push(b64);
+                                            } else {
+                                              loranneBase64List.push(null);
+                                            }
+                                          } catch (e) {
+                                            console.warn("Failed to load Loranne image locally:", e);
+                                            loranneBase64List.push(null);
                                           }
-                                        } catch (e) {
-                                          console.warn("Failed to load Loranne image locally:", e);
                                         }
 
-                                        // Build 3 image sources: Loranne (base64) + 2 AI (URLs)
                                         const imageInputs: { imageUrl?: string; imageBase64?: string }[] = [
-                                          loranneBase64 ? { imageBase64: loranneBase64 } : { imageUrl: `${window.location.origin}${loranneImgs[0]}` },
+                                          loranneBase64List[0] ? { imageBase64: loranneBase64List[0] } : { imageUrl: `${window.location.origin}${loranneImgs[0]}` },
                                           { imageUrl: aiData.imageUrls[0] },
                                           { imageUrl: aiData.imageUrls[1] || aiData.imageUrls[0] },
+                                          loranneBase64List[1] ? { imageBase64: loranneBase64List[1] } : { imageUrl: `${window.location.origin}${loranneImgs[1] || loranneImgs[0]}` },
+                                          { imageUrl: aiData.imageUrls[2] || aiData.imageUrls[0] },
+                                          { imageUrl: aiData.imageUrls[3] || aiData.imageUrls[1] || aiData.imageUrls[0] },
                                         ];
 
-                                        setGenerating(p => ({ ...p, [key]: "2/4 A enviar 3 clips para Runway..." }));
+                                        setGenerating(p => ({ ...p, [key]: "2/4 A enviar 6 clips para Runway..." }));
                                         const runwayPrompts = [
                                           "Very slow subtle zoom in, portrait photograph, gentle light shift on face, minimal movement, ken burns effect",
-                                          "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting across objects, dreamy and contemplative",
+                                          "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
                                           "Gentle camera drift, soft light particles floating, subtle shadows moving, intimate warm atmosphere",
+                                          "Very slow pan right, portrait close-up, warm golden light caressing face, ken burns effect",
+                                          "Slow dolly out, atmospheric dust particles, volumetric light beams, ethereal and meditative",
+                                          "Gentle tilt up, soft bokeh lights emerging, warm ambient glow, peaceful contemplation",
                                         ];
 
-                                        // Use clip index suffix (e.g. track 3 → 301, 302, 303) to avoid collisions
+                                        const totalClips = imageInputs.length;
                                         const runwayResults = await Promise.all(imageInputs.map(async (imgInput, idx) => {
                                           const clipTrackNum = trackNum * 100 + idx + 1;
                                           const res = await adminFetch("/api/admin/runway/generate", {
@@ -500,9 +510,8 @@ export default function CalendarPage() {
                                         }));
 
                                         // Step 3: Poll all Runway tasks
-                                        setGenerating(p => ({ ...p, [key]: "3/4 Runway a processar 3 clips..." }));
+                                        setGenerating(p => ({ ...p, [key]: "3/4 Runway a processar 6 clips..." }));
                                         const clipUrls: string[] = [];
-                                        const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
 
                                         for (let idx = 0; idx < runwayResults.length; idx++) {
                                           const rd = runwayResults[idx];
@@ -512,7 +521,7 @@ export default function CalendarPage() {
                                           }
                                           if (!rd.taskId) {
                                             console.warn(`Runway clip ${idx + 1}: sem taskId — ${rd.erro || JSON.stringify(rd)}`);
-                                            continue; // skip failed clip, try to continue with others
+                                            continue;
                                           }
 
                                           const params = new URLSearchParams({
@@ -532,13 +541,13 @@ export default function CalendarPage() {
                                             }
                                             if (sData.status === "error") {
                                               console.warn(`Runway clip ${idx + 1} falhou: ${sData.error}`);
-                                              break; // skip this clip, continue with others
+                                              break;
                                             }
-                                            setGenerating(p => ({ ...p, [key]: `3/4 Clip ${idx + 1}/3... ${Math.min(Math.round(i * 1.2), 95)}%` }));
+                                            setGenerating(p => ({ ...p, [key]: `3/4 Clip ${idx + 1}/${totalClips}... ${Math.min(Math.round(i * 1.2), 95)}%` }));
                                           }
                                           if (!found) console.warn(`Clip ${idx + 1} não disponível, a continuar com os restantes...`);
                                         }
-                                        if (clipUrls.length < 2) { alert(`Apenas ${clipUrls.length} clip(s) disponíveis. Mínimo 2 necessários. Possível falha de moderação do Runway.`); return; }
+                                        if (clipUrls.length < 4) { alert(`Apenas ${clipUrls.length} clip(s) disponíveis. Mínimo 4 necessários para 30s.`); return; }
 
                                         // Step 4: Validate clips + mount with Shotstack
                                         setGenerating(p => ({ ...p, [key]: "4/4 A validar clips..." }));
