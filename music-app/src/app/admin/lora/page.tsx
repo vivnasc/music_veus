@@ -72,6 +72,7 @@ export default function LoraPage() {
   const [genCount, setGenCount] = useState(4);
   const [generating, setGenerating] = useState(false);
   const [generatedImages, setGeneratedImages] = useState<string[]>([]);
+  const [selectedGen, setSelectedGen] = useState<Set<number>>(new Set());
   const fileRef = useRef<HTMLInputElement>(null);
 
   // Load active LoRA from Supabase on mount
@@ -459,14 +460,14 @@ export default function LoraPage() {
               {/* Quick prompts */}
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
-                  "sentada num café, luz da tarde, ar pensativo",
-                  "a caminhar na praia ao pôr do sol, vento no cabelo",
-                  "num estúdio de gravação, auscultadores, olhos fechados",
-                  "encostada a uma parede de azulejos, sombras geométricas",
-                  "num jardim com flores, manhã de nevoeiro",
-                  "ao piano, luz de velas, momento íntimo",
-                  "na chuva, rua de paralelepípedos, casaco escuro",
-                  "deitada num sofá, livro aberto, luz suave",
+                  "silhueta envolta em véu dourado, rosto oculto, luz lateral quente, fundo escuro",
+                  "figura feminina coberta por tecido translúcido, sem rosto visível, ao pôr do sol na praia",
+                  "silhueta com véu a flutuar ao vento, contraluz dourado, atmosfera etérea",
+                  "figura envolta em tecido, sentada junto a janela antiga, rosto escondido, luz da tarde",
+                  "silhueta feminina entre velas acesas, véu translúcido, rosto invisível, atmosfera sagrada",
+                  "figura coberta por véu ao piano, luz de velas, momento íntimo, sem feições visíveis",
+                  "silhueta na chuva, véu molhado, rua de paralelepípedos, contraluz dourado",
+                  "figura com véu deitada num sofá, rosto oculto pelo tecido, luz suave difusa",
                 ].map((p) => (
                   <button
                     key={p}
@@ -483,30 +484,96 @@ export default function LoraPage() {
                 <div>
                   <div className="flex items-center gap-3 mb-3">
                     <h3 className="text-sm text-mundo-creme">Geradas ({generatedImages.length})</h3>
+                    {selectedGen.size > 0 && (
+                      <>
+                        <span className="text-[10px] text-fuchsia-400">{selectedGen.size} seleccionada{selectedGen.size > 1 ? "s" : ""}</span>
+                        <button
+                          onClick={async () => {
+                            for (const i of selectedGen) {
+                              try {
+                                const res = await fetch(generatedImages[i]);
+                                const blob = await res.blob();
+                                const a = document.createElement("a");
+                                a.href = URL.createObjectURL(blob);
+                                a.download = `loranne-gerada-${Date.now()}-${i + 1}.png`;
+                                a.click();
+                                URL.revokeObjectURL(a.href);
+                                await new Promise(r => setTimeout(r, 300));
+                              } catch { /* skip */ }
+                            }
+                          }}
+                          className="text-[10px] text-green-400 hover:text-green-300 font-medium"
+                        >
+                          Baixar (PC)
+                        </button>
+                        <button
+                          id="save-selected-supabase"
+                          onClick={async () => {
+                            const btn = document.getElementById("save-selected-supabase") as HTMLButtonElement;
+                            if (btn) btn.textContent = "A guardar...";
+                            let saved = 0;
+                            for (const i of selectedGen) {
+                              try {
+                                const imgRes = await fetch(generatedImages[i]);
+                                const blob = await imgRes.blob();
+                                const filename = `lora/geradas/loranne-${Date.now()}-${i + 1}.png`;
+                                const signRes = await adminFetch("/api/admin/signed-upload-url", {
+                                  method: "POST",
+                                  headers: { "Content-Type": "application/json" },
+                                  body: JSON.stringify({ filename }),
+                                });
+                                const signData = await signRes.json();
+                                if (!signRes.ok || !signData.signedUrl) continue;
+                                const upRes = await fetch(signData.signedUrl, {
+                                  method: "PUT",
+                                  headers: { "Content-Type": "image/png" },
+                                  body: blob,
+                                });
+                                if (upRes.ok) saved++;
+                              } catch { /* skip */ }
+                            }
+                            alert(`${saved}/${selectedGen.size} guardadas no Supabase`);
+                            if (btn) btn.textContent = "Guardar (Supabase)";
+                          }}
+                          className="text-[10px] text-blue-400 hover:text-blue-300 font-medium"
+                        >
+                          Guardar (Supabase)
+                        </button>
+                      </>
+                    )}
                     <button
-                      onClick={() => setGeneratedImages([])}
-                      className="text-[10px] text-red-400 hover:text-red-300"
+                      onClick={() => { setGeneratedImages([]); setSelectedGen(new Set()); }}
+                      className="text-[10px] text-red-400 hover:text-red-300 ml-auto"
                     >
                       Limpar
                     </button>
                   </div>
                   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                     {generatedImages.map((url, idx) => (
-                      <div key={idx} className="relative group">
+                      <button
+                        key={idx}
+                        onClick={() => setSelectedGen(prev => {
+                          const next = new Set(prev);
+                          if (next.has(idx)) next.delete(idx); else next.add(idx);
+                          return next;
+                        })}
+                        className={`relative rounded-xl overflow-hidden border-2 transition text-left ${
+                          selectedGen.has(idx)
+                            ? "border-fuchsia-500 ring-2 ring-fuchsia-500/30"
+                            : "border-transparent hover:border-mundo-muted-dark/50"
+                        }`}
+                      >
                         <img
                           src={url}
                           alt={`Generated ${idx + 1}`}
-                          className="w-full aspect-[9/16] object-cover rounded-xl border border-mundo-muted-dark/30"
+                          className="w-full aspect-[9/16] object-cover"
                         />
-                        <a
-                          href={url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="absolute bottom-2 right-2 rounded-lg bg-black/60 px-2 py-1 text-[10px] text-white opacity-0 group-hover:opacity-100 transition"
-                        >
-                          Abrir
-                        </a>
-                      </div>
+                        {selectedGen.has(idx) && (
+                          <div className="absolute top-2 right-2 w-6 h-6 rounded-full bg-fuchsia-500 flex items-center justify-center">
+                            <span className="text-xs text-white font-bold">✓</span>
+                          </div>
+                        )}
+                      </button>
                     ))}
                   </div>
                 </div>

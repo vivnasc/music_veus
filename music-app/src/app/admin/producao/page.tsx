@@ -1234,44 +1234,63 @@ function TrackRow({
                 const t = alb.tracks.find(tr => tr.number === track.number);
                 if (!t) throw new Error("Faixa não encontrada");
 
-                // Step 1: Generate 2 AI images from verse (fal.ai)
-                btn.textContent = "1/4 Imagens IA...";
+                // Step 1: Generate 4 AI images from verse (fal.ai + LoRA)
+                btn.textContent = "1/4 Imagens IA (4)...";
                 const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
                   method: "POST",
                   headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ caption: t.description, numImages: 2 }),
+                  body: JSON.stringify({ caption: t.description, numImages: 4 }),
                 });
                 const aiData = await aiRes.json();
                 if (!aiRes.ok || !aiData.imageUrls?.length) throw new Error(`fal.ai: ${aiData.erro || "sem imagens"}`);
 
-                // Step 2: 1 Loranne + 2 AI → send 3 to Runway
-                btn.textContent = "2/4 Runway...";
-                const loranneImgs = pickLorannImages(albumSlug, track.number, 1);
-                let loranneBase64: string | null = null;
-                try {
-                  const loranneRes = await fetch(loranneImgs[0]);
-                  if (loranneRes.ok) {
-                    const blob = await loranneRes.blob();
-                    const reader = new FileReader();
-                    loranneBase64 = await new Promise<string>((resolve, reject) => {
-                      reader.onloadend = () => resolve(reader.result as string);
-                      reader.onerror = reject;
-                      reader.readAsDataURL(blob);
-                    });
-                  }
-                } catch {}
+                // Step 2: 2 Loranne poses + 4 AI = 6 clips × 5s = 30s
+                btn.textContent = "2/4 Runway (6 clips)...";
+                const loranneImgs = pickLorannImages(albumSlug, track.number, 2);
+                const loranneBase64List: (string | null)[] = [];
+                for (const imgPath of loranneImgs) {
+                  try {
+                    const loranneRes = await fetch(imgPath);
+                    if (loranneRes.ok) {
+                      const blob = await loranneRes.blob();
+                      const reader = new FileReader();
+                      const b64 = await new Promise<string>((resolve, reject) => {
+                        reader.onloadend = () => resolve(reader.result as string);
+                        reader.onerror = reject;
+                        reader.readAsDataURL(blob);
+                      });
+                      loranneBase64List.push(b64);
+                    } else {
+                      loranneBase64List.push(null);
+                    }
+                  } catch { loranneBase64List.push(null); }
+                }
 
-                const imageInputs: { imageUrl?: string; imageBase64?: string }[] = [
-                  loranneBase64 ? { imageBase64: loranneBase64 } : { imageUrl: `${window.location.origin}${loranneImgs[0]}` },
+                const imageInputs: { imageUrl?: string; imageBase64?: string; isLoranne?: boolean }[] = [
+                  // Loranne pose 1
+                  loranneBase64List[0] ? { imageBase64: loranneBase64List[0], isLoranne: true } : { imageUrl: `${window.location.origin}${loranneImgs[0]}`, isLoranne: true },
+                  // AI image 1
                   { imageUrl: aiData.imageUrls[0] },
+                  // AI image 2
                   { imageUrl: aiData.imageUrls[1] || aiData.imageUrls[0] },
+                  // Loranne pose 2
+                  loranneBase64List[1] ? { imageBase64: loranneBase64List[1], isLoranne: true } : { imageUrl: `${window.location.origin}${loranneImgs[1] || loranneImgs[0]}`, isLoranne: true },
+                  // AI image 3
+                  { imageUrl: aiData.imageUrls[2] || aiData.imageUrls[0] },
+                  // AI image 4
+                  { imageUrl: aiData.imageUrls[3] || aiData.imageUrls[1] || aiData.imageUrls[0] },
                 ];
                 const runwayPrompts = [
                   "Very slow subtle zoom in, portrait photograph, gentle light shift on face, minimal movement, ken burns effect",
-                  "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting across objects, dreamy and contemplative",
+                  "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
                   "Gentle camera drift, soft light particles floating, subtle shadows moving, intimate warm atmosphere",
+                  "Very slow pan right, portrait close-up, warm golden light caressing face, ken burns effect",
+                  "Slow dolly out, atmospheric dust particles, volumetric light beams, ethereal and meditative",
+                  "Gentle tilt up, soft bokeh lights emerging, warm ambient glow, peaceful contemplation",
                 ];
+                const totalClips = imageInputs.length;
                 const runwayResults = await Promise.all(imageInputs.map(async (imgInput, idx) => {
+                  const { isLoranne, ...imgPayload } = imgInput;
                   const clipTrackNum = track.number * 100 + idx + 1;
                   const res = await adminFetch("/api/admin/runway/generate", {
                     method: "POST",
@@ -1279,7 +1298,7 @@ function TrackRow({
                     body: JSON.stringify({
                       albumSlug,
                       trackNumber: clipTrackNum,
-                      ...imgInput,
+                      ...imgPayload,
                       promptText: runwayPrompts[idx],
                       duration: 5,
                       ratio: "720:1280",
@@ -1303,11 +1322,11 @@ function TrackRow({
                     const sData = await sRes.json();
                     if (sData.status === "complete" && sData.videoUrl) { clipUrls.push(sData.videoUrl); found = true; break; }
                     if (sData.status === "error") { console.warn(`Clip ${idx + 1} falhou: ${sData.error}`); break; }
-                    btn.textContent = `3/4 Clip ${idx + 1}/3 ${Math.min(Math.round(i * 1.2), 95)}%`;
+                    btn.textContent = `3/4 Clip ${idx + 1}/${totalClips} ${Math.min(Math.round(i * 1.2), 95)}%`;
                   }
                   if (!found) console.warn(`Clip ${idx + 1} não disponível, a continuar...`);
                 }
-                if (clipUrls.length < 2) throw new Error(`Apenas ${clipUrls.length} clip(s). Mínimo 2 necessários (possível moderação Runway).`);
+                if (clipUrls.length < 4) throw new Error(`Apenas ${clipUrls.length} clip(s). Mínimo 4 necessários para 30s.`);
 
                 // Step 4: Validate + Shotstack
                 btn.textContent = "4/4 Shotstack...";
