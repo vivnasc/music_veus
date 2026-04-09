@@ -94,15 +94,13 @@ function buildLoraPrompt(caption: string, triggerWord: string): string {
   const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : caption.slice(0, 200);
 
   return [
-    `${triggerWord}, fine art photography, editorial fashion, warm golden light.`,
-    "CRITICAL: The face MUST be completely covered and hidden by opaque layers of draped fabric and veil. The viewer must NOT be able to see any facial features whatsoever.",
-    "NO visible face, NO eyes visible, NO nose, NO mouth, NO skin of face showing through veil. Face fully wrapped in thick fabric.",
-    "Dark-skinned feminine figure, body draped in flowing translucent golden and cream fabric, only silhouette and body shape visible.",
-    "The veil covers the entire head and face like a cocoon — no features peek through. Mysterious, anonymous, race ambiguous from silhouette alone.",
-    "No text, no words, no watermarks.",
-    `Scene mood: "${verse.slice(0, 200)}"`,
-    "Warm golden tones, deep shadows, dramatic chiaroscuro lighting, intimate atmosphere.",
-    "9:16 vertical composition, shallow depth of field, cinematic bokeh.",
+    // SCENE FIRST — this is what the user asked for
+    `${verse}.`,
+    // Character identity
+    `${triggerWord}, dark-skinned feminine figure draped in translucent golden veil, face completely hidden behind fabric, no visible facial features.`,
+    // Technical
+    "Fine art editorial photography, warm golden light, no text, no watermarks.",
+    "9:16 vertical, shallow depth of field, cinematic bokeh.",
   ].join(" ");
 }
 
