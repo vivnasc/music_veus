@@ -41,11 +41,12 @@ export async function POST(req: NextRequest) {
     } catch { /* no active LoRA — use Flux Pro without LoRA */ }
   }
 
-  // Always use Flux Pro — LoRA was generating visible faces which breaks
-  // Loranne's identity (faceless, veiled, no race defined).
-  // The LoRA is kept in Supabase for potential future use with better training data.
-  const visualPrompt = buildLorannPrompt(caption);
-  const endpoint = "https://fal.run/fal-ai/flux-pro/v1.1";
+  // Use concept LoRA when available (trained with flux-lora-fast-training)
+  // This learns the visual identity (veils, silhouette, tones) not a face
+  const visualPrompt = buildLorannPrompt(caption, loraUrl ? triggerWord : null);
+  const endpoint = loraUrl
+    ? "https://fal.run/fal-ai/flux-lora"
+    : "https://fal.run/fal-ai/flux-pro/v1.1";
 
   const body: Record<string, unknown> = {
     prompt: visualPrompt,
@@ -53,6 +54,10 @@ export async function POST(req: NextRequest) {
     num_images: count,
     safety_tolerance: 5,
   };
+
+  if (loraUrl) {
+    body.loras = [{ path: loraUrl, scale: 0.8 }];
+  }
 
   try {
     const falRes = await fetch(endpoint, {
@@ -82,18 +87,19 @@ export async function POST(req: NextRequest) {
   }
 }
 
-function buildLorannPrompt(caption: string): string {
+function buildLorannPrompt(caption: string, triggerWord: string | null): string {
   const verseMatch = caption.match(/"([^"]+)"/);
   const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : caption.slice(0, 200);
+
+  const trigger = triggerWord ? `${triggerWord}, ` : "";
 
   return [
     // Scene FIRST — what the user described
     `${verse}.`,
-    // Loranne identity — faceless veiled figure
-    "A feminine figure completely draped in flowing translucent golden fabric. The face is entirely hidden — covered by layers of veil. No eyes, no mouth, no facial features visible at all. Only the silhouette of the body is visible through the fabric.",
+    // Loranne identity — consistent veiled figure
+    `${trigger}A feminine figure draped in flowing translucent golden fabric and veil. The face is hidden behind the veil. Only the silhouette and body are visible. Warm golden tones, intimate atmosphere.`,
     // Style
-    "Fine art editorial photography, warm golden and amber tones, dramatic chiaroscuro lighting, no text, no watermarks.",
-    "9:16 vertical composition, shallow depth of field.",
+    "Fine art editorial photography, dramatic chiaroscuro lighting, no text, no watermarks. 9:16 vertical, shallow depth of field.",
   ].join(" ");
 }
 

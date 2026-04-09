@@ -4,7 +4,9 @@ import { requireAdmin } from "@/lib/admin-auth";
 export const maxDuration = 120;
 
 /**
- * Train a LoRA model via fal.ai portrait trainer.
+ * Train a concept/style LoRA via fal.ai fast training.
+ * Learns the overall visual identity (veils, silhouette, tones, composition)
+ * rather than facial features.
  *
  * POST /api/admin/lora/train
  * JSON: { zipUrl: string, triggerWord?: string, steps?: number }
@@ -28,7 +30,7 @@ export async function POST(req: NextRequest) {
     const tw = triggerWord || "loranne_artist";
     const st = steps || 1000;
 
-    const falRes = await fetch("https://queue.fal.run/fal-ai/flux-lora-portrait-trainer", {
+    const falRes = await fetch("https://queue.fal.run/fal-ai/flux-lora-fast-training", {
       method: "POST",
       headers: {
         "Authorization": `Key ${falKey}`,
@@ -38,8 +40,8 @@ export async function POST(req: NextRequest) {
         images_data_url: zipUrl,
         trigger_word: tw,
         steps: st,
-        is_style: false,
-        create_masks: true,
+        is_style: true,
+        create_masks: false,
       }),
     });
 
