@@ -491,7 +491,7 @@ export default function LoraPage() {
                             const blob = await res.blob();
                             const a = document.createElement("a");
                             a.href = URL.createObjectURL(blob);
-                            a.download = `loranne-gerada-${i + 1}.png`;
+                            a.download = `loranne-gerada-${Date.now()}-${i + 1}.png`;
                             a.click();
                             URL.revokeObjectURL(a.href);
                           } catch { /* skip */ }
@@ -499,7 +499,41 @@ export default function LoraPage() {
                       }}
                       className="text-[10px] text-green-400 hover:text-green-300"
                     >
-                      Descarregar todas
+                      Baixar todas (PC)
+                    </button>
+                    <button
+                      onClick={async () => {
+                        const btn = document.activeElement as HTMLButtonElement;
+                        const origText = btn?.textContent || "";
+                        if (btn) btn.textContent = "A guardar...";
+                        let saved = 0;
+                        for (let i = 0; i < generatedImages.length; i++) {
+                          try {
+                            const imgRes = await fetch(generatedImages[i]);
+                            const blob = await imgRes.blob();
+                            const ts = Date.now();
+                            const filename = `lora/geradas/loranne-${ts}-${i + 1}.png`;
+                            const signRes = await adminFetch("/api/admin/signed-upload-url", {
+                              method: "POST",
+                              headers: { "Content-Type": "application/json" },
+                              body: JSON.stringify({ filename }),
+                            });
+                            const signData = await signRes.json();
+                            if (!signRes.ok || !signData.signedUrl) continue;
+                            const upRes = await fetch(signData.signedUrl, {
+                              method: "PUT",
+                              headers: { "Content-Type": "image/png" },
+                              body: blob,
+                            });
+                            if (upRes.ok) saved++;
+                          } catch { /* skip */ }
+                        }
+                        alert(`${saved}/${generatedImages.length} imagens guardadas no Supabase (audios/lora/geradas/)`);
+                        if (btn) btn.textContent = origText;
+                      }}
+                      className="text-[10px] text-blue-400 hover:text-blue-300"
+                    >
+                      Guardar todas (Supabase)
                     </button>
                     <button
                       onClick={() => setGeneratedImages([])}
@@ -516,7 +550,7 @@ export default function LoraPage() {
                           alt={`Generated ${idx + 1}`}
                           className="w-full aspect-[9/16] object-cover rounded-xl border border-mundo-muted-dark/30"
                         />
-                        <div className="absolute bottom-2 right-2 flex gap-1 opacity-0 group-hover:opacity-100 transition">
+                        <div className="absolute bottom-2 left-2 right-2 flex justify-between opacity-0 group-hover:opacity-100 transition">
                           <button
                             onClick={async () => {
                               try {
@@ -524,14 +558,42 @@ export default function LoraPage() {
                                 const blob = await res.blob();
                                 const a = document.createElement("a");
                                 a.href = URL.createObjectURL(blob);
-                                a.download = `loranne-gerada-${idx + 1}.png`;
+                                a.download = `loranne-gerada-${Date.now()}-${idx + 1}.png`;
                                 a.click();
                                 URL.revokeObjectURL(a.href);
                               } catch { alert("Erro ao descarregar"); }
                             }}
                             className="rounded-lg bg-green-600/80 px-2 py-1 text-[10px] text-white hover:bg-green-500"
                           >
-                            Baixar
+                            PC
+                          </button>
+                          <button
+                            onClick={async (e) => {
+                              const btn = e.currentTarget;
+                              btn.textContent = "...";
+                              try {
+                                const imgRes = await fetch(url);
+                                const blob = await imgRes.blob();
+                                const filename = `lora/geradas/loranne-${Date.now()}-${idx + 1}.png`;
+                                const signRes = await adminFetch("/api/admin/signed-upload-url", {
+                                  method: "POST",
+                                  headers: { "Content-Type": "application/json" },
+                                  body: JSON.stringify({ filename }),
+                                });
+                                const signData = await signRes.json();
+                                if (!signRes.ok || !signData.signedUrl) throw new Error("Signed URL falhou");
+                                const upRes = await fetch(signData.signedUrl, {
+                                  method: "PUT",
+                                  headers: { "Content-Type": "image/png" },
+                                  body: blob,
+                                });
+                                btn.textContent = upRes.ok ? "OK!" : "Erro";
+                              } catch { btn.textContent = "Erro"; }
+                              setTimeout(() => { btn.textContent = "Supabase"; }, 2000);
+                            }}
+                            className="rounded-lg bg-blue-600/80 px-2 py-1 text-[10px] text-white hover:bg-blue-500"
+                          >
+                            Supabase
                           </button>
                           <a
                             href={url}
