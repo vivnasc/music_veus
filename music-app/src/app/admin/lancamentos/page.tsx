@@ -25,7 +25,7 @@ const STORAGE_KEY = "veus:lancamentos-v2"; // v2 forces fresh round-robin mix
 // ─────────────────────────────────────────────
 
 // Published albums (separate from calendar slots)
-const PUBLISHED_SLUGS = new Set(["incenso-frequencia", "livro-filosofico"]);
+const PUBLISHED_SLUGS = new Set(["incenso-frequencia", "livro-filosofico", "espelho-ilusao"]);
 
 // Próximos a produzir (ordem estratégica, letras revistas)
 const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] = [

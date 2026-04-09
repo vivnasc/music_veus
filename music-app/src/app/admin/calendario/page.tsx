@@ -197,14 +197,16 @@ const PLAN: DayPlan[] = [
     { type: "post", label: "Post — sobre o álbum", albumSlug: "livro-filosofico", caption: "Escrevi estas canções no escuro.\nNão no escuro dramático.\nNo escuro de uma terça-feira às três da manhã, com o chá frio e o corpo a dizer coisas que a boca não sabia dizer.\n\n9 faixas.\nAlgumas em português. Outras em inglês.\nTodas no mesmo sítio — esse lugar entre o peito e a garganta onde as coisas ficam presas.\n\nSe ouvires e sentires um arrepio estranho, não é a música.\nÉs tu a reconheceres-te.\n\nmusic.seteveus.space\n\n#loranne #veus #despertar #sentir" },
   ]},
 
-  // ── SEMANA 2: Viagem + Saudade + Sangue Aceso ──
+  // ── SEMANA 2: Lançamento Ilusão + Viagem + Saudade ──
   { date: "2026-04-07", actions: [
     { type: "reel", label: "Reel — Vertigem (Vasto)", albumSlug: "eter-vasto", trackNumber: 1, caption: '"Olhei para cima e o chão fugiu\nO céu não tem fundo e eu também não\nA vertigem de existir\né a mesma de cair — sem chão"\n\nVertigem — Loranne\nVasto\nmusic.seteveus.space\n\n#loranne #veus #vasto #vertigem #céu' },
   ]},
   { date: "2026-04-08", actions: [
-    { type: "reel", label: "Reel — The Impermanence of You", albumSlug: "livro-filosofico", trackNumber: 2, caption: '"Nothing stays — nothing was meant to stay\nThe self you grip is made of rain\nLet the permanence dissolve like morning\nand find what lives beneath the pain"\n\nThe Impermanence of You — Loranne\nmusic.seteveus.space\n\n#loranne #veus #impermanence #letgo' },
+    { type: "carrossel", label: "Lançamento — Ilusão (Espelhos)", albumSlug: "espelho-ilusao", caption: "Ilusão.\n10 faixas sobre as máscaras que vestimos.\n\n\"Roda, roda, roda sem parar\nQuem é esta mulher que vive no meu lugar\"\n\nO segundo álbum da Loranne já está em todas as plataformas.\nPõe nos phones e fecha os olhos.\n\nmusic.seteveus.space\n\n#loranne #veus #ilusão #espelhos #novoalbum #ouve" },
+    { type: "reel", label: "Reel — A Roda (Ilusão)", albumSlug: "espelho-ilusao", trackNumber: 1, caption: '"Roda, roda, roda sem parar\nQuem é esta mulher que vive no meu lugar\nRoda, roda, roda sem sentir\nHá alguém cá dentro a pedir pra sair"\n\nA Roda — Loranne\nIlusão\nmusic.seteveus.space\n\n#loranne #veus #aroda #automático #ouve' },
   ]},
   { date: "2026-04-09", actions: [
+    { type: "reel", label: "Reel — The Impermanence of You", albumSlug: "livro-filosofico", trackNumber: 2, caption: '"Nothing stays — nothing was meant to stay\nThe self you grip is made of rain\nLet the permanence dissolve like morning\nand find what lives beneath the pain"\n\nThe Impermanence of You — Loranne\nmusic.seteveus.space\n\n#loranne #veus #impermanence #letgo' },
     { type: "reel", label: "Reel — O teu lado da cama (Saudade)", albumSlug: "nua-saudade", trackNumber: 1, caption: '"O teu lado da cama está frio\nA marca do teu corpo desapareceu\nMas eu deito-me do meu lado\nComo se o teu ainda existisse"\n\nSaudade — Loranne\nmusic.seteveus.space\n\n#loranne #veus #saudade #falta #amor' },
   ]},
   { date: "2026-04-10", actions: [
@@ -269,7 +271,7 @@ const PLAN: DayPlan[] = [
     { type: "reel", label: "Reel — Devagar (Espelho do Medo)", albumSlug: "espelho-medo", trackNumber: 7, caption: '"Devagar como a lua sobe\nDevagar como a maré vem\nDevagar como a ferida fecha\nDevagar como quem quer bem"\n\nDevagar — Loranne\nmusic.seteveus.space\n\n#loranne #veus #devagar #calma' },
   ]},
   { date: "2026-04-29", actions: [
-    { type: "post", label: "Post — verso A Roda", albumSlug: "espelho-ilusao", caption: "\"Roda, roda, roda sem parar\nQuem é esta mulher que vive no meu lugar\nRoda, roda, roda sem sentir\nHá alguém cá dentro a pedir pra sair\"\n\nHá uma canção para o momento em que percebes que estás a viver no automático.\nO sorriso certo. A resposta certa. A vida certa.\nTudo certo — menos tu.\n\nA Roda. Põe nos phones.\n\nmusic.seteveus.space\n\n#loranne #veus #aroda #automático #ouve" },
+    { type: "post", label: "Post — Ilusão 3 semanas depois", albumSlug: "espelho-ilusao", caption: "\"Roda, roda, roda sem parar\nQuem é esta mulher que vive no meu lugar\"\n\nHá 3 semanas a Ilusão saiu.\n10 faixas sobre as máscaras que vestimos sem dar conta.\n\nSe ainda não ouviste — está na altura.\nSe já ouviste — ouve outra vez. O segundo listen é sempre diferente.\n\nmusic.seteveus.space\n\n#loranne #veus #ilusão #aroda #ouve" },
   ]},
   { date: "2026-04-30", actions: [
     { type: "reel", label: "Reel — O Reflexo Final", albumSlug: "livro-filosofico", trackNumber: 9, caption: '"Olha devagar, sem pressa\nO reflexo já não mente\nÉs tu — sempre foste tu\no princípio e o presente"\n\nO Reflexo Final — Loranne\nmusic.seteveus.space\n\n#loranne #veus #reflexo #verdade' },
