@@ -122,10 +122,11 @@ export default function DescobrePage() {
                 (a) => a.product === product && a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
               );
               if (!album || !label || !hasPublished) return null;
+              const albumCount = ALL_ALBUMS.filter(a => a.product === product && a.tracks.some(t => publishedKeys.has(`${a.slug}-t${t.number}`))).length;
               return (
                 <Link
                   key={product}
-                  href={`/album/${album.slug}`}
+                  href={`/coleccao/${product}`}
                   className="group block rounded-xl overflow-hidden"
                 >
                   <div className="aspect-square relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}44)` }}>
@@ -140,6 +141,9 @@ export default function DescobrePage() {
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
                       <span className="text-xl font-semibold text-white">{label.pt}</span>
                       <span className="text-[10px] text-white/50 mt-0.5">{label.en}</span>
+                      {albumCount > 1 && (
+                        <span className="text-[10px] text-white/40 mt-1">{albumCount} albuns</span>
+                      )}
                     </div>
                   </div>
                   <p className="text-[10px] text-[#666680] mt-1.5 px-1 line-clamp-1">{label.sub}</p>

@@ -131,7 +131,7 @@ export default function QueuePanel({ isOpen, onClose }: Props) {
         </div>
 
         {/* Scrollable content */}
-        <div className="flex-1 overflow-y-auto px-2 pb-4 min-h-0">
+        <div className="flex-1 overflow-y-auto px-2 pb-16 min-h-0">
           {/* Now playing */}
           {currentTrack && (
             <div className="px-3 mb-4">
