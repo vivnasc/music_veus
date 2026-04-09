@@ -459,14 +459,14 @@ export default function LoraPage() {
               {/* Quick prompts */}
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
-                  "sentada num café, luz da tarde, ar pensativo",
-                  "a caminhar na praia ao pôr do sol, vento no cabelo",
-                  "num estúdio de gravação, auscultadores, olhos fechados",
-                  "encostada a uma parede de azulejos, sombras geométricas",
-                  "num jardim com flores, manhã de nevoeiro",
-                  "ao piano, luz de velas, momento íntimo",
-                  "na chuva, rua de paralelepípedos, casaco escuro",
-                  "deitada num sofá, livro aberto, luz suave",
+                  "silhueta envolta em véu dourado, rosto oculto, luz lateral quente, fundo escuro",
+                  "figura feminina coberta por tecido translúcido, sem rosto visível, ao pôr do sol na praia",
+                  "silhueta com véu a flutuar ao vento, contraluz dourado, atmosfera etérea",
+                  "figura envolta em tecido, sentada junto a janela antiga, rosto escondido, luz da tarde",
+                  "silhueta feminina entre velas acesas, véu translúcido, rosto invisível, atmosfera sagrada",
+                  "figura coberta por véu ao piano, luz de velas, momento íntimo, sem feições visíveis",
+                  "silhueta na chuva, véu molhado, rua de paralelepípedos, contraluz dourado",
+                  "figura com véu deitada num sofá, rosto oculto pelo tecido, luz suave difusa",
                 ].map((p) => (
                   <button
                     key={p}

@@ -94,7 +94,9 @@ function buildLoraPrompt(caption: string, triggerWord: string): string {
   const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : caption.slice(0, 200);
 
   return [
-    `${triggerWord}, cinematic portrait, warm natural light, high quality photography.`,
+    `${triggerWord}, cinematic photograph, warm natural light, high quality editorial photography.`,
+    "Face completely hidden behind translucent veil, NO visible facial features, NO eyes, NO nose, NO mouth visible.",
+    "Feminine silhouette draped in flowing translucent golden fabric, face obscured, race undefined, mysterious and ethereal.",
     "No text, no words, no watermarks.",
     `Scene mood: "${verse.slice(0, 200)}"`,
     "Warm golden tones, soft shadows, intimate and contemplative atmosphere.",
