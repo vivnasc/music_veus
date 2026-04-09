@@ -311,7 +311,10 @@ export default function CalendarPage() {
             <h1 className="font-display text-2xl font-bold text-[#F5F0E6]">Plano de Conteudo</h1>
             <p className="text-sm text-[#666680] mt-1">Abril 2026 — Instagram + Partilha</p>
           </div>
-          <Link href="/admin/producao" className="text-xs text-[#666680] hover:text-[#a0a0b0]">Producao</Link>
+          <div className="flex items-center gap-3">
+            <Link href="/admin/fotos" className="text-xs text-[#666680] hover:text-[#c08aaa]">Gerar Fotos</Link>
+            <Link href="/admin/producao" className="text-xs text-[#666680] hover:text-[#a0a0b0]">Producao</Link>
+          </div>
         </div>
 
         {/* Progress */}
