@@ -1880,6 +1880,13 @@ export default function AlbumProductionPage() {
               Lançamentos
             </Link>
 
+            <Link
+              href="/admin/fotos"
+              className="rounded-lg bg-pink-900/30 px-4 py-2.5 text-xs min-h-[44px] text-pink-400 hover:bg-pink-900/50 transition flex items-center"
+            >
+              Gerar Fotos
+            </Link>
+
             <button
               onClick={async () => {
                 const title = prompt("Titulo da notificacao:", "Nova musica");
