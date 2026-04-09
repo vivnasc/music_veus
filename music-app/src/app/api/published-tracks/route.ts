@@ -26,7 +26,8 @@ export async function GET() {
     const seen = new Set<string>();
     const albumDates: Record<string, { trackCount: number; publishedAt: string }> = {};
 
-    // Scan both "albums/" prefix and root level folders
+    // Collect all folders from both prefixes
+    const allFolders: { prefix: string; name: string }[] = [];
     for (const prefix of ["albums", ""]) {
       const { data: folders } = await supabase.storage
         .from(BUCKET)
@@ -35,39 +36,54 @@ export async function GET() {
       for (const folder of folders || []) {
         if (!folder.name) continue;
         if (folder.name.startsWith("carousel-") || folder.name.startsWith("citacao-")) continue;
+        allFolders.push({ prefix, name: folder.name });
+      }
+    }
 
-        const folderPath = prefix ? `${prefix}/${folder.name}` : folder.name;
+    // Scan all folders in parallel (much faster than sequential)
+    const results = await Promise.all(
+      allFolders.map(async ({ prefix, name }) => {
+        const folderPath = prefix ? `${prefix}/${name}` : name;
         const { data: files } = await supabase.storage
           .from(BUCKET)
           .list(folderPath, { limit: 100 });
 
         let earliestDate: string | null = null;
         let trackCount = 0;
+        const folderTracks: string[] = [];
 
         for (const file of files || []) {
           const mainMatch = file.name.match(/^faixa-(\d+)\.mp3$/);
           if (mainMatch) {
-            const trackKey = `${folder.name}-t${parseInt(mainMatch[1], 10)}`;
-            if (!seen.has(trackKey)) {
-              seen.add(trackKey);
-              tracks.push(trackKey);
-              trackCount++;
-            }
+            const trackKey = `${name}-t${parseInt(mainMatch[1], 10)}`;
+            folderTracks.push(trackKey);
+            trackCount++;
 
-            // Track latest file date as album publication date (most recent activity)
+            // Track earliest file date as album publication date (first upload = launch)
             const fileDate = (file as { created_at?: string }).created_at;
-            if (fileDate && (!earliestDate || fileDate > earliestDate)) {
+            if (fileDate && (!earliestDate || fileDate < earliestDate)) {
               earliestDate = fileDate;
             }
           }
         }
 
-        if (trackCount > 0) {
-          albumDates[folder.name] = {
-            trackCount,
-            publishedAt: earliestDate || new Date().toISOString(),
-          };
+        return { name, trackCount, earliestDate, folderTracks };
+      })
+    );
+
+    // Merge results
+    for (const { name, trackCount, earliestDate, folderTracks } of results) {
+      for (const trackKey of folderTracks) {
+        if (!seen.has(trackKey)) {
+          seen.add(trackKey);
+          tracks.push(trackKey);
         }
+      }
+      if (trackCount > 0) {
+        albumDates[name] = {
+          trackCount,
+          publishedAt: earliestDate || new Date().toISOString(),
+        };
       }
     }
 

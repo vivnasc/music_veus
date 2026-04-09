@@ -16,12 +16,9 @@ export async function POST(req: NextRequest) {
   if (!auth.ok) return auth.response;
 
   const apiKey = process.env.SHOTSTACK_API_KEY;
-  const env = process.env.SHOTSTACK_ENV || "stage";
   if (!apiKey) return NextResponse.json({ erro: "SHOTSTACK_API_KEY não configurada." }, { status: 500 });
 
-  const baseUrl = env === "production"
-    ? "https://api.shotstack.io/v1"
-    : "https://api.shotstack.io/stage";
+  const baseUrl = "https://api.shotstack.io/v1";
 
   const { clipUrls, audioUrl, verse, trackTitle, albumTitle } = await req.json();
   if (!clipUrls?.length || !audioUrl) {

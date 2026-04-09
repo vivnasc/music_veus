@@ -37,6 +37,7 @@ function getFeaturedAlbum(product: string, publishedKeys: Set<string>): Album | 
 export default function DescobrePage() {
   const recommendations = useRecommendations(16);
   const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch("/api/published-tracks")
@@ -44,7 +45,8 @@ export default function DescobrePage() {
       .then((data: { tracks?: string[] }) => {
         if (data.tracks) setPublishedKeys(new Set(data.tracks));
       })
-      .catch(() => {});
+      .catch(() => {})
+      .finally(() => setLoading(false));
   }, []);
 
   const géneros = ALL_LISTS.filter((l) => l.category === "genero");
@@ -102,19 +104,29 @@ export default function DescobrePage() {
         {/* Colecções */}
         <section>
           <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">Colecções</h2>
+          {loading ? (
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+              {[1,2,3,4,5,6].map(i => (
+                <div key={i}>
+                  <div className="aspect-square rounded-xl bg-white/5 animate-pulse" />
+                  <div className="h-3 w-20 rounded bg-white/5 animate-pulse mt-1.5" />
+                </div>
+              ))}
+            </div>
+          ) : (
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {COLLECTION_PRODUCTS.map((product) => {
               const album = getFeaturedAlbum(product, publishedKeys);
               const label = COLLECTION_LABELS[product];
-              // Only show collections that have at least one published album
               const hasPublished = ALL_ALBUMS.some(
                 (a) => a.product === product && a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
               );
               if (!album || !label || !hasPublished) return null;
+              const albumCount = ALL_ALBUMS.filter(a => a.product === product && a.tracks.some(t => publishedKeys.has(`${a.slug}-t${t.number}`))).length;
               return (
                 <Link
                   key={product}
-                  href={`/album/${album.slug}`}
+                  href={`/coleccao/${product}`}
                   className="group block rounded-xl overflow-hidden"
                 >
                   <div className="aspect-square relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}44)` }}>
@@ -129,6 +141,9 @@ export default function DescobrePage() {
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
                       <span className="text-xl font-semibold text-white">{label.pt}</span>
                       <span className="text-[10px] text-white/50 mt-0.5">{label.en}</span>
+                      {albumCount > 1 && (
+                        <span className="text-[10px] text-white/40 mt-1">{albumCount} albuns</span>
+                      )}
                     </div>
                   </div>
                   <p className="text-[10px] text-[#666680] mt-1.5 px-1 line-clamp-1">{label.sub}</p>
@@ -136,22 +151,39 @@ export default function DescobrePage() {
               );
             })}
           </div>
+          )}
         </section>
 
         {/* Géneros */}
-        <CuratedSection title="Géneros" lists={géneros} publishedKeys={publishedKeys} />
+        <CuratedSection title="Géneros" lists={géneros} publishedKeys={publishedKeys} loading={loading} />
 
         {/* Energia */}
-        <CuratedSection title="Energia" lists={moods} publishedKeys={publishedKeys} />
+        <CuratedSection title="Energia" lists={moods} publishedKeys={publishedKeys} loading={loading} />
 
         {/* Temas */}
-        <CuratedSection title="Temas" lists={temas} publishedKeys={publishedKeys} />
+        <CuratedSection title="Temas" lists={temas} publishedKeys={publishedKeys} loading={loading} />
       </div>
     </main>
   );
 }
 
-function CuratedSection({ title, lists, publishedKeys }: { title: string; lists: CuratedList[]; publishedKeys: Set<string> }) {
+function CuratedSection({ title, lists, publishedKeys, loading }: { title: string; lists: CuratedList[]; publishedKeys: Set<string>; loading: boolean }) {
+  if (loading) {
+    return (
+      <section>
+        <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">{title}</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          {[1,2,3].map(i => (
+            <div key={i}>
+              <div className="aspect-square rounded-xl bg-white/5 animate-pulse" />
+              <div className="h-3 w-16 rounded bg-white/5 animate-pulse mt-1.5" />
+            </div>
+          ))}
+        </div>
+      </section>
+    );
+  }
+
   // Filter each list to only include published tracks, hide empty lists
   const filtered = lists
     .map((list) => ({

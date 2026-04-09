@@ -62,11 +62,11 @@ export async function POST(req: NextRequest) {
 }
 
 function buildBgPrompt(caption: string): string {
-  const verseMatch = caption.match(/"([^"]+)"/);
-  const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : "";
+  const verseMatch = caption.match(/"([\s\S]+?)"/);
+  const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ").slice(0, 150) : "";
 
   const cleanCaption = caption
-    .replace(/"[^"]*"/g, "")
+    .replace(/"[\s\S]*?"/g, "")
     .replace(/#\w+/g, "")
     .replace(/music\.seteveus\.space/g, "")
     .replace(/Loranne/g, "")
@@ -74,12 +74,11 @@ function buildBgPrompt(caption: string): string {
     .trim();
 
   return [
-    "Beautiful soft-focus background photograph, warm natural light.",
-    "No text, no words, no letters, no watermarks.",
-    "Slightly blurred, dreamy, works as background for overlaid text.",
-    "Scene inspired by:",
-    verse ? `"${verse.slice(0, 200)}"` : "",
-    cleanCaption ? cleanCaption.slice(0, 150) : "",
+    "4:5 portrait photograph, moody warm tones, cinematic.",
+    "No text, no words, no letters, no watermarks, no faces.",
+    "Concrete visual scene that tells this story:",
+    verse ? `"${verse}"` : cleanCaption.slice(0, 200),
+    "Warm amber light, shallow depth of field, intimate feeling.",
     "Warm tones, soft golden light, gentle bokeh, intimate atmosphere.",
     "Square 1:1 composition.",
   ].filter(Boolean).join(" ");

@@ -139,7 +139,7 @@ export default function TopTracksPage() {
                   <button
                     key={`${item.albumSlug}-${item.trackNumber}`}
                     onClick={() => handleClick(track, album)}
-                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors text-left ${
+                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors text-left min-h-[44px] ${
                       isActive ? "bg-white/10" : "hover:bg-white/5"
                     }`}
                   >

@@ -436,7 +436,7 @@ export default function FullPlayer() {
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`relative px-5 py-2 rounded-full text-[11px] font-medium transition-all duration-300 ${
+            className={`relative px-5 py-3 min-h-[44px] rounded-full text-[11px] font-medium transition-all duration-300 ${
               activeTab === tab
                 ? "text-white"
                 : "text-[#666680] hover:text-[#a0a0b0]"

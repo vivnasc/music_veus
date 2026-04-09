@@ -110,7 +110,7 @@ export async function POST(req: NextRequest) {
         "X-Runway-Version": "2024-11-06",
       },
       body: JSON.stringify({
-        model: "gen3a_turbo",
+        model: "gen4_turbo",
         promptImage,
         promptText: promptText || "Slow cinematic movement, gentle light particles floating, subtle camera push-in, ethereal and dreamy atmosphere",
         duration: duration || 5,
