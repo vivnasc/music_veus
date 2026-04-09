@@ -41,14 +41,11 @@ export async function POST(req: NextRequest) {
     } catch { /* no active LoRA — use Flux Pro without LoRA */ }
   }
 
-  const visualPrompt = loraUrl
-    ? buildLoraPrompt(caption, triggerWord)
-    : buildVisualPrompt(caption);
-
-  // Use flux-lora endpoint when LoRA is available, otherwise flux-pro
-  const endpoint = loraUrl
-    ? "https://fal.run/fal-ai/flux-lora"
-    : "https://fal.run/fal-ai/flux-pro/v1.1";
+  // Always use Flux Pro — LoRA was generating visible faces which breaks
+  // Loranne's identity (faceless, veiled, no race defined).
+  // The LoRA is kept in Supabase for potential future use with better training data.
+  const visualPrompt = buildLorannPrompt(caption);
+  const endpoint = "https://fal.run/fal-ai/flux-pro/v1.1";
 
   const body: Record<string, unknown> = {
     prompt: visualPrompt,
@@ -56,10 +53,6 @@ export async function POST(req: NextRequest) {
     num_images: count,
     safety_tolerance: 5,
   };
-
-  if (loraUrl) {
-    body.loras = [{ path: loraUrl, scale: 0.5 }];
-  }
 
   try {
     const falRes = await fetch(endpoint, {
@@ -89,18 +82,18 @@ export async function POST(req: NextRequest) {
   }
 }
 
-function buildLoraPrompt(caption: string, triggerWord: string): string {
+function buildLorannPrompt(caption: string): string {
   const verseMatch = caption.match(/"([^"]+)"/);
   const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : caption.slice(0, 200);
 
   return [
-    // SCENE FIRST — this is what the user asked for
+    // Scene FIRST — what the user described
     `${verse}.`,
-    // Character identity
-    `${triggerWord}, dark-skinned feminine figure draped in translucent golden veil, face completely hidden behind fabric, no visible facial features.`,
-    // Technical
-    "Fine art editorial photography, warm golden light, no text, no watermarks.",
-    "9:16 vertical, shallow depth of field, cinematic bokeh.",
+    // Loranne identity — faceless veiled figure
+    "A feminine figure completely draped in flowing translucent golden fabric. The face is entirely hidden — covered by layers of veil. No eyes, no mouth, no facial features visible at all. Only the silhouette of the body is visible through the fabric.",
+    // Style
+    "Fine art editorial photography, warm golden and amber tones, dramatic chiaroscuro lighting, no text, no watermarks.",
+    "9:16 vertical composition, shallow depth of field.",
   ].join(" ");
 }
 
