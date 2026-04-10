@@ -95,10 +95,9 @@ function buildLorannPrompt(caption: string, triggerWord: string | null): string 
   const trigger = triggerWord ? `${triggerWord}, ` : "";
 
   return [
-    `${verse}.`,
-    `${trigger}A human figure seen from behind, draped in flowing golden translucent fabric. Camera behind the figure, we see the back and shoulders. The figure does not turn around.`,
-    "Warm golden amber tones, mysterious, intimate.",
-    "Fine art editorial photography, rear view, dramatic chiaroscuro lighting, no text, no watermarks. 9:16 vertical, shallow depth of field.",
+    `${trigger}${verse}.`,
+    "Cinematic visual scene that tells this story. Warm golden amber tones, atmospheric, emotional, evocative.",
+    "Fine art photography, dramatic chiaroscuro lighting, no text, no watermarks, no faces, no people. 9:16 vertical, shallow depth of field.",
   ].join(" ");
 }
 
