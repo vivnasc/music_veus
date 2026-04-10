@@ -20,13 +20,14 @@ export async function POST(req: NextRequest) {
 
   const baseUrl = "https://api.shotstack.io/v1";
 
-  const { clipUrls, audioUrl, verse, trackTitle, albumTitle } = await req.json();
+  const { clipUrls, audioUrl, audioTrim, verse, trackTitle, albumTitle } = await req.json();
   if (!clipUrls?.length || !audioUrl) {
     return NextResponse.json({ erro: "clipUrls e audioUrl obrigatórios." }, { status: 400 });
   }
 
   const clipDuration = 5;
   const totalDuration = clipUrls.length * clipDuration;
+  const trimStart = typeof audioTrim === "number" ? audioTrim : 30; // default 30s
 
   // Track 1 (top): text overlays
   const textClips = [];
@@ -80,7 +81,7 @@ export async function POST(req: NextRequest) {
     asset: {
       type: "audio",
       src: audioUrl,
-      trim: 30,
+      trim: trimStart,
       volume: 1,
     },
     start: 0,

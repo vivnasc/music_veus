@@ -607,6 +607,8 @@ function TrackRow({
   onFlavorChange,
   isAlbumCover,
   onSetAlbumCover,
+  shortTrim,
+  onShortTrimChange,
 }: {
   track: AlbumTrack;
   albumSlug: string;
@@ -635,6 +637,8 @@ function TrackRow({
   onFlavorChange: (flavor: TrackFlavor) => void;
   isAlbumCover: boolean;
   onSetAlbumCover: () => void;
+  shortTrim: number;
+  onShortTrimChange: (v: number) => void;
 }) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [showLyrics, setShowLyrics] = useState(false);
@@ -1219,7 +1223,35 @@ function TrackRow({
             {reelType === "status" ? "Reel Status" : "Reel Insta"}
           </button>
           ))}
-          {/* Generate Short (fal.ai + Runway + Shotstack — 3 images + music) */}
+          {/* Short trim selector + Generate Short */}
+          <div className="flex items-center gap-2 mb-1">
+            <label className="text-[10px] text-mundo-muted whitespace-nowrap">Audio inicio:</label>
+            <input
+              type="text"
+              value={`${Math.floor(shortTrim / 60)}:${String(Math.floor(shortTrim % 60)).padStart(2, "0")}`}
+              onChange={(e) => {
+                const match = e.target.value.match(/^(\d+):(\d{0,2})$/);
+                if (match) {
+                  const secs = parseInt(match[1]) * 60 + parseInt(match[2] || "0");
+                  onShortTrimChange(Math.max(0, Math.min(secs, track.durationSeconds - 30)));
+                }
+              }}
+              className="w-14 rounded border border-mundo-muted-dark/30 bg-mundo-bg px-2 py-1 text-xs text-mundo-creme text-center font-mono focus:border-violet-500 focus:outline-none"
+              placeholder="0:30"
+            />
+            <input
+              type="range"
+              min={0}
+              max={Math.max(0, track.durationSeconds - 30)}
+              value={shortTrim}
+              onChange={(e) => onShortTrimChange(Number(e.target.value))}
+              className="flex-1 h-1 appearance-none rounded-full bg-mundo-muted-dark/30 cursor-pointer accent-violet-500"
+              style={{ maxWidth: "120px" }}
+            />
+            <span className="text-[10px] text-mundo-muted font-mono">
+              {`${Math.floor(shortTrim / 60)}:${String(Math.floor(shortTrim % 60)).padStart(2, "0")}`}–{`${Math.floor((shortTrim + 30) / 60)}:${String(Math.floor((shortTrim + 30) % 60)).padStart(2, "0")}`}
+            </span>
+          </div>
           <button
             id={`short-btn-${albumSlug}-${track.number}`}
             onClick={async () => {
@@ -1347,7 +1379,7 @@ function TrackRow({
                 const shotRes = await adminFetch("/api/admin/shotstack/render", {
                   method: "POST",
                   headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ clipUrls, audioUrl, verse, trackTitle: t.title, albumTitle: alb.title }),
+                  body: JSON.stringify({ clipUrls, audioUrl, audioTrim: shortTrim, verse, trackTitle: t.title, albumTitle: alb.title }),
                 });
                 const shotData = await shotRes.json();
                 if (!shotRes.ok || !shotData.id) throw new Error(`Shotstack: ${shotData.erro || "falhou"}`);
@@ -1413,6 +1445,7 @@ export default function AlbumProductionPage() {
   const [editedFlavors, setEditedFlavors] = useState<Record<string, TrackFlavor>>({});
   const lyricsSaveRef = useRef<Record<string, NodeJS.Timeout>>({});
   const [trackVersions, setTrackVersions] = useState<Record<string, VersionInfo[]>>({}); // key → versions
+  const [shortTrims, setShortTrims] = useState<Record<string, number>>({}); // key → audio start seconds
   const [sunoModel, setSunoModel] = useState("V5_5");
   const [personaId, setPersonaId] = useState<string>("");
   const [personaName, setPersonaName] = useState<string>("");
@@ -2506,6 +2539,8 @@ export default function AlbumProductionPage() {
                       const ok = await setCoverTrack(album.slug, track.number);
                       if (ok) alert(`Capa do álbum → faixa ${track.number}`);
                     }}
+                    shortTrim={shortTrims[key] ?? 30}
+                    onShortTrimChange={(v) => setShortTrims((s) => ({ ...s, [key]: v }))}
                   />
                 );
               })}
