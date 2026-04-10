@@ -162,13 +162,38 @@ const PROMPT_BLOCK_LABELS: Record<string, string> = {
 };
 
 // Auto-generate a prompt suggestion from energy + flavor + track description
-function suggestPrompt(
+// Flavor modifier texts that buildPromptWithFlavor() prepends to prompts.
+// These are redundant because buildStyle() already sends flavor via the Style parameter.
+const FLAVOR_MODIFIER_TEXTS: Record<string, string> = {
+  marrabenta: "Mozambican marrabenta fusion with afro-pop, mid-tempo (100-110 BPM), guitar-driven but smoother groove, inspired by Neyma We Can Love, maintaining rhythmic repetition but with modern soft production, warm bass, joyful and grounded.",
+  afrobeat: "Afrobeat influence, Afropop groove, syncopated guitar, talking drum patterns, warm bass groove, danceable West African feel, joyful and grounded.",
+  bossa: "Bossa nova influence, gentle nylon guitar, soft brushed drums, warm upright bass, intimate Brazilian feel, swaying rhythm, velvet vocal tone.",
+  jazz: "Contemporary jazz influence, Rhodes piano, walking bass, brushed cymbals, smoky intimate club feel, improvised phrasing, late-night warmth.",
+  folk: "Acoustic folk influence, fingerpicked guitar, warm earthy tone, stomps and claps, storytelling vocal, campfire intimacy, raw and grounded.",
+  funk: "Funk, Glossy Early-2000s R&B-Pop Hybrid at ~108 BPM, Female Vocals with smooth falsetto on the hook. Tight punchy drums, snappy claps, rubbery funky bassline, clean rhythm guitar licks, bright synth pads. Nostalgic, Funky, Rhythmic, Smooth, R&B, Clean, dancefloor-ready.",
+  house: "House music influence, four-on-the-floor kick, deep bass, hi-hat groove, synth stabs, club warmth, dance-floor energy, infectious rhythmic drive.",
+  gospel: "Gospel-inspired, choir harmonies, hand claps, organ warmth, uplifting spiritual energy, community singing feel, call-and-response vocals, celebratory, transcendent.",
+};
+
+// Clean a prompt by removing the redundant FLAVOR_MODIFIER prefix.
+// Keeps all the track-specific emotion, production, and theme intact.
+function cleanPrompt(originalPrompt: string, flavor: string | null): string {
+  if (!flavor || !FLAVOR_MODIFIER_TEXTS[flavor]) return originalPrompt;
+  const prefix = FLAVOR_MODIFIER_TEXTS[flavor];
+  // The modifier is prepended with a space
+  if (originalPrompt.startsWith(prefix)) {
+    return originalPrompt.slice(prefix.length).trim();
+  }
+  return originalPrompt;
+}
+
+// Generate a prompt from scratch (only when track has no prompt or user wants a fresh start)
+function suggestPromptFromScratch(
   energy: TrackEnergy,
   flavor: string,
   lang: "PT" | "EN",
   description: string,
 ): string {
-  // Energy defines the vocal/production feel (always in prompt)
   const energyBase: Record<string, string> = {
     whisper: "Warm female vocals with poetic lyrics. Intimate, contemplative, transformative. No autotune. Clean vocal production.",
     steady: "Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm. Walking pace, present, embodied. No autotune. Clean vocal production.",
@@ -177,8 +202,6 @@ function suggestPrompt(
     raw: "Raw female vocals, close-mic, imperfect beauty. Minimal production. Vulnerable, unpolished, real. No autotune. Clean vocal production.",
   };
 
-  // Flavor-specific TEXTURE suggestions (not genre — genre goes via Style automatically)
-  // These complement the flavor without repeating what buildStyle() already sends
   const flavorTextures: Record<string, string> = {
     organic: "",
     marrabenta: "guitar-driven warmth, joyful, grounded, sunny.",
@@ -196,7 +219,6 @@ function suggestPrompt(
   const texture = flavorTextures[flavor] || "";
   const theme = description ? `Theme: ${description}.` : "";
 
-  // Build: base vocal/energy + texture hints + language + theme
   const parts = [base, texture, langNote, theme].filter(Boolean);
   return parts.join(" ").trim();
 }
@@ -872,20 +894,31 @@ function TrackRow({
                 <div className="flex items-center gap-2 flex-wrap">
                   <button
                     onClick={() => {
-                      const suggested = suggestPrompt(
+                      // Clean: remove redundant flavor prefix, keep track-specific content
+                      const cleaned = cleanPrompt(track.prompt, track.flavor || null);
+                      onPromptChange(cleaned);
+                      setPromptSaved(false);
+                    }}
+                    className="rounded px-3 py-1.5 text-xs font-medium bg-mundo-dourado/20 text-mundo-dourado hover:bg-mundo-dourado/30 transition"
+                  >
+                    Limpar prompt
+                  </button>
+                  <button
+                    onClick={() => {
+                      const fresh = suggestPromptFromScratch(
                         track.energy || "steady",
                         currentFlavor,
                         track.lang,
                         track.description,
                       );
-                      onPromptChange(suggested);
+                      onPromptChange(fresh);
                       setPromptSaved(false);
                     }}
-                    className="rounded px-3 py-1.5 text-xs font-medium bg-mundo-dourado/20 text-mundo-dourado hover:bg-mundo-dourado/30 transition"
+                    className="rounded px-3 py-1.5 text-xs font-medium bg-mundo-muted-dark/20 text-mundo-muted hover:text-mundo-creme transition"
                   >
-                    Sugerir prompt
+                    Gerar do zero
                   </button>
-                  <span className="text-[10px] text-mundo-muted/40">Gera prompt base a partir da energia + flavor + descrição</span>
+                  <span className="text-[10px] text-mundo-muted/40">Limpar: remove redundância, mantém tudo. Gerar do zero: prompt novo simples.</span>
                 </div>
                 {/* Building blocks by category */}
                 {(Object.keys(PROMPT_BLOCKS) as (keyof typeof PROMPT_BLOCKS)[]).map((cat) => (
@@ -2804,29 +2837,24 @@ export default function AlbumProductionPage() {
               </button>
             </div>
 
-            {/* Batch suggest prompts for all tracks */}
+            {/* Batch clean/suggest prompts for all tracks */}
             <div className="mb-4 flex items-center gap-3 flex-wrap">
               <button
                 onClick={() => {
                   const newPrompts: Record<string, string> = {};
-                  let count = 0;
+                  let cleaned = 0;
                   for (const t of album.tracks) {
                     const key = trackKey(album.slug, t.number);
-                    const prompt = suggestPrompt(
-                      t.energy || "steady",
-                      t.flavor || "organic",
-                      t.lang,
-                      t.description,
-                    );
+                    const prompt = cleanPrompt(t.prompt, t.flavor || null);
+                    if (prompt !== t.prompt) cleaned++;
                     newPrompts[key] = prompt;
-                    count++;
                   }
                   setEditedPrompts((p) => ({ ...p, ...newPrompts }));
-                  alert(`Prompts sugeridos para ${count} faixas. Revê e ajusta à vontade.`);
+                  alert(`${cleaned} prompt(s) limpos (redundância de flavor removida). ${album.tracks.length - cleaned} já estavam limpos.`);
                 }}
                 className="rounded-lg bg-mundo-dourado/20 px-4 py-2 text-xs text-mundo-dourado hover:bg-mundo-dourado/30 transition"
               >
-                Sugerir prompts ({album.tracks.length} faixas)
+                Limpar prompts ({album.tracks.length} faixas)
               </button>
               <button
                 onClick={() => {
