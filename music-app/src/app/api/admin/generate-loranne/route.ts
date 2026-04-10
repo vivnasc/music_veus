@@ -15,19 +15,18 @@ export const maxDuration = 120;
  * { prompt: string, numImages?: number, useLoRA?: boolean }
  */
 
-// Loranne = every woman. The identity is the VISUAL LANGUAGE, not a specific person.
-// Consistency = golden veils, amber light, mysterious composition.
-// The woman herself varies: different body types, skin tones, ages.
-// She represents ALL women. The face is never visible.
+// Loranne identity: human figure visible but face never shown.
+// Use "figure" not "woman" — Flux generates faces less aggressively with "figure".
+// Always specify the camera position to physically exclude the face.
 const IDENTITY = [
-  "A woman with golden flowing translucent fabric draped over her body and head.",
-  "Her face is never visible: she is seen from behind, or as a dark silhouette against bright light, or only her hands and body are in frame, or she is very far away, or her face is in deep impenetrable shadow.",
-  "She can be any race, any body type, any age — she represents every woman. The visual identity is the golden fabric, warm amber lighting, and mysterious composition, not a specific person.",
+  "A human figure seen from behind, draped in flowing golden translucent fabric.",
+  "The camera is behind the figure — we see the back, shoulders, and golden fabric. The figure does not turn around.",
+  "Warm golden amber tones, mysterious, intimate, elegant. The figure can be any race or body type.",
 ].join(" ");
 
-const STYLE = "Fine art editorial photography, dramatic chiaroscuro lighting, warm golden amber, shallow depth of field, cinematic. No text, no watermarks.";
+const STYLE = "Fine art editorial photography, rear view composition, dramatic chiaroscuro lighting, warm golden amber, shallow depth of field, cinematic. No text, no watermarks.";
 
-const NEGATIVE = "face, clear face, visible face, frontal face, looking at camera, eyes, portrait, nude, naked, text, watermark";
+const NEGATIVE = "face, frontal view, looking at camera, turning around, portrait, eyes, nude, naked, text, watermark";
 
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);

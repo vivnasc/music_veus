@@ -7,35 +7,34 @@ import { adminFetch } from "@/lib/admin-fetch";
 const STORAGE_KEY = "veus:lora-training";
 
 const TRAINING_SCENES = [
-  // From behind (8)
-  "woman seen from behind in a dark room, back to camera, warm amber backlight, golden fabric flowing",
-  "woman from behind at the ocean, golden silhouette against sunset light",
-  "woman from behind seated at a piano, golden fabric on shoulders, candlelight",
-  "woman walking away through morning fog, golden fabric trailing behind her",
-  "woman from behind on a rooftop at dusk, looking at city lights, golden fabric in wind",
-  "woman walking away through rain, golden fabric flowing, wet cobblestones, street lamps",
-  "woman from behind in a doorway, extreme golden backlight, pure silhouette",
-  "woman from behind dancing, golden fabric spinning around her body",
-  // Pure silhouette against light (6)
-  "pure black silhouette of a woman against bright golden window light, no details visible, only outline and flowing fabric",
-  "silhouette of woman standing in a doorway, blown-out golden backlight, entire figure is dark shadow",
-  "woman as a pure dark silhouette against golden sunset sky, fabric outline flowing in wind",
-  "silhouette of woman with fabric, backlit by a single golden light source, completely dark figure against bright background",
-  "silhouette of woman at a window, golden morning light behind her, no features visible, just dark shape and flowing fabric",
-  "silhouette of woman with arms extended, golden fabric as dark flowing shapes against bright amber background",
-  // Hands and body only (4)
-  "close-up of woman's hands holding a cup, golden fabric sleeves, warm candlelight, no face in frame",
-  "close-up of woman's hands on piano keys, golden fabric sleeves, warm light, cropped below neck",
-  "close-up of woman's hands holding golden fabric, warm amber light, artistic crop no face",
-  "woman's body from neck down, golden fabric draped, sitting in warm light, artistic composition no face",
-  // Far away / wide shot (3)
-  "extreme wide shot of tiny woman silhouette standing alone in golden field, figure very small in landscape",
-  "woman seen from very far away walking on empty beach at golden hour, tiny figure against vast ocean",
-  "aerial view from above of woman lying in golden fabric on dark floor, seen from directly overhead",
-  // Profile in deep shadow (3)
-  "woman in profile but face entirely lost in deep black shadow, only the golden lit side of body and fabric visible",
-  "woman's profile but face is in complete darkness, golden backlight rim on hair and fabric edge only",
-  "woman turned to the side, face area completely dark shadowed, only golden fabric on body catches light",
+  // From behind — varied scenes (10)
+  "figure seen from behind in a dark room, golden fabric flowing, warm amber backlight",
+  "figure from behind at the ocean at sunset, golden fabric in wind, silhouette against light",
+  "figure from behind seated at a piano, golden fabric on shoulders, candlelight",
+  "figure walking away through morning fog, golden fabric trailing, quiet street",
+  "figure from behind on a rooftop at dusk, golden fabric in wind, city lights",
+  "figure from behind in a doorway, golden backlight, fabric catching the light",
+  "figure from behind dancing, golden fabric spinning, warm amber spotlight",
+  "figure from behind walking through rain, golden fabric flowing, wet cobblestones",
+  "figure from behind leaning on a stone wall, golden fabric draped, warm side light",
+  "figure from behind in a forest, golden light through trees, fabric flowing",
+  // Silhouettes (6)
+  "dark silhouette of a figure against bright golden window, flowing fabric outline",
+  "figure silhouette in a doorway, blown-out golden backlight, fabric edges glowing",
+  "figure silhouette against golden sunset sky, fabric flowing in wind",
+  "figure silhouette backlit by single golden light, dark shape against warm background",
+  "figure silhouette at a window, golden morning light, fabric outline",
+  "figure silhouette with arms extended, golden fabric shapes against amber light",
+  // Hands and close-ups (4)
+  "close-up of hands holding a cup, golden fabric sleeves, candlelight, no face in frame",
+  "close-up of hands on piano keys, golden fabric cuffs, warm candlelight",
+  "close-up of hands holding golden fabric, warm amber light",
+  "close-up of hands on guitar strings, golden fabric sleeves, warm spotlight",
+  // Wide shots (4)
+  "tiny figure silhouette in vast golden field, very small in the landscape, sunset",
+  "tiny figure far away on empty beach at golden hour, vast ocean",
+  "figure seen from above lying on dark floor, golden fabric spread around, aerial view",
+  "vast golden landscape, tiny silhouette figure walking in the distance",
 ];
 
 type TrainingImage = {
