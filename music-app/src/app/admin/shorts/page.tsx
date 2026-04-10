@@ -422,7 +422,6 @@ export default function ShortsPage() {
               </button>
             </div>
           )}
-          </div>
 
           {error && <div className="rounded-xl bg-red-900/20 border border-red-500/20 px-4 py-3 text-xs text-red-400">{error}</div>}
 
