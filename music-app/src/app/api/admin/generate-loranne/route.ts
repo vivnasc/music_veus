@@ -70,7 +70,7 @@ export async function POST(req: NextRequest) {
     }
     if (loraUrl) {
       endpoint = "https://fal.run/fal-ai/flux-lora";
-      body.loras = [{ path: loraUrl, scale: 0.7 }];
+      body.loras = [{ path: loraUrl, scale: 0.5 }];
       // Prepend trigger word
       body.prompt = `loranne_artist, ${fullPrompt}`;
     }
