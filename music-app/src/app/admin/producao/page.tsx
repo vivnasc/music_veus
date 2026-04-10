@@ -1318,6 +1318,7 @@ export default function AlbumProductionPage() {
         }
       })
       .catch(() => {});
+
   }, []);
 
   useEffect(() => {
