@@ -168,34 +168,37 @@ function suggestPrompt(
   lang: "PT" | "EN",
   description: string,
 ): string {
+  // Energy defines the vocal/production feel (always in prompt)
   const energyBase: Record<string, string> = {
-    whisper: "Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Intimate, contemplative, transformative. No autotune. Clean vocal production.",
-    steady: "Contemporary organic-electronic. Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm. Walking pace, present, embodied. No autotune. Clean vocal production.",
-    pulse: "Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production.",
-    anthem: "Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums. Bold, celebratory, unstoppable. No autotune. Clean vocal production.",
-    raw: "Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production. Vulnerable, unpolished, real. No autotune. Clean vocal production.",
+    whisper: "Warm female vocals with poetic lyrics. Intimate, contemplative, transformative. No autotune. Clean vocal production.",
+    steady: "Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm. Walking pace, present, embodied. No autotune. Clean vocal production.",
+    pulse: "Strong female vocals with conviction. Energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production.",
+    anthem: "Powerful female vocals, declarative, full-chested. Big chorus, layered vocals. Bold, celebratory, unstoppable. No autotune. Clean vocal production.",
+    raw: "Raw female vocals, close-mic, imperfect beauty. Minimal production. Vulnerable, unpolished, real. No autotune. Clean vocal production.",
   };
 
-  const flavorMod: Record<string, string> = {
+  // Flavor-specific TEXTURE suggestions (not genre — genre goes via Style automatically)
+  // These complement the flavor without repeating what buildStyle() already sends
+  const flavorTextures: Record<string, string> = {
     organic: "",
-    marrabenta: "Mozambican marrabenta fusion, guitar-driven groove, warm bass, joyful and grounded.",
-    afrobeat: "Afrobeat influence, syncopated guitar, talking drums, danceable West African feel.",
-    bossa: "Bossa nova, nylon guitar, brushed drums, Brazilian, swaying, velvet.",
-    jazz: "Jazz, Rhodes piano, walking bass, brushed cymbals, smoky, late-night.",
-    folk: "Acoustic folk, fingerpicked guitar, earthy, campfire, storytelling.",
-    funk: "Funk, glossy R&B-pop, punchy drums, funky bassline, bright synth, dancefloor.",
-    house: "House, four-on-the-floor, deep bass, hi-hat, synth stabs, dance-floor.",
-    gospel: "Gospel-pop, choir harmonies, organ, claps, uplifting, transcendent.",
+    marrabenta: "guitar-driven warmth, joyful, grounded, sunny.",
+    afrobeat: "syncopated groove, percussive warmth, danceable, joyful.",
+    bossa: "nylon guitar, swaying, velvet vocal tone, intimate.",
+    jazz: "Rhodes warmth, smoky, late-night, conversational phrasing.",
+    folk: "fingerpicked guitar, earthy, campfire warmth, storytelling.",
+    funk: "glossy, punchy, bright, smooth groove.",
+    house: "deep house pads, soft kick, warm bass, spacious, floating.",
+    gospel: "uplifting, transcendent, communal warmth, soaring.",
   };
 
   const langNote = lang === "PT" ? "Lyrics in Portuguese." : "Lyrics in English.";
   const base = energyBase[energy] || energyBase.steady;
-  const flav = flavorMod[flavor] || "";
+  const texture = flavorTextures[flavor] || "";
   const theme = description ? `Theme: ${description}.` : "";
 
-  return flav
-    ? `${flav} ${base} ${langNote} ${theme}`.trim()
-    : `${base} ${langNote} ${theme}`.trim();
+  // Build: base vocal/energy + texture hints + language + theme
+  const parts = [base, texture, langNote, theme].filter(Boolean);
+  return parts.join(" ").trim();
 }
 
 function trackKey(albumSlug: string, trackNum: number) {
