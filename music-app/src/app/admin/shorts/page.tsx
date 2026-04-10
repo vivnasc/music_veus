@@ -430,10 +430,33 @@ export default function ShortsPage() {
               <textarea
                 value={state.clipLyrics}
                 onChange={e => update({ clipLyrics: e.target.value })}
-                placeholder="Letra que aparece no video (pode editar)..."
+                placeholder="Cola aqui os versos do trecho seleccionado..."
                 rows={3}
                 className="w-full rounded-lg border border-white/10 bg-transparent px-3 py-2 text-sm text-[#F5F0E6] placeholder:text-[#666680]/50 focus:border-[#C9A96E]/50 focus:outline-none resize-none italic"
               />
+              {/* Full lyrics — click a line to add it */}
+              {track?.lyrics && (
+                <details className="mt-2">
+                  <summary className="text-[10px] text-[#666680] cursor-pointer hover:text-[#a0a0b0]">Letra completa (clica num verso para adicionar)</summary>
+                  <div className="mt-1.5 max-h-48 overflow-y-auto rounded-lg bg-black/30 p-3 space-y-0.5">
+                    {track.lyrics.split("\n").map((line: string, i: number) => {
+                      const trimmed = line.trim();
+                      if (!trimmed) return <div key={i} className="h-2" />;
+                      const isSection = trimmed.startsWith("[");
+                      return (
+                        <button
+                          key={i}
+                          onClick={() => update({ clipLyrics: state.clipLyrics ? `${state.clipLyrics}\n${trimmed}` : trimmed })}
+                          className={`block w-full text-left text-xs py-0.5 px-1.5 rounded transition ${isSection ? "text-[#C9A96E]/60 cursor-default" : "text-[#a0a0b0] hover:text-[#F5F0E6] hover:bg-white/5 cursor-pointer"}`}
+                          disabled={isSection}
+                        >
+                          {trimmed}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </details>
+              )}
             </div>
           </div>
 
