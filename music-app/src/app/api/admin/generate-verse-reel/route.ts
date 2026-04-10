@@ -94,12 +94,12 @@ function buildLorannPrompt(caption: string, triggerWord: string | null): string 
   const trigger = triggerWord ? `${triggerWord}, ` : "";
 
   return [
-    // Scene FIRST — what the user described
     `${verse}.`,
-    // Loranne identity — consistent veiled figure
-    `${trigger}A feminine figure draped in flowing translucent golden fabric and veil. The face is hidden behind the veil. Only the silhouette and body are visible. Warm golden tones, intimate atmosphere.`,
-    // Style
-    "Fine art editorial photography, dramatic chiaroscuro lighting, no text, no watermarks. 9:16 vertical, shallow depth of field.",
+    `${trigger}Dark feminine silhouette draped head-to-toe in layers of flowing translucent golden fabric and heavy veil.`,
+    "The face is COMPLETELY hidden — covered by opaque veil, fabric, shadow, or turned away. NO facial features visible whatsoever. NO eyes, NO nose, NO mouth, NO skin on face.",
+    "The figure is FULLY clothed in draped fabric. NO nudity, NO bare skin except hands.",
+    "Only the body silhouette and flowing fabric are visible. Warm golden and amber tones, dramatic chiaroscuro lighting, intimate atmosphere.",
+    "Fine art editorial photography, no text, no watermarks. 9:16 vertical, shallow depth of field.",
   ].join(" ");
 }
 
