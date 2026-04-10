@@ -15,17 +15,18 @@ export const maxDuration = 120;
  * { prompt: string, numImages?: number, useLoRA?: boolean }
  */
 
-// The Loranne identity block — MUST be in every prompt
+// The Loranne identity — a real woman who never reveals her face
+// NOT forced covering — natural composition hides it: angles, backlight, shadow, turned away
 const IDENTITY = [
-  "Dark feminine silhouette completely draped in heavy layers of flowing translucent golden fabric and thick opaque veil covering the entire head and face.",
-  "The face is NEVER visible — always hidden behind opaque veil, dense fabric, deep shadow, or turned completely away. ZERO facial features. No eyes, no nose, no mouth, no forehead, no chin.",
-  "Fully clothed in draped fabric head to toe. No bare skin except hands. No nudity. No sheer fabric revealing body.",
-  "Identity is ONLY: golden veils, flowing fabric silhouette, warm amber lighting, mysterious anonymous feminine presence.",
+  "A beautiful woman with flowing golden fabric and veil, photographed so her face is never visible.",
+  "The face is hidden naturally through composition: she is turned away, seen from behind, in deep shadow, in silhouette against light, or the camera angle simply does not show the face.",
+  "This is intentional artistic choice, not forced covering. The veil and fabric flow naturally. She is elegant, mysterious, magnetic.",
+  "Warm golden and amber tones, flowing translucent golden fabric.",
 ].join(" ");
 
 const STYLE = "Fine art editorial photography, dramatic chiaroscuro lighting, warm golden and amber tones, shallow depth of field, cinematic. No text, no watermarks.";
 
-const NEGATIVE = "visible face, facial features, eyes, nose, mouth, clear face, portrait, defined race, skin color, uncovered face, nudity, bare skin, naked, sheer, transparent revealing, text, watermark";
+const NEGATIVE = "clear frontal face, visible facial features, direct eye contact, face reveal, nude, naked, text, watermark";
 
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
