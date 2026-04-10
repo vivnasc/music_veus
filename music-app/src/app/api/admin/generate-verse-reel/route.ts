@@ -95,8 +95,8 @@ function buildLorannPrompt(caption: string, triggerWord: string | null): string 
 
   return [
     `${verse}.`,
-    `${trigger}A woman seen from behind, or as a distant silhouette, or only her hands and body. Her face is NOT in the frame — the camera angle excludes it. She is turned away from camera.`,
-    "Golden translucent fabric draped on her body as clothing, NOT covering her face. Warm golden and amber tones, intimate atmosphere.",
+    `${trigger}A woman with flowing golden fabric and veil. Her face is never visible — hidden by composition: seen from behind, strong backlight, veil falling naturally over face, deep shadow, or distant silhouette. Facial features never recognizable.`,
+    "Warm golden and amber tones, flowing translucent fabric, elegant, mysterious, intimate.",
     "Fine art editorial photography, dramatic chiaroscuro lighting, no text, no watermarks. 9:16 vertical, shallow depth of field.",
   ].join(" ");
 }

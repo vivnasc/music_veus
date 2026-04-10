@@ -15,19 +15,20 @@ export const maxDuration = 120;
  * { prompt: string, numImages?: number, useLoRA?: boolean }
  */
 
-// Loranne identity: the face is NEVER in the frame. Not covered — simply not shown.
-// The camera sees her from behind, from above, hands only, silhouette from far away.
-// Golden fabric/veil is AESTHETIC, not a mask. It flows around her body, not across her face.
+// Loranne identity: face never visible — through COMPOSITION, not forced covering.
+// Valid ways to hide: camera from behind, backlight hiding features, veil falling
+// naturally over face, low angle, deep shadow on face, distant silhouette.
+// The veil is NOT wrapped around the face like a mask — it falls naturally.
 const IDENTITY = [
-  "A woman photographed from behind, or from above, or as a distant silhouette.",
-  "Her face is NOT in the frame at all — the camera angle excludes it entirely. She is turned away, or we see only her back, her hands, her shoulders, her silhouette.",
-  "DO NOT place any fabric, veil, or covering over her face. The face is simply not visible because of the camera angle and composition.",
-  "She wears flowing golden translucent fabric as clothing and aesthetic, draped on her body and shoulders. Warm golden and amber tones.",
+  "A woman with flowing golden translucent fabric and veil.",
+  "Her face is never visible. This is achieved through natural photographic composition: seen from behind, strong backlight that hides facial features, veil that falls naturally and softly over the face, camera from below, deep shadow across the face, or distant silhouette.",
+  "The facial features are never recognizable — either not in frame, or obscured by natural shadow, backlighting, or softly falling fabric. No defined race.",
+  "Warm golden and amber tones, flowing fabric, elegant, mysterious, magnetic.",
 ].join(" ");
 
 const STYLE = "Fine art editorial photography, dramatic chiaroscuro lighting, warm golden and amber tones, shallow depth of field, cinematic. No text, no watermarks.";
 
-const NEGATIVE = "face, frontal view, portrait, looking at camera, veil over face, fabric covering face, mask, face wrap, nude, naked, text, watermark";
+const NEGATIVE = "clear recognizable face, visible facial features through veil, defined face, direct eye contact, nude, naked, text, watermark";
 
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
