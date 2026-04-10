@@ -22,12 +22,13 @@ const IDENTITY = [
   "Woman seen FROM BEHIND, back facing the camera.",
   "Camera is positioned BEHIND the woman. We see her back, her shoulders, the back of her head with golden fabric flowing.",
   "Her face is physically impossible to see because the camera is BEHIND her. She is NOT turning around.",
+  "Her race and ethnicity are completely ambiguous and undefined — she could be any race. No distinguishable skin tone or racial features.",
   "Golden flowing translucent fabric draped on her body. Warm golden amber tones.",
 ].join(" ");
 
 const STYLE = "Fine art editorial photography, rear view, from behind, dramatic chiaroscuro lighting, warm golden amber, shallow depth of field, cinematic. No text, no watermarks.";
 
-const NEGATIVE = "face, frontal, front view, looking at camera, turning around, portrait, eyes, nude, naked, text, watermark";
+const NEGATIVE = "face, frontal, front view, looking at camera, turning around, portrait, eyes, nude, naked, white skin, black skin, asian, caucasian, african, specific ethnicity, text, watermark";
 
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
