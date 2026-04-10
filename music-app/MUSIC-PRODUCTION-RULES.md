@@ -94,6 +94,36 @@ O catálogo original era 60% pesado. Novos álbuns devem compensar com mais:
 - Alegria pura (riso, dança, comida, praia)
 - Neurodivergência (já existe Frequência — expandir)
 
+## Identidade Visual da Loranne
+
+### A imagem NÃO é um rosto — é uma estética
+- Loranne é reconhecida pela **silhueta, véu e tons dourados**, NUNCA por feições faciais
+- **Rosto SEMPRE escondido** atrás de véu/tecido translúcido dourado
+- **Raça NUNCA definida** — apenas silhueta feminina
+- Qualquer seguidor reconhece Loranne pelo estilo visual, não por uma cara
+- Consistência vem do conceito visual (véu, luz, tons dourados, atmosfera íntima), não de features faciais
+
+### LoRA Training (fal.ai)
+- Trainer: `fal-ai/flux-lora-fast-training` (concept/style LoRA)
+- **NÃO usar** `flux-lora-portrait-trainer` — aprende rostos, gera caras aleatórias
+- Params: `is_style: true`, `create_masks: false`
+- Trigger word: `loranne_artist`
+- Scale: `0.8` no endpoint `fal-ai/flux-lora`
+- Sem LoRA ativa: fallback para `fal-ai/flux-pro/v1.1`
+- Config ativa guardada em Supabase: `audios/lora/active-lora.json`
+- 27 imagens curadas para treino (BEST_FOR_TRAINING no admin/lora/page.tsx)
+
+### Prompt de Imagem (buildLorannPrompt)
+1. **Cena PRIMEIRO** — o que o verso/caption descreve
+2. **Identidade concisa** — `loranne_artist, feminine figure draped in flowing translucent golden fabric and veil. Face hidden. Only silhouette visible.`
+3. **Estilo** — `Fine art editorial photography, dramatic chiaroscuro lighting, 9:16 vertical`
+- NUNCA: texto, watermarks, rosto visível, raça definida
+
+### Reels vs Shorts — Duas pipelines SEPARADAS
+- **Reels** (calendário): capa do álbum + áudio → `generateReel()` canvas-based. Simples e rápido.
+- **Shorts** (produção): 4 imagens AI + 2 poses Loranne → Runway Gen-4 animação → Shotstack montagem. 6 clips × 5s = 30s.
+- **NUNCA misturar** — reels não usam fal.ai/Runway, shorts não usam generateReel()
+
 ## Ficheiros Chave
 - `music-app/src/data/albums.ts` — definições dos álbuns
 - `music-app/src/data/lyrics-*.ts` — letras por colecção
@@ -105,3 +135,6 @@ O catálogo original era 60% pesado. Novos álbuns devem compensar com mais:
 - ~843 faixas em ~109 álbuns
 - Fase 1 completa (10 álbuns, 100 faixas) — MAS letras precisam de expansão
 - Próximo: Fase 2 (20 álbuns, 200 faixas) — ver MUSIC-ROADMAP.md
+- LoRA concept trainer configurado — treino pendente (fix do create-zip deployed)
+- Shorts pipeline funcional na produção (30s, 6 clips)
+- Calendar reels restaurados (cover + áudio via generateReel)

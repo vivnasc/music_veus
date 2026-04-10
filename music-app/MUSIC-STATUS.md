@@ -1,7 +1,44 @@
 # Veus by Loranne — Music App Status
 
-**Ultima actualizacao:** 2026-03-27
+**Ultima actualizacao:** 2026-04-10
 **Actualizado por:** Claude Code
+
+---
+
+## Resumo da Sessao 2026-04-10
+
+### Identidade Visual Loranne — DEFINIDA
+- Loranne é reconhecida por **silhueta + véu + tons dourados**, NUNCA por feições faciais
+- Rosto SEMPRE escondido, raça NUNCA definida
+- Consistência = conceito visual, não uma cara
+
+### LoRA Training — RECONFIGURADO
+- **Problema**: `flux-lora-portrait-trainer` aprendia rostos → gerava caras aleatórias de mulheres
+- **Solução**: Migrado para `flux-lora-fast-training` (concept/style LoRA, `is_style: true`)
+- **Estado**: Código pronto, create-zip fix deployed, **treino pendente** (utilizadora precisa clicar "Treinar LoRA")
+- Endpoints: `/api/admin/lora/create-zip`, `/api/admin/lora/train`, `/api/admin/lora/status`
+- Config ativa: `audios/lora/active-lora.json` no Supabase
+
+### Shorts Pipeline (Produção) — 30 SEGUNDOS
+- 4 imagens AI (fal.ai) + 2 poses Loranne = 6 clips
+- 6 clips × 5s = 30 segundos via Runway Gen-4 + Shotstack
+- Minimum 4 clips required
+- Prompt: cena PRIMEIRO, identidade concisa depois
+
+### Calendar Reels — RESTAURADO
+- Voltou a usar `generateReel()` (cover + áudio, canvas-based)
+- Shorts pipeline removida do calendário (estava a misturar as duas)
+
+### LoRA Admin Page — MELHORADA
+- 27 imagens curadas pré-selecionadas (BEST_FOR_TRAINING)
+- Download individual: PC e/ou Supabase
+- Selecção por checkbox de imagens geradas
+- Quick prompts para estética faceless
+
+### Create-ZIP Fix
+- Problema: Vercel não consegue fetch das próprias URLs (self-referencing)
+- Fix: filesystem fallback (`readFile` de `public/`) + HTTP fetch robusto com timeout 30s
+- Fallback URL construction from request host header
 
 ---
 
@@ -102,6 +139,12 @@
 
 ## Proximas Accoes
 
+### Imediato — LoRA e Identidade Visual
+1. **Treinar LoRA** com concept trainer (flux-lora-fast-training) — clicar "Treinar LoRA" no admin
+2. Testar imagens geradas com nova LoRA — verificar que NÃO mostra rosto
+3. Se LoRA ok: criar short para track 9 "O Espelho" (livro-filosofico, faixa-09)
+4. Se LoRA falhar no Vercel (create-zip): alternativa = upload imagens para Supabase primeiro, depois passar URLs do Supabase
+
 ### Imediato (quando V5.5 disponivel no API.box)
 1. ~~Adicionar suporte a Persona na pagina de producao~~ FEITO
 2. Criar Persona da Loranne a partir da melhor track
@@ -146,3 +189,10 @@
 | `src/app/api/admin/suno/persona/route.ts` | API de criacao de Persona |
 | `src/lib/album-covers.ts` | Capas albums + tracks |
 | `src/lib/share-utils.ts` | Short URLs + parse |
+| `src/app/admin/lora/page.tsx` | Admin LoRA training (27 imagens curadas, download) |
+| `src/app/api/admin/lora/create-zip/route.ts` | Criar ZIP para treino LoRA |
+| `src/app/api/admin/lora/train/route.ts` | Iniciar treino LoRA (fal.ai) |
+| `src/app/api/admin/lora/status/route.ts` | Polling status treino LoRA |
+| `src/app/api/admin/generate-verse-reel/route.ts` | Gerar imagens AI (flux-lora / flux-pro) |
+| `src/app/admin/calendario/page.tsx` | Calendário social (reels com cover) |
+| `src/lib/reel-generator.ts` | generateReel() — canvas-based reel |
