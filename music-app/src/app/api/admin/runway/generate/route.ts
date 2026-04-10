@@ -114,7 +114,7 @@ export async function POST(req: NextRequest) {
         promptImage,
         promptText: promptText || "figure swaying gently, veils flowing rhythmically, golden particles pulsing, slow camera orbit, warm light breathing",
         duration: duration || 10,
-        ratio: ratio || "1080:1920",
+        ratio: ratio || "720:1280",
         watermark: false,
       }),
     });
