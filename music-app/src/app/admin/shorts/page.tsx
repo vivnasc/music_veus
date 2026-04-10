@@ -196,7 +196,7 @@ export default function ShortsPage() {
               ...imageInputs[idx],
               promptText: RUNWAY_PROMPTS[idx % RUNWAY_PROMPTS.length],
               duration: clipDuration,
-              ratio: "1080:1920",
+              ratio: "720:1280",
             }),
           });
           const rd = await genRes.json();
