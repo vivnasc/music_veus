@@ -1563,18 +1563,7 @@ export default function AlbumProductionPage() {
 
       setStatuses((s) => ({ ...s, [key]: "done" }));
       setAudioUrls((u) => ({ ...u, [key]: url }));
-      // Remove only the approved clip, keep others
-      setGeneratedClips((g) => {
-        const current = g[key];
-        if (!current) return g;
-        const remaining = current.clips.filter((c) => c.audioUrl !== clipAudioUrl);
-        if (remaining.length === 0) {
-          const copy = { ...g };
-          delete copy[key];
-          return copy;
-        }
-        return { ...g, [key]: { clips: remaining } };
-      });
+      // Keep ALL generated clips — user can swap later
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : "Erro desconhecido";
       setStatuses((s) => ({ ...s, [key]: "error" }));
@@ -1629,19 +1618,7 @@ export default function AlbumProductionPage() {
       });
 
       setStatuses((s) => ({ ...s, [key]: statuses[key] === "uploading" ? (audioUrls[key] ? "done" : "idle") : s[key] }));
-
-      // Remove the approved clip, keep others
-      setGeneratedClips((g) => {
-        const current = g[key];
-        if (!current) return g;
-        const remaining = current.clips.filter((c) => c.audioUrl !== clipAudioUrl);
-        if (remaining.length === 0) {
-          const copy = { ...g };
-          delete copy[key];
-          return copy;
-        }
-        return { ...g, [key]: { clips: remaining } };
-      });
+      // Keep ALL generated clips — user can swap later
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : "Erro desconhecido";
       setStatuses((s) => ({ ...s, [key]: "error" }));
