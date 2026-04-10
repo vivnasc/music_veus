@@ -1815,6 +1815,33 @@ export default function AlbumProductionPage() {
       })
       .catch(() => {});
 
+    // Load pending clips from Supabase (cross-device persistence)
+    adminFetch("/api/admin/pending-clips")
+      .then((r) => r.json())
+      .then((data) => {
+        if (data.clips && data.clips.length > 0) {
+          const clipsMap: Record<string, GeneratedClips> = {};
+          for (const row of data.clips as { album_slug: string; track_number: number; clip_id: string; audio_url: string; title: string; image_url: string | null; duration: number | null; tags: string | null; model: string | null }[]) {
+            const key = `${row.album_slug}-t${row.track_number}`;
+            if (!clipsMap[key]) clipsMap[key] = { clips: [] };
+            clipsMap[key].clips.push({
+              id: row.clip_id,
+              status: "complete",
+              audioUrl: row.audio_url,
+              originalAudioUrl: row.audio_url,
+              title: row.title,
+              imageUrl: row.image_url,
+              duration: row.duration,
+              tags: row.tags,
+              model: row.model,
+            });
+          }
+          // Only set clips that aren't already in state (don't overwrite active generations)
+          setGeneratedClips((g) => ({ ...clipsMap, ...g }));
+        }
+      })
+      .catch(() => {});
+
     // Load localStorage data (prompts, styles, flavors, versions, history, ratings)
     try {
       const lsPrompts = localStorage.getItem("producao_editedPrompts");
@@ -1910,25 +1937,63 @@ export default function AlbumProductionPage() {
         if (allDone) {
           clearInterval(pollingRef.current[key]);
           delete pollingRef.current[key];
-          setErrors((e) => ({ ...e, [key]: "A descarregar clips..." }));
+          setErrors((e) => ({ ...e, [key]: "A guardar clips no Supabase..." }));
 
-          // Download all clips to browser memory immediately
-          // This prevents URLs expiring while you listen to one
+          // Parse track info from key
+          const keyMatch = key.match(/^(.+)-t(\d+)$/);
+          const albumSlugFromKey = keyMatch?.[1] || "";
+          const trackNumFromKey = keyMatch ? parseInt(keyMatch[2]) : 0;
+
+          // Upload each clip to Supabase Storage as pending + cache in browser
           const cached: SunoClip[] = [];
+          const pendingClipsForDb: { clip_id: string; audio_url: string; title: string; image_url?: string; duration?: number; tags?: string; model?: string }[] = [];
+
           for (const c of data.clips as SunoClip[]) {
             if (!c.audioUrl) { cached.push(c); continue; }
             try {
-              const res = await fetch(c.audioUrl);
-              if (res.ok) {
-                const blob = await res.blob();
+              const audioRes = await fetch(c.audioUrl);
+              if (audioRes.ok) {
+                const blob = await audioRes.blob();
                 if (blob.size > 1000) {
+                  // Upload to Supabase Storage as pending
+                  const pendingFilename = `pending/${albumSlugFromKey}-t${String(trackNumFromKey).padStart(2, "0")}-${c.id}.mp3`;
+                  let supabaseUrl: string | null = null;
+                  try {
+                    supabaseUrl = await uploadViaSignedUrl(blob, pendingFilename);
+                  } catch { /* storage upload failed, still cache locally */ }
+
+                  // Cache in browser memory
                   const localUrl = URL.createObjectURL(blob);
-                  cached.push({ ...c, audioUrl: localUrl, originalAudioUrl: c.audioUrl });
+                  cached.push({ ...c, audioUrl: localUrl, originalAudioUrl: supabaseUrl || c.audioUrl });
+
+                  // Queue for DB save
+                  pendingClipsForDb.push({
+                    clip_id: c.id,
+                    audio_url: supabaseUrl || c.audioUrl,
+                    title: c.title || "",
+                    image_url: c.imageUrl || undefined,
+                    duration: c.duration || undefined,
+                    tags: c.tags || undefined,
+                    model: c.model || undefined,
+                  });
                   continue;
                 }
               }
             } catch { /* keep original URL */ }
             cached.push(c);
+          }
+
+          // Save pending clips metadata to Supabase DB
+          if (pendingClipsForDb.length > 0 && albumSlugFromKey) {
+            adminFetch("/api/admin/pending-clips", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                album_slug: albumSlugFromKey,
+                track_number: trackNumFromKey,
+                clips: pendingClipsForDb,
+              }),
+            }).catch(() => {});
           }
 
           setGeneratedClips((g) => ({
@@ -1988,6 +2053,13 @@ export default function AlbumProductionPage() {
       delete copy[key];
       return copy;
     });
+
+    // Clean up old pending clips for this track (regenerating)
+    adminFetch("/api/admin/pending-clips", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ album_slug: albumSlug, track_number: track.number }),
+    }).catch(() => {});
 
     // Record generation in history
     const historyRecord: GenerationRecord = {
@@ -2114,6 +2186,8 @@ export default function AlbumProductionPage() {
 
       setStatuses((s) => ({ ...s, [key]: "done" }));
       setAudioUrls((u) => ({ ...u, [key]: url }));
+      // Find the clip ID for pending cleanup
+      const approvedClip = generatedClips[key]?.clips.find((c) => c.audioUrl === clipAudioUrl);
       // Remove only the approved clip, keep others
       setGeneratedClips((g) => {
         const current = g[key];
@@ -2126,6 +2200,14 @@ export default function AlbumProductionPage() {
         }
         return { ...g, [key]: { clips: remaining } };
       });
+      // Clean up from pending clips in Supabase
+      if (approvedClip?.id) {
+        adminFetch("/api/admin/pending-clips", {
+          method: "DELETE",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ clip_id: approvedClip.id }),
+        }).catch(() => {});
+      }
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : "Erro desconhecido";
       setStatuses((s) => ({ ...s, [key]: "error" }));
@@ -2181,6 +2263,8 @@ export default function AlbumProductionPage() {
 
       setStatuses((s) => ({ ...s, [key]: statuses[key] === "uploading" ? (audioUrls[key] ? "done" : "idle") : s[key] }));
 
+      // Find the clip ID for pending cleanup
+      const approvedClip = generatedClips[key]?.clips.find((c) => c.audioUrl === clipAudioUrl);
       // Remove the approved clip, keep others
       setGeneratedClips((g) => {
         const current = g[key];
@@ -2193,6 +2277,14 @@ export default function AlbumProductionPage() {
         }
         return { ...g, [key]: { clips: remaining } };
       });
+      // Clean up from pending clips in Supabase
+      if (approvedClip?.id) {
+        adminFetch("/api/admin/pending-clips", {
+          method: "DELETE",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ clip_id: approvedClip.id }),
+        }).catch(() => {});
+      }
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : "Erro desconhecido";
       setStatuses((s) => ({ ...s, [key]: "error" }));
