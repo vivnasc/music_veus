@@ -2126,6 +2126,45 @@ export default function AlbumProductionPage() {
               >
                 Carrossel IG
               </button>
+
+              <button
+                onClick={() => {
+                  const lines: string[] = [];
+                  lines.push(`# ${album.title}`);
+                  lines.push(`**${album.subtitle}**`);
+                  lines.push(`*Loranne — Véus*`);
+                  lines.push("");
+                  lines.push("---");
+                  lines.push("");
+                  for (const t of album.tracks) {
+                    const key = trackKey(album.slug, t.number);
+                    const title = editedTitles[key] || t.title;
+                    const lyrics = editedLyrics[key] || t.lyrics;
+                    lines.push(`## ${String(t.number).padStart(2, "0")}. ${title}`);
+                    lines.push(`*${t.description}*`);
+                    lines.push(`Energia: ${t.energy} | Língua: ${t.lang}${t.flavor ? ` | Sabor: ${t.flavor}` : ""}`);
+                    lines.push("");
+                    if (lyrics) {
+                      lines.push(lyrics);
+                    } else {
+                      lines.push("*(letra em falta)*");
+                    }
+                    lines.push("");
+                    lines.push("---");
+                    lines.push("");
+                  }
+                  const md = lines.join("\n");
+                  const blob = new Blob([md], { type: "text/markdown;charset=utf-8" });
+                  const a = document.createElement("a");
+                  a.href = URL.createObjectURL(blob);
+                  a.download = `${album.slug}-letras.md`;
+                  a.click();
+                  URL.revokeObjectURL(a.href);
+                }}
+                className="mt-3 rounded-lg bg-amber-700 px-3 py-1.5 text-xs font-medium text-white hover:bg-amber-800 transition"
+              >
+                Exportar Letras (.md)
+              </button>
             </div>
 
             {/* Bulk generate button */}
