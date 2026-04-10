@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
 import { createClient } from "@supabase/supabase-js";
 import JSZip from "jszip";
+import { readFile } from "fs/promises";
+import { join } from "path";
 
 export const maxDuration = 120;
 
@@ -33,10 +35,32 @@ export async function POST(req: NextRequest) {
     await Promise.all(
       imageUrls.map(async (url: string, idx: number) => {
         try {
-          const res = await fetch(url);
-          if (!res.ok) return;
-          const blob = await res.blob();
-          const buffer = Buffer.from(await blob.arrayBuffer());
+          let buffer: Buffer | null = null;
+
+          // Try to read from local public/ folder first (for /poses/* and /Loranne.png)
+          const urlObj = new URL(url, "http://localhost");
+          const pathname = urlObj.pathname;
+          if (pathname.startsWith("/poses/") || pathname === "/Loranne.png") {
+            try {
+              const localPath = join(process.cwd(), "public", pathname);
+              buffer = await readFile(localPath);
+            } catch {
+              // local read failed, fall through to HTTP fetch
+            }
+          }
+
+          // Fallback: HTTP fetch (handles absolute URLs from client and Supabase URLs)
+          if (!buffer) {
+            const fetchUrl = url.startsWith("http") ? url : `https://${req.headers.get("host") || "localhost"}${url}`;
+            const res = await fetch(fetchUrl, { signal: AbortSignal.timeout(30000) });
+            if (!res.ok) {
+              console.warn(`[create-zip] HTTP fetch failed for ${fetchUrl}: ${res.status}`);
+              return;
+            }
+            const blob = await res.blob();
+            buffer = Buffer.from(await blob.arrayBuffer());
+          }
+
           const ext = url.match(/\.(png|jpg|jpeg|webp)$/i)?.[1] || "png";
           zip.file(`image-${String(idx + 1).padStart(3, "0")}.${ext}`, buffer);
           added++;
