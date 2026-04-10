@@ -78,8 +78,11 @@ export async function GET(req: NextRequest) {
         const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
         const supabase = createClient(supabaseUrl, supabaseKey);
 
-        // Download video from Runway's temporary URL
-        const videoRes = await fetch(videoUrl);
+        // Download video from Runway's temporary URL (30s timeout)
+        const controller = new AbortController();
+        const dlTimeout = setTimeout(() => controller.abort(), 30000);
+        const videoRes = await fetch(videoUrl, { signal: controller.signal });
+        clearTimeout(dlTimeout);
         if (videoRes.ok) {
           const videoBlob = await videoRes.blob();
           const buffer = Buffer.from(await videoBlob.arrayBuffer());

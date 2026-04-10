@@ -8,13 +8,13 @@ const RUNWAY_API = "https://api.dev.runwayml.com/v1";
 const BUCKET = "audios";
 
 /**
- * Generate a video hook from a track's cover image using Runway Gen-3 Alpha.
+ * Generate a video clip from a track's cover image using Runway Gen-4 Turbo.
  *
  * POST /api/admin/runway/generate
  * { albumSlug, trackNumber, promptText?, duration?, ratio? }
  *
  * Uses the track's Suno cover stored in Supabase (faixa-XX-cover.jpg).
- * If no cover found, falls back to imageBase64 if provided.
+ * If no cover found, falls back to imageUrl or imageBase64 if provided.
  *
  * Flow:
  * 1. Check if hook video already exists → return it
@@ -112,9 +112,9 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify({
         model: "gen4_turbo",
         promptImage,
-        promptText: promptText || "Slow cinematic movement, gentle light particles floating, subtle camera push-in, ethereal and dreamy atmosphere",
-        duration: duration || 5,
-        ratio: ratio || "720:1280",
+        promptText: promptText || "figure swaying gently, veils flowing rhythmically, golden particles pulsing, slow camera orbit, warm light breathing",
+        duration: duration || 10,
+        ratio: ratio || "1080:1920",
         watermark: false,
       }),
     });

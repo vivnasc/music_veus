@@ -34,8 +34,15 @@ export async function POST(req: NextRequest) {
       imageUrls.map(async (url: string, idx: number) => {
         try {
           const res = await fetch(url);
-          if (!res.ok) return;
+          if (!res.ok) {
+            console.warn(`Image ${idx}: HTTP ${res.status}`);
+            return;
+          }
           const blob = await res.blob();
+          if (blob.size < 1000) {
+            console.warn(`Image ${idx}: too small (${blob.size} bytes)`);
+            return;
+          }
           const buffer = Buffer.from(await blob.arrayBuffer());
           const ext = url.match(/\.(png|jpg|jpeg|webp)$/i)?.[1] || "png";
           zip.file(`image-${String(idx + 1).padStart(3, "0")}.${ext}`, buffer);

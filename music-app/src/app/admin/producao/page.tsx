@@ -1281,12 +1281,12 @@ function TrackRow({
                   { imageUrl: aiData.imageUrls[3] || aiData.imageUrls[1] || aiData.imageUrls[0] },
                 ];
                 const runwayPrompts = [
-                  "Very slow subtle zoom in, portrait photograph, gentle light shift on face, minimal movement, ken burns effect",
-                  "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
-                  "Gentle camera drift, soft light particles floating, subtle shadows moving, intimate warm atmosphere",
-                  "Very slow pan right, portrait close-up, warm golden light caressing face, ken burns effect",
-                  "Slow dolly out, atmospheric dust particles, volumetric light beams, ethereal and meditative",
-                  "Gentle tilt up, soft bokeh lights emerging, warm ambient glow, peaceful contemplation",
+                  "figure swaying gently to music, veils flowing rhythmically, golden particles pulsing, slow camera orbit",
+                  "slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
+                  "gentle camera drift, soft light particles floating, fabric rippling like sound waves, golden glow",
+                  "slow camera orbit around figure, veils dancing in wind, warm light breathing, ethereal atmosphere",
+                  "slow dolly out, atmospheric dust particles, volumetric light beams, ethereal and meditative",
+                  "figure with arms rising slowly, fabric rippling, golden glow intensifying, peaceful contemplation",
                 ];
                 const totalClips = imageInputs.length;
                 const runwayResults = await Promise.all(imageInputs.map(async (imgInput, idx) => {
@@ -1301,7 +1301,7 @@ function TrackRow({
                       ...imgPayload,
                       promptText: runwayPrompts[idx],
                       duration: 5,
-                      ratio: "720:1280",
+                      ratio: "1080:1920",
                     }),
                   });
                   return { ...(await res.json()), clipTrackNum };
