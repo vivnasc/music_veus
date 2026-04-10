@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const { albumSlug, trackNumber, imageBase64, imageUrl, promptText, duration, ratio } = await req.json();
+    const { albumSlug, trackNumber, imageBase64, imageUrl, promptText, duration, ratio, force } = await req.json();
 
     if (!albumSlug || !trackNumber) {
       return NextResponse.json({ erro: "albumSlug e trackNumber obrigatórios." }, { status: 400 });
@@ -45,15 +45,17 @@ export async function POST(req: NextRequest) {
     const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
     const supabase = createClient(supabaseUrl, supabaseKey);
 
-    // 1. Check if hook video already exists
-    const publicVideoUrl = `${supabaseUrl}/storage/v1/object/public/${BUCKET}/${videoPath}`;
-    const check = await fetch(publicVideoUrl, { method: "HEAD" });
-    if (check.ok) {
-      return NextResponse.json({
-        status: "exists",
-        videoUrl: publicVideoUrl,
-        message: "Video hook já existe.",
-      });
+    // 1. Check if hook video already exists (skip if force=true)
+    if (!force) {
+      const publicVideoUrl = `${supabaseUrl}/storage/v1/object/public/${BUCKET}/${videoPath}`;
+      const check = await fetch(publicVideoUrl, { method: "HEAD" });
+      if (check.ok) {
+        return NextResponse.json({
+          status: "exists",
+          videoUrl: publicVideoUrl,
+          message: "Video hook já existe.",
+        });
+      }
     }
 
     // 2. Get the cover image — try Supabase cover first, fallback to provided base64

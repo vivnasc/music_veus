@@ -197,6 +197,7 @@ export default function ShortsPage() {
               promptText: RUNWAY_PROMPTS[idx % RUNWAY_PROMPTS.length],
               duration: clipDuration,
               ratio: "720:1280",
+              force: true,
             }),
           });
           const rd = await genRes.json();
