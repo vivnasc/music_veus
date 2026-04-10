@@ -181,41 +181,64 @@ export default function ShortsPage() {
         imageInputs.push({ imageUrl: img.url });
       }
 
-      const runwayResults = await Promise.all(imageInputs.map(async (imgPayload, idx) => {
+      // Step 1: Submit ALL animations at once
+      setProgress(`A submeter ${imageInputs.length} animacoes...`);
+      const submissions: { taskId?: string; clipTrackNum: number; videoUrl?: string; erro?: string }[] = [];
+      for (let idx = 0; idx < imageInputs.length; idx++) {
         const clipTrackNum = track.number * 100 + idx + 1;
-        const res = await adminFetch("/api/admin/runway/generate", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            albumSlug: state.albumSlug,
-            trackNumber: clipTrackNum,
-            ...imgPayload,
-            promptText: RUNWAY_PROMPTS[idx % RUNWAY_PROMPTS.length],
-            duration: clipDuration,
-            ratio: "1080:1920",
-          }),
-        });
-        return { ...(await res.json()), clipTrackNum };
-      }));
-
-      const clipUrls: string[] = [];
-      for (let idx = 0; idx < runwayResults.length; idx++) {
-        const rd = runwayResults[idx];
-        if (rd.status === "exists" && rd.videoUrl) { clipUrls.push(rd.videoUrl); continue; }
-        if (!rd.taskId) continue;
-        const params = new URLSearchParams({ taskId: rd.taskId, album: state.albumSlug, track: String(rd.clipTrackNum) });
-        let found = false;
-        for (let i = 0; i < 120; i++) {
-          await new Promise(r => setTimeout(r, 3000));
-          const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
-          const sData = await sRes.json();
-          if (sData.status === "complete" && sData.videoUrl) { clipUrls.push(sData.videoUrl); found = true; break; }
-          if (sData.status === "error") break;
-          setProgress(`Clip ${idx + 1}/${state.images.length} — ${Math.min(Math.round(i * 1.2), 95)}%`);
+        try {
+          const genRes = await adminFetch("/api/admin/runway/generate", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              albumSlug: state.albumSlug,
+              trackNumber: clipTrackNum,
+              ...imageInputs[idx],
+              promptText: RUNWAY_PROMPTS[idx % RUNWAY_PROMPTS.length],
+              duration: clipDuration,
+              ratio: "1080:1920",
+            }),
+          });
+          const rd = await genRes.json();
+          submissions.push({ ...rd, clipTrackNum });
+        } catch (e) {
+          submissions.push({ clipTrackNum, erro: (e as Error).message });
         }
-        if (!found) console.warn(`Clip ${idx + 1} nao disponivel`);
       }
-      if (clipUrls.length < Math.min(4, state.images.length)) throw new Error(`Apenas ${clipUrls.length} clip(s).`);
+
+      // Step 2: Poll ALL in parallel until done
+      const clipUrls: string[] = new Array(submissions.length).fill(null);
+      const pending = new Set<number>();
+      for (let idx = 0; idx < submissions.length; idx++) {
+        const s = submissions[idx];
+        if (s.videoUrl && (s as { status?: string }).status === "exists") { clipUrls[idx] = s.videoUrl; continue; }
+        if (s.taskId) pending.add(idx);
+      }
+
+      for (let poll = 0; poll < 120 && pending.size > 0; poll++) {
+        await new Promise(r => setTimeout(r, 3000));
+        const done = submissions.length - pending.size;
+        setProgress(`${done}/${submissions.length} clips prontos — a aguardar ${pending.size}...`);
+
+        for (const idx of [...pending]) {
+          const s = submissions[idx];
+          if (!s.taskId) { pending.delete(idx); continue; }
+          try {
+            const params = new URLSearchParams({ taskId: s.taskId, album: state.albumSlug, track: String(s.clipTrackNum) });
+            const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
+            const sData = await sRes.json();
+            if (sData.status === "complete" && sData.videoUrl) { clipUrls[idx] = sData.videoUrl; pending.delete(idx); }
+            if (sData.status === "error") { pending.delete(idx); }
+          } catch { /* retry next poll */ }
+        }
+      }
+
+      const validClips = clipUrls.filter(Boolean) as string[];
+      if (validClips.length === 0) {
+        const firstErr = submissions[0]?.erro || "Nenhum clip gerado. Verifica RUNWAY_API_KEY e creditos.";
+        throw new Error(firstErr);
+      }
+      if (validClips.length < submissions.length) setProgress(`${validClips.length}/${submissions.length} clips — a montar...`);
 
       // Step 3: Shotstack
       update({ step: "shotstack" });
@@ -235,7 +258,7 @@ export default function ShortsPage() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          clipUrls,
+          clipUrls: validClips,
           audioUrl,
           audioTrim: state.fullSong ? 0 : audioStart,
           clipDuration,
@@ -430,10 +453,33 @@ export default function ShortsPage() {
               <textarea
                 value={state.clipLyrics}
                 onChange={e => update({ clipLyrics: e.target.value })}
-                placeholder="Letra que aparece no video (pode editar)..."
+                placeholder="Cola aqui os versos do trecho seleccionado..."
                 rows={3}
                 className="w-full rounded-lg border border-white/10 bg-transparent px-3 py-2 text-sm text-[#F5F0E6] placeholder:text-[#666680]/50 focus:border-[#C9A96E]/50 focus:outline-none resize-none italic"
               />
+              {/* Full lyrics — click a line to add it */}
+              {track?.lyrics && (
+                <details className="mt-2">
+                  <summary className="text-[10px] text-[#666680] cursor-pointer hover:text-[#a0a0b0]">Letra completa (clica num verso para adicionar)</summary>
+                  <div className="mt-1.5 max-h-48 overflow-y-auto rounded-lg bg-black/30 p-3 space-y-0.5">
+                    {track.lyrics.split("\n").map((line: string, i: number) => {
+                      const trimmed = line.trim();
+                      if (!trimmed) return <div key={i} className="h-2" />;
+                      const isSection = trimmed.startsWith("[");
+                      return (
+                        <button
+                          key={i}
+                          onClick={() => update({ clipLyrics: state.clipLyrics ? `${state.clipLyrics}\n${trimmed}` : trimmed })}
+                          className={`block w-full text-left text-xs py-0.5 px-1.5 rounded transition ${isSection ? "text-[#C9A96E]/60 cursor-default" : "text-[#a0a0b0] hover:text-[#F5F0E6] hover:bg-white/5 cursor-pointer"}`}
+                          disabled={isSection}
+                        >
+                          {trimmed}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </details>
+              )}
             </div>
           </div>
 

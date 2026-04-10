@@ -96,8 +96,8 @@ function buildLorannPrompt(caption: string, triggerWord: string | null): string 
 
   return [
     `${trigger}${verse}.`,
-    "Cinematic visual scene that illustrates this song lyric. Warm golden amber tones, atmospheric, emotional, evocative.",
-    "Fine art photography, dramatic chiaroscuro lighting, 9:16 vertical, shallow depth of field. No text, no watermarks.",
+    "Cinematic visual scene for a music video. Warm golden amber colour palette, flowing translucent golden fabric elements in the scene, candlelight or golden hour lighting.",
+    "Ethereal, intimate, contemplative mood. Fine art photography, dramatic chiaroscuro, 9:16 vertical, shallow depth of field. No text, no watermarks.",
   ].join(" ");
 }
 
