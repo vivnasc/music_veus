@@ -15,20 +15,20 @@ export const maxDuration = 120;
  * { prompt: string, numImages?: number, useLoRA?: boolean }
  */
 
-// Loranne identity: face never visible — through COMPOSITION, not forced covering.
-// Valid ways to hide: camera from behind, backlight hiding features, veil falling
-// naturally over face, low angle, deep shadow on face, distant silhouette.
-// The veil is NOT wrapped around the face like a mask — it falls naturally.
+// Loranne identity: face NEVER in the image.
+// Flux ignores "face not visible" — so we force PHYSICAL composition that excludes face:
+// BACK TO CAMERA, over-shoulder from behind, hands/body only, extreme backlight silhouette.
 const IDENTITY = [
-  "A woman with flowing golden translucent fabric and veil.",
-  "Her face is never visible. This is achieved through natural photographic composition: seen from behind, strong backlight that hides facial features, veil that falls naturally and softly over the face, camera from below, deep shadow across the face, or distant silhouette.",
-  "The facial features are never recognizable — either not in frame, or obscured by natural shadow, backlighting, or softly falling fabric. No defined race.",
-  "Warm golden and amber tones, flowing fabric, elegant, mysterious, magnetic.",
+  "Woman seen FROM BEHIND, back facing the camera.",
+  "Camera is positioned BEHIND the woman. We see her back, her shoulders, the back of her head with golden fabric flowing.",
+  "Her face is physically impossible to see because the camera is BEHIND her. She is NOT turning around.",
+  "Her race and ethnicity are completely ambiguous and undefined — she could be any race. No distinguishable skin tone or racial features.",
+  "Golden flowing translucent fabric draped on her body. Warm golden amber tones.",
 ].join(" ");
 
-const STYLE = "Fine art editorial photography, dramatic chiaroscuro lighting, warm golden and amber tones, shallow depth of field, cinematic. No text, no watermarks.";
+const STYLE = "Fine art editorial photography, rear view, from behind, dramatic chiaroscuro lighting, warm golden amber, shallow depth of field, cinematic. No text, no watermarks.";
 
-const NEGATIVE = "clear recognizable face, visible facial features through veil, defined face, direct eye contact, nude, naked, text, watermark";
+const NEGATIVE = "face, frontal, front view, looking at camera, turning around, portrait, eyes, nude, naked, white skin, black skin, asian, caucasian, african, specific ethnicity, text, watermark";
 
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
