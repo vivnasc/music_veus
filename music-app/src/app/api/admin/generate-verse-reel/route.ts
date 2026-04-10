@@ -96,9 +96,8 @@ function buildLorannPrompt(caption: string, triggerWord: string | null): string 
 
   return [
     `${trigger}${verse}.`,
-    "Cinematic landscape or still life scene — NO HUMAN FIGURES, NO PEOPLE, NO SILHOUETTES. Only objects, nature, architecture, light, textures.",
-    "Warm golden amber tones, atmospheric, emotional, evocative.",
-    "Fine art photography, dramatic chiaroscuro lighting, 9:16 vertical, shallow depth of field. Absolutely no people, no faces, no bodies, no silhouettes.",
+    "Cinematic visual scene that illustrates this song lyric. Warm golden amber tones, atmospheric, emotional, evocative.",
+    "Fine art photography, dramatic chiaroscuro lighting, 9:16 vertical, shallow depth of field. No text, no watermarks.",
   ].join(" ");
 }
 

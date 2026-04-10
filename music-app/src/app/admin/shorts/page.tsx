@@ -22,8 +22,10 @@ type ShortState = {
   albumSlug: string;
   trackNumber: number;
   images: ShortImage[];
-  totalDuration: number;      // total video duration in seconds (15, 30, 60, or custom)
-  audioStart: number;         // audio start point in seconds
+  imagePrompt: string;        // editable prompt for image generation
+  clipLyrics: string;         // lyrics to show in the video clip
+  totalDuration: number;
+  audioStart: number;
   fullSong: boolean;
   step: "idle" | "images" | "runway" | "shotstack";
   resultUrl: string | null;
@@ -119,7 +121,7 @@ export default function ShortsPage() {
       const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ caption: track.description, numImages: Math.min(numAiImages, 4), useLoRA }),
+        body: JSON.stringify({ caption: state.imagePrompt || track.description, numImages: Math.min(numAiImages, 4), useLoRA }),
       });
       const aiData = await aiRes.json();
       if (!aiRes.ok || !aiData.imageUrls?.length) throw new Error(`fal.ai: ${aiData.erro || "sem imagens"}`);
@@ -156,7 +158,7 @@ export default function ShortsPage() {
       const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ caption: track.description, numImages: 1, useLoRA }),
+        body: JSON.stringify({ caption: state.imagePrompt || track.description, numImages: 1, useLoRA }),
       });
       const aiData = await aiRes.json();
       if (aiRes.ok && aiData.imageUrls?.[0]) {
@@ -222,10 +224,11 @@ export default function ShortsPage() {
       const sbUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
       const audioUrl = `${sbUrl}/storage/v1/object/public/audios/albums/${state.albumSlug.replace(/[^a-z0-9-]/g, "")}/faixa-${String(track.number).padStart(2, "0")}.mp3`;
 
-      const verse = (() => {
+      // Use custom lyrics if set, otherwise auto-extract from track
+      const verse = state.clipLyrics || (() => {
         if (!track.lyrics) return "";
         const lines = track.lyrics.split("\n").filter((l: string) => { const tr = l.trim(); return tr.length > 15 && tr.length < 80 && !tr.startsWith("["); });
-        return lines.slice(0, 3).map((l: string) => l.trim()).join("\n") || "";
+        return lines.slice(0, 4).map((l: string) => l.trim()).join("\n") || "";
       })();
 
       const shotRes = await adminFetch("/api/admin/shotstack/render", {
@@ -313,7 +316,7 @@ export default function ShortsPage() {
             </select>
             <select
               value={state.trackNumber}
-              onChange={e => update({ trackNumber: parseInt(e.target.value), images: [], resultUrl: null, step: "idle" })}
+              onChange={e => update({ trackNumber: parseInt(e.target.value), images: [], resultUrl: null, step: "idle", imagePrompt: "", clipLyrics: "" })}
               className="flex-1 min-w-0 rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-xs text-[#F5F0E6] focus:border-[#C9A96E]/50 focus:outline-none backdrop-blur"
               disabled={!album}
             >
@@ -395,6 +398,43 @@ export default function ShortsPage() {
                 </button>
               </div>
             )}
+          </div>
+
+          {/* Prompt + Lyrics */}
+          <div className="rounded-xl bg-[#1A1A2E]/80 px-4 py-3 space-y-3">
+            <div>
+              <div className="flex items-center justify-between mb-1.5">
+                <label className="text-[11px] text-[#666680] uppercase tracking-wider">Prompt das imagens</label>
+                {track && !state.imagePrompt && (
+                  <button onClick={() => update({ imagePrompt: track.description })} className="text-[10px] text-[#C9A96E] hover:text-[#d4b87a]">Usar descricao</button>
+                )}
+              </div>
+              <textarea
+                value={state.imagePrompt}
+                onChange={e => update({ imagePrompt: e.target.value })}
+                placeholder={track?.description || "Descreve a cena visual que queres..."}
+                rows={2}
+                className="w-full rounded-lg border border-white/10 bg-transparent px-3 py-2 text-sm text-[#F5F0E6] placeholder:text-[#666680]/50 focus:border-[#C9A96E]/50 focus:outline-none resize-none"
+              />
+            </div>
+            <div>
+              <div className="flex items-center justify-between mb-1.5">
+                <label className="text-[11px] text-[#666680] uppercase tracking-wider">Letra no clip</label>
+                {track?.lyrics && !state.clipLyrics && (
+                  <button onClick={() => {
+                    const lines = track.lyrics.split("\n").filter((l: string) => { const t = l.trim(); return t.length > 10 && !t.startsWith("["); });
+                    update({ clipLyrics: lines.slice(0, 6).map((l: string) => l.trim()).join("\n") });
+                  }} className="text-[10px] text-[#C9A96E] hover:text-[#d4b87a]">Extrair da letra</button>
+                )}
+              </div>
+              <textarea
+                value={state.clipLyrics}
+                onChange={e => update({ clipLyrics: e.target.value })}
+                placeholder="Letra que aparece no video (pode editar)..."
+                rows={3}
+                className="w-full rounded-lg border border-white/10 bg-transparent px-3 py-2 text-sm text-[#F5F0E6] placeholder:text-[#666680]/50 focus:border-[#C9A96E]/50 focus:outline-none resize-none italic"
+              />
+            </div>
           </div>
 
           {error && <div className="rounded-xl bg-red-900/20 border border-red-500/20 px-4 py-3 text-xs text-red-400">{error}</div>}
@@ -490,6 +530,8 @@ function defaultState(): ShortState {
     albumSlug: "",
     trackNumber: 1,
     images: [],
+    imagePrompt: "",
+    clipLyrics: "",
     totalDuration: 30,
     audioStart: 30,
     fullSong: false,
