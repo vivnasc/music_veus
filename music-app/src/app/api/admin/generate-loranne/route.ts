@@ -15,17 +15,20 @@ export const maxDuration = 120;
  * { prompt: string, numImages?: number, useLoRA?: boolean }
  */
 
-// The Loranne identity block — MUST be in every prompt
+// Loranne identity: face never visible — through COMPOSITION, not forced covering.
+// Valid ways to hide: camera from behind, backlight hiding features, veil falling
+// naturally over face, low angle, deep shadow on face, distant silhouette.
+// The veil is NOT wrapped around the face like a mask — it falls naturally.
 const IDENTITY = [
-  "Dark feminine silhouette completely draped in heavy layers of flowing translucent golden fabric and thick opaque veil covering the entire head and face.",
-  "The face is NEVER visible — always hidden behind opaque veil, dense fabric, deep shadow, or turned completely away. ZERO facial features. No eyes, no nose, no mouth, no forehead, no chin.",
-  "Fully clothed in draped fabric head to toe. No bare skin except hands. No nudity. No sheer fabric revealing body.",
-  "Identity is ONLY: golden veils, flowing fabric silhouette, warm amber lighting, mysterious anonymous feminine presence.",
+  "A woman with flowing golden translucent fabric and veil.",
+  "Her face is never visible. This is achieved through natural photographic composition: seen from behind, strong backlight that hides facial features, veil that falls naturally and softly over the face, camera from below, deep shadow across the face, or distant silhouette.",
+  "The facial features are never recognizable — either not in frame, or obscured by natural shadow, backlighting, or softly falling fabric. No defined race.",
+  "Warm golden and amber tones, flowing fabric, elegant, mysterious, magnetic.",
 ].join(" ");
 
 const STYLE = "Fine art editorial photography, dramatic chiaroscuro lighting, warm golden and amber tones, shallow depth of field, cinematic. No text, no watermarks.";
 
-const NEGATIVE = "visible face, facial features, eyes, nose, mouth, clear face, portrait, defined race, skin color, uncovered face, nudity, bare skin, naked, sheer, transparent revealing, text, watermark";
+const NEGATIVE = "clear recognizable face, visible facial features through veil, defined face, direct eye contact, nude, naked, text, watermark";
 
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);

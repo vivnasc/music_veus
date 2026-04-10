@@ -95,11 +95,9 @@ function buildLorannPrompt(caption: string, triggerWord: string | null): string 
 
   return [
     `${verse}.`,
-    `${trigger}Dark feminine silhouette draped head-to-toe in layers of flowing translucent golden fabric and heavy veil.`,
-    "The face is COMPLETELY hidden — covered by opaque veil, fabric, shadow, or turned away. NO facial features visible whatsoever. NO eyes, NO nose, NO mouth, NO skin on face.",
-    "The figure is FULLY clothed in draped fabric. NO nudity, NO bare skin except hands.",
-    "Only the body silhouette and flowing fabric are visible. Warm golden and amber tones, dramatic chiaroscuro lighting, intimate atmosphere.",
-    "Fine art editorial photography, no text, no watermarks. 9:16 vertical, shallow depth of field.",
+    `${trigger}A woman with flowing golden fabric and veil. Her face is never visible — hidden by composition: seen from behind, strong backlight, veil falling naturally over face, deep shadow, or distant silhouette. Facial features never recognizable.`,
+    "Warm golden and amber tones, flowing translucent fabric, elegant, mysterious, intimate.",
+    "Fine art editorial photography, dramatic chiaroscuro lighting, no text, no watermarks. 9:16 vertical, shallow depth of field.",
   ].join(" ");
 }
 
