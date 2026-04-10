@@ -2059,9 +2059,20 @@ export default function AlbumProductionPage() {
 
       setStatuses((s) => ({ ...s, [key]: "done" }));
       setAudioUrls((u) => ({ ...u, [key]: url }));
-      // Keep ALL generated clips — user can swap later
-      // Clean up approved clip from pending in Supabase
+      // Remove the approved clip, keep alternatives for swapping
       const approvedClip = generatedClips[key]?.clips.find((c) => c.audioUrl === clipAudioUrl);
+      setGeneratedClips((g) => {
+        const current = g[key];
+        if (!current) return g;
+        const remaining = current.clips.filter((c) => c.audioUrl !== clipAudioUrl);
+        if (remaining.length === 0) {
+          const copy = { ...g };
+          delete copy[key];
+          return copy;
+        }
+        return { ...g, [key]: { clips: remaining } };
+      });
+      // Clean up from pending in Supabase
       if (approvedClip?.id) {
         adminFetch("/api/admin/pending-clips", {
           method: "DELETE",
@@ -2123,9 +2134,19 @@ export default function AlbumProductionPage() {
       });
 
       setStatuses((s) => ({ ...s, [key]: statuses[key] === "uploading" ? (audioUrls[key] ? "done" : "idle") : s[key] }));
-      // Keep ALL generated clips — user can swap later
-      // Clean up approved clip from pending in Supabase
+      // Remove the approved clip, keep alternatives
       const approvedClip = generatedClips[key]?.clips.find((c) => c.audioUrl === clipAudioUrl);
+      setGeneratedClips((g) => {
+        const current = g[key];
+        if (!current) return g;
+        const remaining = current.clips.filter((c) => c.audioUrl !== clipAudioUrl);
+        if (remaining.length === 0) {
+          const copy = { ...g };
+          delete copy[key];
+          return copy;
+        }
+        return { ...g, [key]: { clips: remaining } };
+      });
       if (approvedClip?.id) {
         adminFetch("/api/admin/pending-clips", {
           method: "DELETE",
