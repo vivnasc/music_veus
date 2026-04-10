@@ -96,9 +96,9 @@ function buildLorannPrompt(caption: string, triggerWord: string | null): string 
 
   return [
     `${verse}.`,
-    `${trigger}A woman with golden flowing fabric, face never visible — seen from behind, or as dark silhouette, or only hands and body in frame. She can be any race, any body type — she represents every woman. The identity is the golden fabric and warm amber light.`,
-    "Warm golden amber tones, intimate atmosphere.",
-    "Fine art editorial photography, dramatic chiaroscuro lighting, no visible face, no text, no watermarks. 9:16 vertical, shallow depth of field.",
+    `${trigger}A human figure seen from behind, draped in flowing golden translucent fabric. Camera behind the figure, we see the back and shoulders. The figure does not turn around.`,
+    "Warm golden amber tones, mysterious, intimate.",
+    "Fine art editorial photography, rear view, dramatic chiaroscuro lighting, no text, no watermarks. 9:16 vertical, shallow depth of field.",
   ].join(" ");
 }
 
