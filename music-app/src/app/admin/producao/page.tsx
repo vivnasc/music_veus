@@ -79,6 +79,58 @@ type GeneratedClips = {
 
 type VersionInfo = { name: string; audioUrl: string; energy: string };
 
+type PromptVersion = {
+  id: string;
+  label: string;
+  prompt: string;
+  style: string;
+  flavor: string;
+  createdAt: string;
+};
+
+type GenerationRecord = {
+  id: string;
+  timestamp: string;
+  prompt: string;
+  style: string;
+  flavor: string;
+  energy: string;
+  model: string;
+  rating?: "up" | "down";
+};
+
+// Artist references per flavor for prompt inspiration
+const STYLE_ARTIST_REFS: Record<string, string[]> = {
+  organic: ["Bon Iver", "Iron & Wine", "Fleet Foxes", "Sufjan Stevens"],
+  marrabenta: ["Orchestra Marrabenta", "Wazimbo", "Mingas", "Dilon Djindji"],
+  afrobeat: ["Burna Boy", "Fela Kuti", "Wizkid", "Tiwa Savage"],
+  bossa: ["Tom Jobim", "João Gilberto", "Bebel Gilberto", "Rosa Passos"],
+  jazz: ["Esperanza Spalding", "Gregory Porter", "Diana Krall", "Chet Baker"],
+  folk: ["Joni Mitchell", "Nick Drake", "Laura Marling", "José Afonso"],
+  funk: ["Anderson .Paak", "Vulfpeck", "D'Angelo", "Erykah Badu"],
+  house: ["Disclosure", "Rufus Du Sol", "Channel Tres", "Peggy Gou"],
+  gospel: ["Kirk Franklin", "Tasha Cobbs", "CeCe Winans", "Maverick City"],
+};
+
+// Words that are redundant given the selected flavor
+const REDUNDANT_WORDS_BY_FLAVOR: Record<string, string[]> = {
+  house: ["dance-floor", "dancefloor", "four-on-the-floor", "4/4 beat", "club", "electronic beat", "house beat"],
+  marrabenta: ["marrabenta rhythm", "mozambican rhythm", "african guitar"],
+  afrobeat: ["afrobeat rhythm", "african percussion", "afro groove", "afro beat"],
+  bossa: ["bossa nova", "bossa rhythm", "brazilian jazz", "samba feel"],
+  jazz: ["jazz harmony", "jazz chords", "swing feel", "jazz feel"],
+  folk: ["acoustic folk", "folk guitar", "folk melody"],
+  funk: ["funky bass", "funk groove", "funky rhythm", "funk beat"],
+  gospel: ["gospel choir", "gospel harmony", "church choir"],
+  organic: [],
+};
+
+function detectRedundancies(prompt: string, flavor: string | null): string[] {
+  if (!flavor || !REDUNDANT_WORDS_BY_FLAVOR[flavor]) return [];
+  const lower = prompt.toLowerCase();
+  return REDUNDANT_WORDS_BY_FLAVOR[flavor].filter(w => lower.includes(w.toLowerCase()));
+}
+
 function trackKey(albumSlug: string, trackNum: number) {
   return `${albumSlug}-t${trackNum}`;
 }
@@ -607,6 +659,14 @@ function TrackRow({
   onFlavorChange,
   isAlbumCover,
   onSetAlbumCover,
+  editedPrompt,
+  onPromptChange,
+  promptVersions: pVersions,
+  onSavePromptVersion,
+  onLoadPromptVersion,
+  generationHistory: genHistory,
+  versionRatings,
+  onRateVersion,
 }: {
   track: AlbumTrack;
   albumSlug: string;
@@ -635,9 +695,24 @@ function TrackRow({
   onFlavorChange: (flavor: TrackFlavor) => void;
   isAlbumCover: boolean;
   onSetAlbumCover: () => void;
+  editedPrompt: string | null;
+  onPromptChange: (prompt: string) => void;
+  promptVersions: PromptVersion[];
+  onSavePromptVersion: (label: string) => void;
+  onLoadPromptVersion: (version: PromptVersion) => void;
+  generationHistory: GenerationRecord[];
+  versionRatings: Record<string, "up" | "down">;
+  onRateVersion: (versionKey: string, rating: "up" | "down") => void;
 }) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [showLyrics, setShowLyrics] = useState(false);
+  const [promptVersionLabel, setPromptVersionLabel] = useState("");
+  const [promptSaved, setPromptSaved] = useState(false);
+
+  const currentPrompt = editedPrompt ?? track.prompt;
+  const currentFlavor = editedFlavor || track.flavor || "organic";
+  const redundancies = detectRedundancies(currentPrompt, currentFlavor);
+  const artistRefs = STYLE_ARTIST_REFS[currentFlavor] || [];
 
   function handleFileChange(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
@@ -705,24 +780,90 @@ function TrackRow({
 
           {/* Copy buttons — always visible */}
           <div className="mt-2 flex items-center gap-2">
-            <CopyButton text={track.prompt} label="Copiar prompt" />
+            <CopyButton text={currentPrompt} label="Copiar prompt" />
             {track.lyrics && <CopyButton text={editedLyrics ?? track.lyrics} label="Copiar letra" />}
           </div>
 
-          {/* Prompt expandable */}
+          {/* === PROMPT — editable textarea === */}
           <details className="mt-2">
             <summary className="cursor-pointer text-sm text-mundo-muted/60 hover:text-mundo-muted py-2">
-              Ver prompt
+              Prompt {editedPrompt !== null && editedPrompt !== track.prompt && <span className="text-amber-400 ml-1">(editado)</span>}
             </summary>
-            <p className="mt-1 rounded bg-mundo-bg p-2 font-mono text-xs text-mundo-muted/80">
-              {track.prompt}
-            </p>
+            <div className="mt-1 space-y-2">
+              <textarea
+                value={currentPrompt}
+                onChange={(e) => { onPromptChange(e.target.value); setPromptSaved(false); }}
+                className="w-full rounded bg-mundo-bg p-3 font-mono text-xs text-mundo-muted/80 leading-relaxed min-h-[6rem] max-h-[20rem] overflow-y-auto border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none resize-y"
+                spellCheck={false}
+              />
+              {/* Redundancy warnings */}
+              {redundancies.length > 0 && (
+                <div className="rounded bg-amber-950/40 border border-amber-700/30 px-3 py-2 text-xs text-amber-400">
+                  Redundante com flavor <strong>{currentFlavor}</strong>: {redundancies.map((w, i) => (
+                    <span key={w} className="font-mono bg-amber-900/40 rounded px-1 mx-0.5">{w}{i < redundancies.length - 1 ? "" : ""}</span>
+                  ))}
+                </div>
+              )}
+              <div className="flex items-center gap-2 flex-wrap">
+                <button
+                  onClick={() => { onPromptChange(currentPrompt); setPromptSaved(true); setTimeout(() => setPromptSaved(false), 2000); }}
+                  className={`rounded px-3 py-1.5 text-xs font-medium transition ${promptSaved ? "bg-green-800/40 text-green-400" : "bg-violet-600 text-white hover:bg-violet-700"}`}
+                >
+                  {promptSaved ? "Guardado" : "Guardar"}
+                </button>
+                {editedPrompt !== null && editedPrompt !== track.prompt && (
+                  <button
+                    onClick={() => onPromptChange(track.prompt)}
+                    className="rounded px-3 py-1.5 text-xs text-red-400 bg-red-900/20 hover:bg-red-900/40 transition"
+                  >
+                    Repor original
+                  </button>
+                )}
+                {/* Save as named version */}
+                <input
+                  type="text"
+                  value={promptVersionLabel}
+                  onChange={(e) => setPromptVersionLabel(e.target.value)}
+                  placeholder="Label (ex: v2 - chill)"
+                  className="rounded bg-mundo-bg px-2 py-1.5 text-xs border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none w-40"
+                />
+                <button
+                  onClick={() => {
+                    if (!promptVersionLabel.trim()) return;
+                    onSavePromptVersion(promptVersionLabel.trim());
+                    setPromptVersionLabel("");
+                  }}
+                  disabled={!promptVersionLabel.trim()}
+                  className="rounded px-3 py-1.5 text-xs text-mundo-dourado bg-mundo-dourado/20 hover:bg-mundo-dourado/30 transition disabled:opacity-40"
+                >
+                  Guardar versão
+                </button>
+              </div>
+              {/* Saved prompt versions */}
+              {pVersions.length > 0 && (
+                <div className="space-y-1">
+                  <p className="text-[10px] uppercase tracking-wider text-mundo-muted/50">Versões guardadas</p>
+                  {pVersions.map((v) => (
+                    <div key={v.id} className="flex items-center gap-2 rounded bg-mundo-muted-dark/10 px-2 py-1">
+                      <button
+                        onClick={() => onLoadPromptVersion(v)}
+                        className="text-xs text-violet-400 hover:text-violet-300 font-medium"
+                      >
+                        {v.label}
+                      </button>
+                      <span className="text-[10px] text-mundo-muted/40">{new Date(v.createdAt).toLocaleDateString("pt-PT")}</span>
+                      {v.style && <span className="text-[10px] text-mundo-muted/30 font-mono truncate max-w-[200px]">{v.style}</span>}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </details>
 
-          {/* Style editable — energy + flavor selectors + custom override */}
+          {/* === STYLE — flavor buttons + custom override + artist refs === */}
           <details className="mt-1">
             <summary className="cursor-pointer text-sm text-mundo-muted/60 hover:text-mundo-muted py-2">
-              Ver style {editedStyle !== null && <span className="text-amber-400 ml-1">(editado)</span>}
+              Style {editedStyle !== null && <span className="text-amber-400 ml-1">(editado)</span>}
             </summary>
             <div className="mt-2 space-y-2">
               {/* Quick flavor change */}
@@ -731,12 +872,11 @@ function TrackRow({
                   <button
                     key={f}
                     onClick={() => {
-                      // Update flavor in local state + generate matching style
-                      onStyleChange("");  // clear custom style to use auto
+                      onStyleChange("");
                       onFlavorChange(f);
                     }}
                     className={`rounded px-2 py-0.5 text-[10px] font-bold uppercase transition ${
-                      (editedFlavor || track.flavor || "organic") === f
+                      currentFlavor === f
                         ? FLAVOR_LABELS[f].color
                         : "bg-mundo-muted-dark/10 text-mundo-muted hover:text-mundo-creme"
                     }`}
@@ -754,6 +894,17 @@ function TrackRow({
                 className="w-full rounded bg-mundo-bg px-3 py-2 font-mono text-xs text-mundo-muted/80 border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none"
               />
               <p className="text-xs text-mundo-muted/40">Clica num flavor para mudar o som. Ou escreve um style manual.</p>
+              {/* Artist references for current flavor */}
+              {artistRefs.length > 0 && currentFlavor !== "organic" && (
+                <div className="rounded bg-mundo-muted-dark/10 px-3 py-2">
+                  <p className="text-[10px] uppercase tracking-wider text-mundo-muted/50 mb-1">Referências {currentFlavor}</p>
+                  <div className="flex flex-wrap gap-1">
+                    {artistRefs.map((artist) => (
+                      <span key={artist} className="rounded bg-mundo-bg px-2 py-0.5 text-xs text-mundo-muted/70">{artist}</span>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           </details>
 
@@ -840,19 +991,39 @@ function TrackRow({
             </div>
           )}
 
-          {/* Existing versions + add more */}
+          {/* Existing versions + ratings + add more */}
           <div className="mt-2">
             {existingVersions.length > 0 && (
               <div className="space-y-2 mb-2">
-                {existingVersions.map((v) => (
-                  <div key={v.name} className="rounded-lg border border-violet-900/20 bg-violet-950/10 p-2">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="rounded bg-violet-900/30 px-2 py-0.5 text-[10px] text-violet-400">{v.name}</span>
-                      {v.energy && <span className="text-xs text-mundo-muted">{v.energy}</span>}
+                {existingVersions.map((v) => {
+                  const ratingKey = `${albumSlug}-t${track.number}-${v.name}`;
+                  const rating = versionRatings[ratingKey];
+                  return (
+                    <div key={v.name} className="rounded-lg border border-violet-900/20 bg-violet-950/10 p-2">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="rounded bg-violet-900/30 px-2 py-0.5 text-[10px] text-violet-400">{v.name}</span>
+                        {v.energy && <span className="text-xs text-mundo-muted">{v.energy}</span>}
+                        <div className="ml-auto flex items-center gap-1">
+                          <button
+                            onClick={() => onRateVersion(ratingKey, "up")}
+                            className={`text-sm px-1 transition ${rating === "up" ? "opacity-100" : "opacity-30 hover:opacity-70"}`}
+                            title="Bom"
+                          >
+                            👍
+                          </button>
+                          <button
+                            onClick={() => onRateVersion(ratingKey, "down")}
+                            className={`text-sm px-1 transition ${rating === "down" ? "opacity-100" : "opacity-30 hover:opacity-70"}`}
+                            title="Mau"
+                          >
+                            👎
+                          </button>
+                        </div>
+                      </div>
+                      {v.audioUrl && <MiniPlayer src={v.audioUrl} />}
                     </div>
-                    {v.audioUrl && <MiniPlayer src={v.audioUrl} />}
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
             <button
@@ -937,6 +1108,44 @@ function TrackRow({
               </div>
             )}
           </div>
+
+          {/* Generation history */}
+          {genHistory.length > 0 && (
+            <details className="mt-2">
+              <summary className="cursor-pointer text-sm text-mundo-muted/60 hover:text-mundo-muted py-2">
+                Histórico de gerações ({genHistory.length})
+              </summary>
+              <div className="mt-1 space-y-1 max-h-60 overflow-y-auto">
+                {[...genHistory].reverse().map((rec) => (
+                  <div key={rec.id} className="rounded bg-mundo-muted-dark/10 px-3 py-2 text-xs">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="text-mundo-muted/50">{new Date(rec.timestamp).toLocaleString("pt-PT", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}</span>
+                      <span className="rounded bg-mundo-bg px-1.5 py-0.5 text-[10px] text-mundo-muted">{rec.model}</span>
+                      {rec.flavor && rec.flavor !== "organic" && (
+                        <span className={`rounded px-1.5 py-0.5 text-[10px] font-bold uppercase ${FLAVOR_LABELS[rec.flavor as TrackFlavor]?.color || "text-mundo-muted"}`}>
+                          {rec.flavor}
+                        </span>
+                      )}
+                      {rec.energy && (
+                        <span className={`rounded px-1.5 py-0.5 text-[10px] uppercase ${ENERGY_LABELS[rec.energy as TrackEnergy]?.color || "text-mundo-muted"}`}>
+                          {rec.energy}
+                        </span>
+                      )}
+                      {rec.rating && <span className="text-sm">{rec.rating === "up" ? "👍" : "👎"}</span>}
+                    </div>
+                    {rec.style && <p className="mt-1 font-mono text-[10px] text-mundo-muted/40 truncate">Style: {rec.style}</p>}
+                    <p className="mt-0.5 font-mono text-[10px] text-mundo-muted/40 truncate">Prompt: {rec.prompt.slice(0, 120)}{rec.prompt.length > 120 ? "..." : ""}</p>
+                    <button
+                      onClick={() => { onPromptChange(rec.prompt); if (rec.style) onStyleChange(rec.style); }}
+                      className="mt-1 text-[10px] text-violet-400 hover:text-violet-300"
+                    >
+                      Reusar este prompt
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </details>
+          )}
 
           {/* Generated clips — approve as main or save as version */}
           {clipsReady && (
@@ -1418,6 +1627,10 @@ export default function AlbumProductionPage() {
   const [personaName, setPersonaName] = useState<string>("");
   const [creatingPersona, setCreatingPersona] = useState(false);
   const [personaResult, setPersonaResult] = useState<string | null>(null);
+  const [editedPrompts, setEditedPrompts] = useState<Record<string, string>>({});
+  const [promptVersions, setPromptVersions] = useState<Record<string, PromptVersion[]>>({});
+  const [generationHistory, setGenerationHistory] = useState<Record<string, GenerationRecord[]>>({});
+  const [versionRatings, setVersionRatings] = useState<Record<string, "up" | "down">>({});
   const pollingRef = useRef<Record<string, NodeJS.Timeout>>({});
   const titleSaveRef = useRef<Record<string, NodeJS.Timeout>>({});
   const { getCoverTrack, setCoverTrack } = useAlbumCovers();
@@ -1482,7 +1695,43 @@ export default function AlbumProductionPage() {
         }
       })
       .catch(() => {});
+
+    // Load localStorage data (prompts, styles, flavors, versions, history, ratings)
+    try {
+      const lsPrompts = localStorage.getItem("producao_editedPrompts");
+      if (lsPrompts) setEditedPrompts(JSON.parse(lsPrompts));
+      const lsStyles = localStorage.getItem("producao_editedStyles");
+      if (lsStyles) setEditedStyles(JSON.parse(lsStyles));
+      const lsFlavors = localStorage.getItem("producao_editedFlavors");
+      if (lsFlavors) setEditedFlavors(JSON.parse(lsFlavors));
+      const lsVersions = localStorage.getItem("producao_promptVersions");
+      if (lsVersions) setPromptVersions(JSON.parse(lsVersions));
+      const lsHistory = localStorage.getItem("producao_generationHistory");
+      if (lsHistory) setGenerationHistory(JSON.parse(lsHistory));
+      const lsRatings = localStorage.getItem("producao_versionRatings");
+      if (lsRatings) setVersionRatings(JSON.parse(lsRatings));
+    } catch {}
   }, []);
+
+  // Persist to localStorage on changes
+  useEffect(() => {
+    try { localStorage.setItem("producao_editedPrompts", JSON.stringify(editedPrompts)); } catch {}
+  }, [editedPrompts]);
+  useEffect(() => {
+    try { localStorage.setItem("producao_editedStyles", JSON.stringify(editedStyles)); } catch {}
+  }, [editedStyles]);
+  useEffect(() => {
+    try { localStorage.setItem("producao_editedFlavors", JSON.stringify(editedFlavors)); } catch {}
+  }, [editedFlavors]);
+  useEffect(() => {
+    try { localStorage.setItem("producao_promptVersions", JSON.stringify(promptVersions)); } catch {}
+  }, [promptVersions]);
+  useEffect(() => {
+    try { localStorage.setItem("producao_generationHistory", JSON.stringify(generationHistory)); } catch {}
+  }, [generationHistory]);
+  useEffect(() => {
+    try { localStorage.setItem("producao_versionRatings", JSON.stringify(versionRatings)); } catch {}
+  }, [versionRatings]);
 
   useEffect(() => {
     return () => {
@@ -1609,6 +1858,10 @@ export default function AlbumProductionPage() {
 
   async function generateTrack(albumSlug: string, track: AlbumTrack) {
     const key = trackKey(albumSlug, track.number);
+    const usedPrompt = editedPrompts[key] || track.prompt;
+    const usedStyle = editedStyles[key] || "";
+    const usedFlavor = editedFlavors[key] || track.flavor || "";
+
     setStatuses((s) => ({ ...s, [key]: "generating" }));
     setErrors((e) => ({ ...e, [key]: "" }));
     setGeneratedClips((g) => {
@@ -1617,12 +1870,27 @@ export default function AlbumProductionPage() {
       return copy;
     });
 
+    // Record generation in history
+    const historyRecord: GenerationRecord = {
+      id: `gen-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
+      timestamp: new Date().toISOString(),
+      prompt: usedPrompt,
+      style: usedStyle,
+      flavor: usedFlavor,
+      energy: track.energy || "",
+      model: sunoModel,
+    };
+    setGenerationHistory((h) => ({
+      ...h,
+      [key]: [...(h[key] || []), historyRecord],
+    }));
+
     try {
       const res = await adminFetch("/api/admin/suno/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          prompt: track.prompt,
+          prompt: usedPrompt,
           lyrics: editedLyrics[key] || track.lyrics,
           title: editedTitles[key] || track.title,
           instrumental: false,
@@ -1955,6 +2223,43 @@ export default function AlbumProductionPage() {
                 </span>
               ) : null;
             })}
+            <button
+              onClick={() => {
+                const exportData = ALL_ALBUMS.map(a => ({
+                  album: a.title,
+                  slug: a.slug,
+                  product: a.product,
+                  tracks: a.tracks.map(t => {
+                    const key = trackKey(a.slug, t.number);
+                    return {
+                      number: t.number,
+                      title: editedTitles[key] || t.title,
+                      prompt: editedPrompts[key] || t.prompt,
+                      style: editedStyles[key] || null,
+                      flavor: editedFlavors[key] || t.flavor,
+                      energy: t.energy,
+                      lyrics: editedLyrics[key] || t.lyrics || null,
+                      promptVersions: promptVersions[key] || [],
+                      generationHistory: generationHistory[key] || [],
+                      audioVersions: (trackVersions[key] || []).map(v => ({
+                        ...v,
+                        rating: versionRatings[`${key}-${v.name}`] || null,
+                      })),
+                    };
+                  }),
+                }));
+                const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: "application/json" });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement("a");
+                link.href = url;
+                link.download = `prompts-backup-${new Date().toISOString().slice(0, 10)}.json`;
+                link.click();
+                URL.revokeObjectURL(url);
+              }}
+              className="rounded-full bg-mundo-muted-dark/10 px-3 py-1 text-xs text-mundo-dourado hover:bg-mundo-dourado/20 transition cursor-pointer"
+            >
+              Export JSON
+            </button>
           </div>
         </div>
       </div>
@@ -2505,6 +2810,37 @@ export default function AlbumProductionPage() {
                     onSetAlbumCover={async () => {
                       const ok = await setCoverTrack(album.slug, track.number);
                       if (ok) alert(`Capa do álbum → faixa ${track.number}`);
+                    }}
+                    editedPrompt={editedPrompts[key] || null}
+                    onPromptChange={(prompt) => setEditedPrompts((p) => ({ ...p, [key]: prompt }))}
+                    promptVersions={promptVersions[key] || []}
+                    onSavePromptVersion={(label) => {
+                      const version: PromptVersion = {
+                        id: `pv-${Date.now()}`,
+                        label,
+                        prompt: editedPrompts[key] || track.prompt,
+                        style: editedStyles[key] || "",
+                        flavor: editedFlavors[key] || track.flavor || "",
+                        createdAt: new Date().toISOString(),
+                      };
+                      setPromptVersions((pv) => ({ ...pv, [key]: [...(pv[key] || []), version] }));
+                    }}
+                    onLoadPromptVersion={(version) => {
+                      setEditedPrompts((p) => ({ ...p, [key]: version.prompt }));
+                      if (version.style) setEditedStyles((s) => ({ ...s, [key]: version.style }));
+                      if (version.flavor) setEditedFlavors((f) => ({ ...f, [key]: version.flavor as TrackFlavor }));
+                    }}
+                    generationHistory={generationHistory[key] || []}
+                    versionRatings={versionRatings}
+                    onRateVersion={(versionKey, rating) => {
+                      setVersionRatings((r) => {
+                        if (r[versionKey] === rating) {
+                          const copy = { ...r };
+                          delete copy[versionKey];
+                          return copy;
+                        }
+                        return { ...r, [versionKey]: rating };
+                      });
                     }}
                   />
                 );
