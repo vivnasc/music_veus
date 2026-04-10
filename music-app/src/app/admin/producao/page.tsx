@@ -579,356 +579,6 @@ function ClipApprovalRow({
   );
 }
 
-// ═══════════════════════════════════════════════════════════════
-// SHORT BUILDER — 3-step pipeline with image preview/swap
-// ═══════════════════════════════════════════════════════════════
-
-type ShortImage = { url: string; isLoranne?: boolean };
-
-const RUNWAY_PROMPTS = [
-  "figure swaying gently to music, veils flowing rhythmically, golden particles pulsing, slow camera orbit",
-  "slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
-  "gentle camera drift, soft light particles floating, fabric rippling like sound waves, golden glow",
-  "slow camera orbit around figure, veils dancing in wind, warm light breathing, ethereal atmosphere",
-  "slow dolly out, atmospheric dust particles, volumetric light beams, ethereal and meditative",
-  "figure with arms rising slowly, fabric rippling, golden glow intensifying, peaceful contemplation",
-];
-
-function ShortBuilder({ albumSlug, track, shortTrim, onShortTrimChange }: {
-  albumSlug: string;
-  track: AlbumTrack;
-  shortTrim: number;
-  onShortTrimChange: (v: number) => void;
-}) {
-  const [step, setStep] = useState<"idle" | "images" | "runway" | "shotstack">("idle");
-  const [images, setImages] = useState<ShortImage[]>([]);
-  const [regeneratingIdx, setRegeneratingIdx] = useState<number | null>(null);
-  const [clipDuration, setClipDuration] = useState(5); // seconds per clip
-  const [fullSong, setFullSong] = useState(false); // use entire track duration
-  const [runwayProgress, setRunwayProgress] = useState("");
-  const [shotstackProgress, setShotstackProgress] = useState("");
-  const [resultUrl, setResultUrl] = useState<string | null>(null);
-  const [error, setError] = useState<string | null>(null);
-
-  const fmtTime = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
-
-  // Calculate total duration and number of clips needed
-  const totalSecs = fullSong ? track.durationSeconds : 30;
-  const numClips = Math.ceil(totalSecs / clipDuration);
-  const numAiImages = Math.min(Math.ceil(numClips * 0.67), 4); // ~2/3 AI, rest Loranne, max 4 per batch
-  const numLoranneImages = numClips - numAiImages;
-
-  // Step 1: Generate AI images + Loranne poses → preview grid
-  async function generateImages() {
-    setError(null);
-    setStep("images");
-    setImages([]);
-    try {
-      const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
-      if (!alb) throw new Error("Album nao encontrado");
-
-      // Generate AI images (max 4 per fal.ai request)
-      const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ caption: track.description, numImages: Math.min(numAiImages, 4) }),
-      });
-      const aiData = await aiRes.json();
-      if (!aiRes.ok || !aiData.imageUrls?.length) throw new Error(`fal.ai: ${aiData.erro || "sem imagens"}`);
-
-      // Get Loranne poses
-      const loranneImgs = pickLorannImages(albumSlug, track.number, Math.max(numLoranneImages, 2));
-
-      // Build interleaved layout: Loranne, AI, AI, Loranne, AI, AI, ...
-      const built: ShortImage[] = [];
-      let aiIdx = 0;
-      let lIdx = 0;
-      for (let i = 0; i < numClips; i++) {
-        if (i % 3 === 0 && lIdx < loranneImgs.length) {
-          built.push({ url: loranneImgs[lIdx++], isLoranne: true });
-        } else {
-          const url = aiData.imageUrls[aiIdx % aiData.imageUrls.length];
-          built.push({ url });
-          aiIdx++;
-        }
-      }
-      setImages(built);
-    } catch (err) {
-      setError((err as Error).message);
-      setStep("idle");
-    }
-  }
-
-  // Regenerate a single AI image slot
-  async function regenerateSlot(idx: number) {
-    setRegeneratingIdx(idx);
-    try {
-      const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ caption: track.description, numImages: 1 }),
-      });
-      const aiData = await aiRes.json();
-      if (aiRes.ok && aiData.imageUrls?.[0]) {
-        setImages(prev => prev.map((img, i) => i === idx ? { url: aiData.imageUrls[0] } : img));
-      }
-    } catch { /* ignore */ }
-    setRegeneratingIdx(null);
-  }
-
-  // Step 2: Send approved images to Runway
-  async function sendToRunway() {
-    setError(null);
-    setStep("runway");
-    setRunwayProgress("A enviar para Runway...");
-    try {
-      // Convert Loranne local paths to base64
-      const imageInputs: { imageUrl?: string; imageBase64?: string }[] = [];
-      for (const img of images) {
-        if (img.isLoranne) {
-          try {
-            const res = await fetch(img.url);
-            if (res.ok) {
-              const blob = await res.blob();
-              const b64 = await new Promise<string>((resolve, reject) => {
-                const reader = new FileReader();
-                reader.onloadend = () => resolve(reader.result as string);
-                reader.onerror = reject;
-                reader.readAsDataURL(blob);
-              });
-              imageInputs.push({ imageBase64: b64 });
-            } else {
-              imageInputs.push({ imageUrl: `${window.location.origin}${img.url}` });
-            }
-          } catch { imageInputs.push({ imageUrl: `${window.location.origin}${img.url}` }); }
-        } else {
-          imageInputs.push({ imageUrl: img.url });
-        }
-      }
-
-      // Submit all to Runway in parallel
-      const runwayResults = await Promise.all(imageInputs.map(async (imgPayload, idx) => {
-        const clipTrackNum = track.number * 100 + idx + 1;
-        const res = await adminFetch("/api/admin/runway/generate", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            albumSlug,
-            trackNumber: clipTrackNum,
-            ...imgPayload,
-            promptText: RUNWAY_PROMPTS[idx % RUNWAY_PROMPTS.length],
-            duration: clipDuration,
-            ratio: "1080:1920",
-          }),
-        });
-        return { ...(await res.json()), clipTrackNum };
-      }));
-
-      // Poll all Runway tasks
-      const clipUrls: string[] = [];
-      for (let idx = 0; idx < runwayResults.length; idx++) {
-        const rd = runwayResults[idx];
-        if (rd.status === "exists" && rd.videoUrl) { clipUrls.push(rd.videoUrl); continue; }
-        if (!rd.taskId) { console.warn(`Clip ${idx + 1}: sem taskId`); continue; }
-        const params = new URLSearchParams({ taskId: rd.taskId, album: albumSlug, track: String(rd.clipTrackNum) });
-        let found = false;
-        for (let i = 0; i < 120; i++) {
-          await new Promise(r => setTimeout(r, 3000));
-          const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
-          const sData = await sRes.json();
-          if (sData.status === "complete" && sData.videoUrl) { clipUrls.push(sData.videoUrl); found = true; break; }
-          if (sData.status === "error") break;
-          setRunwayProgress(`Clip ${idx + 1}/${images.length} — ${Math.min(Math.round(i * 1.2), 95)}%`);
-        }
-        if (!found) console.warn(`Clip ${idx + 1} nao disponivel`);
-      }
-      if (clipUrls.length < 4) throw new Error(`Apenas ${clipUrls.length} clip(s). Minimo 4.`);
-
-      // Step 3: Shotstack
-      setStep("shotstack");
-      setShotstackProgress("A montar Short...");
-
-      const clipChecks = await Promise.all(clipUrls.map(url => fetch(url, { method: "HEAD" }).then(r => r.ok).catch(() => false)));
-      if (clipChecks.some(ok => !ok)) throw new Error("Clips inacessiveis");
-
-      const sbUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-      const audioUrl = `${sbUrl}/storage/v1/object/public/audios/albums/${albumSlug.replace(/[^a-z0-9-]/g, "")}/faixa-${String(track.number).padStart(2, "0")}.mp3`;
-
-      const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
-      // Extract a verse from lyrics
-      const verse = (() => {
-        if (!track.lyrics) return "";
-        const lines = track.lyrics.split("\n").filter((l: string) => { const tr = l.trim(); return tr.length > 15 && tr.length < 80 && !tr.startsWith("["); });
-        return lines.slice(0, 3).map((l: string) => l.trim()).join("\n") || "";
-      })();
-
-      const shotRes = await adminFetch("/api/admin/shotstack/render", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ clipUrls, audioUrl, audioTrim: fullSong ? 0 : shortTrim, clipDuration, verse, trackTitle: track.title, albumTitle: alb?.title || "" }),
-      });
-      const shotData = await shotRes.json();
-      if (!shotRes.ok || !shotData.id) throw new Error(`Shotstack: ${shotData.erro || "falhou"}`);
-
-      for (let i = 0; i < 120; i++) {
-        await new Promise(r => setTimeout(r, 3000));
-        const sRes = await adminFetch(`/api/admin/shotstack/status?id=${shotData.id}`);
-        const sData = await sRes.json();
-        if (sData.status === "done" && sData.videoUrl) { setResultUrl(sData.videoUrl); break; }
-        if (sData.status === "failed") throw new Error("Render falhou");
-        setShotstackProgress(`Render ${Math.min(Math.round(i * 1.2), 95)}%`);
-      }
-      setStep("idle");
-    } catch (err) {
-      setError((err as Error).message);
-      setStep("images"); // Go back to image review
-    }
-  }
-
-  return (
-    <div className="mt-2 rounded-lg border border-mundo-muted-dark/20 bg-mundo-bg/30 p-3">
-      <div className="flex items-center justify-between mb-2">
-        <span className="text-[10px] uppercase tracking-wider text-mundo-muted font-semibold">Short Builder</span>
-        {resultUrl && (
-          <a href={resultUrl} download={`Short-${track.title}.mp4`} className="text-[10px] text-green-400 hover:underline">
-            Descarregar Short
-          </a>
-        )}
-      </div>
-
-      {/* Clip duration + full song toggle */}
-      <div className="flex flex-wrap items-center gap-3 mb-2">
-        <div className="flex items-center gap-1.5">
-          <label className="text-[10px] text-mundo-muted">Clip:</label>
-          {[5, 10].map(d => (
-            <button key={d} onClick={() => setClipDuration(d)} className={`rounded px-2 py-0.5 text-[10px] transition ${clipDuration === d ? "bg-violet-900/40 text-violet-400" : "text-mundo-muted hover:text-mundo-creme"}`}>
-              {d}s
-            </button>
-          ))}
-        </div>
-        <label className="flex items-center gap-1.5 cursor-pointer">
-          <input type="checkbox" checked={fullSong} onChange={(e) => setFullSong(e.target.checked)} className="accent-violet-500" />
-          <span className="text-[10px] text-mundo-muted">Musica inteira ({fmtTime(track.durationSeconds)})</span>
-        </label>
-        <span className="text-[10px] text-mundo-muted-dark">
-          = {numClips} clips × {clipDuration}s = {fmtTime(numClips * clipDuration)}
-        </span>
-      </div>
-
-      {/* Audio trim selector (hidden if full song) */}
-      {!fullSong && (
-        <div className="flex items-center gap-2 mb-3">
-          <label className="text-[10px] text-mundo-muted whitespace-nowrap">Inicio:</label>
-          <input
-            type="text"
-            value={fmtTime(shortTrim)}
-            onChange={(e) => {
-              const m = e.target.value.match(/^(\d+):(\d{0,2})$/);
-              if (m) onShortTrimChange(Math.max(0, Math.min(parseInt(m[1]) * 60 + parseInt(m[2] || "0"), track.durationSeconds - 30)));
-            }}
-            className="w-14 rounded border border-mundo-muted-dark/30 bg-mundo-bg px-2 py-1 text-xs text-mundo-creme text-center font-mono focus:border-violet-500 focus:outline-none"
-          />
-          <input
-            type="range" min={0} max={Math.max(0, track.durationSeconds - 30)} value={shortTrim}
-            onChange={(e) => onShortTrimChange(Number(e.target.value))}
-            className="flex-1 h-1 appearance-none rounded-full bg-mundo-muted-dark/30 cursor-pointer accent-violet-500"
-          />
-          <span className="text-[10px] text-mundo-muted font-mono shrink-0">
-            {fmtTime(shortTrim)}–{fmtTime(shortTrim + 30)}
-          </span>
-        </div>
-      )}
-
-      {error && <p className="text-[10px] text-red-400 mb-2">{error}</p>}
-
-      {/* Step 1: Generate or show image grid */}
-      {images.length === 0 && step === "idle" && (
-        <button
-          onClick={generateImages}
-          className="rounded px-4 py-2 text-xs font-medium bg-violet-900/30 text-violet-400 hover:bg-violet-900/50 transition"
-        >
-          1. Gerar imagens
-        </button>
-      )}
-
-      {step === "images" && images.length === 0 && (
-        <p className="text-xs text-mundo-muted animate-pulse">A gerar imagens com fal.ai...</p>
-      )}
-
-      {/* Image preview grid */}
-      {images.length > 0 && (
-        <div>
-          <p className="text-[10px] text-mundo-muted mb-2">Revisa as imagens. Clica para regenerar uma imagem IA.</p>
-          <div className="grid grid-cols-6 gap-1.5 mb-3">
-            {images.map((img, idx) => (
-              <div key={idx} className="relative group">
-                <img
-                  src={img.isLoranne ? img.url : `/api/admin/proxy-image?url=${encodeURIComponent(img.url)}`}
-                  alt={`Slot ${idx + 1}`}
-                  className={`w-full aspect-[9/16] object-cover rounded-lg ${regeneratingIdx === idx ? "opacity-30 animate-pulse" : ""}`}
-                />
-                <div className="absolute top-0.5 left-0.5 text-[8px] px-1 rounded bg-black/60 text-white">
-                  {idx + 1}{img.isLoranne ? " L" : ""}
-                </div>
-                {!img.isLoranne && step === "images" && (
-                  <button
-                    onClick={() => regenerateSlot(idx)}
-                    disabled={regeneratingIdx !== null}
-                    className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg"
-                  >
-                    <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" className="h-5 w-5">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                    </svg>
-                  </button>
-                )}
-              </div>
-            ))}
-          </div>
-
-          {step === "images" && (
-            <div className="flex items-center gap-2">
-              <button
-                onClick={sendToRunway}
-                className="rounded px-4 py-2 text-xs font-medium bg-green-900/30 text-green-400 hover:bg-green-900/50 transition"
-              >
-                2. Aprovar e gerar clips
-              </button>
-              <button
-                onClick={generateImages}
-                className="rounded px-3 py-2 text-xs text-mundo-muted hover:text-mundo-creme transition"
-              >
-                Regenerar todas
-              </button>
-              <button
-                onClick={() => { setImages([]); setStep("idle"); }}
-                className="rounded px-3 py-2 text-xs text-red-400/60 hover:text-red-400 transition"
-              >
-                Cancelar
-              </button>
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* Step 2: Runway progress */}
-      {step === "runway" && (
-        <p className="text-xs text-amber-400 animate-pulse">{runwayProgress}</p>
-      )}
-
-      {/* Step 3: Shotstack progress */}
-      {step === "shotstack" && (
-        <p className="text-xs text-violet-400 animate-pulse">{shotstackProgress}</p>
-      )}
-
-      {/* Result video */}
-      {resultUrl && (
-        <div className="mt-3" style={{ maxWidth: "240px" }}>
-          <video src={resultUrl} controls playsInline muted loop className="w-full rounded-lg" style={{ maxHeight: "160px" }} />
-        </div>
-      )}
-    </div>
-  );
-}
 
 function TrackRow({
   track,
@@ -958,8 +608,6 @@ function TrackRow({
   onFlavorChange,
   isAlbumCover,
   onSetAlbumCover,
-  shortTrim,
-  onShortTrimChange,
 }: {
   track: AlbumTrack;
   albumSlug: string;
@@ -988,8 +636,6 @@ function TrackRow({
   onFlavorChange: (flavor: TrackFlavor) => void;
   isAlbumCover: boolean;
   onSetAlbumCover: () => void;
-  shortTrim: number;
-  onShortTrimChange: (v: number) => void;
 }) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [showLyrics, setShowLyrics] = useState(false);
@@ -1574,8 +1220,14 @@ function TrackRow({
             {reelType === "status" ? "Reel Status" : "Reel Insta"}
           </button>
           ))}
-          {/* ═══ SHORT BUILDER ═══ */}
-          <ShortBuilder albumSlug={albumSlug} track={track} shortTrim={shortTrim} onShortTrimChange={onShortTrimChange} />
+          {/* Short — link to dedicated page */}
+          <Link
+            href={`/admin/shorts`}
+            className="shrink-0 rounded px-3 py-2 text-xs font-medium bg-violet-900/30 text-violet-400 hover:bg-violet-900/50"
+          >
+            Shorts
+          </Link>
+          <div id={`reel-result-${albumSlug}-${track.number}`} style={{ maxWidth: "240px" }}></div>
         </div>
       </div>
     </div>
@@ -1597,7 +1249,6 @@ export default function AlbumProductionPage() {
   const [editedFlavors, setEditedFlavors] = useState<Record<string, TrackFlavor>>({});
   const lyricsSaveRef = useRef<Record<string, NodeJS.Timeout>>({});
   const [trackVersions, setTrackVersions] = useState<Record<string, VersionInfo[]>>({}); // key → versions
-  const [shortTrims, setShortTrims] = useState<Record<string, number>>({}); // key → audio start seconds
   const [sunoModel, setSunoModel] = useState("V5_5");
   const [personaId, setPersonaId] = useState<string>("");
   const [personaName, setPersonaName] = useState<string>("");
@@ -2225,6 +1876,13 @@ export default function AlbumProductionPage() {
             </button>
 
             <Link
+              href="/admin/shorts"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-violet-900/30 px-4 py-2.5 text-xs min-h-[44px] text-violet-400 hover:bg-violet-900/50 transition flex items-center"
+            >
+              Shorts
+            </Link>
+
+            <Link
               href="/admin/calendario"
               className="shrink-0 whitespace-nowrap rounded-lg bg-blue-900/30 px-4 py-2.5 text-xs min-h-[44px] text-blue-400 hover:bg-blue-900/50 transition flex items-center"
             >
@@ -2691,8 +2349,6 @@ export default function AlbumProductionPage() {
                       const ok = await setCoverTrack(album.slug, track.number);
                       if (ok) alert(`Capa do álbum → faixa ${track.number}`);
                     }}
-                    shortTrim={shortTrims[key] ?? 30}
-                    onShortTrimChange={(v) => setShortTrims((s) => ({ ...s, [key]: v }))}
                   />
                 );
               })}
