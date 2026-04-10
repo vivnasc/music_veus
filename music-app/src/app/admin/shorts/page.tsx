@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import {
   ALL_ALBUMS,
@@ -22,9 +22,10 @@ type ShortState = {
   albumSlug: string;
   trackNumber: number;
   images: ShortImage[];
-  clipDuration: number;
+  clipDuration: number;       // seconds per video clip (5 or 10)
+  audioStart: number;         // audio start point in seconds
+  audioEnd: number;           // audio end point in seconds
   fullSong: boolean;
-  audioTrim: number;
   step: "idle" | "images" | "runway" | "shotstack";
   resultUrl: string | null;
 };
@@ -62,6 +63,8 @@ export default function ShortsPage() {
   const [progress, setProgress] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
+  const [previewPlaying, setPreviewPlaying] = useState(false);
+  const previewRef = useRef<HTMLAudioElement | null>(null);
 
   // Persist on change
   useEffect(() => {
@@ -84,8 +87,8 @@ export default function ShortsPage() {
     a.tracks.some(t => publishedKeys.has(`${a.slug}-t${t.number}`))
   );
 
-  const totalSecs = state.fullSong && track ? track.durationSeconds : 30;
-  const numClips = Math.ceil(totalSecs / state.clipDuration);
+  const audioDuration = state.fullSong && track ? track.durationSeconds : Math.max(5, state.audioEnd - state.audioStart);
+  const numClips = Math.max(1, Math.ceil(audioDuration / state.clipDuration));
   const numAiImages = Math.min(Math.ceil(numClips * 0.67), 4);
 
   function update(partial: Partial<ShortState>) {
@@ -228,7 +231,7 @@ export default function ShortsPage() {
         body: JSON.stringify({
           clipUrls,
           audioUrl,
-          audioTrim: state.fullSong ? 0 : state.audioTrim,
+          audioTrim: state.fullSong ? 0 : state.audioStart,
           clipDuration: state.clipDuration,
           verse,
           trackTitle: track.title,
@@ -252,243 +255,259 @@ export default function ShortsPage() {
     }
   }
 
-  // ─────── Render ───────
+  const albumColor = album?.color || "#C9A96E";
+  const coverUrl = album ? `/api/music/stream?album=${album.slug}&track=${state.trackNumber}&type=cover` : "";
+  const audioSrc = album ? `/api/music/stream?album=${album.slug}&track=${state.trackNumber}` : "";
+  const isWorking = state.step === "runway" || state.step === "shotstack";
 
   return (
-    <div className="min-h-screen bg-mundo-bg">
-      {/* Header */}
-      <div className="border-b border-mundo-muted-dark/30 bg-mundo-bg-light/50">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 py-6">
-          <div className="flex items-center gap-4 mb-4">
-            <Link href="/admin/producao" className="text-sm text-mundo-muted hover:text-mundo-creme">← Producao</Link>
-            <Link href="/admin/calendario" className="text-sm text-mundo-muted hover:text-mundo-creme">Calendario</Link>
+    <div className="min-h-screen bg-[#0D0D1A]">
+      {/* ── Hero header with album art ── */}
+      <div className="relative overflow-hidden">
+        {album && (
+          <>
+            <div className="absolute inset-0">
+              <img src={coverUrl} alt="" className="w-full h-full object-cover blur-[60px] scale-125 opacity-20" />
+              <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D1A]/60 to-[#0D0D1A]" />
+            </div>
+          </>
+        )}
+        <div className="relative max-w-3xl mx-auto px-5 pt-5 pb-6">
+          <div className="flex items-center gap-4 text-xs text-[#666680] mb-5">
+            <Link href="/admin/producao" className="hover:text-[#a0a0b0] transition">← Producao</Link>
+            <Link href="/admin/calendario" className="hover:text-[#a0a0b0] transition">Calendario</Link>
+            <Link href="/admin/lora" className="hover:text-[#a0a0b0] transition">LoRA</Link>
           </div>
-          <h1 className="font-display text-2xl text-mundo-creme">Shorts</h1>
-          <p className="mt-1 text-sm text-mundo-muted">Pipeline de producao de video clips musicais</p>
+
+          <div className="flex items-start gap-5">
+            {/* Cover art */}
+            {album && (
+              <div className="w-20 h-20 sm:w-28 sm:h-28 rounded-xl overflow-hidden shrink-0 shadow-xl ring-1 ring-white/10">
+                <img src={coverUrl} alt="" className="w-full h-full object-cover" onError={e => { (e.target as HTMLImageElement).style.display = "none"; }} />
+              </div>
+            )}
+            <div className="min-w-0 flex-1">
+              <p className="text-[10px] uppercase tracking-[0.15em] text-[#C9A96E]">Shorts</p>
+              <h1 className="font-display text-xl sm:text-2xl text-[#F5F0E6] mt-0.5 truncate">
+                {track ? track.title : "Selecciona uma faixa"}
+              </h1>
+              {album && <p className="text-xs text-[#666680] mt-1">{album.title} — Loranne</p>}
+              {track && <p className="text-xs text-[#a0a0b0] mt-1 line-clamp-1">{track.description}</p>}
+            </div>
+          </div>
+
+          {/* Track selectors — inline, compact */}
+          <div className="flex gap-2 mt-4">
+            <select
+              value={state.albumSlug}
+              onChange={e => update({ albumSlug: e.target.value, trackNumber: 1, images: [], resultUrl: null, step: "idle" })}
+              className="flex-1 min-w-0 rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-xs text-[#F5F0E6] focus:border-[#C9A96E]/50 focus:outline-none backdrop-blur"
+            >
+              <option value="" className="bg-[#0D0D1A]">Album...</option>
+              {publishedAlbums.map(a => (
+                <option key={a.slug} value={a.slug} className="bg-[#0D0D1A]">{a.title}</option>
+              ))}
+            </select>
+            <select
+              value={state.trackNumber}
+              onChange={e => update({ trackNumber: parseInt(e.target.value), images: [], resultUrl: null, step: "idle" })}
+              className="flex-1 min-w-0 rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-xs text-[#F5F0E6] focus:border-[#C9A96E]/50 focus:outline-none backdrop-blur"
+              disabled={!album}
+            >
+              {album?.tracks
+                .filter(t => publishedKeys.has(`${album.slug}-t${t.number}`))
+                .map(t => (
+                  <option key={t.number} value={t.number} className="bg-[#0D0D1A]">
+                    {String(t.number).padStart(2, "0")}. {t.title} ({fmtTime(t.durationSeconds)})
+                  </option>
+                ))}
+            </select>
+          </div>
         </div>
       </div>
 
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
-        {/* ═══ Track Selector ═══ */}
-        <div className="rounded-xl border border-mundo-muted-dark/30 bg-mundo-bg-light p-5 mb-6">
-          <h2 className="text-sm font-semibold text-mundo-muted uppercase tracking-wider mb-3">1. Escolher faixa</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div>
-              <label className="text-[10px] text-mundo-muted uppercase tracking-wider">Album</label>
-              <select
-                value={state.albumSlug}
-                onChange={e => update({ albumSlug: e.target.value, trackNumber: 1, images: [], resultUrl: null, step: "idle" })}
-                className="mt-1 w-full rounded-lg border border-mundo-muted-dark/30 bg-mundo-bg px-3 py-2 text-sm text-mundo-creme focus:border-violet-500 focus:outline-none"
-              >
-                <option value="">Seleccionar album...</option>
-                {publishedAlbums.map(a => (
-                  <option key={a.slug} value={a.slug}>{a.title} ({a.tracks.length} faixas)</option>
-                ))}
-              </select>
+      {/* ── Main content ── */}
+      {track && (
+        <div className="max-w-3xl mx-auto px-5 pb-20 space-y-4">
+
+          {/* Settings bar — compact horizontal */}
+          <div className="flex flex-wrap items-center gap-3 rounded-xl bg-[#1A1A2E]/80 px-4 py-3">
+            <div className="flex items-center gap-1.5">
+              {[5, 10].map(d => (
+                <button key={d} onClick={() => update({ clipDuration: d, images: [], step: "idle" })} className={`rounded-full px-3 py-1 text-[11px] font-medium transition ${state.clipDuration === d ? "text-white shadow" : "text-[#666680] hover:text-[#a0a0b0]"}`} style={state.clipDuration === d ? { backgroundColor: `${albumColor}40` } : {}}>
+                  {d}s
+                </button>
+              ))}
             </div>
-            <div>
-              <label className="text-[10px] text-mundo-muted uppercase tracking-wider">Faixa</label>
-              <select
-                value={state.trackNumber}
-                onChange={e => update({ trackNumber: parseInt(e.target.value), images: [], resultUrl: null, step: "idle" })}
-                className="mt-1 w-full rounded-lg border border-mundo-muted-dark/30 bg-mundo-bg px-3 py-2 text-sm text-mundo-creme focus:border-violet-500 focus:outline-none"
-                disabled={!album}
-              >
-                {album?.tracks
-                  .filter(t => publishedKeys.has(`${album.slug}-t${t.number}`))
-                  .map(t => (
-                    <option key={t.number} value={t.number}>
-                      {String(t.number).padStart(2, "0")}. {t.title} ({fmtTime(t.durationSeconds)})
-                    </option>
-                  ))}
-              </select>
-            </div>
+            <div className="w-px h-4 bg-white/10" />
+            <label className="flex items-center gap-1.5 cursor-pointer">
+              <input type="checkbox" checked={state.fullSong} onChange={e => update({ fullSong: e.target.checked, images: [], step: "idle" })} className="accent-[#C9A96E] w-3.5 h-3.5" />
+              <span className="text-[11px] text-[#a0a0b0]">Inteira</span>
+            </label>
+            <div className="w-px h-4 bg-white/10" />
+            <span className="text-[11px] text-[#666680] font-mono">{numClips} clips = {fmtTime(audioDuration)}</span>
           </div>
 
-          {track && (
-            <div className="mt-3 p-3 rounded-lg bg-mundo-bg/50">
-              <p className="text-sm text-mundo-creme font-medium">{track.title}</p>
-              <p className="text-xs text-mundo-muted mt-1">{track.description}</p>
-              {track.lyrics && (
-                <p className="text-[10px] text-mundo-muted-dark mt-2 italic line-clamp-2">{track.lyrics.split("\n").filter(l => l.trim() && !l.trim().startsWith("[")).slice(0, 2).join(" / ")}</p>
-              )}
+          {!state.fullSong && (
+            <div className="flex flex-wrap items-center gap-3 rounded-xl bg-[#1A1A2E]/80 px-4 py-3">
+              <span className="text-[11px] text-[#666680]">De</span>
+              <input
+                type="text"
+                value={fmtTime(state.audioStart)}
+                onChange={e => {
+                  const m = e.target.value.match(/^(\d+):(\d{0,2})$/);
+                  if (m) {
+                    const s = Math.max(0, Math.min(parseInt(m[1]) * 60 + parseInt(m[2] || "0"), state.audioEnd - 5));
+                    update({ audioStart: s });
+                  }
+                }}
+                className="w-12 rounded border border-white/10 bg-transparent px-1.5 py-1 text-[11px] text-[#F5F0E6] text-center font-mono focus:border-[#C9A96E]/50 focus:outline-none"
+              />
+              <span className="text-[11px] text-[#666680]">ate</span>
+              <input
+                type="text"
+                value={fmtTime(state.audioEnd)}
+                onChange={e => {
+                  const m = e.target.value.match(/^(\d+):(\d{0,2})$/);
+                  if (m) {
+                    const s = Math.max(state.audioStart + 5, Math.min(parseInt(m[1]) * 60 + parseInt(m[2] || "0"), track.durationSeconds));
+                    update({ audioEnd: s });
+                  }
+                }}
+                className="w-12 rounded border border-white/10 bg-transparent px-1.5 py-1 text-[11px] text-[#F5F0E6] text-center font-mono focus:border-[#C9A96E]/50 focus:outline-none"
+              />
+              <div className="flex-1 relative min-w-[150px] h-6 flex items-center">
+                <div className="absolute inset-x-0 h-1.5 rounded-full bg-white/10" />
+                <div className="absolute h-1.5 rounded-full" style={{ left: `${(state.audioStart / track.durationSeconds) * 100}%`, right: `${100 - (state.audioEnd / track.durationSeconds) * 100}%`, background: `${albumColor}60` }} />
+                <input
+                  type="range" min={0} max={Math.max(0, state.audioEnd - 5)} value={state.audioStart}
+                  onChange={e => update({ audioStart: Number(e.target.value) })}
+                  className="absolute inset-x-0 h-6 appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow"
+                />
+                <input
+                  type="range" min={Math.max(5, state.audioStart + 5)} max={track.durationSeconds} value={state.audioEnd}
+                  onChange={e => update({ audioEnd: Number(e.target.value) })}
+                  className="absolute inset-x-0 h-6 appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-[#C9A96E] [&::-webkit-slider-thumb]:shadow"
+                />
+              </div>
+              <span className="text-[10px] text-[#666680] font-mono shrink-0">{fmtTime(track.durationSeconds)}</span>
+              <button
+                onClick={() => {
+                  if (previewPlaying) {
+                    previewRef.current?.pause();
+                    setPreviewPlaying(false);
+                    return;
+                  }
+                  if (!previewRef.current) {
+                    previewRef.current = new Audio(audioSrc);
+                    previewRef.current.addEventListener("ended", () => setPreviewPlaying(false));
+                    previewRef.current.addEventListener("timeupdate", () => {
+                      if (previewRef.current && previewRef.current.currentTime >= state.audioEnd) {
+                        previewRef.current.pause();
+                        setPreviewPlaying(false);
+                      }
+                    });
+                  }
+                  previewRef.current.currentTime = state.audioStart;
+                  previewRef.current.play();
+                  setPreviewPlaying(true);
+                }}
+                className={`shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition ${previewPlaying ? "bg-white/20" : "bg-white/10 hover:bg-white/20"}`}
+              >
+                {previewPlaying ? (
+                  <svg viewBox="0 0 20 20" fill="currentColor" className="h-3 w-3 text-white"><rect x="5" y="4" width="3" height="12" rx="1"/><rect x="12" y="4" width="3" height="12" rx="1"/></svg>
+                ) : (
+                  <svg viewBox="0 0 20 20" fill="currentColor" className="h-3 w-3 text-white ml-0.5"><polygon points="6,3 17,10 6,17"/></svg>
+                )}
+              </button>
             </div>
           )}
-        </div>
-
-        {/* ═══ Settings ═══ */}
-        {track && (
-          <div className="rounded-xl border border-mundo-muted-dark/30 bg-mundo-bg-light p-5 mb-6">
-            <h2 className="text-sm font-semibold text-mundo-muted uppercase tracking-wider mb-3">2. Configurar</h2>
-
-            <div className="flex flex-wrap items-center gap-4 mb-4">
-              <div className="flex items-center gap-2">
-                <label className="text-xs text-mundo-muted">Duracao por clip:</label>
-                {[5, 10].map(d => (
-                  <button key={d} onClick={() => update({ clipDuration: d, images: [], step: "idle" })} className={`rounded-lg px-3 py-1.5 text-xs transition ${state.clipDuration === d ? "bg-violet-900/40 text-violet-400 ring-1 ring-violet-500/30" : "text-mundo-muted hover:text-mundo-creme bg-mundo-bg"}`}>
-                    {d}s
-                  </button>
-                ))}
-              </div>
-
-              <label className="flex items-center gap-2 cursor-pointer">
-                <input type="checkbox" checked={state.fullSong} onChange={e => update({ fullSong: e.target.checked, images: [], step: "idle" })} className="accent-violet-500 w-4 h-4" />
-                <span className="text-xs text-mundo-muted">Musica inteira ({fmtTime(track.durationSeconds)})</span>
-              </label>
-
-              <span className="text-xs text-mundo-muted-dark bg-mundo-bg px-3 py-1.5 rounded-lg">
-                {numClips} clips x {state.clipDuration}s = {fmtTime(numClips * state.clipDuration)}
-              </span>
-            </div>
-
-            {!state.fullSong && (
-              <div className="flex items-center gap-3">
-                <label className="text-xs text-mundo-muted whitespace-nowrap">Audio inicio:</label>
-                <input
-                  type="text"
-                  value={fmtTime(state.audioTrim)}
-                  onChange={e => {
-                    const m = e.target.value.match(/^(\d+):(\d{0,2})$/);
-                    if (m) update({ audioTrim: Math.max(0, Math.min(parseInt(m[1]) * 60 + parseInt(m[2] || "0"), track.durationSeconds - 30)) });
-                  }}
-                  className="w-16 rounded-lg border border-mundo-muted-dark/30 bg-mundo-bg px-2 py-1.5 text-xs text-mundo-creme text-center font-mono focus:border-violet-500 focus:outline-none"
-                />
-                <input
-                  type="range" min={0} max={Math.max(0, track.durationSeconds - 30)} value={state.audioTrim}
-                  onChange={e => update({ audioTrim: Number(e.target.value) })}
-                  className="flex-1 h-1.5 appearance-none rounded-full bg-mundo-muted-dark/30 cursor-pointer accent-violet-500"
-                />
-                <span className="text-xs text-mundo-muted font-mono shrink-0">
-                  {fmtTime(state.audioTrim)} — {fmtTime(state.audioTrim + 30)}
-                </span>
-              </div>
-            )}
           </div>
-        )}
 
-        {/* ═══ Image Generation ═══ */}
-        {track && (
-          <div className="rounded-xl border border-mundo-muted-dark/30 bg-mundo-bg-light p-5 mb-6">
-            <h2 className="text-sm font-semibold text-mundo-muted uppercase tracking-wider mb-3">3. Imagens</h2>
+          {error && <div className="rounded-xl bg-red-900/20 border border-red-500/20 px-4 py-3 text-xs text-red-400">{error}</div>}
 
-            {error && <p className="text-xs text-red-400 mb-3 p-2 rounded-lg bg-red-900/10">{error}</p>}
+          {/* ── Images grid ── */}
+          {state.images.length === 0 && state.step === "idle" && !state.resultUrl && (
+            <button
+              onClick={generateImages}
+              className="w-full rounded-xl py-4 text-sm font-medium text-white transition hover:scale-[1.01] active:scale-[0.99]"
+              style={{ background: `linear-gradient(135deg, ${albumColor}80, ${albumColor}30)` }}
+            >
+              Gerar {numClips} imagens
+            </button>
+          )}
 
-            {state.images.length === 0 && state.step === "idle" && (
-              <button
-                onClick={generateImages}
-                className="rounded-lg px-5 py-2.5 text-sm font-medium bg-violet-600 text-white hover:bg-violet-700 transition"
-              >
-                Gerar {numClips} imagens
-              </button>
-            )}
+          {state.step === "images" && state.images.length === 0 && (
+            <div className="flex items-center justify-center gap-3 py-8 rounded-xl bg-[#1A1A2E]/50">
+              <div className="w-5 h-5 border-2 border-t-transparent rounded-full animate-spin" style={{ borderColor: `${albumColor}60`, borderTopColor: "transparent" }} />
+              <p className="text-sm text-[#a0a0b0]">A gerar imagens...</p>
+            </div>
+          )}
 
-            {state.step === "images" && state.images.length === 0 && (
-              <div className="flex items-center gap-3 py-4">
-                <div className="w-5 h-5 border-2 border-violet-400 border-t-transparent rounded-full animate-spin" />
-                <p className="text-sm text-mundo-muted">A gerar imagens com fal.ai...</p>
-              </div>
-            )}
-
-            {state.images.length > 0 && (
-              <div>
-                <p className="text-xs text-mundo-muted mb-3">Clica numa imagem IA para regenerar. Imagens com <span className="text-amber-400">L</span> sao poses Loranne.</p>
-                <div className={`grid gap-2 mb-4 ${state.images.length <= 6 ? "grid-cols-6" : state.images.length <= 9 ? "grid-cols-6 sm:grid-cols-9" : "grid-cols-6 sm:grid-cols-8"}`}>
-                  {state.images.map((img, idx) => (
-                    <div key={idx} className="relative group">
-                      <img
-                        src={img.isLoranne ? img.url : `/api/admin/proxy-image?url=${encodeURIComponent(img.url)}`}
-                        alt={`Slot ${idx + 1}`}
-                        className={`w-full aspect-[9/16] object-cover rounded-lg border border-mundo-muted-dark/20 ${regeneratingIdx === idx ? "opacity-30 animate-pulse" : ""}`}
-                      />
-                      <div className={`absolute top-1 left-1 text-[9px] px-1.5 py-0.5 rounded-full font-bold ${img.isLoranne ? "bg-amber-500/80 text-black" : "bg-black/60 text-white"}`}>
-                        {idx + 1}{img.isLoranne ? " L" : ""}
-                      </div>
-                      {!img.isLoranne && state.step === "images" && (
-                        <button
-                          onClick={() => regenerateSlot(idx)}
-                          disabled={regeneratingIdx !== null}
-                          className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg"
-                          title="Regenerar esta imagem"
-                        >
-                          <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" className="h-6 w-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                          </svg>
-                        </button>
-                      )}
-                    </div>
-                  ))}
-                </div>
-
+          {state.images.length > 0 && (
+            <div className="rounded-xl bg-[#1A1A2E]/50 p-4">
+              <div className="flex items-center justify-between mb-3">
+                <p className="text-[11px] text-[#666680]">Clica para regenerar. <span className="text-[#C9A96E]">L</span> = Loranne</p>
                 {state.step === "images" && (
-                  <div className="flex flex-wrap items-center gap-3">
-                    <button onClick={sendToRunway} className="rounded-lg px-5 py-2.5 text-sm font-medium bg-green-600 text-white hover:bg-green-700 transition">
-                      Aprovar e gerar clips ({state.images.length} clips)
-                    </button>
-                    <button onClick={generateImages} className="rounded-lg px-4 py-2.5 text-sm text-mundo-muted hover:text-mundo-creme bg-mundo-bg hover:bg-mundo-muted-dark/20 transition">
-                      Regenerar todas
-                    </button>
-                    <button onClick={() => update({ images: [], step: "idle" })} className="rounded-lg px-4 py-2.5 text-sm text-red-400/60 hover:text-red-400 transition">
-                      Limpar
-                    </button>
+                  <div className="flex items-center gap-2">
+                    <button onClick={generateImages} className="text-[11px] text-[#666680] hover:text-[#a0a0b0] transition">Todas de novo</button>
+                    <button onClick={() => update({ images: [], step: "idle" })} className="text-[11px] text-red-400/50 hover:text-red-400 transition">Limpar</button>
                   </div>
                 )}
               </div>
-            )}
-
-            {/* Runway progress */}
-            {state.step === "runway" && (
-              <div className="flex items-center gap-3 py-4">
-                <div className="w-5 h-5 border-2 border-amber-400 border-t-transparent rounded-full animate-spin" />
-                <p className="text-sm text-amber-400">{progress}</p>
+              <div className="flex gap-1.5 overflow-x-auto scrollbar-none pb-1">
+                {state.images.map((img, idx) => (
+                  <div key={idx} className="relative group shrink-0" style={{ width: `${Math.max(100 / Math.min(state.images.length, 8), 10)}%`, minWidth: "60px" }}>
+                    <img
+                      src={img.isLoranne ? img.url : `/api/admin/proxy-image?url=${encodeURIComponent(img.url)}`}
+                      alt=""
+                      className={`w-full aspect-[9/16] object-cover rounded-lg ring-1 ring-white/10 ${regeneratingIdx === idx ? "opacity-30 animate-pulse" : ""}`}
+                    />
+                    <div className={`absolute top-1 left-1 text-[8px] px-1 py-0.5 rounded font-bold ${img.isLoranne ? "bg-[#C9A96E]/90 text-[#0D0D1A]" : "bg-black/70 text-white/80"}`}>
+                      {idx + 1}{img.isLoranne ? " L" : ""}
+                    </div>
+                    {!img.isLoranne && state.step === "images" && (
+                      <button onClick={() => regenerateSlot(idx)} disabled={regeneratingIdx !== null} className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition rounded-lg">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" className="h-5 w-5"><path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+                      </button>
+                    )}
+                  </div>
+                ))}
               </div>
-            )}
+              {state.step === "images" && (
+                <button onClick={sendToRunway} className="mt-3 w-full rounded-lg py-3 text-sm font-medium text-white transition hover:brightness-110" style={{ background: `linear-gradient(135deg, #22c55e90, #16a34a90)` }}>
+                  Aprovar → gerar {state.images.length} clips
+                </button>
+              )}
+            </div>
+          )}
 
-            {/* Shotstack progress */}
-            {state.step === "shotstack" && (
-              <div className="flex items-center gap-3 py-4">
-                <div className="w-5 h-5 border-2 border-violet-400 border-t-transparent rounded-full animate-spin" />
-                <p className="text-sm text-violet-400">{progress}</p>
+          {/* Progress */}
+          {isWorking && (
+            <div className="flex items-center gap-3 rounded-xl bg-[#1A1A2E]/80 px-4 py-4">
+              <div className="w-5 h-5 border-2 border-t-transparent rounded-full animate-spin" style={{ borderColor: state.step === "runway" ? "#f59e0b60" : `${albumColor}60`, borderTopColor: "transparent" }} />
+              <p className="text-sm" style={{ color: state.step === "runway" ? "#f59e0b" : albumColor }}>{progress}</p>
+            </div>
+          )}
+
+          {/* ── Result ── */}
+          {state.resultUrl && (
+            <div className="rounded-xl overflow-hidden ring-1 ring-[#C9A96E]/20">
+              <div className="bg-gradient-to-r from-[#C9A96E]/10 to-transparent px-4 py-2.5 flex items-center justify-between">
+                <span className="text-xs font-semibold text-[#C9A96E]">Short pronto</span>
+                <button onClick={() => update({ images: [], resultUrl: null, step: "idle" })} className="text-[11px] text-[#666680] hover:text-[#a0a0b0]">Novo</button>
               </div>
-            )}
-          </div>
-        )}
-
-        {/* ═══ Result ═══ */}
-        {state.resultUrl && (
-          <div className="rounded-xl border border-green-500/30 bg-green-900/10 p-5">
-            <h2 className="text-sm font-semibold text-green-400 uppercase tracking-wider mb-3">Short pronto</h2>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <video src={state.resultUrl} controls playsInline muted loop className="rounded-lg max-h-[300px]" />
-              <div className="flex flex-col gap-2">
-                <a
-                  href={state.resultUrl}
-                  download={`Short-${track?.title || "video"}.mp4`}
-                  className="rounded-lg px-4 py-2.5 text-sm font-medium bg-green-600 text-white hover:bg-green-700 transition text-center"
-                >
-                  Descarregar
-                </a>
-                <button
-                  onClick={() => {
-                    if (navigator.share) {
-                      const title = `${track?.title || ""} — Loranne`;
-                      navigator.share({ title, text: `${title}\nmusic.seteveus.space`, url: state.resultUrl! }).catch(() => {});
-                    }
-                  }}
-                  className="rounded-lg px-4 py-2.5 text-sm text-mundo-creme bg-mundo-bg hover:bg-mundo-muted-dark/20 transition text-center"
-                >
-                  Partilhar
-                </button>
-                <button
-                  onClick={() => update({ images: [], resultUrl: null, step: "idle" })}
-                  className="rounded-lg px-4 py-2.5 text-sm text-mundo-muted hover:text-mundo-creme transition text-center"
-                >
-                  Novo Short
-                </button>
+              <div className="flex flex-col sm:flex-row">
+                <video src={state.resultUrl} controls playsInline muted loop className="sm:max-w-[280px] bg-black" />
+                <div className="flex sm:flex-col gap-2 p-3">
+                  <a href={state.resultUrl} download={`Short-${track.title}.mp4`} className="flex-1 sm:flex-initial rounded-lg px-4 py-2.5 text-xs font-medium bg-[#C9A96E] text-[#0D0D1A] hover:bg-[#d4b87a] transition text-center">Descarregar</a>
+                  <button onClick={() => { if (navigator.share) navigator.share({ title: `${track.title} — Loranne`, url: state.resultUrl! }).catch(() => {}); }} className="flex-1 sm:flex-initial rounded-lg px-4 py-2.5 text-xs text-[#a0a0b0] border border-white/10 hover:bg-white/5 transition text-center">Partilhar</button>
+                </div>
               </div>
             </div>
-          </div>
-        )}
-      </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -499,8 +518,9 @@ function defaultState(): ShortState {
     trackNumber: 1,
     images: [],
     clipDuration: 5,
+    audioStart: 30,
+    audioEnd: 60,
     fullSong: false,
-    audioTrim: 30,
     step: "idle",
     resultUrl: null,
   };
