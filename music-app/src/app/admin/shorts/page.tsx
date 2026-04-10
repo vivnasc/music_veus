@@ -202,7 +202,7 @@ export default function ShortsPage() {
       for (let idx = 0; idx < runwayResults.length; idx++) {
         const rd = runwayResults[idx];
         if (rd.status === "exists" && rd.videoUrl) { clipUrls.push(rd.videoUrl); continue; }
-        if (!rd.taskId) continue;
+        if (!rd.taskId) { console.warn(`Clip ${idx + 1} sem taskId:`, JSON.stringify(rd)); setProgress(`Clip ${idx + 1}: ${rd.erro || "sem taskId"}`); continue; }
         const params = new URLSearchParams({ taskId: rd.taskId, album: state.albumSlug, track: String(rd.clipTrackNum) });
         let found = false;
         for (let i = 0; i < 120; i++) {
@@ -215,7 +215,11 @@ export default function ShortsPage() {
         }
         if (!found) console.warn(`Clip ${idx + 1} nao disponivel`);
       }
-      if (clipUrls.length < Math.min(4, state.images.length)) throw new Error(`Apenas ${clipUrls.length} clip(s).`);
+      if (clipUrls.length === 0) {
+        const firstErr = runwayResults[0]?.erro || "Sem resposta do Runway. Verifica RUNWAY_API_KEY e creditos.";
+        throw new Error(firstErr);
+      }
+      if (clipUrls.length < Math.min(4, state.images.length)) throw new Error(`Apenas ${clipUrls.length}/${state.images.length} clips gerados. Alguns falharam.`);
 
       // Step 3: Shotstack
       update({ step: "shotstack" });
