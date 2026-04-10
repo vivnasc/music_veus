@@ -167,11 +167,11 @@ const FLAVOR_MODIFIERS: Record<TrackFlavor, string> = {
   gospel: "Gospel-inspired, choir harmonies, hand claps, organ warmth, uplifting spiritual energy, community singing feel, call-and-response vocals, celebratory, transcendent.",
 };
 
-function buildPromptWithFlavor(basePrompt: string, flavor: TrackFlavor | null): string {
-  if (!flavor) return basePrompt;
-  const mod = FLAVOR_MODIFIERS[flavor];
-  // Flavor goes FIRST so it's not cut off by style condensing (200 char limit)
-  return mod ? `${mod} ${basePrompt}` : basePrompt;
+function buildPromptWithFlavor(basePrompt: string, _flavor: TrackFlavor | null): string {
+  // Flavor info is NOT added to the prompt — buildStyle() in the API
+  // already sends it via the Style parameter. Adding it here was redundant
+  // and polluted prompts with generic genre text.
+  return basePrompt;
 }
 
 // Retrocompatibilidade: BASE_STYLE = whisper (o default anterior)
