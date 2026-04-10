@@ -22,9 +22,8 @@ type ShortState = {
   albumSlug: string;
   trackNumber: number;
   images: ShortImage[];
-  clipDuration: number;       // seconds per video clip (5 or 10)
+  totalDuration: number;      // total video duration in seconds (15, 30, 60, or custom)
   audioStart: number;         // audio start point in seconds
-  audioEnd: number;           // audio end point in seconds
   fullSong: boolean;
   step: "idle" | "images" | "runway" | "shotstack";
   resultUrl: string | null;
@@ -59,8 +58,8 @@ export default function ShortsPage() {
         return {
           ...defaultState(),
           ...parsed,
+          totalDuration: parsed.totalDuration || 30,
           audioStart: typeof parsed.audioStart === "number" ? parsed.audioStart : (parsed.audioTrim || 30),
-          audioEnd: typeof parsed.audioEnd === "number" ? parsed.audioEnd : ((parsed.audioTrim || 30) + 30),
         };
       }
     } catch {}
@@ -96,10 +95,13 @@ export default function ShortsPage() {
     a.tracks.some(t => publishedKeys.has(`${a.slug}-t${t.number}`))
   );
 
-  const safeStart = Number.isFinite(state.audioStart) ? state.audioStart : 30;
-  const safeEnd = Number.isFinite(state.audioEnd) ? state.audioEnd : 60;
-  const audioDuration = state.fullSong && track ? track.durationSeconds : Math.max(5, safeEnd - safeStart);
-  const numClips = Math.max(1, Math.ceil(audioDuration / (state.clipDuration || 5)));
+  const trackDur = track?.durationSeconds || 240;
+  const totalDuration = state.fullSong ? trackDur : (state.totalDuration || 30);
+  const audioStart = Math.min(Number.isFinite(state.audioStart) ? state.audioStart : 30, trackDur - totalDuration);
+  const audioEnd = Math.min(audioStart + totalDuration, trackDur);
+  // Runway generates 5s or 10s clips — use 5s for shorts ≤30s, 10s for longer
+  const clipDuration = totalDuration <= 30 ? 5 : 10;
+  const numClips = Math.max(1, Math.ceil(totalDuration / clipDuration));
   const numAiImages = Math.min(Math.ceil(numClips * 0.67), 4);
 
   function update(partial: Partial<ShortState>) {
@@ -197,7 +199,7 @@ export default function ShortsPage() {
             trackNumber: clipTrackNum,
             ...imgPayload,
             promptText: RUNWAY_PROMPTS[idx % RUNWAY_PROMPTS.length],
-            duration: state.clipDuration,
+            duration: clipDuration,
             ratio: "1080:1920",
           }),
         });
@@ -242,8 +244,8 @@ export default function ShortsPage() {
         body: JSON.stringify({
           clipUrls,
           audioUrl,
-          audioTrim: state.fullSong ? 0 : state.audioStart,
-          clipDuration: state.clipDuration,
+          audioTrim: state.fullSong ? 0 : audioStart,
+          clipDuration,
           verse,
           trackTitle: track.title,
           albumTitle: album.title,
@@ -341,98 +343,64 @@ export default function ShortsPage() {
       {track && (
         <div className="max-w-3xl mx-auto px-5 pb-20 space-y-4">
 
-          {/* Settings bar — compact horizontal */}
-          <div className="flex flex-wrap items-center gap-3 rounded-xl bg-[#1A1A2E]/80 px-4 py-3">
-            <div className="flex items-center gap-1.5">
-              {[5, 10].map(d => (
-                <button key={d} onClick={() => update({ clipDuration: d, images: [], step: "idle" })} className={`rounded-full px-3 py-1 text-[11px] font-medium transition ${state.clipDuration === d ? "text-white shadow" : "text-[#666680] hover:text-[#a0a0b0]"}`} style={state.clipDuration === d ? { backgroundColor: `${albumColor}40` } : {}}>
+          {/* Duration presets */}
+          <div className="rounded-xl bg-[#1A1A2E]/80 px-4 py-3 space-y-3">
+            <div className="flex items-center gap-2">
+              <span className="text-[11px] text-[#666680] shrink-0">Duracao:</span>
+              {[15, 30, 60].map(d => (
+                <button key={d} onClick={() => update({ totalDuration: d, fullSong: false, audioStart: Math.min(state.audioStart, trackDur - d), images: [], step: "idle" })} className={`rounded-full px-3.5 py-1.5 text-[11px] font-medium transition ${!state.fullSong && state.totalDuration === d ? "text-white shadow" : "text-[#666680] hover:text-[#a0a0b0]"}`} style={!state.fullSong && state.totalDuration === d ? { backgroundColor: `${albumColor}40` } : {}}>
                   {d}s
                 </button>
               ))}
-            </div>
-            <div className="w-px h-4 bg-white/10" />
-            <label className="flex items-center gap-1.5 cursor-pointer">
-              <input type="checkbox" checked={state.fullSong} onChange={e => update({ fullSong: e.target.checked, images: [], step: "idle" })} className="accent-[#C9A96E] w-3.5 h-3.5" />
-              <span className="text-[11px] text-[#a0a0b0]">Inteira</span>
-            </label>
-            <div className="w-px h-4 bg-white/10" />
-            <span className="text-[11px] text-[#666680] font-mono">{numClips} clips = {fmtTime(audioDuration)}</span>
-          </div>
-
-          {!state.fullSong && (
-            <div className="flex flex-wrap items-center gap-3 rounded-xl bg-[#1A1A2E]/80 px-4 py-3">
-              <span className="text-[11px] text-[#666680]">De</span>
-              <input
-                type="text"
-                value={fmtTime(state.audioStart)}
-                onChange={e => {
-                  const m = e.target.value.match(/^(\d+):(\d{0,2})$/);
-                  if (m) {
-                    const s = Math.max(0, Math.min(parseInt(m[1]) * 60 + parseInt(m[2] || "0"), state.audioEnd - 5));
-                    update({ audioStart: s });
-                  }
-                }}
-                className="w-12 rounded border border-white/10 bg-transparent px-1.5 py-1 text-[11px] text-[#F5F0E6] text-center font-mono focus:border-[#C9A96E]/50 focus:outline-none"
-              />
-              <span className="text-[11px] text-[#666680]">ate</span>
-              <input
-                type="text"
-                value={fmtTime(state.audioEnd)}
-                onChange={e => {
-                  const m = e.target.value.match(/^(\d+):(\d{0,2})$/);
-                  if (m) {
-                    const s = Math.max(state.audioStart + 5, Math.min(parseInt(m[1]) * 60 + parseInt(m[2] || "0"), track.durationSeconds));
-                    update({ audioEnd: s });
-                  }
-                }}
-                className="w-12 rounded border border-white/10 bg-transparent px-1.5 py-1 text-[11px] text-[#F5F0E6] text-center font-mono focus:border-[#C9A96E]/50 focus:outline-none"
-              />
-              <div className="flex-1 relative min-w-[150px] h-6 flex items-center">
-                <div className="absolute inset-x-0 h-1.5 rounded-full bg-white/10" />
-                <div className="absolute h-1.5 rounded-full" style={{ left: `${(state.audioStart / track.durationSeconds) * 100}%`, right: `${100 - (state.audioEnd / track.durationSeconds) * 100}%`, background: `${albumColor}60` }} />
-                <input
-                  type="range" min={0} max={Math.max(0, state.audioEnd - 5)} value={state.audioStart}
-                  onChange={e => update({ audioStart: Number(e.target.value) })}
-                  className="absolute inset-x-0 h-6 appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow"
-                />
-                <input
-                  type="range" min={Math.max(5, state.audioStart + 5)} max={track.durationSeconds} value={state.audioEnd}
-                  onChange={e => update({ audioEnd: Number(e.target.value) })}
-                  className="absolute inset-x-0 h-6 appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-[#C9A96E] [&::-webkit-slider-thumb]:shadow"
-                />
-              </div>
-              <span className="text-[10px] text-[#666680] font-mono shrink-0">{fmtTime(track.durationSeconds)}</span>
-              <button
-                onClick={() => {
-                  if (previewPlaying) {
-                    previewRef.current?.pause();
-                    setPreviewPlaying(false);
-                    return;
-                  }
-                  if (!previewRef.current) {
-                    previewRef.current = new Audio(audioSrc);
-                    previewRef.current.addEventListener("ended", () => setPreviewPlaying(false));
-                    previewRef.current.addEventListener("timeupdate", () => {
-                      if (previewRef.current && previewRef.current.currentTime >= state.audioEnd) {
-                        previewRef.current.pause();
-                        setPreviewPlaying(false);
-                      }
-                    });
-                  }
-                  previewRef.current.currentTime = state.audioStart;
-                  previewRef.current.play();
-                  setPreviewPlaying(true);
-                }}
-                className={`shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition ${previewPlaying ? "bg-white/20" : "bg-white/10 hover:bg-white/20"}`}
-              >
-                {previewPlaying ? (
-                  <svg viewBox="0 0 20 20" fill="currentColor" className="h-3 w-3 text-white"><rect x="5" y="4" width="3" height="12" rx="1"/><rect x="12" y="4" width="3" height="12" rx="1"/></svg>
-                ) : (
-                  <svg viewBox="0 0 20 20" fill="currentColor" className="h-3 w-3 text-white ml-0.5"><polygon points="6,3 17,10 6,17"/></svg>
-                )}
+              <button onClick={() => update({ fullSong: true, images: [], step: "idle" })} className={`rounded-full px-3.5 py-1.5 text-[11px] font-medium transition ${state.fullSong ? "text-white shadow" : "text-[#666680] hover:text-[#a0a0b0]"}`} style={state.fullSong ? { backgroundColor: `${albumColor}40` } : {}}>
+                Inteira ({fmtTime(trackDur)})
               </button>
+              <span className="text-[11px] text-[#666680] font-mono ml-auto">{numClips} clips x {clipDuration}s</span>
             </div>
-          )}
+
+            {/* Audio position slider */}
+            {!state.fullSong && (
+              <div className="flex items-center gap-3">
+                <span className="text-[11px] text-[#666680] font-mono shrink-0">{fmtTime(audioStart)}</span>
+                <div className="flex-1 relative h-8 flex items-center">
+                  {/* Track bar */}
+                  <div className="absolute inset-x-0 h-2 rounded-full bg-white/8" />
+                  {/* Selected range highlight */}
+                  <div className="absolute h-2 rounded-full" style={{ left: `${(audioStart / trackDur) * 100}%`, width: `${(totalDuration / trackDur) * 100}%`, background: `${albumColor}50` }} />
+                  {/* Single slider — moves the start point, range stays fixed width */}
+                  <input
+                    type="range" min={0} max={Math.max(0, trackDur - totalDuration)} value={audioStart}
+                    onChange={e => update({ audioStart: Number(e.target.value) })}
+                    className="absolute inset-x-0 h-8 appearance-none bg-transparent cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow-lg [&::-webkit-slider-thumb]:ring-2 [&::-webkit-slider-thumb]:ring-white/20"
+                  />
+                </div>
+                <span className="text-[11px] text-[#666680] font-mono shrink-0">{fmtTime(audioEnd)}</span>
+                {/* Preview play */}
+                <button
+                  onClick={() => {
+                    if (previewPlaying) { previewRef.current?.pause(); setPreviewPlaying(false); return; }
+                    if (!previewRef.current) {
+                      previewRef.current = new Audio(audioSrc);
+                      previewRef.current.addEventListener("ended", () => setPreviewPlaying(false));
+                      previewRef.current.addEventListener("timeupdate", () => {
+                        if (previewRef.current && previewRef.current.currentTime >= audioEnd) { previewRef.current.pause(); setPreviewPlaying(false); }
+                      });
+                    }
+                    previewRef.current.currentTime = audioStart;
+                    previewRef.current.play();
+                    setPreviewPlaying(true);
+                  }}
+                  className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition ${previewPlaying ? "bg-white/20" : "bg-white/10 hover:bg-white/20"}`}
+                >
+                  {previewPlaying ? (
+                    <svg viewBox="0 0 20 20" fill="currentColor" className="h-3.5 w-3.5 text-white"><rect x="5" y="4" width="3" height="12" rx="1"/><rect x="12" y="4" width="3" height="12" rx="1"/></svg>
+                  ) : (
+                    <svg viewBox="0 0 20 20" fill="currentColor" className="h-3.5 w-3.5 text-white ml-0.5"><polygon points="6,3 17,10 6,17"/></svg>
+                  )}
+                </button>
+              </div>
+            )}
+          </div>
 
           {error && <div className="rounded-xl bg-red-900/20 border border-red-500/20 px-4 py-3 text-xs text-red-400">{error}</div>}
 
@@ -527,9 +495,8 @@ function defaultState(): ShortState {
     albumSlug: "",
     trackNumber: 1,
     images: [],
-    clipDuration: 5,
+    totalDuration: 30,
     audioStart: 30,
-    audioEnd: 60,
     fullSong: false,
     step: "idle",
     resultUrl: null,
