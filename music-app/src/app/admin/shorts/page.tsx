@@ -72,6 +72,7 @@ export default function ShortsPage() {
   const [error, setError] = useState<string | null>(null);
   const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
   const [previewPlaying, setPreviewPlaying] = useState(false);
+  const [useLoRA, setUseLoRA] = useState(true);
   const previewRef = useRef<HTMLAudioElement | null>(null);
 
   // Persist on change
@@ -118,7 +119,7 @@ export default function ShortsPage() {
       const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ caption: track.description, numImages: Math.min(numAiImages, 4) }),
+        body: JSON.stringify({ caption: track.description, numImages: Math.min(numAiImages, 4), useLoRA }),
       });
       const aiData = await aiRes.json();
       if (!aiRes.ok || !aiData.imageUrls?.length) throw new Error(`fal.ai: ${aiData.erro || "sem imagens"}`);
@@ -148,7 +149,7 @@ export default function ShortsPage() {
       const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ caption: track.description, numImages: 1 }),
+        body: JSON.stringify({ caption: track.description, numImages: 1, useLoRA }),
       });
       const aiData = await aiRes.json();
       if (aiRes.ok && aiData.imageUrls?.[0]) {
@@ -356,6 +357,11 @@ export default function ShortsPage() {
                 Inteira ({fmtTime(trackDur)})
               </button>
               <span className="text-[11px] text-[#666680] font-mono ml-auto">{numClips} clips x {clipDuration}s</span>
+              <div className="w-px h-4 bg-white/10" />
+              <label className="flex items-center gap-1.5 cursor-pointer shrink-0" title="Usar LoRA treinada para gerar imagens">
+                <input type="checkbox" checked={useLoRA} onChange={e => setUseLoRA(e.target.checked)} className="accent-fuchsia-500 w-3.5 h-3.5" />
+                <span className={`text-[11px] ${useLoRA ? "text-fuchsia-400" : "text-[#666680]"}`}>LoRA</span>
+              </label>
             </div>
 
             {/* Audio position slider */}

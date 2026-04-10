@@ -18,15 +18,16 @@ export async function POST(req: NextRequest) {
   const falKey = process.env.FAL_KEY;
   if (!falKey) return NextResponse.json({ erro: "FAL_KEY não configurada." }, { status: 500 });
 
-  const { caption, numImages, loraUrl: explicitLoraUrl, triggerWord: explicitTrigger } = await req.json();
+  const { caption, numImages, loraUrl: explicitLoraUrl, triggerWord: explicitTrigger, useLoRA: useLoRAParam } = await req.json();
   if (!caption) return NextResponse.json({ erro: "caption é obrigatório." }, { status: 400 });
   const count = Math.min(numImages || 1, 4);
+  const skipLoRA = useLoRAParam === false;
 
   // Auto-detect active LoRA from Supabase if not passed explicitly
   let loraUrl = explicitLoraUrl || null;
   let triggerWord = explicitTrigger || "loranne_artist";
 
-  if (!loraUrl) {
+  if (!loraUrl && !skipLoRA) {
     try {
       const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
       const loraConfigUrl = `${supabaseUrl}/storage/v1/object/public/audios/lora/active-lora.json`;
