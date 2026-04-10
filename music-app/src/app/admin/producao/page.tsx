@@ -579,6 +579,7 @@ function ClipApprovalRow({
   );
 }
 
+
 function TrackRow({
   track,
   albumSlug,
@@ -1219,178 +1220,13 @@ function TrackRow({
             {reelType === "status" ? "Reel Status" : "Reel Insta"}
           </button>
           ))}
-          {/* Generate Short (fal.ai + Runway + Shotstack — 3 images + music) */}
-          <button
-            id={`short-btn-${albumSlug}-${track.number}`}
-            onClick={async () => {
-              const btn = document.getElementById(`short-btn-${albumSlug}-${track.number}`) as HTMLButtonElement;
-              const resultDiv = document.getElementById(`reel-result-${albumSlug}-${track.number}`);
-              if (!btn) return;
-              btn.disabled = true;
-
-              try {
-                const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
-                if (!alb) throw new Error("Album não encontrado");
-                const t = alb.tracks.find(tr => tr.number === track.number);
-                if (!t) throw new Error("Faixa não encontrada");
-
-                // Step 1: Generate 4 AI images from verse (fal.ai + LoRA)
-                btn.textContent = "1/4 Imagens IA (4)...";
-                const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
-                  method: "POST",
-                  headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ caption: t.description, numImages: 4 }),
-                });
-                const aiData = await aiRes.json();
-                if (!aiRes.ok || !aiData.imageUrls?.length) throw new Error(`fal.ai: ${aiData.erro || "sem imagens"}`);
-
-                // Step 2: 2 Loranne poses + 4 AI = 6 clips × 5s = 30s
-                btn.textContent = "2/4 Runway (6 clips)...";
-                const loranneImgs = pickLorannImages(albumSlug, track.number, 2);
-                const loranneBase64List: (string | null)[] = [];
-                for (const imgPath of loranneImgs) {
-                  try {
-                    const loranneRes = await fetch(imgPath);
-                    if (loranneRes.ok) {
-                      const blob = await loranneRes.blob();
-                      const reader = new FileReader();
-                      const b64 = await new Promise<string>((resolve, reject) => {
-                        reader.onloadend = () => resolve(reader.result as string);
-                        reader.onerror = reject;
-                        reader.readAsDataURL(blob);
-                      });
-                      loranneBase64List.push(b64);
-                    } else {
-                      loranneBase64List.push(null);
-                    }
-                  } catch { loranneBase64List.push(null); }
-                }
-
-                const imageInputs: { imageUrl?: string; imageBase64?: string; isLoranne?: boolean }[] = [
-                  // Loranne pose 1
-                  loranneBase64List[0] ? { imageBase64: loranneBase64List[0], isLoranne: true } : { imageUrl: `${window.location.origin}${loranneImgs[0]}`, isLoranne: true },
-                  // AI image 1
-                  { imageUrl: aiData.imageUrls[0] },
-                  // AI image 2
-                  { imageUrl: aiData.imageUrls[1] || aiData.imageUrls[0] },
-                  // Loranne pose 2
-                  loranneBase64List[1] ? { imageBase64: loranneBase64List[1], isLoranne: true } : { imageUrl: `${window.location.origin}${loranneImgs[1] || loranneImgs[0]}`, isLoranne: true },
-                  // AI image 3
-                  { imageUrl: aiData.imageUrls[2] || aiData.imageUrls[0] },
-                  // AI image 4
-                  { imageUrl: aiData.imageUrls[3] || aiData.imageUrls[1] || aiData.imageUrls[0] },
-                ];
-                const runwayPrompts = [
-                  "figure swaying gently to music, veils flowing rhythmically, golden particles pulsing, slow camera orbit",
-                  "slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
-                  "gentle camera drift, soft light particles floating, fabric rippling like sound waves, golden glow",
-                  "slow camera orbit around figure, veils dancing in wind, warm light breathing, ethereal atmosphere",
-                  "slow dolly out, atmospheric dust particles, volumetric light beams, ethereal and meditative",
-                  "figure with arms rising slowly, fabric rippling, golden glow intensifying, peaceful contemplation",
-                ];
-                const totalClips = imageInputs.length;
-                const runwayResults = await Promise.all(imageInputs.map(async (imgInput, idx) => {
-                  const { isLoranne, ...imgPayload } = imgInput;
-                  const clipTrackNum = track.number * 100 + idx + 1;
-                  const res = await adminFetch("/api/admin/runway/generate", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                      albumSlug,
-                      trackNumber: clipTrackNum,
-                      ...imgPayload,
-                      promptText: runwayPrompts[idx],
-                      duration: 5,
-                      ratio: "1080:1920",
-                    }),
-                  });
-                  return { ...(await res.json()), clipTrackNum };
-                }));
-
-                // Step 3: Poll Runway tasks
-                btn.textContent = "3/4 Clips...";
-                const clipUrls: string[] = [];
-                for (let idx = 0; idx < runwayResults.length; idx++) {
-                  const rd = runwayResults[idx];
-                  if (rd.status === "exists" && rd.videoUrl) { clipUrls.push(rd.videoUrl); continue; }
-                  if (!rd.taskId) { console.warn(`Runway clip ${idx + 1}: sem taskId — ${rd.erro || ""}`); continue; }
-                  const params = new URLSearchParams({ taskId: rd.taskId, album: albumSlug, track: String(rd.clipTrackNum) });
-                  let found = false;
-                  for (let i = 0; i < 120; i++) {
-                    await new Promise(r => setTimeout(r, 3000));
-                    const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
-                    const sData = await sRes.json();
-                    if (sData.status === "complete" && sData.videoUrl) { clipUrls.push(sData.videoUrl); found = true; break; }
-                    if (sData.status === "error") { console.warn(`Clip ${idx + 1} falhou: ${sData.error}`); break; }
-                    btn.textContent = `3/4 Clip ${idx + 1}/${totalClips} ${Math.min(Math.round(i * 1.2), 95)}%`;
-                  }
-                  if (!found) console.warn(`Clip ${idx + 1} não disponível, a continuar...`);
-                }
-                if (clipUrls.length < 4) throw new Error(`Apenas ${clipUrls.length} clip(s). Mínimo 4 necessários para 30s.`);
-
-                // Step 4: Validate + Shotstack
-                btn.textContent = "4/4 Shotstack...";
-                const clipChecks = await Promise.all(clipUrls.map(url => fetch(url, { method: "HEAD" }).then(r => r.ok).catch(() => false)));
-                if (clipChecks.some(ok => !ok)) throw new Error("Clips inacessíveis — podem ter expirado");
-
-                const sbUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-                const audioUrl = `${sbUrl}/storage/v1/object/public/audios/albums/${albumSlug.replace(/[^a-z0-9-]/g, "")}/faixa-${String(track.number).padStart(2, "0")}.mp3`;
-                const audioCheck = await fetch(audioUrl, { method: "HEAD" }).then(r => r.ok).catch(() => false);
-                if (!audioCheck) throw new Error(`Áudio não encontrado: faixa-${String(track.number).padStart(2, "0")}.mp3`);
-
-                const verse = (() => {
-                  if (!t.lyrics) return "";
-                  const lines = t.lyrics.split("\n").filter((l: string) => { const tr = l.trim(); return tr.length > 15 && tr.length < 80 && !tr.startsWith("["); });
-                  return lines[0]?.trim() || "";
-                })();
-
-                const shotRes = await adminFetch("/api/admin/shotstack/render", {
-                  method: "POST",
-                  headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ clipUrls, audioUrl, verse, trackTitle: t.title, albumTitle: alb.title }),
-                });
-                const shotData = await shotRes.json();
-                if (!shotRes.ok || !shotData.id) throw new Error(`Shotstack: ${shotData.erro || "falhou"}`);
-
-                for (let i = 0; i < 120; i++) {
-                  await new Promise(r => setTimeout(r, 3000));
-                  const sRes = await adminFetch(`/api/admin/shotstack/status?id=${shotData.id}`);
-                  const sData = await sRes.json();
-                  if (sData.status === "done" && sData.videoUrl) {
-                    btn.textContent = "Short OK!";
-                    if (resultDiv) {
-                      const vid = document.createElement("video");
-                      vid.src = sData.videoUrl;
-                      vid.controls = true;
-                      vid.playsInline = true;
-                      vid.muted = true;
-                      vid.loop = true;
-                      vid.style.cssText = "max-height:160px;border-radius:6px;margin-top:6px;width:100%";
-                      resultDiv.appendChild(vid);
-
-                      const dl = document.createElement("a");
-                      dl.href = sData.videoUrl;
-                      dl.download = `Short-${t.title}.mp4`;
-                      dl.textContent = "Descarregar Short";
-                      dl.className = "inline-block text-[10px] text-green-400 mt-1 hover:underline";
-                      resultDiv.appendChild(dl);
-                    }
-                    break;
-                  }
-                  if (sData.status === "failed") throw new Error("Shotstack render falhou");
-                  btn.textContent = `4/4 Render ${Math.min(Math.round(i * 1.2), 95)}%`;
-                }
-              } catch (err) {
-                alert(`Erro Short: ${(err as Error).message}`);
-              } finally {
-                btn.disabled = false;
-                setTimeout(() => { btn.textContent = "Gerar Short"; }, 3000);
-              }
-            }}
+          {/* Short — link to dedicated page */}
+          <Link
+            href={`/admin/shorts`}
             className="shrink-0 rounded px-3 py-2 text-xs font-medium bg-violet-900/30 text-violet-400 hover:bg-violet-900/50"
           >
-            Gerar Short
-          </button>
+            Shorts
+          </Link>
           <div id={`reel-result-${albumSlug}-${track.number}`} style={{ maxWidth: "240px" }}></div>
         </div>
       </div>
@@ -2038,6 +1874,13 @@ export default function AlbumProductionPage() {
             >
               Renomear pasta
             </button>
+
+            <Link
+              href="/admin/shorts"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-violet-900/30 px-4 py-2.5 text-xs min-h-[44px] text-violet-400 hover:bg-violet-900/50 transition flex items-center"
+            >
+              Shorts
+            </Link>
 
             <Link
               href="/admin/calendario"
