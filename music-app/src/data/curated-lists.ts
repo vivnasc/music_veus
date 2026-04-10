@@ -426,6 +426,26 @@ const VIBE_JAZZ_NIGHT: CuratedList = {
   tracks: byFlavor("jazz"),
 };
 
+const VIBE_BOSSA: CuratedList = {
+  slug: "vibe-bossa-nova",
+  title: "Bossa Nova",
+  subtitle: "Nylon guitar, swaying, velvet.",
+  category: "genero",
+  color: "#7A9A6A",
+  icon: "music-2",
+  tracks: byFlavor("bossa"),
+};
+
+const VIBE_DANCE: CuratedList = {
+  slug: "vibe-dance",
+  title: "Dance",
+  subtitle: "House, funk, afrobeat — o corpo que não pára.",
+  category: "mood",
+  color: "#D44A8A",
+  icon: "sparkles",
+  tracks: byEnergyAndFlavor(["pulse", "anthem", "steady"], ["house", "funk", "afrobeat", "marrabenta"]),
+};
+
 // ─────────────────────────────────────────────
 // Exports
 // ─────────────────────────────────────────────
@@ -436,6 +456,7 @@ export const GENEROS: CuratedList[] = [
   GENERO_GOSPEL,
   VIBE_AFRO_GROOVE,
   VIBE_JAZZ_NIGHT,
+  VIBE_BOSSA,
 ];
 
 export const MOODS: CuratedList[] = [
@@ -453,6 +474,7 @@ export const VIBES: CuratedList[] = [
   VIBE_NIGHT_WALK,
   VIBE_RAINY_DAY,
   VIBE_BODY_FLOW,
+  VIBE_DANCE,
 ];
 
 export const TEMAS: CuratedList[] = [
