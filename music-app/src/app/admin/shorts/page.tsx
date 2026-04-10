@@ -8,7 +8,7 @@ import {
   type AlbumTrack,
 } from "@/data/albums";
 import { adminFetch } from "@/lib/admin-fetch";
-import { pickLorannImages } from "@/lib/loranne-images";
+
 
 const STORAGE_KEY = "veus:short-builder";
 
@@ -123,17 +123,24 @@ export default function ShortsPage() {
       });
       const aiData = await aiRes.json();
       if (!aiRes.ok || !aiData.imageUrls?.length) throw new Error(`fal.ai: ${aiData.erro || "sem imagens"}`);
+      const allUrls = [...aiData.imageUrls];
 
-      const loranneImgs = pickLorannImages(state.albumSlug, track.number, Math.max(numClips - numAiImages, 2));
+      // If we need more images than one batch (fal.ai max 4), generate more
+      while (allUrls.length < numClips) {
+        const moreRes = await adminFetch("/api/admin/generate-verse-reel", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ caption: track.description, numImages: Math.min(numClips - allUrls.length, 4), useLoRA }),
+        });
+        const moreData = await moreRes.json();
+        if (moreRes.ok && moreData.imageUrls?.length) {
+          allUrls.push(...moreData.imageUrls);
+        } else break;
+      }
+
       const built: ShortImage[] = [];
-      let aiIdx = 0, lIdx = 0;
       for (let i = 0; i < numClips; i++) {
-        if (i % 3 === 0 && lIdx < loranneImgs.length) {
-          built.push({ url: loranneImgs[lIdx++], isLoranne: true });
-        } else {
-          built.push({ url: aiData.imageUrls[aiIdx % aiData.imageUrls.length] });
-          aiIdx++;
-        }
+        built.push({ url: allUrls[i % allUrls.length] });
       }
       update({ images: built });
     } catch (err) {
@@ -167,27 +174,9 @@ export default function ShortsPage() {
     update({ step: "runway" });
     setProgress("A enviar para Runway...");
     try {
-      const imageInputs: { imageUrl?: string; imageBase64?: string }[] = [];
+      const imageInputs: { imageUrl: string }[] = [];
       for (const img of state.images) {
-        if (img.isLoranne) {
-          try {
-            const res = await fetch(img.url);
-            if (res.ok) {
-              const blob = await res.blob();
-              const b64 = await new Promise<string>((resolve, reject) => {
-                const reader = new FileReader();
-                reader.onloadend = () => resolve(reader.result as string);
-                reader.onerror = reject;
-                reader.readAsDataURL(blob);
-              });
-              imageInputs.push({ imageBase64: b64 });
-            } else {
-              imageInputs.push({ imageUrl: `${window.location.origin}${img.url}` });
-            }
-          } catch { imageInputs.push({ imageUrl: `${window.location.origin}${img.url}` }); }
-        } else {
-          imageInputs.push({ imageUrl: img.url });
-        }
+        imageInputs.push({ imageUrl: img.url });
       }
 
       const runwayResults = await Promise.all(imageInputs.map(async (imgPayload, idx) => {
