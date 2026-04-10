@@ -429,9 +429,34 @@ export default function ShortsPage() {
             <div>
               <div className="flex items-center justify-between mb-1.5">
                 <label className="text-[11px] text-[#666680] uppercase tracking-wider">Prompt das imagens</label>
-                {track && !state.imagePrompt && (
-                  <button onClick={() => update({ imagePrompt: track.description })} className="text-[10px] text-[#C9A96E] hover:text-[#d4b87a]">Usar descricao</button>
-                )}
+                <div className="flex items-center gap-2">
+                  {track && (
+                    <button onClick={() => {
+                      // Build a rich visual prompt from description + lyrics
+                      const desc = track.description;
+                      let lyricsContext = "";
+                      if (track.lyrics) {
+                        const lines = track.lyrics.split("\n")
+                          .map(l => l.trim())
+                          .filter(l => l.length > 10 && !l.startsWith("["));
+                        // Pick 3-4 evocative lines
+                        const selected = lines.filter(l =>
+                          /nature|light|sun|moon|sea|ocean|sky|rain|wind|fire|candle|door|window|mirror|hand|eye|heart|flower|star|night|morning|shadow|river|mountain|tree/i.test(l) ||
+                          /luz|sol|lua|mar|ceu|chuva|vento|fogo|vela|porta|janela|espelho|mao|coracao|flor|estrela|noite|manha|sombra|rio/i.test(l)
+                        ).slice(0, 3);
+                        if (selected.length > 0) lyricsContext = selected.join(". ");
+                        else lyricsContext = lines.slice(0, 3).join(". ");
+                      }
+                      const prompt = lyricsContext
+                        ? `${desc}. Visual scenes: ${lyricsContext}`
+                        : desc;
+                      update({ imagePrompt: prompt });
+                    }} className="text-[10px] text-[#C9A96E] hover:text-[#d4b87a]">Gerar da letra</button>
+                  )}
+                  {state.imagePrompt && (
+                    <button onClick={() => update({ imagePrompt: "" })} className="text-[10px] text-[#666680] hover:text-red-400">Limpar</button>
+                  )}
+                </div>
               </div>
               <textarea
                 value={state.imagePrompt}
