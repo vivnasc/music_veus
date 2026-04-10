@@ -554,7 +554,7 @@ export default function ShortsPage() {
             <div className="rounded-xl overflow-hidden ring-1 ring-[#C9A96E]/20">
               <div className="bg-gradient-to-r from-[#C9A96E]/10 to-transparent px-4 py-2.5 flex items-center justify-between">
                 <span className="text-xs font-semibold text-[#C9A96E]">Short pronto</span>
-                <button onClick={() => update({ images: [], resultUrl: null, step: "idle" })} className="text-[11px] text-[#666680] hover:text-[#a0a0b0]">Novo</button>
+                <button onClick={() => update({ images: [], resultUrl: null, step: "idle", imagePrompt: "", clipLyrics: "" })} className="text-[11px] text-red-400/70 hover:text-red-400">Recomecar</button>
               </div>
               <div className="flex flex-col sm:flex-row">
                 <video src={state.resultUrl} controls playsInline muted loop className="sm:max-w-[280px] bg-black" />
