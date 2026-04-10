@@ -1687,6 +1687,7 @@ export default function AlbumProductionPage() {
       })
       .catch(() => {});
 
+
     // Load pending clips from Supabase (cross-device persistence)
     adminFetch("/api/admin/pending-clips")
       .then((r) => r.json())
@@ -2058,21 +2059,9 @@ export default function AlbumProductionPage() {
 
       setStatuses((s) => ({ ...s, [key]: "done" }));
       setAudioUrls((u) => ({ ...u, [key]: url }));
-      // Find the clip ID for pending cleanup
+      // Keep ALL generated clips — user can swap later
+      // Clean up approved clip from pending in Supabase
       const approvedClip = generatedClips[key]?.clips.find((c) => c.audioUrl === clipAudioUrl);
-      // Remove only the approved clip, keep others
-      setGeneratedClips((g) => {
-        const current = g[key];
-        if (!current) return g;
-        const remaining = current.clips.filter((c) => c.audioUrl !== clipAudioUrl);
-        if (remaining.length === 0) {
-          const copy = { ...g };
-          delete copy[key];
-          return copy;
-        }
-        return { ...g, [key]: { clips: remaining } };
-      });
-      // Clean up from pending clips in Supabase
       if (approvedClip?.id) {
         adminFetch("/api/admin/pending-clips", {
           method: "DELETE",
@@ -2134,22 +2123,9 @@ export default function AlbumProductionPage() {
       });
 
       setStatuses((s) => ({ ...s, [key]: statuses[key] === "uploading" ? (audioUrls[key] ? "done" : "idle") : s[key] }));
-
-      // Find the clip ID for pending cleanup
+      // Keep ALL generated clips — user can swap later
+      // Clean up approved clip from pending in Supabase
       const approvedClip = generatedClips[key]?.clips.find((c) => c.audioUrl === clipAudioUrl);
-      // Remove the approved clip, keep others
-      setGeneratedClips((g) => {
-        const current = g[key];
-        if (!current) return g;
-        const remaining = current.clips.filter((c) => c.audioUrl !== clipAudioUrl);
-        if (remaining.length === 0) {
-          const copy = { ...g };
-          delete copy[key];
-          return copy;
-        }
-        return { ...g, [key]: { clips: remaining } };
-      });
-      // Clean up from pending clips in Supabase
       if (approvedClip?.id) {
         adminFetch("/api/admin/pending-clips", {
           method: "DELETE",
