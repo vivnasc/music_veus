@@ -131,6 +131,73 @@ function detectRedundancies(prompt: string, flavor: string | null): string[] {
   return REDUNDANT_WORDS_BY_FLAVOR[flavor].filter(w => lower.includes(w.toLowerCase()));
 }
 
+// ─── Prompt building blocks ───
+const PROMPT_BLOCKS = {
+  instrumentos: [
+    "soft piano", "solo piano", "Rhodes", "acoustic guitar", "nylon guitar",
+    "strings", "gentle strings", "synth pads", "reverb pads", "warm bass",
+    "deep bass", "drums", "subtle percussion", "organic percussion",
+    "body percussion", "shaker", "choir", "organ", "violin", "cello",
+    "flute", "harp", "breath sounds", "bells",
+  ],
+  texturas: [
+    "dreamy", "ethereal", "contemplative", "haunting", "spacious",
+    "building", "swelling", "flowing", "nocturnal", "meditative",
+    "hypnotic", "cosmic", "ancient", "primal", "tender",
+    "fierce", "urgent", "patient", "crystalline", "smoky", "liquid",
+    "intimate", "grounding", "warm", "vulnerable",
+  ],
+  producao: [
+    "slow build", "driving beat", "walking rhythm", "vocal layers building",
+    "close-mic", "water textures", "looping motif", "electronic pulse",
+    "minimal", "stripped-back", "full arrangement", "vocal crescendo",
+    "silence as instrument", "layered vocals", "rising strings",
+  ],
+};
+
+const PROMPT_BLOCK_LABELS: Record<string, string> = {
+  instrumentos: "Instrumentos",
+  texturas: "Texturas / Mood",
+  producao: "Produção",
+};
+
+// Auto-generate a prompt suggestion from energy + flavor + track description
+function suggestPrompt(
+  energy: TrackEnergy,
+  flavor: string,
+  lang: "PT" | "EN",
+  description: string,
+): string {
+  const energyBase: Record<string, string> = {
+    whisper: "Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Intimate, contemplative, transformative. No autotune. Clean vocal production.",
+    steady: "Contemporary organic-electronic. Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm. Walking pace, present, embodied. No autotune. Clean vocal production.",
+    pulse: "Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production.",
+    anthem: "Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums. Bold, celebratory, unstoppable. No autotune. Clean vocal production.",
+    raw: "Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production. Vulnerable, unpolished, real. No autotune. Clean vocal production.",
+  };
+
+  const flavorMod: Record<string, string> = {
+    organic: "",
+    marrabenta: "Mozambican marrabenta fusion, guitar-driven groove, warm bass, joyful and grounded.",
+    afrobeat: "Afrobeat influence, syncopated guitar, talking drums, danceable West African feel.",
+    bossa: "Bossa nova, nylon guitar, brushed drums, Brazilian, swaying, velvet.",
+    jazz: "Jazz, Rhodes piano, walking bass, brushed cymbals, smoky, late-night.",
+    folk: "Acoustic folk, fingerpicked guitar, earthy, campfire, storytelling.",
+    funk: "Funk, glossy R&B-pop, punchy drums, funky bassline, bright synth, dancefloor.",
+    house: "House, four-on-the-floor, deep bass, hi-hat, synth stabs, dance-floor.",
+    gospel: "Gospel-pop, choir harmonies, organ, claps, uplifting, transcendent.",
+  };
+
+  const langNote = lang === "PT" ? "Lyrics in Portuguese." : "Lyrics in English.";
+  const base = energyBase[energy] || energyBase.steady;
+  const flav = flavorMod[flavor] || "";
+  const theme = description ? `Theme: ${description}.` : "";
+
+  return flav
+    ? `${flav} ${base} ${langNote} ${theme}`.trim()
+    : `${base} ${langNote} ${theme}`.trim();
+}
+
 function trackKey(albumSlug: string, trackNum: number) {
   return `${albumSlug}-t${trackNum}`;
 }
@@ -796,11 +863,63 @@ function TrackRow({
                 className="w-full rounded bg-mundo-bg p-3 font-mono text-xs text-mundo-muted/80 leading-relaxed min-h-[6rem] max-h-[20rem] overflow-y-auto border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none resize-y"
                 spellCheck={false}
               />
+
+              {/* Suggest + building blocks */}
+              <div className="rounded border border-mundo-muted-dark/15 bg-mundo-bg/50 p-3 space-y-2">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <button
+                    onClick={() => {
+                      const suggested = suggestPrompt(
+                        track.energy || "steady",
+                        currentFlavor,
+                        track.lang,
+                        track.description,
+                      );
+                      onPromptChange(suggested);
+                      setPromptSaved(false);
+                    }}
+                    className="rounded px-3 py-1.5 text-xs font-medium bg-mundo-dourado/20 text-mundo-dourado hover:bg-mundo-dourado/30 transition"
+                  >
+                    Sugerir prompt
+                  </button>
+                  <span className="text-[10px] text-mundo-muted/40">Gera prompt base a partir da energia + flavor + descrição</span>
+                </div>
+                {/* Building blocks by category */}
+                {(Object.keys(PROMPT_BLOCKS) as (keyof typeof PROMPT_BLOCKS)[]).map((cat) => (
+                  <div key={cat}>
+                    <p className="text-[10px] uppercase tracking-wider text-mundo-muted/40 mb-1">{PROMPT_BLOCK_LABELS[cat]}</p>
+                    <div className="flex flex-wrap gap-1">
+                      {PROMPT_BLOCKS[cat].map((block) => {
+                        const isUsed = currentPrompt.toLowerCase().includes(block.toLowerCase());
+                        return (
+                          <button
+                            key={block}
+                            onClick={() => {
+                              if (isUsed) return;
+                              const sep = currentPrompt.endsWith(".") || currentPrompt.endsWith(",") || currentPrompt.endsWith(" ") ? " " : ", ";
+                              onPromptChange(currentPrompt + sep + block);
+                              setPromptSaved(false);
+                            }}
+                            className={`rounded px-1.5 py-0.5 text-[10px] transition ${
+                              isUsed
+                                ? "bg-violet-900/30 text-violet-400"
+                                : "bg-mundo-muted-dark/10 text-mundo-muted/60 hover:text-mundo-creme hover:bg-mundo-muted-dark/20"
+                            }`}
+                          >
+                            {isUsed ? `✓ ${block}` : `+ ${block}`}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
               {/* Redundancy warnings */}
               {redundancies.length > 0 && (
                 <div className="rounded bg-amber-950/40 border border-amber-700/30 px-3 py-2 text-xs text-amber-400">
-                  Redundante com flavor <strong>{currentFlavor}</strong>: {redundancies.map((w, i) => (
-                    <span key={w} className="font-mono bg-amber-900/40 rounded px-1 mx-0.5">{w}{i < redundancies.length - 1 ? "" : ""}</span>
+                  Redundante com flavor <strong>{currentFlavor}</strong>: {redundancies.map((w) => (
+                    <span key={w} className="font-mono bg-amber-900/40 rounded px-1 mx-0.5">{w}</span>
                   ))}
                 </div>
               )}
