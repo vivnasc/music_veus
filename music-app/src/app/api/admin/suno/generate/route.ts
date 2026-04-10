@@ -79,7 +79,7 @@ function extractStyleTags(prompt: string): string {
  * Each combination produces a DIFFERENT sound, not generic "organic electronic".
  */
 function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
-  // Energy-specific base (short, just the energy feel)
+  // Energy-specific base (short, vocal + feel)
   const energyBase: Record<string, string> = {
     whisper: "soft female vocal, intimate, slow",
     steady: "mid-tempo, warm female vocal, grounded",
@@ -88,77 +88,100 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
     raw: "stripped-back, raw female vocal, minimal, close-mic",
   };
 
-  // Flavor-specific overrides (completely change the genre)
-  const flavorStyles: Record<string, string> = {
+  // Flavor genre tag (short — just the genre identity)
+  const flavorGenre: Record<string, string> = {
     organic: "",
-    marrabenta: "marrabenta, Mozambican guitar groove, shaker, danceable, warm bass",
-    afrobeat: "afrobeat, afropop, syncopated guitar, talking drums, West African groove",
-    bossa: "bossa nova, nylon guitar, brushed drums, Brazilian, swaying, velvet",
-    jazz: "jazz, Rhodes piano, walking bass, brushed cymbals, smoky, late-night",
-    folk: "acoustic folk, fingerpicked guitar, stomps, earthy, campfire, storytelling",
-    funk: "funk, R&B-pop, glossy, punchy drums, funky bassline, bright synth, dancefloor, 108 BPM",
-    house: "house, four-on-the-floor, deep bass, hi-hat, synth stabs, dance-floor",
-    gospel: "Gospel-pop power anthem, female vocals, steady tom-driven build, pulsing synth stabs, rising strings, half-time pre-chorus, stadium chorus with big kick, claps, soaring choir harmonies, piano, organ, contemporary, clean",
+    marrabenta: "marrabenta, Mozambican groove",
+    afrobeat: "afrobeat, afropop",
+    bossa: "bossa nova",
+    jazz: "jazz",
+    folk: "acoustic folk",
+    funk: "funk, R&B-pop",
+    house: "deep house",
+    gospel: "gospel-pop",
   };
 
-  const base = energyBase[energy || "steady"] || energyBase.steady;
-  const flavorMod = flavorStyles[flavor || "organic"] || "";
+  // ─── Extract unique keywords from THIS track's prompt ───
+  // This runs for ALL flavors, making each track's style unique.
+  const uniqueKeywords: string[] = [];
 
-  let style: string;
+  if (prompt) {
+    const lower = prompt.toLowerCase();
 
-  if (flavorMod) {
-    // Non-organic: flavor defines the genre
-    style = `${flavorMod}, ${base}`;
-  } else if (prompt) {
-    // Organic: extract UNIQUE production details from this track's prompt
-    // Each track has specific instruments, textures, moods in its prompt
-    const uniqueKeywords: string[] = [];
+    // Instruments — what makes THIS track sound different
     const instruments = [
-      "piano", "solo piano", "soft piano", "Rhodes", "guitar", "acoustic guitar",
-      "nylon guitar", "strings", "gentle strings", "synth", "synth pads",
-      "reverb pads", "bass", "warm bass", "deep bass", "drums", "percussion",
-      "subtle percussion", "organic percussion", "body percussion",
+      "solo piano", "soft piano", "piano", "Rhodes", "acoustic guitar",
+      "nylon guitar", "guitar", "gentle strings", "strings", "synth pads",
+      "reverb pads", "warm bass", "deep bass", "bass", "brushed drums",
+      "drums", "subtle percussion", "organic percussion", "percussion",
       "shaker", "choir", "organ", "violin", "cello", "flute", "harp",
-      "breath sounds", "water textures", "tidal", "drone", "bells",
+      "breath sounds", "bells", "claps", "hi-hat",
     ];
+    // Textures — the sensory/atmospheric identity of this track
+    const textures = [
+      "sunset", "sunrise", "golden", "moonlit", "starlight", "twinkling",
+      "oceanic", "rain", "water", "ice", "mist", "fog", "dust",
+      "neon", "velvet", "silk", "balcony", "campfire", "nocturnal",
+      "lullaby", "cinematic", "ambient", "lo-fi",
+    ];
+    // Moods — the emotional fingerprint
     const moods = [
       "dreamy", "ethereal", "contemplative", "haunting", "spacious",
-      "building", "swelling", "flowing", "tidal", "nocturnal",
-      "meditative", "hypnotic", "cosmic", "ancient", "primal",
-      "tender", "fierce", "urgent", "patient", "volcanic",
-      "skeletal", "crystalline", "smoky", "dusty", "liquid",
+      "building", "swelling", "flowing", "meditative", "hypnotic",
+      "cosmic", "ancient", "primal", "tender", "fierce", "urgent",
+      "patient", "crystalline", "smoky", "liquid", "luminous",
+      "melancholic", "euphoric", "serene", "restless",
     ];
-    const lower = prompt.toLowerCase();
-    // Extract instruments mentioned in this specific track
-    for (const inst of instruments) {
-      if (lower.includes(inst) && !uniqueKeywords.some(k => k.includes(inst) || inst.includes(k))) {
-        uniqueKeywords.push(inst);
-        if (uniqueKeywords.length >= 4) break;
+
+    // Extract up to 3 instruments
+    let instCount = 0;
+    for (const word of instruments) {
+      if (instCount >= 3) break;
+      if (lower.includes(word) && !uniqueKeywords.some(k => k.includes(word) || word.includes(k))) {
+        uniqueKeywords.push(word);
+        instCount++;
       }
     }
-    // Extract moods mentioned in this specific track
-    for (const mood of moods) {
-      if (lower.includes(mood) && !uniqueKeywords.includes(mood)) {
-        uniqueKeywords.push(mood);
-        if (uniqueKeywords.length >= 6) break;
+    // Extract up to 2 textures
+    let texCount = 0;
+    for (const word of textures) {
+      if (texCount >= 2) break;
+      if (lower.includes(word) && !uniqueKeywords.includes(word)) {
+        uniqueKeywords.push(word);
+        texCount++;
       }
     }
-    // Combine: unique details + energy base
-    style = uniqueKeywords.length > 0
-      ? `${uniqueKeywords.join(", ")}, ${base}`
-      : base;
-  } else {
-    style = base;
+    // Extract up to 2 moods
+    let moodCount = 0;
+    for (const word of moods) {
+      if (moodCount >= 2) break;
+      if (lower.includes(word) && !uniqueKeywords.includes(word)) {
+        uniqueKeywords.push(word);
+        moodCount++;
+      }
+    }
   }
 
+  // ─── Assemble style: genre + unique keywords + energy base ───
+  const base = energyBase[energy || "steady"] || energyBase.steady;
+  const genre = flavor === "house"
+    ? (energy === "pulse" || energy === "anthem" ? "house" : "deep house, chill")
+    : (flavorGenre[flavor || "organic"] || "");
+
+  const parts: string[] = [];
+  if (genre) parts.push(genre);
+  if (uniqueKeywords.length > 0) parts.push(uniqueKeywords.join(", "));
+  parts.push(base);
+
   // Add language
-  if (prompt?.includes("Portuguese")) style += ", Portuguese";
-  else if (prompt?.includes("English")) style += ", English";
+  if (prompt?.includes("Portuguese")) parts.push("Portuguese");
+  else if (prompt?.includes("English")) parts.push("English");
 
-  // Always add "full song"
-  style += ", full song";
+  parts.push("full song");
 
-  // Trim to 200 chars max
+  let style = parts.join(", ");
+
+  // Trim to 200 chars max (Suno limit)
   if (style.length > 200) style = style.slice(0, 200);
 
   return style;
@@ -254,13 +277,18 @@ export async function POST(req: NextRequest) {
       body.personaModel = personaModel || "voice_persona";
     }
 
+    // Always build a style — ensures each track gets unique style tags
+    const finalStyle = customStyle || buildStyle(energy, flavor, prompt);
+
     if (hasLyrics) {
-      // Custom mode: prompt = lyrics, style = specific tags per energy+flavor
+      // Custom mode: prompt = lyrics, style = musical direction
       body.prompt = lyrics;
-      body.style = customStyle || buildStyle(energy, flavor, prompt);
+      body.style = finalStyle;
       body.title = title || "Sem titulo";
     } else {
+      // Description mode: prompt = description, style = extra musical context
       body.prompt = prompt.length > 480 ? prompt.slice(0, 480) : prompt;
+      body.style = finalStyle;
     }
 
     // Try with retries
