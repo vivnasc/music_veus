@@ -15,18 +15,19 @@ export const maxDuration = 120;
  * { prompt: string, numImages?: number, useLoRA?: boolean }
  */
 
-// The Loranne identity — a real woman who never reveals her face
-// NOT forced covering — natural composition hides it: angles, backlight, shadow, turned away
+// Loranne identity: the face is NEVER in the frame. Not covered — simply not shown.
+// The camera sees her from behind, from above, hands only, silhouette from far away.
+// Golden fabric/veil is AESTHETIC, not a mask. It flows around her body, not across her face.
 const IDENTITY = [
-  "A beautiful woman with flowing golden fabric and veil, photographed so her face is never visible.",
-  "The face is hidden naturally through composition: she is turned away, seen from behind, in deep shadow, in silhouette against light, or the camera angle simply does not show the face.",
-  "This is intentional artistic choice, not forced covering. The veil and fabric flow naturally. She is elegant, mysterious, magnetic.",
-  "Warm golden and amber tones, flowing translucent golden fabric.",
+  "A woman photographed from behind, or from above, or as a distant silhouette.",
+  "Her face is NOT in the frame at all — the camera angle excludes it entirely. She is turned away, or we see only her back, her hands, her shoulders, her silhouette.",
+  "DO NOT place any fabric, veil, or covering over her face. The face is simply not visible because of the camera angle and composition.",
+  "She wears flowing golden translucent fabric as clothing and aesthetic, draped on her body and shoulders. Warm golden and amber tones.",
 ].join(" ");
 
 const STYLE = "Fine art editorial photography, dramatic chiaroscuro lighting, warm golden and amber tones, shallow depth of field, cinematic. No text, no watermarks.";
 
-const NEGATIVE = "clear frontal face, visible facial features, direct eye contact, face reveal, nude, naked, text, watermark";
+const NEGATIVE = "face, frontal view, portrait, looking at camera, veil over face, fabric covering face, mask, face wrap, nude, naked, text, watermark";
 
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
