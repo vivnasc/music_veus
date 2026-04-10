@@ -95,9 +95,9 @@ function buildLorannPrompt(caption: string, triggerWord: string | null): string 
 
   return [
     `${verse}.`,
-    `${trigger}Woman seen from behind, back to camera. Race and ethnicity ambiguous and undefined. Golden flowing translucent fabric draped on her body. Camera is behind her, we see her back and shoulders. She is NOT turning around.`,
-    "Warm golden amber tones, rear view, from behind, intimate atmosphere.",
-    "Fine art editorial photography, dramatic chiaroscuro lighting, no face, no frontal, no text, no watermarks. 9:16 vertical, shallow depth of field.",
+    `${trigger}A woman with golden flowing fabric, face never visible — seen from behind, or as dark silhouette against bright light, or only hands and body in frame. Skin mostly covered by fabric, race unidentifiable.`,
+    "Warm golden amber tones, intimate atmosphere.",
+    "Fine art editorial photography, dramatic chiaroscuro lighting, no visible face, no text, no watermarks. 9:16 vertical, shallow depth of field.",
   ].join(" ");
 }
 

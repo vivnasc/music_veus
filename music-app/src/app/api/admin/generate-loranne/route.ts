@@ -15,20 +15,19 @@ export const maxDuration = 120;
  * { prompt: string, numImages?: number, useLoRA?: boolean }
  */
 
-// Loranne identity: face NEVER in the image.
-// Flux ignores "face not visible" — so we force PHYSICAL composition that excludes face:
-// BACK TO CAMERA, over-shoulder from behind, hands/body only, extreme backlight silhouette.
+// Loranne identity: face never visible, race never defined.
+// Vary composition: from behind, pure silhouette, hands-only, far away, from above, profile in deep shadow.
+// Skin mostly covered by fabric so race is unidentifiable.
 const IDENTITY = [
-  "Woman seen FROM BEHIND, back facing the camera.",
-  "Camera is positioned BEHIND the woman. We see her back, her shoulders, the back of her head with golden fabric flowing.",
-  "Her face is physically impossible to see because the camera is BEHIND her. She is NOT turning around.",
-  "Her race and ethnicity are completely ambiguous and undefined — she could be any race. No distinguishable skin tone or racial features.",
-  "Golden flowing translucent fabric draped on her body. Warm golden amber tones.",
+  "A woman with golden flowing translucent fabric draped over her body and head.",
+  "Her face is never visible in the image. The composition hides it: she is seen from behind, or as a dark silhouette against bright light, or only her hands and body are visible, or she is far away, or seen from above, or her face is in deep impenetrable shadow.",
+  "Her skin is mostly covered by the golden fabric so her race is completely unidentifiable. No distinguishable skin tone or racial features visible.",
+  "Warm golden amber tones. The fabric and warm light are the visual identity, not a body or face.",
 ].join(" ");
 
-const STYLE = "Fine art editorial photography, rear view, from behind, dramatic chiaroscuro lighting, warm golden amber, shallow depth of field, cinematic. No text, no watermarks.";
+const STYLE = "Fine art editorial photography, dramatic chiaroscuro lighting, warm golden amber, shallow depth of field, cinematic. No text, no watermarks.";
 
-const NEGATIVE = "face, frontal, front view, looking at camera, turning around, portrait, eyes, nude, naked, white skin, black skin, asian, caucasian, african, specific ethnicity, text, watermark";
+const NEGATIVE = "face, clear face, visible face, frontal face, looking at camera, eyes, portrait, nude, naked, specific ethnicity, text, watermark";
 
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
