@@ -2834,11 +2834,12 @@ export default function AlbumProductionPage() {
               return pendingTracks.length > 0 ? (
                 <div className="mb-4 flex items-center gap-3">
                   <button
-                    onClick={() => {
-                      // Generate tracks sequentially with 2s delay between each
-                      pendingTracks.forEach((track, i) => {
-                        setTimeout(() => generateTrack(album.slug, track), i * 2000);
-                      });
+                    onClick={async () => {
+                      // Generate tracks one by one — wait for each to submit before next
+                      for (const track of pendingTracks) {
+                        generateTrack(album.slug, track);
+                        await new Promise(r => setTimeout(r, 5000));
+                      }
                     }}
                     className="rounded-lg bg-violet-600 px-4 py-2 text-xs text-white transition hover:bg-violet-700"
                   >
