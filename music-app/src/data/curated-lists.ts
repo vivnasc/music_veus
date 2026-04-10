@@ -296,6 +296,137 @@ const TEMA_O_SILENCIO: CuratedList = {
 };
 
 // ─────────────────────────────────────────────
+// VIBES (energy + flavor combinations)
+// ─────────────────────────────────────────────
+
+function byEnergyAndFlavor(energies: string[], flavors: string[]): TrackRef[] {
+  return allTracks()
+    .filter(t => energies.includes(t.energy || "whisper") && flavors.includes(t.flavor || "organic"))
+    .map(t => ({ albumSlug: t.albumSlug, trackNumber: t.number }));
+}
+
+function byEnergyAndProduct(energies: string[], products: string[]): TrackRef[] {
+  const productSlugs = new Set(
+    ALL_ALBUMS.filter(a => products.includes(a.product)).map(a => a.slug)
+  );
+  return allTracks()
+    .filter(t => energies.includes(t.energy || "whisper") && productSlugs.has(t.albumSlug))
+    .map(t => ({ albumSlug: t.albumSlug, trackNumber: t.number }));
+}
+
+const VIBE_CHILL_SUNSET: CuratedList = {
+  slug: "vibe-chill-sunset",
+  title: "Chill Sunset",
+  subtitle: "Pôr-do-sol, varanda, o dia a abrandar.",
+  category: "mood",
+  color: "#E8956A",
+  icon: "sunset",
+  tracks: byEnergyAndFlavor(["whisper", "steady"], ["house", "bossa"]),
+};
+
+const VIBE_RUNNING: CuratedList = {
+  slug: "vibe-running",
+  title: "Running",
+  subtitle: "Chill house para correr em modo meditação.",
+  category: "mood",
+  color: "#E85D3A",
+  icon: "flame",
+  tracks: byEnergyAndProduct(["whisper", "steady"], ["fibra"]),
+};
+
+const VIBE_MORNING: CuratedList = {
+  slug: "vibe-morning",
+  title: "Chill Morning",
+  subtitle: "O corpo acorda antes da mente.",
+  category: "mood",
+  color: "#5A8FA0",
+  icon: "sunrise",
+  tracks: [
+    ...allTracks()
+      .filter(t => {
+        const lower = (t.prompt || "").toLowerCase() + " " + (t.description || "").toLowerCase();
+        return (lower.includes("dawn") || lower.includes("morning") || lower.includes("sunrise") || lower.includes("amanhecer") || lower.includes("acorda") || lower.includes("manhã") || lower.includes("5:45") || lower.includes("6am"))
+          && ["whisper", "steady"].includes(t.energy || "whisper");
+      })
+      .map(t => ({ albumSlug: t.albumSlug, trackNumber: t.number })),
+  ],
+};
+
+const VIBE_NIGHT_WALK: CuratedList = {
+  slug: "vibe-night-walk",
+  title: "Night Walk",
+  subtitle: "A noite é de quem não tem pressa.",
+  category: "mood",
+  color: "#2A2D5E",
+  icon: "moon",
+  tracks: [
+    ...allTracks()
+      .filter(t => {
+        const lower = (t.prompt || "").toLowerCase() + " " + (t.description || "").toLowerCase();
+        return (lower.includes("night") || lower.includes("nocturnal") || lower.includes("noite") || lower.includes("lua") || lower.includes("moon") || lower.includes("midnight") || lower.includes("neon") || lower.includes("3am"))
+          && ["whisper", "steady"].includes(t.energy || "whisper");
+      })
+      .map(t => ({ albumSlug: t.albumSlug, trackNumber: t.number })),
+  ],
+};
+
+const VIBE_RAINY_DAY: CuratedList = {
+  slug: "vibe-rainy-day",
+  title: "Rainy Day",
+  subtitle: "Chuva na janela, chá frio, sesta.",
+  category: "mood",
+  color: "#6A9AB0",
+  icon: "cloud-rain",
+  tracks: [
+    ...allTracks()
+      .filter(t => {
+        const lower = (t.prompt || "").toLowerCase() + " " + (t.description || "").toLowerCase();
+        return (lower.includes("rain") || lower.includes("chuva") || lower.includes("storm") || lower.includes("thunder") || lower.includes("trovão") || lower.includes("puddle") || lower.includes("drip") || lower.includes("wet"))
+          && ["whisper", "steady"].includes(t.energy || "whisper");
+      })
+      .map(t => ({ albumSlug: t.albumSlug, trackNumber: t.number })),
+  ],
+};
+
+const VIBE_BODY_FLOW: CuratedList = {
+  slug: "vibe-body-flow",
+  title: "Body Flow",
+  subtitle: "Yoga, alongamento, o corpo que flui.",
+  category: "mood",
+  color: "#C4745A",
+  icon: "wind",
+  tracks: [
+    ...allTracks()
+      .filter(t => {
+        const lower = (t.prompt || "").toLowerCase() + " " + (t.description || "").toLowerCase();
+        return (lower.includes("stretch") || lower.includes("breath") || lower.includes("yoga") || lower.includes("flow") || lower.includes("corpo") || lower.includes("respirar") || lower.includes("body") || lower.includes("movement"))
+          && ["whisper", "steady", "raw"].includes(t.energy || "whisper");
+      })
+      .map(t => ({ albumSlug: t.albumSlug, trackNumber: t.number })),
+  ],
+};
+
+const VIBE_AFRO_GROOVE: CuratedList = {
+  slug: "vibe-afro-groove",
+  title: "Afro Groove",
+  subtitle: "Marrabenta, afrobeat, raízes quentes.",
+  category: "genero",
+  color: "#D4875A",
+  icon: "drum",
+  tracks: byEnergyAndFlavor(["whisper", "steady", "pulse"], ["marrabenta", "afrobeat"]),
+};
+
+const VIBE_JAZZ_NIGHT: CuratedList = {
+  slug: "vibe-jazz-night",
+  title: "Jazz Night",
+  subtitle: "Rhodes, late-night, smoky.",
+  category: "genero",
+  color: "#4A5A7A",
+  icon: "music",
+  tracks: byFlavor("jazz"),
+};
+
+// ─────────────────────────────────────────────
 // Exports
 // ─────────────────────────────────────────────
 
@@ -303,6 +434,8 @@ export const GENEROS: CuratedList[] = [
   GENERO_ORGANICO,
   GENERO_HOUSE,
   GENERO_GOSPEL,
+  VIBE_AFRO_GROOVE,
+  VIBE_JAZZ_NIGHT,
 ];
 
 export const MOODS: CuratedList[] = [
@@ -311,6 +444,15 @@ export const MOODS: CuratedList[] = [
   MOOD_PULSO,
   MOOD_HINO,
   MOOD_CRU,
+];
+
+export const VIBES: CuratedList[] = [
+  VIBE_CHILL_SUNSET,
+  VIBE_RUNNING,
+  VIBE_MORNING,
+  VIBE_NIGHT_WALK,
+  VIBE_RAINY_DAY,
+  VIBE_BODY_FLOW,
 ];
 
 export const TEMAS: CuratedList[] = [
@@ -323,7 +465,7 @@ export const TEMAS: CuratedList[] = [
   TEMA_O_SILENCIO,
 ];
 
-export const ALL_LISTS: CuratedList[] = [...GENEROS, ...MOODS, ...TEMAS];
+export const ALL_LISTS: CuratedList[] = [...VIBES, ...GENEROS, ...MOODS, ...TEMAS];
 
 /** Resolve track references to full track objects */
 export function resolveList(list: CuratedList): ResolvedTrack[] {
