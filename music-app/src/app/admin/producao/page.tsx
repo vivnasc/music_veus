@@ -1833,22 +1833,24 @@ export default function AlbumProductionPage() {
                   let supabaseUrl: string | null = null;
                   try {
                     supabaseUrl = await uploadViaSignedUrl(blob, pendingFilename);
-                  } catch { /* storage upload failed, still cache locally */ }
+                  } catch { /* storage upload failed */ }
 
-                  // Cache in browser memory
-                  const localUrl = URL.createObjectURL(blob);
-                  cached.push({ ...c, audioUrl: localUrl, originalAudioUrl: supabaseUrl || c.audioUrl });
+                  // Use Supabase URL if available (permanent), else blob URL (session only)
+                  const playUrl = supabaseUrl || URL.createObjectURL(blob);
+                  cached.push({ ...c, audioUrl: playUrl, originalAudioUrl: supabaseUrl || c.audioUrl });
 
-                  // Queue for DB save
-                  pendingClipsForDb.push({
-                    clip_id: c.id,
-                    audio_url: supabaseUrl || c.audioUrl,
-                    title: c.title || "",
-                    image_url: c.imageUrl || undefined,
-                    duration: c.duration || undefined,
-                    tags: c.tags || undefined,
-                    model: c.model || undefined,
-                  });
+                  // Only save to pending DB if Supabase upload succeeded
+                  if (supabaseUrl) {
+                    pendingClipsForDb.push({
+                      clip_id: c.id,
+                      audio_url: supabaseUrl,
+                      title: c.title || "",
+                      image_url: c.imageUrl || undefined,
+                      duration: c.duration || undefined,
+                      tags: c.tags || undefined,
+                      model: c.model || undefined,
+                    });
+                  }
                   continue;
                 }
               }
