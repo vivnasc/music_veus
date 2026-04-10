@@ -2522,4 +2522,649 @@ The sky
 Was waiting
 For you to notice`,
 
+  // ─────────────────────────────────────────────
+  // CORPO MENTIU (o dia em que o corpo não apareceu)
+  // ─────────────────────────────────────────────
+
+  "fibra-corpo-mentiu/1": `[Verse 1]
+O alarme tocou às cinco e quarenta e cinco
+O ecrã acendeu no escuro igual ao de sempre
+Mas os pés não se mexeram
+E as pálpebras não abriram para ninguém
+
+[Verse 2]
+O chão frio está ali à espera
+Os ténis ao lado da porta como cães fiéis
+Mas o corpo virou para o outro lado
+E puxou o lençol como quem fecha uma parede
+
+[Pre-Chorus]
+Hoje o corpo não decidiu antes de mim
+Hoje o corpo não sabe
+Hoje o ritmo antigo
+Falhou como falham as marés
+
+[Chorus]
+Ficou na cama, ficou na cama
+O corpo que nunca falhava
+Ficou na cama, ficou na cama
+E não houve luta, não houve drama
+Só um silêncio enorme
+Entre o alarme e a mão que o desligou
+O corpo ficou na cama
+E eu fiquei sem saber quem eu sou
+
+[Verse 3]
+A casa acordou sem mim
+O café fez-se sozinho na cozinha
+O sol entrou pela janela como sempre
+Mas eu não estava na linha
+
+[Chorus]
+Ficou na cama, ficou na cama
+Só um silêncio enorme
+Entre o alarme e a mão que o desligou
+E eu fiquei sem saber quem eu sou
+
+[Bridge]
+Se o corpo é quem decide
+O que acontece quando ele pára
+Se a inteligência antiga
+É a que mora na pele e nos ossos
+O que sou eu quando os ossos
+Não querem levantar-se da cama
+Será que a inteligência mais antiga
+É também a que sabe quando não ir
+
+[Chorus]
+Ficou na cama, ficou na cama
+O corpo ficou na cama
+E eu fiquei com ele
+
+[Outro]
+O alarme tocou
+O corpo ouviu
+E disse não
+E o não
+Também era verdade`,
+
+  "fibra-corpo-mentiu/2": `[Verse 1]
+The morning came like it always does
+With light that doesn't ask permission
+But today the light hit skin
+That had forgotten how to listen
+
+[Verse 2]
+My hands are on the sheets
+My eyes are on the ceiling
+The body is a house
+Where no one's home — just the feeling
+Of nothing at all
+
+[Pre-Chorus]
+Numb is not pain
+Numb is the space where pain used to be
+A room swept so clean
+There's nothing left to see
+
+[Chorus]
+Numb, numb, numb
+The body forgot its own language
+Numb, numb, numb
+Not broken, not hurt, just blank
+Like a radio between stations
+Like a screen before the film
+Numb is the body's way
+Of filling up with nothing to the brim
+
+[Verse 3]
+I move my fingers just to check
+They move, they work, they bend
+But the signal from the brain
+Arrives like mail that's lost — then found — then lost again
+
+[Chorus]
+Numb, numb, numb
+Not broken, not hurt, just blank
+Numb is the body's way
+Of filling up with nothing to the brim
+
+[Bridge]
+Yesterday I was alive
+I wrote about it, felt it, sang
+Today I am the instrument
+That no one plays, that no one rang
+The strings are there, the wood is warm
+The shape is right, the tuning's done
+But numb is the music
+After the musician's gone
+
+[Chorus]
+Numb, numb, numb
+The body forgot its own language
+Like a screen before the film
+
+[Outro]
+I'm here
+I think I'm here
+The body is here
+But the frequency
+That hums
+Has gone
+Quiet`,
+
+  "fibra-corpo-mentiu/3": `[Verse 1]
+O cobertor pesa como betão
+Os ombros afundam no colchão
+Os braços são objectos que não me pertencem
+As pernas são troncos de árvores cortadas
+
+[Verse 2]
+A gravidade duplicou durante a noite
+O tecto está mais baixo do que ontem
+Cada centímetro entre a cama e o chão
+É um desfiladeiro que não sei se quero descer
+
+[Pre-Chorus]
+O peso não é do cobertor
+O peso não é da gravidade
+O peso sou eu
+Sou eu que pesei mais do que podia hoje
+
+[Chorus]
+Peso, peso, peso
+O corpo não levanta e não explica
+Peso, peso, peso
+A cama é uma armadilha que não pica
+Não dói, não aperta, não agarra
+Só segura com a suavidade
+De um cansaço tão antigo
+Que já tem a minha idade
+
+[Verse 3]
+Olho para as mãos e são as mesmas
+Que ontem agarraram o mundo
+Mas hoje o mundo pesa mais
+Ou eu peso menos — e afundo
+
+[Chorus]
+Peso, peso, peso
+A cama é uma armadilha que não pica
+Só segura com a suavidade
+De um cansaço tão antigo
+
+[Bridge]
+Há dias em que levantar o corpo
+É o acto mais violento que conheço
+Não porque alguém me prende
+Mas porque o peso é meu e eu reconheço
+Cada grama, cada quilo
+De tudo o que carreguei sem dizer
+E hoje o corpo faz a conta
+E cobra tudo de uma vez
+
+[Chorus]
+Peso, peso, peso
+O corpo não levanta e não explica
+E eu fico aqui deitada
+Com o peso que é meu
+
+[Outro]
+Não é fraqueza
+É gravidade
+O corpo sabe
+Quanto pesa
+A vida
+Quando a mente
+Finge que não`,
+
+  "fibra-corpo-mentiu/4": `[Verse 1]
+I'm out the door, the shoes are laced
+The road is there, the same old route
+But every step is half a beat
+Behind whatever I'm running from — or to
+
+[Verse 2]
+The legs are moving but they're lying
+The lungs are full but nothing flows
+The stride I know, the one that saves me
+Didn't show up — and nobody knows
+
+[Pre-Chorus]
+Wrong rhythm is not no rhythm
+It's worse — it's the almost
+The body reaching for the groove
+And grabbing nothing but a ghost
+
+[Chorus]
+Wrong rhythm, wrong rhythm
+The body and the road don't agree
+Wrong rhythm, wrong rhythm
+Today the music isn't free
+The legs say fast, the lungs say stop
+The arms are swinging out of time
+Wrong rhythm is the loneliest run
+A body out of rhyme
+
+[Verse 3]
+The trees don't blur, the sweat won't come
+The city stays in sharp hard focus
+Every crack in every pavement
+Is a reminder of the locus — I can't find
+
+[Chorus]
+Wrong rhythm, wrong rhythm
+Today the music isn't free
+Wrong rhythm is the loneliest run
+A body out of rhyme
+
+[Bridge]
+I used to think the bad runs
+Were just the good runs in disguise
+But some runs are just bad
+No lesson hiding, no surprise
+The body didn't find the gear
+The road gave nothing back
+Wrong rhythm is the truth
+That not every day is on track
+
+[Chorus]
+Wrong rhythm, wrong rhythm
+The body and the road don't agree
+A body out of rhyme
+
+[Outro]
+I finished the run
+Every metre of it
+And none of it
+Was mine`,
+
+  "fibra-corpo-mentiu/5": `[Verse 1]
+Os joelhos doem antes da esquina
+Um som seco, fundo, mineral
+Como dois pratos a rachar por dentro
+Um aviso que não é casual
+
+[Verse 2]
+Continuo porque continuar é o que faço
+Porque parar é admitir que o corpo tem razão
+Mas a cada passo o joelho lembra-me
+Que a teimosia não é a mesma coisa que decisão
+
+[Pre-Chorus]
+O corpo não grita
+O corpo avisa baixo primeiro
+E quando eu não oiço
+O corpo grita com o joelho inteiro
+
+[Chorus]
+Joelhos, joelhos que dobram
+O corpo diz basta e é basta mesmo
+Joelhos, joelhos que cobram
+Cada passo a mais, cada excesso
+Não é fraqueza, é engenharia
+O corpo sabe o seu limite
+E o limite não é negociável
+Por mais que a mente o evite
+
+[Verse 3]
+Paro no meio do caminho
+Não por escolha mas por ordem
+Os joelhos que me levaram a todo o lado
+Hoje dizem que há coisas que se rompem
+
+[Chorus]
+Joelhos, joelhos que dobram
+Não é fraqueza, é engenharia
+O corpo sabe o seu limite
+E o limite não é negociável
+
+[Bridge]
+Passei a vida a celebrar
+O corpo que avança e que não pára
+Mas nunca escrevi uma canção
+Para o corpo que se declara
+Incapaz, finito, gasto
+Que diz basta sem pedir perdão
+Os joelhos são a parte mais honesta
+De toda esta construção
+
+[Chorus]
+Joelhos, joelhos que cobram
+O corpo diz basta e é basta mesmo
+E basta
+É uma palavra inteira
+
+[Outro]
+Paro
+Não porque quero
+Mas porque o corpo
+Sabe coisas
+Que a vontade
+Não quer ouvir`,
+
+  "fibra-corpo-mentiu/6": `[Verse 1]
+There's a sound my shoulder makes
+That wasn't there in June
+A grinding, clicking, rusted hinge
+A body out of tune
+
+[Verse 2]
+My ankles need a minute now
+Before they trust the stairs
+My back has its own weather system
+That nobody repairs
+
+[Pre-Chorus]
+Rust is what happens
+When the machine keeps running wet
+When the body does the work
+But the body can't forget
+
+[Chorus]
+Rust, rust in the joints
+Rust in the places I used to fly
+Rust, rust at the points
+Where the body starts to question why
+Not why I run, not why I move
+But why the moving costs this much
+Rust is the tax
+On a body that never learned the word untouched
+
+[Verse 3]
+I stretch and something pops
+I bend and something pulls
+The body that was fluid once
+Is learning different rules
+
+[Chorus]
+Rust, rust at the points
+Where the body starts to question why
+Rust is the tax
+On a body that never learned the word untouched
+
+[Bridge]
+Nobody warned me about rust
+They talked about the wall, the wind
+The second breath, the runner's high
+But no one mentioned the machine
+That slowly, gently, without malice
+Starts to show its age in sound
+Rust is not the end of motion
+Rust is motion on harder ground
+
+[Chorus]
+Rust, rust in the joints
+Rust is not the end of motion
+Rust is motion on harder ground
+
+[Outro]
+The body creaks
+The body moves
+Slower now
+Louder now
+But still
+Somehow
+Moving`,
+
+  "fibra-corpo-mentiu/7": `[Verse 1]
+A chuva não parou hoje
+Nem ontem nem anteontem
+O céu é um lençol cinzento
+Que ninguém sabe quem estendeu nem quem recolhe
+
+[Verse 2]
+O chão não brilha com esta chuva
+Não há reflexo, não há espelho
+Só lama e água suja nas sarjetas
+E um frio que entra pelo joelho
+
+[Pre-Chorus]
+Não há petrichor nesta chuva
+Não há poesia no molhado
+Há só uma cidade encharcada
+E um corpo que está cansado
+
+[Chorus]
+Chuva sem depois, chuva sem depois
+O céu não abre e não promete
+Chuva sem depois, chuva sem depois
+Sem arco-íris, sem bilhete
+De volta ao sol, de volta ao seco
+De volta ao corpo que brilha
+Chuva sem depois é a chuva
+Que cai sem dar ouvidos à previsão
+
+[Verse 3]
+Os ténis estão encharcados
+O casaco deixou de proteger
+As mãos estão brancas de frio
+E não há segunda pele para ter
+
+[Chorus]
+Chuva sem depois, chuva sem depois
+Sem arco-íris, sem bilhete
+Chuva sem depois é a chuva
+Que não tem moral da história
+
+[Bridge]
+Nos outros álbuns a chuva lava
+Nos outros álbuns o céu abre
+Mas hoje a chuva é só chuva
+E o céu é só um tecto que não abre
+E eu estou aqui debaixo
+Sem metáfora e sem lição
+Molhada até aos ossos
+Com as mãos vazias e sem canção
+
+[Chorus]
+Chuva sem depois, chuva sem depois
+O céu não abre e não promete
+E eu fico aqui
+Molhada
+
+[Outro]
+A chuva cai
+Sem razão
+Sem prémio
+Sem depois
+Só cai
+E eu
+Fico`,
+
+  "fibra-corpo-mentiu/8": `[Verse 1]
+I didn't bounce back
+I didn't rise from the ashes
+I just got dressed this morning
+And that took several passes
+
+[Verse 2]
+The shoes went on, the door opened
+The street was there, indifferent
+My body walked the usual route
+But everything felt different — duller, thicker
+
+[Pre-Chorus]
+Still here is not a comeback
+Still here is not a win
+Still here is just the quiet fact
+Of a body that walked out of the room it was trapped in
+
+[Chorus]
+Still here, still here
+Not fixed, not mended, not new
+Still here, still here
+The most honest thing I can do
+Not a victory lap, not a battle cry
+Not a phoenix, not a flame
+Still here is just the body
+Showing up without a name
+
+[Verse 3]
+The sun is out but I don't feel it
+The air is clean but I don't care
+My legs are working, that's the headline
+The rest is just — being there
+
+[Chorus]
+Still here, still here
+The most honest thing I can do
+Still here is just the body
+Showing up without a name
+
+[Bridge]
+There are songs about the rise
+About the second wind, the fire
+But nobody writes the one
+About the body running flat, no higher
+No lower, no direction
+Just the fact of forward motion
+Still here is the unsexy truth
+Of a body without devotion — just discipline
+
+[Chorus]
+Still here, still here
+Not fixed, not mended, not new
+Still here is just the body
+Showing up
+
+[Outro]
+I'm here
+That's it
+That's all I've got
+And today
+That's all
+There needs to be`,
+
+  "fibra-corpo-mentiu/9": `[Verse 1]
+A cicatriz no joelho direito
+Tem quinze anos e ainda fala
+Cada vez que o tempo muda
+Cada vez que o corpo esbarra
+
+[Verse 2]
+A mente diz que já passou
+Que já curou, que já não conta
+Mas o corpo guarda a conta
+Numa pele que nunca se monta — igual
+
+[Pre-Chorus]
+O corpo lembra o que a mente arruma
+O corpo guarda o que a mente fecha
+A cicatriz é o arquivo
+Que o corpo nunca deixa
+
+[Chorus]
+Cicatriz, cicatriz
+O corpo tem memória própria
+Cicatriz, cicatriz
+Não é vergonha, não é história
+É o mapa do que aconteceu
+Quando a mente estava noutra parte
+O corpo escreveu nos tecidos
+A sua própria versão da arte
+
+[Verse 3]
+O ombro que estala de manhã
+A anca que trava na subida
+São versões do mesmo arquivo
+Que o corpo nunca perde na vida
+
+[Chorus]
+Cicatriz, cicatriz
+É o mapa do que aconteceu
+O corpo escreveu nos tecidos
+A verdade que a mente escondeu
+
+[Bridge]
+Eu queria um corpo sem marcas
+Um corpo limpo como folha
+Mas o corpo limpo nunca correu
+Nunca caiu, nunca se molha
+As cicatrizes são a prova
+De que eu estive aqui de facto
+De que o corpo viveu cada dia
+E não só os dias em abstracto
+
+[Chorus]
+Cicatriz, cicatriz
+O corpo tem memória própria
+E a memória do corpo
+Não mente
+
+[Outro]
+Cada marca
+Cada vinco
+Cada dor que volta
+É o corpo
+A dizer
+Eu lembro-me
+Mesmo que tu não`,
+
+  "fibra-corpo-mentiu/10": `[Verse 1]
+Hoje não corri
+Fui até à porta e voltei
+Vesti os ténis e tirei-os
+Sentei-me no degrau e fiquei
+
+[Verse 2]
+O ar da manhã entrou pelo nariz
+Não como lâmina mas como hábito
+O corpo não cantou nenhuma canção
+Mas respirou — e isso basta, é tácito
+
+[Pre-Chorus]
+O mínimo não é derrota
+O mínimo é o chão
+É o ponto mais baixo
+De onde ainda se pode pôr a mão
+
+[Chorus]
+Mínimo, mínimo
+O gesto mais pequeno que existe
+Mínimo, mínimo
+O corpo não desiste
+Não corre, não brilha, não voa
+Mas levantou-se e foi até à porta
+E isso é o suficiente
+Para o dia em que tudo é mais curto
+
+[Verse 3]
+Bebi o copo de água
+Lavei a cara sem urgência
+Olhei para o espelho sem procurar nada
+Só confirmei a minha presença
+
+[Chorus]
+Mínimo, mínimo
+O corpo não desiste
+Levantou-se e foi até à porta
+E isso é o suficiente
+
+[Bridge]
+Nos outros dias sou a que corre
+A que acorda antes do sol
+A que encontra o ritmo e voa
+A que brilha como girassol
+Mas hoje sou a do degrau
+A do ténis que se tira
+A do copo de água morno
+A que respira e só respira
+
+[Chorus]
+Mínimo, mínimo
+O gesto mais pequeno que existe
+E o gesto mais pequeno
+Ainda é um gesto
+
+[Outro]
+O pé no degrau
+O ar no nariz
+A água no copo
+Mais nada
+Nada mais
+E chega
+Hoje
+Chega`,
+
 };
