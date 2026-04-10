@@ -2804,6 +2804,47 @@ export default function AlbumProductionPage() {
               </button>
             </div>
 
+            {/* Batch suggest prompts for all tracks */}
+            <div className="mb-4 flex items-center gap-3 flex-wrap">
+              <button
+                onClick={() => {
+                  const newPrompts: Record<string, string> = {};
+                  let count = 0;
+                  for (const t of album.tracks) {
+                    const key = trackKey(album.slug, t.number);
+                    const prompt = suggestPrompt(
+                      t.energy || "steady",
+                      t.flavor || "organic",
+                      t.lang,
+                      t.description,
+                    );
+                    newPrompts[key] = prompt;
+                    count++;
+                  }
+                  setEditedPrompts((p) => ({ ...p, ...newPrompts }));
+                  alert(`Prompts sugeridos para ${count} faixas. Revê e ajusta à vontade.`);
+                }}
+                className="rounded-lg bg-mundo-dourado/20 px-4 py-2 text-xs text-mundo-dourado hover:bg-mundo-dourado/30 transition"
+              >
+                Sugerir prompts ({album.tracks.length} faixas)
+              </button>
+              <button
+                onClick={() => {
+                  const keysToRemove = album.tracks.map(t => trackKey(album.slug, t.number));
+                  setEditedPrompts((p) => {
+                    const copy = { ...p };
+                    for (const k of keysToRemove) delete copy[k];
+                    return copy;
+                  });
+                  alert("Prompts repostos ao original.");
+                }}
+                className="rounded-lg bg-mundo-muted-dark/20 px-4 py-2 text-xs text-mundo-muted hover:text-mundo-creme transition"
+              >
+                Repor originais
+              </button>
+              <span className="text-[10px] text-mundo-muted/40">Gera prompts limpos sem redundância de flavor</span>
+            </div>
+
             {/* Bulk generate button */}
             {(() => {
               const pendingTracks = album.tracks.filter(t => {
