@@ -61,6 +61,11 @@ export async function POST(req: NextRequest) {
             buffer = Buffer.from(await blob.arrayBuffer());
           }
 
+          // Validate buffer has actual content
+          if (buffer.length < 1000) {
+            console.warn(`[create-zip] Image ${idx}: too small (${buffer.length} bytes), skipping`);
+            return;
+          }
           const ext = url.match(/\.(png|jpg|jpeg|webp)$/i)?.[1] || "png";
           zip.file(`image-${String(idx + 1).padStart(3, "0")}.${ext}`, buffer);
           added++;
