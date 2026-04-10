@@ -53,7 +53,16 @@ export default function ShortsPage() {
     if (typeof window === "undefined") return defaultState();
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) return JSON.parse(saved);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        // Migrate from old format (audioTrim) to new (audioStart/audioEnd)
+        return {
+          ...defaultState(),
+          ...parsed,
+          audioStart: typeof parsed.audioStart === "number" ? parsed.audioStart : (parsed.audioTrim || 30),
+          audioEnd: typeof parsed.audioEnd === "number" ? parsed.audioEnd : ((parsed.audioTrim || 30) + 30),
+        };
+      }
     } catch {}
     return defaultState();
   });
@@ -87,8 +96,10 @@ export default function ShortsPage() {
     a.tracks.some(t => publishedKeys.has(`${a.slug}-t${t.number}`))
   );
 
-  const audioDuration = state.fullSong && track ? track.durationSeconds : Math.max(5, state.audioEnd - state.audioStart);
-  const numClips = Math.max(1, Math.ceil(audioDuration / state.clipDuration));
+  const safeStart = Number.isFinite(state.audioStart) ? state.audioStart : 30;
+  const safeEnd = Number.isFinite(state.audioEnd) ? state.audioEnd : 60;
+  const audioDuration = state.fullSong && track ? track.durationSeconds : Math.max(5, safeEnd - safeStart);
+  const numClips = Math.max(1, Math.ceil(audioDuration / (state.clipDuration || 5)));
   const numAiImages = Math.min(Math.ceil(numClips * 0.67), 4);
 
   function update(partial: Partial<ShortState>) {
