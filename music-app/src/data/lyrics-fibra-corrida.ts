@@ -58,7 +58,7 @@ E comecei a ir para onde o corpo me levou
 Mas sei que cada vez que duvido
 O primeiro passo prova
 Que a inteligência mais antiga
-É a que mora na pele, na sola
+É a que mora na pele, nos ossos
 
 [Chorus]
 O corpo decide antes de mim
@@ -285,7 +285,7 @@ Entre o fim e o primeiro
 Sombra e sol nas ruas da cidade
 O corpo conta os passos pela luz
 Sombra e sol é o ritmo da verdade
-Escuro e claro, claro e escuro — eu e a cruz
+Escuro e claro, claro e escuro
 De estar viva neste corpo
 Que alterna sem parar
 Entre o peso e o conforto
@@ -295,7 +295,7 @@ De simplesmente avançar
 O suor brilha quando o sol me apanha
 E seca quando a sombra me protege
 É como respirar em duas cores
-Um verso quente, outro fresco — e segue
+Um lado quente, outro fresco, sem parar
 
 [Chorus]
 Sombra e sol nas ruas da cidade
@@ -307,10 +307,9 @@ De simplesmente avançar
 A vida inteira é isto
 Não é só sol nem só sombra
 É a alternância que ensina
-Que nenhuma escuridão te assombra
-Se souberes que a luz
-Está sempre à esquina seguinte
-E que o corpo que aguenta a sombra
+Que depois de cada sombra
+A luz está à esquina seguinte
+E o corpo que atravessa o escuro
 É o mesmo que brilha quando sente
 
 [Chorus]
@@ -421,7 +420,7 @@ Que o sol dourado inflama
 Os barcos ao longe parecem parados
 O tempo aqui tem outro peso
 As gaivotas planam sem bater asa
-Como eu queria planar sem excesso
+E eu sigo ao ritmo delas
 
 [Chorus]
 Marginal ao pôr-do-sol
@@ -549,7 +548,7 @@ Que o corpo nunca esqueceu
 As nuvens mudam de nome
 De branco para ouro para cinza
 O ar arrefece nos ombros
-Mas o peito ainda é fornalha e cinza
+Mas o peito ainda guarda brasa
 
 [Chorus]
 Últimos raios, últimos raios
@@ -565,7 +564,7 @@ Com a mesma sede de fim de tarde
 Porque não há nada mais bonito
 Que estar de pé quando o céu se pinta
 E sentir que faço parte
-Desta tela que não se extinta
+Desta tela que nunca se apaga
 
 [Chorus]
 Últimos raios do dia
@@ -692,7 +691,7 @@ Que não se explica nem uma vez
 É mais crua, mais simples, mais pura
 Sem o peso das horas que vêm
 E eu acordo por causa dela
-Porque ela é mais eu que ninguém
+Porque ela é a versão que eu quero ser
 
 [Chorus]
 Levanta, levanta
@@ -789,13 +788,13 @@ E a cidade é o meu tecto e o meu leito
 
 [Chorus]
 Rua vazia, rua minha
-A cidade é toda a minha vizinha
+A cidade ainda não acordou
 Rua vazia, passo a passo
 O silêncio tem o tamanho do espaço
 Que eu preciso para respirar
 Sem pedir licença a ninguém
 Rua vazia ao amanhecer
-É o sítio onde eu me sei mais bem
+É onde eu me conheço melhor
 
 [Verse 3]
 O padeiro acende a luz na esquina
@@ -820,7 +819,7 @@ A pausa antes da cidade
 
 [Chorus]
 Rua vazia ao amanhecer
-É o sítio onde eu me sei mais bem
+É onde eu me conheço melhor
 
 [Outro]
 Às seis da manhã
@@ -1026,7 +1025,7 @@ Corta tudo o que é artificial
 O peito abre para o frio
 E o frio responde com verdade
 Não há nada mais honesto
-Que o oxigénio das seis da madrugade
+Que o oxigénio da madrugada
 
 [Pre-Chorus]
 Inspira e o mundo entra inteiro
@@ -1535,8 +1534,8 @@ Que a mente não reconhece mas é meu, é rio
 [Pre-Chorus]
 A adrenalina não pede licença
 Chega e ocupa o corpo inteiro
-É o animal mais antigo dentro de mim
-A acordar no primeiro cheiro de perigo verdadeiro
+É o animal mais antigo a acordar
+No primeiro instante verdadeiro
 
 [Chorus]
 Adrenalina, adrenalina
@@ -1552,7 +1551,7 @@ A lembrar-me que sei viver
 As pupilas dilatam para beber mais luz
 A respiração corta e volta
 O mundo fica mais nítido
-Como uma fotografia que finalmente se revolta — contra o borrão
+Como uma fotografia que finalmente ficou nítida
 
 [Chorus]
 Adrenalina, adrenalina
@@ -1568,7 +1567,7 @@ E que sabe exactamente quando lutar
 Não contra alguém, não contra o mundo
 Mas contra o sono da rotina
 A adrenalina é o grito do corpo
-A dizer que esta vida é divina
+A dizer que ainda estou aqui
 
 [Chorus]
 Adrenalina, adrenalina
@@ -1777,7 +1776,7 @@ Me`,
 O silêncio depois é sagrado
 Só se ouve o coração
 A bater contra as costelas
-Como um pássaro preso que é paixão
+Como um tambor que não quer parar
 
 [Verse 2]
 O suor seca devagar
@@ -1789,7 +1788,7 @@ Mas o tremor é quase musical
 O silêncio depois do esforço
 Não é ausência, é presença total
 É o corpo a ouvir-se por dentro
-Sem pressa, sem meta, seminal
+Sem pressa, sem meta, sem final
 
 [Chorus]
 Silêncio depois, silêncio depois
@@ -1917,7 +1916,7 @@ Como se o mundo tivesse mudado de maneira
 Petrichor — o nome que deram
 Ao cheiro que não se inventa
 É a terra a dizer obrigada
-É o chão que respira e consenta
+É o chão a respirar de novo
 
 [Chorus]
 Cheiro a terra, cheiro a terra
@@ -2300,13 +2299,13 @@ O céu partiu-se e sorriu
 Não se conquista um arco-íris
 Não se merece nem se ganha
 Ele aparece porque a chuva
-Também sabia que era estranha — e bonita
+Também guardava luz por dentro
 
 [Verse 3]
 As crianças apontam para o céu
 Os adultos param o carro
 Por um momento toda a gente olha para cima
-E o mundo pára como um disparo — de beleza
+E o mundo pára por um instante inteiro
 
 [Chorus]
 Arco-íris, arco-íris
@@ -2476,7 +2475,7 @@ As if waking from a troubled sleep
 Clear sky is not the absence of storm
 It's what remains when storms move through
 The blue was always there behind the grey
-It was just waiting for you — to look up
+It was just waiting to be seen
 
 [Chorus]
 Clear sky, clear sky
@@ -2492,7 +2491,7 @@ After the rain has said its vows
 The sun arrives like someone opening a door
 And the whole city leans into the warmth
 The puddles turn to mirrors of the blue
-And the world exhales — an endless uncorking forth
+And the whole world exhales at once
 
 [Chorus]
 Clear sky, clear sky
