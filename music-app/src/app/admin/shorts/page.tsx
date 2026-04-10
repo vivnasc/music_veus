@@ -560,8 +560,22 @@ export default function ShortsPage() {
               <div className="flex flex-col sm:flex-row">
                 <video src={state.resultUrl} controls playsInline muted loop className="sm:max-w-[280px] bg-black" />
                 <div className="flex sm:flex-col gap-2 p-3">
-                  <a href={state.resultUrl} download={`Short-${track.title}.mp4`} className="flex-1 sm:flex-initial rounded-lg px-4 py-2.5 text-xs font-medium bg-[#C9A96E] text-[#0D0D1A] hover:bg-[#d4b87a] transition text-center">Descarregar</a>
-                  <button onClick={() => { if (navigator.share) navigator.share({ title: `${track.title} — Loranne`, url: state.resultUrl! }).catch(() => {}); }} className="flex-1 sm:flex-initial rounded-lg px-4 py-2.5 text-xs text-[#a0a0b0] border border-white/10 hover:bg-white/5 transition text-center">Partilhar</button>
+                  <a href={state.resultUrl} download={`${track.title} — Loranne — Véus.mp4`} className="flex-1 sm:flex-initial rounded-lg px-4 py-2.5 text-xs font-medium bg-[#C9A96E] text-[#0D0D1A] hover:bg-[#d4b87a] transition text-center">Descarregar</a>
+                  <button onClick={() => {
+                    const caption = `"${state.clipLyrics?.split("\n")[0] || track.description}"\n\n${track.title} — Loranne\n${album?.title || ""}\n\nmusic.seteveus.space\n\n#Loranne #Véus #MusicaOriginal #${track.lang === "PT" ? "MusicaPortuguesa" : "NewMusic"} #IndieSoul #SoulMusic`;
+                    if (navigator.share) {
+                      navigator.share({ title: `${track.title} — Loranne`, text: caption, url: state.resultUrl! }).catch(() => {});
+                    } else {
+                      navigator.clipboard.writeText(caption);
+                      alert("Legenda copiada!");
+                    }
+                  }} className="flex-1 sm:flex-initial rounded-lg px-4 py-2.5 text-xs text-[#a0a0b0] border border-white/10 hover:bg-white/5 transition text-center">Partilhar</button>
+                  <button onClick={() => {
+                    const caption = `"${state.clipLyrics?.split("\n")[0] || track.description}"\n\n${track.title} — Loranne\n${album?.title || ""}\n\nmusic.seteveus.space\n\n#Loranne #Véus #MusicaOriginal #${track.lang === "PT" ? "MusicaPortuguesa" : "NewMusic"} #IndieSoul #SoulMusic`;
+                    navigator.clipboard.writeText(caption);
+                    const btn = document.activeElement as HTMLButtonElement;
+                    if (btn) { btn.textContent = "Copiada!"; setTimeout(() => { btn.textContent = "Copiar legenda"; }, 2000); }
+                  }} className="flex-1 sm:flex-initial rounded-lg px-4 py-2.5 text-xs text-[#666680] hover:text-[#a0a0b0] transition text-center">Copiar legenda</button>
                 </div>
               </div>
             </div>
