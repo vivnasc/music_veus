@@ -97,12 +97,26 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
     jazz: "jazz, Rhodes piano, walking bass, brushed cymbals, smoky, late-night",
     folk: "acoustic folk, fingerpicked guitar, stomps, earthy, campfire, storytelling",
     funk: "funk, R&B-pop, glossy, punchy drums, funky bassline, bright synth, dancefloor, 108 BPM",
-    house: "house, four-on-the-floor, deep bass, hi-hat, synth stabs, dance-floor",
+    house: "", // handled below per energy
     gospel: "Gospel-pop power anthem, female vocals, steady tom-driven build, pulsing synth stabs, rising strings, half-time pre-chorus, stadium chorus with big kick, claps, soaring choir harmonies, piano, organ, contemporary, clean",
   };
 
+  // House style adapts to energy — whisper/steady = chill, pulse/anthem = club
+  const houseByEnergy: Record<string, string> = {
+    whisper: "deep house, soft kick, warm sub-bass, gentle pads, ambient, lo-fi house, chill",
+    steady: "deep house, mellow groove, warm bass, soft hi-hat, Rhodes, sunset chill",
+    pulse: "house, driving beat, deep bass, hi-hat, synth stabs, energetic groove",
+    anthem: "house, big kick, deep bass, hi-hat, synth stabs, euphoric build, anthemic",
+    raw: "minimal house, soft kick, sparse percussion, close-mic, stripped-back",
+  };
+
   const base = energyBase[energy || "steady"] || energyBase.steady;
-  const flavorMod = flavorStyles[flavor || "organic"] || "";
+  let flavorMod = flavorStyles[flavor || "organic"] || "";
+
+  // Use energy-specific house style
+  if (flavor === "house") {
+    flavorMod = houseByEnergy[energy || "steady"] || houseByEnergy.steady;
+  }
 
   let style: string;
 
