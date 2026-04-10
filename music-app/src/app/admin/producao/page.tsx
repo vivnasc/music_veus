@@ -2165,6 +2165,71 @@ export default function AlbumProductionPage() {
               >
                 Exportar Letras (.md)
               </button>
+
+              <button
+                id={`import-lyrics-btn-${album.slug}`}
+                onClick={() => {
+                  const input = document.createElement("input");
+                  input.type = "file";
+                  input.accept = ".md,.txt";
+                  input.onchange = async () => {
+                    const file = input.files?.[0];
+                    if (!file) return;
+                    const btn = document.getElementById(`import-lyrics-btn-${album.slug}`) as HTMLButtonElement;
+                    btn.textContent = "A importar...";
+                    btn.disabled = true;
+                    try {
+                      const text = await file.text();
+                      // Parse: split by "## XX. Title" headers
+                      const sections = text.split(/^## \d{2}\.\s+/m).slice(1);
+                      let imported = 0;
+                      for (const section of sections) {
+                        const lines = section.split("\n");
+                        // Skip: title line, italic description, metadata line, empty line
+                        // Find lyrics: everything after the metadata line and first empty line
+                        let lyricsStart = -1;
+                        for (let i = 0; i < lines.length; i++) {
+                          if (i >= 2 && lines[i].trim() === "" && lyricsStart === -1) {
+                            lyricsStart = i + 1;
+                            break;
+                          }
+                        }
+                        if (lyricsStart === -1) continue;
+                        // Collect lyrics until "---" separator
+                        const lyricLines: string[] = [];
+                        for (let i = lyricsStart; i < lines.length; i++) {
+                          if (lines[i].trim() === "---") break;
+                          lyricLines.push(lines[i]);
+                        }
+                        const lyrics = lyricLines.join("\n").trim();
+                        if (!lyrics || lyrics === "*(letra em falta)*") continue;
+                        // Match track number from position in album
+                        const trackNum = imported + 1;
+                        if (trackNum > album.tracks.length) break;
+                        const key = trackKey(album.slug, trackNum);
+                        // Update local state
+                        setEditedLyrics((l) => ({ ...l, [key]: lyrics }));
+                        // Save to DB
+                        await adminFetch("/api/admin/track-lyrics", {
+                          method: "POST",
+                          headers: { "Content-Type": "application/json" },
+                          body: JSON.stringify({ album_slug: album.slug, track_number: trackNum, lyrics }),
+                        }).catch(() => {});
+                        imported++;
+                      }
+                      btn.textContent = `${imported} letras importadas!`;
+                    } catch (e) {
+                      btn.textContent = "Erro";
+                      alert(String(e));
+                    }
+                    setTimeout(() => { btn.disabled = false; btn.textContent = "Importar Letras (.md)"; }, 3000);
+                  };
+                  input.click();
+                }}
+                className="mt-3 rounded-lg bg-amber-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-amber-700 transition"
+              >
+                Importar Letras (.md)
+              </button>
             </div>
 
             {/* Bulk generate button */}
