@@ -96,8 +96,9 @@ function buildLorannPrompt(caption: string, triggerWord: string | null): string 
 
   return [
     `${trigger}${verse}.`,
-    "Cinematic visual scene that tells this story. Warm golden amber tones, atmospheric, emotional, evocative.",
-    "Fine art photography, dramatic chiaroscuro lighting, no text, no watermarks, no faces, no people. 9:16 vertical, shallow depth of field.",
+    "Cinematic landscape or still life scene — NO HUMAN FIGURES, NO PEOPLE, NO SILHOUETTES. Only objects, nature, architecture, light, textures.",
+    "Warm golden amber tones, atmospheric, emotional, evocative.",
+    "Fine art photography, dramatic chiaroscuro lighting, 9:16 vertical, shallow depth of field. Absolutely no people, no faces, no bodies, no silhouettes.",
   ].join(" ");
 }
 
