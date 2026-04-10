@@ -57,7 +57,7 @@ export async function POST(req: NextRequest) {
   };
 
   if (loraUrl) {
-    body.loras = [{ path: loraUrl, scale: 0.8 }];
+    body.loras = [{ path: loraUrl, scale: 0.5 }];
   }
 
   try {
