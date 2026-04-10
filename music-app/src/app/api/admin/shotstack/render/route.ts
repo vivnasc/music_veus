@@ -37,50 +37,64 @@ export async function POST(req: NextRequest) {
   // Track 1 (top layer): text overlays
   const textClips = [];
 
-  // Lyrics verse — centered, larger, italic
+  // Lyrics — verse by verse, each line fades in and out
   if (verse) {
-    textClips.push({
-      asset: {
-        type: "html",
-        html: `<p style="font-family:Georgia,serif;font-style:italic;font-size:38px;color:white;text-align:center;text-shadow:0 2px 20px rgba(0,0,0,0.9),0 0 40px rgba(0,0,0,0.5);padding:0 50px;line-height:1.6;letter-spacing:0.3px">${escapeHtml(verse)}</p>`,
-        width: 1080,
-        height: 600,
-      },
-      start: 2,
-      length: totalDuration - 4,
-      position: "center",
-      offset: { x: 0, y: 0.05 },
-      transition: { in: "fade", out: "fade" },
-    });
+    const lines = verse.split("\n").map((l: string) => l.trim()).filter(Boolean);
+    const lineCount = lines.length;
+    if (lineCount > 0) {
+      // Show 1-2 lines at a time, spread across the duration
+      const usableDuration = totalDuration - 4; // leave 2s margin each side
+      const linesPerGroup = lineCount <= 4 ? 1 : 2;
+      const groups: string[] = [];
+      for (let i = 0; i < lineCount; i += linesPerGroup) {
+        groups.push(lines.slice(i, i + linesPerGroup).join("<br/>"));
+      }
+      const groupDuration = Math.max(3, usableDuration / groups.length);
+      for (let i = 0; i < groups.length; i++) {
+        textClips.push({
+          asset: {
+            type: "html",
+            html: `<p style="font-family:Georgia,serif;font-style:italic;font-size:34px;color:white;text-align:center;text-shadow:0 2px 20px rgba(0,0,0,0.9),0 0 40px rgba(0,0,0,0.5);padding:0 40px;line-height:1.7">${groups[i]}</p>`,
+            width: 1080,
+            height: 300,
+          },
+          start: 2 + i * groupDuration,
+          length: groupDuration,
+          position: "center",
+          offset: { x: 0, y: 0.1 },
+          transition: { in: "fade", out: "fade" },
+        });
+      }
+    }
   }
 
-  // Artist name + track title — bottom
+  // Artist + track title + album — bottom with safe margin
   textClips.push({
     asset: {
       type: "html",
-      html: `<div style="text-align:center"><p style="font-family:Georgia,serif;font-weight:bold;font-size:26px;color:rgba(201,169,110,0.95);text-shadow:0 1px 10px rgba(0,0,0,0.7);letter-spacing:1px">Loranne</p><p style="font-family:sans-serif;font-size:15px;color:rgba(255,255,255,0.7);margin-top:6px;letter-spacing:0.5px">${escapeHtml(trackTitle || "")} — ${escapeHtml(albumTitle || "")}</p></div>`,
+      html: `<div style="text-align:center;padding:16px 20px"><p style="font-family:Georgia,serif;font-weight:bold;font-size:22px;color:rgba(201,169,110,0.95);text-shadow:0 1px 8px rgba(0,0,0,0.7);letter-spacing:1px">Loranne</p><p style="font-family:sans-serif;font-size:13px;color:rgba(255,255,255,0.6);margin-top:4px">${escapeHtml(trackTitle || "")} — ${escapeHtml(albumTitle || "")}</p></div>`,
       width: 1080,
-      height: 130,
+      height: 100,
     },
-    start: 1.5,
-    length: totalDuration - 2,
+    start: 1,
+    length: totalDuration - 1.5,
     position: "bottom",
-    offset: { x: 0, y: -0.06 },
+    offset: { x: 0, y: -0.12 },
     transition: { in: "fade", out: "fade" },
   });
 
-  // Watermark — music.seteveus.space — subtle, top right
+  // Watermark — music.seteveus.space
   textClips.push({
     asset: {
       type: "html",
-      html: `<p style="font-family:sans-serif;font-size:13px;color:rgba(255,255,255,0.35);text-shadow:0 1px 4px rgba(0,0,0,0.5);letter-spacing:0.5px">music.seteveus.space</p>`,
-      width: 400,
-      height: 40,
+      html: `<p style="font-family:sans-serif;font-size:12px;color:rgba(255,255,255,0.3);text-shadow:0 1px 3px rgba(0,0,0,0.5);letter-spacing:0.5px">music.seteveus.space</p>`,
+      width: 350,
+      height: 30,
     },
     start: 0,
     length: totalDuration,
     position: "topRight",
-    offset: { x: -0.02, y: 0.02 },
+    offset: { x: -0.03, y: 0.03 },
   });
 
   // Track 2: video clips in sequence with crossfade
