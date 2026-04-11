@@ -8,6 +8,7 @@ import { getTrackCoverUrl, getAlbumCover } from "@/lib/album-covers";
 import { useMusicPlayer } from "@/contexts/MusicPlayerContext";
 import NavBar from "@/components/music/NavBar";
 import TrackRow from "@/components/music/TrackRow";
+import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
 
 const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }> = {
@@ -31,7 +32,7 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
   const { playTrack, playAlbum, currentTrack, currentAlbum } = useMusicPlayer();
   const { getCoverTrack } = useAlbumCovers();
   const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
-  // selectedAlbum removed — albums now link directly to /album/[slug]
+  const [showPlaylistModal, setShowPlaylistModal] = useState(false);
 
   useEffect(() => {
     fetch("/api/published-tracks")
@@ -167,7 +168,24 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
                 </svg>
                 Shuffle
               </button>
+              <button
+                onClick={() => setShowPlaylistModal(true)}
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm text-[#a0a0b0] border border-white/10 hover:bg-white/5 transition-colors"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4">
+                  <line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+                Guardar na playlist
+              </button>
             </div>
+          )}
+          {showPlaylistModal && (
+            <AddToPlaylistModal
+              trackNumber={1}
+              albumSlug={publishedAlbums[0]?.slug || ""}
+              batch={allPublishedTracks.map(({ track, album }) => ({ trackNumber: track.number, albumSlug: album.slug }))}
+              onClose={() => setShowPlaylistModal(false)}
+            />
           )}
         </div>
       </div>

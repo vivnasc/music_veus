@@ -9,9 +9,11 @@ type Props = {
   trackNumber: number;
   albumSlug: string;
   onClose: () => void;
+  /** Batch mode: add multiple tracks at once (e.g. whole collection) */
+  batch?: { trackNumber: number; albumSlug: string }[];
 };
 
-export default function AddToPlaylistModal({ trackNumber, albumSlug, onClose }: Props) {
+export default function AddToPlaylistModal({ trackNumber, albumSlug, onClose, batch }: Props) {
   const [userId, setUserId] = useState<string | null>(null);
   const [checked, setChecked] = useState(false);
 
@@ -25,20 +27,24 @@ export default function AddToPlaylistModal({ trackNumber, albumSlug, onClose }: 
   if (!checked) return null;
 
   return userId ? (
-    <SupabasePlaylistPicker trackNumber={trackNumber} albumSlug={albumSlug} onClose={onClose} />
+    <SupabasePlaylistPicker trackNumber={trackNumber} albumSlug={albumSlug} onClose={onClose} batch={batch} />
   ) : (
-    <LocalPlaylistPicker trackNumber={trackNumber} albumSlug={albumSlug} onClose={onClose} />
+    <LocalPlaylistPicker trackNumber={trackNumber} albumSlug={albumSlug} onClose={onClose} batch={batch} />
   );
 }
 
-function SupabasePlaylistPicker({ trackNumber, albumSlug, onClose }: Props) {
-  const { playlists, createPlaylist, addToPlaylist, loading } = usePlaylists();
+function SupabasePlaylistPicker({ trackNumber, albumSlug, onClose, batch }: Props) {
+  const { playlists, createPlaylist, addToPlaylist, addBatchToPlaylist, loading } = usePlaylists();
   const [creating, setCreating] = useState(false);
   const [newName, setNewName] = useState("");
   const [added, setAdded] = useState<string | null>(null);
 
   async function handleAdd(playlistId: string) {
-    await addToPlaylist(playlistId, trackNumber, albumSlug);
+    if (batch && batch.length > 0) {
+      await addBatchToPlaylist(playlistId, batch);
+    } else {
+      await addToPlaylist(playlistId, trackNumber, albumSlug);
+    }
     setAdded(playlistId);
     setTimeout(onClose, 600);
   }
@@ -48,14 +54,18 @@ function SupabasePlaylistPicker({ trackNumber, albumSlug, onClose }: Props) {
     if (!newName.trim()) return;
     const id = await createPlaylist(newName.trim());
     if (id) {
-      await addToPlaylist(id, trackNumber, albumSlug);
+      if (batch && batch.length > 0) {
+        await addBatchToPlaylist(id, batch);
+      } else {
+        await addToPlaylist(id, trackNumber, albumSlug);
+      }
       setAdded(id);
       setTimeout(onClose, 600);
     }
   }
 
   return (
-    <ModalShell onClose={onClose}>
+    <ModalShell onClose={onClose} batchCount={batch?.length}>
       {creating ? (
         <form onSubmit={handleCreate} className="flex gap-2 mb-3">
           <input autoFocus value={newName} onChange={e => setNewName(e.target.value)}
@@ -76,14 +86,18 @@ function SupabasePlaylistPicker({ trackNumber, albumSlug, onClose }: Props) {
   );
 }
 
-function LocalPlaylistPicker({ trackNumber, albumSlug, onClose }: Props) {
+function LocalPlaylistPicker({ trackNumber, albumSlug, onClose, batch }: Props) {
   const { playlists, createPlaylist, addToPlaylist } = useLocalPlaylists();
   const [creating, setCreating] = useState(false);
   const [newName, setNewName] = useState("");
   const [added, setAdded] = useState<string | null>(null);
 
   function handleAdd(playlistId: string) {
-    addToPlaylist(playlistId, trackNumber, albumSlug);
+    if (batch && batch.length > 0) {
+      batch.forEach(t => addToPlaylist(playlistId, t.trackNumber, t.albumSlug));
+    } else {
+      addToPlaylist(playlistId, trackNumber, albumSlug);
+    }
     setAdded(playlistId);
     setTimeout(onClose, 600);
   }
@@ -92,13 +106,17 @@ function LocalPlaylistPicker({ trackNumber, albumSlug, onClose }: Props) {
     e.preventDefault();
     if (!newName.trim()) return;
     const id = createPlaylist(newName.trim());
-    addToPlaylist(id, trackNumber, albumSlug);
+    if (batch && batch.length > 0) {
+      batch.forEach(t => addToPlaylist(id, t.trackNumber, t.albumSlug));
+    } else {
+      addToPlaylist(id, trackNumber, albumSlug);
+    }
     setAdded(id);
     setTimeout(onClose, 600);
   }
 
   return (
-    <ModalShell onClose={onClose}>
+    <ModalShell onClose={onClose} batchCount={batch?.length}>
       {creating ? (
         <form onSubmit={handleCreate} className="flex gap-2 mb-3">
           <input autoFocus value={newName} onChange={e => setNewName(e.target.value)}
@@ -121,7 +139,7 @@ function LocalPlaylistPicker({ trackNumber, albumSlug, onClose }: Props) {
 
 // Shared UI components
 
-function ModalShell({ onClose, children }: { onClose: () => void; children: React.ReactNode }) {
+function ModalShell({ onClose, children, batchCount }: { onClose: () => void; children: React.ReactNode; batchCount?: number }) {
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center" onClick={onClose}>
       <div className="absolute inset-0 bg-black/60" />
@@ -129,6 +147,9 @@ function ModalShell({ onClose, children }: { onClose: () => void; children: Reac
         onClick={e => e.stopPropagation()}>
         <div className="px-5 pt-4 pb-3 border-b border-white/5">
           <h3 className="text-sm font-medium text-[#F5F0E6]">Adicionar a playlist</h3>
+          {batchCount && batchCount > 1 && (
+            <p className="text-[10px] text-[#666680] mt-0.5">{batchCount} faixas</p>
+          )}
         </div>
         <div className="flex-1 overflow-y-auto px-5 py-3">
           {children}
