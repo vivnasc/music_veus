@@ -89,16 +89,17 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
   };
 
   // Flavor genre tag (short — just the genre identity)
+  // Must use terms Suno recognizes — not just genre names
   const flavorGenre: Record<string, string> = {
     organic: "",
-    marrabenta: "marrabenta, Mozambican groove",
-    afrobeat: "afrobeat, afropop",
-    bossa: "bossa nova",
-    jazz: "jazz",
-    folk: "acoustic folk",
-    funk: "funk, R&B-pop",
+    marrabenta: "afro-pop guitar groove, 100-110 BPM, Mozambican, warm bass, rhythmic repetition, grounded",
+    afrobeat: "afrobeat, afropop, West African groove",
+    bossa: "bossa nova, nylon guitar, Brazilian",
+    jazz: "jazz, Rhodes piano, brushed cymbals",
+    folk: "acoustic folk, fingerpicked guitar",
+    funk: "funk, R&B-pop, glossy groove",
     house: "deep house",
-    gospel: "gospel-pop",
+    gospel: "gospel-pop, choir harmonies",
   };
 
   // ─── Extract unique keywords from THIS track's prompt ───
