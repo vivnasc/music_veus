@@ -7,6 +7,7 @@ import { useRecommendations } from "@/hooks/useRecommendations";
 import { ALL_LISTS, type CuratedList } from "@/data/curated-lists";
 import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
 import { getTrackCoverUrl } from "@/lib/album-covers";
+import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
 
 const COLLECTION_PRODUCTS = ["espelho", "no", "curso", "livro", "incenso", "eter", "nua", "sangue", "fibra", "grao", "mare"] as const;
 
@@ -32,6 +33,81 @@ function getFeaturedAlbum(product: string, publishedKeys: Set<string>): Album | 
   if (published) return published;
   // Fallback to first album in collection
   return ALL_ALBUMS.find((a) => a.product === product) || null;
+}
+
+function getCollectionTracks(product: string, publishedKeys: Set<string>): { trackNumber: number; albumSlug: string }[] {
+  return ALL_ALBUMS
+    .filter(a => a.product === product)
+    .flatMap(a => a.tracks
+      .filter(t => publishedKeys.has(`${a.slug}-t${t.number}`))
+      .map(t => ({ trackNumber: t.number, albumSlug: a.slug }))
+    );
+}
+
+function CollectionGrid({ publishedKeys }: { publishedKeys: Set<string> }) {
+  const [playlistProduct, setPlaylistProduct] = useState<string | null>(null);
+
+  return (
+    <>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+        {COLLECTION_PRODUCTS.map((product) => {
+          const album = getFeaturedAlbum(product, publishedKeys);
+          const label = COLLECTION_LABELS[product];
+          const hasPublished = ALL_ALBUMS.some(
+            (a) => a.product === product && a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
+          );
+          if (!album || !label || !hasPublished) return null;
+          const albumCount = ALL_ALBUMS.filter(a => a.product === product && a.tracks.some(t => publishedKeys.has(`${a.slug}-t${t.number}`))).length;
+          return (
+            <div key={product} className="group relative">
+              <Link
+                href={`/coleccao/${product}`}
+                className="block rounded-xl overflow-hidden"
+              >
+                <div className="aspect-square relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}44)` }}>
+                  <Image
+                    src={getTrackCoverUrl(album.slug, 1)}
+                    alt={label.pt}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform brightness-50"
+                    unoptimized
+                    onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                  />
+                  <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
+                    <span className="text-xl font-semibold text-white">{label.pt}</span>
+                    <span className="text-[10px] text-white/50 mt-0.5">{label.en}</span>
+                    {albumCount > 1 && (
+                      <span className="text-[10px] text-white/40 mt-1">{albumCount} albuns</span>
+                    )}
+                  </div>
+                </div>
+              </Link>
+              <div className="flex items-center justify-between mt-1.5 px-1">
+                <p className="text-[10px] text-[#666680] line-clamp-1 flex-1">{label.sub}</p>
+                <button
+                  onClick={() => setPlaylistProduct(product)}
+                  className="p-1.5 rounded-full hover:bg-white/10 transition-colors shrink-0"
+                  title={`Adicionar ${label.pt} à playlist`}
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#C9A96E" strokeWidth="2" className="h-3.5 w-3.5">
+                    <line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      {playlistProduct && (
+        <AddToPlaylistModal
+          trackNumber={1}
+          albumSlug=""
+          batch={getCollectionTracks(playlistProduct, publishedKeys)}
+          onClose={() => setPlaylistProduct(null)}
+        />
+      )}
+    </>
+  );
 }
 
 export default function DescobrePage() {
@@ -114,43 +190,7 @@ export default function DescobrePage() {
               ))}
             </div>
           ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-            {COLLECTION_PRODUCTS.map((product) => {
-              const album = getFeaturedAlbum(product, publishedKeys);
-              const label = COLLECTION_LABELS[product];
-              const hasPublished = ALL_ALBUMS.some(
-                (a) => a.product === product && a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
-              );
-              if (!album || !label || !hasPublished) return null;
-              const albumCount = ALL_ALBUMS.filter(a => a.product === product && a.tracks.some(t => publishedKeys.has(`${a.slug}-t${t.number}`))).length;
-              return (
-                <Link
-                  key={product}
-                  href={`/coleccao/${product}`}
-                  className="group block rounded-xl overflow-hidden"
-                >
-                  <div className="aspect-square relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}44)` }}>
-                    <Image
-                      src={getTrackCoverUrl(album.slug, 1)}
-                      alt={label.pt}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform brightness-50"
-                      unoptimized
-                      onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
-                    />
-                    <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
-                      <span className="text-xl font-semibold text-white">{label.pt}</span>
-                      <span className="text-[10px] text-white/50 mt-0.5">{label.en}</span>
-                      {albumCount > 1 && (
-                        <span className="text-[10px] text-white/40 mt-1">{albumCount} albuns</span>
-                      )}
-                    </div>
-                  </div>
-                  <p className="text-[10px] text-[#666680] mt-1.5 px-1 line-clamp-1">{label.sub}</p>
-                </Link>
-              );
-            })}
-          </div>
+          <CollectionGrid publishedKeys={publishedKeys} />
           )}
         </section>
 
