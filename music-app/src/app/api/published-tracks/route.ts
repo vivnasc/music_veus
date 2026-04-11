@@ -31,7 +31,7 @@ export async function GET() {
     for (const prefix of ["albums", ""]) {
       const { data: folders } = await supabase.storage
         .from(BUCKET)
-        .list(prefix || undefined, { limit: 500 });
+        .list(prefix || undefined, { limit: 1000 });
 
       for (const folder of folders || []) {
         if (!folder.name) continue;

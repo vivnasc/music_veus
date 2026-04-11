@@ -27,6 +27,16 @@ function resolveAlbumForTrack(track: QueueTrack, fallback: Album | null): Album 
   return fallback;
 }
 
+const SUPABASE_CDN = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+
+function directCdnUrl(track: AlbumTrack, album: Album): string {
+  // If track already has a full URL (e.g. version with custom audioUrl), use it
+  if (track.audioUrl?.startsWith("http")) return track.audioUrl;
+  if (track.audioUrl?.startsWith("/api/music/stream")) return track.audioUrl;
+  const safeTrack = String(track.number).padStart(2, "0");
+  return `${SUPABASE_CDN}/storage/v1/object/public/audios/albums/${album.slug}/faixa-${safeTrack}.mp3`;
+}
+
 function proxyUrl(track: AlbumTrack, album: Album): string {
   if (track.audioUrl?.startsWith("/api/music/stream")) return track.audioUrl;
   return `/api/music/stream?album=${encodeURIComponent(album.slug)}&track=${track.number}`;
@@ -39,7 +49,8 @@ async function resolveAudioSrc(track: AlbumTrack, album: Album): Promise<string>
   } catch {
     // IndexedDB unavailable, fall through
   }
-  return proxyUrl(track, album);
+  // Try direct CDN first (much faster than proxy), fallback to proxy for CORS issues
+  return directCdnUrl(track, album);
 }
 
 type RepeatMode = "off" | "all" | "one";
@@ -244,13 +255,25 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     const onPlay = () => setState(s => ({ ...s, isPlaying: true }));
     const onPause = () => setState(s => ({ ...s, isPlaying: false }));
     const onError = () => {
-      setState(s => ({
-        ...s,
-        isPlaying: false,
-        audioError: s.currentTrack
-          ? `"${s.currentTrack.title}" ainda não tem áudio disponível.`
-          : "Erro ao carregar áudio.",
-      }));
+      // If CDN direct URL failed, retry with proxy before showing error
+      const currentSrc = audio.src;
+      setState(s => {
+        if (s.currentTrack && s.currentAlbum && currentSrc.includes("/storage/v1/object/public/")) {
+          const fallbackSrc = proxyUrl(s.currentTrack, s.currentAlbum);
+          queueMicrotask(() => {
+            audio.src = fallbackSrc;
+            audio.play().catch(() => {});
+          });
+          return s; // Don't show error yet — trying proxy
+        }
+        return {
+          ...s,
+          isPlaying: false,
+          audioError: s.currentTrack
+            ? `"${s.currentTrack.title}" ainda não tem áudio disponível.`
+            : "Erro ao carregar áudio.",
+        };
+      });
     };
 
     audio.addEventListener("timeupdate", onTime);
@@ -336,7 +359,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
             if (pickAlbum) {
               const newQueue = [...prev.queue, pick];
               // Fire async play outside setState
-              setTimeout(() => setSourceAndPlay(audioRef.current!, pick, pickAlbum, blobUrlRef), 0);
+              queueMicrotask(() => setSourceAndPlay(audioRef.current!, pick, pickAlbum, blobUrlRef));
               return {
                 ...prev,
                 currentTrack: pick,
@@ -356,7 +379,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       const album = resolveAlbumForTrack(nextTrack, prev.queueAlbum);
       if (nextTrack && album) {
         // Fire async play outside setState
-        setTimeout(() => setSourceAndPlay(audioRef.current!, nextTrack, album, blobUrlRef), 0);
+        queueMicrotask(() => setSourceAndPlay(audioRef.current!, nextTrack, album, blobUrlRef));
       }
 
       return {
@@ -418,17 +441,19 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
 
   // Add tracks to play next (after current track)
   const addToQueue = useCallback((tracks: AlbumTrack[], album: Album) => {
+    // Ensure albumSlug on all tracks
+    const enriched = tracks.map(t => (t as QueueTrack).albumSlug ? t : { ...t, albumSlug: album.slug } as QueueTrack);
     setState(s => {
       if (!s.currentTrack) {
         // Nothing playing — start playing the first track
         const audio = audioRef.current;
-        if (audio && tracks[0]) {
-          setSourceAndPlay(audio, tracks[0], album, blobUrlRef);
+        if (audio && enriched[0]) {
+          setSourceAndPlay(audio, enriched[0], album, blobUrlRef);
           return {
             ...s,
-            currentTrack: tracks[0],
+            currentTrack: enriched[0],
             currentAlbum: album,
-            queue: tracks,
+            queue: enriched,
             queueAlbum: album,
             isPlaying: true,
             showFullPlayer: true,
@@ -446,7 +471,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       });
       const newQueue = [...s.queue];
       const insertAt = currentIdx >= 0 ? currentIdx + 1 : newQueue.length;
-      newQueue.splice(insertAt, 0, ...tracks);
+      newQueue.splice(insertAt, 0, ...enriched);
       return { ...s, queue: newQueue };
     });
   }, []);
