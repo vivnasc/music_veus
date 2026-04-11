@@ -129,6 +129,8 @@ export function useLocalListeningData() {
   return {
     recents,
     playCounts,
+    energyCounts,
+    flavorCounts,
     recordPlay,
     topEnergy,
     topFlavor,

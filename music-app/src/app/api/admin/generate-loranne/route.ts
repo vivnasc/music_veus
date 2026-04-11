@@ -4,12 +4,30 @@ import { requireAdmin } from "@/lib/admin-auth";
 export const maxDuration = 120;
 
 /**
- * Generate Loranne photos via fal.ai with LoRA.
+ * Generate Loranne images via Flux Pro (NO LoRA) for training or content.
+ *
+ * When useLoRA=false (default): Uses Flux Pro without LoRA — for generating
+ * clean training images with strong identity constraints.
+ *
+ * When useLoRA=true: Uses active LoRA for content generation.
  *
  * POST /api/admin/generate-loranne
- * { prompt: string, numImages?: number (1-4) }
- * Returns: { imageUrls: string[] }
+ * { prompt: string, numImages?: number, useLoRA?: boolean }
  */
+
+// Loranne identity: human figure visible but face never shown.
+// Use "figure" not "woman" — Flux generates faces less aggressively with "figure".
+// Always specify the camera position to physically exclude the face.
+const IDENTITY = [
+  "A human figure seen from behind, draped in flowing golden translucent fabric.",
+  "The camera is behind the figure — we see the back, shoulders, and golden fabric. The figure does not turn around.",
+  "Warm golden amber tones, mysterious, intimate, elegant. The figure can be any race or body type.",
+].join(" ");
+
+const STYLE = "Fine art editorial photography, rear view composition, dramatic chiaroscuro lighting, warm golden amber, shallow depth of field, cinematic. No text, no watermarks.";
+
+const NEGATIVE = "face, frontal view, looking at camera, turning around, portrait, eyes, nude, naked, text, watermark";
+
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
   if (!auth.ok) return auth.response;
@@ -17,44 +35,54 @@ export async function POST(req: NextRequest) {
   const falKey = process.env.FAL_KEY;
   if (!falKey) return NextResponse.json({ erro: "FAL_KEY nao configurada." }, { status: 500 });
 
-  const loraUrl = process.env.FAL_LORANNE_LORA_URL;
-  if (!loraUrl) return NextResponse.json({ erro: "FAL_LORANNE_LORA_URL nao configurada." }, { status: 500 });
-
-  const { prompt, numImages } = await req.json();
+  const { prompt, numImages, useLoRA } = await req.json();
   if (!prompt || typeof prompt !== "string" || !prompt.trim()) {
     return NextResponse.json({ erro: "prompt e obrigatorio." }, { status: 400 });
   }
 
-  const count = Math.min(Math.max(numImages || 1, 1), 4);
+  const count = Math.min(Math.max(numImages || 2, 1), 4);
+  const fullPrompt = `${prompt.trim()}. ${IDENTITY} ${STYLE}`;
 
-  // Build prompt: LoRA trigger + identity constraints + user scene
-  const identityPrefix =
-    "loranne_artist, feminine silhouette draped in translucent golden veil, " +
-    "face completely hidden by fabric, no visible facial features, " +
-    "no defined race, the veil IS the identity";
-  const styleSuffix =
-    "warm golden light, cinematic editorial photography, " +
-    "ethereal atmosphere, shallow depth of field";
-  const fullPrompt = `${identityPrefix}, ${prompt.trim()}, ${styleSuffix}`;
+  // Decide endpoint + LoRA
+  let endpoint = "https://fal.run/fal-ai/flux-pro/v1.1";
+  const body: Record<string, unknown> = {
+    prompt: fullPrompt,
+    negative_prompt: NEGATIVE,
+    image_size: { width: 1024, height: 1024 },
+    num_images: count,
+    safety_tolerance: 5,
+    output_format: "jpeg",
+  };
+
+  if (useLoRA) {
+    // Try to use active LoRA
+    let loraUrl = process.env.FAL_LORANNE_LORA_URL || null;
+    if (!loraUrl) {
+      try {
+        const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
+        const configRes = await fetch(`${supabaseUrl}/storage/v1/object/public/audios/lora/active-lora.json`, { next: { revalidate: 300 } });
+        if (configRes.ok) {
+          const config = await configRes.json();
+          if (config.loraUrl) loraUrl = config.loraUrl;
+        }
+      } catch {}
+    }
+    if (loraUrl) {
+      endpoint = "https://fal.run/fal-ai/flux-lora";
+      body.loras = [{ path: loraUrl, scale: 0.5 }];
+      // Prepend trigger word
+      body.prompt = `loranne_artist, ${fullPrompt}`;
+    }
+  }
 
   try {
-    const falRes = await fetch("https://fal.run/fal-ai/flux-lora", {
+    const falRes = await fetch(endpoint, {
       method: "POST",
       headers: {
         Authorization: `Key ${falKey}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        prompt: fullPrompt,
-        negative_prompt:
-          "visible face, facial features, eyes, nose, mouth, clear face, portrait, " +
-          "defined race, skin color, uncovered face, text, watermark, logo",
-        loras: [{ path: loraUrl, scale: 1 }],
-        image_size: { width: 1024, height: 1024 },
-        num_images: count,
-        safety_tolerance: 5,
-        output_format: "jpeg",
-      }),
+      body: JSON.stringify(body),
     });
 
     if (!falRes.ok) {
@@ -63,12 +91,10 @@ export async function POST(req: NextRequest) {
     }
 
     const data = await falRes.json();
-    const imageUrls = (data.images || [])
-      .map((img: { url: string }) => img.url)
-      .filter(Boolean);
+    const imageUrls = (data.images || []).map((img: { url: string }) => img.url).filter(Boolean);
 
     if (imageUrls.length === 0) {
-      return NextResponse.json({ erro: "fal.ai nao devolveu imagens.", data }, { status: 502 });
+      return NextResponse.json({ erro: "Nenhuma imagem gerada.", data }, { status: 502 });
     }
 
     return NextResponse.json({ imageUrls });

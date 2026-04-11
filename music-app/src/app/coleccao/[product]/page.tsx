@@ -56,25 +56,24 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
     }
   }
 
+  function tagTracks(items: { track: AlbumTrack; album: Album }[]) {
+    // Tag each track with albumSlug so the player can resolve the correct album
+    return items.map(({ track, album }) => ({ ...track, albumSlug: album.slug }));
+  }
+
   function playAll() {
     if (allPublishedTracks.length === 0) return;
-    const firstItem = allPublishedTracks[0];
-    const tracks = allPublishedTracks.map(({ track, album }) => ({
-      ...track,
-      albumSlug: album.slug,
-    }));
-    playTrack(tracks[0], firstItem.album, tracks);
+    const firstAlbum = allPublishedTracks[0].album;
+    const tagged = tagTracks(allPublishedTracks);
+    playTrack(tagged[0], firstAlbum, tagged);
   }
 
   function playShuffle() {
     if (allPublishedTracks.length === 0) return;
     const shuffled = [...allPublishedTracks].sort(() => Math.random() - 0.5);
-    const firstItem = shuffled[0];
-    const tracks = shuffled.map(({ track, album }) => ({
-      ...track,
-      albumSlug: album.slug,
-    }));
-    playTrack(tracks[0], firstItem.album, tracks);
+    const firstAlbum = shuffled[0].album;
+    const tagged = tagTracks(shuffled);
+    playTrack(tagged[0], firstAlbum, tagged);
   }
 
   if (!label || albums.length === 0) {

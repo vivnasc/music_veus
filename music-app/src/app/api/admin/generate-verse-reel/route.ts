@@ -18,15 +18,16 @@ export async function POST(req: NextRequest) {
   const falKey = process.env.FAL_KEY;
   if (!falKey) return NextResponse.json({ erro: "FAL_KEY não configurada." }, { status: 500 });
 
-  const { caption, numImages, loraUrl: explicitLoraUrl, triggerWord: explicitTrigger } = await req.json();
+  const { caption, numImages, loraUrl: explicitLoraUrl, triggerWord: explicitTrigger, useLoRA: useLoRAParam } = await req.json();
   if (!caption) return NextResponse.json({ erro: "caption é obrigatório." }, { status: 400 });
   const count = Math.min(numImages || 1, 4);
+  const skipLoRA = useLoRAParam === false;
 
   // Auto-detect active LoRA from Supabase if not passed explicitly
   let loraUrl = explicitLoraUrl || null;
   let triggerWord = explicitTrigger || "loranne_artist";
 
-  if (!loraUrl) {
+  if (!loraUrl && !skipLoRA) {
     try {
       const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
       const loraConfigUrl = `${supabaseUrl}/storage/v1/object/public/audios/lora/active-lora.json`;
@@ -56,7 +57,7 @@ export async function POST(req: NextRequest) {
   };
 
   if (loraUrl) {
-    body.loras = [{ path: loraUrl, scale: 0.8 }];
+    body.loras = [{ path: loraUrl, scale: 0.5 }];
   }
 
   try {
@@ -94,26 +95,9 @@ function buildLorannPrompt(caption: string, triggerWord: string | null): string 
   const trigger = triggerWord ? `${triggerWord}, ` : "";
 
   return [
-    // Scene FIRST — what the user described
-    `${verse}.`,
-    // Loranne identity — consistent veiled figure
-    `${trigger}A feminine figure draped in flowing translucent golden fabric and veil. The face is hidden behind the veil. Only the silhouette and body are visible. Warm golden tones, intimate atmosphere.`,
-    // Style
-    "Fine art editorial photography, dramatic chiaroscuro lighting, no text, no watermarks. 9:16 vertical, shallow depth of field.",
+    `${trigger}${verse}.`,
+    "Cinematic scene for a music video. Warm golden hour lighting, atmospheric, emotional.",
+    "Fine art photography, dramatic lighting, 9:16 vertical, shallow depth of field. No text, no watermarks.",
   ].join(" ");
 }
 
-function buildVisualPrompt(caption: string): string {
-  const verseMatch = caption.match(/"([^"]+)"/);
-  const verse = verseMatch ? verseMatch[1].replace(/\n/g, " ") : caption.slice(0, 200);
-
-  return [
-    "Abstract cinematic still life, warm natural light, high quality.",
-    "NO people, NO faces, NO human figures, NO text, NO words, NO watermarks.",
-    "Show an atmospheric scene with objects, textures, or landscapes that evoke this feeling:",
-    `"${verse.slice(0, 250)}"`,
-    "Think: empty chair by a window, steam from a cup, light through curtains, fabric folds, ocean surface, candle flame, rain on glass, hands on piano keys, open book pages, morning fog.",
-    "Warm golden tones, soft shadows, slightly desaturated film look, intimate and contemplative.",
-    "9:16 vertical composition, shallow depth of field, cinematic bokeh.",
-  ].join(" ");
-}

@@ -1,10 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback, type ChangeEvent } from "react";
 import Link from "next/link";
 import { ALL_ALBUMS } from "@/data/albums";
 import { adminFetch } from "@/lib/admin-fetch";
 import { pickLorannImages } from "@/lib/loranne-images";
+
+const CALENDAR_STORAGE_KEY = "veus:content-calendar-plan";
 
 type ContentAction = {
   type: "reel" | "carrossel" | "story" | "post" | "partilha";
@@ -146,7 +148,7 @@ async function overlayTextOnImage(bgUrl: string, caption: string): Promise<strin
   return canvas.toDataURL("image/png");
 }
 
-const PLAN: DayPlan[] = [
+const DEFAULT_PLAN: DayPlan[] = [
   // ── SEMANA 1: Lançamento "Os Sete Temas do Despertar" ──
   { date: "2026-04-01", actions: [
     { type: "reel", label: "Reel — O Convite", albumSlug: "livro-filosofico", trackNumber: 1, caption: '"Há uma porta que não se vê\nno centro exacto do teu peito"\n\nO Convite — Loranne\nmusic.seteveus.space\n\n#loranne #veus #oconvite #ouve' },
@@ -167,14 +169,16 @@ const PLAN: DayPlan[] = [
     { type: "post", label: "Post — sobre o álbum", albumSlug: "livro-filosofico", caption: "este álbum não nasceu de inspiração.\nnasceu de ruptura.\n\nruptura com a ideia de permanência.\ncom a necessidade de entender.\ncom a urgência de me resolver.\n\nhá uma cadeira onde fiquei sentada tempo demais\na olhar para o que já tinha passado\ncomo se ainda pudesse mudar.\n\ne houve um momento em que levantei.\n\nnão porque estava pronta.\nmas porque ficar já não era possível.\n\nno fim não há versão melhor.\nnão há resposta final.\n\nhá só isto:\num reflexo que já não distorce.\ne a estranheza de perceber\nque sempre fui eu.\n\n9 faixas. português e inglês.\n\nmusic.seteveus.space\n\n#loranne #veus #ouve" },
   ]},
 
-  // ── SEMANA 2: Viagem + Saudade + Sangue Aceso ──
+  // ── SEMANA 2: Lançamento Ilusão + Viagem + Saudade ──
   { date: "2026-04-07", actions: [
     { type: "reel", label: "Reel — Vertigem (Vasto)", albumSlug: "eter-vasto", trackNumber: 1, caption: '"Olhei para cima e o chão fugiu\nO céu não tem fundo e eu também não\nA vertigem de existir\né a mesma de cair — sem chão"\n\nVertigem — Loranne\nVasto\nmusic.seteveus.space\n\n#loranne #veus #vasto #vertigem #céu' },
   ]},
   { date: "2026-04-08", actions: [
-    { type: "reel", label: "Reel — The Impermanence of You", albumSlug: "livro-filosofico", trackNumber: 2, caption: '"Nothing stays — nothing was meant to stay\nThe self you grip is made of rain\nLet the permanence dissolve like morning\nand find what lives beneath the pain"\n\nThe Impermanence of You — Loranne\nmusic.seteveus.space\n\n#loranne #veus #impermanence #letgo' },
+    { type: "carrossel", label: "Lançamento — Ilusão (Espelhos)", albumSlug: "espelho-ilusao", caption: "Ilusão.\n10 faixas sobre as máscaras que vestimos.\n\n\"Roda, roda, roda sem parar\nQuem é esta mulher que vive no meu lugar\"\n\nO segundo álbum da Loranne já está em todas as plataformas.\nPõe nos phones e fecha os olhos.\n\nmusic.seteveus.space\n\n#loranne #veus #ilusão #espelhos #novoalbum #ouve" },
+    { type: "reel", label: "Reel — A Roda (Ilusão)", albumSlug: "espelho-ilusao", trackNumber: 1, caption: '"Roda, roda, roda sem parar\nQuem é esta mulher que vive no meu lugar\nRoda, roda, roda sem sentir\nHá alguém cá dentro a pedir pra sair"\n\nA Roda — Loranne\nIlusão\nmusic.seteveus.space\n\n#loranne #veus #aroda #automático #ouve' },
   ]},
   { date: "2026-04-09", actions: [
+    { type: "reel", label: "Reel — The Impermanence of You", albumSlug: "livro-filosofico", trackNumber: 2, caption: '"Nothing stays — nothing was meant to stay\nThe self you grip is made of rain\nLet the permanence dissolve like morning\nand find what lives beneath the pain"\n\nThe Impermanence of You — Loranne\nmusic.seteveus.space\n\n#loranne #veus #impermanence #letgo' },
     { type: "reel", label: "Reel — O teu lado da cama (Saudade)", albumSlug: "nua-saudade", trackNumber: 1, caption: '"O teu lado da cama está frio\nA marca do teu corpo desapareceu\nMas eu deito-me do meu lado\nComo se o teu ainda existisse"\n\nSaudade — Loranne\nmusic.seteveus.space\n\n#loranne #veus #saudade #falta #amor' },
   ]},
   { date: "2026-04-10", actions: [
@@ -239,7 +243,7 @@ const PLAN: DayPlan[] = [
     { type: "reel", label: "Reel — Devagar (Espelho do Medo)", albumSlug: "espelho-medo", trackNumber: 7, caption: '"Devagar como a lua sobe\nDevagar como a maré vem\nDevagar como a ferida fecha\nDevagar como quem quer bem"\n\nDevagar — Loranne\nmusic.seteveus.space\n\n#loranne #veus #devagar #calma' },
   ]},
   { date: "2026-04-29", actions: [
-    { type: "post", label: "Post — verso A Roda", albumSlug: "espelho-ilusao", caption: "no intervalo entre dois dias iguais.\nno meio de um set.\nno momento em que já estava a fazer tudo certo.\n\ne de repente\njá não estou a pensar.\nestou só ali.\n\n\"roda, roda, roda sem parar\nquem é esta mulher que vive no meu lugar\"\n\na música não veio como ideia.\nveio como consequência.\n\nalgo que apareceu\nquando eu deixei de interferir.\n\nsem corrigir.\nsem provar.\nsem sair.\n\nsó ali.\n\nmusic.seteveus.space\n\n#loranne #veus #aroda #ouve" },
+    { type: "post", label: "Post — Ilusão 3 semanas depois", albumSlug: "espelho-ilusao", caption: "no intervalo entre dois dias iguais.\nno meio de um set.\nno momento em que já estava a fazer tudo certo.\n\ne de repente\njá não estou a pensar.\nestou só ali.\n\n\"roda, roda, roda sem parar\nquem é esta mulher que vive no meu lugar\"\n\na música não veio como ideia.\nveio como consequência.\n\nalgo que apareceu\nquando eu deixei de interferir.\n\nsem corrigir.\nsem provar.\nsem sair.\n\nsó ali.\n\nmusic.seteveus.space\n\n#loranne #veus #aroda #ouve" },
   ]},
   { date: "2026-04-30", actions: [
     { type: "reel", label: "Reel — O Reflexo Final", albumSlug: "livro-filosofico", trackNumber: 9, caption: '"Olha devagar, sem pressa\nO reflexo já não mente\nÉs tu — sempre foste tu\no princípio e o presente"\n\nO Reflexo Final — Loranne\nmusic.seteveus.space\n\n#loranne #veus #reflexo #verdade' },
@@ -278,17 +282,42 @@ function isPast(iso: string): boolean {
   return new Date(iso) < new Date(new Date().toDateString());
 }
 
+type EditTarget = {
+  dayIdx: number;
+  actionIdx: number | null; // null = new action
+  action: ContentAction;
+};
+
 export default function CalendarPage() {
+  const [plan, setPlan] = useState<DayPlan[]>(DEFAULT_PLAN);
+  const [loaded, setLoaded] = useState(false);
   const [doneState, setDoneState] = useState<Record<string, boolean>>({});
   const [expandedCaption, setExpandedCaption] = useState<string | null>(null);
   const [generatedImages, setGeneratedImages] = useState<Record<string, string>>({});
   const [generating, setGenerating] = useState<Record<string, string>>({});
+  const [editTarget, setEditTarget] = useState<EditTarget | null>(null);
+  const [newDayDate, setNewDayDate] = useState("");
 
-  // Load from localStorage on mount (client-only)
+  // Load plan + done state from localStorage
   useEffect(() => {
+    try {
+      const savedPlan = localStorage.getItem(CALENDAR_STORAGE_KEY);
+      if (savedPlan) {
+        const parsed = JSON.parse(savedPlan);
+        if (Array.isArray(parsed) && parsed.length > 0) setPlan(parsed);
+      }
+    } catch {}
     try {
       const saved = localStorage.getItem("veus:content-calendar");
       if (saved) setDoneState(JSON.parse(saved));
+    } catch {}
+    setLoaded(true);
+  }, []);
+
+  const savePlan = useCallback((newPlan: DayPlan[]) => {
+    setPlan(newPlan);
+    try {
+      localStorage.setItem(CALENDAR_STORAGE_KEY, JSON.stringify(newPlan));
     } catch {}
   }, []);
 
@@ -300,8 +329,59 @@ export default function CalendarPage() {
     });
   }
 
-  const totalActions = PLAN.reduce((s, d) => s + d.actions.length, 0);
+  function deleteAction(dayIdx: number, actionIdx: number) {
+    const newPlan = plan.map((day: DayPlan, di: number) => {
+      if (di !== dayIdx) return day;
+      return { ...day, actions: day.actions.filter((_: ContentAction, ai: number) => ai !== actionIdx) };
+    }).filter((d: DayPlan) => d.actions.length > 0);
+    savePlan(newPlan);
+  }
+
+  function saveAction(target: EditTarget) {
+    const newPlan = [...plan];
+    if (target.actionIdx !== null) {
+      newPlan[target.dayIdx] = {
+        ...newPlan[target.dayIdx],
+        actions: newPlan[target.dayIdx].actions.map((a: ContentAction, i: number) =>
+          i === target.actionIdx ? target.action : a
+        ),
+      };
+    } else {
+      newPlan[target.dayIdx] = {
+        ...newPlan[target.dayIdx],
+        actions: [...newPlan[target.dayIdx].actions, target.action],
+      };
+    }
+    savePlan(newPlan);
+    setEditTarget(null);
+  }
+
+  function addDay(dateStr: string) {
+    if (!dateStr) return;
+    const newDay: DayPlan = { date: dateStr, actions: [] };
+    const newPlan = [...plan, newDay].sort((a: DayPlan, b: DayPlan) => a.date.localeCompare(b.date));
+    savePlan(newPlan);
+    setNewDayDate("");
+    const dayIdx = newPlan.findIndex((d: DayPlan) => d.date === dateStr);
+    setEditTarget({
+      dayIdx,
+      actionIdx: null,
+      action: { type: "reel", label: "", albumSlug: ALL_ALBUMS[0]?.slug || "", caption: "" },
+    });
+  }
+
+  function deleteDay(dayIdx: number) {
+    savePlan(plan.filter((_: DayPlan, i: number) => i !== dayIdx));
+  }
+
+  function resetPlan() {
+    savePlan(DEFAULT_PLAN);
+  }
+
+  const totalActions = plan.reduce((s, d) => s + d.actions.length, 0);
   const doneCount = Object.values(doneState).filter(Boolean).length;
+
+  if (!loaded) return null;
 
   return (
     <div className="min-h-screen bg-[#0D0D1A] px-4 sm:px-6 py-10">
@@ -330,7 +410,7 @@ export default function CalendarPage() {
 
         {/* Days */}
         <div className="space-y-4">
-          {PLAN.map((day) => {
+          {plan.map((day, dayIdx) => {
             const today = isToday(day.date);
             const past = isPast(day.date);
             const allDone = day.actions.every((_, i) => doneState[`${day.date}-${i}`]);
@@ -350,6 +430,28 @@ export default function CalendarPage() {
                     {formatDate(day.date)}
                   </span>
                   {today && <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#C9A96E]/20 text-[#C9A96E]">Hoje</span>}
+                  <div className="ml-auto flex items-center gap-1">
+                    <button
+                      onClick={() => setEditTarget({
+                        dayIdx,
+                        actionIdx: null,
+                        action: { type: "reel", label: "", albumSlug: ALL_ALBUMS[0]?.slug || "", caption: "" },
+                      })}
+                      className="text-[10px] px-2 py-1 rounded text-[#666680] hover:text-[#C9A96E] transition-colors"
+                      title="Adicionar accao"
+                    >
+                      + Accao
+                    </button>
+                    {day.actions.length === 0 && (
+                      <button
+                        onClick={() => deleteDay(dayIdx)}
+                        className="text-[10px] px-2 py-1 rounded text-[#666680] hover:text-red-400 transition-colors"
+                        title="Remover dia"
+                      >
+                        &times;
+                      </button>
+                    )}
+                  </div>
                 </div>
 
                 <div className="space-y-3">
@@ -375,10 +477,36 @@ export default function CalendarPage() {
                               <span className="text-[10px] font-bold uppercase tracking-wider">{TYPE_LABELS[action.type]}</span>
                               <div className="w-2 h-2 rounded-full" style={{ backgroundColor: getAlbumColor(action.albumSlug) }} />
                               <span className="text-xs text-[#a0a0b0]">{getAlbumTitle(action.albumSlug)}</span>
+                              <button
+                                onClick={() => setEditTarget({ dayIdx, actionIdx: i, action: { ...action } })}
+                                className="text-[10px] text-[#666680] hover:text-[#C9A96E] transition-colors ml-auto"
+                                title="Editar"
+                              >
+                                ✎
+                              </button>
+                              <button
+                                onClick={() => deleteAction(dayIdx, i)}
+                                className="text-[10px] text-[#666680] hover:text-red-400 transition-colors"
+                                title="Remover"
+                              >
+                                &times;
+                              </button>
                             </div>
-                            <p className={`text-sm mt-1 ${done ? "line-through" : "text-[#F5F0E6]"}`}>
-                              {action.label}
-                            </p>
+                            <input
+                              type="text"
+                              value={action.label}
+                              onChange={(e: ChangeEvent<HTMLInputElement>) => {
+                                const newPlan = [...plan];
+                                newPlan[dayIdx] = {
+                                  ...newPlan[dayIdx],
+                                  actions: newPlan[dayIdx].actions.map((a: ContentAction, ai: number) =>
+                                    ai === i ? { ...a, label: e.target.value } : a
+                                  ),
+                                };
+                                savePlan(newPlan);
+                              }}
+                              className={`text-sm mt-1 w-full bg-transparent border-b border-transparent hover:border-white/10 focus:border-[#C9A96E]/50 focus:outline-none ${done ? "line-through text-[#666680]" : "text-[#F5F0E6]"}`}
+                            />
 
                             {action.caption && (
                               <button
@@ -389,13 +517,24 @@ export default function CalendarPage() {
                               </button>
                             )}
 
-                            {showCaption && action.caption && (
-                              <div className="mt-2 p-3 rounded-lg bg-black/20 border border-white/5 relative">
-                                <pre className="text-xs text-[#a0a0b0] whitespace-pre-wrap leading-relaxed">{action.caption}</pre>
-                                <button
-                                  onClick={() => {
-                                    navigator.clipboard.writeText(action.caption!);
+                            {showCaption && action.caption != null && (
+                              <div className="mt-2 rounded-lg bg-black/20 border border-white/5 relative">
+                                <textarea
+                                  value={action.caption}
+                                  onChange={(e: ChangeEvent<HTMLTextAreaElement>) => {
+                                    const newPlan = [...plan];
+                                    newPlan[dayIdx] = {
+                                      ...newPlan[dayIdx],
+                                      actions: newPlan[dayIdx].actions.map((a, ai) =>
+                                        ai === i ? { ...a, caption: e.target.value } : a
+                                      ),
+                                    };
+                                    savePlan(newPlan);
                                   }}
+                                  className="w-full p-3 text-xs text-[#a0a0b0] whitespace-pre-wrap leading-relaxed bg-transparent focus:outline-none focus:text-[#F5F0E6] resize-y min-h-[6rem]"
+                                />
+                                <button
+                                  onClick={() => navigator.clipboard.writeText(action.caption!)}
                                   className="absolute top-2 right-2 text-[10px] px-2 py-1 rounded bg-[#C9A96E]/20 text-[#C9A96E]"
                                 >
                                   Copiar
@@ -440,167 +579,31 @@ export default function CalendarPage() {
                                       if (!track) { alert("Faixa não encontrada"); return; }
 
                                       try {
-                                        // Step 1: Generate 4 AI images from verse (fal.ai + LoRA)
-                                        setGenerating(p => ({ ...p, [key]: "1/4 A gerar 4 imagens IA..." }));
-                                        const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
-                                          method: "POST",
-                                          headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({ caption: action.caption || track.description, numImages: 4 }),
+                                        setGenerating(p => ({ ...p, [key]: "A preparar reel..." }));
+                                        const { generateReel } = await import("@/lib/reel-generator");
+                                        const { getAlbumCover, getTrackCoverUrl } = await import("@/lib/album-covers");
+
+                                        let coverSrc = getAlbumCover(alb);
+                                        try {
+                                          const probe = await fetch(getTrackCoverUrl(albumSlug, trackNum), { method: "HEAD" });
+                                          if (probe.ok) coverSrc = getTrackCoverUrl(albumSlug, trackNum);
+                                        } catch {}
+
+                                        const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNum}`;
+
+                                        setGenerating(p => ({ ...p, [key]: "A gerar reel..." }));
+                                        const blob = await generateReel(track, alb, coverSrc, audioSrc, (p) => {
+                                          setGenerating(prev => ({ ...prev, [key]: p.message }));
                                         });
-                                        const aiData = await aiRes.json();
-                                        if (!aiRes.ok || !aiData.imageUrls?.length) { alert(`fal.ai: ${aiData.erro || JSON.stringify(aiData)}`); return; }
 
-                                        // Step 2: 2 Loranne poses + 4 AI = 6 clips × 5s = 30s
-                                        const loranneImgs = pickLorannImages(albumSlug, trackNum, 2);
+                                        const url = URL.createObjectURL(blob);
+                                        setGeneratedImages(p => ({ ...p, [key]: url }));
 
-                                        const loranneBase64List: (string | null)[] = [];
-                                        for (const imgPath of loranneImgs) {
-                                          try {
-                                            const loranneRes = await fetch(imgPath);
-                                            if (loranneRes.ok) {
-                                              const blob = await loranneRes.blob();
-                                              const reader = new FileReader();
-                                              const b64 = await new Promise<string>((resolve, reject) => {
-                                                reader.onloadend = () => resolve(reader.result as string);
-                                                reader.onerror = reject;
-                                                reader.readAsDataURL(blob);
-                                              });
-                                              loranneBase64List.push(b64);
-                                            } else {
-                                              loranneBase64List.push(null);
-                                            }
-                                          } catch (e) {
-                                            console.warn("Failed to load Loranne image locally:", e);
-                                            loranneBase64List.push(null);
-                                          }
-                                        }
-
-                                        const imageInputs: { imageUrl?: string; imageBase64?: string }[] = [
-                                          loranneBase64List[0] ? { imageBase64: loranneBase64List[0] } : { imageUrl: `${window.location.origin}${loranneImgs[0]}` },
-                                          { imageUrl: aiData.imageUrls[0] },
-                                          { imageUrl: aiData.imageUrls[1] || aiData.imageUrls[0] },
-                                          loranneBase64List[1] ? { imageBase64: loranneBase64List[1] } : { imageUrl: `${window.location.origin}${loranneImgs[1] || loranneImgs[0]}` },
-                                          { imageUrl: aiData.imageUrls[2] || aiData.imageUrls[0] },
-                                          { imageUrl: aiData.imageUrls[3] || aiData.imageUrls[1] || aiData.imageUrls[0] },
-                                        ];
-
-                                        setGenerating(p => ({ ...p, [key]: "2/4 A enviar 6 clips para Runway..." }));
-                                        const runwayPrompts = [
-                                          "Very slow subtle zoom in, portrait photograph, gentle light shift on face, minimal movement, ken burns effect",
-                                          "Slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
-                                          "Gentle camera drift, soft light particles floating, subtle shadows moving, intimate warm atmosphere",
-                                          "Very slow pan right, portrait close-up, warm golden light caressing face, ken burns effect",
-                                          "Slow dolly out, atmospheric dust particles, volumetric light beams, ethereal and meditative",
-                                          "Gentle tilt up, soft bokeh lights emerging, warm ambient glow, peaceful contemplation",
-                                        ];
-
-                                        const totalClips = imageInputs.length;
-                                        const runwayResults = await Promise.all(imageInputs.map(async (imgInput, idx) => {
-                                          const clipTrackNum = trackNum * 100 + idx + 1;
-                                          const res = await adminFetch("/api/admin/runway/generate", {
-                                            method: "POST",
-                                            headers: { "Content-Type": "application/json" },
-                                            body: JSON.stringify({
-                                              albumSlug,
-                                              trackNumber: clipTrackNum,
-                                              ...imgInput,
-                                              promptText: runwayPrompts[idx],
-                                              duration: 5,
-                                              ratio: "720:1280",
-                                            }),
-                                          });
-                                          return { ...(await res.json()), clipTrackNum };
-                                        }));
-
-                                        // Step 3: Poll all Runway tasks
-                                        setGenerating(p => ({ ...p, [key]: "3/4 Runway a processar 6 clips..." }));
-                                        const clipUrls: string[] = [];
-
-                                        for (let idx = 0; idx < runwayResults.length; idx++) {
-                                          const rd = runwayResults[idx];
-                                          if (rd.status === "exists" && rd.videoUrl) {
-                                            clipUrls.push(rd.videoUrl);
-                                            continue;
-                                          }
-                                          if (!rd.taskId) {
-                                            console.warn(`Runway clip ${idx + 1}: sem taskId — ${rd.erro || JSON.stringify(rd)}`);
-                                            continue;
-                                          }
-
-                                          const params = new URLSearchParams({
-                                            taskId: rd.taskId,
-                                            album: albumSlug,
-                                            track: String(rd.clipTrackNum),
-                                          });
-                                          let found = false;
-                                          for (let i = 0; i < 120; i++) {
-                                            await new Promise(r => setTimeout(r, 3000));
-                                            const sRes = await adminFetch(`/api/admin/runway/status?${params}`);
-                                            const sData = await sRes.json();
-                                            if (sData.status === "complete" && sData.videoUrl) {
-                                              clipUrls.push(sData.videoUrl);
-                                              found = true;
-                                              break;
-                                            }
-                                            if (sData.status === "error") {
-                                              console.warn(`Runway clip ${idx + 1} falhou: ${sData.error}`);
-                                              break;
-                                            }
-                                            setGenerating(p => ({ ...p, [key]: `3/4 Clip ${idx + 1}/${totalClips}... ${Math.min(Math.round(i * 1.2), 95)}%` }));
-                                          }
-                                          if (!found) console.warn(`Clip ${idx + 1} não disponível, a continuar com os restantes...`);
-                                        }
-                                        if (clipUrls.length < 4) { alert(`Apenas ${clipUrls.length} clip(s) disponíveis. Mínimo 4 necessários para 30s.`); return; }
-
-                                        // Step 4: Validate clips + mount with Shotstack
-                                        setGenerating(p => ({ ...p, [key]: "4/4 A validar clips..." }));
-
-                                        // Validate all clip URLs are accessible
-                                        const clipChecks = await Promise.all(clipUrls.map(url => fetch(url, { method: "HEAD" }).then(r => r.ok).catch(() => false)));
-                                        const badClips = clipChecks.filter(ok => !ok).length;
-                                        if (badClips > 0) { alert(`${badClips} clip(s) inacessíveis. Os vídeos do Runway podem ter expirado.`); return; }
-
-                                        const sbUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-                                        const audioUrl = `${sbUrl}/storage/v1/object/public/audios/albums/${albumSlug.replace(/[^a-z0-9-]/g, "")}/faixa-${String(trackNum).padStart(2, "0")}.mp3`;
-
-                                        // Validate audio exists
-                                        const audioCheck = await fetch(audioUrl, { method: "HEAD" }).then(r => r.ok).catch(() => false);
-                                        if (!audioCheck) { alert(`Áudio não encontrado: ${audioUrl}`); return; }
-
-                                        setGenerating(p => ({ ...p, [key]: "4/4 Shotstack a montar..." }));
-
-                                        const verse = (() => {
-                                          if (!track.lyrics) return "";
-                                          const lines = track.lyrics.split("\n").filter((l: string) => { const t = l.trim(); return t.length > 15 && t.length < 80 && !t.startsWith("["); });
-                                          return lines[0]?.trim() || "";
-                                        })();
-
-                                        const shotRes = await adminFetch("/api/admin/shotstack/render", {
-                                          method: "POST",
-                                          headers: { "Content-Type": "application/json" },
-                                          body: JSON.stringify({
-                                            clipUrls,
-                                            audioUrl,
-                                            verse,
-                                            trackTitle: track.title,
-                                            albumTitle: alb.title,
-                                          }),
-                                        });
-                                        const shotData = await shotRes.json();
-                                        if (!shotRes.ok || !shotData.id) { alert(`Shotstack: ${shotData.erro || JSON.stringify(shotData)}`); return; }
-
-                                        // Poll Shotstack
-                                        for (let i = 0; i < 120; i++) {
-                                          await new Promise(r => setTimeout(r, 3000));
-                                          const sRes = await adminFetch(`/api/admin/shotstack/status?id=${shotData.id}`);
-                                          const sData = await sRes.json();
-                                          if (sData.status === "done" && sData.videoUrl) {
-                                            setGeneratedImages(p => ({ ...p, [key]: sData.videoUrl }));
-                                            break;
-                                          }
-                                          if (sData.status === "failed") { alert(`Shotstack falhou: ${sData.error}`); return; }
-                                          setGenerating(p => ({ ...p, [key]: `4/4 A renderizar... ${Math.min(Math.round(i * 1.2), 95)}%` }));
-                                        }
+                                        // Also offer download
+                                        const a = document.createElement("a");
+                                        a.href = url;
+                                        a.download = `Reel — ${track.title}.mp4`;
+                                        a.click();
                                       } catch (err) {
                                         alert(`Erro: ${(err as Error).message}`);
                                       } finally {
@@ -694,6 +697,178 @@ export default function CalendarPage() {
               </div>
             );
           })}
+        </div>
+
+        {/* Add day + Reset */}
+        <div className="mt-6 flex items-center gap-3">
+          <input
+            type="date"
+            value={newDayDate}
+            onChange={(e: ChangeEvent<HTMLInputElement>) => setNewDayDate(e.target.value)}
+            className="rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-xs text-[#F5F0E6] focus:outline-none focus:border-[#C9A96E]/50"
+          />
+          <button
+            onClick={() => addDay(newDayDate)}
+            disabled={!newDayDate}
+            className="text-xs px-3 py-2 rounded-lg bg-[#C9A96E]/20 text-[#C9A96E] hover:bg-[#C9A96E]/30 transition disabled:opacity-30"
+          >
+            + Novo dia
+          </button>
+          <button
+            onClick={() => {
+              if (confirm("Repor calendario original? Perdes todas as alteracoes.")) resetPlan();
+            }}
+            className="text-xs px-3 py-2 rounded-lg text-[#666680] hover:text-red-400 transition ml-auto"
+          >
+            Repor original
+          </button>
+        </div>
+      </div>
+
+      {/* Edit modal */}
+      {editTarget && (
+        <EditActionModal
+          target={editTarget}
+          onSave={saveAction}
+          onClose={() => setEditTarget(null)}
+        />
+      )}
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────
+// Edit Action Modal
+// ─────────────────────────────────────────────
+
+function EditActionModal({
+  target,
+  onSave,
+  onClose,
+}: {
+  target: EditTarget;
+  onSave: (t: EditTarget) => void;
+  onClose: () => void;
+}) {
+  const [action, setAction] = useState<ContentAction>({ ...target.action });
+  const isNew = target.actionIdx === null;
+
+  const selectedAlbum = ALL_ALBUMS.find(a => a.slug === action.albumSlug);
+
+  function handleSave() {
+    if (!action.label.trim()) {
+      // Auto-generate label
+      const albumTitle = selectedAlbum?.title || action.albumSlug;
+      const trackTitle = action.trackNumber
+        ? selectedAlbum?.tracks.find(t => t.number === action.trackNumber)?.title || `Faixa ${action.trackNumber}`
+        : "";
+      action.label = trackTitle
+        ? `${TYPE_LABELS[action.type]} — ${trackTitle} (${albumTitle})`
+        : `${TYPE_LABELS[action.type]} — ${albumTitle}`;
+    }
+    onSave({ ...target, action });
+  }
+
+  return (
+    <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4" onClick={onClose}>
+      <div
+        className="bg-[#0D0D1A] border border-white/10 rounded-2xl p-6 max-w-lg w-full max-h-[85vh] overflow-y-auto"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="flex items-center justify-between mb-5">
+          <h3 className="font-semibold text-lg text-[#F5F0E6]">
+            {isNew ? "Nova accao" : "Editar accao"}
+          </h3>
+          <button onClick={onClose} className="text-[#666680] hover:text-white text-xl">&times;</button>
+        </div>
+
+        <div className="space-y-4">
+          {/* Type */}
+          <div>
+            <label className="text-[10px] text-[#666680] uppercase tracking-wider block mb-1">Tipo</label>
+            <select
+              value={action.type}
+              onChange={(e) => setAction({ ...action, type: e.target.value as ContentAction["type"] })}
+              className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm text-[#F5F0E6] focus:outline-none focus:border-[#C9A96E]/50"
+            >
+              <option value="reel">Reel</option>
+              <option value="carrossel">Carrossel</option>
+              <option value="post">Post</option>
+              <option value="story">Story</option>
+              <option value="partilha">Partilha</option>
+            </select>
+          </div>
+
+          {/* Album */}
+          <div>
+            <label className="text-[10px] text-[#666680] uppercase tracking-wider block mb-1">Album</label>
+            <select
+              value={action.albumSlug}
+              onChange={(e) => setAction({ ...action, albumSlug: e.target.value, trackNumber: undefined })}
+              className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm text-[#F5F0E6] focus:outline-none focus:border-[#C9A96E]/50"
+            >
+              {ALL_ALBUMS.map(a => (
+                <option key={a.slug} value={a.slug}>{a.title} ({a.product})</option>
+              ))}
+            </select>
+          </div>
+
+          {/* Track */}
+          {selectedAlbum && (
+            <div>
+              <label className="text-[10px] text-[#666680] uppercase tracking-wider block mb-1">Faixa (opcional)</label>
+              <select
+                value={action.trackNumber || ""}
+                onChange={(e) => setAction({ ...action, trackNumber: e.target.value ? Number(e.target.value) : undefined })}
+                className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm text-[#F5F0E6] focus:outline-none focus:border-[#C9A96E]/50"
+              >
+                <option value="">Nenhuma (album inteiro)</option>
+                {selectedAlbum.tracks.map(t => (
+                  <option key={t.number} value={t.number}>{t.number}. {t.title}</option>
+                ))}
+              </select>
+            </div>
+          )}
+
+          {/* Label */}
+          <div>
+            <label className="text-[10px] text-[#666680] uppercase tracking-wider block mb-1">Label (vazio = auto)</label>
+            <input
+              type="text"
+              value={action.label}
+              onChange={(e) => setAction({ ...action, label: e.target.value })}
+              placeholder="Ex: Reel — A Roda (Ilusão)"
+              className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm text-[#F5F0E6] placeholder-[#666680] focus:outline-none focus:border-[#C9A96E]/50"
+            />
+          </div>
+
+          {/* Caption */}
+          <div>
+            <label className="text-[10px] text-[#666680] uppercase tracking-wider block mb-1">Legenda / Caption</label>
+            <textarea
+              value={action.caption || ""}
+              onChange={(e) => setAction({ ...action, caption: e.target.value })}
+              placeholder="Texto para Instagram..."
+              rows={6}
+              className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2 text-sm text-[#F5F0E6] placeholder-[#666680] focus:outline-none focus:border-[#C9A96E]/50 resize-y"
+            />
+          </div>
+        </div>
+
+        {/* Save */}
+        <div className="flex justify-end gap-3 mt-6">
+          <button
+            onClick={onClose}
+            className="text-xs px-4 py-2 rounded-lg text-[#666680] hover:text-[#a0a0b0] transition"
+          >
+            Cancelar
+          </button>
+          <button
+            onClick={handleSave}
+            className="text-xs px-5 py-2 rounded-lg bg-[#C9A96E] text-[#0D0D1A] font-semibold hover:bg-[#d4b06a] transition"
+          >
+            {isNew ? "Adicionar" : "Guardar"}
+          </button>
         </div>
       </div>
     </div>

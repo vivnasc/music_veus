@@ -8,13 +8,13 @@ const RUNWAY_API = "https://api.dev.runwayml.com/v1";
 const BUCKET = "audios";
 
 /**
- * Generate a video hook from a track's cover image using Runway Gen-3 Alpha.
+ * Generate a video clip from a track's cover image using Runway Gen-4 Turbo.
  *
  * POST /api/admin/runway/generate
  * { albumSlug, trackNumber, promptText?, duration?, ratio? }
  *
  * Uses the track's Suno cover stored in Supabase (faixa-XX-cover.jpg).
- * If no cover found, falls back to imageBase64 if provided.
+ * If no cover found, falls back to imageUrl or imageBase64 if provided.
  *
  * Flow:
  * 1. Check if hook video already exists → return it
@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const { albumSlug, trackNumber, imageBase64, imageUrl, promptText, duration, ratio } = await req.json();
+    const { albumSlug, trackNumber, imageBase64, imageUrl, promptText, duration, ratio, force } = await req.json();
 
     if (!albumSlug || !trackNumber) {
       return NextResponse.json({ erro: "albumSlug e trackNumber obrigatórios." }, { status: 400 });
@@ -45,15 +45,17 @@ export async function POST(req: NextRequest) {
     const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
     const supabase = createClient(supabaseUrl, supabaseKey);
 
-    // 1. Check if hook video already exists
-    const publicVideoUrl = `${supabaseUrl}/storage/v1/object/public/${BUCKET}/${videoPath}`;
-    const check = await fetch(publicVideoUrl, { method: "HEAD" });
-    if (check.ok) {
-      return NextResponse.json({
-        status: "exists",
-        videoUrl: publicVideoUrl,
-        message: "Video hook já existe.",
-      });
+    // 1. Check if hook video already exists (skip if force=true)
+    if (!force) {
+      const publicVideoUrl = `${supabaseUrl}/storage/v1/object/public/${BUCKET}/${videoPath}`;
+      const check = await fetch(publicVideoUrl, { method: "HEAD" });
+      if (check.ok) {
+        return NextResponse.json({
+          status: "exists",
+          videoUrl: publicVideoUrl,
+          message: "Video hook já existe.",
+        });
+      }
     }
 
     // 2. Get the cover image — try Supabase cover first, fallback to provided base64
@@ -112,8 +114,8 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify({
         model: "gen4_turbo",
         promptImage,
-        promptText: promptText || "Slow cinematic movement, gentle light particles floating, subtle camera push-in, ethereal and dreamy atmosphere",
-        duration: duration || 5,
+        promptText: promptText || "figure swaying gently, veils flowing rhythmically, golden particles pulsing, slow camera orbit, warm light breathing",
+        duration: duration || 10,
         ratio: ratio || "720:1280",
         watermark: false,
       }),
