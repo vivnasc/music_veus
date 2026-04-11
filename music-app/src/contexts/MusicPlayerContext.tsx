@@ -109,6 +109,22 @@ async function setSourceAndPlay(
   }
 
   audio.src = src;
+
+  // Wait for audio to be ready before playing (prevents stutter)
+  await new Promise<void>((resolve) => {
+    const onReady = () => {
+      audio.removeEventListener("canplay", onReady);
+      clearTimeout(fallback);
+      resolve();
+    };
+    // Fallback: don't wait forever (3s max)
+    const fallback = setTimeout(() => {
+      audio.removeEventListener("canplay", onReady);
+      resolve();
+    }, 3000);
+    audio.addEventListener("canplay", onReady);
+  });
+
   audio.play().catch(() => {});
 }
 
@@ -197,7 +213,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!audioRef.current) {
       audioRef.current = new Audio();
-      audioRef.current.preload = "metadata";
+      audioRef.current.preload = "auto";
     }
     const audio = audioRef.current;
 
@@ -358,8 +374,15 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const queue = trackList || album.tracks;
-    setSourceAndPlay(audio, track, album, blobUrlRef);
+    // Ensure every track in the queue carries albumSlug for correct resolution
+    const rawQueue = trackList || album.tracks;
+    const queue = rawQueue.map(t => {
+      if ((t as QueueTrack).albumSlug) return t;
+      return { ...t, albumSlug: album.slug } as QueueTrack;
+    });
+    const enrichedTrack = queue.find(t => t.number === track.number && (t as QueueTrack).albumSlug === ((track as QueueTrack).albumSlug || album.slug)) || { ...track, albumSlug: album.slug } as QueueTrack;
+
+    setSourceAndPlay(audio, enrichedTrack, album, blobUrlRef);
 
     // Fire-and-forget play event tracking
     fetch("/api/music/play-event", {
@@ -376,7 +399,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
 
     setState(s => ({
       ...s,
-      currentTrack: track,
+      currentTrack: enrichedTrack,
       currentAlbum: album,
       queue,
       queueAlbum: album,

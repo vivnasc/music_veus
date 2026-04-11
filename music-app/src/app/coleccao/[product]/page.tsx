@@ -57,17 +57,23 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
 
   function playAll() {
     if (allPublishedTracks.length === 0) return;
-    const firstAlbum = publishedAlbums[0];
-    const tracks = allPublishedTracks.map(({ track }) => track);
-    playTrack(tracks[0], firstAlbum, tracks);
+    const firstItem = allPublishedTracks[0];
+    const tracks = allPublishedTracks.map(({ track, album }) => ({
+      ...track,
+      albumSlug: album.slug,
+    }));
+    playTrack(tracks[0], firstItem.album, tracks);
   }
 
   function playShuffle() {
     if (allPublishedTracks.length === 0) return;
     const shuffled = [...allPublishedTracks].sort(() => Math.random() - 0.5);
-    const firstAlbum = shuffled[0].album;
-    const tracks = shuffled.map(({ track }) => track);
-    playTrack(tracks[0], firstAlbum, tracks);
+    const firstItem = shuffled[0];
+    const tracks = shuffled.map(({ track, album }) => ({
+      ...track,
+      albumSlug: album.slug,
+    }));
+    playTrack(tracks[0], firstItem.album, tracks);
   }
 
   if (!label || albums.length === 0) {
