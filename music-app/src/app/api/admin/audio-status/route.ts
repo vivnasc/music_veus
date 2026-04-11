@@ -17,7 +17,7 @@ export async function GET(req: NextRequest) {
   // List all folders inside albums/
   const { data: folders, error: foldersError } = await supabase.storage
     .from(BUCKET)
-    .list("albums", { limit: 200 });
+    .list("albums", { limit: 1000 });
 
   if (foldersError) {
     return NextResponse.json({ erro: foldersError.message }, { status: 500 });

@@ -129,6 +129,31 @@ export function usePlaylists() {
     await loadPlaylists();
   }, [loadPlaylists]);
 
+  const addBatchToPlaylist = useCallback(async (playlistId: string, tracks: { trackNumber: number; albumSlug: string }[]) => {
+    // Get current max position
+    const { data: existing } = await supabase
+      .from("music_playlist_tracks")
+      .select("position")
+      .eq("playlist_id", playlistId)
+      .order("position", { ascending: false })
+      .limit(1);
+
+    let nextPos = existing && existing.length > 0 ? existing[0].position + 1 : 0;
+
+    const rows = tracks.map(t => ({
+      playlist_id: playlistId,
+      track_number: t.trackNumber,
+      album_slug: t.albumSlug,
+      position: nextPos++,
+    }));
+
+    await supabase
+      .from("music_playlist_tracks")
+      .upsert(rows, { onConflict: "playlist_id, track_number, album_slug" });
+
+    await loadPlaylists();
+  }, [loadPlaylists]);
+
   const removeFromPlaylist = useCallback(async (playlistId: string, trackNumber: number, albumSlug: string) => {
     await supabase
       .from("music_playlist_tracks")
@@ -149,6 +174,7 @@ export function usePlaylists() {
     renamePlaylist,
     getPlaylistTracks,
     addToPlaylist,
+    addBatchToPlaylist,
     removeFromPlaylist,
     reload: loadPlaylists,
   };
