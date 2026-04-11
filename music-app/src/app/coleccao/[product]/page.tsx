@@ -31,7 +31,7 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
   const { playTrack, playAlbum, currentTrack, currentAlbum } = useMusicPlayer();
   const { getCoverTrack } = useAlbumCovers();
   const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
-  const [selectedAlbum, setSelectedAlbum] = useState<string | null>(null);
+  // selectedAlbum removed — albums now link directly to /album/[slug]
 
   useEffect(() => {
     fetch("/api/published-tracks")
@@ -179,15 +179,12 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
           {publishedAlbums.map((album) => {
             const albumCover = getTrackCoverUrl(album.slug, getCoverTrack(album.slug));
             const trackCount = album.tracks.filter((t) => publishedKeys.has(`${album.slug}-t${t.number}`)).length;
-            const isSelected = selectedAlbum === album.slug;
 
             return (
-              <button
+              <Link
                 key={album.slug}
-                onClick={() => setSelectedAlbum(isSelected ? null : album.slug)}
-                className={`group block rounded-xl overflow-hidden text-left transition-all ${
-                  isSelected ? "ring-2 ring-[#C9A96E]" : "ring-0"
-                }`}
+                href={`/album/${album.slug}`}
+                className="group block rounded-xl overflow-hidden text-left transition-all"
               >
                 <div className="aspect-square relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}44)` }}>
                   <Image
@@ -201,86 +198,61 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
                     <span className="text-base font-semibold text-white drop-shadow">{album.title}</span>
                   </div>
-                </div>
-                <div className="flex items-center justify-between mt-1.5 px-1">
-                  <p className="text-[10px] text-[#666680] truncate">{trackCount} faixas</p>
+                  {/* Play button overlay */}
                   <button
-                    onClick={(e) => { e.stopPropagation(); playAlbum(album); }}
-                    className="p-1 rounded-full hover:bg-white/10 transition-colors"
+                    onClick={(e) => { e.preventDefault(); e.stopPropagation(); playAlbum(album); }}
+                    className="absolute bottom-2 right-2 p-2.5 rounded-full bg-[#F5F0E6] text-[#0D0D1A] opacity-0 group-hover:opacity-100 transition-opacity shadow-lg min-h-[44px] min-w-[44px] flex items-center justify-center"
                     title="Ouvir album"
                   >
-                    <svg viewBox="0 0 24 24" fill="currentColor" className="h-3.5 w-3.5 text-[#C9A96E]">
+                    <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
                       <path d="M8 5v14l11-7z" />
                     </svg>
                   </button>
                 </div>
-              </button>
+                <p className="text-xs text-[#a0a0b0] mt-1.5 px-1 truncate">{album.title}</p>
+                <p className="text-[10px] text-[#666680] px-1">{trackCount} faixas</p>
+              </Link>
             );
           })}
         </div>
 
-        {/* Selected album tracks or all tracks */}
-        {selectedAlbum ? (
-          <div>
-            {(() => {
-              const album = publishedAlbums.find((a) => a.slug === selectedAlbum);
-              if (!album) return null;
-              const publishedTracks = album.tracks.filter((t) => publishedKeys.has(`${album.slug}-t${t.number}`));
-              return (
-                <div>
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="flex items-center gap-3">
-                      <div className="h-3 w-3 rounded-full" style={{ background: album.color }} />
-                      <h2 className="text-lg font-semibold text-[#F5F0E6]">{album.title}</h2>
-                      <span className="text-xs text-[#666680]">{publishedTracks.length} faixas</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <button
-                        onClick={() => playAlbum(album)}
-                        className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs text-[#F5F0E6] bg-white/5 hover:bg-white/10 transition-colors"
-                      >
-                        <svg viewBox="0 0 24 24" fill="currentColor" className="h-3 w-3">
-                          <path d="M8 5v14l11-7z" />
-                        </svg>
-                        Ouvir
-                      </button>
-                      <Link
-                        href={`/album/${album.slug}`}
-                        className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs text-[#a0a0b0] border border-white/10 hover:bg-white/5 transition-colors"
-                      >
-                        Ver album
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="divide-y divide-white/5">
-                    {publishedTracks.map((track) => (
-                      <TrackRow
-                        key={`${album.slug}-${track.number}`}
-                        track={track}
-                        album={album}
-                        isActive={currentTrack?.number === track.number && currentAlbum?.slug === album.slug}
-                      />
-                    ))}
-                  </div>
+        {/* All tracks listed by album */}
+        <div className="space-y-8">
+          {publishedAlbums.map((album) => {
+            const publishedTracks = album.tracks.filter((t) => publishedKeys.has(`${album.slug}-t${t.number}`));
+            if (publishedTracks.length === 0) return null;
+            return (
+              <div key={album.slug}>
+                <div className="flex items-center justify-between mb-3">
+                  <Link href={`/album/${album.slug}`} className="flex items-center gap-3 group">
+                    <div className="h-3 w-3 rounded-full" style={{ background: album.color }} />
+                    <h2 className="text-lg font-semibold text-[#F5F0E6] group-hover:text-[#C9A96E] transition-colors">{album.title}</h2>
+                    <span className="text-xs text-[#666680]">{publishedTracks.length} faixas</span>
+                  </Link>
+                  <button
+                    onClick={() => playAlbum(album)}
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs text-[#F5F0E6] bg-white/5 hover:bg-white/10 transition-colors min-h-[44px]"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor" className="h-3 w-3">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                    Ouvir
+                  </button>
                 </div>
-              );
-            })()}
-          </div>
-        ) : (
-          <div>
-            <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-4">Todas as faixas</h2>
-            <div className="divide-y divide-white/5">
-              {allPublishedTracks.map(({ track, album }) => (
-                <TrackRow
-                  key={`${album.slug}-${track.number}`}
-                  track={track}
-                  album={album}
-                  isActive={currentTrack?.number === track.number && currentAlbum?.slug === album.slug}
-                />
-              ))}
-            </div>
-          </div>
-        )}
+                <div className="divide-y divide-white/5">
+                  {publishedTracks.map((track) => (
+                    <TrackRow
+                      key={`${album.slug}-${track.number}`}
+                      track={track}
+                      album={album}
+                      isActive={currentTrack?.number === track.number && currentAlbum?.slug === album.slug}
+                    />
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
