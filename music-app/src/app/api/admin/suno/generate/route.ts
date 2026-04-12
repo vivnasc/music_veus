@@ -92,7 +92,7 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
   // Must use terms Suno recognizes — not just genre names
   const flavorGenre: Record<string, string> = {
     organic: "",
-    marrabenta: "Afrobeat, percussive, fast danceable rhythm, drums, shaker, 110 BPM, warm bass, energetic, joyful",
+    marrabenta: "Afropop, upbeat, 115 BPM, syncopated drums, claps, bright percussion, punchy bass, celebratory, high energy",
     afrobeat: "afrobeat, afropop, West African groove",
     bossa: "bossa nova, nylon guitar, Brazilian",
     jazz: "jazz, Rhodes piano, brushed cymbals",
