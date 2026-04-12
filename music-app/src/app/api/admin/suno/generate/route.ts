@@ -101,6 +101,7 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
     house: "deep house",
     gospel: "gospel-pop, choir harmonies",
     amapiano: "Amapiano, log drum, shaker loops, percussive, 112 BPM, bouncy, bright",
+    "gospel-africano": "Afropop, 115 BPM, syncopated drums, bright percussion, punchy bass, log drum, shaker loops, bouncy, gospel choir, building anthem, warm strings, powerful female vocals, declarative, stadium energy meets intimacy",
   };
 
   // ─── Extract unique keywords from THIS track's prompt ───

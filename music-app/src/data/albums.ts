@@ -123,7 +123,7 @@ export type TrackEnergy = "whisper" | "steady" | "pulse" | "anthem" | "raw";
 // funk: glossy R&B-pop funk, early-2000s, dancefloor-ready
 // house: house/dance, four-on-the-floor, como "Nada Me Faltara"
 // gospel: gospel/espiritual, coral, como um hino de igreja
-export type TrackFlavor = "organic" | "marrabenta" | "afrobeat" | "bossa" | "jazz" | "folk" | "funk" | "house" | "gospel" | "amapiano";
+export type TrackFlavor = "organic" | "marrabenta" | "afrobeat" | "bossa" | "jazz" | "folk" | "funk" | "house" | "gospel" | "amapiano" | "gospel-africano";
 
 const ENERGY_STYLES: Record<TrackEnergy, string> = {
   whisper: "Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production.",
@@ -168,6 +168,7 @@ const FLAVOR_MODIFIERS: Record<TrackFlavor, string> = {
   house: "House music influence, four-on-the-floor kick, deep bass, hi-hat groove, synth stabs, club warmth, dance-floor energy, infectious rhythmic drive.",
   gospel: "Gospel-inspired, choir harmonies, hand claps, organ warmth, uplifting spiritual energy, community singing feel, call-and-response vocals, celebratory, transcendent.",
   amapiano: "Amapiano, log drum, shaker loops, percussive, bouncy, bright.",
+  "gospel-africano": "Afropop, gospel choir, log drum, syncopated drums, bright percussion, punchy bass, shaker loops, bouncy, building anthem, warm strings, powerful female vocals, declarative, stadium energy meets intimacy.",
 };
 
 function buildPromptWithFlavor(basePrompt: string, _flavor: TrackFlavor | null): string {
@@ -2305,4 +2306,5 @@ export const FLAVOR_LABELS: Record<TrackFlavor, { label: string; emoji: string; 
   house: { label: "House", emoji: "h", color: "bg-pink-50 text-pink-600" },
   gospel: { label: "Gospel", emoji: "g", color: "bg-yellow-50 text-yellow-700" },
   amapiano: { label: "Amapiano", emoji: "a", color: "bg-emerald-50 text-emerald-700" },
+  "gospel-africano": { label: "Gospel Africano", emoji: "G", color: "bg-amber-50 text-amber-700" },
 };
