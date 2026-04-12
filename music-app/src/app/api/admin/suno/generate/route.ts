@@ -89,16 +89,18 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
   };
 
   // Flavor genre tag (short — just the genre identity)
+  // Must use terms Suno recognizes — not just genre names
   const flavorGenre: Record<string, string> = {
     organic: "",
-    marrabenta: "marrabenta, Mozambican groove",
-    afrobeat: "afrobeat, afropop",
-    bossa: "bossa nova",
-    jazz: "jazz",
-    folk: "acoustic folk",
-    funk: "funk, R&B-pop",
+    marrabenta: "Afropop, upbeat, 115 BPM, syncopated drums, claps, bright percussion, punchy bass, log drum, shaker loops, bouncy, celebratory, call-and-response chants, vocal ad-libs, frenetic energy",
+    afrobeat: "afrobeat, afropop, West African groove",
+    bossa: "bossa nova, nylon guitar, Brazilian",
+    jazz: "jazz, Rhodes piano, brushed cymbals",
+    folk: "acoustic folk, fingerpicked guitar",
+    funk: "funk, R&B-pop, glossy groove",
     house: "deep house",
-    gospel: "gospel-pop",
+    gospel: "gospel-pop, choir harmonies",
+    amapiano: "Amapiano, log drum, shaker loops, percussive, 112 BPM, bouncy, bright",
   };
 
   // ─── Extract unique keywords from THIS track's prompt ───
@@ -174,7 +176,7 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
   parts.push(base);
 
   // Add language
-  if (prompt?.includes("Portuguese")) parts.push("Portuguese");
+  if (prompt?.includes("Portuguese")) parts.push(flavor === "marrabenta" ? "african Portuguese" : "Portuguese");
   else if (prompt?.includes("English")) parts.push("English");
 
   parts.push("full song");
