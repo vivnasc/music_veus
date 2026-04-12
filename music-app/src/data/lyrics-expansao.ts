@@ -596,6 +596,79 @@ como quem volta a casa
 sem sair do lugar`,
 
   "sangue-raiz/6": `[Verse 1]
+So where are you from — like, originally
+The word originally doing all the work
+I smile because I've answered this before
+A hundred times in every coffee shop and church
+
+[Verse 2]
+I say the name and watch their face
+The little nod that means they didn't hear
+The follow-up is always the same
+But where are you really from — and there it is, the spear
+
+[Pre-Chorus]
+I am not a geography lesson
+I am not a fun fact for your day
+I am standing right in front of you
+And you're looking for a place
+
+[Chorus]
+Explain again, explain again
+Where the accent comes from
+Explain again, explain again
+Where the skin got its sun
+Explain again like the first time
+Like I haven't said it twice
+Explain again — I am patient
+But patience has a price
+
+[Verse 3]
+I watch them place me on their map
+Somewhere between curiosity and doubt
+The way you'd hold a foreign coin
+And turn it slowly, working out
+What it's worth here
+
+[Chorus]
+Explain again, explain again
+Where the accent comes from
+Explain again — I am patient
+But patience has a price
+
+[Bridge]
+The thing they never ask
+Is what it costs to answer
+To unpack the suitcase every time
+For someone else's question
+To translate your whole life
+Into a sentence they can hold
+To be the explainer, the ambassador
+Of a story that is old
+And tired
+And mine
+
+[Chorus]
+Explain again, explain again
+Like I haven't said it twice
+Explain again, explain again
+But patience has a price
+And today the price
+Is silence
+
+[Outro]
+Where am I from
+I'm from the exhaustion
+Of answering that question
+I'm from the smile
+That hides the sigh
+I'm from here
+Right here
+Standing in front of you
+Isn't that enough`,
+
+  // Diaspora Child lyrics moved — track replaced by Explain Again
+  "sangue-raiz/6-diaspora-child-archive": `[Verse 1]
 I left home at seventeen
 with a suitcase and a prayer
 The airport smelled of floor wax and goodbye
