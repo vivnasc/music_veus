@@ -177,7 +177,7 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
   parts.push(base);
 
   // Add language
-  if (prompt?.includes("Portuguese")) parts.push(flavor === "marrabenta" ? "african Portuguese" : "Portuguese");
+  if (prompt?.includes("Portuguese")) parts.push("african Portuguese");
   else if (prompt?.includes("English")) parts.push("English");
 
   parts.push("full song");
