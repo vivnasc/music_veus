@@ -1064,20 +1064,19 @@ function TrackRow({
             </div>
           </details>
 
-          {/* Lyrics expandable + editable */}
-          {track.lyrics && (
-            <details className="mt-1" open={showLyrics} onToggle={(e) => setShowLyrics((e.target as HTMLDetailsElement).open)}>
-              <summary className="cursor-pointer text-sm text-mundo-muted/60 hover:text-mundo-muted py-2">
-                Ver letra {editedLyrics !== null && editedLyrics !== track.lyrics && <span className="text-amber-400 ml-1">(editada)</span>}
-              </summary>
-              <textarea
-                value={editedLyrics ?? track.lyrics}
-                onChange={(e) => onLyricsChange(e.target.value)}
-                className="mt-1 w-full whitespace-pre-wrap rounded bg-mundo-bg p-3 font-mono text-xs text-mundo-muted/80 leading-relaxed min-h-[16rem] max-h-[32rem] overflow-y-auto border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none resize-y"
-                spellCheck={false}
-              />
-            </details>
-          )}
+          {/* Lyrics expandable + editable — always visible so new tracks can have lyrics added */}
+          <details className="mt-1" open={showLyrics} onToggle={(e) => setShowLyrics((e.target as HTMLDetailsElement).open)}>
+            <summary className="cursor-pointer text-sm text-mundo-muted/60 hover:text-mundo-muted py-2">
+              {(editedLyrics || track.lyrics) ? "Ver letra" : "+ Adicionar letra"} {editedLyrics !== null && editedLyrics !== track.lyrics && <span className="text-amber-400 ml-1">(editada)</span>}
+            </summary>
+            <textarea
+              value={editedLyrics ?? track.lyrics ?? ""}
+              onChange={(e) => onLyricsChange(e.target.value)}
+              placeholder="Cola aqui a letra..."
+              className="mt-1 w-full whitespace-pre-wrap rounded bg-mundo-bg p-3 font-mono text-xs text-mundo-muted/80 leading-relaxed min-h-[16rem] max-h-[32rem] overflow-y-auto border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none resize-y"
+              spellCheck={false}
+            />
+          </details>
 
           {error && <p className="mt-2 text-xs text-red-500 break-all">{error}</p>}
 
