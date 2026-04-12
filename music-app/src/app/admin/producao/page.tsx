@@ -1375,10 +1375,10 @@ function TrackRow({
           {!audioUrl && !isGenerating && !clipsReady && (
             <button
               onClick={onGenerate}
-              disabled={!track.lyrics}
-              title={!track.lyrics ? "Letra em falta" : "Gerar via Suno"}
+              disabled={!(editedLyrics || track.lyrics)}
+              title={!(editedLyrics || track.lyrics) ? "Letra em falta" : "Gerar via Suno"}
               className={`rounded-lg px-4 py-2 text-xs transition ${
-                !track.lyrics
+                !(editedLyrics || track.lyrics)
                   ? "bg-mundo-muted-dark/10 text-mundo-muted/40 cursor-not-allowed"
                   : "bg-violet-600 text-white hover:bg-violet-700"
               }`}
@@ -2740,7 +2740,7 @@ export default function AlbumProductionPage() {
                 const k = trackKey(album.slug, t.number);
                 const hasAudio = audioUrls[k] || t.audioUrl;
                 const isBusy = statuses[k] === "generating" || statuses[k] === "polling";
-                return !hasAudio && !isBusy && t.lyrics;
+                return !hasAudio && !isBusy && (editedLyrics[k] || t.lyrics);
               });
               const busyCount = album.tracks.filter(t => {
                 const k = trackKey(album.slug, t.number);
