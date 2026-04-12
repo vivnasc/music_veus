@@ -100,6 +100,7 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
     funk: "funk, R&B-pop, glossy groove",
     house: "deep house",
     gospel: "gospel-pop, choir harmonies",
+    amapiano: "Amapiano, log drum, shaker loops, percussive, 112 BPM, bouncy, bright",
   };
 
   // ─── Extract unique keywords from THIS track's prompt ───
