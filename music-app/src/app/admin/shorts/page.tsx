@@ -22,8 +22,8 @@ type ShortState = {
   albumSlug: string;
   trackNumber: number;
   images: ShortImage[];
-  imagePrompt: string;        // editable prompt for image generation
-  clipLyrics: string;         // lyrics to show in the video clip
+  imagePrompt: string;
+  clipLyrics: string;
   totalDuration: number;
   audioStart: number;
   fullSong: boolean;

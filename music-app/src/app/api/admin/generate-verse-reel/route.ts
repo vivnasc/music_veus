@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
 
-// Allow up to 90s — we now generate one image per scene sequentially
-export const maxDuration = 90;
+// Allow up to 60s for fal.ai — images generated in parallel
+export const maxDuration = 60;
 
 // ── Theme → visual element vocabulary ──
 // Each entry maps a lyric keyword to a visual building block (NOT a full scene).
@@ -188,23 +188,21 @@ export async function POST(req: NextRequest) {
     ? "https://fal.run/fal-ai/flux-lora"
     : "https://fal.run/fal-ai/flux-pro/v1.1";
 
-  // Generate images — each scene gets its own prompt
-  const allImageUrls: string[] = [];
+  // Generate ALL images in parallel — much faster than sequential
+  const results = await Promise.allSettled(
+    storyboard.map(async (scene) => {
+      const body: Record<string, unknown> = {
+        prompt: scene.prompt,
+        negative_prompt: NEGATIVE_PROMPT,
+        image_size: { width: 720, height: 1280 },
+        num_images: 1,
+        safety_tolerance: 5,
+      };
 
-  for (const scene of storyboard) {
-    const body: Record<string, unknown> = {
-      prompt: scene.prompt,
-      negative_prompt: NEGATIVE_PROMPT,
-      image_size: { width: 720, height: 1280 },
-      num_images: 1,
-      safety_tolerance: 5,
-    };
+      if (loraUrl) {
+        body.loras = [{ path: loraUrl, scale: 0.4 }];
+      }
 
-    if (loraUrl) {
-      body.loras = [{ path: loraUrl, scale: 0.4 }];
-    }
-
-    try {
       const falRes = await fetch(endpoint, {
         method: "POST",
         headers: {
@@ -217,15 +215,18 @@ export async function POST(req: NextRequest) {
       if (!falRes.ok) {
         const err = await falRes.text();
         console.error(`[verse-reel] Scene ${scene.index + 1} fal.ai error: ${falRes.status} — ${err}`);
-        continue;
+        return null;
       }
 
       const data = await falRes.json();
-      const urls = (data.images || []).map((img: { url: string }) => img.url).filter(Boolean);
-      allImageUrls.push(...urls);
-    } catch (e) {
-      console.error(`[verse-reel] Scene ${scene.index + 1} fetch error:`, (e as Error).message);
-    }
+      const url = (data.images || [])[0]?.url || null;
+      return url;
+    })
+  );
+
+  const allImageUrls: string[] = [];
+  for (const r of results) {
+    if (r.status === "fulfilled" && r.value) allImageUrls.push(r.value);
   }
 
   if (allImageUrls.length === 0) {
