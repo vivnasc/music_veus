@@ -46,7 +46,12 @@ export default function MiniPlayer() {
   const coverSrc = trackCover || (currentAlbum ? getAlbumCover(currentAlbum) : "/poses/loranne-hero.png");
 
   // Find next track in queue
-  const currentIdx = queue.findIndex(t => t.number === currentTrack.number);
+  const currentIdx = queue.findIndex(t => {
+    if (t.number !== currentTrack.number) return false;
+    const tSlug = (t as { albumSlug?: string }).albumSlug;
+    if (tSlug && currentAlbum) return tSlug === currentAlbum.slug;
+    return true;
+  });
   const nextTrack = !shuffle && currentIdx >= 0 && currentIdx < queue.length - 1
     ? queue[currentIdx + 1]
     : null;

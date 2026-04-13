@@ -509,7 +509,15 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       const newQueue = [...s.queue];
       const insertAt = currentIdx >= 0 ? currentIdx + 1 : newQueue.length;
       newQueue.splice(insertAt, 0, ...enriched);
-      return { ...s, queue: newQueue };
+
+      // When shuffle is active, adjust history indices to account for inserted tracks.
+      // All indices >= insertAt shift by the number of inserted tracks.
+      const insertCount = enriched.length;
+      const adjustedHistory = s.shuffle
+        ? (s.shuffleHistory || []).map(idx => idx >= insertAt ? idx + insertCount : idx)
+        : s.shuffleHistory;
+
+      return { ...s, queue: newQueue, shuffleHistory: adjustedHistory };
     });
   }, []);
 

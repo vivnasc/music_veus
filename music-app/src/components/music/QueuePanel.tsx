@@ -1,7 +1,7 @@
 "use client";
 
 import { useMusicPlayer, formatTime as fmt } from "@/contexts/MusicPlayerContext";
-import type { AlbumTrack } from "@/data/albums";
+import { ALL_ALBUMS, type AlbumTrack } from "@/data/albums";
 
 type Props = {
   isOpen: boolean;
@@ -25,7 +25,13 @@ export default function QueuePanel({ isOpen, onClose }: Props) {
   const albumName = queueAlbum?.title || currentAlbum?.title || "";
 
   const currentIndex = currentTrack
-    ? queue.findIndex((t) => t.number === currentTrack.number)
+    ? queue.findIndex((t) => {
+        if (t.number !== currentTrack.number) return false;
+        const tAlbum = (t as AlbumTrack & { albumSlug?: string }).albumSlug;
+        const cAlbum = currentAlbum?.slug;
+        if (tAlbum && cAlbum) return tAlbum === cAlbum;
+        return true;
+      })
     : -1;
 
   const upcomingTracks = currentIndex >= 0 ? queue.slice(currentIndex + 1) : [];
@@ -33,8 +39,13 @@ export default function QueuePanel({ isOpen, onClose }: Props) {
   const totalDuration = queue.reduce((sum, t) => sum + (t.durationSeconds || 0), 0);
 
   function handleTrackClick(track: AlbumTrack) {
-    if (!queueAlbum) return;
-    playTrack(track, queueAlbum, queue);
+    // Resolve the correct album for this track (queue may have tracks from multiple albums)
+    const trackAlbumSlug = (track as AlbumTrack & { albumSlug?: string }).albumSlug;
+    const album = trackAlbumSlug
+      ? ALL_ALBUMS.find(a => a.slug === trackAlbumSlug) || queueAlbum
+      : queueAlbum;
+    if (!album) return;
+    playTrack(track, album, queue);
   }
 
   return (
@@ -219,9 +230,9 @@ export default function QueuePanel({ isOpen, onClose }: Props) {
                 Próximas
               </p>
               <div className="space-y-0.5">
-                {upcomingTracks.map((track) => (
+                {upcomingTracks.map((track, i) => (
                   <button
-                    key={track.number}
+                    key={`${(track as AlbumTrack & { albumSlug?: string }).albumSlug || "q"}-${track.number}-${i}`}
                     onClick={() => handleTrackClick(track)}
                     className="w-full flex items-center gap-3 px-3 py-3 rounded-lg transition-colors text-left hover:bg-white/5"
                   >
