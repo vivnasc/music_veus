@@ -32,12 +32,12 @@ type ShortState = {
 };
 
 const RUNWAY_PROMPTS = [
-  "figure swaying gently to music, veils flowing rhythmically, golden particles pulsing, slow camera orbit",
-  "slow cinematic push-in, gentle atmospheric haze, warm light rays shifting, dreamy and contemplative",
-  "gentle camera drift, soft light particles floating, fabric rippling like sound waves, golden glow",
-  "slow camera orbit around figure, veils dancing in wind, warm light breathing, ethereal atmosphere",
-  "slow dolly out, atmospheric dust particles, volumetric light beams, ethereal and meditative",
-  "figure with arms rising slowly, fabric rippling, golden glow intensifying, peaceful contemplation",
+  "slow cinematic push-in, gentle atmospheric haze, warm golden light rays shifting through mist, dreamy and contemplative",
+  "gentle camera drift, soft light particles floating upward, warm golden glow intensifying, ethereal atmosphere",
+  "slow dolly out revealing landscape, atmospheric dust particles dancing, volumetric light beams, meditative",
+  "slow camera orbit, golden light breathing and pulsing, fabric or petals drifting in warm wind, peaceful",
+  "macro detail slowly coming into focus, warm amber light shifting across textured surface, intimate",
+  "time-lapse clouds or water, golden hour light changing gradually, cinematic wide shot, atmospheric",
 ];
 
 function fmtTime(s: number) {
@@ -107,6 +107,50 @@ export default function ShortsPage() {
   const numClips = Math.max(1, Math.ceil(totalDuration / clipDuration));
   const numAiImages = Math.min(Math.ceil(numClips * 0.67), 4);
 
+  /**
+   * Estimate which lyrics correspond to the selected audio segment.
+   * Uses a rough proportional mapping: position in song → position in lyrics.
+   */
+  function estimateLyricsForSegment(): string {
+    if (!track?.lyrics) return "";
+    const lines = track.lyrics.split("\n").map(l => l.trim());
+    const contentLines = lines.filter(l => l.length > 0 && !l.startsWith("["));
+    if (contentLines.length === 0) return "";
+
+    const songFraction = audioStart / trackDur;
+    const endFraction = audioEnd / trackDur;
+
+    // Map song position to line position
+    const startLine = Math.floor(songFraction * contentLines.length);
+    const endLine = Math.min(
+      Math.ceil(endFraction * contentLines.length),
+      contentLines.length
+    );
+
+    // Get lines for this segment, limit to reasonable amount
+    const segmentLines = contentLines.slice(startLine, endLine);
+    // Pick the most meaningful lines (not too short, not section headers)
+    const meaningful = segmentLines.filter(l => l.length > 10 && l.length < 100);
+    // Limit to ~6 lines for display
+    const selected = meaningful.length > 0 ? meaningful.slice(0, 6) : segmentLines.slice(0, 6);
+    return selected.join("\n");
+  }
+
+  /**
+   * Generate an image prompt from lyrics — translates poetic text into visual scene descriptions.
+   */
+  function generatePromptFromLyrics(): string {
+    if (!track?.lyrics) return track?.description || "";
+    const lyrics = state.clipLyrics || estimateLyricsForSegment() || track.lyrics;
+    const lines = lyrics.split("\n").filter((l: string) => {
+      const t = l.trim();
+      return t.length > 10 && !t.startsWith("[");
+    }).map((l: string) => l.trim());
+    if (lines.length === 0) return track?.description || "";
+    // Use the lyrics as the visual prompt source — the API will map themes to scenes
+    return `"${lines.slice(0, 4).join(" / ")}"`;
+  }
+
   function update(partial: Partial<ShortState>) {
     setState(s => ({ ...s, ...partial }));
   }
@@ -118,21 +162,33 @@ export default function ShortsPage() {
     setError(null);
     update({ step: "images", images: [] });
     try {
+      // Use lyrics for thematic prompt generation
+      const lyricsContext = state.clipLyrics || estimateLyricsForSegment() || track.lyrics || "";
       const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ caption: state.imagePrompt || track.description, numImages: Math.min(numAiImages, 4), useLoRA }),
+        body: JSON.stringify({
+          caption: state.imagePrompt || generatePromptFromLyrics() || track.description,
+          lyrics: lyricsContext,
+          numImages: Math.min(numAiImages, 4),
+          useLoRA,
+        }),
       });
       const aiData = await aiRes.json();
       if (!aiRes.ok || !aiData.imageUrls?.length) throw new Error(`fal.ai: ${aiData.erro || "sem imagens"}`);
       const allUrls = [...aiData.imageUrls];
 
-      // If we need more images than one batch (fal.ai max 4), generate more
+      // If we need more images than one batch, generate more
       while (allUrls.length < numClips) {
         const moreRes = await adminFetch("/api/admin/generate-verse-reel", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ caption: track.description, numImages: Math.min(numClips - allUrls.length, 4), useLoRA }),
+          body: JSON.stringify({
+            caption: state.imagePrompt || generatePromptFromLyrics() || track.description,
+            lyrics: lyricsContext,
+            numImages: Math.min(numClips - allUrls.length, 4),
+            useLoRA,
+          }),
         });
         const moreData = await moreRes.json();
         if (moreRes.ok && moreData.imageUrls?.length) {
@@ -155,10 +211,16 @@ export default function ShortsPage() {
     if (!track) return;
     setRegeneratingIdx(idx);
     try {
+      const lyricsContext = state.clipLyrics || estimateLyricsForSegment() || track.lyrics || "";
       const aiRes = await adminFetch("/api/admin/generate-verse-reel", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ caption: state.imagePrompt || track.description, numImages: 1, useLoRA }),
+        body: JSON.stringify({
+          caption: state.imagePrompt || generatePromptFromLyrics() || track.description,
+          lyrics: lyricsContext,
+          numImages: 1,
+          useLoRA,
+        }),
       });
       const aiData = await aiRes.json();
       if (aiRes.ok && aiData.imageUrls?.[0]) {
@@ -248,11 +310,11 @@ export default function ShortsPage() {
       const sbUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
       const audioUrl = `${sbUrl}/storage/v1/object/public/audios/albums/${state.albumSlug.replace(/[^a-z0-9-]/g, "")}/faixa-${String(track.number).padStart(2, "0")}.mp3`;
 
-      // Use custom lyrics if set, otherwise auto-extract from track
-      const verse = state.clipLyrics || (() => {
+      // Use custom lyrics if set, otherwise auto-extract matching segment
+      const verse = state.clipLyrics || estimateLyricsForSegment() || (() => {
         if (!track.lyrics) return "";
-        const lines = track.lyrics.split("\n").filter((l: string) => { const tr = l.trim(); return tr.length > 15 && tr.length < 80 && !tr.startsWith("["); });
-        return lines.slice(0, 4).map((l: string) => l.trim()).join("\n") || "";
+        const lines = track.lyrics.split("\n").filter((l: string) => { const tr = l.trim(); return tr.length > 10 && !tr.startsWith("["); });
+        return lines.slice(0, 6).map((l: string) => l.trim()).join("\n") || "";
       })();
 
       const shotRes = await adminFetch("/api/admin/shotstack/render", {
@@ -429,27 +491,41 @@ export default function ShortsPage() {
             <div>
               <div className="flex items-center justify-between mb-1.5">
                 <label className="text-[11px] text-[#666680] uppercase tracking-wider">Prompt das imagens</label>
-                {track && !state.imagePrompt && (
-                  <button onClick={() => update({ imagePrompt: track.description })} className="text-[10px] text-[#C9A96E] hover:text-[#d4b87a]">Usar descricao</button>
-                )}
+                <div className="flex items-center gap-2">
+                  {track?.lyrics && (
+                    <button onClick={() => update({ imagePrompt: generatePromptFromLyrics() })} className="text-[10px] text-fuchsia-400 hover:text-fuchsia-300">Gerar da letra</button>
+                  )}
+                  {track && !state.imagePrompt && (
+                    <button onClick={() => update({ imagePrompt: track.description })} className="text-[10px] text-[#C9A96E] hover:text-[#d4b87a]">Usar descricao</button>
+                  )}
+                </div>
               </div>
               <textarea
                 value={state.imagePrompt}
                 onChange={e => update({ imagePrompt: e.target.value })}
-                placeholder={track?.description || "Descreve a cena visual que queres..."}
+                placeholder={track?.description || "Descreve a cena visual que queres... (o motor traduz letra em cenas visuais sem pessoas)"}
                 rows={2}
                 className="w-full rounded-lg border border-white/10 bg-transparent px-3 py-2 text-sm text-[#F5F0E6] placeholder:text-[#666680]/50 focus:border-[#C9A96E]/50 focus:outline-none resize-none"
               />
+              <p className="text-[9px] text-[#666680] mt-1">Cenas abstractas, natureza, luz — sem pessoas. O motor mapeia temas da letra para visuais.</p>
             </div>
             <div>
               <div className="flex items-center justify-between mb-1.5">
                 <label className="text-[11px] text-[#666680] uppercase tracking-wider">Letra no clip</label>
-                {track?.lyrics && !state.clipLyrics && (
-                  <button onClick={() => {
-                    const lines = track.lyrics.split("\n").filter((l: string) => { const t = l.trim(); return t.length > 10 && !t.startsWith("["); });
-                    update({ clipLyrics: lines.slice(0, 6).map((l: string) => l.trim()).join("\n") });
-                  }} className="text-[10px] text-[#C9A96E] hover:text-[#d4b87a]">Extrair da letra</button>
-                )}
+                <div className="flex items-center gap-2">
+                  {track?.lyrics && (
+                    <button onClick={() => {
+                      const segment = estimateLyricsForSegment();
+                      if (segment) update({ clipLyrics: segment });
+                    }} className="text-[10px] text-fuchsia-400 hover:text-fuchsia-300">Extrair do trecho</button>
+                  )}
+                  {track?.lyrics && !state.clipLyrics && (
+                    <button onClick={() => {
+                      const lines = track.lyrics.split("\n").filter((l: string) => { const t = l.trim(); return t.length > 10 && !t.startsWith("["); });
+                      update({ clipLyrics: lines.slice(0, 6).map((l: string) => l.trim()).join("\n") });
+                    }} className="text-[10px] text-[#C9A96E] hover:text-[#d4b87a]">Toda a letra</button>
+                  )}
+                </div>
               </div>
               <textarea
                 value={state.clipLyrics}
