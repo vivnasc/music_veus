@@ -1,120 +1,154 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
 
-// Allow up to 60s for fal.ai to generate the image
-export const maxDuration = 60;
+// Allow up to 90s — we now generate one image per scene sequentially
+export const maxDuration = 90;
 
-// ── Visual vocabulary: maps lyric themes → concrete scene elements ──
-const THEME_SCENES: [RegExp, string[]][] = [
-  [/\b(luz|brilh|sol|amanhecer|dawn|light|sun|radi|dourad)\b/i, [
-    "golden light rays piercing through morning mist over still water",
-    "sunrise breaking through dense forest canopy, volumetric god rays",
-    "light refracting through crystal prisms creating rainbow caustics on stone",
+// ── Theme → visual element vocabulary ──
+// Each entry maps a lyric keyword to a visual building block (NOT a full scene).
+// The storyboard engine combines these per-segment to create unique scenes.
+const VISUAL_ELEMENTS: [RegExp, string[]][] = [
+  [/\b(luz|brilh|sol|amanhecer|dawn|light|sun|radi|dourad|clari)\b/i, [
+    "golden light rays piercing through mist",
+    "sunrise breaking through canopy, volumetric god rays",
+    "light refracting through prisms onto ancient stone",
+    "warm golden sun filtering through clouds",
   ]],
   [/\b(noite|escur|sombra|lua|night|dark|moon|estrela|star)\b/i, [
-    "moonlight reflecting on calm ocean surface, silver ripples",
-    "starfield seen through ancient stone archway, deep blue cosmos",
-    "bioluminescent forest floor glowing in darkness, midnight blue tones",
+    "moonlit landscape, silver reflections on water",
+    "starfield through ancient stone archway",
+    "bioluminescent glow in dark forest",
+    "deep blue twilight, first stars appearing",
   ]],
-  [/\b(água|rio|mar|ocean|wave|chuva|rain|lago|flui)\b/i, [
-    "slow-motion water droplets creating concentric ripples on glass-still lake",
-    "underwater light beams dancing through turquoise ocean depth",
-    "rain falling on ancient stone fountain, water catching golden light",
+  [/\b(água|rio|mar|ocean|wave|chuva|rain|lago|flui|corrent)\b/i, [
+    "slow-motion ripples on glass-still lake",
+    "underwater light beams in turquoise depth",
+    "rain catching golden light on stone",
+    "river flowing through misty valley",
   ]],
-  [/\b(fogo|cham|ard|burn|fire|flam|bras)\b/i, [
-    "candlelight flickering in dark cathedral, warm amber glow on stone walls",
-    "embers floating upward against dark sky, orange and gold sparks",
-    "fire reflected in still water creating mirror of flame and shadow",
+  [/\b(fogo|cham|ard|burn|fire|flam|bras|incend)\b/i, [
+    "candlelight flickering in dark space, amber glow",
+    "embers floating upward against dark sky",
+    "fire reflected in still water",
+    "warm flames casting dancing shadows on walls",
   ]],
-  [/\b(vento|ar|respir|breath|wind|voar|fly|asa|wing)\b/i, [
-    "silk fabric billowing in warm wind over golden wheat field",
-    "dandelion seeds scattered by breeze, backlit by golden hour sun",
-    "wind-carved sand dunes with flowing golden light across ridges",
+  [/\b(vento|ar|respir|breath|wind|voar|fly|asa|wing|sopro)\b/i, [
+    "fabric billowing in warm wind",
+    "dandelion seeds scattered by breeze, backlit",
+    "wind-carved sand dunes, flowing light",
+    "leaves caught in gentle wind spiral",
   ]],
-  [/\b(terra|raiz|root|ground|semear|seed|jardim|garden|flor|flower)\b/i, [
-    "ancient tree roots intertwined with moss and wildflowers, forest floor",
-    "single wildflower growing through cracked earth, soft morning light",
-    "Japanese zen garden with raked sand patterns, misty dawn",
+  [/\b(terra|raiz|root|ground|semear|seed|jardim|garden|flor|flower|planta|crescer|grow)\b/i, [
+    "roots intertwined with moss and wildflowers",
+    "single flower growing through cracked earth",
+    "lush garden in warm morning light",
+    "seeds sprouting in rich dark soil, macro",
   ]],
   [/\b(espelho|mirror|reflex|reflec|vidro|glass)\b/i, [
-    "fractured mirror reflecting golden light in dark room, abstract",
-    "rain-covered window with city lights blurred into abstract bokeh",
-    "calm lake perfectly reflecting mountains and sky, symmetry",
+    "fractured mirror reflecting golden light",
+    "rain-covered window, abstract bokeh beyond",
+    "perfect reflection on calm lake surface",
   ]],
-  [/\b(caminho|path|estrada|road|viagem|journey|passos|steps)\b/i, [
-    "winding forest path disappearing into golden mist, autumn leaves",
-    "ancient cobblestone road through archway into warm light",
-    "railroad tracks converging toward distant golden horizon at sunset",
+  [/\b(caminho|path|estrada|road|viagem|journey|passos|steps|andar|walk)\b/i, [
+    "winding path disappearing into golden mist",
+    "ancient cobblestone road through archway",
+    "footprints in sand leading toward horizon",
+    "forest trail with dappled golden light",
   ]],
-  [/\b(silêncio|silence|quiet|paz|peace|calm|seren)\b/i, [
-    "misty mountain lake at dawn, perfect stillness, soft pastels",
-    "empty temple corridor with light streaming through paper screens",
-    "snow falling silently on ancient stone steps, blue twilight",
+  [/\b(silêncio|silence|quiet|paz|peace|calm|seren|descan)\b/i, [
+    "misty mountain lake at dawn, stillness",
+    "empty corridor with streaming light",
+    "snow falling on ancient stone steps",
+    "calm zen garden, raked sand patterns",
   ]],
-  [/\b(cor|cora[çg]|heart|amor|love|pele|skin|toqu|touch|abra[çg])\b/i, [
-    "two intertwined vines growing up sunlit ancient wall",
-    "warm golden light pouring through curtains into empty room",
-    "rose petals scattered on dark water, warm amber tones",
-    "silhouette of a figure from behind, arms slightly open, backlit by golden sunset, flowing fabric in wind",
+  [/\b(cor|cora[çg]|heart|amor|love|pele|skin|toqu|touch|abra[çg]|beij|kiss)\b/i, [
+    "intertwined vines on sunlit wall",
+    "golden light through curtains, intimate room",
+    "rose petals on dark water, amber tones",
+    "two trees growing together, branches touching",
   ]],
-  [/\b(liber|free|abrir|open|solt|release|voar|expand)\b/i, [
-    "flock of birds taking flight from golden field at sunrise",
-    "door opening into vast bright landscape, light flooding through",
-    "butterfly emerging from chrysalis in soft macro light",
+  [/\b(liber|free|abrir|open|solt|release|expand|largo)\b/i, [
+    "birds taking flight from golden field",
+    "door opening into vast bright landscape",
+    "butterfly emerging, soft light",
+    "chains dissolving into golden particles",
   ]],
-  [/\b(memória|memory|lembr|remember|passado|past|tempo|time)\b/i, [
-    "vintage pocket watch on weathered wood, golden light, dust particles",
-    "old handwritten letters scattered on dark wood desk, candlelight",
-    "faded photographs caught in warm wind, sepia tones and golden light",
+  [/\b(memória|memory|lembr|remember|passado|past|tempo|time|reló|clock)\b/i, [
+    "pocket watch on weathered wood, golden light",
+    "handwritten letters on dark wood desk, candlelight",
+    "faded photographs in warm wind, sepia",
+    "hourglass with golden sand falling",
   ]],
-  [/\b(for[çg]a|strong|poder|power|guerr|fight|resist)\b/i, [
-    "lightning illuminating dramatic cloudscape over dark ocean",
-    "ancient stone monument standing against fierce orange sunset",
-    "waves crashing against lighthouse in golden storm light",
-    "figure seen from behind standing firm against strong wind on cliff edge, golden dramatic sky, flowing fabric",
+  [/\b(for[çg]a|strong|poder|power|guerr|fight|resist|lutai?r?)\b/i, [
+    "lightning over dramatic ocean cloudscape",
+    "stone monument against fierce sunset",
+    "waves crashing against lighthouse",
+    "storm parting to reveal golden light beyond",
   ]],
-  [/\b(alma|soul|espírit|spirit|sagra|sacred|divin)\b/i, [
-    "light streaming through stained glass casting colors on stone floor",
-    "incense smoke spiraling upward in shaft of temple light",
-    "ancient tree with golden light emanating from within its hollow trunk",
+  [/\b(alma|soul|espírit|spirit|sagra|sacred|divin|deus|god|ora[çg]|pray)\b/i, [
+    "stained glass casting colors on stone floor",
+    "incense smoke spiraling in temple light",
+    "ancient tree glowing from within",
+    "cathedral interior, rays of coloured light",
+  ]],
+  [/\b(voz|voice|cant|sing|som|sound|músic|music|melodia|melody|frequên|rhythm|ritmo)\b/i, [
+    "sound waves visualized as golden ripples in air",
+    "piano keys with golden light across them",
+    "guitar strings vibrating with particles of light",
+    "concentric sound ripples expanding on water surface",
+  ]],
+  [/\b(casa|home|lar|tecto|roof|porta|door|janela|window|quarto|room)\b/i, [
+    "warm interior with golden light through window",
+    "open door revealing sunlit landscape",
+    "old house with warm light glowing inside",
+    "windowsill with rain outside, cozy warmth within",
+  ]],
+  [/\b(corpo|body|dan[çg]|dance|mov|move|gir|spin|passo)\b/i, [
+    "figure seen from behind, dancing in golden dust",
+    "silhouette in motion, flowing fabric, backlit",
+    "spinning fabric creating spiral of golden light",
+    "shadow of a dancer on sunlit wall",
+  ]],
+  [/\b(chorar|cry|lágrim|tear|dor|pain|sofr|suffer|trist|sad|mágoa)\b/i, [
+    "single raindrop on glass, blurred warm lights",
+    "wilting flower in dramatic side light",
+    "cracked dry earth with first drop of rain",
+    "grey clouds with golden light breaking through",
+  ]],
+  [/\b(céu|sky|nuvem|cloud|alto|high|acima|above|infinit|vast)\b/i, [
+    "dramatic cloudscape at golden hour",
+    "vast sky reflected in desert salt flat",
+    "clouds parting to reveal deep blue beyond",
+    "bird soaring in open dramatic sky",
+  ]],
+  [/\b(noç|nós|together|junto|uni[rã]|union|dois|two|par)\b/i, [
+    "two paths merging into one, golden light ahead",
+    "two rivers joining, mixing waters",
+    "pair of candles, flames leaning toward each other",
+    "intertwined roots of two ancient trees",
   ]],
 ];
 
-// Scenes with artistic figure (Loranne identity — always from behind or silhouette)
-const FIGURE_SCENES = [
-  "a figure seen from behind, draped in flowing golden translucent fabric, walking into warm light, African landscape at golden hour",
-  "silhouette of a woman against dramatic sunset sky, flowing dress in wind, seen from behind, warm amber tones",
-  "figure from behind standing at the edge of a calm ocean, golden fabric flowing, warm atmospheric light",
-  "silhouette of a woman with arms slightly open, seen from behind, backlit by golden sun, dust particles in air",
-  "a figure from behind walking down a misty path, flowing golden clothing, warm amber morning light filtering through trees",
-  "woman seen from behind on a rooftop at golden hour, city lights below, flowing fabric catching warm wind",
+// Camera/composition progressions for storyboard coherence
+const SCENE_PROGRESSIONS = [
+  ["extreme wide shot", "wide shot", "medium shot", "close-up", "extreme close-up", "wide pull-back"],
+  ["dawn light", "morning golden hour", "warm midday", "afternoon glow", "golden hour sunset", "blue twilight"],
+  ["distant and vast", "approaching slowly", "intimate and close", "pulling back to reveal", "soaring above", "settling down gently"],
 ];
 
-// Fallback scenes when no theme matches
-const UNIVERSAL_SCENES = [
-  "abstract golden light particles floating in dark atmospheric space",
-  "warm amber bokeh lights dissolving into soft darkness, cinematic",
-  "flowing golden silk fabric suspended in dark void, dramatic lighting",
-  "golden hour light filtering through atmospheric haze, dust motes",
-  "close-up of textured golden surface with dramatic side lighting",
-  "abstract landscape of golden sand dunes under dramatic sky",
-  "warm light refracting through glass creating prismatic patterns",
-  "ancient stone texture with golden moss, intimate macro detail",
-  ...FIGURE_SCENES,
-];
+const NEGATIVE_PROMPT = "sensual, sexual, seductive, provocative, revealing clothing, cleavage, lingerie, bikini, nude, naked, asian stereotypes, stock photo, generic model, selfie, looking at camera, frontal portrait, text, words, letters, watermark, logo, signature, writing, cartoon, anime, 3D render, ugly, deformed";
 
-const NEGATIVE_PROMPT = "sensual, sexual, seductive, provocative, revealing clothing, cleavage, lingerie, bikini, nude, naked, asian stereotypes, stock photo, generic model, selfie, looking at camera, frontal portrait, text, words, letters, watermark, logo, signature, writing, cartoon, anime, 3D render";
-
-const STYLE_SUFFIX = "Fine art photography, cinematic composition, 9:16 vertical, dramatic lighting, shallow depth of field, warm golden amber tones, atmospheric, African and Portuguese aesthetic, soulful, artistic. No text, no watermarks. If a figure appears, show from behind or in silhouette only — mysterious, elegant, draped in flowing fabric.";
+const STYLE_BASE = "Fine art cinematic photography, 9:16 vertical, dramatic lighting, shallow depth of field, warm golden amber tones, atmospheric, African and Portuguese aesthetic, soulful. No text, no watermarks.";
 
 /**
- * Generate verse reel images via fal.ai.
+ * Generate verse reel images via fal.ai — STORYBOARD MODE.
  *
  * POST /api/admin/generate-verse-reel
  * { caption: string, lyrics?: string, numImages?: number, useLoRA?: boolean }
  *
- * The prompt engine translates lyric themes into concrete visual scenes
- * (landscapes, objects, nature, light) — never people or faces.
+ * The engine splits the lyrics into segments (one per clip), analyses each
+ * segment's themes, and builds a unique visual scene for each — creating
+ * a coherent visual narrative that follows the song's progression.
  */
 export async function POST(req: NextRequest) {
   const auth = await requireAdmin(req);
@@ -147,19 +181,19 @@ export async function POST(req: NextRequest) {
     } catch { /* no active LoRA — use Flux Pro without LoRA */ }
   }
 
-  // Build visual prompts — one per image, each unique
-  const visualPrompts = buildScenePrompts(caption, lyrics || caption, count, loraUrl ? triggerWord : null);
+  // Build storyboard — one unique prompt per scene, derived from lyrics
+  const storyboard = buildStoryboard(caption, lyrics || caption, count, loraUrl ? triggerWord : null);
 
   const endpoint = loraUrl
     ? "https://fal.run/fal-ai/flux-lora"
     : "https://fal.run/fal-ai/flux-pro/v1.1";
 
-  // Generate images — each with a unique prompt for variety
+  // Generate images — each scene gets its own prompt
   const allImageUrls: string[] = [];
 
-  for (const visualPrompt of visualPrompts) {
+  for (const scene of storyboard) {
     const body: Record<string, unknown> = {
-      prompt: visualPrompt,
+      prompt: scene.prompt,
       negative_prompt: NEGATIVE_PROMPT,
       image_size: { width: 720, height: 1280 },
       num_images: 1,
@@ -182,7 +216,7 @@ export async function POST(req: NextRequest) {
 
       if (!falRes.ok) {
         const err = await falRes.text();
-        console.error(`[verse-reel] fal.ai error: ${falRes.status} — ${err}`);
+        console.error(`[verse-reel] Scene ${scene.index + 1} fal.ai error: ${falRes.status} — ${err}`);
         continue;
       }
 
@@ -190,7 +224,7 @@ export async function POST(req: NextRequest) {
       const urls = (data.images || []).map((img: { url: string }) => img.url).filter(Boolean);
       allImageUrls.push(...urls);
     } catch (e) {
-      console.error(`[verse-reel] fetch error:`, (e as Error).message);
+      console.error(`[verse-reel] Scene ${scene.index + 1} fetch error:`, (e as Error).message);
     }
   }
 
@@ -198,62 +232,96 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ erro: "fal.ai não devolveu imagens." }, { status: 502 });
   }
 
-  return NextResponse.json({ imageUrls: allImageUrls });
+  return NextResponse.json({
+    imageUrls: allImageUrls,
+    storyboard: storyboard.map(s => ({ scene: s.index + 1, lyrics: s.lyricsSegment, prompt: s.prompt })),
+  });
 }
+
+type StoryboardScene = {
+  index: number;
+  lyricsSegment: string;
+  prompt: string;
+};
 
 /**
- * Build N unique visual prompts from lyrics, mapping lyric themes
- * to concrete scenes (nature, objects, light, texture).
+ * Build a storyboard: split lyrics into N segments, analyse each,
+ * and create a unique visual prompt that follows the song's narrative.
  */
-function buildScenePrompts(caption: string, lyrics: string, count: number, triggerWord: string | null): string[] {
-  // Extract clean text from lyrics/caption
-  const verseMatch = caption.match(/"([\s\S]+?)"/);
-  const rawText = verseMatch ? verseMatch[1] : caption;
-  const allText = `${rawText} ${lyrics}`.replace(/\[.*?\]/g, "").replace(/\n/g, " ");
-
-  // Find matching themes from lyrics
-  const matchedScenes: string[] = [];
-  for (const [pattern, scenes] of THEME_SCENES) {
-    if (pattern.test(allText)) {
-      matchedScenes.push(...scenes);
-    }
-  }
-
-  // If no themes matched, use universal scenes
-  if (matchedScenes.length === 0) {
-    matchedScenes.push(...UNIVERSAL_SCENES);
-  }
-
-  // Extract a short poetic essence from the lyrics to add specificity
-  const lyricsLines = lyrics.split("\n")
+function buildStoryboard(caption: string, lyrics: string, count: number, triggerWord: string | null): StoryboardScene[] {
+  // Clean lyrics into usable lines
+  const allLines = lyrics.split("\n")
     .map(l => l.trim())
-    .filter(l => l.length > 10 && l.length < 80 && !l.startsWith("["));
-  const poeticHint = lyricsLines.length > 0
-    ? lyricsLines[Math.floor(Math.random() * lyricsLines.length)]
-    : "";
+    .filter(l => l.length > 0 && !l.startsWith("["));
 
-  // Build unique prompts
-  const trigger = triggerWord ? `${triggerWord}, ` : "";
-  const prompts: string[] = [];
-  const used = new Set<number>();
+  // Also extract from caption if it has quoted lyrics
+  const captionMatch = caption.match(/"([\s\S]+?)"/);
+  if (captionMatch && allLines.length === 0) {
+    allLines.push(...captionMatch[1].split(/[\/\n]/).map(l => l.trim()).filter(Boolean));
+  }
+
+  // If still no lyrics, use the caption as a single block
+  if (allLines.length === 0) {
+    allLines.push(caption.slice(0, 200));
+  }
+
+  // Split lyrics into N equal segments (one per scene)
+  const segments: string[] = [];
+  const linesPerSegment = Math.max(1, Math.ceil(allLines.length / count));
 
   for (let i = 0; i < count; i++) {
-    // Pick a scene we haven't used yet
-    let sceneIdx: number;
-    if (used.size >= matchedScenes.length) used.clear();
-    do {
-      sceneIdx = Math.floor(Math.random() * matchedScenes.length);
-    } while (used.has(sceneIdx) && used.size < matchedScenes.length);
-    used.add(sceneIdx);
-
-    const scene = matchedScenes[sceneIdx];
-    const hint = poeticHint ? ` Evoking the mood of: "${poeticHint}".` : "";
-
-    prompts.push(
-      `${trigger}${scene}.${hint} ${STYLE_SUFFIX}`
-    );
+    const start = i * linesPerSegment;
+    const end = Math.min(start + linesPerSegment, allLines.length);
+    const segmentLines = allLines.slice(start, end);
+    // If we've run out of lines, reuse the last segment
+    segments.push(segmentLines.length > 0 ? segmentLines.join(" / ") : allLines[allLines.length - 1]);
   }
 
-  return prompts;
-}
+  // Pick a progression style for coherence across scenes
+  const progression = SCENE_PROGRESSIONS[Math.floor(Math.random() * SCENE_PROGRESSIONS.length)];
+  const trigger = triggerWord ? `${triggerWord}, ` : "";
 
+  // Build each scene
+  const scenes: StoryboardScene[] = [];
+
+  for (let i = 0; i < count; i++) {
+    const segment = segments[i];
+
+    // Find visual elements that match THIS segment's themes
+    const elements: string[] = [];
+    for (const [pattern, visuals] of VISUAL_ELEMENTS) {
+      if (pattern.test(segment)) {
+        // Pick one visual from each matching theme (deterministic per segment position)
+        const pick = visuals[i % visuals.length];
+        elements.push(pick);
+      }
+    }
+
+    // If no themes matched, create a direct visual interpretation
+    if (elements.length === 0) {
+      elements.push(`visual scene evoking: "${segment.slice(0, 100)}"`);
+    }
+
+    // Combine: visual elements + progression + lyrics mood
+    const progressionStep = progression[Math.min(i, progression.length - 1)];
+    const sceneDescription = elements.slice(0, 3).join(", ");
+    const lyricsHint = segment.length > 10 ? ` Mood and feeling of: "${segment.slice(0, 120)}"` : "";
+
+    const prompt = [
+      `${trigger}Scene ${i + 1}: ${sceneDescription}.`,
+      `${progressionStep}.`,
+      `${lyricsHint}.`,
+      STYLE_BASE,
+      i === 0 ? "Opening scene, establishing shot." : "",
+      i === count - 1 ? "Final scene, contemplative resolution." : "",
+    ].filter(Boolean).join(" ");
+
+    scenes.push({
+      index: i,
+      lyricsSegment: segment,
+      prompt,
+    });
+  }
+
+  return scenes;
+}
