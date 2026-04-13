@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useCallback, type MouseEvent, type ChangeEvent } from "react";
 import Link from "next/link";
 import { ALL_ALBUMS, type Album } from "@/data/albums";
+import { PRODUCTION_CALENDAR } from "@/data/production-calendar";
 import { adminFetch } from "@/lib/admin-fetch";
 
 // ─────────────────────────────────────────────
@@ -24,28 +25,32 @@ const STORAGE_KEY = "veus:lancamentos-v3"; // v3: dynamic published status
 // Default state (before localStorage)
 // ─────────────────────────────────────────────
 
-// Seed: albums already published (only used on first load when localStorage is empty)
-const INITIAL_PUBLISHED: Slot[] = [
-  { slug: "incenso-frequencia", status: "publicado" },
-  { slug: "livro-filosofico", status: "publicado" },
-  { slug: "espelho-ilusao", status: "publicado" },
-];
+// Seed: albums already produced/published (dynamic from albums.ts status)
+const INITIAL_PUBLISHED: Slot[] = ALL_ALBUMS
+  .filter((a) => a.status === "produced" || a.status === "published")
+  .map((a) => ({
+    slug: a.slug,
+    status: (a.status === "published" ? "publicado" : "pronto") as SlotStatus,
+  }));
 
-// Próximos a produzir (ordem estratégica, letras revistas)
-const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] = [
-  { slug: "grao-festa", notes: "Celebração, alegria sem motivo. O mais leve.", lyricsOk: true },
-  { slug: "grao-boca-aberta", notes: "Gargalhadas, tolice, brincar. Funk + bossa.", lyricsOk: true },
-  { slug: "fibra-azul-fundo", notes: "Natação. Água, silêncio debaixo de água.", lyricsOk: true },
-  { slug: "mare-varanda-quente", notes: "House chill. Pôr-do-sol, varanda, vinho.", lyricsOk: true },
-  { slug: "grao-estacoes", notes: "Páscoa, solstício, outono, Ano Novo interior.", lyricsOk: true },
-  { slug: "incenso-pes-descalcos", notes: "O corpo que dança antes da mente.", lyricsOk: true },
-  { slug: "eter-oceano", notes: "O corpo como água. Profundo mas belo.", lyricsOk: true },
-  { slug: "incenso-maos-juntas", notes: "Gratidão como prática. Gospel + folk.", lyricsOk: true },
-  { slug: "nua-duas-vozes", notes: "Duetos íntimos. Diálogos cantados.", lyricsOk: true },
-  { slug: "grao-porta-aberta", notes: "Primeiras vezes: escola, emprego, cidade.", lyricsOk: true },
-  { slug: "grao-sal-na-pele", notes: "Praia, calor, sal na pele, cigarras.", lyricsOk: false },
-  { slug: "mare-lua-acordada", notes: "Passeios nocturnos, pensamentos às 3h.", lyricsOk: false },
-];
+// Próximos a produzir — derivado do calendário de distribuição
+// Ordem: semana a semana, apenas álbuns ainda não produzidos
+const _producedSlugs = new Set(INITIAL_PUBLISHED.map((s) => s.slug));
+const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] =
+  PRODUCTION_CALENDAR.flatMap((week) =>
+    week.albums
+      .filter((slug) => !_producedSlugs.has(slug))
+      .map((slug) => {
+        const album = ALL_ALBUMS.find((a) => a.slug === slug);
+        return {
+          slug,
+          notes: `${week.theme} — ${album?.subtitle || ""}`,
+          lyricsOk: album ? album.tracks.every((t) => !!t.lyrics) : false,
+        };
+      }),
+  )
+  // Deduplicate (album may appear in multiple weeks)
+  .filter((item, idx, arr) => arr.findIndex((i) => i.slug === item.slug) === idx);
 
 const DEFAULT_SLOTS: Slot[] = [...INITIAL_PUBLISHED];
 
@@ -155,6 +160,8 @@ function audioProgress(slug: string, audioMap: AudioMap): { done: number; total:
 }
 
 function isFullyProduced(slug: string, audioMap: AudioMap): boolean {
+  const album = getAlbum(slug);
+  if (album && (album.status === "produced" || album.status === "published")) return true;
   const { done, total } = audioProgress(slug, audioMap);
   return done >= total && total > 0;
 }
@@ -225,11 +232,14 @@ export default function LancamentosPage() {
           const existingSlugs = new Set(prev.map((s: Slot) => s.slug));
 
           // Find fully produced albums not yet scheduled
+          // Check both audio files AND album.status from data
           const newReady: Album[] = [];
           for (const album of ALL_ALBUMS) {
             if (existingSlugs.has(album.slug)) continue;
-            const produced = map[album.slug]?.size || 0;
-            if (produced >= album.tracks.length && album.tracks.length > 0) {
+            const audioProduced = map[album.slug]?.size || 0;
+            const hasAllAudio = audioProduced >= album.tracks.length && album.tracks.length > 0;
+            const isMarkedProduced = album.status === "produced" || album.status === "published";
+            if (hasAllAudio || isMarkedProduced) {
               newReady.push(album);
             }
           }
@@ -268,8 +278,11 @@ export default function LancamentosPage() {
           const updated = prev.map((slot: Slot) => {
             if (slot.status === "a-produzir" || slot.status === "em-producao") {
               const album = ALL_ALBUMS.find((a: Album) => a.slug === slot.slug);
-              const produced = map[slot.slug]?.size || 0;
-              if (album && produced >= album.tracks.length && album.tracks.length > 0) {
+              if (!album) return slot;
+              const isMarked = album.status === "produced" || album.status === "published";
+              const audioCount = map[slot.slug]?.size || 0;
+              const hasAllAudio = audioCount >= album.tracks.length && album.tracks.length > 0;
+              if (isMarked || hasAllAudio) {
                 return { ...slot, status: "pronto" as SlotStatus };
               }
             }

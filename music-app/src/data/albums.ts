@@ -41,7 +41,7 @@ export type AlbumTrack = {
 // flavor defaults to null if omitted (no flavor modifier)
 // vocalMode defaults to "solo" if omitted
 type TrackDef = Omit<AlbumTrack, "lyrics" | "energy" | "flavor" | "vocalMode"> & { lyrics?: string; energy?: TrackEnergy; flavor?: TrackFlavor | null; vocalMode?: VocalMode };
-type AlbumDef = Omit<Album, "tracks"> & { tracks: TrackDef[] };
+type AlbumDef = Omit<Album, "tracks" | "status" | "distribution"> & { tracks: TrackDef[]; status?: AlbumStatus; distribution?: boolean };
 
 // Lyrics are stored in separate files to keep this file manageable
 import { ESPELHO_LYRICS } from "./lyrics-espelhos";
@@ -56,6 +56,7 @@ import { FASE1_LYRICS } from "./lyrics-fase1";
 import { FASE1B_LYRICS } from "./lyrics-fase1b";
 import { FASE2_LYRICS } from "./lyrics-fase2";
 import { FIBRA_CORRIDA_LYRICS } from "./lyrics-fibra-corrida";
+import { NOVOS_LYRICS } from "./lyrics-novos";
 
 const ALL_LYRICS: Record<string, string> = {
   ...ESPELHO_LYRICS,
@@ -71,11 +72,14 @@ const ALL_LYRICS: Record<string, string> = {
   ...FASE1B_LYRICS,
   ...FASE2_LYRICS,
   ...FIBRA_CORRIDA_LYRICS,
+  ...NOVOS_LYRICS,
 };
 
 function getLyrics(albumSlug: string, trackNumber: number): string {
   return ALL_LYRICS[`${albumSlug}/${trackNumber}`] || "";
 }
+
+export type AlbumStatus = "draft" | "ready" | "produced" | "published";
 
 export type Album = {
   slug: string;
@@ -86,6 +90,8 @@ export type Album = {
   courseSlug?: string;
   color: string;
   tracks: AlbumTrack[];
+  status: AlbumStatus;
+  distribution: boolean;
 };
 
 // ─────────────────────────────────────────────
@@ -874,15 +880,6 @@ const VIDA_DILUVIO_MANSO = vidaAlbum("incenso-diluvio-manso", "Dilúvio Manso", 
   { number: 7, title: "Depois do Choro", description: "A leveza estranha que vem quando o corpo já chorou tudo.", lang: "PT", energy: "steady", prompt: vidaPrompt("The face washed clean — puffy eyes, but lighter behind them. The strange hunger that comes after deep crying, the body asking for bread, for water", "Post-storm clarity — the exhausted peace of having nothing left to hold. Fragile but real lightness, like the sky after heavy rain", "Acoustic guitar, open tuning, fingerpicked gently. Flute — wooden, warm, a single melody that rises. Light hand percussion like a heartbeat returning to normal", "PT", "steady"), durationSeconds: 300 },
 ], "mare");
 
-const VIDA_LAVA_QUIETA = vidaAlbum("incenso-lava-quieta", "Lava Quieta", "raiva contida, fogo por dentro", "#8B3A2A", [
-  { number: 1, title: "Engolir", description: "O grito que desce de volta para o estômago.", lang: "PT", energy: "raw", prompt: vidaPrompt("The throat closing around words — the jaw clenching so hard the teeth ache. Swallowing fire, feeling it burn all the way down", "Suffocating intensity — the violence of silence when silence is not peace but a cage. The internal scream bouncing off the ribcage", "Distorted bass clarinet, low and growling, played with too much air. Tight compressed drums — kick drum like a punch to the gut. Dissonant strings, short stabs", "PT", "raw"), durationSeconds: 240 },
-  { number: 2, title: "Smolder", description: "The slow burn beneath a still surface, patient and dangerous.", lang: "EN", energy: "steady", prompt: vidaPrompt("Embers glowing beneath ash — the surface cool, the interior incandescent. The smile held steady while the hands tremble under the table", "Controlled danger — a predator lying still, energy coiled and waiting. The terrifying composure of someone who has been burning for years", "Low-tuned electric guitar, clean tone with subtle overdrive that builds. Ride cymbal ticking like a clock. Synth bass that pulses like a slow heartbeat. Vocal steady, almost too calm", "EN", "steady"), durationSeconds: 240 },
-  { number: 3, title: "O Punho", description: "A mão fechada dentro do bolso onde ninguém vê.", lang: "PT", energy: "pulse", flavor: "afrobeat", prompt: vidaPrompt("The fist inside the coat pocket — nails pressing crescents into the palm. The body vibrating at a frequency no one else can hear", "Compressed rage seeking any exit — tense, rhythmic, physical. A pressure cooker with the valve sealed", "African-influenced percussion — timbila patterns accelerating subtly. Slapped bass, aggressive and funky. Staccato brass stabs — short, punchy. Vocal percussive, words spat out", "PT", "pulse", "afrobeat"), durationSeconds: 240 },
-  { number: 4, title: "Red", description: "When the body fills with fire and the edges of vision blur.", lang: "EN", energy: "raw", vocalMode: "duet", prompt: vidaPromptDuet("Vision narrowing to a tunnel — the flush rising from chest to neck to face. Hands shaking from the sheer voltage of anger. His rage is the same rage — different body, same fire", "Explosive and primal — the moment before the eruption, held one beat too long. Male vocal carries the controlled burn in verse two — deeper, chest-voice, barely contained", "Heavy distorted guitar riff — simple, repetitive, relentless. Double kick drum driving hard. Industrial textures — metal on metal. Female vocal verse one — her red. Male vocal verse two — his red, lower, more guttural. Both voices collide in the bridge, not harmonising but burning side by side. She takes the final word", "EN", "raw"), durationSeconds: 240 },
-  { number: 5, title: "Dizer", description: "A boca que finalmente abre e deixa sair tudo.", lang: "PT", energy: "anthem", prompt: vidaPrompt("The mouth opening wide — the first word that was swallowed years ago finally leaving the body. Standing in the kitchen and saying the unsayable", "Triumphant fury — not calm, not polite, but righteous and necessary. The exhilaration of voice reclaimed", "Full band explosion — horns blazing, drums crashing, bass driving forward. Choir of women's voices raw and unpolished. Guitar solo that wails. Vocal belted, no restraint", "PT", "anthem"), durationSeconds: 240 },
-  { number: 6, title: "The Cooling", description: "Rage settling into something clear and sharp as glass.", lang: "EN", energy: "steady", prompt: vidaPrompt("The breath slowing after the shout — the hands unclenching, the jaw releasing. The strange lucidity that follows fury, like a landscape after wildfire", "Crystalline calm — not the absence of anger but its transformation into clarity. The cold beauty of seeing everything clearly", "Glass marimba and vibraphone — cool, metallic, precise. Upright bass pizzicato, measured. Brushed drums almost not there. Vocal low and clear, spoken-sung", "EN", "steady"), durationSeconds: 300 },
-], "mare");
-
 const VIDA_ANCORA = vidaAlbum("incenso-ancora", "Âncora", "ansiedade, pânico, precisar de chão", "#6B5A4A", [
   { number: 1, title: "O Aperto", description: "O peito que fecha e o chão que desaparece.", lang: "PT", energy: "raw", prompt: vidaPrompt("The chest constricting — ribs closing inward like a cage shrinking. The floor tilting beneath the feet, hands reaching for the wall, cold sweat", "Suffocating vertigo — the terror of losing the ground, of the body betraying itself. The loneliness of panic", "Heartbeat kick drum — irregular, too fast, arrhythmic. High-pitched strings trembling, dissonant. Breathing recorded close, hyperventilating. Piano notes scattered like objects falling", "PT", "raw"), durationSeconds: 240 },
   { number: 2, title: "Ground", description: "The moment your feet remember the earth is still there.", lang: "EN", energy: "steady", prompt: vidaPrompt("Bare feet pressing into the floor — feeling the cold tile, the texture of wood grain, the solidity. The weight dropping from the chest through the legs into the soles", "Anchoring relief — the first moment of stability after the vertigo, tentative but real. The gratitude of feeling something solid", "Deep bass note — sustained, unwavering, a foundation tone. Djembe heartbeat, slow and regular. Acoustic guitar in open D tuning, simple pattern repeating like a mantra", "EN", "steady"), durationSeconds: 240 },
@@ -995,10 +992,41 @@ const VIDA_PENUMBRA = vidaAlbum("mare-penumbra", "Penumbra", "o limiar, o espaç
 
 
 
+// Álbuns já produzidos (já no Spotify)
+const PRODUCED_SLUGS = new Set([
+  "sangue-raiz", "eter-raiz-vermelha", "nua-inteira", "nua-por-dentro",
+  "nua-boa", "nua-pele", "nua-duas-vozes", "sangue-mae",
+  "grao-o-tear", "incenso-salto-bonito",
+]);
+
+// Álbuns internos (não entram no pipeline de distribuição DistroKid)
+const INTERNAL_SLUGS = new Set([
+  // Incenso internos
+  "incenso-correnteza", "incenso-travessia", "incenso-limiar", "incenso-ressonancia",
+  "incenso-o-gesto", "incenso-folego", "incenso-demora", "incenso-humus",
+  "incenso-corpo-celeste", "incenso-o-que-resta", "incenso-norte-interno",
+  "incenso-nevoeiro", "incenso-maos-juntas", "incenso-oferenda",
+  // Éter internos
+  "eter", "eter-orbita", "eter-poeira", "eter-porto", "eter-olhos-arregalados", "eter-oceano",
+  // Grão internos
+  "grao-porta-aberta", "grao-primeiro-passo", "grao-passo-pequeno",
+  "grao-toalha-posta", "grao-terra-molhada", "grao-ecra",
+]);
+
+const INTERNAL_PRODUCTS = new Set(["espelho", "no", "livro", "curso"]);
+
+function isInternalAlbum(slug: string, product: string): boolean {
+  if (INTERNAL_PRODUCTS.has(product)) return true;
+  return INTERNAL_SLUGS.has(slug);
+}
+
 // Apply lyrics from separate files to all album tracks
 function applyLyrics(albumDef: AlbumDef): Album {
+  const slug = albumDef.slug;
   return {
     ...albumDef,
+    status: albumDef.status ?? (PRODUCED_SLUGS.has(slug) ? "produced" : "ready"),
+    distribution: albumDef.distribution ?? !isInternalAlbum(slug, albumDef.product),
     tracks: albumDef.tracks.map((t) => ({
       ...t,
       energy: t.energy || "whisper",
@@ -1303,19 +1331,6 @@ const VIDA_INSONIA = vidaAlbum("grao-insonia", "Insónia", "a noite acordada —
   { number: 9, title: "Manhã Depois", description: "O café é mais sagrado depois de uma noite sem dormir", lang: "PT", energy: "steady", prompt: vidaPrompt("morning after insomnia, coffee as sacrament, every gesture a victory", "tender, victorious, small triumphs, grateful", "warm morning piano, gentle rhythm, grateful vocal, first-light textures", "PT", "steady"), durationSeconds: 240 },
   { number: 10, title: "Surrender to the Night", description: "Fechar os olhos não para dormir — para descansar de ver", lang: "EN", energy: "whisper", prompt: vidaPrompt("closing eyes not to sleep but to rest from seeing, surrender as door not defeat", "peaceful, accepting, wise, final", "soft ambient, breath-synced rhythm, gentle vocal, night-resolution", "EN", "whisper"), durationSeconds: 260 },
 ], "mare");
-
-const ESPIRITUAL_FURIA: AlbumDef = { slug: "incenso-furia", title: "Fúria Sagrada", subtitle: "A raiva como força — o NÃO que devia ter sido dito", product: "incenso", color: "#8B2F2F", tracks: [
-  { number: 1, title: "Engolir Fogo", description: "Ensinaram-me a guardar a raiva debaixo da língua", lang: "PT", energy: "pulse", flavor: "afrobeat", prompt: spiritualPrompt("swallowing fire, hiding rage under the tongue, volcano inside", "building fury, righteous, years of swallowed screams", "driving afrobeat rhythm, talking drums, aggressive bass, fierce vocal building", "PT", "pulse", "afrobeat"), durationSeconds: 260, audioUrl: null },
-  { number: 2, title: "Burn", description: "I am done being palatable", lang: "EN", energy: "anthem", flavor: "house", prompt: spiritualPrompt("burning through politeness, illuminating not destroying, done being small", "fierce, triumphant, blazing, unapologetic", "driving house beat, synth stabs, powerful vocal, anthem energy, fire dynamics", "EN", "anthem", "house"), durationSeconds: 260, audioUrl: null },
-  { number: 3, title: "Não", description: "A palavra mais curta que demora uma vida a aprender", lang: "PT", energy: "anthem", flavor: "marrabenta", prompt: spiritualPrompt("saying NO for the first time, world doesn't end, muscle of refusal", "defiant, liberated, simple, powerful", "building percussive groove, driving drums, declarative chorus", "PT", "anthem", "marrabenta"), durationSeconds: 240, audioUrl: null },
-  { number: 4, title: "The Line Is Drawn", description: "O limite — não frieza, mas arquitectura", lang: "EN", energy: "steady", flavor: "jazz", prompt: spiritualPrompt("boundary drawn, not coldness but architecture, love with a lock I hold", "firm, dignified, self-protective, warm", "jazz piano, steady rhythm, grounded vocal, precise dynamics", "EN", "steady", "jazz"), durationSeconds: 240, audioUrl: null },
-  { number: 5, title: "Raiva Herdada", description: "A fúria da avó que coseram a boca com obediência", lang: "PT", energy: "anthem", flavor: "gospel-africano", prompt: spiritualPrompt("inherited rage from grandmother, silenced women, screaming for them all", "ancestral, powerful, lineage fury, collective voice", "gospel choir building, ancestral drums, organ fire, anthem of inherited voice", "PT", "anthem", "gospel"), durationSeconds: 280, audioUrl: null },
-  { number: 6, title: "I Take the Mic", description: "A mulher quieta que finalmente fala à mesa", lang: "EN", energy: "pulse", flavor: "funk", prompt: spiritualPrompt("quiet woman finally speaking, taking the microphone, precision not performance", "sharp, witty, precise, overdue", "funky R&B groove, punchy drums, sharp bass, confident vocal, mic-drop energy", "EN", "pulse", "funk"), durationSeconds: 240, audioUrl: null },
-  { number: 7, title: "A Porta", description: "Bati com a porta e a casa tremeu — e não me arrependo", lang: "PT", energy: "pulse", flavor: "amapiano", prompt: spiritualPrompt("slamming the door, house trembling, no regret, the sound of a woman saving herself", "explosive, cathartic, brave, door-slam energy", "log drum, driving percussion, building intensity, raw vocal", "PT", "pulse", "amapiano"), durationSeconds: 240, audioUrl: null },
-  { number: 8, title: "Let Me Scream", description: "O grito que não é violência — é o oposto do silêncio", lang: "EN", energy: "raw", prompt: spiritualPrompt("primal scream, not violence but opposite of silence, body saying I EXIST", "raw, primal, ancient, unleashed", "minimal then building, raw vocal close-mic, distortion, cathartic release", "EN", "raw"), durationSeconds: 260, audioUrl: null },
-  { number: 9, title: "Depois da Fúria", description: "A calma depois da tempestade — clareza de quem gritou", lang: "PT", energy: "whisper", flavor: "bossa", prompt: spiritualPrompt("calm after fury, clarity after storm, tender aftermath, no regret", "calm, clear, tender, washed clean", "bossa guitar, gentle strings, peaceful vocal, post-storm stillness", "PT", "whisper", "bossa"), durationSeconds: 260, audioUrl: null },
-  { number: 10, title: "Sacred Fire", description: "Carregar o fogo como lanterna, não como bomba", lang: "EN", energy: "steady", flavor: "house", prompt: spiritualPrompt("carrying fire as lantern not weapon, ruling the anger, choosing what burns", "wise, powerful, controlled, luminous", "deep house groove, warm steady rhythm, wise vocal, fire-as-light dynamics", "EN", "steady", "house"), durationSeconds: 260, audioUrl: null },
-]};
 
 const COSMIC_OCEANO: AlbumDef = { slug: "eter-oceano", title: "Oceano", subtitle: "O corpo como água — fluir, afogar, submergir, emergir", product: "eter", color: "#0A3A5A", tracks: [
   { number: 1, title: "Oceano Interior", description: "Sou mais funda do que pensava — há vida no escuro", lang: "PT", energy: "whisper", flavor: "bossa", prompt: cosmicPrompt("inner ocean, deeper than expected, coral growing in silence", "deep, discovering, vast, internal dive", "soft bossa rhythm, ocean-like pads, gentle bass, intimate vocal, underwater textures", "PT", "whisper", "bossa"), durationSeconds: 260, audioUrl: null },
@@ -2118,19 +2133,6 @@ const FASE2_COMBUSTAO = vidaAlbum("grao-combustao", "Combustão", "A euforia que
   { number: 10, title: "Alive", description: "The anthem for every moment that makes you scream I'M ALIVE", lang: "EN", energy: "anthem", flavor: "gospel-africano", prompt: vidaPrompt("the anthem for being alive, every euphoric moment collected, the primal scream of existence, being alive as the greatest achievement", "explosive, grateful, the anthem of radical aliveness, existential celebration", "gospel choir, massive drums, organ, funk bass, powerful vocal, alive-celebration", "EN", "anthem", "gospel"), durationSeconds: 260 },
 ]);
 
-const FASE2_AGUA_PARADA = vidaAlbum("incenso-agua-parada", "Água Parada", "A paz interior como prática — respiração a respiração", "#6AA0A0", [
-  { number: 1, title: "Respirar", description: "Inspirar. Expirar. Repetir. É tudo o que precisas.", lang: "PT", energy: "whisper", prompt: vidaPrompt("inhale, exhale, repeat, the simplest instruction in the world, the breath as anchor, the body teaching the mind to slow down", "minimal, grounding, the meditation of breathing, breath as home", "ambient drone, breath textures, whisper vocal, single singing bowl, vast silence", "PT", "whisper"), durationSeconds: 240 },
-  { number: 2, title: "Still", description: "Learning to be still — not frozen, but rooted", lang: "EN", energy: "whisper", flavor: "bossa", prompt: vidaPrompt("learning to be still, not frozen but rooted, the difference between paralysis and peace, stillness as active choice", "centred, alive, stillness as presence not absence, rooted calm", "bossa guitar very soft, ambient pads, whisper vocal, still-water textures, grounded peace", "EN", "whisper", "bossa"), durationSeconds: 240 },
-  { number: 3, title: "Lago", description: "A superfície do lago — perfeita, sem vento, espelho do céu", lang: "PT", energy: "whisper", prompt: vidaPrompt("the surface of a still lake, perfect mirror of the sky, no wind, no ripple, the mind as lake, thoughts as possible disturbances", "serene, reflective, the mind-as-lake metaphor lived, perfect clarity", "ambient pads, water textures, whisper vocal, lake-mirror stillness, sky-reflection", "PT", "whisper"), durationSeconds: 240 },
-  { number: 4, title: "Anchor", description: "Finding the anchor inside — the place that doesn't move", lang: "EN", energy: "steady", prompt: vidaPrompt("finding the internal anchor, the point that doesn't move when everything else does, the still centre in the storm, inner ballast", "grounded, secure, the discovery of internal stability, anchored peace", "gentle steady groove, anchor-weight bass, warm pads, steady vocal, inner-anchor textures", "EN", "steady"), durationSeconds: 240 },
-  { number: 5, title: "Manhã Quieta", description: "A manhã antes do telemóvel — os cinco minutos mais ricos do dia", lang: "PT", energy: "whisper", prompt: vidaPrompt("the morning before the phone, the five minutes of quiet before the world pours in, the richest minutes of the day, pre-screen peace", "precious, protected, the luxury of unplugged morning, silence as wealth", "soft ambient, gentle piano, whisper vocal, pre-screen-silence textures, morning peace", "PT", "whisper"), durationSeconds: 240 },
-  { number: 6, title: "Practice", description: "Peace is not a feeling — it's a practice, like scales on a piano", lang: "EN", energy: "steady", flavor: "jazz", prompt: vidaPrompt("peace as practice not feeling, like scales on a piano, the daily repetition that builds capacity, inner peace as discipline", "disciplined, wise, peace as craft, the musician's approach to tranquillity", "jazz piano, warm bass, soft brushes, steady vocal, practice-rhythm textures", "EN", "steady", "jazz"), durationSeconds: 240 },
-  { number: 7, title: "Barulho Lá Fora", description: "O barulho lá fora — e o silêncio cá dentro que não se mexe", lang: "PT", energy: "steady", prompt: vidaPrompt("noise outside, traffic, construction, arguments, but the silence inside that doesn't move, the internal room that stays quiet despite the world", "centred, unshakeable, peace as internal soundproofing, steady despite chaos", "noise-to-silence textures, steady groove, warm bass, steady vocal, inner-quiet strength", "PT", "steady"), durationSeconds: 240 },
-  { number: 8, title: "Enough", description: "The moment you stop striving and realize you already have enough", lang: "EN", energy: "whisper", prompt: vidaPrompt("the moment you stop striving and look around and realize you already have enough, the abundance of the present, contentment as revolution", "peaceful, wise, the revelation of sufficiency, wanting-nothing-more textures", "soft ambient, gentle piano, whisper vocal, enough-revelation textures, contentment", "EN", "whisper"), durationSeconds: 240 },
-  { number: 9, title: "Corpo Quieto", description: "O corpo quieto — a inquietação a passar como nuvem", lang: "PT", energy: "whisper", flavor: "bossa", prompt: vidaPrompt("the body finally quiet, restlessness passing like a cloud, the ADHD mind finding a moment of stillness, the surprise of calm", "relieved, gentle, the rare gift of a quiet body, neurodivergent peace", "bossa guitar, soft pads, whisper vocal, cloud-passing textures, earned-stillness", "PT", "whisper", "bossa"), durationSeconds: 240 },
-  { number: 10, title: "Still Water", description: "The anthem for inner peace — not the absence of waves, but the depth beneath them", lang: "EN", energy: "anthem", prompt: vidaPrompt("the anthem for inner peace, not the absence of waves but the depth beneath them, still water runs deep, peace as depth not surface", "powerful, deep, the anthem of depth-peace, still-water-runs-deep celebration", "building anthem, deep bass, layered voices, powerful vocal, still-water-depth anthem", "EN", "anthem"), durationSeconds: 260 },
-], "incenso");
-
 const FASE2_NORTE_INTERNO = vidaAlbum("incenso-norte-interno", "Norte Interno", "A intuição é o corpo a saber antes da mente", "#8A7AA0", [
   { number: 1, title: "Arrepio", description: "O arrepio que te avisa antes das palavras — o corpo sabe", lang: "PT", energy: "whisper", prompt: vidaPrompt("the shiver that warns you before words arrive, the body's alarm system, goosebumps as language, the skin knowing before the brain", "alert, instinctual, the body's ancient intelligence, skin as oracle", "soft ambient, chill textures, whisper vocal, goosebump-shiver bass, intuition-alert", "PT", "whisper"), durationSeconds: 240 },
   { number: 2, title: "Gut", description: "The gut feeling that science can't explain — but your body trusts", lang: "EN", energy: "steady", prompt: vidaPrompt("the gut feeling, the knot in the stomach that says wrong or right before logic arrives, the belly as second brain, trusting the visceral", "grounded, wise, the body's ancient knowing, visceral intelligence", "warm groove, belly-deep bass, gentle pads, steady vocal, gut-knowledge textures", "EN", "steady"), durationSeconds: 240 },
@@ -2209,7 +2211,6 @@ export const ALL_ALBUMS: Album[] = [
   VIDA_DERIVA,
   VIDA_CORPO_A_CORPO,
   VIDA_DILUVIO_MANSO,
-  VIDA_LAVA_QUIETA,
   VIDA_ANCORA,
   VIDA_COMPANHIA_PROPRIA,
   VIDA_PORCELANA,
@@ -2241,7 +2242,6 @@ export const ALL_ALBUMS: Album[] = [
   VIDA_MAE,
   ESPIRITUAL_LUTO,
   VIDA_INSONIA,
-  ESPIRITUAL_FURIA,
   COSMIC_OCEANO,
   VIDA_PRIMEIRO_PASSO,
   ESPIRITUAL_ESPELHO_PARTIDO,
@@ -2305,7 +2305,6 @@ export const ALL_ALBUMS: Album[] = [
   FASE2_LAMA_E_CEU,
   FASE2_AMANHA_INVENTADO,
   FASE2_COMBUSTAO,
-  FASE2_AGUA_PARADA,
   FASE2_NORTE_INTERNO,
 ].map(applyLyrics);
 
