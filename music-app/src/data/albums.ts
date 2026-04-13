@@ -56,6 +56,7 @@ import { FASE1_LYRICS } from "./lyrics-fase1";
 import { FASE1B_LYRICS } from "./lyrics-fase1b";
 import { FASE2_LYRICS } from "./lyrics-fase2";
 import { FIBRA_CORRIDA_LYRICS } from "./lyrics-fibra-corrida";
+import { NOVOS_LYRICS } from "./lyrics-novos";
 
 const ALL_LYRICS: Record<string, string> = {
   ...ESPELHO_LYRICS,
@@ -71,6 +72,7 @@ const ALL_LYRICS: Record<string, string> = {
   ...FASE1B_LYRICS,
   ...FASE2_LYRICS,
   ...FIBRA_CORRIDA_LYRICS,
+  ...NOVOS_LYRICS,
 };
 
 function getLyrics(albumSlug: string, trackNumber: number): string {
