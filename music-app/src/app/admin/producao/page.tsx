@@ -2840,7 +2840,7 @@ export default function AlbumProductionPage() {
                     const alb = ALL_ALBUMS.find(a => a.slug === album.slug);
                     if (!alb) { btn.disabled = false; return; }
 
-                    const tracksWithAudio = alb.tracks.filter(t => t.audioUrl);
+                    const tracksWithAudio = alb.tracks.filter(t => audioUrls[trackKey(album.slug, t.number)] || t.audioUrl);
                     let done = 0;
                     let errors = 0;
 
