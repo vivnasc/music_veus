@@ -55,6 +55,7 @@ const THEME_SCENES: [RegExp, string[]][] = [
     "two intertwined vines growing up sunlit ancient wall",
     "warm golden light pouring through curtains into empty room",
     "rose petals scattered on dark water, warm amber tones",
+    "silhouette of a figure from behind, arms slightly open, backlit by golden sunset, flowing fabric in wind",
   ]],
   [/\b(liber|free|abrir|open|solt|release|voar|expand)\b/i, [
     "flock of birds taking flight from golden field at sunrise",
@@ -70,12 +71,23 @@ const THEME_SCENES: [RegExp, string[]][] = [
     "lightning illuminating dramatic cloudscape over dark ocean",
     "ancient stone monument standing against fierce orange sunset",
     "waves crashing against lighthouse in golden storm light",
+    "figure seen from behind standing firm against strong wind on cliff edge, golden dramatic sky, flowing fabric",
   ]],
   [/\b(alma|soul|espírit|spirit|sagra|sacred|divin)\b/i, [
     "light streaming through stained glass casting colors on stone floor",
     "incense smoke spiraling upward in shaft of temple light",
     "ancient tree with golden light emanating from within its hollow trunk",
   ]],
+];
+
+// Scenes with artistic figure (Loranne identity — always from behind or silhouette)
+const FIGURE_SCENES = [
+  "a figure seen from behind, draped in flowing golden translucent fabric, walking into warm light, African landscape at golden hour",
+  "silhouette of a woman against dramatic sunset sky, flowing dress in wind, seen from behind, warm amber tones",
+  "figure from behind standing at the edge of a calm ocean, golden fabric flowing, warm atmospheric light",
+  "silhouette of a woman with arms slightly open, seen from behind, backlit by golden sun, dust particles in air",
+  "a figure from behind walking down a misty path, flowing golden clothing, warm amber morning light filtering through trees",
+  "woman seen from behind on a rooftop at golden hour, city lights below, flowing fabric catching warm wind",
 ];
 
 // Fallback scenes when no theme matches
@@ -88,11 +100,12 @@ const UNIVERSAL_SCENES = [
   "abstract landscape of golden sand dunes under dramatic sky",
   "warm light refracting through glass creating prismatic patterns",
   "ancient stone texture with golden moss, intimate macro detail",
+  ...FIGURE_SCENES,
 ];
 
-const NEGATIVE_PROMPT = "person, people, human, figure, face, portrait, body, hands, eyes, mouth, skin, man, woman, child, crowd, silhouette of person, text, words, letters, watermark, logo, signature, writing";
+const NEGATIVE_PROMPT = "sensual, sexual, seductive, provocative, revealing clothing, cleavage, lingerie, bikini, nude, naked, asian stereotypes, stock photo, generic model, selfie, looking at camera, frontal portrait, text, words, letters, watermark, logo, signature, writing, cartoon, anime, 3D render";
 
-const STYLE_SUFFIX = "Fine art photography, cinematic composition, 9:16 vertical, dramatic lighting, shallow depth of field, warm golden amber tones, atmospheric, no text, no watermarks. Absolutely no people, no human figures, no faces, no silhouettes of people.";
+const STYLE_SUFFIX = "Fine art photography, cinematic composition, 9:16 vertical, dramatic lighting, shallow depth of field, warm golden amber tones, atmospheric, African and Portuguese aesthetic, soulful, artistic. No text, no watermarks. If a figure appears, show from behind or in silhouette only — mysterious, elegant, draped in flowing fabric.";
 
 /**
  * Generate verse reel images via fal.ai.
