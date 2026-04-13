@@ -2522,239 +2522,6 @@ O corpo encontra a sua uva
 Chorei tudo
 E agora sinto fome de viver`,
 
-
-  // ─────────────────────────────────────────────
-  // LAVA QUIETA (raiva contida, fogo por dentro)
-  // ─────────────────────────────────────────────
-
-  "incenso-lava-quieta/1": `[Verse 1]
-A garganta fecha em torno das palavras
-O maxilar aperta até doer
-Engulo o fogo como engulo as magoas
-E sinto-o arder
-
-[Verse 2]
-O estomago segura o que a boca recusa
-O corpo é a prisão da minha voz
-A raiva é tão educada e tão reclusa
-Que ninguém sabe o que há entre nós
-
-[Chorus]
-Engolir
-O grito que desce de volta
-Engolir
-É a violência mais oculta
-O silêncio que não é paz
-É a jaula mais elegante
-A raiva que o corpo traz
-E que ninguém vê por diante
-
-
-[Chorus]
-Engolir
-O grito que desce de volta
-Engolir
-É a violência mais oculta
-O silêncio que não é paz
-É a jaula mais elegante
-A raiva que o corpo traz
-E que ninguém vê por diante
-
-[Outro]
-Engoli outra vez
-Engoli outra vez`,
-
-  "incenso-lava-quieta/2": `[Verse 1]
-Beneath the ash the embers glow
-A steady heat that no one sees
-I smile above, I burn below
-The surface cool, the centre seize
-
-[Verse 2]
-My hands are still beneath the table
-My voice is measured, even, kind
-But underneath I am a fable
-Of fire the polite refuse to find
-
-[Chorus]
-Smolder, smolder
-Beneath the calm exterior
-Smolder, smolder
-The surface is inferior
-To what burns underneath
-The years of swallowed flame
-I clench my jaw, I grit my teeth
-And no one knows my name is rage
-
-
-[Chorus]
-Smolder, smolder
-Beneath the calm exterior
-Smolder, smolder
-The surface is inferior
-To what burns underneath
-The years of swallowed flame
-I clench my jaw, I grit my teeth
-And no one knows my name is rage
-
-[Outro]
-Burning, still burning
-Beneath the smile`,
-
-  "incenso-lava-quieta/3": `[Verse 1]
-O punho fecha dentro do bolso
-As unhas marcam meias-luas na palma
-O pé bate debaixo da mesa feito louco
-E ninguém vê a tempestade na alma
-
-[Verse 2]
-O corpo vibra numa frequência
-Que só eu consigo ouvir
-A raiva tem paciência
-Quando não a deixam sair
-
-[Chorus]
-O punho
-Fechado onde ninguém vê
-O punho
-É a raiva de quem não cre
-Que um dia vai ter licença
-Para abrir a mão
-O punho e a sentenca
-De quem guarda a explosão
-
-
-[Chorus]
-O punho
-Fechado onde ninguém vê
-O punho
-É a raiva de quem não cre
-Que um dia vai ter licença
-Para abrir a mão
-O punho e a sentenca
-De quem guarda a explosão
-
-[Outro]
-Abre a mão
-Abre a mão`,
-
-  "incenso-lava-quieta/4": `[Verse 1]
-The tunnel narrows, vision blurs
-The blood rushes from chest to face
-My hands are shaking, not from nerves
-But from the voltage of this place
-
-[Verse 2]
-I see in red, I breathe in red
-The colour fills me like a flood
-Every word I should have said
-Is boiling in my blood
-
-[Chorus]
-Red, everything red
-The body full of fire
-Red, like the unsaid
-Like a building on a pyre
-Not a colour but a heat
-A frequency, a state
-The moment where the heartbeat
-Can no longer sit and wait
-
-
-[Chorus]
-Red, everything red
-The body full of fire
-Red, like the unsaid
-Like a building on a pyre
-Not a colour but a heat
-A frequency, a state
-The moment where the heartbeat
-Can no longer sit and wait
-
-[Outro]
-Red
-I am red`,
-
-  "incenso-lava-quieta/5": `[Verse 1]
-A boca abre como uma represa
-A primeira palavra sai a tremer
-Depois vem o rio, a surpresa
-De ouvir a minha própria voz a arder
-
-[Verse 2]
-De pé na cozinha eu digo tudo
-O que guardei debaixo dos anos
-A voz treme mas não é muda
-E os ombros largam os seus enganos
-
-[Chorus]
-Dizer
-Finalmente dizer o que engoli
-Dizer
-A voz que eu escondi
-Não é calma, não é gentil
-Mas e minha e e real
-Cada palavra é um projétil
-De verdade sem igual
-
-
-[Chorus]
-Dizer
-Finalmente dizer o que engoli
-Dizer
-A voz que eu escondi
-Não é calma, não é gentil
-Mas e minha e e real
-Cada palavra é um projétil
-De verdade sem igual
-
-[Bridge]
-Os ombros descem a cada frase
-A coluna endireita o que curvou
-Dizer e a base
-De quem finalmente se encontrou
-
-[Outro]
-Disse
-Finalmente disse`,
-
-  "incenso-lava-quieta/6": `[Verse 1]
-The breath slows down, the hands unclench
-The room comes back in shapes and lines
-The fury cools upon the bench
-Like lava cooling into vines
-
-[Verse 2]
-The clarity that follows rage
-Is sharper than a winter's knife
-I read the world like a new page
-With eyes washed clean by fire and life
-
-[Chorus]
-The cooling, the cooling
-Rage becomes the glass
-The cooling, no fooling
-This clarity will last
-Not the absence of the flame
-But its transformation into sight
-I see everything the same
-But nothing hides from this new light
-
-
-[Chorus]
-The cooling, the cooling
-Rage becomes the glass
-The cooling, no fooling
-This clarity will last
-Not the absence of the flame
-But its transformation into sight
-I see everything the same
-But nothing hides from this new light
-
-[Outro]
-Clear now
-Crystal clear`,
-
   // ─────────────────────────────────────────────
   // ANCORA (ansiedade, panico, chão)
   // ─────────────────────────────────────────────
@@ -3666,41 +3433,54 @@ Between us`,
   // ─────────────────────────────────────────────
 
   "incenso-oferenda/1": `[Verse 1]
-A cabeça inclina-se de leve
-Não é submissão, e reconhecimento
-O peito abre quando a boca bebé
-A palavra mais simples do momento
+Ponho na mesa o que tenho
+Não é muito, não é pouco
+É o que cabe nesta tarde
+Neste gesto, neste foco
 
 [Verse 2]
-Obrigada ao corpo que me trouxe
-Obrigada ao pão que está na mesa
-Obrigada a manhã que me ouve
-Obrigada a está natureza
+Não sei o que vem depois
+Não sei se o amanhã responde
+Mas ofereço na mesma
+O que o coração esconde
+
+[Pre-Chorus]
+Oferenda não é troca
+É soltar sem garantia
 
 [Chorus]
-Obrigada
-A palavra mais pesada
-Obrigada
-Quando e dita com a alma toda
-Não há ritual mais puro
-Que está silaba na boca
-Obrigada ao futuro
-É a cada coisa que me toca
+Ofereço o que não tenho ainda
+Ofereço o que não sei
+A manhã que ainda não veio
+O nome que ainda não dei
+Ofereço sem contrato
+Sem recibo, sem retorno
+A oferenda mais honesta
+É a que parte sem adorno
 
+[Verse 3]
+As mãos abertas não esperam
+Só entregam e confiam
+Que o que se dá de verdade
+É o que o mundo necessita
 
 [Chorus]
-Obrigada
-A palavra mais pesada
-Obrigada
-Quando e dita com a alma toda
-Não há ritual mais puro
-Que está silaba na boca
-Obrigada ao futuro
-É a cada coisa que me toca
+Ofereço o que não tenho ainda
+Ofereço o que não sei
+A manhã que ainda não veio
+O nome que ainda não dei
+
+[Bridge]
+Não é piedade nem promessa
+É só este gesto simples
+De acreditar que o amanhã
+Merece o melhor de mim
 
 [Outro]
-Obrigada
-Só obrigada`,
+Ofereço
+Sem saber
+Ofereço
+Na mesma`,
 
   "incenso-oferenda/2": `[Verse 1]
 I took a pen and made a list

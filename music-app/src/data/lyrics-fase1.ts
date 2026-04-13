@@ -3177,82 +3177,54 @@ Is mine`,
   // ─────────────────────────────────────────────
 
   "grao-primeira-luz/1": `[Verse 1]
-O primeiro segundo é confuso
-A luz entra de lado
-O corpo ainda é um recluso
-De um sonho inacabado
-Os olhos abrem devagar
-Como portas enferrujadas
-O tecto começa a falar
-Em formas ainda desfocadas
+Os pés tocam o chão antes de pensar
+O frio do soalho diz que é real
+Este dia existe — posso recusar
+Ou posso abrir a janela e começar
 
 [Verse 2]
-O lençol ainda segura
-A forma do meu corpo antigo
-Mas o novo dia já procura
-O espaço que eu lhe digo
-Que existe — entre o sonho e o real
-Entre a noite e o que vem
-Há um segundo universal
-Que não pertence a ninguém
+Não é obrigação nem heroísmo
+É só uma escolha pequena e exacta
+Levantar é um acto de optimismo
+Que o corpo faz antes de a mente se adapta
 
 [Pre-Chorus]
-Antes da lista e do dever
-Antes do peso e da razão
-Há este instante de nascer
-De novo sem explicação
+Nenhum dia começa sozinho
+Começa porque alguém decidiu
 
 [Chorus]
-Despertar é um gesto pequeno
-Um segundo e o mundo existe
-Despertar é quase um aceno
-Entre o sono e o que persiste
-Não é dramático, não é grande
-É só um pestanejar
-E de repente o dia expande
-E o corpo aceita acordar
+Primeira luz — e eu escolho ver
+Primeira luz — não me aconteceu
+Fui eu que abri os olhos para ela
+Fui eu que disse: este dia é meu
+Não é grande, não é promessa
+É só o gesto de aparecer
+Primeira luz — e eu estou cá
+E isso já é suficiente para ser
 
 [Verse 3]
-O telemóvel ainda dorme
-Na mesa de cabeceira
-E eu neste segundo enorme
-Que é só meu — inteira
-Sem obrigações nem pressa
-Sem o nome que me chamam
-Só o corpo que tropeça
-Entre quem eu era e quem me amam
+A chávena aquece as duas mãos
+O vapor sobe como quem respira
+Há uma calma nestes primeiros sons
+Que a pressa do dia ainda não inspira
 
 [Chorus]
-Despertar é um gesto pequeno
-Um segundo e o mundo existe
-Despertar é quase um aceno
-Entre o sono e o que persiste
+Primeira luz — e eu escolho ver
+Primeira luz — não me aconteceu
+Fui eu que abri os olhos para ela
+Fui eu que disse: este dia é meu
 
 [Bridge]
-Amanhã vou acordar outra vez
-E ser outra versão
-Mas hoje — este segundo faz
-De mim a minha canção
-Sete da manhã ou seis ou oito
-Não importa a hora exacta
-Importa este primeiro afoito
-Gesto de quem se levanta
-
-[Chorus]
-Despertar é um gesto pequeno
-Um segundo e o mundo existe
-Despertar — e eu sou inteira
+Não precisa de ser bonito
+Não precisa de ser perfeito
+Só precisa de ser meu
+Este começo imperfeito
 
 [Outro]
-Olhos abertos
-Estou aqui
-Mais um dia
-Mais uma chance
-De ser eu
-De começar
-Do zero
-Sem medo
-Estou aqui`,
+Primeira luz
+Primeira vez
+Este dia
+Começa em mim`,
 
   "grao-primeira-luz/2": `[Verse 1]
 Before the alarm, before the rush
