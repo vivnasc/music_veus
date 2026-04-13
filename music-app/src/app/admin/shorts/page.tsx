@@ -250,11 +250,14 @@ export default function ShortsPage() {
         imageInputs.push({ imageUrl: img.url });
       }
 
-      // Step 1: Submit ALL animations at once
+      // Step 1: Submit animations one at a time — stop on first fatal error to save credits
       setProgress(`A submeter ${imageInputs.length} animacoes...`);
       const submissions: { taskId?: string; clipTrackNum: number; videoUrl?: string; erro?: string }[] = [];
+      let fatalError: string | null = null;
       for (let idx = 0; idx < imageInputs.length; idx++) {
+        if (fatalError) break;
         const clipTrackNum = track.number * 100 + idx + 1;
+        setProgress(`A submeter clip ${idx + 1}/${imageInputs.length}...`);
         try {
           const genRes = await adminFetch("/api/admin/runway/generate", {
             method: "POST",
@@ -270,10 +273,23 @@ export default function ShortsPage() {
             }),
           });
           const rd = await genRes.json();
+          if (!genRes.ok || rd.erro) {
+            const errMsg = rd.erro || `HTTP ${genRes.status}`;
+            console.error(`[shorts] Clip ${idx + 1} submission failed:`, errMsg);
+            // If image is unavailable, stop all — don't waste credits
+            if (genRes.status === 400) {
+              fatalError = errMsg;
+              break;
+            }
+          }
           submissions.push({ ...rd, clipTrackNum });
         } catch (e) {
           submissions.push({ clipTrackNum, erro: (e as Error).message });
         }
+      }
+
+      if (fatalError) {
+        throw new Error(fatalError);
       }
 
       // Step 2: Poll ALL in parallel until done
@@ -514,7 +530,7 @@ export default function ShortsPage() {
                 rows={2}
                 className="w-full rounded-lg border border-white/10 bg-transparent px-3 py-2 text-sm text-[#F5F0E6] placeholder:text-[#666680]/50 focus:border-[#C9A96E]/50 focus:outline-none resize-none"
               />
-              <p className="text-[9px] text-[#666680] mt-1">Cenas abstractas, natureza, luz — sem pessoas. O motor mapeia temas da letra para visuais.</p>
+              <p className="text-[9px] text-[#666680] mt-1">O motor mapeia temas da letra para cenas visuais (paisagens, luz, natureza, silhuetas artisticas).</p>
             </div>
             <div>
               <div className="flex items-center justify-between mb-1.5">

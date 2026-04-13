@@ -61,17 +61,19 @@ export async function POST(req: NextRequest) {
     // 2. Get the cover image — try Supabase cover first, fallback to provided base64
     let promptImage: string | null = null;
 
-    // Try Supabase cover (jpg, png)
-    for (const ext of ["jpg", "png", "jpeg", "webp"]) {
-      const coverPath = `albums/${safeAlbum}/faixa-${safeTrack}-cover.${ext}`;
-      const coverUrl = `${supabaseUrl}/storage/v1/object/public/${BUCKET}/${coverPath}`;
-      const coverRes = await fetch(coverUrl);
-      if (coverRes.ok) {
-        const blob = await coverRes.blob();
-        const buffer = Buffer.from(await blob.arrayBuffer());
-        const mimeType = blob.type || `image/${ext === "jpg" ? "jpeg" : ext}`;
-        promptImage = `data:${mimeType};base64,${buffer.toString("base64")}`;
-        break;
+    // Try Supabase cover (jpg, png) — only for real track numbers (< 100)
+    if (parseInt(trackNumber, 10) < 100) {
+      for (const ext of ["jpg", "png", "jpeg", "webp"]) {
+        const coverPath = `albums/${safeAlbum}/faixa-${safeTrack}-cover.${ext}`;
+        const coverUrl = `${supabaseUrl}/storage/v1/object/public/${BUCKET}/${coverPath}`;
+        const coverRes = await fetch(coverUrl);
+        if (coverRes.ok) {
+          const blob = await coverRes.blob();
+          const buffer = Buffer.from(await blob.arrayBuffer());
+          const mimeType = blob.type || `image/${ext === "jpg" ? "jpeg" : ext}`;
+          promptImage = `data:${mimeType};base64,${buffer.toString("base64")}`;
+          break;
+        }
       }
     }
 
@@ -84,10 +86,15 @@ export async function POST(req: NextRequest) {
         clearTimeout(timeout);
         if (imgRes.ok) {
           const blob = await imgRes.blob();
-          const buffer = Buffer.from(await blob.arrayBuffer());
-          promptImage = `data:${blob.type || "image/jpeg"};base64,${buffer.toString("base64")}`;
+          if (blob.size < 1000) {
+            console.warn(`[runway/generate] imageUrl too small (${blob.size} bytes), likely expired`);
+          } else {
+            const buffer = Buffer.from(await blob.arrayBuffer());
+            promptImage = `data:${blob.type || "image/jpeg"};base64,${buffer.toString("base64")}`;
+            console.log(`[runway/generate] imageUrl OK: ${blob.size} bytes, ${blob.type}`);
+          }
         } else {
-          console.warn(`[runway/generate] imageUrl fetch failed: ${imgRes.status}`);
+          console.warn(`[runway/generate] imageUrl fetch failed: ${imgRes.status} — URL may have expired`);
         }
       } catch (e) {
         console.warn(`[runway/generate] imageUrl fetch error:`, e);
@@ -100,7 +107,10 @@ export async function POST(req: NextRequest) {
     }
 
     if (!promptImage) {
-      return NextResponse.json({ erro: "Sem capa. Aprova a faixa com capa do Suno primeiro." }, { status: 400 });
+      return NextResponse.json({
+        erro: "Imagem indisponível — a URL do fal.ai pode ter expirado. Regenera as imagens e tenta de novo.",
+        detail: imageUrl ? `URL tentada: ${imageUrl.slice(0, 80)}...` : "Nenhuma URL fornecida",
+      }, { status: 400 });
     }
 
     // 3. Send to Runway
