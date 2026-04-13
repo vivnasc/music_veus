@@ -514,7 +514,7 @@ export default function ShortsPage() {
                 rows={2}
                 className="w-full rounded-lg border border-white/10 bg-transparent px-3 py-2 text-sm text-[#F5F0E6] placeholder:text-[#666680]/50 focus:border-[#C9A96E]/50 focus:outline-none resize-none"
               />
-              <p className="text-[9px] text-[#666680] mt-1">Cenas abstractas, natureza, luz — sem pessoas. O motor mapeia temas da letra para visuais.</p>
+              <p className="text-[9px] text-[#666680] mt-1">O motor mapeia temas da letra para cenas visuais (paisagens, luz, natureza, silhuetas artisticas).</p>
             </div>
             <div>
               <div className="flex items-center justify-between mb-1.5">
