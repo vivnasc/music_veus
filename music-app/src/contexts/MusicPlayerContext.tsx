@@ -499,13 +499,28 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
         }
         return s;
       }
-      // Insert after current track in queue
+      // Find current track position
       const currentIdx = s.queue.findIndex(t => {
         if (t.number !== s.currentTrack!.number) return false;
         const tAlbum = (t as QueueTrack).albumSlug;
         if (tAlbum && s.currentAlbum) return tAlbum === s.currentAlbum.slug;
         return true;
       });
+
+      if (s.shuffle && currentIdx >= 0) {
+        // Shuffle mode: merge new tracks into the remaining queue and shuffle them all
+        // so the album doesn't sit as a block on top of "Próximas"
+        const head = s.queue.slice(0, currentIdx + 1);
+        const tail = [...s.queue.slice(currentIdx + 1), ...enriched];
+        // Fisher-Yates shuffle on the tail
+        for (let i = tail.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [tail[i], tail[j]] = [tail[j], tail[i]];
+        }
+        return { ...s, queue: [...head, ...tail], shuffleHistory: [] };
+      }
+
+      // Non-shuffle: insert right after current track
       const newQueue = [...s.queue];
       const insertAt = currentIdx >= 0 ? currentIdx + 1 : newQueue.length;
       newQueue.splice(insertAt, 0, ...enriched);

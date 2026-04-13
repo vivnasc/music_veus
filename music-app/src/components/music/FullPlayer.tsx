@@ -227,7 +227,12 @@ export default function FullPlayer() {
     ? getCustomLyrics(currentAlbum.slug, currentTrack.number, currentTrack.lyrics || "")
     : currentTrack.lyrics || "";
   const hasLyrics = !!resolvedLyrics;
-  const currentIdx = queue.findIndex(t => t.number === currentTrack.number);
+  const currentIdx = queue.findIndex(t => {
+    if (t.number !== currentTrack.number) return false;
+    const tSlug = (t as { albumSlug?: string }).albumSlug;
+    if (tSlug && currentAlbum) return tSlug === currentAlbum.slug;
+    return true;
+  });
   const upcomingTracks = currentIdx >= 0 ? queue.slice(currentIdx + 1) : [];
   const nextTrack = upcomingTracks[0] || null;
   const fav = isFavorite(currentTrack.number, currentAlbum?.slug || "");
