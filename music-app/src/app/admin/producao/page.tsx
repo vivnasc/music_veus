@@ -2298,6 +2298,13 @@ export default function AlbumProductionPage() {
             </Link>
 
             <Link
+              href="/admin/calendario"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-blue-900/30 px-4 py-2.5 text-xs min-h-[44px] text-blue-400 hover:bg-blue-900/50 transition flex items-center"
+            >
+              Redes Sociais
+            </Link>
+
+            <Link
               href="/admin/fotos"
               className="shrink-0 whitespace-nowrap rounded-lg bg-pink-900/30 px-4 py-2.5 text-xs min-h-[44px] text-pink-400 hover:bg-pink-900/50 transition flex items-center"
             >
@@ -2323,7 +2330,7 @@ export default function AlbumProductionPage() {
                     : "text-mundo-muted hover:text-mundo-creme"
                 }`}
               >
-                Calendário
+                Distribuição
               </button>
             </div>
           </div>
