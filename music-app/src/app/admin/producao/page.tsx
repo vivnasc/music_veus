@@ -17,6 +17,7 @@ import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
 import { adminFetch } from "@/lib/admin-fetch";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
 import { pickLorannImages } from "@/lib/loranne-images";
+import CalendarView from "./CalendarView";
 
 /** Read ID3 title from an MP3 File */
 async function readId3Title(file: File): Promise<string | null> {
@@ -1599,7 +1600,7 @@ function TrackRow({
 
 export default function AlbumProductionPage() {
   const [filter, setFilter] = useState("all");
-  const [viewMode, setViewMode] = useState<"producao" | "letras">("producao");
+  const [viewMode, setViewMode] = useState<"producao" | "letras" | "calendario">("producao");
   const [selectedAlbum, setSelectedAlbum] = useState<string | null>(null);
   const [statuses, setStatuses] = useState<Record<string, TrackStatus>>({});
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -2419,6 +2420,16 @@ export default function AlbumProductionPage() {
               >
                 Letras
               </button>
+              <button
+                onClick={() => setViewMode("calendario")}
+                className={`rounded-full px-4 py-2 text-xs font-sans uppercase tracking-wider transition-colors ${
+                  viewMode === "calendario"
+                    ? "bg-mundo-bg text-mundo-creme shadow-sm"
+                    : "text-mundo-muted hover:text-mundo-creme"
+                }`}
+              >
+                Calendário
+              </button>
             </div>
           </div>
         </div>
@@ -2485,6 +2496,9 @@ export default function AlbumProductionPage() {
             ))}
           </div>
         )}
+
+        {/* Calendar view */}
+        {viewMode === "calendario" && <CalendarView />}
 
         {/* Album detail */}
         {viewMode === "producao" && album && (
