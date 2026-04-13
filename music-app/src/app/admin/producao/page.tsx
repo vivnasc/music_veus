@@ -2809,60 +2809,74 @@ export default function AlbumProductionPage() {
               );
             })()}
 
-            {/* Bulk reel generation */}
+            {/* Album reel + bulk reel generation */}
             <div className="mb-4 flex items-center gap-2 flex-wrap">
               {(["status", "insta"] as const).map((reelType) => (
                 <button
-                  key={reelType}
-                  id={`bulk-reel-${reelType}-${album.slug}`}
+                  key={`album-${reelType}`}
+                  id={`album-reel-${reelType}-${album.slug}`}
                   onClick={async () => {
-                    const btn = document.getElementById(`bulk-reel-${reelType}-${album.slug}`) as HTMLButtonElement;
+                    const btn = document.getElementById(`album-reel-${reelType}-${album.slug}`) as HTMLButtonElement;
                     if (!btn) return;
                     btn.disabled = true;
+                    btn.textContent = "A preparar...";
 
-                    const { generateReel, REEL_SIZE_STATUS, REEL_SIZE_INSTA } = await import("@/lib/reel-generator");
-                    const { getAlbumCover, getTrackCoverUrl } = await import("@/lib/album-covers");
-                    const reelSize = reelType === "insta" ? REEL_SIZE_INSTA : REEL_SIZE_STATUS;
-                    const alb = ALL_ALBUMS.find(a => a.slug === album.slug);
-                    if (!alb) { btn.disabled = false; return; }
+                    try {
+                      const { generateAlbumReel, REEL_SIZE_STATUS, REEL_SIZE_INSTA } = await import("@/lib/reel-generator");
+                      const { getAlbumCover } = await import("@/lib/album-covers");
+                      const reelSize = reelType === "insta" ? REEL_SIZE_INSTA : REEL_SIZE_STATUS;
+                      const alb = ALL_ALBUMS.find(a => a.slug === album.slug);
+                      if (!alb) { btn.disabled = false; btn.textContent = "Erro"; return; }
 
-                    const tracksWithAudio = alb.tracks.filter(t => audioUrls[trackKey(album.slug, t.number)] || t.audioUrl);
-                    let done = 0;
-                    let errors = 0;
+                      const coverSrc = getAlbumCover(alb);
+                      const tracksWithAudio = alb.tracks.filter(t => audioUrls[trackKey(album.slug, t.number)] || t.audioUrl);
+                      const audioSources = tracksWithAudio.map(t => ({
+                        track: t,
+                        src: `/api/music/stream?album=${encodeURIComponent(album.slug)}&track=${t.number}`,
+                      }));
 
-                    for (const t of tracksWithAudio) {
-                      btn.textContent = `${done}/${tracksWithAudio.length}...`;
-                      try {
-                        let coverSrc = getAlbumCover(alb);
-                        try {
-                          const tcUrl = getTrackCoverUrl(album.slug, t.number);
-                          const probe = await fetch(tcUrl, { method: "HEAD" });
-                          if (probe.ok) coverSrc = tcUrl;
-                        } catch {}
-
-                        const audioSrc = `/api/music/stream?album=${encodeURIComponent(album.slug)}&track=${t.number}`;
-                        const blob = await generateReel(t, alb, coverSrc, audioSrc, (p) => {
-                          btn.textContent = `${done}/${tracksWithAudio.length} — ${p.message}`;
-                        }, undefined, reelSize);
-
-                        await uploadReelDirect(blob, album.slug, t.number);
-                        done++;
-                      } catch {
-                        errors++;
+                      if (audioSources.length === 0) {
+                        btn.textContent = "Sem audio";
+                        btn.disabled = false;
+                        setTimeout(() => { btn.textContent = reelType === "status" ? "Reel Album Status" : "Reel Album Insta"; }, 3000);
+                        return;
                       }
-                    }
 
-                    btn.textContent = `${done} reels${errors ? ` (${errors} erros)` : ""}`;
+                      const blob = await generateAlbumReel(alb, tracksWithAudio, coverSrc, audioSources, (p) => {
+                        btn.textContent = p.message;
+                      }, reelSize);
+
+                      await uploadReelDirect(blob, album.slug, 0);
+                      btn.textContent = "Reel album pronto!";
+
+                      // Show result
+                      const container = document.getElementById(`album-reel-result-${album.slug}`);
+                      if (container) {
+                        container.innerHTML = "";
+                        const vid = document.createElement("video");
+                        vid.src = URL.createObjectURL(blob);
+                        vid.controls = true;
+                        vid.playsInline = true;
+                        vid.muted = true;
+                        vid.style.maxWidth = "240px";
+                        vid.style.borderRadius = "12px";
+                        vid.style.marginTop = "8px";
+                        container.appendChild(vid);
+                      }
+                    } catch (e) {
+                      btn.textContent = `Erro: ${(e as Error).message.slice(0, 40)}`;
+                    }
                     btn.disabled = false;
-                    setTimeout(() => { btn.textContent = reelType === "status" ? "Reels Status" : "Reels Insta"; }, 4000);
+                    setTimeout(() => { btn.textContent = reelType === "status" ? "Reel Album Status" : "Reel Album Insta"; }, 5000);
                   }}
-                  className="rounded-lg bg-violet-900/30 px-3 py-1.5 text-xs text-violet-400 hover:bg-violet-900/50 transition"
+                  className="rounded-lg bg-emerald-900/30 px-3 py-1.5 text-xs text-emerald-400 hover:bg-emerald-900/50 transition"
                 >
-                  {reelType === "status" ? "Reels Status" : "Reels Insta"}
+                  {reelType === "status" ? "Reel Album Status" : "Reel Album Insta"}
                 </button>
               ))}
-              <span className="text-[10px] text-mundo-muted">Gera reels para todas as faixas com audio</span>
+              <span className="text-[10px] text-mundo-muted">Gera reel de apresentacao do album</span>
             </div>
+            <div id={`album-reel-result-${album.slug}`}></div>
 
             <div className="space-y-3">
               {album.tracks.map((track) => {
