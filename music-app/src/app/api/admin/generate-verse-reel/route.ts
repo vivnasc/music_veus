@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
+import { createClient } from "@supabase/supabase-js";
 
-// Allow up to 90s — we now generate one image per scene sequentially
-export const maxDuration = 90;
+// Allow up to 60s for fal.ai — images generated in parallel
+export const maxDuration = 60;
 
 // ── Theme → visual element vocabulary ──
 // Each entry maps a lyric keyword to a visual building block (NOT a full scene).
@@ -188,23 +189,21 @@ export async function POST(req: NextRequest) {
     ? "https://fal.run/fal-ai/flux-lora"
     : "https://fal.run/fal-ai/flux-pro/v1.1";
 
-  // Generate images — each scene gets its own prompt
-  const allImageUrls: string[] = [];
+  // Generate ALL images in parallel — much faster than sequential
+  const results = await Promise.allSettled(
+    storyboard.map(async (scene) => {
+      const body: Record<string, unknown> = {
+        prompt: scene.prompt,
+        negative_prompt: NEGATIVE_PROMPT,
+        image_size: { width: 720, height: 1280 },
+        num_images: 1,
+        safety_tolerance: 5,
+      };
 
-  for (const scene of storyboard) {
-    const body: Record<string, unknown> = {
-      prompt: scene.prompt,
-      negative_prompt: NEGATIVE_PROMPT,
-      image_size: { width: 720, height: 1280 },
-      num_images: 1,
-      safety_tolerance: 5,
-    };
+      if (loraUrl) {
+        body.loras = [{ path: loraUrl, scale: 0.4 }];
+      }
 
-    if (loraUrl) {
-      body.loras = [{ path: loraUrl, scale: 0.4 }];
-    }
-
-    try {
       const falRes = await fetch(endpoint, {
         method: "POST",
         headers: {
@@ -217,23 +216,60 @@ export async function POST(req: NextRequest) {
       if (!falRes.ok) {
         const err = await falRes.text();
         console.error(`[verse-reel] Scene ${scene.index + 1} fal.ai error: ${falRes.status} — ${err}`);
-        continue;
+        return null;
       }
 
       const data = await falRes.json();
-      const urls = (data.images || []).map((img: { url: string }) => img.url).filter(Boolean);
-      allImageUrls.push(...urls);
-    } catch (e) {
-      console.error(`[verse-reel] Scene ${scene.index + 1} fetch error:`, (e as Error).message);
-    }
+      const url = (data.images || [])[0]?.url || null;
+      return url;
+    })
+  );
+
+  const tempUrls: string[] = [];
+  for (const r of results) {
+    if (r.status === "fulfilled" && r.value) tempUrls.push(r.value);
   }
 
-  if (allImageUrls.length === 0) {
+  if (tempUrls.length === 0) {
     return NextResponse.json({ erro: "fal.ai não devolveu imagens." }, { status: 502 });
   }
 
+  // Persist images to Supabase so they never expire
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const permanentUrls: string[] = [];
+
+  if (supabaseUrl && supabaseKey) {
+    const supabase = createClient(supabaseUrl, supabaseKey);
+    const ts = Date.now();
+    await Promise.allSettled(
+      tempUrls.map(async (url, i) => {
+        try {
+          const imgRes = await fetch(url);
+          if (!imgRes.ok) { permanentUrls[i] = url; return; }
+          const blob = await imgRes.blob();
+          const buffer = Buffer.from(await blob.arrayBuffer());
+          const path = `generated/scenes/${ts}-scene-${i + 1}.jpg`;
+          const { error } = await supabase.storage
+            .from("audios")
+            .upload(path, buffer, { contentType: "image/jpeg", upsert: true });
+          if (error) {
+            console.error(`[verse-reel] Supabase upload error scene ${i + 1}:`, error.message);
+            permanentUrls[i] = url;
+          } else {
+            permanentUrls[i] = `${supabaseUrl}/storage/v1/object/public/audios/${path}`;
+          }
+        } catch {
+          permanentUrls[i] = url; // fallback to temp URL
+        }
+      })
+    );
+  } else {
+    permanentUrls.push(...tempUrls);
+  }
+
   return NextResponse.json({
-    imageUrls: allImageUrls,
+    imageUrls: permanentUrls.filter(Boolean),
     storyboard: storyboard.map(s => ({ scene: s.index + 1, lyrics: s.lyricsSegment, prompt: s.prompt })),
   });
 }
