@@ -2305,6 +2305,13 @@ export default function AlbumProductionPage() {
             </Link>
 
             <Link
+              href="/admin/lora"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-fuchsia-900/30 px-4 py-2.5 text-xs text-fuchsia-400 hover:bg-fuchsia-900/50 transition flex items-center min-h-[44px]"
+            >
+              LoRA Loranne
+            </Link>
+
+            <Link
               href="/admin/fotos"
               className="shrink-0 whitespace-nowrap rounded-lg bg-pink-900/30 px-4 py-2.5 text-xs min-h-[44px] text-pink-400 hover:bg-pink-900/50 transition flex items-center"
             >
