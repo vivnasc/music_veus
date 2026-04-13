@@ -2327,7 +2327,7 @@ export default function AlbumProductionPage() {
                     : "text-mundo-muted hover:text-mundo-creme"
                 }`}
               >
-                Produção
+                Colecções
               </button>
               <button
                 onClick={() => setViewMode("calendario")}
@@ -2337,7 +2337,7 @@ export default function AlbumProductionPage() {
                     : "text-mundo-muted hover:text-mundo-creme"
                 }`}
               >
-                Distribuição
+                Calendário Temático
               </button>
             </div>
           </div>
