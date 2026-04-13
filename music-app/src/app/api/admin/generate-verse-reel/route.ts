@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/admin-auth";
+import { createClient } from "@supabase/supabase-js";
 
 // Allow up to 60s for fal.ai — images generated in parallel
 export const maxDuration = 60;
@@ -224,17 +225,51 @@ export async function POST(req: NextRequest) {
     })
   );
 
-  const allImageUrls: string[] = [];
+  const tempUrls: string[] = [];
   for (const r of results) {
-    if (r.status === "fulfilled" && r.value) allImageUrls.push(r.value);
+    if (r.status === "fulfilled" && r.value) tempUrls.push(r.value);
   }
 
-  if (allImageUrls.length === 0) {
+  if (tempUrls.length === 0) {
     return NextResponse.json({ erro: "fal.ai não devolveu imagens." }, { status: 502 });
   }
 
+  // Persist images to Supabase so they never expire
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const permanentUrls: string[] = [];
+
+  if (supabaseUrl && supabaseKey) {
+    const supabase = createClient(supabaseUrl, supabaseKey);
+    const ts = Date.now();
+    await Promise.allSettled(
+      tempUrls.map(async (url, i) => {
+        try {
+          const imgRes = await fetch(url);
+          if (!imgRes.ok) { permanentUrls[i] = url; return; }
+          const blob = await imgRes.blob();
+          const buffer = Buffer.from(await blob.arrayBuffer());
+          const path = `generated/scenes/${ts}-scene-${i + 1}.jpg`;
+          const { error } = await supabase.storage
+            .from("audios")
+            .upload(path, buffer, { contentType: "image/jpeg", upsert: true });
+          if (error) {
+            console.error(`[verse-reel] Supabase upload error scene ${i + 1}:`, error.message);
+            permanentUrls[i] = url;
+          } else {
+            permanentUrls[i] = `${supabaseUrl}/storage/v1/object/public/audios/${path}`;
+          }
+        } catch {
+          permanentUrls[i] = url; // fallback to temp URL
+        }
+      })
+    );
+  } else {
+    permanentUrls.push(...tempUrls);
+  }
+
   return NextResponse.json({
-    imageUrls: allImageUrls,
+    imageUrls: permanentUrls.filter(Boolean),
     storyboard: storyboard.map(s => ({ scene: s.index + 1, lyrics: s.lyricsSegment, prompt: s.prompt })),
   });
 }
