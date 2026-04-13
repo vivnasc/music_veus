@@ -114,7 +114,7 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify({
         model: "gen4_turbo",
         promptImage,
-        promptText: promptText || "figure swaying gently, veils flowing rhythmically, golden particles pulsing, slow camera orbit, warm light breathing",
+        promptText: promptText || "slow cinematic movement, golden light particles floating, warm atmospheric haze shifting, gentle camera drift, ethereal and meditative",
         duration: duration || 10,
         ratio: ratio || "720:1280",
         watermark: false,

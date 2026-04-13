@@ -37,31 +37,37 @@ export async function POST(req: NextRequest) {
   // Track 1 (top layer): text overlays
   const textClips = [];
 
-  // Lyrics — verse by verse, each line fades in and out
+  // Lyrics — verse by verse with cinematic timing
   if (verse) {
     const lines = verse.split("\n").map((l: string) => l.trim()).filter(Boolean);
     const lineCount = lines.length;
     if (lineCount > 0) {
       // Show 1-2 lines at a time, spread across the duration
-      const usableDuration = totalDuration - 4; // leave 2s margin each side
+      const marginStart = 2.5; // seconds before first lyric
+      const marginEnd = 2;     // seconds after last lyric
+      const usableDuration = totalDuration - marginStart - marginEnd;
       const linesPerGroup = lineCount <= 4 ? 1 : 2;
       const groups: string[] = [];
       for (let i = 0; i < lineCount; i += linesPerGroup) {
         groups.push(lines.slice(i, i + linesPerGroup).join("<br/>"));
       }
-      const groupDuration = Math.max(3, usableDuration / groups.length);
+      // Gap between groups for breathing room
+      const gapBetween = 0.3;
+      const totalGaps = Math.max(0, groups.length - 1) * gapBetween;
+      const groupDuration = Math.max(2.5, (usableDuration - totalGaps) / groups.length);
+
       for (let i = 0; i < groups.length; i++) {
         textClips.push({
           asset: {
             type: "html",
-            html: `<p style="font-family:Georgia,serif;font-style:italic;font-size:34px;color:white;text-align:center;text-shadow:0 2px 20px rgba(0,0,0,0.9),0 0 40px rgba(0,0,0,0.5);padding:0 40px;line-height:1.7">${groups[i]}</p>`,
+            html: `<p style="font-family:'Georgia','Palatino Linotype','Book Antiqua',serif;font-style:italic;font-weight:400;font-size:36px;color:rgba(255,255,255,0.95);text-align:center;text-shadow:0 2px 24px rgba(0,0,0,0.95),0 0 60px rgba(0,0,0,0.6),0 4px 8px rgba(0,0,0,0.8);padding:0 50px;line-height:1.8;letter-spacing:0.5px">${groups[i]}</p>`,
             width: 1080,
-            height: 300,
+            height: 360,
           },
-          start: 2 + i * groupDuration,
+          start: marginStart + i * (groupDuration + gapBetween),
           length: groupDuration,
           position: "center",
-          offset: { x: 0, y: 0.1 },
+          offset: { x: 0, y: 0.05 },
           transition: { in: "fade", out: "fade" },
         });
       }
@@ -72,14 +78,14 @@ export async function POST(req: NextRequest) {
   textClips.push({
     asset: {
       type: "html",
-      html: `<div style="text-align:center;padding:16px 20px"><p style="font-family:Georgia,serif;font-weight:bold;font-size:22px;color:rgba(201,169,110,0.95);text-shadow:0 1px 8px rgba(0,0,0,0.7);letter-spacing:1px">Loranne</p><p style="font-family:sans-serif;font-size:13px;color:rgba(255,255,255,0.6);margin-top:4px">${escapeHtml(trackTitle || "")} — ${escapeHtml(albumTitle || "")}</p></div>`,
+      html: `<div style="text-align:center;padding:20px 24px"><p style="font-family:'Georgia','Palatino Linotype',serif;font-weight:bold;font-size:24px;color:rgba(201,169,110,0.95);text-shadow:0 2px 12px rgba(0,0,0,0.8),0 0 30px rgba(0,0,0,0.4);letter-spacing:1.5px">Loranne</p><p style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;color:rgba(255,255,255,0.55);margin-top:6px;letter-spacing:0.8px;text-shadow:0 1px 6px rgba(0,0,0,0.6)">${escapeHtml(trackTitle || "")} &mdash; ${escapeHtml(albumTitle || "")}</p></div>`,
       width: 1080,
-      height: 100,
+      height: 120,
     },
-    start: 1,
-    length: totalDuration - 1.5,
+    start: 1.5,
+    length: totalDuration - 2,
     position: "bottom",
-    offset: { x: 0, y: -0.12 },
+    offset: { x: 0, y: -0.1 },
     transition: { in: "fade", out: "fade" },
   });
 
