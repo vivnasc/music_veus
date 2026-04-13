@@ -250,11 +250,14 @@ export default function ShortsPage() {
         imageInputs.push({ imageUrl: img.url });
       }
 
-      // Step 1: Submit ALL animations at once
+      // Step 1: Submit animations one at a time — stop on first fatal error to save credits
       setProgress(`A submeter ${imageInputs.length} animacoes...`);
       const submissions: { taskId?: string; clipTrackNum: number; videoUrl?: string; erro?: string }[] = [];
+      let fatalError: string | null = null;
       for (let idx = 0; idx < imageInputs.length; idx++) {
+        if (fatalError) break;
         const clipTrackNum = track.number * 100 + idx + 1;
+        setProgress(`A submeter clip ${idx + 1}/${imageInputs.length}...`);
         try {
           const genRes = await adminFetch("/api/admin/runway/generate", {
             method: "POST",
@@ -270,10 +273,23 @@ export default function ShortsPage() {
             }),
           });
           const rd = await genRes.json();
+          if (!genRes.ok || rd.erro) {
+            const errMsg = rd.erro || `HTTP ${genRes.status}`;
+            console.error(`[shorts] Clip ${idx + 1} submission failed:`, errMsg);
+            // If image is unavailable, stop all — don't waste credits
+            if (genRes.status === 400) {
+              fatalError = errMsg;
+              break;
+            }
+          }
           submissions.push({ ...rd, clipTrackNum });
         } catch (e) {
           submissions.push({ clipTrackNum, erro: (e as Error).message });
         }
+      }
+
+      if (fatalError) {
+        throw new Error(fatalError);
       }
 
       // Step 2: Poll ALL in parallel until done
