@@ -16,7 +16,7 @@ const STORAGE_KEY = "veus:short-builder";
 // Types
 // ─────────────────────────────────────────────
 
-type ShortImage = { url: string; isLoranne?: boolean };
+type ShortImage = { url: string; isLoranne?: boolean; scenePrompt?: string; sceneLyrics?: string };
 
 type ShortState = {
   albumSlug: string;
@@ -177,6 +177,7 @@ export default function ShortsPage() {
       const aiData = await aiRes.json();
       if (!aiRes.ok || !aiData.imageUrls?.length) throw new Error(`fal.ai: ${aiData.erro || "sem imagens"}`);
       const allUrls = [...aiData.imageUrls];
+      const storyboard = aiData.storyboard || [];
 
       // If we need more images than one batch, generate more
       while (allUrls.length < numClips) {
@@ -193,12 +194,18 @@ export default function ShortsPage() {
         const moreData = await moreRes.json();
         if (moreRes.ok && moreData.imageUrls?.length) {
           allUrls.push(...moreData.imageUrls);
+          if (moreData.storyboard) storyboard.push(...moreData.storyboard);
         } else break;
       }
 
       const built: ShortImage[] = [];
       for (let i = 0; i < numClips; i++) {
-        built.push({ url: allUrls[i % allUrls.length] });
+        const scene = storyboard[i % storyboard.length];
+        built.push({
+          url: allUrls[i % allUrls.length],
+          scenePrompt: scene?.prompt,
+          sceneLyrics: scene?.lyrics,
+        });
       }
       update({ images: built });
     } catch (err) {
@@ -602,6 +609,12 @@ export default function ShortsPage() {
                     <div className={`absolute top-1 left-1 text-[8px] px-1 py-0.5 rounded font-bold ${img.isLoranne ? "bg-[#C9A96E]/90 text-[#0D0D1A]" : "bg-black/70 text-white/80"}`}>
                       {idx + 1}{img.isLoranne ? " L" : ""}
                     </div>
+                    {/* Scene lyrics tooltip on hover */}
+                    {img.sceneLyrics && (
+                      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent p-1.5 pt-4 opacity-0 group-hover:opacity-100 transition rounded-b-lg pointer-events-none">
+                        <p className="text-[8px] text-white/90 italic leading-tight line-clamp-3">{img.sceneLyrics}</p>
+                      </div>
+                    )}
                     {!img.isLoranne && state.step === "images" && (
                       <button onClick={() => regenerateSlot(idx)} disabled={regeneratingIdx !== null} className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition rounded-lg">
                         <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" className="h-5 w-5"><path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
