@@ -462,3 +462,225 @@ export async function generateReel(
     drawFrame(0);
   });
 }
+
+/**
+ * Generate an ALBUM REEL — a 30s trailer showcasing the whole album.
+ * Shows album cover, cycles through track titles with audio snippets.
+ */
+export async function generateAlbumReel(
+  album: Album,
+  tracks: AlbumTrack[],
+  coverSrc: string,
+  audioSources: { track: AlbumTrack; src: string }[],
+  onProgress?: (p: ReelProgress) => void,
+  size: { w: number; h: number } = REEL_SIZE_STATUS,
+): Promise<Blob> {
+  const DURATION = 30;
+  const REEL_W = size.w;
+  const REEL_H = size.h;
+  const report = (phase: ReelProgress["phase"], progress: number, message: string) => {
+    onProgress?.({ phase, progress, message });
+  };
+
+  report("loading", 0, "A carregar capa do album...");
+  const coverImg = await loadImage(coverSrc);
+
+  report("loading", 0.2, "A carregar audio...");
+  let audioBuffer: AudioBuffer | null = null;
+  const audioCtx = new AudioContext();
+  for (const { src } of audioSources.slice(0, 3)) {
+    try {
+      const res = await fetch(src);
+      if (!res.ok) continue;
+      audioBuffer = await audioCtx.decodeAudioData(await res.arrayBuffer());
+      break;
+    } catch { continue; }
+  }
+  if (!audioBuffer) throw new Error("Nenhum audio disponivel para o album");
+
+  report("loading", 0.6, "A configurar...");
+
+  const canvas = document.createElement("canvas");
+  canvas.width = REEL_W;
+  canvas.height = REEL_H;
+  const ctx = canvas.getContext("2d")!;
+
+  const color = album.color || "#C9A96E";
+  const isSquare = REEL_W === REEL_H;
+  const coverSize = Math.round(REEL_W * (isSquare ? 0.45 : 0.6));
+  const coverBaseX = (REEL_W - coverSize) / 2;
+  const coverBaseY = Math.round(REEL_H * (isSquare ? 0.05 : 0.08));
+  const particles = createParticles(40, REEL_W, REEL_H);
+  const fontScale = isSquare ? 0.75 : 1;
+
+  const displayTracks = tracks.slice(0, 10);
+  const trackShowStart = 4;
+  const trackShowEnd = DURATION - 4;
+  const perTrack = (trackShowEnd - trackShowStart) / displayTracks.length;
+
+  function drawFrame(elapsed: number) {
+    const t = elapsed / DURATION;
+    ctx.fillStyle = "#0D0D1A";
+    ctx.fillRect(0, 0, REEL_W, REEL_H);
+
+    // Glow
+    const glowPulse = 0.12 + 0.08 * Math.sin(elapsed * 0.8);
+    const glow = ctx.createRadialGradient(REEL_W / 2, coverBaseY + coverSize / 2, coverSize * 0.2, REEL_W / 2, coverBaseY + coverSize / 2, REEL_W * 0.6);
+    glow.addColorStop(0, color + Math.round(glowPulse * 255).toString(16).padStart(2, "0"));
+    glow.addColorStop(1, "transparent");
+    ctx.fillStyle = glow;
+    ctx.fillRect(0, 0, REEL_W, REEL_H);
+
+    // Particles
+    ctx.save();
+    for (const p of particles) {
+      const py = (p.y - elapsed * p.speed * 30 + REEL_H * 2) % REEL_H;
+      ctx.globalAlpha = p.opacity * (0.5 + 0.5 * Math.sin(elapsed * 2 + p.phase)) * clamp(t * 3, 0, 1);
+      ctx.fillStyle = color;
+      ctx.beginPath();
+      ctx.arc(p.x, py, p.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    ctx.restore();
+
+    // Cover
+    const zoom = 1 + 0.15 * easeInOut(t);
+    const zoomedSize = coverSize * zoom;
+    const zoomOff = (zoomedSize - coverSize) / 2;
+    ctx.save();
+    ctx.beginPath();
+    ctx.roundRect(coverBaseX, coverBaseY, coverSize, coverSize, 16);
+    ctx.clip();
+    const sc = Math.max(zoomedSize / coverImg.width, zoomedSize / coverImg.height);
+    ctx.drawImage(coverImg, coverBaseX - zoomOff - (coverImg.width * sc - zoomedSize) / 2, coverBaseY - 10 * easeInOut(t) - (coverImg.height * sc - zoomedSize) / 2, coverImg.width * sc, coverImg.height * sc);
+    ctx.restore();
+
+    ctx.textAlign = "center";
+    const textBaseY = coverBaseY + coverSize + Math.round(30 * fontScale);
+
+    // Album title
+    const albumP = clamp((elapsed - 0.5) / 1, 0, 1);
+    if (albumP > 0) {
+      ctx.globalAlpha = albumP;
+      ctx.font = `bold ${Math.round(36 * fontScale)}px serif`;
+      ctx.fillStyle = "#F5F0E6";
+      const lines = wrapText(ctx, album.title, REEL_W - 60);
+      let y = textBaseY;
+      for (const line of lines) { ctx.fillText(line, REEL_W / 2, y); y += Math.round(42 * fontScale); }
+    }
+
+    // "Loranne"
+    const artistP = clamp((elapsed - 1.5) / 1, 0, 1);
+    if (artistP > 0) {
+      ctx.globalAlpha = artistP;
+      ctx.font = `italic ${Math.round(24 * fontScale)}px serif`;
+      ctx.fillStyle = color;
+      ctx.fillText("L o r a n n e", REEL_W / 2, textBaseY + Math.round(50 * fontScale));
+    }
+
+    // Track listing — one at a time
+    const trackAreaY = textBaseY + Math.round(90 * fontScale);
+    for (let i = 0; i < displayTracks.length; i++) {
+      const showAt = trackShowStart + i * perTrack;
+      const fadeIn = clamp((elapsed - showAt) / 0.5, 0, 1);
+      const fadeOut = clamp((showAt + perTrack - elapsed) / 0.5, 0, 1);
+      const alpha = Math.min(fadeIn, fadeOut);
+      if (alpha <= 0) continue;
+      const slideUp = 15 * (1 - easeInOut(fadeIn));
+      ctx.globalAlpha = alpha;
+      ctx.font = `500 ${Math.round(14 * fontScale)}px sans-serif`;
+      ctx.fillStyle = color + "90";
+      ctx.fillText(`${String(i + 1).padStart(2, "0")}`, REEL_W / 2, trackAreaY + slideUp);
+      ctx.font = `bold ${Math.round(28 * fontScale)}px serif`;
+      ctx.fillStyle = "#F5F0E6";
+      ctx.fillText(displayTracks[i].title, REEL_W / 2, trackAreaY + Math.round(30 * fontScale) + slideUp);
+      if (displayTracks[i].description) {
+        ctx.font = `italic ${Math.round(16 * fontScale)}px serif`;
+        ctx.fillStyle = "#a0a0b0";
+        const dl = wrapText(ctx, displayTracks[i].description, REEL_W - 80);
+        let dy = trackAreaY + Math.round(55 * fontScale) + slideUp;
+        for (const l of dl.slice(0, 2)) { ctx.fillText(l, REEL_W / 2, dy); dy += Math.round(20 * fontScale); }
+      }
+    }
+
+    // Bottom info
+    const brandP = clamp((elapsed - 3) / 1, 0, 1);
+    if (brandP > 0) {
+      ctx.globalAlpha = brandP;
+      const bY = REEL_H - Math.round(70 * fontScale);
+      ctx.font = `500 ${Math.round(14 * fontScale)}px sans-serif`;
+      ctx.fillStyle = "#666680";
+      ctx.fillText(`${tracks.length} faixas`, REEL_W / 2, bY);
+      ctx.font = `400 ${Math.round(14 * fontScale)}px sans-serif`;
+      ctx.fillStyle = "#a0a0b0";
+      ctx.fillText("music.seteveus.space", REEL_W / 2, bY + Math.round(22 * fontScale));
+    }
+
+    // Fade out
+    if (elapsed > DURATION - 2) {
+      ctx.globalAlpha = 1 - clamp((DURATION - elapsed) / 2, 0, 1);
+      ctx.fillStyle = "#0D0D1A";
+      ctx.fillRect(0, 0, REEL_W, REEL_H);
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  // WebCodecs MP4
+  if (typeof VideoEncoder !== "undefined") {
+    try {
+      report("recording", 0, "A gravar reel album (MP4)...");
+      const { Muxer, ArrayBufferTarget } = await import("mp4-muxer");
+      const target = new ArrayBufferTarget();
+      const muxer = new Muxer({ target, video: { codec: "avc", width: REEL_W, height: REEL_H }, audio: { codec: "aac", numberOfChannels: audioBuffer.numberOfChannels, sampleRate: audioBuffer.sampleRate }, fastStart: "in-memory" });
+      const encoder = new VideoEncoder({ output: (chunk, meta) => muxer.addVideoChunk(chunk, meta), error: (e) => console.error(e) });
+      encoder.configure({ codec: REEL_W * REEL_H > 921600 ? "avc1.640028" : "avc1.42001f", width: REEL_W, height: REEL_H, bitrate: REEL_W > 720 ? 4_000_000 : 2_000_000, framerate: FPS });
+
+      const totalFrames = DURATION * FPS;
+      for (let i = 0; i < totalFrames; i++) {
+        drawFrame(i / FPS);
+        const frame = new VideoFrame(canvas, { timestamp: i * (1_000_000 / FPS) });
+        encoder.encode(frame, { keyFrame: i % (FPS * 2) === 0 });
+        frame.close();
+        if (i % FPS === 0) report("recording", i / totalFrames, `A gravar... ${Math.round(i / FPS)}s / ${DURATION}s`);
+      }
+      await encoder.flush();
+      encoder.close();
+
+      report("finalizing", 0.8, "Audio...");
+      const aEnc = new AudioEncoder({ output: (c, m) => muxer.addAudioChunk(c, m), error: () => {} });
+      aEnc.configure({ codec: "mp4a.40.2", numberOfChannels: audioBuffer.numberOfChannels, sampleRate: audioBuffer.sampleRate, bitrate: 128000 });
+      const ch = audioBuffer.numberOfChannels, sr = audioBuffer.sampleRate;
+      const s0 = Math.floor(30 * sr), ns = Math.floor(DURATION * sr);
+      const ad = new Float32Array(ns * ch);
+      for (let c = 0; c < ch; c++) { const cd = audioBuffer.getChannelData(c); for (let i = 0; i < ns; i++) { const s = s0 + i; if (s < cd.length) ad[c * ns + i] = cd[s]; } }
+      for (let o = 0; o < ns; o += sr) {
+        const sz = Math.min(sr, ns - o), pl = new Float32Array(sz * ch);
+        for (let c = 0; c < ch; c++) pl.set(ad.subarray(c * ns + o, c * ns + o + sz), c * sz);
+        const ck = new AudioData({ format: "f32-planar" as AudioSampleFormat, sampleRate: sr, numberOfFrames: sz, numberOfChannels: ch, timestamp: (o / sr) * 1e6, data: pl });
+        aEnc.encode(ck); ck.close();
+      }
+      await aEnc.flush(); aEnc.close(); muxer.finalize();
+      const blob = new Blob([target.buffer], { type: "video/mp4" });
+      try { audioCtx.close(); } catch {}
+      report("done", 1, `Reel album pronto! (${(blob.size / 1024 / 1024).toFixed(1)}MB)`);
+      return blob;
+    } catch (e) { console.warn("WebCodecs album reel failed:", e); }
+  }
+
+  // Fallback MediaRecorder
+  report("recording", 0, "A gravar reel album (WebM)...");
+  const cs = canvas.captureStream(FPS);
+  const bs = audioCtx.createBufferSource(); bs.buffer = audioBuffer;
+  const dest = audioCtx.createMediaStreamDestination(); bs.connect(dest);
+  const ms = new MediaStream([...cs.getVideoTracks(), ...dest.stream.getAudioTracks()]);
+  const rec = new MediaRecorder(ms, { mimeType: getBestMime(), videoBitsPerSecond: 2_000_000 });
+  const cks: Blob[] = []; rec.ondataavailable = (e) => { if (e.data.size > 0) cks.push(e.data); };
+  return new Promise<Blob>((resolve, reject) => {
+    rec.onstop = () => { try { bs.stop(); bs.disconnect(); audioCtx.close(); } catch {} const b = new Blob(cks, { type: "video/mp4" }); if (b.size < 1000) { reject(new Error("Reel vazio")); return; } report("done", 1, `Reel album pronto!`); resolve(b); };
+    rec.onerror = () => { try { bs.stop(); audioCtx.close(); } catch {} reject(new Error("Gravacao falhou.")); };
+    rec.start(500); bs.start(0, 30, DURATION);
+    const t0 = performance.now();
+    const iv = setInterval(() => { const e = (performance.now() - t0) / 1000; if (e >= DURATION) { clearInterval(iv); rec.stop(); return; } report("recording", e / DURATION, `${Math.round(e)}s / ${DURATION}s`); drawFrame(e); }, 1000 / FPS);
+    drawFrame(0);
+  });
+}
