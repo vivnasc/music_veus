@@ -30,13 +30,23 @@ const CALENDAR_START = new Date(2026, 3, 13);
 
 function buildCalendarSlots(): Slot[] {
   const slots: Slot[] = [];
+  // 1. Albums already on Spotify (before the calendar)
+  const calendarSlugs = new Set(
+    PRODUCTION_CALENDAR.flatMap((w) => [w.albums.segunda, w.albums.quarta, w.albums.sexta])
+  );
+  for (const album of ALL_ALBUMS) {
+    if (album.status === "published" && !calendarSlugs.has(album.slug)) {
+      slots.push({ slug: album.slug, status: "publicado" });
+    }
+  }
+  // 2. Calendar slots in order
   for (let wi = 0; wi < PRODUCTION_CALENDAR.length; wi++) {
     const week = PRODUCTION_CALENDAR[wi];
     const slugs = [week.albums.segunda, week.albums.quarta, week.albums.sexta];
     for (const slug of slugs) {
       const album = ALL_ALBUMS.find((a) => a.slug === slug);
-      const status: SlotStatus = album?.status === "produced" ? "pronto"
-        : album?.status === "published" ? "publicado"
+      const status: SlotStatus = album?.status === "published" ? "publicado"
+        : album?.status === "produced" ? "pronto"
         : "a-produzir";
       slots.push({ slug, status });
     }
