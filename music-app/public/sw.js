@@ -77,6 +77,30 @@ self.addEventListener("notificationclick", (event) => {
   );
 });
 
+// ── Periodic Background Sync — check for new releases ──
+self.addEventListener("periodicsync", (event) => {
+  if (event.tag === "check-new-releases") {
+    event.waitUntil(
+      fetch("/api/published-tracks")
+        .then((r) => r.json())
+        .then((data) => {
+          // Pre-cache the home page with fresh data
+          return caches.open(CACHE_NAME).then((cache) => cache.add("/"));
+        })
+        .catch(() => {})
+    );
+  }
+});
+
+// ── Background Sync — retry failed requests when back online ──
+self.addEventListener("sync", (event) => {
+  if (event.tag === "retry-failed") {
+    event.waitUntil(
+      caches.open(CACHE_NAME).then((cache) => cache.add("/"))
+    );
+  }
+});
+
 // ── Fetch handling ──
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);

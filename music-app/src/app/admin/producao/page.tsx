@@ -2676,62 +2676,77 @@ export default function AlbumProductionPage() {
               );
             })()}
 
-            {/* Bulk reel generation */}
+            {/* Album reel + bulk reel generation */}
             <div className="mb-4 flex items-center gap-2 flex-wrap">
               {(["status", "insta"] as const).map((reelType) => (
                 <button
-                  key={reelType}
-                  id={`bulk-reel-${reelType}-${album.slug}`}
+                  key={`album-${reelType}`}
+                  id={`album-reel-${reelType}-${album.slug}`}
                   onClick={async () => {
-                    const btn = document.getElementById(`bulk-reel-${reelType}-${album.slug}`) as HTMLButtonElement;
+                    const btn = document.getElementById(`album-reel-${reelType}-${album.slug}`) as HTMLButtonElement;
                     if (!btn) return;
                     btn.disabled = true;
+                    btn.textContent = "A preparar...";
 
-                    const { generateReel, REEL_SIZE_STATUS, REEL_SIZE_INSTA } = await import("@/lib/reel-generator");
-                    const { getAlbumCover, getTrackCoverUrl } = await import("@/lib/album-covers");
-                    const reelSize = reelType === "insta" ? REEL_SIZE_INSTA : REEL_SIZE_STATUS;
-                    const alb = ALL_ALBUMS.find(a => a.slug === album.slug);
-                    if (!alb) { btn.disabled = false; return; }
-
-                    const tracksWithAudio = alb.tracks.filter(t => t.audioUrl);
-                    let done = 0;
-                    let errors = 0;
-
-                    // Capa do álbum escolhida pelo utilizador (ex: faixa 5 = borboleta)
-                    const albumCoverTrackNum = getCoverTrack(album.slug);
-                    let albumCoverSrc = getAlbumCover(alb);
                     try {
-                      const acUrl = getTrackCoverUrl(album.slug, albumCoverTrackNum);
-                      const acProbe = await fetch(acUrl, { method: "HEAD" });
-                      if (acProbe.ok) albumCoverSrc = acUrl;
-                    } catch {}
+                      const { generateAlbumReel, REEL_SIZE_STATUS, REEL_SIZE_INSTA } = await import("@/lib/reel-generator");
+                      const { getAlbumCover, getTrackCoverUrl } = await import("@/lib/album-covers");
+                      const reelSize = reelType === "insta" ? REEL_SIZE_INSTA : REEL_SIZE_STATUS;
+                      const alb = ALL_ALBUMS.find(a => a.slug === album.slug);
+                      if (!alb) { btn.disabled = false; btn.textContent = "Erro"; return; }
 
-                    for (const t of tracksWithAudio) {
-                      btn.textContent = `${done}/${tracksWithAudio.length}...`;
+                      // Capa do álbum escolhida pelo utilizador (ex: faixa 5 = borboleta)
+                      const albumCoverTrackNum = getCoverTrack(album.slug);
+                      let coverSrc = getAlbumCover(alb);
                       try {
-                        // Usa capa do álbum (escolhida pelo user) em todos os reels
-                        const coverSrc = albumCoverSrc;
+                        const acUrl = getTrackCoverUrl(album.slug, albumCoverTrackNum);
+                        const acProbe = await fetch(acUrl, { method: "HEAD" });
+                        if (acProbe.ok) coverSrc = acUrl;
+                      } catch {}
 
-                        const audioSrc = `/api/music/stream?album=${encodeURIComponent(album.slug)}&track=${t.number}`;
-                        const blob = await generateReel(t, alb, coverSrc, audioSrc, (p) => {
-                          btn.textContent = `${done}/${tracksWithAudio.length} — ${p.message}`;
-                        }, undefined, reelSize);
+                      const tracksWithAudio = alb.tracks.filter(t => audioUrls[trackKey(album.slug, t.number)] || t.audioUrl);
+                      const audioSources = tracksWithAudio.map(t => ({
+                        track: t,
+                        src: `/api/music/stream?album=${encodeURIComponent(album.slug)}&track=${t.number}`,
+                      }));
 
-                        await uploadReelDirect(blob, album.slug, t.number);
-                        setExistingReels((prev) => { const next = new Set(prev); next.add(`${album.slug}-t${t.number}`); return next; });
-                        done++;
-                      } catch {
-                        errors++;
+                      if (audioSources.length === 0) {
+                        btn.textContent = "Sem audio";
+                        btn.disabled = false;
+                        setTimeout(() => { btn.textContent = reelType === "status" ? "Reel Album Status" : "Reel Album Insta"; }, 3000);
+                        return;
                       }
-                    }
 
-                    btn.textContent = `${done} reels${errors ? ` (${errors} erros)` : ""}`;
+                      const blob = await generateAlbumReel(alb, tracksWithAudio, coverSrc, audioSources, (p) => {
+                        btn.textContent = p.message;
+                      }, reelSize);
+
+                      await uploadReelDirect(blob, album.slug, 0);
+                      btn.textContent = "Reel album pronto!";
+
+                      // Show result
+                      const container = document.getElementById(`album-reel-result-${album.slug}`);
+                      if (container) {
+                        container.innerHTML = "";
+                        const vid = document.createElement("video");
+                        vid.src = URL.createObjectURL(blob);
+                        vid.controls = true;
+                        vid.playsInline = true;
+                        vid.muted = true;
+                        vid.style.maxWidth = "240px";
+                        vid.style.borderRadius = "12px";
+                        vid.style.marginTop = "8px";
+                        container.appendChild(vid);
+                      }
+                    } catch (e) {
+                      btn.textContent = `Erro: ${(e as Error).message.slice(0, 40)}`;
+                    }
                     btn.disabled = false;
-                    setTimeout(() => { btn.textContent = reelType === "status" ? "Reels Status" : "Reels Insta"; }, 4000);
+                    setTimeout(() => { btn.textContent = reelType === "status" ? "Reel Album Status" : "Reel Album Insta"; }, 5000);
                   }}
-                  className="rounded-lg bg-violet-900/30 px-3 py-1.5 text-xs text-violet-400 hover:bg-violet-900/50 transition"
+                  className="rounded-lg bg-emerald-900/30 px-3 py-1.5 text-xs text-emerald-400 hover:bg-emerald-900/50 transition"
                 >
-                  {reelType === "status" ? "Reels Status" : "Reels Insta"}
+                  {reelType === "status" ? "Reel Album Status" : "Reel Album Insta"}
                 </button>
               ))}
               {(() => {
@@ -2740,11 +2755,12 @@ export default function AlbumProductionPage() {
                   <span className={`text-[10px] ${reelCount > 0 ? "text-green-400" : "text-mundo-muted"}`}>
                     {reelCount > 0
                       ? `${reelCount}/${album.tracks.length} reels guardados`
-                      : "Gera reels para todas as faixas com audio"}
+                      : "Gera reel de apresentacao do album"}
                   </span>
                 );
               })()}
             </div>
+            <div id={`album-reel-result-${album.slug}`}></div>
 
             <div className="space-y-3">
               {album.tracks.map((track) => {
