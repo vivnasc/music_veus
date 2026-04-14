@@ -7,7 +7,7 @@ import { PRODUCTION_CALENDAR } from "@/data/production-calendar";
 import { adminFetch } from "@/lib/admin-fetch";
 import { pickLorannImages } from "@/lib/loranne-images";
 
-const CALENDAR_STORAGE_KEY = "veus:content-calendar-v5";
+const CALENDAR_STORAGE_KEY = "veus:content-calendar-v6";
 
 type ContentAction = {
   type: "reel" | "carrossel" | "story" | "post" | "partilha" | "capa-animada" | "paisagem" | "reel-capa" | "lora";
@@ -216,9 +216,9 @@ function generateDefaultPlan(): DayPlan[] {
       ];
     }
     return [
-      { type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 2 },
-      { type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug },
-      { type: "lora", label: `Lora / Paisagem — ${title}`, albumSlug: slug, trackNumber: 3 },
+      { type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 2, caption },
+      { type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug, caption },
+      { type: "lora", label: `Lora / Paisagem — ${title}`, albumSlug: slug, trackNumber: 3, caption },
     ];
   }
 
