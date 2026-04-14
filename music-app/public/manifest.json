@@ -38,18 +38,32 @@
   ],
   "screenshots": [
     {
-      "src": "/screenshots/home-narrow.png",
+      "src": "/screenshots/home.png",
       "sizes": "720x1280",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Página inicial — descobre a música de Loranne"
+      "label": "Página inicial — VÉUS by Loranne"
     },
     {
-      "src": "/screenshots/album-narrow.png",
+      "src": "/screenshots/descobre.png",
       "sizes": "720x1280",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Álbum — ouve faixas e lê letras"
+      "label": "Descobre colecções — Espelhos, Nós, Cursos"
+    },
+    {
+      "src": "/screenshots/novidades.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Novidades — álbuns originais"
+    },
+    {
+      "src": "/screenshots/album.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Álbum — ouve faixas, lê letras, partilha"
     }
   ],
   "categories": ["music", "entertainment"],
