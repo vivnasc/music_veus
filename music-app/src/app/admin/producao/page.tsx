@@ -1625,6 +1625,7 @@ export default function AlbumProductionPage() {
   const pollingRef = useRef<Record<string, NodeJS.Timeout>>({});
   const titleSaveRef = useRef<Record<string, NodeJS.Timeout>>({});
   const { getCoverTrack, setCoverTrack } = useAlbumCovers();
+  const [existingReels, setExistingReels] = useState<Set<string>>(new Set());
 
   // Load existing audio status + saved titles on mount
   useEffect(() => {
@@ -1643,6 +1644,9 @@ export default function AlbumProductionPage() {
           }
           setStatuses((s) => ({ ...newStatuses, ...s }));
           setAudioUrls((u) => ({ ...newUrls, ...u }));
+        }
+        if (data.reels) {
+          setExistingReels(new Set(data.reels as string[]));
         }
       })
       .catch(() => {});
@@ -2706,6 +2710,7 @@ export default function AlbumProductionPage() {
                         }, undefined, reelSize);
 
                         await uploadReelDirect(blob, album.slug, t.number);
+                        setExistingReels((prev) => { const next = new Set(prev); next.add(`${album.slug}-t${t.number}`); return next; });
                         done++;
                       } catch {
                         errors++;
@@ -2721,7 +2726,16 @@ export default function AlbumProductionPage() {
                   {reelType === "status" ? "Reels Status" : "Reels Insta"}
                 </button>
               ))}
-              <span className="text-[10px] text-mundo-muted">Gera reels para todas as faixas com audio</span>
+              {(() => {
+                const reelCount = album.tracks.filter(t => existingReels.has(`${album.slug}-t${t.number}`)).length;
+                return (
+                  <span className={`text-[10px] ${reelCount > 0 ? "text-green-400" : "text-mundo-muted"}`}>
+                    {reelCount > 0
+                      ? `${reelCount}/${album.tracks.length} reels guardados`
+                      : "Gera reels para todas as faixas com audio"}
+                  </span>
+                );
+              })()}
             </div>
 
             <div className="space-y-3">
