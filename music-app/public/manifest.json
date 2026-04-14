@@ -6,13 +6,26 @@
   "scope": "/",
   "id": "/",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "background_color": "#0D0D1A",
   "theme_color": "#0D0D1A",
   "orientation": "portrait",
   "lang": "pt",
   "dir": "ltr",
   "iarc_rating_id": "",
+  "handle_links": "preferred",
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "share_target": {
+    "action": "/search",
+    "method": "GET",
+    "params": {
+      "title": "q",
+      "text": "q",
+      "url": "q"
+    }
+  },
   "related_applications": [
     {
       "platform": "play",
