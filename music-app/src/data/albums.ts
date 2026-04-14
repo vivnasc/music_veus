@@ -41,7 +41,7 @@ export type AlbumTrack = {
 // flavor defaults to null if omitted (no flavor modifier)
 // vocalMode defaults to "solo" if omitted
 type TrackDef = Omit<AlbumTrack, "lyrics" | "energy" | "flavor" | "vocalMode"> & { lyrics?: string; energy?: TrackEnergy; flavor?: TrackFlavor | null; vocalMode?: VocalMode };
-type AlbumDef = Omit<Album, "tracks" | "status" | "distribution"> & { tracks: TrackDef[]; status?: AlbumStatus; distribution?: boolean };
+type AlbumDef = Omit<Album, "tracks" | "status" | "distribution" | "distrokidUploadDate"> & { tracks: TrackDef[]; status?: AlbumStatus; distribution?: boolean; distrokidUploadDate?: string | null };
 
 // Lyrics are stored in separate files to keep this file manageable
 import { ESPELHO_LYRICS } from "./lyrics-espelhos";
@@ -92,6 +92,7 @@ export type Album = {
   tracks: AlbumTrack[];
   status: AlbumStatus;
   distribution: boolean;
+  distrokidUploadDate: string | null; // ISO date string, ex: "2026-04-06". launch_date = this + 7 days
 };
 
 // ─────────────────────────────────────────────
@@ -999,35 +1000,35 @@ const PRODUCED_SLUGS = new Set([
   "grao-o-tear", "incenso-salto-bonito",
 ]);
 
-// Exactamente os 65 álbuns que vão para Spotify via DistroKid
-// (extraídos do calendário de 13 semanas + produzidos já lançados)
+// Exactamente os 39 álbuns que vão para Spotify via DistroKid
+// (3 por semana × 13 semanas, conforme production-calendar.ts)
 const DISTRIBUTION_SLUGS = new Set([
-  // Semana 1 — Mulher Inteira
-  "nua-inteira", "nua-por-dentro", "nua-boa", "nua-pele", "nua-so",
-  // Semana 2 — Amor Que Dói
-  "nua-traco", "nua-nao-era-amor", "nua-pequeno-demais", "nua-romance", "nua-carta",
-  // Semana 3 — Maternidade
-  "sangue-mae", "sangue-o-que-nao-nasceu", "sangue-sombra-do-pai", "sangue-ventre", "eter-olhos-de-crianca",
-  // Semana 4 — Raiva & Sombra
-  "incenso-fogo-engolido", "incenso-cinzento", "incenso-pele-exposta", "incenso-espelho-partido", "incenso-ancora",
-  // Semana 5 — Saudade & Perda
-  "eter-fotografia-velha", "incenso-luto", "nua-longe-e-bem", "eter-sala-vazia", "eter-amanha-inventado",
-  // Semana 6 — Diáspora & Raiz
-  "sangue-raiz", "eter-raiz-vermelha", "eter-sangue-antigo", "sangue-linhagem", "sangue-mesmo-sangue",
-  // Semana 7 — Recomeço & Crescimento
-  "grao-segunda-vez", "incenso-raiz-muda", "incenso-teimosa", "incenso-rescaldo", "incenso-maos-abertas",
-  // Semana 8 — Ambição & Trabalho
-  "grao-fome-boa", "grao-moeda", "grao-insonia", "grao-o-tear", "grao-deriva",
-  // Semana 9 — Laços Femininos
-  "sangue-irmas", "nua-duas-vozes", "incenso-diluvio-manso", "incenso-salto-bonito",
-  // Semana 10 — Corpo & Tempo
-  "nua-tempo-no-corpo", "nua-meu", "nua-corpo-a-corpo", "nua-beijo-na-testa", "nua-fogo-lento",
-  // Semana 11 — Alegria & Leveza
-  "grao-ferias", "grao-combustao", "grao-sem-motivo", "mare-viva",
-  // Semana 12 — Casa & Ritmo
-  "grao-primeira-luz", "grao-sal-na-pele", "grao-abrigo", "grao-pao-sal", "mare-lua-acordada",
+  // Semana 1 — Diáspora & Raiz
+  "sangue-raiz", "eter-raiz-vermelha", "sangue-origem",
+  // Semana 2 — Mulher Inteira
+  "nua-inteira", "nua-por-dentro", "nua-boa",
+  // Semana 3 — Mulher Inteira II
+  "nua-pele", "nua-so", "nua-meu",
+  // Semana 4 — Amor Que Dói
+  "nua-traco", "nua-nao-era-amor", "nua-pequeno-demais",
+  // Semana 5 — Amor Que Dói II
+  "nua-romance", "nua-carta", "nua-longe-e-bem",
+  // Semana 6 — Maternidade
+  "sangue-mae", "sangue-o-que-nao-nasceu", "sangue-ventre",
+  // Semana 7 — Raiva & Sombra
+  "incenso-fogo-engolido", "incenso-cinzento", "incenso-pele-exposta",
+  // Semana 8 — Saudade & Perda
+  "eter-fotografia-velha", "incenso-luto", "eter-sala-vazia",
+  // Semana 9 — Recomeço
+  "grao-segunda-vez", "incenso-raiz-muda", "incenso-teimosa",
+  // Semana 10 — Ambição
+  "grao-fome-boa", "grao-moeda", "grao-insonia",
+  // Semana 11 — Corpo & Tempo
+  "nua-tempo-no-corpo", "nua-corpo-a-corpo", "nua-fogo-lento",
+  // Semana 12 — Alegria & Leveza
+  "grao-ferias", "grao-combustao", "mare-viva",
   // Semana 13 — Quietude & Maré
-  "incenso-silencio-fertil", "mare-companhia-propria", "mare-penumbra", "mare-tardes-vazias", "mare-brasa-lenta",
+  "incenso-silencio-fertil", "mare-companhia-propria", "mare-brasa-lenta",
 ]);
 
 // Apply lyrics from separate files to all album tracks
@@ -1037,6 +1038,7 @@ function applyLyrics(albumDef: AlbumDef): Album {
     ...albumDef,
     status: albumDef.status ?? (PRODUCED_SLUGS.has(slug) ? "produced" : "ready"),
     distribution: albumDef.distribution ?? DISTRIBUTION_SLUGS.has(slug),
+    distrokidUploadDate: albumDef.distrokidUploadDate ?? null,
     tracks: albumDef.tracks.map((t) => ({
       ...t,
       energy: t.energy || "whisper",
@@ -2290,6 +2292,19 @@ const NOVO_FERIAS = vidaAlbum("grao-ferias", "Férias", "Parar de ser útil. O c
   { number: 10, title: "Permission", description: "The anthem for everyone who gave themselves permission to stop.", lang: "EN", energy: "anthem", flavor: "gospel-africano", prompt: vidaPrompt("permission to rest — the anthem for everyone who stopped being useful for a week and didn't apologise, rest as revolution", "triumphant rest, permission-to-stop, gospel celebration of pausing", "full gospel choir, driving drums, organ, anthem vocal, rest-as-revolution", "EN", "anthem", "gospel-africano"), durationSeconds: 300 },
 ]);
 
+const NOVO_ORIGEM = vidaAlbum("sangue-origem", "Origem", "Vim daqui. E isso é poder, não ferida.", "#C4745A", [
+  { number: 1, title: "Orgulho", description: "O orgulho de saber de onde vim — sem vergonha.", lang: "PT", energy: "anthem", flavor: "marrabenta", prompt: vidaPrompt("hiding where you come from until the day you stop — saying the name of your country without lowering your voice, carrying history like gold", "triumphant pride, origin as power, marrabenta anthem", "driving marrabenta, anthem vocal, full percussion, pride-celebration energy", "PT", "anthem", "marrabenta"), durationSeconds: 240 },
+  { number: 2, title: "I Come From", description: "Naming where I come from — out loud, without apology.", lang: "EN", energy: "steady", flavor: "afrobeat", prompt: vidaPrompt("warm nights, rain on red earth, women who carried everything — naming origin as the entire architecture of who I am", "steady pride, naming-origin, afrobeat groundedness", "warm afrobeat groove, steady vocal, earthy percussion, origin-naming energy", "EN", "steady", "afrobeat"), durationSeconds: 260 },
+  { number: 3, title: "A Voz da Avó", description: "A língua da avó que ainda vive na boca.", lang: "PT", energy: "whisper", flavor: "bossa", prompt: vidaPrompt("grandmother's language half-learned but body-remembered — a word rising without knowing where from, the voice that stayed in how I laugh and cry", "whispered inheritance, grandmother-voice, bossa tenderness", "soft bossa guitar, whisper vocal, gentle bass, grandmother-intimacy", "PT", "whisper", "bossa"), durationSeconds: 240 },
+  { number: 4, title: "Ancient and New", description: "I am both — the old land and the new city.", lang: "EN", energy: "pulse", flavor: "amapiano", prompt: vidaPrompt("ancient and new at once — continent and concrete, red earth and airport, ritual and ringtone, building your own box", "pulse of duality, expanded identity, amapiano bounce", "driving amapiano groove, log drum, pulse vocal, dual-identity energy", "EN", "pulse", "amapiano"), durationSeconds: 260 },
+  { number: 5, title: "Terra Vermelha, Cidade Cinzenta", description: "Entre a terra que me fez e a cidade que me moldou.", lang: "PT", energy: "raw", flavor: "marrabenta", prompt: vidaPrompt("growing between two worlds — red earth on the feet, grey city in the eyes, not half of each but whole of both", "raw duality, two-worlds honesty, marrabenta intensity", "heavy marrabenta percussion, raw vocal, two-worlds tension, honest bass", "PT", "raw", "marrabenta"), durationSeconds: 240 },
+  { number: 6, title: "The Name They Couldn't Pronounce", description: "My name is not difficult — you just never tried.", lang: "EN", energy: "steady", flavor: "jazz", prompt: vidaPrompt("the nickname they gave because the real name was too hard — generations of survival in one word, reclaiming the full sound", "steady defiance, name-as-power, jazz dignity", "jazz piano, walking bass, steady vocal, name-reclaiming composure", "EN", "steady", "jazz"), durationSeconds: 260 },
+  { number: 7, title: "Herança Que Não Se Divide", description: "A herança que não se dilui — só cresce.", lang: "PT", energy: "steady", flavor: "gospel-africano", prompt: vidaPrompt("inheritance that multiplies with each generation — not the end of the lineage but the middle link, passing it on whole", "steady legacy, generational strength, gospel warmth", "gospel piano, warm choir, steady vocal, inheritance-building dynamics", "PT", "steady", "gospel-africano"), durationSeconds: 240 },
+  { number: 8, title: "Continent", description: "The continent that was always there — before the names they gave it.", lang: "EN", energy: "anthem", flavor: "afrobeat", prompt: vidaPrompt("the continent that taught the world to count, held the first fire — not emerging, never gone, waiting for the world to catch up", "triumphant continent-pride, afrobeat power, anthem energy", "driving afrobeat, massive drums, anthem vocal, continent-celebration", "EN", "anthem", "afrobeat"), durationSeconds: 260 },
+  { number: 9, title: "Não Sou De Lá Nem Sou Daqui", description: "O lugar entre lugares — que é também um lugar.", lang: "PT", energy: "whisper", flavor: "bossa", prompt: vidaPrompt("not from there nor from here — the in-between as its own place, abundance of origin not lack of belonging", "whispered belonging, between-places peace, bossa calm", "soft bossa guitar, whisper vocal, gentle bass, between-places intimacy", "PT", "whisper", "bossa"), durationSeconds: 240 },
+  { number: 10, title: "This Is Where I'm From", description: "O orgulho completo. A origem como celebração.", lang: "EN", energy: "anthem", flavor: "gospel-africano", prompt: vidaPrompt("saying where I'm from without the pause — Mozambique, Africa, the red earth, the Indian Ocean, everything it made me", "triumphant origin-anthem, full celebration, gospel power", "full gospel choir, driving drums, organ, powerful anthem vocal, origin-celebration", "EN", "anthem", "gospel-africano"), durationSeconds: 300 },
+], "sangue");
+
 // ─────────────────────────────────────────────
 // EXPORT
 // ─────────────────────────────────────────────
@@ -2461,6 +2476,7 @@ export const ALL_ALBUMS: Album[] = [
   NOVO_PEQUENO_DEMAIS,
   NOVO_TEMPO_NO_CORPO,
   NOVO_FERIAS,
+  NOVO_ORIGEM,
 ].map(applyLyrics);
 
 // Helpers
@@ -2478,6 +2494,14 @@ export function getAlbumsByVeu(veu: number) {
 
 export function getTotalTracks() {
   return ALL_ALBUMS.reduce((sum, a) => sum + a.tracks.length, 0);
+}
+
+/** Launch date = distrokid upload + 7 days */
+export function getLaunchDate(album: Album): Date | null {
+  if (!album.distrokidUploadDate) return null;
+  const d = new Date(album.distrokidUploadDate);
+  d.setDate(d.getDate() + 7);
+  return d;
 }
 
 // Labels e cores para a energia de cada faixa (usados na UI)

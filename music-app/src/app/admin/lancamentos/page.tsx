@@ -38,7 +38,7 @@ const INITIAL_PUBLISHED: Slot[] = ALL_ALBUMS
 const _producedSlugs = new Set(INITIAL_PUBLISHED.map((s) => s.slug));
 const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] =
   PRODUCTION_CALENDAR.flatMap((week) =>
-    week.albums
+    [week.albums.segunda, week.albums.quarta, week.albums.sexta]
       .filter((slug) => !_producedSlugs.has(slug))
       .map((slug) => {
         const album = ALL_ALBUMS.find((a) => a.slug === slug);
@@ -48,9 +48,7 @@ const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] =
           lyricsOk: album ? album.tracks.every((t) => !!t.lyrics) : false,
         };
       }),
-  )
-  // Deduplicate (album may appear in multiple weeks)
-  .filter((item, idx, arr) => arr.findIndex((i) => i.slug === item.slug) === idx);
+  );
 
 const DEFAULT_SLOTS: Slot[] = [...INITIAL_PUBLISHED];
 
