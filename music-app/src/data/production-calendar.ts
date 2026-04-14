@@ -22,7 +22,7 @@ export const PRODUCTION_CALENDAR: ProductionWeek[] = [
     id: "semana-1",
     theme: "Diáspora & Raiz",
     description: "de onde vim, o que corre nas veias, o orgulho da origem",
-    albums: { segunda: "sangue-raiz", quarta: "eter-raiz-vermelha", sexta: "sangue-origem" },
+    albums: { segunda: "eter-raiz-vermelha", quarta: "sangue-raiz", sexta: "sangue-origem" },
   },
   {
     id: "semana-2",

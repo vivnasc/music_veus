@@ -19,23 +19,47 @@ type Slot = {
 
 type AudioMap = Record<string, Set<number>>;
 
-const STORAGE_KEY = "veus:lancamentos-v4"; // v4: synced with distribution calendar
+const STORAGE_KEY = "veus:lancamentos-v5"; // v5: slots from production calendar
 
 // ─────────────────────────────────────────────
-// Default state (before localStorage)
+// Build slots directly from production calendar
 // ─────────────────────────────────────────────
 
-// Seed: albums already produced/published (dynamic from albums.ts status)
-const INITIAL_PUBLISHED: Slot[] = ALL_ALBUMS
-  .filter((a) => a.status === "produced" || a.status === "published")
-  .map((a) => ({
-    slug: a.slug,
-    status: (a.status === "published" ? "publicado" : "pronto") as SlotStatus,
-  }));
+// Calendar starts 13 April 2026 (Monday)
+const CALENDAR_START = new Date(2026, 3, 13);
 
-// Próximos a produzir — derivado do calendário de distribuição
-// Ordem: semana a semana, apenas álbuns ainda não produzidos
-const _producedSlugs = new Set(INITIAL_PUBLISHED.map((s) => s.slug));
+function buildCalendarSlots(): Slot[] {
+  const slots: Slot[] = [];
+  // 1. Albums already on Spotify (before the calendar)
+  const calendarSlugs = new Set(
+    PRODUCTION_CALENDAR.flatMap((w) => [w.albums.segunda, w.albums.quarta, w.albums.sexta])
+  );
+  for (const album of ALL_ALBUMS) {
+    if (album.status === "published" && !calendarSlugs.has(album.slug)) {
+      slots.push({ slug: album.slug, status: "publicado" });
+    }
+  }
+  // 2. Calendar slots in order
+  for (let wi = 0; wi < PRODUCTION_CALENDAR.length; wi++) {
+    const week = PRODUCTION_CALENDAR[wi];
+    const slugs = [week.albums.segunda, week.albums.quarta, week.albums.sexta];
+    for (const slug of slugs) {
+      const album = ALL_ALBUMS.find((a) => a.slug === slug);
+      const status: SlotStatus = album?.status === "published" ? "publicado"
+        : album?.status === "produced" ? "pronto"
+        : "a-produzir";
+      slots.push({ slug, status });
+    }
+  }
+  return slots;
+}
+
+const DEFAULT_SLOTS: Slot[] = buildCalendarSlots();
+
+// Próximos a produzir (álbuns do calendário que não estão produzidos)
+const _producedSlugs = new Set(
+  ALL_ALBUMS.filter((a) => a.status === "produced" || a.status === "published").map((a) => a.slug)
+);
 const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] =
   PRODUCTION_CALENDAR.flatMap((week) =>
     [week.albums.segunda, week.albums.quarta, week.albums.sexta]
@@ -49,8 +73,6 @@ const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] =
         };
       }),
   );
-
-const DEFAULT_SLOTS: Slot[] = [...INITIAL_PUBLISHED];
 
 // ─────────────────────────────────────────────
 // Helpers
@@ -109,10 +131,10 @@ const STATUS_CONFIG: Record<SlotStatus, { label: string; color: string; bg: stri
 const MONTHS = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 const DAY_LABELS = ["Seg", "Qua", "Sex"];
 
-/** Generate an infinite list of Mon/Wed/Fri dates starting from a given date. */
-function generateSlotDates(startDate: Date, count: number): Date[] {
+/** Generate Mon/Wed/Fri dates starting from CALENDAR_START (13 April 2026). */
+function generateSlotDates(_startDate: Date, count: number): Date[] {
   const dates: Date[] = [];
-  const cur = new Date(startDate);
+  const cur = new Date(CALENDAR_START);
   // Rewind to the Monday of that week or the start date itself
   while (dates.length < count) {
     const dow = cur.getDay();
@@ -225,54 +247,8 @@ export default function LancamentosPage() {
         }
         setAudioMap(map);
 
-        // Merge: auto-add fully produced albums with smart mix, upgrade statuses
+        // Only upgrade statuses — never add/reorder slots (calendar is the source of truth)
         setSlots((prev: Slot[]) => {
-          const existingSlugs = new Set(prev.map((s: Slot) => s.slug));
-
-          // Find fully produced albums not yet scheduled
-          // Check both audio files AND album.status from data
-          const newReady: Album[] = [];
-          for (const album of ALL_ALBUMS) {
-            if (existingSlugs.has(album.slug)) continue;
-            const audioProduced = map[album.slug]?.size || 0;
-            const hasAllAudio = audioProduced >= album.tracks.length && album.tracks.length > 0;
-            const isMarkedProduced = album.status === "produced" || album.status === "published";
-            if (hasAllAudio || isMarkedProduced) {
-              newReady.push(album);
-            }
-          }
-
-          // Smart mix: never 2 from same collection in a row, spread evenly
-          // Group by collection
-          const byCollection: Record<string, Album[]> = {};
-          for (const a of newReady) {
-            if (!byCollection[a.product]) byCollection[a.product] = [];
-            byCollection[a.product].push(a);
-          }
-          // Sort collections by size (largest first) so we spread the biggest ones
-          const collections = Object.keys(byCollection).sort(
-            (a, b) => byCollection[b].length - byCollection[a].length
-          );
-          // Round-robin: pick one from each collection in turn
-          const mixed: Slot[] = [];
-          const cursors: Record<string, number> = {};
-          for (const c of collections) cursors[c] = 0;
-          let placed = 0;
-          const total = newReady.length;
-          while (placed < total) {
-            let placedThisRound = false;
-            for (const c of collections) {
-              if (cursors[c] < byCollection[c].length) {
-                mixed.push({ slug: byCollection[c][cursors[c]].slug, status: "pronto" });
-                cursors[c]++;
-                placed++;
-                placedThisRound = true;
-              }
-            }
-            if (!placedThisRound) break;
-          }
-
-          // Upgrade existing a-produzir/em-producao → pronto if fully produced
           const updated = prev.map((slot: Slot) => {
             if (slot.status === "a-produzir" || slot.status === "em-producao") {
               const album = ALL_ALBUMS.find((a: Album) => a.slug === slot.slug);
@@ -286,17 +262,9 @@ export default function LancamentosPage() {
             }
             return slot;
           });
-
-          if (mixed.length === 0 && JSON.stringify(updated) === JSON.stringify(prev)) return prev;
-
-          // Keep existing order, append new mixed albums at the end
-          const merged = [...updated, ...mixed];
-          try {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(merged));
-          } catch {
-            // ignore
-          }
-          return merged;
+          if (JSON.stringify(updated) === JSON.stringify(prev)) return prev;
+          try { localStorage.setItem(STORAGE_KEY, JSON.stringify(updated)); } catch {}
+          return updated;
         });
 
         setLoading(false);

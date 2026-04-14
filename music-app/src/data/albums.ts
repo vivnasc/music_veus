@@ -993,9 +993,15 @@ const VIDA_PENUMBRA = vidaAlbum("mare-penumbra", "Penumbra", "o limiar, o espaç
 
 
 
-// Álbuns já produzidos (já no Spotify)
+// Álbuns já no Spotify (publicados via DistroKid)
+const PUBLISHED_SLUGS = new Set([
+  "incenso-frequencia", "livro-filosofico", "espelho-ilusao",
+  "fibra-sangue-aceso", "eter-raiz-vermelha",
+]);
+
+// Álbuns com áudio produzido no Suno (prontos para upload no DistroKid)
 const PRODUCED_SLUGS = new Set([
-  "sangue-raiz", "eter-raiz-vermelha", "nua-inteira", "nua-por-dentro",
+  "sangue-raiz", "nua-inteira", "nua-por-dentro",
   "nua-boa", "nua-pele", "nua-duas-vozes", "sangue-mae",
   "grao-o-tear", "incenso-salto-bonito",
 ]);
@@ -1036,7 +1042,7 @@ function applyLyrics(albumDef: AlbumDef): Album {
   const slug = albumDef.slug;
   return {
     ...albumDef,
-    status: albumDef.status ?? (PRODUCED_SLUGS.has(slug) ? "produced" : "ready"),
+    status: albumDef.status ?? (PUBLISHED_SLUGS.has(slug) ? "published" : PRODUCED_SLUGS.has(slug) ? "produced" : "ready"),
     distribution: albumDef.distribution ?? DISTRIBUTION_SLUGS.has(slug),
     distrokidUploadDate: albumDef.distrokidUploadDate ?? null,
     tracks: albumDef.tracks.map((t) => ({
