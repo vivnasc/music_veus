@@ -7,7 +7,7 @@ import { PRODUCTION_CALENDAR } from "@/data/production-calendar";
 import { adminFetch } from "@/lib/admin-fetch";
 import { pickLorannImages } from "@/lib/loranne-images";
 
-const CALENDAR_STORAGE_KEY = "veus:content-calendar-v4";
+const CALENDAR_STORAGE_KEY = "veus:content-calendar-v5";
 
 type ContentAction = {
   type: "reel" | "carrossel" | "story" | "post" | "partilha" | "capa-animada" | "paisagem" | "reel-capa" | "lora";
@@ -227,22 +227,17 @@ function generateDefaultPlan(): DayPlan[] {
     const date = new Date(today);
     date.setDate(date.getDate() + d);
     const iso = date.toISOString().slice(0, 10);
-    const dow = date.getDay();
     let actions: ContentAction[] = [];
 
-    if (dow === 0 || dow === 6) {
-      // Sáb/Dom — vazio (utilizador regista retrospectivo)
-      actions = [];
+    const launchSlug = launchMap[iso];
+    if (launchSlug) {
+      // Dia de lançamento
+      actions = build3Posts(launchSlug, iso);
     } else {
-      const launchSlug = launchMap[iso];
-      if (launchSlug) {
-        // Dia de lançamento
-        actions = build3Posts(launchSlug, iso);
-      } else {
-        // Dia útil sem lançamento — usar álbum mais recente lançado
-        const slug = mostRecentLaunchBefore(iso);
-        if (slug) actions = build3Posts(slug, iso);
-      }
+      // Qualquer outro dia — álbum mais recente lançado (inclui dia seguinte ao lançamento,
+      // Sáb/Dom retrospectivos, etc.)
+      const slug = mostRecentLaunchBefore(iso);
+      if (slug) actions = build3Posts(slug, iso);
     }
 
     plan.push({ date: iso, actions });
