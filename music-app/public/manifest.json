@@ -6,11 +6,21 @@
   "scope": "/",
   "id": "/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "background_color": "#0D0D1A",
   "theme_color": "#0D0D1A",
   "orientation": "portrait",
   "lang": "pt",
   "dir": "ltr",
+  "iarc_rating_id": "",
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "space.seteveus.music",
+      "url": "https://play.google.com/store/apps/details?id=space.seteveus.music"
+    }
+  ],
+  "prefer_related_applications": true,
   "icons": [
     {
       "src": "/veus_music-favicon.svg",
@@ -64,10 +74,16 @@
       "type": "image/jpeg",
       "form_factor": "narrow",
       "label": "Álbum — ouve faixas, lê letras, partilha"
+    },
+    {
+      "src": "/screenshots/screenshot%203.jpeg",
+      "sizes": "738x1600",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "VÉUS — versão desktop"
     }
   ],
   "categories": ["music", "entertainment"],
-  "prefer_related_applications": false,
   "shortcuts": [
     {
       "name": "Biblioteca",
