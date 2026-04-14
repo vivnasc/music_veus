@@ -1600,7 +1600,7 @@ function TrackRow({
 
 export default function AlbumProductionPage() {
   const [filter, setFilter] = useState("all");
-  const [viewMode, setViewMode] = useState<"producao" | "letras" | "calendario">("producao");
+  const [viewMode, setViewMode] = useState<"producao" | "calendario">("producao");
   const [selectedAlbum, setSelectedAlbum] = useState<string | null>(null);
   const [statuses, setStatuses] = useState<Record<string, TrackStatus>>({});
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -2283,77 +2283,11 @@ export default function AlbumProductionPage() {
               </select>
             </div>
 
-            {/* Persona selector */}
-            <div className="shrink-0 flex items-center gap-2">
-              <label className="text-[10px] uppercase tracking-wider text-mundo-muted">Persona</label>
-              <input
-                type="text"
-                value={personaId}
-                onChange={(e) => setPersonaId(e.target.value)}
-                placeholder="Sem persona"
-                className="rounded-lg border border-mundo-muted-dark/30 bg-mundo-bg px-3 py-1.5 text-xs text-mundo-creme focus:border-violet-500 focus:outline-none w-32"
-              />
-              {personaId && (
-                <button
-                  onClick={() => { setPersonaId(""); setPersonaName(""); }}
-                  className="text-[10px] text-red-400 hover:text-red-300"
-                >
-                  Limpar
-                </button>
-              )}
-              {personaName && (
-                <span className="text-[10px] text-green-400">{personaName}</span>
-              )}
-              {creatingPersona && (
-                <span className="text-[10px] text-amber-400 animate-pulse">A criar persona...</span>
-              )}
-              {personaResult && (
-                <span className="text-[10px] text-amber-300">{personaResult}</span>
-              )}
-            </div>
-
-            {/* Cleanup button */}
-            {/* Rename folder button */}
-            <button
-              onClick={async () => {
-                const from = prompt("Pasta de origem (ex: albums/cosmic-romance):");
-                if (!from) return;
-                const to = prompt("Pasta destino (ex: albums/romance-pele):");
-                if (!to) return;
-                if (!confirm(`Renomear "${from}" → "${to}"? Isto move todos os ficheiros.`)) return;
-                try {
-                  const res = await adminFetch("/api/admin/rename-folder", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ from, to }),
-                  });
-                  const data = await res.json();
-                  if (data.ok) {
-                    alert(`Renomeado! ${data.results?.length || 0} ficheiros movidos.\n${(data.results || []).join("\n")}`);
-                  } else {
-                    alert(`Erro: ${data.erro || "Falhou"}`);
-                  }
-                } catch (e) {
-                  alert(`Erro: ${e}`);
-                }
-              }}
-              className="shrink-0 whitespace-nowrap rounded-lg bg-amber-900/30 px-4 py-2.5 text-xs text-amber-400 hover:bg-amber-900/50 transition"
-            >
-              Renomear pasta
-            </button>
-
             <Link
               href="/admin/shorts"
               className="shrink-0 whitespace-nowrap rounded-lg bg-violet-900/30 px-4 py-2.5 text-xs min-h-[44px] text-violet-400 hover:bg-violet-900/50 transition flex items-center"
             >
               Shorts
-            </Link>
-
-            <Link
-              href="/admin/calendario"
-              className="shrink-0 whitespace-nowrap rounded-lg bg-blue-900/30 px-4 py-2.5 text-xs min-h-[44px] text-blue-400 hover:bg-blue-900/50 transition flex items-center"
-            >
-              Calendario
             </Link>
 
             <Link
@@ -2364,39 +2298,24 @@ export default function AlbumProductionPage() {
             </Link>
 
             <Link
-              href="/admin/fotos"
-              className="shrink-0 whitespace-nowrap rounded-lg bg-pink-900/30 px-4 py-2.5 text-xs min-h-[44px] text-pink-400 hover:bg-pink-900/50 transition flex items-center"
+              href="/admin/calendario"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-blue-900/30 px-4 py-2.5 text-xs min-h-[44px] text-blue-400 hover:bg-blue-900/50 transition flex items-center"
             >
-              Gerar Fotos
+              Redes Sociais
             </Link>
 
-            <button
-              onClick={async () => {
-                const title = prompt("Titulo da notificacao:", "Nova musica");
-                if (!title) return;
-                const body = prompt("Mensagem:", "Loranne lancou musica nova. Vem ouvir.");
-                if (!body) return;
-                const url = prompt("Link (ex: /album/espelho-ilusao):", "/");
-                const res = await adminFetch("/api/admin/push-notify", {
-                  method: "POST",
-                  headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ title, body, url: url || "/" }),
-                });
-                const data = await res.json();
-                if (data.ok) alert(`Enviado a ${data.sent} subscritores (${data.failed} falharam)`);
-                else alert(data.erro || "Erro");
-              }}
-              className="shrink-0 whitespace-nowrap rounded-lg bg-blue-900/30 px-4 py-2.5 text-xs text-blue-400 hover:bg-blue-900/50 transition"
-            >
-              Push notificacao
-            </button>
-
-            {/* LoRA Training */}
             <Link
               href="/admin/lora"
               className="shrink-0 whitespace-nowrap rounded-lg bg-fuchsia-900/30 px-4 py-2.5 text-xs text-fuchsia-400 hover:bg-fuchsia-900/50 transition flex items-center min-h-[44px]"
             >
-              Treinar LoRA Loranne
+              LoRA Loranne
+            </Link>
+
+            <Link
+              href="/admin/fotos"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-pink-900/30 px-4 py-2.5 text-xs min-h-[44px] text-pink-400 hover:bg-pink-900/50 transition flex items-center"
+            >
+              Gerar Fotos
             </Link>
 
             <div className="shrink-0 flex gap-1 rounded-full bg-mundo-muted-dark/10 p-1">
@@ -2408,17 +2327,7 @@ export default function AlbumProductionPage() {
                     : "text-mundo-muted hover:text-mundo-creme"
                 }`}
               >
-                Produção
-              </button>
-              <button
-                onClick={() => setViewMode("letras")}
-                className={`rounded-full px-4 py-2 text-xs font-sans uppercase tracking-wider transition-colors ${
-                  viewMode === "letras"
-                    ? "bg-mundo-bg text-mundo-creme shadow-sm"
-                    : "text-mundo-muted hover:text-mundo-creme"
-                }`}
-              >
-                Letras
+                Colecções
               </button>
               <button
                 onClick={() => setViewMode("calendario")}
@@ -2428,74 +2337,11 @@ export default function AlbumProductionPage() {
                     : "text-mundo-muted hover:text-mundo-creme"
                 }`}
               >
-                Calendário
+                Calendário Temático
               </button>
             </div>
           </div>
         </div>
-
-        {/* Lyrics view */}
-        {viewMode === "letras" && (
-          <div className="space-y-8">
-            <div className="rounded-xl border border-mundo-muted-dark/30 bg-mundo-bg-light p-6">
-              <p className="text-sm text-mundo-muted">
-                Revisa todas as letras antes de gastar créditos.
-              </p>
-            </div>
-            {albums.map((a) => (
-              <div key={a.slug} className="rounded-xl border border-mundo-muted-dark/30 bg-mundo-bg-light overflow-hidden">
-                <div className="border-b border-mundo-muted-dark/20 p-4 flex items-center gap-3">
-                  <div className="h-3 w-3 rounded-full" style={{ background: a.color }} />
-                  <h3 className="font-display text-lg text-mundo-creme">{a.title}</h3>
-                  <span className="rounded bg-mundo-muted-dark/10 px-2 py-0.5 text-[0.6rem] uppercase tracking-wider text-mundo-muted">
-                    {a.product}
-                  </span>
-                  <span className="text-xs text-green-400 ml-auto">
-                    {a.tracks.filter(t => t.lyrics).length}/{a.tracks.length} letras
-                  </span>
-                </div>
-                <div className="divide-y divide-mundo-muted-dark/10">
-                  {a.tracks.map((t) => (
-                    <div key={t.number} className="p-4">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className="font-mono text-xs text-mundo-muted/50">{String(t.number).padStart(2, "0")}</span>
-                        <span className="font-medium text-mundo-creme">{t.title}</span>
-                        <span className={`rounded px-1.5 py-0.5 text-[10px] font-bold uppercase ${t.lang === "PT" ? "bg-mundo-muted-dark/15 text-mundo-muted" : "bg-violet-900/30 text-violet-400"}`}>{t.lang}</span>
-                        {t.energy && (
-                          <span className={`rounded px-1.5 py-0.5 text-[10px] font-bold uppercase ${ENERGY_LABELS[t.energy].color}`}>
-                            {ENERGY_LABELS[t.energy].emoji} {ENERGY_LABELS[t.energy].label}
-                          </span>
-                        )}
-                        {t.flavor && t.flavor !== "organic" && (
-                          <span className={`rounded px-1.5 py-0.5 text-[10px] font-bold uppercase ${FLAVOR_LABELS[t.flavor].color}`}>
-                            {FLAVOR_LABELS[t.flavor].emoji} {FLAVOR_LABELS[t.flavor].label}
-                          </span>
-                        )}
-                      </div>
-                      <p className="text-xs text-mundo-muted/60 mb-2">{t.description}</p>
-                      {t.lyrics ? (
-                        <div>
-                          <div className="flex items-center gap-2 mb-1">
-                            <CopyButton text={t.lyrics} label="Copiar letra" />
-                            <CopyButton text={t.prompt} label="Copiar prompt" />
-                          </div>
-                          <pre className="whitespace-pre-wrap rounded bg-mundo-bg/50 p-4 font-mono text-xs text-mundo-muted/80 leading-relaxed max-h-80 overflow-y-auto">
-                            {t.lyrics}
-                          </pre>
-                        </div>
-                      ) : (
-                        <div className="flex items-center gap-3">
-                          <p className="text-xs text-mundo-muted/40 italic">Letra ainda não escrita.</p>
-                          <CopyButton text={t.prompt} label="Copiar prompt" />
-                        </div>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
 
         {/* Calendar view */}
         {viewMode === "calendario" && <CalendarView />}
