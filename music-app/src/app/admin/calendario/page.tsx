@@ -7,7 +7,7 @@ import { PRODUCTION_CALENDAR } from "@/data/production-calendar";
 import { adminFetch } from "@/lib/admin-fetch";
 import { pickLorannImages } from "@/lib/loranne-images";
 
-const CALENDAR_STORAGE_KEY = "veus:content-calendar-v3";
+const CALENDAR_STORAGE_KEY = "veus:content-calendar-v4";
 
 type ContentAction = {
   type: "reel" | "carrossel" | "story" | "post" | "partilha" | "capa-animada" | "paisagem" | "reel-capa" | "lora";
@@ -166,18 +166,17 @@ const THEME_HASHTAGS: Record<string, string> = {
   "Quietude & Maré": "#silencio #paz #mare #natureza",
 };
 
-/** Generate social media plan starting from TODAY, using each album's distrokidUploadDate.
- *  Launch date = distrokidUploadDate + 7 days.
- *  Launch days (Seg/Qua/Sex with a launch): 3 posts (capa animada, paisagem, reel)
- *  Non-launch Seg/Qua/Sex + Ter/Qui: 3 posts (paisagem, reel, lora)
- *  Sáb/Dom: 1 post (paisagem)
+/** Generate social media plan starting from TODAY.
+ *  - Launch day (date when album goes live on Spotify = distrokidUploadDate + 7): 3 posts
+ *  - Day after launch: 3 posts for the same album (still new)
+ *  - Other weekdays without launch: 3 posts for the most recent launched album
+ *  - Sáb/Dom: vazio (utilizador regista retrospectivo manualmente)
  */
 function generateDefaultPlan(): DayPlan[] {
-  // Start today (14 April 2026) — 60 days of content
-  const today = new Date(2026, 3, 14);
+  const today = new Date(2026, 3, 14); // 14 April 2026 (today)
   const DAYS = 60;
 
-  // Build map: launch date ISO → album slug
+  // Map: launch date ISO → album slug
   const launchMap: Record<string, string> = {};
   for (const a of ALL_ALBUMS) {
     if (!a.distrokidUploadDate) continue;
@@ -188,59 +187,61 @@ function generateDefaultPlan(): DayPlan[] {
     launchMap[iso] = a.slug;
   }
 
-  // Most recent launch before/at date — used for non-launch days
   const sortedLaunches = Object.entries(launchMap).sort((a, b) => a[0].localeCompare(b[0]));
-  function recentLaunch(iso: string): string | null {
+  function mostRecentLaunchBefore(iso: string): string | null {
     let last: string | null = null;
     for (const [ld, slug] of sortedLaunches) {
       if (ld <= iso) last = slug;
       else break;
     }
-    return last || (ALL_ALBUMS.find((a) => a.status === "published")?.slug ?? null);
+    // Fallback: Frequência (the first published album)
+    return last || "incenso-frequencia";
   }
-  function nextLaunch(iso: string): string | null {
-    for (const [ld, slug] of sortedLaunches) if (ld > iso) return slug;
-    return null;
+
+  function build3Posts(slug: string, iso: string): ContentAction[] {
+    const title = getAlbumTitle(slug);
+    const verse = pickVerse(slug, 1);
+    const theme = PRODUCTION_CALENDAR.find((w) =>
+      [w.albums.segunda, w.albums.quarta, w.albums.sexta].includes(slug)
+    )?.theme;
+    const hashtags = (theme && THEME_HASHTAGS[theme]) || "";
+    const launchToday = launchMap[iso] === slug;
+    const caption = `${verse ? `"${verse}"\n\n` : ""}${title} — ${launchToday ? "fora agora." : "no Spotify."}\nmusic.seteveus.space\n\n#loranne #${slug} #musicaportuguesa #veus ${hashtags}`.trim();
+
+    if (launchToday) {
+      return [
+        { type: "capa-animada", label: `Capa animada — ${title}`, albumSlug: slug, caption },
+        { type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 1, caption },
+        { type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug, caption },
+      ];
+    }
+    return [
+      { type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 2 },
+      { type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug },
+      { type: "lora", label: `Lora / Paisagem — ${title}`, albumSlug: slug, trackNumber: 3 },
+    ];
   }
 
   const plan: DayPlan[] = [];
-
   for (let d = 0; d < DAYS; d++) {
     const date = new Date(today);
     date.setDate(date.getDate() + d);
     const iso = date.toISOString().slice(0, 10);
-    const dow = date.getDay(); // 0=dom, 1=seg, 2=ter, 3=qua, 4=qui, 5=sex, 6=sab
-    const actions: ContentAction[] = [];
+    const dow = date.getDay();
+    let actions: ContentAction[] = [];
 
-    const launchSlug = launchMap[iso];
-
-    if (launchSlug) {
-      // Launch day — 3 posts for this album
-      const album = ALL_ALBUMS.find((a) => a.slug === launchSlug);
-      const title = getAlbumTitle(launchSlug);
-      const verse = pickVerse(launchSlug, 1);
-      const theme = PRODUCTION_CALENDAR.find((w) =>
-        [w.albums.segunda, w.albums.quarta, w.albums.sexta].includes(launchSlug)
-      )?.theme;
-      const hashtags = (theme && THEME_HASHTAGS[theme]) || "";
-      const caption = `${verse ? `"${verse}"\n\n` : ""}${title} — fora agora.\nmusic.seteveus.space\n\n#loranne #${launchSlug} #musicaportuguesa #veus ${hashtags}`.trim();
-      actions.push({ type: "capa-animada", label: `Capa animada — ${title}`, albumSlug: launchSlug, caption });
-      actions.push({ type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: launchSlug, trackNumber: 1, caption });
-      actions.push({ type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: launchSlug, caption });
-    } else if (dow === 0 || dow === 6) {
-      // Sáb/Dom — presença mínima (1 post)
-      const slug = recentLaunch(iso);
-      if (slug) {
-        actions.push({ type: "paisagem", label: `Paisagem — ${getAlbumTitle(slug)}`, albumSlug: slug, trackNumber: 4 });
-      }
+    if (dow === 0 || dow === 6) {
+      // Sáb/Dom — vazio (utilizador regista retrospectivo)
+      actions = [];
     } else {
-      // Weekday without launch — 3 posts (paisagem + reel-capa + lora/paisagem)
-      const slug = recentLaunch(iso) || nextLaunch(iso);
-      if (slug) {
-        const title = getAlbumTitle(slug);
-        actions.push({ type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 2 });
-        actions.push({ type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug });
-        actions.push({ type: "lora", label: `Lora / Paisagem — ${title}`, albumSlug: slug, trackNumber: 3 });
+      const launchSlug = launchMap[iso];
+      if (launchSlug) {
+        // Dia de lançamento
+        actions = build3Posts(launchSlug, iso);
+      } else {
+        // Dia útil sem lançamento — usar álbum mais recente lançado
+        const slug = mostRecentLaunchBefore(iso);
+        if (slug) actions = build3Posts(slug, iso);
       }
     }
 

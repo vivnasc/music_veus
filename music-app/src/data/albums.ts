@@ -1002,11 +1002,11 @@ const PUBLISHED_SLUGS = new Set([
 // Datas de upload no DistroKid (launch date = upload + 7 dias)
 // Estas datas alimentam a agenda de Redes Sociais
 const DISTROKID_UPLOAD_DATES: Record<string, string> = {
+  "incenso-frequencia": "2026-03-25",   // launched 1 Abr
+  // (livro-filosofico sem data específica — é o primeiro do catálogo)
   "espelho-ilusao": "2026-04-08",       // launches 15 Abr
   "fibra-sangue-aceso": "2026-04-10",   // launches 17 Abr
   "eter-raiz-vermelha": "2026-04-13",   // launches 20 Abr
-  // Calendar week 1 (upload seg/qua/sex starting 13 Abr)
-  // "eter-raiz-vermelha" já listado acima
   "sangue-raiz": "2026-04-15",          // launches 22 Abr
   "sangue-origem": "2026-04-17",        // launches 24 Abr
 };
