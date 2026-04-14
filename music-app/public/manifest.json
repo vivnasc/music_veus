@@ -6,7 +6,7 @@
   "scope": "/",
   "id": "/",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "display_override": ["window-controls-overlay", "tabbed", "standalone", "minimal-ui"],
   "background_color": "#0D0D1A",
   "theme_color": "#0D0D1A",
   "orientation": "portrait",
@@ -14,9 +14,31 @@
   "dir": "ltr",
   "iarc_rating_id": "",
   "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
   "edge_side_panel": {
     "preferred_width": 400
   },
+  "scope_extensions": [
+    { "origin": "https://seteveus.space" }
+  ],
+  "file_handlers": [
+    {
+      "action": "/library",
+      "accept": {
+        "audio/mpeg": [".mp3"],
+        "audio/wav": [".wav"],
+        "audio/flac": [".flac"]
+      }
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+music",
+      "url": "/search?q=%s"
+    }
+  ],
   "share_target": {
     "action": "/search",
     "method": "GET",
