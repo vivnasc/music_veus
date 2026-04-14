@@ -3,13 +3,14 @@
 import { useState, useEffect, useCallback, type ChangeEvent } from "react";
 import Link from "next/link";
 import { ALL_ALBUMS } from "@/data/albums";
+import { PRODUCTION_CALENDAR } from "@/data/production-calendar";
 import { adminFetch } from "@/lib/admin-fetch";
 import { pickLorannImages } from "@/lib/loranne-images";
 
-const CALENDAR_STORAGE_KEY = "veus:content-calendar-plan";
+const CALENDAR_STORAGE_KEY = "veus:content-calendar-v2";
 
 type ContentAction = {
-  type: "reel" | "carrossel" | "story" | "post" | "partilha";
+  type: "reel" | "carrossel" | "story" | "post" | "partilha" | "capa-animada" | "paisagem" | "reel-capa" | "lora";
   label: string;
   trackNumber?: number;
   albumSlug: string;
@@ -148,107 +149,106 @@ async function overlayTextOnImage(bgUrl: string, caption: string): Promise<strin
   return canvas.toDataURL("image/png");
 }
 
-const DEFAULT_PLAN: DayPlan[] = [
-  // ── SEMANA 1: Lançamento "Os Sete Temas do Despertar" ──
-  { date: "2026-04-01", actions: [
-    { type: "reel", label: "Reel — O Convite", albumSlug: "livro-filosofico", trackNumber: 1, caption: '"Há uma porta que não se vê\nno centro exacto do teu peito"\n\nO Convite — Loranne\nmusic.seteveus.space\n\n#loranne #veus #oconvite #ouve' },
-  ]},
-  { date: "2026-04-02", actions: [
-    { type: "carrossel", label: "Carrossel — Os Sete Temas do Despertar", albumSlug: "livro-filosofico", caption: "os sete temas do despertar.\n9 faixas.\n\n1. o convite\n2. the impermanence of you\n3. a cadeira vazia\n4. the whirlwind\n5. a plenitude que já está\n6. the fertile dark\n7. o horizonte\n8. the reunion\n9. o reflexo final\n\nantes de qualquer álbum houve um livro.\nnão como projecto. como travessia.\n\nos 7 véus não foram escritos.\nforam atravessados.\n\ncada faixa não ensina. expõe.\nnão aponta. desnuda.\nnão constrói nada novo. retira.\n\naté ficar só o que não precisa de ser segurado.\n\nmusic.seteveus.space\n\n#loranne #veus #ouve" },
-  ]},
-  { date: "2026-04-03", actions: [
-    { type: "reel", label: "Reel — A Cadeira Vazia", albumSlug: "livro-filosofico", trackNumber: 3, caption: '"A memória é uma sala escura\ncom cadeiras viradas para trás\nSentas-te e olhas o que já foi\ncomo se pudesses mudar o que já não faz"\n\nA Cadeira Vazia — Loranne\nmusic.seteveus.space\n\n#loranne #veus #memória #passado' },
-  ]},
-  { date: "2026-04-04", actions: [
-    { type: "reel", label: "Reel — The Fertile Dark", albumSlug: "livro-filosofico", trackNumber: 6, caption: '"Let the emptiness be full\nof all the things you cannot name\nThe fertile dark will hold your roots\nuntil you bloom without the shame"\n\nThe Fertile Dark — Loranne\nmusic.seteveus.space\n\n#loranne #veus #thefertiledark #bloom' },
-  ]},
-  { date: "2026-04-05", actions: [
-    { type: "reel", label: "Reel — A Plenitude que Já Está", albumSlug: "livro-filosofico", trackNumber: 5, caption: '"Pára — não há nada a conquistar\nA plenitude não é uma meta\nEstá aqui, no exacto lugar\nonde largaste a bicicleta"\n\nA Plenitude que Já Está — Loranne\nmusic.seteveus.space\n\n#loranne #veus #plenitude #parar' },
-  ]},
-  { date: "2026-04-06", actions: [
-    { type: "post", label: "Post — sobre o álbum", albumSlug: "livro-filosofico", caption: "este álbum não nasceu de inspiração.\nnasceu de ruptura.\n\nruptura com a ideia de permanência.\ncom a necessidade de entender.\ncom a urgência de me resolver.\n\nhá uma cadeira onde fiquei sentada tempo demais\na olhar para o que já tinha passado\ncomo se ainda pudesse mudar.\n\ne houve um momento em que levantei.\n\nnão porque estava pronta.\nmas porque ficar já não era possível.\n\nno fim não há versão melhor.\nnão há resposta final.\n\nhá só isto:\num reflexo que já não distorce.\ne a estranheza de perceber\nque sempre fui eu.\n\n9 faixas. português e inglês.\n\nmusic.seteveus.space\n\n#loranne #veus #ouve" },
-  ]},
+// ─── Hashtags por tema (guidelines) ─────────
+const THEME_HASHTAGS: Record<string, string> = {
+  "Diáspora & Raiz": "#diaspora #africa #mocambique #raiz #identidade",
+  "Mulher Inteira": "#mulher #feminino #autocuidado #sermulher",
+  "Mulher Inteira II": "#mulher #feminino #autocuidado #sermulher",
+  "Amor Que Dói": "#amor #relacoes #emocoes #coracao",
+  "Amor Que Dói II": "#amor #relacoes #emocoes #coracao",
+  "Maternidade": "#maternidade #mae #familia",
+  "Raiva & Sombra": "#emocoes #saudementaln #crescimento",
+  "Saudade & Perda": "#amor #saudade #perda #emocoes",
+  "Recomeço": "#recomeço #crescimento #forca",
+  "Ambição": "#ambicao #mulheres #trabalho #sucesso",
+  "Corpo & Tempo": "#corpo #autoamor #envelhecer",
+  "Alegria & Leveza": "#alegria #leveza #ferias #sol",
+  "Quietude & Maré": "#silencio #paz #mare #natureza",
+};
 
-  // ── SEMANA 2: Lançamento Ilusão + Viagem + Saudade ──
-  { date: "2026-04-07", actions: [
-    { type: "reel", label: "Reel — Vertigem (Vasto)", albumSlug: "eter-vasto", trackNumber: 1, caption: '"Olhei para cima e o chão fugiu\nO céu não tem fundo e eu também não\nA vertigem de existir\né a mesma de cair — sem chão"\n\nVertigem — Loranne\nVasto\nmusic.seteveus.space\n\n#loranne #veus #vasto #vertigem #céu' },
-  ]},
-  { date: "2026-04-08", actions: [
-    { type: "carrossel", label: "Lançamento — Ilusão (Espelhos)", albumSlug: "espelho-ilusao", caption: "Ilusão.\n10 faixas sobre as máscaras que vestimos.\n\n\"Roda, roda, roda sem parar\nQuem é esta mulher que vive no meu lugar\"\n\nO segundo álbum da Loranne já está em todas as plataformas.\nPõe nos phones e fecha os olhos.\n\nmusic.seteveus.space\n\n#loranne #veus #ilusão #espelhos #novoalbum #ouve" },
-    { type: "reel", label: "Reel — A Roda (Ilusão)", albumSlug: "espelho-ilusao", trackNumber: 1, caption: '"Roda, roda, roda sem parar\nQuem é esta mulher que vive no meu lugar\nRoda, roda, roda sem sentir\nHá alguém cá dentro a pedir pra sair"\n\nA Roda — Loranne\nIlusão\nmusic.seteveus.space\n\n#loranne #veus #aroda #automático #ouve' },
-  ]},
-  { date: "2026-04-09", actions: [
-    { type: "reel", label: "Reel — The Impermanence of You", albumSlug: "livro-filosofico", trackNumber: 2, caption: '"Nothing stays — nothing was meant to stay\nThe self you grip is made of rain\nLet the permanence dissolve like morning\nand find what lives beneath the pain"\n\nThe Impermanence of You — Loranne\nmusic.seteveus.space\n\n#loranne #veus #impermanence #letgo' },
-    { type: "reel", label: "Reel — O teu lado da cama (Saudade)", albumSlug: "nua-saudade", trackNumber: 1, caption: '"O teu lado da cama está frio\nA marca do teu corpo desapareceu\nMas eu deito-me do meu lado\nComo se o teu ainda existisse"\n\nSaudade — Loranne\nmusic.seteveus.space\n\n#loranne #veus #saudade #falta #amor' },
-  ]},
-  { date: "2026-04-10", actions: [
-    { type: "carrossel", label: "Carrossel — Viagem", albumSlug: "eter-viagem", caption: "viagem.\n10 faixas.\n\nàs vezes é no meio da repetição.\nquando o corpo já não negocia.\noutras é no descanso.\nquando percebo que parar também é força.\n\n\"home is not a place\nhome is a frequency I recognise\nwhen the noise stops\nand the body softens\"\n\neste álbum não foi feito.\nfoi atravessado.\n\nentre o impulso de provar\ne o momento em que já não preciso.\n\nmusic.seteveus.space\n\n#loranne #veus #viagem #ouve" },
-  ]},
-  { date: "2026-04-11", actions: [
-    { type: "reel", label: "Reel — Sangue Aceso", albumSlug: "fibra-sangue-aceso", trackNumber: 1, caption: '"O primeiro passo dói\nO segundo já não pára\nO corpo acorda e depois\nJá não precisa de cara"\n\nSangue Aceso — Loranne\nmusic.seteveus.space\n\n#loranne #veus #sangueaceso #corpo #acordar' },
-  ]},
-  { date: "2026-04-12", actions: [
-    { type: "reel", label: "Reel — The Body Keeps the Tale", albumSlug: "espelho-ilusao", trackNumber: 5, caption: '"Oh, the body keeps the tale\nWritten underneath the skin\nEvery scar\'s a letter sent\nFrom the girl I\'ve always been"\n\nThe Body Keeps the Tale — Loranne\nmusic.seteveus.space\n\n#loranne #veus #body #skin #memória' },
-  ]},
-  { date: "2026-04-13", actions: [
-    { type: "reel", label: "Reel — Rendição (domingo)", albumSlug: "mare-rendicao", trackNumber: 5, caption: '"O corpo fica mais pesado\nQue o colchão que o segura\nOs braços são de chumbo dourado\nA gravidade é uma ternura"\n\nRendição — Loranne\nmusic.seteveus.space\n\n#loranne #veus #rendição #descanso #domingo' },
-  ]},
+/** Generate social media plan from production calendar + guidelines.
+ *  Launch date = calendar start + weekIdx * 7 + 7 (DistroKid delay).
+ *  Seg/Qua/Sex = launch days (3 posts each)
+ *  Ter/Qui = no launch (3 posts)
+ *  Sáb/Dom = minimal (1 post)
+ */
+function generateDefaultPlan(): DayPlan[] {
+  const calendarStart = new Date(2026, 3, 13); // 13 April 2026
+  const plan: DayPlan[] = [];
 
-  // ── SEMANA 3: Pele + Frequência + Duas Vozes + Estações ──
-  { date: "2026-04-14", actions: [
-    { type: "reel", label: "Reel — Frequência", albumSlug: "incenso-frequencia", trackNumber: 1, caption: '"São sete da manhã e a cabeça já começou\nAntes do corpo sair da cama\nJá o dia inteiro passou\nDez ideias a falar ao mesmo tempo"\n\nFrequência — Loranne\nmusic.seteveus.space\n\n#loranne #veus #frequência #cabeça #neurodivergente' },
-  ]},
-  { date: "2026-04-15", actions: [
-    { type: "post", label: "Post — sobre Duas Vozes", albumSlug: "nua-duas-vozes", caption: "às vezes é quando recebo algo\ne não tento pagar de volta.\nsó deixo ficar.\n\no amor não está no que digo.\nestá no que faço sem pensar.\n\nno prato que já está quente quando chego.\nno silêncio que não precisa de nada.\nna forma como despes o dia\ne eu não preciso de perguntar como foi.\n\nnão escrevo sobre amor.\nescrevo quando ele aparece.\n\n10 faixas.\n\nmusic.seteveus.space\n\n#loranne #veus #duasvozes #ouve" },
-  ]},
-  { date: "2026-04-16", actions: [
-    { type: "reel", label: "Reel — Sinal", albumSlug: "eter-sinal", trackNumber: 1, caption: '"O arrepio veio do nada\nNinguém tocou, ninguém falou\nEstava na fila do supermercado\nE o corpo inteiro arrepiou"\n\nSinal — Loranne\nmusic.seteveus.space\n\n#loranne #veus #sinal #arrepio #corpo' },
-  ]},
-  { date: "2026-04-17", actions: [
-    { type: "carrossel", label: "Carrossel — Pele", albumSlug: "nua-pele", caption: "pele.\n10 faixas.\n\na música acontece aí.\nnão como ideia.\nmas como consequência.\n\ncomo algo que aparece\nquando eu deixo de interferir.\n\n\"apaixonei-me pelo teu cansaço\npela forma como despes o dia\npelo suspiro entre a porta e o sofá\npela tua falta de energia\"\n\nnão escrevo para resolver.\nnem para melhorar o que sinto.\nescrevo quando já não há nada para fazer\na não ser ficar.\n\nmusic.seteveus.space\n\n#loranne #veus #pele #ouve" },
-  ]},
-  { date: "2026-04-18", actions: [
-    { type: "reel", label: "Reel — Ressurreição (Estações)", albumSlug: "grao-estacoes", trackNumber: 1, caption: '"Houve um tempo em que fiquei deitada\ndentro de mim mesma, pedra sobre pedra\nO corpo pesado como terra molhada\no peito fechado como quem não medra"\n\nEstações — Loranne\nmusic.seteveus.space\n\n#loranne #veus #estações #renascer #primavera' },
-  ]},
-  { date: "2026-04-19", actions: [
-    { type: "reel", label: "Reel — Máscara (Frequência)", albumSlug: "incenso-frequencia", trackNumber: 3, caption: '"De manhã visto a máscara\nQue sorri na hora certa\nQue fala no tom certo\nQue parece estar desperta\nAntes mesmo de sair\nJá ensaiei quem vou ser"\n\nFrequência — Loranne\nmusic.seteveus.space\n\n#loranne #veus #frequência #máscara #neurodivergente' },
-  ]},
-  { date: "2026-04-20", actions: [
-    { type: "reel", label: "Reel — Honestidade Quieta (domingo)", albumSlug: "espelho-ilusao", trackNumber: 6, caption: '"Não preciso de ser mais\nNão preciso de mudar\nSó preciso deste instante\nQuieto como o fundo do mar"\n\nHonestidade Quieta — Loranne\nmusic.seteveus.space\n\n#loranne #veus #honestidade #calma #domingo' },
-  ]},
+  for (let wi = 0; wi < PRODUCTION_CALENDAR.length; wi++) {
+    const week = PRODUCTION_CALENDAR[wi];
+    const uploadMonday = new Date(calendarStart);
+    uploadMonday.setDate(uploadMonday.getDate() + wi * 7);
+    // Launch = upload + 7 days
+    const launchMonday = new Date(uploadMonday);
+    launchMonday.setDate(launchMonday.getDate() + 7);
 
-  // ── SEMANA 4: Herança + Culpa + O Círculo + fecho ──
-  { date: "2026-04-21", actions: [
-    { type: "reel", label: "Reel — A Mãe Que Viu", albumSlug: "no-heranca", trackNumber: 1, caption: '"A mãe que viu guardou a chuva inteira\nCoseu o céu para não te molhar\nPorque dizer era partir-te em dois pedaços\nE eu preferi calar a te partir ao luar"\n\nA Mãe Que Viu — Loranne\nmusic.seteveus.space\n\n#loranne #veus #mãe #silêncio' },
-  ]},
-  { date: "2026-04-22", actions: [
-    { type: "post", label: "Post — sobre mães", albumSlug: "no-heranca", caption: "entre o peso que não mente\ne as histórias que eu contava para não sentir.\n\nesta canção nasceu aí.\nno espaço entre o que a minha mãe disse\ne o que ela guardou.\n\nno silêncio depois de dizer algo\nque evitei durante anos.\nno corpo que ainda está quente\nmas já não tem palavras.\n\n\"years I held the rain inside my chest\nI wore the silence like a wedding dress\"\n\nnão é terapia.\nmas muda coisas.\nnão é um método.\nmas transforma na mesma.\n\nmusic.seteveus.space\n\n#loranne #veus #herança #ouve" },
-  ]},
-  { date: "2026-04-23", actions: [
-    { type: "reel", label: "Reel — Permission", albumSlug: "espelho-culpa", trackNumber: 5, caption: '"But the birds don\'t earn the morning\nAnd the river doesn\'t pay for rain\nThe wildflower grows without permission\nAnd still the sun comes back again"\n\nPermission — Loranne\nmusic.seteveus.space\n\n#loranne #veus #permission #liberdade' },
-  ]},
-  { date: "2026-04-24", actions: [
-    { type: "reel", label: "Reel — O Círculo", albumSlug: "incenso-o-circulo", trackNumber: 1, caption: '"Quando acabam as palavras todas\nE o silêncio fica só\nHá qualquer coisa ainda acesa\nQue não sabe dizer adeus"\n\nO Círculo — Loranne\nmusic.seteveus.space\n\n#loranne #veus #ocírculo #silêncio' },
-  ]},
-  { date: "2026-04-25", actions: [
-    { type: "reel", label: "Reel — Herança das avós", albumSlug: "espelho-culpa", trackNumber: 4, caption: '"A minha avó lavava roupa no rio\nCom as mãos rachadas e o ventre cheio\nNunca disse quero, nunca disse eu\nMorreu com os sonhos ainda no seio"\n\nHerança — Loranne\nmusic.seteveus.space\n\n#loranne #veus #herança #avós #mulheres' },
-  ]},
-  { date: "2026-04-26", actions: [
-    { type: "reel", label: "Reel — Desatar", albumSlug: "no-heranca", trackNumber: 5, caption: '"Desatar não é destruir o que era nosso\nDesatar é dar ao fio espaço e ar\nO nó que nos unia era o mesmo nó\nQue nos impedia de nos encontrar"\n\nDesatar — Loranne\nmusic.seteveus.space\n\n#loranne #veus #desatar #liberdade' },
-  ]},
-  { date: "2026-04-27", actions: [
-    { type: "reel", label: "Reel — Luz Crua (domingo manhã)", albumSlug: "grao-luz-crua", trackNumber: 1, caption: '"Antes de abrir os olhos\nO mundo já existe lá fora\nOs pássaros cantam seus orgulhos\nMas eu fico mais uma hora"\n\nLuz Crua — Loranne\nmusic.seteveus.space\n\n#loranne #veus #luzcrua #manhã #domingo' },
-  ]},
-  { date: "2026-04-28", actions: [
-    { type: "reel", label: "Reel — Devagar (Espelho do Medo)", albumSlug: "espelho-medo", trackNumber: 7, caption: '"Devagar como a lua sobe\nDevagar como a maré vem\nDevagar como a ferida fecha\nDevagar como quem quer bem"\n\nDevagar — Loranne\nmusic.seteveus.space\n\n#loranne #veus #devagar #calma' },
-  ]},
-  { date: "2026-04-29", actions: [
-    { type: "post", label: "Post — Ilusão 3 semanas depois", albumSlug: "espelho-ilusao", caption: "no intervalo entre dois dias iguais.\nno meio de um set.\nno momento em que já estava a fazer tudo certo.\n\ne de repente\njá não estou a pensar.\nestou só ali.\n\n\"roda, roda, roda sem parar\nquem é esta mulher que vive no meu lugar\"\n\na música não veio como ideia.\nveio como consequência.\n\nalgo que apareceu\nquando eu deixei de interferir.\n\nsem corrigir.\nsem provar.\nsem sair.\n\nsó ali.\n\nmusic.seteveus.space\n\n#loranne #veus #aroda #ouve" },
-  ]},
-  { date: "2026-04-30", actions: [
-    { type: "reel", label: "Reel — O Reflexo Final", albumSlug: "livro-filosofico", trackNumber: 9, caption: '"Olha devagar, sem pressa\nO reflexo já não mente\nÉs tu — sempre foste tu\no princípio e o presente"\n\nO Reflexo Final — Loranne\nmusic.seteveus.space\n\n#loranne #veus #reflexo #verdade' },
-  ]},
-];
+    const hashtags = THEME_HASHTAGS[week.theme] || "";
+    const slugs = { seg: week.albums.segunda, qua: week.albums.quarta, sex: week.albums.sexta };
+
+    for (let d = 0; d < 7; d++) {
+      const date = new Date(launchMonday);
+      date.setDate(date.getDate() + d);
+      const iso = date.toISOString().slice(0, 10);
+      const dow = date.getDay(); // 0=dom, 1=seg, ..., 6=sab
+
+      const actions: ContentAction[] = [];
+
+      if (dow === 1) {
+        // Segunda — lançamento slugs.seg
+        const slug = slugs.seg;
+        const title = getAlbumTitle(slug);
+        const verse = pickVerse(slug, 1);
+        actions.push({ type: "capa-animada", label: `Capa animada — ${title}`, albumSlug: slug, caption: `${verse ? `"${verse}"\n\n` : ""}${title} — fora agora.\nmusic.seteveus.space\n\n#loranne #${slug} #musicaportuguesa #veus ${hashtags}` });
+        actions.push({ type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 1 });
+        actions.push({ type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug });
+      } else if (dow === 3) {
+        // Quarta — lançamento slugs.qua
+        const slug = slugs.qua;
+        const title = getAlbumTitle(slug);
+        const verse = pickVerse(slug, 1);
+        actions.push({ type: "capa-animada", label: `Capa animada — ${title}`, albumSlug: slug, caption: `${verse ? `"${verse}"\n\n` : ""}${title} — fora agora.\nmusic.seteveus.space\n\n#loranne #${slug} #musicaportuguesa #veus ${hashtags}` });
+        actions.push({ type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 1 });
+        actions.push({ type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug });
+      } else if (dow === 5) {
+        // Sexta — lançamento slugs.sex
+        const slug = slugs.sex;
+        const title = getAlbumTitle(slug);
+        const verse = pickVerse(slug, 1);
+        actions.push({ type: "capa-animada", label: `Capa animada — ${title}`, albumSlug: slug, caption: `${verse ? `"${verse}"\n\n` : ""}${title} — fora agora.\nmusic.seteveus.space\n\n#loranne #${slug} #musicaportuguesa #veus ${hashtags}` });
+        actions.push({ type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 1 });
+        actions.push({ type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug });
+      } else if (dow === 2) {
+        // Terça — sem lançamento
+        const slug = slugs.seg; // usar álbum de segunda
+        const title = getAlbumTitle(slug);
+        actions.push({ type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 2 });
+        actions.push({ type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug });
+        actions.push({ type: "lora", label: `Lora / Paisagem — ${title}`, albumSlug: slug, trackNumber: 3 });
+      } else if (dow === 4) {
+        // Quinta — sem lançamento
+        const slug = slugs.qua; // usar álbum de quarta
+        const title = getAlbumTitle(slug);
+        actions.push({ type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 2 });
+        actions.push({ type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug });
+        actions.push({ type: "lora", label: `Lora / Paisagem — ${title}`, albumSlug: slug, trackNumber: 3 });
+      } else {
+        // Sáb/Dom — presença mínima
+        const slug = slugs.seg;
+        actions.push({ type: "paisagem", label: `Paisagem — ${getAlbumTitle(slug)}`, albumSlug: slug, trackNumber: 4 });
+      }
+
+      plan.push({ date: iso, actions });
+    }
+  }
+  return plan;
+}
+
+const DEFAULT_PLAN: DayPlan[] = generateDefaultPlan();
+
+// (plano antigo removido — agora gerado automaticamente a partir do calendário de produção)
+// Dados antigos ficam em localStorage "veus:content-calendar-plan" (v1) se o user quiser consultar
 
 const TYPE_COLORS: Record<string, string> = {
   reel: "bg-violet-600/20 text-violet-400 border-violet-500/30",
@@ -256,6 +256,10 @@ const TYPE_COLORS: Record<string, string> = {
   story: "bg-amber-600/20 text-amber-400 border-amber-500/30",
   post: "bg-blue-600/20 text-blue-400 border-blue-500/30",
   partilha: "bg-green-600/20 text-green-400 border-green-500/30",
+  "capa-animada": "bg-red-600/20 text-red-400 border-red-500/30",
+  paisagem: "bg-cyan-600/20 text-cyan-400 border-cyan-500/30",
+  "reel-capa": "bg-violet-600/20 text-violet-400 border-violet-500/30",
+  lora: "bg-fuchsia-600/20 text-fuchsia-400 border-fuchsia-500/30",
 };
 
 const TYPE_LABELS: Record<string, string> = {
@@ -264,6 +268,10 @@ const TYPE_LABELS: Record<string, string> = {
   story: "Story",
   post: "Post",
   partilha: "Partilha",
+  "capa-animada": "Capa Animada",
+  paisagem: "Paisagem",
+  "reel-capa": "Reel Capa",
+  lora: "Lora",
 };
 
 function formatDate(iso: string): string {
