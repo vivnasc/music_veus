@@ -752,6 +752,7 @@ function TrackRow({
   editedFlavor,
   onFlavorChange,
   isAlbumCover,
+  albumCoverTrackNum,
   onSetAlbumCover,
   editedPrompt,
   onPromptChange,
@@ -788,6 +789,7 @@ function TrackRow({
   editedFlavor: TrackFlavor | null;
   onFlavorChange: (flavor: TrackFlavor) => void;
   isAlbumCover: boolean;
+  albumCoverTrackNum: number;
   onSetAlbumCover: () => void;
   editedPrompt: string | null;
   onPromptChange: (prompt: string) => void;
@@ -1433,11 +1435,12 @@ function TrackRow({
                 const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
                 if (!alb) throw new Error("Album não encontrado");
 
+                // Usa capa do álbum (faixa escolhida pelo user, ex: faixa 5 = borboleta)
                 let coverSrc = getAlbumCover(alb);
                 try {
-                  const trackCoverUrl = getTrackCoverUrl(albumSlug, track.number);
-                  const probe = await fetch(trackCoverUrl, { method: "HEAD" });
-                  if (probe.ok) coverSrc = trackCoverUrl;
+                  const albumCoverUrl = getTrackCoverUrl(albumSlug, albumCoverTrackNum);
+                  const probe = await fetch(albumCoverUrl, { method: "HEAD" });
+                  if (probe.ok) coverSrc = albumCoverUrl;
                 } catch {}
 
                 const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${track.number}`;
@@ -2694,15 +2697,20 @@ export default function AlbumProductionPage() {
                     let done = 0;
                     let errors = 0;
 
+                    // Capa do álbum escolhida pelo utilizador (ex: faixa 5 = borboleta)
+                    const albumCoverTrackNum = getCoverTrack(album.slug);
+                    let albumCoverSrc = getAlbumCover(alb);
+                    try {
+                      const acUrl = getTrackCoverUrl(album.slug, albumCoverTrackNum);
+                      const acProbe = await fetch(acUrl, { method: "HEAD" });
+                      if (acProbe.ok) albumCoverSrc = acUrl;
+                    } catch {}
+
                     for (const t of tracksWithAudio) {
                       btn.textContent = `${done}/${tracksWithAudio.length}...`;
                       try {
-                        let coverSrc = getAlbumCover(alb);
-                        try {
-                          const tcUrl = getTrackCoverUrl(album.slug, t.number);
-                          const probe = await fetch(tcUrl, { method: "HEAD" });
-                          if (probe.ok) coverSrc = tcUrl;
-                        } catch {}
+                        // Usa capa do álbum (escolhida pelo user) em todos os reels
+                        const coverSrc = albumCoverSrc;
 
                         const audioSrc = `/api/music/stream?album=${encodeURIComponent(album.slug)}&track=${t.number}`;
                         const blob = await generateReel(t, alb, coverSrc, audioSrc, (p) => {
@@ -2825,6 +2833,7 @@ export default function AlbumProductionPage() {
                     editedFlavor={editedFlavors[key] || null}
                     onFlavorChange={(flavor) => setEditedFlavors((f) => ({ ...f, [key]: flavor }))}
                     isAlbumCover={getCoverTrack(album.slug) === track.number}
+                    albumCoverTrackNum={getCoverTrack(album.slug)}
                     onSetAlbumCover={async () => {
                       const ok = await setCoverTrack(album.slug, track.number);
                       if (ok) alert(`Capa do álbum → faixa ${track.number}`);
