@@ -2722,6 +2722,7 @@ export default function AlbumProductionPage() {
                       }, reelSize);
 
                       await uploadReelDirect(blob, album.slug, 0);
+                      setExistingReels((prev) => { const next = new Set(prev); next.add(`${album.slug}-t0`); return next; });
                       btn.textContent = "Reel album pronto!";
 
                       // Show result
@@ -2750,12 +2751,14 @@ export default function AlbumProductionPage() {
                 </button>
               ))}
               {(() => {
-                const reelCount = album.tracks.filter(t => existingReels.has(`${album.slug}-t${t.number}`)).length;
+                const trackReelCount = album.tracks.filter(t => existingReels.has(`${album.slug}-t${t.number}`)).length;
+                const albumReelExists = existingReels.has(`${album.slug}-t0`);
+                const parts: string[] = [];
+                if (albumReelExists) parts.push("reel álbum guardado");
+                if (trackReelCount > 0) parts.push(`${trackReelCount}/${album.tracks.length} reels faixas`);
                 return (
-                  <span className={`text-[10px] ${reelCount > 0 ? "text-green-400" : "text-mundo-muted"}`}>
-                    {reelCount > 0
-                      ? `${reelCount}/${album.tracks.length} reels guardados`
-                      : "Gera reel de apresentacao do album"}
+                  <span className={`text-[10px] ${parts.length > 0 ? "text-green-400" : "text-mundo-muted"}`}>
+                    {parts.length > 0 ? parts.join(" · ") : "Gera reel de apresentacao do album"}
                   </span>
                 );
               })()}
