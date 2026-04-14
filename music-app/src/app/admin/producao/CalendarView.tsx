@@ -203,7 +203,7 @@ export default function CalendarView() {
             onClick={() => markAlbumProduced(album.slug)}
             className="w-full rounded-xl bg-green-800/30 px-6 py-4 text-sm font-medium text-green-400 hover:bg-green-800/50 transition"
           >
-            Marcar álbum como produzido
+            Álbum concluído
           </button>
         )}
       </div>

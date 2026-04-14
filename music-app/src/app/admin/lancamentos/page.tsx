@@ -19,7 +19,7 @@ type Slot = {
 
 type AudioMap = Record<string, Set<number>>;
 
-const STORAGE_KEY = "veus:lancamentos-v3"; // v3: dynamic published status
+const STORAGE_KEY = "veus:lancamentos-v4"; // v4: synced with distribution calendar
 
 // ─────────────────────────────────────────────
 // Default state (before localStorage)
