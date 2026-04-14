@@ -38,30 +38,30 @@
   ],
   "screenshots": [
     {
-      "src": "/screenshots/home.png",
-      "sizes": "720x1280",
-      "type": "image/png",
+      "src": "/screenshots/screenshot%201.jpeg",
+      "sizes": "738x1600",
+      "type": "image/jpeg",
       "form_factor": "narrow",
-      "label": "Página inicial — VÉUS by Loranne"
+      "label": "Novidades — álbuns originais de Loranne"
     },
     {
-      "src": "/screenshots/descobre.png",
-      "sizes": "720x1280",
-      "type": "image/png",
+      "src": "/screenshots/screenshot%202.jpeg",
+      "sizes": "738x1600",
+      "type": "image/jpeg",
       "form_factor": "narrow",
       "label": "Descobre colecções — Espelhos, Nós, Cursos"
     },
     {
-      "src": "/screenshots/novidades.png",
-      "sizes": "720x1280",
-      "type": "image/png",
+      "src": "/screenshots/screenshot%203.jpeg",
+      "sizes": "738x1600",
+      "type": "image/jpeg",
       "form_factor": "narrow",
-      "label": "Novidades — álbuns originais"
+      "label": "Página inicial — VÉUS by Loranne"
     },
     {
-      "src": "/screenshots/album.png",
-      "sizes": "720x1280",
-      "type": "image/png",
+      "src": "/screenshots/screenshot%204.jpeg",
+      "sizes": "738x1600",
+      "type": "image/jpeg",
       "form_factor": "narrow",
       "label": "Álbum — ouve faixas, lê letras, partilha"
     }
