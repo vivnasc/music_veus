@@ -999,6 +999,18 @@ const PUBLISHED_SLUGS = new Set([
   "fibra-sangue-aceso", "eter-raiz-vermelha",
 ]);
 
+// Datas de upload no DistroKid (launch date = upload + 7 dias)
+// Estas datas alimentam a agenda de Redes Sociais
+const DISTROKID_UPLOAD_DATES: Record<string, string> = {
+  "espelho-ilusao": "2026-04-08",       // launches 15 Abr
+  "fibra-sangue-aceso": "2026-04-10",   // launches 17 Abr
+  "eter-raiz-vermelha": "2026-04-13",   // launches 20 Abr
+  // Calendar week 1 (upload seg/qua/sex starting 13 Abr)
+  // "eter-raiz-vermelha" já listado acima
+  "sangue-raiz": "2026-04-15",          // launches 22 Abr
+  "sangue-origem": "2026-04-17",        // launches 24 Abr
+};
+
 // Álbuns com áudio produzido no Suno (prontos para upload no DistroKid)
 const PRODUCED_SLUGS = new Set([
   "sangue-raiz", "nua-inteira", "nua-por-dentro",
@@ -1044,7 +1056,7 @@ function applyLyrics(albumDef: AlbumDef): Album {
     ...albumDef,
     status: albumDef.status ?? (PUBLISHED_SLUGS.has(slug) ? "published" : PRODUCED_SLUGS.has(slug) ? "produced" : "ready"),
     distribution: albumDef.distribution ?? DISTRIBUTION_SLUGS.has(slug),
-    distrokidUploadDate: albumDef.distrokidUploadDate ?? null,
+    distrokidUploadDate: albumDef.distrokidUploadDate ?? DISTROKID_UPLOAD_DATES[slug] ?? null,
     tracks: albumDef.tracks.map((t) => ({
       ...t,
       energy: t.energy || "whisper",
