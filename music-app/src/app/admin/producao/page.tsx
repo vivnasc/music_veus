@@ -752,6 +752,7 @@ function TrackRow({
   editedFlavor,
   onFlavorChange,
   isAlbumCover,
+  albumCoverTrackNum,
   onSetAlbumCover,
   editedPrompt,
   onPromptChange,
@@ -788,6 +789,7 @@ function TrackRow({
   editedFlavor: TrackFlavor | null;
   onFlavorChange: (flavor: TrackFlavor) => void;
   isAlbumCover: boolean;
+  albumCoverTrackNum: number;
   onSetAlbumCover: () => void;
   editedPrompt: string | null;
   onPromptChange: (prompt: string) => void;
@@ -1433,11 +1435,12 @@ function TrackRow({
                 const alb = ALL_ALBUMS.find(a => a.slug === albumSlug);
                 if (!alb) throw new Error("Album não encontrado");
 
+                // Usa capa do álbum (faixa escolhida pelo user, ex: faixa 5 = borboleta)
                 let coverSrc = getAlbumCover(alb);
                 try {
-                  const trackCoverUrl = getTrackCoverUrl(albumSlug, track.number);
-                  const probe = await fetch(trackCoverUrl, { method: "HEAD" });
-                  if (probe.ok) coverSrc = trackCoverUrl;
+                  const albumCoverUrl = getTrackCoverUrl(albumSlug, albumCoverTrackNum);
+                  const probe = await fetch(albumCoverUrl, { method: "HEAD" });
+                  if (probe.ok) coverSrc = albumCoverUrl;
                 } catch {}
 
                 const audioSrc = `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${track.number}`;
@@ -1625,6 +1628,7 @@ export default function AlbumProductionPage() {
   const pollingRef = useRef<Record<string, NodeJS.Timeout>>({});
   const titleSaveRef = useRef<Record<string, NodeJS.Timeout>>({});
   const { getCoverTrack, setCoverTrack } = useAlbumCovers();
+  const [existingReels, setExistingReels] = useState<Set<string>>(new Set());
 
   // Load existing audio status + saved titles on mount
   useEffect(() => {
@@ -1643,6 +1647,9 @@ export default function AlbumProductionPage() {
           }
           setStatuses((s) => ({ ...newStatuses, ...s }));
           setAudioUrls((u) => ({ ...newUrls, ...u }));
+        }
+        if (data.reels) {
+          setExistingReels(new Set(data.reels as string[]));
         }
       })
       .catch(() => {});
@@ -2683,12 +2690,20 @@ export default function AlbumProductionPage() {
 
                     try {
                       const { generateAlbumReel, REEL_SIZE_STATUS, REEL_SIZE_INSTA } = await import("@/lib/reel-generator");
-                      const { getAlbumCover } = await import("@/lib/album-covers");
+                      const { getAlbumCover, getTrackCoverUrl } = await import("@/lib/album-covers");
                       const reelSize = reelType === "insta" ? REEL_SIZE_INSTA : REEL_SIZE_STATUS;
                       const alb = ALL_ALBUMS.find(a => a.slug === album.slug);
                       if (!alb) { btn.disabled = false; btn.textContent = "Erro"; return; }
 
-                      const coverSrc = getAlbumCover(alb);
+                      // Capa do álbum escolhida pelo utilizador (ex: faixa 5 = borboleta)
+                      const albumCoverTrackNum = getCoverTrack(album.slug);
+                      let coverSrc = getAlbumCover(alb);
+                      try {
+                        const acUrl = getTrackCoverUrl(album.slug, albumCoverTrackNum);
+                        const acProbe = await fetch(acUrl, { method: "HEAD" });
+                        if (acProbe.ok) coverSrc = acUrl;
+                      } catch {}
+
                       const tracksWithAudio = alb.tracks.filter(t => audioUrls[trackKey(album.slug, t.number)] || t.audioUrl);
                       const audioSources = tracksWithAudio.map(t => ({
                         track: t,
@@ -2734,7 +2749,16 @@ export default function AlbumProductionPage() {
                   {reelType === "status" ? "Reel Album Status" : "Reel Album Insta"}
                 </button>
               ))}
-              <span className="text-[10px] text-mundo-muted">Gera reel de apresentacao do album</span>
+              {(() => {
+                const reelCount = album.tracks.filter(t => existingReels.has(`${album.slug}-t${t.number}`)).length;
+                return (
+                  <span className={`text-[10px] ${reelCount > 0 ? "text-green-400" : "text-mundo-muted"}`}>
+                    {reelCount > 0
+                      ? `${reelCount}/${album.tracks.length} reels guardados`
+                      : "Gera reel de apresentacao do album"}
+                  </span>
+                );
+              })()}
             </div>
             <div id={`album-reel-result-${album.slug}`}></div>
 
@@ -2825,6 +2849,7 @@ export default function AlbumProductionPage() {
                     editedFlavor={editedFlavors[key] || null}
                     onFlavorChange={(flavor) => setEditedFlavors((f) => ({ ...f, [key]: flavor }))}
                     isAlbumCover={getCoverTrack(album.slug) === track.number}
+                    albumCoverTrackNum={getCoverTrack(album.slug)}
                     onSetAlbumCover={async () => {
                       const ok = await setCoverTrack(album.slug, track.number);
                       if (ok) alert(`Capa do álbum → faixa ${track.number}`);

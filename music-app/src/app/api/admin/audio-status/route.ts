@@ -25,6 +25,7 @@ export async function GET(req: NextRequest) {
 
   const existing: string[] = [];
   const versions: string[] = [];
+  const reels: string[] = [];
 
   // For each album folder, list files
   for (const folder of folders || []) {
@@ -41,6 +42,13 @@ export async function GET(req: NextRequest) {
         existing.push(`${folder.name}-t${trackNum}`);
         continue;
       }
+      // faixa-01-reel.mp4 / .webm → reel
+      const reelMatch = file.name.match(/^faixa-(\d+)-reel\.(mp4|webm)$/);
+      if (reelMatch) {
+        const trackNum = parseInt(reelMatch[1], 10);
+        reels.push(`${folder.name}-t${trackNum}`);
+        continue;
+      }
       // faixa-01-suno-v1.mp3 → version
       const versionMatch = file.name.match(/^faixa-(\d+)-(.+)\.mp3$/);
       if (versionMatch) {
@@ -50,5 +58,5 @@ export async function GET(req: NextRequest) {
     }
   }
 
-  return NextResponse.json({ existing, versions });
+  return NextResponse.json({ existing, versions, reels });
 }
