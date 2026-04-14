@@ -1,0 +1,10 @@
+Keep this file and signing.keystore in a safe place. You'll need these files if you want to upload future versions of your PWA to the Google Play Store.
+
+Key store file: signing.keystore
+Key store password: QPO1MZLTky_3
+Key alias: veus
+Key password: QPO1MZLTky_3
+Signer's full name: Véus Admin
+Signer's organization: Véus by Loranne
+Signer's organizational unit: Engineering
+Signer's country code: MZ
