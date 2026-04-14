@@ -999,26 +999,36 @@ const PRODUCED_SLUGS = new Set([
   "grao-o-tear", "incenso-salto-bonito",
 ]);
 
-// Álbuns internos (não entram no pipeline de distribuição DistroKid)
-const INTERNAL_SLUGS = new Set([
-  // Incenso internos
-  "incenso-correnteza", "incenso-travessia", "incenso-limiar", "incenso-ressonancia",
-  "incenso-o-gesto", "incenso-folego", "incenso-demora", "incenso-humus",
-  "incenso-corpo-celeste", "incenso-o-que-resta", "incenso-norte-interno",
-  "incenso-nevoeiro", "incenso-maos-juntas", "incenso-oferenda",
-  // Éter internos
-  "eter", "eter-orbita", "eter-poeira", "eter-porto", "eter-olhos-arregalados", "eter-oceano",
-  // Grão internos
-  "grao-porta-aberta", "grao-primeiro-passo", "grao-passo-pequeno",
-  "grao-toalha-posta", "grao-terra-molhada", "grao-ecra",
+// Exactamente os 65 álbuns que vão para Spotify via DistroKid
+// (extraídos do calendário de 13 semanas + produzidos já lançados)
+const DISTRIBUTION_SLUGS = new Set([
+  // Semana 1 — Mulher Inteira
+  "nua-inteira", "nua-por-dentro", "nua-boa", "nua-pele", "nua-so",
+  // Semana 2 — Amor Que Dói
+  "nua-traco", "nua-nao-era-amor", "nua-pequeno-demais", "nua-romance", "nua-carta",
+  // Semana 3 — Maternidade
+  "sangue-mae", "sangue-o-que-nao-nasceu", "sangue-sombra-do-pai", "sangue-ventre", "eter-olhos-de-crianca",
+  // Semana 4 — Raiva & Sombra
+  "incenso-fogo-engolido", "incenso-cinzento", "incenso-pele-exposta", "incenso-espelho-partido", "incenso-ancora",
+  // Semana 5 — Saudade & Perda
+  "eter-fotografia-velha", "incenso-luto", "nua-longe-e-bem", "eter-sala-vazia", "eter-amanha-inventado",
+  // Semana 6 — Diáspora & Raiz
+  "sangue-raiz", "eter-raiz-vermelha", "eter-sangue-antigo", "sangue-linhagem", "sangue-mesmo-sangue",
+  // Semana 7 — Recomeço & Crescimento
+  "grao-segunda-vez", "incenso-raiz-muda", "incenso-teimosa", "incenso-rescaldo", "incenso-maos-abertas",
+  // Semana 8 — Ambição & Trabalho
+  "grao-fome-boa", "grao-moeda", "grao-insonia", "grao-o-tear", "grao-deriva",
+  // Semana 9 — Laços Femininos
+  "sangue-irmas", "nua-duas-vozes", "incenso-diluvio-manso", "incenso-salto-bonito",
+  // Semana 10 — Corpo & Tempo
+  "nua-tempo-no-corpo", "nua-meu", "nua-corpo-a-corpo", "nua-beijo-na-testa", "nua-fogo-lento",
+  // Semana 11 — Alegria & Leveza
+  "grao-ferias", "grao-combustao", "grao-sem-motivo", "mare-viva",
+  // Semana 12 — Casa & Ritmo
+  "grao-primeira-luz", "grao-sal-na-pele", "grao-abrigo", "grao-pao-sal", "mare-lua-acordada",
+  // Semana 13 — Quietude & Maré
+  "incenso-silencio-fertil", "mare-companhia-propria", "mare-penumbra", "mare-tardes-vazias", "mare-brasa-lenta",
 ]);
-
-const INTERNAL_PRODUCTS = new Set(["espelho", "no", "livro", "curso"]);
-
-function isInternalAlbum(slug: string, product: string): boolean {
-  if (INTERNAL_PRODUCTS.has(product)) return true;
-  return INTERNAL_SLUGS.has(slug);
-}
 
 // Apply lyrics from separate files to all album tracks
 function applyLyrics(albumDef: AlbumDef): Album {
@@ -1026,7 +1036,7 @@ function applyLyrics(albumDef: AlbumDef): Album {
   return {
     ...albumDef,
     status: albumDef.status ?? (PRODUCED_SLUGS.has(slug) ? "produced" : "ready"),
-    distribution: albumDef.distribution ?? !isInternalAlbum(slug, albumDef.product),
+    distribution: albumDef.distribution ?? DISTRIBUTION_SLUGS.has(slug),
     tracks: albumDef.tracks.map((t) => ({
       ...t,
       energy: t.energy || "whisper",
