@@ -1629,6 +1629,32 @@ export default function AlbumProductionPage() {
   const titleSaveRef = useRef<Record<string, NodeJS.Timeout>>({});
   const { getCoverTrack, setCoverTrack } = useAlbumCovers();
   const [existingReels, setExistingReels] = useState<Set<string>>(new Set());
+  // Album title overrides — guardado em localStorage
+  const [albumTitleOverrides, setAlbumTitleOverrides] = useState<Record<string, string>>({});
+  const [editingAlbumTitle, setEditingAlbumTitle] = useState<string | null>(null);
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem("loranne-album-title-overrides");
+      if (raw) setAlbumTitleOverrides(JSON.parse(raw));
+    } catch {}
+  }, []);
+
+  const saveAlbumTitle = useCallback((slug: string, newTitle: string) => {
+    const trimmed = newTitle.trim();
+    setAlbumTitleOverrides((prev) => {
+      const next = { ...prev };
+      if (trimmed) next[slug] = trimmed;
+      else delete next[slug];
+      try { localStorage.setItem("loranne-album-title-overrides", JSON.stringify(next)); } catch {}
+      return next;
+    });
+  }, []);
+
+  const getAlbumDisplayTitle = useCallback(
+    (slug: string, defaultTitle: string) => albumTitleOverrides[slug] || defaultTitle,
+    [albumTitleOverrides],
+  );
 
   // Load existing audio status + saved titles on mount
   useEffect(() => {
@@ -2366,7 +2392,36 @@ export default function AlbumProductionPage() {
             <div className="mb-6">
               <div className="flex items-center gap-3">
                 <div className="h-3 w-3 rounded-full" style={{ background: album.color }} />
-                <h2 className="font-display text-2xl text-mundo-creme">{album.title}</h2>
+                {editingAlbumTitle === album.slug ? (
+                  <input
+                    type="text"
+                    autoFocus
+                    defaultValue={getAlbumDisplayTitle(album.slug, album.title)}
+                    onBlur={(e) => { saveAlbumTitle(album.slug, e.target.value); setEditingAlbumTitle(null); }}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") { saveAlbumTitle(album.slug, e.currentTarget.value); setEditingAlbumTitle(null); }
+                      if (e.key === "Escape") setEditingAlbumTitle(null);
+                    }}
+                    className="font-display text-2xl text-mundo-creme bg-transparent border-b border-mundo-muted-dark/40 focus:border-violet-500 focus:outline-none px-1"
+                  />
+                ) : (
+                  <h2
+                    className="font-display text-2xl text-mundo-creme cursor-pointer hover:text-violet-300 transition"
+                    onClick={() => setEditingAlbumTitle(album.slug)}
+                    title="Clica para editar título"
+                  >
+                    {getAlbumDisplayTitle(album.slug, album.title)}
+                  </h2>
+                )}
+                {albumTitleOverrides[album.slug] && (
+                  <button
+                    onClick={() => saveAlbumTitle(album.slug, "")}
+                    className="text-[10px] text-mundo-muted hover:text-red-400 transition"
+                    title="Repor título original"
+                  >
+                    repor &quot;{album.title}&quot;
+                  </button>
+                )}
               </div>
               <p className="mt-1 text-mundo-muted">{album.subtitle}</p>
               <div className="mt-2 flex flex-wrap items-center gap-3">
