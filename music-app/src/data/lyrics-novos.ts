@@ -5784,284 +5784,69 @@ Taken
 Mine`,
 
   // ─────────────────────────────────────────────
-  // SANGUE-ORIGEM (diáspora, orgulho, raiz)
+  // SANGUE-ORIGEM v2 (diáspora, orgulho, raiz)
   // ─────────────────────────────────────────────
 
   "sangue-origem/1": `[Verse 1]
-Houve um tempo em que escondia
-De onde eu era
-Como se a origem fosse uma mancha
-Que precisava de apagar
+Estava dentro de uma caixa de sapatos
+No fundo do armário da minha mãe
+Uma mulher a preto e branco
+Que nunca conheci e nunca vou conhecer
 
 [Verse 2]
-Aprendi depressa que o mundo
-Preferia uma versão de mim
-Sem sotaque, sem história
-Sem o peso de onde vim
+Mas tem o meu queixo
+Tem o meu jeito de inclinar a cabeça
+Tem as mãos cruzadas no colo
+Da mesma maneira que eu cruzo as minhas — sem pressa
 
 [Pre-Chorus]
-Mas a origem não é peso
-É fundação
-Não é o que me prende
-É o que me sustenta
+Ninguém me disse o nome dela
+Ninguém me contou a história
+Mas o corpo reconheceu-a
+Antes da memória
 
 [Chorus]
-Orgulho
-De cada pedaço de onde vim
-Orgulho
-Da terra que me fez assim
-Orgulho
-Não apesar de
-Mas por causa de
-Tudo o que trouxe comigo
-Orgulho
-Esta é a minha origem
-E é linda
+A fotografia não mente
+Mesmo quando ninguém a explica
+A fotografia diz — olha para ti
+Já existias antes de existir
+Nos olhos desta mulher que não te viu
+Já estavas escrita
+Nos dedos, no queixo, no jeito
+De segurar o mundo com a mão direita
 
 [Verse 3]
-Hoje digo o nome do meu país
-Sem baixar a voz
-Hoje carrego a história toda
-Como se fosse ouro
-Porque é
+Virei a foto ao contrário
+Alguém escreveu a lápis — 1947
+Uma data sem contexto
+Uma mulher sem legenda
+Mas com o meu rosto inteiro
 
 [Chorus]
-Orgulho
-Esta é a minha origem
-E é linda
+A fotografia não mente
+Já existias antes de existir
+Nos olhos desta mulher que não te viu
+Já estavas escrita
 
 [Bridge]
-Não precisas de apagar nada
-Para caber neste mundo
-O mundo é que precisa de aprender
-A fazer espaço para ti
+A origem não é só o que te contaram
+É o que o espelho confirma sem pedir licença
+É o queixo que herdaste sem saber
+É a mão que se fecha
+Igual à mão de alguém
+Que morreu antes de te poder dizer
+Que eras dela
 
 [Outro]
-Origem
-Minha
-Linda
-Minha`,
+1947
+Sem nome
+Sem legenda
+Mas com o meu rosto
+A origem
+Estava na caixa de sapatos
+O tempo todo`,
 
   "sangue-origem/2": `[Verse 1]
-I come from warm nights
-And the smell of rain on red earth
-I come from women who carried everything
-And still had hands left for love
-
-[Verse 2]
-I come from music that starts in the feet
-Before it reaches the ears
-I come from stories told at dusk
-That nobody wrote down
-But everyone remembers
-
-[Pre-Chorus]
-This is not background
-This is not context
-This is the whole thing
-The entire architecture of who I am
-
-[Chorus]
-I come from
-And I am proud of where
-I come from
-The continent that named itself
-Before anyone else arrived to rename it
-I come from
-And every time I say it
-I grow taller
-I come from
-And it comes with me
-Everywhere
-
-[Verse 3]
-I was told once to leave it behind
-To arrive somewhere new
-As if origin was luggage
-Not skeleton
-
-[Chorus]
-I come from
-And I grow taller
-Every time I say it
-
-[Bridge]
-Where you come from
-Is not your ceiling
-It is your floor
-And mine is magnificent
-
-[Outro]
-I come from
-Say it
-Out loud
-Say it`,
-
-  "sangue-origem/3": `[Verse 1]
-A minha avó falava uma língua
-Que eu não aprendi bem
-Mas que o corpo guarda
-Em sítios que a mente não alcança
-
-[Verse 2]
-Às vezes uma palavra sobe
-Sem que eu saiba de onde
-E é dela
-E é minha
-Ao mesmo tempo
-
-[Pre-Chorus]
-A língua que não aprendi completamente
-Ainda vive em mim
-Como uma música
-Que o corpo sabe
-Mesmo sem a letra
-
-[Chorus]
-A voz da avó
-Que ainda ressoa
-A voz da avó
-Que não se perdeu
-Mesmo quando eu achei
-Que tinha perdido tudo
-A voz ficou
-Na forma como rio
-Na forma como choro
-Na forma como digo
-Obrigada
-
-[Verse 3]
-Ela morreu antes de eu perceber
-O que tinha para me ensinar
-Mas deixou-me a voz
-E a voz já chegou
-
-[Chorus]
-A voz da avó
-Que não se perdeu
-A voz ficou
-
-[Bridge]
-Não precisas de falar todas as línguas da tua linhagem
-Para as carregar
-Elas vivem em ti
-Mesmo em silêncio
-
-[Outro]
-A voz
-Ficou
-Em mim
-Sempre`,
-
-  "sangue-origem/4": `[Verse 1]
-I live in a city that doesn't know my grandmother's name
-But my grandmother's name lives in my hands
-In the way I cook
-In the things I say when I think no one is listening
-
-[Verse 2]
-I am ancient and new at once
-The continent and the concrete
-The red earth and the airport
-The ritual and the ringtone
-
-[Pre-Chorus]
-You don't have to choose
-Between where you came from
-And where you're going
-You can be both
-Fully
-
-[Chorus]
-Ancient and new
-Both at once
-Ancient and new
-Not torn — expanded
-Ancient and new
-The lineage and the future
-In the same body
-In the same breath
-Ancient and new
-And the world doesn't have a box for this
-So I build my own
-
-[Verse 3]
-My children will be even more both
-And their children more still
-The origin doesn't dilute
-It compounds
-
-[Chorus]
-Ancient and new
-Not torn — expanded
-I build my own
-
-[Bridge]
-Every generation that holds the thread
-Makes the thread longer
-Not thinner
-You are not the end of something
-You are the beginning of what comes next
-
-[Outro]
-Ancient
-And new
-Both
-Always both`,
-
-  "sangue-origem/5": `[Verse 1]
-Cresci entre dois mundos
-Sem pertencer completamente a nenhum
-Terra vermelha nos pés
-Cidade cinzenta nos olhos
-
-[Verse 2]
-Aprendi a navegar os dois
-A falar os dois idiomas do corpo
-A saber quando mostrar qual versão
-E quando mostrar as duas de uma vez
-
-[Pre-Chorus]
-Não sou metade de cada
-Sou inteira dos dois
-E essa inteireza
-É a coisa mais rara que tenho
-
-[Chorus]
-Terra vermelha, cidade cinzenta
-Os dois em mim
-Terra vermelha, cidade cinzenta
-Não é contradição
-É riqueza
-Terra vermelha que me deu raiz
-Cidade cinzenta que me deu voz
-As duas me fizeram
-E as duas são minha origem
-
-[Verse 3]
-Quando volto à terra vermelha
-O corpo lembra antes da mente
-Quando fico na cidade cinzenta
-A terra vermelha não sai de dentro
-
-[Chorus]
-Terra vermelha, cidade cinzenta
-As duas são minha origem
-
-[Bridge]
-Quem vive entre dois mundos
-Não está perdido
-Está em dois lugares ao mesmo tempo
-E isso é um dom
-Mesmo quando dói
-
-[Outro]
-Terra vermelha
-Cidade cinzenta
-Minha
-Toda minha`,
-
-  "sangue-origem/6": `[Verse 1]
 They gave me a nickname
 Because my name was too hard
 For mouths that never tried
@@ -6116,60 +5901,335 @@ My name
 Say it
 Right`,
 
-  "sangue-origem/7": `[Verse 1]
-Há heranças que se dividem
-E ficam menores em cada geração
-E há heranças que se multiplicam
-Cada vez que alguém as carrega
+  "sangue-origem/3": `[Verse 1]
+Estava na reunião
+Terceiro andar, mesa comprida
+Falava como se tivesse nascido ali
+Cada sílaba medida
 
 [Verse 2]
-A minha herança é do segundo tipo
-Quanto mais a passo
-Mais ela cresce
-Quanto mais a digo em voz alta
-Mais ela tem peso
+E então uma palavra saiu
+Com o peso todo de onde vim
+O erre rolou, o a abriu
+E a sala ficou a olhar para mim
 
 [Pre-Chorus]
-Não sou o fim da linhagem
-Sou o elo do meio
-E o elo do meio
-É o mais importante
-É o que garante a continuidade
+O corpo guarda o que a boca tenta esconder
+O sotaque não pede autorização
+Aparece no meio da frase perfeita
+Como um terramoto sem previsão
 
 [Chorus]
-Herança que não se divide
-Só se multiplica
-Herança que não se dilui
-Só fica mais forte
-Herança — cada geração que a carrega
-Adiciona ao peso
-Não subtrai
-Herança que não se divide
-É a minha
-E vou passá-la inteira
+O sotaque escapou
+E a sala ouviu de onde sou
+O sotaque escapou
+No meio do português perfeito
+No meio da performance inteira
+Uma sílaba de verdade
+Rasgou a frase estrangeira
+O sotaque escapou
+E eu tive de decidir
+Vergonha — ou coroa
+Eu escolhi sorrir
 
 [Verse 3]
-Os meus filhos vão saber de onde viemos
-Não como lição de história
-Mas como orgulho no corpo
-Como certeza no andar
+A colega ao lado fez um sorriso
+Desses que perguntam sem perguntar
+O chefe continuou a falar
+Como se nada — mas eu senti o ar
+Mudar de temperatura
 
 [Chorus]
-Herança que não se divide
-É a minha
-Vou passá-la inteira
+O sotaque escapou
+Uma sílaba de verdade
+Rasgou a frase estrangeira
+Eu escolhi sorrir
 
 [Bridge]
-Passar a herança não é dar o passado
-É dar raízes para o futuro
-Para que o futuro saiba
-Onde está a força
+O sotaque é o último espião da origem
+Podes mudar de roupa e de morada
+Podes trocar o nome e a carreira
+Mas a boca — a boca é embaixada
+De um país que não te larga
+Mesmo quando tentas fechá-lo
+E quando ele escapa
+Não é falha — é selo
+É carimbo que diz
+Esta pessoa é real
 
 [Outro]
-Herança
-Inteira
-Para os que vêm
-Depois de mim`,
+O erre rolou
+O a abriu
+E eu não pedi desculpa
+Desta vez
+Não pedi`,
+
+  "sangue-origem/4": `[Verse 1]
+Nobody in my bloodline had a diploma
+Nobody had a passport with stamps in it
+Nobody had a bank account
+Or an address the postman could find on a map
+
+[Verse 2]
+So when I did it
+There was no one to call
+No one to say — this is normal
+No one to say — you won't fall
+
+[Pre-Chorus]
+First generation means
+You write the manual as you go
+First generation means
+Every door you open
+Is a door nobody showed you
+And the handle is cold every time
+
+[Chorus]
+First generation
+Walking into rooms where nobody
+Looks like my mother
+First generation
+Filling out forms my father
+Never learned to read
+First generation
+The pride and the weight
+Are the same thing
+The same exact thing
+And I carry both
+With the same two hands
+
+[Verse 3]
+My mother ironed my clothes the night before
+Every interview, every first day
+She pressed the collar like she was pressing
+A prayer into the fabric
+That her daughter would not be turned away
+
+[Chorus]
+First generation
+The pride and the weight
+Are the same thing
+And I carry both
+With the same two hands
+
+[Bridge]
+The ones who come after me
+Will have a reference
+A number to call, a name to drop
+They will say — my mother did it first
+And the door will open faster
+Not because it's easier
+But because I left it open
+On purpose
+
+[Outro]
+First
+To walk in
+Last
+To forget
+What it cost
+To get here`,
+
+  "sangue-origem/5": `[Verse 1]
+Ao domingo a mesa tem seis lugares
+Mas só quatro têm prato
+Um é da minha irmã que ficou longe
+Outro é do meu pai que ficou no passado
+
+[Verse 2]
+A minha mãe põe a mesa toda
+Mesmo sabendo que sobram cadeiras
+É a maneira dela dizer
+Que a família não se mede em fronteiras
+
+[Pre-Chorus]
+A mesa não é um móvel
+É um mapa da família inteira
+Quem está, quem falta
+Quem voltou diferente de quem era
+
+[Chorus]
+A mesa — seis lugares
+Quatro pratos
+A mesa — está sempre posta
+Para quem não vem
+Porque tirar o prato
+É admitir a ausência
+E a minha mãe
+Não admite ausências
+Só distâncias temporárias
+A mesa — onde a família
+Se conta pelos lugares vazios
+
+[Verse 3]
+No Natal mando uma fotografia
+Da minha mesa cá
+Três lugares, três pratos
+A minha mãe responde — só três?
+E eu sei que está a contar
+Os que faltam, não os que estão
+
+[Chorus]
+A mesa — está sempre posta
+Para quem não vem
+A mesa — onde a família
+Se conta pelos lugares vazios
+
+[Bridge]
+Um dia todos os lugares
+Vão estar cheios outra vez
+Talvez não nesta mesa
+Talvez não nesta vida
+Mas a mesa está posta
+Porque quem a pôs
+Acredita que os ausentes
+Voltam sempre — nem que seja
+No cheiro da comida
+Que sobe pela janela
+E cruza o mar
+
+[Outro]
+Seis lugares
+Quatro pratos
+Dois lugares
+Que nunca arrefecem
+Porque a minha mãe
+Não deixa`,
+
+  "sangue-origem/6": `[Verse 1]
+She came home from school
+With a question folded in her mouth
+The kind that's been sitting there all day
+Waiting for a safe place to come out
+
+[Verse 2]
+Mama — why is my hair different
+Mama — why is our food not the same
+Mama — a boy at school said
+I'm from somewhere else — is that true
+And what's the name
+
+[Pre-Chorus]
+I knelt down
+Not because she's small
+But because this answer
+Needs my whole face
+My whole chest
+My whole everything
+
+[Chorus]
+My children ask
+And I have to find the words
+That give them roots without giving them wounds
+My children ask
+And I have to make the origin
+Sound like a crown, not a cage
+A gift, not a debt
+A map, not a wall
+My children ask
+And every answer I give
+Builds the floor they'll stand on
+For the rest of their lives
+
+[Verse 3]
+I said — your hair is the way the women
+In our family have always grown
+Strong from the root, patient in the making
+Beautiful because it's fully our own
+
+[Chorus]
+My children ask
+And every answer I give
+Builds the floor they'll stand on
+
+[Bridge]
+I will not give my children
+A version of themselves
+That fits inside someone else's comfort
+I will give them the full map
+The name pronounced correctly
+The food without apology
+The skin without explanation
+The history without edit
+And if someone at school
+Says they're from somewhere else
+I want them to say — yes
+And the somewhere else
+Is magnificent
+
+[Outro]
+They will ask again
+And again
+And every time
+I will answer
+With the whole truth
+Uncut`,
+
+  "sangue-origem/7": `[Verse 1]
+O rádio do vizinho às seis da manhã
+Sempre a mesma estação, sempre alto demais
+O pregão da senhora do pão
+Que gritava o preço sem respirar — jamais
+
+[Verse 2]
+O barulho das chapas a travar
+O motor que tossia e não morria
+As crianças a jogar na rua
+Com bolas feitas do que havia
+
+[Pre-Chorus]
+Nenhuma playlist do mundo
+Reproduz o som de onde vim
+Porque não é música — é vida
+Não é faixa — é um lugar que vive em mim
+
+[Chorus]
+O som daquela rua
+Ainda toca dentro de mim
+O rádio, o pregão, a chapa
+O riso da vizinha no quintal ao fim
+Da tarde — quando o sol amolece
+E as vozes sobem como vapor
+O som daquela rua
+É a minha partitura original
+Não se ouve — sente-se
+Não se toca — vive-se
+O som daquela rua
+Nunca parou
+
+[Verse 3]
+Aqui onde moro agora
+O silêncio tem outro peso
+Não é paz — é ausência
+De um barulho que era presença
+O silêncio aqui é vazio
+O silêncio de lá era cheio
+De gente a viver com as janelas abertas
+
+[Chorus]
+O som daquela rua
+É a minha partitura original
+Nunca parou
+
+[Bridge]
+Às vezes ponho-me à janela
+E fecho os olhos
+E o ouvido inventa
+O pregão que não está
+A chapa que não passa
+O rádio do vizinho que não toca
+Mas toca — dentro de mim
+Porque o ouvido é o órgão
+Que mais demora a emigrar
+
+[Outro]
+O pregão
+A chapa
+O riso
+As janelas abertas
+Tudo toca
+Ainda
+Aqui dentro`,
 
   "sangue-origem/8": `[Verse 1]
 Before the maps that renamed everything
@@ -6238,116 +6298,154 @@ Always
 Ours`,
 
   "sangue-origem/9": `[Verse 1]
-Quando estou lá dizem que fui embora
-Quando estou cá dizem que sou de lá
-E durante anos
-Não soube onde estar
+Nome completo — certo
+Data de nascimento — certa
+Naturalidade — certa
+Tudo certo, tudo legal
+Tudo morto
 
 [Verse 2]
-Mas o entre-lugares
-Também é um lugar
-Tem nome e tem cheiro
-E tem a sua própria beleza
+A certidão não diz
+Que a minha mãe cantava para me adormecer
+Não diz o cheiro da casa às sete da manhã
+Não diz que eu aprendi a ler
+No colo do meu avô — e não na escola
 
 [Pre-Chorus]
-Não precisas de pertencer completamente
-A nenhum sítio específico
-Para ter uma origem sólida
-A origem não é um endereço
-É uma certeza
+O estado regista factos
+A vida regista o resto
+E o resto é tudo
+O resto é tudo o que importa
 
 [Chorus]
-Não sou de lá nem sou daqui
-Sou do espaço entre os dois
-Não sou de lá nem sou daqui
-Sou de todos os lugares
-Que me fizeram
-Não sou de lá nem sou daqui
-E aprendi que isso
-Não é falta de lugar
-É abundância de origem
+A certidão diz onde nasci
+Mas não diz onde fui amada
+A certidão diz o meu nome
+Mas não sabe como é pronunciado
+Pela boca da minha mãe
+A certidão — papel frio
+Num corpo quente
+Carimbo num peito que respira
+Número num rosto que tem nome
+A certidão não me conhece
+Só me regista
 
 [Verse 3]
-Hoje quando me perguntam de onde sou
-Sorrio antes de responder
-Porque a resposta
-É mais rica do que eles esperam
+Tenho três documentos em três línguas
+Cada um diz uma versão de mim
+Cada um com uma fotografia diferente
+E em nenhuma delas eu estou a sorrir
 
 [Chorus]
-Não sou de lá nem sou daqui
-É abundância de origem
+A certidão diz onde nasci
+Mas não diz onde fui amada
+A certidão não me conhece
+Só me regista
 
 [Bridge]
-O entre-lugares
-Produz pessoas
-Que vêem tudo de dois ângulos
-E isso não é confusão
-É visão
+Se eu pudesse preencher a certidão
+Escrevia: nasceu no quarto dos fundos
+Com a parteira da vizinha
+Naturalidade: o cheiro de terra molhada
+Filiação: uma mulher que não dormiu três dias
+E um homem que chorou no corredor
+Sem que ninguém visse
+Profissão: filha, antes de tudo o resto
 
 [Outro]
-Entre lugares
-Todos os lugares
-Origem
-Abundante`,
+Nome — certo
+Data — certa
+Naturalidade — certa
+Mas quem sou
+Não cabe
+Em nenhum papel
+Que o estado consiga carimbar`,
 
   "sangue-origem/10": `[Verse 1]
-This is where I'm from
-And I say it now without the pause
-Without the small hesitation
-That used to live before the words
+My father never said I love you
+Not once in all the years
+But his hands said it every morning
+When he fixed the things that broke
+Before anyone noticed they were broken
 
 [Verse 2]
-I used to measure the room
-Before I answered that question
-I used to calibrate my answer
-To what they could receive
+He built the shelf that held our books
+The table where we ate every night
+He painted the wall the year it cracked
+He carried the mattress up three flights
 
 [Pre-Chorus]
-Not anymore
-Not anymore
-The room adjusts to me now
-Not the other way
+Men where I come from
+Don't speak about feelings
+They build them
+With cement, with wood, with wire
+With hands that never stop working
+And silence that means
+I would die for you
+Without saying the word die
+Or the word you
 
 [Chorus]
-This is where I'm from
-And I am not asking for your approval
-This is where I'm from
-And the history in it
-Is longer than this conversation
-This is where I'm from
-Mozambique, Africa, the continent
-The red earth and the Indian Ocean
-The women who carried everything
-And still had hands left for love
-This is where I'm from
-And I am
-Everything it made me
+His hands
+Built everything I stand on
+His hands
+Said everything his mouth could not
+His hands — cracked, calloused
+Carrying the world
+Without complaint, without audience
+His hands
+Are the origin nobody writes about
+The quiet one
+The invisible foundation
+His hands
+Loved louder than any word
+He never learned to say
 
 [Verse 3]
-When I die
-Put this in the record
-She knew where she was from
-She said it out loud
-Every single time
-She never flinched
+He fell asleep in his chair every night
+With the news on and his shoes still tied
+Ready — always ready
+To get up again if something broke
+He never rested fully
+Because rest was a luxury
+That fathers where I come from
+Did not believe in
 
 [Chorus]
-This is where I'm from
-And I am everything it made me
+His hands
+Are the origin nobody writes about
+His hands
+Loved louder than any word
 
 [Bridge]
-To every person who swallowed their origin
-To fit into a smaller room —
-The room was wrong
-Not your origin
-Say it
-Say it fully
-Say it first
+I never thanked him properly
+Because I didn't understand
+That love without words
+Is still love
+That a man who wakes before everyone
+And sleeps after everyone
+Is saying I love you
+On repeat
+Every single day
+With his body instead of his mouth
+With his hands instead of his heart
+No — with his heart
+Through his hands
+
+[Chorus]
+His hands
+Built everything I stand on
+The quiet one
+The invisible foundation
 
 [Outro]
-This is where I'm from
-Mozambique
-Africa
-The beginning
-Of everything`,
+Papa
+Your hands
+Built me
+And I
+Am still standing
+On everything
+You never
+Said`,
+
 };
