@@ -199,75 +199,75 @@ Não pedi
 
 ---
 
-## 04. First Generation
-*Ser a primeira a abrir caminho sem mapa*
-Energia: steady | Língua: EN | Sabor: afrobeat
+## 04. Continent
+*The continent that was always there — before the names they gave it*
+Energia: anthem | Língua: EN | Sabor: afrobeat
 
 [Verse 1]
-Nobody in my bloodline had a diploma
-Nobody had a passport with stamps in it
-Nobody had a bank account
-Or an address the postman could find on a map
+Before the maps that renamed everything
+The continent had its own name
+In a hundred languages
+That knew exactly what they meant
 
 [Verse 2]
-So when I did it
-There was no one to call
-No one to say — this is normal
-No one to say — you won't fall
+Before the borders drawn by strangers
+The land knew its own people
+The people knew the land
+By the way the rain fell
+In each specific place
 
 [Pre-Chorus]
-First generation means
-You write the manual as you go
-First generation means
-Every door you open
-Is a door nobody showed you
-And the handle is cold every time
+I am from a continent
+That has been the beginning of everything
+And been told it is behind
+And I am done receiving that lie
 
 [Chorus]
-First generation
-Walking into rooms where nobody
-Looks like my mother
-First generation
-Filling out forms my father
-Never learned to read
-First generation
-The pride and the weight
-Are the same thing
-The same exact thing
-And I carry both
-With the same two hands
+Continent
+That taught the world to count
+Continent
+That held the first fire
+Continent
+That is not emerging
+That was never gone
+Continent
+That I come from
+And carry
+And will not apologise for
+Continent
+Mine
+Ours
 
 [Verse 3]
-My mother ironed my clothes the night before
-Every interview, every first day
-She pressed the collar like she was pressing
-A prayer into the fabric
-That her daughter would not be turned away
+When they say developing
+I hear: we are still extracting
+When they say emerging
+I hear: we never left
+The continent was always here
+Waiting for the world to catch up
 
 [Chorus]
-First generation
-The pride and the weight
-Are the same thing
-And I carry both
-With the same two hands
+Continent
+That was never gone
+Continent
+Mine
+Ours
 
 [Bridge]
-The ones who come after me
-Will have a reference
-A number to call, a name to drop
-They will say — my mother did it first
-And the door will open faster
-Not because it's easier
-But because I left it open
-On purpose
+You do not have to defend the continent
+You only have to know it
+And knowing it
+Is enough
+To walk differently
+In every room
+You enter
 
 [Outro]
-First
-To walk in
-Last
-To forget
-What it cost
-To get here
+Continent
+Always
+Here
+Always
+Ours
 
 ---
 
@@ -490,75 +490,75 @@ Aqui dentro
 
 ---
 
-## 08. Continent
-*The continent that was always there — before the names they gave it*
-Energia: anthem | Língua: EN | Sabor: afrobeat
+## 08. First Generation
+*Ser a primeira a abrir caminho sem mapa*
+Energia: steady | Língua: EN | Sabor: afrobeat
 
 [Verse 1]
-Before the maps that renamed everything
-The continent had its own name
-In a hundred languages
-That knew exactly what they meant
+Nobody in my bloodline had a diploma
+Nobody had a passport with stamps in it
+Nobody had a bank account
+Or an address the postman could find on a map
 
 [Verse 2]
-Before the borders drawn by strangers
-The land knew its own people
-The people knew the land
-By the way the rain fell
-In each specific place
+So when I did it
+There was no one to call
+No one to say — this is normal
+No one to say — you won't fall
 
 [Pre-Chorus]
-I am from a continent
-That has been the beginning of everything
-And been told it is behind
-And I am done receiving that lie
+First generation means
+You write the manual as you go
+First generation means
+Every door you open
+Is a door nobody showed you
+And the handle is cold every time
 
 [Chorus]
-Continent
-That taught the world to count
-Continent
-That held the first fire
-Continent
-That is not emerging
-That was never gone
-Continent
-That I come from
-And carry
-And will not apologise for
-Continent
-Mine
-Ours
+First generation
+Walking into rooms where nobody
+Looks like my mother
+First generation
+Filling out forms my father
+Never learned to read
+First generation
+The pride and the weight
+Are the same thing
+The same exact thing
+And I carry both
+With the same two hands
 
 [Verse 3]
-When they say developing
-I hear: we are still extracting
-When they say emerging
-I hear: we never left
-The continent was always here
-Waiting for the world to catch up
+My mother ironed my clothes the night before
+Every interview, every first day
+She pressed the collar like she was pressing
+A prayer into the fabric
+That her daughter would not be turned away
 
 [Chorus]
-Continent
-That was never gone
-Continent
-Mine
-Ours
+First generation
+The pride and the weight
+Are the same thing
+And I carry both
+With the same two hands
 
 [Bridge]
-You do not have to defend the continent
-You only have to know it
-And knowing it
-Is enough
-To walk differently
-In every room
-You enter
+The ones who come after me
+Will have a reference
+A number to call, a name to drop
+They will say — my mother did it first
+And the door will open faster
+Not because it's easier
+But because I left it open
+On purpose
 
 [Outro]
-Continent
-Always
-Here
-Always
-Ours
+First
+To walk in
+Last
+To forget
+What it cost
+To get here
 
 ---
 
