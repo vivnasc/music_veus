@@ -296,8 +296,12 @@ export async function POST(req: NextRequest) {
       body.prompt = lyrics;
       body.style = finalStyle;
       body.title = title || "Sem titulo";
+    } else if (instrumental) {
+      // Instrumental description mode: prompt IS the complete description
+      // Don't send style — the prompt already has everything (like typing in Suno app)
+      body.prompt = prompt.length > 480 ? prompt.slice(0, 480) : prompt;
     } else {
-      // Description mode: prompt = description, style = extra musical context
+      // Description mode with vocals: prompt + style
       body.prompt = prompt.length > 480 ? prompt.slice(0, 480) : prompt;
       body.style = finalStyle;
     }
