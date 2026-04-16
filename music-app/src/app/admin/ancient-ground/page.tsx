@@ -471,41 +471,71 @@ export default function AncientGroundPage() {
             });
           }
         }
+
+        // Register version B as alternative in track_versions (playable in app)
+        if (i > 0) {
+          const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+          const audioUrl = `${supabaseUrl}/storage/v1/object/public/audios/${versionedFilename}`;
+          await adminFetch("/api/admin/track-versions", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              album_slug: "ancient-ground",
+              track_number: num,
+              version_name: `Versão ${String.fromCharCode(65 + i)}`,
+              energy: "whisper",
+              audio_url: audioUrl,
+            }),
+          }).catch(() => {});
+        }
       }
 
-      // Upload cover from first clip that has an image
-      const clipWithImage = clips.find((c) => c.imageUrl);
-      if (clipWithImage?.imageUrl) {
+      // Upload cover for each clip that has an image
+      for (let i = 0; i < clipsWithAudio.length; i++) {
+        const clip = clipsWithAudio[i];
+        if (!clip.imageUrl) continue;
         try {
-          const coverFilename = `albums/ancient-ground/faixa-${safeTrack}-cover.jpg`;
           let coverBlob: Blob;
           try {
-            coverBlob = await (await fetch(clipWithImage.imageUrl)).blob();
+            coverBlob = await (await fetch(clip.imageUrl)).blob();
           } catch {
             const r = await adminFetch("/api/admin/proxy-download", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ url: clipWithImage.imageUrl }),
+              body: JSON.stringify({ url: clip.imageUrl }),
             });
             coverBlob = await r.blob();
           }
-          if (coverBlob.size > 1000) {
-            const signedRes = await adminFetch("/api/admin/signed-upload-url", {
+          if (coverBlob.size < 1000) continue;
+
+          // First clip cover → faixa-XX-cover.jpg (main cover for player)
+          if (i === 0) {
+            const mainCover = `albums/ancient-ground/faixa-${safeTrack}-cover.jpg`;
+            const res = await adminFetch("/api/admin/signed-upload-url", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ filename: coverFilename }),
+              body: JSON.stringify({ filename: mainCover }),
             });
-            if (signedRes.ok) {
-              const { signedUrl } = await signedRes.json();
-              await fetch(signedUrl, {
-                method: "PUT",
-                headers: { "Content-Type": "image/jpeg" },
-                body: coverBlob,
-              });
+            if (res.ok) {
+              const { signedUrl } = await res.json();
+              await fetch(signedUrl, { method: "PUT", headers: { "Content-Type": "image/jpeg" }, body: coverBlob });
             }
           }
+
+          // Each clip gets its own versioned cover
+          const suffix = clipsWithAudio.length > 1 ? `-v${String.fromCharCode(65 + i)}` : "";
+          const vCover = `albums/ancient-ground/faixa-${safeTrack}${suffix}-cover.jpg`;
+          const res2 = await adminFetch("/api/admin/signed-upload-url", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ filename: vCover }),
+          });
+          if (res2.ok) {
+            const { signedUrl } = await res2.json();
+            await fetch(signedUrl, { method: "PUT", headers: { "Content-Type": "image/jpeg" }, body: coverBlob });
+          }
         } catch (e) {
-          console.warn("Cover upload failed:", e);
+          console.warn(`Cover ${i} upload failed:`, e);
         }
       }
 
