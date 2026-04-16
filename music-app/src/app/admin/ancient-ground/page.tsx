@@ -277,6 +277,29 @@ export default function AncientGroundPage() {
   const [search, setSearch] = useState("");
   const pollingRef = useRef<Record<number, ReturnType<typeof setInterval>>>({});
 
+  // On mount: check Supabase for already-generated singles
+  useEffect(() => {
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+    const basePath = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+
+    async function checkExisting() {
+      const found: Record<number, SingleState> = {};
+      // Check each single's main track (odd number = single*2-1)
+      const checks = ANCIENT_GROUND_SINGLES.map(async (s) => {
+        const trackNum = String(s.number * 2 - 1).padStart(2, "0");
+        const res = await fetch(`${basePath}/faixa-${trackNum}.mp3`, { method: "HEAD" });
+        if (res.ok) {
+          found[s.number] = { status: "done", error: "Já no Supabase", clips: [] };
+        }
+      });
+      await Promise.all(checks);
+      if (Object.keys(found).length > 0) {
+        setStates((s) => ({ ...s, ...found }));
+      }
+    }
+    checkExisting();
+  }, []);
+
   // Get state for a single (default idle)
   function getState(num: number): SingleState {
     return states[num] || { status: "idle", error: "", clips: [] };
