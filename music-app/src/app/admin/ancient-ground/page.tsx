@@ -372,7 +372,7 @@ export default function AncientGroundPage() {
           return s;
         });
       }
-    }, 5 * 60 * 1000);
+    }, 10 * 60 * 1000);
   }, []);
 
   // Generate a single
@@ -391,6 +391,7 @@ export default function AncientGroundPage() {
           instrumental: true,
           title: single.title,
           model: sunoModel,
+          customStyle: "African instrumental, mbira, kora, balafon, meditative, hypnotic",
         }),
       });
 
