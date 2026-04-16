@@ -5,11 +5,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRecommendations } from "@/hooks/useRecommendations";
 import { ALL_LISTS, type CuratedList } from "@/data/curated-lists";
-import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
+import { ALL_ALBUMS, getArtist, type Album, type AlbumTrack } from "@/data/albums";
 import { getTrackCoverUrl } from "@/lib/album-covers";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
 
-const COLLECTION_PRODUCTS = ["espelho", "no", "curso", "livro", "incenso", "eter", "nua", "sangue", "fibra", "grao", "mare", "ancient-ground"] as const;
+const COLLECTION_PRODUCTS = ["espelho", "no", "curso", "livro", "incenso", "eter", "nua", "sangue", "fibra", "grao", "mare"] as const;
 
 const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }> = {
   espelho: { pt: "Espelhos", en: "Mirrors", sub: "A transformação interior — os 7 véus" },
@@ -23,7 +23,6 @@ const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }>
   fibra: { pt: "Fibra", en: "Fiber", sub: "O corpo que insiste" },
   grao: { pt: "Grão", en: "Grain", sub: "O pequeno que faz o todo" },
   mare: { pt: "Maré", en: "Tide", sub: "O que vai e volta" },
-  "ancient-ground": { pt: "Ancient Ground", en: "Ancient Ground", sub: "Música africana meditativa — mbira, kora, balafon" },
 };
 
 function getFeaturedAlbum(product: string, publishedKeys: Set<string>): Album | null {
@@ -203,6 +202,43 @@ export default function DescobrePage() {
 
         {/* Temas */}
         <CuratedSection title="Temas" lists={temas} publishedKeys={publishedKeys} loading={loading} />
+
+        {/* Outros Mundos */}
+        {(() => {
+          const otherWorlds = ALL_ALBUMS.filter(a => a.product === "ancient-ground");
+          if (otherWorlds.length === 0) return null;
+          return (
+            <section>
+              <h2 className="text-sm font-semibold text-amber-500 uppercase tracking-wider mb-1">Outros Mundos</h2>
+              <p className="text-[11px] text-[#666680] mb-4">Artistas e sonoridades além do universo Loranne</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {otherWorlds.map(album => (
+                  <Link
+                    key={album.slug}
+                    href={`/album/${album.slug}`}
+                    className="group flex items-center gap-4 p-5 rounded-2xl bg-gradient-to-r from-amber-900/20 to-amber-800/5 border border-amber-800/20 hover:border-amber-700/40 transition-all"
+                  >
+                    <div
+                      className="shrink-0 w-16 h-16 rounded-xl flex items-center justify-center"
+                      style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}66)` }}
+                    >
+                      <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7 text-white/70">
+                        <path d="M9 19V6l12-3v13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        <circle cx="6" cy="19" r="3" stroke="currentColor" strokeWidth="1.5"/>
+                        <circle cx="18" cy="16" r="3" stroke="currentColor" strokeWidth="1.5"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="text-base font-medium text-[#F5F0E6]">{album.title}</p>
+                      <p className="text-xs text-amber-500">{getArtist(album)}</p>
+                      <p className="text-[11px] text-[#666680] mt-0.5">{album.subtitle}</p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })()}
       </div>
     </main>
   );
