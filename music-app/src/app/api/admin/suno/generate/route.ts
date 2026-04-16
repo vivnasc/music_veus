@@ -297,8 +297,9 @@ export async function POST(req: NextRequest) {
       body.title = title || "Sem titulo";
     } else if (instrumental) {
       // Instrumental custom mode — same as Suno app: Custom + Instrumental checked
-      // The prompt goes in the style field (musical direction tags)
+      // Lyrics field empty, prompt goes in style field
       body.customMode = true;
+      body.prompt = "";
       body.style = prompt.length > 200 ? prompt.slice(0, 200) : prompt;
       body.title = title || "Instrumental";
     } else {

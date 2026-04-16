@@ -2,7 +2,7 @@
 
 import { useState, useRef, useCallback, useEffect } from "react";
 import Link from "next/link";
-import { ANCIENT_GROUND_SINGLES, FFMPEG_COMMANDS, type AncientGroundSingle } from "@/data/ancient-ground-singles";
+import { ANCIENT_GROUND_SINGLES, type AncientGroundSingle } from "@/data/ancient-ground-singles";
 import { adminFetch } from "@/lib/admin-fetch";
 
 // ─── Types ───
@@ -21,6 +21,7 @@ type SingleState = {
   status: "idle" | "generating" | "polling" | "done" | "error";
   error: string;
   clips: SunoClip[];
+  loopUrl?: string;
 };
 
 // ─── Helpers ───
@@ -130,6 +131,7 @@ function SingleCard({
   onGenerate,
   onDownloadClip,
   onApprove,
+  onBuildLoop,
 }: {
   single: AncientGroundSingle;
   state: SingleState;
@@ -137,9 +139,9 @@ function SingleCard({
   onGenerate: () => void;
   onDownloadClip: (url: string, title: string) => void;
   onApprove: (single: AncientGroundSingle, clips: SunoClip[]) => void;
+  onBuildLoop: (single: AncientGroundSingle) => void;
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
-  const [showFfmpeg, setShowFfmpeg] = useState(false);
 
   const isWorking = state.status === "generating" || state.status === "polling";
 
@@ -242,34 +244,25 @@ function SingleCard({
             </button>
           )}
 
-          {/* FFmpeg commands */}
+          {/* Build 1h loop — after approval */}
           <button
-            onClick={() => setShowFfmpeg(!showFfmpeg)}
-            className="text-[11px] text-amber-500 hover:text-amber-400"
+            onClick={() => onBuildLoop(single)}
+            disabled={state.status === "generating"}
+            className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-blue-800/30 text-blue-300 hover:bg-blue-800/50 transition"
           >
-            {showFfmpeg ? "Esconder FFmpeg" : "Ver comandos FFmpeg"}
+            {state.status === "generating" ? "A montar loop..." : "Montar loop 1h"}
           </button>
-          {showFfmpeg && (() => {
-            const slug = single.title.toLowerCase().replace(/\s+/g, "-");
-            return (
-              <div className="rounded-lg bg-black/30 p-3 space-y-3">
-                <div>
-                  <p className="text-[10px] text-green-400 font-medium mb-1">Loop com 2 versões (recomendado):</p>
-                  <code className="block text-[10px] text-green-300 font-mono break-all">
-                    {FFMPEG_COMMANDS.loopBoth(`${slug}-vA.mp3`, `${slug}-vB.mp3`, `${slug}-1h.mp3`)}
-                  </code>
-                  <CopyButton text={FFMPEG_COMMANDS.loopBoth(`${slug}-vA.mp3`, `${slug}-vB.mp3`, `${slug}-1h.mp3`)} label="Copiar" />
-                </div>
-                <div>
-                  <p className="text-[10px] text-mundo-muted mb-1">Loop simples (1 versão):</p>
-                  <code className="block text-[10px] text-mundo-muted/70 font-mono break-all">
-                    {FFMPEG_COMMANDS.loop(`${slug}.mp3`, `${slug}-1h.mp3`)}
-                  </code>
-                  <CopyButton text={FFMPEG_COMMANDS.loop(`${slug}.mp3`, `${slug}-1h.mp3`)} label="Copiar" />
-                </div>
-              </div>
-            );
-          })()}
+
+          {/* Download 1h — appears after loop is built */}
+          {state.loopUrl && (
+            <a
+              href={state.loopUrl}
+              download={`${single.title} - Ancient Ground (1h).mp3`}
+              className="w-full block text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
+            >
+              Download 1h para DistroKid
+            </a>
+          )}
         </div>
       )}
     </div>
@@ -433,13 +426,13 @@ export default function AncientGroundPage() {
     }));
 
     try {
-      const safeTrack = String(num).padStart(2, "0");
       const clipsWithAudio = clips.filter((c) => c.audioUrl);
 
       for (let i = 0; i < clipsWithAudio.length; i++) {
         const clip = clipsWithAudio[i];
-        const suffix = clipsWithAudio.length > 1 ? `-v${String.fromCharCode(65 + i)}` : "";
-        const filename = `albums/ancient-ground/faixa-${safeTrack}${suffix}.mp3`;
+        // Track numbering: vA = single*2-1 (odd), vB = single*2 (even)
+        const trackNum = num * 2 - 1 + i;
+        const safeTrack = String(trackNum).padStart(2, "0");
 
         // Download audio blob
         let blob: Blob;
@@ -457,8 +450,9 @@ export default function AncientGroundPage() {
 
         if (blob.size < 1000) throw new Error(`Clip ${i + 1} demasiado pequeno (${blob.size} bytes)`);
 
-        // Upload via signed URL
-        const signedRes = await adminFetch("/api/admin/signed-upload-url", {
+        // Upload as faixa-XX.mp3 (playable in app)
+        const filename = `albums/ancient-ground/faixa-${safeTrack}.mp3`;
+        let signedRes = await adminFetch("/api/admin/signed-upload-url", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ filename }),
@@ -474,39 +468,38 @@ export default function AncientGroundPage() {
         if (!uploadRes.ok) throw new Error(`Upload falhou (${uploadRes.status})`);
       }
 
-      // Upload cover from first clip that has an image
-      const clipWithImage = clips.find((c) => c.imageUrl);
-      if (clipWithImage?.imageUrl) {
+      // Upload cover for each clip — each track gets its own cover
+      for (let i = 0; i < clipsWithAudio.length; i++) {
+        const clip = clipsWithAudio[i];
+        if (!clip.imageUrl) continue;
+        const trackNum = num * 2 - 1 + i;
+        const safeTrack = String(trackNum).padStart(2, "0");
         try {
-          const coverFilename = `albums/ancient-ground/faixa-${safeTrack}-cover.jpg`;
           let coverBlob: Blob;
           try {
-            coverBlob = await (await fetch(clipWithImage.imageUrl)).blob();
+            coverBlob = await (await fetch(clip.imageUrl)).blob();
           } catch {
             const r = await adminFetch("/api/admin/proxy-download", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ url: clipWithImage.imageUrl }),
+              body: JSON.stringify({ url: clip.imageUrl }),
             });
             coverBlob = await r.blob();
           }
-          if (coverBlob.size > 1000) {
-            const signedRes = await adminFetch("/api/admin/signed-upload-url", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ filename: coverFilename }),
-            });
-            if (signedRes.ok) {
-              const { signedUrl } = await signedRes.json();
-              await fetch(signedUrl, {
-                method: "PUT",
-                headers: { "Content-Type": "image/jpeg" },
-                body: coverBlob,
-              });
-            }
+          if (coverBlob.size < 1000) continue;
+
+          const coverFilename = `albums/ancient-ground/faixa-${safeTrack}-cover.jpg`;
+          const res2 = await adminFetch("/api/admin/signed-upload-url", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ filename: coverFilename }),
+          });
+          if (res2.ok) {
+            const { signedUrl } = await res2.json();
+            await fetch(signedUrl, { method: "PUT", headers: { "Content-Type": "image/jpeg" }, body: coverBlob });
           }
         } catch (e) {
-          console.warn("Cover upload failed:", e);
+          console.warn(`Cover ${i} upload failed:`, e);
         }
       }
 
@@ -545,6 +538,94 @@ export default function AncientGroundPage() {
       URL.revokeObjectURL(a.href);
     } catch (err) {
       console.error("Download failed:", err);
+    }
+  }
+
+  // Build 1h loop from Supabase clips (pure JS byte concatenation)
+  async function buildLoop(single: AncientGroundSingle) {
+    const num = single.number;
+    const safeTrack = String(num).padStart(2, "0");
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+    const basePath = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+
+    setStates((s) => ({
+      ...s,
+      [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A montar loop 1h..." },
+    }));
+
+    try {
+      // Fetch both tracks from Supabase (odd=vA, even=vB)
+      const buffers: ArrayBuffer[] = [];
+      for (const trackNum of [num * 2 - 1, num * 2]) {
+        const tn = String(trackNum).padStart(2, "0");
+        const url = `${basePath}/faixa-${tn}.mp3`;
+        const res = await fetch(url);
+        if (res.ok) {
+          buffers.push(await res.arrayBuffer());
+        }
+      }
+
+      if (buffers.length === 0) {
+        throw new Error("Nenhum áudio encontrado no Supabase. Aprova primeiro.");
+      }
+
+      // Concatenate A+B into one segment
+      const segmentSize = buffers.reduce((s, b) => s + b.byteLength, 0);
+      // Estimate duration from file size (MP3 ~128-192kbps → ~16-24KB/s)
+      // For 1 hour (3600s) at ~20KB/s = ~72MB. Use repetitions instead:
+      // Each Suno clip is ~3 min. 2 clips = ~6 min. Need ~10 repeats for 1h.
+      const estimatedSecsPerSegment = buffers.length * 180; // ~3 min each
+      const repeats = Math.ceil(3600 / estimatedSecsPerSegment);
+
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: `A montar ${repeats}x repetições (~${Math.round(segmentSize * repeats / 1024 / 1024)}MB)...` },
+      }));
+
+      // Build the 1h file by repeating the segment
+      const totalSize = segmentSize * repeats;
+      const result = new Uint8Array(totalSize);
+      let offset = 0;
+      for (let i = 0; i < repeats; i++) {
+        for (const buf of buffers) {
+          result.set(new Uint8Array(buf), offset);
+          offset += buf.byteLength;
+        }
+      }
+
+      // Upload to Supabase
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A fazer upload do loop 1h..." },
+      }));
+
+      const filename = `albums/ancient-ground/faixa-${safeTrack}-1h.mp3`;
+      const signedRes = await adminFetch("/api/admin/signed-upload-url", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ filename }),
+      });
+      if (!signedRes.ok) throw new Error("Erro ao gerar URL de upload");
+      const { signedUrl } = await signedRes.json();
+
+      const loopBlob = new Blob([result], { type: "audio/mpeg" });
+      const uploadRes = await fetch(signedUrl, {
+        method: "PUT",
+        headers: { "Content-Type": "audio/mpeg" },
+        body: loopBlob,
+      });
+      if (!uploadRes.ok) throw new Error(`Upload falhou (${uploadRes.status})`);
+
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto! (${Math.round(totalSize / 1024 / 1024)}MB)`, loopUrl: URL.createObjectURL(loopBlob) },
+      }));
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : String(err);
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "error", error: msg },
+      }));
     }
   }
 
@@ -624,6 +705,7 @@ export default function AncientGroundPage() {
             onGenerate={() => generateSingle(single)}
             onDownloadClip={downloadClip}
             onApprove={approveSingle}
+            onBuildLoop={buildLoop}
           />
         ))}
       </div>
