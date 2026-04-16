@@ -294,18 +294,9 @@ export default function AncientGroundPage() {
       const found: Record<number, SingleState> = {};
       const checks = ANCIENT_GROUND_SINGLES.map(async (s) => {
         const trackNum = String(s.number * 2 - 1).padStart(2, "0");
-        const [audioRes, loopRes] = await Promise.all([
-          fetch(`${basePath}/faixa-${trackNum}.mp3`, { method: "HEAD" }),
-          fetch(`${basePath}/faixa-${trackNum}-1h.mp3`, { method: "HEAD" }),
-        ]);
+        const audioRes = await fetch(`${basePath}/faixa-${trackNum}.mp3`, { method: "HEAD" });
         if (audioRes.ok) {
-          const hasLoop = loopRes.ok;
-          found[s.number] = {
-            status: "done",
-            error: hasLoop ? "Gerado + loop 1h" : "Gerado (sem loop)",
-            clips: [],
-            loopUrl: hasLoop ? `${basePath}/faixa-${trackNum}-1h.mp3` : undefined,
-          };
+          found[s.number] = { status: "done", error: "", clips: [] };
         }
       });
       await Promise.all(checks);
@@ -638,31 +629,8 @@ export default function AncientGroundPage() {
         }
       }
 
-      // Upload to Supabase
-      setStates((s) => ({
-        ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A fazer upload do loop 1h..." },
-      }));
-
-      const filename = `albums/ancient-ground/faixa-${mainTrack}-1h.mp3`;
-      const signedRes = await adminFetch("/api/admin/signed-upload-url", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ filename }),
-      });
-      if (!signedRes.ok) throw new Error("Erro ao gerar URL de upload");
-      const { signedUrl } = await signedRes.json();
-
+      // Build blob and offer direct download (no Supabase upload — 1h files exceed 50MB limit)
       const loopBlob = new Blob([result], { type: "audio/mpeg" });
-      const uploadRes = await fetch(signedUrl, {
-        method: "PUT",
-        headers: { "Content-Type": "audio/mpeg" },
-        body: loopBlob,
-      });
-      if (!uploadRes.ok) {
-        const errText = await uploadRes.text().catch(() => "");
-        throw new Error(`Upload loop falhou (${uploadRes.status}): ${errText.slice(0, 100)}`);
-      }
 
       setStates((s) => ({
         ...s,
