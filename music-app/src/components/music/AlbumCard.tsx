@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import type { Album } from "@/data/albums";
+import { getArtist, type Album } from "@/data/albums";
 import { getAlbumCover, getAlbumBadge, getTrackCoverUrl } from "@/lib/album-covers";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
 
@@ -59,7 +59,7 @@ export default function AlbumCard({ album }: Props) {
         )}
       </div>
       <p className="mt-2 text-sm font-medium text-[#F5F0E6] truncate">{album.title}</p>
-      <p className="text-xs text-[#a0a0b0] truncate">Loranne</p>
+      <p className="text-xs text-[#a0a0b0] truncate">{getArtist(album)}</p>
     </Link>
   );
 }

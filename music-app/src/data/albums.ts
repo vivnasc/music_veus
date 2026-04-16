@@ -85,7 +85,8 @@ export type Album = {
   slug: string;
   title: string;
   subtitle: string;
-  product: "espelho" | "no" | "livro" | "curso" | "incenso" | "eter" | "nua" | "sangue" | "fibra" | "grao" | "mare";
+  artist?: string; // Default "Loranne" — override for other artists (e.g. "Ancient Ground")
+  product: "espelho" | "no" | "livro" | "curso" | "incenso" | "eter" | "nua" | "sangue" | "fibra" | "grao" | "mare" | "ancient-ground";
   veu?: number;
   courseSlug?: string;
   color: string;
@@ -2495,9 +2496,43 @@ export const ALL_ALBUMS: Album[] = [
   NOVO_TEMPO_NO_CORPO,
   NOVO_FERIAS,
   NOVO_ORIGEM,
-].map(applyLyrics);
+].map(applyLyrics) as Album[];
+
+// ─── Ancient Ground — 49 instrumental African meditation singles ───
+import { ANCIENT_GROUND_SINGLES } from "./ancient-ground-singles";
+
+const ANCIENT_GROUND_ALBUM: Album = {
+  slug: "ancient-ground",
+  title: "Ancient Ground",
+  subtitle: "Music rooted in Africa. Made for stillness.",
+  artist: "Ancient Ground",
+  product: "ancient-ground",
+  color: "#8B6914",
+  status: "ready",
+  distribution: true,
+  distrokidUploadDate: null,
+  tracks: ANCIENT_GROUND_SINGLES.map((s) => ({
+    number: s.number,
+    title: s.title,
+    description: s.prompt,
+    lang: "EN" as const,
+    energy: "whisper" as TrackEnergy,
+    flavor: null,
+    vocalMode: "solo" as VocalMode,
+    prompt: s.prompt,
+    lyrics: "",
+    durationSeconds: 3600,
+    audioUrl: null,
+  })),
+};
+
+ALL_ALBUMS.push(ANCIENT_GROUND_ALBUM);
 
 // Helpers
+export function getArtist(album: Album): string {
+  return album.artist || "Loranne";
+}
+
 export function getAlbumsByProduct(product: Album["product"]) {
   return ALL_ALBUMS.filter((a) => a.product === product);
 }
