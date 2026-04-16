@@ -10,7 +10,7 @@ import { adminFetch } from "@/lib/admin-fetch";
 // Types
 // ─────────────────────────────────────────────
 
-type SlotStatus = "publicado" | "lancado" | "pronto" | "em-producao" | "a-produzir";
+type SlotStatus = "publicado" | "pronto" | "em-producao" | "a-produzir";
 
 type Slot = {
   slug: string;
@@ -19,7 +19,7 @@ type Slot = {
 
 type AudioMap = Record<string, Set<number>>;
 
-const STORAGE_KEY = "veus:lancamentos-v5"; // v5: slots from production calendar
+const STORAGE_KEY = "veus:lancamentos-v6"; // v6: albums stay in calendar, no "lancado" status // v5: slots from production calendar
 
 // ─────────────────────────────────────────────
 // Build slots directly from production calendar
@@ -118,11 +118,10 @@ function getCollectionColor(album: Album): string {
   return COLLECTION_COLORS[album.product] || "#666";
 }
 
-const STATUS_ORDER: SlotStatus[] = ["a-produzir", "em-producao", "pronto", "lancado", "publicado"];
+const STATUS_ORDER: SlotStatus[] = ["a-produzir", "em-producao", "pronto", "publicado"];
 
 const STATUS_CONFIG: Record<SlotStatus, { label: string; color: string; bg: string }> = {
   publicado: { label: "Publicado", color: "#4ade80", bg: "rgba(74,222,128,0.15)" },
-  lancado: { label: "Lancado", color: "#34d399", bg: "rgba(52,211,153,0.15)" },
   pronto: { label: "Pronto", color: "#60a5fa", bg: "rgba(96,165,250,0.15)" },
   "em-producao": { label: "Em producao", color: "#fbbf24", bg: "rgba(251,191,36,0.15)" },
   "a-produzir": { label: "A produzir", color: "#a0a0b0", bg: "rgba(160,160,176,0.15)" },
@@ -272,16 +271,19 @@ export default function LancamentosPage() {
       .catch(() => setLoading(false));
   }, []);
 
-  // ── Actions (calendarIdx = index in non-published slots) ──
+  // ── Actions (calendarIdx = index in calendar slots) ──
 
-  // Map calendar index to slots array index
+  // Map calendar index to slots array index (calendar = all slots in PRODUCTION_CALENDAR)
+  const _calSlugsSet = new Set(
+    PRODUCTION_CALENDAR.flatMap((w) => [w.albums.segunda, w.albums.quarta, w.albums.sexta])
+  );
   function toSlotsIdx(calIdx: number): number {
     let count = -1;
     for (let i = 0; i < slots.length; i++) {
-      if (slots[i].status !== "publicado") count++;
+      if (_calSlugsSet.has(slots[i].slug)) count++;
       if (count === calIdx) return i;
     }
-    return slots.length; // append position
+    return slots.length;
   }
 
   function cycleStatus(calIdx: number) {
@@ -314,7 +316,7 @@ export default function LancamentosPage() {
   }
 
   function moveDown(calIdx: number) {
-    const calSlots = slots.filter((s: Slot) => s.status !== "publicado");
+    const calSlots = slots.filter((s: Slot) => _calSlugsSet.has(s.slug));
     if (calIdx >= calSlots.length - 1) return;
     const si = toSlotsIdx(calIdx);
     const siNext = toSlotsIdx(calIdx + 1);
@@ -338,7 +340,7 @@ export default function LancamentosPage() {
     } else {
       const album = getAlbum(newSlug);
       const status: SlotStatus = album && isFullyProduced(newSlug, audioMap) ? "pronto" : "a-produzir";
-      const calSlots = slots.filter((s: Slot) => s.status !== "publicado");
+      const calSlots = slots.filter((s: Slot) => _calSlugsSet.has(s.slug));
       if (calIdx < calSlots.length) {
         // Replace existing slot
         const si = toSlotsIdx(calIdx);
@@ -367,10 +369,13 @@ export default function LancamentosPage() {
   // Generate dates: start from this week (next Mon/Wed/Fri)
   const startDate = new Date();
 
-  // Also separate published from slots for display
-  const publishedSlots = slots.filter((s: Slot) => s.status === "publicado");
-  const calendarSlots = slots.filter((s: Slot) => s.status !== "publicado");
-  // Only show weeks with content + 1 empty week + any extra requested
+  // Published albums OUTSIDE the calendar (Frequência, Ilusão, etc.)
+  const calendarSlugsSet = new Set(
+    PRODUCTION_CALENDAR.flatMap((w) => [w.albums.segunda, w.albums.quarta, w.albums.sexta])
+  );
+  const publishedSlots = slots.filter((s: Slot) => s.status === "publicado" && !calendarSlugsSet.has(s.slug));
+  // ALL calendar albums stay in the calendar (never removed)
+  const calendarSlots = slots.filter((s: Slot) => calendarSlugsSet.has(s.slug));
   const filledWeeks = Math.ceil(calendarSlots.length / 3);
   const visibleWeeks = filledWeeks + EXTRA_EMPTY_WEEKS + extraWeeks;
   const totalSlotCount = visibleWeeks * 3;
@@ -424,7 +429,7 @@ export default function LancamentosPage() {
       <div className="max-w-5xl mx-auto mb-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
         <StatCard
           label="Publicados"
-          value={countByStatus("publicado") + countByStatus("lancado")}
+          value={countByStatus("publicado")}
           color="#4ade80"
         />
         <StatCard label="Prontos" value={countByStatus("pronto")} color="#60a5fa" />
