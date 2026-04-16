@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRecommendations } from "@/hooks/useRecommendations";
-import type { AlbumTrack, Album } from "@/data/albums";
+import { getArtist, type AlbumTrack, type Album } from "@/data/albums";
 
 export default function ParaTiSection() {
   const recommendations = useRecommendations(8);
@@ -38,7 +38,7 @@ export default function ParaTiSection() {
             <p className="text-sm font-medium text-[#F5F0E6] truncate">
               {track.title}
             </p>
-            <p className="text-xs text-[#666680] truncate mt-0.5">Loranne</p>
+            <p className="text-xs text-[#666680] truncate mt-0.5">{getArtist(album)}</p>
           </Link>
         ))}
       </div>

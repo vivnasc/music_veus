@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext, useState, useRef, useCallback, useEffect, type ReactNode } from "react";
-import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
+import { ALL_ALBUMS, getArtist, type Album, type AlbumTrack } from "@/data/albums";
 import { getCachedAudioUrl } from "@/hooks/useDownloads";
 import { getAlbumCover } from "@/lib/album-covers";
 import { supabase } from "@/lib/supabase";
@@ -687,7 +687,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
 
     navigator.mediaSession.metadata = new MediaMetadata({
       title: displayTitle,
-      artist: "Loranne",
+      artist: album ? getArtist(album) : "Loranne",
       album: album?.title || "Véus",
       artwork: [
         ...(trackCoverUrl ? [{ src: trackCoverUrl, sizes: "512x512", type: "image/jpeg" }] : []),

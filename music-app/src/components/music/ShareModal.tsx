@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import type { Album, AlbumTrack } from "@/data/albums";
+import { getArtist, type Album, type AlbumTrack } from "@/data/albums";
 import { getShareUrl } from "@/lib/share-utils";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
 import { generateShareCard, downloadBlob, shareImage } from "@/lib/share-card";
@@ -64,8 +64,8 @@ export default function ShareModal({ track, album, onClose }: Props) {
   const shareUrl = getShareUrl(album.slug, track.number);
   const lyric = pickLyric(track);
   const shareText = lyric
-    ? `"${lyric}"\n— ${track.title}, Loranne`
-    : `${track.title} — Loranne`;
+    ? `"${lyric}"\n— ${track.title}, ${getArtist(album)}`
+    : `${track.title} — ${getArtist(album)}`;
 
   // Auto-generate story card on open
   useEffect(() => {
@@ -95,13 +95,13 @@ export default function ShareModal({ track, album, onClose }: Props) {
     if (!cardBlob) return;
     const shared = await shareImage(cardBlob, track);
     if (!shared) {
-      downloadBlob(cardBlob, `${track.title} — Loranne.png`);
+      downloadBlob(cardBlob, `${track.title} — ${getArtist(album)}.png`);
     }
   }
 
   async function handleDownload() {
     if (!cardBlob) return;
-    downloadBlob(cardBlob, `${track.title} — Loranne.png`);
+    downloadBlob(cardBlob, `${track.title} — ${getArtist(album)}.png`);
   }
 
   async function copyAll() {
@@ -144,7 +144,7 @@ export default function ShareModal({ track, album, onClose }: Props) {
         setShowTip("Imagem pronta. Guarda e abre no Instagram → Story.");
       });
     } else {
-      downloadBlob(cardBlob, `${track.title} — Loranne.png`);
+      downloadBlob(cardBlob, `${track.title} — ${getArtist(album)}.png`);
       setShowTip("Imagem guardada. Abre o Instagram → Story → Selecciona a imagem.");
       setTimeout(() => setShowTip(null), 4000);
     }
@@ -267,7 +267,7 @@ export default function ShareModal({ track, album, onClose }: Props) {
             <div className="flex gap-2">
               <a
                 href={hookVideoUrl}
-                download={`${track.title} — Loranne hook.mp4`}
+                download={`${track.title} — ${getArtist(album)} hook.mp4`}
                 className="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-lg text-xs font-medium transition-all text-[#0D0D1A]"
                 style={{ backgroundColor: album.color || "#C9A96E" }}
               >
@@ -282,7 +282,7 @@ export default function ShareModal({ track, album, onClose }: Props) {
                     try {
                       const res = await fetch(hookVideoUrl);
                       const blob = await res.blob();
-                      const file = new File([blob], `${track.title} — Loranne.mp4`, { type: "video/mp4" });
+                      const file = new File([blob], `${track.title} — ${getArtist(album)}.mp4`, { type: "video/mp4" });
                       if (navigator.canShare?.({ files: [file] })) {
                         await navigator.share({ files: [file], title: track.title });
                       }

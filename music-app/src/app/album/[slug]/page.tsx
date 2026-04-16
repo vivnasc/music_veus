@@ -3,7 +3,7 @@
 import { use } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ALL_ALBUMS as ALBUMS, ENERGY_LABELS } from "@/data/albums";
+import { ALL_ALBUMS as ALBUMS, ENERGY_LABELS, getArtist } from "@/data/albums";
 import { useState } from "react";
 import { useMusicPlayer } from "@/contexts/MusicPlayerContext";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
@@ -183,7 +183,7 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
               <h1 className="font-display text-3xl sm:text-4xl font-bold text-[#F5F0E6] mt-1 leading-tight">
                 {album.title}
               </h1>
-              <p className="text-sm text-[#C9A96E] mt-1">Loranne</p>
+              <p className="text-sm text-[#C9A96E] mt-1">{getArtist(album)}</p>
               <p className="text-[#a0a0b0] mt-2">{album.subtitle}</p>
               <div className="flex items-center gap-3 mt-4 text-xs text-[#666680]">
                 <span>{album.tracks.length} faixas</span>
@@ -245,11 +245,11 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
                     if (navigator.share) {
                       navigator.share({
                         title: album.title,
-                        text: `${album.title} — Loranne`,
+                        text: `${album.title} — ${getArtist(album)}`,
                         url: `${window.location.origin}/album/${album.slug}`,
                       }).catch(() => {});
                     } else {
-                      navigator.clipboard.writeText(`${album.title} — Loranne\n${window.location.origin}/album/${album.slug}`);
+                      navigator.clipboard.writeText(`${album.title} — ${getArtist(album)}\n${window.location.origin}/album/${album.slug}`);
                     }
                   }}
                   className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-sm text-[#a0a0b0] border border-white/10 hover:bg-white/5 transition-colors"

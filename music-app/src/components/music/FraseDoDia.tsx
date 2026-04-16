@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { ALL_ALBUMS } from "@/data/albums";
+import { ALL_ALBUMS, getArtist } from "@/data/albums";
 
 /**
  * Frase do Dia — a daily lyric card.
@@ -10,7 +10,7 @@ import { ALL_ALBUMS } from "@/data/albums";
  */
 
 function getDailyLyric() {
-  const allLines: { line: string; trackTitle: string; trackNumber: number; albumTitle: string; albumSlug: string; albumColor: string }[] = [];
+  const allLines: { line: string; trackTitle: string; trackNumber: number; albumTitle: string; albumSlug: string; albumColor: string; artist: string }[] = [];
 
   for (const album of ALL_ALBUMS) {
     for (const track of album.tracks) {
@@ -27,6 +27,7 @@ function getDailyLyric() {
           albumTitle: album.title,
           albumSlug: album.slug,
           albumColor: album.color,
+          artist: getArtist(album),
         });
       }
     }
@@ -52,7 +53,7 @@ export default function FraseDoDia() {
     const fullUrl = typeof window !== "undefined"
       ? `${window.location.origin}${partilhaUrl}`
       : partilhaUrl;
-    const text = `"${daily!.line}"\n— ${daily!.trackTitle}, Loranne\n\n${fullUrl}`;
+    const text = `"${daily!.line}"\n— ${daily!.trackTitle}, ${daily!.artist}\n\n${fullUrl}`;
 
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
