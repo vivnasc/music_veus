@@ -256,7 +256,6 @@ function SingleCard({
       {state.status === "done" && !state.loopUrl && (
         <button
           onClick={() => onBuildLoop(single)}
-          disabled={state.status === "generating"}
           className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-blue-800/30 text-blue-300 hover:bg-blue-800/50 transition"
         >
           Montar loop 1h
