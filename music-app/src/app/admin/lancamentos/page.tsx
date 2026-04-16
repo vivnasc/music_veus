@@ -19,7 +19,7 @@ type Slot = {
 
 type AudioMap = Record<string, Set<number>>;
 
-const STORAGE_KEY = "veus:lancamentos-v6"; // v6: albums stay in calendar, no "lancado" status // v5: slots from production calendar
+const STORAGE_KEY = "veus:lancamentos-v7"; // v7: force clean rebuild // v5: slots from production calendar
 
 // ─────────────────────────────────────────────
 // Build slots directly from production calendar
@@ -213,20 +213,38 @@ export default function LancamentosPage() {
     }
   }, []);
 
-  // ── Load from localStorage ──
+  // ── Load from localStorage + validate all calendar albums present ──
 
   useEffect(() => {
+    let loadedSlots: Slot[] | null = null;
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         const parsed = JSON.parse(saved) as Slot[];
         if (Array.isArray(parsed) && parsed.length > 0) {
-          setSlots(parsed);
+          loadedSlots = parsed;
         }
       }
-    } catch {
-      // ignore
+    } catch {}
+
+    // Ensure ALL calendar albums are present (re-add if missing)
+    const slotsToUse = loadedSlots || DEFAULT_SLOTS;
+    const existingSlugs = new Set(slotsToUse.map((s) => s.slug));
+    const calSlugs = PRODUCTION_CALENDAR.flatMap((w) => [w.albums.segunda, w.albums.quarta, w.albums.sexta]);
+    let patched = false;
+    for (const slug of calSlugs) {
+      if (!existingSlugs.has(slug)) {
+        const album = ALL_ALBUMS.find((a) => a.slug === slug);
+        const status: SlotStatus = album?.status === "published" ? "publicado"
+          : album?.status === "produced" ? "pronto" : "a-produzir";
+        slotsToUse.push({ slug, status });
+        patched = true;
+      }
     }
+    if (patched) {
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(slotsToUse)); } catch {}
+    }
+    setSlots(slotsToUse);
     setLoaded(true);
   }, []);
 
