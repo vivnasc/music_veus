@@ -391,7 +391,6 @@ export default function AncientGroundPage() {
           instrumental: true,
           title: single.title,
           model: sunoModel,
-          customStyle: "African instrumental, mbira, kora, balafon, meditative, hypnotic",
         }),
       });
 

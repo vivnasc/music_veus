@@ -32,7 +32,7 @@ function extractStyleTags(prompt: string): string {
     // Instruments
     "piano", "guitar", "acoustic guitar", "nylon guitar", "strings",
     "synth", "bass", "drums", "percussion", "organ", "Rhodes",
-    "shaker", "choir",
+    "shaker", "choir", "mbira", "kora", "balafon", "thumb piano",
     // Mood/feel
     "intimate", "ethereal", "contemplative", "raw", "powerful",
     "driving", "gentle", "warm", "dark", "bright", "building",
@@ -280,8 +280,16 @@ export async function POST(req: NextRequest) {
       body.personaModel = personaModel || "voice_persona";
     }
 
-    // Always build a style — ensures each track gets unique style tags
-    const finalStyle = customStyle || buildStyle(energy, flavor, prompt);
+    // Build style — for instrumental tracks, never use buildStyle (it adds vocal tags)
+    let finalStyle: string;
+    if (customStyle) {
+      finalStyle = customStyle;
+    } else if (instrumental) {
+      // Extract style keywords from the prompt itself (instruments, mood, atmosphere)
+      finalStyle = extractStyleTags(prompt);
+    } else {
+      finalStyle = buildStyle(energy, flavor, prompt);
+    }
 
     if (hasLyrics) {
       // Custom mode: prompt = lyrics, style = musical direction
