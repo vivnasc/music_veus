@@ -2351,6 +2351,13 @@ export default function AlbumProductionPage() {
               Gerar Fotos
             </Link>
 
+            <Link
+              href="/admin/ancient-ground"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-amber-900/30 px-4 py-2.5 text-xs min-h-[44px] text-amber-400 hover:bg-amber-900/50 transition flex items-center"
+            >
+              Ancient Ground
+            </Link>
+
             <div className="shrink-0 flex gap-1 rounded-full bg-mundo-muted-dark/10 p-1">
               <button
                 onClick={() => setViewMode("producao")}
