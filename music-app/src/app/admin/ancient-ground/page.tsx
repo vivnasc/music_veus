@@ -473,7 +473,7 @@ export default function AncientGroundPage() {
 
         // Download audio blob
         let blob: Blob;
-        const audioSrc = clip.originalAudioUrl || clip.audioUrl!;
+        const audioSrc = clip.audioUrl!;
         if (audioSrc.startsWith("blob:")) {
           blob = await (await fetch(audioSrc)).blob();
         } else {
@@ -494,7 +494,10 @@ export default function AncientGroundPage() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ filename }),
         });
-        if (!signedRes.ok) throw new Error("Erro ao gerar URL de upload");
+        if (!signedRes.ok) {
+          const e = await signedRes.json().catch(() => ({}));
+          throw new Error(`Signed URL falhou (${signedRes.status}): ${e.erro || JSON.stringify(e).slice(0, 100)}`);
+        }
         const { signedUrl } = await signedRes.json();
 
         const uploadRes = await fetch(signedUrl, {
@@ -502,7 +505,10 @@ export default function AncientGroundPage() {
           headers: { "Content-Type": "audio/mpeg" },
           body: blob,
         });
-        if (!uploadRes.ok) throw new Error(`Upload falhou (${uploadRes.status})`);
+        if (!uploadRes.ok) {
+          const errText = await uploadRes.text().catch(() => "");
+          throw new Error(`Upload áudio falhou (${uploadRes.status}): ${errText.slice(0, 100)}`);
+        }
       }
 
       // Upload cover for each clip — each track gets its own cover
@@ -581,7 +587,7 @@ export default function AncientGroundPage() {
   // Build 1h loop from Supabase clips (pure JS byte concatenation)
   async function buildLoop(single: AncientGroundSingle) {
     const num = single.number;
-    const safeTrack = String(num).padStart(2, "0");
+    const mainTrack = String(num * 2 - 1).padStart(2, "0");
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
     const basePath = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
 
@@ -636,7 +642,7 @@ export default function AncientGroundPage() {
         [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A fazer upload do loop 1h..." },
       }));
 
-      const filename = `albums/ancient-ground/faixa-${safeTrack}-1h.mp3`;
+      const filename = `albums/ancient-ground/faixa-${mainTrack}-1h.mp3`;
       const signedRes = await adminFetch("/api/admin/signed-upload-url", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -651,7 +657,10 @@ export default function AncientGroundPage() {
         headers: { "Content-Type": "audio/mpeg" },
         body: loopBlob,
       });
-      if (!uploadRes.ok) throw new Error(`Upload falhou (${uploadRes.status})`);
+      if (!uploadRes.ok) {
+        const errText = await uploadRes.text().catch(() => "");
+        throw new Error(`Upload loop falhou (${uploadRes.status}): ${errText.slice(0, 100)}`);
+      }
 
       setStates((s) => ({
         ...s,
