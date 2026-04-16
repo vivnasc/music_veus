@@ -344,7 +344,6 @@ export default function SearchPage() {
                   { title: "Maré", sub: "O que vai e volta", subEn: "Tide", products: ["mare"] },
                   { title: "Cursos", sub: "Escola dos Véus", subEn: "Courses", products: ["curso"] },
                   { title: "Livro", sub: "Livro filosófico", subEn: "Book", products: ["livro"] },
-                  { title: "Ancient Ground", sub: "Música africana meditativa", subEn: "African meditation music", products: ["ancient-ground"] },
                 ].map(({ title, sub, subEn, products }) => {
                   const albums = ALL_ALBUMS.filter(a => products.includes(a.product) && publishedAlbums.has(a.slug));
                   if (albums.length === 0) return null;

@@ -249,27 +249,30 @@ function SingleCard({
               Aprovar e guardar no Supabase ({state.clips.filter(c => c.audioUrl).length} versões)
             </button>
           )}
-
-          {/* Build 1h loop — after approval */}
-          <button
-            onClick={() => onBuildLoop(single)}
-            disabled={state.status === "generating"}
-            className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-blue-800/30 text-blue-300 hover:bg-blue-800/50 transition"
-          >
-            {state.status === "generating" ? "A montar loop..." : "Montar loop 1h"}
-          </button>
-
-          {/* Download 1h — appears after loop is built */}
-          {state.loopUrl && (
-            <a
-              href={state.loopUrl}
-              download={`${single.title} - Ancient Ground (1h).mp3`}
-              className="w-full block text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
-            >
-              Download 1h para DistroKid
-            </a>
-          )}
         </div>
+      )}
+
+      {/* Build 1h loop + Download — visible for all "done" singles */}
+      {state.status === "done" && !state.loopUrl && (
+        <button
+          onClick={() => onBuildLoop(single)}
+          disabled={state.status === "generating"}
+          className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-blue-800/30 text-blue-300 hover:bg-blue-800/50 transition"
+        >
+          Montar loop 1h
+        </button>
+      )}
+      {state.status === "generating" && state.error?.includes("loop") && (
+        <p className="text-[10px] text-blue-400 animate-pulse">{state.error}</p>
+      )}
+      {state.loopUrl && (
+        <a
+          href={state.loopUrl}
+          download={`${single.title} - Ancient Ground (1h).mp3`}
+          className="w-full block text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
+        >
+          Download 1h para DistroKid
+        </a>
       )}
     </div>
   );
