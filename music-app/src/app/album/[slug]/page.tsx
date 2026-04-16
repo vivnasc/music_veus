@@ -99,7 +99,7 @@ function VersionRow({
 export default function AlbumPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
   const album = ALBUMS.find(a => a.slug === slug);
-  const { currentTrack, currentAlbum, playAlbum, addToQueue } = useMusicPlayer();
+  const { currentTrack, currentAlbum, playAlbum, addToQueue, toggleShuffle, shuffle } = useMusicPlayer();
   const [showPlaylistModal, setShowPlaylistModal] = useState(false);
   const { isPremium, requestPlay } = useSubscriptionGate();
   const { saveAlbum, isSaved } = useDownloads();
@@ -206,6 +206,24 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
                     <path d="M8 5v14l11-7z" />
                   </svg>
                   Ouvir album
+                </button>
+                <button
+                  onClick={() => {
+                    if (!shuffle) toggleShuffle();
+                    const randomStart = Math.floor(Math.random() * album.tracks.length);
+                    playAlbum(album, randomStart);
+                  }}
+                  className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-sm border transition-colors ${
+                    shuffle
+                      ? "text-[#C9A96E] border-[#C9A96E]/40 bg-[#C9A96E]/10"
+                      : "text-[#a0a0b0] border-white/10 hover:bg-white/5"
+                  }`}
+                  title="Aleatório"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4">
+                    <path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" />
+                  </svg>
+                  Aleatório
                 </button>
                 {(() => {
                   const allSaved = album.tracks.every(t => isSaved(album.slug, t.number));

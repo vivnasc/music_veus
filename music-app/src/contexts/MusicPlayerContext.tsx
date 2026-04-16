@@ -552,6 +552,26 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     }
 
     setState(prev => {
+      // In shuffle mode, walk back through shuffleHistory to actual previously-played track
+      if (prev.shuffle && prev.shuffleHistory.length > 1) {
+        const history = [...prev.shuffleHistory];
+        history.pop(); // remove current
+        const prevIdx = history[history.length - 1];
+        const prevTrack = prev.queue[prevIdx];
+        const album = resolveAlbumForTrack(prevTrack, prev.queueAlbum);
+        if (prevTrack && album) {
+          setSourceAndPlay(audio, prevTrack, album, blobUrlRef);
+        }
+        return {
+          ...prev,
+          currentTrack: prevTrack,
+          currentAlbum: album,
+          shuffleHistory: history,
+          isPlaying: !!(prevTrack && album),
+        };
+      }
+
+      // Non-shuffle: walk back by queue index
       const currentIdx = prev.queue.findIndex(t => {
         if (t.number !== prev.currentTrack?.number) return false;
         const trackAlbum = (t as QueueTrack).albumSlug;
