@@ -696,10 +696,10 @@ export default function AncientGroundPage() {
       <div className="mb-6">
         <h1 className="text-2xl font-serif text-amber-400 mb-1">Ancient Ground</h1>
         <p className="text-xs text-mundo-muted">
-          49 singles instrumentais africanos meditativos — Mbira, Kora, Balafon
+          50 singles instrumentais africanos meditativos — Mbira, Kora, Balafon
         </p>
         <p className="text-[10px] text-mundo-muted-dark mt-1">
-          {totalGenerated} / 49 gerados
+          {totalGenerated} / 50 gerados
         </p>
       </div>
 

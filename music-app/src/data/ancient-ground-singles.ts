@@ -319,6 +319,12 @@ export const ANCIENT_GROUND_SINGLES: AncientGroundSingle[] = [
     prompt: "Cinematic African instrumental, kora over soft ambient drone, slow evolving melody, no beat, no vocals, vast and contemplative, emotional depth, transformation theme",
     status: "pending",
   },
+  {
+    number: 50,
+    title: "Home",
+    prompt: "Meditative African instrumental, solo kora with slow mbira undertones, contemplative and grounding, no percussion, no vocals, warm resonance, gentle harmonic repetition, introspective mood, timeless and spacious, like returning",
+    status: "pending",
+  },
 ];
 
 /** FFmpeg commands for reference in the admin UI */
