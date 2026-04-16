@@ -129,12 +129,14 @@ function SingleCard({
   sunoModel,
   onGenerate,
   onDownloadClip,
+  onApprove,
 }: {
   single: AncientGroundSingle;
   state: SingleState;
   sunoModel: string;
   onGenerate: () => void;
   onDownloadClip: (url: string, title: string) => void;
+  onApprove: (single: AncientGroundSingle, clips: SunoClip[]) => void;
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
   const [showFfmpeg, setShowFfmpeg] = useState(false);
@@ -200,27 +202,45 @@ function SingleCard({
           : `Gerar no Suno (${sunoModel})`}
       </button>
 
-      {/* Generated clips */}
+      {/* Generated clips — Suno generates 2 versions per prompt */}
       {state.clips.length > 0 && (
         <div className="space-y-3">
+          <p className="text-[10px] text-mundo-muted">
+            {state.clips.length} versões geradas — usa ambas para um loop mais rico
+          </p>
           {state.clips.map((clip, i) => (
             <div key={clip.id || i} className="rounded-lg bg-black/20 p-3">
-              <p className="text-[10px] text-mundo-muted mb-1">
-                Clip {i + 1} {clip.duration ? `(${formatTime(clip.duration)})` : ""}
-              </p>
+              <div className="flex items-start gap-3 mb-2">
+                {clip.imageUrl && (
+                  <img src={clip.imageUrl} alt="" className="w-12 h-12 rounded-lg object-cover shrink-0" />
+                )}
+                <p className="text-[11px] text-amber-300 font-medium">
+                  Versão {String.fromCharCode(65 + i)} {clip.duration ? `(${formatTime(clip.duration)})` : ""}
+                </p>
+              </div>
               {clip.audioUrl && <MiniPlayer src={clip.audioUrl} />}
               <div className="flex gap-2 flex-wrap">
                 {clip.audioUrl && (
                   <button
-                    onClick={() => onDownloadClip(clip.originalAudioUrl || clip.audioUrl!, single.title)}
+                    onClick={() => onDownloadClip(clip.originalAudioUrl || clip.audioUrl!, `${single.title} - v${String.fromCharCode(65 + i)}`)}
                     className="rounded px-3 py-1.5 text-[10px] bg-green-900/30 text-green-400 hover:bg-green-900/50 transition"
                   >
-                    Download MP3
+                    Download Versão {String.fromCharCode(65 + i)}
                   </button>
                 )}
               </div>
             </div>
           ))}
+
+          {/* Approve — upload both clips to Supabase */}
+          {state.clips.some(c => c.audioUrl) && (
+            <button
+              onClick={() => onApprove(single, state.clips)}
+              className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
+            >
+              Aprovar e guardar no Supabase ({state.clips.filter(c => c.audioUrl).length} versões)
+            </button>
+          )}
 
           {/* FFmpeg commands */}
           <button
@@ -229,30 +249,27 @@ function SingleCard({
           >
             {showFfmpeg ? "Esconder FFmpeg" : "Ver comandos FFmpeg"}
           </button>
-          {showFfmpeg && (
-            <div className="rounded-lg bg-black/30 p-3 space-y-2">
-              <div>
-                <p className="text-[10px] text-mundo-muted mb-1">Loop simples (1 hora):</p>
-                <code className="block text-[10px] text-green-300 font-mono break-all">
-                  {FFMPEG_COMMANDS.loop(`${single.title.toLowerCase().replace(/\s+/g, "-")}.mp3`, `${single.title.toLowerCase().replace(/\s+/g, "-")}-1h.mp3`)}
-                </code>
-                <CopyButton
-                  text={FFMPEG_COMMANDS.loop(`${single.title.toLowerCase().replace(/\s+/g, "-")}.mp3`, `${single.title.toLowerCase().replace(/\s+/g, "-")}-1h.mp3`)}
-                  label="Copiar"
-                />
+          {showFfmpeg && (() => {
+            const slug = single.title.toLowerCase().replace(/\s+/g, "-");
+            return (
+              <div className="rounded-lg bg-black/30 p-3 space-y-3">
+                <div>
+                  <p className="text-[10px] text-green-400 font-medium mb-1">Loop com 2 versões (recomendado):</p>
+                  <code className="block text-[10px] text-green-300 font-mono break-all">
+                    {FFMPEG_COMMANDS.loopBoth(`${slug}-vA.mp3`, `${slug}-vB.mp3`, `${slug}-1h.mp3`)}
+                  </code>
+                  <CopyButton text={FFMPEG_COMMANDS.loopBoth(`${slug}-vA.mp3`, `${slug}-vB.mp3`, `${slug}-1h.mp3`)} label="Copiar" />
+                </div>
+                <div>
+                  <p className="text-[10px] text-mundo-muted mb-1">Loop simples (1 versão):</p>
+                  <code className="block text-[10px] text-mundo-muted/70 font-mono break-all">
+                    {FFMPEG_COMMANDS.loop(`${slug}.mp3`, `${slug}-1h.mp3`)}
+                  </code>
+                  <CopyButton text={FFMPEG_COMMANDS.loop(`${slug}.mp3`, `${slug}-1h.mp3`)} label="Copiar" />
+                </div>
               </div>
-              <div>
-                <p className="text-[10px] text-mundo-muted mb-1">Com crossfade (se emenda audível):</p>
-                <code className="block text-[10px] text-yellow-300 font-mono break-all">
-                  {FFMPEG_COMMANDS.loopWithFade(`${single.title.toLowerCase().replace(/\s+/g, "-")}.mp3`, `${single.title.toLowerCase().replace(/\s+/g, "-")}-1h.mp3`)}
-                </code>
-                <CopyButton
-                  text={FFMPEG_COMMANDS.loopWithFade(`${single.title.toLowerCase().replace(/\s+/g, "-")}.mp3`, `${single.title.toLowerCase().replace(/\s+/g, "-")}-1h.mp3`)}
-                  label="Copiar"
-                />
-              </div>
-            </div>
-          )}
+            );
+          })()}
         </div>
       )}
     </div>
@@ -374,7 +391,6 @@ export default function AncientGroundPage() {
           instrumental: true,
           title: single.title,
           model: sunoModel,
-          customStyle: "meditative, African instrumental, ambient, hypnotic, no percussion, no vocals",
         }),
       });
 
@@ -400,6 +416,105 @@ export default function AncientGroundPage() {
       setStates((s) => ({
         ...s,
         [single.number]: { status: "error", error: msg, clips: [] },
+      }));
+    }
+  }
+
+  // Approve single — upload clips + cover to Supabase
+  async function approveSingle(single: AncientGroundSingle, clips: SunoClip[]) {
+    const num = single.number;
+    setStates((s) => ({
+      ...s,
+      [num]: { ...s[num], status: "generating" as const, error: "A guardar no Supabase..." },
+    }));
+
+    try {
+      const safeTrack = String(num).padStart(2, "0");
+      const clipsWithAudio = clips.filter((c) => c.audioUrl);
+
+      for (let i = 0; i < clipsWithAudio.length; i++) {
+        const clip = clipsWithAudio[i];
+        const suffix = clipsWithAudio.length > 1 ? `-v${String.fromCharCode(65 + i)}` : "";
+        const filename = `albums/ancient-ground/faixa-${safeTrack}${suffix}.mp3`;
+
+        // Download audio blob
+        let blob: Blob;
+        const audioSrc = clip.originalAudioUrl || clip.audioUrl!;
+        if (audioSrc.startsWith("blob:")) {
+          blob = await (await fetch(audioSrc)).blob();
+        } else {
+          const r = await adminFetch("/api/admin/proxy-download", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ url: audioSrc }),
+          });
+          blob = await r.blob();
+        }
+
+        if (blob.size < 1000) throw new Error(`Clip ${i + 1} demasiado pequeno (${blob.size} bytes)`);
+
+        // Upload via signed URL
+        const signedRes = await adminFetch("/api/admin/signed-upload-url", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ filename }),
+        });
+        if (!signedRes.ok) throw new Error("Erro ao gerar URL de upload");
+        const { signedUrl } = await signedRes.json();
+
+        const uploadRes = await fetch(signedUrl, {
+          method: "PUT",
+          headers: { "Content-Type": "audio/mpeg" },
+          body: blob,
+        });
+        if (!uploadRes.ok) throw new Error(`Upload falhou (${uploadRes.status})`);
+      }
+
+      // Upload cover from first clip that has an image
+      const clipWithImage = clips.find((c) => c.imageUrl);
+      if (clipWithImage?.imageUrl) {
+        try {
+          const coverFilename = `albums/ancient-ground/faixa-${safeTrack}-cover.jpg`;
+          let coverBlob: Blob;
+          try {
+            coverBlob = await (await fetch(clipWithImage.imageUrl)).blob();
+          } catch {
+            const r = await adminFetch("/api/admin/proxy-download", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ url: clipWithImage.imageUrl }),
+            });
+            coverBlob = await r.blob();
+          }
+          if (coverBlob.size > 1000) {
+            const signedRes = await adminFetch("/api/admin/signed-upload-url", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ filename: coverFilename }),
+            });
+            if (signedRes.ok) {
+              const { signedUrl } = await signedRes.json();
+              await fetch(signedUrl, {
+                method: "PUT",
+                headers: { "Content-Type": "image/jpeg" },
+                body: coverBlob,
+              });
+            }
+          }
+        } catch (e) {
+          console.warn("Cover upload failed:", e);
+        }
+      }
+
+      setStates((s) => ({
+        ...s,
+        [num]: { ...s[num], status: "done", error: `Guardado! ${clipsWithAudio.length} versões no Supabase.` },
+      }));
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : String(err);
+      setStates((s) => ({
+        ...s,
+        [num]: { ...s[num], status: "error", error: msg },
       }));
     }
   }
@@ -504,6 +619,7 @@ export default function AncientGroundPage() {
             sunoModel={sunoModel}
             onGenerate={() => generateSingle(single)}
             onDownloadClip={downloadClip}
+            onApprove={approveSingle}
           />
         ))}
       </div>

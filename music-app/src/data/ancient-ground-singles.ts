@@ -323,10 +323,13 @@ export const ANCIENT_GROUND_SINGLES: AncientGroundSingle[] = [
 
 /** FFmpeg commands for reference in the admin UI */
 export const FFMPEG_COMMANDS = {
-  /** Basic loop to 1 hour (no re-encoding) */
+  /** Basic loop of 1 file to 1 hour */
   loop: (inputFile: string, outputFile: string) =>
     `ffmpeg -stream_loop -1 -i "${inputFile}" -t 3600 -c copy "${outputFile}"`,
   /** Loop with crossfade for audible seams */
   loopWithFade: (inputFile: string, outputFile: string) =>
     `ffmpeg -i "${inputFile}" -af "afade=t=out:st=170:d=10,afade=t=in:st=0:d=10" "${inputFile.replace('.mp3', '_fade.mp3')}" && ffmpeg -stream_loop -1 -i "${inputFile.replace('.mp3', '_fade.mp3')}" -t 3600 -c copy "${outputFile}"`,
+  /** Concat 2 versions then loop to 1 hour (more variation, natural transitions) */
+  loopBoth: (fileA: string, fileB: string, outputFile: string) =>
+    `ffmpeg -i "concat:${fileA}|${fileB}" -acodec copy both.mp3 && ffmpeg -stream_loop -1 -i both.mp3 -t 3600 -c copy "${outputFile}"`,
 };
