@@ -420,7 +420,6 @@ export default function AncientGroundPage() {
       for (let i = 0; i < clipsWithAudio.length; i++) {
         const clip = clipsWithAudio[i];
         const suffix = clipsWithAudio.length > 1 ? `-v${String.fromCharCode(65 + i)}` : "";
-        const filename = `albums/ancient-ground/faixa-${safeTrack}${suffix}.mp3`;
 
         // Download audio blob
         let blob: Blob;
@@ -438,11 +437,12 @@ export default function AncientGroundPage() {
 
         if (blob.size < 1000) throw new Error(`Clip ${i + 1} demasiado pequeno (${blob.size} bytes)`);
 
-        // Upload via signed URL
-        const signedRes = await adminFetch("/api/admin/signed-upload-url", {
+        // Upload versioned file (vA, vB) for loop building
+        const versionedFilename = `albums/ancient-ground/faixa-${safeTrack}${suffix}.mp3`;
+        let signedRes = await adminFetch("/api/admin/signed-upload-url", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ filename }),
+          body: JSON.stringify({ filename: versionedFilename }),
         });
         if (!signedRes.ok) throw new Error("Erro ao gerar URL de upload");
         const { signedUrl } = await signedRes.json();
@@ -453,6 +453,24 @@ export default function AncientGroundPage() {
           body: blob,
         });
         if (!uploadRes.ok) throw new Error(`Upload falhou (${uploadRes.status})`);
+
+        // First clip also becomes faixa-XX.mp3 (the version the app player uses)
+        if (i === 0) {
+          const playerFilename = `albums/ancient-ground/faixa-${safeTrack}.mp3`;
+          signedRes = await adminFetch("/api/admin/signed-upload-url", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ filename: playerFilename }),
+          });
+          if (signedRes.ok) {
+            const { signedUrl: playerUrl } = await signedRes.json();
+            await fetch(playerUrl, {
+              method: "PUT",
+              headers: { "Content-Type": "audio/mpeg" },
+              body: blob,
+            });
+          }
+        }
       }
 
       // Upload cover from first clip that has an image
