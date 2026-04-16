@@ -473,7 +473,7 @@ export default function AncientGroundPage() {
 
         // Download audio blob
         let blob: Blob;
-        const audioSrc = clip.originalAudioUrl || clip.audioUrl!;
+        const audioSrc = clip.audioUrl!;
         if (audioSrc.startsWith("blob:")) {
           blob = await (await fetch(audioSrc)).blob();
         } else {
@@ -587,7 +587,7 @@ export default function AncientGroundPage() {
   // Build 1h loop from Supabase clips (pure JS byte concatenation)
   async function buildLoop(single: AncientGroundSingle) {
     const num = single.number;
-    const safeTrack = String(num).padStart(2, "0");
+    const mainTrack = String(num * 2 - 1).padStart(2, "0");
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
     const basePath = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
 
@@ -642,7 +642,7 @@ export default function AncientGroundPage() {
         [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A fazer upload do loop 1h..." },
       }));
 
-      const filename = `albums/ancient-ground/faixa-${safeTrack}-1h.mp3`;
+      const filename = `albums/ancient-ground/faixa-${mainTrack}-1h.mp3`;
       const signedRes = await adminFetch("/api/admin/signed-upload-url", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
