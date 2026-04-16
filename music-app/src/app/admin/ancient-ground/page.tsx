@@ -159,7 +159,13 @@ function SingleCard({
           </div>
         </div>
         {state.status === "done" && (
-          <span className="shrink-0 text-[10px] text-green-400 bg-green-900/20 rounded-full px-2 py-0.5">gerado</span>
+          <span className={`shrink-0 text-[10px] rounded-full px-2 py-0.5 ${
+            state.loopUrl
+              ? "text-blue-400 bg-blue-900/20"
+              : "text-green-400 bg-green-900/20"
+          }`}>
+            {state.loopUrl ? "loop 1h" : "gerado"}
+          </span>
         )}
       </div>
 
@@ -276,6 +282,37 @@ export default function AncientGroundPage() {
   const [states, setStates] = useState<Record<number, SingleState>>({});
   const [search, setSearch] = useState("");
   const pollingRef = useRef<Record<number, ReturnType<typeof setInterval>>>({});
+
+  // On mount: check Supabase for already-generated singles
+  useEffect(() => {
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+    const basePath = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+
+    async function checkExisting() {
+      const found: Record<number, SingleState> = {};
+      const checks = ANCIENT_GROUND_SINGLES.map(async (s) => {
+        const trackNum = String(s.number * 2 - 1).padStart(2, "0");
+        const [audioRes, loopRes] = await Promise.all([
+          fetch(`${basePath}/faixa-${trackNum}.mp3`, { method: "HEAD" }),
+          fetch(`${basePath}/faixa-${trackNum}-1h.mp3`, { method: "HEAD" }),
+        ]);
+        if (audioRes.ok) {
+          const hasLoop = loopRes.ok;
+          found[s.number] = {
+            status: "done",
+            error: hasLoop ? "Gerado + loop 1h" : "Gerado (sem loop)",
+            clips: [],
+            loopUrl: hasLoop ? `${basePath}/faixa-${trackNum}-1h.mp3` : undefined,
+          };
+        }
+      });
+      await Promise.all(checks);
+      if (Object.keys(found).length > 0) {
+        setStates((s) => ({ ...s, ...found }));
+      }
+    }
+    checkExisting();
+  }, []);
 
   // Get state for a single (default idle)
   function getState(num: number): SingleState {

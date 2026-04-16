@@ -9,7 +9,7 @@ import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
 import { getTrackCoverUrl } from "@/lib/album-covers";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
 
-const COLLECTION_PRODUCTS = ["espelho", "no", "curso", "livro", "incenso", "eter", "nua", "sangue", "fibra", "grao", "mare"] as const;
+const COLLECTION_PRODUCTS = ["espelho", "no", "curso", "livro", "incenso", "eter", "nua", "sangue", "fibra", "grao", "mare", "ancient-ground"] as const;
 
 const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }> = {
   espelho: { pt: "Espelhos", en: "Mirrors", sub: "A transformação interior — os 7 véus" },
@@ -23,6 +23,7 @@ const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }>
   fibra: { pt: "Fibra", en: "Fiber", sub: "O corpo que insiste" },
   grao: { pt: "Grão", en: "Grain", sub: "O pequeno que faz o todo" },
   mare: { pt: "Maré", en: "Tide", sub: "O que vai e volta" },
+  "ancient-ground": { pt: "Ancient Ground", en: "Ancient Ground", sub: "Música africana meditativa — mbira, kora, balafon" },
 };
 
 function getFeaturedAlbum(product: string, publishedKeys: Set<string>): Album | null {
