@@ -414,12 +414,13 @@ export default function AncientGroundPage() {
     }));
 
     try {
-      const safeTrack = String(num).padStart(2, "0");
       const clipsWithAudio = clips.filter((c) => c.audioUrl);
 
       for (let i = 0; i < clipsWithAudio.length; i++) {
         const clip = clipsWithAudio[i];
-        const suffix = clipsWithAudio.length > 1 ? `-v${String.fromCharCode(65 + i)}` : "";
+        // Track numbering: vA = single*2-1 (odd), vB = single*2 (even)
+        const trackNum = num * 2 - 1 + i;
+        const safeTrack = String(trackNum).padStart(2, "0");
 
         // Download audio blob
         let blob: Blob;
@@ -437,12 +438,12 @@ export default function AncientGroundPage() {
 
         if (blob.size < 1000) throw new Error(`Clip ${i + 1} demasiado pequeno (${blob.size} bytes)`);
 
-        // Upload versioned file (vA, vB) for loop building
-        const versionedFilename = `albums/ancient-ground/faixa-${safeTrack}${suffix}.mp3`;
+        // Upload as faixa-XX.mp3 (playable in app)
+        const filename = `albums/ancient-ground/faixa-${safeTrack}.mp3`;
         let signedRes = await adminFetch("/api/admin/signed-upload-url", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ filename: versionedFilename }),
+          body: JSON.stringify({ filename }),
         });
         if (!signedRes.ok) throw new Error("Erro ao gerar URL de upload");
         const { signedUrl } = await signedRes.json();
@@ -453,47 +454,14 @@ export default function AncientGroundPage() {
           body: blob,
         });
         if (!uploadRes.ok) throw new Error(`Upload falhou (${uploadRes.status})`);
-
-        // First clip also becomes faixa-XX.mp3 (the version the app player uses)
-        if (i === 0) {
-          const playerFilename = `albums/ancient-ground/faixa-${safeTrack}.mp3`;
-          signedRes = await adminFetch("/api/admin/signed-upload-url", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ filename: playerFilename }),
-          });
-          if (signedRes.ok) {
-            const { signedUrl: playerUrl } = await signedRes.json();
-            await fetch(playerUrl, {
-              method: "PUT",
-              headers: { "Content-Type": "audio/mpeg" },
-              body: blob,
-            });
-          }
-        }
-
-        // Register version B as alternative in track_versions (playable in app)
-        if (i > 0) {
-          const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-          const audioUrl = `${supabaseUrl}/storage/v1/object/public/audios/${versionedFilename}`;
-          await adminFetch("/api/admin/track-versions", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              album_slug: "ancient-ground",
-              track_number: num,
-              version_name: `Versão ${String.fromCharCode(65 + i)}`,
-              energy: "whisper",
-              audio_url: audioUrl,
-            }),
-          }).catch(() => {});
-        }
       }
 
-      // Upload cover for each clip that has an image
+      // Upload cover for each clip — each track gets its own cover
       for (let i = 0; i < clipsWithAudio.length; i++) {
         const clip = clipsWithAudio[i];
         if (!clip.imageUrl) continue;
+        const trackNum = num * 2 - 1 + i;
+        const safeTrack = String(trackNum).padStart(2, "0");
         try {
           let coverBlob: Blob;
           try {
@@ -508,27 +476,11 @@ export default function AncientGroundPage() {
           }
           if (coverBlob.size < 1000) continue;
 
-          // First clip cover → faixa-XX-cover.jpg (main cover for player)
-          if (i === 0) {
-            const mainCover = `albums/ancient-ground/faixa-${safeTrack}-cover.jpg`;
-            const res = await adminFetch("/api/admin/signed-upload-url", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ filename: mainCover }),
-            });
-            if (res.ok) {
-              const { signedUrl } = await res.json();
-              await fetch(signedUrl, { method: "PUT", headers: { "Content-Type": "image/jpeg" }, body: coverBlob });
-            }
-          }
-
-          // Each clip gets its own versioned cover
-          const suffix = clipsWithAudio.length > 1 ? `-v${String.fromCharCode(65 + i)}` : "";
-          const vCover = `albums/ancient-ground/faixa-${safeTrack}${suffix}-cover.jpg`;
+          const coverFilename = `albums/ancient-ground/faixa-${safeTrack}-cover.jpg`;
           const res2 = await adminFetch("/api/admin/signed-upload-url", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ filename: vCover }),
+            body: JSON.stringify({ filename: coverFilename }),
           });
           if (res2.ok) {
             const { signedUrl } = await res2.json();
@@ -590,10 +542,11 @@ export default function AncientGroundPage() {
     }));
 
     try {
-      // Fetch both versions from Supabase
+      // Fetch both tracks from Supabase (odd=vA, even=vB)
       const buffers: ArrayBuffer[] = [];
-      for (const suffix of ["-vA", "-vB"]) {
-        const url = `${basePath}/faixa-${safeTrack}${suffix}.mp3`;
+      for (const trackNum of [num * 2 - 1, num * 2]) {
+        const tn = String(trackNum).padStart(2, "0");
+        const url = `${basePath}/faixa-${tn}.mp3`;
         const res = await fetch(url);
         if (res.ok) {
           buffers.push(await res.arrayBuffer());
@@ -601,11 +554,7 @@ export default function AncientGroundPage() {
       }
 
       if (buffers.length === 0) {
-        // Try without version suffix
-        const url = `${basePath}/faixa-${safeTrack}.mp3`;
-        const res = await fetch(url);
-        if (!res.ok) throw new Error("Nenhum áudio encontrado no Supabase. Aprova primeiro.");
-        buffers.push(await res.arrayBuffer());
+        throw new Error("Nenhum áudio encontrado no Supabase. Aprova primeiro.");
       }
 
       // Concatenate A+B into one segment
