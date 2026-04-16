@@ -296,9 +296,11 @@ export async function POST(req: NextRequest) {
       body.style = finalStyle;
       body.title = title || "Sem titulo";
     } else if (instrumental) {
-      // Instrumental description mode: prompt IS the complete description
-      // Don't send style — the prompt already has everything (like typing in Suno app)
-      body.prompt = prompt.length > 480 ? prompt.slice(0, 480) : prompt;
+      // Instrumental custom mode — same as Suno app: Custom + Instrumental checked
+      // The prompt goes in the style field (musical direction tags)
+      body.customMode = true;
+      body.style = prompt.length > 200 ? prompt.slice(0, 200) : prompt;
+      body.title = title || "Instrumental";
     } else {
       // Description mode with vocals: prompt + style
       body.prompt = prompt.length > 480 ? prompt.slice(0, 480) : prompt;
