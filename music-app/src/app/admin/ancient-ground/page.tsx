@@ -26,6 +26,26 @@ type SingleState = {
 
 // ─── Helpers ───
 
+/** Read bitrate (bps) from MP3 frame header, skipping ID3 tag */
+function readMp3Bitrate(buffer: ArrayBuffer): number {
+  const view = new DataView(buffer);
+  let off = 0;
+  // Skip ID3v2 tag if present
+  if (buffer.byteLength > 10 && view.getUint8(0) === 0x49 && view.getUint8(1) === 0x44 && view.getUint8(2) === 0x33) {
+    off = 10 + ((view.getUint8(6) << 21) | (view.getUint8(7) << 14) | (view.getUint8(8) << 7) | view.getUint8(9));
+  }
+  // Find MP3 sync word
+  const BITRATES = [0, 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320, 0];
+  while (off < buffer.byteLength - 4) {
+    if (view.getUint8(off) === 0xFF && (view.getUint8(off + 1) & 0xE0) === 0xE0) {
+      const idx = (view.getUint8(off + 2) >> 4) & 0x0F;
+      if (BITRATES[idx] > 0) return BITRATES[idx] * 1000;
+    }
+    off++;
+  }
+  return 192000; // fallback
+}
+
 function formatTime(s: number) {
   if (!s || !isFinite(s) || isNaN(s)) return "--:--";
   const m = Math.floor(s / 60);
@@ -605,36 +625,39 @@ export default function AncientGroundPage() {
         throw new Error("Nenhum áudio encontrado no Supabase. Aprova primeiro.");
       }
 
-      // Concatenate A+B into one segment
+      // Calculate exact duration from MP3 bitrate (read from frame header)
       const segmentSize = buffers.reduce((s, b) => s + b.byteLength, 0);
-      // Estimate duration from file size (MP3 ~128-192kbps → ~16-24KB/s)
-      // For 1 hour (3600s) at ~20KB/s = ~72MB. Use repetitions instead:
-      // Each Suno clip is ~3 min. 2 clips = ~6 min. Need ~10 repeats for 1h.
-      const estimatedSecsPerSegment = buffers.length * 180; // ~3 min each
-      const repeats = Math.ceil(3600 / estimatedSecsPerSegment);
+      const bitrate = readMp3Bitrate(buffers[0]);
+      const bytesPerSecond = bitrate / 8;
+      const segmentDuration = segmentSize / bytesPerSecond;
+      const repeats = Math.ceil(3600 / segmentDuration);
+      const targetBytes = Math.round(3600 * bytesPerSecond);
+
 
       setStates((s) => ({
         ...s,
         [num]: { ...(s[num] || { clips: [] }), status: "generating", error: `A montar ${repeats}x repetições (~${Math.round(segmentSize * repeats / 1024 / 1024)}MB)...` },
       }));
 
-      // Build the 1h file by repeating the segment
-      const totalSize = segmentSize * repeats;
-      const result = new Uint8Array(totalSize);
+      // Build exactly 1h by repeating then truncating
+      const fullSize = segmentSize * repeats;
+      const full = new Uint8Array(fullSize);
       let offset = 0;
       for (let i = 0; i < repeats; i++) {
         for (const buf of buffers) {
-          result.set(new Uint8Array(buf), offset);
+          full.set(new Uint8Array(buf), offset);
           offset += buf.byteLength;
         }
       }
+      // Truncate to exactly 1 hour
+      const result = full.slice(0, Math.min(targetBytes, fullSize));
 
       // Build blob and offer direct download (no Supabase upload — 1h files exceed 50MB limit)
       const loopBlob = new Blob([result], { type: "audio/mpeg" });
 
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto! (${Math.round(totalSize / 1024 / 1024)}MB)`, loopUrl: URL.createObjectURL(loopBlob) },
+        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto! (${Math.round(result.byteLength / 1024 / 1024)}MB)`, loopUrl: URL.createObjectURL(loopBlob) },
       }));
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
