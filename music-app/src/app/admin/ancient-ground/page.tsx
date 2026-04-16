@@ -494,7 +494,10 @@ export default function AncientGroundPage() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ filename }),
         });
-        if (!signedRes.ok) throw new Error("Erro ao gerar URL de upload");
+        if (!signedRes.ok) {
+          const e = await signedRes.json().catch(() => ({}));
+          throw new Error(`Signed URL falhou (${signedRes.status}): ${e.erro || JSON.stringify(e).slice(0, 100)}`);
+        }
         const { signedUrl } = await signedRes.json();
 
         const uploadRes = await fetch(signedUrl, {
@@ -502,7 +505,10 @@ export default function AncientGroundPage() {
           headers: { "Content-Type": "audio/mpeg" },
           body: blob,
         });
-        if (!uploadRes.ok) throw new Error(`Upload falhou (${uploadRes.status})`);
+        if (!uploadRes.ok) {
+          const errText = await uploadRes.text().catch(() => "");
+          throw new Error(`Upload áudio falhou (${uploadRes.status}): ${errText.slice(0, 100)}`);
+        }
       }
 
       // Upload cover for each clip — each track gets its own cover
@@ -651,7 +657,10 @@ export default function AncientGroundPage() {
         headers: { "Content-Type": "audio/mpeg" },
         body: loopBlob,
       });
-      if (!uploadRes.ok) throw new Error(`Upload falhou (${uploadRes.status})`);
+      if (!uploadRes.ok) {
+        const errText = await uploadRes.text().catch(() => "");
+        throw new Error(`Upload loop falhou (${uploadRes.status}): ${errText.slice(0, 100)}`);
+      }
 
       setStates((s) => ({
         ...s,
