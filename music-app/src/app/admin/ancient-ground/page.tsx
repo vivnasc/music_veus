@@ -21,6 +21,7 @@ type SingleState = {
   status: "idle" | "generating" | "polling" | "done" | "error";
   error: string;
   clips: SunoClip[];
+  loopUrl?: string;
 };
 
 // ─── Helpers ───
@@ -249,8 +250,19 @@ function SingleCard({
             disabled={state.status === "generating"}
             className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-blue-800/30 text-blue-300 hover:bg-blue-800/50 transition"
           >
-            {state.status === "generating" ? "A montar loop..." : "Montar loop 1h e guardar"}
+            {state.status === "generating" ? "A montar loop..." : "Montar loop 1h"}
           </button>
+
+          {/* Download 1h — appears after loop is built */}
+          {state.loopUrl && (
+            <a
+              href={state.loopUrl}
+              download={`${single.title} - Ancient Ground (1h).mp3`}
+              className="w-full block text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
+            >
+              Download 1h para DistroKid
+            </a>
+          )}
         </div>
       )}
     </div>
@@ -596,17 +608,17 @@ export default function AncientGroundPage() {
       if (!signedRes.ok) throw new Error("Erro ao gerar URL de upload");
       const { signedUrl } = await signedRes.json();
 
-      const blob = new Blob([result], { type: "audio/mpeg" });
+      const loopBlob = new Blob([result], { type: "audio/mpeg" });
       const uploadRes = await fetch(signedUrl, {
         method: "PUT",
         headers: { "Content-Type": "audio/mpeg" },
-        body: blob,
+        body: loopBlob,
       });
       if (!uploadRes.ok) throw new Error(`Upload falhou (${uploadRes.status})`);
 
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h guardado! (${Math.round(totalSize / 1024 / 1024)}MB)` },
+        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto! (${Math.round(totalSize / 1024 / 1024)}MB)`, loopUrl: URL.createObjectURL(loopBlob) },
       }));
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
