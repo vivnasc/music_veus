@@ -317,9 +317,13 @@ export default function AncientGroundPage() {
         if (data.clips.some((c: SunoClip) => c.status === "error")) {
           clearInterval(pollingRef.current[singleNum]);
           delete pollingRef.current[singleNum];
+          // Show raw status for debugging
+          const rawInfo = JSON.stringify(data.clips.map((c: Record<string, unknown>) => ({
+            status: c.status, rawStatus: c.rawStatus, id: c.id,
+          })));
           setStates((s) => ({
             ...s,
-            [singleNum]: { status: "error", error: "Suno devolveu erro.", clips: [] },
+            [singleNum]: { status: "error", error: `Suno erro: ${rawInfo}`, clips: [] },
           }));
           return;
         }

@@ -201,9 +201,8 @@ async function callSunoApi(
     "Content-Type": "application/json",
   };
 
-  console.log("[suno/generate] prompt length:", body.prompt ? String(body.prompt).length : 0, "style length:", body.style ? String(body.style).length : 0, "model:", body.model);
-  console.log("[suno/generate] style:", body.style);
-  console.log("[suno/generate] prompt (first 500):", String(body.prompt).slice(0, 500));
+  console.log("[suno/generate] FULL BODY:", JSON.stringify(body));
+  console.log("[suno/generate] prompt length:", body.prompt ? String(body.prompt).length : 0, "style:", body.style || "(none)", "instrumental:", body.instrumental, "customMode:", body.customMode);
 
   // Try /api/suno/submit/music first, fallback to /api/v1/generate
   let res = await fetch(`${apiUrl}/api/suno/submit/music`, {
