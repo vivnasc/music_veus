@@ -21,30 +21,9 @@ type SingleState = {
   status: "idle" | "generating" | "polling" | "done" | "error";
   error: string;
   clips: SunoClip[];
-  loopUrl?: string;
 };
 
 // ─── Helpers ───
-
-/** Read bitrate (bps) from MP3 frame header, skipping ID3 tag */
-function readMp3Bitrate(buffer: ArrayBuffer): number {
-  const view = new DataView(buffer);
-  let off = 0;
-  // Skip ID3v2 tag if present
-  if (buffer.byteLength > 10 && view.getUint8(0) === 0x49 && view.getUint8(1) === 0x44 && view.getUint8(2) === 0x33) {
-    off = 10 + ((view.getUint8(6) << 21) | (view.getUint8(7) << 14) | (view.getUint8(8) << 7) | view.getUint8(9));
-  }
-  // Find MP3 sync word
-  const BITRATES = [0, 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320, 0];
-  while (off < buffer.byteLength - 4) {
-    if (view.getUint8(off) === 0xFF && (view.getUint8(off + 1) & 0xE0) === 0xE0) {
-      const idx = (view.getUint8(off + 2) >> 4) & 0x0F;
-      if (BITRATES[idx] > 0) return BITRATES[idx] * 1000;
-    }
-    off++;
-  }
-  return 192000; // fallback
-}
 
 function formatTime(s: number) {
   if (!s || !isFinite(s) || isNaN(s)) return "--:--";
@@ -151,7 +130,7 @@ function SingleCard({
   onGenerate,
   onDownloadClip,
   onApprove,
-  onBuildLoop,
+  onGetFfmpeg,
 }: {
   single: AncientGroundSingle;
   state: SingleState;
@@ -159,7 +138,7 @@ function SingleCard({
   onGenerate: () => void;
   onDownloadClip: (url: string, title: string) => void;
   onApprove: (single: AncientGroundSingle, clips: SunoClip[]) => void;
-  onBuildLoop: (single: AncientGroundSingle) => void;
+  onGetFfmpeg: (single: AncientGroundSingle) => string;
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
 
@@ -179,12 +158,8 @@ function SingleCard({
           </div>
         </div>
         {state.status === "done" && (
-          <span className={`shrink-0 text-[10px] rounded-full px-2 py-0.5 ${
-            state.loopUrl
-              ? "text-blue-400 bg-blue-900/20"
-              : "text-green-400 bg-green-900/20"
-          }`}>
-            {state.loopUrl ? "loop 1h" : "gerado"}
+          <span className="shrink-0 text-[10px] rounded-full px-2 py-0.5 text-green-400 bg-green-900/20">
+            gerado
           </span>
         )}
       </div>
@@ -272,26 +247,12 @@ function SingleCard({
         </div>
       )}
 
-      {/* Build 1h loop + Download — visible for all "done" singles */}
-      {state.status === "done" && !state.loopUrl && (
-        <button
-          onClick={() => onBuildLoop(single)}
-          className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-blue-800/30 text-blue-300 hover:bg-blue-800/50 transition"
-        >
-          Montar loop 1h
-        </button>
-      )}
-      {state.status === "generating" && state.error?.includes("loop") && (
-        <p className="text-[10px] text-blue-400 animate-pulse">{state.error}</p>
-      )}
-      {state.loopUrl && (
-        <a
-          href={state.loopUrl}
-          download={`${single.title} - Ancient Ground (1h).mp3`}
-          className="w-full block text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
-        >
-          Download 1h para DistroKid
-        </a>
+      {/* FFmpeg command for 1h loop — visible for all "done" singles */}
+      {state.status === "done" && (
+        <CopyButton
+          text={onGetFfmpeg(single)}
+          label="Copiar comando FFmpeg (loop 1h)"
+        />
       )}
     </div>
   );
@@ -597,75 +558,18 @@ export default function AncientGroundPage() {
     }
   }
 
-  // Build 1h loop from Supabase clips (pure JS byte concatenation)
-  async function buildLoop(single: AncientGroundSingle) {
+  // Generate FFmpeg command for 1h loop with crossfade (pro quality)
+  function getFfmpegCommand(single: AncientGroundSingle): string {
     const num = single.number;
-    const mainTrack = String(num * 2 - 1).padStart(2, "0");
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-    const basePath = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+    const base = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+    const tA = String(num * 2 - 1).padStart(2, "0");
+    const tB = String(num * 2).padStart(2, "0");
+    const urlA = `${base}/faixa-${tA}.mp3`;
+    const urlB = `${base}/faixa-${tB}.mp3`;
+    const output = `"${single.title} - Ancient Ground (1h).mp3"`;
 
-    setStates((s) => ({
-      ...s,
-      [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A montar loop 1h..." },
-    }));
-
-    try {
-      // Fetch both tracks from Supabase (odd=vA, even=vB)
-      const buffers: ArrayBuffer[] = [];
-      for (const trackNum of [num * 2 - 1, num * 2]) {
-        const tn = String(trackNum).padStart(2, "0");
-        const url = `${basePath}/faixa-${tn}.mp3`;
-        const res = await fetch(url);
-        if (res.ok) {
-          buffers.push(await res.arrayBuffer());
-        }
-      }
-
-      if (buffers.length === 0) {
-        throw new Error("Nenhum áudio encontrado no Supabase. Aprova primeiro.");
-      }
-
-      // Calculate exact duration from MP3 bitrate (read from frame header)
-      const segmentSize = buffers.reduce((s, b) => s + b.byteLength, 0);
-      const bitrate = readMp3Bitrate(buffers[0]);
-      const bytesPerSecond = bitrate / 8;
-      const segmentDuration = segmentSize / bytesPerSecond;
-      const repeats = Math.ceil(3600 / segmentDuration);
-      const targetBytes = Math.round(3600 * bytesPerSecond);
-
-
-      setStates((s) => ({
-        ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: `A montar ${repeats}x repetições (~${Math.round(segmentSize * repeats / 1024 / 1024)}MB)...` },
-      }));
-
-      // Build exactly 1h by repeating then truncating
-      const fullSize = segmentSize * repeats;
-      const full = new Uint8Array(fullSize);
-      let offset = 0;
-      for (let i = 0; i < repeats; i++) {
-        for (const buf of buffers) {
-          full.set(new Uint8Array(buf), offset);
-          offset += buf.byteLength;
-        }
-      }
-      // Truncate to exactly 1 hour
-      const result = full.slice(0, Math.min(targetBytes, fullSize));
-
-      // Build blob and offer direct download (no Supabase upload — 1h files exceed 50MB limit)
-      const loopBlob = new Blob([result], { type: "audio/mpeg" });
-
-      setStates((s) => ({
-        ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto! (${Math.round(result.byteLength / 1024 / 1024)}MB)`, loopUrl: URL.createObjectURL(loopBlob) },
-      }));
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : String(err);
-      setStates((s) => ({
-        ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "error", error: msg },
-      }));
-    }
+    return `ffmpeg -i "${urlA}" -i "${urlB}" -filter_complex "[0][1]concat=n=2:v=0:a=1[seg];[seg]afade=t=out:st=170:d=10,afade=t=in:d=10[faded];[faded]aloop=loop=-1:size=2e+09[looped]" -map "[looped]" -t 3600 -b:a 192k ${output}`;
   }
 
   // Filter singles
@@ -744,7 +648,7 @@ export default function AncientGroundPage() {
             onGenerate={() => generateSingle(single)}
             onDownloadClip={downloadClip}
             onApprove={approveSingle}
-            onBuildLoop={buildLoop}
+            onGetFfmpeg={getFfmpegCommand}
           />
         ))}
       </div>
