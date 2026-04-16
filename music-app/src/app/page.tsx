@@ -8,6 +8,7 @@ import Link from "next/link";
 import NavBar from "@/components/music/NavBar";
 import SubscribeSection from "@/components/music/SubscribeSection";
 import LiveReviewsFeed from "@/components/music/LiveReviewsFeed";
+import OutrosMundosSection from "@/components/music/OutrosMundosSection";
 
 export const metadata = {
   title: "Explorar",
@@ -40,6 +41,8 @@ export default function MusicHomePage() {
         <ParaTiSection />
         <NovidadesSection />
         <TopTracksSection />
+
+        <OutrosMundosSection />
 
         <LiveReviewsFeed />
 
