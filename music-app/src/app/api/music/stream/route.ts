@@ -5,14 +5,35 @@ import { createClient } from "@supabase/supabase-js";
 const BUCKET = "audios";
 
 /**
+ * Allowed origins/referers — only these can stream audio.
+ * Blocks direct hotlinking, curl, scraping tools, etc.
+ */
+const ALLOWED_HOSTS = [
+  "music.seteveus.space",
+  "seteveus.space",
+  "localhost",
+  "vercel.app", // preview deployments
+];
+
+function isAllowedReferer(req: NextRequest): boolean {
+  const referer = req.headers.get("referer") || req.headers.get("origin") || "";
+  if (!referer) return false;
+  try {
+    const url = new URL(referer);
+    return ALLOWED_HOSTS.some(host =>
+      url.hostname === host || url.hostname.endsWith(`.${host}`)
+    );
+  } catch {
+    return false;
+  }
+}
+
+/**
  * Proxy de streaming de audio e capas.
  * Esconde o URL real do Supabase e adiciona headers anti-download.
  *
  * Audio: GET /api/music/stream?album=espelho-ilusao&track=1
  * Cover: GET /api/music/stream?album=espelho-ilusao&track=1&type=cover
- *
- * Tries main file first (faixa-01.mp3), then falls back to first version.
- * For covers, tries .jpg first then .png.
  */
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
@@ -22,6 +43,11 @@ export async function GET(req: NextRequest) {
 
   if (!album || !track) {
     return NextResponse.json({ error: "album e track obrigatorios" }, { status: 400 });
+  }
+
+  // Audio streaming requires referer check (covers are OK to be hotlinked)
+  if (type !== "cover" && !isAllowedReferer(req)) {
+    return NextResponse.json({ error: "Acesso negado" }, { status: 403 });
   }
 
   const safeAlbum = album.replace(/[^a-z0-9-]/g, "");
@@ -124,9 +150,13 @@ function buildResponse(upstream: Response) {
   const responseHeaders = new Headers();
   responseHeaders.set("Content-Type", "audio/mpeg");
   responseHeaders.set("Accept-Ranges", "bytes");
-  responseHeaders.set("Cache-Control", "public, max-age=3600");
+  // Private cache — don't let CDNs cache across users
+  responseHeaders.set("Cache-Control", "private, max-age=3600, no-store");
   responseHeaders.set("Content-Disposition", "inline");
   responseHeaders.set("X-Content-Type-Options", "nosniff");
+  // Block embedding in other sites
+  responseHeaders.set("X-Frame-Options", "SAMEORIGIN");
+  responseHeaders.set("Referrer-Policy", "same-origin");
 
   const contentRange = upstream.headers.get("content-range");
   if (contentRange) responseHeaders.set("Content-Range", contentRange);
