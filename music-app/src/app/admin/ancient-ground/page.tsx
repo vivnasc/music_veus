@@ -18,7 +18,7 @@ type SunoClip = {
 };
 
 type SingleState = {
-  status: "idle" | "generating" | "polling" | "done" | "error";
+  status: "idle" | "generating" | "polling" | "done" | "error" | "building-loop";
   error: string;
   clips: SunoClip[];
   loopUrl?: string;
@@ -143,7 +143,8 @@ function SingleCard({
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
 
-  const isWorking = state.status === "generating" || state.status === "polling";
+  const isWorking = state.status === "generating" || state.status === "polling" || state.status === "building-loop";
+  const isBuildingLoop = state.status === "building-loop";
 
   return (
     <div className="rounded-xl border border-mundo-muted-dark/20 bg-mundo-bg-light/50 p-4">
@@ -201,6 +202,8 @@ function SingleCard({
           ? "A enviar ao Suno..."
           : state.status === "polling"
           ? "A gerar... (polling)"
+          : isBuildingLoop
+          ? "A montar loop 1h..."
           : state.clips.length > 0
           ? "Regenerar no Suno"
           : `Gerar no Suno (${sunoModel})`}
@@ -249,12 +252,17 @@ function SingleCard({
       )}
 
       {/* Build 1h loop */}
-      {state.status === "done" && !state.loopUrl && (
+      {(state.status === "done" || isBuildingLoop) && !state.loopUrl && (
         <button
           onClick={() => onBuildLoop(single)}
-          className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-indigo-800/30 text-indigo-300 hover:bg-indigo-800/50 transition mt-2"
+          disabled={isBuildingLoop}
+          className={`w-full rounded-lg px-4 py-2.5 text-xs font-medium transition mt-2 ${
+            isBuildingLoop
+              ? "bg-indigo-900/20 text-indigo-500 animate-pulse cursor-wait"
+              : "bg-indigo-800/30 text-indigo-300 hover:bg-indigo-800/50"
+          }`}
         >
-          Montar loop 1h
+          {isBuildingLoop ? (state.error || "A montar loop 1h...") : "Montar loop 1h"}
         </button>
       )}
       {state.loopUrl && (
@@ -601,7 +609,7 @@ export default function AncientGroundPage() {
 
     setStates((s) => ({
       ...s,
-      [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A descarregar faixas..." },
+      [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: "A descarregar faixas..." },
     }));
 
     try {
@@ -619,7 +627,7 @@ export default function AncientGroundPage() {
 
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A descodificar áudio..." },
+        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: "A descodificar áudio..." },
       }));
 
       // 2. Decode both MP3s into AudioBuffers (PCM samples)
@@ -655,7 +663,7 @@ export default function AncientGroundPage() {
       // 4. Lazy-load lamejs (pure JS MP3 encoder) and process in 10s chunks
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A carregar encoder MP3..." },
+        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: "A carregar encoder MP3..." },
       }));
       const lamejsMod = await import("@breezystack/lamejs");
       type Encoder = {
@@ -720,7 +728,7 @@ export default function AncientGroundPage() {
         if (chunkStart % (CHUNK_SAMPLES * 6) === 0 || chunkEnd === totalSamples) {
           setStates((s) => ({
             ...s,
-            [num]: { ...(s[num] || { clips: [] }), status: "generating", error: `A codificar MP3... ${pct}%` },
+            [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A codificar MP3... ${pct}%` },
           }));
           await new Promise((r) => setTimeout(r, 0));
         }
