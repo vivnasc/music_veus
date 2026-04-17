@@ -672,7 +672,7 @@ export default function AncientGroundPage() {
       };
       type LameModule = { Mp3Encoder: new (ch: number, sr: number, kbps: number) => Encoder };
       const lamejs = ((lamejsMod as unknown as { default?: LameModule }).default || lamejsMod) as unknown as LameModule;
-      const encoder: Encoder = new lamejs.Mp3Encoder(2, sampleRate, 192);
+      const encoder: Encoder = new lamejs.Mp3Encoder(2, sampleRate, 128);
 
       const mp3Chunks: Uint8Array[] = [];
       const CHUNK_SAMPLES = 10 * sampleRate; // 10s chunks
@@ -683,7 +683,10 @@ export default function AncientGroundPage() {
         const outL = new Float32Array(chunkLen);
         const outR = new Float32Array(chunkLen);
 
-        // Sum contributions from any placement that overlaps this chunk
+        // Sum contributions from any placement that overlaps this chunk.
+        // Split into body / fade-in / fade-out sub-loops to avoid per-sample conditionals.
+        // Use linear fade (fast, ~imperceptible for 4s fades on ambient music).
+        const invCF = 1 / crossfadeSamples;
         for (const p of placements) {
           const srcEnd = p.start + p.len;
           if (srcEnd <= chunkStart || p.start >= chunkEnd) continue;
@@ -691,23 +694,45 @@ export default function AncientGroundPage() {
           const hasFadeIn = p.start > 0;
           const hasFadeOut = srcEnd < totalSamples;
           const fadeOutStart = p.len - crossfadeSamples;
+          const L = p.L;
+          const R = p.R;
 
-          const fromG = Math.max(chunkStart, p.start);
-          const toG = Math.min(chunkEnd, srcEnd);
-          for (let g = fromG; g < toG; g++) {
+          // Body (full gain, tight loop)
+          const bodySi = hasFadeIn ? crossfadeSamples : 0;
+          const bodyEi = hasFadeOut ? fadeOutStart : p.len;
+          const bodyFromG = Math.max(chunkStart, p.start + bodySi);
+          const bodyToG = Math.min(chunkEnd, p.start + bodyEi);
+          for (let g = bodyFromG; g < bodyToG; g++) {
             const si = g - p.start;
             const oi = g - chunkStart;
-            let gain = 1;
-            if (hasFadeIn && si < crossfadeSamples) {
-              // Equal-power fade-in (sin curve) — imperceptible with matching fade-out
-              gain *= Math.sin((si / crossfadeSamples) * Math.PI * 0.5);
+            outL[oi] += L[si];
+            outR[oi] += R[si];
+          }
+
+          // Fade-in region
+          if (hasFadeIn) {
+            const feFromG = Math.max(chunkStart, p.start);
+            const feToG = Math.min(chunkEnd, p.start + crossfadeSamples);
+            for (let g = feFromG; g < feToG; g++) {
+              const si = g - p.start;
+              const oi = g - chunkStart;
+              const gain = si * invCF;
+              outL[oi] += L[si] * gain;
+              outR[oi] += R[si] * gain;
             }
-            if (hasFadeOut && si >= fadeOutStart) {
-              const t = (p.len - si) / crossfadeSamples;
-              gain *= Math.sin(t * Math.PI * 0.5);
+          }
+
+          // Fade-out region
+          if (hasFadeOut) {
+            const foFromG = Math.max(chunkStart, p.start + fadeOutStart);
+            const foToG = Math.min(chunkEnd, srcEnd);
+            for (let g = foFromG; g < foToG; g++) {
+              const si = g - p.start;
+              const oi = g - chunkStart;
+              const gain = (p.len - si) * invCF;
+              outL[oi] += L[si] * gain;
+              outR[oi] += R[si] * gain;
             }
-            outL[oi] += p.L[si] * gain;
-            outR[oi] += p.R[si] * gain;
           }
         }
 
@@ -717,15 +742,15 @@ export default function AncientGroundPage() {
         for (let i = 0; i < chunkLen; i++) {
           const lv = outL[i];
           const rv = outR[i];
-          l16[i] = lv < -1 ? -32768 : lv > 1 ? 32767 : Math.round(lv * 32767);
-          r16[i] = rv < -1 ? -32768 : rv > 1 ? 32767 : Math.round(rv * 32767);
+          l16[i] = lv < -1 ? -32768 : lv > 1 ? 32767 : (lv * 32767) | 0;
+          r16[i] = rv < -1 ? -32768 : rv > 1 ? 32767 : (rv * 32767) | 0;
         }
         const enc = encoder.encodeBuffer(l16, r16);
         if (enc.length > 0) mp3Chunks.push(new Uint8Array(enc));
 
-        // Update UI every ~5% and yield so React can render + browser stays responsive
+        // Update UI every ~30s of processed audio and yield so React renders
         const pct = Math.round((chunkEnd / totalSamples) * 100);
-        if (chunkStart % (CHUNK_SAMPLES * 6) === 0 || chunkEnd === totalSamples) {
+        if (chunkStart % (CHUNK_SAMPLES * 3) === 0 || chunkEnd === totalSamples) {
           setStates((s) => ({
             ...s,
             [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A codificar MP3... ${pct}%` },
