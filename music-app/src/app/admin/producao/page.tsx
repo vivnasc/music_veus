@@ -2890,6 +2890,12 @@ export default function AlbumProductionPage() {
                       titleSaveRef.current[key] = setTimeout(() => {
                         if (title && title !== track.title) {
                           saveTitle(album.slug, track.number, title, "manual");
+                        } else if (title === track.title) {
+                          adminFetch("/api/admin/track-metadata", {
+                            method: "DELETE",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ albumSlug: album.slug, trackNumber: track.number }),
+                          }).catch(() => {});
                         }
                       }, 1000);
                     }}

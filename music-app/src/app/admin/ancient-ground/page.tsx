@@ -21,6 +21,7 @@ type SingleState = {
   status: "idle" | "generating" | "polling" | "done" | "error";
   error: string;
   clips: SunoClip[];
+  loopUrl?: string;
 };
 
 // ─── Helpers ───
@@ -131,6 +132,7 @@ function SingleCard({
   onDownloadClip,
   onApprove,
   onGetFfmpeg,
+  onBuildLoop,
 }: {
   single: AncientGroundSingle;
   state: SingleState;
@@ -139,6 +141,7 @@ function SingleCard({
   onDownloadClip: (url: string, title: string) => void;
   onApprove: (single: AncientGroundSingle, clips: SunoClip[]) => void;
   onGetFfmpeg: (single: AncientGroundSingle) => string;
+  onBuildLoop: (single: AncientGroundSingle) => void;
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
 
@@ -247,12 +250,32 @@ function SingleCard({
         </div>
       )}
 
-      {/* FFmpeg command for 1h loop — visible for all "done" singles */}
-      {state.status === "done" && (
-        <CopyButton
-          text={onGetFfmpeg(single)}
-          label="Copiar comando FFmpeg (loop 1h)"
-        />
+      {/* Build 1h loop (FFmpeg WASM) + fallback terminal command */}
+      {state.status === "done" && !state.loopUrl && (
+        <div className="flex gap-2 mt-2">
+          <button
+            onClick={() => onBuildLoop(single)}
+            className="flex-1 rounded-lg px-4 py-2.5 text-xs font-medium bg-indigo-800/30 text-indigo-300 hover:bg-indigo-800/50 transition"
+          >
+            Montar loop 1h (browser)
+          </button>
+          <CopyButton
+            text={onGetFfmpeg(single)}
+            label="Copiar FFmpeg cmd"
+          />
+        </div>
+      )}
+      {state.status === "generating" && state.error?.includes("FFmpeg") && (
+        <p className="text-[11px] text-indigo-400 mt-1 animate-pulse">{state.error}</p>
+      )}
+      {state.loopUrl && (
+        <a
+          href={state.loopUrl}
+          download={`${single.title.toLowerCase().replace(/\s+/g, "-")}-ancient-ground-1h.mp3`}
+          className="block w-full text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition mt-2"
+        >
+          Download loop 1h
+        </a>
       )}
     </div>
   );
@@ -274,10 +297,17 @@ export default function AncientGroundPage() {
     async function checkExisting() {
       const found: Record<number, SingleState> = {};
       const checks = ANCIENT_GROUND_SINGLES.map(async (s) => {
-        const trackNum = String(s.number * 2 - 1).padStart(2, "0");
-        const audioRes = await fetch(`${basePath}/faixa-${trackNum}.mp3`, { method: "HEAD" });
-        if (audioRes.ok) {
+        const tnA = String(s.number * 2 - 1).padStart(2, "0");
+        const tnB = String(s.number * 2).padStart(2, "0");
+        const [resA, resB] = await Promise.all([
+          fetch(`${basePath}/faixa-${tnA}.mp3`, { method: "HEAD" }),
+          fetch(`${basePath}/faixa-${tnB}.mp3`, { method: "HEAD" }),
+        ]);
+        if (resA.ok && resB.ok) {
           found[s.number] = { status: "done", error: "", clips: [] };
+        } else if (resA.ok || resB.ok) {
+          const missing = resA.ok ? `vB (faixa-${tnB})` : `vA (faixa-${tnA})`;
+          found[s.number] = { status: "error", error: `Falta ${missing} no Supabase`, clips: [] };
         }
       });
       await Promise.all(checks);
@@ -445,6 +475,11 @@ export default function AncientGroundPage() {
         const trackNum = num * 2 - 1 + i;
         const safeTrack = String(trackNum).padStart(2, "0");
 
+        setStates((s) => ({
+          ...s,
+          [num]: { ...s[num], status: "generating" as const, error: `A guardar faixa-${safeTrack} (${i + 1}/${clipsWithAudio.length})...` },
+        }));
+
         // Download audio blob
         let blob: Blob;
         const audioSrc = clip.audioUrl!;
@@ -459,18 +494,18 @@ export default function AncientGroundPage() {
           blob = await r.blob();
         }
 
-        if (blob.size < 1000) throw new Error(`Clip ${i + 1} demasiado pequeno (${blob.size} bytes)`);
+        if (blob.size < 1000) throw new Error(`Clip ${i + 1} (faixa-${safeTrack}) demasiado pequeno (${blob.size} bytes)`);
 
         // Upload as faixa-XX.mp3 (playable in app)
         const filename = `albums/ancient-ground/faixa-${safeTrack}.mp3`;
-        let signedRes = await adminFetch("/api/admin/signed-upload-url", {
+        const signedRes = await adminFetch("/api/admin/signed-upload-url", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ filename }),
         });
         if (!signedRes.ok) {
           const e = await signedRes.json().catch(() => ({}));
-          throw new Error(`Signed URL falhou (${signedRes.status}): ${e.erro || JSON.stringify(e).slice(0, 100)}`);
+          throw new Error(`Signed URL falhou para faixa-${safeTrack} (${signedRes.status}): ${e.erro || JSON.stringify(e).slice(0, 100)}`);
         }
         const { signedUrl } = await signedRes.json();
 
@@ -481,7 +516,15 @@ export default function AncientGroundPage() {
         });
         if (!uploadRes.ok) {
           const errText = await uploadRes.text().catch(() => "");
-          throw new Error(`Upload áudio falhou (${uploadRes.status}): ${errText.slice(0, 100)}`);
+          throw new Error(`Upload faixa-${safeTrack} falhou (${uploadRes.status}): ${errText.slice(0, 100)}`);
+        }
+
+        // Verify the upload actually landed (HEAD request)
+        const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+        const verifyUrl = `${supabaseUrl}/storage/v1/object/public/audios/${filename}`;
+        const verifyRes = await fetch(verifyUrl, { method: "HEAD", cache: "no-store" });
+        if (!verifyRes.ok) {
+          throw new Error(`faixa-${safeTrack} uploaded mas não está acessível (${verifyRes.status}). Upload pode ter falhado silenciosamente.`);
         }
       }
 
@@ -558,7 +601,112 @@ export default function AncientGroundPage() {
     }
   }
 
-  // Generate FFmpeg command for 1h loop with crossfade (pro quality)
+  // Build 1h loop from Supabase clips using FFmpeg WASM (real acrossfade, pro quality)
+  async function buildLoop(single: AncientGroundSingle) {
+    const num = single.number;
+    const tA = String(num * 2 - 1).padStart(2, "0");
+    const tB = String(num * 2).padStart(2, "0");
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+    const basePath = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+
+    setStates((s) => ({
+      ...s,
+      [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A carregar FFmpeg WASM..." },
+    }));
+
+    try {
+      const { FFmpeg } = await import("@ffmpeg/ffmpeg");
+      const { fetchFile, toBlobURL } = await import("@ffmpeg/util");
+
+      const ffmpeg = new FFmpeg();
+
+      ffmpeg.on("progress", ({ progress }) => {
+        const pct = Math.min(99, Math.max(0, Math.round(progress * 100)));
+        setStates((s) => ({
+          ...s,
+          [num]: { ...(s[num] || { clips: [] }), status: "generating", error: `FFmpeg a processar... ${pct}%` },
+        }));
+      });
+
+      // Load MT core (requires SharedArrayBuffer — enabled via COOP/COEP in next.config.ts)
+      const CORE_VERSION = "0.12.10";
+      const BASE = `https://unpkg.com/@ffmpeg/core-mt@${CORE_VERSION}/dist/esm`;
+      await ffmpeg.load({
+        coreURL: await toBlobURL(`${BASE}/ffmpeg-core.js`, "text/javascript"),
+        wasmURL: await toBlobURL(`${BASE}/ffmpeg-core.wasm`, "application/wasm"),
+        workerURL: await toBlobURL(`${BASE}/ffmpeg-core.worker.js`, "text/javascript"),
+      });
+
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A descarregar faixas do Supabase..." },
+      }));
+
+      // Write both tracks to FFmpeg's virtual FS
+      await ffmpeg.writeFile("A.mp3", await fetchFile(`${basePath}/faixa-${tA}.mp3`));
+      await ffmpeg.writeFile("B.mp3", await fetchFile(`${basePath}/faixa-${tB}.mp3`));
+
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "Pass 1/2: crossfade A→B..." },
+      }));
+
+      // Pass 1: build segment A→B with 5s triangular crossfade, plus 2s fade-in and fade-out
+      // at the segment edges so stream_loop joins are gentle (not clicky).
+      await ffmpeg.exec([
+        "-i", "A.mp3",
+        "-i", "B.mp3",
+        "-filter_complex",
+        "[0][1]acrossfade=d=5:c1=tri:c2=tri[x];[x]afade=t=in:st=0:d=2,afade=t=out:st=end-2:d=2[out]",
+        "-map", "[out]",
+        "-c:a", "libmp3lame",
+        "-b:a", "192k",
+        "segment.mp3",
+      ]);
+
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "Pass 2/2: loop para 1h..." },
+      }));
+
+      // Pass 2: stream-loop the segment to exactly 3600s, copy codec (fast, no re-encode)
+      await ffmpeg.exec([
+        "-stream_loop", "-1",
+        "-i", "segment.mp3",
+        "-t", "3600",
+        "-c", "copy",
+        "loop.mp3",
+      ]);
+
+      const data = await ffmpeg.readFile("loop.mp3");
+      const bytes = data instanceof Uint8Array ? data : new TextEncoder().encode(String(data));
+      // Copy into a fresh ArrayBuffer so Blob accepts it (FFmpeg returns SharedArrayBuffer-backed Uint8Array in MT mode)
+      const copy = new Uint8Array(bytes.byteLength);
+      copy.set(bytes);
+      const loopBlob = new Blob([copy.buffer], { type: "audio/mpeg" });
+
+      // Cleanup FS
+      try {
+        await ffmpeg.deleteFile("A.mp3");
+        await ffmpeg.deleteFile("B.mp3");
+        await ffmpeg.deleteFile("segment.mp3");
+        await ffmpeg.deleteFile("loop.mp3");
+      } catch {}
+
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto! (${Math.round(loopBlob.size / 1024 / 1024)}MB, crossfade pro)`, loopUrl: URL.createObjectURL(loopBlob) },
+      }));
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : String(err);
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "error", error: msg },
+      }));
+    }
+  }
+
+  // Generate FFmpeg terminal command for 1h loop (fallback if WASM fails)
   function getFfmpegCommand(single: AncientGroundSingle): string {
     const num = single.number;
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
@@ -568,8 +716,7 @@ export default function AncientGroundPage() {
     const urlA = `${base}/faixa-${tA}.mp3`;
     const urlB = `${base}/faixa-${tB}.mp3`;
     const output = `"${single.title} - Ancient Ground (1h).mp3"`;
-
-    return `ffmpeg -i "${urlA}" -i "${urlB}" -filter_complex "[0][1]concat=n=2:v=0:a=1[seg];[seg]afade=t=out:st=170:d=10,afade=t=in:d=10[faded];[faded]aloop=loop=-1:size=2e+09[looped]" -map "[looped]" -t 3600 -b:a 192k ${output}`;
+    return `ffmpeg -i "${urlA}" -i "${urlB}" -filter_complex "[0][1]acrossfade=d=5:c1=tri:c2=tri[seg];[seg]afade=t=in:d=2,afade=t=out:st=end-2:d=2[faded]" -map "[faded]" -c:a libmp3lame -b:a 192k segment.mp3 && ffmpeg -stream_loop -1 -i segment.mp3 -t 3600 -c copy ${output}`;
   }
 
   // Filter singles
@@ -649,6 +796,7 @@ export default function AncientGroundPage() {
             onDownloadClip={downloadClip}
             onApprove={approveSingle}
             onGetFfmpeg={getFfmpegCommand}
+            onBuildLoop={buildLoop}
           />
         ))}
       </div>
