@@ -601,6 +601,55 @@ export default function AncientGroundPage() {
     }
   }
 
+  // Load FFmpeg UMD bundles from CDN (avoids Next.js/Turbopack bundler issues)
+  async function loadFfmpegFromCDN(): Promise<{
+    FFmpeg: new () => {
+      on: (ev: "progress", cb: (e: { progress: number }) => void) => void;
+      load: (cfg: { coreURL: string; wasmURL: string; workerURL: string }) => Promise<void>;
+      writeFile: (name: string, data: Uint8Array) => Promise<void>;
+      readFile: (name: string) => Promise<Uint8Array | string>;
+      exec: (args: string[]) => Promise<number>;
+      deleteFile: (name: string) => Promise<void>;
+    };
+    fetchFile: (url: string) => Promise<Uint8Array>;
+    toBlobURL: (url: string, mime: string) => Promise<string>;
+  }> {
+    const w = window as unknown as {
+      FFmpegWASM?: { FFmpeg: unknown };
+      FFmpegUtil?: { fetchFile: unknown; toBlobURL: unknown };
+    };
+
+    function loadScript(src: string) {
+      return new Promise<void>((resolve, reject) => {
+        if (document.querySelector(`script[data-ffmpeg-src="${src}"]`)) return resolve();
+        const s = document.createElement("script");
+        s.src = src;
+        s.async = true;
+        s.dataset.ffmpegSrc = src;
+        s.onload = () => resolve();
+        s.onerror = () => reject(new Error(`Falha a carregar ${src}`));
+        document.head.appendChild(s);
+      });
+    }
+
+    if (!w.FFmpegUtil) {
+      await loadScript("https://unpkg.com/@ffmpeg/util@0.12.2/dist/umd/index.js");
+    }
+    if (!w.FFmpegWASM) {
+      await loadScript("https://unpkg.com/@ffmpeg/ffmpeg@0.12.15/dist/umd/ffmpeg.js");
+    }
+
+    if (!w.FFmpegWASM || !w.FFmpegUtil) {
+      throw new Error("FFmpeg UMD não ficou disponível no window após load.");
+    }
+
+    return {
+      FFmpeg: (w.FFmpegWASM as { FFmpeg: new () => never }).FFmpeg as never,
+      fetchFile: (w.FFmpegUtil as { fetchFile: (url: string) => Promise<Uint8Array> }).fetchFile,
+      toBlobURL: (w.FFmpegUtil as { toBlobURL: (url: string, mime: string) => Promise<string> }).toBlobURL,
+    };
+  }
+
   // Build 1h loop from Supabase clips using FFmpeg WASM (real acrossfade, pro quality)
   async function buildLoop(single: AncientGroundSingle) {
     const num = single.number;
@@ -615,8 +664,7 @@ export default function AncientGroundPage() {
     }));
 
     try {
-      const { FFmpeg } = await import("@ffmpeg/ffmpeg");
-      const { fetchFile, toBlobURL } = await import("@ffmpeg/util");
+      const { FFmpeg, fetchFile, toBlobURL } = await loadFfmpegFromCDN();
 
       const ffmpeg = new FFmpeg();
 
