@@ -658,11 +658,18 @@ export default function AncientGroundPage() {
       // Load MT core (requires SharedArrayBuffer — enabled via COOP/COEP in next.config.ts)
       const CORE_VERSION = "0.12.10";
       const BASE = `https://unpkg.com/@ffmpeg/core-mt@${CORE_VERSION}/dist/esm`;
+      // classWorkerURL loads the FFmpeg class's own worker as a blob (same-origin), avoiding
+      // the CORS block that happens when the worker is loaded directly from the CDN origin.
+      const classWorkerURL = await toBlobURL(
+        "https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.12.15/dist/esm/worker.js",
+        "text/javascript"
+      );
       await ffmpeg.load({
         coreURL: await toBlobURL(`${BASE}/ffmpeg-core.js`, "text/javascript"),
         wasmURL: await toBlobURL(`${BASE}/ffmpeg-core.wasm`, "application/wasm"),
         workerURL: await toBlobURL(`${BASE}/ffmpeg-core.worker.js`, "text/javascript"),
-      });
+        classWorkerURL,
+      } as never);
 
       setStates((s) => ({
         ...s,
