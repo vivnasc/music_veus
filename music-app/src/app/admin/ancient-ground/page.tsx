@@ -268,7 +268,7 @@ function SingleCard({
       {state.loopUrl && (
         <a
           href={state.loopUrl}
-          download={`${single.title.toLowerCase().replace(/\s+/g, "-")}-ancient-ground-1h.mp3`}
+          download={`${single.title.toLowerCase().replace(/\s+/g, "-")}-ancient-ground-1h.m4a`}
           className="block w-full text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition mt-2"
         >
           Download loop 1h
@@ -598,7 +598,7 @@ export default function AncientGroundPage() {
     }
   }
 
-  // Build full 1h loop: OfflineAudioContext native render + lamejs MP3 encode.
+  // Build full 1h loop: OfflineAudioContext native render + WebCodecs AAC encoder (hardware)
   async function buildLoop(single: AncientGroundSingle) {
     const num = single.number;
     const tA = String(num * 2 - 1).padStart(2, "0");
@@ -612,6 +612,11 @@ export default function AncientGroundPage() {
     }));
 
     try {
+      // Check WebCodecs support upfront
+      if (typeof window === "undefined" || !("AudioEncoder" in window)) {
+        throw new Error("Este browser não suporta WebCodecs. Usa Chrome, Edge ou Safari actualizado.");
+      }
+
       // 1. Fetch both MP3 files in parallel
       const [rawA, rawB] = await Promise.all([
         fetch(`${basePath}/faixa-${tA}.mp3`).then((r) => {
@@ -636,125 +641,155 @@ export default function AncientGroundPage() {
         ctx.decodeAudioData(rawA.slice(0)),
         ctx.decodeAudioData(rawB.slice(0)),
       ]);
+      const sampleRate = audioA.sampleRate; // keep native (usually 44100)
       const dA = audioA.duration;
       const dB = audioB.duration;
       const crossfadeSec = 4;
       const totalDur = 3600;
 
-      // 3. Native-speed 1h render via OfflineAudioContext.
-      // Force 22050Hz to halve memory (635MB vs 1.27GB) AND halve encoding work.
-      // Mbira/kora/ambient frequencies are well below 11kHz — inaudible difference.
-      type OfflineCtxCtor = new (channels: number, length: number, sampleRate: number) => OfflineAudioContext;
-      const OfflineCtx = (window.OfflineAudioContext || (window as unknown as { webkitOfflineAudioContext: OfflineCtxCtor }).webkitOfflineAudioContext) as OfflineCtxCtor;
-      const rateOptions = [22050, 16000, 11025];
-      let rendered: AudioBuffer | null = null;
-      let usedRate = 0;
-      for (const rate of rateOptions) {
-        try {
-          setStates((s) => ({
-            ...s,
-            [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A renderizar 1h @ ${rate}Hz...` },
-          }));
-          const offline = new OfflineCtx(1, Math.floor(totalDur * rate), rate);
-
-          // Alternate A and B across the 1h timeline with `crossfadeSec` crossfades at every join.
-          let time = 0;
-          let useA = true;
-          while (time < totalDur) {
-            const src = offline.createBufferSource();
-            src.buffer = useA ? audioA : audioB;
-            const g = offline.createGain();
-            const dur = useA ? dA : dB;
-
-            // Fade-in (except first source)
-            if (time === 0) {
-              g.gain.setValueAtTime(1, 0);
-            } else {
-              const fadeInStart = Math.max(0, time - crossfadeSec);
-              g.gain.setValueAtTime(0, fadeInStart);
-              g.gain.linearRampToValueAtTime(1, time);
-            }
-            // Fade-out (except if this is the last source reaching the end)
-            const endTime = time + dur - (time === 0 ? 0 : crossfadeSec);
-            const actualStart = time === 0 ? 0 : time - crossfadeSec;
-            const srcEndInTimeline = actualStart + dur;
-            if (srcEndInTimeline < totalDur) {
-              g.gain.setValueAtTime(1, srcEndInTimeline - crossfadeSec);
-              g.gain.linearRampToValueAtTime(0, srcEndInTimeline);
-            }
-
-            src.connect(g).connect(offline.destination);
-            src.start(actualStart);
-
-            time = endTime;
-            useA = !useA;
-          }
-
-          rendered = await offline.startRendering();
-          usedRate = rate;
-          break;
-        } catch (e) {
-          // Memory error or context creation failure → try smaller rate
-          console.warn(`OfflineAudioContext failed @ ${rate}Hz:`, e);
-          continue;
-        }
-      }
-
-      if (!rendered) {
-        throw new Error("Memória insuficiente para renderizar 1h (tentei 44.1k, 32k, 22.05k).");
-      }
-
-      // 4. Encode the 1h buffer as MP3 with lamejs
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A codificar MP3 (${usedRate}Hz)...` },
+        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A renderizar 1h estéreo @ ${sampleRate}Hz...` },
       }));
 
-      const lamejsMod = await import("@breezystack/lamejs");
-      type Encoder = {
-        encodeBuffer: (l: Int16Array, r?: Int16Array) => Uint8Array;
-        flush: () => Uint8Array;
-      };
-      type LameModule = { Mp3Encoder: new (ch: number, sr: number, kbps: number) => Encoder };
-      const lamejs = ((lamejsMod as unknown as { default?: LameModule }).default || lamejsMod) as unknown as LameModule;
-      const encoder: Encoder = new lamejs.Mp3Encoder(1, usedRate, 96);
+      // 3. Native-speed 1h render via OfflineAudioContext (stereo, full rate)
+      type OfflineCtxCtor = new (channels: number, length: number, sampleRate: number) => OfflineAudioContext;
+      const OfflineCtx = (window.OfflineAudioContext || (window as unknown as { webkitOfflineAudioContext: OfflineCtxCtor }).webkitOfflineAudioContext) as OfflineCtxCtor;
+      const offline = new OfflineCtx(2, Math.floor(totalDur * sampleRate), sampleRate);
 
-      const rL = rendered.getChannelData(0);
-      const total = rL.length;
-      const BLOCK = 1152 * 50; // ~57k samples per encode call
-      const mp3Chunks: Uint8Array[] = [];
+      // Alternate A and B across the 1h timeline with crossfades at every transition.
+      let time = 0;
+      let useA = true;
+      while (time < totalDur) {
+        const src = offline.createBufferSource();
+        src.buffer = useA ? audioA : audioB;
+        const g = offline.createGain();
+        const dur = useA ? dA : dB;
+        const actualStart = time === 0 ? 0 : time - crossfadeSec;
 
-      for (let off = 0; off < total; off += BLOCK) {
-        const end = Math.min(off + BLOCK, total);
-        const len = end - off;
-        const l16 = new Int16Array(len);
-        for (let i = 0; i < len; i++) {
-          const lv = rL[off + i];
-          l16[i] = lv < -1 ? -32768 : lv > 1 ? 32767 : (lv * 32767) | 0;
+        if (time === 0) {
+          g.gain.setValueAtTime(1, 0);
+        } else {
+          g.gain.setValueAtTime(0, actualStart);
+          g.gain.linearRampToValueAtTime(1, time);
         }
-        const enc = encoder.encodeBuffer(l16);
-        if (enc.length > 0) mp3Chunks.push(new Uint8Array(enc));
+        const srcEnd = actualStart + dur;
+        if (srcEnd < totalDur) {
+          g.gain.setValueAtTime(1, srcEnd - crossfadeSec);
+          g.gain.linearRampToValueAtTime(0, srcEnd);
+        }
+        src.connect(g).connect(offline.destination);
+        src.start(actualStart);
 
-        if ((off / BLOCK) % 20 === 0) {
-          const pct = Math.round((end / total) * 100);
+        time = time === 0 ? dA - crossfadeSec : time + dur - crossfadeSec;
+        useA = !useA;
+      }
+
+      const rendered = await offline.startRendering();
+      const rL = rendered.getChannelData(0);
+      const rR = rendered.numberOfChannels > 1 ? rendered.getChannelData(1) : rL;
+      const total = rL.length;
+
+      // 4. Hardware-accelerated AAC encoding via WebCodecs + MP4 muxing
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: "A codificar AAC (hardware)..." },
+      }));
+
+      const muxerMod = await import("mp4-muxer");
+      type Muxer = {
+        addAudioChunk: (chunk: unknown, meta: unknown) => void;
+        finalize: () => void;
+        target: { buffer: ArrayBuffer };
+      };
+      type MuxerCtor = new (opts: unknown) => Muxer;
+      type ArrayBufferTargetCtor = new () => { buffer: ArrayBuffer };
+      const MuxerImpl = (muxerMod as unknown as { Muxer: MuxerCtor }).Muxer;
+      const ArrayBufferTarget = (muxerMod as unknown as { ArrayBufferTarget: ArrayBufferTargetCtor }).ArrayBufferTarget;
+
+      const muxer: Muxer = new MuxerImpl({
+        target: new ArrayBufferTarget(),
+        fastStart: "in-memory",
+        audio: {
+          codec: "aac",
+          numberOfChannels: 2,
+          sampleRate,
+        },
+      });
+
+      type AudioEncoderCtor = new (opts: { output: (chunk: unknown, meta: unknown) => void; error: (e: Error) => void }) => {
+        configure: (cfg: { codec: string; numberOfChannels: number; sampleRate: number; bitrate: number }) => void;
+        encode: (data: unknown) => void;
+        flush: () => Promise<void>;
+        close: () => void;
+      };
+      type AudioDataCtor = new (init: {
+        format: string;
+        sampleRate: number;
+        numberOfFrames: number;
+        numberOfChannels: number;
+        timestamp: number;
+        data: Float32Array;
+      }) => { close: () => void };
+      const AudioEncoderImpl = (window as unknown as { AudioEncoder: AudioEncoderCtor }).AudioEncoder;
+      const AudioDataImpl = (window as unknown as { AudioData: AudioDataCtor }).AudioData;
+
+      let encoderError: Error | null = null;
+      const encoder = new AudioEncoderImpl({
+        output: (chunk, meta) => muxer.addAudioChunk(chunk, meta),
+        error: (e) => { encoderError = e; },
+      });
+      encoder.configure({
+        codec: "mp4a.40.2", // AAC-LC
+        numberOfChannels: 2,
+        sampleRate,
+        bitrate: 192000, // 192 kbps stereo AAC ≈ 256 kbps MP3 quality
+      });
+
+      // Feed AudioData frames in chunks of 1024 (AAC native frame size)
+      const FRAME = 1024;
+      for (let offset = 0; offset < total; offset += FRAME) {
+        if (encoderError) throw encoderError;
+        const frameLen = Math.min(FRAME, total - offset);
+        // f32-planar: [L samples..., R samples...]
+        const planar = new Float32Array(frameLen * 2);
+        for (let i = 0; i < frameLen; i++) {
+          planar[i] = rL[offset + i];
+          planar[frameLen + i] = rR[offset + i];
+        }
+        const data = new AudioDataImpl({
+          format: "f32-planar",
+          sampleRate,
+          numberOfFrames: frameLen,
+          numberOfChannels: 2,
+          timestamp: Math.round((offset / sampleRate) * 1e6),
+          data: planar,
+        });
+        encoder.encode(data);
+        data.close();
+
+        if ((offset / FRAME) % 2000 === 0) {
+          const pct = Math.round((offset / total) * 100);
           setStates((s) => ({
             ...s,
-            [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A codificar MP3... ${pct}%` },
+            [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A codificar AAC... ${pct}%` },
           }));
           await new Promise((r) => setTimeout(r, 0));
         }
       }
 
-      const flush = encoder.flush();
-      if (flush.length > 0) mp3Chunks.push(new Uint8Array(flush));
+      await encoder.flush();
+      encoder.close();
+      if (encoderError) throw encoderError;
 
+      muxer.finalize();
       try { await ctx.close(); } catch {}
 
-      const loopBlob = new Blob(mp3Chunks as BlobPart[], { type: "audio/mpeg" });
+      const m4aBlob = new Blob([muxer.target.buffer], { type: "audio/mp4" });
 
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto (${Math.round(loopBlob.size / 1024 / 1024)}MB, mono ${usedRate}Hz, crossfade 4s imperceptível)`, loopUrl: URL.createObjectURL(loopBlob) },
+        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto (${Math.round(m4aBlob.size / 1024 / 1024)}MB AAC 192kbps estéreo ${sampleRate}Hz, crossfade 4s)`, loopUrl: URL.createObjectURL(m4aBlob) },
       }));
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
