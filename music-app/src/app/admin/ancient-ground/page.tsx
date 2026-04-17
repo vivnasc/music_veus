@@ -21,7 +21,6 @@ type SingleState = {
   status: "idle" | "generating" | "polling" | "done" | "error";
   error: string;
   clips: SunoClip[];
-  loopUrl?: string;
 };
 
 // ─── Helpers ───
@@ -131,7 +130,7 @@ function SingleCard({
   onGenerate,
   onDownloadClip,
   onApprove,
-  onBuildLoop,
+  onGetFfmpeg,
 }: {
   single: AncientGroundSingle;
   state: SingleState;
@@ -139,7 +138,7 @@ function SingleCard({
   onGenerate: () => void;
   onDownloadClip: (url: string, title: string) => void;
   onApprove: (single: AncientGroundSingle, clips: SunoClip[]) => void;
-  onBuildLoop: (single: AncientGroundSingle) => void;
+  onGetFfmpeg: (single: AncientGroundSingle) => string;
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
 
@@ -159,12 +158,8 @@ function SingleCard({
           </div>
         </div>
         {state.status === "done" && (
-          <span className={`shrink-0 text-[10px] rounded-full px-2 py-0.5 ${
-            state.loopUrl
-              ? "text-blue-400 bg-blue-900/20"
-              : "text-green-400 bg-green-900/20"
-          }`}>
-            {state.loopUrl ? "loop 1h" : "gerado"}
+          <span className="shrink-0 text-[10px] rounded-full px-2 py-0.5 text-green-400 bg-green-900/20">
+            gerado
           </span>
         )}
       </div>
@@ -252,26 +247,12 @@ function SingleCard({
         </div>
       )}
 
-      {/* Build 1h loop + Download — visible for all "done" singles */}
-      {state.status === "done" && !state.loopUrl && (
-        <button
-          onClick={() => onBuildLoop(single)}
-          className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-blue-800/30 text-blue-300 hover:bg-blue-800/50 transition"
-        >
-          Montar loop 1h
-        </button>
-      )}
-      {state.status === "generating" && state.error?.includes("loop") && (
-        <p className="text-[10px] text-blue-400 animate-pulse">{state.error}</p>
-      )}
-      {state.loopUrl && (
-        <a
-          href={state.loopUrl}
-          download={`${single.title} - Ancient Ground (1h).mp3`}
-          className="w-full block text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
-        >
-          Download 1h para DistroKid
-        </a>
+      {/* FFmpeg command for 1h loop — visible for all "done" singles */}
+      {state.status === "done" && (
+        <CopyButton
+          text={onGetFfmpeg(single)}
+          label="Copiar comando FFmpeg (loop 1h)"
+        />
       )}
     </div>
   );
@@ -603,7 +584,12 @@ export default function AncientGroundPage() {
     const tnA = String(num * 2 - 1).padStart(2, "0");
     const tnB = String(num * 2).padStart(2, "0");
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-    const basePath = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+    const base = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+    const tA = String(num * 2 - 1).padStart(2, "0");
+    const tB = String(num * 2).padStart(2, "0");
+    const urlA = `${base}/faixa-${tA}.mp3`;
+    const urlB = `${base}/faixa-${tB}.mp3`;
+    const output = `"${single.title} - Ancient Ground (1h).mp3"`;
 
     setStates((s) => ({
       ...s,
@@ -778,7 +764,7 @@ export default function AncientGroundPage() {
             onGenerate={() => generateSingle(single)}
             onDownloadClip={downloadClip}
             onApprove={approveSingle}
-            onBuildLoop={buildLoop}
+            onGetFfmpeg={getFfmpegCommand}
           />
         ))}
       </div>
