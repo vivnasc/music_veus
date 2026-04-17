@@ -131,7 +131,6 @@ function SingleCard({
   onGenerate,
   onDownloadClip,
   onApprove,
-  onGetFfmpeg,
   onBuildLoop,
 }: {
   single: AncientGroundSingle;
@@ -140,7 +139,6 @@ function SingleCard({
   onGenerate: () => void;
   onDownloadClip: (url: string, title: string) => void;
   onApprove: (single: AncientGroundSingle, clips: SunoClip[]) => void;
-  onGetFfmpeg: (single: AncientGroundSingle) => string;
   onBuildLoop: (single: AncientGroundSingle) => void;
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
@@ -250,23 +248,14 @@ function SingleCard({
         </div>
       )}
 
-      {/* Build 1h loop (FFmpeg WASM) + fallback terminal command */}
+      {/* Build 1h loop */}
       {state.status === "done" && !state.loopUrl && (
-        <div className="flex gap-2 mt-2">
-          <button
-            onClick={() => onBuildLoop(single)}
-            className="flex-1 rounded-lg px-4 py-2.5 text-xs font-medium bg-indigo-800/30 text-indigo-300 hover:bg-indigo-800/50 transition"
-          >
-            Montar loop 1h (browser)
-          </button>
-          <CopyButton
-            text={onGetFfmpeg(single)}
-            label="Copiar FFmpeg cmd"
-          />
-        </div>
-      )}
-      {state.status === "generating" && state.error?.includes("FFmpeg") && (
-        <p className="text-[11px] text-indigo-400 mt-1 animate-pulse">{state.error}</p>
+        <button
+          onClick={() => onBuildLoop(single)}
+          className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-indigo-800/30 text-indigo-300 hover:bg-indigo-800/50 transition mt-2"
+        >
+          Montar loop 1h
+        </button>
       )}
       {state.loopUrl && (
         <a
@@ -601,35 +590,8 @@ export default function AncientGroundPage() {
     }
   }
 
-  // Load FFmpeg ESM bundles from CDN (bypasses Next.js/Turbopack static analysis)
-  async function loadFfmpegFromCDN(): Promise<{
-    FFmpeg: new () => {
-      on: (ev: "progress", cb: (e: { progress: number }) => void) => void;
-      load: (cfg: { coreURL: string; wasmURL: string; workerURL: string }) => Promise<void>;
-      writeFile: (name: string, data: Uint8Array) => Promise<void>;
-      readFile: (name: string) => Promise<Uint8Array | string>;
-      exec: (args: string[]) => Promise<number>;
-      deleteFile: (name: string) => Promise<void>;
-    };
-    fetchFile: (url: string) => Promise<Uint8Array>;
-    toBlobURL: (url: string, mime: string) => Promise<string>;
-  }> {
-    // `new Function` hides the dynamic import() from Turbopack/webpack static analysis
-    const dynImport = new Function("u", "return import(u)") as (u: string) => Promise<Record<string, unknown>>;
-    const ffmpegMod = await dynImport("https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.12.15/+esm");
-    const utilMod = await dynImport("https://cdn.jsdelivr.net/npm/@ffmpeg/util@0.12.2/+esm");
-
-    const FFmpeg = ffmpegMod.FFmpeg as never;
-    const fetchFile = utilMod.fetchFile as (url: string) => Promise<Uint8Array>;
-    const toBlobURL = utilMod.toBlobURL as (url: string, mime: string) => Promise<string>;
-
-    if (!FFmpeg || !fetchFile || !toBlobURL) {
-      throw new Error("FFmpeg ESM não expôs FFmpeg/fetchFile/toBlobURL após carregar do CDN.");
-    }
-    return { FFmpeg, fetchFile, toBlobURL };
-  }
-
-  // Build 1h loop from Supabase clips using FFmpeg WASM (real acrossfade, pro quality)
+  // Build 1h loop by concatenating MP3 files (fast, instant, no crossfade).
+  // For pro-quality crossfade, use the "Copiar FFmpeg cmd" button instead.
   async function buildLoop(single: AncientGroundSingle) {
     const num = single.number;
     const tA = String(num * 2 - 1).padStart(2, "0");
@@ -639,97 +601,141 @@ export default function AncientGroundPage() {
 
     setStates((s) => ({
       ...s,
-      [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A carregar FFmpeg WASM..." },
+      [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A descarregar faixas..." },
     }));
 
     try {
-      const { FFmpeg, fetchFile, toBlobURL } = await loadFfmpegFromCDN();
-
-      const ffmpeg = new FFmpeg();
-
-      ffmpeg.on("progress", ({ progress }) => {
-        const pct = Math.min(99, Math.max(0, Math.round(progress * 100)));
-        setStates((s) => ({
-          ...s,
-          [num]: { ...(s[num] || { clips: [] }), status: "generating", error: `FFmpeg a processar... ${pct}%` },
-        }));
-      });
-
-      // Load MT core (requires SharedArrayBuffer — enabled via COOP/COEP in next.config.ts)
-      const CORE_VERSION = "0.12.10";
-      const BASE = `https://unpkg.com/@ffmpeg/core-mt@${CORE_VERSION}/dist/esm`;
-      // classWorkerURL loads the FFmpeg class's own worker as a blob (same-origin), avoiding
-      // the CORS block that happens when the worker is loaded directly from the CDN origin.
-      const classWorkerURL = await toBlobURL(
-        "https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.12.15/dist/esm/worker.js",
-        "text/javascript"
-      );
-      await ffmpeg.load({
-        coreURL: await toBlobURL(`${BASE}/ffmpeg-core.js`, "text/javascript"),
-        wasmURL: await toBlobURL(`${BASE}/ffmpeg-core.wasm`, "application/wasm"),
-        workerURL: await toBlobURL(`${BASE}/ffmpeg-core.worker.js`, "text/javascript"),
-        classWorkerURL,
-      } as never);
-
-      setStates((s) => ({
-        ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A descarregar faixas do Supabase..." },
-      }));
-
-      // Write both tracks to FFmpeg's virtual FS
-      await ffmpeg.writeFile("A.mp3", await fetchFile(`${basePath}/faixa-${tA}.mp3`));
-      await ffmpeg.writeFile("B.mp3", await fetchFile(`${basePath}/faixa-${tB}.mp3`));
-
-      setStates((s) => ({
-        ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "Pass 1/2: crossfade A→B..." },
-      }));
-
-      // Pass 1: build segment A→B with 5s triangular crossfade, plus 2s fade-in and fade-out
-      // at the segment edges so stream_loop joins are gentle (not clicky).
-      await ffmpeg.exec([
-        "-i", "A.mp3",
-        "-i", "B.mp3",
-        "-filter_complex",
-        "[0][1]acrossfade=d=5:c1=tri:c2=tri[x];[x]afade=t=in:st=0:d=2,afade=t=out:st=end-2:d=2[out]",
-        "-map", "[out]",
-        "-c:a", "libmp3lame",
-        "-b:a", "192k",
-        "segment.mp3",
+      // 1. Fetch both MP3 files in parallel
+      const [rawA, rawB] = await Promise.all([
+        fetch(`${basePath}/faixa-${tA}.mp3`).then((r) => {
+          if (!r.ok) throw new Error(`faixa-${tA} não encontrada no Supabase`);
+          return r.arrayBuffer();
+        }),
+        fetch(`${basePath}/faixa-${tB}.mp3`).then((r) => {
+          if (!r.ok) throw new Error(`faixa-${tB} não encontrada no Supabase`);
+          return r.arrayBuffer();
+        }),
       ]);
 
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "Pass 2/2: loop para 1h..." },
+        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A descodificar áudio..." },
       }));
 
-      // Pass 2: stream-loop the segment to exactly 3600s, copy codec (fast, no re-encode)
-      await ffmpeg.exec([
-        "-stream_loop", "-1",
-        "-i", "segment.mp3",
-        "-t", "3600",
-        "-c", "copy",
-        "loop.mp3",
+      // 2. Decode both MP3s into AudioBuffers (PCM samples)
+      const AudioCtx = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+      const ctx = new AudioCtx();
+      const [audioA, audioB] = await Promise.all([
+        ctx.decodeAudioData(rawA.slice(0)),
+        ctx.decodeAudioData(rawB.slice(0)),
       ]);
+      const sampleRate = audioA.sampleRate;
+      const aL = audioA.getChannelData(0);
+      const aR = audioA.numberOfChannels > 1 ? audioA.getChannelData(1) : aL;
+      const bL = audioB.getChannelData(0);
+      const bR = audioB.numberOfChannels > 1 ? audioB.getChannelData(1) : bL;
+      const aLen = aL.length;
+      const bLen = bL.length;
 
-      const data = await ffmpeg.readFile("loop.mp3");
-      const bytes = data instanceof Uint8Array ? data : new TextEncoder().encode(String(data));
-      // Copy into a fresh ArrayBuffer so Blob accepts it (FFmpeg returns SharedArrayBuffer-backed Uint8Array in MT mode)
-      const copy = new Uint8Array(bytes.byteLength);
-      copy.set(bytes);
-      const loopBlob = new Blob([copy.buffer], { type: "audio/mpeg" });
+      // 3. Plan source placements across the 1h timeline with equal-power crossfades
+      const totalSamples = Math.floor(3600 * sampleRate);
+      const crossfadeSamples = Math.floor(4 * sampleRate); // 4s crossfade (imperceptible)
 
-      // Cleanup FS
-      try {
-        await ffmpeg.deleteFile("A.mp3");
-        await ffmpeg.deleteFile("B.mp3");
-        await ffmpeg.deleteFile("segment.mp3");
-        await ffmpeg.deleteFile("loop.mp3");
-      } catch {}
+      type Placement = { start: number; L: Float32Array; R: Float32Array; len: number };
+      const placements: Placement[] = [];
+      let pos = 0;
+      let useA = true;
+      while (pos < totalSamples) {
+        const src = useA ? { L: aL, R: aR, len: aLen } : { L: bL, R: bR, len: bLen };
+        placements.push({ start: pos, ...src });
+        pos += src.len - crossfadeSamples;
+        useA = !useA;
+      }
+
+      // 4. Lazy-load lamejs (pure JS MP3 encoder) and process in 10s chunks
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A carregar encoder MP3..." },
+      }));
+      const lamejsMod = await import("@breezystack/lamejs");
+      type Encoder = {
+        encodeBuffer: (l: Int16Array, r: Int16Array) => Uint8Array;
+        flush: () => Uint8Array;
+      };
+      type LameModule = { Mp3Encoder: new (ch: number, sr: number, kbps: number) => Encoder };
+      const lamejs = ((lamejsMod as unknown as { default?: LameModule }).default || lamejsMod) as unknown as LameModule;
+      const encoder: Encoder = new lamejs.Mp3Encoder(2, sampleRate, 192);
+
+      const mp3Chunks: Uint8Array[] = [];
+      const CHUNK_SAMPLES = 10 * sampleRate; // 10s chunks
+
+      for (let chunkStart = 0; chunkStart < totalSamples; chunkStart += CHUNK_SAMPLES) {
+        const chunkEnd = Math.min(chunkStart + CHUNK_SAMPLES, totalSamples);
+        const chunkLen = chunkEnd - chunkStart;
+        const outL = new Float32Array(chunkLen);
+        const outR = new Float32Array(chunkLen);
+
+        // Sum contributions from any placement that overlaps this chunk
+        for (const p of placements) {
+          const srcEnd = p.start + p.len;
+          if (srcEnd <= chunkStart || p.start >= chunkEnd) continue;
+
+          const hasFadeIn = p.start > 0;
+          const hasFadeOut = srcEnd < totalSamples;
+          const fadeOutStart = p.len - crossfadeSamples;
+
+          const fromG = Math.max(chunkStart, p.start);
+          const toG = Math.min(chunkEnd, srcEnd);
+          for (let g = fromG; g < toG; g++) {
+            const si = g - p.start;
+            const oi = g - chunkStart;
+            let gain = 1;
+            if (hasFadeIn && si < crossfadeSamples) {
+              // Equal-power fade-in (sin curve) — imperceptible with matching fade-out
+              gain *= Math.sin((si / crossfadeSamples) * Math.PI * 0.5);
+            }
+            if (hasFadeOut && si >= fadeOutStart) {
+              const t = (p.len - si) / crossfadeSamples;
+              gain *= Math.sin(t * Math.PI * 0.5);
+            }
+            outL[oi] += p.L[si] * gain;
+            outR[oi] += p.R[si] * gain;
+          }
+        }
+
+        // Convert Float32 [-1,1] → Int16 PCM
+        const l16 = new Int16Array(chunkLen);
+        const r16 = new Int16Array(chunkLen);
+        for (let i = 0; i < chunkLen; i++) {
+          const lv = outL[i];
+          const rv = outR[i];
+          l16[i] = lv < -1 ? -32768 : lv > 1 ? 32767 : Math.round(lv * 32767);
+          r16[i] = rv < -1 ? -32768 : rv > 1 ? 32767 : Math.round(rv * 32767);
+        }
+        const enc = encoder.encodeBuffer(l16, r16);
+        if (enc.length > 0) mp3Chunks.push(new Uint8Array(enc));
+
+        // Update UI every ~5% and yield so React can render + browser stays responsive
+        const pct = Math.round((chunkEnd / totalSamples) * 100);
+        if (chunkStart % (CHUNK_SAMPLES * 6) === 0 || chunkEnd === totalSamples) {
+          setStates((s) => ({
+            ...s,
+            [num]: { ...(s[num] || { clips: [] }), status: "generating", error: `A codificar MP3... ${pct}%` },
+          }));
+          await new Promise((r) => setTimeout(r, 0));
+        }
+      }
+
+      const flush = encoder.flush();
+      if (flush.length > 0) mp3Chunks.push(new Uint8Array(flush));
+
+      try { await ctx.close(); } catch {}
+
+      const loopBlob = new Blob(mp3Chunks as BlobPart[], { type: "audio/mpeg" });
 
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto! (${Math.round(loopBlob.size / 1024 / 1024)}MB, crossfade pro)`, loopUrl: URL.createObjectURL(loopBlob) },
+        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto (${Math.round(loopBlob.size / 1024 / 1024)}MB, crossfade 4s imperceptível)`, loopUrl: URL.createObjectURL(loopBlob) },
       }));
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
@@ -738,19 +744,6 @@ export default function AncientGroundPage() {
         [num]: { ...(s[num] || { clips: [] }), status: "error", error: msg },
       }));
     }
-  }
-
-  // Generate FFmpeg terminal command for 1h loop (fallback if WASM fails)
-  function getFfmpegCommand(single: AncientGroundSingle): string {
-    const num = single.number;
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-    const base = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
-    const tA = String(num * 2 - 1).padStart(2, "0");
-    const tB = String(num * 2).padStart(2, "0");
-    const urlA = `${base}/faixa-${tA}.mp3`;
-    const urlB = `${base}/faixa-${tB}.mp3`;
-    const output = `"${single.title} - Ancient Ground (1h).mp3"`;
-    return `ffmpeg -i "${urlA}" -i "${urlB}" -filter_complex "[0][1]acrossfade=d=5:c1=tri:c2=tri[seg];[seg]afade=t=in:d=2,afade=t=out:st=end-2:d=2[faded]" -map "[faded]" -c:a libmp3lame -b:a 192k segment.mp3 && ffmpeg -stream_loop -1 -i segment.mp3 -t 3600 -c copy ${output}`;
   }
 
   // Filter singles
@@ -829,7 +822,6 @@ export default function AncientGroundPage() {
             onGenerate={() => generateSingle(single)}
             onDownloadClip={downloadClip}
             onApprove={approveSingle}
-            onGetFfmpeg={getFfmpegCommand}
             onBuildLoop={buildLoop}
           />
         ))}
