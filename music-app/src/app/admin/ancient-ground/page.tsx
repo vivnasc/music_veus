@@ -268,7 +268,7 @@ function SingleCard({
       {state.loopUrl && (
         <a
           href={state.loopUrl}
-          download={`${single.title.toLowerCase().replace(/\s+/g, "-")}-ancient-ground-1h.m4a`}
+          download={`${single.title.toLowerCase().replace(/\s+/g, "-")}-ancient-ground-1h.wav`}
           className="block w-full text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition mt-2"
         >
           Download loop 1h
@@ -612,11 +612,6 @@ export default function AncientGroundPage() {
     }));
 
     try {
-      // Check WebCodecs support upfront
-      if (typeof window === "undefined" || !("AudioEncoder" in window)) {
-        throw new Error("Este browser não suporta WebCodecs. Usa Chrome, Edge ou Safari actualizado.");
-      }
-
       // 1. Fetch both MP3 files in parallel
       const [rawA, rawB] = await Promise.all([
         fetch(`${basePath}/faixa-${tA}.mp3`).then((r) => {
@@ -690,106 +685,69 @@ export default function AncientGroundPage() {
       const rR = rendered.numberOfChannels > 1 ? rendered.getChannelData(1) : rL;
       const total = rL.length;
 
-      // 4. Hardware-accelerated AAC encoding via WebCodecs + MP4 muxing
+      // 4. Write as WAV (lossless 16-bit PCM stereo — format DistroKid accepts)
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: "A codificar AAC (hardware)..." },
+        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: "A escrever WAV..." },
       }));
 
-      const muxerMod = await import("mp4-muxer");
-      type Muxer = {
-        addAudioChunk: (chunk: unknown, meta: unknown) => void;
-        finalize: () => void;
-        target: { buffer: ArrayBuffer };
+      const bytesPerSample = 2; // 16-bit
+      const numChannels = 2;
+      const dataSize = total * numChannels * bytesPerSample;
+      const fileSize = 44 + dataSize;
+
+      // Build 44-byte RIFF/WAVE header
+      const header = new ArrayBuffer(44);
+      const view = new DataView(header);
+      const writeStr = (off: number, s: string) => {
+        for (let i = 0; i < s.length; i++) view.setUint8(off + i, s.charCodeAt(i));
       };
-      type MuxerCtor = new (opts: unknown) => Muxer;
-      type ArrayBufferTargetCtor = new () => { buffer: ArrayBuffer };
-      const MuxerImpl = (muxerMod as unknown as { Muxer: MuxerCtor }).Muxer;
-      const ArrayBufferTarget = (muxerMod as unknown as { ArrayBufferTarget: ArrayBufferTargetCtor }).ArrayBufferTarget;
+      writeStr(0, "RIFF");
+      view.setUint32(4, fileSize - 8, true);
+      writeStr(8, "WAVE");
+      writeStr(12, "fmt ");
+      view.setUint32(16, 16, true); // fmt chunk size
+      view.setUint16(20, 1, true); // PCM
+      view.setUint16(22, numChannels, true);
+      view.setUint32(24, sampleRate, true);
+      view.setUint32(28, sampleRate * numChannels * bytesPerSample, true); // byte rate
+      view.setUint16(32, numChannels * bytesPerSample, true); // block align
+      view.setUint16(34, 16, true); // bits per sample
+      writeStr(36, "data");
+      view.setUint32(40, dataSize, true);
 
-      const muxer: Muxer = new MuxerImpl({
-        target: new ArrayBufferTarget(),
-        fastStart: "in-memory",
-        audio: {
-          codec: "aac",
-          numberOfChannels: 2,
-          sampleRate,
-        },
-      });
-
-      type AudioEncoderCtor = new (opts: { output: (chunk: unknown, meta: unknown) => void; error: (e: Error) => void }) => {
-        configure: (cfg: { codec: string; numberOfChannels: number; sampleRate: number; bitrate: number }) => void;
-        encode: (data: unknown) => void;
-        flush: () => Promise<void>;
-        close: () => void;
-      };
-      type AudioDataCtor = new (init: {
-        format: string;
-        sampleRate: number;
-        numberOfFrames: number;
-        numberOfChannels: number;
-        timestamp: number;
-        data: Float32Array;
-      }) => { close: () => void };
-      const AudioEncoderImpl = (window as unknown as { AudioEncoder: AudioEncoderCtor }).AudioEncoder;
-      const AudioDataImpl = (window as unknown as { AudioData: AudioDataCtor }).AudioData;
-
-      let encoderError: Error | null = null;
-      const encoder = new AudioEncoderImpl({
-        output: (chunk, meta) => muxer.addAudioChunk(chunk, meta),
-        error: (e) => { encoderError = e; },
-      });
-      encoder.configure({
-        codec: "mp4a.40.2", // AAC-LC
-        numberOfChannels: 2,
-        sampleRate,
-        bitrate: 192000, // 192 kbps stereo AAC ≈ 256 kbps MP3 quality
-      });
-
-      // Feed AudioData frames in chunks of 1024 (AAC native frame size)
-      const FRAME = 1024;
-      for (let offset = 0; offset < total; offset += FRAME) {
-        if (encoderError) throw encoderError;
-        const frameLen = Math.min(FRAME, total - offset);
-        // f32-planar: [L samples..., R samples...]
-        const planar = new Float32Array(frameLen * 2);
-        for (let i = 0; i < frameLen; i++) {
-          planar[i] = rL[offset + i];
-          planar[frameLen + i] = rR[offset + i];
+      // Write interleaved 16-bit PCM in blocks (avoids holding 635MB Int16Array in memory)
+      const parts: BlobPart[] = [header];
+      const BLOCK = 44100 * 10; // 10s of samples per block
+      for (let off = 0; off < total; off += BLOCK) {
+        const end = Math.min(off + BLOCK, total);
+        const len = end - off;
+        const pcm = new Int16Array(len * 2);
+        for (let i = 0; i < len; i++) {
+          const lv = rL[off + i];
+          const rv = rR[off + i];
+          pcm[i * 2]     = lv < -1 ? -32768 : lv > 1 ? 32767 : (lv * 32767) | 0;
+          pcm[i * 2 + 1] = rv < -1 ? -32768 : rv > 1 ? 32767 : (rv * 32767) | 0;
         }
-        const data = new AudioDataImpl({
-          format: "f32-planar",
-          sampleRate,
-          numberOfFrames: frameLen,
-          numberOfChannels: 2,
-          timestamp: Math.round((offset / sampleRate) * 1e6),
-          data: planar,
-        });
-        encoder.encode(data);
-        data.close();
+        parts.push(pcm.buffer);
 
-        if ((offset / FRAME) % 2000 === 0) {
-          const pct = Math.round((offset / total) * 100);
+        if ((off / BLOCK) % 6 === 0) {
+          const pct = Math.round((end / total) * 100);
           setStates((s) => ({
             ...s,
-            [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A codificar AAC... ${pct}%` },
+            [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A escrever WAV... ${pct}%` },
           }));
           await new Promise((r) => setTimeout(r, 0));
         }
       }
 
-      await encoder.flush();
-      encoder.close();
-      if (encoderError) throw encoderError;
-
-      muxer.finalize();
       try { await ctx.close(); } catch {}
 
-      const m4aBlob = new Blob([muxer.target.buffer], { type: "audio/mp4" });
+      const wavBlob = new Blob(parts, { type: "audio/wav" });
 
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto (${Math.round(m4aBlob.size / 1024 / 1024)}MB AAC 192kbps estéreo ${sampleRate}Hz, crossfade 4s)`, loopUrl: URL.createObjectURL(m4aBlob) },
+        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto (${Math.round(wavBlob.size / 1024 / 1024)}MB WAV 16-bit estéreo ${sampleRate}Hz — lossless, aceite pela DistroKid)`, loopUrl: URL.createObjectURL(wavBlob) },
       }));
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
