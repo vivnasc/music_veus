@@ -719,7 +719,42 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     navigator.mediaSession.setActionHandler("pause", () => togglePlay());
     navigator.mediaSession.setActionHandler("previoustrack", () => previous());
     navigator.mediaSession.setActionHandler("nexttrack", () => next());
-  }, [state.currentTrack, state.currentAlbum, togglePlay, next, previous]);
+    // Seek handlers — lets lock screen / CarPlay / Bluetooth scrub the track
+    try {
+      navigator.mediaSession.setActionHandler("seekto", (details) => {
+        if (details.seekTime != null) seek(details.seekTime);
+      });
+      navigator.mediaSession.setActionHandler("seekbackward", (details) => {
+        const audio = audioRef.current;
+        if (!audio) return;
+        seek(Math.max(0, audio.currentTime - (details.seekOffset || 10)));
+      });
+      navigator.mediaSession.setActionHandler("seekforward", (details) => {
+        const audio = audioRef.current;
+        if (!audio) return;
+        seek(audio.currentTime + (details.seekOffset || 10));
+      });
+    } catch { /* older browsers may not support seek actions */ }
+  }, [state.currentTrack, state.currentAlbum, togglePlay, next, previous, seek]);
+
+  // Keep playbackState + position in sync — required for correct play/pause icon
+  // on lock screen and the progress bar on CarPlay / Android Auto / Bluetooth displays.
+  useEffect(() => {
+    if (!("mediaSession" in navigator)) return;
+    navigator.mediaSession.playbackState = state.isPlaying ? "playing" : "paused";
+  }, [state.isPlaying]);
+
+  useEffect(() => {
+    if (!("mediaSession" in navigator) || !("setPositionState" in navigator.mediaSession)) return;
+    if (!state.duration || !isFinite(state.duration)) return;
+    try {
+      navigator.mediaSession.setPositionState({
+        duration: state.duration,
+        position: Math.min(state.currentTime, state.duration),
+        playbackRate: 1,
+      });
+    } catch { /* invalid state — ignore */ }
+  }, [state.currentTime, state.duration]);
 
   // ── Wake Lock — keep audio playing when screen locks ──
   useEffect(() => {
