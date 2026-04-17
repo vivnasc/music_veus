@@ -641,11 +641,12 @@ export default function AncientGroundPage() {
       const crossfadeSec = 4;
       const totalDur = 3600;
 
-      // 3. Native-speed 1h render via OfflineAudioContext. Try native sample rate first;
-      // fall back to lower rates if memory is exhausted (1h stereo 44.1kHz Float32 = 1.27GB).
+      // 3. Native-speed 1h render via OfflineAudioContext.
+      // Force 22050Hz to halve memory (635MB vs 1.27GB) AND halve encoding work.
+      // Mbira/kora/ambient frequencies are well below 11kHz — inaudible difference.
       type OfflineCtxCtor = new (channels: number, length: number, sampleRate: number) => OfflineAudioContext;
       const OfflineCtx = (window.OfflineAudioContext || (window as unknown as { webkitOfflineAudioContext: OfflineCtxCtor }).webkitOfflineAudioContext) as OfflineCtxCtor;
-      const rateOptions = [audioA.sampleRate, 32000, 22050];
+      const rateOptions = [22050, 16000, 11025];
       let rendered: AudioBuffer | null = null;
       let usedRate = 0;
       for (const rate of rateOptions) {
@@ -654,7 +655,7 @@ export default function AncientGroundPage() {
             ...s,
             [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A renderizar 1h @ ${rate}Hz...` },
           }));
-          const offline = new OfflineCtx(2, Math.floor(totalDur * rate), rate);
+          const offline = new OfflineCtx(1, Math.floor(totalDur * rate), rate);
 
           // Alternate A and B across the 1h timeline with `crossfadeSec` crossfades at every join.
           let time = 0;
@@ -711,15 +712,14 @@ export default function AncientGroundPage() {
 
       const lamejsMod = await import("@breezystack/lamejs");
       type Encoder = {
-        encodeBuffer: (l: Int16Array, r: Int16Array) => Uint8Array;
+        encodeBuffer: (l: Int16Array, r?: Int16Array) => Uint8Array;
         flush: () => Uint8Array;
       };
       type LameModule = { Mp3Encoder: new (ch: number, sr: number, kbps: number) => Encoder };
       const lamejs = ((lamejsMod as unknown as { default?: LameModule }).default || lamejsMod) as unknown as LameModule;
-      const encoder: Encoder = new lamejs.Mp3Encoder(2, usedRate, 128);
+      const encoder: Encoder = new lamejs.Mp3Encoder(1, usedRate, 96);
 
       const rL = rendered.getChannelData(0);
-      const rR = rendered.numberOfChannels > 1 ? rendered.getChannelData(1) : rL;
       const total = rL.length;
       const BLOCK = 1152 * 50; // ~57k samples per encode call
       const mp3Chunks: Uint8Array[] = [];
@@ -728,14 +728,11 @@ export default function AncientGroundPage() {
         const end = Math.min(off + BLOCK, total);
         const len = end - off;
         const l16 = new Int16Array(len);
-        const r16 = new Int16Array(len);
         for (let i = 0; i < len; i++) {
           const lv = rL[off + i];
-          const rv = rR[off + i];
           l16[i] = lv < -1 ? -32768 : lv > 1 ? 32767 : (lv * 32767) | 0;
-          r16[i] = rv < -1 ? -32768 : rv > 1 ? 32767 : (rv * 32767) | 0;
         }
-        const enc = encoder.encodeBuffer(l16, r16);
+        const enc = encoder.encodeBuffer(l16);
         if (enc.length > 0) mp3Chunks.push(new Uint8Array(enc));
 
         if ((off / BLOCK) % 20 === 0) {
@@ -757,7 +754,7 @@ export default function AncientGroundPage() {
 
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto (${Math.round(loopBlob.size / 1024 / 1024)}MB, ${usedRate}Hz, crossfade 4s)`, loopUrl: URL.createObjectURL(loopBlob) },
+        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto (${Math.round(loopBlob.size / 1024 / 1024)}MB, mono ${usedRate}Hz, crossfade 4s imperceptível)`, loopUrl: URL.createObjectURL(loopBlob) },
       }));
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
