@@ -72,3 +72,28 @@ export async function POST(req: NextRequest) {
 
   return NextResponse.json({ ok: true });
 }
+
+export async function DELETE(req: NextRequest) {
+  const auth = await requireAdmin(req);
+  if (!auth.ok) return auth.response;
+
+  const supabase = auth.supabase;
+  const body = await req.json();
+  const { albumSlug, trackNumber } = body;
+
+  if (!albumSlug || !trackNumber) {
+    return NextResponse.json({ erro: "albumSlug e trackNumber obrigatórios." }, { status: 400 });
+  }
+
+  const { error } = await supabase
+    .from("track_metadata")
+    .delete()
+    .eq("album_slug", albumSlug)
+    .eq("track_number", trackNumber);
+
+  if (error) {
+    return NextResponse.json({ erro: error.message }, { status: 500 });
+  }
+
+  return NextResponse.json({ ok: true });
+}

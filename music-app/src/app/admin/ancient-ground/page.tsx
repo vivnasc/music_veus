@@ -21,6 +21,7 @@ type SingleState = {
   status: "idle" | "generating" | "polling" | "done" | "error";
   error: string;
   clips: SunoClip[];
+  loopUrl?: string;
 };
 
 // ─── Helpers ───
@@ -131,6 +132,7 @@ function SingleCard({
   onDownloadClip,
   onApprove,
   onGetFfmpeg,
+  onBuildLoop,
 }: {
   single: AncientGroundSingle;
   state: SingleState;
@@ -139,6 +141,7 @@ function SingleCard({
   onDownloadClip: (url: string, title: string) => void;
   onApprove: (single: AncientGroundSingle, clips: SunoClip[]) => void;
   onGetFfmpeg: (single: AncientGroundSingle) => string;
+  onBuildLoop: (single: AncientGroundSingle) => void;
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
 
@@ -247,12 +250,32 @@ function SingleCard({
         </div>
       )}
 
-      {/* FFmpeg command for 1h loop — visible for all "done" singles */}
-      {state.status === "done" && (
-        <CopyButton
-          text={onGetFfmpeg(single)}
-          label="Copiar comando FFmpeg (loop 1h)"
-        />
+      {/* Build 1h loop (FFmpeg WASM) + fallback terminal command */}
+      {state.status === "done" && !state.loopUrl && (
+        <div className="flex gap-2 mt-2">
+          <button
+            onClick={() => onBuildLoop(single)}
+            className="flex-1 rounded-lg px-4 py-2.5 text-xs font-medium bg-indigo-800/30 text-indigo-300 hover:bg-indigo-800/50 transition"
+          >
+            Montar loop 1h (browser)
+          </button>
+          <CopyButton
+            text={onGetFfmpeg(single)}
+            label="Copiar FFmpeg cmd"
+          />
+        </div>
+      )}
+      {state.status === "generating" && state.error?.includes("FFmpeg") && (
+        <p className="text-[11px] text-indigo-400 mt-1 animate-pulse">{state.error}</p>
+      )}
+      {state.loopUrl && (
+        <a
+          href={state.loopUrl}
+          download={`${single.title.toLowerCase().replace(/\s+/g, "-")}-ancient-ground-1h.mp3`}
+          className="block w-full text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition mt-2"
+        >
+          Download loop 1h
+        </a>
       )}
     </div>
   );
@@ -581,15 +604,10 @@ export default function AncientGroundPage() {
   // Build 1h loop from Supabase clips using FFmpeg WASM (real acrossfade, pro quality)
   async function buildLoop(single: AncientGroundSingle) {
     const num = single.number;
-    const tnA = String(num * 2 - 1).padStart(2, "0");
-    const tnB = String(num * 2).padStart(2, "0");
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-    const base = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
     const tA = String(num * 2 - 1).padStart(2, "0");
     const tB = String(num * 2).padStart(2, "0");
-    const urlA = `${base}/faixa-${tA}.mp3`;
-    const urlB = `${base}/faixa-${tB}.mp3`;
-    const output = `"${single.title} - Ancient Ground (1h).mp3"`;
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+    const basePath = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
 
     setStates((s) => ({
       ...s,
@@ -625,8 +643,8 @@ export default function AncientGroundPage() {
       }));
 
       // Write both tracks to FFmpeg's virtual FS
-      await ffmpeg.writeFile("A.mp3", await fetchFile(`${basePath}/faixa-${tnA}.mp3`));
-      await ffmpeg.writeFile("B.mp3", await fetchFile(`${basePath}/faixa-${tnB}.mp3`));
+      await ffmpeg.writeFile("A.mp3", await fetchFile(`${basePath}/faixa-${tA}.mp3`));
+      await ffmpeg.writeFile("B.mp3", await fetchFile(`${basePath}/faixa-${tB}.mp3`));
 
       setStates((s) => ({
         ...s,
@@ -686,6 +704,19 @@ export default function AncientGroundPage() {
         [num]: { ...(s[num] || { clips: [] }), status: "error", error: msg },
       }));
     }
+  }
+
+  // Generate FFmpeg terminal command for 1h loop (fallback if WASM fails)
+  function getFfmpegCommand(single: AncientGroundSingle): string {
+    const num = single.number;
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+    const base = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+    const tA = String(num * 2 - 1).padStart(2, "0");
+    const tB = String(num * 2).padStart(2, "0");
+    const urlA = `${base}/faixa-${tA}.mp3`;
+    const urlB = `${base}/faixa-${tB}.mp3`;
+    const output = `"${single.title} - Ancient Ground (1h).mp3"`;
+    return `ffmpeg -i "${urlA}" -i "${urlB}" -filter_complex "[0][1]acrossfade=d=5:c1=tri:c2=tri[seg];[seg]afade=t=in:d=2,afade=t=out:st=end-2:d=2[faded]" -map "[faded]" -c:a libmp3lame -b:a 192k segment.mp3 && ffmpeg -stream_loop -1 -i segment.mp3 -t 3600 -c copy ${output}`;
   }
 
   // Filter singles
@@ -765,6 +796,7 @@ export default function AncientGroundPage() {
             onDownloadClip={downloadClip}
             onApprove={approveSingle}
             onGetFfmpeg={getFfmpegCommand}
+            onBuildLoop={buildLoop}
           />
         ))}
       </div>
