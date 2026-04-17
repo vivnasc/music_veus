@@ -601,7 +601,7 @@ export default function AncientGroundPage() {
     }
   }
 
-  // Load FFmpeg UMD bundles from CDN (avoids Next.js/Turbopack bundler issues)
+  // Load FFmpeg ESM bundles from CDN (bypasses Next.js/Turbopack static analysis)
   async function loadFfmpegFromCDN(): Promise<{
     FFmpeg: new () => {
       on: (ev: "progress", cb: (e: { progress: number }) => void) => void;
@@ -614,40 +614,19 @@ export default function AncientGroundPage() {
     fetchFile: (url: string) => Promise<Uint8Array>;
     toBlobURL: (url: string, mime: string) => Promise<string>;
   }> {
-    const w = window as unknown as {
-      FFmpegWASM?: { FFmpeg: unknown };
-      FFmpegUtil?: { fetchFile: unknown; toBlobURL: unknown };
-    };
+    // `new Function` hides the dynamic import() from Turbopack/webpack static analysis
+    const dynImport = new Function("u", "return import(u)") as (u: string) => Promise<Record<string, unknown>>;
+    const ffmpegMod = await dynImport("https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.12.15/+esm");
+    const utilMod = await dynImport("https://cdn.jsdelivr.net/npm/@ffmpeg/util@0.12.2/+esm");
 
-    function loadScript(src: string) {
-      return new Promise<void>((resolve, reject) => {
-        if (document.querySelector(`script[data-ffmpeg-src="${src}"]`)) return resolve();
-        const s = document.createElement("script");
-        s.src = src;
-        s.async = true;
-        s.dataset.ffmpegSrc = src;
-        s.onload = () => resolve();
-        s.onerror = () => reject(new Error(`Falha a carregar ${src}`));
-        document.head.appendChild(s);
-      });
-    }
+    const FFmpeg = ffmpegMod.FFmpeg as never;
+    const fetchFile = utilMod.fetchFile as (url: string) => Promise<Uint8Array>;
+    const toBlobURL = utilMod.toBlobURL as (url: string, mime: string) => Promise<string>;
 
-    if (!w.FFmpegUtil) {
-      await loadScript("https://unpkg.com/@ffmpeg/util@0.12.2/dist/umd/index.js");
+    if (!FFmpeg || !fetchFile || !toBlobURL) {
+      throw new Error("FFmpeg ESM não expôs FFmpeg/fetchFile/toBlobURL após carregar do CDN.");
     }
-    if (!w.FFmpegWASM) {
-      await loadScript("https://unpkg.com/@ffmpeg/ffmpeg@0.12.15/dist/umd/ffmpeg.js");
-    }
-
-    if (!w.FFmpegWASM || !w.FFmpegUtil) {
-      throw new Error("FFmpeg UMD não ficou disponível no window após load.");
-    }
-
-    return {
-      FFmpeg: (w.FFmpegWASM as { FFmpeg: new () => never }).FFmpeg as never,
-      fetchFile: (w.FFmpegUtil as { fetchFile: (url: string) => Promise<Uint8Array> }).fetchFile,
-      toBlobURL: (w.FFmpegUtil as { toBlobURL: (url: string, mime: string) => Promise<string> }).toBlobURL,
-    };
+    return { FFmpeg, fetchFile, toBlobURL };
   }
 
   // Build 1h loop from Supabase clips using FFmpeg WASM (real acrossfade, pro quality)
