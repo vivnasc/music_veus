@@ -262,13 +262,13 @@ function SingleCard({
               : "bg-indigo-800/30 text-indigo-300 hover:bg-indigo-800/50"
           }`}
         >
-          {isBuildingLoop ? (state.error || "A montar loop 1h...") : "Montar loop 1h"}
+          {isBuildingLoop ? (state.error || "A montar loop 1h...") : "Montar loop"}
         </button>
       )}
       {state.loopUrl && (
         <a
           href={state.loopUrl}
-          download={`${single.title.toLowerCase().replace(/\s+/g, "-")}-ancient-ground-1h.mp3`}
+          download={`${single.title.toLowerCase().replace(/\s+/g, "-")}-ancient-ground-loop.mp3`}
           className="block w-full text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition mt-2"
         >
           Download loop 1h
@@ -598,8 +598,8 @@ export default function AncientGroundPage() {
     }
   }
 
-  // Build 1h loop by concatenating MP3 files (fast, instant, no crossfade).
-  // For pro-quality crossfade, use the "Copiar FFmpeg cmd" button instead.
+  // Build seamless loop segment A→B with native-speed OfflineAudioContext rendering.
+  // Outputs a single ~6min MP3 that you loop in any player (same result as 1h for ambient).
   async function buildLoop(single: AncientGroundSingle) {
     const num = single.number;
     const tA = String(num * 2 - 1).padStart(2, "0");
@@ -630,7 +630,7 @@ export default function AncientGroundPage() {
         [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: "A descodificar áudio..." },
       }));
 
-      // 2. Decode both MP3s into AudioBuffers (PCM samples)
+      // 2. Decode both MP3s into AudioBuffers
       const AudioCtx = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
       const ctx = new AudioCtx();
       const [audioA, audioB] = await Promise.all([
@@ -638,33 +638,55 @@ export default function AncientGroundPage() {
         ctx.decodeAudioData(rawB.slice(0)),
       ]);
       const sampleRate = audioA.sampleRate;
-      const aL = audioA.getChannelData(0);
-      const aR = audioA.numberOfChannels > 1 ? audioA.getChannelData(1) : aL;
-      const bL = audioB.getChannelData(0);
-      const bR = audioB.numberOfChannels > 1 ? audioB.getChannelData(1) : bL;
-      const aLen = aL.length;
-      const bLen = bL.length;
+      const crossfadeSec = 4;
+      const dA = audioA.duration;
+      const dB = audioB.duration;
+      // Segment = A + crossfade + B, with tiny fades at edges so player loops without click
+      const segmentDur = dA + dB - crossfadeSec;
+      const segmentSamples = Math.floor(segmentDur * sampleRate);
 
-      // 3. Plan source placements across the 1h timeline with equal-power crossfades
-      const totalSamples = Math.floor(3600 * sampleRate);
-      const crossfadeSamples = Math.floor(4 * sampleRate); // 4s crossfade (imperceptible)
-
-      type Placement = { start: number; L: Float32Array; R: Float32Array; len: number };
-      const placements: Placement[] = [];
-      let pos = 0;
-      let useA = true;
-      while (pos < totalSamples) {
-        const src = useA ? { L: aL, R: aR, len: aLen } : { L: bL, R: bR, len: bLen };
-        placements.push({ start: pos, ...src });
-        pos += src.len - crossfadeSamples;
-        useA = !useA;
-      }
-
-      // 4. Lazy-load lamejs (pure JS MP3 encoder) and process in 10s chunks
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: "A carregar encoder MP3..." },
+        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A renderizar segmento (~${Math.round(segmentDur / 60)}min)...` },
       }));
+
+      // 3. Render the segment with OfflineAudioContext — native C++, very fast (~1-3s)
+      type OfflineCtxCtor = new (channels: number, length: number, sampleRate: number) => OfflineAudioContext;
+      const OfflineCtx = (window.OfflineAudioContext || (window as unknown as { webkitOfflineAudioContext: OfflineCtxCtor }).webkitOfflineAudioContext) as OfflineCtxCtor;
+      const offline = new OfflineCtx(2, segmentSamples, sampleRate);
+
+      // A plays from t=0, fades out over last `crossfadeSec`
+      const srcA = offline.createBufferSource();
+      srcA.buffer = audioA;
+      const gainA = offline.createGain();
+      gainA.gain.setValueAtTime(1, 0);
+      gainA.gain.setValueAtTime(1, dA - crossfadeSec);
+      gainA.gain.linearRampToValueAtTime(0, dA);
+      srcA.connect(gainA).connect(offline.destination);
+      srcA.start(0);
+
+      // B starts overlapping A's tail (at dA - crossfadeSec), fades in over `crossfadeSec`
+      const srcB = offline.createBufferSource();
+      srcB.buffer = audioB;
+      const gainB = offline.createGain();
+      const bStart = dA - crossfadeSec;
+      gainB.gain.setValueAtTime(0, bStart);
+      gainB.gain.linearRampToValueAtTime(1, dA);
+      // Tiny fade-out at very end so when the file loops, the snap back to start is masked
+      const edgeFade = 1;
+      gainB.gain.setValueAtTime(1, segmentDur - edgeFade);
+      gainB.gain.linearRampToValueAtTime(0, segmentDur);
+      srcB.connect(gainB).connect(offline.destination);
+      srcB.start(bStart);
+
+      const rendered = await offline.startRendering();
+
+      // 4. Encode the rendered segment as MP3 with lamejs
+      setStates((s) => ({
+        ...s,
+        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: "A codificar MP3..." },
+      }));
+
       const lamejsMod = await import("@breezystack/lamejs");
       type Encoder = {
         encodeBuffer: (l: Int16Array, r: Int16Array) => Uint8Array;
@@ -674,83 +696,29 @@ export default function AncientGroundPage() {
       const lamejs = ((lamejsMod as unknown as { default?: LameModule }).default || lamejsMod) as unknown as LameModule;
       const encoder: Encoder = new lamejs.Mp3Encoder(2, sampleRate, 128);
 
+      const rL = rendered.getChannelData(0);
+      const rR = rendered.numberOfChannels > 1 ? rendered.getChannelData(1) : rL;
+      const total = rL.length;
+      const BLOCK = 1152 * 20; // encode 20 MP3 frames at a time
       const mp3Chunks: Uint8Array[] = [];
-      const CHUNK_SAMPLES = 10 * sampleRate; // 10s chunks
 
-      for (let chunkStart = 0; chunkStart < totalSamples; chunkStart += CHUNK_SAMPLES) {
-        const chunkEnd = Math.min(chunkStart + CHUNK_SAMPLES, totalSamples);
-        const chunkLen = chunkEnd - chunkStart;
-        const outL = new Float32Array(chunkLen);
-        const outR = new Float32Array(chunkLen);
-
-        // Sum contributions from any placement that overlaps this chunk.
-        // Split into body / fade-in / fade-out sub-loops to avoid per-sample conditionals.
-        // Use linear fade (fast, ~imperceptible for 4s fades on ambient music).
-        const invCF = 1 / crossfadeSamples;
-        for (const p of placements) {
-          const srcEnd = p.start + p.len;
-          if (srcEnd <= chunkStart || p.start >= chunkEnd) continue;
-
-          const hasFadeIn = p.start > 0;
-          const hasFadeOut = srcEnd < totalSamples;
-          const fadeOutStart = p.len - crossfadeSamples;
-          const L = p.L;
-          const R = p.R;
-
-          // Body (full gain, tight loop)
-          const bodySi = hasFadeIn ? crossfadeSamples : 0;
-          const bodyEi = hasFadeOut ? fadeOutStart : p.len;
-          const bodyFromG = Math.max(chunkStart, p.start + bodySi);
-          const bodyToG = Math.min(chunkEnd, p.start + bodyEi);
-          for (let g = bodyFromG; g < bodyToG; g++) {
-            const si = g - p.start;
-            const oi = g - chunkStart;
-            outL[oi] += L[si];
-            outR[oi] += R[si];
-          }
-
-          // Fade-in region
-          if (hasFadeIn) {
-            const feFromG = Math.max(chunkStart, p.start);
-            const feToG = Math.min(chunkEnd, p.start + crossfadeSamples);
-            for (let g = feFromG; g < feToG; g++) {
-              const si = g - p.start;
-              const oi = g - chunkStart;
-              const gain = si * invCF;
-              outL[oi] += L[si] * gain;
-              outR[oi] += R[si] * gain;
-            }
-          }
-
-          // Fade-out region
-          if (hasFadeOut) {
-            const foFromG = Math.max(chunkStart, p.start + fadeOutStart);
-            const foToG = Math.min(chunkEnd, srcEnd);
-            for (let g = foFromG; g < foToG; g++) {
-              const si = g - p.start;
-              const oi = g - chunkStart;
-              const gain = (p.len - si) * invCF;
-              outL[oi] += L[si] * gain;
-              outR[oi] += R[si] * gain;
-            }
-          }
-        }
-
-        // Convert Float32 [-1,1] → Int16 PCM
-        const l16 = new Int16Array(chunkLen);
-        const r16 = new Int16Array(chunkLen);
-        for (let i = 0; i < chunkLen; i++) {
-          const lv = outL[i];
-          const rv = outR[i];
+      for (let off = 0; off < total; off += BLOCK) {
+        const end = Math.min(off + BLOCK, total);
+        const len = end - off;
+        const l16 = new Int16Array(len);
+        const r16 = new Int16Array(len);
+        for (let i = 0; i < len; i++) {
+          const lv = rL[off + i];
+          const rv = rR[off + i];
           l16[i] = lv < -1 ? -32768 : lv > 1 ? 32767 : (lv * 32767) | 0;
           r16[i] = rv < -1 ? -32768 : rv > 1 ? 32767 : (rv * 32767) | 0;
         }
         const enc = encoder.encodeBuffer(l16, r16);
         if (enc.length > 0) mp3Chunks.push(new Uint8Array(enc));
 
-        // Update UI every ~30s of processed audio and yield so React renders
-        const pct = Math.round((chunkEnd / totalSamples) * 100);
-        if (chunkStart % (CHUNK_SAMPLES * 3) === 0 || chunkEnd === totalSamples) {
+        // Progress update roughly every 20% of encoding
+        if (off % (BLOCK * 10) === 0) {
+          const pct = Math.round((end / total) * 100);
           setStates((s) => ({
             ...s,
             [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A codificar MP3... ${pct}%` },
@@ -768,7 +736,7 @@ export default function AncientGroundPage() {
 
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto (${Math.round(loopBlob.size / 1024 / 1024)}MB, crossfade 4s imperceptível)`, loopUrl: URL.createObjectURL(loopBlob) },
+        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop ~${Math.round(segmentDur / 60)}min pronto (${Math.round(loopBlob.size / 1024 / 1024)}MB). Põe em loop no player.`, loopUrl: URL.createObjectURL(loopBlob) },
       }));
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
