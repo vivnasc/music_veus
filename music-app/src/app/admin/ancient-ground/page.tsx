@@ -21,7 +21,6 @@ type SingleState = {
   status: "idle" | "generating" | "polling" | "done" | "error";
   error: string;
   clips: SunoClip[];
-  loopUrl?: string;
 };
 
 // ─── Helpers ───
@@ -131,7 +130,7 @@ function SingleCard({
   onGenerate,
   onDownloadClip,
   onApprove,
-  onBuildLoop,
+  onGetFfmpeg,
 }: {
   single: AncientGroundSingle;
   state: SingleState;
@@ -139,7 +138,7 @@ function SingleCard({
   onGenerate: () => void;
   onDownloadClip: (url: string, title: string) => void;
   onApprove: (single: AncientGroundSingle, clips: SunoClip[]) => void;
-  onBuildLoop: (single: AncientGroundSingle) => void;
+  onGetFfmpeg: (single: AncientGroundSingle) => string;
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
 
@@ -159,12 +158,8 @@ function SingleCard({
           </div>
         </div>
         {state.status === "done" && (
-          <span className={`shrink-0 text-[10px] rounded-full px-2 py-0.5 ${
-            state.loopUrl
-              ? "text-blue-400 bg-blue-900/20"
-              : "text-green-400 bg-green-900/20"
-          }`}>
-            {state.loopUrl ? "loop 1h" : "gerado"}
+          <span className="shrink-0 text-[10px] rounded-full px-2 py-0.5 text-green-400 bg-green-900/20">
+            gerado
           </span>
         )}
       </div>
@@ -252,26 +247,12 @@ function SingleCard({
         </div>
       )}
 
-      {/* Build 1h loop + Download — visible for all "done" singles */}
-      {state.status === "done" && !state.loopUrl && (
-        <button
-          onClick={() => onBuildLoop(single)}
-          className="w-full rounded-lg px-4 py-2.5 text-xs font-medium bg-blue-800/30 text-blue-300 hover:bg-blue-800/50 transition"
-        >
-          Montar loop 1h
-        </button>
-      )}
-      {state.status === "generating" && state.error?.includes("loop") && (
-        <p className="text-[10px] text-blue-400 animate-pulse">{state.error}</p>
-      )}
-      {state.loopUrl && (
-        <a
-          href={state.loopUrl}
-          download={`${single.title} - Ancient Ground (1h).mp3`}
-          className="w-full block text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
-        >
-          Download 1h para DistroKid
-        </a>
+      {/* FFmpeg command for 1h loop — visible for all "done" singles */}
+      {state.status === "done" && (
+        <CopyButton
+          text={onGetFfmpeg(single)}
+          label="Copiar comando FFmpeg (loop 1h)"
+        />
       )}
     </div>
   );
@@ -577,72 +558,18 @@ export default function AncientGroundPage() {
     }
   }
 
-  // Build 1h loop from Supabase clips (pure JS byte concatenation)
-  async function buildLoop(single: AncientGroundSingle) {
+  // Generate FFmpeg command for 1h loop with crossfade (pro quality)
+  function getFfmpegCommand(single: AncientGroundSingle): string {
     const num = single.number;
-    const mainTrack = String(num * 2 - 1).padStart(2, "0");
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
-    const basePath = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+    const base = `${supabaseUrl}/storage/v1/object/public/audios/albums/ancient-ground`;
+    const tA = String(num * 2 - 1).padStart(2, "0");
+    const tB = String(num * 2).padStart(2, "0");
+    const urlA = `${base}/faixa-${tA}.mp3`;
+    const urlB = `${base}/faixa-${tB}.mp3`;
+    const output = `"${single.title} - Ancient Ground (1h).mp3"`;
 
-    setStates((s) => ({
-      ...s,
-      [num]: { ...(s[num] || { clips: [] }), status: "generating", error: "A montar loop 1h..." },
-    }));
-
-    try {
-      // Fetch both tracks from Supabase (odd=vA, even=vB)
-      const buffers: ArrayBuffer[] = [];
-      for (const trackNum of [num * 2 - 1, num * 2]) {
-        const tn = String(trackNum).padStart(2, "0");
-        const url = `${basePath}/faixa-${tn}.mp3`;
-        const res = await fetch(url);
-        if (res.ok) {
-          buffers.push(await res.arrayBuffer());
-        }
-      }
-
-      if (buffers.length === 0) {
-        throw new Error("Nenhum áudio encontrado no Supabase. Aprova primeiro.");
-      }
-
-      // Concatenate A+B into one segment
-      const segmentSize = buffers.reduce((s, b) => s + b.byteLength, 0);
-      // Estimate duration from file size (MP3 ~128-192kbps → ~16-24KB/s)
-      // For 1 hour (3600s) at ~20KB/s = ~72MB. Use repetitions instead:
-      // Each Suno clip is ~3 min. 2 clips = ~6 min. Need ~10 repeats for 1h.
-      const estimatedSecsPerSegment = buffers.length * 180; // ~3 min each
-      const repeats = Math.ceil(3600 / estimatedSecsPerSegment);
-
-      setStates((s) => ({
-        ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "generating", error: `A montar ${repeats}x repetições (~${Math.round(segmentSize * repeats / 1024 / 1024)}MB)...` },
-      }));
-
-      // Build the 1h file by repeating the segment
-      const totalSize = segmentSize * repeats;
-      const result = new Uint8Array(totalSize);
-      let offset = 0;
-      for (let i = 0; i < repeats; i++) {
-        for (const buf of buffers) {
-          result.set(new Uint8Array(buf), offset);
-          offset += buf.byteLength;
-        }
-      }
-
-      // Build blob and offer direct download (no Supabase upload — 1h files exceed 50MB limit)
-      const loopBlob = new Blob([result], { type: "audio/mpeg" });
-
-      setStates((s) => ({
-        ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto! (${Math.round(totalSize / 1024 / 1024)}MB)`, loopUrl: URL.createObjectURL(loopBlob) },
-      }));
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : String(err);
-      setStates((s) => ({
-        ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "error", error: msg },
-      }));
-    }
+    return `ffmpeg -i "${urlA}" -i "${urlB}" -filter_complex "[0][1]concat=n=2:v=0:a=1[seg];[seg]afade=t=out:st=170:d=10,afade=t=in:d=10[faded];[faded]aloop=loop=-1:size=2e+09[looped]" -map "[looped]" -t 3600 -b:a 192k ${output}`;
   }
 
   // Filter singles
@@ -721,7 +648,7 @@ export default function AncientGroundPage() {
             onGenerate={() => generateSingle(single)}
             onDownloadClip={downloadClip}
             onApprove={approveSingle}
-            onBuildLoop={buildLoop}
+            onGetFfmpeg={getFfmpegCommand}
           />
         ))}
       </div>
