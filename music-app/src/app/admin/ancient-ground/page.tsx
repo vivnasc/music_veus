@@ -262,13 +262,13 @@ function SingleCard({
               : "bg-indigo-800/30 text-indigo-300 hover:bg-indigo-800/50"
           }`}
         >
-          {isBuildingLoop ? (state.error || "A montar loop 1h...") : "Montar loop"}
+          {isBuildingLoop ? (state.error || "A montar loop 1h...") : "Montar loop 1h"}
         </button>
       )}
       {state.loopUrl && (
         <a
           href={state.loopUrl}
-          download={`${single.title.toLowerCase().replace(/\s+/g, "-")}-ancient-ground-loop.mp3`}
+          download={`${single.title.toLowerCase().replace(/\s+/g, "-")}-ancient-ground-1h.mp3`}
           className="block w-full text-center rounded-lg px-4 py-2.5 text-xs font-medium bg-green-800/30 text-green-300 hover:bg-green-800/50 transition mt-2"
         >
           Download loop 1h
@@ -598,8 +598,7 @@ export default function AncientGroundPage() {
     }
   }
 
-  // Build seamless loop segment A→B with native-speed OfflineAudioContext rendering.
-  // Outputs a single ~6min MP3 that you loop in any player (same result as 1h for ambient).
+  // Build full 1h loop: OfflineAudioContext native render + lamejs MP3 encode.
   async function buildLoop(single: AncientGroundSingle) {
     const num = single.number;
     const tA = String(num * 2 - 1).padStart(2, "0");
@@ -637,54 +636,77 @@ export default function AncientGroundPage() {
         ctx.decodeAudioData(rawA.slice(0)),
         ctx.decodeAudioData(rawB.slice(0)),
       ]);
-      const sampleRate = audioA.sampleRate;
-      const crossfadeSec = 4;
       const dA = audioA.duration;
       const dB = audioB.duration;
-      // Segment = A + crossfade + B, with tiny fades at edges so player loops without click
-      const segmentDur = dA + dB - crossfadeSec;
-      const segmentSamples = Math.floor(segmentDur * sampleRate);
+      const crossfadeSec = 4;
+      const totalDur = 3600;
 
-      setStates((s) => ({
-        ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A renderizar segmento (~${Math.round(segmentDur / 60)}min)...` },
-      }));
-
-      // 3. Render the segment with OfflineAudioContext — native C++, very fast (~1-3s)
+      // 3. Native-speed 1h render via OfflineAudioContext. Try native sample rate first;
+      // fall back to lower rates if memory is exhausted (1h stereo 44.1kHz Float32 = 1.27GB).
       type OfflineCtxCtor = new (channels: number, length: number, sampleRate: number) => OfflineAudioContext;
       const OfflineCtx = (window.OfflineAudioContext || (window as unknown as { webkitOfflineAudioContext: OfflineCtxCtor }).webkitOfflineAudioContext) as OfflineCtxCtor;
-      const offline = new OfflineCtx(2, segmentSamples, sampleRate);
+      const rateOptions = [audioA.sampleRate, 32000, 22050];
+      let rendered: AudioBuffer | null = null;
+      let usedRate = 0;
+      for (const rate of rateOptions) {
+        try {
+          setStates((s) => ({
+            ...s,
+            [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A renderizar 1h @ ${rate}Hz...` },
+          }));
+          const offline = new OfflineCtx(2, Math.floor(totalDur * rate), rate);
 
-      // A plays from t=0, fades out over last `crossfadeSec`
-      const srcA = offline.createBufferSource();
-      srcA.buffer = audioA;
-      const gainA = offline.createGain();
-      gainA.gain.setValueAtTime(1, 0);
-      gainA.gain.setValueAtTime(1, dA - crossfadeSec);
-      gainA.gain.linearRampToValueAtTime(0, dA);
-      srcA.connect(gainA).connect(offline.destination);
-      srcA.start(0);
+          // Alternate A and B across the 1h timeline with `crossfadeSec` crossfades at every join.
+          let time = 0;
+          let useA = true;
+          while (time < totalDur) {
+            const src = offline.createBufferSource();
+            src.buffer = useA ? audioA : audioB;
+            const g = offline.createGain();
+            const dur = useA ? dA : dB;
 
-      // B starts overlapping A's tail (at dA - crossfadeSec), fades in over `crossfadeSec`
-      const srcB = offline.createBufferSource();
-      srcB.buffer = audioB;
-      const gainB = offline.createGain();
-      const bStart = dA - crossfadeSec;
-      gainB.gain.setValueAtTime(0, bStart);
-      gainB.gain.linearRampToValueAtTime(1, dA);
-      // Tiny fade-out at very end so when the file loops, the snap back to start is masked
-      const edgeFade = 1;
-      gainB.gain.setValueAtTime(1, segmentDur - edgeFade);
-      gainB.gain.linearRampToValueAtTime(0, segmentDur);
-      srcB.connect(gainB).connect(offline.destination);
-      srcB.start(bStart);
+            // Fade-in (except first source)
+            if (time === 0) {
+              g.gain.setValueAtTime(1, 0);
+            } else {
+              const fadeInStart = Math.max(0, time - crossfadeSec);
+              g.gain.setValueAtTime(0, fadeInStart);
+              g.gain.linearRampToValueAtTime(1, time);
+            }
+            // Fade-out (except if this is the last source reaching the end)
+            const endTime = time + dur - (time === 0 ? 0 : crossfadeSec);
+            const actualStart = time === 0 ? 0 : time - crossfadeSec;
+            const srcEndInTimeline = actualStart + dur;
+            if (srcEndInTimeline < totalDur) {
+              g.gain.setValueAtTime(1, srcEndInTimeline - crossfadeSec);
+              g.gain.linearRampToValueAtTime(0, srcEndInTimeline);
+            }
 
-      const rendered = await offline.startRendering();
+            src.connect(g).connect(offline.destination);
+            src.start(actualStart);
 
-      // 4. Encode the rendered segment as MP3 with lamejs
+            time = endTime;
+            useA = !useA;
+          }
+
+          rendered = await offline.startRendering();
+          usedRate = rate;
+          break;
+        } catch (e) {
+          // Memory error or context creation failure → try smaller rate
+          console.warn(`OfflineAudioContext failed @ ${rate}Hz:`, e);
+          continue;
+        }
+      }
+
+      if (!rendered) {
+        throw new Error("Memória insuficiente para renderizar 1h (tentei 44.1k, 32k, 22.05k).");
+      }
+
+      // 4. Encode the 1h buffer as MP3 with lamejs
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: "A codificar MP3..." },
+        [num]: { ...(s[num] || { clips: [] }), status: "building-loop", error: `A codificar MP3 (${usedRate}Hz)...` },
       }));
 
       const lamejsMod = await import("@breezystack/lamejs");
@@ -694,12 +716,12 @@ export default function AncientGroundPage() {
       };
       type LameModule = { Mp3Encoder: new (ch: number, sr: number, kbps: number) => Encoder };
       const lamejs = ((lamejsMod as unknown as { default?: LameModule }).default || lamejsMod) as unknown as LameModule;
-      const encoder: Encoder = new lamejs.Mp3Encoder(2, sampleRate, 128);
+      const encoder: Encoder = new lamejs.Mp3Encoder(2, usedRate, 128);
 
       const rL = rendered.getChannelData(0);
       const rR = rendered.numberOfChannels > 1 ? rendered.getChannelData(1) : rL;
       const total = rL.length;
-      const BLOCK = 1152 * 20; // encode 20 MP3 frames at a time
+      const BLOCK = 1152 * 50; // ~57k samples per encode call
       const mp3Chunks: Uint8Array[] = [];
 
       for (let off = 0; off < total; off += BLOCK) {
@@ -716,8 +738,7 @@ export default function AncientGroundPage() {
         const enc = encoder.encodeBuffer(l16, r16);
         if (enc.length > 0) mp3Chunks.push(new Uint8Array(enc));
 
-        // Progress update roughly every 20% of encoding
-        if (off % (BLOCK * 10) === 0) {
+        if ((off / BLOCK) % 20 === 0) {
           const pct = Math.round((end / total) * 100);
           setStates((s) => ({
             ...s,
@@ -736,7 +757,7 @@ export default function AncientGroundPage() {
 
       setStates((s) => ({
         ...s,
-        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop ~${Math.round(segmentDur / 60)}min pronto (${Math.round(loopBlob.size / 1024 / 1024)}MB). Põe em loop no player.`, loopUrl: URL.createObjectURL(loopBlob) },
+        [num]: { ...(s[num] || { clips: [] }), status: "done", error: `Loop 1h pronto (${Math.round(loopBlob.size / 1024 / 1024)}MB, ${usedRate}Hz, crossfade 4s)`, loopUrl: URL.createObjectURL(loopBlob) },
       }));
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
