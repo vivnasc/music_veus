@@ -10,6 +10,7 @@ import NavBar from "@/components/music/NavBar";
 import TrackRow from "@/components/music/TrackRow";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
+import { useDbAlbums } from "@/hooks/useDbAlbums";
 
 const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }> = {
   espelho: { pt: "Espelhos", en: "Mirrors", sub: "A transformacao interior — os 7 veus" },
@@ -28,7 +29,11 @@ const COLLECTION_LABELS: Record<string, { pt: string; en: string; sub: string }>
 export default function CollectionPage({ params }: { params: Promise<{ product: string }> }) {
   const { product } = use(params);
   const label = COLLECTION_LABELS[product];
-  const albums = ALL_ALBUMS.filter((a) => a.product === product);
+  const { albums: dbAlbums } = useDbAlbums();
+  const albums = [
+    ...ALL_ALBUMS.filter((a) => a.product === product),
+    ...dbAlbums.filter((a) => a.product === product),
+  ];
   const { playTrack, playAlbum, currentTrack, currentAlbum } = useMusicPlayer();
   const { getCoverTrack } = useAlbumCovers();
   const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
@@ -43,14 +48,20 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
       .catch(() => {});
   }, []);
 
+  // DB albums (`_isDbAlbum`) are already filtered server-side by published=true,
+  // so they pass through. Legacy albums use the existing publishedKeys check.
+  function isDbAlbum(a: Album): boolean {
+    return Boolean((a as Album & { _isDbAlbum?: boolean })._isDbAlbum);
+  }
+
   const publishedAlbums = albums.filter((a) =>
-    a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
+    isDbAlbum(a) || a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
   );
 
   const allPublishedTracks: { track: AlbumTrack; album: Album }[] = [];
   for (const album of publishedAlbums) {
     for (const track of album.tracks) {
-      if (publishedKeys.has(`${album.slug}-t${track.number}`)) {
+      if (isDbAlbum(album) || publishedKeys.has(`${album.slug}-t${track.number}`)) {
         allPublishedTracks.push({ track, album });
       }
     }
@@ -76,7 +87,15 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
     playTrack(tagged[0], firstAlbum, tagged);
   }
 
-  if (!label || albums.length === 0) {
+  // Fall back to a derived label for collections only present in the DB
+  // (e.g. user-created via /admin/albums YAML upload).
+  const resolvedLabel = label ?? {
+    pt: product.split("-").map((s) => s[0].toUpperCase() + s.slice(1)).join(" "),
+    en: "",
+    sub: "",
+  };
+
+  if (albums.length === 0) {
     return (
       <div className="min-h-screen">
         <NavBar />
@@ -124,21 +143,21 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
             >
               <Image
                 src={coverUrl}
-                alt={label.pt}
+                alt={resolvedLabel.pt}
                 fill
                 className="object-cover brightness-75"
                 unoptimized
                 onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
               />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-lg font-semibold text-white drop-shadow-lg">{label.pt}</span>
+                <span className="text-lg font-semibold text-white drop-shadow-lg">{resolvedLabel.pt}</span>
               </div>
             </div>
 
             <div className="min-w-0">
               <span className="text-[10px] uppercase tracking-widest text-[#666680]">Coleccao</span>
-              <h1 className="font-display text-3xl font-bold text-[#F5F0E6] mt-1">{label.pt}</h1>
-              <p className="text-sm text-[#a0a0b0] mt-1">{label.sub}</p>
+              <h1 className="font-display text-3xl font-bold text-[#F5F0E6] mt-1">{resolvedLabel.pt}</h1>
+              <p className="text-sm text-[#a0a0b0] mt-1">{resolvedLabel.sub}</p>
               <p className="text-xs text-[#666680] mt-2">
                 {publishedAlbums.length} {publishedAlbums.length === 1 ? "album" : "albuns"} &middot; {allPublishedTracks.length} faixas
               </p>

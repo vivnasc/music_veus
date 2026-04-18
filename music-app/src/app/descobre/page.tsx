@@ -9,6 +9,7 @@ import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
 import { getTrackCoverUrl } from "@/lib/album-covers";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
 import OutrosMundosSection from "@/components/music/OutrosMundosSection";
+import { useDbAlbums } from "@/hooks/useDbAlbums";
 
 const COLLECTION_PRODUCTS = ["espelho", "no", "curso", "livro", "incenso", "eter", "nua", "sangue", "fibra", "grao", "mare"] as const;
 
@@ -45,15 +46,22 @@ function getCollectionTracks(product: string, publishedKeys: Set<string>): { tra
     );
 }
 
-function CollectionGrid({ publishedKeys, loading }: { publishedKeys: Set<string>; loading: boolean }) {
+function CollectionGrid({ publishedKeys, loading, dbAlbums }: { publishedKeys: Set<string>; loading: boolean; dbAlbums: Album[] }) {
   const [playlistProduct, setPlaylistProduct] = useState<string | null>(null);
+
+  // Add DB-only collections (not in COLLECTION_PRODUCTS) so user-created
+  // collections via /admin/albums YAML upload also appear here.
+  const extraProducts = Array.from(
+    new Set(dbAlbums.map((a) => a.product).filter((p) => !COLLECTION_PRODUCTS.includes(p as never)))
+  );
+  const allProducts = [...COLLECTION_PRODUCTS, ...extraProducts];
 
   // While the published-tracks API is still loading, show skeleton tiles
   // (one per collection) instead of an empty grid.
   if (loading) {
     return (
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-        {COLLECTION_PRODUCTS.map((product) => (
+        {allProducts.map((product) => (
           <div key={product}>
             <div className="aspect-square rounded-xl bg-white/5 animate-pulse" />
             <div className="h-3 w-20 rounded bg-white/5 animate-pulse mt-1.5" />
@@ -66,14 +74,21 @@ function CollectionGrid({ publishedKeys, loading }: { publishedKeys: Set<string>
   return (
     <>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-        {COLLECTION_PRODUCTS.map((product) => {
-          const album = getFeaturedAlbum(product, publishedKeys);
-          const label = COLLECTION_LABELS[product];
-          const hasPublished = ALL_ALBUMS.some(
+        {allProducts.map((product) => {
+          const dbAlbumsForProduct = dbAlbums.filter((a) => a.product === product);
+          const album = getFeaturedAlbum(product, publishedKeys) ?? dbAlbumsForProduct[0];
+          const label = COLLECTION_LABELS[product] ?? {
+            pt: product.split("-").map((s) => s[0]?.toUpperCase() + s.slice(1)).join(" "),
+            en: "",
+            sub: "",
+          };
+          const legacyHasPublished = ALL_ALBUMS.some(
             (a) => a.product === product && a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
           );
-          if (!album || !label || !hasPublished) return null;
-          const albumCount = ALL_ALBUMS.filter(a => a.product === product && a.tracks.some(t => publishedKeys.has(`${a.slug}-t${t.number}`))).length;
+          const hasPublished = legacyHasPublished || dbAlbumsForProduct.length > 0;
+          if (!album || !hasPublished) return null;
+          const legacyCount = ALL_ALBUMS.filter(a => a.product === product && a.tracks.some(t => publishedKeys.has(`${a.slug}-t${t.number}`))).length;
+          const albumCount = legacyCount + dbAlbumsForProduct.length;
           return (
             <div key={product} className="group relative">
               <Link
@@ -130,6 +145,7 @@ export default function DescobrePage() {
   const recommendations = useRecommendations(16);
   const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
   const [loading, setLoading] = useState(true);
+  const { albums: dbAlbums } = useDbAlbums();
 
   useEffect(() => {
     fetch("/api/published-tracks")
@@ -206,7 +222,7 @@ export default function DescobrePage() {
               ))}
             </div>
           ) : (
-          <CollectionGrid publishedKeys={publishedKeys} loading={loading} />
+          <CollectionGrid publishedKeys={publishedKeys} loading={loading} dbAlbums={dbAlbums} />
           )}
         </section>
 

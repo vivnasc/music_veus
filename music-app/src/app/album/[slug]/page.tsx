@@ -4,6 +4,7 @@ import { use } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ALL_ALBUMS as ALBUMS, ENERGY_LABELS, getArtist } from "@/data/albums";
+import { useDbAlbums } from "@/hooks/useDbAlbums";
 import { useState } from "react";
 import { useMusicPlayer } from "@/contexts/MusicPlayerContext";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
@@ -98,7 +99,8 @@ function VersionRow({
 
 export default function AlbumPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
-  const album = ALBUMS.find(a => a.slug === slug);
+  const { albums: dbAlbums, loading: dbLoading } = useDbAlbums();
+  const album = ALBUMS.find(a => a.slug === slug) ?? dbAlbums.find(a => a.slug === slug);
   const { currentTrack, currentAlbum, playAlbum, addToQueue, toggleShuffle, shuffle } = useMusicPlayer();
   const [showPlaylistModal, setShowPlaylistModal] = useState(false);
   const { isPremium, requestPlay } = useSubscriptionGate();
@@ -111,10 +113,16 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <p className="text-[#a0a0b0] text-lg mb-4">Álbum não encontrado.</p>
-          <Link href="/" className="text-sm text-[#C9A96E] hover:underline">
-            Voltar
-          </Link>
+          {dbLoading ? (
+            <p className="text-[#a0a0b0] text-lg mb-4">A carregar...</p>
+          ) : (
+            <>
+              <p className="text-[#a0a0b0] text-lg mb-4">Álbum não encontrado.</p>
+              <Link href="/" className="text-sm text-[#C9A96E] hover:underline">
+                Voltar
+              </Link>
+            </>
+          )}
         </div>
       </div>
     );

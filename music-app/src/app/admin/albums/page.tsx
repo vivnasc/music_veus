@@ -44,7 +44,22 @@ type AlbumRow = {
   published: boolean;
   status: string;
   artists_db: { slug: string; name: string } | null;
-  tracks_db: { id: string; number: number; title: string; published: boolean }[];
+  tracks_db: TrackRow[];
+};
+
+type TrackRow = {
+  id: string;
+  number: number;
+  title: string;
+  description: string | null;
+  lang: string | null;
+  energy: string | null;
+  flavor: string | null;
+  prompt: string | null;
+  lyrics: string | null;
+  duration_seconds: number | null;
+  audio_url: string | null;
+  published: boolean;
 };
 
 const EXAMPLE_YAML = `# Um álbum ou single completo por ficheiro YAML.
@@ -326,39 +341,307 @@ export default function AlbumManagerPage() {
         ) : (
           <div className="space-y-2">
             {albums.map((a) => (
-              <div key={a.id} className="rounded-lg border border-mundo-muted-dark/20 bg-mundo-bg-light/50 p-3 flex items-center justify-between gap-3">
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-2">
-                    <span className="w-3 h-3 rounded-full shrink-0" style={{ background: a.color }} />
-                    <h3 className="text-sm font-medium text-mundo-creme truncate">{a.title}</h3>
-                    <span className="text-[10px] text-mundo-muted">/{a.slug}</span>
-                  </div>
-                  <p className="text-[11px] text-mundo-muted mt-0.5">
-                    {a.artists_db?.name ?? "?"} · {a.collection} · {a.tracks_db?.length ?? 0} faixas · {a.status}
-                  </p>
-                </div>
-                <button
-                  onClick={() => togglePublish(a.slug, a.published)}
-                  className={`shrink-0 rounded px-3 py-1.5 text-[11px] transition ${
-                    a.published
-                      ? "bg-green-800/30 text-green-300 hover:bg-green-800/50"
-                      : "bg-mundo-muted-dark/20 text-mundo-muted hover:bg-mundo-muted-dark/40"
-                  }`}
-                >
-                  {a.published ? "Publicado" : "Rascunho"}
-                </button>
-                <button
-                  onClick={() => deleteAlbum(a.slug)}
-                  className="shrink-0 rounded px-2 py-1.5 text-[11px] bg-red-900/20 text-red-400 hover:bg-red-900/40 transition"
-                  title="Apagar"
-                >
-                  ✕
-                </button>
-              </div>
+              <AlbumRowItem
+                key={a.id}
+                album={a}
+                onTogglePublish={() => togglePublish(a.slug, a.published)}
+                onDelete={() => deleteAlbum(a.slug)}
+                onChanged={loadAlbums}
+              />
             ))}
           </div>
         )}
       </section>
+    </div>
+  );
+}
+
+// ─── Per-album expanded row with track actions ───
+function AlbumRowItem({
+  album,
+  onTogglePublish,
+  onDelete,
+  onChanged,
+}: {
+  album: AlbumRow;
+  onTogglePublish: () => void;
+  onDelete: () => void;
+  onChanged: () => void;
+}) {
+  const [expanded, setExpanded] = useState(false);
+  const [busy, setBusy] = useState<string | null>(null);
+
+  async function downloadDistroZip() {
+    setBusy("zip");
+    try {
+      const { downloadAlbumForDistribution } = await import("@/lib/album-download");
+      // Map AlbumRow to Album shape for the download lib
+      const albumObj = {
+        slug: album.slug,
+        title: album.title,
+        subtitle: album.subtitle,
+        artist: album.artists_db?.name,
+        product: album.collection,
+        color: album.color,
+        status: album.status,
+        distribution: true,
+        distrokidUploadDate: null,
+        tracks: album.tracks_db
+          .sort((a, b) => a.number - b.number)
+          .map((t) => ({
+            number: t.number,
+            title: t.title,
+            description: t.description ?? "",
+            lang: (t.lang === "EN" ? "EN" : "PT") as "PT" | "EN",
+            energy: (t.energy ?? "whisper") as never,
+            flavor: (t.flavor ?? null) as never,
+            vocalMode: "solo" as const,
+            prompt: t.prompt ?? "",
+            lyrics: t.lyrics ?? "",
+            durationSeconds: t.duration_seconds ?? 240,
+            audioUrl: t.audio_url,
+          })),
+      };
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      await downloadAlbumForDistribution(albumObj as any);
+    } catch (e) {
+      alert(`Erro ZIP: ${e instanceof Error ? e.message : "?"}`);
+    }
+    setBusy(null);
+  }
+
+  return (
+    <div className="rounded-lg border border-mundo-muted-dark/20 bg-mundo-bg-light/50">
+      <div className="p-3 flex items-center justify-between gap-3">
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="flex-1 min-w-0 text-left"
+        >
+          <div className="flex items-center gap-2">
+            <span className="text-mundo-muted text-xs">{expanded ? "▾" : "▸"}</span>
+            <span className="w-3 h-3 rounded-full shrink-0" style={{ background: album.color }} />
+            <h3 className="text-sm font-medium text-mundo-creme truncate">{album.title}</h3>
+            <span className="text-[10px] text-mundo-muted">/{album.slug}</span>
+          </div>
+          <p className="text-[11px] text-mundo-muted mt-0.5 ml-6">
+            {album.artists_db?.name ?? "?"} · {album.collection} · {album.tracks_db?.length ?? 0} faixas · {album.status}
+          </p>
+        </button>
+        <button
+          onClick={downloadDistroZip}
+          disabled={busy === "zip"}
+          className="shrink-0 rounded px-3 py-1.5 text-[11px] bg-blue-800/30 text-blue-300 hover:bg-blue-800/50 transition"
+          title="DistroKid ZIP"
+        >
+          {busy === "zip" ? "..." : "ZIP"}
+        </button>
+        <button
+          onClick={onTogglePublish}
+          className={`shrink-0 rounded px-3 py-1.5 text-[11px] transition ${
+            album.published
+              ? "bg-green-800/30 text-green-300 hover:bg-green-800/50"
+              : "bg-mundo-muted-dark/20 text-mundo-muted hover:bg-mundo-muted-dark/40"
+          }`}
+        >
+          {album.published ? "Publicado" : "Rascunho"}
+        </button>
+        <button
+          onClick={onDelete}
+          className="shrink-0 rounded px-2 py-1.5 text-[11px] bg-red-900/20 text-red-400 hover:bg-red-900/40 transition"
+          title="Apagar"
+        >
+          ✕
+        </button>
+      </div>
+
+      {expanded && (
+        <div className="border-t border-mundo-muted-dark/20 p-3 space-y-2">
+          {album.tracks_db.sort((a, b) => a.number - b.number).map((t) => (
+            <TrackRowItem
+              key={t.id}
+              track={t}
+              albumSlug={album.slug}
+              onChanged={onChanged}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── Per-track row with edit / Suno / upload actions ───
+function TrackRowItem({
+  track,
+  albumSlug,
+  onChanged,
+}: {
+  track: TrackRow;
+  albumSlug: string;
+  onChanged: () => void;
+}) {
+  const [editing, setEditing] = useState(false);
+  const [title, setTitle] = useState(track.title);
+  const [lyrics, setLyrics] = useState(track.lyrics ?? "");
+  const [prompt, setPrompt] = useState(track.prompt ?? "");
+  const [busy, setBusy] = useState<string | null>(null);
+
+  async function saveEdit() {
+    setBusy("save");
+    await adminFetch(`/api/admin/tracks-db/${track.id}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ title, lyrics, prompt }),
+    });
+    setBusy(null);
+    setEditing(false);
+    onChanged();
+  }
+
+  async function uploadFile(file: File, kind: "audio" | "cover") {
+    setBusy(kind);
+    try {
+      const safeNum = String(track.number).padStart(2, "0");
+      const ext = kind === "audio" ? "mp3" : "jpg";
+      const filename = `albums/${albumSlug}/faixa-${safeNum}${kind === "cover" ? "-cover" : ""}.${ext}`;
+      const sigRes = await adminFetch("/api/admin/signed-upload-url", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ filename }),
+      });
+      if (!sigRes.ok) throw new Error("signed url failed");
+      const { signedUrl } = await sigRes.json();
+      const upRes = await fetch(signedUrl, {
+        method: "PUT",
+        headers: { "Content-Type": kind === "audio" ? "audio/mpeg" : "image/jpeg" },
+        body: file,
+      });
+      if (!upRes.ok) throw new Error(`upload ${upRes.status}`);
+      // Mark audio_url so app knows it's available
+      if (kind === "audio") {
+        const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+        const audioUrl = `${supabaseUrl}/storage/v1/object/public/audios/${filename}`;
+        await adminFetch(`/api/admin/tracks-db/${track.id}`, {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ audio_url: audioUrl }),
+        });
+      }
+      onChanged();
+    } catch (e) {
+      alert(`Erro upload ${kind}: ${e instanceof Error ? e.message : "?"}`);
+    }
+    setBusy(null);
+  }
+
+  async function generateSuno() {
+    setBusy("suno");
+    try {
+      const res = await adminFetch("/api/admin/suno/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          prompt: track.prompt ?? "",
+          title: track.title,
+          customMode: true,
+          instrumental: !(track.lyrics?.trim()),
+          model: "V5_5",
+          ...(track.lyrics?.trim() ? { lyrics: track.lyrics } : {}),
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data?.erro || "?");
+      alert(`Suno gerado! Task ID: ${data.taskId || data.id || "ok"}\nVai à página Ancient Ground ou Producao para acompanhar.`);
+    } catch (e) {
+      alert(`Erro Suno: ${e instanceof Error ? e.message : "?"}`);
+    }
+    setBusy(null);
+  }
+
+  return (
+    <div className="rounded bg-black/20 p-2.5">
+      <div className="flex items-center justify-between gap-2">
+        <div className="min-w-0 flex-1">
+          <p className="text-xs text-mundo-creme truncate">
+            <span className="text-mundo-muted font-mono">{String(track.number).padStart(2, "0")}.</span> {track.title}
+            {track.audio_url && <span className="ml-2 text-[10px] text-green-400">✓ áudio</span>}
+          </p>
+          <p className="text-[10px] text-mundo-muted">
+            {track.lang}/{track.energy}{track.flavor ? `/${track.flavor}` : ""} · {track.duration_seconds}s
+          </p>
+        </div>
+        <div className="flex gap-1 shrink-0">
+          <button
+            onClick={() => setEditing(!editing)}
+            className="rounded px-2 py-1 text-[10px] bg-mundo-muted-dark/20 text-mundo-muted hover:bg-mundo-muted-dark/40"
+          >
+            {editing ? "Fechar" : "Editar"}
+          </button>
+          <button
+            onClick={generateSuno}
+            disabled={busy === "suno"}
+            className="rounded px-2 py-1 text-[10px] bg-amber-700/30 text-amber-300 hover:bg-amber-700/50"
+          >
+            {busy === "suno" ? "..." : "Suno"}
+          </button>
+          <label className="rounded px-2 py-1 text-[10px] bg-blue-700/30 text-blue-300 hover:bg-blue-700/50 cursor-pointer">
+            {busy === "audio" ? "..." : "Áudio"}
+            <input
+              type="file"
+              accept="audio/*"
+              className="hidden"
+              onChange={(e) => {
+                const f = e.target.files?.[0];
+                if (f) uploadFile(f, "audio");
+                e.target.value = "";
+              }}
+            />
+          </label>
+          <label className="rounded px-2 py-1 text-[10px] bg-purple-700/30 text-purple-300 hover:bg-purple-700/50 cursor-pointer">
+            {busy === "cover" ? "..." : "Capa"}
+            <input
+              type="file"
+              accept="image/*"
+              className="hidden"
+              onChange={(e) => {
+                const f = e.target.files?.[0];
+                if (f) uploadFile(f, "cover");
+                e.target.value = "";
+              }}
+            />
+          </label>
+        </div>
+      </div>
+
+      {editing && (
+        <div className="mt-2 space-y-2">
+          <input
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+            placeholder="Título"
+            className="w-full rounded bg-black/40 border border-mundo-muted-dark/20 px-2 py-1.5 text-xs text-mundo-creme outline-none focus:border-amber-700/50"
+          />
+          <textarea
+            value={prompt}
+            onChange={(e) => setPrompt(e.target.value)}
+            placeholder="Prompt Suno"
+            className="w-full rounded bg-black/40 border border-mundo-muted-dark/20 px-2 py-1.5 text-xs text-mundo-creme font-mono outline-none focus:border-amber-700/50 min-h-[60px]"
+          />
+          <textarea
+            value={lyrics}
+            onChange={(e) => setLyrics(e.target.value)}
+            placeholder="Letras (vazio = instrumental)"
+            className="w-full rounded bg-black/40 border border-mundo-muted-dark/20 px-2 py-1.5 text-xs text-mundo-creme font-mono outline-none focus:border-amber-700/50 min-h-[100px]"
+          />
+          <button
+            onClick={saveEdit}
+            disabled={busy === "save"}
+            className="rounded px-3 py-1.5 text-[11px] bg-green-800/30 text-green-300 hover:bg-green-800/50"
+          >
+            {busy === "save" ? "A guardar..." : "Guardar"}
+          </button>
+        </div>
+      )}
     </div>
   );
 }
