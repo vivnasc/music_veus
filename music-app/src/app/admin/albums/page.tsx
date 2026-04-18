@@ -484,6 +484,11 @@ function TrackRowItem({
   const [title, setTitle] = useState(track.title);
   const [lyrics, setLyrics] = useState(track.lyrics ?? "");
   const [prompt, setPrompt] = useState(track.prompt ?? "");
+  const [lang, setLang] = useState<string>(track.lang ?? "PT");
+  const [energy, setEnergy] = useState<string>(track.energy ?? "whisper");
+  const [flavor, setFlavor] = useState<string>(track.flavor ?? "");
+  const [vocalMode, setVocalMode] = useState<string>("solo");
+  const [duration, setDuration] = useState<number>(track.duration_seconds ?? 240);
   const [busy, setBusy] = useState<string | null>(null);
 
   async function saveEdit() {
@@ -491,7 +496,16 @@ function TrackRowItem({
     await adminFetch(`/api/admin/tracks-db/${track.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ title, lyrics, prompt }),
+      body: JSON.stringify({
+        title,
+        lyrics,
+        prompt,
+        lang,
+        energy,
+        flavor: flavor.trim() || null,
+        vocal_mode: vocalMode,
+        duration_seconds: duration,
+      }),
     });
     setBusy(null);
     setEditing(false);
@@ -621,6 +635,65 @@ function TrackRowItem({
             placeholder="Título"
             className="w-full rounded bg-black/40 border border-mundo-muted-dark/20 px-2 py-1.5 text-xs text-mundo-creme outline-none focus:border-amber-700/50"
           />
+
+          {/* Metadados em linha */}
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+            <label className="text-[10px] text-mundo-muted">
+              Lang
+              <select
+                value={lang}
+                onChange={(e) => setLang(e.target.value)}
+                className="w-full rounded bg-black/40 border border-mundo-muted-dark/20 px-2 py-1 text-xs text-mundo-creme mt-0.5"
+              >
+                <option value="PT">PT</option>
+                <option value="EN">EN</option>
+              </select>
+            </label>
+            <label className="text-[10px] text-mundo-muted">
+              Energy
+              <select
+                value={energy}
+                onChange={(e) => setEnergy(e.target.value)}
+                className="w-full rounded bg-black/40 border border-mundo-muted-dark/20 px-2 py-1 text-xs text-mundo-creme mt-0.5"
+              >
+                <option value="whisper">whisper</option>
+                <option value="steady">steady</option>
+                <option value="pulse">pulse</option>
+                <option value="anthem">anthem</option>
+                <option value="raw">raw</option>
+              </select>
+            </label>
+            <label className="text-[10px] text-mundo-muted col-span-2 sm:col-span-1">
+              Flavor
+              <input
+                value={flavor}
+                onChange={(e) => setFlavor(e.target.value)}
+                placeholder="ex: marrabenta-rnb"
+                className="w-full rounded bg-black/40 border border-mundo-muted-dark/20 px-2 py-1 text-xs text-mundo-creme mt-0.5"
+              />
+            </label>
+            <label className="text-[10px] text-mundo-muted">
+              Vocal
+              <select
+                value={vocalMode}
+                onChange={(e) => setVocalMode(e.target.value)}
+                className="w-full rounded bg-black/40 border border-mundo-muted-dark/20 px-2 py-1 text-xs text-mundo-creme mt-0.5"
+              >
+                <option value="solo">solo</option>
+                <option value="duet">duet</option>
+              </select>
+            </label>
+            <label className="text-[10px] text-mundo-muted">
+              Duração (s)
+              <input
+                type="number"
+                value={duration}
+                onChange={(e) => setDuration(parseInt(e.target.value, 10) || 240)}
+                className="w-full rounded bg-black/40 border border-mundo-muted-dark/20 px-2 py-1 text-xs text-mundo-creme mt-0.5"
+              />
+            </label>
+          </div>
+
           <textarea
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
