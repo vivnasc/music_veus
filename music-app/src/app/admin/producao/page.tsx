@@ -2358,6 +2358,13 @@ export default function AlbumProductionPage() {
               Ancient Ground
             </Link>
 
+            <Link
+              href="/admin/albums"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-indigo-900/30 px-4 py-2.5 text-xs min-h-[44px] text-indigo-300 hover:bg-indigo-900/50 transition flex items-center"
+            >
+              Gestor de Álbuns
+            </Link>
+
             <div className="shrink-0 flex gap-1 rounded-full bg-mundo-muted-dark/10 p-1">
               <button
                 onClick={() => setViewMode("producao")}

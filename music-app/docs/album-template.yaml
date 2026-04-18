@@ -1,0 +1,64 @@
+# ─────────────────────────────────────────────────────────────
+# TEMPLATE DE FICHA DE ÁLBUM
+# ─────────────────────────────────────────────────────────────
+# Copia este ficheiro, preenche os campos, e faz upload em
+# /admin/albums — a app fica com o álbum disponível sem deploy.
+# Todos os slugs (album, artist) em minúsculas com hífens.
+# ─────────────────────────────────────────────────────────────
+
+slug: meu-album-novo
+title: "Meu Álbum Novo"
+subtitle: "Subtítulo curto"
+color: "#C4745A"
+
+# Colecção a que pertence. Valores aceites:
+# espelho, no, eter, sangue, fibra, nua, mare, incenso, grao,
+# livro, curso, ancient-ground, outros-mundos
+collection: outros-mundos
+
+# Artista (único ou convidado). Se o slug já existir, é reaproveitado.
+artist:
+  slug: artista-convidado
+  name: "Artista Convidado"
+  bio: "Bio curta (opcional)"
+  # photo_url: "https://..."  # opcional
+
+# Metadados de distribuição
+published: false          # aparece na app?
+status: draft             # draft | ready | produced | published
+distribution: false       # marcar para DistroKid?
+# distrokid_upload_date: 2026-05-01   # opcional, formato ISO
+
+# Lista de faixas
+tracks:
+  - number: 1
+    title: "Primeira Faixa"
+    description: "Descrição curta que aparece no player"
+    lang: PT                # PT | EN
+    energy: whisper         # whisper | steady | pulse | anthem | raw
+    flavor: bossa           # bossa, jazz, folk, marrabenta, afrobeat,
+                            # amapiano, gospel-africano, ambient... (livre)
+    vocal_mode: solo        # solo | duet
+    duration_seconds: 240
+    prompt: |
+      prompt Suno completo aqui.
+      Pode ter várias linhas.
+    lyrics: |
+      [Intro]
+      primeira linha
+      segunda linha
+
+      [Verso 1]
+      ...
+    published: false        # faixa individual publicada?
+
+  - number: 2
+    title: "Segunda Faixa"
+    description: "..."
+    lang: EN
+    energy: steady
+    flavor: folk
+    duration_seconds: 220
+    prompt: "prompt mais curto numa só linha"
+    lyrics: |
+      letras em inglês aqui

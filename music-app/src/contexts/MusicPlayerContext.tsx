@@ -51,7 +51,13 @@ function proxyUrl(track: AlbumTrack, album: Album): string {
 
 async function resolveAudioSrc(track: AlbumTrack, album: Album): Promise<string> {
   try {
-    const cached = await getCachedAudioUrl(album.slug, track.number);
+    // Add a 250ms timeout — IndexedDB is heavily throttled when the tab is
+    // backgrounded on iOS/Safari. If the cache lookup hangs, skip it and fall
+    // through to the direct CDN URL so we don't stall the audio session.
+    const cached = await Promise.race([
+      getCachedAudioUrl(album.slug, track.number),
+      new Promise<null>((resolve) => setTimeout(() => resolve(null), 250)),
+    ]);
     if (cached) return cached;
   } catch {
     // IndexedDB unavailable, fall through
@@ -127,22 +133,30 @@ async function setSourceAndPlay(
   }
 
   audio.src = src;
+  // Call play() immediately — do NOT await `canplay`. On iOS, when the tab is
+  // backgrounded (phone locked or another app in the foreground), the `canplay`
+  // event is throttled or never fires, which stalls the queue. Calling play()
+  // synchronously right after setting `src` keeps the audio session alive and
+  // the browser handles buffering internally.
+  audio.play().catch(() => {});
+}
 
-  // Wait for audio to be ready before playing (prevents stutter)
-  await new Promise<void>((resolve) => {
-    const onReady = () => {
-      audio.removeEventListener("canplay", onReady);
-      clearTimeout(fallback);
-      resolve();
-    };
-    // Fallback: don't wait forever (3s max)
-    const fallback = setTimeout(() => {
-      audio.removeEventListener("canplay", onReady);
-      resolve();
-    }, 3000);
-    audio.addEventListener("canplay", onReady);
-  });
-
+// Synchronous variant used in the `ended` event handler. iOS only allows
+// gapless playback when `audio.src = ...; audio.play()` runs in the SAME
+// callstack as the previous audio event — no awaits, no microtask gaps.
+function setSourceAndPlaySync(
+  audio: HTMLAudioElement,
+  src: string,
+  prevBlobRef: React.MutableRefObject<string | null>
+) {
+  if (prevBlobRef.current) {
+    URL.revokeObjectURL(prevBlobRef.current);
+    prevBlobRef.current = null;
+  }
+  if (src.startsWith("blob:")) {
+    prevBlobRef.current = src;
+  }
+  audio.src = src;
   audio.play().catch(() => {});
 }
 
@@ -198,6 +212,9 @@ function loadQueue(): Partial<MusicPlayerState> | null {
 export function MusicPlayerProvider({ children }: { children: ReactNode }) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const blobUrlRef = useRef<string | null>(null);
+  // Pre-resolved URL for the upcoming track so the `ended` handler can swap
+  // synchronously without awaits (gapless playback while backgrounded on iOS).
+  const nextPreloadRef = useRef<{ key: string; src: string } | null>(null);
   const [state, setState] = useState<MusicPlayerState>(() => {
     const base: MusicPlayerState = {
       currentTrack: null,
@@ -396,7 +413,10 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
 
           if (pick && pickAlbum) {
             const newQueue = [...prev.queue, pick];
-            queueMicrotask(() => setSourceAndPlay(audioRef.current!, pick!, pickAlbum!, blobUrlRef));
+            // Sync swap — iOS keeps the audio session alive only if play() runs
+            // in the same tick as the `ended` event, no awaits allowed.
+            const audio = audioRef.current;
+            if (audio) setSourceAndPlaySync(audio, directCdnUrl(pick, pickAlbum), blobUrlRef);
             return {
               ...prev,
               currentTrack: pick,
@@ -414,8 +434,12 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       const nextTrack = prev.queue[nextIdx];
       const album = resolveAlbumForTrack(nextTrack, prev.queueAlbum);
       if (nextTrack && album) {
-        // Fire async play outside setState
-        queueMicrotask(() => setSourceAndPlay(audioRef.current!, nextTrack, album, blobUrlRef));
+        // Sync src swap + play() — critical for iOS to continue playback when
+        // the tab is backgrounded or the phone is locked. Any await between
+        // the `ended` event and `audio.play()` causes iOS to drop the
+        // audio session.
+        const audio = audioRef.current;
+        if (audio) setSourceAndPlaySync(audio, directCdnUrl(nextTrack, album), blobUrlRef);
       }
 
       return {
