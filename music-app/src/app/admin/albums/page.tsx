@@ -635,10 +635,11 @@ function TrackRowItem({
           lyrics: track.lyrics ?? "",
           instrumental: !(track.lyrics?.trim()),
           model: "V5_5",
-          // Pass the prompt verbatim as style — no buildStyle() injection
-          // of energy/flavor tags. The user's hand-tuned sonic description
-          // goes to Suno exactly as written.
-          customStyle: track.prompt ?? "",
+          // No customStyle, no energy, no flavor — the API route will use
+          // extractStyleTags(prompt) to pull a whitelist-sanitized style
+          // from the user's own prompt. No energy-base injection
+          // ("soft female vocal, intimate, slow" etc.) and no raw prompt
+          // risking SENSITIVE_WORD_ERROR from niche tags.
         }),
       });
       const data = await res.json();
@@ -674,8 +675,18 @@ function TrackRowItem({
           if (pollRef.current) clearInterval(pollRef.current);
           // Surface the raw Suno error fields so we can see what failed
           // (usually style too long, content policy, or quota).
+          const clipErrors = data.clips as Record<string, unknown>[];
+          const rawStatuses = clipErrors.map((c) => String(c.rawStatus || "")).join(" ");
+          // Content-filter specific hint: the Suno API (apibox) is stricter
+          // than suno.com web app. Tell the user to generate manually there
+          // and upload the MP3 via the "Áudio" button.
+          if (rawStatuses.includes("SENSITIVE_WORD")) {
+            setSunoStatus("error");
+            setSunoMsg("Suno API rejeitou (palavra sensível). Gera manualmente em suno.com e faz upload via botão \"Áudio\" →");
+            return;
+          }
           const errDetail = JSON.stringify(
-            (data.clips as Record<string, unknown>[]).map((c) => ({
+            clipErrors.map((c) => ({
               status: c.status,
               rawStatus: c.rawStatus,
               errorMessage: c.errorMessage,

@@ -279,11 +279,11 @@ export async function POST(req: NextRequest) {
       body.personaModel = personaModel || "voice_persona";
     }
 
-    // Build style — for instrumental tracks, never use buildStyle (it adds vocal tags)
+    // Build style. Four paths, in precedence:
     let finalStyle: string;
     if (customStyle) {
-      // Suno's style field hard-caps around 200 chars; truncate to stay safe.
-      // Cut at a comma/space boundary to keep phrases clean.
+      // 1) Explicit customStyle passed — use verbatim, truncated to 200 chars
+      // at a comma boundary so Suno does not reject an over-long style.
       const s = String(customStyle);
       if (s.length <= 200) finalStyle = s;
       else {
@@ -292,9 +292,17 @@ export async function POST(req: NextRequest) {
         finalStyle = lastComma > 100 ? hardCut.slice(0, lastComma) : hardCut;
       }
     } else if (instrumental) {
-      // Extract style keywords from the prompt itself (instruments, mood, atmosphere)
+      // 2) Instrumental — keywords from prompt (whitelist)
+      finalStyle = extractStyleTags(prompt);
+    } else if (!energy && !flavor) {
+      // 3) Lyrics mode with no metadata override — same whitelist path as
+      // instrumental. This is what the album manager uses: no injected
+      // "soft female vocal, intimate, slow" energy base, and no risk of
+      // SENSITIVE_WORD_ERROR from niche verbatim phrases like "scream" or
+      // artist name references ("Sampa the Great") in the raw prompt.
       finalStyle = extractStyleTags(prompt);
     } else {
+      // 4) Producao flow — energy+flavor explicitly given, compose full style
       finalStyle = buildStyle(energy, flavor, prompt);
     }
 
