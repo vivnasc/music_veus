@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { parse as parseYaml } from "yaml";
 import { adminFetch } from "@/lib/admin-fetch";
@@ -470,6 +470,16 @@ function AlbumRowItem({
   );
 }
 
+type SunoClip = {
+  id: string;
+  status: string;
+  audioUrl: string | null;
+  originalAudioUrl?: string | null;
+  title?: string;
+  imageUrl?: string | null;
+  duration?: number | null;
+};
+
 // ─── Per-track row with edit / Suno / upload actions ───
 function TrackRowItem({
   track,
@@ -490,6 +500,15 @@ function TrackRowItem({
   const [vocalMode, setVocalMode] = useState<string>("solo");
   const [duration, setDuration] = useState<number>(track.duration_seconds ?? 240);
   const [busy, setBusy] = useState<string | null>(null);
+  const [sunoStatus, setSunoStatus] = useState<"idle" | "generating" | "polling" | "ready" | "error">("idle");
+  const [sunoMsg, setSunoMsg] = useState<string>("");
+  const [sunoClips, setSunoClips] = useState<SunoClip[]>([]);
+  const pollRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  // Cleanup poll interval on unmount
+  useEffect(() => () => {
+    if (pollRef.current) clearInterval(pollRef.current);
+  }, []);
 
   async function saveEdit() {
     setBusy("save");
@@ -548,8 +567,11 @@ function TrackRowItem({
     setBusy(null);
   }
 
+  // Generate at Suno → poll until ready → show players for approval (mirrors producao flow)
   async function generateSuno() {
-    setBusy("suno");
+    setSunoStatus("generating");
+    setSunoMsg("A enviar ao Suno...");
+    setSunoClips([]);
     try {
       const res = await adminFetch("/api/admin/suno/generate", {
         method: "POST",
@@ -557,17 +579,162 @@ function TrackRowItem({
         body: JSON.stringify({
           prompt: track.prompt ?? "",
           title: track.title,
-          customMode: true,
+          lyrics: track.lyrics ?? "",
           instrumental: !(track.lyrics?.trim()),
           model: "V5_5",
-          ...(track.lyrics?.trim() ? { lyrics: track.lyrics } : {}),
+          energy: track.energy,
+          flavor: track.flavor,
         }),
       });
       const data = await res.json();
-      if (!res.ok) throw new Error(data?.erro || "?");
-      alert(`Suno gerado! Task ID: ${data.taskId || data.id || "ok"}\nVai à página Ancient Ground ou Producao para acompanhar.`);
+      if (!res.ok) throw new Error(data?.erro || `HTTP ${res.status}`);
+      if (!data.clips || data.clips.length === 0) throw new Error("Nenhum clip retornado.");
+
+      const clipIds = data.clips.map((c: SunoClip) => c.id);
+      pollSuno(clipIds);
     } catch (e) {
-      alert(`Erro Suno: ${e instanceof Error ? e.message : "?"}`);
+      setSunoStatus("error");
+      setSunoMsg(`Erro Suno: ${e instanceof Error ? e.message : "?"}`);
+    }
+  }
+
+  function pollSuno(clipIds: string[]) {
+    if (pollRef.current) clearInterval(pollRef.current);
+    setSunoStatus("polling");
+    setSunoMsg("A gerar... (pode demorar 2-3 min)");
+
+    let pollCount = 0;
+    pollRef.current = setInterval(async () => {
+      pollCount++;
+      try {
+        const res = await adminFetch(`/api/admin/suno/status?ids=${clipIds.join(",")}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        if (data.erro) throw new Error(data.erro);
+
+        const info = (data.clips || []).map((c: SunoClip) => c.status).join(", ");
+        setSunoMsg(`Poll #${pollCount}: ${info}`);
+
+        if (data.clips.some((c: SunoClip) => c.status === "error")) {
+          if (pollRef.current) clearInterval(pollRef.current);
+          setSunoStatus("error");
+          setSunoMsg("Suno devolveu erro na geração.");
+          return;
+        }
+
+        const allDone = data.clips.every((c: SunoClip) => c.status === "complete" && c.audioUrl);
+        if (allDone) {
+          if (pollRef.current) clearInterval(pollRef.current);
+          // Cache clips in browser memory (blob URLs survive Suno's 1h CDN expiry)
+          const cached: SunoClip[] = [];
+          for (const c of data.clips as SunoClip[]) {
+            if (!c.audioUrl) { cached.push(c); continue; }
+            try {
+              const r = await fetch(c.audioUrl);
+              if (r.ok) {
+                const blob = await r.blob();
+                if (blob.size > 1000) {
+                  cached.push({ ...c, audioUrl: URL.createObjectURL(blob), originalAudioUrl: c.audioUrl });
+                  continue;
+                }
+              }
+            } catch { /* keep original */ }
+            cached.push(c);
+          }
+          setSunoClips(cached);
+          setSunoStatus("ready");
+          setSunoMsg(`${cached.length} versões prontas — escuta e aprova a que quiseres.`);
+        }
+      } catch (err) {
+        console.warn(`[poll #${pollCount}] track ${track.id}:`, err);
+      }
+    }, 5000);
+
+    // Safety timeout: 5 min
+    setTimeout(() => {
+      if (pollRef.current) {
+        clearInterval(pollRef.current);
+        pollRef.current = null;
+        if (sunoStatus === "polling") {
+          setSunoStatus("error");
+          setSunoMsg("Timeout (5 min) — verifica no painel Suno.");
+        }
+      }
+    }, 5 * 60 * 1000);
+  }
+
+  async function approveClip(clip: SunoClip) {
+    setBusy("approve");
+    try {
+      // Download blob (already cached as blob: URL by polling step)
+      const audioSrc = clip.audioUrl!;
+      let blob: Blob;
+      if (audioSrc.startsWith("blob:")) {
+        blob = await (await fetch(audioSrc)).blob();
+      } else {
+        const r = await adminFetch("/api/admin/proxy-download", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ url: audioSrc }),
+        });
+        blob = await r.blob();
+      }
+      if (blob.size < 1000) throw new Error("Áudio demasiado pequeno.");
+
+      // Upload to Supabase as faixa-NN.mp3
+      const safeNum = String(track.number).padStart(2, "0");
+      const filename = `albums/${albumSlug}/faixa-${safeNum}.mp3`;
+      const sigRes = await adminFetch("/api/admin/signed-upload-url", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ filename }),
+      });
+      if (!sigRes.ok) throw new Error("signed url failed");
+      const { signedUrl } = await sigRes.json();
+      const upRes = await fetch(signedUrl, {
+        method: "PUT",
+        headers: { "Content-Type": "audio/mpeg" },
+        body: blob,
+      });
+      if (!upRes.ok) throw new Error(`upload ${upRes.status}`);
+
+      // Cover (if Suno provided one)
+      if (clip.imageUrl) {
+        try {
+          const coverRes = await fetch(clip.imageUrl);
+          if (coverRes.ok) {
+            const coverBlob = await coverRes.blob();
+            if (coverBlob.size > 1000) {
+              const coverFilename = `albums/${albumSlug}/faixa-${safeNum}-cover.jpg`;
+              const cs = await adminFetch("/api/admin/signed-upload-url", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ filename: coverFilename }),
+              });
+              if (cs.ok) {
+                const { signedUrl: csu } = await cs.json();
+                await fetch(csu, { method: "PUT", headers: { "Content-Type": "image/jpeg" }, body: coverBlob });
+              }
+            }
+          }
+        } catch { /* cover optional */ }
+      }
+
+      // Mark audio_url on the track
+      const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+      const audioUrl = `${supabaseUrl}/storage/v1/object/public/audios/${filename}`;
+      await adminFetch(`/api/admin/tracks-db/${track.id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ audio_url: audioUrl }),
+      });
+
+      setSunoStatus("idle");
+      setSunoMsg("");
+      setSunoClips([]);
+      onChanged();
+    } catch (e) {
+      alert(`Erro a aprovar: ${e instanceof Error ? e.message : "?"}`);
     }
     setBusy(null);
   }
@@ -593,10 +760,14 @@ function TrackRowItem({
           </button>
           <button
             onClick={generateSuno}
-            disabled={busy === "suno"}
-            className="rounded px-2 py-1 text-[10px] bg-amber-700/30 text-amber-300 hover:bg-amber-700/50"
+            disabled={sunoStatus === "generating" || sunoStatus === "polling"}
+            className={`rounded px-2 py-1 text-[10px] transition ${
+              sunoStatus === "generating" || sunoStatus === "polling"
+                ? "bg-amber-900/20 text-amber-600 animate-pulse"
+                : "bg-amber-700/30 text-amber-300 hover:bg-amber-700/50"
+            }`}
           >
-            {busy === "suno" ? "..." : "Suno"}
+            {sunoStatus === "generating" ? "..." : sunoStatus === "polling" ? "polling" : sunoClips.length > 0 ? "Regerar" : "Suno"}
           </button>
           <label className="rounded px-2 py-1 text-[10px] bg-blue-700/30 text-blue-300 hover:bg-blue-700/50 cursor-pointer">
             {busy === "audio" ? "..." : "Áudio"}
@@ -626,6 +797,40 @@ function TrackRowItem({
           </label>
         </div>
       </div>
+
+      {/* Suno status banner + listen+approve panel (mirrors producao flow) */}
+      {sunoStatus !== "idle" && sunoMsg && (
+        <p className={`text-[11px] mt-2 ${sunoStatus === "error" ? "text-red-400" : "text-amber-400"} ${sunoStatus === "polling" || sunoStatus === "generating" ? "animate-pulse" : ""}`}>
+          {sunoMsg}
+        </p>
+      )}
+      {sunoStatus === "ready" && sunoClips.length > 0 && (
+        <div className="mt-2 space-y-2">
+          {sunoClips.map((c, i) => (
+            <div key={c.id || i} className="rounded bg-black/30 p-2">
+              <div className="flex items-center gap-2 mb-1">
+                {c.imageUrl && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={c.imageUrl} alt="" className="w-8 h-8 rounded object-cover" />
+                )}
+                <span className="text-[11px] text-amber-300 font-medium">
+                  Versão {String.fromCharCode(65 + i)} {c.duration ? `(${Math.floor(c.duration / 60)}:${String(Math.floor(c.duration % 60)).padStart(2, "0")})` : ""}
+                </span>
+              </div>
+              {c.audioUrl && (
+                <audio src={c.audioUrl} controls className="w-full h-8" preload="metadata" />
+              )}
+              <button
+                onClick={() => approveClip(c)}
+                disabled={busy === "approve"}
+                className="mt-1.5 w-full rounded px-2 py-1 text-[10px] bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
+              >
+                {busy === "approve" ? "A aprovar..." : `Aprovar Versão ${String.fromCharCode(65 + i)}`}
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
 
       {editing && (
         <div className="mt-2 space-y-2">
