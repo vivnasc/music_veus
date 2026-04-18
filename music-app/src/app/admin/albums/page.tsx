@@ -510,6 +510,34 @@ function TrackRowItem({
     if (pollRef.current) clearInterval(pollRef.current);
   }, []);
 
+  // Restore pending clips on mount — survives page reloads and Suno CDN expiry
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await adminFetch("/api/admin/pending-clips");
+        if (!res.ok) return;
+        const data: { clips?: { album_slug: string; track_number: number; clip_id: string; audio_url: string; title?: string; image_url?: string | null; duration?: number | null }[] } = await res.json();
+        const mine = (data.clips || []).filter(
+          (c) => c.album_slug === albumSlug && c.track_number === track.number
+        );
+        if (!cancelled && mine.length > 0) {
+          setSunoClips(mine.map((c) => ({
+            id: c.clip_id,
+            status: "complete",
+            audioUrl: c.audio_url,
+            title: c.title || "",
+            imageUrl: c.image_url || null,
+            duration: c.duration || null,
+          })));
+          setSunoStatus("ready");
+          setSunoMsg(`${mine.length} versão(ões) pendentes de aprovação.`);
+        }
+      } catch { /* table may not exist */ }
+    })();
+    return () => { cancelled = true; };
+  }, [albumSlug, track.number]);
+
   async function saveEdit() {
     setBusy("save");
     await adminFetch(`/api/admin/tracks-db/${track.id}`, {
@@ -572,6 +600,14 @@ function TrackRowItem({
     setSunoStatus("generating");
     setSunoMsg("A enviar ao Suno...");
     setSunoClips([]);
+    // Clear any previous pending clips for this track (regenerating)
+    try {
+      await adminFetch("/api/admin/pending-clips", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ album_slug: albumSlug, track_number: track.number }),
+      });
+    } catch { /* ignore */ }
     try {
       const res = await adminFetch("/api/admin/suno/generate", {
         method: "POST",
@@ -625,25 +661,69 @@ function TrackRowItem({
         const allDone = data.clips.every((c: SunoClip) => c.status === "complete" && c.audioUrl);
         if (allDone) {
           if (pollRef.current) clearInterval(pollRef.current);
-          // Cache clips in browser memory (blob URLs survive Suno's 1h CDN expiry)
-          const cached: SunoClip[] = [];
+          setSunoMsg("A guardar clips em Supabase (pendente de aprovação)...");
+
+          // Persist each clip to Supabase Storage as pending/<slug>/<track>-<clipId>.mp3
+          // This survives Suno's ~1h CDN expiry AND browser reloads.
+          const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+          const persisted: SunoClip[] = [];
           for (const c of data.clips as SunoClip[]) {
-            if (!c.audioUrl) { cached.push(c); continue; }
+            if (!c.audioUrl) { persisted.push(c); continue; }
             try {
+              // Download from Suno CDN
               const r = await fetch(c.audioUrl);
-              if (r.ok) {
-                const blob = await r.blob();
-                if (blob.size > 1000) {
-                  cached.push({ ...c, audioUrl: URL.createObjectURL(blob), originalAudioUrl: c.audioUrl });
-                  continue;
-                }
-              }
-            } catch { /* keep original */ }
-            cached.push(c);
+              if (!r.ok) throw new Error(`fetch ${r.status}`);
+              const blob = await r.blob();
+              if (blob.size < 1000) throw new Error("small blob");
+
+              // Upload to Supabase pending path
+              const safeNum = String(track.number).padStart(2, "0");
+              const filename = `albums/${albumSlug}/pending-${safeNum}-${c.id}.mp3`;
+              const sigRes = await adminFetch("/api/admin/signed-upload-url", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ filename }),
+              });
+              if (!sigRes.ok) throw new Error("signed url failed");
+              const { signedUrl } = await sigRes.json();
+              const upRes = await fetch(signedUrl, {
+                method: "PUT",
+                headers: { "Content-Type": "audio/mpeg" },
+                body: blob,
+              });
+              if (!upRes.ok) throw new Error(`upload ${upRes.status}`);
+
+              const supabasePublic = `${supabaseUrl}/storage/v1/object/public/audios/${filename}`;
+              persisted.push({ ...c, audioUrl: supabasePublic, originalAudioUrl: c.audioUrl });
+            } catch (err) {
+              console.warn(`Failed to persist clip ${c.id}:`, err);
+              // Keep the (temporary) Suno URL so user can still listen now
+              persisted.push(c);
+            }
           }
-          setSunoClips(cached);
+
+          // Save metadata to pending_suno_clips table
+          try {
+            await adminFetch("/api/admin/pending-clips", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                album_slug: albumSlug,
+                track_number: track.number,
+                clips: persisted.map((c) => ({
+                  clip_id: c.id,
+                  audio_url: c.audioUrl,
+                  title: c.title || track.title,
+                  image_url: c.imageUrl || null,
+                  duration: c.duration || null,
+                })),
+              }),
+            });
+          } catch { /* table may not exist */ }
+
+          setSunoClips(persisted);
           setSunoStatus("ready");
-          setSunoMsg(`${cached.length} versões prontas — escuta e aprova a que quiseres.`);
+          setSunoMsg(`${persisted.length} versões pendentes — escuta e aprova a que quiseres (ficam guardadas até aprovares).`);
         }
       } catch (err) {
         console.warn(`[poll #${pollCount}] track ${track.id}:`, err);
@@ -728,6 +808,16 @@ function TrackRowItem({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ audio_url: audioUrl }),
       });
+
+      // Clean up pending clips row in DB (the pending storage files stay but
+      // are overridden on next generation — cheap and simple)
+      try {
+        await adminFetch("/api/admin/pending-clips", {
+          method: "DELETE",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ album_slug: albumSlug, track_number: track.number }),
+        });
+      } catch { /* ignore */ }
 
       setSunoStatus("idle");
       setSunoMsg("");
