@@ -500,6 +500,7 @@ function TrackRowItem({
   const [vocalMode, setVocalMode] = useState<string>("solo");
   const [duration, setDuration] = useState<number>(track.duration_seconds ?? 240);
   const [busy, setBusy] = useState<string | null>(null);
+  const [approvingClipId, setApprovingClipId] = useState<string | null>(null);
   const [sunoStatus, setSunoStatus] = useState<"idle" | "generating" | "polling" | "ready" | "error">("idle");
   const [sunoMsg, setSunoMsg] = useState<string>("");
   const [sunoClips, setSunoClips] = useState<SunoClip[]>([]);
@@ -744,7 +745,7 @@ function TrackRowItem({
   }
 
   async function approveClip(clip: SunoClip) {
-    setBusy("approve");
+    setApprovingClipId(clip.id);
     try {
       // Download blob (already cached as blob: URL by polling step)
       const audioSrc = clip.audioUrl!;
@@ -826,7 +827,7 @@ function TrackRowItem({
     } catch (e) {
       alert(`Erro a aprovar: ${e instanceof Error ? e.message : "?"}`);
     }
-    setBusy(null);
+    setApprovingClipId(null);
   }
 
   return (
@@ -912,10 +913,16 @@ function TrackRowItem({
               )}
               <button
                 onClick={() => approveClip(c)}
-                disabled={busy === "approve"}
-                className="mt-1.5 w-full rounded px-2 py-1 text-[10px] bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
+                disabled={approvingClipId !== null}
+                className={`mt-1.5 w-full rounded px-2 py-1 text-[10px] transition ${
+                  approvingClipId === c.id
+                    ? "bg-green-900/20 text-green-600 animate-pulse cursor-wait"
+                    : approvingClipId !== null
+                    ? "bg-mundo-muted-dark/10 text-mundo-muted-dark cursor-not-allowed"
+                    : "bg-green-800/30 text-green-300 hover:bg-green-800/50"
+                }`}
               >
-                {busy === "approve" ? "A aprovar..." : `Aprovar Versão ${String.fromCharCode(65 + i)}`}
+                {approvingClipId === c.id ? `A aprovar Versão ${String.fromCharCode(65 + i)}...` : `Aprovar Versão ${String.fromCharCode(65 + i)}`}
               </button>
             </div>
           ))}
