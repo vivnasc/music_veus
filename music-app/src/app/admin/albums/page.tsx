@@ -121,6 +121,17 @@ export default function AlbumManagerPage() {
   const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState<string | null>(null);
   const [albums, setAlbums] = useState<AlbumRow[]>([]);
+  // Expanded album ids — kept in parent so it survives `loadAlbums` reloads
+  // (e.g. after approving a Suno clip, the album list refetches but the user
+  // should stay looking at the same expanded tracks).
+  const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
+  const toggleExpanded = useCallback((id: string) => {
+    setExpandedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  }, []);
   const [loading, setLoading] = useState(true);
 
   const loadAlbums = useCallback(async () => {
@@ -344,6 +355,8 @@ export default function AlbumManagerPage() {
               <AlbumRowItem
                 key={a.id}
                 album={a}
+                expanded={expandedIds.has(a.id)}
+                onToggleExpand={() => toggleExpanded(a.id)}
                 onTogglePublish={() => togglePublish(a.slug, a.published)}
                 onDelete={() => deleteAlbum(a.slug)}
                 onChanged={loadAlbums}
@@ -359,16 +372,19 @@ export default function AlbumManagerPage() {
 // ─── Per-album expanded row with track actions ───
 function AlbumRowItem({
   album,
+  expanded,
+  onToggleExpand,
   onTogglePublish,
   onDelete,
   onChanged,
 }: {
   album: AlbumRow;
+  expanded: boolean;
+  onToggleExpand: () => void;
   onTogglePublish: () => void;
   onDelete: () => void;
   onChanged: () => void;
 }) {
-  const [expanded, setExpanded] = useState(false);
   const [busy, setBusy] = useState<string | null>(null);
 
   async function downloadDistroZip() {
@@ -414,7 +430,7 @@ function AlbumRowItem({
     <div className="rounded-lg border border-mundo-muted-dark/20 bg-mundo-bg-light/50">
       <div className="p-3 flex items-center justify-between gap-3">
         <button
-          onClick={() => setExpanded(!expanded)}
+          onClick={onToggleExpand}
           className="flex-1 min-w-0 text-left"
         >
           <div className="flex items-center gap-2">
@@ -500,6 +516,7 @@ function TrackRowItem({
   const [vocalMode, setVocalMode] = useState<string>("solo");
   const [duration, setDuration] = useState<number>(track.duration_seconds ?? 240);
   const [busy, setBusy] = useState<string | null>(null);
+  const [approvingClipId, setApprovingClipId] = useState<string | null>(null);
   const [sunoStatus, setSunoStatus] = useState<"idle" | "generating" | "polling" | "ready" | "error">("idle");
   const [sunoMsg, setSunoMsg] = useState<string>("");
   const [sunoClips, setSunoClips] = useState<SunoClip[]>([]);
@@ -618,8 +635,10 @@ function TrackRowItem({
           lyrics: track.lyrics ?? "",
           instrumental: !(track.lyrics?.trim()),
           model: "V5_5",
-          energy: track.energy,
-          flavor: track.flavor,
+          // Pass the prompt verbatim as style — no buildStyle() injection
+          // of energy/flavor tags. The user's hand-tuned sonic description
+          // goes to Suno exactly as written.
+          customStyle: track.prompt ?? "",
         }),
       });
       const data = await res.json();
@@ -744,7 +763,7 @@ function TrackRowItem({
   }
 
   async function approveClip(clip: SunoClip) {
-    setBusy("approve");
+    setApprovingClipId(clip.id);
     try {
       // Download blob (already cached as blob: URL by polling step)
       const audioSrc = clip.audioUrl!;
@@ -826,7 +845,7 @@ function TrackRowItem({
     } catch (e) {
       alert(`Erro a aprovar: ${e instanceof Error ? e.message : "?"}`);
     }
-    setBusy(null);
+    setApprovingClipId(null);
   }
 
   return (
@@ -840,6 +859,11 @@ function TrackRowItem({
           <p className="text-[10px] text-mundo-muted">
             {track.lang}/{track.energy}{track.flavor ? `/${track.flavor}` : ""} · {track.duration_seconds}s
           </p>
+          {/* Admin preview player — only visible here in /admin/albums.
+              Lets you listen to drafts without publishing them to the app. */}
+          {track.audio_url && (
+            <audio src={track.audio_url} controls preload="metadata" className="w-full h-7 mt-1" />
+          )}
         </div>
         <div className="flex gap-1 shrink-0">
           <button
@@ -912,10 +936,16 @@ function TrackRowItem({
               )}
               <button
                 onClick={() => approveClip(c)}
-                disabled={busy === "approve"}
-                className="mt-1.5 w-full rounded px-2 py-1 text-[10px] bg-green-800/30 text-green-300 hover:bg-green-800/50 transition"
+                disabled={approvingClipId !== null}
+                className={`mt-1.5 w-full rounded px-2 py-1 text-[10px] transition ${
+                  approvingClipId === c.id
+                    ? "bg-green-900/20 text-green-600 animate-pulse cursor-wait"
+                    : approvingClipId !== null
+                    ? "bg-mundo-muted-dark/10 text-mundo-muted-dark cursor-not-allowed"
+                    : "bg-green-800/30 text-green-300 hover:bg-green-800/50"
+                }`}
               >
-                {busy === "approve" ? "A aprovar..." : `Aprovar Versão ${String.fromCharCode(65 + i)}`}
+                {approvingClipId === c.id ? `A aprovar Versão ${String.fromCharCode(65 + i)}...` : `Aprovar Versão ${String.fromCharCode(65 + i)}`}
               </button>
             </div>
           ))}
