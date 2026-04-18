@@ -282,7 +282,15 @@ export async function POST(req: NextRequest) {
     // Build style — for instrumental tracks, never use buildStyle (it adds vocal tags)
     let finalStyle: string;
     if (customStyle) {
-      finalStyle = customStyle;
+      // Suno's style field hard-caps around 200 chars; truncate to stay safe.
+      // Cut at a comma/space boundary to keep phrases clean.
+      const s = String(customStyle);
+      if (s.length <= 200) finalStyle = s;
+      else {
+        const hardCut = s.slice(0, 200);
+        const lastComma = hardCut.lastIndexOf(",");
+        finalStyle = lastComma > 100 ? hardCut.slice(0, lastComma) : hardCut;
+      }
     } else if (instrumental) {
       // Extract style keywords from the prompt itself (instruments, mood, atmosphere)
       finalStyle = extractStyleTags(prompt);

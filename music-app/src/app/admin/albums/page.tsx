@@ -672,8 +672,18 @@ function TrackRowItem({
 
         if (data.clips.some((c: SunoClip) => c.status === "error")) {
           if (pollRef.current) clearInterval(pollRef.current);
+          // Surface the raw Suno error fields so we can see what failed
+          // (usually style too long, content policy, or quota).
+          const errDetail = JSON.stringify(
+            (data.clips as Record<string, unknown>[]).map((c) => ({
+              status: c.status,
+              rawStatus: c.rawStatus,
+              errorMessage: c.errorMessage,
+              errorType: c.errorType,
+            }))
+          );
           setSunoStatus("error");
-          setSunoMsg("Suno devolveu erro na geração.");
+          setSunoMsg(`Suno erro: ${errDetail}`);
           return;
         }
 
