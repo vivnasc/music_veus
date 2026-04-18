@@ -674,8 +674,18 @@ function TrackRowItem({
           if (pollRef.current) clearInterval(pollRef.current);
           // Surface the raw Suno error fields so we can see what failed
           // (usually style too long, content policy, or quota).
+          const clipErrors = data.clips as Record<string, unknown>[];
+          const rawStatuses = clipErrors.map((c) => String(c.rawStatus || "")).join(" ");
+          // Content-filter specific hint: the Suno API (apibox) is stricter
+          // than suno.com web app. Tell the user to generate manually there
+          // and upload the MP3 via the "Áudio" button.
+          if (rawStatuses.includes("SENSITIVE_WORD")) {
+            setSunoStatus("error");
+            setSunoMsg("Suno API rejeitou (palavra sensível). Gera manualmente em suno.com e faz upload via botão \"Áudio\" →");
+            return;
+          }
           const errDetail = JSON.stringify(
-            (data.clips as Record<string, unknown>[]).map((c) => ({
+            clipErrors.map((c) => ({
               status: c.status,
               rawStatus: c.rawStatus,
               errorMessage: c.errorMessage,
