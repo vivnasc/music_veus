@@ -635,8 +635,10 @@ function TrackRowItem({
           lyrics: track.lyrics ?? "",
           instrumental: !(track.lyrics?.trim()),
           model: "V5_5",
-          energy: track.energy,
-          flavor: track.flavor,
+          // Pass the prompt verbatim as style — no buildStyle() injection
+          // of energy/flavor tags. The user's hand-tuned sonic description
+          // goes to Suno exactly as written.
+          customStyle: track.prompt ?? "",
         }),
       });
       const data = await res.json();
