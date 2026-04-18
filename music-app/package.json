@@ -21,7 +21,8 @@
     "node-id3": "^0.2.9",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "web-push": "^3.6.7"
+    "web-push": "^3.6.7",
+    "yaml": "^2.8.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
