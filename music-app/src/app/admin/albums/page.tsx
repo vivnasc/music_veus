@@ -635,10 +635,11 @@ function TrackRowItem({
           lyrics: track.lyrics ?? "",
           instrumental: !(track.lyrics?.trim()),
           model: "V5_5",
-          // Pass the prompt verbatim as style — no buildStyle() injection
-          // of energy/flavor tags. The user's hand-tuned sonic description
-          // goes to Suno exactly as written.
-          customStyle: track.prompt ?? "",
+          // No customStyle, no energy, no flavor — the API route will use
+          // extractStyleTags(prompt) to pull a whitelist-sanitized style
+          // from the user's own prompt. No energy-base injection
+          // ("soft female vocal, intimate, slow" etc.) and no raw prompt
+          // risking SENSITIVE_WORD_ERROR from niche tags.
         }),
       });
       const data = await res.json();
