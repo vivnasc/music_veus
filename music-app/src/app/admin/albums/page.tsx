@@ -859,6 +859,11 @@ function TrackRowItem({
           <p className="text-[10px] text-mundo-muted">
             {track.lang}/{track.energy}{track.flavor ? `/${track.flavor}` : ""} · {track.duration_seconds}s
           </p>
+          {/* Admin preview player — only visible here in /admin/albums.
+              Lets you listen to drafts without publishing them to the app. */}
+          {track.audio_url && (
+            <audio src={track.audio_url} controls preload="metadata" className="w-full h-7 mt-1" />
+          )}
         </div>
         <div className="flex gap-1 shrink-0">
           <button
