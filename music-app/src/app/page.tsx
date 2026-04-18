@@ -20,10 +20,12 @@ export default function MusicHomePage() {
     <div className="min-h-screen">
       <NavBar />
 
-      {/* Hero — minimal */}
-      <div className="relative overflow-hidden">
+      {/* Hero — minimal. Reserve min-height so the `<Image fill>` backdrop
+          has a box to paint into before the inner content loads (prevents
+          flicker on first render / hydration). */}
+      <div className="relative overflow-hidden min-h-[280px]">
         <div className="absolute inset-0">
-          <Image src="/Loranne.png" alt="" fill className="object-cover object-top opacity-30 blur-[2px]" priority />
+          <Image src="/Loranne.png" alt="" fill sizes="100vw" className="object-cover object-top opacity-30 blur-[2px]" priority />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D1A]/50 to-[#0D0D1A]" />
         </div>
         <div className="relative flex flex-col items-center text-center px-6 pt-6 pb-8">

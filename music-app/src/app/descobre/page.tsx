@@ -45,8 +45,23 @@ function getCollectionTracks(product: string, publishedKeys: Set<string>): { tra
     );
 }
 
-function CollectionGrid({ publishedKeys }: { publishedKeys: Set<string> }) {
+function CollectionGrid({ publishedKeys, loading }: { publishedKeys: Set<string>; loading: boolean }) {
   const [playlistProduct, setPlaylistProduct] = useState<string | null>(null);
+
+  // While the published-tracks API is still loading, show skeleton tiles
+  // (one per collection) instead of an empty grid.
+  if (loading) {
+    return (
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+        {COLLECTION_PRODUCTS.map((product) => (
+          <div key={product}>
+            <div className="aspect-square rounded-xl bg-white/5 animate-pulse" />
+            <div className="h-3 w-20 rounded bg-white/5 animate-pulse mt-1.5" />
+          </div>
+        ))}
+      </div>
+    );
+  }
 
   return (
     <>
@@ -191,7 +206,7 @@ export default function DescobrePage() {
               ))}
             </div>
           ) : (
-          <CollectionGrid publishedKeys={publishedKeys} />
+          <CollectionGrid publishedKeys={publishedKeys} loading={loading} />
           )}
         </section>
 
