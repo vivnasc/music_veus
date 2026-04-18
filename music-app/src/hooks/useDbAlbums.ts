@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { Album } from "@/data/albums";
+import { supabase } from "@/lib/supabase";
 
 let cache: Album[] | null = null;
 let cachePromise: Promise<Album[]> | null = null;
@@ -11,7 +12,13 @@ async function fetchDbAlbums(): Promise<Album[]> {
   if (cachePromise) return cachePromise;
   cachePromise = (async () => {
     try {
-      const r = await fetch("/api/albums-db");
+      // Send auth token if logged in — server returns drafts too when
+      // the caller is the admin (email-matched server-side). Anonymous
+      // callers only see published albums.
+      const { data: { session } } = await supabase.auth.getSession();
+      const headers: HeadersInit = {};
+      if (session?.access_token) headers.Authorization = `Bearer ${session.access_token}`;
+      const r = await fetch("/api/albums-db", { headers, cache: "no-store" });
       if (!r.ok) return [];
       const data: { albums?: Album[] } = await r.json();
       cache = data.albums || [];
