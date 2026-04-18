@@ -121,6 +121,17 @@ export default function AlbumManagerPage() {
   const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState<string | null>(null);
   const [albums, setAlbums] = useState<AlbumRow[]>([]);
+  // Expanded album ids — kept in parent so it survives `loadAlbums` reloads
+  // (e.g. after approving a Suno clip, the album list refetches but the user
+  // should stay looking at the same expanded tracks).
+  const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
+  const toggleExpanded = useCallback((id: string) => {
+    setExpandedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  }, []);
   const [loading, setLoading] = useState(true);
 
   const loadAlbums = useCallback(async () => {
@@ -344,6 +355,8 @@ export default function AlbumManagerPage() {
               <AlbumRowItem
                 key={a.id}
                 album={a}
+                expanded={expandedIds.has(a.id)}
+                onToggleExpand={() => toggleExpanded(a.id)}
                 onTogglePublish={() => togglePublish(a.slug, a.published)}
                 onDelete={() => deleteAlbum(a.slug)}
                 onChanged={loadAlbums}
@@ -359,16 +372,19 @@ export default function AlbumManagerPage() {
 // ─── Per-album expanded row with track actions ───
 function AlbumRowItem({
   album,
+  expanded,
+  onToggleExpand,
   onTogglePublish,
   onDelete,
   onChanged,
 }: {
   album: AlbumRow;
+  expanded: boolean;
+  onToggleExpand: () => void;
   onTogglePublish: () => void;
   onDelete: () => void;
   onChanged: () => void;
 }) {
-  const [expanded, setExpanded] = useState(false);
   const [busy, setBusy] = useState<string | null>(null);
 
   async function downloadDistroZip() {
@@ -414,7 +430,7 @@ function AlbumRowItem({
     <div className="rounded-lg border border-mundo-muted-dark/20 bg-mundo-bg-light/50">
       <div className="p-3 flex items-center justify-between gap-3">
         <button
-          onClick={() => setExpanded(!expanded)}
+          onClick={onToggleExpand}
           className="flex-1 min-w-0 text-left"
         >
           <div className="flex items-center gap-2">
