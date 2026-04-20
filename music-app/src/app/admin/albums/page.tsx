@@ -391,6 +391,13 @@ function AlbumRowItem({
     setBusy("zip");
     try {
       const { downloadAlbumForDistribution } = await import("@/lib/album-download");
+      // Which track's cover is the album cover (picked in bulk upload)
+      let coverTrackNumber = 1;
+      try {
+        const r = await fetch("/api/admin/album-cover");
+        const d = await r.json();
+        coverTrackNumber = d.covers?.[album.slug] || 1;
+      } catch { /* fallback 1 */ }
       // Map AlbumRow to Album shape for the download lib
       const albumObj = {
         slug: album.slug,
@@ -419,7 +426,7 @@ function AlbumRowItem({
           })),
       };
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      await downloadAlbumForDistribution(albumObj as any);
+      await downloadAlbumForDistribution(albumObj as any, undefined, undefined, coverTrackNumber);
     } catch (e) {
       alert(`Erro ZIP: ${e instanceof Error ? e.message : "?"}`);
     }
@@ -472,6 +479,11 @@ function AlbumRowItem({
 
       {expanded && (
         <div className="border-t border-mundo-muted-dark/20 p-3 space-y-2">
+          <BulkUploadPanel
+            albumSlug={album.slug}
+            tracks={album.tracks_db.sort((a, b) => a.number - b.number)}
+            onChanged={onChanged}
+          />
           {album.tracks_db.sort((a, b) => a.number - b.number).map((t) => (
             <TrackRowItem
               key={t.id}
@@ -483,6 +495,317 @@ function AlbumRowItem({
         </div>
       )}
     </div>
+  );
+}
+
+// ─── Bulk upload: N MP3s + N images at once, pick which image = album cover ───
+type BulkFile = {
+  id: string;
+  file: File;
+  kind: "audio" | "cover";
+  trackNumber: number;
+  status: "pending" | "uploading" | "done" | "error";
+  errorMsg?: string;
+};
+
+function BulkUploadPanel({
+  albumSlug,
+  tracks,
+  onChanged,
+}: {
+  albumSlug: string;
+  tracks: TrackRow[];
+  onChanged: () => void;
+}) {
+  const [files, setFiles] = useState<BulkFile[]>([]);
+  const [coverTrack, setCoverTrackLocal] = useState<number>(1);
+  const [busy, setBusy] = useState(false);
+  const [msg, setMsg] = useState<string | null>(null);
+  const [dragOver, setDragOver] = useState(false);
+  const trackCount = tracks.length || 1;
+
+  // Load current album-cover selection so the radio reflects reality
+  useEffect(() => {
+    fetch("/api/admin/album-cover")
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.covers?.[albumSlug]) setCoverTrackLocal(d.covers[albumSlug]);
+      })
+      .catch(() => {});
+  }, [albumSlug]);
+
+  function classify(file: File): "audio" | "cover" | null {
+    if (file.type.startsWith("audio/") || /\.(mp3|wav|m4a|flac|aac|ogg)$/i.test(file.name)) return "audio";
+    if (file.type.startsWith("image/") || /\.(jpe?g|png|webp)$/i.test(file.name)) return "cover";
+    return null;
+  }
+
+  function addFiles(newFiles: FileList | File[]) {
+    setFiles((prev) => {
+      let nextAudio = prev.filter((f) => f.kind === "audio").length + 1;
+      let nextCover = prev.filter((f) => f.kind === "cover").length + 1;
+      const added: BulkFile[] = [];
+      for (const file of Array.from(newFiles)) {
+        const kind = classify(file);
+        if (!kind) continue;
+        const trackNumber = Math.min(kind === "audio" ? nextAudio++ : nextCover++, trackCount);
+        added.push({
+          id: `${file.name}-${file.size}-${Math.random().toString(36).slice(2)}`,
+          file,
+          kind,
+          trackNumber,
+          status: "pending",
+        });
+      }
+      return [...prev, ...added];
+    });
+  }
+
+  function updateFile(id: string, patch: Partial<BulkFile>) {
+    setFiles((prev) => prev.map((f) => (f.id === id ? { ...f, ...patch } : f)));
+  }
+  function removeFile(id: string) {
+    setFiles((prev) => prev.filter((f) => f.id !== id));
+  }
+
+  async function uploadAll() {
+    if (busy || files.length === 0) return;
+    setBusy(true);
+    setMsg(null);
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfillqyklgrmb.supabase.co";
+
+    // Snapshot a copy — state updates inside the loop should not re-drive iteration
+    const queue = files.filter((f) => f.status !== "done");
+    let okCount = 0;
+    let errCount = 0;
+    for (const bf of queue) {
+      updateFile(bf.id, { status: "uploading", errorMsg: undefined });
+      try {
+        const safeNum = String(bf.trackNumber).padStart(2, "0");
+        const ext = bf.kind === "audio" ? "mp3" : "jpg";
+        const filename = `albums/${albumSlug}/faixa-${safeNum}${bf.kind === "cover" ? "-cover" : ""}.${ext}`;
+
+        const sigRes = await adminFetch("/api/admin/signed-upload-url", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ filename }),
+        });
+        if (!sigRes.ok) throw new Error("signed url failed");
+        const { signedUrl } = await sigRes.json();
+
+        const contentType = bf.kind === "audio" ? "audio/mpeg" : "image/jpeg";
+        const upRes = await fetch(signedUrl, {
+          method: "PUT",
+          headers: { "Content-Type": contentType },
+          body: bf.file,
+        });
+        if (!upRes.ok) throw new Error(`upload ${upRes.status}`);
+
+        if (bf.kind === "audio") {
+          const track = tracks.find((t) => t.number === bf.trackNumber);
+          if (track) {
+            const audioUrl = `${supabaseUrl}/storage/v1/object/public/audios/${filename}`;
+            await adminFetch(`/api/admin/tracks-db/${track.id}`, {
+              method: "PATCH",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ audio_url: audioUrl }),
+            });
+          }
+        }
+        updateFile(bf.id, { status: "done" });
+        okCount++;
+      } catch (e) {
+        updateFile(bf.id, { status: "error", errorMsg: e instanceof Error ? e.message : "?" });
+        errCount++;
+      }
+    }
+
+    // Persist album-cover choice (faixa da capa → zip DistroKid + player)
+    try {
+      await adminFetch("/api/admin/album-cover", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ album_slug: albumSlug, track_number: coverTrack }),
+      });
+    } catch { /* ignore */ }
+
+    setBusy(false);
+    setMsg(
+      `Terminado. Sucessos: ${okCount}/${queue.length}` +
+      (errCount > 0 ? ` · erros: ${errCount}` : "") +
+      `. Capa do álbum: faixa ${coverTrack}.`
+    );
+    onChanged();
+  }
+
+  const audioFiles = files.filter((f) => f.kind === "audio");
+  const coverFiles = files.filter((f) => f.kind === "cover");
+
+  return (
+    <details className="rounded border border-amber-900/30 bg-amber-950/10">
+      <summary className="cursor-pointer px-3 py-2 text-[11px] text-amber-400 hover:text-amber-300">
+        ⇅ Upload em massa (MP3s + imagens, escolhe a capa do álbum)
+      </summary>
+      <div className="px-3 pb-3 space-y-3">
+        {/* Dropzone */}
+        <label
+          onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
+          onDragLeave={() => setDragOver(false)}
+          onDrop={(e) => {
+            e.preventDefault();
+            setDragOver(false);
+            if (e.dataTransfer.files?.length) addFiles(e.dataTransfer.files);
+          }}
+          className={`block rounded border-2 border-dashed px-4 py-6 text-center text-[11px] cursor-pointer transition ${
+            dragOver
+              ? "border-amber-500 bg-amber-900/20 text-amber-300"
+              : "border-mundo-muted-dark/30 bg-black/20 text-mundo-muted hover:border-amber-700/50"
+          }`}
+        >
+          Arrasta MP3s e imagens para aqui, ou clica para selecionar.
+          <input
+            type="file"
+            multiple
+            accept="audio/*,image/*"
+            className="hidden"
+            onChange={(e) => {
+              if (e.target.files?.length) addFiles(e.target.files);
+              e.target.value = "";
+            }}
+          />
+        </label>
+
+        {/* Audio list */}
+        {audioFiles.length > 0 && (
+          <div>
+            <p className="text-[10px] text-mundo-muted uppercase tracking-wide mb-1">Áudios ({audioFiles.length})</p>
+            <ul className="space-y-1">
+              {audioFiles.map((bf) => (
+                <li key={bf.id} className="flex items-center gap-2 rounded bg-black/30 px-2 py-1.5 text-[11px]">
+                  <span className="flex-1 truncate text-mundo-creme">{bf.file.name}</span>
+                  <label className="text-[10px] text-mundo-muted">
+                    Faixa
+                    <select
+                      value={bf.trackNumber}
+                      disabled={busy}
+                      onChange={(e) => updateFile(bf.id, { trackNumber: parseInt(e.target.value, 10) })}
+                      className="ml-1 rounded bg-black/40 border border-mundo-muted-dark/20 px-1 py-0.5 text-xs text-mundo-creme"
+                    >
+                      {tracks.map((t) => (
+                        <option key={t.number} value={t.number}>{String(t.number).padStart(2, "0")}</option>
+                      ))}
+                    </select>
+                  </label>
+                  <StatusPill status={bf.status} msg={bf.errorMsg} />
+                  <button
+                    onClick={() => removeFile(bf.id)}
+                    disabled={busy}
+                    className="text-red-400 hover:text-red-300 text-[11px] disabled:opacity-30"
+                    title="Remover"
+                  >
+                    ✕
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Cover list */}
+        {coverFiles.length > 0 && (
+          <div>
+            <p className="text-[10px] text-mundo-muted uppercase tracking-wide mb-1">
+              Imagens ({coverFiles.length}) — marca a que é capa do álbum
+            </p>
+            <ul className="space-y-1">
+              {coverFiles.map((bf) => (
+                <li key={bf.id} className="flex items-center gap-2 rounded bg-black/30 px-2 py-1.5 text-[11px]">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={URL.createObjectURL(bf.file)}
+                    alt=""
+                    className="w-8 h-8 rounded object-cover shrink-0"
+                  />
+                  <span className="flex-1 truncate text-mundo-creme">{bf.file.name}</span>
+                  <label className="text-[10px] text-mundo-muted">
+                    Faixa
+                    <select
+                      value={bf.trackNumber}
+                      disabled={busy}
+                      onChange={(e) => updateFile(bf.id, { trackNumber: parseInt(e.target.value, 10) })}
+                      className="ml-1 rounded bg-black/40 border border-mundo-muted-dark/20 px-1 py-0.5 text-xs text-mundo-creme"
+                    >
+                      {tracks.map((t) => (
+                        <option key={t.number} value={t.number}>{String(t.number).padStart(2, "0")}</option>
+                      ))}
+                    </select>
+                  </label>
+                  <label className="flex items-center gap-1 text-[10px] text-amber-300">
+                    <input
+                      type="radio"
+                      name={`cover-of-${albumSlug}`}
+                      checked={coverTrack === bf.trackNumber}
+                      disabled={busy}
+                      onChange={() => setCoverTrackLocal(bf.trackNumber)}
+                    />
+                    capa
+                  </label>
+                  <StatusPill status={bf.status} msg={bf.errorMsg} />
+                  <button
+                    onClick={() => removeFile(bf.id)}
+                    disabled={busy}
+                    className="text-red-400 hover:text-red-300 text-[11px] disabled:opacity-30"
+                    title="Remover"
+                  >
+                    ✕
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {files.length > 0 && (
+          <div className="flex items-center gap-2">
+            <button
+              onClick={uploadAll}
+              disabled={busy}
+              className={`flex-1 rounded px-3 py-1.5 text-[11px] transition ${
+                busy
+                  ? "bg-amber-900/20 text-amber-600 cursor-wait"
+                  : "bg-amber-700/40 text-amber-200 hover:bg-amber-700/60"
+              }`}
+            >
+              {busy ? "A enviar…" : `Guardar tudo (${files.length})`}
+            </button>
+            <button
+              onClick={() => setFiles([])}
+              disabled={busy}
+              className="rounded px-3 py-1.5 text-[11px] bg-mundo-muted-dark/20 text-mundo-muted hover:bg-mundo-muted-dark/40 disabled:opacity-30"
+            >
+              Limpar
+            </button>
+          </div>
+        )}
+
+        {msg && <p className="text-[11px] text-green-400">{msg}</p>}
+      </div>
+    </details>
+  );
+}
+
+function StatusPill({ status, msg }: { status: BulkFile["status"]; msg?: string }) {
+  const map: Record<BulkFile["status"], { label: string; cls: string }> = {
+    pending: { label: "…", cls: "text-mundo-muted" },
+    uploading: { label: "↑", cls: "text-amber-400 animate-pulse" },
+    done: { label: "✓", cls: "text-green-400" },
+    error: { label: "✕", cls: "text-red-400" },
+  };
+  const { label, cls } = map[status];
+  return (
+    <span className={`text-[10px] ${cls}`} title={msg || status}>
+      {label}
+    </span>
   );
 }
 
