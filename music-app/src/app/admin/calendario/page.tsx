@@ -3,11 +3,17 @@
 import { useState, useEffect, useCallback, type ChangeEvent } from "react";
 import Link from "next/link";
 import { ALL_ALBUMS } from "@/data/albums";
-import { PRODUCTION_CALENDAR } from "@/data/production-calendar";
+import {
+  LORANNE_RELEASES,
+  LORANNE_RELEASE_THEMES,
+} from "@/data/production-calendar";
+import { ANCIENT_GROUND_BY_DATE } from "@/data/ancient-ground-calendar";
+import { ANCIENT_GROUND_SINGLES } from "@/data/ancient-ground-singles";
 import { adminFetch } from "@/lib/admin-fetch";
 import { pickLorannImages } from "@/lib/loranne-images";
 
-const CALENDAR_STORAGE_KEY = "veus:content-calendar-v6";
+// v7: 1×/semana (sextas), inclui Ancient Ground. Reseta o plano em browsers antigos.
+const CALENDAR_STORAGE_KEY = "veus:content-calendar-v7";
 
 type ContentAction = {
   type: "reel" | "carrossel" | "story" | "post" | "partilha" | "capa-animada" | "paisagem" | "reel-capa" | "lora";
@@ -15,6 +21,8 @@ type ContentAction = {
   trackNumber?: number;
   albumSlug: string;
   caption?: string;
+  /** Projecto do post — "loranne" | "ancient-ground". Default "loranne". */
+  project?: "loranne" | "ancient-ground";
 };
 
 type DayPlan = {
@@ -24,11 +32,6 @@ type DayPlan = {
 
 function getAlbumTitle(slug: string): string {
   return ALL_ALBUMS.find(a => a.slug === slug)?.title || slug;
-}
-
-function getTrackTitle(slug: string, num: number): string {
-  const album = ALL_ALBUMS.find(a => a.slug === slug);
-  return album?.tracks.find(t => t.number === num)?.title || `Faixa ${num}`;
 }
 
 function getAlbumColor(slug: string): string {
@@ -166,78 +169,107 @@ const THEME_HASHTAGS: Record<string, string> = {
   "Quietude & Maré": "#silencio #paz #mare #natureza",
 };
 
-/** Generate social media plan starting from TODAY.
- *  - Launch day (date when album goes live on Spotify = distrokidUploadDate + 7): 3 posts
- *  - Day after launch: 3 posts for the same album (still new)
- *  - Other weekdays without launch: 3 posts for the most recent launched album
- *  - Sáb/Dom: vazio (utilizador regista retrospectivo manualmente)
+const AG_HASHTAGS = "#ancientground #meditation #mbira #kora #balafon #africa #stillness #instrumental";
+
+/**
+ * Gera o plano de redes sociais a partir de hoje, 90 dias à frente.
+ *
+ * Regras:
+ *  - Dia de lançamento Loranne → 2 posts Loranne (capa animada + paisagem).
+ *  - Dia de lançamento Ancient Ground → 1 post dedicado ao single.
+ *  - Dias sem lançamento → 1 post retrospectivo do último álbum Loranne lançado.
+ *  - Ao saltar uma sexta (férias, pausa), o plano fica vazio nesse dia — a
+ *    utilizadora pode simplesmente apagar o dia ou adicionar posts manuais.
  */
 function generateDefaultPlan(): DayPlan[] {
-  const today = new Date(2026, 3, 14); // 14 April 2026 (today)
-  const DAYS = 60;
+  const today = new Date(2026, 3, 21); // 21 Abril 2026 — hoje
+  const DAYS = 90;
 
-  // Map: launch date ISO → album slug
-  const launchMap: Record<string, string> = {};
-  for (const a of ALL_ALBUMS) {
-    if (!a.distrokidUploadDate) continue;
-    const upload = new Date(a.distrokidUploadDate);
-    const launch = new Date(upload);
-    launch.setDate(launch.getDate() + 7);
-    const iso = launch.toISOString().slice(0, 10);
-    launchMap[iso] = a.slug;
-  }
+  // Map: data ISO → release Loranne
+  const loranneLaunchMap: Record<string, string> = {};
+  for (const r of LORANNE_RELEASES) loranneLaunchMap[r.date] = r.albumSlug;
 
-  const sortedLaunches = Object.entries(launchMap).sort((a, b) => a[0].localeCompare(b[0]));
-  function mostRecentLaunchBefore(iso: string): string | null {
+  // Ordenação para lookup "último lançado antes de"
+  const sortedLoranneLaunches = [...LORANNE_RELEASES].sort((a, b) => a.date.localeCompare(b.date));
+
+  function mostRecentLoranneBefore(iso: string): string | null {
     let last: string | null = null;
-    for (const [ld, slug] of sortedLaunches) {
-      if (ld <= iso) last = slug;
+    for (const r of sortedLoranneLaunches) {
+      if (r.date <= iso) last = r.albumSlug;
       else break;
     }
-    // Fallback: Frequência (the first published album)
-    return last || "incenso-frequencia";
+    return last ?? "incenso-frequencia";
   }
 
-  function build3Posts(slug: string, iso: string): ContentAction[] {
+  function loranneHashtags(slug: string): string {
+    const theme = LORANNE_RELEASE_THEMES[slug]?.theme;
+    return (theme && THEME_HASHTAGS[theme]) || "";
+  }
+
+  function buildLaunchPosts(slug: string): ContentAction[] {
     const title = getAlbumTitle(slug);
     const verse = pickVerse(slug, 1);
-    const theme = PRODUCTION_CALENDAR.find((w) =>
-      [w.albums.segunda, w.albums.quarta, w.albums.sexta].includes(slug)
-    )?.theme;
-    const hashtags = (theme && THEME_HASHTAGS[theme]) || "";
-    const launchToday = launchMap[iso] === slug;
-    const caption = `${verse ? `"${verse}"\n\n` : ""}${title} — ${launchToday ? "fora agora." : "no Spotify."}\nmusic.seteveus.space\n\n#loranne #${slug} #musicaportuguesa #veus ${hashtags}`.trim();
-
-    if (launchToday) {
-      return [
-        { type: "capa-animada", label: `Capa animada — ${title}`, albumSlug: slug, caption },
-        { type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 1, caption },
-        { type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug, caption },
-      ];
-    }
+    const caption = `${verse ? `"${verse}"\n\n` : ""}${title} — fora agora.\nmusic.seteveus.space\n\n#loranne #${slug} #musicaportuguesa #veus ${loranneHashtags(slug)}`.trim();
     return [
-      { type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 2, caption },
-      { type: "reel-capa", label: `Reel de capa — ${title}`, albumSlug: slug, caption },
-      { type: "lora", label: `Lora / Paisagem — ${title}`, albumSlug: slug, trackNumber: 3, caption },
+      { type: "capa-animada", label: `Capa animada — ${title}`, albumSlug: slug, caption, project: "loranne" },
+      { type: "paisagem", label: `Paisagem + música — ${title}`, albumSlug: slug, trackNumber: 1, caption, project: "loranne" },
     ];
   }
 
+  function buildRetrospectivePost(slug: string, trackNumber: number): ContentAction {
+    const title = getAlbumTitle(slug);
+    const verse = pickVerse(slug, trackNumber);
+    const caption = `${verse ? `"${verse}"\n\n` : ""}${title} — no Spotify.\nmusic.seteveus.space\n\n#loranne #${slug} #musicaportuguesa #veus ${loranneHashtags(slug)}`.trim();
+    return {
+      type: "paisagem",
+      label: `Paisagem — ${title}`,
+      albumSlug: slug,
+      trackNumber,
+      caption,
+      project: "loranne",
+    };
+  }
+
+  function buildAncientGroundPost(singleNumber: number): ContentAction | null {
+    const s = ANCIENT_GROUND_SINGLES.find((x) => x.number === singleNumber);
+    if (!s) return null;
+    const caption = `${s.title} — Ancient Ground.\nA 1-hour African meditation single.\nSpotify / Apple Music / YouTube Music.\n\n${AG_HASHTAGS}`;
+    return {
+      type: "post",
+      label: `Ancient Ground #${singleNumber} — ${s.title}`,
+      albumSlug: "ancient-ground",
+      trackNumber: singleNumber * 2 - 1,
+      caption,
+      project: "ancient-ground",
+    };
+  }
+
   const plan: DayPlan[] = [];
+  let retroTrack = 2;
   for (let d = 0; d < DAYS; d++) {
     const date = new Date(today);
     date.setDate(date.getDate() + d);
     const iso = date.toISOString().slice(0, 10);
-    let actions: ContentAction[] = [];
+    const actions: ContentAction[] = [];
 
-    const launchSlug = launchMap[iso];
-    if (launchSlug) {
-      // Dia de lançamento
-      actions = build3Posts(launchSlug, iso);
+    const loranneLaunch = loranneLaunchMap[iso];
+    const agLaunch = ANCIENT_GROUND_BY_DATE[iso];
+
+    if (loranneLaunch) {
+      actions.push(...buildLaunchPosts(loranneLaunch));
+      retroTrack = 2; // reset para o próximo ciclo retrospectivo
     } else {
-      // Qualquer outro dia — álbum mais recente lançado (inclui dia seguinte ao lançamento,
-      // Sáb/Dom retrospectivos, etc.)
-      const slug = mostRecentLaunchBefore(iso);
-      if (slug) actions = build3Posts(slug, iso);
+      // Sem lançamento Loranne: 1 post retrospectivo do último álbum
+      const lastSlug = mostRecentLoranneBefore(iso);
+      if (lastSlug) {
+        actions.push(buildRetrospectivePost(lastSlug, retroTrack));
+        retroTrack = retroTrack >= 6 ? 2 : retroTrack + 1;
+      }
+    }
+
+    if (agLaunch) {
+      const agPost = buildAncientGroundPost(agLaunch.singleNumber);
+      if (agPost) actions.push(agPost);
     }
 
     plan.push({ date: iso, actions });
@@ -382,6 +414,12 @@ export default function CalendarPage() {
     savePlan(plan.filter((_: DayPlan, i: number) => i !== dayIdx));
   }
 
+  /** Saltar dia — remove todas as acções do dia (mantém o dia vazio). */
+  function skipDay(dayIdx: number) {
+    const newPlan = plan.map((d: DayPlan, i: number) => i === dayIdx ? { ...d, actions: [] } : d);
+    savePlan(newPlan);
+  }
+
   function resetPlan() {
     savePlan(DEFAULT_PLAN);
   }
@@ -397,7 +435,7 @@ export default function CalendarPage() {
         <div className="flex items-center justify-between mb-8">
           <div>
             <h1 className="font-display text-2xl font-bold text-[#F5F0E6]">Plano de Conteudo</h1>
-            <p className="text-sm text-[#666680] mt-1">Abril 2026 — Instagram + Partilha</p>
+            <p className="text-sm text-[#666680] mt-1">Loranne + Ancient Ground — 1×/semana, sextas</p>
           </div>
           <div className="flex items-center gap-3">
             <Link href="/admin/fotos" className="text-xs text-[#666680] hover:text-[#c08aaa]">Gerar Fotos</Link>
@@ -450,6 +488,17 @@ export default function CalendarPage() {
                     >
                       + Accao
                     </button>
+                    {day.actions.length > 0 && (
+                      <button
+                        onClick={() => {
+                          if (confirm("Saltar este dia? As acções serão apagadas.")) skipDay(dayIdx);
+                        }}
+                        className="text-[10px] px-2 py-1 rounded text-[#666680] hover:text-amber-400 transition-colors"
+                        title="Saltar dia (limpa acções)"
+                      >
+                        Saltar
+                      </button>
+                    )}
                     {day.actions.length === 0 && (
                       <button
                         onClick={() => deleteDay(dayIdx)}
@@ -485,6 +534,9 @@ export default function CalendarPage() {
                               <span className="text-[10px] font-bold uppercase tracking-wider">{TYPE_LABELS[action.type]}</span>
                               <div className="w-2 h-2 rounded-full" style={{ backgroundColor: getAlbumColor(action.albumSlug) }} />
                               <span className="text-xs text-[#a0a0b0]">{getAlbumTitle(action.albumSlug)}</span>
+                              {action.project === "ancient-ground" && (
+                                <span className="text-[9px] px-1.5 py-0.5 rounded-full uppercase tracking-wider bg-amber-900/30 text-amber-400">Ancient</span>
+                              )}
                               <button
                                 onClick={() => setEditTarget({ dayIdx, actionIdx: i, action: { ...action } })}
                                 className="text-[10px] text-[#666680] hover:text-[#C9A96E] transition-colors ml-auto"

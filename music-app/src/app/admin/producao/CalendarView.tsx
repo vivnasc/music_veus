@@ -9,7 +9,11 @@ import {
   type Album,
   type AlbumStatus,
 } from "@/data/albums";
-import { PRODUCTION_CALENDAR, type ProductionWeek } from "@/data/production-calendar";
+import {
+  PRODUCTION_CALENDAR,
+  LORANNE_RELEASE_DATES,
+  type ProductionWeek,
+} from "@/data/production-calendar";
 
 // ─── localStorage ───────────────────────────────
 const LS_WEEK_ORDER = "loranne-calendar-week-order";
@@ -29,30 +33,45 @@ function loadAlbumStatuses(): Record<string, AlbumStatus> {
 }
 function saveAlbumStatuses(s: Record<string, AlbumStatus>) { localStorage.setItem(LS_ALBUM_STATUS, JSON.stringify(s)); }
 
-/** Helper: week albums as ordered array with day labels */
-function weekAlbumEntries(week: ProductionWeek): { day: string; slug: string }[] {
-  return [
-    { day: "Seg", slug: week.albums.segunda },
-    { day: "Qua", slug: week.albums.quarta },
-    { day: "Sex", slug: week.albums.sexta },
-  ];
-}
+const DAY_LABELS = ["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
+
+/** Helper: lista ordenada de slugs de um tema (ignora entradas vazias). */
 function weekSlugs(week: ProductionWeek): string[] {
-  return [week.albums.segunda, week.albums.quarta, week.albums.sexta];
+  return [week.albums.segunda, week.albums.quarta, week.albums.sexta].filter(Boolean);
 }
 
-// ─── Start date: 13 abril 2026 ─────────────────
-const CALENDAR_START = new Date(2026, 3, 13); // month is 0-indexed
-function weekDates(weekIdx: number): { seg: Date; qua: Date; sex: Date } {
-  const seg = new Date(CALENDAR_START);
-  seg.setDate(seg.getDate() + weekIdx * 7);
-  const qua = new Date(seg); qua.setDate(qua.getDate() + 2);
-  const sex = new Date(seg); sex.setDate(sex.getDate() + 4);
-  return { seg, qua, sex };
+/** Entradas do tema com a data real de lançamento (ex: "2026-05-15"). */
+function weekAlbumEntries(week: ProductionWeek): { date: Date | null; slug: string }[] {
+  return weekSlugs(week).map((slug) => {
+    const iso = LORANNE_RELEASE_DATES[slug];
+    return { date: iso ? new Date(iso) : null, slug };
+  });
 }
+
+/** Range de datas do tema (primeira → última). */
+function weekDateRange(week: ProductionWeek): { start: Date | null; end: Date | null } {
+  const dates = weekAlbumEntries(week)
+    .map((e) => e.date)
+    .filter((d): d is Date => !!d);
+  if (dates.length === 0) return { start: null, end: null };
+  dates.sort((a, b) => a.getTime() - b.getTime());
+  return { start: dates[0], end: dates[dates.length - 1] };
+}
+
 function formatDate(d: Date): string {
   const months = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
   return `${d.getDate()} ${months[d.getMonth()]}`;
+}
+
+function formatRange(start: Date | null, end: Date | null): string {
+  if (!start || !end) return "sem data";
+  if (start.toDateString() === end.toDateString()) return formatDate(start);
+  return `${formatDate(start)} → ${formatDate(end)}`;
+}
+
+function dayLabel(date: Date | null): string {
+  if (!date) return "—";
+  return DAY_LABELS[date.getDay()];
 }
 
 // ─── CopyButton ─────────────────────────────────
@@ -186,8 +205,8 @@ export default function CalendarView() {
       <div className="rounded-xl border border-mundo-muted-dark/30 bg-mundo-bg-light p-5 space-y-4">
         <h3 className="font-display text-lg text-mundo-creme">Produção para Spotify</h3>
         <p className="text-xs text-mundo-muted/60">
-          39 álbuns em 13 semanas (Seg/Qua/Sex). Começa 13 de abril de 2026.
-          Produz no Suno, marca como concluído, depois agenda nos <Link href="/admin/lancamentos" className="text-purple-400 hover:text-purple-300">Lançamentos</Link>.
+          39 álbuns com datas explícitas. 1 lançamento por semana, às sextas (com excepções nas transições).
+          Produz no Suno, marca como concluído, depois confirma datas nos <Link href="/admin/lancamentos" className="text-purple-400 hover:text-purple-300">Lançamentos</Link>.
         </p>
         <div className="flex items-center gap-4">
           <div className="flex-1">
@@ -211,7 +230,7 @@ export default function CalendarView() {
         const weekComplete = completedCount === albums.length && albums.length > 0;
         const isExpanded = expandedWeek === week.id;
         const isNext = weekIdx === nextWeekIdx;
-        const dates = weekDates(weekIdx);
+        const { start, end } = weekDateRange(week);
 
         return (
           <div key={week.id}
@@ -231,8 +250,8 @@ export default function CalendarView() {
                 <p className="text-xs text-mundo-muted/60 truncate">{week.description}</p>
               </div>
               <div className="flex items-center gap-3 shrink-0">
-                <span className="text-[10px] text-mundo-muted/40">{formatDate(dates.seg)}–{formatDate(dates.sex)}</span>
-                <span className="text-xs text-mundo-muted">{completedCount}/3</span>
+                <span className="text-[10px] text-mundo-muted/40">{formatRange(start, end)}</span>
+                <span className="text-xs text-mundo-muted">{completedCount}/{albums.length || 3}</span>
                 <div className="flex gap-1">
                   {albums.map((a) => {
                     const s = albumStatuses[a.slug] ?? a.status;
@@ -245,18 +264,17 @@ export default function CalendarView() {
 
             {isExpanded && (
               <div className="border-t border-mundo-muted-dark/20 divide-y divide-mundo-muted-dark/10">
-                {entries.map(({ day, slug }) => {
+                {entries.map(({ date, slug }) => {
                   const a = albumMap.get(slug);
                   if (!a) return null;
                   const s = albumStatuses[a.slug] ?? a.status;
                   const isProduced = s === "produced";
-                  const dayDates = day === "Seg" ? dates.seg : day === "Qua" ? dates.qua : dates.sex;
                   return (
                     <button key={slug} onClick={() => setSelectedAlbum(slug)}
                       className={`w-full p-4 flex items-center gap-4 text-left transition ${isProduced ? "hover:bg-green-950/10" : "hover:bg-mundo-muted-dark/5"}`}>
-                      <div className="shrink-0 w-12 text-center">
-                        <div className="text-xs font-medium text-mundo-muted">{day}</div>
-                        <div className="text-[10px] text-mundo-muted/40">{formatDate(dayDates)}</div>
+                      <div className="shrink-0 w-14 text-center">
+                        <div className="text-xs font-medium text-mundo-muted">{dayLabel(date)}</div>
+                        <div className="text-[10px] text-mundo-muted/40">{date ? formatDate(date) : "—"}</div>
                       </div>
                       <div className="h-8 w-1 rounded-full shrink-0" style={{ background: isProduced ? a.color : "rgba(255,255,255,0.1)" }} />
                       <div className="flex-1 min-w-0">

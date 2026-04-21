@@ -3,7 +3,10 @@
 import React, { useState, useEffect, useCallback, type MouseEvent, type ChangeEvent } from "react";
 import Link from "next/link";
 import { ALL_ALBUMS, type Album } from "@/data/albums";
-import { PRODUCTION_CALENDAR } from "@/data/production-calendar";
+import {
+  PRODUCTION_CALENDAR,
+  LORANNE_RELEASES,
+} from "@/data/production-calendar";
 import { adminFetch } from "@/lib/admin-fetch";
 
 // ─────────────────────────────────────────────
@@ -19,7 +22,7 @@ type Slot = {
 
 type AudioMap = Record<string, Set<number>>;
 
-const STORAGE_KEY = "veus:lancamentos-v7"; // v7: force clean rebuild // v5: slots from production calendar
+const STORAGE_KEY = "veus:lancamentos-v8"; // v8: calendário com datas explícitas (1×/semana)
 
 // ─────────────────────────────────────────────
 // Build slots directly from production calendar
@@ -31,25 +34,19 @@ const CALENDAR_START = new Date(2026, 3, 13);
 function buildCalendarSlots(): Slot[] {
   const slots: Slot[] = [];
   // 1. Albums already on Spotify (before the calendar)
-  const calendarSlugs = new Set(
-    PRODUCTION_CALENDAR.flatMap((w) => [w.albums.segunda, w.albums.quarta, w.albums.sexta])
-  );
+  const calendarSlugs = new Set(LORANNE_RELEASES.map((r) => r.albumSlug));
   for (const album of ALL_ALBUMS) {
     if (album.status === "published" && !calendarSlugs.has(album.slug)) {
       slots.push({ slug: album.slug, status: "publicado" });
     }
   }
-  // 2. Calendar slots in order
-  for (let wi = 0; wi < PRODUCTION_CALENDAR.length; wi++) {
-    const week = PRODUCTION_CALENDAR[wi];
-    const slugs = [week.albums.segunda, week.albums.quarta, week.albums.sexta];
-    for (const slug of slugs) {
-      const album = ALL_ALBUMS.find((a) => a.slug === slug);
-      const status: SlotStatus = album?.status === "published" ? "publicado"
-        : album?.status === "produced" ? "pronto"
-        : "a-produzir";
-      slots.push({ slug, status });
-    }
+  // 2. Calendar slots ordered by explicit release date
+  for (const release of LORANNE_RELEASES) {
+    const album = ALL_ALBUMS.find((a) => a.slug === release.albumSlug);
+    const status: SlotStatus = album?.status === "published" ? "publicado"
+      : album?.status === "produced" ? "pronto"
+      : "a-produzir";
+    slots.push({ slug: release.albumSlug, status });
   }
   return slots;
 }
@@ -60,19 +57,16 @@ const DEFAULT_SLOTS: Slot[] = buildCalendarSlots();
 const _producedSlugs = new Set(
   ALL_ALBUMS.filter((a) => a.status === "produced" || a.status === "published").map((a) => a.slug)
 );
-const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] =
-  PRODUCTION_CALENDAR.flatMap((week) =>
-    [week.albums.segunda, week.albums.quarta, week.albums.sexta]
-      .filter((slug) => !_producedSlugs.has(slug))
-      .map((slug) => {
-        const album = ALL_ALBUMS.find((a) => a.slug === slug);
-        return {
-          slug,
-          notes: `${week.theme} — ${album?.subtitle || ""}`,
-          lyricsOk: album ? album.tracks.every((t) => !!t.lyrics) : false,
-        };
-      }),
-  );
+const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] = LORANNE_RELEASES
+  .filter((r) => !_producedSlugs.has(r.albumSlug))
+  .map((r) => {
+    const album = ALL_ALBUMS.find((a) => a.slug === r.albumSlug);
+    return {
+      slug: r.albumSlug,
+      notes: `${r.theme} — ${album?.subtitle || ""}`,
+      lyricsOk: album ? album.tracks.every((t) => !!t.lyrics) : false,
+    };
+  });
 
 // ─────────────────────────────────────────────
 // Helpers
@@ -130,16 +124,23 @@ const STATUS_CONFIG: Record<SlotStatus, { label: string; color: string; bg: stri
 const MONTHS = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 const DAY_LABELS = ["Seg", "Qua", "Sex"];
 
-/** Generate Mon/Wed/Fri dates starting from CALENDAR_START (13 April 2026). */
+/**
+ * Datas dos slots do calendário de distribuição.
+ *
+ * Os primeiros N slots correspondem, em ordem, às datas explícitas em
+ * LORANNE_RELEASES. Slots adicionais (para permitir agendamento manual de
+ * álbuns extra) ocupam sextas-feiras consecutivas após a última release.
+ */
 function generateSlotDates(_startDate: Date, count: number): Date[] {
-  const dates: Date[] = [];
-  const cur = new Date(CALENDAR_START);
-  // Rewind to the Monday of that week or the start date itself
+  const dates: Date[] = LORANNE_RELEASES.map((r) => new Date(r.date));
+  if (dates.length >= count) return dates.slice(0, count);
+
+  // Extender com sextas-feiras após a última release agendada
+  const last = dates[dates.length - 1] ?? CALENDAR_START;
+  const cur = new Date(last);
+  cur.setDate(cur.getDate() + 1);
   while (dates.length < count) {
-    const dow = cur.getDay();
-    if (dow === 1 || dow === 3 || dow === 5) {
-      dates.push(new Date(cur));
-    }
+    if (cur.getDay() === 5) dates.push(new Date(cur));
     cur.setDate(cur.getDate() + 1);
   }
   return dates;
@@ -149,12 +150,10 @@ function formatShortDate(d: Date): string {
   return `${d.getDate()} ${MONTHS[d.getMonth()]}`;
 }
 
+const WEEKDAY_LABELS = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
+
 function formatDayLabel(d: Date): string {
-  const dow = d.getDay();
-  if (dow === 1) return "Seg";
-  if (dow === 3) return "Qua";
-  if (dow === 5) return "Sex";
-  return "";
+  return WEEKDAY_LABELS[d.getDay()] ?? "";
 }
 
 function weekNumber(slotIndex: number): number {
@@ -439,7 +438,7 @@ export default function LancamentosPage() {
           Agenda de Lancamentos
         </h1>
         <p className="text-sm text-[#666680] mt-1">
-          DistroKid &middot; 3/semana &middot; Seg &middot; Qua &middot; Sex
+          DistroKid &middot; 1/semana &middot; sextas-feiras (com datas fixas nas transições)
         </p>
       </div>
 
@@ -508,12 +507,13 @@ export default function LancamentosPage() {
               return { globalIdx, date, slot };
             });
 
+            const themeLabel = PRODUCTION_CALENDAR[weekIdx]?.theme ?? `Bloco ${weekIdx + 1}`;
             return (
               <div key={weekIdx} className="rounded-xl border border-white/5 bg-white/[0.02] overflow-hidden">
                 {/* Week header */}
                 <div className="flex items-center justify-between px-4 py-2 bg-white/[0.02] border-b border-white/5">
                   <span className="text-xs font-semibold text-[#C9A96E]">
-                    Semana {weekIdx + 1}
+                    {themeLabel}
                   </span>
                   <span className="text-[10px] text-[#666680]">
                     {weekDateRange(slotDates, weekIdx)}
@@ -703,13 +703,14 @@ export default function LancamentosPage() {
         <h3 className="text-sm font-semibold text-[#C9A96E] mb-3">Notas DistroKid</h3>
         <ul className="text-xs text-[#a0a0b0] space-y-2">
           <li>
-            <span className="text-[#4ade80]">Ritmo:</span> 3 albums/semana — Seg, Qua, Sex.
+            <span className="text-[#4ade80]">Ritmo:</span> 1 álbum por semana — sextas-feiras (New Music Friday).
           </li>
           <li>
-            <span className="text-[#60a5fa]">Sexta:</span> New Music Friday do Spotify = melhor visibilidade.
+            <span className="text-[#60a5fa]">Transição:</span> nua-inteira (20 Abr) e nua-por-dentro (24 Abr) antes de férias.
+            Regresso 5 e 8 Mai. A partir de 15 Mai só sextas.
           </li>
           <li>
-            <span className="text-[#fbbf24]">Atencao:</span> 4+ albums/semana pode disparar revisao manual.
+            <span className="text-[#fbbf24]">Saltar dia:</span> remove o slot (&times;) para saltar uma semana ou troca (⇄) se quiseres mover.
           </li>
         </ul>
       </div>
