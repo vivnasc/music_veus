@@ -3,7 +3,16 @@
 import React, { useState, useEffect, useCallback, type MouseEvent, type ChangeEvent } from "react";
 import Link from "next/link";
 import { ALL_ALBUMS, type Album } from "@/data/albums";
-import { PRODUCTION_CALENDAR } from "@/data/production-calendar";
+import {
+  PRODUCTION_CALENDAR,
+  LORANNE_RELEASES,
+} from "@/data/production-calendar";
+import {
+  getEffectiveLoranneReleases,
+  updateLoranneOverride,
+  clearLoranneOverride,
+  loadOverrides,
+} from "@/lib/calendar-overrides";
 import { adminFetch } from "@/lib/admin-fetch";
 
 // ─────────────────────────────────────────────
@@ -19,7 +28,7 @@ type Slot = {
 
 type AudioMap = Record<string, Set<number>>;
 
-const STORAGE_KEY = "veus:lancamentos-v7"; // v7: force clean rebuild // v5: slots from production calendar
+const STORAGE_KEY = "veus:lancamentos-v8"; // v8: calendário com datas explícitas (1×/semana)
 
 // ─────────────────────────────────────────────
 // Build slots directly from production calendar
@@ -30,26 +39,21 @@ const CALENDAR_START = new Date(2026, 3, 13);
 
 function buildCalendarSlots(): Slot[] {
   const slots: Slot[] = [];
+  const effective = getEffectiveLoranneReleases();
   // 1. Albums already on Spotify (before the calendar)
-  const calendarSlugs = new Set(
-    PRODUCTION_CALENDAR.flatMap((w) => [w.albums.segunda, w.albums.quarta, w.albums.sexta])
-  );
+  const calendarSlugs = new Set(LORANNE_RELEASES.map((r) => r.albumSlug));
   for (const album of ALL_ALBUMS) {
     if (album.status === "published" && !calendarSlugs.has(album.slug)) {
       slots.push({ slug: album.slug, status: "publicado" });
     }
   }
-  // 2. Calendar slots in order
-  for (let wi = 0; wi < PRODUCTION_CALENDAR.length; wi++) {
-    const week = PRODUCTION_CALENDAR[wi];
-    const slugs = [week.albums.segunda, week.albums.quarta, week.albums.sexta];
-    for (const slug of slugs) {
-      const album = ALL_ALBUMS.find((a) => a.slug === slug);
-      const status: SlotStatus = album?.status === "published" ? "publicado"
-        : album?.status === "produced" ? "pronto"
-        : "a-produzir";
-      slots.push({ slug, status });
-    }
+  // 2. Calendar slots ordered by effective release date
+  for (const release of effective) {
+    const album = ALL_ALBUMS.find((a) => a.slug === release.albumSlug);
+    const status: SlotStatus = album?.status === "published" ? "publicado"
+      : album?.status === "produced" ? "pronto"
+      : "a-produzir";
+    slots.push({ slug: release.albumSlug, status });
   }
   return slots;
 }
@@ -60,19 +64,16 @@ const DEFAULT_SLOTS: Slot[] = buildCalendarSlots();
 const _producedSlugs = new Set(
   ALL_ALBUMS.filter((a) => a.status === "produced" || a.status === "published").map((a) => a.slug)
 );
-const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] =
-  PRODUCTION_CALENDAR.flatMap((week) =>
-    [week.albums.segunda, week.albums.quarta, week.albums.sexta]
-      .filter((slug) => !_producedSlugs.has(slug))
-      .map((slug) => {
-        const album = ALL_ALBUMS.find((a) => a.slug === slug);
-        return {
-          slug,
-          notes: `${week.theme} — ${album?.subtitle || ""}`,
-          lyricsOk: album ? album.tracks.every((t) => !!t.lyrics) : false,
-        };
-      }),
-  );
+const NEXT_TO_PRODUCE: { slug: string; notes: string; lyricsOk: boolean }[] = LORANNE_RELEASES
+  .filter((r) => !_producedSlugs.has(r.albumSlug))
+  .map((r) => {
+    const album = ALL_ALBUMS.find((a) => a.slug === r.albumSlug);
+    return {
+      slug: r.albumSlug,
+      notes: `${r.theme} — ${album?.subtitle || ""}`,
+      lyricsOk: album ? album.tracks.every((t) => !!t.lyrics) : false,
+    };
+  });
 
 // ─────────────────────────────────────────────
 // Helpers
@@ -130,16 +131,24 @@ const STATUS_CONFIG: Record<SlotStatus, { label: string; color: string; bg: stri
 const MONTHS = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 const DAY_LABELS = ["Seg", "Qua", "Sex"];
 
-/** Generate Mon/Wed/Fri dates starting from CALENDAR_START (13 April 2026). */
+/**
+ * Datas dos slots do calendário de distribuição.
+ *
+ * Usa datas efectivas (com overrides aplicados). Slots adicionais (para
+ * agendamento manual de álbuns extra) ocupam sextas-feiras consecutivas
+ * após a última release.
+ */
 function generateSlotDates(_startDate: Date, count: number): Date[] {
-  const dates: Date[] = [];
-  const cur = new Date(CALENDAR_START);
-  // Rewind to the Monday of that week or the start date itself
+  const effective = getEffectiveLoranneReleases();
+  const dates: Date[] = effective.map((r) => new Date(r.date));
+  if (dates.length >= count) return dates.slice(0, count);
+
+  // Extender com sextas-feiras após a última release agendada
+  const last = dates[dates.length - 1] ?? CALENDAR_START;
+  const cur = new Date(last);
+  cur.setDate(cur.getDate() + 1);
   while (dates.length < count) {
-    const dow = cur.getDay();
-    if (dow === 1 || dow === 3 || dow === 5) {
-      dates.push(new Date(cur));
-    }
+    if (cur.getDay() === 5) dates.push(new Date(cur));
     cur.setDate(cur.getDate() + 1);
   }
   return dates;
@@ -149,12 +158,10 @@ function formatShortDate(d: Date): string {
   return `${d.getDate()} ${MONTHS[d.getMonth()]}`;
 }
 
+const WEEKDAY_LABELS = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
+
 function formatDayLabel(d: Date): string {
-  const dow = d.getDay();
-  if (dow === 1) return "Seg";
-  if (dow === 3) return "Qua";
-  if (dow === 5) return "Sex";
-  return "";
+  return WEEKDAY_LABELS[d.getDay()] ?? "";
 }
 
 function weekNumber(slotIndex: number): number {
@@ -200,6 +207,9 @@ export default function LancamentosPage() {
   const [swapModalIdx, setSwapModalIdx] = useState<number | null>(null);
   const [swapFilter, setSwapFilter] = useState("");
   const [expandedSlotIdx, setExpandedSlotIdx] = useState<number | null>(null);
+  // Tick incrementado sempre que os overrides mudam — força recomputar datas efectivas
+  const [overridesTick, setOverridesTick] = useState(0);
+  const [editingDateFor, setEditingDateFor] = useState<string | null>(null);
   // sentinelRef removed — using manual "more weeks" button
 
   // ── Persist ──
@@ -228,12 +238,14 @@ export default function LancamentosPage() {
     } catch {}
 
     // Ensure ALL calendar albums are present (re-add if missing)
+    // Respeita overrides de skip — álbuns marcados como skipped não são re-adicionados.
     const slotsToUse = loadedSlots || DEFAULT_SLOTS;
     const existingSlugs = new Set(slotsToUse.map((s) => s.slug));
-    const calSlugs = PRODUCTION_CALENDAR.flatMap((w) => [w.albums.segunda, w.albums.quarta, w.albums.sexta]);
+    const ov = loadOverrides();
+    const calSlugs = LORANNE_RELEASES.map((r) => r.albumSlug);
     let patched = false;
     for (const slug of calSlugs) {
-      if (!existingSlugs.has(slug)) {
+      if (!existingSlugs.has(slug) && !ov.loranne[slug]?.skip) {
         const album = ALL_ALBUMS.find((a) => a.slug === slug);
         const status: SlotStatus = album?.status === "published" ? "publicado"
           : album?.status === "produced" ? "pronto" : "a-produzir";
@@ -291,10 +303,8 @@ export default function LancamentosPage() {
 
   // ── Actions (calendarIdx = index in calendar slots) ──
 
-  // Map calendar index to slots array index (calendar = all slots in PRODUCTION_CALENDAR)
-  const _calSlugsSet = new Set(
-    PRODUCTION_CALENDAR.flatMap((w) => [w.albums.segunda, w.albums.quarta, w.albums.sexta])
-  );
+  // Map calendar index to slots array index (calendar = all Loranne releases)
+  const _calSlugsSet = new Set(LORANNE_RELEASES.map((r) => r.albumSlug));
   function toSlotsIdx(calIdx: number): number {
     let count = -1;
     for (let i = 0; i < slots.length; i++) {
@@ -316,10 +326,28 @@ export default function LancamentosPage() {
 
   function removeSlot(calIdx: number) {
     const si = toSlotsIdx(calIdx);
+    const removed = slots[si];
     const newSlots = slots.filter((_: Slot, i: number) => i !== si);
     save(newSlots);
+    // Persistir "skip" no override partilhado para o calendário de redes sociais
+    if (removed && _calSlugsSet.has(removed.slug)) {
+      updateLoranneOverride(removed.slug, { skip: true });
+      setOverridesTick((t: number) => t + 1);
+    }
     if (expandedSlotIdx === calIdx) setExpandedSlotIdx(null);
     else if (expandedSlotIdx !== null && expandedSlotIdx > calIdx) setExpandedSlotIdx(expandedSlotIdx - 1);
+  }
+
+  /** Alterar a data de um lançamento (persistido em overrides). */
+  function changeSlotDate(slug: string, newIsoDate: string) {
+    updateLoranneOverride(slug, { date: newIsoDate, skip: false });
+    setOverridesTick((t: number) => t + 1);
+  }
+
+  /** Remover override de data — volta à data default da release. */
+  function resetSlotDate(slug: string) {
+    clearLoranneOverride(slug);
+    setOverridesTick((t: number) => t + 1);
   }
 
   function moveUp(calIdx: number) {
@@ -370,6 +398,12 @@ export default function LancamentosPage() {
         save([...slots, { slug: newSlug, status }]);
       }
     }
+    // Se o álbum inserido tinha override skip, limpar
+    const ovAfter = loadOverrides();
+    if (ovAfter.loranne[newSlug]?.skip) {
+      updateLoranneOverride(newSlug, { skip: false });
+      setOverridesTick((t: number) => t + 1);
+    }
     setSwapModalIdx(null);
     setSwapFilter("");
   }
@@ -378,6 +412,12 @@ export default function LancamentosPage() {
     if (slots.some((s: Slot) => s.slug === slug)) return;
     const status: SlotStatus = isFullyProduced(slug, audioMap) ? "pronto" : "a-produzir";
     save([...slots, { slug, status }]);
+    // Se existia override a marcar skip, limpar — o álbum está de volta ao calendário
+    const ov = loadOverrides();
+    if (ov.loranne[slug]?.skip) {
+      updateLoranneOverride(slug, { skip: false });
+      setOverridesTick((t: number) => t + 1);
+    }
   }
 
   // ── Derived ──
@@ -388,16 +428,17 @@ export default function LancamentosPage() {
   const startDate = new Date();
 
   // Published albums OUTSIDE the calendar (Frequência, Ilusão, etc.)
-  const calendarSlugsSet = new Set(
-    PRODUCTION_CALENDAR.flatMap((w) => [w.albums.segunda, w.albums.quarta, w.albums.sexta])
-  );
+  const calendarSlugsSet = new Set(LORANNE_RELEASES.map((r) => r.albumSlug));
   const publishedSlots = slots.filter((s: Slot) => s.status === "publicado" && !calendarSlugsSet.has(s.slug));
   // ALL calendar albums stay in the calendar (never removed)
   const calendarSlots = slots.filter((s: Slot) => calendarSlugsSet.has(s.slug));
   const filledWeeks = Math.ceil(calendarSlots.length / 3);
   const visibleWeeks = filledWeeks + EXTRA_EMPTY_WEEKS + extraWeeks;
   const totalSlotCount = visibleWeeks * 3;
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  void overridesTick; // força recomputar quando overrides mudam
   const slotDates = generateSlotDates(startDate, totalSlotCount);
+  const currentOverrides = loadOverrides();
 
   // Stats
   const countByStatus = (s: SlotStatus) => slots.filter((sl: Slot) => sl.status === s).length;
@@ -439,7 +480,7 @@ export default function LancamentosPage() {
           Agenda de Lancamentos
         </h1>
         <p className="text-sm text-[#666680] mt-1">
-          DistroKid &middot; 3/semana &middot; Seg &middot; Qua &middot; Sex
+          DistroKid &middot; 1/semana &middot; sextas-feiras (com datas fixas nas transições)
         </p>
       </div>
 
@@ -508,12 +549,13 @@ export default function LancamentosPage() {
               return { globalIdx, date, slot };
             });
 
+            const themeLabel = PRODUCTION_CALENDAR[weekIdx]?.theme ?? `Bloco ${weekIdx + 1}`;
             return (
               <div key={weekIdx} className="rounded-xl border border-white/5 bg-white/[0.02] overflow-hidden">
                 {/* Week header */}
                 <div className="flex items-center justify-between px-4 py-2 bg-white/[0.02] border-b border-white/5">
                   <span className="text-xs font-semibold text-[#C9A96E]">
-                    Semana {weekIdx + 1}
+                    {themeLabel}
                   </span>
                   <span className="text-[10px] text-[#666680]">
                     {weekDateRange(slotDates, weekIdx)}
@@ -544,6 +586,23 @@ export default function LancamentosPage() {
                         setSwapModalIdx(globalIdx);
                         setSwapFilter("");
                       }}
+                      editingDate={slot ? editingDateFor === slot.slug : false}
+                      onToggleEditDate={() =>
+                        setEditingDateFor(
+                          slot && editingDateFor === slot.slug ? null : slot?.slug ?? null,
+                        )
+                      }
+                      onChangeDate={(iso: string) => {
+                        if (!slot) return;
+                        changeSlotDate(slot.slug, iso);
+                        setEditingDateFor(null);
+                      }}
+                      onResetDate={() => {
+                        if (!slot) return;
+                        resetSlotDate(slot.slug);
+                        setEditingDateFor(null);
+                      }}
+                      hasDateOverride={!!(slot && currentOverrides.loranne[slot.slug]?.date)}
                     />
                   ))}
                 </div>
@@ -703,13 +762,14 @@ export default function LancamentosPage() {
         <h3 className="text-sm font-semibold text-[#C9A96E] mb-3">Notas DistroKid</h3>
         <ul className="text-xs text-[#a0a0b0] space-y-2">
           <li>
-            <span className="text-[#4ade80]">Ritmo:</span> 3 albums/semana — Seg, Qua, Sex.
+            <span className="text-[#4ade80]">Ritmo:</span> 1 álbum por semana — sextas-feiras (New Music Friday).
           </li>
           <li>
-            <span className="text-[#60a5fa]">Sexta:</span> New Music Friday do Spotify = melhor visibilidade.
+            <span className="text-[#60a5fa]">Transição:</span> nua-inteira (20 Abr) e nua-por-dentro (24 Abr) antes de férias.
+            Regresso 5 e 8 Mai. A partir de 15 Mai só sextas.
           </li>
           <li>
-            <span className="text-[#fbbf24]">Atencao:</span> 4+ albums/semana pode disparar revisao manual.
+            <span className="text-[#fbbf24]">Saltar dia:</span> remove o slot (&times;) para saltar uma semana ou troca (⇄) se quiseres mover.
           </li>
         </ul>
       </div>
@@ -752,6 +812,11 @@ function SlotRow({
   canMoveUp,
   canMoveDown,
   onSwap,
+  editingDate,
+  onToggleEditDate,
+  onChangeDate,
+  onResetDate,
+  hasDateOverride,
 }: {
   globalIdx: number;
   date: Date;
@@ -767,9 +832,15 @@ function SlotRow({
   canMoveUp: boolean;
   canMoveDown: boolean;
   onSwap: () => void;
+  editingDate: boolean;
+  onToggleEditDate: () => void;
+  onChangeDate: (iso: string) => void;
+  onResetDate: () => void;
+  hasDateOverride: boolean;
 }) {
   const dayLabel = formatDayLabel(date);
   const dateStr = formatShortDate(date);
+  const isoDate = date ? `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}` : "";
 
   if (!slot) {
     // Empty slot — clickable to add album
@@ -826,10 +897,44 @@ function SlotRow({
           </button>
         </div>
 
-        {/* Date */}
-        <div className="w-14 flex-shrink-0 text-center">
-          <div className="text-[10px] text-[#666680] font-semibold">{dayLabel}</div>
-          <div className="text-[10px] text-[#666680]">{dateStr}</div>
+        {/* Date (clicável — abre date picker) */}
+        <div className="w-16 flex-shrink-0 text-center">
+          {editingDate ? (
+            <div className="flex flex-col items-center gap-1">
+              <input
+                type="date"
+                defaultValue={isoDate}
+                onChange={(e) => {
+                  if (e.target.value) onChangeDate(e.target.value);
+                }}
+                autoFocus
+                className="w-full rounded bg-white/10 border border-[#C9A96E]/40 px-1 py-0.5 text-[10px] text-[#F5F0E6] focus:outline-none"
+              />
+              {hasDateOverride && (
+                <button
+                  onClick={onResetDate}
+                  className="text-[9px] text-[#666680] hover:text-amber-400 transition"
+                  title="Repor data original"
+                >
+                  Repor
+                </button>
+              )}
+            </div>
+          ) : (
+            <button
+              onClick={onToggleEditDate}
+              className="w-full flex flex-col items-center hover:text-[#C9A96E] transition"
+              title="Clica para alterar a data"
+            >
+              <span className={`text-[10px] font-semibold ${hasDateOverride ? "text-[#C9A96E]" : "text-[#666680]"}`}>
+                {dayLabel}
+              </span>
+              <span className={`text-[10px] ${hasDateOverride ? "text-[#C9A96E]" : "text-[#666680]"}`}>
+                {dateStr}
+                {hasDateOverride && "•"}
+              </span>
+            </button>
+          )}
         </div>
 
         {/* Color bar */}

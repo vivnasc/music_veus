@@ -57,6 +57,7 @@ import { FASE1B_LYRICS } from "./lyrics-fase1b";
 import { FASE2_LYRICS } from "./lyrics-fase2";
 import { FIBRA_CORRIDA_LYRICS } from "./lyrics-fibra-corrida";
 import { NOVOS_LYRICS } from "./lyrics-novos";
+import { LORANNE_RELEASE_DATES } from "./production-calendar";
 
 const ALL_LYRICS: Record<string, string> = {
   ...ESPELHO_LYRICS,
@@ -1000,17 +1001,32 @@ const PUBLISHED_SLUGS = new Set([
   "fibra-sangue-aceso", "eter-raiz-vermelha",
 ]);
 
-// Datas de upload no DistroKid (launch date = upload + 7 dias)
-// Estas datas alimentam a agenda de Redes Sociais
-const DISTROKID_UPLOAD_DATES: Record<string, string> = {
+// Datas reais de upload no DistroKid para álbuns fora do calendário temático.
+// Para os álbuns do calendário (LORANNE_RELEASES), a data de upload é
+// derivada automaticamente a partir da data de lançamento: upload = launch - 7 dias.
+const DISTROKID_UPLOAD_DATES_MANUAL: Record<string, string> = {
   "incenso-frequencia": "2026-03-25",   // launched 1 Abr
   // (livro-filosofico sem data específica — é o primeiro do catálogo)
   "espelho-ilusao": "2026-04-08",       // launches 15 Abr
   "fibra-sangue-aceso": "2026-04-10",   // launches 17 Abr
-  "eter-raiz-vermelha": "2026-04-13",   // launches 20 Abr
-  "sangue-raiz": "2026-04-15",          // launches 22 Abr
-  "sangue-origem": "2026-04-17",        // launches 24 Abr
 };
+
+function subtractDays(isoDate: string, days: number): string {
+  const d = new Date(isoDate);
+  d.setDate(d.getDate() - days);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+const DISTROKID_UPLOAD_DATES: Record<string, string> = (() => {
+  const out: Record<string, string> = { ...DISTROKID_UPLOAD_DATES_MANUAL };
+  for (const [slug, launch] of Object.entries(LORANNE_RELEASE_DATES)) {
+    if (!out[slug]) out[slug] = subtractDays(launch, 7);
+  }
+  return out;
+})();
 
 // Álbuns com áudio produzido no Suno (prontos para upload no DistroKid)
 const PRODUCED_SLUGS = new Set([
