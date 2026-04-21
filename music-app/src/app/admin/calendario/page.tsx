@@ -3,12 +3,12 @@
 import { useState, useEffect, useCallback, type ChangeEvent } from "react";
 import Link from "next/link";
 import { ALL_ALBUMS } from "@/data/albums";
-import {
-  LORANNE_RELEASES,
-  LORANNE_RELEASE_THEMES,
-} from "@/data/production-calendar";
-import { ANCIENT_GROUND_BY_DATE } from "@/data/ancient-ground-calendar";
+import { LORANNE_RELEASE_THEMES } from "@/data/production-calendar";
 import { ANCIENT_GROUND_SINGLES } from "@/data/ancient-ground-singles";
+import {
+  getEffectiveLoranneReleases,
+  getEffectiveAncientGroundByDate,
+} from "@/lib/calendar-overrides";
 import { adminFetch } from "@/lib/admin-fetch";
 import { pickLorannImages } from "@/lib/loranne-images";
 
@@ -185,12 +185,16 @@ function generateDefaultPlan(): DayPlan[] {
   const today = new Date(2026, 3, 21); // 21 Abril 2026 — hoje
   const DAYS = 90;
 
+  // Ler datas efectivas (overrides aplicados — Loranne e Ancient Ground)
+  const effectiveLoranne = getEffectiveLoranneReleases();
+  const effectiveAgByDate = getEffectiveAncientGroundByDate();
+
   // Map: data ISO → release Loranne
   const loranneLaunchMap: Record<string, string> = {};
-  for (const r of LORANNE_RELEASES) loranneLaunchMap[r.date] = r.albumSlug;
+  for (const r of effectiveLoranne) loranneLaunchMap[r.date] = r.albumSlug;
 
   // Ordenação para lookup "último lançado antes de"
-  const sortedLoranneLaunches = [...LORANNE_RELEASES].sort((a, b) => a.date.localeCompare(b.date));
+  const sortedLoranneLaunches = [...effectiveLoranne].sort((a, b) => a.date.localeCompare(b.date));
 
   function mostRecentLoranneBefore(iso: string): string | null {
     let last: string | null = null;
@@ -253,7 +257,7 @@ function generateDefaultPlan(): DayPlan[] {
     const actions: ContentAction[] = [];
 
     const loranneLaunch = loranneLaunchMap[iso];
-    const agLaunch = ANCIENT_GROUND_BY_DATE[iso];
+    const agLaunch = effectiveAgByDate[iso];
 
     if (loranneLaunch) {
       actions.push(...buildLaunchPosts(loranneLaunch));
@@ -420,8 +424,9 @@ export default function CalendarPage() {
     savePlan(newPlan);
   }
 
+  /** Regenerar o plano a partir das datas efectivas (apanha overrides actuais). */
   function resetPlan() {
-    savePlan(DEFAULT_PLAN);
+    savePlan(generateDefaultPlan());
   }
 
   const totalActions = plan.reduce((s, d) => s + d.actions.length, 0);
@@ -436,6 +441,11 @@ export default function CalendarPage() {
           <div>
             <h1 className="font-display text-2xl font-bold text-[#F5F0E6]">Plano de Conteudo</h1>
             <p className="text-sm text-[#666680] mt-1">Loranne + Ancient Ground — 1×/semana, sextas</p>
+            <p className="text-[10px] text-[#666680]/70 mt-1">
+              Datas em <Link href="/admin/lancamentos" className="text-[#C9A96E] hover:underline">Lançamentos</Link> ·{" "}
+              <Link href="/admin/ancient-ground" className="text-amber-400 hover:underline">Ancient Ground</Link>.
+              Depois carrega Regenerar.
+            </p>
           </div>
           <div className="flex items-center gap-3">
             <Link href="/admin/fotos" className="text-xs text-[#666680] hover:text-[#c08aaa]">Gerar Fotos</Link>
@@ -776,11 +786,12 @@ export default function CalendarPage() {
           </button>
           <button
             onClick={() => {
-              if (confirm("Repor calendario original? Perdes todas as alteracoes.")) resetPlan();
+              if (confirm("Regenerar plano a partir das datas actuais? Perdes os posts manuais.")) resetPlan();
             }}
-            className="text-xs px-3 py-2 rounded-lg text-[#666680] hover:text-red-400 transition ml-auto"
+            className="text-xs px-3 py-2 rounded-lg bg-amber-600/15 text-amber-400 hover:bg-amber-600/25 transition ml-auto"
+            title="Usa as datas actuais de Loranne + Ancient Ground (incluindo os teus ajustes)"
           >
-            Repor original
+            Regenerar
           </button>
         </div>
       </div>

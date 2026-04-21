@@ -4,6 +4,7 @@ import { useState, useRef, useCallback, useEffect } from "react";
 import Link from "next/link";
 import { ANCIENT_GROUND_SINGLES, type AncientGroundSingle } from "@/data/ancient-ground-singles";
 import { adminFetch } from "@/lib/admin-fetch";
+import AncientGroundCalendar from "./AncientGroundCalendar";
 
 // ─── Types ───
 
@@ -811,6 +812,9 @@ export default function AncientGroundPage() {
           <option value="V4">Suno V4</option>
         </select>
       </div>
+
+      {/* Calendário editável */}
+      <AncientGroundCalendar />
 
       {/* Search */}
       <div className="mb-4">
