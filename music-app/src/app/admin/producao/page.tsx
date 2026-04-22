@@ -15,6 +15,7 @@ import {
 } from "@/data/albums";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
 import { adminFetch } from "@/lib/admin-fetch";
+import { saveLyrics, downloadBackup, flushPending } from "@/lib/lyrics-store";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
 import { pickLorannImages } from "@/lib/loranne-images";
 import CalendarView from "./CalendarView";
@@ -1074,7 +1075,21 @@ function TrackRow({
             </summary>
             <textarea
               value={editedLyrics ?? track.lyrics ?? ""}
-              onChange={(e) => onLyricsChange(e.target.value)}
+              onChange={(e) => {
+                const current = editedLyrics ?? track.lyrics ?? "";
+                const next = e.target.value;
+                // Guarda contra apagamentos em massa — se o editor estiver cheio
+                // (>50 chars) e o próximo valor for vazio ou quase, pede confirmação.
+                if (current.trim().length > 50 && next.trim().length < 10) {
+                  if (!window.confirm(
+                    "Vais apagar esta letra (" + current.trim().length + " caracteres).\n" +
+                    "Tens a certeza? Faz backup antes (botão Backup JSON)."
+                  )) {
+                    return;
+                  }
+                }
+                onLyricsChange(next);
+              }}
               placeholder="Cola aqui a letra..."
               className="mt-1 w-full whitespace-pre-wrap rounded bg-mundo-bg p-3 font-mono text-xs text-mundo-muted/80 leading-relaxed min-h-[16rem] max-h-[32rem] overflow-y-auto border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none resize-y"
               spellCheck={false}
@@ -1710,15 +1725,23 @@ export default function AlbumProductionPage() {
       })
       .catch(() => {});
 
-    // Load saved custom lyrics
-    adminFetch("/api/admin/track-lyrics")
-      .then((r) => r.json())
-      .then((data) => {
-        if (data.lyrics) {
-          setEditedLyrics((l) => ({ ...data.lyrics, ...l }));
+    // Load saved custom lyrics (server + localStorage merge).
+    // Formato retornado: { "album_slug/track_number": lyrics } — convertemos
+    // para a chave usada pelo editor: "album_slug-tN".
+    import("@/lib/lyrics-store").then(({ loadAllLyrics, hasPendingWrites, flushPending }) => {
+      loadAllLyrics().then(({ map, source, error }) => {
+        const converted: Record<string, string> = {};
+        for (const [k, v] of Object.entries(map)) {
+          const m = k.match(/^(.+)\/(\d+)$/);
+          if (m) converted[`${m[1]}-t${m[2]}`] = v;
         }
-      })
-      .catch(() => {});
+        setEditedLyrics((l) => ({ ...converted, ...l }));
+        if (source === "local" && error) {
+          console.warn("[lyrics] servidor falhou, usando cache local:", error);
+        }
+      });
+      if (hasPendingWrites()) flushPending();
+    });
 
 
     // Pending clips loading disabled — was causing clip loss and stale URLs
@@ -2584,11 +2607,9 @@ export default function AlbumProductionPage() {
                       const text = await file.text();
                       // Parse: split by "## XX. Title" headers
                       const sections = text.split(/^## \d{2}\.\s+/m).slice(1);
-                      let imported = 0;
+                      const results: Array<{ trackNum: number; localOk: boolean; remoteOk: boolean; error?: string }> = [];
                       for (const section of sections) {
                         const lines = section.split("\n");
-                        // Skip: title line, italic description, metadata line, empty line
-                        // Find lyrics: everything after the metadata line and first empty line
                         let lyricsStart = -1;
                         for (let i = 0; i < lines.length; i++) {
                           if (i >= 2 && lines[i].trim() === "" && lyricsStart === -1) {
@@ -2597,7 +2618,6 @@ export default function AlbumProductionPage() {
                           }
                         }
                         if (lyricsStart === -1) continue;
-                        // Collect lyrics until "---" separator
                         const lyricLines: string[] = [];
                         for (let i = lyricsStart; i < lines.length; i++) {
                           if (lines[i].trim() === "---") break;
@@ -2605,24 +2625,35 @@ export default function AlbumProductionPage() {
                         }
                         const lyrics = lyricLines.join("\n").trim();
                         if (!lyrics || lyrics === "*(letra em falta)*") continue;
-                        // Match track number from position in album
-                        const trackNum = imported + 1;
+                        const trackNum = results.length + 1;
                         if (trackNum > album.tracks.length) break;
                         const key = trackKey(album.slug, trackNum);
-                        // Update local state
+                        // Estado local do React
                         setEditedLyrics((l) => ({ ...l, [key]: lyrics }));
-                        // Save to DB
-                        await adminFetch("/api/admin/track-lyrics", {
-                          method: "POST",
-                          headers: { "Content-Type": "application/json" },
-                          body: JSON.stringify({ album_slug: album.slug, track_number: trackNum, lyrics }),
-                        }).catch(() => {});
-                        imported++;
+                        // localStorage + servidor (helper com fallback real)
+                        const r = await saveLyrics(album.slug, trackNum, lyrics);
+                        results.push({ trackNum, ...r });
                       }
-                      btn.textContent = `${imported} letras importadas!`;
+                      const localOkCount = results.filter((r) => r.localOk).length;
+                      const remoteOkCount = results.filter((r) => r.remoteOk).length;
+                      const missing = results.filter((r) => !r.remoteOk);
+                      btn.textContent = `${localOkCount} importadas (${remoteOkCount} no servidor)`;
+                      if (missing.length > 0) {
+                        const firstErr = missing[0].error || "erro";
+                        alert(
+                          `Atenção: ${missing.length} letra(s) só ficaram no browser (localStorage).\n` +
+                          `Primeiro erro: ${firstErr}\n\n` +
+                          `O que isto significa:\n` +
+                          `- As letras estão SEGURAS neste browser.\n` +
+                          `- Não aparecem noutro dispositivo até o servidor aceitar.\n` +
+                          `- Clica "Descarregar backup" para guardar JSON.\n\n` +
+                          `Causa provável: falta correr a migration\n` +
+                          `supabase/migrations/20260421_track_custom_lyrics.sql`,
+                        );
+                      }
                     } catch (e) {
                       btn.textContent = "Erro";
-                      alert(String(e));
+                      alert(`Erro ao ler ficheiro: ${String(e)}`);
                     }
                     setTimeout(() => { btn.disabled = false; btn.textContent = "Importar Letras (.md)"; }, 3000);
                   };
@@ -2631,6 +2662,25 @@ export default function AlbumProductionPage() {
                 className="mt-3 rounded-lg bg-amber-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-amber-700 transition"
               >
                 Importar Letras (.md)
+              </button>
+
+              <button
+                onClick={() => downloadBackup()}
+                className="mt-3 rounded-lg bg-white/5 px-3 py-1.5 text-xs font-medium text-[#a0a0b0] hover:bg-white/10 transition"
+                title="Descarrega um JSON com todas as letras que estão no teu browser — recomendado antes de apagar algo"
+              >
+                Backup JSON
+              </button>
+
+              <button
+                onClick={async () => {
+                  const r = await flushPending();
+                  alert(`Sincronização: ${r.sent} enviadas, ${r.failed} ainda pendentes.`);
+                }}
+                className="mt-3 rounded-lg bg-white/5 px-3 py-1.5 text-xs font-medium text-[#a0a0b0] hover:bg-white/10 transition"
+                title="Tenta reenviar letras que ficaram em localStorage por falha de servidor"
+              >
+                Sincronizar pendentes
               </button>
             </div>
 
@@ -2909,16 +2959,14 @@ export default function AlbumProductionPage() {
                     editedLyrics={editedLyrics[key] || null}
                     onLyricsChange={(lyrics) => {
                       setEditedLyrics((l) => ({ ...l, [key]: lyrics }));
-                      // Debounce save to DB (2s after last keystroke)
+                      // Debounce: save to DB + localStorage (2s após última tecla)
                       if (lyricsSaveRef.current[key]) clearTimeout(lyricsSaveRef.current[key]);
-                      lyricsSaveRef.current[key] = setTimeout(() => {
+                      lyricsSaveRef.current[key] = setTimeout(async () => {
                         const match = key.match(/^(.+)-t(\d+)$/);
-                        if (match) {
-                          adminFetch("/api/admin/track-lyrics", {
-                            method: "POST",
-                            headers: { "Content-Type": "application/json" },
-                            body: JSON.stringify({ album_slug: match[1], track_number: parseInt(match[2]), lyrics }),
-                          }).catch(() => {});
+                        if (!match) return;
+                        const r = await saveLyrics(match[1], parseInt(match[2]), lyrics);
+                        if (!r.remoteOk && r.localOk) {
+                          console.warn(`[lyrics] ${match[1]}/${match[2]} só em localStorage:`, r.error);
                         }
                       }, 2000);
                     }}
