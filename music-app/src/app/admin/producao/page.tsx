@@ -1081,12 +1081,14 @@ function TrackRow({
                 // Guarda contra apagamentos em massa — se o editor estiver cheio
                 // (>50 chars) e o próximo valor for vazio ou quase, pede confirmação.
                 if (current.trim().length > 50 && next.trim().length < 10) {
-                  if (!window.confirm(
-                    "Vais apagar esta letra (" + current.trim().length + " caracteres).\n" +
-                    "Tens a certeza? Faz backup antes (botão Backup JSON)."
-                  )) {
-                    return;
-                  }
+                  const hasCodeBackup = !!track.lyrics && track.lyrics.trim().length > 0;
+                  const msg = hasCodeBackup
+                    ? "Vais apagar a tua edição (" + current.trim().length + " caracteres).\n" +
+                      "A letra no código permanece intacta — apagar aqui faz reverter ao código.\n" +
+                      "Continuar?"
+                    : "Vais apagar esta letra (" + current.trim().length + " caracteres).\n" +
+                      "NÃO existe cópia no código. Faz backup antes (botão Backup JSON).";
+                  if (!window.confirm(msg)) return;
                 }
                 onLyricsChange(next);
               }}
@@ -1094,6 +1096,25 @@ function TrackRow({
               className="mt-1 w-full whitespace-pre-wrap rounded bg-mundo-bg p-3 font-mono text-xs text-mundo-muted/80 leading-relaxed min-h-[16rem] max-h-[32rem] overflow-y-auto border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none resize-y"
               spellCheck={false}
             />
+            {editedLyrics !== null && editedLyrics !== track.lyrics && track.lyrics && (
+              <div className="mt-2 flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    if (window.confirm("Repor a letra do código? Apaga a tua edição actual.")) {
+                      onLyricsChange("");
+                    }
+                  }}
+                  className="text-[10px] px-2 py-1 rounded bg-white/5 text-[#a0a0b0] hover:bg-white/10 transition"
+                  title="Apaga o override e volta à letra guardada no código"
+                >
+                  ↺ Repor letra do código
+                </button>
+                <span className="text-[10px] text-mundo-muted/40">
+                  {track.lyrics.trim().length} caracteres guardados em lyrics-*.ts
+                </span>
+              </div>
+            )}
           </details>
 
           {error && <p className="mt-2 text-xs text-red-500 break-all">{error}</p>}

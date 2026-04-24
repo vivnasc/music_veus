@@ -57,6 +57,7 @@ import { FASE1B_LYRICS } from "./lyrics-fase1b";
 import { FASE2_LYRICS } from "./lyrics-fase2";
 import { FIBRA_CORRIDA_LYRICS } from "./lyrics-fibra-corrida";
 import { NOVOS_LYRICS } from "./lyrics-novos";
+import { IMPORTADAS_LYRICS } from "./lyrics-importadas";
 import { LORANNE_RELEASE_DATES } from "./production-calendar";
 
 const ALL_LYRICS: Record<string, string> = {
@@ -74,6 +75,7 @@ const ALL_LYRICS: Record<string, string> = {
   ...FASE2_LYRICS,
   ...FIBRA_CORRIDA_LYRICS,
   ...NOVOS_LYRICS,
+  ...IMPORTADAS_LYRICS,
 };
 
 function getLyrics(albumSlug: string, trackNumber: number): string {

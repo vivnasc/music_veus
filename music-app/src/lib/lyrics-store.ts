@@ -74,6 +74,11 @@ export function hasPendingWrites(): boolean {
 /**
  * Guarda uma letra. Nunca lança; devolve o estado do save para a UI mostrar.
  *
+ * Se `lyrics` for string vazia/apenas whitespace, interpretamos como pedido
+ * para REMOVER o override — o que faz o app cair automaticamente para a
+ * versão em código (lyrics-importadas.ts / lyrics-*.ts). Isto garante que
+ * apagar na UI não perde a letra de forma definitiva.
+ *
  * ETAPA 1 — localStorage (síncrono). Se falhar aqui, algo de muito estranho
  *   se passa (quota cheia?) mas tentamos na mesma a Supabase.
  * ETAPA 2 — Supabase via API. Se falhar, adicionamos à fila pending.
@@ -82,12 +87,15 @@ export async function saveLyrics(
   albumSlug: string,
   trackNumber: number,
   lyrics: string,
-): Promise<{ localOk: boolean; remoteOk: boolean; error?: string; missingTable?: boolean }> {
+): Promise<{ localOk: boolean; remoteOk: boolean; error?: string; missingTable?: boolean; deleted?: boolean }> {
+  const isEmpty = !lyrics || lyrics.trim() === "";
+
   // ETAPA 1 — localStorage
   let localOk = false;
   try {
     const cache = readCache();
-    cache[key(albumSlug, trackNumber)] = lyrics;
+    if (isEmpty) delete cache[key(albumSlug, trackNumber)];
+    else cache[key(albumSlug, trackNumber)] = lyrics;
     writeCache(cache);
     localOk = true;
   } catch (e) {
@@ -97,13 +105,16 @@ export async function saveLyrics(
   // ETAPA 2 — servidor
   try {
     const res = await adminFetch("/api/admin/track-lyrics", {
-      method: "POST",
+      method: isEmpty ? "DELETE" : "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ album_slug: albumSlug, track_number: trackNumber, lyrics }),
+      body: JSON.stringify(
+        isEmpty
+          ? { album_slug: albumSlug, track_number: trackNumber }
+          : { album_slug: albumSlug, track_number: trackNumber, lyrics },
+      ),
     });
     const data = await res.json().catch(() => ({}));
     if (!res.ok || data.erro) {
-      // Enfilerar para retry
       enqueuePending({ album_slug: albumSlug, track_number: trackNumber, lyrics, savedAt: new Date().toISOString() });
       return {
         localOk,
@@ -112,7 +123,7 @@ export async function saveLyrics(
         missingTable: !!data.missingTable,
       };
     }
-    return { localOk, remoteOk: true };
+    return { localOk, remoteOk: true, deleted: isEmpty };
   } catch (e) {
     enqueuePending({ album_slug: albumSlug, track_number: trackNumber, lyrics, savedAt: new Date().toISOString() });
     return { localOk, remoteOk: false, error: String(e) };
