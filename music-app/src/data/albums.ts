@@ -89,7 +89,7 @@ export type Album = {
   title: string;
   subtitle: string;
   artist?: string; // Default "Loranne" — override for other artists (e.g. "Ancient Ground")
-  product: "espelho" | "no" | "livro" | "curso" | "incenso" | "eter" | "nua" | "sangue" | "fibra" | "grao" | "mare" | "ancient-ground";
+  product: "espelho" | "no" | "livro" | "curso" | "incenso" | "eter" | "nua" | "sangue" | "fibra" | "grao" | "mare" | "ancient-ground" | "nova";
   veu?: number;
   courseSlug?: string;
   color: string;
@@ -2560,6 +2560,10 @@ const ANCIENT_GROUND_ALBUM: Album = {
 };
 
 ALL_ALBUMS.push(ANCIENT_GROUND_ALBUM);
+
+// ─── NOVA — 10 álbuns × 10 faixas (pop ético/profético) ───
+import { NOVA_ALBUMS } from "./nova-albums";
+ALL_ALBUMS.push(...NOVA_ALBUMS);
 
 // Helpers
 export function getArtist(album: Album): string {
