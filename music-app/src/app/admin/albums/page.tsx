@@ -247,6 +247,9 @@ export default function AlbumManagerPage() {
         <Link href="/admin/ancient-ground" className="rounded-lg bg-amber-900/20 px-4 py-2 text-xs text-amber-400 hover:bg-amber-900/40 transition">
           Ancient Ground
         </Link>
+        <Link href="/admin/nova" className="rounded-lg bg-violet-900/20 px-4 py-2 text-xs text-violet-300 hover:bg-violet-900/40 transition">
+          NOVA
+        </Link>
       </div>
 
       {/* Upload / paste area */}
