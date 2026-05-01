@@ -2403,6 +2403,13 @@ export default function AlbumProductionPage() {
             </Link>
 
             <Link
+              href="/admin/nova"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-violet-900/30 px-4 py-2.5 text-xs min-h-[44px] text-violet-300 hover:bg-violet-900/50 transition flex items-center"
+            >
+              NOVA
+            </Link>
+
+            <Link
               href="/admin/albums"
               className="shrink-0 whitespace-nowrap rounded-lg bg-indigo-900/30 px-4 py-2.5 text-xs min-h-[44px] text-indigo-300 hover:bg-indigo-900/50 transition flex items-center"
             >
