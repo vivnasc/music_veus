@@ -282,14 +282,15 @@ export async function POST(req: NextRequest) {
     // Build style. Four paths, in precedence:
     let finalStyle: string;
     if (customStyle) {
-      // 1) Explicit customStyle passed — use verbatim, truncated to 200 chars
-      // at a comma boundary so Suno does not reject an over-long style.
+      // 1) Explicit customStyle passed — use verbatim, truncated at a comma
+      // boundary so Suno does not reject an over-long style. 500 chars cobre
+      // todos os prompts NOVA (max ~360) e mantém os Loranne (mais curtos).
       const s = String(customStyle);
-      if (s.length <= 200) finalStyle = s;
+      if (s.length <= 500) finalStyle = s;
       else {
-        const hardCut = s.slice(0, 200);
+        const hardCut = s.slice(0, 500);
         const lastComma = hardCut.lastIndexOf(",");
-        finalStyle = lastComma > 100 ? hardCut.slice(0, lastComma) : hardCut;
+        finalStyle = lastComma > 200 ? hardCut.slice(0, lastComma) : hardCut;
       }
     } else if (instrumental) {
       // 2) Instrumental — keywords from prompt (whitelist)
