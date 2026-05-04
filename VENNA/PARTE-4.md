@@ -35,12 +35,10 @@ You wanna keep up, you better tune in
 This is the kind of woman who's been
 
 [Chorus: layered harmonies, anthemic]
-Steady and hot and a beautiful design
-Drumming the rhythm of the kind of mine
-Pulse in my chest like a coded sign
-Heart like a bassline
-Heart like a bassline
+Steady and hot, never a slow part
+Drumming the rhythm right under the chest
 Don't try to slow me, don't draw a line
+Heart like a bassline
 
 [Verse 2: vocal confident]
 I been the muse, I been the beat
@@ -53,12 +51,10 @@ You wanna keep up, you better tune in
 This is the kind of woman who's been
 
 [Chorus: full harmonies]
-Steady and hot and a beautiful design
-Drumming the rhythm of the kind of mine
-Pulse in my chest like a coded sign
-Heart like a bassline
-Heart like a bassline
+Steady and hot, never a slow part
+Drumming the rhythm right under the chest
 Don't try to slow me, don't draw a line
+Heart like a bassline
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -68,12 +64,10 @@ Não me peças para parar
 Que o ritmo é o meu cacho
 
 [Final Chorus: full harmonies, peak]
-Steady and hot and a beautiful design
-Drumming the rhythm of the kind of mine
-Pulse in my chest like a coded sign
-Heart like a bassline
-Heart like a bassline
+Steady and hot, never a slow part
+Drumming the rhythm right under the chest
 Don't try to slow me, don't draw a line
+Heart like a bassline
 
 [Outro: vocal soft, fading]
 heart like... a bassline...
@@ -110,9 +104,9 @@ The bass is rising, the road is gold
 This kind of feeling never gets old
 
 [Chorus: layered harmonies, euphoric]
-Tonight I'm not playing the polite
+Yellow turned and I didn't slow
 The whole damn city is built for flight
-Foot on the gas, the road's all white
+Foot on the gas, the road is white
 Running the light
 
 [Verse 2: vocal bright]
@@ -126,9 +120,9 @@ The bass is rising, the road is gold
 This kind of feeling never gets old
 
 [Chorus: full harmonies]
-Tonight I'm not playing the polite
+Yellow turned and I didn't slow
 The whole damn city is built for flight
-Foot on the gas, the road's all white
+Foot on the gas, the road is white
 Running the light
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
@@ -139,9 +133,9 @@ A vida não espera
 Quem hesita ou quem rabisca
 
 [Final Chorus: full harmonies, peak]
-Tonight I'm not playing the polite
+Yellow turned and I didn't slow
 The whole damn city is built for flight
-Foot on the gas, the road's all white
+Foot on the gas, the road is white
 Running the light
 
 [Outro: vocal soft, fading]
@@ -180,8 +174,8 @@ Some afternoons taste like a first time
 Some Saturdays don't bother to rhyme
 
 [Chorus: layered harmonies, bright]
-Sweetness on the corners of two fragrant manos
-The kind of small joy nobody banishes
+Sweetness on the corners of our hands
+The kind of small joy nobody understands
 Bowl on the table, sun through the window
 Dos duraznos
 
@@ -196,8 +190,8 @@ Some afternoons taste like a first time
 Some Saturdays don't bother to rhyme
 
 [Chorus: full harmonies]
-Sweetness on the corners of two fragrant manos
-The kind of small joy nobody banishes
+Sweetness on the corners of our hands
+The kind of small joy nobody understands
 Bowl on the table, sun through the window
 Dos duraznos
 
@@ -209,8 +203,8 @@ La vida es buena
 Cuando es tan precisas
 
 [Final Chorus: full harmonies, peak]
-Sweetness on the corners of two fragrant manos
-The kind of small joy nobody banishes
+Sweetness on the corners of our hands
+The kind of small joy nobody understands
 Bowl on the table, sun through the window
 Dos duraznos
 
@@ -249,9 +243,9 @@ The window's open, the curtains thin
 This is the kind of morning I let in
 
 [Chorus: layered harmonies, euphoric]
-Today is the kind of softer fighter
+Today the morning came in louder
 The whole world's gonna be a little lighter
-Sun's on the rise and the mind grows wider
+Sun's on the rise and I let it in
 Brighter
 
 [Verse 2: vocal bright]
@@ -265,9 +259,9 @@ The window's open, the curtains thin
 This is the kind of morning I let in
 
 [Chorus: full harmonies]
-Today is the kind of softer fighter
+Today the morning came in louder
 The whole world's gonna be a little lighter
-Sun's on the rise and the mind grows wider
+Sun's on the rise and I let it in
 Brighter
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
@@ -278,9 +272,9 @@ Não vou perguntar porquê
 Vou só agradecer e ir
 
 [Final Chorus: full harmonies, peak]
-Today is the kind of softer fighter
+Today the morning came in louder
 The whole world's gonna be a little lighter
-Sun's on the rise and the mind grows wider
+Sun's on the rise and I let it in
 Brighter
 
 [Outro: vocal soft]
@@ -319,9 +313,9 @@ The cumin's hot, the table's set
 This kind of Sunday's the best one yet
 
 [Chorus: layered harmonies, warm]
-Cooking and dancing in the kitchen finer
-The whole damn day is a happy diner
-Family loud and the song aliña
+Cooking and dancing in the kitchen smell
+Mom's at the stove, cousins in the hall
+Family loud, the table's set
 Tarde latina
 
 [Verse 2: vocal warm]
@@ -335,9 +329,9 @@ The cumin's hot, the table's set
 This kind of Sunday's the best one yet
 
 [Chorus: full harmonies]
-Cooking and dancing in the kitchen finer
-The whole damn day is a happy diner
-Family loud and the song aliña
+Cooking and dancing in the kitchen smell
+Mom's at the stove, cousins in the hall
+Family loud, the table's set
 Tarde latina
 
 [Bridge: Spanish, natural delivery]
@@ -348,9 +342,9 @@ La familia llega
 Y la vida no aguanta nada
 
 [Final Chorus: full harmonies, peak]
-Cooking and dancing in the kitchen finer
-The whole damn day is a happy diner
-Family loud and the song aliña
+Cooking and dancing in the kitchen smell
+Mom's at the stove, cousins in the hall
+Family loud, the table's set
 Tarde latina
 
 [Outro: vocal whispered]
@@ -388,12 +382,10 @@ She's not your project, she's not your fix
 She's a small country, she's full of tricks
 
 [Chorus: layered harmonies, anthemic]
-Don't try to manage what you can't sing
-Don't try to fold what you can't bring
-Skin and brain and a pair of wing
+Don't try to fold her, don't try to fix
+She's a small country, she's full of tricks
+Skin and brain and a pair of wings
 She's a whole thing
-She's a whole thing
-The whole damn melody, the whole damn ring
 
 [Verse 2: vocal confident]
 She's been a daughter, she's been a wife
@@ -406,12 +398,10 @@ She's not your project, she's not your fix
 She's a small country, she's full of tricks
 
 [Chorus: full harmonies]
-Don't try to manage what you can't sing
-Don't try to fold what you can't bring
-Skin and brain and a pair of wing
+Don't try to fold her, don't try to fix
+She's a small country, she's full of tricks
+Skin and brain and a pair of wings
 She's a whole thing
-She's a whole thing
-The whole damn melody, the whole damn ring
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -421,12 +411,10 @@ Não vais arrumar
 O que ela tem de verdade
 
 [Final Chorus: full harmonies, peak]
-Don't try to manage what you can't sing
-Don't try to fold what you can't bring
-Skin and brain and a pair of wing
+Don't try to fold her, don't try to fix
+She's a small country, she's full of tricks
+Skin and brain and a pair of wings
 She's a whole thing
-She's a whole thing
-The whole damn melody, the whole damn ring
 
 [Outro: vocal soft]
 she's a... whole thing...
@@ -463,9 +451,9 @@ The lights are on me, the bass is huge
 This is the kind of dream you don't refuse
 
 [Chorus: layered harmonies + crowd, anthemic]
-Beating like the world is a single art
-Twenty thousand voices on the same chart
-This is the part where I can't depart
+Beating loud as the world goes wide
+Twenty thousand hands rising at once
+This is the part I can't refuse
 Stadium heart
 
 [Verse 2: vocal full]
@@ -479,9 +467,9 @@ The lights are on me, the bass is huge
 This is the kind of dream you don't refuse
 
 [Chorus: full harmonies + crowd]
-Beating like the world is a single art
-Twenty thousand voices on the same chart
-This is the part where I can't depart
+Beating loud as the world goes wide
+Twenty thousand hands rising at once
+This is the part I can't refuse
 Stadium heart
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
@@ -492,9 +480,9 @@ A música é minha
 Mas é nossa de modo
 
 [Final Chorus: full harmonies + full crowd, peak]
-Beating like the world is a single art
-Twenty thousand voices on the same chart
-This is the part where I can't depart
+Beating loud as the world goes wide
+Twenty thousand hands rising at once
+This is the part I can't refuse
 Stadium heart
 
 [Outro: vocal soft, crowd fading]
@@ -539,9 +527,9 @@ This is not the start, this is not the end
 This is the part where the woman ascends
 
 [Chorus: layered harmonies + crowd, anthemic]
-The whole damn city is recognizing
-A new kind of star, a new kind of sizing
-Watch the woman keep on energizing
+The whole damn city is looking up
+A new kind of voice, a new kind of fire
+The one they didn't see is taking ground
 VENNA rising
 
 [Verse 2: vocal powerful]
@@ -555,9 +543,9 @@ This is not the start, this is not the end
 This is the part where the woman ascends
 
 [Chorus: full harmonies + crowd]
-The whole damn city is recognizing
-A new kind of star, a new kind of sizing
-Watch the woman keep on energizing
+The whole damn city is looking up
+A new kind of voice, a new kind of fire
+The one they didn't see is taking ground
 VENNA rising
 
 [Bridge: cycling through 4 languages]
@@ -570,9 +558,9 @@ VENNA sube
 VENNA rising
 
 [Final Chorus: full harmonies + full crowd, peak]
-The whole damn city is recognizing
-A new kind of star, a new kind of sizing
-Watch the woman keep on energizing
+The whole damn city is looking up
+A new kind of voice, a new kind of fire
+The one they didn't see is taking ground
 VENNA rising
 
 [Outro: vocal whispered, multilingual fading]
@@ -610,8 +598,8 @@ I'm not negotiating who I'll be
 The rhythm decides and the rhythm is me
 
 [Chorus: layered harmonies + crowd, anthemic]
-The whole damn city is the only sign
-Don't try to wait me, don't draw a line
+The whole damn floor is mine to walk
+Don't try to slow me, don't draw a line
 The bass is fire and the air is wine
 Tonight is mine
 
@@ -626,8 +614,8 @@ I'm not negotiating who I'll be
 The rhythm decides and the rhythm is me
 
 [Chorus: full harmonies + crowd]
-The whole damn city is the only sign
-Don't try to wait me, don't draw a line
+The whole damn floor is mine to walk
+Don't try to slow me, don't draw a line
 The bass is fire and the air is wine
 Tonight is mine
 
@@ -639,8 +627,8 @@ Esta noite é minha
 A música, a hora, a pele
 
 [Final Chorus: full harmonies + full crowd, peak]
-The whole damn city is the only sign
-Don't try to wait me, don't draw a line
+The whole damn floor is mine to walk
+Don't try to slow me, don't draw a line
 The bass is fire and the air is wine
 Tonight is mine
 
@@ -683,9 +671,9 @@ Some words come easier in one of mine
 Some feelings only fit on a different line
 
 [Chorus: layered harmonies + multilingual]
-A thousand ways to say what I got
-Not one of them is the wrong slot
-Quatro línguas, mots, palabras, mot
+Four ways to say what I love
+Four mouths the same heart is sending
+Mots, palavras, palabras, words
 A polyglot
 
 [Verse 2: vocal warm]
@@ -699,9 +687,9 @@ Some words come easier in one of mine
 Some feelings only fit on a different line
 
 [Chorus: full harmonies]
-A thousand ways to say what I got
-Not one of them is the wrong slot
-Quatro línguas, mots, palabras, mot
+Four ways to say what I love
+Four mouths the same heart is sending
+Mots, palavras, palabras, words
 A polyglot
 
 [Bridge: cycling through 4 languages]
@@ -714,9 +702,9 @@ Amo, soy
 I love, I am
 
 [Final Chorus: full harmonies + multilingual]
-A thousand ways to say what I got
-Not one of them is the wrong slot
-Quatro línguas, mots, palabras, mot
+Four ways to say what I love
+Four mouths the same heart is sending
+Mots, palavras, palabras, words
 A polyglot
 
 [Outro: vocal whispered, all 4 languages, fading]
@@ -754,9 +742,9 @@ She'll let you in, she'll let you out
 She's the kind of permission you don't doubt
 
 [Chorus: layered harmonies, powerful]
-Knows what she wants and how to ignite
-Owns every shadow and every light
-Don't try to fold her into polite
+She knows what she wants, she knows where it lives
+She owns every shadow, she owns every light
+Don't try to soften her, she won't fold
 A woman at night
 
 [Verse 2: vocal close, powerful]
@@ -770,9 +758,9 @@ She'll let you in, she'll let you out
 She's the kind of permission you don't doubt
 
 [Chorus: full harmonies]
-Knows what she wants and how to ignite
-Owns every shadow and every light
-Don't try to fold her into polite
+She knows what she wants, she knows where it lives
+She owns every shadow, she owns every light
+Don't try to soften her, she won't fold
 A woman at night
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
@@ -783,9 +771,9 @@ A noite é sua
 Não há nada que a impere
 
 [Final Chorus: full harmonies]
-Knows what she wants and how to ignite
-Owns every shadow and every light
-Don't try to fold her into polite
+She knows what she wants, she knows where it lives
+She owns every shadow, she owns every light
+Don't try to soften her, she won't fold
 A woman at night
 
 [Outro: vocal whispered, powerful]
@@ -823,9 +811,9 @@ I'm wearing what you said you liked
 The door is open, the light is striked
 
 [Chorus: layered harmonies, sensual]
-This is the night, this is the station
-Don't make me wait, that's my creation
-Open the door, no hesitation
+The door is unlocked, the hour is yours
+Don't make me wait, I won't ask twice
+Open it, baby, this is mine
 You got the invitation
 
 [Verse 2: vocal close, direct]
@@ -839,9 +827,9 @@ I'm wearing what you said you liked
 The door is open, the light is striked
 
 [Chorus: full harmonies]
-This is the night, this is the station
-Don't make me wait, that's my creation
-Open the door, no hesitation
+The door is unlocked, the hour is yours
+Don't make me wait, I won't ask twice
+Open it, baby, this is mine
 You got the invitation
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian — direct]
@@ -852,9 +840,9 @@ Não me faças esperar
 Que eu não tenho jeito
 
 [Final Chorus: full harmonies]
-This is the night, this is the station
-Don't make me wait, that's my creation
-Open the door, no hesitation
+The door is unlocked, the hour is yours
+Don't make me wait, I won't ask twice
+Open it, baby, this is mine
 You got the invitation
 
 [Outro: vocal whispered, sultry]
@@ -895,9 +883,9 @@ This is my life and I built it slow
 This is the only kind I know
 
 [Chorus: layered harmonies + multilingual]
-The kind of life I won't ever conceda
-My body, my hours, my own avenida
-Three tongues, one heart, one promenida
+Mine to choose and mine to define
+My body, my hours, my own design
+Three tongues, one heart, one woman
 Ma vie, mi vida, minha vida
 
 [Verse 2: vocal close, declarative]
@@ -911,9 +899,9 @@ This is my life and I built it slow
 This is the only kind I know
 
 [Chorus: full harmonies]
-The kind of life I won't ever conceda
-My body, my hours, my own avenida
-Three tongues, one heart, one promenida
+Mine to choose and mine to define
+My body, my hours, my own design
+Three tongues, one heart, one woman
 Ma vie, mi vida, minha vida
 
 [Bridge: cycling through 3 languages]
@@ -926,9 +914,9 @@ A minha vida é minha
 And nobody owns it
 
 [Final Chorus: full harmonies + multilingual]
-The kind of life I won't ever conceda
-My body, my hours, my own avenida
-Three tongues, one heart, one promenida
+Mine to choose and mine to define
+My body, my hours, my own design
+Three tongues, one heart, one woman
 Ma vie, mi vida, minha vida
 
 [Outro: vocal whispered, multilingual fading]
@@ -967,9 +955,9 @@ I was the kitchen, the rooftop, the bar
 I was the woman who came this far
 
 [Chorus: layered harmonies + crowd, anthemic]
-The whole damn world is a single light
-The party started when I walked in right
-Ten albums in and the future bright
+The whole damn city's holding its breath
+The party started when I came through
+Ten albums in, the future starts now
 VENNA tonight
 
 [Verse 2: vocal full]
@@ -983,9 +971,9 @@ I was the kitchen, the rooftop, the bar
 I was the woman who came this far
 
 [Chorus: full harmonies + crowd]
-The whole damn world is a single light
-The party started when I walked in right
-Ten albums in and the future bright
+The whole damn city's holding its breath
+The party started when I came through
+Ten albums in, the future starts now
 VENNA tonight
 
 [Bridge: cycling all languages, building]
@@ -998,13 +986,13 @@ VENNA esta noche
 VENNA tonight
 
 [Final Chorus: full harmonies + full crowd, epic peak]
-The whole damn world is a single light
-The party started when I walked in right
-Ten albums in and the future bright
+The whole damn city's holding its breath
+The party started when I came through
+Ten albums in, the future starts now
 VENNA tonight
-This is the song, this is the height
-The end of the album, the end of the night
-The crowd is up and the air is bright
+This is the song, this is the climb
+The end of the record, the start of the line
+The crowd is up, the sky's gone wide
 VENNA tonight
 
 [Outro: vocal whispered, fading, signature elements deconstructing]

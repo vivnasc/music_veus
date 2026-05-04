@@ -590,10 +590,10 @@ Wet hair, warm chest, no plans to leave
 This kind of weather gives you reprieve
 
 [Chorus: layered harmonies enter]
-Wash the week off, wash the strain
-Eight floors above and ours to claim
-Dance with me till the sky goes plain
-Rooftop rain
+Let the week wash off in the rain
+Hold my hand, don't say a thing
+We're high above the noise we left
+Stay where the storm becomes the song
 
 [Verse 2: vocal close]
 The strangers laughing, the music low
@@ -606,10 +606,10 @@ Wet hair, warm chest, no plans to leave
 This kind of weather gives you reprieve
 
 [Chorus: full harmonies]
-Wash the week off, wash the strain
-Eight floors above and ours to claim
-Dance with me till the sky goes plain
-Rooftop rain
+Let the week wash off in the rain
+Hold my hand, don't say a thing
+We're high above the noise we left
+Stay where the storm becomes the song
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -619,10 +619,10 @@ Dança comigo
 Que a cidade é nossa
 
 [Final Chorus: full harmonies]
-Wash the week off, wash the strain
-Eight floors above and ours to claim
-Dance with me till the sky goes plain
-Rooftop rain
+Let the week wash off in the rain
+Hold my hand, don't say a thing
+We're high above the noise we left
+Stay where the storm becomes the song
 
 [Outro: vocal whispered, rain fades]
 rooftop... rain...
@@ -659,10 +659,10 @@ Driver took the long way, baby that's fine
 We've got nothing better than this kind of time
 
 [Chorus: layered harmonies]
-Watching your eyes through the orange glow
-The driver hums and the meter goes slow
-Take me anywhere the music wants to go
-Past the taxi window
+Your eyes in the orange of the glow
+The city slips by, the meter slow
+Tell the driver take the longest way
+The night lives inside the taxi window
 
 [Verse 2: vocal close]
 You laugh at something the driver said
@@ -675,10 +675,10 @@ Driver took the long way, baby that's fine
 We've got nothing better than this kind of time
 
 [Chorus: full harmonies]
-Watching your eyes through the orange glow
-The driver hums and the meter goes slow
-Take me anywhere the music wants to go
-Past the taxi window
+Your eyes in the orange of the glow
+The city slips by, the meter slow
+Tell the driver take the longest way
+The night lives inside the taxi window
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -688,10 +688,10 @@ A noite não acaba
 Quando estou aqui
 
 [Final Chorus: full harmonies]
-Watching your eyes through the orange glow
-The driver hums and the meter goes slow
-Take me anywhere the music wants to go
-Past the taxi window
+Your eyes in the orange of the glow
+The city slips by, the meter slow
+Tell the driver take the longest way
+The night lives inside the taxi window
 
 [Outro: vocal whispered]
 taxi... window...
@@ -730,8 +730,8 @@ We've got the kind of night that stays right here
 [Chorus: layered harmonies, sensual]
 Where the city ends and the bodies meet
 You and the moon and the rhythm of the street
-The night's a slow-cooked thing repeat
-Just balcony heat
+The heat is slow-cooked, the night is sure
+Tonight we're not asking what we are
 
 [Verse 2: vocal sultry, close]
 Your hand is steady, my breath ain't slow
@@ -746,8 +746,8 @@ We've got the kind of night that stays right here
 [Chorus: full harmonies]
 Where the city ends and the bodies meet
 You and the moon and the rhythm of the street
-The night's a slow-cooked thing repeat
-Just balcony heat
+The heat is slow-cooked, the night is sure
+Tonight we're not asking what we are
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian — sultry]
 (European Portuguese, Portugal accent:)
@@ -759,8 +759,8 @@ Que o calor não cabe
 [Final Chorus: full harmonies]
 Where the city ends and the bodies meet
 You and the moon and the rhythm of the street
-The night's a slow-cooked thing repeat
-Just balcony heat
+The heat is slow-cooked, the night is sure
+Tonight we're not asking what we are
 
 [Outro: vocal whispered, sultry]
 balcony... heat...
@@ -797,10 +797,10 @@ The dishwasher's humming, the world's outside
 This is the kind of moment I don't have to hide
 
 [Chorus: layered harmonies]
-Holding us both in its gentle white
+Held in the white of the kitchen light
 Tomorrow's coming but tonight is right
-The fridge is humming and the stove is dim
-Just the kitchen light
+You at the counter, me on the floor
+This is what I came here for
 
 [Verse 2: vocal close, warm]
 You ask me a question I can't recall
@@ -813,10 +813,10 @@ The dishwasher's humming, the world's outside
 This is the kind of moment I don't have to hide
 
 [Chorus: full harmonies]
-Holding us both in its gentle white
+Held in the white of the kitchen light
 Tomorrow's coming but tonight is right
-The fridge is humming and the stove is dim
-Just the kitchen light
+You at the counter, me on the floor
+This is what I came here for
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -826,10 +826,10 @@ Tu e o teu sorriso
 A maior parte de mim
 
 [Final Chorus: full harmonies]
-Holding us both in its gentle white
+Held in the white of the kitchen light
 Tomorrow's coming but tonight is right
-The fridge is humming and the stove is dim
-Just the kitchen light
+You at the counter, me on the floor
+This is what I came here for
 
 [Outro: vocal whispered]
 kitchen... light...
@@ -866,9 +866,9 @@ The first light's coming, the world's still ours
 This is the prize that the night devours
 
 [Chorus: layered harmonies, uplifting]
-Painting the city in honey eyes
-Holding the bass till the dark unties
-We danced till the morning broke disguise
+The city's painted in honey light
+We held the bass till the dark gave in
+The first warm gold of the morning sky
 Terrace sunrise
 
 [Verse 2: vocal close, smile in voice]
@@ -882,9 +882,9 @@ The first light's coming, the world's still ours
 This is the prize that the night devours
 
 [Chorus: full harmonies]
-Painting the city in honey eyes
-Holding the bass till the dark unties
-We danced till the morning broke disguise
+The city's painted in honey light
+We held the bass till the dark gave in
+The first warm gold of the morning sky
 Terrace sunrise
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
@@ -895,9 +895,9 @@ A vida começa
 Quando a noite se inclina
 
 [Final Chorus: full harmonies, uplifting peak]
-Painting the city in honey eyes
-Holding the bass till the dark unties
-We danced till the morning broke disguise
+The city's painted in honey light
+We held the bass till the dark gave in
+The first warm gold of the morning sky
 Terrace sunrise
 
 [Outro: vocal whispered, fading]
@@ -935,10 +935,10 @@ Three more stops till my line is done
 But I'm not sure that I want anyone
 
 [Chorus: layered harmonies]
-The strangest place to feel a pulse
-Two strangers swaying through the city's pulse
-Carriage lights humming the soft response
-Late line, the metro at twenty-three
+Strangest place to feel a pulse
+You across the carriage, the orange hum
+Three more stops till my line is done
+And I'm not sure I want this gone
 
 [Verse 2: vocal close]
 You take one earbud out, you smile a half
@@ -951,10 +951,10 @@ Three more stops till my line is done
 But I'm not sure that I want anyone
 
 [Chorus: full harmonies]
-The strangest place to feel a pulse
-Two strangers swaying through the city's pulse
-Carriage lights humming the soft response
-Late line, the metro at twenty-three
+Strangest place to feel a pulse
+You across the carriage, the orange hum
+Three more stops till my line is done
+And I'm not sure I want this gone
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -964,10 +964,10 @@ A noite acordada
 A cidade adormecida
 
 [Final Chorus: full harmonies]
-The strangest place to feel a pulse
-Two strangers swaying through the city's pulse
-Carriage lights humming the soft response
-Late line, the metro at twenty-three
+Strangest place to feel a pulse
+You across the carriage, the orange hum
+Three more stops till my line is done
+And I'm not sure I want this gone
 
 [Outro: vocal whispered, train fades]
 metro... 23h...
@@ -1006,7 +1006,7 @@ I held my breath in my own sleeve
 [Chorus: layered harmonies]
 The kind of moment a city won't miss
 Holding still in a world like this
-Orange glow over hand and wrist
+Orange glow on your hand and your face
 Just a streetlight kiss
 
 [Verse 2: vocal close, romantic]
@@ -1022,7 +1022,7 @@ I held my breath in my own sleeve
 [Chorus: full harmonies]
 The kind of moment a city won't miss
 Holding still in a world like this
-Orange glow over hand and wrist
+Orange glow on your hand and your face
 Just a streetlight kiss
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
@@ -1035,7 +1035,7 @@ Para nos deixar passar
 [Final Chorus: full harmonies]
 The kind of moment a city won't miss
 Holding still in a world like this
-Orange glow over hand and wrist
+Orange glow on your hand and your face
 Just a streetlight kiss
 
 [Outro: vocal whispered]
@@ -1077,10 +1077,9 @@ This whole damn rhythm is already mine and you
 
 [Chorus: layered harmonies, bold]
 Every step a little bit more
-The bass is lifting from the floor
-You can watch from outside the door
-And learn what for
-I run this floor
+The DJ takes the cue from me
+You can watch from where you are
+Tonight I run this floor
 
 [Verse 2: vocal close, smirk]
 You sent your friend to ask my name
@@ -1094,10 +1093,9 @@ This whole damn rhythm is already mine and you
 
 [Chorus: full harmonies]
 Every step a little bit more
-The bass is lifting from the floor
-You can watch from outside the door
-And learn what for
-I run this floor
+The DJ takes the cue from me
+You can watch from where you are
+Tonight I run this floor
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -1108,10 +1106,9 @@ E levei-a sem pressa
 
 [Final Chorus: full harmonies, peak]
 Every step a little bit more
-The bass is lifting from the floor
-You can watch from outside the door
-And learn what for
-I run this floor
+The DJ takes the cue from me
+You can watch from where you are
+Tonight I run this floor
 
 [Outro: vocal whispered]
 I run... this floor...
@@ -1148,9 +1145,9 @@ But not tonight, not in a hurry
 I don't run on anybody's worry
 
 [Chorus: layered harmonies]
-The good things bend to a steady rhyme
-Watch me walk by and lose your mind
-You can talk fast but I won't reply
+You move too fast, you miss the play
+The good ones don't come the easy way
+Watch me walk by, I'm the kind that stays
 Take your time
 
 [Verse 2: vocal close, more attitude]
@@ -1164,9 +1161,9 @@ But not tonight, not in a hurry
 I don't run on anybody's worry
 
 [Chorus: full harmonies]
-The good things bend to a steady rhyme
-Watch me walk by and lose your mind
-You can talk fast but I won't reply
+You move too fast, you miss the play
+The good ones don't come the easy way
+Watch me walk by, I'm the kind that stays
 Take your time
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
@@ -1177,9 +1174,9 @@ Mas se queres a minha atenção
 Vais ter de merecer
 
 [Final Chorus: full harmonies]
-The good things bend to a steady rhyme
-Watch me walk by and lose your mind
-You can talk fast but I won't reply
+You move too fast, you miss the play
+The good ones don't come the easy way
+Watch me walk by, I'm the kind that stays
 Take your time
 
 [Outro: vocal whispered]
@@ -1217,9 +1214,9 @@ Every red flag is dancing tonight
 Every alarm bell is set on bright
 
 [Chorus: layered harmonies, bold]
-The kind that gets me out of here
-You and the music and a glass of fear
-The voice in my head says clear, clear, clear
+The kind that takes me past the door
+You and the music and one more pour
+Tomorrow's gonna ask me why
 Bad idea
 
 [Verse 2: vocal close, smirk]
@@ -1233,9 +1230,9 @@ Every red flag is dancing tonight
 Every alarm bell is set on bright
 
 [Chorus: full harmonies]
-The kind that gets me out of here
-You and the music and a glass of fear
-The voice in my head says clear, clear, clear
+The kind that takes me past the door
+You and the music and one more pour
+Tomorrow's gonna ask me why
 Bad idea
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
@@ -1248,9 +1245,9 @@ amanhã pago
 hoje sou rainha
 
 [Final Chorus: full harmonies, peak]
-The kind that gets me out of here
-You and the music and a glass of fear
-The voice in my head says clear, clear, clear
+The kind that takes me past the door
+You and the music and one more pour
+Tomorrow's gonna ask me why
 Bad idea
 
 [Outro: vocal whispered]
@@ -1288,9 +1285,9 @@ Step it up or step on out
 That's what this whole song's about
 
 [Chorus: layered harmonies, breezy]
-You almost made me roll an eye
-The bar is higher than your sky
-You'll need a better line to fly
+That line came in already used
+The bar is higher than you knew
+Bring me something I haven't heard
 Nice try
 
 [Verse 2: vocal close, more amused]
@@ -1304,9 +1301,9 @@ Step it up or step on out
 That's what this whole song's about
 
 [Chorus: full harmonies]
-You almost made me roll an eye
-The bar is higher than your sky
-You'll need a better line to fly
+That line came in already used
+The bar is higher than you knew
+Bring me something I haven't heard
 Nice try
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
@@ -1317,9 +1314,9 @@ Tens de me dar
 Algo que eu nunca tive até ao fim
 
 [Final Chorus: full harmonies]
-You almost made me roll an eye
-The bar is higher than your sky
-You'll need a better line to fly
+That line came in already used
+The bar is higher than you knew
+Bring me something I haven't heard
 Nice try
 
 [Outro: vocal whispered, amused]
@@ -1358,9 +1355,8 @@ I need to feel your meaning in your hands
 
 [Chorus: layered harmonies, sensual]
 Show me, baby, don't just say it
-Make me feel it, make me weigh it
-Words are easy, prove the play, it
-Has to be more than something said
+Make me feel it on my skin
+Words are easy, hands are honest
 If you mean it
 
 [Verse 2: vocal close, more direct]
@@ -1375,9 +1371,8 @@ I need to feel your meaning in your hands
 
 [Chorus: full harmonies]
 Show me, baby, don't just say it
-Make me feel it, make me weigh it
-Words are easy, prove the play, it
-Has to be more than something said
+Make me feel it on my skin
+Words are easy, hands are honest
 If you mean it
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian — sultry]
@@ -1389,9 +1384,8 @@ Para conversa de cantora
 
 [Final Chorus: full harmonies]
 Show me, baby, don't just say it
-Make me feel it, make me weigh it
-Words are easy, prove the play, it
-Has to be more than something said
+Make me feel it on my skin
+Words are easy, hands are honest
 If you mean it
 
 [Outro: vocal whispered, sultry]
@@ -1431,7 +1425,7 @@ But I'm not in the market for whatever's at
 [Chorus: layered harmonies, firm]
 I'm not the prize and I'm not the fight
 I came to dance, not to invite
-Try someone else, you'll be alright
+Try the next one with a softer ask
 Not tonight
 
 [Verse 2: vocal close, calm]
@@ -1447,7 +1441,7 @@ But I'm not in the market for whatever's at
 [Chorus: full harmonies]
 I'm not the prize and I'm not the fight
 I came to dance, not to invite
-Try someone else, you'll be alright
+Try the next one with a softer ask
 Not tonight
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
@@ -1460,7 +1454,7 @@ Antes de ser de outro autor
 [Final Chorus: full harmonies]
 I'm not the prize and I'm not the fight
 I came to dance, not to invite
-Try someone else, you'll be alright
+Try the next one with a softer ask
 Not tonight
 
 [Outro: vocal whispered]
@@ -1498,10 +1492,10 @@ Some women leave with a slow goodbye
 I leave like the chorus before the high
 
 [Chorus: layered harmonies, triumphant]
-Like this, like this, like this
-Give the night a proper kiss
-Hand on the door and a little smile
-Walk away in style
+Hand on the door, drink finished slow
+Give the music one last hello
+Heels and a smile, no one to chase
+This is how I walk away
 
 [Verse 2: vocal confident, smirk]
 The DJ caught my eye on the way
@@ -1514,10 +1508,10 @@ Some women leave with a slow goodbye
 I leave like the chorus before the high
 
 [Chorus: full harmonies]
-Like this, like this, like this
-Give the night a proper kiss
-Hand on the door and a little smile
-Walk away in style
+Hand on the door, drink finished slow
+Give the music one last hello
+Heels and a smile, no one to chase
+This is how I walk away
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -1527,10 +1521,10 @@ A noite que fique
 A pensar em quem passa
 
 [Final Chorus: full harmonies, peak]
-Like this, like this, like this
-Give the night a proper kiss
-Hand on the door and a little smile
-Walk away in style
+Hand on the door, drink finished slow
+Give the music one last hello
+Heels and a smile, no one to chase
+This is how I walk away
 
 [Outro: vocal whispered, fading]
 walk... away...
