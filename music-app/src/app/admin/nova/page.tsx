@@ -126,7 +126,7 @@ function MiniPlayer({ src }: { src: string }) {
 
 function TrackCard({
   album, track, state, sunoModel, personaId,
-  onGenerate, onApprove, onDownload, onUploadCover,
+  onGenerate, onApprove, onDownload,
 }: {
   album: Album;
   track: AlbumTrack;
@@ -136,11 +136,7 @@ function TrackCard({
   onGenerate: () => void;
   onApprove: (clips: SunoClip[]) => void;
   onDownload: (url: string, title: string) => void;
-  onUploadCover: (file: File) => Promise<void>;
 }) {
-  const coverInputRef = useRef<HTMLInputElement>(null);
-  const [uploadingCover, setUploadingCover] = useState(false);
-  const [coverMsg, setCoverMsg] = useState<string>("");
   const [showStyle, setShowStyle] = useState(false);
   const [showLyrics, setShowLyrics] = useState(false);
 
@@ -275,44 +271,76 @@ function TrackCard({
       )}
 
       {/* Custom cover upload (Midjourney) */}
-      <div className="mt-3 pt-3 border-t border-mundo-muted-dark/20">
-        <input
-          ref={coverInputRef}
-          type="file"
-          accept="image/jpeg,image/png,image/webp"
-          className="hidden"
-          onChange={async (e) => {
-            const file = e.target.files?.[0];
-            if (!file) return;
-            setUploadingCover(true);
-            setCoverMsg("");
-            try {
-              await onUploadCover(file);
-              setCoverMsg(`Capa enviada (${Math.round(file.size / 1024)}KB)`);
-              setTimeout(() => setCoverMsg(""), 3000);
-            } catch (err: unknown) {
-              setCoverMsg(`Erro: ${err instanceof Error ? err.message : String(err)}`);
-            } finally {
-              setUploadingCover(false);
-              if (coverInputRef.current) coverInputRef.current.value = "";
-            }
-          }}
-        />
-        <button
-          onClick={() => coverInputRef.current?.click()}
-          disabled={uploadingCover}
-          className={`w-full rounded-lg px-3 py-2 text-[11px] transition ${
-            uploadingCover
-              ? "bg-pink-900/20 text-pink-500 animate-pulse cursor-wait"
-              : "bg-pink-900/30 text-pink-300 hover:bg-pink-900/50"
-          }`}
-        >
-          {uploadingCover ? "A enviar capa..." : "Carregar capa Midjourney"}
-        </button>
-        {coverMsg && (
-          <p className="text-[10px] text-mundo-muted mt-1 text-center break-words">{coverMsg}</p>
-        )}
-      </div>
+    </div>
+  );
+}
+
+// ─── Album actions bar (DistroKid + custom album cover) ───
+
+function AlbumActionsBar({
+  album,
+  onDistroZip,
+  onUploadAlbumCover,
+}: {
+  album: Album;
+  onDistroZip: (album: Album, btn: HTMLButtonElement) => Promise<void>;
+  onUploadAlbumCover: (album: Album, file: File) => Promise<void>;
+}) {
+  const coverInputRef = useRef<HTMLInputElement>(null);
+  const [uploading, setUploading] = useState(false);
+  const [msg, setMsg] = useState<string>("");
+
+  return (
+    <div className="border-t border-mundo-muted-dark/20 p-4 flex flex-wrap gap-2 items-center">
+      <button
+        id={`distro-btn-${album.slug}`}
+        onClick={(e) => onDistroZip(album, e.currentTarget as HTMLButtonElement)}
+        className="rounded-lg bg-green-700/80 px-3 py-2 text-xs font-medium text-white hover:bg-green-800 transition"
+      >
+        DistroKid ZIP
+      </button>
+
+      <input
+        ref={coverInputRef}
+        type="file"
+        accept="image/jpeg,image/png,image/webp"
+        className="hidden"
+        onChange={async (e) => {
+          const file = e.target.files?.[0];
+          if (!file) return;
+          setUploading(true);
+          setMsg("");
+          try {
+            await onUploadAlbumCover(album, file);
+            setMsg(`Capa do álbum enviada (${Math.round(file.size / 1024)}KB)`);
+            setTimeout(() => setMsg(""), 4000);
+          } catch (err: unknown) {
+            setMsg(`Erro: ${err instanceof Error ? err.message : String(err)}`);
+          } finally {
+            setUploading(false);
+            if (coverInputRef.current) coverInputRef.current.value = "";
+          }
+        }}
+      />
+      <button
+        onClick={() => coverInputRef.current?.click()}
+        disabled={uploading}
+        className={`rounded-lg px-3 py-2 text-xs font-medium transition ${
+          uploading
+            ? "bg-pink-900/20 text-pink-500 animate-pulse cursor-wait"
+            : "bg-pink-700/80 text-white hover:bg-pink-800"
+        }`}
+      >
+        {uploading ? "A enviar capa..." : "Capa do álbum (Midjourney)"}
+      </button>
+
+      <p className="text-[10px] text-mundo-muted">
+        ZIP: WAVs + capa 3000×3000 + metadata. Capa do álbum: 1 imagem para todo o álbum (capas Suno por faixa continuam intactas).
+      </p>
+
+      {msg && (
+        <p className="basis-full text-[10px] text-mundo-muted break-words">{msg}</p>
+      )}
     </div>
   );
 }
@@ -552,14 +580,18 @@ export default function NovaAdminPage() {
     }
   }
 
-  // Upload custom cover (Midjourney etc.) — replaces faixa-XX-cover.jpg
-  async function uploadCustomCover(album: Album, track: AlbumTrack, file: File) {
-    const tn = String(track.number).padStart(2, "0");
+  // Upload album cover (Midjourney etc.) — vai para albums/<slug>/cover.<ext>
+  // SEPARADO das capas Suno por faixa (faixa-XX-cover.jpg) — essas continuam
+  // a funcionar para a vista por faixa.
+  async function uploadAlbumCover(album: Album, file: File) {
     if (file.size < 1000) throw new Error("Ficheiro demasiado pequeno.");
     if (file.size > 10 * 1024 * 1024) throw new Error("Ficheiro > 10MB. Reduz primeiro.");
 
-    // Always store as JPG (extension consistent with stream proxy)
-    const filename = `albums/${album.slug}/faixa-${tn}-cover.jpg`;
+    // Detectar extensão a partir do MIME (default jpg)
+    const ext = file.type === "image/png" ? "png"
+              : file.type === "image/webp" ? "webp"
+              : "jpg";
+    const filename = `albums/${album.slug}/cover.${ext}`;
     const sign = await adminFetch("/api/admin/signed-upload-url", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -570,13 +602,9 @@ export default function NovaAdminPage() {
       throw new Error(`Signed URL falhou (${sign.status}): ${e.erro || ""}`);
     }
     const { signedUrl } = await sign.json();
-    // Force JPEG content-type — Supabase will store the bytes as-is. PNG/WebP
-    // bytes served as image/jpeg ainda funcionam para browsers e o stream
-    // proxy serve por extensão, não MIME.
-    const contentType = file.type.startsWith("image/") ? file.type : "image/jpeg";
     const up = await fetch(signedUrl, {
       method: "PUT",
-      headers: { "Content-Type": contentType },
+      headers: { "Content-Type": file.type || "image/jpeg" },
       body: file,
     });
     if (!up.ok) {
@@ -754,18 +782,11 @@ export default function NovaAdminPage() {
               {isOpen && (
                 <>
                   {/* Album-level actions */}
-                  <div className="border-t border-mundo-muted-dark/20 p-4 flex flex-wrap gap-2">
-                    <button
-                      id={`distro-btn-${album.slug}`}
-                      onClick={(e) => downloadDistrokidZip(album, e.currentTarget as HTMLButtonElement)}
-                      className="rounded-lg bg-green-700/80 px-3 py-2 text-xs font-medium text-white hover:bg-green-800 transition"
-                    >
-                      DistroKid ZIP
-                    </button>
-                    <p className="text-[10px] text-mundo-muted self-center">
-                      Empacota WAVs + capa 3000×3000 (faixa 1) + metadata.txt para upload manual no DistroKid
-                    </p>
-                  </div>
+                  <AlbumActionsBar
+                    album={album}
+                    onDistroZip={downloadDistrokidZip}
+                    onUploadAlbumCover={uploadAlbumCover}
+                  />
 
                   <div className="border-t border-mundo-muted-dark/20 p-4 grid gap-3 sm:grid-cols-2">
                     {album.tracks.map((track) => {
@@ -781,7 +802,6 @@ export default function NovaAdminPage() {
                           onGenerate={() => generateTrack(album, track)}
                           onApprove={(clips) => approveTrack(album, track, clips)}
                           onDownload={downloadClip}
-                          onUploadCover={(file) => uploadCustomCover(album, track, file)}
                         />
                       );
                     })}

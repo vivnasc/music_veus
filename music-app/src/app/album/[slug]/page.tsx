@@ -10,7 +10,7 @@ import { useMusicPlayer } from "@/contexts/MusicPlayerContext";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
 import { useSubscriptionGate } from "@/contexts/SubscriptionContext";
 import { useDownloads } from "@/hooks/useDownloads";
-import { getAlbumCover, getAlbumBadge, getTrackCoverUrl } from "@/lib/album-covers";
+import { getAlbumCover, getAlbumBadge, getTrackCoverUrl, getAlbumCoverImageUrl } from "@/lib/album-covers";
 import TrackRow from "@/components/music/TrackRow";
 import { useAlbumVersions, type AlbumVersion } from "@/hooks/useAlbumVersions";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
@@ -131,6 +131,10 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
   const totalDuration = album.tracks.reduce((acc, t) => acc + t.durationSeconds, 0);
   const totalMinutes = Math.ceil(totalDuration / 60);
   const albumColor = album.color;
+  // Capa principal: 1) capa do álbum (Midjourney/manual), 2) capa Suno da
+  // faixa escolhida em getCoverTrack, 3) pose Loranne. As duas primeiras são
+  // tentadas via <Image onError> (cascata).
+  const albumCover = getAlbumCoverImageUrl(album.slug);
   const sunoCover = getTrackCoverUrl(album.slug, getCoverTrack(album.slug));
   const poseCover = getAlbumCover(album);
   const badge = getAlbumBadge(album);
@@ -142,13 +146,20 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
         {/* Background image blur */}
         <div className="absolute inset-0">
           <Image
-            src={sunoCover}
+            src={albumCover}
             alt=""
             fill
             className="absolute inset-0 w-full h-full object-cover blur-[60px] scale-110 opacity-30"
             quality={20}
             unoptimized
-            onError={(e) => { (e.target as HTMLImageElement).src = poseCover; }}
+            onError={(e) => {
+              const img = e.target as HTMLImageElement;
+              if (img.src.indexOf(sunoCover) === -1 && img.src.indexOf(poseCover) === -1) {
+                img.src = sunoCover;
+              } else if (img.src.indexOf(sunoCover) !== -1) {
+                img.src = poseCover;
+              }
+            }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D1A]/50 via-[#0D0D1A]/80 to-[#0D0D1A]" />
         </div>
@@ -168,14 +179,21 @@ export default function AlbumPage({ params }: { params: Promise<{ slug: string }
             {/* Album art */}
             <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-xl shadow-2xl shrink-0 overflow-hidden relative">
               <Image
-                src={sunoCover}
+                src={albumCover}
                 alt={album.title}
                 width={240}
                 height={240}
                 className="absolute inset-0 w-full h-full object-cover"
                 priority
                 unoptimized
-                onError={(e) => { (e.target as HTMLImageElement).src = poseCover; }}
+                onError={(e) => {
+              const img = e.target as HTMLImageElement;
+              if (img.src.indexOf(sunoCover) === -1 && img.src.indexOf(poseCover) === -1) {
+                img.src = sunoCover;
+              } else if (img.src.indexOf(sunoCover) !== -1) {
+                img.src = poseCover;
+              }
+            }}
               />
               <div
                 className="absolute inset-0 opacity-20 mix-blend-multiply"
