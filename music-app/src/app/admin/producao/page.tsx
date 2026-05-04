@@ -2410,6 +2410,13 @@ export default function AlbumProductionPage() {
             </Link>
 
             <Link
+              href="/admin/venna"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-orange-900/30 px-4 py-2.5 text-xs min-h-[44px] text-orange-300 hover:bg-orange-900/50 transition flex items-center"
+            >
+              VENNA
+            </Link>
+
+            <Link
               href="/admin/albums"
               className="shrink-0 whitespace-nowrap rounded-lg bg-indigo-900/30 px-4 py-2.5 text-xs min-h-[44px] text-indigo-300 hover:bg-indigo-900/50 transition flex items-center"
             >
