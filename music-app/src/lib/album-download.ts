@@ -14,6 +14,7 @@
 
 import JSZip from "jszip";
 import type { Album } from "@/data/albums";
+import { getArtist } from "@/data/albums";
 
 /** Convert MP3 blob to WAV blob using AudioContext */
 async function mp3ToWav(mp3Blob: Blob): Promise<Blob> {
@@ -117,7 +118,7 @@ export async function downloadAlbumForDistribution(
 ): Promise<void> {
   const zip = new JSZip();
   const total = album.tracks.length;
-  const artistName = "Loranne";
+  const artistName = getArtist(album);
   const folderName = `${artistName} - ${album.title}`;
 
   // 1. Download and convert each track to WAV
