@@ -126,7 +126,7 @@ function MiniPlayer({ src }: { src: string }) {
 
 function TrackCard({
   album, track, state, sunoModel, personaId,
-  onGenerate, onApprove, onDownload,
+  onGenerate, onApprove, onDownload, onUploadCover,
 }: {
   album: Album;
   track: AlbumTrack;
@@ -136,7 +136,11 @@ function TrackCard({
   onGenerate: () => void;
   onApprove: (clips: SunoClip[]) => void;
   onDownload: (url: string, title: string) => void;
+  onUploadCover: (file: File) => Promise<void>;
 }) {
+  const coverInputRef = useRef<HTMLInputElement>(null);
+  const [uploadingCover, setUploadingCover] = useState(false);
+  const [coverMsg, setCoverMsg] = useState<string>("");
   const [showStyle, setShowStyle] = useState(false);
   const [showLyrics, setShowLyrics] = useState(false);
 
@@ -269,6 +273,46 @@ function TrackCard({
           )}
         </div>
       )}
+
+      {/* Custom cover upload (Midjourney) */}
+      <div className="mt-3 pt-3 border-t border-mundo-muted-dark/20">
+        <input
+          ref={coverInputRef}
+          type="file"
+          accept="image/jpeg,image/png,image/webp"
+          className="hidden"
+          onChange={async (e) => {
+            const file = e.target.files?.[0];
+            if (!file) return;
+            setUploadingCover(true);
+            setCoverMsg("");
+            try {
+              await onUploadCover(file);
+              setCoverMsg(`Capa enviada (${Math.round(file.size / 1024)}KB)`);
+              setTimeout(() => setCoverMsg(""), 3000);
+            } catch (err: unknown) {
+              setCoverMsg(`Erro: ${err instanceof Error ? err.message : String(err)}`);
+            } finally {
+              setUploadingCover(false);
+              if (coverInputRef.current) coverInputRef.current.value = "";
+            }
+          }}
+        />
+        <button
+          onClick={() => coverInputRef.current?.click()}
+          disabled={uploadingCover}
+          className={`w-full rounded-lg px-3 py-2 text-[11px] transition ${
+            uploadingCover
+              ? "bg-pink-900/20 text-pink-500 animate-pulse cursor-wait"
+              : "bg-pink-900/30 text-pink-300 hover:bg-pink-900/50"
+          }`}
+        >
+          {uploadingCover ? "A enviar capa..." : "Carregar capa Midjourney"}
+        </button>
+        {coverMsg && (
+          <p className="text-[10px] text-mundo-muted mt-1 text-center break-words">{coverMsg}</p>
+        )}
+      </div>
     </div>
   );
 }
@@ -508,6 +552,61 @@ export default function NovaAdminPage() {
     }
   }
 
+  // Upload custom cover (Midjourney etc.) — replaces faixa-XX-cover.jpg
+  async function uploadCustomCover(album: Album, track: AlbumTrack, file: File) {
+    const tn = String(track.number).padStart(2, "0");
+    if (file.size < 1000) throw new Error("Ficheiro demasiado pequeno.");
+    if (file.size > 10 * 1024 * 1024) throw new Error("Ficheiro > 10MB. Reduz primeiro.");
+
+    // Always store as JPG (extension consistent with stream proxy)
+    const filename = `albums/${album.slug}/faixa-${tn}-cover.jpg`;
+    const sign = await adminFetch("/api/admin/signed-upload-url", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ filename }),
+    });
+    if (!sign.ok) {
+      const e = await sign.json().catch(() => ({}));
+      throw new Error(`Signed URL falhou (${sign.status}): ${e.erro || ""}`);
+    }
+    const { signedUrl } = await sign.json();
+    // Force JPEG content-type — Supabase will store the bytes as-is. PNG/WebP
+    // bytes served as image/jpeg ainda funcionam para browsers e o stream
+    // proxy serve por extensão, não MIME.
+    const contentType = file.type.startsWith("image/") ? file.type : "image/jpeg";
+    const up = await fetch(signedUrl, {
+      method: "PUT",
+      headers: { "Content-Type": contentType },
+      body: file,
+    });
+    if (!up.ok) {
+      const t = await up.text().catch(() => "");
+      throw new Error(`Upload falhou (${up.status}): ${t.slice(0, 100)}`);
+    }
+  }
+
+  // Download album as DistroKid-ready ZIP (WAVs + cover 3000x3000 + metadata)
+  async function downloadDistrokidZip(album: Album, btn: HTMLButtonElement) {
+    const original = btn.textContent || "DistroKid ZIP";
+    btn.disabled = true;
+    try {
+      const { downloadAlbumForDistribution } = await import("@/lib/album-download");
+      const coverInput = window.prompt(`Capa do álbum — qual faixa? (1-${album.tracks.length})`, "1");
+      const coverTrackNum = coverInput ? parseInt(coverInput, 10) : 1;
+      await downloadAlbumForDistribution(
+        album,
+        (p) => { btn.textContent = `${p.phase} (${p.current}/${p.total})`; },
+        undefined, // no custom title map for NOVA — usa o título original
+        coverTrackNum,
+      );
+      btn.textContent = "ZIP pronto!";
+    } catch (e) {
+      btn.textContent = "Erro";
+      alert(String(e));
+    }
+    setTimeout(() => { btn.disabled = false; btn.textContent = original; }, 3000);
+  }
+
   // Download a clip
   async function downloadClip(url: string, title: string) {
     try {
@@ -653,24 +752,41 @@ export default function NovaAdminPage() {
               </button>
 
               {isOpen && (
-                <div className="border-t border-mundo-muted-dark/20 p-4 grid gap-3 sm:grid-cols-2">
-                  {album.tracks.map((track) => {
-                    const key = trackKey(album.slug, track.number);
-                    return (
-                      <TrackCard
-                        key={key}
-                        album={album}
-                        track={track}
-                        state={getState(key)}
-                        sunoModel={sunoModel}
-                        personaId={personaId}
-                        onGenerate={() => generateTrack(album, track)}
-                        onApprove={(clips) => approveTrack(album, track, clips)}
-                        onDownload={downloadClip}
-                      />
-                    );
-                  })}
-                </div>
+                <>
+                  {/* Album-level actions */}
+                  <div className="border-t border-mundo-muted-dark/20 p-4 flex flex-wrap gap-2">
+                    <button
+                      id={`distro-btn-${album.slug}`}
+                      onClick={(e) => downloadDistrokidZip(album, e.currentTarget as HTMLButtonElement)}
+                      className="rounded-lg bg-green-700/80 px-3 py-2 text-xs font-medium text-white hover:bg-green-800 transition"
+                    >
+                      DistroKid ZIP
+                    </button>
+                    <p className="text-[10px] text-mundo-muted self-center">
+                      Empacota WAVs + capa 3000×3000 (faixa 1) + metadata.txt para upload manual no DistroKid
+                    </p>
+                  </div>
+
+                  <div className="border-t border-mundo-muted-dark/20 p-4 grid gap-3 sm:grid-cols-2">
+                    {album.tracks.map((track) => {
+                      const key = trackKey(album.slug, track.number);
+                      return (
+                        <TrackCard
+                          key={key}
+                          album={album}
+                          track={track}
+                          state={getState(key)}
+                          sunoModel={sunoModel}
+                          personaId={personaId}
+                          onGenerate={() => generateTrack(album, track)}
+                          onApprove={(clips) => approveTrack(album, track, clips)}
+                          onDownload={downloadClip}
+                          onUploadCover={(file) => uploadCustomCover(album, track, file)}
+                        />
+                      );
+                    })}
+                  </div>
+                </>
               )}
             </div>
           );
