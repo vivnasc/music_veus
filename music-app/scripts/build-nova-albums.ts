@@ -34,6 +34,7 @@
 
 import { readFileSync, writeFileSync, readdirSync } from "fs";
 import { resolve, join } from "path";
+import { ALBUM_SUBTITLES, TRACK_DESCRIPTIONS } from "./nova-overrides";
 
 const NOVA_DIR = resolve(__dirname, "..", "NOVA");
 const OUTPUT = resolve(__dirname, "..", "src", "data", "nova-albums.ts");
@@ -43,52 +44,52 @@ const ALBUM_META: Record<number, { slug: string; color: string; subtitle: string
   1: {
     slug: "nova-static",
     color: "#3b3b6e",
-    subtitle: "o diagnóstico — NOVA acorda quem ouve",
+    subtitle: ALBUM_SUBTITLES["nova-static"],
   },
   2: {
     slug: "nova-skin",
     color: "#a05a6e",
-    subtitle: "a reentrada na carne — de volta ao corpo",
+    subtitle: ALBUM_SUBTITLES["nova-skin"],
   },
   3: {
     slug: "nova-machine",
     color: "#5a6e8a",
-    subtitle: "a fronteira humano-máquina — IA, ecrãs, pós-humano",
+    subtitle: ALBUM_SUBTITLES["nova-machine"],
   },
   4: {
     slug: "nova-alone",
     color: "#6e6e8a",
-    subtitle: "a epidemia da solidão — ligados e sozinhos",
+    subtitle: ALBUM_SUBTITLES["nova-alone"],
   },
   5: {
     slug: "nova-burn",
     color: "#a85a3b",
-    subtitle: "a raiva sagrada — fogo que purifica",
+    subtitle: ALBUM_SUBTITLES["nova-burn"],
   },
   6: {
     slug: "nova-water",
     color: "#5a8aa8",
-    subtitle: "a entrega — fluir, chorar, dissolver",
+    subtitle: ALBUM_SUBTITLES["nova-water"],
   },
   7: {
     slug: "nova-air",
     color: "#a8c0c8",
-    subtitle: "a liberdade — respirar, voar, partir",
+    subtitle: ALBUM_SUBTITLES["nova-air"],
   },
   8: {
     slug: "nova-time",
     color: "#8a7e5a",
-    subtitle: "o tempo — presença, ancestral, futuro",
+    subtitle: ALBUM_SUBTITLES["nova-time"],
   },
   9: {
     slug: "nova-love",
     color: "#c08aaa",
-    subtitle: "o amor — sem performance, sem ecrã",
+    subtitle: ALBUM_SUBTITLES["nova-love"],
   },
   10: {
     slug: "nova-light",
     color: "#e8d8a8",
-    subtitle: "a entrega final — NOVA dissolve-se na luz",
+    subtitle: ALBUM_SUBTITLES["nova-light"],
   },
 };
 
@@ -205,10 +206,15 @@ function serializeAlbums(albums: ParsedAlbum[]): string {
 
     const trackBlocks = a.tracks.map((t) => {
       const durationGuess = 240; // default 4 min — Suno cap; pode ser editado depois
+      // Descrição editorial poética em PT (override) — não a linha técnica
+      // do .md ("Hino · 100 BPM · viral"), que fica reservada para o parser
+      // detectar a energia. Se não houver override, cai para a linha do .md.
+      const overrideDesc = TRACK_DESCRIPTIONS[`${meta.slug}/${t.number}`];
+      const description = overrideDesc ?? t.description;
       return `    {
       number: ${t.number},
       title: ${JSON.stringify(t.title)},
-      description: ${JSON.stringify(t.description)},
+      description: ${JSON.stringify(description)},
       lang: "EN" as const,
       energy: ${JSON.stringify(t.energy)} as TrackEnergy,
       flavor: null,
