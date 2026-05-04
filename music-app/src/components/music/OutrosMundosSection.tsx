@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ALL_ALBUMS, getArtist } from "@/data/albums";
-import { getTrackCoverUrl } from "@/lib/album-covers";
+import { getTrackCoverUrl, getAlbumCoverImageUrl } from "@/lib/album-covers";
 
 const OTHER_WORLDS_PRODUCTS = ["ancient-ground", "nova"] as const;
 
@@ -37,12 +37,21 @@ export default function OutrosMundosSection() {
               >
                 {coverTrack && (
                   <Image
-                    src={getTrackCoverUrl(album.slug, coverTrack.number)}
+                    src={getAlbumCoverImageUrl(album.slug)}
                     alt={album.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform brightness-[0.4]"
                     unoptimized
-                    onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                    onError={(e) => {
+                      // Sem capa do álbum carregada → cai para a capa Suno da faixa 1.
+                      const img = e.target as HTMLImageElement;
+                      const trackUrl = getTrackCoverUrl(album.slug, coverTrack.number);
+                      if (img.src.indexOf(trackUrl) === -1) {
+                        img.src = trackUrl;
+                      } else {
+                        img.style.display = "none";
+                      }
+                    }}
                   />
                 )}
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">

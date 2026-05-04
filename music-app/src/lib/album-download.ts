@@ -138,15 +138,22 @@ export async function downloadAlbumForDistribution(
     zip.file(`${folderName}/${padNum} - ${safeTitle}.wav`, wavBlob);
   }
 
-  // 2. Cover image (3000x3000)
+  // 2. Cover image (3000x3000) — tenta capa do álbum (track=0) primeiro,
+  // depois cai para a capa Suno da faixa escolhida.
   onProgress?.({ phase: "A preparar capa (3000x3000)", current: total + 1, total: total + 2 });
-  try {
-    const coverNum = coverTrackNumber || 1;
-    const coverUrl = `/api/music/stream?album=${encodeURIComponent(album.slug)}&track=${coverNum}&type=cover`;
-    const coverBlob = await upscaleCover(coverUrl);
-    zip.file(`${folderName}/cover.jpg`, coverBlob);
-  } catch {
-    // If no Suno cover, skip
+  const coverNum = coverTrackNumber || 1;
+  const candidates = [
+    `/api/music/stream?album=${encodeURIComponent(album.slug)}&track=0&type=cover`,
+    `/api/music/stream?album=${encodeURIComponent(album.slug)}&track=${coverNum}&type=cover`,
+  ];
+  for (const coverUrl of candidates) {
+    try {
+      const probe = await fetch(coverUrl, { method: "HEAD" });
+      if (!probe.ok) continue;
+      const coverBlob = await upscaleCover(coverUrl);
+      zip.file(`${folderName}/cover.jpg`, coverBlob);
+      break;
+    } catch { /* tenta próximo */ }
   }
 
   // 3. Metadata file

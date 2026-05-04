@@ -148,6 +148,17 @@ export function getTrackCoverUrl(albumSlug: string, trackNumber: number): string
   return `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNumber}&type=cover&v=${cb}`;
 }
 
+/**
+ * URL para a capa do ÁLBUM (única, separada das capas por faixa).
+ * Esta capa é carregada manualmente (ex: Midjourney) em
+ * albums/<slug>/cover.<ext>. Se não existir, o stream proxy devolve 404 — o
+ * caller deve ter onError-fallback para getTrackCoverUrl da faixa de capa.
+ */
+export function getAlbumCoverImageUrl(albumSlug: string): string {
+  const cb = Math.floor(Date.now() / 300000);
+  return `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=0&type=cover&v=${cb}`;
+}
+
 /** Label para o badge do album — so o nome, sem prefixo */
 export function getAlbumBadge(album: Album): string | null {
   if (!album.veu) return null;

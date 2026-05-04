@@ -56,23 +56,28 @@ export async function GET(req: NextRequest) {
   // ── COVER IMAGE ──
   if (type === "cover") {
     const extensions = ["jpg", "png", "jpeg", "webp"];
+    // track=0 → capa do álbum (cover.<ext>) — uploaded à parte (Midjourney
+    // etc.). track>=1 → capa Suno por faixa (faixa-XX-cover.<ext>). As duas
+    // vivem em paralelo: a capa do álbum NÃO substitui as capas por faixa.
+    const isAlbumCover = parseInt(track, 10) === 0;
+    const folder = `albums/${safeAlbum}`;
     for (const ext of extensions) {
-      for (const folder of [`albums/${safeAlbum}`]) {
-        const url = `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${folder}/faixa-${safeTrack}-cover.${ext}`;
-        const res = await fetch(url);
-        if (res.ok) {
-          const contentType = ext === "jpg" || ext === "jpeg" ? "image/jpeg"
-            : ext === "png" ? "image/png"
-            : "image/webp";
-          return new NextResponse(res.body, {
-            status: 200,
-            headers: {
-              "Content-Type": contentType,
-              "Cache-Control": "public, max-age=300, s-maxage=300",
-              "Content-Length": res.headers.get("content-length") || "",
-            },
-          });
-        }
+      const url = isAlbumCover
+        ? `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${folder}/cover.${ext}`
+        : `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${folder}/faixa-${safeTrack}-cover.${ext}`;
+      const res = await fetch(url);
+      if (res.ok) {
+        const contentType = ext === "jpg" || ext === "jpeg" ? "image/jpeg"
+          : ext === "png" ? "image/png"
+          : "image/webp";
+        return new NextResponse(res.body, {
+          status: 200,
+          headers: {
+            "Content-Type": contentType,
+            "Cache-Control": "public, max-age=300, s-maxage=300",
+            "Content-Length": res.headers.get("content-length") || "",
+          },
+        });
       }
     }
     return NextResponse.json({ error: "Cover não encontrada" }, { status: 404 });
