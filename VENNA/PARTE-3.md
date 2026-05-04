@@ -36,10 +36,10 @@ Some men leave the room when they leave
 But you left a country my skin can't grieve
 
 [Chorus: layered harmonies, sensual]
-Skin memory, skin memory
-The kind that doesn't ever set me free
-Skin memory, skin memory
-You're written under everything I be
+You stayed under the surface of me
+Years gone by but the body still knows
+Hands that aren't here, touch I can't undo
+Back to skin memory
 
 [Verse 2: vocal close, more intense]
 I'm with someone good, I'm with someone right
@@ -52,10 +52,10 @@ Some men leave the room when they leave
 But you left a country my skin can't grieve
 
 [Chorus: full harmonies]
-Skin memory, skin memory
-The kind that doesn't ever set me free
-Skin memory, skin memory
-You're written under everything I be
+You stayed under the surface of me
+Years gone by but the body still knows
+Hands that aren't here, touch I can't undo
+Back to skin memory
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian — sultry]
 (European Portuguese, Portugal accent:)
@@ -65,10 +65,10 @@ A minha cabeça esquece
 Mas o corpo está presente
 
 [Final Chorus: full harmonies]
-Skin memory, skin memory
-The kind that doesn't ever set me free
-Skin memory, skin memory
-You're written under everything I be
+You stayed under the surface of me
+Years gone by but the body still knows
+Hands that aren't here, touch I can't undo
+Back to skin memory
 
 [Outro: vocal whispered, sultry]
 skin... memory...
@@ -105,10 +105,10 @@ I'm not a beginner, I'm not afraid
 But you found a country I never made
 
 [Chorus: layered harmonies, sensual]
-Teach me, teach me
-What my body never knew it could be
-Teach me, teach me
-Open the door of the locked degree
+Show me what my body didn't know
+Open the door I never tried to open
+Slow hands, no hurry, no map at all
+Teach me
 
 [Verse 2: vocal close, surrendered]
 I came here thinking I'd guide the show
@@ -121,10 +121,10 @@ I'm not a beginner, I'm not afraid
 But you found a country I never made
 
 [Chorus: full harmonies]
-Teach me, teach me
-What my body never knew it could be
-Teach me, teach me
-Open the door of the locked degree
+Show me what my body didn't know
+Open the door I never tried to open
+Slow hands, no hurry, no map at all
+Teach me
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian — sultry]
 (European Portuguese, Portugal accent:)
@@ -134,10 +134,10 @@ Eu pensei que sabia
 Mas tu mostraste-me a lei
 
 [Final Chorus: full harmonies]
-Teach me, teach me
-What my body never knew it could be
-Teach me, teach me
-Open the door of the locked degree
+Show me what my body didn't know
+Open the door I never tried to open
+Slow hands, no hurry, no map at all
+Teach me
 
 [Outro: vocal whispered, sultry]
 teach... me...
@@ -174,10 +174,10 @@ Every glance is a tiny match
 Every touch is a tiny catch
 
 [Chorus: layered harmonies, tense]
-Slow burn, slow burn
 The kind that takes a season to learn
-Slow burn, slow burn
-The longer it builds the more it'll earn
+Every glance has been holding the spark
+The longer it builds, the deeper it burns
+Watch the slow burn
 
 [Verse 2: vocal close]
 Tonight you offered to walk me home
@@ -190,10 +190,10 @@ Every glance is a tiny match
 Every touch is a tiny catch
 
 [Chorus: full harmonies]
-Slow burn, slow burn
 The kind that takes a season to learn
-Slow burn, slow burn
-The longer it builds the more it'll earn
+Every glance has been holding the spark
+The longer it builds, the deeper it burns
+Watch the slow burn
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -203,10 +203,10 @@ Queima-me devagar
 Que assim a noite começa
 
 [Final Chorus: full harmonies]
-Slow burn, slow burn
 The kind that takes a season to learn
-Slow burn, slow burn
-The longer it builds the more it'll earn
+Every glance has been holding the spark
+The longer it builds, the deeper it burns
+Watch the slow burn
 
 [Outro: vocal whispered]
 slow... burn...
@@ -245,10 +245,10 @@ Don't tell me time, don't tell me sleep
 This is the kind of night I keep
 
 [Chorus: layered harmonies, sensual]
-Encore, encore
-Once more, once more, give me more
-Encore, encore
-Wear me out till my body's sore
+Une fois de plus, give me more
+Wear me out till the morning shows
+Don't ask why, don't ask the time
+Encore
 
 [Verse 2: vocal close, indulgent]
 You laughed and pretended you needed rest
@@ -261,10 +261,10 @@ Don't tell me time, don't tell me sleep
 This is the kind of night I keep
 
 [Chorus: full harmonies]
-Encore, encore
-Once more, once more, give me more
-Encore, encore
-Wear me out till my body's sore
+Une fois de plus, give me more
+Wear me out till the morning shows
+Don't ask why, don't ask the time
+Encore
 
 [Bridge: French, intimate Parisian whisper]
 (French, intimate whisper:)
@@ -274,10 +274,10 @@ Je ne suis pas pressée
 De voir la lune
 
 [Final Chorus: full harmonies]
-Encore, encore
-Once more, once more, give me more
-Encore, encore
-Wear me out till my body's sore
+Une fois de plus, give me more
+Wear me out till the morning shows
+Don't ask why, don't ask the time
+Encore
 
 [Outro: vocal whispered French, sultry]
 (French whisper:)
@@ -315,10 +315,10 @@ The bed got bigger, the wine got better
 And I stopped writing you every letter
 
 [Chorus: layered harmonies, breezy]
-Didn't miss you, didn't miss you
-Sorry baby that's the actual issue
-Didn't miss you, didn't miss you
-Took your absence like a personal tissue
+Sorry baby, that's the truth I owe
+Slept just fine, ate the breakfast slow
+Cried for a week and got over the rest
+Didn't miss you
 
 [Verse 2: vocal close, smirk]
 You're not a villain, you're just not it
@@ -331,10 +331,10 @@ The bed got bigger, the wine got better
 And I stopped writing you every letter
 
 [Chorus: full harmonies]
-Didn't miss you, didn't miss you
-Sorry baby that's the actual issue
-Didn't miss you, didn't miss you
-Took your absence like a personal tissue
+Sorry baby, that's the truth I owe
+Slept just fine, ate the breakfast slow
+Cried for a week and got over the rest
+Didn't miss you
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -344,10 +344,10 @@ A minha vida ficou
 Maior sem ti, mais cumprido
 
 [Final Chorus: full harmonies]
-Didn't miss you, didn't miss you
-Sorry baby that's the actual issue
-Didn't miss you, didn't miss you
-Took your absence like a personal tissue
+Sorry baby, that's the truth I owe
+Slept just fine, ate the breakfast slow
+Cried for a week and got over the rest
+Didn't miss you
 
 [Outro: vocal whispered, smirking]
 didn't... miss you...
@@ -384,10 +384,10 @@ Come closer, baby, come this way
 Let me leave a mark before you stray
 
 [Chorus: layered harmonies, sensual]
-Kiss the collar, kiss the collar
-A little reminder for the long hour
-Kiss the collar, kiss the collar
-A small red flower of my power
+A little mark for the long hours away
+A small red print, soft as a sigh
+Wear it tomorrow, you'll think of me
+Kiss the collar
 
 [Verse 2: vocal close, soft authority]
 The shirt is white but the lipstick's red
@@ -400,10 +400,10 @@ Come closer, baby, come this way
 Let me leave a mark before you stray
 
 [Chorus: full harmonies]
-Kiss the collar, kiss the collar
-A little reminder for the long hour
-Kiss the collar, kiss the collar
-A small red flower of my power
+A little mark for the long hours away
+A small red print, soft as a sigh
+Wear it tomorrow, you'll think of me
+Kiss the collar
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian — sultry]
 (European Portuguese, Portugal accent:)
@@ -413,10 +413,10 @@ Vais para a noite
 Mas és para voltar
 
 [Final Chorus: full harmonies]
-Kiss the collar, kiss the collar
-A little reminder for the long hour
-Kiss the collar, kiss the collar
-A small red flower of my power
+A little mark for the long hours away
+A small red print, soft as a sigh
+Wear it tomorrow, you'll think of me
+Kiss the collar
 
 [Outro: vocal whispered, possessive]
 kiss... the collar...
@@ -453,10 +453,10 @@ Don't write a poem, don't take a photo
 I want a memory that goes much slow-er
 
 [Chorus: layered harmonies, sensual]
-Remember me, remember me
-Like a song you can't turn off easily
-Remember me, remember me
-A taste in your mouth that won't ever flee
+Like a song you can't turn off
+A taste that lingers in your throat
+Years from now, on an ordinary day
+You'll remember me
 
 [Verse 2: vocal close, intense]
 You can date a thousand women someday
@@ -469,10 +469,10 @@ Don't write a poem, don't take a photo
 I want a memory that goes much slow-er
 
 [Chorus: full harmonies]
-Remember me, remember me
-Like a song you can't turn off easily
-Remember me, remember me
-A taste in your mouth that won't ever flee
+Like a song you can't turn off
+A taste that lingers in your throat
+Years from now, on an ordinary day
+You'll remember me
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian — intense]
 (European Portuguese, Portugal accent:)
@@ -482,10 +482,10 @@ Mas como o sítio
 Que ficou no teu olfato
 
 [Final Chorus: full harmonies]
-Remember me, remember me
-Like a song you can't turn off easily
-Remember me, remember me
-A taste in your mouth that won't ever flee
+Like a song you can't turn off
+A taste that lingers in your throat
+Years from now, on an ordinary day
+You'll remember me
 
 [Outro: vocal whispered, intense]
 remember... me...
@@ -525,10 +525,10 @@ The DJ knows what the hour wants
 The melody breathes like a plant
 
 [Chorus: layered harmonies]
-Sunset club, sunset club
-Where the music doesn't ever push or shove
-Sunset club, sunset club
-Where the world becomes the kind we love
+Where the music doesn't push or shove
+Sky going pink, the bass low and warm
+Bare feet, soft light, hands above
+Welcome to the sunset club
 
 [Verse 2: vocal close]
 Your hand is on the small of my back
@@ -541,10 +541,10 @@ The DJ knows what the hour wants
 The melody breathes like a plant
 
 [Chorus: full harmonies]
-Sunset club, sunset club
-Where the music doesn't ever push or shove
-Sunset club, sunset club
-Where the world becomes the kind we love
+Where the music doesn't push or shove
+Sky going pink, the bass low and warm
+Bare feet, soft light, hands above
+Welcome to the sunset club
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -554,10 +554,10 @@ A vida está doce
 Como ela é, sem mira
 
 [Final Chorus: full harmonies]
-Sunset club, sunset club
-Where the music doesn't ever push or shove
-Sunset club, sunset club
-Where the world becomes the kind we love
+Where the music doesn't push or shove
+Sky going pink, the bass low and warm
+Bare feet, soft light, hands above
+Welcome to the sunset club
 
 [Outro: vocal whispered]
 sunset... club...
@@ -594,10 +594,10 @@ The bass is gentle, the night is wide
 The whole horizon's on our side
 
 [Chorus: layered harmonies, warm]
-Sunset on the water, sunset on the water
-Holding us soft like a kindly daughter
-Sunset on the water, sunset on the water
-Don't make me leave this slow slaughter
+Salt on the skin and the wine in our hand
+The kind of week the body understands
+Don't ask me to leave, don't pack the day
+Sunset on the water
 
 [Verse 2: vocal close]
 The cocktails came in colours you can't fake
@@ -610,10 +610,10 @@ The bass is gentle, the night is wide
 The whole horizon's on our side
 
 [Chorus: full harmonies]
-Sunset on the water, sunset on the water
-Holding us soft like a kindly daughter
-Sunset on the water, sunset on the water
-Don't make me leave this slow slaughter
+Salt on the skin and the wine in our hand
+The kind of week the body understands
+Don't ask me to leave, don't pack the day
+Sunset on the water
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -623,10 +623,10 @@ Não me peças para sair
 Que esta noite é nossa
 
 [Final Chorus: full harmonies]
-Sunset on the water, sunset on the water
-Holding us soft like a kindly daughter
-Sunset on the water, sunset on the water
-Don't make me leave this slow slaughter
+Salt on the skin and the wine in our hand
+The kind of week the body understands
+Don't ask me to leave, don't pack the day
+Sunset on the water
 
 [Outro: vocal whispered]
 sunset... on the water...
@@ -663,10 +663,10 @@ This is the part of the day I earn
 The slow hour where my engines turn
 
 [Chorus: layered harmonies, easy]
-Lounge chair, lounge chair
-Holding me soft like the kindest air
-Lounge chair, lounge chair
-No appointments, no nowhere
+The slowest hour I've earned all year
+The book is open but I don't care
+Sun on my arm, a drink in reach
+Just a lounge chair
 
 [Verse 2: vocal close]
 The breeze is doing its gentle work
@@ -679,10 +679,10 @@ This is the part of the day I earn
 The slow hour where my engines turn
 
 [Chorus: full harmonies]
-Lounge chair, lounge chair
-Holding me soft like the kindest air
-Lounge chair, lounge chair
-No appointments, no nowhere
+The slowest hour I've earned all year
+The book is open but I don't care
+Sun on my arm, a drink in reach
+Just a lounge chair
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -692,10 +692,10 @@ Não tenho que fazer
 Não tenho que ser ninguém
 
 [Final Chorus: full harmonies]
-Lounge chair, lounge chair
-Holding me soft like the kindest air
-Lounge chair, lounge chair
-No appointments, no nowhere
+The slowest hour I've earned all year
+The book is open but I don't care
+Sun on my arm, a drink in reach
+Just a lounge chair
 
 [Outro: vocal whispered]
 lounge... chair...
@@ -732,10 +732,10 @@ The DJ's quiet, the night is wide
 The stories falling on every side
 
 [Chorus: layered harmonies, warm]
-Midnight terrace, midnight terrace
 Friends and the moon and a bit of solace
-Midnight terrace, midnight terrace
-This kind of evening is a soft promise
+The city below, the sky above us
+Stars and stories that won't quite finish
+Midnight terrace
 
 [Verse 2: vocal close]
 You raised your glass, you said something kind
@@ -748,10 +748,10 @@ The DJ's quiet, the night is wide
 The stories falling on every side
 
 [Chorus: full harmonies]
-Midnight terrace, midnight terrace
 Friends and the moon and a bit of solace
-Midnight terrace, midnight terrace
-This kind of evening is a soft promise
+The city below, the sky above us
+Stars and stories that won't quite finish
+Midnight terrace
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -761,10 +761,10 @@ Esta noite vai ficar
 Por muito tempo a contar
 
 [Final Chorus: full harmonies]
-Midnight terrace, midnight terrace
 Friends and the moon and a bit of solace
-Midnight terrace, midnight terrace
-This kind of evening is a soft promise
+The city below, the sky above us
+Stars and stories that won't quite finish
+Midnight terrace
 
 [Outro: vocal whispered]
 midnight... terrace...
@@ -803,10 +803,10 @@ The afternoon stretches like a cat
 The world can wait outside the gate
 
 [Chorus: layered harmonies, elegant]
-Poolside French, poolside French
-The kind of luxury that doesn't clench
-Poolside French, poolside French
-Soft like a sentence on a velvet bench
+Sun on white chairs, the pool gone still
+Mot à mot we let the day distill
+Cucumber on the rim, no place to be
+Poolside French
 
 [Verse 2: vocal close]
 You order something I can't pronounce
@@ -819,10 +819,10 @@ The afternoon stretches like a cat
 The world can wait outside the gate
 
 [Chorus: full harmonies]
-Poolside French, poolside French
-The kind of luxury that doesn't clench
-Poolside French, poolside French
-Soft like a sentence on a velvet bench
+Sun on white chairs, the pool gone still
+Mot à mot we let the day distill
+Cucumber on the rim, no place to be
+Poolside French
 
 [Bridge: French, intimate Parisian whisper]
 (French, intimate whisper:)
@@ -832,10 +832,10 @@ Je ne veux pas bouger
 Je veux rester ici, ma belle
 
 [Final Chorus: full harmonies]
-Poolside French, poolside French
-The kind of luxury that doesn't clench
-Poolside French, poolside French
-Soft like a sentence on a velvet bench
+Sun on white chairs, the pool gone still
+Mot à mot we let the day distill
+Cucumber on the rim, no place to be
+Poolside French
 
 [Outro: vocal whispered French, fading]
 (French whisper:)
@@ -873,10 +873,10 @@ The bass is hypnotic, the lights are slow
 The hours are dropping their final glow
 
 [Chorus: layered harmonies, floating]
-After hours, after hours
-When the night becomes its softest of powers
-After hours, after hours
-The real ones stay till the morning showers
+When the night gets soft and the lights go warm
+The real ones stay till the morning forms
+Conversations dropping quiet as snow
+After hours
 
 [Verse 2: vocal close, hypnotic]
 You and I and seven souls
@@ -889,10 +889,10 @@ The bass is hypnotic, the lights are slow
 The hours are dropping their final glow
 
 [Chorus: full harmonies]
-After hours, after hours
-When the night becomes its softest of powers
-After hours, after hours
-The real ones stay till the morning showers
+When the night gets soft and the lights go warm
+The real ones stay till the morning forms
+Conversations dropping quiet as snow
+After hours
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -902,10 +902,10 @@ A noite respira
 E a manhã desossa
 
 [Final Chorus: full harmonies]
-After hours, after hours
-When the night becomes its softest of powers
-After hours, after hours
-The real ones stay till the morning showers
+When the night gets soft and the lights go warm
+The real ones stay till the morning forms
+Conversations dropping quiet as snow
+After hours
 
 [Outro: vocal whispered, hypnotic]
 after... hours...
@@ -942,10 +942,10 @@ The first light's coming, the streets are clean
 This is the prize for staying serene
 
 [Chorus: layered harmonies]
-Drive home slow, drive home slow
 Don't let the morning hurry the show
-Drive home slow, drive home slow
-Take the long way, that's how we go
+Take the long way, the radio low
+City still soft, the night still warm
+Drive home slow
 
 [Verse 2: vocal close]
 You're not in any kind of rush
@@ -958,10 +958,10 @@ The first light's coming, the streets are clean
 This is the prize for staying serene
 
 [Chorus: full harmonies]
-Drive home slow, drive home slow
 Don't let the morning hurry the show
-Drive home slow, drive home slow
-Take the long way, that's how we go
+Take the long way, the radio low
+City still soft, the night still warm
+Drive home slow
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -971,10 +971,10 @@ A noite foi grande
 Não deixes que esqueça a alma
 
 [Final Chorus: full harmonies]
-Drive home slow, drive home slow
 Don't let the morning hurry the show
-Drive home slow, drive home slow
-Take the long way, that's how we go
+Take the long way, the radio low
+City still soft, the night still warm
+Drive home slow
 
 [Outro: vocal whispered]
 drive... home... slow...
