@@ -47,14 +47,21 @@ function parseAllParts(): Map<number, RawTrack[]> {
         const reuse = /\(do\s+Álbum\s+\d+\)/i.test(ts.titleRaw);
         const styleM = tsec.match(/\*\*STYLE:\*\*\s*\n+```\s*\n([\s\S]*?)\n```/);
         const lyricsM = tsec.match(/\*\*LYRICS:\*\*\s*\n+```\s*\n([\s\S]*?)\n```/);
-        // Limpar título igual ao parser
-        const explicitTitle = ts.titleRaw
+        // Limpar título IGUAL AO PARSER — tira markers mas preserva parênteses
+        // de tradução (ex: "DANCE WITH ME (BAILA)", "VENNA TONIGHT (FINALE)").
+        let explicitTitle = ts.titleRaw
           .replace(/✅\s*\(?do\s+Álbum\s+\d+\)?/gi, "")
           .replace(/✅\s*APPROVED/gi, "")
           .replace(/✅/g, "")
           .replace(/🔞/g, "")
           .replace(/\(.*?\)/g, "")
           .trim();
+        if (ts.titleRaw.match(/\([A-Z\s]+\)/) && !reuse) {
+          const parenMatch = ts.titleRaw.match(/\(([^)]+)\)/);
+          if (parenMatch && !parenMatch[0].toLowerCase().includes("do álbum") && !parenMatch[0].toLowerCase().includes("theme")) {
+            explicitTitle = `${explicitTitle} (${parenMatch[1]})`;
+          }
+        }
         tracks.push({
           num: ts.num,
           title: explicitTitle,
@@ -103,20 +110,16 @@ function main() {
   for (const a of VENNA_ALBUMS) {
     const num = slugToNum[a.slug];
     if (!num) { console.log(`✗ ${a.slug}: sem mapping`); continue; }
-    const raw = rawByAlbum.get(num) ?? [];
+    const raw = (rawByAlbum.get(num) ?? []).filter((x) => !x.reuse);
     console.log(`\n## ${a.slug} (álbum ${num})`);
     for (const t of a.tracks) {
-      const rawT = raw.find((x) => x.num === t.number);
+      // Procurar pelo título (não pelo número, que pode ter sido renumerado
+      // depois de saltar reuses)
+      const rawT = raw.find((x) => norm(x.title) === norm(t.title));
       if (!rawT) { console.log(`  ✗ ${t.number} ${t.title}: sem md`); mismatch++; continue; }
 
-      let mdPrompt = rawT.prompt;
-      let mdLyrics = rawT.lyrics;
-      if (rawT.reuse) {
-        const canon = album1ByTitle.get(norm(rawT.title));
-        if (!canon) { console.log(`  ✗ ${t.number} ${t.title}: reuse sem canónico`); mismatch++; continue; }
-        mdPrompt = canon.prompt;
-        mdLyrics = canon.lyrics;
-      }
+      const mdPrompt = rawT.prompt;
+      const mdLyrics = rawT.lyrics;
       const m1 = mdPrompt.trim() === t.prompt.trim();
       const m2 = mdLyrics.trim() === t.lyrics.trim();
       if (m1 && m2) {

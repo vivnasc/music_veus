@@ -1054,76 +1054,6 @@ streetlight... kiss...`,
     tracks: [
     {
       number: 1,
-      title: "SLOW DOWN",
-      description: "flerte hipnótico",
-      lang: "EN" as const,
-      energy: "steady" as TrackEnergy,
-      flavor: null,
-      vocalMode: "solo" as VocalMode,
-      prompt: `mid-tempo house pop, 110 BPM, deep filtered vocal chop loop on verses, sultry sub bass with melodic glides, soft four-on-the-floor kick, finger snaps, sparse Rhodes piano accents, hypnotic groove, no afrobeats no afropop no amapiano no tropical`,
-      lyrics: `[Vocal: ONE warm mezzo-soprano female voice, smoky and sultry, slight rasp, sings close to the microphone with confident attitude, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
-
-[Intro: vocal chop loop, sub bass, whispered]
-slow down...
-slow down...
-
-[Verse 1: vocal close, teasing]
-You walked in like you owned the floor
-But baby I been here before
-Don't need a name to know your kind
-Beautiful trouble on a beautiful mind
-
-[Pre-Chorus: voice cool, hypnotic]
-You can talk all night, I got time
-But you'll dance to the rhythm of my line
-
-[Chorus: layered harmonies, hypnotic]
-Slow down, slow down
-You're moving too fast, you're missing the sound
-Slow down, slow down
-The night is long and the moon is round
-Slow down
-
-[Verse 2: vocal close, more attitude]
-I like the way you keep your cool
-I'm not the easy, I'm not the fool
-Buy me a minute, buy me a song
-Show me the patience, show me you belong
-
-[Pre-Chorus: voice steady]
-You can talk all night, I got time
-But you'll dance to the rhythm of my line
-
-[Chorus: full harmonies]
-Slow down, slow down
-You're moving too fast, you're missing the sound
-Slow down, slow down
-The night is long and the moon is round
-Slow down
-
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — playful]
-(European Portuguese, Portugal accent:)
-Calma, calma
-Tens a noite toda
-Eu não vou a lado nenhum
-Dança comigo a tua volta
-
-[Final Chorus: full harmonies, hypnotic peak]
-Slow down, slow down
-You're moving too fast, you're missing the sound
-Slow down, slow down
-The night is long and the moon is round
-Slow down
-
-[Outro: vocal whispered, fading]
-slow... down...`,
-      durationSeconds: 240,
-      audioUrl: null,
-    },
-    {
-      number: 2,
       title: "TAKE YOUR TIME",
       description: "Tens tempo, eu também tenho",
       lang: "EN" as const,
@@ -1190,7 +1120,7 @@ take your... time...`,
       audioUrl: null,
     },
     {
-      number: 3,
+      number: 2,
       title: "BAD IDEA",
       description: "Boa ideia, péssima ideia, mesma ideia",
       lang: "EN" as const,
@@ -1259,7 +1189,7 @@ bad... idea...`,
       audioUrl: null,
     },
     {
-      number: 4,
+      number: 3,
       title: "NICE TRY",
       description: "Boa tentativa, mas a noite é minha",
       lang: "EN" as const,
@@ -1326,7 +1256,7 @@ nice... try...`,
       audioUrl: null,
     },
     {
-      number: 5,
+      number: 4,
       title: "IF YOU MEAN IT",
       description: "Se é a sério, prova-me",
       lang: "EN" as const,
@@ -1393,7 +1323,7 @@ if you... mean it...`,
       audioUrl: null,
     },
     {
-      number: 6,
+      number: 5,
       title: "NOT TONIGHT",
       description: "Hoje não, e está bem assim",
       lang: "EN" as const,
@@ -1460,7 +1390,7 @@ not... tonight...`,
       audioUrl: null,
     },
     {
-      number: 7,
+      number: 6,
       title: "WALK AWAY (LIKE THIS)",
       description: "Sair dali com o passo certo",
       lang: "EN" as const,
@@ -2030,73 +1960,6 @@ last... pour...`,
     tracks: [
     {
       number: 1,
-      title: "SATURDAY SKIN",
-      description: "sexta euforia",
-      lang: "EN" as const,
-      energy: "anthem" as TrackEnergy,
-      flavor: null,
-      vocalMode: "solo" as VocalMode,
-      prompt: `dance pop with house influence, 122 BPM, filtered disco-style guitar chops on the 16ths, punchy synth bass, clean four-on-the-floor kick, layered claps and finger snaps, brass stabs as accents, weekend energy, no afrobeats no afropop no amapiano no tropical`,
-      lyrics: `[Vocal: ONE warm mezzo-soprano female voice, smoky and confident, slight rasp, breathy on verses, full on choruses, layered harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
-
-[Intro: disco guitar chops, vocal half-whispered]
-yeah... yeah...
-it's that hour, baby
-
-[Verse 1: vocal confident, smirk]
-New dress, new lips, new everything
-Phone in my hand and the night is mine
-You said be ready by half past nine
-I been ready since the sun went shy
-
-[Pre-Chorus: voice lifts, anticipation]
-The week was long but the weekend's longer
-Every hour we wait we get a little stronger
-
-[Chorus: layered harmonies, full energy]
-Saturday skin, Saturday skin
-Dancing with the night, letting it all in
-Saturday skin, Saturday skin
-Body on body till the morning begins
-
-[Verse 2: vocal confident, brass stabs]
-Bass in the speaker, salt on my tongue
-Tell me a secret, make it a song
-Don't ask me later, don't ask me twice
-This kind of magic don't come at a price
-
-[Pre-Chorus: voice lifts]
-The week was long but the weekend's longer
-Every hour we wait we get a little stronger
-
-[Chorus: full harmonies]
-Saturday skin, Saturday skin
-Dancing with the night, letting it all in
-Saturday skin, Saturday skin
-Body on body till the morning begins
-
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
-(European Portuguese, Portugal accent:)
-Dança comigo
-Deixa a noite entrar
-Sábado é meu
-E eu vim dançar
-
-[Final Chorus: full harmonies, peak]
-Saturday skin, Saturday skin
-Dancing with the night, letting it all in
-Saturday skin, Saturday skin
-Body on body till the morning begins
-
-[Outro: vocal soft, fading]
-Saturday... skin...`,
-      durationSeconds: 240,
-      audioUrl: null,
-    },
-    {
-      number: 2,
       title: "FRIDAY EYES",
       description: "Olhar de sexta, promessa para o resto",
       lang: "EN" as const,
@@ -2163,7 +2026,7 @@ friday... eyes...`,
       audioUrl: null,
     },
     {
-      number: 3,
+      number: 2,
       title: "DANCE WITH ME (BAILA)",
       description: "Dança comigo, baila comigo",
       lang: "EN" as const,
@@ -2232,7 +2095,7 @@ baila... baila...`,
       audioUrl: null,
     },
     {
-      number: 4,
+      number: 3,
       title: "POOL PARTY",
       description: "Festa à beira da piscina, sol a pino",
       lang: "EN" as const,
@@ -2299,7 +2162,7 @@ pool... party...`,
       audioUrl: null,
     },
     {
-      number: 5,
+      number: 4,
       title: "SUNDAY 4PM",
       description: "Domingo às quatro, ainda a tocar",
       lang: "EN" as const,
@@ -2366,7 +2229,7 @@ sunday... 4pm...`,
       audioUrl: null,
     },
     {
-      number: 6,
+      number: 5,
       title: "DON'T STOP THE WEEKEND",
       description: "Não pares o fim de semana",
       lang: "EN" as const,
@@ -2433,7 +2296,7 @@ don't stop... the weekend...`,
       audioUrl: null,
     },
     {
-      number: 7,
+      number: 6,
       title: "VAMOS",
       description: "Vamos, agora, sem perguntar",
       lang: "EN" as const,
@@ -4463,117 +4326,6 @@ stadium... heart...`,
     tracks: [
     {
       number: 1,
-      title: "VENNA",
-      description: "manifesto",
-      lang: "EN" as const,
-      energy: "anthem" as TrackEnergy,
-      flavor: null,
-      vocalMode: "solo" as VocalMode,
-      prompt: `melodic house pop with anthemic build, 118 BPM, euphoric synth lead recurring melodic phrase, layered female backing vocals on the final chorus, deep round bass, four-on-the-floor kick, claps, organic shaker percussion, anthemic and joyful, no afrobeats no afropop no amapiano no tropical`,
-      lyrics: `[Vocal: ONE warm mezzo-soprano female voice, smoky and confident, slight rasp, chest voice on verses, breathy on choruses, layered female backing chorus on final chorus only, no melisma, never shouts]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
-
-[Intro: organic percussion, vocal whispered]
-VENNA...
-VENNA...
-
-[Verse 1: European Portuguese, Lisbon accent — chest voice]
-(European Portuguese, Portugal accent:)
-Vim devagar, vim sem pressa
-Vim com o sorriso na boca
-Não trago drama, não trago dor
-Trago tempo, trago calor
-
-Não vim pedir, não vim chorar
-Vim para dançar, vim para ficar
-A música é minha, a noite também
-A pista abre quando eu venho
-
-[Pre-Chorus: voice steady, anticipation]
-They ask me what I'm here for
-I say I'm here to stay
-They ask me what I'm playing
-I say the only way
-
-[Chorus: layered harmonies, anthemic]
-VENNA, VENNA
-I came to dance
-(European Portuguese:)
-vim para ficar
-VENNA, VENNA
-The night is mine
-(European Portuguese:)
-é meu lugar
-VENNA, VENNA
-(European Portuguese:)
-não peço licença
-I don't ask permission
-VENNA, VENNA
-This is the mission
-
-[Verse 2: vocal confident, more open]
-I don't sing about the heartbreak
-I sing about the rest
-The morning after, the laughing matter
-The lover at his best
-The honey hour, the golden tower
-The Saturday skin, the slow down power
-I'm here for the joy, here for the climb
-Here for the woman who's ahead of her time
-
-[Pre-Chorus: voice lifts]
-They ask me what I'm here for
-I say I'm here to stay
-They ask me what I'm playing
-I say the only way
-
-[Chorus: full harmonies]
-VENNA, VENNA
-I came to dance
-(European Portuguese:)
-vim para ficar
-VENNA, VENNA
-The night is mine
-(European Portuguese:)
-é meu lugar
-VENNA, VENNA
-(European Portuguese:)
-não peço licença
-I don't ask permission
-VENNA, VENNA
-This is the mission
-
-[Bridge: spoken, soft, intimate]
-This is for the women who dance alone in the kitchen
-For the women who dance with somebody too
-For the women who came to celebrate
-This is for you
-
-[Final Chorus: with female backing vocals layered]
-VENNA, VENNA
-I came to dance
-(European Portuguese:)
-vim para ficar
-VENNA, VENNA
-The night is mine
-(European Portuguese:)
-é meu lugar
-VENNA, VENNA
-(European Portuguese:)
-não peço licença
-I don't ask permission
-VENNA, VENNA
-This is the mission
-
-[Outro: vocal whispered, fading]
-VENNA...
-VENNA...`,
-      durationSeconds: 240,
-      audioUrl: null,
-    },
-    {
-      number: 2,
       title: "TONIGHT IS MINE",
       description: "Esta noite é minha, sem partilhar",
       lang: "EN" as const,
@@ -4640,7 +4392,7 @@ tonight... is mine...`,
       audioUrl: null,
     },
     {
-      number: 3,
+      number: 2,
       title: "POLYGLOT",
       description: "Quatro línguas, um só recado",
       lang: "EN" as const,
@@ -4713,7 +4465,7 @@ polyglot... poliglota... polyglotte... políglota...`,
       audioUrl: null,
     },
     {
-      number: 4,
+      number: 3,
       title: "A WOMAN AT NIGHT",
       description: "Mulher à noite, sem pedir desculpa",
       lang: "EN" as const,
@@ -4780,7 +4532,7 @@ a woman... at night...`,
       audioUrl: null,
     },
     {
-      number: 5,
+      number: 4,
       title: "INVITATION",
       description: "Convite aberto, resposta livre",
       lang: "EN" as const,
@@ -4847,7 +4599,7 @@ invitation...`,
       audioUrl: null,
     },
     {
-      number: 6,
+      number: 5,
       title: "MA VIE / MI VIDA / MINHA VIDA",
       description: "Ma vie, mi vida, minha vida",
       lang: "EN" as const,
@@ -4919,7 +4671,7 @@ ma vie... mi vida... minha vida...`,
       audioUrl: null,
     },
     {
-      number: 7,
+      number: 6,
       title: "VENNA TONIGHT (FINALE)",
       description: "VENNA tonight, fecho do círculo",
       lang: "EN" as const,
