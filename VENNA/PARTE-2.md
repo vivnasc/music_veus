@@ -528,10 +528,10 @@ The bass is bumping in the city's chest
 This is the kind of night that wears a vest
 
 [Chorus: layered harmonies, full energy]
-Weekend heart, weekend heart
 Beating like the city's brand new start
-Weekend heart, weekend heart
+Free from the cubicle, free from the chart
 This is where the good ones depart
+Open the door, weekend heart
 
 [Verse 2: vocal bright]
 The dress is on, the lipstick's set
@@ -544,10 +544,10 @@ The bass is bumping in the city's chest
 This is the kind of night that wears a vest
 
 [Chorus: full harmonies]
-Weekend heart, weekend heart
 Beating like the city's brand new start
-Weekend heart, weekend heart
+Free from the cubicle, free from the chart
 This is where the good ones depart
+Open the door, weekend heart
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -557,10 +557,10 @@ A semana acabou
 E hoje sou a sorte
 
 [Final Chorus: full harmonies, peak]
-Weekend heart, weekend heart
 Beating like the city's brand new start
-Weekend heart, weekend heart
+Free from the cubicle, free from the chart
 This is where the good ones depart
+Open the door, weekend heart
 
 [Outro: vocal soft, fading]
 weekend... heart...
@@ -597,10 +597,10 @@ The week was a marathon, the weekend's a flight
 Every cell in my body wants to be in the night
 
 [Chorus: layered harmonies, full energy]
-Friday eyes, Friday eyes
 Lit up like the city's surprise
-Friday eyes, Friday eyes
+Wide and bright as the sun on the rise
 Nothing in the world can compromise
+What I see in your Friday eyes
 
 [Verse 2: vocal bright]
 Cab to the bar, then bar to the floor
@@ -613,10 +613,10 @@ The week was a marathon, the weekend's a flight
 Every cell in my body wants to be in the night
 
 [Chorus: full harmonies]
-Friday eyes, Friday eyes
 Lit up like the city's surprise
-Friday eyes, Friday eyes
+Wide and bright as the sun on the rise
 Nothing in the world can compromise
+What I see in your Friday eyes
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -626,10 +626,10 @@ Hoje à noite
 A pista é onde eu vou
 
 [Final Chorus: full harmonies, peak]
-Friday eyes, Friday eyes
 Lit up like the city's surprise
-Friday eyes, Friday eyes
+Wide and bright as the sun on the rise
 Nothing in the world can compromise
+What I see in your Friday eyes
 
 [Outro: vocal soft, fading]
 friday... eyes...
@@ -667,10 +667,10 @@ This is the kind of song you don't sit down for
 This is the kind of night you don't keep score
 
 [Chorus: layered harmonies, bilingual]
-Dance with me, baila conmigo
 Body to body, the rhythm's amigo
-Dance with me, baila conmigo
 Toda la noche, that's where we're going
+Hands in the air and the bass lo conozco
+Baila conmigo
 
 [Verse 2: vocal confident, smiling]
 The lights are spinning, my hair is loose
@@ -683,10 +683,10 @@ This is the kind of song you don't sit down for
 This is the kind of night you don't keep score
 
 [Chorus: full harmonies]
-Dance with me, baila conmigo
 Body to body, the rhythm's amigo
-Dance with me, baila conmigo
 Toda la noche, that's where we're going
+Hands in the air and the bass lo conozco
+Baila conmigo
 
 [Bridge: Spanish, natural delivery]
 (Spanish, natural Castilian:)
@@ -696,10 +696,10 @@ Baila, baila
 Que el tiempo no manda
 
 [Final Chorus: full harmonies, peak]
-Dance with me, baila conmigo
 Body to body, the rhythm's amigo
-Dance with me, baila conmigo
 Toda la noche, that's where we're going
+Hands in the air and the bass lo conozco
+Baila conmigo
 
 [Outro: vocal whispered, fading Spanish]
 (Spanish whisper:)
@@ -737,10 +737,10 @@ The bass is bumping by the deep end
 This kind of Saturday's the kind I'll spend
 
 [Chorus: layered harmonies, sunny]
-Pool party, pool party
 The whole afternoon's a sweet hearty
-Pool party, pool party
 Sun on my skin and a friend like a starry
+Glasses up, no one needs to be sorry
+Welcome to the pool party
 
 [Verse 2: vocal bright]
 You jumped right in like you owned the splash
@@ -753,10 +753,10 @@ The bass is bumping by the deep end
 This kind of Saturday's the kind I'll spend
 
 [Chorus: full harmonies]
-Pool party, pool party
 The whole afternoon's a sweet hearty
-Pool party, pool party
 Sun on my skin and a friend like a starry
+Glasses up, no one needs to be sorry
+Welcome to the pool party
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -766,10 +766,10 @@ Não há melhor sítio
 Para uma sábado nada
 
 [Final Chorus: full harmonies, peak]
-Pool party, pool party
 The whole afternoon's a sweet hearty
-Pool party, pool party
 Sun on my skin and a friend like a starry
+Glasses up, no one needs to be sorry
+Welcome to the pool party
 
 [Outro: vocal whispered, splash fades]
 pool... party...
@@ -806,10 +806,10 @@ The week's not started, the weekend's still here
 This is the part where the world is sincere
 
 [Chorus: layered harmonies, lazy and warm]
-Sunday 4PM, Sunday 4PM
 Honey-coloured calm in the kitchen window
-Sunday 4PM, Sunday 4PM
 Nobody's asking me to fold or follow
+Jazz on low and the world tomorrow
+Long, slow Sunday afternoon
 
 [Verse 2: vocal relaxed]
 Your shirt is on me, my book is closed
@@ -822,10 +822,10 @@ The week's not started, the weekend's still here
 This is the part where the world is sincere
 
 [Chorus: full harmonies]
-Sunday 4PM, Sunday 4PM
 Honey-coloured calm in the kitchen window
-Sunday 4PM, Sunday 4PM
 Nobody's asking me to fold or follow
+Jazz on low and the world tomorrow
+Long, slow Sunday afternoon
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -835,10 +835,10 @@ A semana espera
 Que eu chegue ao meu posto
 
 [Final Chorus: full harmonies]
-Sunday 4PM, Sunday 4PM
 Honey-coloured calm in the kitchen window
-Sunday 4PM, Sunday 4PM
 Nobody's asking me to fold or follow
+Jazz on low and the world tomorrow
+Long, slow Sunday afternoon
 
 [Outro: vocal whispered]
 sunday... 4pm...
@@ -875,10 +875,10 @@ Hands in the air, hearts on fire
 This is what you live for, this is the higher
 
 [Chorus: layered harmonies, full peak]
-Don't stop the weekend, don't stop the weekend
 Body to body and the night to spend
-Don't stop the weekend, don't stop the weekend
+The bass is bumping till the sky descend
 Monday's coming but it's not my friend
+Don't stop the weekend
 
 [Verse 2: vocal energetic]
 I lost my friend, I lost my time
@@ -891,10 +891,10 @@ Hands in the air, hearts on fire
 This is what you live for, this is the higher
 
 [Chorus: full harmonies]
-Don't stop the weekend, don't stop the weekend
 Body to body and the night to spend
-Don't stop the weekend, don't stop the weekend
+The bass is bumping till the sky descend
 Monday's coming but it's not my friend
+Don't stop the weekend
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -904,10 +904,10 @@ Hoje à noite
 A vida é uma rainha
 
 [Final Chorus: full harmonies, peak]
-Don't stop the weekend, don't stop the weekend
 Body to body and the night to spend
-Don't stop the weekend, don't stop the weekend
+The bass is bumping till the sky descend
 Monday's coming but it's not my friend
+Don't stop the weekend
 
 [Outro: vocal soft, fading]
 don't stop... the weekend...
@@ -946,10 +946,10 @@ Life is short and the night is bright
 And I'm not waiting for you to decide
 
 [Chorus: layered harmonies, energetic]
-Vamos, vamos, let's go
 The night's not waiting for the slow
-Vamos, vamos, let's go
 Put your shoes on, follow my flow
+Cab is here, the bass is low
+Let's go, vamos
 
 [Verse 2: vocal inviting]
 I called the girls, they're in the car
@@ -962,10 +962,10 @@ Life is short and the night is bright
 And I'm not waiting for you to decide
 
 [Chorus: full harmonies]
-Vamos, vamos, let's go
 The night's not waiting for the slow
-Vamos, vamos, let's go
 Put your shoes on, follow my flow
+Cab is here, the bass is low
+Let's go, vamos
 
 [Bridge: Spanish, natural delivery]
 (Spanish, natural Castilian:)
@@ -975,10 +975,10 @@ Vamos, vamos
 Que la vida pasa
 
 [Final Chorus: full harmonies, peak]
-Vamos, vamos, let's go
 The night's not waiting for the slow
-Vamos, vamos, let's go
 Put your shoes on, follow my flow
+Cab is here, the bass is low
+Let's go, vamos
 
 [Outro: vocal whispered, fading]
 vamos... let's go...
@@ -1018,10 +1018,10 @@ Two years in and I'm still surprised
 By the way you read my disguised
 
 [Chorus: layered harmonies]
-Closer, closer
 The kind of love you cannot foster
-Closer, closer
-Built like a house that no one else lost-er
+Built like a house no storm could roster
+Quiet rooms and the same toaster
+Pulling each other closer
 
 [Verse 2: vocal close]
 You make me laugh in the supermarket
@@ -1034,10 +1034,10 @@ Two years in and I'm still surprised
 By the way you read my disguised
 
 [Chorus: full harmonies]
-Closer, closer
 The kind of love you cannot foster
-Closer, closer
-Built like a house that no one else lost-er
+Built like a house no storm could roster
+Quiet rooms and the same toaster
+Pulling each other closer
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -1047,10 +1047,10 @@ Não precisas dizer
 Eu sei que existo
 
 [Final Chorus: full harmonies]
-Closer, closer
 The kind of love you cannot foster
-Closer, closer
-Built like a house that no one else lost-er
+Built like a house no storm could roster
+Quiet rooms and the same toaster
+Pulling each other closer
 
 [Outro: vocal whispered]
 closer...
@@ -1087,10 +1087,10 @@ A hundred people and I see one
 This kind of magic, the work is done
 
 [Chorus: layered harmonies]
-Your side, your side
 That's where the story doesn't divide
-Your side, your side
 The whole damn world can step aside
+Twenty inches, no place to hide
+I sleep on your side
 
 [Verse 2: vocal close]
 I came back from the bar with two
@@ -1103,10 +1103,10 @@ A hundred people and I see one
 This kind of magic, the work is done
 
 [Chorus: full harmonies]
-Your side, your side
 That's where the story doesn't divide
-Your side, your side
 The whole damn world can step aside
+Twenty inches, no place to hide
+I sleep on your side
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -1116,10 +1116,10 @@ Sem fazer barulho
 Sem precisar de pedir
 
 [Final Chorus: full harmonies]
-Your side, your side
 That's where the story doesn't divide
-Your side, your side
 The whole damn world can step aside
+Twenty inches, no place to hide
+I sleep on your side
 
 [Outro: vocal whispered]
 your... side...
@@ -1156,10 +1156,10 @@ Don't make me say it twice tonight
 The bedroom's down the hall and the door's not tight
 
 [Chorus: layered harmonies, sensual]
-Down the hall, down the hall
 Take the long way, take it all
-Down the hall, down the hall
 Catch me before I take the call
+Bedroom door at the end of the wall
+Meet me down the hall
 
 [Verse 2: vocal close, more direct]
 You're not in any kind of rush
@@ -1172,10 +1172,10 @@ Don't make me say it twice tonight
 The bedroom's down the hall and the door's not tight
 
 [Chorus: full harmonies]
-Down the hall, down the hall
 Take the long way, take it all
-Down the hall, down the hall
 Catch me before I take the call
+Bedroom door at the end of the wall
+Meet me down the hall
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian — sultry]
 (European Portuguese, Portugal accent:)
@@ -1185,10 +1185,10 @@ Não te faças rogado
 Que a porta está nossa
 
 [Final Chorus: full harmonies]
-Down the hall, down the hall
 Take the long way, take it all
-Down the hall, down the hall
 Catch me before I take the call
+Bedroom door at the end of the wall
+Meet me down the hall
 
 [Outro: vocal whispered, sultry]
 down... the hall...
@@ -1225,10 +1225,10 @@ The day is done, the world is small
 We don't have to perform at all
 
 [Chorus: layered harmonies]
-Keys on the counter, jacket on the chair
+Jacket on the chair, day in the past
 Home is the place where we're already there
-Keys on the counter, day in the past
 Nothing about this isn't built to last
+Keys on the counter, soft and aware
 
 [Verse 2: vocal close]
 You ask if I'm hungry, I shake my head
@@ -1241,10 +1241,10 @@ The day is done, the world is small
 We don't have to perform at all
 
 [Chorus: full harmonies]
-Keys on the counter, jacket on the chair
+Jacket on the chair, day in the past
 Home is the place where we're already there
-Keys on the counter, day in the past
 Nothing about this isn't built to last
+Keys on the counter, soft and aware
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -1254,10 +1254,10 @@ Casa é o sítio
 Onde tu me esperas
 
 [Final Chorus: full harmonies]
-Keys on the counter, jacket on the chair
+Jacket on the chair, day in the past
 Home is the place where we're already there
-Keys on the counter, day in the past
 Nothing about this isn't built to last
+Keys on the counter, soft and aware
 
 [Outro: vocal whispered]
 keys... on the counter...
@@ -1294,10 +1294,10 @@ This is the part that nobody films
 The unromantic kind of loving thrills
 
 [Chorus: layered harmonies]
-Still here, still here
 After the easy and after the fear
-Still here, still here
 Picked you again like every year
+The little fights that disappear
+And I'm still here
 
 [Verse 2: vocal close]
 The honeymoon ended, the real one began
@@ -1310,10 +1310,10 @@ This is the part that nobody films
 The unromantic kind of loving thrills
 
 [Chorus: full harmonies]
-Still here, still here
 After the easy and after the fear
-Still here, still here
 Picked you again like every year
+The little fights that disappear
+And I'm still here
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -1323,10 +1323,10 @@ Não foi sempre fácil
 Mas foi sempre eu e tu
 
 [Final Chorus: full harmonies]
-Still here, still here
 After the easy and after the fear
-Still here, still here
 Picked you again like every year
+The little fights that disappear
+And I'm still here
 
 [Outro: vocal whispered]
 still... here...
@@ -1363,10 +1363,10 @@ Some couples keep diaries, some keep flowers
 We keep a song that just keeps being ours
 
 [Chorus: layered harmonies, joyful]
-Our song, our song
 The kind that moves us right along
-Our song, our song
 Three minutes of where we belong
+DJ, friend or stranger throng
+They all play our song
 
 [Verse 2: vocal bright]
 The first time we heard it I knew it was true
@@ -1379,10 +1379,10 @@ Some couples keep diaries, some keep flowers
 We keep a song that just keeps being ours
 
 [Chorus: full harmonies]
-Our song, our song
 The kind that moves us right along
-Our song, our song
 Three minutes of where we belong
+DJ, friend or stranger throng
+They all play our song
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -1392,10 +1392,10 @@ Que tudo o que somos
 Cabe num refrão feliz
 
 [Final Chorus: full harmonies, joyful peak]
-Our song, our song
 The kind that moves us right along
-Our song, our song
 Three minutes of where we belong
+DJ, friend or stranger throng
+They all play our song
 
 [Outro: vocal whispered]
 our... song...
@@ -1432,10 +1432,10 @@ The kettle's on, the day's not yet
 This is the part nobody can forget
 
 [Chorus: layered harmonies]
-Morning song, morning song
 The kind you don't sing too loud or long
-Morning song, morning song
+Coffee soft and the curtains drawn
 The whole day waiting and we belong
+Just a morning song
 
 [Verse 2: vocal close]
 You stretch and yawn and find my face
@@ -1448,10 +1448,10 @@ The kettle's on, the day's not yet
 This is the part nobody can forget
 
 [Chorus: full harmonies]
-Morning song, morning song
 The kind you don't sing too loud or long
-Morning song, morning song
+Coffee soft and the curtains drawn
 The whole day waiting and we belong
+Just a morning song
 
 [Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
 (European Portuguese, Portugal accent:)
@@ -1461,10 +1461,10 @@ A vida pequena
 Que vale mais que tanto
 
 [Final Chorus: full harmonies]
-Morning song, morning song
 The kind you don't sing too loud or long
-Morning song, morning song
+Coffee soft and the curtains drawn
 The whole day waiting and we belong
+Just a morning song
 
 [Outro: vocal whispered]
 morning... song...
