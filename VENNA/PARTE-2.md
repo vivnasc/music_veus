@@ -499,8 +499,72 @@ last... pour...
 # ÁLBUM 5 — SATURDAY FOREVER
 *Fim-de-semana, dança, euforia leve. Espanhol pontual. 7 faixas.*
 
-## 5.1 — SATURDAY SKIN ✅ (do Álbum 1)
-*Faixa de abertura também aqui — relinkar na BD para reuso.*
+## 5.1 — WEEKEND HEART
+**BPM:** 121 · **Signature:** uplifting brass riff + clap stack · **Mood:** abertura euforica do fim-de-semana
+
+**STYLE:**
+```
+dance pop with house influence, 121 BPM, uplifting brass riff as main hook, layered clap stack on accents, punchy synth bass, four-on-the-floor kick, weekend opening euphoria mood, no afrobeats no afropop no amapiano no tropical
+```
+
+**LYRICS:**
+```
+[Vocal: ONE warm mezzo-soprano female voice, smoky and bright, slight rasp, breathy on verses, full and energetic on choruses, layered harmonies, no melisma, no belting]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: subtle international English accent, NOT American]
+
+[Intro: brass riff, claps, vocal half-whispered]
+weekend heart...
+weekend heart...
+
+[Verse 1: vocal bright, anticipating]
+The clock said five and I left my screen
+The week was hard but the week is clean
+I called the girls, I called the cab
+And nothing about tonight is gonna be drab
+
+[Pre-Chorus: voice lifts, joyful]
+The bass is bumping in the city's chest
+This is the kind of night that wears a vest
+
+[Chorus: layered harmonies, full energy]
+Weekend heart, weekend heart
+Beating like the city's brand new start
+Weekend heart, weekend heart
+This is where the good ones depart
+
+[Verse 2: vocal bright]
+The dress is on, the lipstick's set
+Whoever's gonna meet me hasn't met yet
+The DJ's spinning what the body needs
+And I'm not coming home till the daylight feeds
+
+[Pre-Chorus: voice lifts]
+The bass is bumping in the city's chest
+This is the kind of night that wears a vest
+
+[Chorus: full harmonies]
+Weekend heart, weekend heart
+Beating like the city's brand new start
+Weekend heart, weekend heart
+This is where the good ones depart
+
+[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+(European Portuguese, Portugal accent:)
+Coração de fim-de-semana
+A bater mais forte
+A semana acabou
+E hoje sou a sorte
+
+[Final Chorus: full harmonies, peak]
+Weekend heart, weekend heart
+Beating like the city's brand new start
+Weekend heart, weekend heart
+This is where the good ones depart
+
+[Outro: vocal soft, fading]
+weekend... heart...
+```
 
 ---
 

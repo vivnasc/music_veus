@@ -74,13 +74,14 @@ const TRACK_DESCRIPTIONS: Record<string, string> = {
   "venna-honey-cities/6": "Metro às onze da noite, regresso devagar",
   "venna-honey-cities/7": "Beijo debaixo do candeeiro da rua",
 
-  // Album 3 — Slow Down (renumerado: 3.1 era reuse, agora começa em 1)
-  "venna-slow-down/1": "Tens tempo, eu também tenho",
-  "venna-slow-down/2": "Boa ideia, péssima ideia, mesma ideia",
-  "venna-slow-down/3": "Boa tentativa, mas a noite é minha",
-  "venna-slow-down/4": "Se é a sério, prova-me",
-  "venna-slow-down/5": "Hoje não, e está bem assim",
-  "venna-slow-down/6": "Sair dali com o passo certo",
+  // Album 3 — Slow Down
+  "venna-slow-down/1": "Cheguei e a pista é minha, sem licença",
+  "venna-slow-down/2": "Tens tempo, eu também tenho",
+  "venna-slow-down/3": "Boa ideia, péssima ideia, mesma ideia",
+  "venna-slow-down/4": "Boa tentativa, mas a noite é minha",
+  "venna-slow-down/5": "Se é a sério, prova-me",
+  "venna-slow-down/6": "Hoje não, e está bem assim",
+  "venna-slow-down/7": "Sair dali com o passo certo",
 
   // Album 4 — Wine & Velvet
   "venna-wine-velvet/1": "Vinho e veludo, mesa para dois",
@@ -91,13 +92,14 @@ const TRACK_DESCRIPTIONS: Record<string, string> = {
   "venna-wine-velvet/6": "Mesa de meia-noite, tudo combinado",
   "venna-wine-velvet/7": "O último gole antes de fechar a porta",
 
-  // Album 5 — Saturday Forever (renumerado: 5.1 era reuse)
-  "venna-saturday-forever/1": "Olhar de sexta, promessa para o resto",
-  "venna-saturday-forever/2": "Dança comigo, baila comigo",
-  "venna-saturday-forever/3": "Festa à beira da piscina, sol a pino",
-  "venna-saturday-forever/4": "Domingo às quatro, ainda a tocar",
-  "venna-saturday-forever/5": "Não pares o fim de semana",
-  "venna-saturday-forever/6": "Vamos, agora, sem perguntar",
+  // Album 5 — Saturday Forever
+  "venna-saturday-forever/1": "Coração de fim de semana, a semana acabou",
+  "venna-saturday-forever/2": "Olhar de sexta, promessa para o resto",
+  "venna-saturday-forever/3": "Dança comigo, baila comigo",
+  "venna-saturday-forever/4": "Festa à beira da piscina, sol a pino",
+  "venna-saturday-forever/5": "Domingo às quatro, ainda a tocar",
+  "venna-saturday-forever/6": "Não pares o fim de semana",
+  "venna-saturday-forever/7": "Vamos, agora, sem perguntar",
 
   // Album 6 — Closer
   "venna-closer/1": "Mais perto, mesmo amor",
@@ -135,13 +137,14 @@ const TRACK_DESCRIPTIONS: Record<string, string> = {
   "venna-heart-bassline/6": "Ela é tudo, em embalagem inteira",
   "venna-heart-bassline/7": "Coração de estádio, batida grande",
 
-  // Album 10 — VENNA Tonight (renumerado: 10.1 era reuse)
-  "venna-tonight/1": "Esta noite é minha, sem partilhar",
-  "venna-tonight/2": "Quatro línguas, um só recado",
-  "venna-tonight/3": "Mulher à noite, sem pedir desculpa",
-  "venna-tonight/4": "Convite aberto, resposta livre",
-  "venna-tonight/5": "Ma vie, mi vida, minha vida",
-  "venna-tonight/6": "VENNA tonight, fecho do círculo",
+  // Album 10 — VENNA Tonight
+  "venna-tonight/1": "VENNA está a subir, em quatro línguas",
+  "venna-tonight/2": "Esta noite é minha, sem partilhar",
+  "venna-tonight/3": "Quatro línguas, um só recado",
+  "venna-tonight/4": "Mulher à noite, sem pedir desculpa",
+  "venna-tonight/5": "Convite aberto, resposta livre",
+  "venna-tonight/6": "Ma vie, mi vida, minha vida",
+  "venna-tonight/7": "VENNA tonight, fecho do círculo",
 };
 
 // ── Tipos ─────────────────────────────────────────────────

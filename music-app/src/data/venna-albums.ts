@@ -1054,6 +1054,73 @@ streetlight... kiss...`,
     tracks: [
     {
       number: 1,
+      title: "RUN THIS FLOOR",
+      description: "Cheguei e a pista é minha, sem licença",
+      lang: "EN" as const,
+      energy: "pulse" as TrackEnergy,
+      flavor: null,
+      vocalMode: "solo" as VocalMode,
+      prompt: `mid-tempo house pop, 116 BPM, sassy plucky synth lead as main hook, filtered bass groove, four-on-the-floor kick, layered finger snaps and claps, confident floor-owner mood, no afrobeats no afropop no amapiano no tropical`,
+      lyrics: `[Vocal: ONE warm mezzo-soprano female voice, smoky and confident, slight rasp, sings close to the microphone with playful authority, layered harmonies on choruses, no melisma, no belting]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: subtle international English accent, NOT American]
+
+[Intro: plucky synth, filtered bass, vocal whispered]
+run this floor...
+run this floor...
+
+[Verse 1: vocal close, confident]
+I walked in late and the room turned slow
+The DJ caught my eye, the bass said go
+You been watching from the corner all night
+But baby this is not your kind of fight
+
+[Pre-Chorus: voice cool]
+I don't need a song to tell me what to do
+This whole damn rhythm is already mine and you
+
+[Chorus: layered harmonies, bold]
+I run this floor, I run this floor
+Every step a little bit more
+I run this floor, I run this floor
+You can watch from outside the door
+
+[Verse 2: vocal close, smirk]
+You sent your friend to ask my name
+I sent her back without the same
+I'm not a phone number tonight
+I'm the woman who owns the light
+
+[Pre-Chorus: voice cool]
+I don't need a song to tell me what to do
+This whole damn rhythm is already mine and you
+
+[Chorus: full harmonies]
+I run this floor, I run this floor
+Every step a little bit more
+I run this floor, I run this floor
+You can watch from outside the door
+
+[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+(European Portuguese, Portugal accent:)
+A pista é minha
+Não pedi licença
+Cheguei a sorrir
+E levei-a sem pressa
+
+[Final Chorus: full harmonies, peak]
+I run this floor, I run this floor
+Every step a little bit more
+I run this floor, I run this floor
+You can watch from outside the door
+
+[Outro: vocal whispered]
+I run... this floor...`,
+      durationSeconds: 240,
+      audioUrl: null,
+    },
+    {
+      number: 2,
       title: "TAKE YOUR TIME",
       description: "Tens tempo, eu também tenho",
       lang: "EN" as const,
@@ -1120,7 +1187,7 @@ take your... time...`,
       audioUrl: null,
     },
     {
-      number: 2,
+      number: 3,
       title: "BAD IDEA",
       description: "Boa ideia, péssima ideia, mesma ideia",
       lang: "EN" as const,
@@ -1189,7 +1256,7 @@ bad... idea...`,
       audioUrl: null,
     },
     {
-      number: 3,
+      number: 4,
       title: "NICE TRY",
       description: "Boa tentativa, mas a noite é minha",
       lang: "EN" as const,
@@ -1256,7 +1323,7 @@ nice... try...`,
       audioUrl: null,
     },
     {
-      number: 4,
+      number: 5,
       title: "IF YOU MEAN IT",
       description: "Se é a sério, prova-me",
       lang: "EN" as const,
@@ -1323,7 +1390,7 @@ if you... mean it...`,
       audioUrl: null,
     },
     {
-      number: 5,
+      number: 6,
       title: "NOT TONIGHT",
       description: "Hoje não, e está bem assim",
       lang: "EN" as const,
@@ -1390,7 +1457,7 @@ not... tonight...`,
       audioUrl: null,
     },
     {
-      number: 6,
+      number: 7,
       title: "WALK AWAY (LIKE THIS)",
       description: "Sair dali com o passo certo",
       lang: "EN" as const,
@@ -1960,6 +2027,73 @@ last... pour...`,
     tracks: [
     {
       number: 1,
+      title: "WEEKEND HEART",
+      description: "Coração de fim de semana, a semana acabou",
+      lang: "EN" as const,
+      energy: "pulse" as TrackEnergy,
+      flavor: null,
+      vocalMode: "solo" as VocalMode,
+      prompt: `dance pop with house influence, 121 BPM, uplifting brass riff as main hook, layered clap stack on accents, punchy synth bass, four-on-the-floor kick, weekend opening euphoria mood, no afrobeats no afropop no amapiano no tropical`,
+      lyrics: `[Vocal: ONE warm mezzo-soprano female voice, smoky and bright, slight rasp, breathy on verses, full and energetic on choruses, layered harmonies, no melisma, no belting]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: subtle international English accent, NOT American]
+
+[Intro: brass riff, claps, vocal half-whispered]
+weekend heart...
+weekend heart...
+
+[Verse 1: vocal bright, anticipating]
+The clock said five and I left my screen
+The week was hard but the week is clean
+I called the girls, I called the cab
+And nothing about tonight is gonna be drab
+
+[Pre-Chorus: voice lifts, joyful]
+The bass is bumping in the city's chest
+This is the kind of night that wears a vest
+
+[Chorus: layered harmonies, full energy]
+Weekend heart, weekend heart
+Beating like the city's brand new start
+Weekend heart, weekend heart
+This is where the good ones depart
+
+[Verse 2: vocal bright]
+The dress is on, the lipstick's set
+Whoever's gonna meet me hasn't met yet
+The DJ's spinning what the body needs
+And I'm not coming home till the daylight feeds
+
+[Pre-Chorus: voice lifts]
+The bass is bumping in the city's chest
+This is the kind of night that wears a vest
+
+[Chorus: full harmonies]
+Weekend heart, weekend heart
+Beating like the city's brand new start
+Weekend heart, weekend heart
+This is where the good ones depart
+
+[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+(European Portuguese, Portugal accent:)
+Coração de fim-de-semana
+A bater mais forte
+A semana acabou
+E hoje sou a sorte
+
+[Final Chorus: full harmonies, peak]
+Weekend heart, weekend heart
+Beating like the city's brand new start
+Weekend heart, weekend heart
+This is where the good ones depart
+
+[Outro: vocal soft, fading]
+weekend... heart...`,
+      durationSeconds: 240,
+      audioUrl: null,
+    },
+    {
+      number: 2,
       title: "FRIDAY EYES",
       description: "Olhar de sexta, promessa para o resto",
       lang: "EN" as const,
@@ -2026,7 +2160,7 @@ friday... eyes...`,
       audioUrl: null,
     },
     {
-      number: 2,
+      number: 3,
       title: "DANCE WITH ME (BAILA)",
       description: "Dança comigo, baila comigo",
       lang: "EN" as const,
@@ -2095,7 +2229,7 @@ baila... baila...`,
       audioUrl: null,
     },
     {
-      number: 3,
+      number: 4,
       title: "POOL PARTY",
       description: "Festa à beira da piscina, sol a pino",
       lang: "EN" as const,
@@ -2162,7 +2296,7 @@ pool... party...`,
       audioUrl: null,
     },
     {
-      number: 4,
+      number: 5,
       title: "SUNDAY 4PM",
       description: "Domingo às quatro, ainda a tocar",
       lang: "EN" as const,
@@ -2229,7 +2363,7 @@ sunday... 4pm...`,
       audioUrl: null,
     },
     {
-      number: 5,
+      number: 6,
       title: "DON'T STOP THE WEEKEND",
       description: "Não pares o fim de semana",
       lang: "EN" as const,
@@ -2296,7 +2430,7 @@ don't stop... the weekend...`,
       audioUrl: null,
     },
     {
-      number: 6,
+      number: 7,
       title: "VAMOS",
       description: "Vamos, agora, sem perguntar",
       lang: "EN" as const,
@@ -4326,6 +4460,79 @@ stadium... heart...`,
     tracks: [
     {
       number: 1,
+      title: "VENNA RISING",
+      description: "VENNA está a subir, em quatro línguas",
+      lang: "EN" as const,
+      energy: "pulse" as TrackEnergy,
+      flavor: null,
+      vocalMode: "solo" as VocalMode,
+      prompt: `melodic house pop with anthemic build, 119 BPM, anthemic synth lead build into euphoric drop on choruses, female crowd "oh" stack as texture, deep round bass, four-on-the-floor kick, layered claps, anthem entrance mood, no afrobeats no afropop no amapiano no tropical`,
+      lyrics: `[Vocal: ONE warm mezzo-soprano female voice, smoky and powerful, slight rasp, breathy on verses, full and confident on choruses, layered female crowd backing on final chorus, no melisma, no belting]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: subtle international English accent, NOT American]
+[CRITICAL: French sections in soft Parisian whisper]
+[CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
+
+[Intro: anthemic synth build, "oh" stack, vocal whispered multilingual]
+VENNA rising...
+VENNA está a chegar...
+VENNA arrive...
+VENNA llega...
+
+[Verse 1: vocal powerful]
+Ten albums in and I'm still climbing
+Ten years from now I'll still be timing
+The kind of woman who built her own gate
+The kind of woman who don't run late
+
+[Pre-Chorus: voice lifts, big]
+This is not the start, this is not the end
+This is the part where the woman ascends
+
+[Chorus: layered harmonies + crowd, anthemic]
+VENNA rising, VENNA rising
+The whole damn city is recognizing
+VENNA rising, VENNA rising
+A new kind of star, a new kind of sizing
+
+[Verse 2: vocal powerful]
+I came up softly, I came up slow
+But every season I learned to grow
+I am not the woman I was before
+I am the woman who walks through the door
+
+[Pre-Chorus: voice lifts]
+This is not the start, this is not the end
+This is the part where the woman ascends
+
+[Chorus: full harmonies + crowd]
+VENNA rising, VENNA rising
+The whole damn city is recognizing
+VENNA rising, VENNA rising
+A new kind of star, a new kind of sizing
+
+[Bridge: cycling through 4 languages]
+(European Portuguese, Portugal accent:)
+VENNA está a subir
+(French, intimate whisper:)
+VENNA monte
+(Spanish, natural Castilian:)
+VENNA sube
+VENNA rising
+
+[Final Chorus: full harmonies + full crowd, peak]
+VENNA rising, VENNA rising
+The whole damn city is recognizing
+VENNA rising, VENNA rising
+A new kind of star, a new kind of sizing
+
+[Outro: vocal whispered, multilingual fading]
+VENNA rising... está a subir... monte... sube...`,
+      durationSeconds: 240,
+      audioUrl: null,
+    },
+    {
+      number: 2,
       title: "TONIGHT IS MINE",
       description: "Esta noite é minha, sem partilhar",
       lang: "EN" as const,
@@ -4392,7 +4599,7 @@ tonight... is mine...`,
       audioUrl: null,
     },
     {
-      number: 2,
+      number: 3,
       title: "POLYGLOT",
       description: "Quatro línguas, um só recado",
       lang: "EN" as const,
@@ -4465,7 +4672,7 @@ polyglot... poliglota... polyglotte... políglota...`,
       audioUrl: null,
     },
     {
-      number: 3,
+      number: 4,
       title: "A WOMAN AT NIGHT",
       description: "Mulher à noite, sem pedir desculpa",
       lang: "EN" as const,
@@ -4532,7 +4739,7 @@ a woman... at night...`,
       audioUrl: null,
     },
     {
-      number: 4,
+      number: 5,
       title: "INVITATION",
       description: "Convite aberto, resposta livre",
       lang: "EN" as const,
@@ -4599,7 +4806,7 @@ invitation...`,
       audioUrl: null,
     },
     {
-      number: 5,
+      number: 6,
       title: "MA VIE / MI VIDA / MINHA VIDA",
       description: "Ma vie, mi vida, minha vida",
       lang: "EN" as const,
@@ -4671,7 +4878,7 @@ ma vie... mi vida... minha vida...`,
       audioUrl: null,
     },
     {
-      number: 6,
+      number: 7,
       title: "VENNA TONIGHT (FINALE)",
       description: "VENNA tonight, fecho do círculo",
       lang: "EN" as const,

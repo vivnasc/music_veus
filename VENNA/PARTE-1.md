@@ -1047,8 +1047,72 @@ streetlight... kiss...
 # ÁLBUM 3 — SLOW DOWN
 *Flerte, atrevimento, mulher no controlo. 7 faixas.*
 
-## 3.1 — SLOW DOWN ✅ (do Álbum 1)
-*Aparece como faixa de abertura também aqui — relinkar na BD para reuso.*
+## 3.1 — RUN THIS FLOOR
+**BPM:** 116 · **Signature:** sassy plucky synth + filtered bass groove · **Mood:** dona da pista
+
+**STYLE:**
+```
+mid-tempo house pop, 116 BPM, sassy plucky synth lead as main hook, filtered bass groove, four-on-the-floor kick, layered finger snaps and claps, confident floor-owner mood, no afrobeats no afropop no amapiano no tropical
+```
+
+**LYRICS:**
+```
+[Vocal: ONE warm mezzo-soprano female voice, smoky and confident, slight rasp, sings close to the microphone with playful authority, layered harmonies on choruses, no melisma, no belting]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: subtle international English accent, NOT American]
+
+[Intro: plucky synth, filtered bass, vocal whispered]
+run this floor...
+run this floor...
+
+[Verse 1: vocal close, confident]
+I walked in late and the room turned slow
+The DJ caught my eye, the bass said go
+You been watching from the corner all night
+But baby this is not your kind of fight
+
+[Pre-Chorus: voice cool]
+I don't need a song to tell me what to do
+This whole damn rhythm is already mine and you
+
+[Chorus: layered harmonies, bold]
+I run this floor, I run this floor
+Every step a little bit more
+I run this floor, I run this floor
+You can watch from outside the door
+
+[Verse 2: vocal close, smirk]
+You sent your friend to ask my name
+I sent her back without the same
+I'm not a phone number tonight
+I'm the woman who owns the light
+
+[Pre-Chorus: voice cool]
+I don't need a song to tell me what to do
+This whole damn rhythm is already mine and you
+
+[Chorus: full harmonies]
+I run this floor, I run this floor
+Every step a little bit more
+I run this floor, I run this floor
+You can watch from outside the door
+
+[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+(European Portuguese, Portugal accent:)
+A pista é minha
+Não pedi licença
+Cheguei a sorrir
+E levei-a sem pressa
+
+[Final Chorus: full harmonies, peak]
+I run this floor, I run this floor
+Every step a little bit more
+I run this floor, I run this floor
+You can watch from outside the door
+
+[Outro: vocal whispered]
+I run... this floor...
+```
 
 ---
 
