@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ALL_ALBUMS, getArtist } from "@/data/albums";
 import { getTrackCoverUrl, getAlbumCoverImageUrl } from "@/lib/album-covers";
 
-const OTHER_WORLDS_PRODUCTS = ["ancient-ground", "nova"] as const;
+const OTHER_WORLDS_PRODUCTS = ["ancient-ground", "nova", "venna"] as const;
 
 export default function OutrosMundosSection() {
   const albums = ALL_ALBUMS.filter((a) =>

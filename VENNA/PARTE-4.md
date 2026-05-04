@@ -506,8 +506,78 @@ stadium... heart...
 # ÁLBUM 10 — VENNA TONIGHT
 *Álbum de assinatura, mais identitário, manifesto. Mistura PT/EN/FR/ES. 7 faixas.*
 
-## 10.1 — VENNA ✅ (do Álbum 1)
-*Faixa de abertura também aqui — relinkar na BD para reuso.*
+## 10.1 — VENNA RISING
+**BPM:** 119 · **Signature:** anthemic synth lead build + female crowd "oh" stack · **Mood:** entrada épica multilingue
+
+**STYLE:**
+```
+melodic house pop with anthemic build, 119 BPM, anthemic synth lead build into euphoric drop on choruses, female crowd "oh" stack as texture, deep round bass, four-on-the-floor kick, layered claps, anthem entrance mood, no afrobeats no afropop no amapiano no tropical
+```
+
+**LYRICS:**
+```
+[Vocal: ONE warm mezzo-soprano female voice, smoky and powerful, slight rasp, breathy on verses, full and confident on choruses, layered female crowd backing on final chorus, no melisma, no belting]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: subtle international English accent, NOT American]
+[CRITICAL: French sections in soft Parisian whisper]
+[CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
+
+[Intro: anthemic synth build, "oh" stack, vocal whispered multilingual]
+VENNA rising...
+VENNA está a chegar...
+VENNA arrive...
+VENNA llega...
+
+[Verse 1: vocal powerful]
+Ten albums in and I'm still climbing
+Ten years from now I'll still be timing
+The kind of woman who built her own gate
+The kind of woman who don't run late
+
+[Pre-Chorus: voice lifts, big]
+This is not the start, this is not the end
+This is the part where the woman ascends
+
+[Chorus: layered harmonies + crowd, anthemic]
+VENNA rising, VENNA rising
+The whole damn city is recognizing
+VENNA rising, VENNA rising
+A new kind of star, a new kind of sizing
+
+[Verse 2: vocal powerful]
+I came up softly, I came up slow
+But every season I learned to grow
+I am not the woman I was before
+I am the woman who walks through the door
+
+[Pre-Chorus: voice lifts]
+This is not the start, this is not the end
+This is the part where the woman ascends
+
+[Chorus: full harmonies + crowd]
+VENNA rising, VENNA rising
+The whole damn city is recognizing
+VENNA rising, VENNA rising
+A new kind of star, a new kind of sizing
+
+[Bridge: cycling through 4 languages]
+(European Portuguese, Portugal accent:)
+VENNA está a subir
+(French, intimate whisper:)
+VENNA monte
+(Spanish, natural Castilian:)
+VENNA sube
+VENNA rising
+
+[Final Chorus: full harmonies + full crowd, peak]
+VENNA rising, VENNA rising
+The whole damn city is recognizing
+VENNA rising, VENNA rising
+A new kind of star, a new kind of sizing
+
+[Outro: vocal whispered, multilingual fading]
+VENNA rising... está a subir... monte... sube...
+```
 
 ---
 
@@ -961,11 +1031,6 @@ tonight...
 | 10 | VENNA Tonight | Manifesto multilingue | PT, EN, FR, ES |
 
 **Faixas Explicit (🔞):** 8 no total, distribuídas pelos álbuns mais ousados (Wine & Velvet, Skin Memory, Closer, Honey Cities, VENNA Tonight)
-
-**Faixas reusadas:**
-- Slow Down aparece em Mango Hour (1.3) e Slow Down (3.1)
-- Saturday Skin aparece em Mango Hour (1.4) e Saturday Forever (5.1)
-- VENNA aparece em Mango Hour (1.5) e VENNA Tonight (10.1)
 
 **Estado:**
 - Honey Hour: ✅ Demo Approved
