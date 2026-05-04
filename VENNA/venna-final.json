@@ -1,0 +1,123 @@
+{
+  "artist": {
+    "slug": "venna",
+    "name": "VENNA",
+    "type": "pop_entertainment",
+    "ecosystem": "sete_ecos",
+    "languages": ["pt", "en"],
+    "tagline_pt": "Romance que dança, desejo que sorri.",
+    "tagline_en": "Romance that dances, desire that smiles.",
+    "bio_pt": "VENNA é uma artista pop. A sua música vive entre o house melódico, o pop dançável e o R&B contemporâneo — sempre com um centro: romance como celebração. Numa altura em que o pop oscila entre tristeza confessional e sexualidade performativa, a VENNA propõe um terceiro caminho: a mulher adulta que celebra o desejo com leveza, segurança e dança. Canta em português e inglês, transitando entre línguas com naturalidade.",
+    "bio_en": "VENNA is a pop artist. Her sound moves between melodic house, danceable pop, and contemporary R&B — always with one centre: romance as celebration. Where pop swings between confessional sadness and performed sexuality, VENNA offers a third way: the grown woman who celebrates desire with lightness, confidence, and movement. She sings in Portuguese and English, fluent across both.",
+    "palette": {
+      "mango": "#F5803E",
+      "honey": "#E8B14A",
+      "terracotta_deep": "#A14E2C",
+      "cream_skin": "#F4E4D1",
+      "wine_night": "#3D1B2C",
+      "sunset_pink": "#E89B8C"
+    },
+    "sonic_dna": {
+      "genres": ["pop", "melodic_house", "dance_pop", "rnb_contemporary"],
+      "bpm_range": [108, 122],
+      "vocal_character": "warm mezzo-soprano, smoky speaking quality, slight rasp, breathy and confident, layered harmonies on choruses",
+      "avoid": ["afrobeats", "afropop", "amapiano", "tropical", "edm_aggressive", "trap", "drill", "sad_girl_pop", "hyperpop", "folk_acoustic", "slow_ballads"]
+    },
+    "vocal_signature": {
+      "core": "warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting",
+      "accent_pt": "European Portuguese, Lisbon accent — NOT Brazilian, NOT African",
+      "accent_en": "subtle international accent — NOT American",
+      "suno_persona_required": true,
+      "persona_seed_track": "honey-hour"
+    }
+  },
+  "ep": {
+    "slug": "mango-hour",
+    "title": "Mango Hour",
+    "artist_slug": "venna",
+    "type": "ep",
+    "track_count": 5,
+    "concept": "Cinco faixas dançáveis. Mesma voz, mesma identidade. Cada faixa com signature element instrumental próprio. Sem afrobeats, sem lento, sem drama.",
+    "lead_single": "honey-hour"
+  },
+  "tracks": [
+    {
+      "slug": "honey-hour",
+      "track_number": 1,
+      "title": "Honey Hour",
+      "ep_slug": "mango-hour",
+      "bpm": 118,
+      "primary_language": "en",
+      "secondary_language": "pt",
+      "mood": "after-party melódico, dançável e romântico",
+      "signature_element": "warm piano chords loop with melodic bass hook",
+      "status": "demo_approved",
+      "suno_style": "melodic deep house, 118 BPM, signature element: short staccato piano riff repeating throughout the track, plucky synth arpeggio in the background, deep round sub bass with a melodic hook, four-on-the-floor kick, hi-hats with subtle shuffle, sun-kissed evening lounge, no afrobeats no afropop no amapiano no tropical",
+      "suno_lyrics": "[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting]\n[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]\n[CRITICAL: subtle international English accent, NOT American]\n\n[Intro: piano chords, vocal whispered]\nhoney hour...\nhoney hour...\n\n[Verse 1: vocal close, intimate]\nLights are low, the music's mine\nEverybody dancing on the same line\nYou don't have to ask me twice\nThis kind of evening don't come at a price\n\n[Pre-Chorus: voice lifts]\nHands in the air, heart in the room\nEvery minute we wait we get a little smoother\n\n[Chorus: layered harmonies enter]\nIt's the honey hour\nHoney hour\nBody on body, the night's a flower\nHoney hour\nHoney hour\nNobody's leaving in the next half hour\n\n[Verse 2: vocal close]\nStranger's smile and a song I love\nFloor is melting and the sky's above\nDon't ask later, don't ask why\nThis kind of magic don't say goodbye\n\n[Pre-Chorus: voice lifts]\nHands in the air, heart in the room\nEvery minute we wait we get a little smoother\n\n[Chorus: full harmonies]\nIt's the honey hour\nHoney hour\nBody on body, the night's a flower\nHoney hour\nHoney hour\nNobody's leaving in the next half hour\n\n[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — vocal close, intimate]\n(European Portuguese, Portugal accent:)\nA noite é doce\nA noite é nossa\nDança comigo\nQue a hora é nossa\n\n[Final Chorus: full harmonies]\nIt's the honey hour\nHoney hour\nBody on body, the night's a flower\nHoney hour\nHoney hour\nNobody's leaving in the next half hour\n\n[Outro: vocal whispered, fading]\nhoney... hour..."
+    },
+    {
+      "slug": "golden-hour",
+      "track_number": 2,
+      "title": "Golden Hour",
+      "ep_slug": "mango-hour",
+      "bpm": 115,
+      "primary_language": "en",
+      "secondary_language": "pt",
+      "mood": "fim-de-tarde, rooftop, sunset wine bar",
+      "signature_element": "bright pluck synth lead 4-note motif",
+      "status": "concept",
+      "suno_style": "melodic house pop, 115 BPM, bright pluck synth lead 4-note motif, warm analog pad, soft piano stabs offbeats, round melodic bass, four-on-the-floor kick, hi-hats with shuffle, claps on 2 and 4, sunset rooftop mood, no afrobeats no afropop no amapiano no tropical",
+      "suno_lyrics": "[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting]\n[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]\n[CRITICAL: subtle international English accent, NOT American]\n\n[Intro: pluck synth motif, soft pad, vocal whispered]\ngolden hour...\ngolden hour...\n\n[Verse 1: vocal close, intimate, slight rasp]\nSun's going down on a Tuesday night\nWine in my glass and the world feels right\nYou said one drink and I said okay\nNow the sky's on fire and I want to stay\n\n[Pre-Chorus: voice lifts]\nHold the moment, hold the line\nEvery ordinary thing turning gold tonight\n\n[Chorus: layered harmonies enter]\nIt's the golden hour\nGolden hour\nThe light's on your shoulders and I lose my power\nGolden hour\nGolden hour\nSlow me down and I'll dance for an hour\n\n[Verse 2: vocal close again]\nCity lights are starting to climb\nYour laugh is doing something to my spine\nDon't ask me where I want to go\nThe answer's wherever the music flows\n\n[Pre-Chorus: voice lifts]\nHold the moment, hold the line\nEvery ordinary thing turning gold tonight\n\n[Chorus: full harmonies]\nIt's the golden hour\nGolden hour\nThe light's on your shoulders and I lose my power\nGolden hour\nGolden hour\nSlow me down and I'll dance for an hour\n\n[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — vocal close, intimate]\n(European Portuguese, Portugal accent:)\nA luz desce devagar\nA noite quer começar\nDança comigo\nAntes do dia acabar\n\n[Final Chorus: full harmonies, climax]\nIt's the golden hour\nGolden hour\nThe light's on your shoulders and I lose my power\nGolden hour\nGolden hour\nSlow me down and I'll dance for an hour\n\n[Outro: vocal whispered, fading]\ngolden... hour..."
+    },
+    {
+      "slug": "slow-down",
+      "track_number": 3,
+      "title": "Slow Down",
+      "ep_slug": "mango-hour",
+      "bpm": 110,
+      "primary_language": "en",
+      "secondary_language": "pt",
+      "mood": "flerte confiante, atrevimento, hipnótico",
+      "signature_element": "deep filtered vocal chop loop on verses",
+      "status": "concept",
+      "suno_style": "mid-tempo house pop, 110 BPM, deep filtered vocal chop loop on verses, sultry sub bass with melodic glides, soft four-on-the-floor kick, finger snaps, sparse Rhodes piano accents, hypnotic groove, no afrobeats no afropop no amapiano no tropical",
+      "suno_lyrics": "[Vocal: ONE warm mezzo-soprano female voice, smoky and sultry, slight rasp, sings close to the microphone with confident attitude, layered harmonies on choruses, no melisma, no belting]\n[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]\n[CRITICAL: subtle international English accent, NOT American]\n\n[Intro: vocal chop loop, sub bass enters, vocal whispered]\nslow down...\nslow down...\n\n[Verse 1: vocal close, confident, slightly teasing]\nYou walked in like you owned the floor\nBut baby I been here before\nDon't need a name to know your kind\nBeautiful trouble on a beautiful mind\n\n[Pre-Chorus: voice keeps cool, hypnotic]\nYou can talk all night, I got time\nBut you'll dance to the rhythm of my line\n\n[Chorus: layered harmonies enter, hypnotic groove]\nSlow down, slow down\nYou're moving too fast, you're missing the sound\nSlow down, slow down\nThe night is long and the moon is round\nSlow down\n\n[Verse 2: vocal close, more attitude]\nI like the way you keep your cool\nI'm not the easy, I'm not the fool\nBuy me a minute, buy me a song\nShow me the patience, show me you belong\n\n[Pre-Chorus: voice steady]\nYou can talk all night, I got time\nBut you'll dance to the rhythm of my line\n\n[Chorus: full harmonies]\nSlow down, slow down\nYou're moving too fast, you're missing the sound\nSlow down, slow down\nThe night is long and the moon is round\nSlow down\n\n[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — vocal close, playful]\n(European Portuguese, Portugal accent:)\nCalma, calma\nTens a noite toda\nEu não vou a lado nenhum\nDança comigo a tua volta\n\n[Final Chorus: full harmonies, hypnotic peak]\nSlow down, slow down\nYou're moving too fast, you're missing the sound\nSlow down, slow down\nThe night is long and the moon is round\nSlow down\n\n[Outro: vocal whispered, fading]\nslow... down..."
+    },
+    {
+      "slug": "saturday-skin",
+      "track_number": 4,
+      "title": "Saturday Skin",
+      "ep_slug": "mango-hour",
+      "bpm": 122,
+      "primary_language": "en",
+      "secondary_language": "pt",
+      "mood": "sexta à noite, disco-house dançável, energia alta",
+      "signature_element": "filtered disco-style guitar chops on the 16ths",
+      "status": "concept",
+      "suno_style": "dance pop with house influence, 122 BPM, filtered disco-style guitar chops on the 16ths, punchy synth bass, clean four-on-the-floor kick, layered claps and finger snaps, brass stabs as accents, weekend energy, no afrobeats no afropop no amapiano no tropical",
+      "suno_lyrics": "[Vocal: ONE warm mezzo-soprano female voice, smoky and confident, slight rasp, breathy on verses, full on choruses, layered harmonies on choruses, no melisma, no belting]\n[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]\n[CRITICAL: subtle international English accent, NOT American]\n\n[Intro: disco guitar chops, vocal half-whispered]\nyeah... yeah...\nit's that hour, baby\n\n[Verse 1: vocal confident, slight smirk in delivery]\nNew dress, new lips, new everything\nPhone in my hand and the night is mine\nYou said be ready by half past nine\nI been ready since the sun went shy\n\n[Pre-Chorus: voice lifts, anticipation]\nThe week was long but the weekend's longer\nEvery hour we wait we get a little stronger\n\n[Chorus: layered harmonies, full energy]\nSaturday skin, Saturday skin\nDancing with the night, letting it all in\nSaturday skin, Saturday skin\nBody on body till the morning begins\n\n[Verse 2: vocal confident, brass stabs accent]\nBass in the speaker, salt on my tongue\nTell me a secret, make it a song\nDon't ask me later, don't ask me twice\nThis kind of magic don't come at a price\n\n[Pre-Chorus: voice lifts]\nThe week was long but the weekend's longer\nEvery hour we wait we get a little stronger\n\n[Chorus: full harmonies]\nSaturday skin, Saturday skin\nDancing with the night, letting it all in\nSaturday skin, Saturday skin\nBody on body till the morning begins\n\n[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — vocal close, playful]\n(European Portuguese, Portugal accent:)\nDança comigo\nDeixa a noite entrar\nSábado é meu\nE eu vim dançar\n\n[Final Chorus: full harmonies, peak energy]\nSaturday skin, Saturday skin\nDancing with the night, letting it all in\nSaturday skin, Saturday skin\nBody on body till the morning begins\n\n[Outro: vocal soft, fading]\nSaturday... skin..."
+    },
+    {
+      "slug": "venna-theme",
+      "track_number": 5,
+      "title": "VENNA",
+      "ep_slug": "mango-hour",
+      "bpm": 118,
+      "primary_language": "pt",
+      "secondary_language": "en",
+      "mood": "manifesto dançável, anthemic, identidade",
+      "signature_element": "euphoric synth lead recurring melodic phrase",
+      "status": "concept",
+      "suno_style": "melodic house pop with anthemic build, 118 BPM, euphoric synth lead recurring melodic phrase, layered female backing vocals on the final chorus, deep round bass, four-on-the-floor kick, claps, organic shaker percussion, anthemic and joyful, no afrobeats no afropop no amapiano no tropical",
+      "suno_lyrics": "[Vocal: ONE warm mezzo-soprano female voice, smoky and confident, slight rasp, chest voice on verses, breathy on choruses, layered female backing chorus on final chorus only, no melisma, never shouts]\n[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]\n[CRITICAL: subtle international English accent, NOT American]\n\n[Intro: organic percussion, vocal whispered]\nVENNA...\nVENNA...\n\n[Verse 1: European Portuguese, Lisbon accent — vocal close, confident chest voice]\n(European Portuguese, Portugal accent:)\nVim devagar, vim sem pressa\nVim com o sorriso na boca\nNão trago drama, não trago dor\nTrago tempo, trago calor\n\nNão vim pedir, não vim chorar\nVim para dançar, vim para ficar\nA música é minha, a noite também\nA pista abre quando eu venho\n\n[Pre-Chorus: voice steady, anticipation builds]\nThey ask me what I'm here for\nI say I'm here to stay\nThey ask me what I'm playing\nI say the only way\n\n[Chorus: layered harmonies, anthemic]\nVENNA, VENNA\nI came to dance\n(European Portuguese:)\nvim para ficar\nVENNA, VENNA\nThe night is mine\n(European Portuguese:)\né meu lugar\nVENNA, VENNA\n(European Portuguese:)\nnão peço licença\nI don't ask permission\nVENNA, VENNA\nThis is the mission\n\n[Verse 2: vocal confident, more open]\nI don't sing about the heartbreak\nI sing about the rest\nThe morning after, the laughing matter\nThe lover at his best\nThe honey hour, the golden tower\nThe Saturday skin, the slow down power\nI'm here for the joy, here for the climb\nHere for the woman who's ahead of her time\n\n[Pre-Chorus: voice lifts]\nThey ask me what I'm here for\nI say I'm here to stay\nThey ask me what I'm playing\nI say the only way\n\n[Chorus: full harmonies]\nVENNA, VENNA\nI came to dance\n(European Portuguese:)\nvim para ficar\nVENNA, VENNA\nThe night is mine\n(European Portuguese:)\né meu lugar\nVENNA, VENNA\n(European Portuguese:)\nnão peço licença\nI don't ask permission\nVENNA, VENNA\nThis is the mission\n\n[Bridge: spoken, soft, intimate]\nThis is for the women who dance alone in the kitchen\nFor the women who dance with somebody too\nFor the women who came to celebrate\nThis is for you\n\n[Final Chorus: with female backing vocals layered, peak]\nVENNA, VENNA\nI came to dance\n(European Portuguese:)\nvim para ficar\nVENNA, VENNA\nThe night is mine\n(European Portuguese:)\né meu lugar\nVENNA, VENNA\n(European Portuguese:)\nnão peço licença\nI don't ask permission\nVENNA, VENNA\nThis is the mission\n\n[Outro: vocal whispered, fading]\nVENNA...\nVENNA..."
+    }
+  ],
+  "track_status_workflow": [
+    "concept",
+    "demo_generated",
+    "demo_approved",
+    "produced",
+    "mastered",
+    "released"
+  ]
+}
