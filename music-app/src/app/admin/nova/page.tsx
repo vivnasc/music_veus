@@ -126,6 +126,8 @@ function MiniPlayer({ src }: { src: string }) {
 
 function TrackCard({
   album, track, state, sunoModel, personaId,
+  editedStyle, editedTitle, editedLyrics,
+  onEditStyle, onEditTitle, onEditLyrics,
   onGenerate, onApprove, onDownload,
 }: {
   album: Album;
@@ -133,14 +135,29 @@ function TrackCard({
   state: TrackState;
   sunoModel: string;
   personaId: string;
+  editedStyle: string | null;
+  editedTitle: string | null;
+  editedLyrics: string | null;
+  onEditStyle: (s: string | null) => void;
+  onEditTitle: (s: string | null) => void;
+  onEditLyrics: (s: string | null) => void;
   onGenerate: () => void;
   onApprove: (clips: SunoClip[]) => void;
   onDownload: (url: string, title: string) => void;
 }) {
   const [showStyle, setShowStyle] = useState(false);
   const [showLyrics, setShowLyrics] = useState(false);
+  const [showTitle, setShowTitle] = useState(false);
 
   const isWorking = state.status === "generating" || state.status === "polling";
+
+  // Valor actual (edição se existir, senão a fonte do .md)
+  const styleValue = editedStyle ?? track.prompt;
+  const titleValue = editedTitle ?? track.title;
+  const lyricsValue = editedLyrics ?? track.lyrics;
+  const styleEdited = editedStyle !== null && editedStyle !== track.prompt;
+  const titleEdited = editedTitle !== null && editedTitle !== track.title;
+  const lyricsEdited = editedLyrics !== null && editedLyrics !== track.lyrics;
 
   return (
     <div className="rounded-xl border border-mundo-muted-dark/20 bg-mundo-bg-light/50 p-4">
@@ -151,7 +168,7 @@ function TrackCard({
             {track.number}
           </span>
           <div className="min-w-0">
-            <h3 className="text-sm font-medium text-mundo-creme truncate">{track.title}</h3>
+            <h3 className="text-sm font-medium text-mundo-creme truncate">{titleValue}</h3>
             <p className="text-[10px] text-mundo-muted truncate">{track.description}</p>
           </div>
         </div>
@@ -169,33 +186,109 @@ function TrackCard({
 
       {/* Toggles */}
       <div className="flex flex-wrap gap-2 mb-2 text-[11px]">
+        <button onClick={() => setShowTitle(!showTitle)} className="text-violet-300 hover:text-violet-200">
+          {showTitle ? "Esconder TITLE" : "Editar TITLE"}{titleEdited && <span className="text-amber-400 ml-1">●</span>}
+        </button>
         <button onClick={() => setShowStyle(!showStyle)} className="text-violet-300 hover:text-violet-200">
-          {showStyle ? "Esconder STYLE" : "Ver STYLE"}
+          {showStyle ? "Esconder STYLE" : "Editar STYLE"}{styleEdited && <span className="text-amber-400 ml-1">●</span>}
         </button>
         <button onClick={() => setShowLyrics(!showLyrics)} className="text-violet-300 hover:text-violet-200">
-          {showLyrics ? "Esconder LYRICS" : "Ver LYRICS"}
+          {showLyrics ? "Esconder LYRICS" : "Editar LYRICS"}{lyricsEdited && <span className="text-amber-400 ml-1">●</span>}
         </button>
       </div>
 
+      {showTitle && (
+        <div className="mb-3 rounded-lg bg-black/30 p-3">
+          <div className="flex items-center justify-between mb-2 gap-2">
+            <span className="text-[10px] uppercase tracking-wider text-violet-400">
+              Title{titleEdited && <span className="text-amber-400 ml-1">(editado)</span>}
+            </span>
+            <div className="flex items-center gap-2">
+              {titleEdited && (
+                <button
+                  onClick={() => { if (window.confirm("Repor título original?")) onEditTitle(null); }}
+                  className="text-[10px] px-2 py-1 rounded bg-white/5 text-[#a0a0b0] hover:bg-white/10 transition"
+                >
+                  ↺ Repor
+                </button>
+              )}
+              <CopyButton text={titleValue} label="Copiar" />
+            </div>
+          </div>
+          <input
+            type="text"
+            value={titleValue}
+            onChange={(e) => onEditTitle(e.target.value)}
+            className="w-full bg-mundo-bg p-2 rounded text-xs text-mundo-creme/90 font-mono border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none"
+          />
+        </div>
+      )}
+
       {showStyle && (
         <div className="mb-3 rounded-lg bg-black/30 p-3">
-          <div className="flex items-center justify-between mb-2">
-            <span className="text-[10px] uppercase tracking-wider text-violet-400">Style of Music</span>
-            <CopyButton text={track.prompt} label="Copiar STYLE" />
+          <div className="flex items-center justify-between mb-2 gap-2">
+            <span className="text-[10px] uppercase tracking-wider text-violet-400">
+              Style of Music{styleEdited && <span className="text-amber-400 ml-1">(editado)</span>}
+            </span>
+            <div className="flex items-center gap-2">
+              {styleEdited && (
+                <button
+                  onClick={() => { if (window.confirm("Repor STYLE original do .md?")) onEditStyle(null); }}
+                  className="text-[10px] px-2 py-1 rounded bg-white/5 text-[#a0a0b0] hover:bg-white/10 transition"
+                >
+                  ↺ Repor
+                </button>
+              )}
+              <CopyButton text={styleValue} label="Copiar" />
+            </div>
           </div>
-          <pre className="text-[11px] text-mundo-creme/80 whitespace-pre-wrap font-mono break-words">{track.prompt}</pre>
+          <textarea
+            value={styleValue}
+            onChange={(e) => {
+              const next = e.target.value;
+              if (track.prompt.length > 50 && next.trim().length < 10) {
+                if (!window.confirm(`Vais apagar o STYLE inteiro (${styleValue.length} chars). Continuar?`)) return;
+              }
+              onEditStyle(next);
+            }}
+            className="w-full bg-mundo-bg p-2 rounded text-[11px] text-mundo-creme/90 font-mono border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none min-h-[5rem] max-h-72 resize-y"
+            spellCheck={false}
+          />
+          <p className="text-[9px] text-mundo-muted-dark mt-1">{styleValue.length} caracteres</p>
         </div>
       )}
 
       {showLyrics && (
         <div className="mb-3 rounded-lg bg-black/30 p-3">
-          <div className="flex items-center justify-between mb-2">
-            <span className="text-[10px] uppercase tracking-wider text-violet-400">Lyrics</span>
-            <CopyButton text={track.lyrics} label="Copiar LYRICS" />
+          <div className="flex items-center justify-between mb-2 gap-2">
+            <span className="text-[10px] uppercase tracking-wider text-violet-400">
+              Lyrics{lyricsEdited && <span className="text-amber-400 ml-1">(editado)</span>}
+            </span>
+            <div className="flex items-center gap-2">
+              {lyricsEdited && (
+                <button
+                  onClick={() => { if (window.confirm("Repor LYRICS original do .md?")) onEditLyrics(null); }}
+                  className="text-[10px] px-2 py-1 rounded bg-white/5 text-[#a0a0b0] hover:bg-white/10 transition"
+                >
+                  ↺ Repor
+                </button>
+              )}
+              <CopyButton text={lyricsValue} label="Copiar" />
+            </div>
           </div>
-          <pre className="text-[11px] text-mundo-creme/80 whitespace-pre-wrap font-mono break-words max-h-72 overflow-auto">
-            {track.lyrics}
-          </pre>
+          <textarea
+            value={lyricsValue}
+            onChange={(e) => {
+              const next = e.target.value;
+              if (track.lyrics.trim().length > 50 && next.trim().length < 10) {
+                if (!window.confirm(`Vais apagar a letra inteira (${lyricsValue.length} chars). O .md original mantém-se. Continuar?`)) return;
+              }
+              onEditLyrics(next);
+            }}
+            className="w-full bg-mundo-bg p-2 rounded text-[11px] text-mundo-creme/90 font-mono leading-relaxed border border-mundo-muted-dark/20 focus:border-violet-500 focus:outline-none min-h-[16rem] max-h-[32rem] resize-y"
+            spellCheck={false}
+          />
+          <p className="text-[9px] text-mundo-muted-dark mt-1">{lyricsValue.length} caracteres</p>
         </div>
       )}
 
@@ -347,6 +440,20 @@ function AlbumActionsBar({
 
 // ─── Main ───
 
+// localStorage key para edições
+const EDITS_LS_KEY = "nova_admin_edits_v1";
+type Edit = { style?: string; title?: string; lyrics?: string };
+type EditsMap = Record<string, Edit>; // trackKey → edits
+
+function loadEdits(): EditsMap {
+  if (typeof window === "undefined") return {};
+  try { return JSON.parse(window.localStorage.getItem(EDITS_LS_KEY) || "{}"); } catch { return {}; }
+}
+function saveEdits(map: EditsMap): void {
+  if (typeof window === "undefined") return;
+  try { window.localStorage.setItem(EDITS_LS_KEY, JSON.stringify(map)); } catch {}
+}
+
 export default function NovaAdminPage() {
   const [sunoModel, setSunoModel] = useState("V5_5");
   const [personaId, setPersonaId] = useState("");
@@ -354,6 +461,29 @@ export default function NovaAdminPage() {
   const [openAlbum, setOpenAlbum] = useState<string | null>(NOVA_ALBUMS[0]?.slug ?? null);
   const [search, setSearch] = useState("");
   const pollingRef = useRef<Record<string, ReturnType<typeof setInterval>>>({});
+
+  // Edições por faixa — persistidas em localStorage. Cada campo é
+  // independente: undefined = usa o original do .md; string = usa esse valor
+  // (mesmo que vazio, para permitir intencionalmente apagar).
+  const [edits, setEdits] = useState<EditsMap>({});
+  useEffect(() => { setEdits(loadEdits()); }, []);
+  useEffect(() => { saveEdits(edits); }, [edits]);
+
+  function setField(key: string, field: keyof Edit, value: string | null) {
+    setEdits((e) => {
+      const cur = e[key] || {};
+      const next = { ...cur };
+      if (value === null) delete next[field];
+      else next[field] = value;
+      const out = { ...e, [key]: next };
+      // Limpa entrada se ficar vazia
+      if (Object.keys(next).length === 0) delete out[key];
+      return out;
+    });
+  }
+  function getEdit(key: string, field: keyof Edit): string | null {
+    return edits[key]?.[field] ?? null;
+  }
 
   const totalTracks = useMemo(
     () => NOVA_ALBUMS.reduce((s, a) => s + a.tracks.length, 0),
@@ -462,15 +592,20 @@ export default function NovaAdminPage() {
     const key = trackKey(album.slug, track.number);
     setStates((s) => ({ ...s, [key]: { status: "generating", error: "", clips: [] } }));
 
+    // Usa edições se existirem, senão a versão original do .md.
+    const styleVal  = edits[key]?.style  ?? track.prompt;
+    const titleVal  = edits[key]?.title  ?? track.title;
+    const lyricsVal = edits[key]?.lyrics ?? track.lyrics;
+
     try {
       const res = await adminFetch("/api/admin/suno/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          prompt: track.prompt,
-          customStyle: track.prompt,
-          lyrics: track.lyrics,
-          title: track.title,
+          prompt: styleVal,
+          customStyle: styleVal,
+          lyrics: lyricsVal,
+          title: titleVal,
           instrumental: false,
           model: sunoModel,
           ...(personaId ? { personaId, personaModel: "voice_persona" } : {}),
@@ -799,6 +934,12 @@ export default function NovaAdminPage() {
                           state={getState(key)}
                           sunoModel={sunoModel}
                           personaId={personaId}
+                          editedStyle={getEdit(key, "style")}
+                          editedTitle={getEdit(key, "title")}
+                          editedLyrics={getEdit(key, "lyrics")}
+                          onEditStyle={(v) => setField(key, "style", v)}
+                          onEditTitle={(v) => setField(key, "title", v)}
+                          onEditLyrics={(v) => setField(key, "lyrics", v)}
                           onGenerate={() => generateTrack(album, track)}
                           onApprove={(clips) => approveTrack(album, track, clips)}
                           onDownload={downloadClip}
