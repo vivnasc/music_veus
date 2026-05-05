@@ -363,7 +363,126 @@ function TrackCard({
         </div>
       )}
 
-      {/* Custom cover upload (Midjourney) */}
+      {/* Lyric Video Helpers — só visível depois do MP3 estar no Supabase */}
+      {state.status === "uploaded" && (
+        <LyricVideoSection album={album} track={track} />
+      )}
+    </div>
+  );
+}
+
+// ─── Lyric Video Section ───
+// Copy buttons para os 3 inputs que o utilizador precisa para colar no editor
+// de vídeo dele (CapCut, VEED, Kapwing, Final Cut...).
+
+function LyricVideoSection({ album, track }: { album: Album; track: AlbumTrack }) {
+  const [open, setOpen] = useState(false);
+  const [aspect, setAspect] = useState<"16:9" | "9:16">("16:9");
+  const [cached, setCached] = useState<{
+    scenePrompt: string;
+    singableLyrics: string;
+    audioUrl: string;
+  } | null>(null);
+
+  async function ensureLoaded() {
+    if (cached) return cached;
+    const { extractSingableLines, buildScenePrompt, audioUrlFor } = await import("@/lib/nova-lyric-video");
+    const data = {
+      scenePrompt: buildScenePrompt(album.slug, { aspect }),
+      singableLyrics: extractSingableLines(track.lyrics).join("\n"),
+      audioUrl: audioUrlFor(album.slug, track.number),
+    };
+    setCached(data);
+    return data;
+  }
+
+  async function refreshScenePrompt(newAspect: "16:9" | "9:16") {
+    setAspect(newAspect);
+    const { buildScenePrompt } = await import("@/lib/nova-lyric-video");
+    const newPrompt = buildScenePrompt(album.slug, { aspect: newAspect });
+    setCached((c) => c ? { ...c, scenePrompt: newPrompt } : c);
+  }
+
+  return (
+    <div className="mt-3 pt-3 border-t border-mundo-muted-dark/20">
+      <button
+        onClick={async () => {
+          if (!open) await ensureLoaded();
+          setOpen(!open);
+        }}
+        className="text-[11px] text-violet-300 hover:text-violet-200"
+      >
+        {open ? "Esconder Lyric Video" : "Lyric Video (scene + letra + audio)"}
+      </button>
+      {open && cached && (
+        <div className="mt-2 space-y-2">
+          <div className="flex gap-2 text-[10px]">
+            <button
+              onClick={() => refreshScenePrompt("16:9")}
+              className={`px-2 py-1 rounded ${aspect === "16:9" ? "bg-violet-700/60 text-white" : "bg-mundo-muted-dark/20 text-mundo-muted"}`}
+            >
+              16:9 canal
+            </button>
+            <button
+              onClick={() => refreshScenePrompt("9:16")}
+              className={`px-2 py-1 rounded ${aspect === "9:16" ? "bg-violet-700/60 text-white" : "bg-mundo-muted-dark/20 text-mundo-muted"}`}
+            >
+              9:16 shorts
+            </button>
+          </div>
+
+          <div className="rounded-lg bg-black/30 p-3">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-[10px] uppercase tracking-wider text-violet-400">
+                Midjourney Scene Prompt ({aspect})
+              </span>
+              <CopyButton text={cached.scenePrompt} label="Copiar prompt" />
+            </div>
+            <pre className="text-[10px] text-mundo-creme/80 whitespace-pre-wrap font-mono break-words">
+              {cached.scenePrompt}
+            </pre>
+            <p className="text-[9px] text-mundo-muted-dark mt-1">
+              Cola no Midjourney v7. Quando tiveres a imagem, anima-a (Runway / Kling / Pika / MJ motion) e usa como cena loopable no teu editor.
+            </p>
+          </div>
+
+          <div className="rounded-lg bg-black/30 p-3">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-[10px] uppercase tracking-wider text-violet-400">
+                Singable Lyrics (sem stage directions)
+              </span>
+              <CopyButton text={cached.singableLyrics} label="Copiar letra" />
+            </div>
+            <pre className="text-[10px] text-mundo-creme/80 whitespace-pre-wrap font-mono break-words max-h-48 overflow-auto">
+              {cached.singableLyrics}
+            </pre>
+            <p className="text-[9px] text-mundo-muted-dark mt-1">
+              Cola no editor para gerar a animação de letra (a maior parte dos editores faz timing automático).
+            </p>
+          </div>
+
+          <div className="rounded-lg bg-black/30 p-3">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-[10px] uppercase tracking-wider text-violet-400">
+                Audio URL (Supabase MP3)
+              </span>
+              <div className="flex gap-2">
+                <CopyButton text={cached.audioUrl} label="Copiar URL" />
+                <a
+                  href={cached.audioUrl}
+                  download
+                  className="shrink-0 rounded px-3 py-1.5 text-[11px] font-medium bg-mundo-muted-dark/20 text-mundo-muted hover:bg-mundo-muted-dark/40 hover:text-mundo-creme transition"
+                >
+                  Download MP3
+                </a>
+              </div>
+            </div>
+            <pre className="text-[10px] text-mundo-creme/80 whitespace-pre-wrap font-mono break-words">
+              {cached.audioUrl}
+            </pre>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
