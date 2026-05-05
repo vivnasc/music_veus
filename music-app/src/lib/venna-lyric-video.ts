@@ -71,12 +71,14 @@ const ALBUM_SCENE_TEMPLATE: Record<string, string> = {
  *
  * Por defeito 16:9 (canal principal). Para Shorts, troca para 9:16 antes de
  * colar.
+ *
+ * NOTA: v7 não suporta --cw (character weight) — a cref já controla a
+ * fidelidade ao personagem internamente.
  */
-export function buildScenePrompt(albumSlug: string, options: { aspect?: "16:9" | "9:16"; charWeight?: number } = {}): string {
+export function buildScenePrompt(albumSlug: string, options: { aspect?: "16:9" | "9:16" } = {}): string {
   const base = ALBUM_SCENE_TEMPLATE[albumSlug] ?? "warm cinematic loopable scene, terracotta and honey palette, cinematic 35mm";
   const aspect = options.aspect ?? "16:9";
-  const cw = options.charWeight ?? 50;
-  return `${base} --cref ${VENNA_CONFIG.CREF_URL} --cw ${cw} --ar ${aspect} --style raw --v 7 --motion low`;
+  return `${base} --cref ${VENNA_CONFIG.CREF_URL} --ar ${aspect} --style raw --v 7 --motion low`;
 }
 
 // ── Audio URL helper ───────────────────────────────────────
