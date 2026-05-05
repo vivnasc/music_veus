@@ -22,10 +22,14 @@ const PARTS = [1, 2, 3, 4].map((i) => resolve(REPO_ROOT, "VENNA", `PARTE-${i}.md
 // Escolhi variantes que reflectem o mood do álbum e sugerem ao Suno
 // que a 2ª ocorrência seja LIGEIRAMENTE diferente da 1ª (build vs hold).
 const ALBUM_DIRECTIVES: Record<number, [string, string]> = {
+  1:  ["[Pre-Chorus: voice rising, soft anticipation, body leaning in]",
+       "[Pre-Chorus: voice fuller, hands open, breath catching joy]"],
   2:  ["[Pre-Chorus: voice close, body lifting toward the chorus]",
        "[Pre-Chorus: voice held a beat longer, breath catching]"],
   3:  ["[Pre-Chorus: voice cool, no rush, smile under the line]",
        "[Pre-Chorus: voice still cool, smirk tightens]"],
+  4:  ["[Pre-Chorus: voice low and elegant, candlelight breath]",
+       "[Pre-Chorus: voice slower, second glass of wine in the words]"],
   5:  ["[Pre-Chorus: voice rising, hands reaching for the room]",
        "[Pre-Chorus: voice fuller, claps stacking under the line]"],
   6:  ["[Pre-Chorus: voice quiet, the hand reaches across]",
@@ -40,7 +44,7 @@ const ALBUM_DIRECTIVES: Record<number, [string, string]> = {
        "[Pre-Chorus: voice opening fully, breath wide]"],
 };
 
-function shouldSkipAlbum(n: number): boolean { return n === 1 || n === 4; }
+function shouldSkipAlbum(_n: number): boolean { return false; }
 
 function processFile(filePath: string): { changed: number } {
   let raw = readFileSync(filePath, "utf-8");

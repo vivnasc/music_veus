@@ -32,9 +32,10 @@ const LOCKED_BLOCK = `[VENNA — LOCKED VOCAL PROFILE — identical parameters a
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]`;
 
-// Detecta secções a saltar (Album 1 e Album 4).
-function shouldSkipAlbum(albumNumber: number): boolean {
-  return albumNumber === 1 || albumNumber === 4;
+// Pula nada — agora aplicar a todas as 70 faixas (incluindo Albums 1 e 4
+// que vão ser regerados com a Persona criada da Honey Hour aprovada).
+function shouldSkipAlbum(_albumNumber: number): boolean {
+  return false;
 }
 
 function processFile(filePath: string): { changed: number; skipped: number } {
@@ -67,21 +68,29 @@ function processFile(filePath: string): { changed: number; skipped: number } {
     const sectionStart = h.index;
     const section = raw.slice(sectionStart, sectionEnd);
 
-    // Encontra a primeira ocorrência de [Vocal: ...] na secção.
+    // Encontra o início do header — pode ser [VENNA — LOCKED ...] (de run
+    // anterior) ou [Vocal: ...]. Tomamos o que aparecer primeiro.
+    const lockedIdx = section.indexOf("[VENNA");
     const vocalIdx = section.indexOf("[Vocal:");
-    if (vocalIdx === -1) {
-      console.warn(`  [${h.albumNum}.${h.trackNum}] sem [Vocal: ...] — pulado`);
+    let headerIdx: number;
+    if (lockedIdx !== -1 && (vocalIdx === -1 || lockedIdx < vocalIdx)) {
+      headerIdx = lockedIdx;
+    } else if (vocalIdx !== -1) {
+      headerIdx = vocalIdx;
+    } else {
+      console.warn(`  [${h.albumNum}.${h.trackNum}] sem [Vocal: ...] nem [VENNA — pulado`);
       continue;
     }
 
-    // A partir do [Vocal: ...], consumir linha a linha enquanto começarem por
-    // [Vocal: ou [CRITICAL: . As CRITICAL para EU PT e EN são absorvidas no
-    // LOCKED block; outras (French, Spanish) são preservadas APÓS o bloco.
-    const lines = section.slice(vocalIdx).split("\n");
+    // A partir do header, consumir linha a linha enquanto começarem por
+    // [VENNA, [Vocal: ou [CRITICAL: . O LOCKED block existente (run anterior)
+    // é absorvido e re-escrito. CRITICAL para EU PT/EN entram no novo bloco.
+    // CRITICAL extras (French, Spanish) são preservadas APÓS o bloco novo.
+    const lines = section.slice(headerIdx).split("\n");
     const headerLines: string[] = [];
     let consumed = 0;
     for (const line of lines) {
-      if (line.startsWith("[Vocal:") || line.startsWith("[CRITICAL:")) {
+      if (line.startsWith("[VENNA") || line.startsWith("[Vocal:") || line.startsWith("[CRITICAL:")) {
         headerLines.push(line);
         consumed += line.length + 1; // +1 for \n
       } else {
@@ -95,10 +104,11 @@ function processFile(filePath: string): { changed: number; skipped: number } {
     // Identificar CRITICAL lines a preservar (não-padrão).
     const isStandardCritical = (l: string): boolean => {
       const lower = l.toLowerCase();
+      if (l.startsWith("[VENNA")) return true; // header line do LOCKED, absorbed
       if (l.startsWith("[Vocal:")) return true;
       if (lower.includes("european portuguese") && lower.includes("lisbon")) return true;
       if (lower.includes("international english accent")) return true;
-      if (lower.includes("same singer") || lower.includes("locked vocal")) return true; // already locked
+      if (lower.includes("same singer") || lower.includes("locked vocal")) return true; // legacy lines
       return false;
     };
 
@@ -109,10 +119,15 @@ function processFile(filePath: string): { changed: number; skipped: number } {
       ? LOCKED_BLOCK + "\n" + extraCriticals.join("\n")
       : LOCKED_BLOCK;
 
-    // Substituir no raw: posição absoluta = sectionStart + vocalIdx, length = totalConsumed
-    const absVocalStart = sectionStart + vocalIdx;
-    const absHeaderEnd = absVocalStart + totalConsumed;
-    raw = raw.slice(0, absVocalStart) + newHeader + "\n" + raw.slice(absHeaderEnd);
+    // Substituir no raw: posição absoluta = sectionStart + headerIdx (NÃO
+    // vocalIdx — quando há um [VENNA — LOCKED] de run anterior, headerIdx
+    // aponta para essa linha, anterior ao [Vocal:]. Usar vocalIdx aqui
+    // deixaria o [VENNA] antigo intacto e ainda inseriria um novo,
+    // duplicando-o; e o totalConsumed começa em headerIdx, então sobreposto
+    // a vocalIdx avançaria além do header e cortaria o [Intro: ...]).
+    const absHeaderStart = sectionStart + headerIdx;
+    const absHeaderEnd = absHeaderStart + totalConsumed;
+    raw = raw.slice(0, absHeaderStart) + newHeader + "\n" + raw.slice(absHeaderEnd);
     changed++;
   }
 

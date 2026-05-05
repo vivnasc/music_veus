@@ -26,13 +26,12 @@ melodic deep house, 118 BPM, signature element: short staccato piano riff repeat
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: piano chords, vocal whispered]
-honey hour...
-honey hour...
+[Intro: warm piano chords, soft tape hiss, distant party murmur — no vocal]
 
 [Verse 1: vocal close, intimate]
 Lights are low, the music's mine
@@ -40,17 +39,15 @@ Everybody dancing on the same line
 You don't have to ask me twice
 This kind of evening don't come at a price
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice rising, soft anticipation, body leaning in]
 Hands in the air, heart in the room
 Every minute we wait we get a little smoother
 
 [Chorus: layered harmonies enter]
-It's the honey hour
-Honey hour
 Body on body, the night's a flower
-Honey hour
-Honey hour
+Lights are low, the music's ours
 Nobody's leaving in the next half hour
+The honey hour
 
 [Verse 2: vocal close]
 Stranger's smile and a song I love
@@ -58,19 +55,17 @@ Floor is melting and the sky's above
 Don't ask later, don't ask why
 This kind of magic don't say goodbye
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, hands open, breath catching joy]
 Hands in the air, heart in the room
 Every minute we wait we get a little smoother
 
 [Chorus: full harmonies]
-It's the honey hour
-Honey hour
 Body on body, the night's a flower
-Honey hour
-Honey hour
+Lights are low, the music's ours
 Nobody's leaving in the next half hour
+The honey hour
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — vocal close]
+[Bridge: PT Lisbon accent, intimate evening warmth]
 (European Portuguese, Portugal accent:)
 A noite é doce
 A noite é nossa
@@ -78,15 +73,12 @@ Dança comigo
 Que a hora é nossa
 
 [Final Chorus: full harmonies]
-It's the honey hour
-Honey hour
 Body on body, the night's a flower
-Honey hour
-Honey hour
+Lights are low, the music's ours
 Nobody's leaving in the next half hour
+The honey hour
 
-[Outro: vocal whispered, fading]
-honey... hour...
+[Outro: piano fading slowly, soft sigh]
 ```
 
 ---
@@ -101,13 +93,12 @@ melodic house pop, 115 BPM, bright pluck synth lead 4-note motif, warm analog pa
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: pluck synth motif, soft pad, vocal whispered]
-golden hour...
-golden hour...
+[Intro: pluck synth motif, warm analog pad swelling, soft sun-fading texture]
 
 [Verse 1: vocal close, intimate, slight rasp]
 Sun's going down on a Tuesday night
@@ -115,17 +106,15 @@ Wine in my glass and the world feels right
 You said one drink and I said okay
 Now the sky's on fire and I want to stay
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice rising, soft anticipation, body leaning in]
 Hold the moment, hold the line
 Every ordinary thing turning gold tonight
 
 [Chorus: layered harmonies enter]
-It's the golden hour
-Golden hour
 The light's on your shoulders and I lose my power
-Golden hour
-Golden hour
+The sky on fire, the city ours
 Slow me down and I'll dance for an hour
+The golden hour
 
 [Verse 2: vocal close again]
 City lights are starting to climb
@@ -133,19 +122,17 @@ Your laugh is doing something to my spine
 Don't ask me where I want to go
 The answer's wherever the music flows
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, hands open, breath catching joy]
 Hold the moment, hold the line
 Every ordinary thing turning gold tonight
 
 [Chorus: full harmonies]
-It's the golden hour
-Golden hour
 The light's on your shoulders and I lose my power
-Golden hour
-Golden hour
+The sky on fire, the city ours
 Slow me down and I'll dance for an hour
+The golden hour
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, intimate evening warmth]
 (European Portuguese, Portugal accent:)
 A luz desce devagar
 A noite quer começar
@@ -153,15 +140,12 @@ Dança comigo
 Antes do dia acabar
 
 [Final Chorus: full harmonies]
-It's the golden hour
-Golden hour
 The light's on your shoulders and I lose my power
-Golden hour
-Golden hour
+The sky on fire, the city ours
 Slow me down and I'll dance for an hour
+The golden hour
 
-[Outro: vocal whispered, fading]
-golden... hour...
+[Outro: pluck motif fading, last warm pad holding]
 ```
 
 ---
@@ -176,13 +160,12 @@ mid-tempo house pop, 110 BPM, deep filtered vocal chop loop on verses, sultry su
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and sultry, slight rasp, sings close to the microphone with confident attitude, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: vocal chop loop, sub bass, whispered]
-slow down...
-slow down...
+[Intro: filtered vocal chop loop, sultry sub bass — let the chops carry, no spoken title]
 
 [Verse 1: vocal close, teasing]
 You walked in like you owned the floor
@@ -190,15 +173,14 @@ But baby I been here before
 Don't need a name to know your kind
 Beautiful trouble on a beautiful mind
 
-[Pre-Chorus: voice cool, hypnotic]
+[Pre-Chorus: voice rising, soft anticipation, body leaning in]
 You can talk all night, I got time
 But you'll dance to the rhythm of my line
 
 [Chorus: layered harmonies, hypnotic]
-Slow down, slow down
 You're moving too fast, you're missing the sound
-Slow down, slow down
 The night is long and the moon is round
+You can talk all night, I got time
 Slow down
 
 [Verse 2: vocal close, more attitude]
@@ -207,18 +189,17 @@ I'm not the easy, I'm not the fool
 Buy me a minute, buy me a song
 Show me the patience, show me you belong
 
-[Pre-Chorus: voice steady]
+[Pre-Chorus: voice fuller, hands open, breath catching joy]
 You can talk all night, I got time
 But you'll dance to the rhythm of my line
 
 [Chorus: full harmonies]
-Slow down, slow down
 You're moving too fast, you're missing the sound
-Slow down, slow down
 The night is long and the moon is round
+You can talk all night, I got time
 Slow down
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — playful]
+[Bridge: PT Lisbon accent, intimate evening warmth]
 (European Portuguese, Portugal accent:)
 Calma, calma
 Tens a noite toda
@@ -226,14 +207,12 @@ Eu não vou a lado nenhum
 Dança comigo a tua volta
 
 [Final Chorus: full harmonies, hypnotic peak]
-Slow down, slow down
 You're moving too fast, you're missing the sound
-Slow down, slow down
 The night is long and the moon is round
+You can talk all night, I got time
 Slow down
 
-[Outro: vocal whispered, fading]
-slow... down...
+[Outro: chop loop fading, sub bass holding]
 ```
 
 ---
@@ -248,9 +227,10 @@ dance pop with house influence, 122 BPM, filtered disco-style guitar chops on th
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and confident, slight rasp, breathy on verses, full on choruses, layered harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
 [Intro: disco guitar chops, vocal half-whispered]
 yeah... yeah...
@@ -262,15 +242,15 @@ Phone in my hand and the night is mine
 You said be ready by half past nine
 I been ready since the sun went shy
 
-[Pre-Chorus: voice lifts, anticipation]
+[Pre-Chorus: voice rising, soft anticipation, body leaning in]
 The week was long but the weekend's longer
 Every hour we wait we get a little stronger
 
 [Chorus: layered harmonies, full energy]
-Saturday skin, Saturday skin
 Dancing with the night, letting it all in
-Saturday skin, Saturday skin
 Body on body till the morning begins
+The week is gone, the weekend wins
+Saturday skin
 
 [Verse 2: vocal confident, brass stabs]
 Bass in the speaker, salt on my tongue
@@ -278,17 +258,17 @@ Tell me a secret, make it a song
 Don't ask me later, don't ask me twice
 This kind of magic don't come at a price
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, hands open, breath catching joy]
 The week was long but the weekend's longer
 Every hour we wait we get a little stronger
 
 [Chorus: full harmonies]
-Saturday skin, Saturday skin
 Dancing with the night, letting it all in
-Saturday skin, Saturday skin
 Body on body till the morning begins
+The week is gone, the weekend wins
+Saturday skin
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, intimate evening warmth]
 (European Portuguese, Portugal accent:)
 Dança comigo
 Deixa a noite entrar
@@ -296,13 +276,12 @@ Sábado é meu
 E eu vim dançar
 
 [Final Chorus: full harmonies, peak]
-Saturday skin, Saturday skin
 Dancing with the night, letting it all in
-Saturday skin, Saturday skin
 Body on body till the morning begins
+The week is gone, the weekend wins
+Saturday skin
 
-[Outro: vocal soft, fading]
-Saturday... skin...
+[Outro: brass stabs fading, claps thinning out]
 ```
 
 ---
@@ -317,13 +296,12 @@ melodic house pop with anthemic build, 118 BPM, euphoric synth lead recurring me
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and confident, slight rasp, chest voice on verses, breathy on choruses, layered female backing chorus on final chorus only, no melisma, never shouts]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: organic percussion, vocal whispered]
-VENNA...
-VENNA...
+[Intro: organic shaker percussion building, distant crowd murmur — no spoken title]
 
 [Verse 1: European Portuguese, Lisbon accent — chest voice]
 (European Portuguese, Portugal accent:)
@@ -337,7 +315,7 @@ Vim para dançar, vim para ficar
 A música é minha, a noite também
 A pista abre quando eu venho
 
-[Pre-Chorus: voice steady, anticipation]
+[Pre-Chorus: voice rising, soft anticipation, body leaning in]
 They ask me what I'm here for
 I say I'm here to stay
 They ask me what I'm playing
@@ -348,16 +326,14 @@ VENNA, VENNA
 I came to dance
 (European Portuguese:)
 vim para ficar
-VENNA, VENNA
 The night is mine
 (European Portuguese:)
 é meu lugar
-VENNA, VENNA
 (European Portuguese:)
 não peço licença
 I don't ask permission
-VENNA, VENNA
 This is the mission
+VENNA, VENNA
 
 [Verse 2: vocal confident, more open]
 I don't sing about the heartbreak
@@ -369,7 +345,7 @@ The Saturday skin, the slow down power
 I'm here for the joy, here for the climb
 Here for the woman who's ahead of her time
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, hands open, breath catching joy]
 They ask me what I'm here for
 I say I'm here to stay
 They ask me what I'm playing
@@ -380,16 +356,14 @@ VENNA, VENNA
 I came to dance
 (European Portuguese:)
 vim para ficar
-VENNA, VENNA
 The night is mine
 (European Portuguese:)
 é meu lugar
-VENNA, VENNA
 (European Portuguese:)
 não peço licença
 I don't ask permission
-VENNA, VENNA
 This is the mission
+VENNA, VENNA
 
 [Bridge: spoken, soft, intimate]
 This is for the women who dance alone in the kitchen
@@ -402,20 +376,17 @@ VENNA, VENNA
 I came to dance
 (European Portuguese:)
 vim para ficar
-VENNA, VENNA
 The night is mine
 (European Portuguese:)
 é meu lugar
-VENNA, VENNA
 (European Portuguese:)
 não peço licença
 I don't ask permission
-VENNA, VENNA
 This is the mission
+VENNA, VENNA
 
-[Outro: vocal whispered, fading]
-VENNA...
-VENNA...
+[Outro: percussion fading, single soft VENNA spoken, then silence]
+VENNA
 ```
 
 ---
@@ -430,13 +401,12 @@ melodic house pop, 116 BPM, dreamy steel-pluck synth playing a recurring 6-note 
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp, breathy and dreamy, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: steel-pluck motif, tape echo, vocal whispered]
-mango moon...
-mango moon...
+[Intro: steel-pluck motif, tape echo, distant fan whirring slow]
 
 [Verse 1: vocal dreamy, close]
 Half past midnight, the kitchen's warm
@@ -444,15 +414,15 @@ Your shirt is open, your eyes a storm
 We danced too long but I'm not done
 Tonight tastes sweeter than anyone
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice rising, soft anticipation, body leaning in]
 The fan is spinning, the wine is low
 Tell me again where you wanna go
 
 [Chorus: layered harmonies enter]
-Mango moon, mango moon
 Hanging soft on the kitchen room
-Mango moon, mango moon
+Half past midnight, the wine half gone
 Stay with me till tomorrow noon
+Mango moon
 
 [Verse 2: vocal dreamy]
 You smile and the lights forget to dim
@@ -460,17 +430,17 @@ I lean in and the night joins in
 There's nothing fancy in what we do
 Just two slow hearts and a midnight view
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, hands open, breath catching joy]
 The fan is spinning, the wine is low
 Tell me again where you wanna go
 
 [Chorus: full harmonies]
-Mango moon, mango moon
 Hanging soft on the kitchen room
-Mango moon, mango moon
+Half past midnight, the wine half gone
 Stay with me till tomorrow noon
+Mango moon
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, intimate evening warmth]
 (European Portuguese, Portugal accent:)
 A lua está madura
 A noite está nua
@@ -478,13 +448,12 @@ Vem cá devagar
 Que esta hora é nossa
 
 [Final Chorus: full harmonies]
-Mango moon, mango moon
 Hanging soft on the kitchen room
-Mango moon, mango moon
+Half past midnight, the wine half gone
 Stay with me till tomorrow noon
+Mango moon
 
-[Outro: vocal whispered]
-mango... moon...
+[Outro: pluck motif fading, last tape echo trailing]
 ```
 
 ---
@@ -499,13 +468,13 @@ melodic house pop, 114 BPM, plucky funk-inspired bass groove as the main hook, v
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and tender, slight rasp, sings close to the microphone, layered harmonies on choruses, vocoded backing texture, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: plucky bass, vocoded "ohh", vocal whispered]
-don't go yet...
-don't go yet...
+[Intro: plucky bass groove, vocoded "ohh" stack rising]
+ohh ohh...
 
 [Verse 1: vocal tender, close]
 The cab is waiting, you got your keys
@@ -513,15 +482,15 @@ The morning's coming with all its needs
 But the music's still on and so am I
 And I'm not ready to say goodbye
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice rising, soft anticipation, body leaning in]
 One more song, one more spin
 One more reason to stay within
 
 [Chorus: layered harmonies + vocoder]
-Don't go yet, don't go yet
 The night's not finished, don't make me forget
-Don't go yet, don't go yet
 Stay till the kitchen lights are set
+One more song, the cab can wait
+Don't go yet
 
 [Verse 2: vocal close, soft attitude]
 You said you had to be up at eight
@@ -529,17 +498,17 @@ I said the morning can always wait
 You laughed and pretended you'd disagree
 But you're still standing right next to me
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, hands open, breath catching joy]
 One more song, one more spin
 One more reason to stay within
 
 [Chorus: full harmonies]
-Don't go yet, don't go yet
 The night's not finished, don't make me forget
-Don't go yet, don't go yet
 Stay till the kitchen lights are set
+One more song, the cab can wait
+Don't go yet
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, intimate evening warmth]
 (European Portuguese, Portugal accent:)
 Não vás ainda
 A noite é tão grande
@@ -547,13 +516,12 @@ Fica mais um bocadinho
 Que a manhã que aguarde
 
 [Final Chorus: full harmonies]
-Don't go yet, don't go yet
 The night's not finished, don't make me forget
-Don't go yet, don't go yet
 Stay till the kitchen lights are set
+One more song, the cab can wait
+Don't go yet
 
-[Outro: vocal whispered, fading]
-don't... go yet...
+[Outro: bass groove fading, vocoded "ohh" trailing soft]
 ```
 
 ---

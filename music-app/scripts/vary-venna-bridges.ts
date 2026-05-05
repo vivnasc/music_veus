@@ -18,8 +18,10 @@ const REPO_ROOT = resolve(__dirname, "..", "..");
 const PARTS = [1, 2, 3, 4].map((i) => resolve(REPO_ROOT, "VENNA", `PARTE-${i}.md`));
 
 const ALBUM_BRIDGE_HEADER: Record<number, string> = {
+  1:  "[Bridge: PT Lisbon accent, intimate evening warmth]",
   2:  "[Bridge: PT Lisbon accent, intimate hush, urban warmth]",
   3:  "[Bridge: PT Lisbon accent, calm authority, smile under the line]",
+  4:  "[Bridge: PT Lisbon accent, adult sensuality, candlelit and slow]",
   5:  "[Bridge: PT Lisbon accent, declarative and joyful]",
   6:  "[Bridge: PT Lisbon accent, soft and held, breath close]",
   7:  "[Bridge: PT Lisbon accent, sultry whisper, breath caught]",
@@ -28,7 +30,7 @@ const ALBUM_BRIDGE_HEADER: Record<number, string> = {
   10: "[Bridge: PT Lisbon accent, powerful and grounded]",
 };
 
-function shouldSkipAlbum(n: number): boolean { return n === 1 || n === 4; }
+function shouldSkipAlbum(_n: number): boolean { return false; }
 
 function processFile(filePath: string): { changed: number } {
   let raw = readFileSync(filePath, "utf-8");
