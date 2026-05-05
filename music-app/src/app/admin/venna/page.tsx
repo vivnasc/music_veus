@@ -363,7 +363,46 @@ function TrackCard({
         </div>
       )}
 
-      {/* Custom cover upload (Midjourney) */}
+      {/* Lyric Video Pack — só visível depois do MP3 estar no Supabase */}
+      {state.status === "uploaded" && (
+        <button
+          id={`lyricvid-${album.slug}-${track.number}`}
+          onClick={async (e) => {
+            const btn = e.currentTarget;
+            const original = btn.textContent || "";
+            btn.disabled = true;
+            try {
+              const { buildLyricVideoPack, resolveCoverUrl, audioUrlFor } = await import("@/lib/venna-lyric-video");
+              btn.textContent = "A buscar URLs...";
+              const coverUrl = await resolveCoverUrl(album.slug, track.number);
+              const audioUrl = audioUrlFor(album.slug, track.number);
+              const blob = await buildLyricVideoPack({
+                album: { slug: album.slug, title: album.title },
+                track,
+                coverUrl,
+                audioUrl,
+                onProgress: (s) => { btn.textContent = s; },
+              });
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement("a");
+              a.href = url;
+              a.download = `venna-lyric-video-${album.slug}-faixa-${String(track.number).padStart(2, "0")}.zip`;
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+              URL.revokeObjectURL(url);
+              btn.textContent = "Pack pronto!";
+            } catch (err) {
+              btn.textContent = "Erro";
+              alert(String(err));
+            }
+            setTimeout(() => { btn.disabled = false; btn.textContent = original; }, 3000);
+          }}
+          className="mt-3 w-full rounded-lg bg-orange-700/40 px-3 py-2 text-[11px] font-medium text-orange-200 hover:bg-orange-700/60 transition"
+        >
+          Lyric Video Pack (cover + lyrics.srt + assemble.sh)
+        </button>
+      )}
     </div>
   );
 }
