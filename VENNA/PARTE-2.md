@@ -509,13 +509,12 @@ dance pop with house influence, 121 BPM, uplifting brass riff as main hook, laye
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and bright, slight rasp, breathy on verses, full and energetic on choruses, layered harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: brass riff, claps, vocal half-whispered]
-weekend heart...
-weekend heart...
+[Intro: brass riff bright, layered claps building, faint cab horn in distance]
 
 [Verse 1: vocal bright, anticipating]
 The clock said five and I left my screen
@@ -523,7 +522,7 @@ The week was hard but the week is clean
 I called the girls, I called the cab
 And nothing about tonight is gonna be drab
 
-[Pre-Chorus: voice lifts, joyful]
+[Pre-Chorus: voice rising, hands reaching for the room]
 The bass is bumping in the city's chest
 This is the kind of night that wears a vest
 
@@ -539,7 +538,7 @@ Whoever's gonna meet me hasn't met yet
 The DJ's spinning what the body needs
 And I'm not coming home till the daylight feeds
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps stacking under the line]
 The bass is bumping in the city's chest
 This is the kind of night that wears a vest
 
@@ -549,7 +548,7 @@ The week is gone, the bass is loud
 Ten o'clock and the city's mine
 Weekend heart
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, declarative and joyful]
 (European Portuguese, Portugal accent:)
 Coração de fim-de-semana
 A bater mais forte
@@ -562,8 +561,7 @@ The week is gone, the bass is loud
 Ten o'clock and the city's mine
 Weekend heart
 
-[Outro: vocal soft, fading]
-weekend... heart...
+[Outro: brass fading, single soft "yeah"]
 ```
 
 ---
@@ -578,13 +576,14 @@ dance pop with house influence, 121 BPM, uplifting piano riff as main hook, laye
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and bright, slight rasp, breathy on verses, full and energetic on choruses, layered harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: piano riff, "yeah" stack, vocal half-whispered]
-friday eyes...
-friday eyes...
+[Intro: piano riff bright, layered "yeah" stack rising]
+yeah...
+yeah...
 
 [Verse 1: vocal bright, anticipating]
 Five o'clock, the laptop closes hard
@@ -592,7 +591,7 @@ The week was long but I held my guard
 Heels in my bag, lipstick on
 Whoever's calling, I'm already gone
 
-[Pre-Chorus: voice lifts, joyful]
+[Pre-Chorus: voice rising, hands reaching for the room]
 The week was a marathon, the weekend's a flight
 Every cell in my body wants to be in the night
 
@@ -608,7 +607,7 @@ I haven't even started, I want some more
 The bass is hitting like a personal call
 And I plan to dance till the morning fall
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps stacking under the line]
 The week was a marathon, the weekend's a flight
 Every cell in my body wants to be in the night
 
@@ -618,7 +617,7 @@ Wide and bright like the morning rise
 Nothing in this world can compromise
 The girl I am with Friday eyes
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, declarative and joyful]
 (European Portuguese, Portugal accent:)
 Olhos de sexta
 A semana acabou
@@ -631,8 +630,7 @@ Wide and bright like the morning rise
 Nothing in this world can compromise
 The girl I am with Friday eyes
 
-[Outro: vocal soft, fading]
-friday... eyes...
+[Outro: piano fading, "yeah" stack thinning]
 ```
 
 ---
@@ -647,14 +645,14 @@ dance pop with house influence, 119 BPM, flamenco-inspired guitar pluck loop as 
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and confident, slight rasp, breathy on verses, full on choruses, layered harmonies on choruses, Spanish ad-libs natural, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
 
-[Intro: guitar pluck, clap stack, vocal half-whispered]
-dance with me...
-baila...
+[Intro: flamenco-inspired guitar pluck, clap stack, single Spanish "ay" call]
+ay...
 
 [Verse 1: vocal confident]
 The DJ knows my name tonight
@@ -662,7 +660,7 @@ The floor is ready, the beat is right
 You took my hand, I took your lead
 We're not negotiating, we just proceed
 
-[Pre-Chorus: voice lifts, energetic]
+[Pre-Chorus: voice rising, hands reaching for the room]
 This is the kind of song you don't sit down for
 This is the kind of night you don't keep score
 
@@ -678,7 +676,7 @@ Your hand on my waist is the only excuse
 I haven't checked my phone in an hour
 Tonight's the only kind of power
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps stacking under the line]
 This is the kind of song you don't sit down for
 This is the kind of night you don't keep score
 
@@ -701,9 +699,9 @@ Toda la noche, the night feeds
 Hands in the air, the bass agrees
 Baila conmigo
 
-[Outro: vocal whispered, fading Spanish]
+[Outro: guitar pluck fading, single soft Spanish whisper]
 (Spanish whisper:)
-baila... baila...
+baila...
 ```
 
 ---
@@ -718,13 +716,12 @@ dance pop with house influence, 118 BPM, bright steel-drum-style synth (NOT actu
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and bright, slight rasp, breathy on verses, energetic on choruses, layered harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: steel-style synth, water splash, vocal half-whispered]
-pool party...
-pool party...
+[Intro: steel-style synth bright, water splash texture, distant laughter]
 
 [Verse 1: vocal bright, sunkissed]
 Sunglasses on, the towels are down
@@ -732,7 +729,7 @@ Everybody's smiling, nobody's frown
 The drinks are cold, the floor is wet
 This is the kind of day I won't forget
 
-[Pre-Chorus: voice lifts, joyful]
+[Pre-Chorus: voice rising, hands reaching for the room]
 The bass is bumping by the deep end
 This kind of Saturday's the kind I'll spend
 
@@ -748,7 +745,7 @@ Soaked my dress and my sense of cash
 But the laughter's louder than the wreck
 And you came up grinning like a pool deck check
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps stacking under the line]
 The bass is bumping by the deep end
 This kind of Saturday's the kind I'll spend
 
@@ -758,7 +755,7 @@ Drinks in our hands, no plans to keep
 Saturday afternoon, nothing to prove
 Welcome to the pool party
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, declarative and joyful]
 (European Portuguese, Portugal accent:)
 A piscina é nossa
 A tarde é dourada
@@ -771,8 +768,7 @@ Drinks in our hands, no plans to keep
 Saturday afternoon, nothing to prove
 Welcome to the pool party
 
-[Outro: vocal whispered, splash fades]
-pool... party...
+[Outro: synth fading, last water splash]
 ```
 
 ---
@@ -787,13 +783,12 @@ mid-tempo house pop, 109 BPM, lazy Rhodes piano loop as main hook, relaxed finge
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and relaxed, slight rasp, breathy and amused close to mic, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: lazy Rhodes, snap groove, vocal whispered]
-sunday 4pm...
-sunday 4pm...
+[Intro: lazy Rhodes loop, slow finger-snap groove, distant kettle whistle]
 
 [Verse 1: vocal relaxed, amused]
 I should be sorry but I'm not quite
@@ -801,7 +796,7 @@ Last night was kind of a soft delight
 The brunch was long, the coffee's cold
 And I'm not done with what last night told
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice rising, hands reaching for the room]
 The week's not started, the weekend's still here
 This is the part where the world is sincere
 
@@ -817,7 +812,7 @@ The plants are happy, the cat is dozed
 We'll start the week when the clock decides
 But not before the Sunday rides
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps stacking under the line]
 The week's not started, the weekend's still here
 This is the part where the world is sincere
 
@@ -827,7 +822,7 @@ Nobody's asking me to fold or follow
 Jazz on low and the week can wait
 Long, slow Sunday 4pm
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, declarative and joyful]
 (European Portuguese, Portugal accent:)
 Domingo às quatro
 A luz é doce
@@ -840,8 +835,7 @@ Nobody's asking me to fold or follow
 Jazz on low and the week can wait
 Long, slow Sunday 4pm
 
-[Outro: vocal whispered]
-sunday... 4pm...
+[Outro: Rhodes fading slowly, soft yawn]
 ```
 
 ---
@@ -856,13 +850,13 @@ dance pop with house influence, 122 BPM, chopped vocal "go" stack as rhythmic ho
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and full, slight rasp, energetic on choruses, layered harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: vocal "go" chops, brass riff, vocal half-whispered]
-don't stop the weekend...
-don't stop...
+[Intro: chopped vocal "go go go" stack, brass riff peak — pumping]
+go go go...
 
 [Verse 1: vocal energetic, riding the beat]
 The clock said two but the floor said five
@@ -870,13 +864,13 @@ Everybody's bumping like they're staying alive
 The DJ's locked in, the lights are mad
 And I'm not the kind of woman who'd be sad
 
-[Pre-Chorus: voice lifts, peak]
-Hands in the air, hearts on fire
-This is what you live for, this is the higher
+[Pre-Chorus: voice rising, hands reaching for the room]
+Pulse in the room, fire in the chest
+This is what you live for, the rest is the rest
 
 [Chorus: layered harmonies, full peak]
-Body to body till the morning shows
-Hands in the air till the music slows
+Skin to skin till the morning shows
+Feet on the floor till the music slows
 Monday's coming but it's not my friend
 Don't stop the weekend
 
@@ -886,17 +880,17 @@ But I'm not lost, I'm in my prime
 The bass is kicking like it owns my chest
 And I haven't even given my best
 
-[Pre-Chorus: voice lifts]
-Hands in the air, hearts on fire
-This is what you live for, this is the higher
+[Pre-Chorus: voice fuller, claps stacking under the line]
+Pulse in the room, fire in the chest
+This is what you live for, the rest is the rest
 
 [Chorus: full harmonies]
-Body to body till the morning shows
-Hands in the air till the music slows
+Skin to skin till the morning shows
+Feet on the floor till the music slows
 Monday's coming but it's not my friend
 Don't stop the weekend
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, declarative and joyful]
 (European Portuguese, Portugal accent:)
 Não pares o fim-de-semana
 A pista é minha
@@ -904,13 +898,12 @@ Hoje à noite
 A vida é uma rainha
 
 [Final Chorus: full harmonies, peak]
-Body to body till the morning shows
-Hands in the air till the music slows
+Skin to skin till the morning shows
+Feet on the floor till the music slows
 Monday's coming but it's not my friend
 Don't stop the weekend
 
-[Outro: vocal soft, fading]
-don't stop... the weekend...
+[Outro: brass fading, "go" stack thinning out]
 ```
 
 
@@ -926,14 +919,15 @@ dance pop with house influence, 120 BPM, plucky guitar riff with subtle Spanish 
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and inviting, slight rasp, energetic on choruses, layered harmonies, Spanish ad-libs natural, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
 
-[Intro: guitar riff, claps, vocal half-whispered]
+[Intro: plucky guitar with Spanish flavour, claps, single playful Spanish call]
+(Spanish whisper:)
 vamos...
-let's go...
 
 [Verse 1: vocal inviting]
 You're sitting on the couch with your phone in hand
@@ -941,7 +935,7 @@ I told you twice that I made the plan
 The dress is on, the cab is near
 Don't make me beg you to disappear
 
-[Pre-Chorus: voice lifts, urging]
+[Pre-Chorus: voice rising, hands reaching for the room]
 Life is short and the night is bright
 And I'm not waiting for you to decide
 
@@ -957,7 +951,7 @@ I told the boys we won't go far
 The DJ's playing my favourite line
 And you're still sitting like you've got time
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps stacking under the line]
 Life is short and the night is bright
 And I'm not waiting for you to decide
 
@@ -980,8 +974,9 @@ Get your shoes, get your coat, let's go
 The cab is here, the dress is right
 Vamos, let's go
 
-[Outro: vocal whispered, fading]
-vamos... let's go...
+[Outro: guitar fading, soft Spanish exhale]
+(Spanish whisper:)
+vámonos...
 ```
 
 ---
@@ -999,13 +994,12 @@ mid-tempo house pop, 112 BPM, warm Rhodes chord progression, plucky bass walking
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and tender, slight rasp, breathy close to mic, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: warm Rhodes, plucky bass, vocal whispered]
-closer...
-closer...
+[Intro: warm Rhodes chord progression, plucky bass walking, single soft breath]
 
 [Verse 1: vocal close, tender]
 We don't need words for half the night
@@ -1013,7 +1007,7 @@ You know my coffee, I know your light
 The fight we had last week is small
 Compared to the kind of love you call
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice quiet, the hand reaches across]
 Two years in and I'm still surprised
 By the way you read my disguised
 
@@ -1029,7 +1023,7 @@ You hold my hand like you mean to park it
 The world is loud, the bills are real
 But I'd choose this room as the only deal
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held still, soft breath catching]
 Two years in and I'm still surprised
 By the way you read my disguised
 
@@ -1039,7 +1033,7 @@ Built in the quiet of the same room
 Coffee, toaster, the slow Sunday move
 Pulling us closer
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, soft and held, breath close]
 (European Portuguese, Portugal accent:)
 Mais perto que ninguém
 Mais nosso que isto
@@ -1052,8 +1046,7 @@ Built in the quiet of the same room
 Coffee, toaster, the slow Sunday move
 Pulling us closer
 
-[Outro: vocal whispered]
-closer...
+[Outro: Rhodes fading, soft hum trailing]
 ```
 
 ---
@@ -1068,13 +1061,12 @@ melodic house pop, 114 BPM, soft pluck synth as main hook, warm pad swelling und
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and warm, slight rasp, sings close to the microphone with quiet confidence, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: pluck synth, pad swell, vocal whispered]
-your side...
-your side...
+[Intro: pluck synth quiet, pad swelling slowly — no vocal, 4 bars]
 
 [Verse 1: vocal close, warm]
 The party's loud, the room is full
@@ -1082,7 +1074,7 @@ You catch my eye through the crowded pull
 You don't say much, you don't have to
 The way you smile is the only cue
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice quiet, the hand reaches across]
 A hundred people and I see one
 This kind of magic, the work is done
 
@@ -1098,7 +1090,7 @@ You'd already saved a seat for two
 The way you know me without a word
 This is the song that won't be heard
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held still, soft breath catching]
 A hundred people and I see one
 This kind of magic, the work is done
 
@@ -1108,7 +1100,7 @@ Twenty inches between us, the rest erased
 The world keeps spinning, the night decides
 I sleep on your side
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, soft and held, breath close]
 (European Portuguese, Portugal accent:)
 Ao teu lado
 É onde eu fico
@@ -1121,8 +1113,7 @@ Twenty inches between us, the rest erased
 The world keeps spinning, the night decides
 I sleep on your side
 
-[Outro: vocal whispered]
-your... side...
+[Outro: pad fading slowly, single breath]
 ```
 
 ---
@@ -1137,13 +1128,12 @@ melodic deep house, 118 BPM, filtered breath texture, deep sub bass with melodic
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and direct, slight rasp, breathy close to mic with sensual confidence, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: filtered breath, sub bass, vocal whispered]
-down the hall...
-down the hall...
+[Intro: filtered breath texture, deep sub bass — slow inhale, 4 bars]
 
 [Verse 1: vocal close, sultry]
 The kids are at your sister's place
@@ -1151,7 +1141,7 @@ You poured the wine without saying grace
 The hallway's short but I'm walking slow
 You know the kind of evening I plan to grow
 
-[Pre-Chorus: voice lifts, direct]
+[Pre-Chorus: voice quiet, the hand reaches across]
 Don't make me say it twice tonight
 The bedroom's down the hall and the door's not tight
 
@@ -1167,7 +1157,7 @@ Which is the kind of move I trust
 You take the wine, you take my hand
 This is the kind of evening I planned
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held still, soft breath catching]
 Don't make me say it twice tonight
 The bedroom's down the hall and the door's not tight
 
@@ -1177,7 +1167,7 @@ Wine's still poured, lights down low
 The door's open at the end
 Meet me down the hall
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — sultry]
+[Bridge: PT Lisbon accent, soft and held, breath close]
 (European Portuguese, Portugal accent:)
 No corredor
 A noite é nossa
@@ -1190,8 +1180,7 @@ Wine's still poured, lights down low
 The door's open at the end
 Meet me down the hall
 
-[Outro: vocal whispered, sultry]
-down... the hall...
+[Outro: sub bass fading, slow exhale]
 ```
 
 ---
@@ -1206,13 +1195,12 @@ mid-tempo house pop, 110 BPM, clinky percussion suggesting keys/coins, plucky ba
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and warm, slight rasp, sings close to the microphone with relaxed intimacy, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: clinky percussion, plucky bass, vocal whispered]
-keys on the counter...
-keys on the counter...
+[Intro: clinky percussion (keys on counter, coins), plucky bass walking — no vocal]
 
 [Verse 1: vocal close, warm]
 The door swings open like it knows the drill
@@ -1220,7 +1208,7 @@ The lights are dim, the room is still
 You drop the keys and kick off your shoes
 This is the version of me you don't lose
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice quiet, the hand reaches across]
 The day is done, the world is small
 We don't have to perform at all
 
@@ -1236,7 +1224,7 @@ We end up dancing in the kitchen instead
 The fridge is humming, the floor is cold
 And I'm not tired of getting old
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held still, soft breath catching]
 The day is done, the world is small
 We don't have to perform at all
 
@@ -1246,7 +1234,7 @@ Home is the place we already are
 Built without trying, built to last
 Keys on the counter
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, soft and held, breath close]
 (European Portuguese, Portugal accent:)
 Chaves no balcão
 Casaco na cadeira
@@ -1259,8 +1247,7 @@ Home is the place we already are
 Built without trying, built to last
 Keys on the counter
 
-[Outro: vocal whispered]
-keys... on the counter...
+[Outro: percussion fading, soft door close]
 ```
 
 ---
@@ -1275,13 +1262,12 @@ melodic house pop, 113 BPM, filtered piano arpeggio looping as main hook, warm s
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and grounded, slight rasp, sings close to the microphone with mature certainty, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: piano arpeggio, warm pad, vocal whispered]
-still here...
-still here...
+[Intro: filtered piano arpeggio, warm pad sustaining — no vocal, 6 bars]
 
 [Verse 1: vocal close, grounded]
 There's been some weather, there's been some rain
@@ -1289,7 +1275,7 @@ Some nights you wondered, some nights I'd complain
 But every morning I made the choice
 To recognize you in your tired voice
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice quiet, the hand reaches across]
 This is the part that nobody films
 The unromantic kind of loving thrills
 
@@ -1305,7 +1291,7 @@ You're not a project, you're not a plan
 You're the person I keep choosing on
 Even on days when the spark is gone
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held still, soft breath catching]
 This is the part that nobody films
 The unromantic kind of loving thrills
 
@@ -1315,7 +1301,7 @@ Picked you again, year after year
 The little fights, the kitchen floor
 And I'm still here
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, soft and held, breath close]
 (European Portuguese, Portugal accent:)
 Ainda aqui
 Depois de tudo
@@ -1328,8 +1314,7 @@ Picked you again, year after year
 The little fights, the kitchen floor
 And I'm still here
 
-[Outro: vocal whispered]
-still... here...
+[Outro: piano arpeggio fading, pad holding the last note]
 ```
 
 ---
@@ -1344,13 +1329,13 @@ melodic house pop, 116 BPM, uplifting piano motif as main hook, female harmony s
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and bright, slight rasp, breathy on verses, full and joyful on choruses, layered female harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: piano motif, harmony stack, vocal whispered]
-our song...
-our song...
+[Intro: piano motif uplifting, layered "la la la" hum stack]
+la la la...
 
 [Verse 1: vocal bright, smiling]
 We don't have a wedding, we don't have a ring
@@ -1358,7 +1343,7 @@ But we have this song that makes my whole heart sing
 It plays in the car, it plays in the shower
 It plays in the kitchen at the cooking hour
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice quiet, the hand reaches across]
 Some couples keep diaries, some keep flowers
 We keep a song that just keeps being ours
 
@@ -1374,7 +1359,7 @@ You sang the chorus, I sang it too
 We don't even need to play it loud
 The intro alone gets us up off the cloud
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held still, soft breath catching]
 Some couples keep diaries, some keep flowers
 We keep a song that just keeps being ours
 
@@ -1384,7 +1369,7 @@ Three minutes of feeling like we're home
 Anywhere it plays, I find your hand
 That's our song
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, soft and held, breath close]
 (European Portuguese, Portugal accent:)
 A nossa música
 A que nos diz
@@ -1397,8 +1382,7 @@ Three minutes of feeling like we're home
 Anywhere it plays, I find your hand
 That's our song
 
-[Outro: vocal whispered]
-our... song...
+[Outro: piano motif fading, "la la" hum thinning]
 ```
 
 ---
@@ -1413,13 +1397,12 @@ mid-tempo house pop, 109 BPM, warm piano chords as main hook, soft brushed kick,
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and tender, slight rasp, sings close to the microphone with morning quietness, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: warm piano, brushed kick, vocal whispered]
-morning song...
-morning song...
+[Intro: warm piano chord, very soft brushed kick — kettle boiling distantly, no vocal]
 
 [Verse 1: vocal close, tender]
 The light comes through the curtain slow
@@ -1427,7 +1410,7 @@ You're still asleep, you don't quite know
 I make the coffee, I steal your shirt
 This is the version of love that hurts in a good kind of hurt
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice quiet, the hand reaches across]
 The kettle's on, the day's not yet
 This is the part nobody can forget
 
@@ -1443,7 +1426,7 @@ Pull me into the warmest place
 Five more minutes, then the alarm
 This is the kind of love that disarms
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held still, soft breath catching]
 The kettle's on, the day's not yet
 This is the part nobody can forget
 
@@ -1453,7 +1436,7 @@ Coffee soft and the curtains drawn
 The whole day waiting at the door
 Just a morning song
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, soft and held, breath close]
 (European Portuguese, Portugal accent:)
 Música da manhã
 A mais doce que canto
@@ -1466,8 +1449,7 @@ Coffee soft and the curtains drawn
 The whole day waiting at the door
 Just a morning song
 
-[Outro: vocal whispered]
-morning... song...
+[Outro: piano fading slow, soft yawn]
 ```
 
 ---

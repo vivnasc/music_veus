@@ -16,13 +16,13 @@ dance pop, 121 BPM, punchy synth bass riff as main hook, brass stack on choruses
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and full, slight rasp, breathy on verses, big and confident on choruses, layered harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: synth bass riff, brass stack, vocal half-whispered]
-heart like a bassline...
-heart like a bassline...
+[Intro: punchy synth bass riff, brass stack rising, layered "oh" stack]
+oh oh oh...
 
 [Verse 1: vocal confident]
 You asked me what I'm running on
@@ -30,7 +30,7 @@ I told you it's the rhythm, never gone
 Some hearts beat soft like a sleeping cat
 Mine beats hard like a perfect track
 
-[Pre-Chorus: voice lifts, big]
+[Pre-Chorus: voice rising, building toward the bass]
 You wanna keep up, you better tune in
 This is the kind of woman who's been
 
@@ -46,7 +46,7 @@ I been the woman who took her seat
 I'm not a feature, I'm not a guest
 This is my song and you know the rest
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps and brass stacking up]
 You wanna keep up, you better tune in
 This is the kind of woman who's been
 
@@ -56,7 +56,7 @@ Drumming the rhythm right under the chest
 Don't try to slow me, don't draw a line
 Heart like a bassline
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, anthemic, full chest]
 (European Portuguese, Portugal accent:)
 Coração que bate
 Como uma linha de baixo
@@ -69,8 +69,7 @@ Drumming the rhythm right under the chest
 Don't try to slow me, don't draw a line
 Heart like a bassline
 
-[Outro: vocal soft, fading]
-heart like... a bassline...
+[Outro: brass fading, last bass riff thumping out]
 ```
 
 ---
@@ -85,13 +84,12 @@ dance pop, 122 BPM, filtered piano build into euphoric synth lead drop on chorus
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and bright, slight rasp, breathy on verses, full and euphoric on choruses, layered harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: filtered piano build, vocal half-whispered]
-running the light...
-running the light...
+[Intro: filtered piano build, distant traffic, single inhale before the drop]
 
 [Verse 1: vocal bright]
 The yellow turned and I didn't slow
@@ -99,7 +97,7 @@ Sometimes the night just decides to glow
 You're in the passenger, music up loud
 We're not part of any other crowd
 
-[Pre-Chorus: voice lifts, building]
+[Pre-Chorus: voice rising, building toward the bass]
 The bass is rising, the road is gold
 This kind of feeling never gets old
 
@@ -115,7 +113,7 @@ My phone is silent, my heart's a string
 I haven't been this awake in weeks
 And nothing tonight is for the meek
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps and brass stacking up]
 The bass is rising, the road is gold
 This kind of feeling never gets old
 
@@ -125,7 +123,7 @@ The whole damn city is built for flight
 Foot on the gas, the road is white
 Running the light
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, anthemic, full chest]
 (European Portuguese, Portugal accent:)
 A correr nos semáforos
 Na minha noite mais minha
@@ -138,8 +136,7 @@ The whole damn city is built for flight
 Foot on the gas, the road is white
 Running the light
 
-[Outro: vocal soft, fading]
-running... the light...
+[Outro: synth lead fading, distant horn]
 ```
 
 ---
@@ -154,14 +151,14 @@ dance pop, 119 BPM, plucky guitar lick with Spanish flavour, Spanish vocal "ooh"
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and playful, slight rasp, breathy on verses, full on choruses, layered harmonies and Spanish "ooh"s, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
 
-[Intro: plucky guitar, "ooh" stack, vocal half-whispered]
-two peaches...
-dos duraznos...
+[Intro: plucky guitar with Spanish flavour, "ooh" stack rising]
+ooh ooh...
 
 [Verse 1: vocal playful]
 You bought me peaches at the market today
@@ -169,7 +166,7 @@ The kind that don't ever go away
 I bit into one, you bit the other
 The juice on our chins like we discovered
 
-[Pre-Chorus: voice lifts, smiling]
+[Pre-Chorus: voice rising, building toward the bass]
 Some afternoons taste like a first time
 Some Saturdays don't bother to rhyme
 
@@ -185,7 +182,7 @@ The way the morning sometimes does
 Nothing fancy and nothing big
 Just two peaches and a perfect gig
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps and brass stacking up]
 Some afternoons taste like a first time
 Some Saturdays don't bother to rhyme
 
@@ -208,8 +205,7 @@ The kind of small joy nobody understands
 Bowl on the table, sun through the window
 Dos duraznos
 
-[Outro: vocal whispered, smiling]
-two... peaches...
+[Outro: guitar fading, soft Spanish "ooh" trailing]
 ```
 
 ---
@@ -224,13 +220,12 @@ dance pop, 120 BPM, uplifting synth chord swell on choruses, arpeggiated synth l
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky but bright, slight rasp, breathy on verses, full and uplifted on choruses, layered harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: synth swell, arpeggiated lead, vocal half-whispered]
-brighter...
-brighter...
+[Intro: uplifting synth swell, arpeggiated lead — window opening, distant birds]
 
 [Verse 1: vocal bright]
 I been low and I been quiet
@@ -238,7 +233,7 @@ But the morning's not afraid of riot
 Today the kettle has a louder song
 And I haven't felt this not-wrong long
 
-[Pre-Chorus: voice lifts, hopeful]
+[Pre-Chorus: voice rising, building toward the bass]
 The window's open, the curtains thin
 This is the kind of morning I let in
 
@@ -254,7 +249,7 @@ I cleaned the dishes, I did the half
 The sun is doing what suns are for
 And I'm not arguing with the floor
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps and brass stacking up]
 The window's open, the curtains thin
 This is the kind of morning I let in
 
@@ -264,7 +259,7 @@ The whole world's gonna be a little lighter
 Sun's on the rise and I let it in
 Brighter
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, anthemic, full chest]
 (European Portuguese, Portugal accent:)
 Mais clara, mais leve
 Hoje a vida sorri
@@ -277,8 +272,7 @@ The whole world's gonna be a little lighter
 Sun's on the rise and I let it in
 Brighter
 
-[Outro: vocal soft]
-brighter...
+[Outro: synth fading, single soft "ahh"]
 ```
 
 ---
@@ -293,14 +287,13 @@ dance pop with Latin influence, 117 BPM, Latin-flavoured guitar pluck as main ho
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and warm, slight rasp, breathy on verses, full on choruses, layered harmonies, Spanish ad-libs natural, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
 
-[Intro: Latin guitar pluck, snaps, vocal half-whispered]
-latin sunday...
-tarde latina...
+[Intro: Latin-flavoured guitar pluck, clave snaps, distant family chatter and pots]
 
 [Verse 1: vocal warm]
 The market's open, the herbs are loud
@@ -308,7 +301,7 @@ The neighbours laughing, the music's proud
 You're at the stove with a song in your throat
 And the whole apartment is a tiny boat
 
-[Pre-Chorus: voice lifts, joyful]
+[Pre-Chorus: voice rising, building toward the bass]
 The cumin's hot, the table's set
 This kind of Sunday's the best one yet
 
@@ -324,7 +317,7 @@ I add a little salt, you add a little froth
 The cousins are coming, the wine is open
 This is the Sunday that nobody's broken
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps and brass stacking up]
 The cumin's hot, the table's set
 This kind of Sunday's the best one yet
 
@@ -347,8 +340,7 @@ Mom's at the stove, cousins in the hall
 Family loud, the table's set
 Tarde latina
 
-[Outro: vocal whispered]
-latin... sunday...
+[Outro: guitar fading, family laughing in the background]
 ```
 
 ---
@@ -363,13 +355,12 @@ dance pop, 122 BPM, filtered sassy guitar lick as main hook, brass stack on chor
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and bold, slight rasp, breathy on verses, full and confident on choruses, layered harmonies, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: filtered guitar lick, brass, vocal half-whispered]
-she's a whole thing...
-she's a whole thing...
+[Intro: sassy filtered guitar lick, brass stack, layered claps building]
 
 [Verse 1: vocal confident]
 She walked in and the room reset
@@ -377,7 +368,7 @@ She's the kind of woman they don't forget
 She knows her name, she knows her worth
 She's not auditioning for the earth
 
-[Pre-Chorus: voice lifts, bold]
+[Pre-Chorus: voice rising, building toward the bass]
 She's not your project, she's not your fix
 She's a small country, she's full of tricks
 
@@ -393,7 +384,7 @@ She's been alone and she's been alive
 She doesn't owe you the easy yes
 She's gonna make you earn the success
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps and brass stacking up]
 She's not your project, she's not your fix
 She's a small country, she's full of tricks
 
@@ -403,7 +394,7 @@ She's a small country, she's full of tricks
 Skin and brain and a pair of wings
 She's a whole thing
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, anthemic, full chest]
 (European Portuguese, Portugal accent:)
 Ela é uma coisa inteira
 Não é uma metade
@@ -416,8 +407,7 @@ She's a small country, she's full of tricks
 Skin and brain and a pair of wings
 She's a whole thing
 
-[Outro: vocal soft]
-she's a... whole thing...
+[Outro: claps fading, last brass stab]
 ```
 
 ---
@@ -432,13 +422,12 @@ dance pop with arena influence, 120 BPM, big synth chord swell on choruses, crow
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and full, slight rasp, breathy on verses, big and full on choruses, crowd backing on final chorus, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: big synth chord, crowd "oh" stack, vocal half-whispered]
-stadium heart...
-stadium heart...
+[Intro: big synth chord swelling, crowd "oh" stack rising, distant arena cheer]
 
 [Verse 1: vocal full]
 I came up small in a small kind of town
@@ -446,7 +435,7 @@ I never thought I'd wear a kind of crown
 But the music kept calling, the rhythm kept loud
 And here I am singing to a stadium crowd
 
-[Pre-Chorus: voice lifts, big]
+[Pre-Chorus: voice rising, building toward the bass]
 The lights are on me, the bass is huge
 This is the kind of dream you don't refuse
 
@@ -462,7 +451,7 @@ I see the hands going row by row
 This isn't ego, this isn't fame
 This is the music calling my name
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice fuller, claps and brass stacking up]
 The lights are on me, the bass is huge
 This is the kind of dream you don't refuse
 
@@ -472,7 +461,7 @@ Twenty thousand hands rising at once
 This is the part I can't refuse
 Stadium heart
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, anthemic, full chest]
 (European Portuguese, Portugal accent:)
 Coração de estádio
 A bater por todos
@@ -485,8 +474,7 @@ Twenty thousand hands rising at once
 This is the part I can't refuse
 Stadium heart
 
-[Outro: vocal soft, crowd fading]
-stadium... heart...
+[Outro: crowd fading like a tide, last synth chord holding]
 ```
 
 ---
@@ -504,17 +492,18 @@ melodic house pop with anthemic build, 119 BPM, anthemic synth lead build into e
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and powerful, slight rasp, breathy on verses, full and confident on choruses, layered female crowd backing on final chorus, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: French sections in soft Parisian whisper]
 [CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
 
-[Intro: anthemic synth build, "oh" stack, vocal whispered multilingual]
-VENNA rising...
-VENNA está a chegar...
-VENNA arrive...
-VENNA llega...
+[Intro: anthemic synth build rising, female crowd "oh" stack, single multilingual call]
+(English:) here she comes
+(Portuguese, Lisbon:) cá está ela
+(French, Parisian whisper:) la voilà
+(Spanish, neutral:) aquí está
 
 [Verse 1: vocal powerful]
 Ten albums in and I'm still climbing
@@ -522,7 +511,7 @@ Ten years from now I'll still be timing
 The kind of woman who built her own gate
 The kind of woman who don't run late
 
-[Pre-Chorus: voice lifts, big]
+[Pre-Chorus: voice powerful, holding the ground beneath]
 This is not the start, this is not the end
 This is the part where the woman ascends
 
@@ -538,7 +527,7 @@ But every season I learned to grow
 I am not the woman I was before
 I am the woman who walks through the door
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice opening fully, breath wide]
 This is not the start, this is not the end
 This is the part where the woman ascends
 
@@ -563,8 +552,7 @@ A new kind of voice, a new kind of fire
 The one they didn't see is taking ground
 VENNA rising
 
-[Outro: vocal whispered, multilingual fading]
-VENNA rising... está a subir... monte... sube...
+[Outro: synth lead fading, crowd "oh" thinning, single soft "yeah"]
 ```
 
 ---
@@ -579,13 +567,12 @@ melodic house pop with anthemic build, 119 BPM, anthemic synth lead recurring me
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and confident, slight rasp, breathy on verses, full on choruses, layered female crowd backing on final chorus, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: synth lead, "oh" stack, vocal whispered]
-tonight is mine...
-tonight is mine...
+[Intro: anthemic synth lead phrase, female crowd "oh" stack rising — pure groove, no spoken title]
 
 [Verse 1: vocal confident]
 I won't apologize for taking up space
@@ -593,7 +580,7 @@ I won't apologize for asking for grace
 The week was long and I earned my hour
 Tonight is mine, that's the only power
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice powerful, holding the ground beneath]
 I'm not negotiating who I'll be
 The rhythm decides and the rhythm is me
 
@@ -609,7 +596,7 @@ The bartender's pouring my favourite kind
 I'm not the side, I'm not the supporting
 Tonight I'm the lead and I'm reporting
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice opening fully, breath wide]
 I'm not negotiating who I'll be
 The rhythm decides and the rhythm is me
 
@@ -619,7 +606,7 @@ Don't try to slow me, don't draw a line
 The bass is fire and the air is wine
 Tonight is mine
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, powerful and grounded]
 (European Portuguese, Portugal accent:)
 Esta noite é minha
 Não é tua, não é dele
@@ -632,8 +619,7 @@ Don't try to slow me, don't draw a line
 The bass is fire and the air is wine
 Tonight is mine
 
-[Outro: vocal soft]
-tonight... is mine...
+[Outro: synth fading, crowd "oh" stack thinning out]
 ```
 
 ---
@@ -648,17 +634,18 @@ melodic house pop, 117 BPM, filtered piano motif as main hook, female "ooh" voca
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and warm, slight rasp, sings close to the microphone with multilingual fluency, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: French sections in soft Parisian whisper]
 [CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
 
-[Intro: filtered piano, "ooh" stack, vocal whispered in 4 languages]
-polyglot...
-poliglota...
-polyglotte...
-políglota...
+[Intro: filtered piano motif, female "ooh" stack — 4 short multilingual calls layered, then verse enters]
+(English:) listen
+(Portuguese, Lisbon:) ouve
+(French, Parisian whisper:) écoute
+(Spanish, neutral:) escucha
 
 [Verse 1: vocal warm]
 I think in one and dream in another
@@ -666,7 +653,7 @@ Sing to my lover in a third or other
 The world is bigger than a single tongue
 I'm not from one and I'm not just one
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice powerful, holding the ground beneath]
 Some words come easier in one of mine
 Some feelings only fit on a different line
 
@@ -682,7 +669,7 @@ I love in Portuguese when I want it proud
 I love in French when I want it slow
 I love in Spanish when I want to flow
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice opening fully, breath wide]
 Some words come easier in one of mine
 Some feelings only fit on a different line
 
@@ -707,8 +694,9 @@ Four mouths the same heart is sending
 Mots, palavras, palabras, words
 A polyglot
 
-[Outro: vocal whispered, all 4 languages, fading]
-polyglot... poliglota... polyglotte... políglota...
+[Outro: piano fading, last 4 multilingual breaths overlapping]
+(softly, all four:)
+listen... ouve... écoute... escucha...
 ```
 
 ---
@@ -723,13 +711,12 @@ melodic deep house with sensual jazz influence, 116 BPM, sultry saxophone loop a
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and powerful, slight rasp, breathy and confident close to mic, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: sultry sax, filtered piano, vocal whispered]
-a woman at night...
-a woman at night...
+[Intro: sultry saxophone loop, filtered piano stabs — distant heels on a wood floor]
 
 [Verse 1: vocal close, powerful]
 She knows the rules, she breaks them well
@@ -737,7 +724,7 @@ She knows the bar where the bartenders tell
 She's not the prey, she's not the chase
 She's the architect of her own grace
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice powerful, holding the ground beneath]
 She'll let you in, she'll let you out
 She's the kind of permission you don't doubt
 
@@ -753,7 +740,7 @@ She's not afraid of anyone here
 She knows the cab driver, the bouncer too
 She's the one who decides what's true
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice opening fully, breath wide]
 She'll let you in, she'll let you out
 She's the kind of permission you don't doubt
 
@@ -763,7 +750,7 @@ She owns every shadow, she owns every light
 Don't try to soften her, she won't fold
 A woman at night
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, powerful and grounded]
 (European Portuguese, Portugal accent:)
 Uma mulher de noite
 Sabe o que quer
@@ -776,8 +763,7 @@ She owns every shadow, she owns every light
 Don't try to soften her, she won't fold
 A woman at night
 
-[Outro: vocal whispered, powerful]
-a woman... at night...
+[Outro: sax fading, last piano stab, heels walking out]
 ```
 
 ---
@@ -792,13 +778,12 @@ melodic deep house, 115 BPM, slow filtered breath texture throughout, deep sub b
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and direct, slight rasp, breathy close to mic with sensual confidence, layered harmonies on choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: filtered breath, sub bass, vocal whispered]
-invitation...
-invitation...
+[Intro: filtered breath texture, deep sub bass — sound of a key turning slow]
 
 [Verse 1: vocal close, direct]
 You been circling for a couple weeks
@@ -806,7 +791,7 @@ Texting often, never quite peaks
 I'm not the kind to wait around
 This is the night that's hitting the ground
 
-[Pre-Chorus: voice lifts, direct]
+[Pre-Chorus: voice powerful, holding the ground beneath]
 I'm wearing what you said you liked
 The door is open, the light is striked
 
@@ -822,7 +807,7 @@ This is the night you stop being one
 I'm not the prize, I'm not the chase
 I'm the woman who set the place
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice opening fully, breath wide]
 I'm wearing what you said you liked
 The door is open, the light is striked
 
@@ -832,7 +817,7 @@ Don't make me wait, I won't ask twice
 Open it, baby, this is mine
 You got the invitation
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — direct]
+[Bridge: PT Lisbon accent, powerful and grounded]
 (European Portuguese, Portugal accent:)
 Convite aberto
 Hoje à noite
@@ -845,8 +830,7 @@ Don't make me wait, I won't ask twice
 Open it, baby, this is mine
 You got the invitation
 
-[Outro: vocal whispered, sultry]
-invitation...
+[Outro: sub bass fading, slow exhale]
 ```
 
 ---
@@ -861,16 +845,17 @@ melodic house pop, 114 BPM, liquid Rhodes piano as main hook, multilingual femal
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and declarative, slight rasp, sings close to the microphone with mature certainty, layered harmonies on choruses, multilingual sections, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: French sections in soft Parisian whisper]
 [CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
 
-[Intro: liquid Rhodes, multilingual vocal whispers]
-ma vie...
-mi vida...
-minha vida...
+[Intro: liquid Rhodes piano, 3 short multilingual breath-calls layered]
+(French, Parisian whisper:) ma
+(Spanish, neutral:) mi
+(Portuguese, Lisbon:) minha
 
 [Verse 1: vocal close, declarative]
 I made it this far without asking permission
@@ -878,7 +863,7 @@ I did the work and I made my decision
 Some women edit themselves to fit
 This isn't that kind of song or wit
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice powerful, holding the ground beneath]
 This is my life and I built it slow
 This is the only kind I know
 
@@ -894,7 +879,7 @@ I'll do what I want with my Friday warning
 I won't ask the world what's right for me
 I am the woman I came to be
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice opening fully, breath wide]
 This is my life and I built it slow
 This is the only kind I know
 
@@ -919,8 +904,7 @@ My body, my hours, my own design
 Three tongues, one heart, one woman
 Ma vie, mi vida, minha vida
 
-[Outro: vocal whispered, multilingual fading]
-ma vie... mi vida... minha vida...
+[Outro: Rhodes fading, three soft exhales overlapping]
 ```
 
 ---
@@ -935,14 +919,13 @@ melodic house pop with anthemic finale build, 118 BPM, layered signature element
 
 **LYRICS:**
 ```
-[Vocal: ONE warm mezzo-soprano female voice, smoky and powerful, slight rasp, full and confident, layered female crowd backing throughout choruses, no melisma, no belting]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[CRITICAL: subtle international English accent, NOT American]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
+[Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
+[CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: All language sections in their proper accents — no mixing]
 
-[Intro: all signature elements layered, vocal whispered]
-VENNA tonight...
-VENNA tonight...
+[Intro: all signature elements from the previous tracks layered briefly (piano, plucky synth, sax breath, brass), full crowd "oh" rising — pure build, no spoken title]
 
 [Verse 1: vocal full, declarative]
 I was the woman who came to play
@@ -950,7 +933,7 @@ I was the woman who took the day
 I was the honey, the saturday skin
 The slow down, the golden, the everything in
 
-[Pre-Chorus: voice lifts, big]
+[Pre-Chorus: voice powerful, holding the ground beneath]
 I was the kitchen, the rooftop, the bar
 I was the woman who came this far
 
@@ -966,7 +949,7 @@ I loved in many and I stayed true
 I was the artist, I was the friend
 I was the woman who didn't pretend
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice opening fully, breath wide]
 I was the kitchen, the rooftop, the bar
 I was the woman who came this far
 
@@ -995,10 +978,8 @@ The end of the record, the start of the line
 The crowd is up, the sky's gone wide
 VENNA tonight
 
-[Outro: vocal whispered, fading, signature elements deconstructing]
-VENNA...
-VENNA...
-tonight...
+[Outro: signature elements deconstructing one by one, crowd fading like a tide, last single soft VENNA spoken]
+VENNA
 ```
 
 ---
