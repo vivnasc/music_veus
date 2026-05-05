@@ -22,9 +22,13 @@ const REPO_ROOT = resolve(__dirname, "..", "..");
 const PARTS = [1, 2, 3, 4].map((i) => resolve(REPO_ROOT, "VENNA", `PARTE-${i}.md`));
 
 // Bloco BLINDADO — idêntico em todas as 56 faixas (Albums 2,3,5,6,7,8,9,10).
-const LOCKED_BLOCK = `[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+// Suno não consegue ir buscar referências por nome, então a única coisa que
+// realmente prende a voz é o conjunto de parâmetros vocais detalhados,
+// repetidos byte-a-byte em cada track. Isso garante que cada geração fica
+// dentro do mesmo perfil — não é a mesma voz exacta (sem Persona é
+// impossível), mas é consistentemente o MESMO PERFIL.
+const LOCKED_BLOCK = `[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]`;
 

@@ -16,9 +16,8 @@ dance pop, 121 BPM, punchy synth bass riff as main hook, brass stack on choruses
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
@@ -85,9 +84,8 @@ dance pop, 122 BPM, filtered piano build into euphoric synth lead drop on chorus
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
@@ -153,9 +151,8 @@ dance pop, 119 BPM, plucky guitar lick with Spanish flavour, Spanish vocal "ooh"
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
@@ -223,9 +220,8 @@ dance pop, 120 BPM, uplifting synth chord swell on choruses, arpeggiated synth l
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
@@ -291,9 +287,8 @@ dance pop with Latin influence, 117 BPM, Latin-flavoured guitar pluck as main ho
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: Spanish sections in natural Castilian/neutral Spanish]
@@ -360,9 +355,8 @@ dance pop, 122 BPM, filtered sassy guitar lick as main hook, brass stack on chor
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
@@ -428,9 +422,8 @@ dance pop with arena influence, 120 BPM, big synth chord swell on choruses, crow
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
@@ -499,9 +492,8 @@ melodic house pop with anthemic build, 119 BPM, anthemic synth lead build into e
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: French sections in soft Parisian whisper]
@@ -575,9 +567,8 @@ melodic house pop with anthemic build, 119 BPM, anthemic synth lead recurring me
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
@@ -643,9 +634,8 @@ melodic house pop, 117 BPM, filtered piano motif as main hook, female "ooh" voca
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: French sections in soft Parisian whisper]
@@ -721,9 +711,8 @@ melodic deep house with sensual jazz influence, 116 BPM, sultry saxophone loop a
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
@@ -789,9 +778,8 @@ melodic deep house, 115 BPM, slow filtered breath texture throughout, deep sub b
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
@@ -857,9 +845,8 @@ melodic house pop, 114 BPM, liquid Rhodes piano as main hook, multilingual femal
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: French sections in soft Parisian whisper]
@@ -932,9 +919,8 @@ melodic house pop with anthemic finale build, 118 BPM, layered signature element
 
 **LYRICS:**
 ```
-[VENNA persona — LOCKED VOCAL IDENTITY — DO NOT VARY BETWEEN TRACKS]
+[VENNA — LOCKED VOCAL PROFILE — identical parameters across every track]
 [Vocal: ONE warm mezzo-soprano female voice, smoky speaking quality, slight rasp on sustained notes, breathy and confident, sings close to the microphone, layered airy harmonies on choruses, no melisma, no belting, no vibrato, no autotune]
-[CRITICAL: SAME singer as VENNA Honey Hour reference — identical timbre, identical persona, identical breath quality across every track]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 [CRITICAL: All language sections in their proper accents — no mixing]
