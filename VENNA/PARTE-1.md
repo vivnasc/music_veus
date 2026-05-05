@@ -585,7 +585,7 @@ Eight floors above the city's eye
 You took my drink and held my hand
 Said the storm was part of the plan
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice close, body lifting toward the chorus]
 Wet hair, warm chest, no plans to leave
 This kind of weather gives you reprieve
 
@@ -601,7 +601,7 @@ Nobody's watching, nobody's slow
 You whispered something I couldn't hear
 But the rain kept falling and you kept near
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held a beat longer, breath catching]
 Wet hair, warm chest, no plans to leave
 This kind of weather gives you reprieve
 
@@ -611,7 +611,7 @@ Hold my hand, don't say a thing
 We're high above the noise we left
 Stay where the storm becomes the song
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, intimate hush, urban warmth]
 (European Portuguese, Portugal accent:)
 A chuva é morna
 A noite é minha
@@ -653,7 +653,7 @@ Your hand on my thigh and the night is long
 We left too early, we'll arrive too late
 And neither one of us is gonna complain
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice close, body lifting toward the chorus]
 Driver took the long way, baby that's fine
 We've got nothing better than this kind of time
 
@@ -669,7 +669,7 @@ I lean in closer, you turn your head
 The city's blurring, the radio's old
 But the way you look at me is solid gold
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held a beat longer, breath catching]
 Driver took the long way, baby that's fine
 We've got nothing better than this kind of time
 
@@ -679,7 +679,7 @@ The city slips by, the meter slow
 Tell the driver take the longest way
 The night lives inside the taxi window
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, intimate hush, urban warmth]
 (European Portuguese, Portugal accent:)
 A cidade passa
 Eu olho para ti
@@ -721,7 +721,7 @@ Your mouth on my neck and the moon is right
 Don't tell me later, don't tell me twice
 This summer ain't asking for advice
 
-[Pre-Chorus: voice lifts, breathy]
+[Pre-Chorus: voice close, body lifting toward the chorus]
 Let the neighbours hear what they want to hear
 We've got the kind of night that stays right here
 
@@ -737,7 +737,7 @@ We've been pretending we didn't know
 But the curtain's open, the wine is gone
 And nothing on this earth is gonna last till dawn
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held a beat longer, breath catching]
 Let the neighbours hear what they want to hear
 We've got the kind of night that stays right here
 
@@ -747,7 +747,7 @@ You and the moon and the rhythm of the street
 The heat is slow-cooked, the night is sure
 Tonight we're not asking what we are
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — sultry]
+[Bridge: PT Lisbon accent, intimate hush, urban warmth]
 (European Portuguese, Portugal accent:)
 A varanda é nossa
 A noite é cúmplice
@@ -789,7 +789,7 @@ You're at the counter, the kettle's slow
 Your shirt is wrinkled, your hair's a mess
 And I never wanted you any less
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice close, body lifting toward the chorus]
 The dishwasher's humming, the world's outside
 This is the kind of moment I don't have to hide
 
@@ -805,7 +805,7 @@ I laugh and the answer doesn't matter at all
 The fridge is humming, the floor is cool
 And I'm not playing by anyone's rule
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held a beat longer, breath catching]
 The dishwasher's humming, the world's outside
 This is the kind of moment I don't have to hide
 
@@ -815,7 +815,7 @@ Tomorrow's coming but tonight is right
 You at the counter, me on the floor
 This is what I came here for
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, intimate hush, urban warmth]
 (European Portuguese, Portugal accent:)
 A luz da cozinha
 A noite quase a fim
@@ -828,8 +828,7 @@ Tomorrow's coming but tonight is right
 You at the counter, me on the floor
 This is what I came here for
 
-[Outro: vocal whispered]
-kitchen... light...
+[Outro: pluck loop fading, soft yawn]
 ```
 
 ---
@@ -850,9 +849,9 @@ melodic house, 120 BPM, uplifting major-key piano chords as main hook, slow sunr
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: piano chords build, pad swells, vocal whispered]
-terrace sunrise...
-terrace sunrise...
+[Intro: piano chords build, pad swells, soft "ahh" rising]
+ahh...
+ahh...
 
 [Verse 1: vocal close, uplifted]
 We made it, baby, we made it through
@@ -860,7 +859,7 @@ The DJ's packing, but I'm with you
 The sky is turning a softer shade
 And nothing on this earth is afraid
 
-[Pre-Chorus: voice lifts, joyful]
+[Pre-Chorus: voice close, body lifting toward the chorus]
 The first light's coming, the world's still ours
 This is the prize that the night devours
 
@@ -876,7 +875,7 @@ The sky is purple, then orange, then blue
 You kiss my forehead, the song moves on
 And we're the only thing left when the night is gone
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held a beat longer, breath catching]
 The first light's coming, the world's still ours
 This is the prize that the night devours
 
@@ -886,7 +885,7 @@ We held the bass till the dark gave in
 The first warm gold of the morning sky
 Terrace sunrise
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, intimate hush, urban warmth]
 (European Portuguese, Portugal accent:)
 O sol vai nascer
 A festa não termina
@@ -899,8 +898,7 @@ We held the bass till the dark gave in
 The first warm gold of the morning sky
 Terrace sunrise
 
-[Outro: vocal whispered, fading]
-terrace... sunrise...
+[Outro: pad fading, single soft sigh]
 ```
 
 ---
@@ -921,9 +919,7 @@ melodic house pop, 113 BPM, clicky percussion textures suggesting train rhythm, 
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: clicky percussion, chord stabs, vocal whispered]
-metro 23h...
-metro 23h...
+[Intro: train rhythm percussion, distant station chime — no vocal]
 
 [Verse 1: vocal close, observant]
 The carriage almost empty, the lights too bright
@@ -931,7 +927,7 @@ The vending machine humming a quiet fight
 You're across from me, headphones in
 But your eyes keep finding mine like a hidden grin
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice close, body lifting toward the chorus]
 Three more stops till my line is done
 But I'm not sure that I want anyone
 
@@ -947,7 +943,7 @@ The kind of smile that's worth a poem and a half
 The doors are closing, the train moves on
 And I'm not sure if I want this gone
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held a beat longer, breath catching]
 Three more stops till my line is done
 But I'm not sure that I want anyone
 
@@ -957,7 +953,7 @@ You across the carriage, the orange hum
 Three more stops till my line is done
 And I'm not sure I want this gone
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, intimate hush, urban warmth]
 (European Portuguese, Portugal accent:)
 O metro vazio
 Tu e eu e o frio
@@ -970,8 +966,7 @@ You across the carriage, the orange hum
 Three more stops till my line is done
 And I'm not sure I want this gone
 
-[Outro: vocal whispered, train fades]
-metro... 23h...
+[Outro: train rhythm fading, last clack — no vocal]
 ```
 
 ---
@@ -992,9 +987,8 @@ melodic house pop, 117 BPM, warm chopped saxophone sample as main hook, plucky b
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: chopped sax sample, plucky bass, vocal whispered]
-streetlight kiss...
-streetlight kiss...
+[Intro: chopped sax sample, plucky bass, very soft breath]
+mm...
 
 [Verse 1: vocal close, tender]
 You walked me home but we never quite arrived
@@ -1002,7 +996,7 @@ We stopped at the corner where the night thrived
 The lamp was orange, the air was thin
 And I knew exactly where I wanted to begin
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice close, body lifting toward the chorus]
 You said good night but you didn't leave
 I held my breath in my own sleeve
 
@@ -1018,7 +1012,7 @@ You leaned in slower than any song
 The light was warm and the kiss was slow
 And nothing else needed me to know
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice held a beat longer, breath catching]
 You said good night but you didn't leave
 I held my breath in my own sleeve
 
@@ -1028,7 +1022,7 @@ Holding still in a world like this
 Orange glow on your hand and your face
 Just a streetlight kiss
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, intimate hush, urban warmth]
 (European Portuguese, Portugal accent:)
 A esquina iluminada
 A boca devagar
@@ -1041,8 +1035,7 @@ Holding still in a world like this
 Orange glow on your hand and your face
 Just a streetlight kiss
 
-[Outro: vocal whispered]
-streetlight... kiss...
+[Outro: sax sample fading, soft sigh]
 ```
 
 ---
@@ -1066,9 +1059,8 @@ mid-tempo house pop, 116 BPM, sassy plucky synth lead as main hook, filtered bas
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: plucky synth, filtered bass, vocal whispered]
-run this floor...
-run this floor...
+[Intro: plucky synth, filtered bass, layered "oh oh oh" stack rising]
+oh oh oh...
 
 [Verse 1: vocal close, confident]
 I walked in late and the room turned slow
@@ -1076,7 +1068,7 @@ The DJ caught my eye, the bass said go
 You been watching from the corner all night
 But baby this is not your kind of fight
 
-[Pre-Chorus: voice cool]
+[Pre-Chorus: voice cool, no rush, smile under the line]
 I don't need a song to tell me what to do
 This whole damn rhythm is already mine and you
 
@@ -1092,7 +1084,7 @@ I sent her back without the same
 I'm not a phone number tonight
 I'm the woman who owns the light
 
-[Pre-Chorus: voice cool]
+[Pre-Chorus: voice still cool, smirk tightens]
 I don't need a song to tell me what to do
 This whole damn rhythm is already mine and you
 
@@ -1102,7 +1094,7 @@ The DJ takes the cue from me
 You can watch from where you are
 Tonight I run this floor
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, calm authority, smile under the line]
 (European Portuguese, Portugal accent:)
 A pista é minha
 Não pedi licença
@@ -1115,8 +1107,7 @@ The DJ takes the cue from me
 You can watch from where you are
 Tonight I run this floor
 
-[Outro: vocal whispered]
-I run... this floor...
+[Outro: claps fading, plucky synth alone]
 ```
 
 ---
@@ -1137,9 +1128,7 @@ mid-tempo house pop, 111 BPM, finger-snap groove as main rhythm element, filtere
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: finger snaps, filtered pad, vocal whispered]
-take your time...
-take your time...
+[Intro: finger snaps slow, filtered pad — no vocal, 4 bars groove]
 
 [Verse 1: vocal close, confident]
 You think you know where this is going
@@ -1147,7 +1136,7 @@ Baby you don't even know what you're showing
 I see the move before you make it
 And honey I might just decide to take it
 
-[Pre-Chorus: voice cool]
+[Pre-Chorus: voice cool, no rush, smile under the line]
 But not tonight, not in a hurry
 I don't run on anybody's worry
 
@@ -1163,7 +1152,7 @@ I been the answer to your second guess
 Don't bring me lines you read on a screen
 Bring me something nobody's seen
 
-[Pre-Chorus: voice cool]
+[Pre-Chorus: voice still cool, smirk tightens]
 But not tonight, not in a hurry
 I don't run on anybody's worry
 
@@ -1173,7 +1162,7 @@ The good ones don't come the easy way
 Watch me walk by, I'm the kind that stays
 Take your time
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, calm authority, smile under the line]
 (European Portuguese, Portugal accent:)
 Não tenhas pressa
 Eu não vou fugir
@@ -1186,8 +1175,7 @@ The good ones don't come the easy way
 Watch me walk by, I'm the kind that stays
 Take your time
 
-[Outro: vocal whispered]
-take your... time...
+[Outro: snaps fading, soft "mm" smirk]
 ```
 
 ---
@@ -1208,9 +1196,7 @@ dance pop with house influence, 119 BPM, dirty filtered synth bassline as main h
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: filtered synth bass, claps, vocal whispered]
-bad idea...
-bad idea...
+[Intro: filtered synth bass dirty, layered claps building — no vocal]
 
 [Verse 1: vocal close, daring]
 I told myself I wouldn't text you back
@@ -1218,7 +1204,7 @@ You showed up anyway with that grin attached
 My better judgement packed its bags and left
 I am about to commit a beautiful theft
 
-[Pre-Chorus: voice lifts, mischievous]
+[Pre-Chorus: voice cool, no rush, smile under the line]
 Every red flag is dancing tonight
 Every alarm bell is set on bright
 
@@ -1234,7 +1220,7 @@ But the music's loud and the wine is blue
 I'll regret this somewhere around noon
 But right now I want to dance to the moon
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice still cool, smirk tightens]
 Every red flag is dancing tonight
 Every alarm bell is set on bright
 
@@ -1244,7 +1230,7 @@ You and the music and one more pour
 Tomorrow's gonna ask me why
 Bad idea
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, calm authority, smile under the line]
 (European Portuguese, Portugal accent:)
 Má ideia
 Eu sei, eu sei
@@ -1259,8 +1245,7 @@ You and the music and one more pour
 Tomorrow's gonna ask me why
 Bad idea
 
-[Outro: vocal whispered]
-bad... idea...
+[Outro: bass fading dirty, single laugh under breath]
 ```
 
 ---
@@ -1281,9 +1266,7 @@ mid-tempo house pop, 113 BPM, sassy plucky synth lead, filtered vocal stutter as
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: plucky synth, vocal stutter, vocal whispered]
-nice try...
-nice try...
+[Intro: plucky synth sassy, vocal stutter texture — no spoken title, single light laugh]
 
 [Verse 1: vocal close, amused]
 You came up smooth with a line you bought
@@ -1291,7 +1274,7 @@ A compliment with a coupon attached
 "Beautiful" — sure, original — no
 I've heard it twice from the man before
 
-[Pre-Chorus: voice cool, smirking]
+[Pre-Chorus: voice cool, no rush, smile under the line]
 Step it up or step on out
 That's what this whole song's about
 
@@ -1307,7 +1290,7 @@ You researched everything but the news
 I'm not impressed by a wallet's weight
 You'll have to come with something straight
 
-[Pre-Chorus: voice cool]
+[Pre-Chorus: voice still cool, smirk tightens]
 Step it up or step on out
 That's what this whole song's about
 
@@ -1317,7 +1300,7 @@ The bar is higher than you knew
 Bring me something I haven't heard
 Nice try
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, calm authority, smile under the line]
 (European Portuguese, Portugal accent:)
 Boa tentativa
 Mas não é assim
@@ -1330,8 +1313,7 @@ The bar is higher than you knew
 Bring me something I haven't heard
 Nice try
 
-[Outro: vocal whispered, amused]
-nice... try...
+[Outro: synth fading, "mm hmm" amused]
 ```
 
 ---
@@ -1352,9 +1334,7 @@ melodic deep house, 115 BPM, deep filtered female vocal moan loop as texture, du
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: filtered moan loop, dub bass, vocal whispered]
-if you mean it...
-if you mean it...
+[Intro: filtered moan loop, dub bass — let the breath texture carry, no spoken title]
 
 [Verse 1: vocal close, sultry]
 You been talking pretty all night long
@@ -1362,7 +1342,7 @@ About how you'd handle me, how you'd be strong
 But baby talking is the easy part
 You gotta show me with your hands and heart
 
-[Pre-Chorus: voice direct]
+[Pre-Chorus: voice cool, no rush, smile under the line]
 I don't need promises, I don't need plans
 I need to feel your meaning in your hands
 
@@ -1378,7 +1358,7 @@ Then learn me back like a song you know
 I'm waiting, baby, I'm dressed for the test
 Show me the side of you I haven't met
 
-[Pre-Chorus: voice direct]
+[Pre-Chorus: voice still cool, smirk tightens]
 I don't need promises, I don't need plans
 I need to feel your meaning in your hands
 
@@ -1388,7 +1368,7 @@ Make me feel it on my skin
 Words are easy, hands are honest
 If you mean it
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian — sultry]
+[Bridge: PT Lisbon accent, calm authority, smile under the line]
 (European Portuguese, Portugal accent:)
 Se é a sério
 Mostra-me agora
@@ -1401,8 +1381,7 @@ Make me feel it on my skin
 Words are easy, hands are honest
 If you mean it
 
-[Outro: vocal whispered, sultry]
-if you... mean it...
+[Outro: dub bass fading, slow exhale]
 ```
 
 ---
@@ -1423,9 +1402,7 @@ melodic house pop, 116 BPM, cold piano stab on the offbeat with tape echo, pluck
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: cold piano stab, tape echo, vocal whispered]
-not tonight...
-not tonight...
+[Intro: cold piano stab, tape echo bouncing — no vocal, 4 bars]
 
 [Verse 1: vocal close, calm]
 I see you watching from across the bar
@@ -1433,13 +1410,13 @@ You think you've got the gravity of a star
 But I'm not orbiting anyone tonight
 I'm here for the music and my own light
 
-[Pre-Chorus: voice steady]
+[Pre-Chorus: voice cool, no rush, smile under the line]
 You're charming, sure, I'll give you that
 But I'm not in the market for whatever's at
 
 [Chorus: layered harmonies, firm]
 I'm not the prize and I'm not the fight
-I came to dance, not to invite
+I came for the rhythm, not the invite
 Try the next one with a softer ask
 Not tonight
 
@@ -1449,17 +1426,17 @@ With a smile that says I won't be tracked
 There's nothing wrong with what you tried
 But there's nothing here that needs to be denied
 
-[Pre-Chorus: voice steady]
+[Pre-Chorus: voice still cool, smirk tightens]
 You're charming, sure, I'll give you that
 But I'm not in the market for whatever's at
 
 [Chorus: full harmonies]
 I'm not the prize and I'm not the fight
-I came to dance, not to invite
+I came for the rhythm, not the invite
 Try the next one with a softer ask
 Not tonight
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, calm authority, smile under the line]
 (European Portuguese, Portugal accent:)
 Hoje à noite não
 Não é mau humor
@@ -1468,12 +1445,11 @@ Antes de ser de outro autor
 
 [Final Chorus: full harmonies]
 I'm not the prize and I'm not the fight
-I came to dance, not to invite
+I came for the rhythm, not the invite
 Try the next one with a softer ask
 Not tonight
 
-[Outro: vocal whispered]
-not... tonight...
+[Outro: piano stab fading, tape echo trailing]
 ```
 
 ---
@@ -1494,9 +1470,7 @@ dance pop with house influence, 120 BPM, sassy filtered guitar lick as main hook
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African — soft Lisbon "s" and "ch" sounds]
 [CRITICAL: subtle international English accent, NOT American — clean consonants, soft R]
 
-[Intro: filtered guitar lick, brass stabs, vocal half-whispered]
-walk away...
-like this...
+[Intro: filtered guitar lick sassy, brass stabs, heels clicking on floor]
 
 [Verse 1: vocal confident, full]
 You watched me put my jacket on
@@ -1504,7 +1478,7 @@ You waited for me to be wrong
 I took my drink, I left my number
 On the napkin like a lucky thunder
 
-[Pre-Chorus: voice lifts, sassy]
+[Pre-Chorus: voice cool, no rush, smile under the line]
 Some women leave with a slow goodbye
 I leave like the chorus before the high
 
@@ -1520,7 +1494,7 @@ I gave him a look that made him obey
 Last song bumping, last hips swinging
 The kind of exit that gets people singing
 
-[Pre-Chorus: voice lifts]
+[Pre-Chorus: voice still cool, smirk tightens]
 Some women leave with a slow goodbye
 I leave like the chorus before the high
 
@@ -1530,7 +1504,7 @@ Give the music one last hello
 Heels and a smile, no one to chase
 This is how I walk away
 
-[Bridge: European Portuguese, Lisbon accent, NOT Brazilian]
+[Bridge: PT Lisbon accent, calm authority, smile under the line]
 (European Portuguese, Portugal accent:)
 Vou-me embora
 Mas com classe
@@ -1543,8 +1517,7 @@ Give the music one last hello
 Heels and a smile, no one to chase
 This is how I walk away
 
-[Outro: vocal whispered, fading]
-walk... away...
+[Outro: heels echoing into the distance, brass fading]
 ```
 
 ---
