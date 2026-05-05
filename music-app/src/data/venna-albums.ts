@@ -583,9 +583,7 @@ don't... go yet...`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [CRITICAL: subtle international English accent, NOT American]
 
-[Intro: rain texture, piano stabs, vocal whispered]
-rooftop rain...
-rooftop rain...
+[Intro: rain texture, piano stabs building, 4 bars instrumental — no vocal]
 
 [Verse 1: vocal close, intimate]
 The party moved up to the sky
@@ -632,8 +630,7 @@ Hold my hand, don't say a thing
 We're high above the noise we left
 Stay where the storm becomes the song
 
-[Outro: vocal whispered, rain fades]
-rooftop... rain...`,
+[Outro: rain texture fading slowly over the piano — no vocal]`,
       durationSeconds: 240,
       audioUrl: null,
     },
@@ -650,9 +647,7 @@ rooftop... rain...`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [CRITICAL: subtle international English accent, NOT American]
 
-[Intro: Rhodes chord, city ambience, vocal whispered]
-taxi window...
-taxi window...
+[Intro: Rhodes chord, distant city traffic, 4 bars — no vocal]
 
 [Verse 1: vocal close, reflective]
 Streetlights crossing your face like a song
@@ -699,8 +694,7 @@ The city slips by, the meter slow
 Tell the driver take the longest way
 The night lives inside the taxi window
 
-[Outro: vocal whispered]
-taxi... window...`,
+[Outro: Rhodes chord fading, distant traffic — no vocal]`,
       durationSeconds: 240,
       audioUrl: null,
     },
@@ -717,9 +711,7 @@ taxi... window...`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [CRITICAL: subtle international English accent, NOT American]
 
-[Intro: vocal sigh loop, sub bass, vocal whispered]
-balcony heat...
-balcony heat...
+[Intro: vocal sigh loop, deep sub bass — no spoken title, the sighs carry the texture]
 
 [Verse 1: vocal close, sultry]
 We're three drinks in and the door's locked tight
@@ -766,8 +758,7 @@ You and the moon and the rhythm of the street
 The heat is slow-cooked, the night is sure
 Tonight we're not asking what we are
 
-[Outro: vocal whispered, sultry]
-balcony... heat...`,
+[Outro: sigh loop fading, slow soft breath]`,
       durationSeconds: 240,
       audioUrl: null,
     },
@@ -784,9 +775,7 @@ balcony... heat...`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [CRITICAL: subtle international English accent, NOT American]
 
-[Intro: warm pluck loop, vocal whispered]
-kitchen light...
-kitchen light...
+[Intro: warm pluck loop, very soft brushed kick — quiet kitchen, no vocal]
 
 [Verse 1: vocal close, tender]
 Everyone left, the music's low
