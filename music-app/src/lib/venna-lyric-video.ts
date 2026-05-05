@@ -1,19 +1,26 @@
 "use client";
 
 /**
- * VENNA Lyric Video Pack — gera um ZIP com cover.jpg + lyrics.srt + assemble.sh
- * para o utilizador correr localmente com FFmpeg.
+ * VENNA Lyric Video Pack — gera um ZIP com tudo o que o utilizador precisa
+ * para montar um lyric video de UMA cena animada em loop + letra animada
+ * por cima (formato moderno, tipo Lyric Lab / Spotify Canvas grande).
  *
- * Princípios:
- *  - Imagem estática (capa do álbum, com fallback para capa Suno da faixa)
- *  - Letra animada por cima, sincronizada ao áudio
- *  - Render final feito em FFmpeg local (não no browser — mais estável)
+ * O que vai no pack:
+ *  - audio.mp3 — áudio Suno aprovado, descarregado do Supabase
+ *  - lyrics.srt — letra com timing distribuído pelo áudio
+ *  - thumbnail.jpg — capa do álbum (para o thumbnail YouTube manual)
+ *  - scene-prompt.md — sugestão de prompt Midjourney para a UMA cena
+ *    animada deste track, baseada no mood do álbum
+ *  - assemble.sh — comando FFmpeg que faz LOOP da scene.mp4 e queima a
+ *    letra por cima, alinhada ao áudio
+ *  - README.md — workflow passo-a-passo
  *
- * Workflow:
- *   1. Botão no admin → este módulo gera ZIP
- *   2. Utilizador descarrega, descompacta
- *   3. Corre `bash assemble.sh` no terminal (precisa FFmpeg instalado)
- *   4. Sai `output.mp4` pronto a fazer upload para YouTube
+ * O utilizador:
+ *  1. Gera UMA cena animada (Midjourney v7 com motion, Runway Gen-3, Kling,
+ *     Pika) usando o prompt sugerido
+ *  2. Guarda o MP4 da cena como scene.mp4 nesta pasta
+ *  3. Corre `bash assemble.sh`
+ *  4. Sai output.mp4 com a cena em loop + letra sincronizada + áudio
  */
 
 import JSZip from "jszip";
@@ -23,15 +30,6 @@ const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tdytdamtfi
 
 // ── Lyrics parsing ─────────────────────────────────────────
 
-/**
- * Extrai linhas cantáveis de um bloco de letra.
- * Salta:
- *   - Stage directions [Verse 1: ...], [Chorus: ...], [VENNA — LOCKED ...]
- *   - Language markers (European Portuguese:), (French whisper:)
- *   - Linhas vazias
- *   - Linhas que comecem por (... mas não terminem com :) — são instruções
- *   - Reticências sozinhas (...)
- */
 export function extractSingableLines(lyrics: string): string[] {
   const lines = lyrics.split("\n");
   const out: string[] = [];
@@ -40,7 +38,7 @@ export function extractSingableLines(lyrics: string): string[] {
     if (!line) continue;
     if (line.startsWith("[") && line.endsWith("]")) continue;
     if (line.startsWith("(") && line.endsWith(":)")) continue;
-    if (line.startsWith("(") && line.endsWith(")")) continue; // (silence, 10 seconds)
+    if (line.startsWith("(") && line.endsWith(")")) continue;
     if (/^\.{2,}$/.test(line)) continue;
     out.push(line);
   }
@@ -61,11 +59,6 @@ function fmtSrtTime(seconds: number): string {
   return `${pad(h, 2)}:${pad(m, 2)}:${pad(s, 2)},${pad(ms, 3)}`;
 }
 
-/**
- * Gera SRT com timing distribuído uniformemente pelas linhas.
- * Reserva 3s de intro silencioso (instrumental) e 3s de outro.
- * Para timing real, o utilizador edita à mão ou usa whisper-timestamped.
- */
 export function generateSRT(lines: string[], durationSeconds: number): string {
   if (lines.length === 0) return "";
   const intro = Math.min(3, durationSeconds * 0.05);
@@ -76,31 +69,98 @@ export function generateSRT(lines: string[], durationSeconds: number): string {
   return lines
     .map((line, i) => {
       const start = intro + i * perLine;
-      const end = intro + (i + 1) * perLine - 0.05; // pequena pausa entre linhas
+      const end = intro + (i + 1) * perLine - 0.05;
       return `${i + 1}\n${fmtSrtTime(start)} --> ${fmtSrtTime(end)}\n${line}\n`;
     })
     .join("\n");
 }
 
+// ── Per-album scene mood (UMA cena por track, não 6-8) ─────
+
+const ALBUM_SCENE_TEMPLATE: Record<string, string> = {
+  "venna-mango-hour":
+    "rooftop at golden hour, warm honey light pouring across the floor, sheer curtain moving slowly in the breeze, glass of wine catching the light, distant city skyline soft-focus, cinematic 35mm, shallow depth of field, terracotta and honey palette, slow camera drift, loopable",
+  "venna-honey-cities":
+    "city window at night, warm interior glow, neon sign reflected on a wet street outside, slow tilt down, rain falling softly, cigarette smoke curling, terracotta and honey palette, cinematic 35mm, loopable urban dreamscape",
+  "venna-slow-down":
+    "neon-lit dance floor seen through a haze, slow swirl of bodies in soft focus, velvet bar lit dim, single martini glass on a counter, slow tracking, terracotta and wine palette, cinematic 35mm, loopable mid-tempo motion",
+  "venna-wine-velvet":
+    "candlelit restaurant table close-up, two wine glasses half-full, velvet napkin draped, single candle flickering slowly, hand resting on dark wood, soft jazz-club lighting, terracotta and wine palette, cinematic 35mm, loopable intimate hush",
+  "venna-saturday-forever":
+    "sunlit pool surface rippling, palm shadow moving slow, sunglasses on a tile, melted ice in a glass, summer afternoon haze, mango and honey palette, cinematic 35mm, loopable bright weekend vibe",
+  "venna-closer":
+    "soft morning bedroom, sheer white curtain breathing in the wind, coffee cup steaming on a wooden bedside, sunlight slanting across rumpled linen, no faces, cream and honey palette, cinematic 35mm, loopable domestic warmth",
+  "venna-skin-memory":
+    "silk bed sheet rippling slowly, low warm lamp, hand silhouette resting on dark velvet, no faces, dust suspended in a single beam of light, wine and cream palette, cinematic 35mm, loopable sensual moodscape",
+  "venna-sunset-club":
+    "Mediterranean terrace at sunset, lounge chair empty, glass of rosé sweating, sea horizon hazy in the distance, palm leaf shadow gliding across white wall, sunset pink and honey palette, cinematic 35mm, loopable chill",
+  "venna-heart-bassline":
+    "stadium lights flaring through a haze of motion, blurred crowd, pulse of color across a wide black space, slow zoom forward, terracotta-orange spotlights, cinematic 35mm, loopable euphoric pop motion",
+  "venna-tonight":
+    "iconic VENNA wide shot, single spotlight slowly rotating, smoke curling around, stage edge with one microphone, curtain catching warm light, full palette (mango / honey / terracotta / wine / cream), cinematic 35mm, loopable signature scene",
+};
+
+function buildScenePrompt(albumSlug: string, trackTitle: string): string {
+  const base = ALBUM_SCENE_TEMPLATE[albumSlug] ?? "warm cinematic loopable scene, terracotta and honey palette, cinematic 35mm";
+  return `# Scene Prompt — ${trackTitle}
+
+UMA cena animada em loop. Gera num motion-image tool (Midjourney v7 com
+\`--motion\`, Runway Gen-3, Kling, Pika) e exporta como \`scene.mp4\`
+nesta pasta antes de correr \`assemble.sh\`.
+
+## Sugestão de prompt (Midjourney v7)
+
+\`\`\`
+${base}
+--cref VENNA_CREF_URL --cw 50 --ar 16:9 --style raw --v 7 --motion low
+\`\`\`
+
+## Notas
+
+- **Loopable**: a cena tem de fechar de forma a poder repetir sem corte
+  visível. Se a tua tool não exporta loop, pega no MP4 e fecha-o em
+  After Effects (Loop Out) ou em \`ffmpeg\` com reverse-pingpong:
+  \`ffmpeg -i scene.mp4 -filter_complex "[0]reverse[r];[0][r]concat" loop.mp4\`
+- **Sem rosto em movimento intenso** se o álbum for 🔞 — mãos, sombras,
+  texturas. YouTube banirá rosto em situação explícita.
+- **Aspect ratio 16:9** para canal principal. Se quiseres versão Shorts,
+  re-gera em \`--ar 9:16\` e usa o mesmo \`assemble.sh\` com input 9:16.
+- **\`--cw 50\`** (character weight 50) deixa a cena ter ambiente e não
+  só a Persona; sobe para 100 se queres a Persona explícita na cena.
+`;
+}
+
 // ── Assemble script ────────────────────────────────────────
 
 function buildAssembleScript(trackTitle: string): string {
-  // VENNA palette: cream #F4E4D1 → BGR &HD1E4F4&
-  // outline preto + sombra suave para legibilidade sobre qualquer capa
   return `#!/bin/bash
 # VENNA Lyric Video — ${trackTitle}
-# Requer FFmpeg instalado (brew install ffmpeg / apt install ffmpeg)
-# Corre na pasta deste pack: bash assemble.sh
+# Cena UMA animada em loop + letra burnt-in + áudio
+#
+# Antes de correr:
+#   1. Gera a cena animada (ver scene-prompt.md)
+#   2. Guarda como scene.mp4 nesta pasta
+#   3. Corre: bash assemble.sh
 
 set -e
 
+if [ ! -f "scene.mp4" ]; then
+  echo "ERRO: scene.mp4 não existe. Gera a cena animada primeiro (ver scene-prompt.md)."
+  exit 1
+fi
+
 OUTPUT="output.mp4"
 
+# -stream_loop -1 = repete a scene.mp4 em loop infinito
+# -shortest = pára quando o áudio acabar (a cena loopa até lá)
+# subtitles burnt-in com Cormorant Garamond, cream #F4E4D1, outline preto
+
 ffmpeg -y \\
-  -loop 1 -i cover.jpg \\
+  -stream_loop -1 -i scene.mp4 \\
   -i audio.mp3 \\
+  -map 0:v:0 -map 1:a:0 \\
   -vf "subtitles=lyrics.srt:force_style='Fontname=Cormorant Garamond,Fontsize=42,PrimaryColour=&HD1E4F4&,OutlineColour=&H000000&,Outline=2,Shadow=1,Alignment=2,MarginV=80'" \\
-  -c:v libx264 -tune stillimage -pix_fmt yuv420p \\
+  -c:v libx264 -pix_fmt yuv420p -preset medium -crf 19 \\
   -c:a aac -b:a 192k \\
   -shortest \\
   "\\$OUTPUT"
@@ -118,47 +178,65 @@ function buildReadme(trackTitle: string, albumTitle: string, durationSeconds: nu
 **Audio duration:** ${Math.floor(durationSeconds / 60)}:${pad(Math.floor(durationSeconds % 60), 2)}
 **Lyric lines:** ${lineCount}
 
-## Como usar
+## Workflow
 
-1. Instala FFmpeg se ainda não tens:
-   - macOS: \`brew install ffmpeg\`
-   - Linux: \`sudo apt install ffmpeg\`
-   - Windows: descarrega de https://ffmpeg.org/download.html
+### 1. Gerar UMA cena animada em loop
 
-2. Nesta pasta, corre:
-   \`\`\`bash
-   bash assemble.sh
-   \`\`\`
+Vê \`scene-prompt.md\` neste pack — tem o prompt Midjourney sugerido para
+o mood do álbum. Geras a imagem, depois animas (Midjourney v7 motion,
+Runway Gen-3, Kling, Pika), exportas como \`scene.mp4\` nesta mesma pasta.
 
-3. Sai \`output.mp4\` pronto para YouTube.
+A cena deve ser **loopable** — o início e o fim devem ligar visualmente
+sem corte abrupto. Se a tua tool não fizer loop nativo, podes reverse-pingpong
+em FFmpeg para forçar continuidade.
 
-## Sobre o timing
+### 2. Correr o assembly
 
-O \`lyrics.srt\` tem timing **distribuído uniformemente** pela duração do áudio.
-Funciona razoavelmente para canções com versos cantados continuamente, mas
-canções com pausas instrumentais ou bridges longos vão ficar desalinhadas.
+\`\`\`bash
+bash assemble.sh
+\`\`\`
+
+Sai \`output.mp4\` com a cena em loop + letra burnt-in + áudio.
+
+Precisas de ter FFmpeg instalado:
+- macOS: \`brew install ffmpeg\`
+- Linux: \`sudo apt install ffmpeg\`
+- Windows: https://ffmpeg.org/download.html
+
+### 3. Thumbnail YouTube
+
+\`thumbnail.jpg\` (incluído neste pack, é a capa do álbum) serve como
+base. Adiciona texto "VENNA — ${trackTitle}" em Playfair Display cream
+sobre o canto inferior. Faz upload separado quando publicares no YouTube.
+
+## Sobre o timing da letra
+
+\`lyrics.srt\` tem timing **distribuído uniformemente** pela duração do
+áudio (com 3s de intro reservados). Funciona razoavelmente para canções
+com cantar contínuo; canções com bridges instrumentais longos vão ficar
+desalinhadas.
 
 Para corrigir:
 
-**Manual** (15-20 min): abre \`lyrics.srt\` num editor de texto ou em
-[Subtitle Edit](https://www.nikse.dk/subtitleedit/), ouve o áudio e ajusta os
-timestamps linha a linha.
+**Manual** (~15 min): abre \`lyrics.srt\` num editor (Subtitle Edit,
+Aegisub, ou texto puro), ouve o \`audio.mp3\` e ajusta os timestamps
+linha a linha. Corre \`bash assemble.sh\` outra vez.
 
-**Automático** (~1 min): usa \`whisper-timestamped\` para auto-alinhar:
-\`\`\`bash
-pip install whisper-timestamped
-whisper_timestamped audio.mp3 --language en --output_format srt
-\`\`\`
-Substitui o \`lyrics.srt\` gerado pelo do whisper, depois re-corre \`bash assemble.sh\`.
+**Auto-align** (~1 min): \`whisper-timestamped audio.mp3 --output_format srt\`
+gera SRT com timing real. Substitui o nosso \`lyrics.srt\` pelo dele e
+corre \`bash assemble.sh\`.
 
-## Estilo
+## Customizar a tipografia
 
-Fonte: **Cormorant Garamond** (instala se não tens). Pode trocar em \`assemble.sh\`
-para Playfair Display, Libre Caslon, etc.
-
-Cor: cream **#F4E4D1** (palette VENNA), com outline preto para legibilidade.
-
-Tudo customizável editando a linha \`force_style=...\` em \`assemble.sh\`.
+Edita a linha \`force_style=...\` em \`assemble.sh\` para mudar:
+- \`Fontname\` — qualquer fonte instalada (Playfair Display, Libre Caslon)
+- \`Fontsize\` — tamanho em pt (42 funciona bem em 1080p)
+- \`PrimaryColour\` — cor da letra em formato BGR \`&HBBGGRR&\`
+  - Cream \`#F4E4D1\` → \`&HD1E4F4&\` (já configurado)
+  - Honey \`#E8B14A\` → \`&H4AB1E8&\`
+  - Mango \`#F5803E\` → \`&H3E80F5&\`
+- \`MarginV\` — distância vertical do fundo em pixels
+- \`Alignment\` — 2 = baixo-centro, 8 = topo-centro, 5 = meio
 `;
 }
 
@@ -167,11 +245,10 @@ Tudo customizável editando a linha \`force_style=...\` em \`assemble.sh\`.
 export async function buildLyricVideoPack(args: {
   album: { slug: string; title: string };
   track: AlbumTrack;
-  /** URL absoluto da capa que vai ao ZIP (já com fallback resolvido) */
+  /** URL da capa para incluir como thumbnail.jpg */
   coverUrl: string;
   /** URL do áudio MP3 no Supabase */
   audioUrl: string;
-  /** Duração em segundos do áudio (defaults para track.durationSeconds) */
   durationSeconds?: number;
   onProgress?: (step: string) => void;
 }): Promise<Blob> {
@@ -196,9 +273,10 @@ export async function buildLyricVideoPack(args: {
   onProgress?.("A montar pack...");
   const zip = new JSZip();
   const folder = zip.folder(trackSlug)!;
-  folder.file("cover.jpg", coverBlob);
+  folder.file("thumbnail.jpg", coverBlob);
   folder.file("audio.mp3", audioBlob);
   folder.file("lyrics.srt", srt);
+  folder.file("scene-prompt.md", buildScenePrompt(album.slug, track.title));
   folder.file("assemble.sh", buildAssembleScript(track.title));
   folder.file("README.md", buildReadme(track.title, album.title, duration, lines.length));
 
@@ -206,7 +284,7 @@ export async function buildLyricVideoPack(args: {
   return zip.generateAsync({ type: "blob" });
 }
 
-// ── Cover URL resolver (album cover → Suno per-track) ──────
+// ── Cover URL resolver ─────────────────────────────────────
 
 export async function resolveCoverUrl(albumSlug: string, trackNumber: number): Promise<string> {
   const tn = String(trackNumber).padStart(2, "0");
@@ -229,3 +307,4 @@ export function audioUrlFor(albumSlug: string, trackNumber: number): string {
   const tn = String(trackNumber).padStart(2, "0");
   return `${SUPABASE_URL}/storage/v1/object/public/audios/albums/${albumSlug}/faixa-${tn}.mp3`;
 }
+
