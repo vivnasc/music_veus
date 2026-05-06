@@ -1,0 +1,58 @@
+# Exemplo de plano semanal VENNA
+# Copia para semana-NN/venna.yaml e adapta.
+
+brand: venna
+
+posts:
+  # Post 1 — caption auto-gerada do track (verso + título + hashtags)
+  - date: 2026-05-12
+    time: "18:00"
+    video: 2026-05-12-honey-hour-clip.mp4
+    trackSlug: venna-mango-hour-faixa-01
+    platforms: [tiktok, instagram, youtube]
+
+  # Post 2 — caption explícita, sobrepõe a auto
+  - date: 2026-05-13
+    time: "19:30"
+    video: 2026-05-13-mood-teaser.mp4
+    caption: |
+      The kind of evening you don't want to leave.
+      Mango Hour out now — link in bio.
+    platforms: [tiktok, instagram]
+    hashtags: [moodvideo, summervibes]
+
+  # Post 3 — vídeo já hosted noutro sítio (Drive, Dropbox)
+  - date: 2026-05-14
+    time: "11:00"
+    videoUrl: https://drive.google.com/file/d/1abc.../view?usp=sharing
+    trackSlug: venna-mango-hour-faixa-04
+    platforms: [instagram-reels, youtube-shorts]
+
+  # Post 4 — só Instagram Story
+  - date: 2026-05-15
+    time: "20:00"
+    video: 2026-05-15-bts-rooftop.mp4
+    caption: "Behind the scenes — golden hour rooftop session"
+    platforms: [instagram-story]
+
+  # Post 5
+  - date: 2026-05-16
+    time: "16:00"
+    video: 2026-05-16-saturday-skin.mp4
+    trackSlug: venna-mango-hour-faixa-04
+    platforms: [tiktok, instagram, youtube]
+    hashtags: [saturdayvibes, weekendmood]
+
+  # Post 6
+  - date: 2026-05-17
+    time: "10:00"
+    video: 2026-05-17-sunday-loop.mp4
+    trackSlug: venna-mango-hour-faixa-06
+    platforms: [tiktok, instagram, youtube]
+
+  # Post 7
+  - date: 2026-05-18
+    time: "20:00"
+    video: 2026-05-18-week-recap.mp4
+    caption: "One week of VENNA. Mango Hour out everywhere."
+    platforms: [tiktok, instagram, youtube]

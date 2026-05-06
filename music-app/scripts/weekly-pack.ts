@@ -204,51 +204,157 @@ async function uploadVideo(localPath: string, supabasePath: string): Promise<str
 // ── Metricool CSV ─────────────────────────────────────────
 
 /**
- * Format Metricool oficial (Premium): cabeçalhos exactos com TRUE/FALSE.
- * Source: https://help.metricool.com/en/article/how-to-schedule-posts-in-batch-with-a-csv-file-in-metricool
+ * Cabeçalho EXACTO do template Metricool Premium (descarregado em 2026-05).
+ * 93 colunas. A maior parte fica vazia. Só preenchemos o essencial para
+ * publicar UM vídeo nas 3 redes (TikTok, Instagram Reel, YouTube Short).
+ *
+ * Source: template oficial do Metricool (Planner > 3 dots > Import CSV >
+ * Download template).
  */
-const METRICOOL_NETWORKS: { csv: string; matches: Network[] }[] = [
-  { csv: "Facebook", matches: ["facebook"] },
-  { csv: "Twitter", matches: ["twitter"] },
-  { csv: "LinkedIn", matches: ["linkedin"] },
-  { csv: "GMB", matches: ["gmb"] },
-  { csv: "Instagram", matches: ["instagram", "instagram-reels", "instagram-story"] },
-  { csv: "TikTok", matches: ["tiktok"] },
-  { csv: "Pinterest", matches: ["pinterest"] },
-  { csv: "YouTube", matches: ["youtube", "youtube-shorts"] },
-  { csv: "Threads", matches: ["threads"] },
-];
+const METRICOOL_HEADERS = [
+  "Text", "Date", "Time", "Draft",
+  // Networks (TRUE/FALSE)
+  "Facebook", "Twitter/X", "LinkedIn", "GBP", "Instagram", "Pinterest", "TikTok", "Youtube", "Threads", "Bluesky",
+  // Media
+  "Picture Url 1", "Picture Url 2", "Picture Url 3", "Picture Url 4", "Picture Url 5",
+  "Picture Url 6", "Picture Url 7", "Picture Url 8", "Picture Url 9", "Picture Url 10",
+  "Alt text picture 1", "Alt text picture 2", "Alt text picture 3", "Alt text picture 4", "Alt text picture 5",
+  "Alt text picture 6", "Alt text picture 7", "Alt text picture 8", "Alt text picture 9", "Alt text picture 10",
+  "Document title", "Shortener", "Video Thumbnail Url", "Video Cover Frame",
+  // Twitter/X options
+  "Twitter/X Can reply", "Twitter/X Type", "Twitter/X Poll Duration minutes",
+  "Twitter/X Poll Option 1", "Twitter/X Poll Option 2", "Twitter/X Poll Option 3", "Twitter/X Poll Option 4",
+  // Pinterest
+  "Pinterest Board", "Pinterest Pin Title", "Pinterest Pin Link", "Pinterest Pin New Format",
+  // Instagram
+  "Instagram Post Type", "Instagram Show Reel On Feed",
+  // YouTube
+  "Youtube Video Title", "Youtube Video Type", "Youtube Video Privacy", "Youtube video for kids",
+  "Youtube Video Category", "Youtube Video Tags", "Youtube playlist",
+  // GBP / Facebook
+  "GBP Post Type", "Facebook Post Type", "Facebook Title",
+  // First comment
+  "First Comment Text",
+  // TikTok
+  "TikTok Title", "TikTok disable comments", "TikTok disable duet", "TikTok disable stitch",
+  "TikTok Post Privacy", "TikTok Branded Content", "TikTok Your Brand", "TikTok Auto Add Music",
+  "TikTok Photo Cover Index",
+  "TikTok musicId", "TikTok music title", "TikTok music author", "TikTok music previewUrl",
+  "TikTok music thumbnailUrl", "TikTok music soundVolume", "TikTok music originalVolume",
+  "TikTok music startMillis", "TikTok music endMillis", "TikTok is AI generated content",
+  // LinkedIn
+  "LinkedIn Type", "LinkedIn Poll Question",
+  "LinkedIn Poll Option 1", "LinkedIn Poll Option 2", "LinkedIn Poll Option 3", "LinkedIn Poll Option 4",
+  "LinkedIn Poll Duration", "LinkedIn Show link preview", "LinkedIn Images as Carousel",
+  // Threads
+  "Threads Reply Control", "Threads Is Spoiler", "Threads Post Type",
+] as const;
+
+/**
+ * Mapeia plataformas YAML → nome de coluna network do Metricool.
+ * Nem tudo bate 1:1; algumas plataformas YAML "instagram-reels" / "youtube-shorts"
+ * são mesmo Instagram / Youtube com tipo de post específico.
+ */
+const NETWORK_MAP: Record<string, "Facebook" | "Twitter/X" | "LinkedIn" | "GBP" | "Instagram" | "Pinterest" | "TikTok" | "Youtube" | "Threads" | "Bluesky"> = {
+  facebook: "Facebook",
+  twitter: "Twitter/X",
+  "twitter/x": "Twitter/X",
+  x: "Twitter/X",
+  linkedin: "LinkedIn",
+  gbp: "GBP",
+  gmb: "GBP",
+  instagram: "Instagram",
+  "instagram-reels": "Instagram",
+  "instagram-story": "Instagram",
+  pinterest: "Pinterest",
+  tiktok: "TikTok",
+  youtube: "Youtube",
+  "youtube-shorts": "Youtube",
+  threads: "Threads",
+  bluesky: "Bluesky",
+};
 
 function csvEscape(val: string): string {
-  if (val.includes(",") || val.includes("\"") || val.includes("\n")) {
+  if (val.includes(",") || val.includes("\"") || val.includes("\n") || val.includes("\r")) {
     return `"${val.replace(/"/g, '""')}"`;
   }
   return val;
 }
 
 function buildMetricoolCsv(rows: Array<{ post: Post; mediaUrl: string; caption: string; brand: BrandConfig }>): string {
-  const headers = [
-    "Text", "Date", "Time",
-    ...METRICOOL_NETWORKS.map(n => n.csv),
-    "Picture Url 1",
-    "Brand Name",
-  ];
-  const lines: string[] = [headers.join(",")];
+  const lines: string[] = [METRICOOL_HEADERS.map(csvEscape).join(",")];
+
   for (const { post, mediaUrl, caption, brand } of rows) {
     const platforms = post.platforms ?? brand.defaultPlatforms;
-    const row: string[] = [];
-    row.push(csvEscape(caption));
-    row.push(post.date);
-    row.push(post.time);
-    for (const net of METRICOOL_NETWORKS) {
-      const isOn = platforms.some(p => net.matches.includes(p));
-      row.push(isOn ? "TRUE" : "FALSE");
+    const activeNetworks = new Set<string>();
+    for (const p of platforms) {
+      const net = NETWORK_MAP[p.toLowerCase()];
+      if (net) activeNetworks.add(net);
     }
-    row.push(csvEscape(mediaUrl));
-    row.push(csvEscape(brand.name));
-    lines.push(row.join(","));
+
+    // Auto-detecta tipo de post
+    const isReel = platforms.some(p => p === "instagram-reels" || p === "instagram");
+    const isStory = platforms.some(p => p === "instagram-story");
+    const isShort = platforms.some(p => p === "youtube-shorts" || p === "youtube");
+    const ytTitle = post.trackSlug ? trackTitleFromSlug(post.trackSlug, brand.name) : brand.name;
+    const ytTags = [...brand.hashtags, ...(post.hashtags || [])].join(",");
+
+    const cell = (header: typeof METRICOOL_HEADERS[number]): string => {
+      switch (header) {
+        case "Text": return caption;
+        case "Date": return post.date;
+        case "Time": return post.time;
+        case "Draft": return "FALSE";
+        case "Facebook": case "Twitter/X": case "LinkedIn": case "GBP":
+        case "Instagram": case "Pinterest": case "TikTok": case "Youtube":
+        case "Threads": case "Bluesky":
+          return activeNetworks.has(header) ? "TRUE" : "FALSE";
+        case "Picture Url 1": return mediaUrl;
+        // Instagram defaults
+        case "Instagram Post Type":
+          if (!activeNetworks.has("Instagram")) return "";
+          return isStory ? "Story" : "Reel";
+        case "Instagram Show Reel On Feed":
+          return activeNetworks.has("Instagram") && isReel ? "TRUE" : "";
+        // YouTube defaults
+        case "Youtube Video Title":
+          return activeNetworks.has("Youtube") ? ytTitle : "";
+        case "Youtube Video Type":
+          return activeNetworks.has("Youtube") ? (isShort ? "Short" : "Video") : "";
+        case "Youtube Video Privacy":
+          return activeNetworks.has("Youtube") ? "Public" : "";
+        case "Youtube video for kids":
+          return activeNetworks.has("Youtube") ? "FALSE" : "";
+        case "Youtube Video Tags":
+          return activeNetworks.has("Youtube") ? ytTags : "";
+        // TikTok defaults
+        case "TikTok Title":
+          return activeNetworks.has("TikTok") ? caption.slice(0, 150) : ""; // TikTok title curto
+        case "TikTok Post Privacy":
+          return activeNetworks.has("TikTok") ? "PUBLIC_TO_EVERYONE" : "";
+        case "TikTok disable comments": case "TikTok disable duet":
+        case "TikTok disable stitch": case "TikTok Branded Content":
+        case "TikTok Auto Add Music": case "TikTok is AI generated content":
+          return activeNetworks.has("TikTok") ? "FALSE" : "";
+        // Threads default
+        case "Threads Post Type":
+          return activeNetworks.has("Threads") ? "Post" : "";
+        // Tudo o resto fica vazio
+        default:
+          return "";
+      }
+    };
+
+    lines.push(METRICOOL_HEADERS.map(h => csvEscape(cell(h))).join(","));
   }
   return lines.join("\n");
+}
+
+function trackTitleFromSlug(trackSlug: string, brandName: string): string {
+  const parsed = parseTrackSlug(trackSlug);
+  if (!parsed) return brandName;
+  const meta = getTrackMeta(parsed.albumSlug, parsed.trackNum);
+  return meta ? `${brandName} — ${meta.trackTitle}` : brandName;
 }
 
 function buildGenericCsv(rows: Array<{ post: Post; mediaUrl: string; caption: string; brand: BrandConfig }>): string {
