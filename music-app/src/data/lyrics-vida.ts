@@ -3432,23 +3432,31 @@ Between us`,
   // OFERENDA (gratidão, o sagrado sem igreja)
   // ─────────────────────────────────────────────
 
-  "incenso-oferenda/1": `[Verse 1]
+  "incenso-oferenda/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, very soft and tender on this track, slight breathiness on sustained notes, sings very close to the microphone, no harmonies (this is a stripped-down opening track), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: single deep low bell rings once, mbira note, vocal whispered]
+ofereço...
+ofereço...
+
+[Verse 1: vocal whispered, very close, almost spoken, mbira one note per phrase]
 Ponho na mesa o que tenho
 Não é muito, não é pouco
 É o que cabe nesta tarde
 Neste gesto, neste foco
 
-[Verse 2]
+[Verse 2: same intimacy, breath audible between phrases]
 Não sei o que vem depois
 Não sei se o amanhã responde
 Mas ofereço na mesma
 O que o coração esconde
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens slightly, mbira denser]
 Oferenda não é troca
 É soltar sem garantia
 
-[Chorus]
+[Chorus: voice slightly fuller, no harmonies still, mbira and vocal alone]
 Ofereço o que não tenho ainda
 Ofereço o que não sei
 A manhã que ainda não veio
@@ -3458,117 +3466,140 @@ Sem recibo, sem retorno
 A oferenda mais honesta
 É a que parte sem adorno
 
-[Verse 3]
+[Verse 3: back to whisper, mbira quieter]
 As mãos abertas não esperam
 Só entregam e confiam
 Que o que se dá de verdade
 É o que o mundo necessita
 
-[Chorus]
+[Chorus: voice slightly fuller, mbira and vocal alone]
 Ofereço o que não tenho ainda
 Ofereço o que não sei
 A manhã que ainda não veio
 O nome que ainda não dei
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, mbira alone]
+(European Portuguese, Portugal accent:)
 Não é piedade nem promessa
 É só este gesto simples
 De acreditar que o amanhã
 Merece o melhor de mim
 
-[Outro]
+[Outro: vocal exhaled, single low bell rings to close, last word spoken]
 Ofereço
 Sem saber
 Ofereço
-Na mesma`,
+na mesma...`,
 
-  "incenso-oferenda/2": `[Verse 1]
+  "incenso-oferenda/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, energetic and listing on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: acoustic guitar strumming upbeat folk feel, glockenspiel sparkle, vocal whispered]
+the list...
+the list...
+
+[Verse 1: vocal close, conversational, smile in the delivery]
 I took a pen and made a list
 Of everything I'm grateful for
 The coffee first, the morning mist
-Then friends, then health, then só much more
+Then friends, then health, then so much more
 
-[Verse 2]
+[Verse 2: same energy, tambourine joins, hand-claps on 2 and 4]
 The list grew longer than the page
 The stranger's smile, the bus on time
 The book I'm reading at this age
 The silence and this quiet rhyme
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, glockenspiel sparkles on each item, bouncing bass]
 The list, the list
 Surprises me with all it holds
 The list, the list
 Is longer than the mind unfolds
 When you start to count what's here
 Instead of what is gone
-The world becomes só clear
+The world becomes so clear
 You wonder what you waited on
 
-
-[Chorus]
+[Chorus: full harmonies, brighter glockenspiel, full kit]
 The list, the list
 Surprises me with all it holds
 The list, the list
 Is longer than the mind unfolds
 When you start to count what's here
 Instead of what is gone
-The world becomes só clear
+The world becomes so clear
 You wonder what you waited on
 
-[Outro]
+[Outro: vocal soft, fading, last line spoken with a smile]
 Keep writing
-The list is never done`,
+the list is never done...`,
 
-  "incenso-oferenda/3": `[Verse 1]
+  "incenso-oferenda/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — kitchen-choir style, women's voices answering), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: gospel piano with rich chords, Hammond organ swell, vocal whispered]
+mãos no peito...
+mãos no peito...
+
+[Verse 1: vocal close, hand-on-chest tenderness]
 As mãos no peito, ambas abertas
 Os olhos fecham, o ar aprofunda
 Debaixo das costelas, as descobertas
-De quem para e encontra o que abunda
+De quem pára e encontra o que abunda
 
-[Verse 2]
+[Verse 2: same intimacy, kitchen-choir hum hint underneath]
 O coração bate contra as palmas
 Como quem bate a uma porta
 Há tanta coisa debaixo das calmas
-Que só as mãos no peito transporta
+Que só as mãos no peito transportam
 
-[Chorus]
+[Chorus: kitchen-choir hand-claps on the off-beat, gospel piano call-and-response, women's voices answer Loranne]
 Mãos no peito
 Sinto o que lá está
 Mãos no peito
-E tanto, tanto já
+É tanto, tanto já
 Não preciso de templo
 Não preciso de altar
 As mãos são o exemplo
 Do sagrado a pulsar
 
-
-[Chorus]
+[Chorus: full kitchen-choir, Hammond blooms, joyful but contained]
 Mãos no peito
 Sinto o que lá está
 Mãos no peito
-E tanto, tanto já
+É tanto, tanto já
 Não preciso de templo
 Não preciso de altar
 As mãos são o exemplo
 Do sagrado a pulsar
 
-[Outro]
+[Outro: vocal soft, hand on chest, last line spoken intimately]
 Sinto
-Sinto tudo aqui dentro`,
+sinto tudo aqui dentro...`,
 
-  "incenso-oferenda/4": `[Verse 1]
+  "incenso-oferenda/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, raw and exposed on this track, slight breathiness, sings very close to the microphone (almost spoken-sung), no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: fingerpicked classical guitar with Bach-like arpeggios, single long-tail reverb piano note, vocal half-whispered]
+grace...
+grace...
+
+[Verse 1: vocal close, almost spoken, breath audible, pause before each line]
 Before the fork, before the bite
 A pause that no one taught me how
 My hands are still, the table's right
 And something sacred fills the now
 
-[Verse 2]
+[Verse 2: same raw intimacy, ambient kitchen room tone underneath]
 No god required for this grace
 Just eyes that see the plate as prayer
 The bread, the salt, the quiet space
 The miracle of being here
 
-[Chorus]
+[Chorus: voice opens slightly, still no harmonies, single long-tail reverb piano note resolves each phrase]
 Grace, grace
 Before the meal of being alive
 Grace, grace
@@ -3578,8 +3609,7 @@ Just the seeing of the food
 Nothing holy goes to waste
 When attention is the mood
 
-
-[Chorus]
+[Chorus: voice softer not louder, fingerpicked guitar fuller, piano note rings longer]
 Grace, grace
 Before the meal of being alive
 Grace, grace
@@ -3589,37 +3619,33 @@ Just the seeing of the food
 Nothing holy goes to waste
 When attention is the mood
 
-[Outro]
+[Outro: vocal exhaled, fading, last line spoken]
 Grace
-For all of this`,
+for all of this...`,
 
-  "incenso-oferenda/5": `[Verse 1]
-Olho a volta e vejo pela primeira vez
+  "incenso-oferenda/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: Mozambican-style nylon guitar, timbila marimba accents, shaker on the off-beat, vocal whispered]
+o que tenho...
+o que tenho...
+
+[Verse 1: vocal close, conversational, taking inventory]
+Olho à volta e vejo pela primeira vez
 A cadeira, a janela, a luz no chão
 As mãos no colo, o que o instante fez
 De cada coisa uma constelação
 
-[Verse 2]
-Saude para estar aqui sentada
+[Verse 2: same intimacy, light congas join, warm upright bass walks]
+Saúde para estar aqui sentada
 Olhos para ver, ar para respirar
 Tecto, chão, o prato e a faca
-Já e tanto, já e demais para contar
+Já é tanto, já é demais para contar
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, brass touches accent the chorus, joyful steady]
 O que tenho
-Neste instante já e tanto
-O que tenho
-É o verdadeiro encanto
-Não é o que falta
-É o que está aqui
-A abundância mais alta
-É a que eu nunca vi
-Até agora
-
-
-[Chorus]
-O que tenho
-Neste instante já e tanto
+Neste instante já é tanto
 O que tenho
 É o verdadeiro encanto
 Não é o que falta
@@ -3628,23 +3654,42 @@ A abundância mais alta
 É a que eu nunca vi
 Até agora
 
-[Outro]
+[Chorus: full harmonies, brass fuller, peak warmth]
+O que tenho
+Neste instante já é tanto
+O que tenho
+É o verdadeiro encanto
+Não é o que falta
+É o que está aqui
+A abundância mais alta
+É a que eu nunca vi
+Até agora
+
+[Outro: vocal soft, fading with timbila, last line spoken]
 Tenho tanto
-Tanto agora`,
+tanto agora...`,
 
-  "incenso-oferenda/6": `[Verse 1]
+  "incenso-oferenda/6": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed on this track, intimate speaking quality opening, building to full chest voice, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on the final crescendo (3 voices building to 5), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: complete silence then a single audible inhale, then a sustained vocal note (no words) on a single pitch]
+mmm...
+mmm...
+
+[Verse 1: vocal raw, very close, almost spoken, only breath and sustained vocal note]
 I stand inside the open door
 The morning reaches for my face
 My palms turn upward from the floor
 I offer myself to this place
 
-[Verse 2]
+[Verse 2: piano enters quietly, single notes, vocal intimacy preserved]
 Not asking, not requesting more
 Not holding, not defending ground
 Just standing at the open door
 And letting the day make its sound
 
-[Chorus]
+[Chorus: piano fuller, soft strings enter, voice opens but no harmonies yet]
 Offering, offering
 My body to the day
 Offering, offering
@@ -3654,8 +3699,7 @@ No armour and no shield
 The only thing inside
 Is what the heart can yield
 
-
-[Chorus]
+[Chorus: cello and oboe join, soft choir hum underneath, voice still solo and exposed]
 Offering, offering
 My body to the day
 Offering, offering
@@ -3665,15 +3709,21 @@ No armour and no shield
 The only thing inside
 Is what the heart can yield
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only piano and cello underneath]
 The tears that come from gratitude
 Are warmer than the rest
 The body in this altitude
 Is lighter than the breast
 
-[Outro]
+[Final Chorus: 5-voice female harmonies layered, full ensemble, soft brushed snare appears, the crescendo IS the offering]
+Offering, offering
+My body to the day
+Offering, offering
+With nothing left to say
+
+[Outro: vocal exhaled, ensemble holds the final chord, last line whispered]
 I offer
-Everything I am`,
+everything I am...`,
 
 
   // ─────────────────────────────────────────────

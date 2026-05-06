@@ -1053,19 +1053,27 @@ debaixo`,
   // ALBUM: FOLEGO
   // ─────────────────────────────────────────────
 
-  "incenso-folego/1": `[Verse 1]
+  "incenso-folego/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: inhale-paced filtered pad swell, vocal exhaled whisper]
+inspira...
+inspira...
+
+[Verse 1: vocal whispered, very close, breath-paced phrasing]
 Abre a boca devagar
 deixa o mundo entrar
 o ar que vem de tão longe
-agora e teu lugar
+agora é teu lugar
 
-[Verse 2]
+[Verse 2: same intimacy, breath audible between phrases]
 Não é teu o vento
 mas ele vem a ti
 enche o que estava vazio
 como sempre foi assim
 
-[Chorus]
+[Chorus: 3-voice airy harmony enters, deep round sub bass joins, soft brushed kick]
 Inspira, inspira
 o que é vivo não pede licença
 inspira, inspira
@@ -1075,13 +1083,13 @@ inspira o que ainda não tem nome
 o mundo entra em ti pela garganta
 e tu não tens de merecer o que te tome
 
-[Verse 3]
+[Verse 3: back to whisper, harmonies drop, sub bass holds]
 Há um pulmão que não conheces
 que abre mesmo assim
 que recebe o que não pedes
-o ar que é fim e inicio
+o ar que é fim e início
 
-[Chorus]
+[Chorus: full harmonies, filter slowly opens]
 Inspira, inspira
 o que é vivo não pede licença
 inspira, inspira
@@ -1091,32 +1099,41 @@ inspira o que ainda não tem nome
 o mundo entra em ti pela garganta
 e tu não tens de merecer o que te tome
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only filtered pad underneath]
+(European Portuguese, Portugal accent:)
 Não precisas de saber
 como é que funciona
 só precisas de abrir
 o que o corpo abandona
 
-[Outro]
+[Outro: vocal exhaled, fading]
 Inspira
 só isso
-inspira`,
+inspira...`,
 
-  "incenso-folego/2": `[Verse 1]
+  "incenso-folego/2": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive, never dominant. Female vocal ALWAYS predominant: opens, closes, owns every chorus. Male vocal adds depth, never competes. No melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: warm Rhodes piano with brushed jazz drums, vocal whispered female]
+threshold...
+threshold...
+
+[Verse 1: female vocal close, conversational, slight rasp on long vowels]
 [Female]
 I stand before the door
 my hand upon the handle
 Not yet in, not yet out
 balanced on a candle
 
-[Verse 2]
+[Verse 2: male baritone enters, lower register, walking upright bass underneath]
 [Male]
-Every door I'vê ever crossed
+Every door I've ever crossed
 changed what came after
 The threshold doesn't care
 if I bring grief or laughter
 
-[Chorus]
+[Chorus: both voices in dialogue, female lead — male low harmony, doorway-creak field-recording at the start]
 [Both]
 Threshold, threshold
 every door is passage
@@ -1127,7 +1144,7 @@ nothing stays the same
 Once you cross you leave behind
 the person and the name
 
-[Bridge]
+[Bridge: alternating phrases close and intimate, no harmonies, Rhodes alone]
 [Female]
 Pause here, feel the frame
 [Male]
@@ -1136,71 +1153,88 @@ This is the last second
 Of the person walking in
 the last breath before the reckoning
 
-[Outro]
+[Outro: both voices soft, fading, last word whispered female]
 [Both]
 Step through
 you are not the same
 Step through
-nothing stays the same`,
+nothing stays the same...`,
 
-  "incenso-folego/3": `[Verse 1]
+  "incenso-folego/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, raw and primal on this track, slight rasp on sustained notes, sings very close to the microphone, no harmonies until the second chorus, breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: low primal frame-drum heartbeat, raspy breath-sample on the off-beat, vocal half-whispered]
+bicho...
+bicho...
+
+[Verse 1: vocal raw, very close, almost growled-spoken, breath audible]
 Há uma coisa em mim que sabe antes
 que fareja o perigo e o desejo igual
 Não aprendeu em livro nenhum
-e mais velho do que qualquer sinal
+é mais velho do que qualquer sinal
 
-[Verse 2]
+[Verse 2: same primal intimacy, slight rasp, frame-drum heavier]
 Quando o corpo se fecha sem razão
 quando os cabelos da nuca se erguem
 O bicho já leu o que a mente nega
 e move-se antes de tu o entenderes
 
-[Chorus]
+[Chorus: voice opens slightly, syncopated afrobeat guitar pattern joins, no harmonies yet]
 Bicho, bicho, não me envergonhes
-Bicho, bicho, tu es o que sou
+Bicho, bicho, tu és o que sou
 Antes da palavra, antes da máscara
 eras tu que me guardava, foste tu que me salvou
 
-[Chorus]
+[Chorus: 3-voice low harmonies enter, frame-drum builds, breath-sample more prominent]
 Bicho, bicho, não me envergonhes
-Bicho, bicho, tu es o que sou
+Bicho, bicho, tu és o que sou
 Antes da palavra, antes da máscara
 eras tu que me guardava, foste tu que me salvou
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, frame-drum alone]
+(European Portuguese, Portugal accent:)
 Não te domino, não te destruo
 aprendo a ouvir-te antes de agir
 O bicho não é o que me perde
-e o que me impede de me perder a fingir
+é o que me impede de me perder a fingir
 
-[Outro]
+[Outro: vocal raw, fading with frame-drum heartbeat, last word spoken]
 Escuta
 o bicho sabe
 Escuta
-antes de falar`,
+antes de falar...`,
 
-  "incenso-folego/4": `[Verse 1]
+  "incenso-folego/4": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality opening, fierce on choruses, slight rasp on sustained notes, sings close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and dialogue — slightly husky, urgent, never aggressive, never dominant. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: rolling thunder stem, tense piano tritone repeating, vocal whispered female]
+storm prayer...
+storm prayer...
+
+[Verse 1: female vocal close, fierce intimacy, rain texture underneath]
 [Female]
 I don't pray when the storm has passed
 I pray when the thunder shakes the frame
 When lightning splits the old oak open
 I call your name into the flame
 
-[Verse 2]
+[Verse 2: male baritone enters lower, urgent and grounded, piano tritone heavier]
 [Male]
 I am the pressure building under
 the charge that breaks before the rain
 I cannot soften what I carry
 I am the force inside the vein
 
-[Chorus]
+[Chorus: both voices in fierce dialogue, driving rhythm joins, female lead and male low harmony]
 [Both]
 We don't pray for shelter
 we pray inside the storm
 Not asking it to leave us
 but asking to be born
 
-[Bridge]
+[Bridge: alternating phrases, intimate and exposed, only piano tritone underneath]
 [Female]
 Tell me how you hold this fury
 [Male]
@@ -1209,70 +1243,87 @@ Tell me how you stay and pray
 We are the storm and the devotion
 we are the dark before the day
 
-[Outro]
+[Outro: both voices, female closes, fading with thunder]
 [Female]
 Still here
 [Male]
 Still burning
 [Both]
 This is the prayer
-this is the turning`,
+this is the turning...`,
 
-  "incenso-folego/5": `[Verse 1]
+  "incenso-folego/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: nylon bossa guitar, sparse open-string piano motif, vocal whispered]
+mãos vazias...
+mãos vazias...
+
+[Verse 1: vocal close, conversational, slight rasp on sustained vowels]
 Abro as mãos e não há nada —
 nem chave nem mapa nem razão
 Só a pele é o ar entre os dedos
 e o vazio que me cabe na mão
 
-[Verse 2]
+[Verse 2: same intimacy, finger-snaps appear softly on 2 and 4]
 Não tenho provas do que carregava
 não tenho nada que possa mostrar
 Só estas mãos que já aprenderam
 a forma de largar e de estar
 
-[Chorus]
-Mãos vazias — não é pobreza e escolha
-Mãos vazias — não é perda e entrega
+[Chorus: 3-voice harmonies enter, finger-snaps on 2 and 4, soft upright bass joins]
+Mãos vazias — não é pobreza é escolha
+Mãos vazias — não é perda é entrega
 Abertas como um peito que respira
 abertas onde o peso não se apega
-Mãos vazias — e assim que eu existo
+Mãos vazias — é assim que eu existo
 
-[Verse 3]
+[Verse 3: back to verse intimacy, harmonies drop]
 O vazio das mãos não é falta
-e espaço para o que vem a seguir
+é espaço para o que vem a seguir
 Não preciso de segurar o mundo
 para saber que sou capaz de ir
 
-[Chorus]
-Mãos vazias — não é pobreza e escolha
-Mãos vazias — não é perda e entrega
+[Chorus: full harmonies, brushed kit gentle bossa]
+Mãos vazias — não é pobreza é escolha
+Mãos vazias — não é perda é entrega
 Abertas como um peito que respira
 abertas onde o peso não se apega
-Mãos vazias — e assim que eu existo
+Mãos vazias — é assim que eu existo
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only nylon guitar underneath]
+(European Portuguese, Portugal accent:)
 O que sobra quando largas tudo
-e o peso certo dos teus ossos
+é o peso certo dos teus ossos
 e o som do teu coração batendo
 sem pedir licença nem propostos
 
-[Outro]
+[Outro: vocal soft, fading, last line spoken]
 Não preciso de segurar
-para existir`,
+para existir...`,
 
-  "incenso-folego/6": `[Verse 1]
+  "incenso-folego/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: fingerpicked acoustic guitar with very long silent gaps between phrases, vocal half-whispered]
+unanswered...
+unanswered...
+
+[Verse 1: vocal whispered, very close, breath audible in the long gaps]
 I pressed my mouth against the dark
 and asked for any sign
 The ceiling gave me nothing back
 the window gave me pine
 
-[Verse 2]
+[Verse 2: same intimacy, distant piano enters between phrases]
 I asked the sky at 3 a.m.
 the sky just held its cold
 I asked the ground below my feet
 the ground was four years old
 
-[Chorus]
+[Chorus: 3-voice airy harmonies enter, no kick, fingerpicked guitar steady]
 Unanswered — the prayer still rising
 unanswered — I'm still here
 Not because I believe in answers
@@ -1282,7 +1333,7 @@ this mouth against the wall
 Unanswered — and I stay
 unanswered — through it all
 
-[Chorus]
+[Chorus: harmonies fuller, voice softer not louder, distant piano holds]
 Unanswered — the prayer still rising
 unanswered — I'm still here
 Not because I believe in answers
@@ -1292,57 +1343,66 @@ this mouth against the wall
 Unanswered — and I stay
 unanswered — through it all
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only fingerpicked guitar with breath gaps]
 Maybe the silence is not indifference
 maybe the waiting is the ground
 maybe I'm praying to the part of me
 that has not yet been found
 
-[Outro]
+[Outro: vocal exhaled, fading into long silence, last line spoken]
 I will keep asking into the dark
 I will keep asking
 mouth to the wall
-I will keep asking`,
+I will keep asking...`,
 
-  "incenso-folego/7": `[Verse 1]
+  "incenso-folego/7": `[Vocal: ONE warm mezzo-contralto female voice, full chest voice on choruses, breathy on verses, slight rasp on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: Mozambican-style nylon guitar, hand-played frame drum, shaker on the off-beat, vocal whispered]
+dança...
+dança...
+
+[Verse 1: vocal close, rhythmic phrasing, body-led delivery]
 O chão me chama e eu respondo com o pé
 o quadril desenha o que a boca não diz
-não preciso saber pra onde o corpo me le
-o ritmo antigo me faz de raiz
+não preciso de saber pra onde o corpo me leva
+o ritmo antigo faz de mim raiz
 
-[Verse 2]
+[Verse 2: same intimacy, frame-drum heavier, body percussion enters]
 A cintura gira como água no rio
 os braços abrem o que a mente fechou
 não há passo errado, não há passo vazio
 cada gesto acorda o que em mim demorou
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, full marrabenta drive, ecstatic but grounded]
 Dança, dança, dança
 o corpo sabe o caminho sozinho
 Dança, dança, dança
-o suor e água benta, o chão e santuario
+o suor é água benta, o chão é santuário
 Dança até o peso soltar
 dança até o nome esquecer
-o corpo em movimento e a única oração
+o corpo em movimento é a única oração
 que eu sei fazer
 
-[Verse 3]
-A terra treme por baixo dos meus pés descalcos
+[Verse 3: voice opens, body percussion driving, harmonies hum underneath]
+A terra treme por baixo dos meus pés descalços
 o tambor bate onde bate o coração
 não preciso de templo, não preciso de palcos
-o meu corpo inteiro e a celebração
+o meu corpo inteiro é a celebração
 
-[Chorus]
+[Chorus: full harmonies, peak marrabenta groove]
 Dança, dança, dança
 o corpo sabe o caminho sozinho
 Dança, dança, dança
-o suor e água benta, o chão e santuario
+o suor é água benta, o chão é santuário
 Dança até o peso soltar
 dança até o nome esquecer
-o corpo em movimento e a única oração
+o corpo em movimento é a única oração
 que eu sei fazer
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, frame-drum and shaker only]
+(European Portuguese, Portugal accent:)
 Fecha os olhos
 solta o ar
 deixa o corpo te levar
@@ -1350,83 +1410,99 @@ não pergunta
 não controla
 a dança reza por nós quando a voz não fala
 
-[Outro]
-Pe no chão
+[Outro: vocal soft, last line spoken, frame-drum heartbeat fading]
+Pé no chão
 mão no ar
-a dança e tudo o que eu sei rezar`,
+a dança é tudo o que eu sei rezar...`,
 
-  "incenso-folego/8": `[Verse 1]
+  "incenso-folego/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: single warm analog synth note pulsing like a slow heartbeat, vocal exhaled whisper]
+ember...
+ember...
+
+[Verse 1: vocal whispered, very close, almost spoken]
 You could miss it in the dark — it's that small
 A red point holding on inside the cold
 Not looking for the wind, not looking for the wall
 Just breathing slow on what it can't be told
 
-[Verse 2]
+[Verse 2: same intimacy, slight rasp on sustained notes, filter slowly opening]
 Not a blaze — no one would call this a blaze
 Not the kind of fire people stop to name
 Just a point of heat inside the haze
 That refused to be extinguished by the rain
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens, breath audible, soft warm bass enters]
 You don't need to fill the room with light
 You don't need to make the darkness run
 You just need to hold through one more night
 Small and warm until the morning comes
 
-[Chorus]
+[Chorus: 3-voice airy harmonies enter, no kick, filter opens further]
 Ember — you thought you were finished
 Ember — you thought the cold had won
 Smaller than the story of a fire
-Warmer than the winter you'vê become
+Warmer than the winter you've become
 Ember — not asking to be noticed
 Ember — not trying to be bright
 Something in you would not stop existing
 One red point against the endless night
 
-[Verse 3]
+[Verse 3: back to verse intimacy, harmonies drop, single synth pulse continues]
 The ones who counted ashes left you there
 They wrote their cold reports and walked away
 But underneath the grey was something rare —
 The thing that heat leaves in when heat won't stay
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only synth pulse and warm pad underneath]
 To be an ember is not defeat
 It is the most determined kind of light
 You are not a ruin — you are heat
 Still here — which is the hardest word tonight
 
-[Chorus]
+[Chorus: harmonies layered fuller, voice softer not louder, peak warmth]
 Ember — you thought you were finished
 Ember — you thought the cold had won
 Smaller than the story of a fire
-Warmer than the winter you'vê become
+Warmer than the winter you've become
 Ember — not asking to be noticed
 Ember — not trying to be bright
 Something in you would not stop existing
 One red point against the endless night
 
-[Outro]
+[Outro: vocal exhaled, fading, last word whispered]
 Ember
 Still here
 Still here
 Warm to the touch
-Still here`,
+still here...`,
 
-  "incenso-folego/9": `[Verse 1]
+  "incenso-folego/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, sustained low hum drone built from her own voice, layered female backing choir hum on choruses (3 voices building to 6 on final chorus), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: sustained low female vocal hum drone (no words), warm Hammond organ enters slowly]
+hummm...
+hummm...
+
+[Verse 1: vocal close, breathy, hum drone underneath the words]
 Antes da palavra havia um som
 Antes do som havia o ar
 Antes do ar havia o peito
-Antes do peito havia o que não da para nomear
+Antes do peito havia o que não dá para nomear
 
-[Verse 2]
+[Verse 2: same intimacy, hum drone slightly louder]
 A boca abre e sai um hum
-Não é palavra é não é prece
-É o corpo a lembrar ao espirito
+Não é palavra e não é prece
+É o corpo a lembrar ao espírito
 Que ainda existe que ainda aparece
 
-[Chorus]
+[Chorus: 3-voice gospel choir hum enters, Hammond organ blooms, kick on the four]
 Hum
-antes do amem e o hum
+antes do amém é o hum
 Hum
 antes do nome é o hum
 O peito vibra e a voz responde
@@ -1434,17 +1510,17 @@ Ao que a boca nunca disse
 Hum
 quando não há mais nada
 Hum
-quando nada mais sufice
+quando nada mais suficie
 
-[Verse 3]
+[Verse 3: voice opens, choir hums underneath, building]
 Na igreja havia órgão e havia letra
 Mas o que ficava era a vibração
 O corpo sente antes de acreditar
-O hum e anterior a opinião
+O hum é anterior à opinião
 
-[Chorus]
+[Chorus: full gospel hum harmonies, peak Hammond, full kit]
 Hum
-antes do amem e o hum
+antes do amém é o hum
 Hum
 antes do nome é o hum
 O peito vibra e a voz responde
@@ -1452,36 +1528,49 @@ Ao que a boca nunca disse
 Hum
 quando não há mais nada
 Hum
-quando nada mais sufice
+quando nada mais suficie
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, choir hums softly underneath]
+(European Portuguese, Portugal accent:)
 Fecha os olhos
 Deixa o som nascer no peito
-Não é certo nem e errado
+Não é certo nem é errado
 É o mais antigo dos respeitos
 Hum
 Hum
 
-[Outro]
+[Final Chorus: 6-voice female backing choir hum layered, peak energy, transcendent climax]
+Hum
+antes do amém é o hum
+
+[Outro: vocal hum fading, Hammond holds the final note, no words]
 Hum
 Hum
 Hum
 Só isso
-Só isso`,
+só isso...`,
 
-  "incenso-folego/10": `[Verse 1]
+  "incenso-folego/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: exhale-paced wah-guitar groove, brushed snare shuffle, vocal whispered]
+expira...
+expira...
+
+[Verse 1: vocal close, conversational, breath audible between phrases]
 Sai pela boca o que não precisas
 o ar usado o ar que já fez
 o corpo sabe o que é gasto
 largas sem saber quantas vezes
 
-[Verse 2]
+[Verse 2: same intimacy, warm fender bass joins, light Rhodes accents]
 Há coisas que guardas como ar velho
 que ocupam espaço que é teu
 largar não é perder o que importa
-e só devolver o que não te deu
+é só devolver o que não te deu
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, smooth funk pocket, wah-guitar groove fuller]
 Expira, expira
 o que entrou tem de sair
 expira, expira
@@ -1491,13 +1580,13 @@ expira o que já cumpriu a sua vez
 o corpo nunca mente quando cansa
 largas e já não sabes que largas
 
-[Verse 3]
+[Verse 3: back to verse intimacy, harmonies hum underneath]
 Não é fraqueza o que sai de ti
-e o ciclo que te mantem viva
+é o ciclo que te mantém viva
 o que expiras volta ao mundo
 como o que recebes foi vivido
 
-[Chorus]
+[Chorus: full harmonies, wah-guitar peaks, brushed shuffle steady]
 Expira, expira
 o que entrou tem de sair
 expira, expira
@@ -1507,16 +1596,17 @@ expira o que já cumpriu a sua vez
 o corpo nunca mente quando cansa
 largas e já não sabes que largas
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only fender bass and Rhodes underneath]
+(European Portuguese, Portugal accent:)
 Não segures o que já passou
 o pulmão não te perdoa
 o que não largas asfixia
-até o que ainda e tua
+até o que ainda é tua
 
-[Outro]
+[Outro: vocal exhaled, fading, last word spoken]
 Expira
 devagar
-expira`,
+expira...`,
 
   // ─────────────────────────────────────────────
   // ALBUM: DEMORA
