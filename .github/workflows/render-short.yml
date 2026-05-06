@@ -1,0 +1,80 @@
+name: Render lyric-video short (VENNA / NNOVVA)
+
+# Despoletado pelo botão "Renderizar Short" no /admin/venna ou /admin/nova
+# (via /api/admin/render-short → workflow_dispatch).
+#
+# Faz: download do cover + audio do Supabase → ffmpeg compõe 9:16 com
+# Ken Burns + waveform + letra burnt-in → upload do MP4 para
+# albums/social/<brand>/ no Supabase Storage.
+
+on:
+  workflow_dispatch:
+    inputs:
+      brand:
+        description: "venna | nnovva"
+        required: true
+        type: string
+      album_slug:
+        description: "ex: venna-mango-hour, nova-static"
+        required: true
+        type: string
+      track_number:
+        description: "número da faixa no álbum (1-10)"
+        required: true
+        type: string
+      start_sec:
+        description: "início do clip dentro do MP3 (default 30)"
+        required: false
+        default: "30"
+        type: string
+      duration_sec:
+        description: "duração do clip (default 30)"
+        required: false
+        default: "30"
+        type: string
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: music-app
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: music-app/package-lock.json
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-liberation
+        working-directory: .
+
+      - name: Install npm deps
+        run: npm ci
+
+      - name: Render short
+        env:
+          BRAND: ${{ inputs.brand }}
+          ALBUM_SLUG: ${{ inputs.album_slug }}
+          TRACK_NUMBER: ${{ inputs.track_number }}
+          START_SEC: ${{ inputs.start_sec }}
+          DURATION_SEC: ${{ inputs.duration_sec }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: npx tsx scripts/render-short-server.ts
+
+      - name: Upload artifact (debug)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: short-${{ inputs.brand }}-${{ inputs.album_slug }}-faixa-${{ inputs.track_number }}
+          path: music-app/.render-output/
+          if-no-files-found: warn
+          retention-days: 7

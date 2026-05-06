@@ -1,1 +1,9 @@
 .next/
+
+# Weekly social content (videos and outputs are local-only)
+/social-content/output/
+/social-content/semana-*/**/*.mp4
+/social-content/semana-*/**/*.mov
+/social-content/semana-*/**/*.m4v
+/social-content/semana-*/**/*.webm
+/social-content/semana-*/**/*.zip
