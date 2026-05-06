@@ -486,8 +486,71 @@ function LyricVideoSection({ album, track }: { album: Album; track: AlbumTrack }
               {cached.audioUrl}
             </pre>
           </div>
+
+          {/* Trigger render no GitHub Actions */}
+          <ServerShortButton
+            albumSlug={album.slug}
+            trackNumber={track.number}
+            brand="venna"
+          />
         </div>
       )}
+    </div>
+  );
+}
+
+function ServerShortButton(props: { albumSlug: string; trackNumber: number; brand: "venna" | "nnovva" }) {
+  const [phase, setPhase] = useState<string>("");
+  const [busy, setBusy] = useState(false);
+  const [runUrl, setRunUrl] = useState<string>("");
+
+  async function handleClick() {
+    setBusy(true);
+    setPhase("a despoletar...");
+    setRunUrl("");
+    try {
+      const res = await fetch("/api/admin/render-short", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          brand: props.brand,
+          albumSlug: props.albumSlug,
+          trackNumber: props.trackNumber,
+          startSec: 30,
+          durationSec: 30,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.erro || `HTTP ${res.status}`);
+      setPhase("triggered");
+      if (data.runUrl) setRunUrl(data.runUrl);
+    } catch (err) {
+      setPhase(`erro: ${err instanceof Error ? err.message : String(err)}`);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <div className="rounded-lg bg-orange-900/20 p-3">
+      <button
+        onClick={handleClick}
+        disabled={busy}
+        className={`w-full rounded-lg px-3 py-2 text-xs font-medium transition ${busy ? "bg-orange-900/40 text-orange-500 animate-pulse cursor-wait" : "bg-orange-700/60 text-white hover:bg-orange-700/80"}`}
+      >
+        {busy ? phase : "Renderizar Short no GitHub Actions"}
+      </button>
+      {!busy && phase === "triggered" && (
+        <p className="text-[9px] text-green-400 mt-1">
+          GitHub Action despoletada. {runUrl && (<a href={runUrl} target="_blank" rel="noreferrer" className="underline">Acompanhar →</a>)}
+        </p>
+      )}
+      {!busy && phase.startsWith("erro:") && (
+        <p className="text-[9px] text-red-400 mt-1 break-words">{phase}</p>
+      )}
+      <p className="text-[9px] text-mundo-muted-dark mt-1">
+        Render server-side: capa Ken-Burns + waveform + letra. Output em <code>social/{props.brand}/&lt;track&gt;-short.mp4</code>.
+      </p>
     </div>
   );
 }
