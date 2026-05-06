@@ -1584,7 +1584,15 @@ In the way we chose to breathe`,
   // MÃOS JUNTAS (gratidão como prática)
   // ─────────────────────────────────────────────
 
-  "incenso-maos-juntas/1": `[Verse 1]
+  "incenso-maos-juntas/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: warm felt-piano with breath-sample at phrase ending, vocal whispered]
+obrigada...
+obrigada...
+
+[Verse 1: vocal whispered, very close, hand-on-body tenderness]
 Obrigada, mãos, por tudo o que seguraram
 Pelos copos quentes e pelas cartas escritas
 Obrigada, pés, pelos quilómetros que andaram
@@ -1594,7 +1602,7 @@ Que aconteceu sem eu pedir
 Obrigada, corpo, por esta habitação
 Que insiste em me servir
 
-[Verse 2]
+[Verse 2: same intimacy, breath audible between phrases]
 Obrigada, olhos, por tudo o que viram
 Pelo azul do céu e pelo cinza da chuva
 Obrigada, ouvidos, por tudo o que ouviram
@@ -1604,13 +1612,13 @@ E pelas que ficaram por dizer
 Obrigada, pele, pelas tantas visitas
 Do vento que me vem lamber
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens slightly, breath audible]
 Obrigada é pouco
 Para o que o corpo faz
 Mas é tudo o que tenho
 E espero que te baste e satisfaça
 
-[Chorus]
+[Chorus: 3-voice airy harmonies enter, soft brushed kick, deep house pad blooms]
 Obrigada, corpo que me carrega
 Sem pedir nada em troca
 Obrigada pela entrega
@@ -1620,7 +1628,7 @@ De sangue que circula sem parar
 Obrigada por existir em mim
 Antes de eu sequer pensar
 
-[Verse 3]
+[Verse 3: back to whisper, harmonies drop]
 Obrigada, costas, por cada peso
 Que levaram sem reclamar
 Obrigada, coração, por cada apreço
@@ -1630,13 +1638,14 @@ Cada escada e cada queda
 Obrigada por esta oração
 Que o corpo reza sem que a mente ceda
 
-[Chorus]
+[Chorus: full harmonies, voice softer not louder]
 Obrigada, corpo que me carrega
 Sem pedir nada em troca
 Obrigada pela entrega
 De cada célula e cada boca
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only felt-piano underneath]
+(European Portuguese, Portugal accent:)
 Um dia este corpo vai parar
 E eu vou ter de o deixar ir
 Mas até lá quero agradecer
@@ -1646,13 +1655,13 @@ Cada manhã com força nas pernas
 Obrigada pelo calor
 De um corpo que não tem datas eternas
 
-[Chorus]
+[Chorus: harmonies layered fuller, peak warmth]
 Obrigada, corpo que me leva
 Pelos dias e pelas noites
 Obrigada pela treva
 E pelos açoites de luz
 
-[Outro]
+[Outro: vocal exhaled, fading, last line spoken]
 Obrigada é a palavra mais simples
 E a mais difícil de dizer
 Para um corpo cheio de limites
@@ -1660,9 +1669,17 @@ Que nunca deixou de me mover
 Obrigada, hoje
 Obrigada, aqui
 Obrigada por tudo
-Obrigada por mim`,
+obrigada por mim...`,
 
-  "incenso-maos-juntas/2": `[Verse 1]
+  "incenso-maos-juntas/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: gospel piano with single deep low bell, vocal whispered]
+grace...
+grace...
+
+[Verse 1: vocal close, ceremonial intimacy]
 Before the fork, before the bite
 Before the morning's first hello
 There is a moment, held in light
@@ -1688,7 +1705,7 @@ Between the hunger and the food
 A tiny, tender death
 Of taking things for good
 
-[Chorus]
+[Chorus: deep low bell rings on entry, kitchen-choir hum joins, Hammond organ swells]
 Grace before the meal
 Grace before the day
 A moment just to feel
@@ -1699,7 +1716,7 @@ That every mouth that's living
 Has a debt it can't return
 But gratitude is trying
 
-[Verse 3]
+[Verse 3: back to verse intimacy, harmonies drop]
 Grace before the coffee poured
 Grace before the car is started
 Grace before the day is scored
@@ -1709,13 +1726,13 @@ And all the rushing comes to rest
 A moment of the purest will
 To say: I'm fortunate, I'm blessed
 
-[Chorus]
+[Chorus: full kitchen-choir hum, Hammond blooms, gospel piano fuller]
 Grace before the meal
 Grace before the day
 A moment just to feel
 What words can never say
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only gospel piano underneath]
 You don't need to close your eyes
 Or fold your hands or bow your head
 Grace is just the quiet surprise
@@ -1725,13 +1742,13 @@ By soil and rain and someone's care
 By every ordinary hand
 That placed the bread and left it there
 
-[Chorus]
+[Chorus: harmonies fuller, voice softer not louder]
 Grace is just a heartbeat
 Between the want and the receive
 A quiet, humble drumbeat
 That reminds you to believe
 
-[Outro]
+[Outro: vocal soft, fading with single low bell, last line spoken]
 So before you rush to eat
 Before you grab and chew and swallow
 Let your gratitude complete
@@ -1739,9 +1756,17 @@ The circle that tomorrow
 Will begin again at dawn
 With the same miraculous bread
 And the same grace, still drawn
-From the silence in your head`,
+from the silence in your head...`,
 
-  "incenso-maos-juntas/3": `[Verse 1]
+  "incenso-maos-juntas/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: fingerpicked folk guitar with tambourine and warm accordion accent, vocal whispered]
+a lista...
+a lista...
+
+[Verse 1: vocal close, conversational, listing intimacy]
 A lista começa devagar
 Com coisas que ninguém repara
 Água limpa para tomar
@@ -1793,7 +1818,8 @@ A lista das coisas pequenas
 As mãos cheias, as mãos plenas
 De um quotidiano humano
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only fingerpicked guitar underneath]
+(European Portuguese, Portugal accent:)
 Escreve a tua lista
 Num guardanapo, numa parede
 Escreve como quem insista
@@ -1819,7 +1845,15 @@ Obrigada pela noite
 Obrigada pelo amanhã
 E por cada doce açoite de estar viva`,
 
-  "incenso-maos-juntas/4": `[Verse 1]
+  "incenso-maos-juntas/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: minimal Rhodes piano with single double-bass pluck per phrase, brushed cymbal, vocal whispered]
+enough...
+enough...
+
+[Verse 1: vocal whispered, very close, almost spoken]
 There is a line that no one draws
 Between the wanting and the need
 A border where the hunger thaws
@@ -1871,7 +1905,7 @@ In a world that wants you small
 Enough is the returning wave
 That doesn't need to drown at all
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only Rhodes and double-bass pluck underneath]
 The richest person in the room
 Is often the one who needs the least
 Who finds in every silent bloom
@@ -1897,7 +1931,15 @@ Without a price, without a deed
 And knowing this is how the living
 Finally learn to feed`,
 
-  "incenso-maos-juntas/5": `[Verse 1]
+  "incenso-maos-juntas/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: syncopated afrobeat guitar with talking-drum pattern and warm bass groove, vocal whispered]
+mãos abertas...
+mãos abertas...
+
+[Verse 1: vocal close, hands-up open feel, conversational]
 As mãos abertas, palmas para cima
 Como quem mostra que não tem arma
 Como quem diz: eu estou por cima
@@ -1949,7 +1991,8 @@ Mãos abertas para ti
 Cada palma é um véu
 Levantado sobre mim
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only afrobeat guitar and talking-drum underneath]
+(European Portuguese, Portugal accent:)
 Abre as mãos agora mesmo
 Sente o ar entre os dedos
 Não é um gesto extremo
@@ -1975,7 +2018,15 @@ Que recebi e que dei
 Que a gratidão não é uma sentença
 É uma forma de lei`,
 
-  "incenso-maos-juntas/6": `[Verse 1]
+  "incenso-maos-juntas/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — kitchen-choir style, women's voices answering), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: Hammond organ groove with kitchen-choir hum and gospel piano fills, vocal whispered]
+thank you body...
+thank you body...
+
+[Verse 1: vocal close, embodied warmth, body-thanking phrasing]
 Thank you, knees, for every stair
 For every hill and every fall
 Thank you for the weight you bear
@@ -2027,7 +2078,7 @@ Who never left me, never will
 Until the very, very end
 You'll carry me up every hill
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only Hammond organ and gospel piano underneath]
 I spent so many years at war
 With the shape of what you are
 Wishing you were less or more
@@ -2053,7 +2104,15 @@ I will thank each cell and nerve
 For the gift of standing upright
 For more grace than I deserve`,
 
-  "incenso-maos-juntas/7": `[Verse 1]
+  "incenso-maos-juntas/7": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: log drum sparse, gospel choir hum building, bright shaker on the four, vocal whispered]
+dádiva...
+dádiva...
+
+[Verse 1: vocal close, breathy, awestruck intimacy]
 Acordei e estava viva
 Os pulmões encheram-se de ar
 Como se a manhã fosse uma oliva
@@ -2105,7 +2164,8 @@ A dádiva de estar vivo
 Está aqui, está activo
 No teu sangue e no teu fósforo
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, choir hums softly underneath]
+(European Portuguese, Portugal accent:)
 Não esperes pelo fim
 Para agradecer ao início
 A dádiva mora em mim
@@ -2131,7 +2191,15 @@ Sem pedir nada em troca
 A dádiva é a poesia
 De um corpo que não troca`,
 
-  "incenso-maos-juntas/8": `[Verse 1]
+  "incenso-maos-juntas/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: fingerpicked steel-string folk guitar with single soft bell, intimate room ambience, vocal whispered]
+small things...
+small things...
+
+[Verse 1: vocal whispered, very close, observant intimacy]
 The tap still runs, the light still works
 The pillow holds the shape of sleep
 The fridge still hums, the kettle perks
@@ -2183,7 +2251,7 @@ The invisible and mild
 The tiny unremarkable things
 That make the world worthwhile
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only fingerpicked guitar underneath]
 We chase the big ones all our lives
 The milestones and the medals won
 But happiness most often arrives
@@ -2209,7 +2277,15 @@ The silence and the morning light
 The small things that will never end
 Are holding up the night`,
 
-  "incenso-maos-juntas/9": `[Verse 1]
+  "incenso-maos-juntas/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, smooth funk falsetto-touch on hooks, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: wah-guitar funk groove with snappy claps on 2 and 4, rubbery bass, vocal whispered]
+cheia...
+cheia...
+
+[Verse 1: vocal close, smooth funk pocket, joyful overflow]
 Cheia como um rio em Fevereiro
 Que transborda sem pedir licença
 Cheia como o primeiro chuveiro
@@ -2261,7 +2337,8 @@ E a transbordar sem medo
 Cada batida do coração
 É mais um segredo
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only wah-guitar and rubbery bass underneath]
+(European Portuguese, Portugal accent:)
 O copo está tão cheio
 Que já molha a toalha
 E eu não limpo o meio
@@ -2287,7 +2364,15 @@ De gratidão sem razão
 Cheia — e sem parar
 De encher este coração`,
 
-  "incenso-maos-juntas/10": `[Verse 1]
+  "incenso-maos-juntas/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: solo voice opens, gospel piano enters, Hammond organ swells, vocal whispered]
+hallelujah...
+hallelujah...
+
+[Verse 1: vocal close, breathy, almost spoken]
 Hallelujah is not a church word
 It belongs to the morning dew
 To the first and final bird
@@ -2339,7 +2424,7 @@ But to the life inside the blood
 To the ordinary and the odd
 To the rising of the flood
 
-[Bridge]
+[Bridge: vocal opens but never shouts, choir hums underneath, building toward final chorus]
 Let the hallelujah rise
 From the belly, from the bone
 From the most exhausted eyes
