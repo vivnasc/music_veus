@@ -1732,7 +1732,15 @@ Só a respirar`,
   // ESPELHO DO DESEJO (Véu 6 — desiring everything except what you need)
   // ─────────────────────────────────────────────
 
-  "espelho-desejo/1": `[Verse 1]
+  "espelho-desejo/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: fragmented arpeggio with off-beat synth stab, restless filtered hi-hat, vocal whispered]
+barulho bonito...
+barulho bonito...
+
+[Verse 1: vocal close, scattered phrasing, busy intimacy]
 Mais um curso, mais um plano
 Mais um livro, mais um jantar
 Preencho os dias como quem pinta
@@ -1765,7 +1773,8 @@ Barulho bonito para não ouvir
 O que mora lá no fundo
 O que tem medo de existir
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, all rhythm drops away — only voice and a single pad note]
+(European Portuguese, Portugal accent:)
 E se eu ficasse quieta um minuto
 E se eu deixasse o vazio falar
 E se o vazio não fosse o inimigo
@@ -1779,7 +1788,15 @@ Cantou-me uma canção
 Tão bonita
 Que chorei`,
 
-  "espelho-desejo/2": `[Verse 1]
+  "espelho-desejo/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed on this track, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: solo vocal opens, single longing-shaped string ensemble bow, deep pad bed, vocal half-whispered]
+what's missing...
+what's missing...
+
+[Verse 1: vocal raw, very close, almost spoken, breath audible]
 I bought the dress, I felt the glow
 It lasted from the shop to home
 I booked the flight, I packed the bag
@@ -1799,7 +1816,7 @@ Or any holiday or frame
 It's sitting in the corner
 Of the room I never clean
 The quietest, hungriest, truest thing
-I'vê ever dared not see
+I've ever dared not see
 Oh, what's missing, what's missing
 
 
@@ -1811,10 +1828,10 @@ Or any holiday or frame
 It's sitting in the corner
 Of the room I never clean
 The quietest, hungriest, truest thing
-I'vê ever dared not see
+I've ever dared not see
 Oh, what's missing, what's missing
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only deep pad and single longing string bow underneath]
 What if I stopped the search
 And sat down in the ache
 What if the empty was the answer
@@ -1823,10 +1840,18 @@ Not the problem, not the mistake
 [Outro]
 What's missing
 Is right here
-In the silence I'vê been running from
+In the silence I've been running from
 For years and years and years`,
 
-  "espelho-desejo/3": `[Verse 1]
+  "espelho-desejo/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, contained and small on this track, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: muted upright piano with single small-bell touch, contained vocal, vocal whispered]
+mais pequena...
+mais pequena...
+
+[Verse 1: vocal whispered, contained, almost ashamed phrasing]
 Encolhi o sonho para caber na sala
 Encolhi a voz para caber no jantar
 Encolhi o corpo para não incomodar
@@ -1859,7 +1884,8 @@ Mais invisível não, nunca mais
 O meu tamanho real é um segredo
 Que o mundo ainda não viu, mas vai
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal opens (still no shout), no harmonies, only muted piano underneath]
+(European Portuguese, Portugal accent:)
 A menina que encolheram
 Tem o tamanho de um oceano
 Tem a força de uma mare
@@ -1873,8 +1899,16 @@ Que ninguém consegue arrancar
 Bonita, selvagem
 E minha`,
 
-  "espelho-desejo/4": `[Verse 1]
-Desliguei tudo é fiquei
+  "espelho-desejo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: long opening silence then a single piano note emerges gradually, vocal whispered]
+a hora vazia...
+a hora vazia...
+
+[Verse 1: vocal close, slow walking phrasing, sitting with nothing]
+Desliguei tudo e fiquei
 Com o tecto e com o chão
 Com o tic-tac do relógio
 E as minhas mãos sem ocupação
@@ -1906,7 +1940,8 @@ Um cheiro de jasmim e de quintal
 Uma menina a correr descalca
 Com um riso de animal
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only piano emerging]
+(European Portuguese, Portugal accent:)
 Na hora vazia o desejo fala
 Não pede coisas, não pede pressa
 Pede só que eu fique quieta
@@ -1920,7 +1955,15 @@ A minha mão sobre o meu ventre
 É a certeza de que estou cheia
 De tudo o que importa`,
 
-  "espelho-desejo/5": `[Verse 1]
+  "espelho-desejo/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed on this track, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: descending piano melody starting full, soft cello, vocal half-whispered]
+empty...
+empty...
+
+[Verse 1: vocal raw, very close, almost spoken, breath audible]
 I filled my house with pretty things
 My calendar with golden dates
 I wore the smile, I played the part
@@ -1953,7 +1996,7 @@ Let me stand in nothing for a while
 Let me learn to love the empty page
 Before I try to fill it with a smile
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only single piano note remaining — voice essentially alone]
 Empty isn't broken
 Empty isn't wrong
 Empty is the deepest breath
@@ -1966,7 +2009,15 @@ The cupboards are bare
 And I am free
 Beautifully, terrifyingly free`,
 
-  "espelho-desejo/6": `[Verse 1]
+  "espelho-desejo/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered airy harmonies emerging on choruses (3 voices building to 5 on final chorus), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: rich warm synth pad solo, vocal whispered, ascending bass pedal beginning to climb]
+desejo verdadeiro...
+desejo verdadeiro...
+
+[Verse 1: vocal close, breathy, declarative intimacy]
 Debaixo dos sonhos que me emprestaram
 Debaixo do quero que nunca foi meu
 Há um desejo que vem de tão fundo
@@ -1999,7 +2050,8 @@ Que nunca ninguém mandou bater
 É meu, o único desejo
 Que não tenho de aprender
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, ascending bass pedal continues climbing]
+(European Portuguese, Portugal accent:)
 Não é o que eu devia querer
 Não é o que ficava bem na foto
 É o que me faz tremer por dentro
@@ -2012,7 +2064,15 @@ Quente, vivo, meu
 Como um fogo que ninguém acendeu
 Mas que arde, arde, arde`,
 
-  "espelho-desejo/7": `[Verse 1]
+  "espelho-desejo/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, voice floating in long-tail reverb, layered airy harmonies emerging only on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: vast soundscape with open harmonic chord, voice in long-tail reverb, vocal whispered]
+espaço...
+espaço...
+
+[Verse 1: vocal whispered, very close, vast spacious phrasing]
 O vazio que eu fugia
 Era um campo de trigo ao sol
 O nada que eu temia
@@ -2045,7 +2105,8 @@ O vazio é onde tudo nasce
 Onde a semente encontra terra
 Onde o amor encontra a face
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only open harmonic chord underneath]
+(European Portuguese, Portugal accent:)
 A pausa entre duas notas
 É a música mais bonita
 O branco entre as palavras

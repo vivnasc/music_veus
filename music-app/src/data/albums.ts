@@ -348,6 +348,8 @@ const ESPELHO_CONTROLO: AlbumDef = {
   ],
 };
 
+// ESPELHO DESEJO — refeito formato VENNA (BPM + signature element + exclusion lock por faixa)
+const ESPELHO_DESEJO_EXCLUSIONS = ["afrobeats", "afropop", "amapiano", "tropical"];
 const ESPELHO_DESEJO: AlbumDef = {
   slug: "espelho-desejo",
   title: "Desejo",
@@ -356,13 +358,27 @@ const ESPELHO_DESEJO: AlbumDef = {
   veu: 6,
   color: VEU_COLORS[6],
   tracks: [
-    { number: 1, title: "Preencher", description: "Encher o tempo para não ouvir o vazio", lang: "PT", energy: "pulse", flavor: "house", prompt: espelhoPrompt("filling time to avoid hearing the void, busy emptiness", "busy, scattered, anxious, driving", "fast electronic textures, fragmented melody, driving restless beat", "PT", "pulse", "house"), durationSeconds: 240, audioUrl: null },
-    { number: 2, title: "What's Missing", description: "O que não se compra nem se agenda", lang: "EN", energy: "raw", prompt: espelhoPrompt("what's missing, what you can't buy or schedule, unnamed longing", "yearning, deep, painfully honest", "solo vocal, searching melody, deep pad, longing strings", "EN", "raw"), durationSeconds: 240, audioUrl: null },
-    { number: 3, title: "Mais Pequena", description: "Querer menos para não incomodar", lang: "PT", energy: "whisper", prompt: espelhoPrompt("making yourself smaller, wanting less to not bother anyone", "diminished, quiet, hidden, barely there", "very soft production, contained vocal, small intimate sounds", "PT", "whisper"), durationSeconds: 240, audioUrl: null },
-    { number: 4, title: "A Hora Vazia", description: "Uma hora sem nada", lang: "PT", energy: "steady", prompt: espelhoPrompt("the empty hour, sitting with nothing, no agenda", "spacious, walking pace, gradually peaceful", "gentle walking rhythm, slow emergence of piano, space as music", "PT", "steady"), durationSeconds: 240, audioUrl: null },
-    { number: 5, title: "Empty", description: "Parar de fingir que esta cheia", lang: "EN", energy: "raw", prompt: espelhoPrompt("stop pretending you're full, honest emptying", "releasing, honest, raw, courageous vulnerability", "descending melody, stripping layers, raw vocal", "EN", "raw"), durationSeconds: 240, audioUrl: null },
-    { number: 6, title: "Desejo Verdadeiro", description: "O que a tua vida esta a pedir", lang: "PT", energy: "anthem", prompt: espelhoPrompt("true desire, what your life is asking of you", "warm, powerful, knowing, declarative", "rich warm synth, driving drums, layered vocals, empowering build", "PT", "anthem"), durationSeconds: 240, audioUrl: null },
-    { number: 7, title: "Espaço", description: "O vazio não éausencia — e espaço", lang: "PT", energy: "whisper", prompt: espelhoPrompt("space, emptiness is not absence, it is room", "open, vast, potential, full of possibility", "vast soundscape, open harmonics, voice floating in space, possibility", "PT", "whisper"), durationSeconds: 300, audioUrl: null },
+    { number: 1, title: "Preencher", description: "Encher o tempo para não ouvir o vazio", lang: "PT", energy: "pulse", flavor: "house",
+      bpm: 116, signatureElement: "fragmented arpeggio with off-beat synth stab and restless filtered hi-hat that never lands cleanly", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS,
+      prompt: espelhoPrompt("filling time to avoid hearing the void, busy emptiness", "busy, scattered, anxious, driving", "fragmented arpeggio with off-beat synth stab, restless filtered hi-hat that never lands cleanly, driving four-on-the-floor kick, fast electronic textures", "PT", "pulse", "house", { bpm: 116, signatureElement: "fragmented arpeggio + off-beat synth stab + restless filtered hi-hat", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 2, title: "What's Missing", description: "O que não se compra nem se agenda", lang: "EN", energy: "raw",
+      bpm: 64, signatureElement: "solo vocal opening with single longing-shaped string ensemble bow per phrase, deep pad bed", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS,
+      prompt: espelhoPrompt("what's missing, what you can't buy or schedule, unnamed longing", "yearning, deep, painfully honest", "solo vocal close-mic, single longing-shaped string ensemble bow per phrase, deep pad bed underneath, no drums, breath audible", "EN", "raw", null, { bpm: 64, signatureElement: "solo vocal + single longing string bow per phrase + deep pad bed", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 3, title: "Mais Pequena", description: "Querer menos para não incomodar", lang: "PT", energy: "whisper",
+      bpm: 72, signatureElement: "muted upright piano with single small-bell touch on each phrase ending, contained vocal close-mic", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS,
+      prompt: espelhoPrompt("making yourself smaller, wanting less to not bother anyone", "diminished, quiet, hidden, barely there", "muted upright piano (felt-piano), single small-bell touch on each phrase ending, very soft production, contained vocal close-mic, no drums", "PT", "whisper", null, { bpm: 72, signatureElement: "muted upright piano + single small-bell on phrase endings", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 4, title: "A Hora Vazia", description: "Uma hora sem nada", lang: "PT", energy: "steady",
+      bpm: 84, signatureElement: "slow walking rhythm with single piano note emerging gradually, space-as-music with long silences", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS,
+      prompt: espelhoPrompt("the empty hour, sitting with nothing, no agenda", "spacious, walking pace, gradually peaceful", "slow walking rhythm with brushed snare, single piano note emerging gradually between phrases, long silences as instrument, soft fretless bass, no kick until final chorus", "PT", "steady", null, { bpm: 84, signatureElement: "walking rhythm + single piano note emerging gradually + space-as-music", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 5, title: "Empty", description: "Parar de fingir que esta cheia", lang: "EN", energy: "raw",
+      bpm: 60, signatureElement: "descending piano melody that strips one layer at each phrase, ending with vocal alone", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS,
+      prompt: espelhoPrompt("stop pretending you're full, honest emptying", "releasing, honest, raw, courageous vulnerability", "descending piano melody that strips one layer per phrase (starts full, ends with vocal alone), raw close-mic vocal, soft cello underneath, breath audible, no drums", "EN", "raw", null, { bpm: 60, signatureElement: "descending piano stripping one layer per phrase to vocal alone", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 6, title: "Desejo Verdadeiro", description: "O que a tua vida esta a pedir", lang: "PT", energy: "anthem",
+      bpm: 92, signatureElement: "rich warm synth pad building from solo voice to full band, ascending bass pedal climbing each chorus", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS,
+      prompt: espelhoPrompt("true desire, what your life is asking of you", "warm, powerful, knowing, declarative", "rich warm synth pad building from solo voice to full band, ascending bass pedal climbing each chorus, driving drums from bridge onward, layered vocal harmonies on chorus, empowering build", "PT", "anthem", null, { bpm: 92, signatureElement: "warm synth pad solo-to-full-band + ascending bass pedal each chorus", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 7, title: "Espaço", description: "O vazio não é ausência — é espaço", lang: "PT", energy: "whisper",
+      bpm: 66, signatureElement: "vast soundscape with open harmonic chord that resolves slowly, voice floating in long-tail reverb", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS,
+      prompt: espelhoPrompt("space, emptiness is not absence, it is room", "open, vast, potential, full of possibility", "vast soundscape with open harmonic chord resolving slowly, voice floating in long-tail reverb, distant choir hum on chorus, soft pad bed, no drums until final chorus where only brushed snare appears", "PT", "whisper", null, { bpm: 66, signatureElement: "vast soundscape + open harmonic chord + voice in long-tail reverb", exclusionLock: ESPELHO_DESEJO_EXCLUSIONS }), durationSeconds: 300, audioUrl: null },
   ],
 };
 
@@ -406,12 +422,26 @@ function noAlbum(
   };
 }
 
+// NO HERANCA — refeito formato VENNA (BPM + signature element + exclusion lock por faixa)
+// Album em duet (mae + filha) — duas vozes femininas em diálogo, sem voz masculina
+const NO_HERANCA_EXCLUSIONS = ["afrobeats", "afropop", "amapiano", "tropical"];
+const NO_HERANCA_AFRO_FRIENDLY = ["amapiano", "tropical reggaeton"];
 const NO_HERANCA = noAlbum(1, "no-heranca", "Herança", "O silêncio herdado entre mãe e filha", [
-  { number: 1, title: "A Mae que Viu", description: "Helena sempre soube", lang: "PT", energy: "whisper", prompt: noPrompt("mother who always saw, patient knowing", "patient, aching, maternal, waiting love", "warm cello-like synth, maternal vocal texture, gentle humming layer", "PT", "whisper"), durationSeconds: 240 },
-  { number: 2, title: "Years of Waiting", description: "Esperar que a filha veja", lang: "EN", energy: "steady", prompt: noPrompt("years of waiting for your daughter to see, patient love", "slow, patient, enduring, building", "sustained pad, patient piano, walking rhythm, time passing", "EN", "steady"), durationSeconds: 240 },
-  { number: 3, title: "Duas Mulheres", description: "Mae e filha, frente a frente", lang: "PT", energy: "raw", flavor: "folk", prompt: noPrompt("two women face to face, mother and daughter, raw meeting", "raw, vulnerable, brave, painfully honest", "two vocal textures meeting, tentative harmony, stripped production", "PT", "raw", "folk"), durationSeconds: 240 },
-  { number: 4, title: "O Que Nunca Foi Dito", description: "Palavras guardadas uma vida", lang: "PT", energy: "pulse", flavor: "house", prompt: noPrompt("words kept a lifetime, what was never said, breaking silence", "heavy, breaking open, cathartic, urgent", "silence breaking into driving melody, words as rhythm, emotional momentum", "PT", "pulse", "house"), durationSeconds: 240 },
-  { number: 5, title: "Desatar", description: "O no que se solta", lang: "PT", energy: "anthem", flavor: "gospel-africano", prompt: noPrompt("untying the knot, the bond that loosens, freedom together", "freeing, triumphant, relieved, declarative", "full arrangement, driving rhythm, layered vocals, triumphant release", "PT", "anthem", "gospel"), durationSeconds: 300 },
+  { number: 1, title: "A Mae que Viu", description: "Helena sempre soube", lang: "PT", energy: "whisper",
+    bpm: 70, signatureElement: "warm cello-like synth with gentle maternal humming layer, distant lullaby piano motif", exclusionLock: NO_HERANCA_EXCLUSIONS,
+    prompt: noPrompt("mother who always saw, patient knowing", "patient, aching, maternal, waiting love", "warm cello-like synth, gentle maternal humming layer underneath, distant lullaby piano motif, intimate close-mic vocal, no drums", "PT", "whisper", null, { bpm: 70, signatureElement: "warm cello-synth + maternal humming + distant lullaby piano", exclusionLock: NO_HERANCA_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 2, title: "Years of Waiting", description: "Esperar que a filha veja", lang: "EN", energy: "steady",
+    bpm: 80, signatureElement: "sustained pad with patient piano, slow walking brushed drums, time-passing arpeggio that doesn't resolve", exclusionLock: NO_HERANCA_EXCLUSIONS,
+    prompt: noPrompt("years of waiting for your daughter to see, patient love", "slow, patient, enduring, building", "sustained warm pad, patient piano arpeggio that doesn't resolve, slow walking brushed drums, soft fretless bass, time-passing texture", "EN", "steady", null, { bpm: 80, signatureElement: "sustained pad + patient unresolved piano arpeggio + slow walking brushes", exclusionLock: NO_HERANCA_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 3, title: "Duas Mulheres", description: "Mae e filha, frente a frente", lang: "PT", energy: "raw", flavor: "folk",
+    bpm: 64, signatureElement: "two female vocals (mother and daughter) meeting tentatively, fingerpicked folk guitar with breath gaps", exclusionLock: NO_HERANCA_EXCLUSIONS,
+    prompt: noPrompt("two women face to face, mother and daughter, raw meeting", "raw, vulnerable, brave, painfully honest", "two female vocal textures meeting tentatively (lead Loranne + second female voice older-tone), fingerpicked folk guitar with long breath gaps between phrases, stripped production, no drums", "PT", "raw", "folk", { bpm: 64, signatureElement: "two female vocals tentative + fingerpicked folk guitar + breath gaps", exclusionLock: NO_HERANCA_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 4, title: "O Que Nunca Foi Dito", description: "Palavras guardadas uma vida", lang: "PT", energy: "pulse", flavor: "house",
+    bpm: 108, signatureElement: "long opening silence broken by driving four-on-the-floor kick, words used as rhythmic stabs", exclusionLock: NO_HERANCA_EXCLUSIONS,
+    prompt: noPrompt("words kept a lifetime, what was never said, breaking silence", "heavy, breaking open, cathartic, urgent", "long opening silence (8 bars) broken by driving four-on-the-floor kick, deep house bass, words used as rhythmic stabs over the groove, two female vocals trading lines, emotional momentum builds", "PT", "pulse", "house", { bpm: 108, signatureElement: "8-bar silence + breaking kick + words as rhythmic stabs + two female voices trading", exclusionLock: NO_HERANCA_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 5, title: "Desatar", description: "O no que se solta", lang: "PT", energy: "anthem", flavor: "gospel-africano",
+    bpm: 96, signatureElement: "two female vocals in powerful harmony with log drum and gospel choir building, the knot untying as music", exclusionLock: NO_HERANCA_AFRO_FRIENDLY,
+    prompt: noPrompt("untying the knot, the bond that loosens, freedom together", "freeing, triumphant, relieved, declarative", "two female vocals (lead Loranne + second female voice) in powerful harmony, log drum and bright shaker, gospel choir building from 3 to 6 voices, Hammond organ, full band from final chorus, triumphant but never shouted", "PT", "anthem", "gospel", { bpm: 96, signatureElement: "two female vocals harmony + log drum + gospel choir 3-to-6 + Hammond", exclusionLock: NO_HERANCA_AFRO_FRIENDLY }), durationSeconds: 300 },
 ]);
 
 const NO_SILENCIO = noAlbum(2, "no-silencio", "Silêncio", "O que o medo calou entre eles", [
