@@ -1,0 +1,51 @@
+# Exemplo de plano semanal NNOVVA
+# Copia para semana-NN/nnovva.yaml e adapta.
+
+brand: nnovva
+
+posts:
+  # NNOVVA tem trackSlug com prefix "nova-" (slug interno do álbum)
+  - date: 2026-05-12
+    time: "19:00"
+    video: 2026-05-12-static-clip.mp4
+    trackSlug: nova-static-faixa-01
+    platforms: [tiktok, instagram, youtube]
+
+  - date: 2026-05-13
+    time: "21:00"
+    video: 2026-05-13-skin-bts.mp4
+    trackSlug: nova-skin-faixa-01
+    platforms: [tiktok, instagram, youtube]
+
+  - date: 2026-05-14
+    time: "18:00"
+    video: 2026-05-14-machine-clip.mp4
+    trackSlug: nova-machine-faixa-01
+    platforms: [tiktok, instagram, youtube]
+
+  - date: 2026-05-15
+    time: "20:00"
+    video: 2026-05-15-quote-card.mp4
+    caption: |
+      The algorithm knows me better than I know myself.
+      MACHINE — listen now.
+    platforms: [instagram, youtube]
+    hashtags: [moodvideo, conceptpop]
+
+  - date: 2026-05-16
+    time: "12:00"
+    video: 2026-05-16-burn-loop.mp4
+    trackSlug: nova-burn-faixa-01
+    platforms: [tiktok, instagram, youtube]
+
+  - date: 2026-05-17
+    time: "16:00"
+    video: 2026-05-17-water-loop.mp4
+    trackSlug: nova-water-faixa-01
+    platforms: [tiktok, instagram, youtube]
+
+  - date: 2026-05-18
+    time: "20:00"
+    video: 2026-05-18-week-recap.mp4
+    caption: "10 albums. 100 tracks. NNOVVA dropping weekly."
+    platforms: [tiktok, instagram, youtube]
