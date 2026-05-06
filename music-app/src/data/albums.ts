@@ -34,6 +34,11 @@ export type AlbumTrack = {
   lyrics: string;
   durationSeconds: number;
   audioUrl: string | null;
+  // Campos VENNA-style (preenchidos nos albuns prioritarios refeitos)
+  bpm?: number;
+  signatureElement?: string;
+  exclusionLock?: string[];
+  personaSeed?: boolean;
 };
 
 // Internal type for track definitions (lyrics applied at export via applyLyrics)
@@ -192,26 +197,44 @@ function buildPromptWithFlavor(basePrompt: string, _flavor: TrackFlavor | null):
 // Retrocompatibilidade: BASE_STYLE = whisper (o default anterior)
 const BASE_STYLE = ENERGY_STYLES.whisper;
 
-function cosmicPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null): string {
+// VENNA-style enhancement — injectado no Style quando a faixa o tem definido
+export type StyleEnhancement = {
+  bpm?: number;
+  signatureElement?: string;
+  exclusionLock?: string[];
+};
+
+function formatEnhancement(opts?: StyleEnhancement): string {
+  if (!opts) return "";
+  const parts: string[] = [];
+  if (opts.bpm) parts.push(`${opts.bpm} BPM`);
+  if (opts.signatureElement) parts.push(`signature element: ${opts.signatureElement}`);
+  if (opts.exclusionLock && opts.exclusionLock.length > 0) {
+    parts.push(`no ${opts.exclusionLock.join(" no ")}`);
+  }
+  return parts.length ? ` ${parts.join(", ")}.` : "";
+}
+
+function cosmicPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null, opts?: StyleEnhancement): string {
   const langNote = lang === "PT" ? "Lyrics in Portuguese." : "Lyrics in English.";
-  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]} ${langNote} Cosmic, vast, ethereal but grounded. Body as portal to the infinite. ${emotion}. ${production}. Theme: ${theme}.`, flavor);
+  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]}${formatEnhancement(opts)} ${langNote} Cosmic, vast, ethereal but grounded. Body as portal to the infinite. ${emotion}. ${production}. Theme: ${theme}.`, flavor);
 }
 
 
 
-function espelhoPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null): string {
+function espelhoPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null, opts?: StyleEnhancement): string {
   const langNote = lang === "PT" ? "Lyrics in Portuguese." : "Lyrics in English.";
-  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]} ${langNote} ${emotion}. ${production}. Theme: ${theme}.`, flavor);
+  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]}${formatEnhancement(opts)} ${langNote} ${emotion}. ${production}. Theme: ${theme}.`, flavor);
 }
 
-function noPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null): string {
+function noPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null, opts?: StyleEnhancement): string {
   const langNote = lang === "PT" ? "Lyrics in Portuguese." : "Lyrics in English.";
-  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]} ${langNote} Duet energy, two vocal textures in dialogue. ${emotion}. ${production}. Theme: ${theme}.`, flavor);
+  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]}${formatEnhancement(opts)} ${langNote} Duet energy, two vocal textures in dialogue. ${emotion}. ${production}. Theme: ${theme}.`, flavor);
 }
 
-function cursoPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null): string {
+function cursoPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null, opts?: StyleEnhancement): string {
   const langNote = lang === "PT" ? "Lyrics in Portuguese." : "Lyrics in English.";
-  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]} ${langNote} Evolving, grounded, building. ${emotion}. ${production}. Theme: ${theme}.`, flavor);
+  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]}${formatEnhancement(opts)} ${langNote} Evolving, grounded, building. ${emotion}. ${production}. Theme: ${theme}.`, flavor);
 }
 
 // ─────────────────────────────────────────────
@@ -254,6 +277,9 @@ const ESPELHO_MEDO: AlbumDef = {
   ],
 };
 
+// ESPELHO CULPA — refeito formato VENNA (BPM + signature element + exclusion lock por faixa)
+// Cada faixa tem instrumento de assinatura distinto para garantir diversidade entre os 7 momentos.
+const ESPELHO_CULPA_EXCLUSIONS = ["afrobeats", "afropop", "amapiano", "tropical"];
 const ESPELHO_CULPA: AlbumDef = {
   slug: "espelho-culpa",
   title: "Culpa",
@@ -262,13 +288,27 @@ const ESPELHO_CULPA: AlbumDef = {
   veu: 3,
   color: VEU_COLORS[3],
   tracks: [
-    { number: 1, title: "A Voz Baixa", description: "Devias estar a fazer outra coisa", lang: "PT", energy: "raw", prompt: espelhoPrompt("the quiet voice saying you should be doing something else", "heavy, subdued, painfully honest", "solo voice, low piano, muted synth, breath-like textures, minimal", "PT", "raw"), durationSeconds: 240, audioUrl: null },
-    { number: 2, title: "Disguised Virtue", description: "Quando dar e obrigação invisivel", lang: "EN", energy: "steady", prompt: espelhoPrompt("giving as invisible obligation, false virtue, duty as love", "burdened, building awareness", "slow strings, walking rhythm, weighted bass, sighing pad textures", "EN", "steady"), durationSeconds: 240, audioUrl: null },
-    { number: 3, title: "Alivio ou Alegria", description: "A diferença entre querer e dever", lang: "PT", energy: "pulse", prompt: espelhoPrompt("relief vs joy, duty vs desire, learning the difference", "contrasting, energetic questioning", "two melodic lines competing, driving piano, rhythmic vocal, building momentum", "PT", "pulse"), durationSeconds: 240, audioUrl: null },
-    { number: 4, title: "Herança", description: "A culpa que não é tua", lang: "PT", energy: "whisper", prompt: espelhoPrompt("inherited guilt, ancestral weight, not yours to carry", "ancient, heavy then slowly releasing", "deep pad, ancestral-feeling vocal, gradual lightening of texture", "PT", "whisper"), durationSeconds: 240, audioUrl: null },
-    { number: 5, title: "Deserve", description: "Merecer não se conquista", lang: "EN", energy: "anthem", prompt: espelhoPrompt("deserving is not earned, inherent worth, you already deserve", "warm, affirming, powerful, like a declaration", "warm strings, building drums, layered vocals, empowering chorus", "EN", "anthem"), durationSeconds: 240, audioUrl: null },
-    { number: 6, title: "Pousar", description: "Posso pousar isto", lang: "PT", energy: "steady", prompt: espelhoPrompt("laying it down, I can put this down, permission to release", "liberating, exhaling, lighter with each note", "descending melody, opening space, walking rhythm, bird-like synth textures", "PT", "steady"), durationSeconds: 240, audioUrl: null },
-    { number: 7, title: "Ternura", description: "Desmontar sem te castigar", lang: "PT", energy: "whisper", prompt: espelhoPrompt("tenderness, dismantling without punishment, self-compassion", "gentle, loving, free, final resolution", "full warm arrangement, vocal harmonics, resolution into peace", "PT", "whisper"), durationSeconds: 300, audioUrl: null },
+    { number: 1, title: "A Voz Baixa", description: "Devias estar a fazer outra coisa", lang: "PT", energy: "raw",
+      bpm: 60, signatureElement: "low piano drone with a barely-audible ticking metronome-like synth pulse on the off-beat, like an internal clock", exclusionLock: ESPELHO_CULPA_EXCLUSIONS,
+      prompt: espelhoPrompt("the quiet voice saying you should be doing something else", "heavy, subdued, painfully honest", "solo voice close-mic, low piano drone, barely-audible metronome-like synth pulse on off-beat, breath-like textures, no drums, deep silence between phrases", "PT", "raw", null, { bpm: 60, signatureElement: "low piano drone with metronome-like synth pulse on off-beat", exclusionLock: ESPELHO_CULPA_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 2, title: "Disguised Virtue", description: "Quando dar e obrigação invisivel", lang: "EN", energy: "steady",
+      bpm: 84, signatureElement: "weighted cello playing descending sigh-shaped phrases on each verse turnaround", exclusionLock: ESPELHO_CULPA_EXCLUSIONS,
+      prompt: espelhoPrompt("giving as invisible obligation, false virtue, duty as love", "burdened, building awareness", "slow strings, weighted cello playing descending sigh-shaped phrases, walking upright bass, weighted muted kick, sighing pad textures", "EN", "steady", null, { bpm: 84, signatureElement: "weighted cello descending sigh-shaped phrases", exclusionLock: ESPELHO_CULPA_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 3, title: "Alivio ou Alegria", description: "A diferença entre querer e dever", lang: "PT", energy: "pulse",
+      bpm: 104, signatureElement: "two competing piano lines — one staccato (duty) on the right hand, one legato (joy) on the left hand, swapping prominence at each section", exclusionLock: ESPELHO_CULPA_EXCLUSIONS,
+      prompt: espelhoPrompt("relief vs joy, duty vs desire, learning the difference", "contrasting, energetic questioning", "two competing piano lines (staccato right hand, legato left hand), driving four-on-the-floor kick, rhythmic vocal phrasing, building momentum, no acoustic afro elements", "PT", "pulse", null, { bpm: 104, signatureElement: "two competing piano lines — staccato (duty) vs legato (joy)", exclusionLock: ESPELHO_CULPA_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 4, title: "Herança", description: "A culpa que não é tua", lang: "PT", energy: "whisper",
+      bpm: 66, signatureElement: "distant ancestral hum drone with a single nylon guitar pluck per bar, like a clock pendulum", exclusionLock: ESPELHO_CULPA_EXCLUSIONS,
+      prompt: espelhoPrompt("inherited guilt, ancestral weight, not yours to carry", "ancient, heavy then slowly releasing", "deep pad, distant ancestral hum drone, single nylon guitar pluck per bar, ancestral-feeling vocal close-mic, gradual lightening of texture toward bridge, no kick", "PT", "whisper", null, { bpm: 66, signatureElement: "distant ancestral hum drone with single nylon guitar pluck per bar", exclusionLock: ESPELHO_CULPA_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 5, title: "Deserve", description: "Merecer não se conquista", lang: "EN", energy: "anthem",
+      bpm: 96, signatureElement: "warm sustained string ensemble with an ascending bass-note pedal that climbs through each chorus", exclusionLock: ESPELHO_CULPA_EXCLUSIONS,
+      prompt: espelhoPrompt("deserving is not earned, inherent worth, you already deserve", "warm, affirming, powerful, like a declaration", "warm sustained string ensemble, ascending bass pedal climbing through each chorus, building drums (kick from verse 2), layered vocal harmonies on chorus, empowering production", "EN", "anthem", null, { bpm: 96, signatureElement: "warm string ensemble with ascending bass-note pedal climbing each chorus", exclusionLock: ESPELHO_CULPA_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 6, title: "Pousar", description: "Posso pousar isto", lang: "PT", energy: "steady",
+      bpm: 80, signatureElement: "descending piano arpeggio that 'lays down' with each phrase, ending on a low resonant note that lingers", exclusionLock: ESPELHO_CULPA_EXCLUSIONS,
+      prompt: espelhoPrompt("laying it down, I can put this down, permission to release", "liberating, exhaling, lighter with each note", "descending piano arpeggio resolving to low resonant note, opening space, walking brushed drums, soft fretless bass, bird-like synth textures appearing on bridge", "PT", "steady", null, { bpm: 80, signatureElement: "descending piano arpeggio laying down on a low resonant note", exclusionLock: ESPELHO_CULPA_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 7, title: "Ternura", description: "Desmontar sem te castigar", lang: "PT", energy: "whisper",
+      bpm: 72, signatureElement: "felt-piano with a single soft bell on each phrase ending, like a hand resting on the chest", exclusionLock: ESPELHO_CULPA_EXCLUSIONS,
+      prompt: espelhoPrompt("tenderness, dismantling without punishment, self-compassion", "gentle, loving, free, final resolution", "warm felt-piano, single soft bell on each phrase ending, gentle vocal harmonics on chorus, soft pad bed, no drums until final chorus where only brushed snare appears, resolution into peace", "PT", "whisper", null, { bpm: 72, signatureElement: "felt-piano with single soft bell on each phrase ending", exclusionLock: ESPELHO_CULPA_EXCLUSIONS }), durationSeconds: 300, audioUrl: null },
   ],
 };
 
@@ -618,10 +658,10 @@ const CURSO_FOME = cursoAlbum("curso-fome", "a-fome", "A Fome", "O corpo e a fom
 // Duet modifier — appended to prompt when vocalMode = "duet"
 const DUET_MODIFIER = "Male and female vocal duet. Female voice dominant (lead), warm deep male voice on verses marked [Male] or [Both]. Natural chemistry, two perspectives, intimate dialogue. Not a backing vocal — a real second voice with weight.";
 
-function spiritualPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null, vocal: VocalMode = "solo"): string {
+function spiritualPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null, vocal: VocalMode = "solo", opts?: StyleEnhancement): string {
   const langNote = lang === "PT" ? "Lyrics in Portuguese." : "Lyrics in English.";
   const duetNote = vocal === "duet" ? ` ${DUET_MODIFIER}` : "";
-  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]} ${langNote} Sacred but not religious, body-centred, breath as prayer.${duetNote} ${emotion}. ${production}. Theme: ${theme}.`, flavor);
+  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]}${formatEnhancement(opts)} ${langNote} Sacred but not religious, body-centred, breath as prayer.${duetNote} ${emotion}. ${production}. Theme: ${theme}.`, flavor);
 }
 
 const TRAVESSIA: AlbumDef = { slug: "incenso-travessia", title: "Travessia", subtitle: "Do amanhecer ao escuro — o dia inteiro da alma", product: "incenso", color: "#c9a96e", tracks: [
@@ -766,14 +806,14 @@ const O_GESTO: AlbumDef = { slug: "incenso-o-gesto", title: "O Gesto", subtitle:
 // e nunca sair do universo da Loranne.
 // ─────────────────────────────────────────────
 
-function vidaPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null): string {
+function vidaPrompt(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null, opts?: StyleEnhancement): string {
   const langNote = lang === "PT" ? "Lyrics in Portuguese." : "Lyrics in English.";
-  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]} ${langNote} Music for living — the soundtrack of a body moving through a real day. Not about feelings, inside them. ${emotion}. ${production}. Theme: ${theme}.`, flavor);
+  return buildPromptWithFlavor(`${ENERGY_STYLES[energy]}${formatEnhancement(opts)} ${langNote} Music for living — the soundtrack of a body moving through a real day. Not about feelings, inside them. ${emotion}. ${production}. Theme: ${theme}.`, flavor);
 }
 
-function vidaPromptDuet(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null): string {
+function vidaPromptDuet(theme: string, emotion: string, production: string, lang: "PT" | "EN", energy: TrackEnergy = "whisper", flavor: TrackFlavor | null = null, opts?: StyleEnhancement): string {
   const langNote = lang === "PT" ? "Lyrics in Portuguese." : "Lyrics in English.";
-  return buildPromptWithFlavor(`${ENERGY_STYLES_DUET[energy]} ${langNote} Music for living — duet energy, two voices sharing the same moment. Female vocal leads, male vocal responds and deepens. ${emotion}. ${production}. Theme: ${theme}.`, flavor);
+  return buildPromptWithFlavor(`${ENERGY_STYLES_DUET[energy]}${formatEnhancement(opts)} ${langNote} Music for living — duet energy, two voices sharing the same moment. Female vocal leads, male vocal responds and deepens. ${emotion}. ${production}. Theme: ${theme}.`, flavor);
 }
 
 function vidaAlbum(
@@ -1593,17 +1633,41 @@ const ESPIRITUAL_FREQUENCIA: AlbumDef = { slug: "incenso-frequencia", title: "Fr
   { number: 10, title: "Frequency", description: "Não é defeito — é outra frequência", lang: "EN", energy: "anthem", flavor: "gospel", prompt: spiritualPrompt("not a flaw but a different frequency, neurodivergence anthem, celebrating different brains", "triumphant, proud, celebratory, warm", "gospel anthem, choir harmonies, powerful vocal, frequency celebration", "EN", "anthem", "gospel"), durationSeconds: 300, audioUrl: null },
 ]};
 
+// FIBRA CORPO ABERTO — refeito formato VENNA (BPM + signature element + exclusion lock por faixa)
+// Matriz de diferenciacao desenhada para evitar tres whispers identicos: cada faixa tem
+// BPM unico e instrumento de assinatura distinto. Voz Loranne via persona seed Goodnight World.
+const FIBRA_CORPO_ABERTO_EXCLUSIONS = ["afrobeats", "afropop", "amapiano", "tropical"];
 const VIDA_FLOW = vidaAlbum("fibra-corpo-aberto", "Corpo Aberto", "O corpo que flui sem força", "#7A9B8E", [
-  { number: 1, title: "Respira", description: "A primeira inspiração consciente do dia", lang: "PT", energy: "whisper", prompt: vidaPrompt("yoga breathing, body awakening through breath", "serene, meditative, gentle surrender", "soft pads, slow breath-like synths, minimal piano, whisper vocal", "PT", "whisper"), durationSeconds: 240 },
-  { number: 2, title: "Stretch", description: "The body remembering it has edges", lang: "EN", energy: "whisper", prompt: vidaPrompt("morning stretch, muscles waking, reaching upward", "calm, exploratory, tender release", "gentle ambient textures, soft Rhodes, delicate strings, whisper vocal", "EN", "whisper"), durationSeconds: 240 },
-  { number: 3, title: "Equilíbrio", description: "Encontrar o centro quando tudo se move", lang: "PT", energy: "steady", flavor: "bossa", prompt: vidaPrompt("balance poses, stillness within motion, finding center", "poised, confident, gracefully steady", "bossa nova guitar, soft brush drums, upright bass, warm vocal", "PT", "steady", "bossa"), durationSeconds: 240 },
-  { number: 4, title: "Bend", description: "Flexibility as a way of being", lang: "EN", energy: "steady", prompt: vidaPrompt("pilates flow, bending without breaking, body intelligence", "resilient, fluid, quietly strong", "mellow synths, soft percussion, flowing bass, steady vocal", "EN", "steady"), durationSeconds: 240 },
-  { number: 5, title: "Chão", description: "O chão que te segura quando largas", lang: "PT", energy: "whisper", prompt: vidaPrompt("grounding, lying on the floor, earth beneath the body", "safe, surrendered, held by gravity", "deep ambient drones, soft piano, nature sounds, whisper vocal", "PT", "whisper"), durationSeconds: 240 },
-  { number: 6, title: "Release", description: "Letting tension fall like water", lang: "EN", energy: "whisper", prompt: vidaPrompt("releasing tension, savasana, body letting go completely", "free, weightless, deeply peaceful", "ambient pads, gentle water textures, soft vocal, minimal production", "EN", "whisper"), durationSeconds: 240 },
-  { number: 7, title: "Onda", description: "O movimento que nasce de dentro", lang: "PT", energy: "steady", flavor: "bossa", prompt: vidaPrompt("tai chi wave motion, body as ocean, internal rhythm", "flowing, warm, rhythmically alive", "bossa guitar, soft shaker, mellow bass, warm steady vocal", "PT", "steady", "bossa"), durationSeconds: 240 },
-  { number: 8, title: "Align", description: "Every bone finding its true place", lang: "EN", energy: "steady", prompt: vidaPrompt("body alignment, posture, spine awareness, standing tall", "centered, clear, quietly powerful", "clean guitar, soft synth layers, gentle drums, steady vocal", "EN", "steady"), durationSeconds: 240 },
-  { number: 9, title: "Corpo Líquido", description: "Quando o corpo esquece que é sólido", lang: "PT", energy: "whisper", prompt: vidaPrompt("fluid body movement, dance-like flow, water consciousness", "dreamy, sensual, effortlessly light", "liquid synths, soft reverb, gentle ambient, whisper vocal", "PT", "whisper"), durationSeconds: 240 },
-  { number: 10, title: "Namaste", description: "The light in me sees the light in you", lang: "EN", energy: "anthem", flavor: "gospel", prompt: vidaPrompt("closing meditation, gratitude for the body, collective peace", "uplifting, grateful, transcendent joy", "gospel choir, warm organ, building drums, powerful anthem vocal", "EN", "anthem", "gospel"), durationSeconds: 260 },
+  { number: 1, title: "Respira", description: "A primeira inspiração consciente do dia", lang: "PT", energy: "whisper",
+    bpm: 72, signatureElement: "breath-paced 4-note piano motif resolving on each exhale, tail of soft tape hiss between phrases", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS,
+    prompt: vidaPrompt("yoga breathing, body awakening through breath", "serene, meditative, gentle surrender", "soft warm pads as undercurrent, breath-paced piano motif, ambient air textures, no kick on verses, soft heartbeat-like sub bass entering only on chorus, brushed shaker on chorus only, intimate yoga-room mood", "PT", "whisper", null, { bpm: 72, signatureElement: "breath-paced 4-note piano motif resolving on each exhale", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 2, title: "Stretch", description: "The body remembering it has edges", lang: "EN", energy: "whisper",
+    bpm: 78, signatureElement: "felt-mallet vibraphone glissandi rising slowly across each phrase", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS,
+    prompt: vidaPrompt("morning stretch, muscles waking, reaching upward", "calm, exploratory, tender release", "soft Rhodes piano, felt-mallet vibraphone glissandi, delicate sustained strings, brushed snare on chorus only, no kick, intimate dawn-bedroom mood", "EN", "whisper", null, { bpm: 78, signatureElement: "felt-mallet vibraphone glissandi rising on each phrase", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 3, title: "Equilíbrio", description: "Encontrar o centro quando tudo se move", lang: "PT", energy: "steady", flavor: "bossa",
+    bpm: 92, signatureElement: "nylon guitar bossa pattern with single pendulum-shaker swinging on the off-beat", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS,
+    prompt: vidaPrompt("balance poses, stillness within motion, finding center", "poised, confident, gracefully steady", "warm nylon bossa guitar, soft brushed kit, upright walking bass, single pendulum-shaker on the off-beat, intimate Lisbon-cafe poise", "PT", "steady", "bossa", { bpm: 92, signatureElement: "nylon guitar bossa with pendulum off-beat shaker", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 4, title: "Bend", description: "Flexibility as a way of being", lang: "EN", energy: "steady",
+    bpm: 88, signatureElement: "rubato Rhodes piano phrases that bend pitch slightly between chord changes", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS,
+    prompt: vidaPrompt("pilates flow, bending without breaking, body intelligence", "resilient, fluid, quietly strong", "warm Rhodes with subtle pitch-bend, soft brushed percussion, flowing fretless bass, gentle pad cushion, mellow studio room", "EN", "steady", null, { bpm: 88, signatureElement: "rubato Rhodes bending notes between chords", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 5, title: "Chão", description: "O chão que te segura quando largas", lang: "PT", energy: "whisper",
+    bpm: 64, signatureElement: "low cello drone with body-thump hand percussion barely audible, like a heartbeat through a wooden floor", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS,
+    prompt: vidaPrompt("grounding, lying on the floor, earth beneath the body", "safe, surrendered, held by gravity", "low sustained cello drone, soft body-thump hand percussion, deep ambient field-recording of a wooden room, whispered vocal close-mic, no kick", "PT", "whisper", null, { bpm: 64, signatureElement: "low cello drone with body-thump hand percussion", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 6, title: "Release", description: "Letting tension fall like water", lang: "EN", energy: "whisper",
+    bpm: 70, signatureElement: "descending harp glissandi between vocal lines, tape-saturated and slightly detuned", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS,
+    prompt: vidaPrompt("releasing tension, savasana, body letting go completely", "free, weightless, deeply peaceful", "warm ambient pads, descending harp glissandi between phrases, gentle water textures, no percussion until final chorus where only soft brushed snare appears", "EN", "whisper", null, { bpm: 70, signatureElement: "descending harp glissandi between vocal lines", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 7, title: "Onda", description: "O movimento que nasce de dentro", lang: "PT", energy: "steady", flavor: "bossa",
+    bpm: 96, signatureElement: "wave-shaped synth pad with slow LFO sweep over an ocean field-recording undercurrent", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS,
+    prompt: vidaPrompt("tai chi wave motion, body as ocean, internal rhythm", "flowing, warm, rhythmically alive", "bossa nylon guitar, soft shaker, mellow upright bass, wave-shaped synth pad with LFO sweep, distant ocean field recording, sun-on-water mood", "PT", "steady", "bossa", { bpm: 96, signatureElement: "wave-shaped synth pad LFO with ocean field recording", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 8, title: "Align", description: "Every bone finding its true place", lang: "EN", energy: "steady",
+    bpm: 90, signatureElement: "ascending chord-stack synth with one resonant bell hit at each section change", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS,
+    prompt: vidaPrompt("body alignment, posture, spine awareness, standing tall", "centered, clear, quietly powerful", "clean nylon guitar, soft synth chord-stack rising slowly, single resonant bell hit on each section change, gentle brushed drums, steady vocal", "EN", "steady", null, { bpm: 90, signatureElement: "ascending chord-stack synth with single resonant bell at each section change", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 9, title: "Corpo Líquido", description: "Quando o corpo esquece que é sólido", lang: "PT", energy: "whisper",
+    bpm: 68, signatureElement: "liquid plate-reverb piano with underwater low-pass filter sweeping slowly across the track", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS,
+    prompt: vidaPrompt("fluid body movement, dance-like flow, water consciousness", "dreamy, sensual, effortlessly light", "liquid plate-reverb piano, underwater low-pass filter sweep, soft reverb tail, gentle ambient, whispered vocal close-mic, no drums", "PT", "whisper", null, { bpm: 68, signatureElement: "liquid plate-reverb piano with underwater low-pass filter sweep", exclusionLock: FIBRA_CORPO_ABERTO_EXCLUSIONS }), durationSeconds: 240 },
+  { number: 10, title: "Namaste", description: "The light in me sees the light in you", lang: "EN", energy: "anthem", flavor: "gospel",
+    bpm: 100, signatureElement: "single Tibetan singing bowl opening, building gospel choir layered with warm Hammond organ", exclusionLock: ["amapiano", "tropical"],
+    prompt: vidaPrompt("closing meditation, gratitude for the body, collective peace", "uplifting, grateful, transcendent joy", "single Tibetan singing bowl ringing as opener, warm Hammond organ pad, building gospel choir layers (3 then 6 voices), soft tambourine on final chorus, steady kick from bridge onward, powerful anthem vocal", "EN", "anthem", "gospel", { bpm: 100, signatureElement: "Tibetan singing bowl opener building to gospel choir + Hammond organ", exclusionLock: ["amapiano", "tropical"] }), durationSeconds: 260 },
 ], "fibra");
 
 const VIDA_MESA_F1 = vidaAlbum("grao-toalha-posta", "Toalha Posta", "O amor que se serve à mesa", "#8B5A3A", [
@@ -1941,7 +2005,9 @@ const VIDA_VARANDA_QUENTE_F1 = vidaAlbum("mare-varanda-quente", "Varanda Quente"
   { number: 7, title: "Vinho Branco", description: "Vinho branco — a noite que não pede nada", lang: "PT", energy: "whisper", flavor: "bossa", prompt: vidaPrompt("white wine on the balcony, evening that asks for nothing, simplicity as luxury", "mellow, content, unhurried, elegant", "bossa guitar, soft pads, gentle bass, whisper vocal, wine-evening calm", "PT", "whisper", "bossa"), durationSeconds: 240 },
   { number: 8, title: "Fade", description: "The day fading gently — no regrets", lang: "EN", energy: "whisper", flavor: "house", prompt: vidaPrompt("the day fading gently, no regrets, light dissolving, peaceful ending", "accepting, gentle, resolving, peaceful", "minimal house, soft pads, fading textures, whisper vocal, gentle decay", "EN", "whisper", "house"), durationSeconds: 240 },
   { number: 9, title: "Estrelas", description: "As estrelas aparecem uma a uma — o espectáculo começa", lang: "PT", energy: "steady", flavor: "house", prompt: vidaPrompt("stars appearing one by one, the show beginning, night sky from the balcony", "awestruck, patient, magical, nocturnal", "deep house, twinkling textures, warm bass, steady vocal, starlight pads", "PT", "steady", "house"), durationSeconds: 240 },
-  { number: 10, title: "Goodnight World", description: "The final sunset song — gratitude for another day", lang: "EN", energy: "anthem", flavor: "house", prompt: vidaPrompt("goodnight to the world, gratitude for another day, final sunset song, closing the day", "grateful, triumphant, warm, closing", "house anthem, warm choir pads, building bass, powerful vocal, goodnight celebration", "EN", "anthem", "house"), durationSeconds: 260 },
+  { number: 10, title: "Goodnight World", description: "The final sunset song — gratitude for another day", lang: "EN", energy: "anthem", flavor: "house",
+    personaSeed: true,
+    prompt: vidaPrompt("goodnight to the world, gratitude for another day, final sunset song, closing the day", "grateful, triumphant, warm, closing", "house anthem, warm choir pads, building bass, powerful vocal, goodnight celebration", "EN", "anthem", "house"), durationSeconds: 260 },
 ], "mare");
 
 // ─────────────────────────────────────────────
