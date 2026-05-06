@@ -2142,7 +2142,15 @@ sem desconto`,
   // ALBUM: CORPO CELESTE
   // ─────────────────────────────────────────────
 
-  "incenso-corpo-celeste/1": `[Verse 1]
+  "incenso-corpo-celeste/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, distant cathedral reverb on this track, sings close to the microphone, layered airy harmonies emerging only on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: ambient house pads with ocean field-recording, distant cathedral reverb, vocal whispered]
+oceano...
+oceano...
+
+[Verse 1: vocal whispered, very close, dissolved-into-vastness intimacy]
 De pé diante do oceano
 as palavras param no dente
 A boca abre e não sai nada
@@ -2180,8 +2188,9 @@ preciso de ver o imenso
 Oceano — leva o que é demais
 oceano — o peso que dispensa
 
-[Bridge]
-A minha historia é um canto de areia
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only ambient pads and ocean underneath]
+(European Portuguese, Portugal accent:)
+A minha história é um canto de areia
 o oceano tem milhoes
 O alívio e não ser o centro
 e só ser das suas accoes
@@ -2192,7 +2201,15 @@ só continua
 e eu fico
 a olhar`,
 
-  "incenso-corpo-celeste/2": `[Verse 1]
+  "incenso-corpo-celeste/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: warm Rhodes piano with prismatic synth pads, single high-bell on chorus image, vocal whispered]
+cicatriz...
+cicatriz...
+
+[Verse 1: vocal close, honest about damage, no hiding]
 There are lines across my body
 That I drew by living wrong
 Every scar holds a decision
@@ -2222,7 +2239,7 @@ Cicatriz — a door I stumbled through
 Something entered when I split open
 Now I carry what I knew
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only Rhodes and prismatic pad underneath]
 I am not healed — I am altered
 I am not whole — I am opened
 Every scar a place of entry
@@ -2234,7 +2251,15 @@ I did not choose
 These are the doors
 I walked through`,
 
-  "incenso-corpo-celeste/3": `[Verse 1]
+  "incenso-corpo-celeste/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed on this track, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: fingerpicked steel-string folk guitar with hollow bone-like wooden-body percussion, vocal half-whispered]
+costelas...
+costelas...
+
+[Verse 1: vocal raw, very close, almost spoken, hand-on-ribs intimacy]
 As costelas são arcos
 Curvados sobre o sagrado
 Protegem o que não tem nome
@@ -2264,7 +2289,8 @@ O osso que guarda o que é real
 O coração não tem porta — tem osso
 É o osso não cede ao que passa
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only fingerpicked guitar underneath]
+(European Portuguese, Portugal accent:)
 Quantas vezes curvei o corpo
 Quantas vezes o osso aguentou
 Não foi tecto nem parede
@@ -2276,7 +2302,15 @@ A mais velha oração
 As costelas respiram
 Ainda`,
 
-  "incenso-corpo-celeste/4": `[Verse 1]
+  "incenso-corpo-celeste/4": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and dialogue — slightly husky, poetic, never aggressive, never dominant. Female vocal ALWAYS predominant. No melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: Mozambican nylon guitar with skin-on-skin body claps, warm shaker, vocal whispered female]
+hymn of skin...
+hymn of skin...
+
+[Verse 1: female vocal close, tactile intimacy]
 [Female]
 My skin remembers the cold of the floor
 The night you found me and didn't say a word
@@ -2315,7 +2349,7 @@ Every nerve a kind of knowing
 Every scar a kind of truth
 The skin remembers — always more than you
 
-[Bridge]
+[Bridge: alternating phrases, intimate, only nylon guitar and warm shaker]
 [Female]
 Move this body like it belongs to you
 [Male]
@@ -2330,8 +2364,16 @@ The skin is singing
 Can you hear it
 The skin is singing`,
 
-  "incenso-corpo-celeste/5": `[Verse 1]
-O calcio nós meus ossos
+  "incenso-corpo-celeste/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: syncopated afrobeat guitar with talking-drum and shimmering high-string starlight accents, vocal whispered]
+poeira de estrelas...
+poeira de estrelas...
+
+[Verse 1: vocal close, cosmic intimacy, ancient phrasing]
+O cálcio nos meus ossos
 veio de uma estrela morta
 O ferro no meu sangue
 nasceu de uma explosão torta
@@ -2368,8 +2410,9 @@ nunca fui uma ilha em si
 Poeira de estrelas — sou o cosmos
 poeira de estrelas — a respirar aqui
 
-[Bridge]
-Não es separada
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only afrobeat guitar and starlight accents]
+(European Portuguese, Portugal accent:)
+Não és separada
 nunca foste menor
 Es o universo que se dobra
 para ver a sua própria cor
@@ -2380,7 +2423,15 @@ sagrada poeira
 a respirar
 sagrada`,
 
-  "incenso-corpo-celeste/6": `[Verse 1]
+  "incenso-corpo-celeste/6": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality opening, raw on choruses, slight rasp on sustained notes, sings close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate phrases — slightly husky, urgent, never aggressive, never dominant. Female vocal ALWAYS predominant. No melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: raw funk wah-guitar with dissonant string stabs, vertigo-pitched synth bend, vocal whispered female]
+terrified and free...
+terrified and free...
+
+[Verse 1: alternating phrases, raw and exposed, sky-no-edge intimacy]
 [Female] I looked up and the sky had no edge
 no frame no ceiling no wall
 [Male] I looked up and felt my body
@@ -2408,7 +2459,7 @@ terrified and free — through it all
 [Both] And found that hands were enough
 when the sky comes pouring through
 
-[Bridge]
+[Bridge: both voices, sudden silence — only voice and a single piano note, no rhythm]
 [Both] The holding on was the problem
 the letting go is the flight
 We fall into the infinite
@@ -2421,8 +2472,16 @@ and the infinite holds us right
 was the only
 ground`,
 
-  "incenso-corpo-celeste/7": `[Verse 1]
-O sangue desce como a mare que obedece
+  "incenso-corpo-celeste/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: nylon bossa with tidal swelling bass, lunar-shaped pad cycling slowly, vocal whispered]
+sangue e lua...
+sangue e lua...
+
+[Verse 1: vocal close, cyclical lunar phrasing, embodied warmth]
+O sangue desce como a maré que obedece
 a lua puxa e o meu corpo responde
 não há vergonha no que nasce e desaparece
 o que se perde volta, o que se esconde
@@ -2459,7 +2518,8 @@ o ventre e mare, o ventre e estação
 sangue e lua, sangue e lua
 não há vergonha nesta repetição
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only nylon bossa and lunar pad underneath]
+(European Portuguese, Portugal accent:)
 Três dias de silêncio
 três dias de raiz
 o corpo pede recolhimento
@@ -2475,14 +2535,22 @@ o sangue volta
 eu volto
 sempre volto`,
 
-  "incenso-corpo-celeste/8": `[Verse 1]
+  "incenso-corpo-celeste/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, voice as small as possible (almost spoken), slight breathiness on sustained notes, sings very close to the microphone, no harmonies (this track is intentionally tiny), breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: minimal felt-piano in vast empty room, breath audible, vocal half-whispered]
+small...
+small...
+
+[Verse 1: vocal whispered, very close, almost spoken, breath audible]
 I am small
 smaller than my plans had claimed
 Smaller than the space I occupied
 before I learned to be ashamed
 
 [Verse 2]
-I spent só long expanding
+I spent so long expanding
 pushing edges, filling rooms
 Smallness felt like failure
 like the dark side of the moons
@@ -2513,7 +2581,7 @@ the tree doesn't try to be the sky
 Small — and finally arriving
 small — no longer asking why
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only minimal felt-piano underneath in vast room]
 They arrive by being precisely
 what they are and nothing more
 Smallness is not the opposite of greatness
@@ -2524,8 +2592,16 @@ Small
 and finally
 enough`,
 
-  "incenso-corpo-celeste/9": `[Verse 1]
-Diziam que o peito e pequeno
+  "incenso-corpo-celeste/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: log drum sparse, gospel choir hum building, Hammond organ swells, bright shaker on the four, vocal whispered]
+cabe tudo...
+cabe tudo...
+
+[Verse 1: vocal close, breathy, expansive intimacy]
+Diziam que o peito é pequeno
 que só cabe o coração
 Mas eu abri o meu devagar
 e coube a criação
@@ -2562,7 +2638,8 @@ o que não tem tamanho nem fim
 Cabe tudo — sempre coube
 cabe tudo — dentro de mim
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, choir hums softly underneath]
+(European Portuguese, Portugal accent:)
 Não sou pequena demais
 para o que o mundo me pede
 Sou vasta por dentro
@@ -2575,7 +2652,15 @@ só não sabia
 que eu era
 o espaço`,
 
-  "incenso-corpo-celeste/10": `[Verse 1]
+  "incenso-corpo-celeste/10": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed on this track, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone in a silent mirrored room, no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: vocal close-mic in silent mirrored room, single piano note with long-tail reverb, no other instruments]
+mirror...
+mirror...
+
+[Verse 1: vocal raw, very close, almost spoken, breath audible, mirror silence]
 The bathroom light is merciless
 it shows me every year
 The skin beneath my eyes is thin
@@ -2613,7 +2698,7 @@ no shadow and no door
 Mirror, mirror
 show me what the dark is for
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only single long-tail piano note per phrase end, silent mirrored room]
 I used to flinch — look then leave
 adjust and walk away
 But now I stand until I see

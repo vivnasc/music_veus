@@ -6489,7 +6489,15 @@ Break through`,
   // BARRA CARREGADA (ginásio, ferro, força)
   // ─────────────────────────────────────────────
 
-  "fibra-barra-carregada/1": `[Verse 1]
+  "fibra-barra-carregada/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: muted house kick warming up, slow filter sweep opening, joint-click percussion, vocal whispered]
+aquecimento...
+aquecimento...
+
+[Verse 1: vocal close, body-waking phrasing]
 Os braços rodam devagar
 O pescoço estica e geme
 O corpo começa a acordar
@@ -6543,7 +6551,8 @@ Entre a vontade e a acção
 Ainda não é treino
 Mas já é caminho
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only muted kick and filter sweep]
+(European Portuguese, Portugal accent:)
 Não saltes o aquecimento
 Não saltes a preparação
 O corpo é um instrumento
@@ -6569,7 +6578,15 @@ Agora o ferro
 Agora o treino
 Agora eu`,
 
-  "fibra-barra-carregada/2": `[Verse 1]
+  "fibra-barra-carregada/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, fierce on choruses, slight rasp on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: heavy distorted bass drop, metallic synth stab on off-beat, iron-clang accent, vocal whispered]
+heavy...
+heavy...
+
+[Verse 1: vocal close, fierce intimacy, iron-as-teacher phrasing]
 The bar sits on the rack
 Unmoved, uncaring, cold
 It doesn't care I'm back
@@ -6625,7 +6642,7 @@ The weight that doesn't try
 To make me feel okay
 It just shows me the way
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only metallic stabs and heavy bass drop underneath]
 Iron never flatters
 Iron never cheats
 It only knows what matters
@@ -6653,7 +6670,15 @@ The truth about yourself
 Lives underneath
 The bar`,
 
-  "fibra-barra-carregada/3": `[Verse 1]
+  "fibra-barra-carregada/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, hypnotic counted-rep phrasing, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — intentionally repetitive), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: repetitive 4-note synth motif looping, driving bass, vocal whispered counting]
+repetição...
+repetição...
+
+[Verse 1: vocal close, rhythmic counted-rep delivery]
 Uma vez, outra vez, mais uma
 O corpo conta sem contar
 A dor é espuma
@@ -6708,7 +6733,8 @@ A disciplina de não morrer
 Uma e mais uma e mais
 Até o corpo dizer paz
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, looping motif continues underneath]
+(European Portuguese, Portugal accent:)
 Não é talento nem é dom
 É mostrar-se e repetir
 O segredo não é ser bom
@@ -6736,7 +6762,15 @@ Que se constrói
 Tudo o que importa
 Repetição`,
 
-  "fibra-barra-carregada/4": `[Verse 1]
+  "fibra-barra-carregada/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: mellow Rhodes piano with single mirror-glass synth shimmer at chorus, brushed drums, vocal whispered]
+mirror...
+mirror...
+
+[Verse 1: vocal close, honest self-reflection phrasing]
 The gym mirror doesn't blink
 It watches every rep
 And makes me pause and think
@@ -6791,7 +6825,7 @@ You show me my own hustle
 The sweat, the strain, the face
 Of someone finding grace
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only Rhodes and mirror-glass synth shimmer]
 The mirror isn't vanity
 When you're working for yourself
 It's a checkpoint for your sanity
@@ -6820,7 +6854,15 @@ Look at yourself
 You're building something
 Beautiful`,
 
-  "fibra-barra-carregada/5": `[Verse 1]
+  "fibra-barra-carregada/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, smooth funk falsetto-touch on the hook, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: funk wah-guitar groove with snappy claps on 2 and 4, rubbery bass, bright Rhodes pads, vocal whispered]
+suor...
+suor...
+
+[Verse 1: vocal close, smooth funk pocket, sweat-pouring phrasing]
 A primeira gota cai no banco
 A segunda cai no chão
 O suor não pede aplauso franco
@@ -6874,7 +6916,8 @@ Em transpirar o que me agrava
 O corpo liberta pela pele
 Tudo o que já não cabe nele
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only wah-guitar and rubbery bass underneath]
+(European Portuguese, Portugal accent:)
 Há coisas que o chuveiro
 Nunca vai conseguir lavar
 Mas o treino verdadeiro
@@ -6902,7 +6945,15 @@ E o suor
 Não mente
 Nunca mentiu`,
 
-  "fibra-barra-carregada/6": `[Verse 1]
+  "fibra-barra-carregada/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered airy harmonies stacking 3-to-5 voices on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: anthemic house build with soaring synth lead, sidechained kick entering gradually, vocal whispered]
+stronger...
+stronger...
+
+[Verse 1: vocal close, breathy, growing-stronger phrasing]
 The weight I lifted yesterday
 Today feels slightly light
 And in this subtle way
@@ -6956,7 +7007,7 @@ I face the world and what it brings
 The iron changed my spine
 And then it changed my mind
 
-[Bridge]
+[Bridge: vocal opens but never shouts, harmonies drop, only soaring synth lead underneath]
 Strength is not about the mirror
 Strength is not about the show
 Strength is knowing, getting clearer
@@ -6984,7 +7035,15 @@ Is just another word
 For showing up
 Again and again`,
 
-  "fibra-barra-carregada/7": `[Verse 1]
+  "fibra-barra-carregada/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, voice as small as possible (almost spoken), slight breathiness on sustained notes, sings very close to the microphone, no harmonies (this is a rest-day track), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: soft felt-piano, single warm pad swell, ambient room tone, breath audible, vocal whispered]
+descanso...
+descanso...
+
+[Verse 1: vocal whispered, very close, almost spoken, lying-down intimacy]
 Hoje o corpo fica quieto
 As pernas não vão ao ginásio
 O músculo cresce em segredo
@@ -7038,7 +7097,8 @@ Mas é parte do exercício
 O músculo repara
 Quando a mente pára
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only soft felt-piano and warm pad]
+(European Portuguese, Portugal accent:)
 O ferro ensina a puxar
 Mas o descanso ensina a soltar
 Saber quando parar
@@ -7067,7 +7127,15 @@ Só no esforço
 Constrói-se também
 No silêncio`,
 
-  "fibra-barra-carregada/8": `[Verse 1]
+  "fibra-barra-carregada/8": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered airy harmonies emerging on final chorus (3 voices building to 5), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: building anthem from solo voice, single bell ring at the moment of the PR, full orchestral swell on final chorus, vocal whispered]
+personal best...
+personal best...
+
+[Verse 1: vocal close, breathy, private-victory intimacy]
 A number on a screen
 That nobody will see
 A victory so clean
@@ -7124,7 +7192,7 @@ A private war I've won
 No trophy, no parade
 Just the progress that I've made
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only soft piano underneath, anticipation building]
 Nobody clapped, nobody saw
 Nobody knew what I had done
 But I broke through my ceiling floor
@@ -7152,7 +7220,15 @@ Because the only record
 Worth breaking
 Is your own`,
 
-  "fibra-barra-carregada/9": `[Verse 1]
+  "fibra-barra-carregada/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, fierce and devoted on this track, slight rasp on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: metallic synth on the four with heavy bass, single barbell-clang sample at chorus, vocal whispered]
+ferro e fé...
+ferro e fé...
+
+[Verse 1: vocal close, devoted phrasing, no excuses]
 A barra está carregada
 Os pés firmes no chão
 A desculpa foi cancelada
@@ -7207,7 +7283,8 @@ Só presença, só as tuas culpas
 Aparece ou não apareças
 Mas não venhas com promessas
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only metallic synth and heavy bass underneath]
+(European Portuguese, Portugal accent:)
 A consistência é o segredo
 Que o talento nunca entendeu
 Aparecer mesmo com medo
@@ -7236,7 +7313,15 @@ Mesmo quando custa
 Principalmente
 Quando custa`,
 
-  "fibra-barra-carregada/10": `[Verse 1]
+  "fibra-barra-carregada/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus (gospel feel), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: solo voice opens, gospel piano enters, log drum and house kick on the four, Hammond organ swells, bright shaker, vocal whispered]
+built...
+built...
+
+[Verse 1: vocal close, breathy, self-built intimacy]
 They said I wasn't built for this
 That strong was not my frame
 But every rep became a kiss
@@ -7291,7 +7376,7 @@ To understand I can
 Nobody gave me this
 I earned it, rep by rep and fist
 
-[Bridge]
+[Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
 Every strong person in the gym
 Was once weak and afraid
 The difference isn't luck or whim
