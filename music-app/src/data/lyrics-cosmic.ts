@@ -11,7 +11,15 @@ export const COSMIC_LYRICS: Record<string, string> = {
   // VIAGEM — O corpo como portal cósmico
   // ─────────────────────────────────────────────
 
-  "eter-viagem/1": `[Verse 1]
+  "eter-viagem/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, ethereal floating delivery on this track, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max), distant choir hum behind the chorus, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: deep ambient house pads, reverb-drenched piano single notes, distant choir hum, vocal whispered]
+volto a casa...
+volto a casa...
+
+[Verse 1: vocal whispered, very close, body-leaving intimacy]
 Fecho os olhos e o corpo fica
 Como roupa pousada na cadeira
 Algo em mim levanta sem peso
@@ -49,7 +57,8 @@ Ao sítio de onde vim
 E lá ninguém me pergunta nada
 Porque lá eu não tenho fim
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only ambient pads and reverb piano underneath]
+(European Portuguese, Portugal accent:)
 O corpo dorme mas eu viajo
 Para um lugar anterior ao medo
 Anterior ao nome, anterior à dor
@@ -61,7 +70,15 @@ E todas as manhãs esqueço
 Mas o corpo guarda a viagem
 Num calor que eu reconheço`,
 
-  "eter-viagem/2": `[Verse 1]
+  "eter-viagem/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, weightless floating delivery on this track, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: ambient synth layers floating, no drums anywhere, weightless arpeggio dissolving, vocal exhaled]
+weightless...
+weightless...
+
+[Verse 1: vocal whispered, very close, dissolving boundaries]
 The spine releases first
 Then the jaw
 Then the name I carry all day long
@@ -99,7 +116,7 @@ Before the word appears
 Weightless
 Like I was before the years
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only ambient synth layers underneath]
 This is not escape
 This is return
 The body is the boat
@@ -111,7 +128,15 @@ Not empty
 Full of everything
 That has no weight`,
 
-  "eter-viagem/3": `[Verse 1]
+  "eter-viagem/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: Mozambican nylon guitar with timbila wooden percussion, ancestral hum drone, vocal whispered]
+anterior...
+anterior...
+
+[Verse 1: vocal close, ancient and primal phrasing]
 Antes do meu nome houve silêncio
 Antes do silêncio houve um som
 Um tom tão grave que não se ouve
@@ -149,7 +174,8 @@ Que não tem rosto nem razão
 Anterior
 Anterior ao meu coração
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only ancestral hum drone underneath]
+(European Portuguese, Portugal accent:)
 Não preciso de me lembrar
 O corpo lembra por mim
 Cada célula sabe o caminho
@@ -160,7 +186,15 @@ Anterior
 Antes de tudo
 Eu já era`,
 
-  "eter-viagem/4": `[Verse 1]
+  "eter-viagem/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, yearning quality on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: elastic jazz upright bass with single high piano note pulling on phrase end, brushed drums, vocal whispered]
+the cord...
+the cord...
+
+[Verse 1: vocal close, yearning intimacy, smoky after-midnight feel]
 There is a thread I feel at night
 Thin as spider silk but sure
 It runs from somewhere near my navel
@@ -198,7 +232,7 @@ Past the clouds, past the cold
 But the cord remembers flesh
 And the flesh is growing old
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only Rhodes pad and elastic bass underneath]
 But maybe the cord is not a chain
 Maybe it's a kindness
 A hand that says come back
@@ -211,7 +245,15 @@ And I return
 Heavy with stars
 Hungry for bread`,
 
-  "eter-viagem/5": `[Verse 1]
+  "eter-viagem/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed on this track, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: subtle low drone, vocal close-mic in vast empty space, distant cello bow, vocal half-whispered]
+sem pele...
+sem pele...
+
+[Verse 1: vocal raw, very close, almost spoken, breath audible]
 Tirei a pele e não doeu
 Tirei o nome e não chorei
 Tirei o medo e o que ficou
@@ -249,7 +291,8 @@ Não começo onde a pele diz
 Sem pele eu sou o espaço
 Entre a ferida e a cicatriz
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, only low drone underneath]
+(European Portuguese, Portugal accent:)
 Não é perder-se
 É encontrar o tamanho real
 Que sempre foi maior
@@ -260,7 +303,15 @@ Sem pele
 Finalmente do tamanho
 Que sempre fui`,
 
-  "eter-viagem/6": `[Verse 1]
+  "eter-viagem/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: fingerpicked steel-string folk guitar with shimmering high-string starlight accents, vocal whispered]
+stardust...
+stardust...
+
+[Verse 1: vocal close, contemplative cosmic perspective]
 I read somewhere that iron in my blood
 Was forged inside a dying star
 That every atom in my hand
@@ -298,7 +349,7 @@ Assembled by accident and time
 Stardust
 Borrowing a body, pretending it's mine
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only fingerpicked guitar with starlight accents]
 This is not sad
 This is the most beautiful loan
 Every breath is borrowed light
@@ -310,7 +361,15 @@ Returning
 Stardust
 Always`,
 
-  "eter-viagem/7": `[Verse 1]
+  "eter-viagem/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: nylon bossa guitar with swelling tide-shaped pad and water field-recording, vocal whispered]
+a maré...
+a maré...
+
+[Verse 1: vocal whispered, very close, tidal phrasing]
 Há um oceano que não molha
 Que não se vê da janela
 Sobe de noite pelo peito acima
@@ -348,7 +407,8 @@ Sobe até ao olhar
 A maré de dentro é tudo
 O que eu não consigo falar
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only nylon guitar and water field-recording]
+(European Portuguese, Portugal accent:)
 O médico chama-lhe ansiedade
 O padre chama-lhe alma
 Eu chamo-lhe o mar que herdei
@@ -360,7 +420,15 @@ Eu deixo
 A maré desce
 Eu fico`,
 
-  "eter-viagem/8": `[Verse 1]
+  "eter-viagem/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, dramatic pulse on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: funk wah-guitar with rubbery bassline, snappy claps on 2 and 4, vocal whispered]
+eclipse...
+eclipse...
+
+[Verse 1: vocal close, dramatic intimacy, light-and-shadow phrasing]
 When the moon slides between
 The sun and my ordinary Tuesday
 Something ancient in the blood
@@ -403,7 +471,7 @@ Eclipse
 The most honest I have ever been
 Is when both halves collide
 
-[Bridge]
+[Bridge: vocal close, sudden silence — only voice and a single piano note, no rhythm]
 Two minutes of totality
 Is all the truth requires
 Two minutes with the mask removed
@@ -416,7 +484,15 @@ True
 Gone
 But you saw me`,
 
-  "eter-viagem/9": `[Verse 1]
+  "eter-viagem/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, vocal hum drone underneath the words, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: deep sub bass pulse, talking-drum rhythm, shaker on the off-beat, vocal whispered with hum]
+frequência...
+frequência...
+
+[Verse 1: vocal close, resonant cosmic intimacy, hum drone underneath]
 Há uma nota que o universo toca
 Desde o princípio sem parar
 Grave demais para os ouvidos
@@ -454,7 +530,8 @@ Anterior à música, anterior à voz
 Frequência
 O som que eu era antes de nós
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, hum drone present, no harmonies]
+(European Portuguese, Portugal accent:)
 A ciência chama-lhe radiação cósmica
 O corpo chama-lhe arrepio
 A alma chama-lhe reconhecimento
@@ -467,7 +544,15 @@ Eu é que andava
 Com demasiado ruído
 Para ouvir`,
 
-  "eter-viagem/10": `[Verse 1]
+  "eter-viagem/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: solo voice opens, gospel piano enters, log drum and bright shaker, Hammond organ swells, vocal whispered]
+home...
+home...
+
+[Verse 1: vocal close, breathy, settled intimacy]
 Home is not the door I lock
 Or the window I look through
 Home is not the street I know
@@ -505,7 +590,7 @@ And the eyes close
 Home is not a place
 Home is what remains
 
-[Bridge]
+[Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
 The address changes
 The walls change
 The view changes

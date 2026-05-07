@@ -665,19 +665,27 @@ Cada tremor é uma canção`,
   // ESPELHO DA CULPA (Véu 3 — guilt for wanting more)
   // ─────────────────────────────────────────────
 
-  "espelho-culpa/1": `[Verse 1]
+  "espelho-culpa/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, raw and exposed, slight rasp on sustained notes, sings very close to the microphone, no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: low piano drone with metronome-like synth pulse on off-beat, vocal half-whispered]
+essa voz...
+essa voz...
+
+[Verse 1: vocal raw, very close, almost spoken, breath audible]
 Há uma voz que mora entre os ossos
 Que acorda antes de mim de manhã
 Diz levanta-te, não descansas
 Diz que a tua paz é uma mentira estranha
 
-[Verse 2]
+[Verse 2: same raw intimacy, slight rasp]
 Sento-me a ler e ela sussurra
 Devias estar a fazer mais
 Deito-me a olhar para o tecto
 E ela conta-me os pecados mortais
 
-[Chorus]
+[Chorus: voice opens slightly, still no harmonies, low piano drone steady]
 Essa voz, essa voz
 Tem a boca da minha mãe
 Tem os olhos do padre
@@ -687,44 +695,53 @@ Eu aprendi a repeti-la
 Até esquecer que a garganta
 Tinha outra voz, mais tranquila
 
-[Verse 3]
+[Verse 3: back to raw whisper]
 O sol entra pela janela
 E a voz diz que não o mereço
 A chuva cai no meu cabelo
 E a voz diz que o prazer tem preço
 
-[Chorus]
+[Chorus: voice slightly fuller, pulse audible underneath]
 Essa voz, essa voz
 Tem a boca da minha mãe
 Tem os olhos do padre
 Tem o peso da fé
 Mas não é minha, não é minha
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, drone alone]
+(European Portuguese, Portugal accent:)
 A voz cala-se quando eu caminho
 Para o jardim com os pés descalços
 Cala-se quando o corpo decide
 Que a manhã não precisa de mais passos
 
-[Outro]
+[Outro: vocal exhaled, fading, last word spoken]
 Hoje a voz falou
 E eu deixei-a falar
 Mas os meus pés
-Levaram-me ao jardim na mesma`,
+Levaram-me ao jardim na mesma...`,
 
-  "espelho-culpa/2": `[Verse 1]
+  "espelho-culpa/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: weighted cello descending sigh, slow strings, vocal half-whispered]
+sweet martyr...
+sweet martyr...
+
+[Verse 1: vocal close, weighted, slight rasp on long vowels]
 She pours herself like Sunday wine
 Into every cup but her own
 She calls it grace, she calls it kind
 She calls it love but it's a loan
 
-[Verse 2]
+[Verse 2: same intimacy, breath audible]
 Her hands are always full of others
 Her back is bent from bowing low
 The world applauds her golden giving
 While she bleeds beneath the show
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, weighted muted kick, cello sighs between phrases]
 Oh, sweet martyr in the mirror
 With your halo and your chains
 Who told you love was disappearing
@@ -734,43 +751,51 @@ You smile and smile until you break
 But darling, who will hold the woman
 When the woman is the one who shakes
 
-[Verse 3]
+[Verse 3: back to verse intimacy, harmonies drop]
 She learned to vanish into kindness
 To fold herself into the need
 To make herself so very useful
 She forgot she was a seed
 
-[Chorus]
+[Chorus: full harmonies, weighted bass, cello underneath]
 Oh, sweet martyr in the mirror
 With your halo and your chains
 Who told you love was disappearing
 Who told you virtue was the pain
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only cello sighing underneath]
 There's a girl beneath the giving
 With her own cup gathering dust
 She forgot she was allowed to drink
 She forgot that thirst was not a must
 
-[Outro]
+[Outro: vocal soft, fading, last line spoken]
 Love should not cost you
 Everything you are
 Love should leave you fuller
-Not an empty jar`,
+not an empty jar...`,
 
-  "espelho-culpa/3": `[Verse 1]
+  "espelho-culpa/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, rhythmic phrasing on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: staccato piano right hand (duty), legato piano left hand (joy), vocal whispered]
+alívio...
+ou alegria...
+
+[Verse 1: vocal close, conversational, slightly questioning]
 Acabei a lista e suspirei
 Deitei-me na cama e fechei os olhos
 Disse a mim mesma já está feito
 Mas o peito ainda tinha espelhos
 
-[Verse 2]
+[Verse 2: same phrasing, breath audible, two piano lines compete underneath]
 O alívio sabe a água morna
 A alegria sabe a fruta do quintal
 Um é o fim de uma obrigação
 O outro é o princípio de um festival
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, four-on-the-floor kick joins, momentum builds]
 Eu confundi durante anos
 O descanso com a felicidade
 O dever cumprido com o desejo
@@ -780,8 +805,7 @@ Que não vem do fim de uma tarefa
 Vem do fundo, vem da barriga
 Vem do lugar onde a vida é festa
 
-
-[Chorus]
+[Chorus: full harmonies, legato piano line takes over the right hand, joyous]
 Eu confundi durante anos
 O descanso com a felicidade
 O dever cumprido com o desejo
@@ -791,31 +815,40 @@ Que não vem do fim de uma tarefa
 Vem do fundo, vem da barriga
 Vem do lugar onde a vida é festa
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only legato piano underneath]
+(European Portuguese, Portugal accent:)
 Não quero só o suspiro do fim
 Quero o arrepio do inicio
 Não quero só o alívio
 Quero a dança, o salto, o precipício
 
-[Outro]
+[Outro: vocal soft, lighter, last line smiling]
 Hoje acordei e não fiz a lista
 Fiz o que o corpo me pediu
 E pela primeira vez em anos
-A manhã inteira me sorriu`,
+a manhã inteira me sorriu...`,
 
-  "espelho-culpa/4": `[Verse 1]
+  "espelho-culpa/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: distant ancestral hum drone, single nylon guitar pluck per bar like a clock pendulum, vocal whispered]
+herança...
+herança...
+
+[Verse 1: vocal whispered, very close, ancestral and weighted]
 A minha avó lavava roupa no rio
 Com as mãos rachadas e o ventre cheio
 Nunca disse quero, nunca disse eu
 Morreu com os sonhos ainda no seio
 
-[Verse 2]
+[Verse 2: same intimacy, breath audible, drone heavier]
 A minha mãe herdou o silêncio
 Vestiu-o como vestido de domingo
 Disse sim quando queria gritar
 E chamou-lhe amor, chamou-lhe abrigo
 
-[Chorus]
+[Chorus: 3-voice low harmonies enter underneath, no kick, weight slowly lifting]
 E eu carrego esta pedra que não é minha
 De mãe para filha, de filha para neta
 Esta culpa antiga como a chuva
@@ -825,44 +858,54 @@ De dizer não quando ninguém dizia
 De viver alto, de sonhar longe
 De escolher a minha própria via
 
-[Verse 3]
+[Verse 3: back to whisper, harmonies drop, drone lightens]
 Posso amar a minha mãe de joelhos
 E mesmo assim caminhar para a frente
 Posso honrar as mãos da minha avó
 E ter as minhas mãos livres e quentes
 
-[Chorus]
+[Chorus: harmonies return slightly fuller, texture lighter than first chorus]
 E eu carrego esta pedra que não é minha
 De mãe para filha, de filha para neta
 Esta culpa antiga como a chuva
 De querer mais do que a vida nos deixa
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, no harmonies, only nylon guitar pluck]
+(European Portuguese, Portugal accent:)
 Avó, perdoa-me por querer o sol
 Mãe, perdoa-me por dizer que não
 Não é traição ao vosso sangue
 É a flor que nasce da mesma raiz no chão
 
-[Outro]
+[Outro: vocal exhaled, drone fading, last line spoken]
 Pouso a pedra no chão
 Com as duas mãos
 Não é traição
 É o fim de uma corrente
-É o começo de uma canção`,
+é o começo de uma canção...`,
 
-  "espelho-culpa/5": `[Verse 1]
+  "espelho-culpa/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing harmonies on final chorus only (3 to 5 voices), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: warm sustained string ensemble, ascending bass-note pedal climbs slowly, vocal whispered]
+deserve...
+deserve...
+
+[Verse 1: vocal close, breathy, slightly bruised]
 I earned my breakfast with obedience
 I earned my bed by being small
 I earned my mother's tired approval
 By never asking much at all
 
-[Verse 2]
+[Verse 2: same intimacy, voice begins to lift, kick joins on second half]
 I grew into a woman earning
 Every sunrise, every meal
 As if the sky would ask for payment
 As if the rain would make me kneel
 
-[Chorus]
+[Pre-Chorus / lift: voice opens, anticipation builds]
+[Chorus: 3-voice harmonies enter, building drums, ascending bass pedal climbs]
 But the birds don't earn the morning
 And the river doesn't pay for rain
 The wildflower grows without permission
@@ -872,43 +915,57 @@ That my breath must have a price
 That my rest must be a trophy
 And my joy must be earned twice
 
-[Verse 3]
+[Verse 3: voice back to breathy intimacy, harmonies drop, drums soften]
 The child I was would laugh at all this
 She'd roll in grass without a thought
 She never asked if she was worthy
 She simply was, and that was all she brought
 
-[Chorus]
+[Chorus: full harmonies, climbing bass pedal, full kit]
 But the birds don't earn the morning
 And the river doesn't pay for rain
 The wildflower grows without permission
 And still the sun comes back again
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only string ensemble underneath]
 The child inside me rolls in grass
 She doesn't ask if she may stay
 She fills her lungs with summer air
 And never thinks to earn the day
 
-[Outro]
+[Final Chorus: 5-voice female backing harmonies layered, peak energy, climax]
+But the birds don't earn the morning
+And the river doesn't pay for rain
+The wildflower grows without permission
+And still the sun comes back again
+
+[Outro: vocal soft, strings sustain, last word whispered]
 I deserve the light
 Not because I've earned my stay
 But because I'm here
-And here was never mine to pay`,
+and here was never mine to pay...`,
 
-  "espelho-culpa/6": `[Verse 1]
+  "espelho-culpa/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: descending piano arpeggio resolving to low resonant note that lingers, vocal whispered]
+pousar...
+pousar...
+
+[Verse 1: vocal close, tired and honest]
 Carreguei tanto nas costas
 Que já não sei onde acabo eu
 E onde começa o fardo
 O corpo curvou, a alma desceu
 
-[Verse 2]
+[Verse 2: same intimacy, breath audible, descending piano underneath]
 As mãos fechadas há tantos anos
 Que os dedos esqueceram como abrir
 A pele colou-se ao peso
 Como se largar fosse morrir
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, walking brushed drums, fretless bass joins]
 Mas eu abro as mãos devagar
 E deixo cair no chão
 Tudo o que nunca foi meu
@@ -918,8 +975,7 @@ O ar entra nos pulmões
 E o espaço que aparece
 Tem o tamanho de mil perdões
 
-
-[Chorus]
+[Chorus: full harmonies, bird-like synth textures appear softly]
 Mas eu abro as mãos devagar
 E deixo cair no chão
 Tudo o que nunca foi meu
@@ -929,31 +985,40 @@ O ar entra nos pulmões
 E o espaço que aparece
 Tem o tamanho de mil perdões
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, descending piano alone]
+(European Portuguese, Portugal accent:)
 Pousar não é abandonar
 É dar ao corpo o que lhe pertence
 É dizer aos ombros cansados
 Podem descansar, não há urgência
 
-[Outro]
+[Outro: vocal exhaled, fading, each line lighter than the last]
 Pousei
 E o mundo não caiu
 Pousei
-E eu nasci`,
+e eu nasci...`,
 
-  "espelho-culpa/7": `[Verse 1]
+  "espelho-culpa/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, very soft and tender on this track, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: warm felt-piano with single soft bell on each phrase ending, vocal whispered]
+ternura...
+ternura...
+
+[Verse 1: vocal whispered, very close, hand-over-heart tenderness]
 Não preciso de me partir ao meio
 Para ver o que trago cá dentro
 Não preciso de sangue nem de castigo
 Basta um espelho e um momento
 
-[Verse 2]
+[Verse 2: same tenderness, breath audible, felt-piano alone]
 A culpa ensinou-me a ser dura
 Comigo mesma, sempre comigo
 Mas hoje troco o chicote
 Por um colo, por um abrigo
 
-[Chorus]
+[Chorus: 3-voice airy harmonies enter, soft pad bed, no drums yet, single bell on each phrase ending]
 Ternura, ternura
 A força que ninguém me ensinou
 Olhar para as minhas feridas
@@ -963,8 +1028,7 @@ A mão que eu nunca tive
 Agora nasce dos meus dedos
 E toca-me como quem vive
 
-
-[Chorus]
+[Chorus: harmonies fuller, voice softer not louder, soft pad blooms]
 Ternura, ternura
 A força que ninguém me ensinou
 Olhar para as minhas feridas
@@ -974,19 +1038,26 @@ A mão que eu nunca tive
 Agora nasce dos meus dedos
 E toca-me como quem vive
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, no harmonies, only felt-piano underneath]
+(European Portuguese, Portugal accent:)
 Há uma força que não grita
 Que não parte, que não dói
 Que chega de mansinho como a brisa
 E cura tudo o que a raiva não curou
 
-[Outro]
+[Final Chorus: harmonies layered fuller, brushed snare appears softly on the off-beat, peak warmth not volume]
+Ternura, ternura
+A força que ninguém me ensinou
+Olhar para as minhas feridas
+Como quem rega uma flor
+
+[Outro: vocal exhaled, hand on chest, last line spoken intimately]
 Ponho a mão no peito
 E digo baixinho
 Estou aqui
 Estou contigo
 E chega, e chega
-Es mais do que suficiente`,
+és mais do que suficiente...`,
 
   // ─────────────────────────────────────────────
   // ESPELHO DA IDENTIDADE (Véu 4 — not knowing who you are)
@@ -1661,7 +1732,15 @@ Só a respirar`,
   // ESPELHO DO DESEJO (Véu 6 — desiring everything except what you need)
   // ─────────────────────────────────────────────
 
-  "espelho-desejo/1": `[Verse 1]
+  "espelho-desejo/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: fragmented arpeggio with off-beat synth stab, restless filtered hi-hat, vocal whispered]
+barulho bonito...
+barulho bonito...
+
+[Verse 1: vocal close, scattered phrasing, busy intimacy]
 Mais um curso, mais um plano
 Mais um livro, mais um jantar
 Preencho os dias como quem pinta
@@ -1694,7 +1773,8 @@ Barulho bonito para não ouvir
 O que mora lá no fundo
 O que tem medo de existir
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, all rhythm drops away — only voice and a single pad note]
+(European Portuguese, Portugal accent:)
 E se eu ficasse quieta um minuto
 E se eu deixasse o vazio falar
 E se o vazio não fosse o inimigo
@@ -1708,7 +1788,15 @@ Cantou-me uma canção
 Tão bonita
 Que chorei`,
 
-  "espelho-desejo/2": `[Verse 1]
+  "espelho-desejo/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed on this track, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: solo vocal opens, single longing-shaped string ensemble bow, deep pad bed, vocal half-whispered]
+what's missing...
+what's missing...
+
+[Verse 1: vocal raw, very close, almost spoken, breath audible]
 I bought the dress, I felt the glow
 It lasted from the shop to home
 I booked the flight, I packed the bag
@@ -1728,7 +1816,7 @@ Or any holiday or frame
 It's sitting in the corner
 Of the room I never clean
 The quietest, hungriest, truest thing
-I'vê ever dared not see
+I've ever dared not see
 Oh, what's missing, what's missing
 
 
@@ -1740,10 +1828,10 @@ Or any holiday or frame
 It's sitting in the corner
 Of the room I never clean
 The quietest, hungriest, truest thing
-I'vê ever dared not see
+I've ever dared not see
 Oh, what's missing, what's missing
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only deep pad and single longing string bow underneath]
 What if I stopped the search
 And sat down in the ache
 What if the empty was the answer
@@ -1752,10 +1840,18 @@ Not the problem, not the mistake
 [Outro]
 What's missing
 Is right here
-In the silence I'vê been running from
+In the silence I've been running from
 For years and years and years`,
 
-  "espelho-desejo/3": `[Verse 1]
+  "espelho-desejo/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, contained and small on this track, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: muted upright piano with single small-bell touch, contained vocal, vocal whispered]
+mais pequena...
+mais pequena...
+
+[Verse 1: vocal whispered, contained, almost ashamed phrasing]
 Encolhi o sonho para caber na sala
 Encolhi a voz para caber no jantar
 Encolhi o corpo para não incomodar
@@ -1788,7 +1884,8 @@ Mais invisível não, nunca mais
 O meu tamanho real é um segredo
 Que o mundo ainda não viu, mas vai
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal opens (still no shout), no harmonies, only muted piano underneath]
+(European Portuguese, Portugal accent:)
 A menina que encolheram
 Tem o tamanho de um oceano
 Tem a força de uma mare
@@ -1802,8 +1899,16 @@ Que ninguém consegue arrancar
 Bonita, selvagem
 E minha`,
 
-  "espelho-desejo/4": `[Verse 1]
-Desliguei tudo é fiquei
+  "espelho-desejo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: long opening silence then a single piano note emerges gradually, vocal whispered]
+a hora vazia...
+a hora vazia...
+
+[Verse 1: vocal close, slow walking phrasing, sitting with nothing]
+Desliguei tudo e fiquei
 Com o tecto e com o chão
 Com o tic-tac do relógio
 E as minhas mãos sem ocupação
@@ -1835,7 +1940,8 @@ Um cheiro de jasmim e de quintal
 Uma menina a correr descalca
 Com um riso de animal
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only piano emerging]
+(European Portuguese, Portugal accent:)
 Na hora vazia o desejo fala
 Não pede coisas, não pede pressa
 Pede só que eu fique quieta
@@ -1849,7 +1955,15 @@ A minha mão sobre o meu ventre
 É a certeza de que estou cheia
 De tudo o que importa`,
 
-  "espelho-desejo/5": `[Verse 1]
+  "espelho-desejo/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed on this track, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: descending piano melody starting full, soft cello, vocal half-whispered]
+empty...
+empty...
+
+[Verse 1: vocal raw, very close, almost spoken, breath audible]
 I filled my house with pretty things
 My calendar with golden dates
 I wore the smile, I played the part
@@ -1882,7 +1996,7 @@ Let me stand in nothing for a while
 Let me learn to love the empty page
 Before I try to fill it with a smile
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only single piano note remaining — voice essentially alone]
 Empty isn't broken
 Empty isn't wrong
 Empty is the deepest breath
@@ -1895,7 +2009,15 @@ The cupboards are bare
 And I am free
 Beautifully, terrifyingly free`,
 
-  "espelho-desejo/6": `[Verse 1]
+  "espelho-desejo/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered airy harmonies emerging on choruses (3 voices building to 5 on final chorus), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: rich warm synth pad solo, vocal whispered, ascending bass pedal beginning to climb]
+desejo verdadeiro...
+desejo verdadeiro...
+
+[Verse 1: vocal close, breathy, declarative intimacy]
 Debaixo dos sonhos que me emprestaram
 Debaixo do quero que nunca foi meu
 Há um desejo que vem de tão fundo
@@ -1928,7 +2050,8 @@ Que nunca ninguém mandou bater
 É meu, o único desejo
 Que não tenho de aprender
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, ascending bass pedal continues climbing]
+(European Portuguese, Portugal accent:)
 Não é o que eu devia querer
 Não é o que ficava bem na foto
 É o que me faz tremer por dentro
@@ -1941,7 +2064,15 @@ Quente, vivo, meu
 Como um fogo que ninguém acendeu
 Mas que arde, arde, arde`,
 
-  "espelho-desejo/7": `[Verse 1]
+  "espelho-desejo/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, voice floating in long-tail reverb, layered airy harmonies emerging only on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: vast soundscape with open harmonic chord, voice in long-tail reverb, vocal whispered]
+espaço...
+espaço...
+
+[Verse 1: vocal whispered, very close, vast spacious phrasing]
 O vazio que eu fugia
 Era um campo de trigo ao sol
 O nada que eu temia
@@ -1974,7 +2105,8 @@ O vazio é onde tudo nasce
 Onde a semente encontra terra
 Onde o amor encontra a face
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only open harmonic chord underneath]
+(European Portuguese, Portugal accent:)
 A pausa entre duas notas
 É a música mais bonita
 O branco entre as palavras

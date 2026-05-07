@@ -11,7 +11,15 @@ export const NO_LYRICS: Record<string, string> = {
   // O silêncio herdado entre mãe e filha
   // ─────────────────────────────────────────────
 
-  "no-heranca/1": `[Verse 1]
+  "no-heranca/1": `[Vocal: ONE warm mezzo-contralto female voice (Loranne as the mother), intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: warm cello-synth with maternal humming layer, distant lullaby piano motif, vocal whispered]
+eu vi-te...
+eu vi-te...
+
+[Verse 1: vocal whispered, very close, maternal aching intimacy]
 Eu vi-te antes de te veres ao espelho
 Descalca pelo corredor a correr sem chão
 Tinhas nós olhos uma tempestade antiga
@@ -36,7 +44,8 @@ Coseu o céu para não te molhar
 Porque dizer era partir-te em dois pedacos
 E eu preferi calar a te partir ao luar
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only cello-synth and humming underneath]
+(European Portuguese, Portugal accent:)
 Filha, eu vi cada máscara de vidro
 Cada sorriso feito para agradar
 Cada vez que disseste estou bem
@@ -49,7 +58,15 @@ E agora que acordas
 Posso finalmente
 Soltar o ar`,
 
-  "no-heranca/2": `[Verse 1]
+  "no-heranca/2": `[Vocal: ONE warm mezzo-contralto female voice (Loranne as the mother), intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: sustained warm pad with patient unresolved piano arpeggio, slow walking brushed drums, vocal whispered]
+years of waiting...
+years of waiting...
+
+[Verse 1: vocal close, patient maternal phrasing, aching warmth]
 I watched you wear a coat that wasn't yours
 Smiling at a mirror cracked with borrowed light
 I wanted to reach across the kitchen table
@@ -74,7 +91,7 @@ Years I kept the storm from breaking through
 I wore the silence like a wedding dress
 Waiting for the dawn to come from you
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only sustained pad and patient piano underneath]
 How do you tell the moon she isn't shining
 That the glow she wears belongs to someone else
 That the coat she stitched from others' patterns
@@ -86,7 +103,15 @@ Not from weakness
 But because the waking
 Had to bloom from you`,
 
-  "no-heranca/3": `[Verse 1]
+  "no-heranca/3": `[Vocal: TWO warm female voices in dialogue — ONE warm mezzo-contralto (Loranne as the daughter, lead) + ONE older-toned warm contralto (the mother, second voice). Both intimate and close to the microphone, slight rasp on sustained notes, raw and exposed, no harmonies stacked on top of each other (this is dialogue, not chorus harmony — the voices answer each other phrase by phrase). No melisma, no belting, no riffs, no autotune. NO male vocal anywhere on this track]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: fingerpicked folk guitar with long breath gaps, vocal whispered female lead]
+duas mulheres...
+duas mulheres...
+
+[Verse 1: daughter (Loranne) close, raw, breath audible — mother answering phrase by phrase]
 Duas mulheres numa cozinha em brasa
 O vapor sobe e o silêncio também
 Tu sentas-te no lugar que sempre foi teu
@@ -111,7 +136,8 @@ O espelho partido entre as duas mãos
 Tu es o rio que eu nunca atravessei
 Eu sou a margem que ficou em vão
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — both female voices close, almost spoken, only fingerpicked guitar underneath]
+(European Portuguese, Portugal accent:)
 Não preciso que me protejas mais
 Não precisas que eu te perdoe
 Basta olharmo-nós sem o vidro
@@ -123,7 +149,15 @@ Finalmente juntas
 Sem véu no rosto
 Sem guião na boca`,
 
-  "no-heranca/4": `[Verse 1]
+  "no-heranca/4": `[Vocal: TWO warm female voices trading lines — ONE warm mezzo-contralto (Loranne as the daughter, lead) + ONE older-toned warm contralto (the mother, second voice). Cathartic and urgent on this track, both close to the microphone. Layered airy harmonies between the two voices on the chorus (parallel thirds, NOT stacked). No melisma, no belting, no riffs, no autotune. NO male vocal anywhere on this track]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: 8-bar silence then sudden driving four-on-the-floor kick, deep house bass enters, vocal whispered]
+o que nunca foi dito...
+o que nunca foi dito...
+
+[Verse 1: daughter close, words used as rhythmic stabs over the groove, mother answering]
 Guardei palavras como quem guarda porcelana
 Atrás do vidro onde ninguém podia tocar
 Cada frase que engoli virou raiz amarga
@@ -148,7 +182,8 @@ Cresceu entre nós dois como hera na parede
 Subiu pelo reboco desta casa inteira
 E agora já transborda e não se prende
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — both female voices in close harmony, kick drops out, only deep house bass underneath]
+(European Portuguese, Portugal accent:)
 E se dissermos agora, sem ensaio
 O que calamos durante a vida inteira
 Uma tarde pode ser o bastante
@@ -162,7 +197,15 @@ São sementes
 Que abrem o que ficou fechado
 Entre nós duas`,
 
-  "no-heranca/5": `[Verse 1]
+  "no-heranca/5": `[Vocal: TWO warm female voices in powerful harmony — ONE warm mezzo-contralto (Loranne as the daughter, lead) + ONE older-toned warm contralto (the mother, second voice). Layered female backing choir building from 3 to 6 voices on final chorus (gospel feel). Triumphant but never shouted. No melisma, no belting, no riffs, no autotune. NO male vocal anywhere on this track]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: log drum and bright shaker, gospel choir hum building, Hammond organ swells, vocal whispered both voices]
+desatar...
+desatar...
+
+[Verse 1: daughter close, then mother answering, both intimate, log drum sparse]
 O fio que nós prendia era de seda e nevoeiro
 Feito de silêncio é de boas intencoes
 Apertava sem doer, segurava sem se ver
@@ -187,7 +230,8 @@ Desatar e dar ao fio espaço e ar
 O no que nós unia era o mesmo no
 Que nós impedia de nós encontrar
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — both female voices in close harmony, choir hums softly underneath]
+(European Portuguese, Portugal accent:)
 O no que cai entre mãe e filha
 Não é um corte — é uma flor que se abre
 O fio continua entre as duas

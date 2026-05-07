@@ -10,7 +10,15 @@ export const FASE1_LYRICS: Record<string, string> = {
   // CORPO ABERTO (yoga, corpo que flui)
   // ─────────────────────────────────────────────
 
-  "fibra-corpo-aberto/1": `[Verse 1]
+  "fibra-corpo-aberto/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: piano breath-paced motif, vocal exhaled whisper]
+respira...
+respira...
+
+[Verse 1: vocal whispered, very close, almost spoken]
 O ar entra devagar
 Como se pedisse licença ao corpo
 O peito abre sem forçar
@@ -20,7 +28,7 @@ Num ritmo que eu não escolhi
 Algo antigo me aquece
 Antes de eu saber que estou aqui
 
-[Verse 2]
+[Verse 2: same intimacy, slight rasp on sustained vowels]
 Os olhos fecham sozinhos
 O mundo pára lá fora
 Os pensamentos são vizinhos
@@ -30,13 +38,13 @@ Nem de abrir nem de fingir
 Só preciso de me deter
 Neste gesto de existir
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens slightly, breath audible]
 Um pé de cada vez no chão
 O ar sabe o que fazer
 Não peças à mente a direcção
 Deixa o corpo conduzir
 
-[Chorus]
+[Chorus: 3-voice airy harmony enters, sub bass joins, no kick]
 Respira, só respira
 O ar conhece o caminho inteiro
 Respira, não tem pressa
@@ -46,7 +54,7 @@ Onde está a calma verdadeira
 Respira, e descobre aqui
 Que a paz mora na costela e na cadeira
 
-[Verse 3]
+[Verse 3: back to whisper, harmonies drop out]
 As mãos poisam no ventre
 O ritmo nasce de dentro
 Cada inspiração me sente
@@ -56,7 +64,7 @@ De voltar para ser pleno
 A vida toda é feita desta brisa
 E deste sopro pequeno
 
-[Chorus]
+[Chorus: full harmonies, brushed shaker on the off-beat]
 Respira, só respira
 O ar conhece o caminho inteiro
 Respira, não tem pressa
@@ -64,7 +72,8 @@ Não há erro, não há primeiro
 O corpo sabe antes de ti
 Onde está a calma verdadeira
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, intimate, no harmonies]
+(European Portuguese, Portugal accent:)
 Inspira o que te falta
 Expira o que não és
 A calma não se salta
@@ -74,22 +83,30 @@ Cada silêncio entre dois ares
 É o mais honesto dos endereços
 Para quem quer chegar sem pares
 
-[Chorus]
+[Chorus: harmonies layered fuller, voice softer not louder]
 Respira, só respira
 O ar conhece o caminho
 Respira, não tem pressa
 Estás aqui, e isso é lindo
 
-[Outro]
+[Outro: vocal exhaled, fading, last word spoken not sung]
 Inspira — o mundo entra
 Expira — o mundo sai
 E entre os dois respira
 Tudo o que de ti não vai
 Estás aqui
 Sempre estiveste
-Respira`,
+respira...`,
 
-  "fibra-corpo-aberto/2": `[Verse 1]
+  "fibra-corpo-aberto/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: felt-mallet vibraphone glissando rising, vocal exhaled whisper]
+stretch...
+stretch...
+
+[Verse 1: vocal whispered, very close, almost spoken]
 The shoulders hold a story
 Of everything unsaid
 A library of worry
@@ -99,7 +116,7 @@ The jaw recalls the bite
 The body is a document
 Of every sleepless night
 
-[Verse 2]
+[Verse 2: same intimacy, slight rasp on sustained notes]
 But slowly, something opens
 A door that had no key
 The muscle that was frozen
@@ -109,13 +126,13 @@ Just a gentle leaning in
 The stretch becomes a silence
 That lets the healing begin
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens, breath audible between phrases]
 One inch at a time
 The body starts to speak
 Not in words or rhyme
 But in the way the tight things creak
 
-[Chorus]
+[Chorus: 3-voice airy harmony enters, soft Rhodes joins, no kick]
 Stretch into the morning
 Stretch into the light
 The body has been warning
@@ -125,7 +142,7 @@ Is a wall you didn't know you'd built
 Stretch — and feel the bond
 Between the pain you held and what you've spilt
 
-[Verse 3]
+[Verse 3: back to whisper, harmonies drop out]
 The fingertips are reaching
 For something they can't name
 The edges keep on teaching
@@ -135,7 +152,7 @@ The calves refuse to give
 But somewhere in between I found
 That this is how I learn to live
 
-[Chorus]
+[Chorus: full harmonies, brushed snare on off-beat]
 Stretch into the morning
 Stretch into the light
 The body has been warning
@@ -143,7 +160,7 @@ It's time to feel alright
 Every edge you reach beyond
 Is a wall you didn't know you'd built
 
-[Bridge]
+[Bridge: vocal close, intimate, no harmonies, vibraphone alone underneath]
 Every inch that opens
 Is a year that falls away
 Every muscle softly spoken
@@ -153,22 +170,30 @@ You just need to try and reach
 The change is never drastic
 The body moves to teach
 
-[Chorus]
+[Chorus: harmonies layered fuller, voice softer not louder]
 Stretch into the morning
 Stretch into the light
 The body has a warning
 And it sounds like feeling right
 
-[Outro]
+[Outro: vocal exhaled, fading, last word spoken not sung]
 Reach a little further
 Not to break — to breathe
 You're not almost there
 You're already here
 You've always been
 Just stretch
-And see`,
+and see...`,
 
-  "fibra-corpo-aberto/3": `[Verse 1]
+  "fibra-corpo-aberto/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: nylon bossa guitar with pendulum off-beat shaker, vocal whispered]
+equilíbrio...
+equilíbrio...
+
+[Verse 1: vocal close, poised, conversational]
 Um pé no chão, o outro no ar
 O corpo oscila e não cai
 Há um centro que não sei nomear
@@ -178,7 +203,7 @@ Não é força, não é vontade
 Uma espécie de verdade
 Que mora entre o joelho e o calcanhar dele
 
-[Verse 2]
+[Verse 2: same poise, slight rasp on sustained vowels]
 A árvore não luta contra o vento
 Dobra-se e volta a ficar
 O equilíbrio não é um momento
@@ -188,13 +213,13 @@ O olhar fixa um ponto qualquer
 E o corpo inteiro descobre
 Que cair faz parte de quem quer
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens, breath audible]
 Não procures a linha recta
 Procura o pêndulo gentil
 A vida nunca foi perfeita
 Mas pode ser um fio subtil
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, brushed kit joins]
 Encontra o centro
 Onde tudo é calmo e verdadeiro
 Encontra o centro
@@ -204,7 +229,7 @@ E o que puxa para o chão
 Há um lugar sem rima
 Que é a tua definição
 
-[Verse 3]
+[Verse 3: back to verse intimacy, harmonies drop]
 As ondas vêm e as ondas vão
 O corpo aprende a balançar
 O equilíbrio é uma canção
@@ -214,13 +239,14 @@ E o joelho treme e o pé escorrega
 Rio-me, porque a lição
 É que o centro volta sempre — nunca nega
 
-[Chorus]
+[Chorus: full harmonies, brushed kit steady]
 Encontra o centro
 Onde tudo é calmo e verdadeiro
 Encontra o centro
 Não no fim, não no começo — no inteiro
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only nylon guitar]
+(European Portuguese, Portugal accent:)
 Não é ficar parado
 É mover-se sem medo
 O centro não é um lado
@@ -229,22 +255,30 @@ Entre o sim e o talvez
 Onde o corpo poisa sem alarde
 E descobre o que já fez
 
-[Chorus]
+[Chorus: full harmonies, voice softer]
 Encontra o centro
 Onde tudo é calmo
 Encontra o centro
 E o corpo é o próprio salmo
 
-[Outro]
+[Outro: vocal soft, fading, last line spoken]
 Aqui, exactamente aqui
 Não à frente nem atrás
 O centro és tu
 E tu és capaz
 De balançar
 Sem nunca cair
-De verdade`,
+de verdade...`,
 
-  "fibra-corpo-aberto/4": `[Verse 1]
+  "fibra-corpo-aberto/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: rubato Rhodes piano with subtle pitch-bend, vocal whispered]
+bend...
+bend...
+
+[Verse 1: vocal close, conversational, slight smile in delivery]
 They said be strong, be rigid
 Stand tall and never break
 But strength was never frigid
@@ -254,7 +288,7 @@ And called the curves a flaw
 But everything in nature winds
 And that's the oldest law
 
-[Verse 2]
+[Verse 2: same intimacy, slight rasp on sustained notes]
 The willow knows the secret
 The river knows the way
 You don't resist to keep it
@@ -264,13 +298,13 @@ With the storm that makes it lean
 It bows and then it rises
 Like nothing in between
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens, breath audible]
 Rigidity cracks under pressure
 Flexibility absorbs the blow
 The body is a living measure
 Of everything you let go
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, fretless bass joins]
 Bend, don't break
 There's wisdom in the give
 Bend, don't break
@@ -280,7 +314,7 @@ Is not the wall you've built
 It's the way you move right through
 The weight of what you've spilt
 
-[Verse 3]
+[Verse 3: back to verse intimacy, harmonies drop]
 The body holds its lessons
 In every joint and curve
 Flexibility's a blessing
@@ -290,13 +324,13 @@ I thought that was my power
 But power is the way I light
 The softness of this hour
 
-[Chorus]
+[Chorus: full harmonies, brushed percussion]
 Bend, don't break
 There's wisdom in the give
 Bend, don't break
 That's how you learn to live
 
-[Bridge]
+[Bridge: vocal close, no harmonies, Rhodes alone bending pitch underneath]
 Softness is not weakness
 Yielding is not loss
 The strongest trees are reckless
@@ -306,21 +340,29 @@ And the sky is clear again
 The ones still standing
 Are the ones who learned to bend
 
-[Chorus]
+[Chorus: harmonies layered fuller, voice softer]
 Bend, don't break
 There's wisdom in the give
 Bend, don't break
 And you will learn to live
 
-[Outro]
+[Outro: vocal soft, fading, last word spoken]
 Be water — it shapes the stone
 Be wind — it moves the mountain
 Be everything that bends
 And you will never
 Be broken
-Just reshaped`,
+just reshaped...`,
 
-  "fibra-corpo-aberto/5": `[Verse 1]
+  "fibra-corpo-aberto/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: low cello drone with body-thump hand percussion barely audible, vocal exhaled whisper]
+chão...
+chão...
+
+[Verse 1: vocal whispered, very close, almost lying down]
 Deito-me no chão da sala
 O frio das tábuas entra pelo corpo
 A gravidade não fala
@@ -330,7 +372,7 @@ A nuca entrega-se ao duro
 E eu descubro nestes passos raros
 Que o chão é o abraço mais seguro
 
-[Verse 2]
+[Verse 2: same intimacy, breath audible between phrases]
 As costas entregam o peso
 De dias que não larguei a tempo
 Cada vértebra é um regresso
@@ -340,13 +382,13 @@ E eu aqui em baixo sou pequena
 Mas neste exacto flanco
 O pequeno é o que me serena
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens slightly, still horizontal]
 Não há nada para resolver
 Nem agenda nem relógio
 Só a gravidade a dizer
 Que o descanso é o meu elogio
 
-[Chorus]
+[Chorus: 3-voice low harmonies enter underneath, no kick]
 O chão não falha
 O chão não mente
 O chão segura
@@ -358,7 +400,7 @@ Que há sabedoria em quem se tira
 Do pedestal de si mesma
 E aceita ser segurada
 
-[Verse 3]
+[Verse 3: back to whisper, harmonies drop]
 Não preciso de mais nada
 Nem de almofada nem de manta
 A madeira é uma estrada
@@ -368,7 +410,7 @@ Ao peso que finalmente desce
 À rendição que não é prisão
 Mas o lugar onde tudo acontece
 
-[Chorus]
+[Chorus: harmonies return, slightly fuller]
 O chão não falha
 O chão não mente
 O chão segura
@@ -376,7 +418,8 @@ Quem simplesmente
 Se deita e confia
 Se deita e respira
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only cello drone]
+(European Portuguese, Portugal accent:)
 Largar é o gesto mais difícil
 E o mais bonito também
 O chão transforma o impossível
@@ -386,22 +429,30 @@ Que a força às vezes é descer
 E que os momentos mais importantes
 São os em que me deixo ser
 
-[Chorus]
+[Chorus: harmonies layered fuller, voice softer]
 O chão não falha
 O chão não mente
 O chão é a casa
 De quem finalmente descansa
 
-[Outro]
+[Outro: vocal exhaled, lying down, fading]
 Aqui em baixo
 Tudo é simples
 Tudo é chão
 Tudo é real
 O peso do corpo
 É a coisa mais leve
-Que alguma vez senti`,
+que alguma vez senti...`,
 
-  "fibra-corpo-aberto/6": `[Verse 1]
+  "fibra-corpo-aberto/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: descending harp glissando, vocal exhaled whisper]
+release...
+release...
+
+[Verse 1: vocal whispered, very close, almost spoken]
 The jaw unclenches first
 A tiny revolution starts
 The fists that feared the worst
@@ -411,7 +462,7 @@ The teeth stop standing guard
 And something in the silence
 Begins to heal the hard
 
-[Verse 2]
+[Verse 2: same intimacy, breath audible]
 The shoulders drop like water
 Finding gravity again
 The belly lets it go — the daughter
@@ -421,13 +472,13 @@ Like ice beneath the sun
 And something deeply alters
 In the way my body's done
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens, still soft]
 Not forcing, not pulling
 Just allowing what is clenched
 To unfold like something cooling
 After years of being drenched
 
-[Chorus]
+[Chorus: 3-voice airy harmonies enter, no kick, harp glissandi between phrases]
 Release, release
 Let it fall like rain
 Release, release
@@ -437,7 +488,7 @@ To wash away the pain
 And every place that softens
 Is a place you live again
 
-[Verse 3]
+[Verse 3: back to whisper, harmonies drop]
 The hips unlock their stories
 Of borders never crossed
 The knees forget their worries
@@ -447,13 +498,13 @@ Just softness after hard
 And in this quiet territory
 The body drops its guard
 
-[Chorus]
+[Chorus: harmonies return, brushed snare appears softly]
 Release, release
 Let it fall like rain
 Release, release
 There's nothing left to chain
 
-[Bridge]
+[Bridge: vocal close, no harmonies, harp glissandi alone underneath]
 You held it all so tightly
 Convinced that's what was strong
 But letting go politely
@@ -463,13 +514,13 @@ Is the hand that hurts the most
 The breath that moves the lightest
 Is the one that matters most
 
-[Chorus]
+[Chorus: harmonies layered fuller, voice softer]
 Release, release
 Let it fall like rain
 Release — and what remains
 Is finally, quietly, you
 
-[Outro]
+[Outro: vocal exhaled, fading, last word spoken]
 Let it fall
 Every wall
 Every clenched fist
@@ -479,9 +530,17 @@ You're not weaker now
 You're lighter
 And lighter
 Is the bravest thing
-You've ever been`,
+you've ever been...`,
 
-  "fibra-corpo-aberto/7": `[Verse 1]
+  "fibra-corpo-aberto/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: distant ocean field-recording, nylon bossa guitar, vocal whispered]
+onda...
+onda...
+
+[Verse 1: vocal close, fluid, slightly swaying delivery]
 Nasce um movimento dentro
 Que não pedi nem forcei
 Como uma onda sem vento
@@ -491,7 +550,7 @@ As mãos desenham no ar
 Curvas que não têm vizinhos
 Gestos que ninguém vai julgar
 
-[Verse 2]
+[Verse 2: same fluid intimacy, breath audible on sustained vowels]
 O corpo começa a falar
 Numa língua mais antiga que a fala
 Uma gramática de oscilar
@@ -501,13 +560,13 @@ Só cabe neste espaço
 Onde o movimento é a oração
 E cada gesto é um abraço
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens, breath audible]
 Não há partitura
 Não há mestre nem lição
 Só a onda madura
 Que nasce do coração
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, soft shaker swings, wave-shaped pad sweeps]
 A onda sobe e desce
 O corpo é o mar inteiro
 Nada aqui acontece
@@ -517,7 +576,7 @@ Nasce de dentro para fora
 E quem se entrega e se rende
 Descobre que já não há hora
 
-[Verse 3]
+[Verse 3: back to verse intimacy, harmonies drop]
 Os braços abrem devagar
 Como asas sem destino
 As pernas seguem sem pensar
@@ -527,13 +586,14 @@ Não é saber os passos certos
 É deixar o corpo estar
 Onde os movimentos são abertos
 
-[Chorus]
+[Chorus: full harmonies, brushed kit gentle swing]
 A onda sobe e desce
 O corpo é o mar inteiro
 Nada aqui acontece
 Que não seja verdadeiro
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only nylon guitar and ocean field-recording]
+(European Portuguese, Portugal accent:)
 Não há coreografia
 Não há passo certo ou errado
 Há só esta melodia
@@ -543,13 +603,13 @@ Antes da razão
 Já havia esta lava
 De movimento e compaixão
 
-[Chorus]
+[Chorus: harmonies layered fuller, voice softer]
 A onda sobe e desce
 O corpo é o mar inteiro
 E eu dentro dele desço
 Até ao fundo mais sincero
 
-[Outro]
+[Outro: vocal soft, fading, last line spoken]
 Flui, simplesmente flui
 O corpo sabe
 Sempre soube
@@ -557,9 +617,17 @@ Cada gesto é uma prova
 De que a sabedoria
 Nunca esteve na cabeça
 Esteve sempre
-Nas mãos`,
+nas mãos...`,
 
-  "fibra-corpo-aberto/8": `[Verse 1]
+  "fibra-corpo-aberto/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: single resonant bell, ascending chord-stack synth, vocal whispered]
+align...
+align...
+
+[Verse 1: vocal close, grounded, slow phrasing]
 The spine remembers standing
 Before the world pushed down
 Each vertebra demanding
@@ -569,7 +637,7 @@ Over screens and sorrow both
 Slowly start to uncrunch
 Like a long-delayed growth
 
-[Verse 2]
+[Verse 2: same intimacy, slight rasp on sustained notes]
 The ribs expand like petals
 Of a flower finding light
 No more invisible medals
@@ -579,13 +647,13 @@ Like a window in a room
 That's been closed for years — and loftily
 It lets the morning bloom
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens, breath audible, single bell rings]
 Not a straight line imposed
 But a column finding centre
 Every curve and corner closed
 Begins again to enter
 
-[Chorus]
+[Chorus: 3-voice harmonies enter, brushed kit, single bell at the start]
 Align, align
 Every bone finds home
 Align, align
@@ -595,7 +663,7 @@ Written into every cell
 That guides you to the gap
 Between the broken and the well
 
-[Verse 3]
+[Verse 3: back to verse intimacy, harmonies drop]
 The feet press down in knowing
 The crown lifts to the sky
 Between these two points growing
@@ -605,13 +673,13 @@ Not the name upon the card
 But the I that's finally free
 To stand without a guard
 
-[Chorus]
+[Chorus: full harmonies, ascending chord-stack peaks]
 Align, align
 Every bone finds home
 Align, align
 You were never alone
 
-[Bridge]
+[Bridge: vocal close, no harmonies, single bell on each line ending]
 You don't need to be perfect
 You just need to be honest
 With the body's architecture
@@ -621,13 +689,13 @@ It's the body saying — here
 This is where I'm meant to stand
 This is where I'm clear
 
-[Chorus]
+[Chorus: harmonies layered fuller, voice softer]
 Align, align
 Every bone finds home
 Align, align
 I was never alone
 
-[Outro]
+[Outro: vocal soft, fading, last line spoken]
 Stand tall
 Not rigid — tall
 There's a difference
@@ -636,9 +704,17 @@ And a spine
 One keeps people out
 The other holds
 You up
-From the inside`,
+from the inside...`,
 
-  "fibra-corpo-aberto/9": `[Verse 1]
+  "fibra-corpo-aberto/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: liquid plate-reverb piano with underwater low-pass filter sweep, vocal whispered]
+corpo líquido...
+corpo líquido...
+
+[Verse 1: vocal whispered, very close, fluid phrasing]
 O corpo esquece os ossos
 Esquece que é matéria dura
 Torna-se rio entre poços
@@ -648,7 +724,7 @@ E o sangue é quem comanda
 Cada gesto é um convite
 A ser onda em vez de tábua
 
-[Verse 2]
+[Verse 2: same fluid intimacy, breath audible]
 As articulações dissolvem
 Fronteiras que jurei que existiam
 Os músculos são seda e resolvem
@@ -658,13 +734,13 @@ E começa o ar à volta
 Sou um corpo feito de espaço
 Que se dobra e não se volta
 
-[Pre-Chorus]
+[Pre-Chorus: voice opens slightly, still liquid]
 Sólido é uma ilusão
 O corpo sempre foi líquido
 Só precisava de permissão
 Para deixar de ser rígido
 
-[Chorus]
+[Chorus: 3-voice airy harmonies enter, no kick, filter sweeps slowly]
 Corpo líquido, corpo água
 Corpo sem forma nem pressa
 Corpo que flui sem mágoa
@@ -674,7 +750,7 @@ Quando o chão também é rio
 E cada gesto é um navegar
 Sem mapa, sem frio, sem fio
 
-[Verse 3]
+[Verse 3: back to whisper, harmonies drop]
 Os dedos são correntes
 Os braços são marés suaves
 E todos os presentes
@@ -684,13 +760,14 @@ Sou a chuva antes de cair
 E nesta breve certeza
 Descubro o que é fluir
 
-[Chorus]
+[Chorus: harmonies return, plate-reverb piano peaks]
 Corpo líquido, corpo água
 Corpo sem forma nem pressa
 Corpo que flui sem mágoa
 Corpo que nunca tropeça
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only liquid piano underneath]
+(European Portuguese, Portugal accent:)
 Se a água não tem forma
 Porque haveria eu
 De caber numa norma
@@ -700,13 +777,13 @@ Sem forçar nem insistir
 Talvez o maior carinho
 Que posso dar ao corpo é fluir
 
-[Chorus]
+[Chorus: harmonies layered fuller, voice softer]
 Corpo líquido, corpo água
 Sem nome, sem molde
 Sem parede, sem mágoa
 Só o rio que corre
 
-[Outro]
+[Outro: vocal exhaled, fading, last word spoken]
 Líquido
 Sem peso
 Sem pressa
@@ -715,9 +792,18 @@ O corpo lembra
 Que antes de ser sólido
 Foi água
 Sempre foi
-Água`,
+água...`,
 
-  "fibra-corpo-aberto/10": `[Verse 1]
+  "fibra-corpo-aberto/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing chorus on final chorus only (3 to 6 voices), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Bridge in European Portuguese where marked, Lisbon accent — NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: single Tibetan singing bowl ringing, warm Hammond organ pad enters, vocal whispered]
+namaste...
+namaste...
+
+[Verse 1: vocal close, breathy, intimate yoga-room hush]
 The practice ends in silence
 The body hums with peace
 A quiet kind of guidance
@@ -727,7 +813,7 @@ The breath has been a friend
 And something ancient whispers through
 Before the hour ends
 
-[Verse 2]
+[Verse 2: same intimate breath, organ swells very softly]
 The hands press close together
 The breath becomes a prayer
 Whatever was the weather
@@ -737,13 +823,13 @@ But the one beneath the ribs
 A warmth that starts to kindle
 In the places tension lives
 
-[Pre-Chorus]
+[Pre-Chorus: voice lifts, anticipation builds, soft tambourine enters]
 We arrived with heavy shoulders
 And we leave with lighter feet
 Not because the world got smaller
 But because we grew complete
 
-[Chorus]
+[Chorus: 3-voice gospel choir enters, kick on the four, organ blooms]
 The light in me can see
 The light in you shining through
 Namaste, namaste
@@ -755,7 +841,7 @@ Who are strangers now no more
 The light becomes a language
 That we never had before
 
-[Verse 3]
+[Verse 3: voice opens, choir hums underneath]
 The room is filled with something
 That words could never hold
 A warm collective humming
@@ -765,7 +851,7 @@ We moved the same slow air
 And without any mention
 We built a church of care
 
-[Chorus]
+[Chorus: full gospel harmonies, building drums]
 The light in me can see
 The light in you shining through
 Namaste, namaste
@@ -773,7 +859,7 @@ The practice brought me home to you
 Namaste, namaste
 We're one before we're two
 
-[Bridge]
+[Bridge: spoken close, intimate, choir hums softly underneath]
 We came here as strangers
 With bodies full of noise
 We leave without the danger
@@ -783,13 +869,13 @@ Each other's names or lives
 We shared the deepest thing we know
 The breath that keeps us alive
 
-[Chorus]
+[Final Chorus: 6-voice female backing choir layered, peak energy, climax]
 The light in me can see
 The light in you shining through
 Namaste, namaste
 We are the light
 
-[Outro]
+[Outro: vocal soft, organ fades, last word whispered]
 The light in me
 Sees the light in you
 It always has
@@ -798,7 +884,7 @@ And when the world is loud
 And nothing makes sense
 Remember this room
 Remember this breath
-Remember — namaste`,
+Remember — namaste...`,
 
 
   // ─────────────────────────────────────────────
@@ -6403,7 +6489,15 @@ Break through`,
   // BARRA CARREGADA (ginásio, ferro, força)
   // ─────────────────────────────────────────────
 
-  "fibra-barra-carregada/1": `[Verse 1]
+  "fibra-barra-carregada/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: muted house kick warming up, slow filter sweep opening, joint-click percussion, vocal whispered]
+aquecimento...
+aquecimento...
+
+[Verse 1: vocal close, body-waking phrasing]
 Os braços rodam devagar
 O pescoço estica e geme
 O corpo começa a acordar
@@ -6457,7 +6551,8 @@ Entre a vontade e a acção
 Ainda não é treino
 Mas já é caminho
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only muted kick and filter sweep]
+(European Portuguese, Portugal accent:)
 Não saltes o aquecimento
 Não saltes a preparação
 O corpo é um instrumento
@@ -6483,7 +6578,15 @@ Agora o ferro
 Agora o treino
 Agora eu`,
 
-  "fibra-barra-carregada/2": `[Verse 1]
+  "fibra-barra-carregada/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, fierce on choruses, slight rasp on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: heavy distorted bass drop, metallic synth stab on off-beat, iron-clang accent, vocal whispered]
+heavy...
+heavy...
+
+[Verse 1: vocal close, fierce intimacy, iron-as-teacher phrasing]
 The bar sits on the rack
 Unmoved, uncaring, cold
 It doesn't care I'm back
@@ -6539,7 +6642,7 @@ The weight that doesn't try
 To make me feel okay
 It just shows me the way
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only metallic stabs and heavy bass drop underneath]
 Iron never flatters
 Iron never cheats
 It only knows what matters
@@ -6567,7 +6670,15 @@ The truth about yourself
 Lives underneath
 The bar`,
 
-  "fibra-barra-carregada/3": `[Verse 1]
+  "fibra-barra-carregada/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, hypnotic counted-rep phrasing, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — intentionally repetitive), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: repetitive 4-note synth motif looping, driving bass, vocal whispered counting]
+repetição...
+repetição...
+
+[Verse 1: vocal close, rhythmic counted-rep delivery]
 Uma vez, outra vez, mais uma
 O corpo conta sem contar
 A dor é espuma
@@ -6622,7 +6733,8 @@ A disciplina de não morrer
 Uma e mais uma e mais
 Até o corpo dizer paz
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, looping motif continues underneath]
+(European Portuguese, Portugal accent:)
 Não é talento nem é dom
 É mostrar-se e repetir
 O segredo não é ser bom
@@ -6650,7 +6762,15 @@ Que se constrói
 Tudo o que importa
 Repetição`,
 
-  "fibra-barra-carregada/4": `[Verse 1]
+  "fibra-barra-carregada/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: mellow Rhodes piano with single mirror-glass synth shimmer at chorus, brushed drums, vocal whispered]
+mirror...
+mirror...
+
+[Verse 1: vocal close, honest self-reflection phrasing]
 The gym mirror doesn't blink
 It watches every rep
 And makes me pause and think
@@ -6705,7 +6825,7 @@ You show me my own hustle
 The sweat, the strain, the face
 Of someone finding grace
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only Rhodes and mirror-glass synth shimmer]
 The mirror isn't vanity
 When you're working for yourself
 It's a checkpoint for your sanity
@@ -6734,7 +6854,15 @@ Look at yourself
 You're building something
 Beautiful`,
 
-  "fibra-barra-carregada/5": `[Verse 1]
+  "fibra-barra-carregada/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, smooth funk falsetto-touch on the hook, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: funk wah-guitar groove with snappy claps on 2 and 4, rubbery bass, bright Rhodes pads, vocal whispered]
+suor...
+suor...
+
+[Verse 1: vocal close, smooth funk pocket, sweat-pouring phrasing]
 A primeira gota cai no banco
 A segunda cai no chão
 O suor não pede aplauso franco
@@ -6788,7 +6916,8 @@ Em transpirar o que me agrava
 O corpo liberta pela pele
 Tudo o que já não cabe nele
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only wah-guitar and rubbery bass underneath]
+(European Portuguese, Portugal accent:)
 Há coisas que o chuveiro
 Nunca vai conseguir lavar
 Mas o treino verdadeiro
@@ -6816,7 +6945,15 @@ E o suor
 Não mente
 Nunca mentiu`,
 
-  "fibra-barra-carregada/6": `[Verse 1]
+  "fibra-barra-carregada/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered airy harmonies stacking 3-to-5 voices on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: anthemic house build with soaring synth lead, sidechained kick entering gradually, vocal whispered]
+stronger...
+stronger...
+
+[Verse 1: vocal close, breathy, growing-stronger phrasing]
 The weight I lifted yesterday
 Today feels slightly light
 And in this subtle way
@@ -6870,7 +7007,7 @@ I face the world and what it brings
 The iron changed my spine
 And then it changed my mind
 
-[Bridge]
+[Bridge: vocal opens but never shouts, harmonies drop, only soaring synth lead underneath]
 Strength is not about the mirror
 Strength is not about the show
 Strength is knowing, getting clearer
@@ -6898,7 +7035,15 @@ Is just another word
 For showing up
 Again and again`,
 
-  "fibra-barra-carregada/7": `[Verse 1]
+  "fibra-barra-carregada/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, voice as small as possible (almost spoken), slight breathiness on sustained notes, sings very close to the microphone, no harmonies (this is a rest-day track), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: soft felt-piano, single warm pad swell, ambient room tone, breath audible, vocal whispered]
+descanso...
+descanso...
+
+[Verse 1: vocal whispered, very close, almost spoken, lying-down intimacy]
 Hoje o corpo fica quieto
 As pernas não vão ao ginásio
 O músculo cresce em segredo
@@ -6952,7 +7097,8 @@ Mas é parte do exercício
 O músculo repara
 Quando a mente pára
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only soft felt-piano and warm pad]
+(European Portuguese, Portugal accent:)
 O ferro ensina a puxar
 Mas o descanso ensina a soltar
 Saber quando parar
@@ -6981,7 +7127,15 @@ Só no esforço
 Constrói-se também
 No silêncio`,
 
-  "fibra-barra-carregada/8": `[Verse 1]
+  "fibra-barra-carregada/8": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered airy harmonies emerging on final chorus (3 voices building to 5), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: building anthem from solo voice, single bell ring at the moment of the PR, full orchestral swell on final chorus, vocal whispered]
+personal best...
+personal best...
+
+[Verse 1: vocal close, breathy, private-victory intimacy]
 A number on a screen
 That nobody will see
 A victory so clean
@@ -7038,7 +7192,7 @@ A private war I've won
 No trophy, no parade
 Just the progress that I've made
 
-[Bridge]
+[Bridge: vocal close, no harmonies, only soft piano underneath, anticipation building]
 Nobody clapped, nobody saw
 Nobody knew what I had done
 But I broke through my ceiling floor
@@ -7066,7 +7220,15 @@ Because the only record
 Worth breaking
 Is your own`,
 
-  "fibra-barra-carregada/9": `[Verse 1]
+  "fibra-barra-carregada/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, fierce and devoted on this track, slight rasp on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: metallic synth on the four with heavy bass, single barbell-clang sample at chorus, vocal whispered]
+ferro e fé...
+ferro e fé...
+
+[Verse 1: vocal close, devoted phrasing, no excuses]
 A barra está carregada
 Os pés firmes no chão
 A desculpa foi cancelada
@@ -7121,7 +7283,8 @@ Só presença, só as tuas culpas
 Aparece ou não apareças
 Mas não venhas com promessas
 
-[Bridge]
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only metallic synth and heavy bass underneath]
+(European Portuguese, Portugal accent:)
 A consistência é o segredo
 Que o talento nunca entendeu
 Aparecer mesmo com medo
@@ -7150,7 +7313,15 @@ Mesmo quando custa
 Principalmente
 Quando custa`,
 
-  "fibra-barra-carregada/10": `[Verse 1]
+  "fibra-barra-carregada/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus (gospel feel), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Intro: solo voice opens, gospel piano enters, log drum and house kick on the four, Hammond organ swells, bright shaker, vocal whispered]
+built...
+built...
+
+[Verse 1: vocal close, breathy, self-built intimacy]
 They said I wasn't built for this
 That strong was not my frame
 But every rep became a kiss
@@ -7205,7 +7376,7 @@ To understand I can
 Nobody gave me this
 I earned it, rep by rep and fist
 
-[Bridge]
+[Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
 Every strong person in the gym
 Was once weak and afraid
 The difference isn't luck or whim
