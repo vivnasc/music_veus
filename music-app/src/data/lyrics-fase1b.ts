@@ -2121,7 +2121,7 @@ Sem que eu lhe peça nem agradeça
 As células renovam-se em estradas
 Que o corpo faz sem que eu conheça
 E eu ando aqui a reclamar
-Do trânsito e do tempo e da factura
+Do trânsito e do tempo e da fatura
 Quando a dádiva de estar
 É a maior das aventuras
 
@@ -2281,7 +2281,7 @@ Cheia como um rio em Fevereiro
 Que transborda sem pedir licença
 Cheia como o primeiro chuveiro
 Que lava toda a impaciência
-Não de coisas, não de objectos
+Não de coisas, não de objetos
 Mas de um sentir que não tem nome
 De um cheio sem defeitos
 Que não é fartura nem é fome
