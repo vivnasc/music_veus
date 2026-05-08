@@ -18,6 +18,7 @@ import { adminFetch } from "@/lib/admin-fetch";
 import { saveLyrics, downloadBackup, flushPending } from "@/lib/lyrics-store";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
 import { pickLorannImages } from "@/lib/loranne-images";
+import { LORANNE_VOICE_ID, LORANNE_PERSONA_SEED } from "@/data/loranne-persona";
 import CalendarView from "./CalendarView";
 
 /** Read ID3 title from an MP3 File */
@@ -1653,8 +1654,15 @@ export default function AlbumProductionPage() {
   const lyricsSaveRef = useRef<Record<string, NodeJS.Timeout>>({});
   const [trackVersions, setTrackVersions] = useState<Record<string, VersionInfo[]>>({}); // key → versions
   const [sunoModel, setSunoModel] = useState("V5_5");
-  const [personaId, setPersonaId] = useState<string>("");
-  const [personaName, setPersonaName] = useState<string>("");
+  // Persona Loranne — auto-set from Goodnight World seed; user override persists in localStorage
+  const [personaId, setPersonaId] = useState<string>(() => {
+    if (typeof window === "undefined") return LORANNE_VOICE_ID;
+    return localStorage.getItem("loranne-persona-id") || LORANNE_VOICE_ID;
+  });
+  const [personaName, setPersonaName] = useState<string>(() => {
+    if (typeof window === "undefined") return `Loranne (${LORANNE_PERSONA_SEED.trackTitle})`;
+    return localStorage.getItem("loranne-persona-name") || `Loranne (${LORANNE_PERSONA_SEED.trackTitle})`;
+  });
   const [creatingPersona, setCreatingPersona] = useState(false);
   const [personaResult, setPersonaResult] = useState<string | null>(null);
   const [editedPrompts, setEditedPrompts] = useState<Record<string, string>>({});
@@ -1675,6 +1683,18 @@ export default function AlbumProductionPage() {
       if (raw) setAlbumTitleOverrides(JSON.parse(raw));
     } catch {}
   }, []);
+
+  // Persist persona override across sessions
+  useEffect(() => {
+    if (personaId) {
+      try { localStorage.setItem("loranne-persona-id", personaId); } catch {}
+    }
+  }, [personaId]);
+  useEffect(() => {
+    if (personaName) {
+      try { localStorage.setItem("loranne-persona-name", personaName); } catch {}
+    }
+  }, [personaName]);
 
   const saveAlbumTitle = useCallback((slug: string, newTitle: string) => {
     const trimmed = newTitle.trim();
