@@ -1588,9 +1588,10 @@ In the way we chose to breathe`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: warm felt-piano with breath-sample at phrase ending, vocal whispered]
-obrigada...
-obrigada...
+[Intro: warm felt-piano with breath-sample at phrase ending, vocal hums softly with no words, three notes descending]
+mmm...
+mmm...
+mmm...
 
 [Verse 1: vocal whispered, very close, hand-on-body tenderness]
 Obrigada, mãos, por tudo o que seguraram
@@ -1675,9 +1676,7 @@ obrigada por mim...`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: gospel piano with single deep low bell, vocal whispered]
-grace...
-grace...
+[Intro: gospel piano with single deep low bell rings once, kitchen-choir hum building underneath, no vocal yet — instrumental opening]
 
 [Verse 1: vocal close, ceremonial intimacy]
 Before the fork, before the bite
@@ -1762,9 +1761,9 @@ from the silence in your head...`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: fingerpicked folk guitar with tambourine and warm accordion accent, vocal whispered]
-a lista...
-a lista...
+[Intro: fingerpicked folk guitar with tambourine and warm accordion accent, vocal half-spoken anchor word from chorus]
+pequenas...
+coisas pequenas...
 
 [Verse 1: vocal close, conversational, listing intimacy]
 A lista começa devagar
@@ -1849,9 +1848,7 @@ E por cada doce açoite de estar viva`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: minimal Rhodes piano with single double-bass pluck per phrase, brushed cymbal, vocal whispered]
-enough...
-enough...
+[Intro: minimal Rhodes piano with single double-bass pluck per phrase, brushed cymbal, a single audible exhale, then silence for one beat]
 
 [Verse 1: vocal whispered, very close, almost spoken]
 There is a line that no one draws
@@ -1935,9 +1932,7 @@ Finally learn to feed`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: syncopated afrobeat guitar with talking-drum pattern and warm bass groove, vocal whispered]
-mãos abertas...
-mãos abertas...
+[Intro: syncopated afrobeat guitar with talking-drum pattern and warm bass groove, no vocal — instrumental opening for 8 bars]
 
 [Verse 1: vocal close, hands-up open feel, conversational]
 As mãos abertas, palmas para cima
@@ -2022,9 +2017,9 @@ Que a gratidão não é uma sentença
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: Hammond organ groove with kitchen-choir hum and gospel piano fills, vocal whispered]
-thank you body...
-thank you body...
+[Intro: Hammond organ groove with kitchen-choir hum and gospel piano fills, vocal half-spoken with hand on chest]
+hey... thank you...
+thank you, body...
 
 [Verse 1: vocal close, embodied warmth, body-thanking phrasing]
 Thank you, knees, for every stair
@@ -2108,9 +2103,7 @@ For more grace than I deserve`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: log drum sparse, gospel choir hum building, bright shaker on the four, vocal whispered]
-dádiva...
-dádiva...
+[Intro: birds-at-dawn field-recording 3 seconds, then log drum sparse and gospel choir hum building, bright shaker on the four, no vocal yet]
 
 [Verse 1: vocal close, breathy, awestruck intimacy]
 Acordei e estava viva
@@ -2195,9 +2188,9 @@ De um corpo que não troca`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: fingerpicked steel-string folk guitar with single soft bell, intimate room ambience, vocal whispered]
-small things...
-small things...
+[Intro: fingerpicked steel-string folk guitar with single soft bell, intimate room ambience, vocal half-spoken anchor word]
+the small...
+the unremarkable small...
 
 [Verse 1: vocal whispered, very close, observant intimacy]
 The tap still runs, the light still works
@@ -2281,9 +2274,7 @@ Are holding up the night`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: wah-guitar funk groove with snappy claps on 2 and 4, rubbery bass, vocal whispered]
-cheia...
-cheia...
+[Intro: wah-guitar funk groove with snappy claps on 2 and 4, rubbery bass, no vocal — instrumental opening for 8 bars]
 
 [Verse 1: vocal close, smooth funk pocket, joyful overflow]
 Cheia como um rio em Fevereiro
@@ -2368,9 +2359,7 @@ De encher este coração`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: solo voice opens, gospel piano enters, Hammond organ swells, vocal whispered]
-hallelujah...
-hallelujah...
+[Intro: solo gospel piano opens with rich chords, Hammond organ swells gradually, no vocal yet — instrumental opening for 4 bars]
 
 [Verse 1: vocal close, breathy, almost spoken]
 Hallelujah is not a church word

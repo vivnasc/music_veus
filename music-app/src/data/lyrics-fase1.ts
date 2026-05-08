@@ -6493,9 +6493,7 @@ Break through`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: muted house kick warming up, slow filter sweep opening, joint-click percussion, vocal whispered]
-aquecimento...
-aquecimento...
+[Intro: muted house kick warming up alone for 4 bars, joint-click percussion (knuckle cracks, neck rolls) audible underneath, slow filter sweep opening across the track, no vocal yet]
 
 [Verse 1: vocal close, body-waking phrasing]
 Os braços rodam devagar
@@ -6582,9 +6580,7 @@ Agora eu`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: heavy distorted bass drop, metallic synth stab on off-beat, iron-clang accent, vocal whispered]
-heavy...
-heavy...
+[Intro: a single iron plate clang on a metal rack (sample), then 2 bars of silence, then heavy distorted bass drops in with metallic synth stab on the off-beat, no vocal yet]
 
 [Verse 1: vocal close, fierce intimacy, iron-as-teacher phrasing]
 The bar sits on the rack
@@ -6674,9 +6670,11 @@ The bar`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: repetitive 4-note synth motif looping, driving bass, vocal whispered counting]
-repetição...
-repetição...
+[Intro: repetitive 4-note synth motif looping every bar, driving bass, vocal half-spoken counts the reps in PT]
+uma...
+duas...
+três...
+quatro...
 
 [Verse 1: vocal close, rhythmic counted-rep delivery]
 Uma vez, outra vez, mais uma
@@ -6766,9 +6764,7 @@ Repetição`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: mellow Rhodes piano with single mirror-glass synth shimmer at chorus, brushed drums, vocal whispered]
-mirror...
-mirror...
+[Intro: mellow Rhodes piano alone for 4 bars, single mirror-glass synth shimmer enters on the second bar, brushed drums begin gradually, no vocal yet]
 
 [Verse 1: vocal close, honest self-reflection phrasing]
 The gym mirror doesn't blink
@@ -6858,9 +6854,7 @@ Beautiful`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: funk wah-guitar groove with snappy claps on 2 and 4, rubbery bass, bright Rhodes pads, vocal whispered]
-suor...
-suor...
+[Intro: funk wah-guitar groove with snappy claps on 2 and 4, rubbery bass, bright Rhodes pads, no vocal — instrumental opening for 8 bars, dancefloor-ready]
 
 [Verse 1: vocal close, smooth funk pocket, sweat-pouring phrasing]
 A primeira gota cai no banco
@@ -6949,9 +6943,7 @@ Nunca mentiu`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: anthemic house build with soaring synth lead, sidechained kick entering gradually, vocal whispered]
-stronger...
-stronger...
+[Intro: soaring synth lead alone for 4 seconds, then sidechained kick enters gradually building anthemic house energy, no vocal — instrumental opening for 8 bars before verse]
 
 [Verse 1: vocal close, breathy, growing-stronger phrasing]
 The weight I lifted yesterday
@@ -7039,9 +7031,7 @@ Again and again`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: soft felt-piano, single warm pad swell, ambient room tone, breath audible, vocal whispered]
-descanso...
-descanso...
+[Intro: 5 seconds of ambient room tone (a quiet bedroom), a single audible exhale, then soft felt-piano enters with warm pad swell underneath, no vocal yet]
 
 [Verse 1: vocal whispered, very close, almost spoken, lying-down intimacy]
 Hoje o corpo fica quieto
@@ -7131,9 +7121,7 @@ No silêncio`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: building anthem from solo voice, single bell ring at the moment of the PR, full orchestral swell on final chorus, vocal whispered]
-personal best...
-personal best...
+[Intro: soft piano alone with anticipation building, brushed drums enter on bar 4, no vocal yet — instrumental opening setting up for the private-victory verse]
 
 [Verse 1: vocal close, breathy, private-victory intimacy]
 A number on a screen
@@ -7224,9 +7212,7 @@ Is your own`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: metallic synth on the four with heavy bass, single barbell-clang sample at chorus, vocal whispered]
-ferro e fé...
-ferro e fé...
+[Intro: a single barbell-clang sample (heavy plate dropping on rack), then 2 bars of silence, then metallic synth stab on the four enters with heavy bass, no vocal yet]
 
 [Verse 1: vocal close, devoted phrasing, no excuses]
 A barra está carregada
@@ -7317,9 +7303,7 @@ Quando custa`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: solo voice opens, gospel piano enters, log drum and house kick on the four, Hammond organ swells, bright shaker, vocal whispered]
-built...
-built...
+[Intro: solo gospel piano opens with rich chords, log drum sparse joins on bar 3, house kick on the four enters on bar 5, Hammond organ swells, bright shaker, no vocal yet — instrumental opening for 6 bars]
 
 [Verse 1: vocal close, breathy, self-built intimacy]
 They said I wasn't built for this

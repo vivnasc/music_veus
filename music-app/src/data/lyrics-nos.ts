@@ -15,9 +15,7 @@ export const NO_LYRICS: Record<string, string> = {
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: warm cello-synth with maternal humming layer, distant lullaby piano motif, vocal whispered]
-eu vi-te...
-eu vi-te...
+[Intro: warm cello-synth alone with maternal humming layer underneath (no words), distant lullaby piano motif emerges on the second bar, no vocal yet]
 
 [Verse 1: vocal whispered, very close, maternal aching intimacy]
 Eu vi-te antes de te veres ao espelho
@@ -62,9 +60,7 @@ Soltar o ar`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: sustained warm pad with patient unresolved piano arpeggio, slow walking brushed drums, vocal whispered]
-years of waiting...
-years of waiting...
+[Intro: sustained warm pad alone for 4 seconds, then patient unresolved piano arpeggio enters, slow walking brushed drums begin gradually, no vocal yet]
 
 [Verse 1: vocal close, patient maternal phrasing, aching warmth]
 I watched you wear a coat that wasn't yours
@@ -107,9 +103,7 @@ Had to bloom from you`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: fingerpicked folk guitar with long breath gaps, vocal whispered female lead]
-duas mulheres...
-duas mulheres...
+[Intro: fingerpicked folk guitar with long breath gaps, two audible exhales (one from each woman, daughter first then mother), then silence for one bar before verse]
 
 [Verse 1: daughter (Loranne) close, raw, breath audible — mother answering phrase by phrase]
 Duas mulheres numa cozinha em brasa
@@ -153,9 +147,7 @@ Sem guião na boca`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: 8-bar silence then sudden driving four-on-the-floor kick, deep house bass enters, vocal whispered]
-o que nunca foi dito...
-o que nunca foi dito...
+[Intro: 8 bars of complete silence, then sudden driving four-on-the-floor kick drops in with deep house bass — the silence breaks abruptly, no vocal in the intro]
 
 [Verse 1: daughter close, words used as rhythmic stabs over the groove, mother answering]
 Guardei palavras como quem guarda porcelana
@@ -201,9 +193,7 @@ Entre nós duas`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: log drum and bright shaker, gospel choir hum building, Hammond organ swells, vocal whispered both voices]
-desatar...
-desatar...
+[Intro: log drum sparse alone for 3 seconds, then bright shaker enters on the four, gospel choir hum building underneath (no words), Hammond organ swells gradually, no vocal yet — instrumental opening for 6 bars]
 
 [Verse 1: daughter close, then mother answering, both intimate, log drum sparse]
 O fio que nós prendia era de seda e nevoeiro

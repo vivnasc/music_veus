@@ -15,9 +15,7 @@ export const COSMIC_LYRICS: Record<string, string> = {
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: deep ambient house pads, reverb-drenched piano single notes, distant choir hum, vocal whispered]
-volto a casa...
-volto a casa...
+[Intro: deep ambient house pads with reverb-drenched piano single notes, distant choir hum, a single audible exhale, then silence for one bar]
 
 [Verse 1: vocal whispered, very close, body-leaving intimacy]
 Fecho os olhos e o corpo fica
@@ -74,9 +72,7 @@ Num calor que eu reconheço`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: ambient synth layers floating, no drums anywhere, weightless arpeggio dissolving, vocal exhaled]
-weightless...
-weightless...
+[Intro: ambient synth layers floating, no drums anywhere, weightless arpeggio dissolving slowly, no vocal — instrumental opening for 8 bars]
 
 [Verse 1: vocal whispered, very close, dissolving boundaries]
 The spine releases first
@@ -132,9 +128,7 @@ That has no weight`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: Mozambican nylon guitar with timbila wooden percussion, ancestral hum drone, vocal whispered]
-anterior...
-anterior...
+[Intro: ancestral hum drone alone for 4 seconds, then Mozambican nylon guitar enters with timbila wooden percussion, no vocal yet]
 
 [Verse 1: vocal close, ancient and primal phrasing]
 Antes do meu nome houve silêncio
@@ -190,9 +184,9 @@ Eu já era`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: elastic jazz upright bass with single high piano note pulling on phrase end, brushed drums, vocal whispered]
-the cord...
-the cord...
+[Intro: elastic jazz upright bass with single high piano note pulling on phrase end, brushed drums, vocal half-spoken almost asking]
+can you feel it...
+this thread...
 
 [Verse 1: vocal close, yearning intimacy, smoky after-midnight feel]
 There is a thread I feel at night
@@ -249,9 +243,7 @@ Hungry for bread`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: subtle low drone, vocal close-mic in vast empty space, distant cello bow, vocal half-whispered]
-sem pele...
-sem pele...
+[Intro: subtle low drone in vast empty space, distant cello bow on a single sustained note, a single audible exhale, then silence for one bar]
 
 [Verse 1: vocal raw, very close, almost spoken, breath audible]
 Tirei a pele e não doeu
@@ -307,9 +299,7 @@ Que sempre fui`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: fingerpicked steel-string folk guitar with shimmering high-string starlight accents, vocal whispered]
-stardust...
-stardust...
+[Intro: shimmering high-string starlight accents alone for 3 seconds, then fingerpicked steel-string folk guitar enters, no vocal yet]
 
 [Verse 1: vocal close, contemplative cosmic perspective]
 I read somewhere that iron in my blood
@@ -365,9 +355,7 @@ Always`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: nylon bossa guitar with swelling tide-shaped pad and water field-recording, vocal whispered]
-a maré...
-a maré...
+[Intro: water field-recording (gentle waves) for 3 seconds, then nylon bossa guitar enters with swelling tide-shaped pad, no vocal yet]
 
 [Verse 1: vocal whispered, very close, tidal phrasing]
 Há um oceano que não molha
@@ -424,9 +412,7 @@ Eu fico`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: funk wah-guitar with rubbery bassline, snappy claps on 2 and 4, vocal whispered]
-eclipse...
-eclipse...
+[Intro: funk wah-guitar with rubbery bassline, snappy claps on 2 and 4, dramatic dissonant string stab on the four, no vocal — instrumental opening for 8 bars]
 
 [Verse 1: vocal close, dramatic intimacy, light-and-shadow phrasing]
 When the moon slides between
@@ -488,9 +474,7 @@ But you saw me`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: deep sub bass pulse, talking-drum rhythm, shaker on the off-beat, vocal whispered with hum]
-frequência...
-frequência...
+[Intro: low vocal hum drone alone for 4 seconds (no words), then deep sub bass pulse enters, talking-drum rhythm joins, shaker on the off-beat]
 
 [Verse 1: vocal close, resonant cosmic intimacy, hum drone underneath]
 Há uma nota que o universo toca
@@ -548,9 +532,7 @@ Para ouvir`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: solo voice opens, gospel piano enters, log drum and bright shaker, Hammond organ swells, vocal whispered]
-home...
-home...
+[Intro: solo gospel piano opens with rich chords, log drum sparse, bright shaker enters on the four, Hammond organ swells gradually, no vocal yet — instrumental opening for 6 bars]
 
 [Verse 1: vocal close, breathy, settled intimacy]
 Home is not the door I lock
