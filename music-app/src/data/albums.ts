@@ -1168,6 +1168,7 @@ const PRODUCED_SLUGS = new Set([
   "grao-o-tear", "incenso-salto-bonito",
   // Loranne formato VENNA (priority batch)
   "fibra-corpo-aberto",
+  "espelho-culpa",
 ]);
 
 // Exactamente os 39 álbuns que vão para Spotify via DistroKid
