@@ -1170,6 +1170,7 @@ const PRODUCED_SLUGS = new Set([
   "fibra-corpo-aberto",
   "espelho-culpa",
   "incenso-folego",
+  "incenso-oferenda",
 ]);
 
 // Exactamente os 39 álbuns que vão para Spotify via DistroKid
