@@ -1645,7 +1645,14 @@ export default function AlbumProductionPage() {
   const [statuses, setStatuses] = useState<Record<string, TrackStatus>>({});
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [audioUrls, setAudioUrls] = useState<Record<string, string>>({});
-  const [generatedClips, setGeneratedClips] = useState<Record<string, GeneratedClips>>({});
+  const [generatedClips, setGeneratedClips] = useState<Record<string, GeneratedClips>>(() => {
+    // Hydrate from localStorage to survive mobile reloads / visibility changes
+    if (typeof window === "undefined") return {};
+    try {
+      const raw = localStorage.getItem("loranne-generated-clips");
+      return raw ? JSON.parse(raw) : {};
+    } catch { return {}; }
+  });
   const [selectedClipIdx, setSelectedClipIdx] = useState<Record<string, number>>({});
   const [editedTitles, setEditedTitles] = useState<Record<string, string>>({});
   const [editedLyrics, setEditedLyrics] = useState<Record<string, string>>({});
@@ -1695,6 +1702,14 @@ export default function AlbumProductionPage() {
       try { localStorage.setItem("loranne-persona-name", personaName); } catch {}
     }
   }, [personaName]);
+
+  // Persist unapproved generated clips so mobile reloads / visibility changes
+  // (e.g. when picking an image from gallery) don't lose them.
+  useEffect(() => {
+    try {
+      localStorage.setItem("loranne-generated-clips", JSON.stringify(generatedClips));
+    } catch {}
+  }, [generatedClips]);
 
   const saveAlbumTitle = useCallback((slug: string, newTitle: string) => {
     const trimmed = newTitle.trim();
