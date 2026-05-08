@@ -1166,6 +1166,8 @@ const PRODUCED_SLUGS = new Set([
   "sangue-raiz", "nua-inteira", "nua-por-dentro",
   "nua-boa", "nua-pele", "nua-duas-vozes", "sangue-mae",
   "grao-o-tear", "incenso-salto-bonito",
+  // Loranne formato VENNA (priority batch)
+  "fibra-corpo-aberto",
 ]);
 
 // Exactamente os 39 álbuns que vão para Spotify via DistroKid
