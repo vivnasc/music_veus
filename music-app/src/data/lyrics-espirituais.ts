@@ -2146,9 +2146,7 @@ sem desconto`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: ambient house pads with ocean field-recording, distant cathedral reverb, vocal whispered]
-oceano...
-oceano...
+[Intro: ocean field-recording (waves and distant gulls) alone for 5 seconds, then ambient house pads enter with distant cathedral reverb, no vocal yet]
 
 [Verse 1: vocal whispered, very close, dissolved-into-vastness intimacy]
 De pé diante do oceano
@@ -2205,9 +2203,7 @@ a olhar`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: warm Rhodes piano with prismatic synth pads, single high-bell on chorus image, vocal whispered]
-cicatriz...
-cicatriz...
+[Intro: warm Rhodes piano alone with prismatic synth pads building underneath, no vocal — instrumental opening for 6 bars]
 
 [Verse 1: vocal close, honest about damage, no hiding]
 There are lines across my body
@@ -2255,9 +2251,7 @@ I walked through`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: fingerpicked steel-string folk guitar with hollow bone-like wooden-body percussion, vocal half-whispered]
-costelas...
-costelas...
+[Intro: a slow heartbeat sound (low thump, evenly spaced) for 4 seconds, then fingerpicked steel-string folk guitar enters with hollow bone-like wooden-body percussion, no vocal yet]
 
 [Verse 1: vocal raw, very close, almost spoken, hand-on-ribs intimacy]
 As costelas são arcos
@@ -2306,9 +2300,7 @@ Ainda`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: Mozambican nylon guitar with skin-on-skin body claps, warm shaker, vocal whispered female]
-hymn of skin...
-hymn of skin...
+[Intro: skin-on-skin body claps alone for 2 bars (rhythmic, intimate), then Mozambican nylon guitar enters with warm shaker on the off-beat, no vocal yet]
 
 [Verse 1: female vocal close, tactile intimacy]
 [Female]
@@ -2368,9 +2360,7 @@ The skin is singing`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: syncopated afrobeat guitar with talking-drum and shimmering high-string starlight accents, vocal whispered]
-poeira de estrelas...
-poeira de estrelas...
+[Intro: shimmering high-string starlight accents alone for 3 seconds, then syncopated afrobeat guitar enters with talking-drum pattern, warm bass groove builds, no vocal yet]
 
 [Verse 1: vocal close, cosmic intimacy, ancient phrasing]
 O cálcio nos meus ossos
@@ -2427,9 +2417,7 @@ sagrada`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: raw funk wah-guitar with dissonant string stabs, vertigo-pitched synth bend, vocal whispered female]
-terrified and free...
-terrified and free...
+[Intro: raw funk wah-guitar with dissonant string stabs, vertigo-pitched synth bend dropping in pitch, snappy claps on 2 and 4, no vocal — instrumental opening for 6 bars, deliberately unsettling]
 
 [Verse 1: alternating phrases, raw and exposed, sky-no-edge intimacy]
 [Female] I looked up and the sky had no edge
@@ -2476,9 +2464,7 @@ ground`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: nylon bossa with tidal swelling bass, lunar-shaped pad cycling slowly, vocal whispered]
-sangue e lua...
-sangue e lua...
+[Intro: tidal swelling bass alone for 4 seconds (rising and falling like a wave), then nylon bossa guitar enters with lunar-shaped pad cycling slowly underneath, no vocal yet]
 
 [Verse 1: vocal close, cyclical lunar phrasing, embodied warmth]
 O sangue desce como a maré que obedece
@@ -2539,9 +2525,7 @@ sempre volto`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: minimal felt-piano in vast empty room, breath audible, vocal half-whispered]
-small...
-small...
+[Intro: 3 seconds of room tone (a vast empty space), then a single tiny exhale audible, then minimal felt-piano enters with one note, then silence for one bar before verse]
 
 [Verse 1: vocal whispered, very close, almost spoken, breath audible]
 I am small
@@ -2596,9 +2580,7 @@ enough`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: log drum sparse, gospel choir hum building, Hammond organ swells, bright shaker on the four, vocal whispered]
-cabe tudo...
-cabe tudo...
+[Intro: log drum sparse alone for 3 seconds, then bright shaker enters on the four, gospel choir hum building gradually (no words), Hammond organ swells in the last 2 bars, no vocal yet — instrumental opening for 6 bars]
 
 [Verse 1: vocal close, breathy, expansive intimacy]
 Diziam que o peito é pequeno
@@ -2656,9 +2638,7 @@ o espaço`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: vocal close-mic in silent mirrored room, single piano note with long-tail reverb, no other instruments]
-mirror...
-mirror...
+[Intro: 4 seconds of complete silence in a tiled bathroom-like reverberant space, then a single piano note with long-tail reverb rings out, then silence again before verse — no vocal in the intro]
 
 [Verse 1: vocal raw, very close, almost spoken, breath audible, mirror silence]
 The bathroom light is merciless

@@ -3436,9 +3436,10 @@ Between us`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: single deep low bell rings once, mbira note, vocal whispered]
-ofereço...
-ofereço...
+[Intro: single deep low bell rings once, mbira note enters, vocal hums softly with no words]
+mmm...
+mmm...
+mmm...
 
 [Verse 1: vocal whispered, very close, almost spoken, mbira one note per phrase]
 Ponho na mesa o que tenho
@@ -3495,9 +3496,9 @@ na mesma...`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: acoustic guitar strumming upbeat folk feel, glockenspiel sparkle, vocal whispered]
-the list...
-the list...
+[Intro: acoustic guitar strumming upbeat folk feel, glockenspiel sparkle, vocal half-spoken with a smile]
+let me see what's here...
+let me just count for a minute...
 
 [Verse 1: vocal close, conversational, smile in the delivery]
 I took a pen and made a list
@@ -3539,9 +3540,7 @@ the list is never done...`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: gospel piano with rich chords, Hammond organ swell, vocal whispered]
-mãos no peito...
-mãos no peito...
+[Intro: gospel piano with rich chords, Hammond organ swell, kitchen-choir hum building, no vocal yet — instrumental opening]
 
 [Verse 1: vocal close, hand-on-chest tenderness]
 As mãos no peito, ambas abertas
@@ -3583,9 +3582,7 @@ sinto tudo aqui dentro...`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: fingerpicked classical guitar with Bach-like arpeggios, single long-tail reverb piano note, vocal half-whispered]
-grace...
-grace...
+[Intro: fingerpicked classical guitar with Bach-like arpeggios, ambient kitchen room tone, a single audible exhale, then silence for one beat]
 
 [Verse 1: vocal close, almost spoken, breath audible, pause before each line]
 Before the fork, before the bite
@@ -3627,9 +3624,7 @@ for all of this...`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: Mozambican-style nylon guitar, timbila marimba accents, shaker on the off-beat, vocal whispered]
-o que tenho...
-o que tenho...
+[Intro: Mozambican-style nylon guitar enters first, timbila marimba accent on the second bar, light shaker on the off-beat, no vocal until verse 1]
 
 [Verse 1: vocal close, conversational, taking inventory]
 Olho à volta e vejo pela primeira vez
@@ -3673,9 +3668,7 @@ tanto agora...`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: complete silence then a single audible inhale, then a sustained vocal note (no words) on a single pitch]
-mmm...
-mmm...
+[Intro: 4 seconds of complete silence then a single audible inhale, then a single sustained vocal note on one pitch (no words, no melody)]
 
 [Verse 1: vocal raw, very close, almost spoken, only breath and sustained vocal note]
 I stand inside the open door

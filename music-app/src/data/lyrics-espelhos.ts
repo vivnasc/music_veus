@@ -1736,9 +1736,7 @@ Só a respirar`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: fragmented arpeggio with off-beat synth stab, restless filtered hi-hat, vocal whispered]
-barulho bonito...
-barulho bonito...
+[Intro: fragmented arpeggio with off-beat synth stab, restless filtered hi-hat that never lands cleanly, no vocal — instrumental opening for 8 bars, deliberately busy and unsettled]
 
 [Verse 1: vocal close, scattered phrasing, busy intimacy]
 Mais um curso, mais um plano
@@ -1792,9 +1790,7 @@ Que chorei`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: solo vocal opens, single longing-shaped string ensemble bow, deep pad bed, vocal half-whispered]
-what's missing...
-what's missing...
+[Intro: deep pad bed alone for 3 seconds, then a single longing-shaped string ensemble bow enters, a single audible exhale, then silence for one bar]
 
 [Verse 1: vocal raw, very close, almost spoken, breath audible]
 I bought the dress, I felt the glow
@@ -1847,9 +1843,9 @@ For years and years and years`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: muted upright piano with single small-bell touch, contained vocal, vocal whispered]
-mais pequena...
-mais pequena...
+[Intro: muted upright piano with single small-bell touch on each phrase ending, vocal hums very softly with no words, almost as if afraid to be heard]
+mmm...
+mmm...
 
 [Verse 1: vocal whispered, contained, almost ashamed phrasing]
 Encolhi o sonho para caber na sala
@@ -1903,9 +1899,7 @@ E minha`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: long opening silence then a single piano note emerges gradually, vocal whispered]
-a hora vazia...
-a hora vazia...
+[Intro: 6 seconds of complete silence, then a single piano note emerges gradually, then another, the silence is the instrument — no vocal yet]
 
 [Verse 1: vocal close, slow walking phrasing, sitting with nothing]
 Desliguei tudo e fiquei
@@ -1959,9 +1953,7 @@ De tudo o que importa`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: descending piano melody starting full, soft cello, vocal half-whispered]
-empty...
-empty...
+[Intro: descending piano melody starting full with soft cello underneath, a single audible exhale, then silence for one bar before verse]
 
 [Verse 1: vocal raw, very close, almost spoken, breath audible]
 I filled my house with pretty things
@@ -2013,9 +2005,7 @@ Beautifully, terrifyingly free`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: rich warm synth pad solo, vocal whispered, ascending bass pedal beginning to climb]
-desejo verdadeiro...
-desejo verdadeiro...
+[Intro: rich warm synth pad alone for 4 seconds, ascending bass pedal beginning to climb slowly, no vocal — instrumental opening for 6 bars]
 
 [Verse 1: vocal close, breathy, declarative intimacy]
 Debaixo dos sonhos que me emprestaram
@@ -2068,9 +2058,7 @@ Mas que arde, arde, arde`,
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Intro: vast soundscape with open harmonic chord, voice in long-tail reverb, vocal whispered]
-espaço...
-espaço...
+[Intro: vast soundscape with an open harmonic chord that resolves slowly across 8 seconds, no vocal — instrumental opening, the space itself is the instrument]
 
 [Verse 1: vocal whispered, very close, vast spacious phrasing]
 O vazio que eu fugia
