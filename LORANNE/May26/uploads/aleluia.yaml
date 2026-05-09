@@ -1,0 +1,875 @@
+# INCENSO-ALELUIA — Alegria como resistência
+# Para quem perdeu o riso — anos a aguentar, a sobreviver. Alegria como resistência. Festa antes da razão. Suor que vira oração. Celebrar como acto político. Princípio editorial: Maioria gospel (7 track
+# Persona: Loranne (voice id a8ad18d5-d23e-4c97-ad68-1006de7ac76d)
+# Carregar via /admin/albums (YAML upload)
+
+slug: incenso-aleluia
+title: Aleluia
+subtitle: Alegria como resistência
+color: '#E07050'
+collection: incenso
+artist:
+  slug: loranne
+  name: Loranne
+  bio: Contemporary organic-electronic — AwakeSoul lineage. Contemplative, transformative.
+  photo_url: /Loranne-home.png
+published: false
+status: draft
+distribution: false
+tracks:
+- number: 1
+  title: Riso Antigo
+  description: Abertura — lembrar o riso antes de o ter perdido.
+  lang: PT
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Abertura — lembrar o riso antes de o ter perdido..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo upright piano with felt damper, warm Hammond pad very low in mix, room tone, fai
+    [Verse 1]
+    Tinha esquecido o som
+    Do meu próprio riso
+    Há quanto tempo não me ouvia
+    Não me lembrava da forma
+    Da boca aberta de mim mesma
+    Da garganta sem peso
+    Do som que sai sem aviso
+    Quando uma coisa toca o sítio certo
+    [Verse 2]
+    Hoje uma criança disse uma coisa
+    E eu ri alto
+    E o som assustou-me
+    Como se viesse de fora
+    Mas era meu — antigo, intacto
+    Tinha estado guardado
+    Num bolso que eu pensava vazio
+    E hoje saiu inteiro
+    [Pre-Chorus]
+    Não desaparece
+    Só se esconde
+    O riso é mais antigo
+    Que a tristeza que o cobriu
+    [Chorus]
+    Riso antigo
+    Que tinha guardado bem
+    Riso antigo
+    Que voltou sem combinar
+    Não me peças explicação
+    Foi a criança, foi o tempo, foi o ar
+    Foi qualquer coisa que tocou
+    O sítio onde tu sempre estiveste
+    [Verse 3]
+    Não te apresses para sorrir
+    Se ainda não dá
+    Mas escuta os teus risos
+    Que ainda lá estão
+    A bater à porta de dentro
+
+    A querer sair quando puderem
+    Hoje saiu o meu
+    E foi como ouvir um amigo
+    [Chorus: single soft harmony enters]
+    Riso antigo
+    Que tinha guardado bem
+    Riso antigo
+    Que voltou sem combinar
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Há um riso teu
+    A dormir nalgum bolso
+    Vai voltar
+    Não sei quando
+    Sei que é teu
+    E que ainda existe
+    E que está intacto
+    [Outro: vocal exhaled, piano fading]
+    Riso antigo
+    voltou sem combinar
+    riso antigo
+  published: false
+  key_verse: Lembrei-me do meu riso. / Tinha esquecido o som.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + warm Hammond pad (very low'
+  bpm: 70
+  mood_secondary: lembrar
+- number: 2
+  title: The First Smile
+  description: The first smile after years — caught by surprise, in a mirror.
+  lang: EN
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: The first smile after years — caught by surprise, in a mirror..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: fingerpicked nylon guitar, soft cello drone, room creak, no drums]
+    [Verse 1]
+    I caught it in the bathroom mirror
+    A small unguarded smile
+    I had been brushing my teeth
+    And thinking of nothing in particular
+    And the face in the mirror
+    Was smiling back at me
+    And I — I had not authorized this
+    And the face was mine
+    [Verse 2]
+    I had been watching myself for so long
+    Watching for relapse, watching for collapse
+    Watching for the next bad day
+    That I had stopped watching for the good
+    And there it was, the good
+    Quietly returning
+    Through the muscles in my face
+    That had remembered the position
+    [Pre-Chorus]
+    The body remembers
+    What the mind forgot
+    The body remembers smiling
+    Even in the years of no
+    [Chorus]
+    The first smile in years
+    Surprised me in a mirror
+    The first smile in years
+    Was already there before I noticed
+    Don't ask me what was funny
+    Nothing was funny
+    The face just remembered the shape
+    And the shape returned
+    [Verse 3]
+    I held the smile for a moment
+
+    To see if it was real
+    And it was real
+    Which is to say — it stayed
+    And then it went, like a guest
+    Who knows when to leave
+    But I knew, I knew now
+    That it knew where I lived
+    [Chorus: single soft harmony enters, soft brushed drum]
+    The first smile in years
+    Surprised me in a mirror
+    The first smile in years
+    Was already there before I noticed
+    [Bridge: vocal close, no harmonies, only guitar and cello — opens, does not resolve]
+    Watch your own face
+    When you are not paying attention
+    The face is doing things
+    That you have not authorized
+    And some of those things
+    Are good news
+    That has not yet been delivered
+    To your front desk
+    [Outro: vocal soft, guitar fading]
+    The first smile
+    in the mirror
+    the first smile
+  published: false
+  key_verse: The first smile in years / surprised me in a mirror.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal · gospel piano + soft hand-claps from verse 2 +'
+  bpm: 76
+- number: 3
+  title: A Boca Lembrou-se
+  description: Primeiro movimento — a boca lembra-se de cantar antes de a cabeça decidir.
+  lang: PT
+  energy: steady
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic. Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm, acoustic guitar, warm bass, light percussion, piano accents. Walking pace, present, embodied. No autotune. Clean vocal production. 90 BPM, signature element: warm vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. grounded, present, embodied. warm vocal. Theme: Primeiro movimento — a boca lembra-se de cantar antes de a cabeça decidir..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with soft Hammond, light brushed drums entering on bar 4, warm fretless
+    [Verse 1]
+    Estava na cozinha a fazer chá
+    E a boca começou a cantar
+    Não escolhi a canção
+    Não escolhi a hora
+    A boca lembrou-se sozinha
+    Da letra que eu tinha guardado
+    Há anos a não cantar
+    Há anos com a boca calada
+    [Verse 2]
+    Era uma canção da minha avó
+    Não a chamei, ela veio
+    Trazida pela boca
+    Que sabia o caminho
+    A cabeça veio depois
+    A acompanhar
+    A perceber que eu estava a cantar
+    Pela primeira vez em muito tempo
+    [Pre-Chorus]
+    A boca tem memória
+    A garganta tem memória
+    A música está guardada
+    Onde a tristeza não chegou
+    [Chorus]
+    A boca lembrou-se
+    Cantou primeiro
+    A boca lembrou-se
+    Da canção que eu tinha esquecido
+    Não foi vontade, foi instinto
+    Não foi decisão, foi corpo
+
+    A boca quer cantar
+    E hoje deixei
+    [Verse 3]
+    Cantei até o chá ferver
+    Cantei até o sol bater na mesa
+    Não foi performance
+    Não foi para ninguém
+    Foi para a cozinha vazia
+    E para a parede branca
+    E para o meu próprio peito
+    Que ouviu sem comentar
+    [Chorus: 3-voice airy harmonies enter, tambourine on chorus 2]
+    A boca lembrou-se
+    Cantou primeiro
+    A boca lembrou-se
+    Da canção que eu tinha esquecido
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não te peço para cantares
+    Lava louça, faz café
+    Mexe-te à volta de casa
+    E vê se a boca não te apanha
+    A cantarolar
+    Sem ter combinado
+    Que o corpo é quem decide
+    Quando volta a música
+    [Outro: vocal soft, piano fading]
+    A boca lembrou-se
+    e cantou
+    a boca lembrou-se
+  published: false
+  key_verse: A boca cantou primeiro. / A cabeça veio depois.
+  suno_prompt: 'Style: contemporary gospel · warm vocal · gospel piano + soft Hammond + light brushed drums +'
+  bpm: 90
+  mood_secondary: aterrar
+- number: 4
+  title: Dancing in the Kitchen
+  description: The body remembering rhythm before the mind agreed to it.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: driving four-on-the-floor kick, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. driving four-on-the-floor kick. Theme: The body remembering rhythm before the mind agreed to it..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads, plucky synth lead, Hammond chord stabs, sidechained kick entering on
+    [Verse 1]
+    I was making the bed
+    And a song came on the radio
+    And before I could decide
+    The hips were moving
+    Just a little, just a sway
+    Not a dance, just a memory of a dance
+    And I — I had not authorized this
+    And the body kept going
+    [Verse 2]
+    The kitchen turned into a small floor
+    The radio turned into a small DJ
+    The morning turned into a small party
+    That had no name and no guests
+    Just me and the body
+    That had not forgotten how to move
+    After all these years
+    After all this no
+    [Pre-Chorus]
+    The body has the rhythm
+    That the mind tried to bury
+    The body has the rhythm
+    That outlives the grief
+    [Chorus]
+
+    Dancing in the kitchen
+    Before I gave permission
+    Dancing in the kitchen
+    With nobody to applaud
+    Not a performance, not a show
+    Just the body remembering
+    That movement is older than mood
+    And mood will catch up later
+    [Verse 3]
+    By the end of the song
+    I was actually dancing
+    Hands in the air, hips deciding
+    The eyes a little wet
+    Not from sadness now
+    From something I had not felt in years
+    The body had given me back
+    The thing I had stopped looking for
+    [Chorus]
+    Dancing in the kitchen
+    Before I gave permission
+    Dancing in the kitchen
+    With nobody to applaud
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    Put on a song right now
+    Don't read this — put it on
+    And let the body decide
+    What to do with the next four minutes
+    You may surprise yourself
+    You may surprise yourself
+    The body remembers
+    The body remembers
+    [Final Chorus: full harmony stack, sidechained pads peak, never shouted]
+    Dancing in the kitchen
+    Before I gave permission
+    Dancing in the kitchen
+    With nobody to applaud
+    [Outro: vocal soft, kick fades]
+    Dancing in the kitchen
+    the body remembers
+    dancing in the kitchen
+  published: false
+  key_verse: The body moved before I gave permission. / The body has not forgotten.
+  suno_prompt: 'Style: gospel house · driving four-on-the-floor kick · warm sidechained pads + plucky synth l'
+  bpm: 108
+  mood_secondary: aterrar
+- number: 5
+  title: Festa Pequena
+  description: PEAK 1 — primeira marrabenta. Festa pequena. Celebração doméstica como acto político.
+  lang: PT
+  energy: anthem
+  flavor: marrabenta
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal that never shouts, no amapiano no tropical reggaeton. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal that never shouts. Theme: PEAK 1 — primeira marrabenta. Festa pequena. Celebração doméstica como acto político..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: warm marrabenta guitar picking, bass, congas, shaker entering on bar 4, hand-claps po
+    [Verse 1]
+    Festa pequena na cozinha
+    Eu, a panela e o rádio
+    Não convidei ninguém
+    Não pus cartaz na rua
+    A festa é minha hoje
+    E pode ser de uma só
+    Não tem fotografia
+    Não tem testemunha
+    [Verse 2]
+    Pus a música alta
+    Pus o tempero a mais
+    Dancei com a colher de pau
+    Cantei para o frigorífico
+    Não estou a fingir bem
+
+    Estou a estar bem
+    E é diferente
+    É finalmente diferente
+    [Pre-Chorus]
+    A festa pequena é privada
+    Não tem dono, não tem público
+    A festa pequena é o ensaio
+    Da festa grande que vem aí
+    [Chorus]
+    Festa pequena na cozinha
+    O mundo lá fora não vai saber
+    E ainda bem
+    A celebração é minha
+    O meu corpo, o meu chão, o meu fogão
+    Toda a gente que sofreu como eu sofri
+    Tem direito a esta festa
+    Sem precisar de pedir licença
+    [Verse 3]
+    Vais dizer-me que é pouco
+    Que celebrar sozinha não é festa
+    Mas eu digo-te que aprendi
+    Que a festa começa em casa
+    Antes de ter convidados
+    Antes de ter razão
+    Antes de ter motivo
+    A festa é decisão
+    [Chorus: full female chorus enters humming, congas + hand-claps polyrhythmic peak]
+    Festa pequena na cozinha
+    O mundo lá fora não vai saber
+    E ainda bem
+    A celebração é minha
+    O meu corpo, o meu chão, o meu fogão
+    Toda a gente que sofreu como eu sofri
+    Tem direito a esta festa
+    Sem precisar de pedir licença
+
+    [Bridge: vocal close, chorus hums underneath, marrabenta guitar continues — opens, does not r
+    (European Portuguese, Portugal accent:)
+    Há uma festa pequena à tua espera
+    Numa noite qualquer desta semana
+    Não esperes a razão
+    Põe a música, fecha a cozinha
+    Dança até o frango ficar pronto
+
+    Canta para o teflon
+    E vê o que acontece dentro do peito
+    [Final Chorus: 4-voice female chorus layered, peak warmth, never shouted]
+    Festa pequena
+    e ainda bem
+    festa pequena
+    e ainda bem
+    [Outro: vocal soft, marrabenta guitar lingers]
+    Festa pequena
+    na cozinha
+    festa pequena
+  published: false
+  key_verse: Festa pequena na cozinha. / O mundo lá fora não vai saber. / E ainda bem.
+  suno_prompt: 'Style: marrabenta with female chorus textures · warm chest vocal that never shouts · warm gui'
+  bpm: 100
+  mood_secondary: aterrar
+- number: 6
+  title: Joy Without Reason
+  description: Recolher — joy that arrived without a justification, and stayed anyway.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Recolher — joy that arrived without a justification, and stayed anyway..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: felt-piano, warm Hammond pad very low, ambient room tone with faint birdsong from a w
+    [Verse 1]
+
+    Joy came in without a reason
+    Tuesday afternoon
+    Nothing had changed
+    The world was still itself
+    The bills, the body, the news
+    The same small set of difficulties
+    And still — joy came in
+    And sat down at the table
+    [Verse 2]
+    I asked it what it wanted
+    It did not answer
+    I asked it why it had come
+    It just sat there, drinking my tea
+    Eventually I understood
+    Joy does not need reasons
+    The reasoning kind of joy
+    Is conditional and brittle
+    [Pre-Chorus]
+    The joy that needs a reason
+    Leaves when the reason leaves
+    The joy without reason
+    Stays until it leaves on its own
+    [Chorus]
+    Joy without reason
+    Is the only kind that lasts
+    Joy without reason
+    Visits you when nothing changed
+    Don't ask it to explain
+    Don't ask it to justify
+    Just pour it a small cup
+    And let it stay as long as it wants
+    [Verse 3]
+    By evening it had gone
+    But I was not destroyed
+    This is the difference
+    Between joy and pleasure
+    Pleasure leaves a hangover
+    Joy leaves a residue
+    Of having been visited
+    By something that was not for sale
+    [Chorus]
+    Joy without reason
+
+    Is the only kind that lasts
+    Joy without reason
+    Visits you when nothing changed
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    There is a joy waiting for you
+    That has no reason
+    It is not earned, not deserved, not bought
+    It just visits, occasionally
+    Unannounced, unscheduled
+    Make space for it
+    Make a little space for it
+    At the kitchen table
+    [Outro: vocal exhaled, piano fades]
+    Joy without reason
+    the visitor
+    joy without reason
+  published: false
+  key_verse: Joy without reason / is the only kind that lasts.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + warm Hammond pad (very low'
+  bpm: 70
+  mood_secondary: respirar
+- number: 7
+  title: Cantar Alto
+  description: Reabertura — cantar alto pela primeira vez em anos. A garganta lembra-se.
+  lang: PT
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: Reabertura — cantar alto pela primeira vez em anos. A garganta lembra-se..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo gospel piano, warm Hammond chord swell, low fretless bass, no drums]
+    [Verse 1]
+    Tinha cantado em surdina
+    Tantos anos a engolir
+    A música por dentro
+    Para não incomodar
+    Hoje cantei alto
+    Sozinha em casa
+    A garganta doeu
+    A garganta agradeceu
+    [Verse 2]
+    A garganta tem músculo
+    Que se atrofia sem uso
+    Anos a falar baixo
+    Anos a não chorar alto
+    Anos a não rir alto
+    A garganta esqueceu o tamanho
+    Hoje, hoje lembrou-se
+    E o eco encheu o corredor
+    [Pre-Chorus]
+    Cantar alto não é alarde
+    Cantar alto é exercício
+    Cantar alto é vingança
+    Contra os anos de silêncio
+    [Chorus]
+    Cantei alto
+    A garganta abriu
+    Cantei alto
+    O peito alargou
+    Não para ninguém ouvir
+    Para o eco voltar
+    Para as paredes lembrarem
+    Que vivem com uma mulher viva
+    [Verse 3]
+    A vizinha bateu à parede
+    Não em queixa, em saudação
+    Disse depois no corredor
+    — Não te ouvia há tanto tempo
+    E eu chorei na escada
+    Da forma boa
+    A vizinha sabia
+
+    Que a minha falta de canto era doença
+    [Chorus: single soft harmony enters, hand-claps soft, brushed drum on final chorus]
+    Cantei alto
+    A garganta abriu
+    Cantei alto
+    O peito alargou
+    [Bridge: vocal close, only piano and Hammond — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Vai à varanda quando ninguém te ouvir
+    Ou ao chuveiro quando a água tapar
+    E canta uma vez alto
+    Não bonito, alto
+    A garganta não se importa com bonito
+    A garganta importa-se com aberto
+    [Outro: vocal soft, piano fading]
+    Cantei alto
+    e o peito alargou
+    cantei alto
+  published: false
+  key_verse: Cantei alto. / A garganta abriu. / O peito alargou.
+  suno_prompt: 'Style: stripped-back gospel · raw close-mic vocal · solo gospel piano + warm Hammond chord sw'
+  bpm: 76
+- number: 8
+  title: Suor é Oração
+  description: PEAK 2 — segunda marrabenta. O corpo a dançar até suar é a oração mais antiga.
+  lang: PT
+  energy: pulse
+  flavor: marrabenta
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal that opens on chorus, no amapiano no tropical reggaeton. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal that opens on chorus. Theme: PEAK 2 — segunda marrabenta. O corpo a dançar até suar é a oração mais antiga..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: marrabenta guitar picking, bass, congas, shaker, djembe entering on bar 4, hand-claps
+    [Verse 1]
+    Dancei até suar
+    Não no ginásio
+    Na sala
+    Com a porta fechada
+    A música alta
+    O cabelo a colar à testa
+    A camisola a pesar
+    E foi oração
+    [Verse 2]
+    A oração que conheço
+    Não é de joelhos
+    É de pé, com os pés a bater
+    A oração das minhas avós
+    Antes da igreja chegar
+    A oração que veio antes
+    Que foi quase apagada
+    E que eu hoje dancei
+    [Pre-Chorus]
+    O suor é oração
+    Antiga, anterior
+    À palavra, à vénia
+    Ao livro, ao templo
+    [Chorus]
+    O suor é oração
+    O corpo é o templo
+    Que ninguém me pode tirar
+    Não preciso de licença
+    Não preciso de doutrina
+    Ponho a música, mexo o quadril
+    E a canção que sai do meu peito
+    É a mais antiga oração que existe
+    [Verse 3]
+    Disseram-me que o corpo era pecado
+
+    Disseram-me que dançar era frívolo
+    Disseram-me que a alegria era distracção
+    Da seriedade da fé
+    Mas a fé das minhas avós
+    Era dançada, era cantada
+    Era suor a sair do corpo
+    Como a água sai da terra grávida
+    [Chorus: full female chorus enters humming, djembe + congas + hand-claps polyrhythmic peak]
+    O suor é oração
+    O corpo é o templo
+    Que ninguém me pode tirar
+    Não preciso de licença
+    Não preciso de doutrina
+
+    [Bridge: vocal opens, chorus hums underneath, marrabenta guitar surges — opens, does not reso
+    (European Portuguese, Portugal accent:)
+    Ninguém te disse que o corpo a dançar
+    Era o primeiro modo de rezar
+    Eles tiraram-te isso
+    E deram-te o silêncio
+    Mas o corpo lembra-se
+    O corpo sempre se lembra
+    E hoje o corpo recupera
+    O que lhe foi roubado
+    [Final Chorus: 4-voice female chorus layered, marrabenta peaks]
+    O suor é oração
+    O corpo é o templo
+    O suor é oração
+    Que ninguém me pode tirar
+    [Outro: vocal soft, marrabenta guitar lingers, congas fading]
+    O suor é oração
+    o corpo é o templo
+    o suor é oração
+  published: false
+  key_verse: O suor é oração. / O corpo é o templo / que ninguém me pode tirar.
+  suno_prompt: 'Style: marrabenta with house pulse · warm vocal that opens on chorus · marrabenta guitar pick'
+  bpm: 108
+  mood_secondary: aterrar
+- number: 9
+  title: Aleluia
+  description: PEAK FINAL — terceira marrabenta. A palavra antiga reclamada. Aleluia como grito político de sobreviventes.
+  lang: PT
+  energy: anthem
+  flavor: marrabenta
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: powerful chest vocal that never shouts, no amapiano no tropical reggaeton. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. powerful chest vocal that never shouts. Theme: PEAK FINAL — terceira marrabenta. A palavra antiga reclamada. Aleluia como grito político de sobreviventes..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: marrabenta guitar picking, bass, congas, djembe, warm Hammond organ swell, hand-claps
+    [Verse 1]
+    Aleluia
+    Era palavra que me afastei
+    Era palavra que outros usavam
+    Para me dizer o que sentir
+    Hoje uso eu
+    Sem permissão de ninguém
+    Aleluia das mulheres
+    Que aguentaram tudo e ainda riram
+    [Verse 2]
+    Aleluia da minha avó
+    Que enterrou três filhos
+    E continuou a cantar na cozinha
+    Aleluia da minha tia
+    Que perdeu o marido jovem
+    E continuou a dançar nos casamentos
+    Aleluia das que vieram antes
+    E que ainda hoje dão música em mim
+    [Pre-Chorus]
+    Aleluia não é triunfo
+    Aleluia é resistência
+    Aleluia é o riso
+
+    Que o sofrimento não conseguiu apagar
+    [Chorus]
+    Aleluia
+    Das mulheres que aguentaram tudo
+    Aleluia
+    Das que ainda riram
+    Aleluia
+    Da festa que fizeram
+    Quando ninguém estava a ver
+    Aleluia
+    Da alegria que é política
+    Quando a opressão pede tristeza
+    [Verse 3]
+    Não te peço para acreditares em deus
+    Esta aleluia é horizontal
+    É de mulher para mulher
+    É de avó para neta
+    É a transmissão da risada
+    Que atravessa as gerações
+    Como uma chama escondida
+    Numa lamparina de barro
+
+    [Chorus: full female chorus enters, Hammond blooms, congas + tambourine + warm strings + djem
+    Aleluia
+    Das mulheres que aguentaram tudo
+    Aleluia
+    Das que ainda riram
+    Aleluia
+    Da festa que fizeram
+    Quando ninguém estava a ver
+    Aleluia
+    Da alegria que é política
+
+    [Bridge: vocal close, chorus hums underneath, marrabenta guitar continues — opens, does not r
+    (European Portuguese, Portugal accent:)
+    Diz aleluia hoje
+    Não a gritar — a sussurrar
+    Diz pelas mulheres da tua família
+    Que riram baixinho na cozinha
+    Quando a casa estava cheia de luto
+    Diz por elas
+    E vê se a palavra
+    Não te enche o peito mais do que esperavas
+
+    [Final Chorus: 6-voice female chorus layered, marrabenta + gospel textures peak, never shoute
+
+    Aleluia
+    das que aguentaram
+    aleluia
+    das que riram
+    aleluia
+    da alegria política
+    [Outro: vocal soft, marrabenta guitar and chorus fade]
+    Aleluia
+    das mulheres
+    aleluia
+  published: false
+  key_verse: Aleluia das mulheres / que aguentaram tudo / e ainda riram.
+  suno_prompt: 'Style: marrabenta gospel anthem · powerful chest vocal that never shouts · marrabenta guitar'
+  bpm: 100
+  mood_secondary: aterrar
+- number: 10
+  title: What Joy Leaves
+  description: Outro — what joy actually leaves behind, when the celebration is over.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Outro — what joy actually leaves behind, when the celebration is over..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo felt-piano, warm Hammond pad very low, faint distant tambourine echo (one hit, v
+    [Verse 1]
+    The dancing is over
+    The kitchen is dark
+
+    The radio is off
+    The body is tired in the good way
+    And I — I am here
+    On the kitchen chair
+    With the small smile
+    That outlasts the song
+    [Verse 2]
+    This is what joy leaves
+    Not a story to tell
+    Not a triumph to remember
+    A small temperature in the chest
+    That stays for hours
+    After the music has stopped
+    The body is a vessel
+    That joy used and left warm
+    [Pre-Chorus]
+    She does not promise to come back
+    That would be a lie
+    She promises to find me
+    If I keep the door unlocked
+    [Chorus]
+    What joy leaves
+    Is a temperature, not a memory
+    What joy leaves
+    Is a shape in the room she sat in
+    The chair is still warm
+    The cup is on the counter
+    The radio is still on the same station
+    That she was listening to
+    [Verse 3]
+    I will not chase her
+    I have learned that does not work
+    I will keep the door unlocked
+    I will keep dancing in the kitchen
+    On Tuesday afternoons for no reason
+    And she will visit
+    When she visits
+    Without my prayer
+    [Chorus]
+    What joy leaves
+    Is a temperature, not a memory
+    What joy leaves
+
+    Is a shape in the room she sat in
+
+    [Bridge: vocal close, single soft harmony layer enters, only piano — opens, does not resolve]
+    The ones who lost their laugh
+    And found it again
+    Know something that cannot be taught
+    Joy is a guest
+    Not a possession
+    And the door must stay unlocked
+    For all the visitors
+    That have not yet arrived
+
+    [Outro: vocal exhaled, distant tambourine echo, piano resolves softly to C major in last bar]
+    What joy leaves
+    is a temperature
+    what joy leaves
+    the door unlocked
+  published: false
+  key_verse: Joy doesn’t promise to come back. / But the room remembers her shape.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + warm Hammond pad (very low'
+  bpm: 70
+  mood_secondary: respirar
