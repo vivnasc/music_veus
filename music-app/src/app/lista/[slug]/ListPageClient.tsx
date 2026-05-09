@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { ALL_LISTS, resolveList, type ResolvedTrack } from "@/data/curated-lists";
 import { ALL_ALBUMS, type Album } from "@/data/albums";
 import { useMusicPlayer } from "@/contexts/MusicPlayerContext";
@@ -12,6 +13,7 @@ import ListTrackRow from "@/components/music/ListTrackRow";
 import VersionTracks from "@/components/music/VersionTracks";
 import NavBar from "@/components/music/NavBar";
 import type { TrackEnergy } from "@/data/albums";
+import { LORANNE_MOODS, MOOD_META, type LoranneMood } from "@/data/loranne-moods";
 
 type AlbumGroup = {
   album: Album;
@@ -22,9 +24,12 @@ type Props = {
   slug: string;
   categoryLabel: string;
   moodEnergy: TrackEnergy | null;
+  loranneMood?: { mood: LoranneMood; vibe: string } | null;
 };
 
-export default function ListPageClient({ slug, categoryLabel, moodEnergy }: Props) {
+export default function ListPageClient({ slug, categoryLabel, moodEnergy, loranneMood }: Props) {
+  const router = useRouter();
+  const [showMixPicker, setShowMixPicker] = useState(false);
   const list = ALL_LISTS.find(l => l.slug === slug)!;
   const allTracks = resolveList(list);
   const { playTrack, playAlbum, currentTrack, currentAlbum } = useMusicPlayer();
@@ -114,6 +119,11 @@ export default function ListPageClient({ slug, categoryLabel, moodEnergy }: Prop
               </span>
               <h1 className="font-display text-3xl font-bold text-[#F5F0E6] mt-1">{list.title}</h1>
               <p className="text-sm text-[#a0a0b0] mt-1">{list.subtitle}</p>
+              {loranneMood && (
+                <p className="text-[11px] text-[#666680] mt-1.5 italic">
+                  {loranneMood.vibe}
+                </p>
+              )}
               <p className="text-xs text-[#666680] mt-2">
                 {albumGroups.length > 1 && <>{albumGroups.length} albuns &middot; </>}
                 {publishedTracks.length} faixas
@@ -141,6 +151,22 @@ export default function ListPageClient({ slug, categoryLabel, moodEnergy }: Prop
                     </svg>
                     Shuffle
                   </button>
+                  {loranneMood && (
+                    <button
+                      onClick={() => setShowMixPicker(true)}
+                      className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm border transition-colors"
+                      style={{
+                        color: list.color,
+                        borderColor: `${list.color}66`,
+                      }}
+                    >
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4">
+                        <line x1="12" y1="5" x2="12" y2="19" />
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                      </svg>
+                      Misturar com...
+                    </button>
+                  )}
                 </div>
               )}
             </div>
@@ -247,6 +273,114 @@ export default function ListPageClient({ slug, categoryLabel, moodEnergy }: Prop
         {!selectedAlbum && moodEnergy && (
           <VersionTracks energy={moodEnergy} listColor={list.color} startIndex={publishedTracks.length} />
         )}
+      </div>
+
+      {/* Mix picker modal — Loranne moods only */}
+      {showMixPicker && loranneMood && (
+        <MixPickerModal
+          baseMood={loranneMood.mood}
+          onClose={() => setShowMixPicker(false)}
+          onConfirm={(extras) => {
+            const moods = [loranneMood.mood, ...extras].join(",");
+            router.push(`/lista/mix?moods=${moods}`);
+          }}
+        />
+      )}
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────
+// MixPickerModal — choose extra moods to mix with the current one
+// ─────────────────────────────────────────────
+
+function MixPickerModal({
+  baseMood,
+  onClose,
+  onConfirm,
+}: {
+  baseMood: LoranneMood;
+  onClose: () => void;
+  onConfirm: (extras: LoranneMood[]) => void;
+}) {
+  const [selected, setSelected] = useState<Set<LoranneMood>>(new Set());
+
+  function toggle(m: LoranneMood) {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (next.has(m)) next.delete(m); else next.add(m);
+      return next;
+    });
+  }
+
+  const baseMeta = MOOD_META[baseMood];
+
+  return (
+    <div className="fixed inset-0 z-50 bg-black/70 flex items-end sm:items-center justify-center p-4">
+      <div
+        className="absolute inset-0"
+        onClick={onClose}
+      />
+      <div className="relative bg-[#1a1a2e] rounded-2xl max-w-md w-full p-5 max-h-[80vh] overflow-y-auto border border-white/10">
+        <div className="flex items-baseline justify-between mb-4">
+          <div>
+            <h3 className="text-lg font-semibold text-white">Misturar com…</h3>
+            <p className="text-xs text-[#a0a0b0] mt-0.5">Junta outros estados a {baseMeta.label}</p>
+          </div>
+          <button onClick={onClose} className="text-[#a0a0b0] hover:text-white p-1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
+              <path d="M6 6l12 12M6 18L18 6" />
+            </svg>
+          </button>
+        </div>
+
+        <div className="grid grid-cols-2 gap-2">
+          {LORANNE_MOODS.filter((m) => m !== baseMood).map((m) => {
+            const meta = MOOD_META[m];
+            const isSelected = selected.has(m);
+            return (
+              <button
+                key={m}
+                onClick={() => toggle(m)}
+                className="text-left rounded-xl p-3 transition-all border-2"
+                style={{
+                  backgroundColor: isSelected ? `${meta.color}33` : "rgba(255,255,255,0.03)",
+                  borderColor: isSelected ? meta.color : "transparent",
+                }}
+              >
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-sm font-semibold text-white">{meta.label}</span>
+                  {isSelected && (
+                    <svg viewBox="0 0 24 24" fill="none" stroke={meta.color} strokeWidth="3" className="w-4 h-4">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  )}
+                </div>
+                <p className="text-[10px] text-[#a0a0b0] line-clamp-2">{meta.paraQuem}</p>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="flex items-center gap-3 mt-5">
+          <button
+            onClick={onClose}
+            className="flex-1 px-4 py-2.5 rounded-full text-sm text-[#a0a0b0] border border-white/10 hover:bg-white/5"
+          >
+            Cancelar
+          </button>
+          <button
+            onClick={() => onConfirm(Array.from(selected))}
+            disabled={selected.size === 0}
+            className={`flex-1 px-4 py-2.5 rounded-full text-sm font-semibold transition ${
+              selected.size === 0
+                ? "bg-white/10 text-white/40 cursor-not-allowed"
+                : "bg-[#C9A96E] text-black hover:bg-[#D4B57F]"
+            }`}
+          >
+            Tocar mix ({selected.size + 1})
+          </button>
+        </div>
       </div>
     </div>
   );

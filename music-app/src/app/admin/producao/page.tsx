@@ -731,25 +731,71 @@ function ClipApprovalRow({
 
 // Mood lookup — uses the auto-tagged loranne-moods-data.json (compact format)
 const MOODS_DATA = LORANNE_MOODS_DATA as unknown as CompactMoodsData;
-function getTrackMoods(albumSlug: string, trackNumber: number): { moods: string[]; confidence: number } | null {
-  const compact = MOODS_DATA.tracks[`${albumSlug}/${trackNumber}`];
+
+// Manual overrides stored in localStorage (admin per-track tweaks)
+function loadMoodOverrides(): Record<string, string[]> {
+  if (typeof window === "undefined") return {};
+  try {
+    const raw = localStorage.getItem("loranne-mood-overrides");
+    return raw ? JSON.parse(raw) : {};
+  } catch { return {}; }
+}
+
+function saveMoodOverride(key: string, moods: string[]) {
+  if (typeof window === "undefined") return;
+  try {
+    const overrides = loadMoodOverrides();
+    overrides[key] = moods;
+    localStorage.setItem("loranne-mood-overrides", JSON.stringify(overrides));
+  } catch {}
+}
+
+function clearMoodOverride(key: string) {
+  if (typeof window === "undefined") return;
+  try {
+    const overrides = loadMoodOverrides();
+    delete overrides[key];
+    localStorage.setItem("loranne-mood-overrides", JSON.stringify(overrides));
+  } catch {}
+}
+
+function getTrackMoods(albumSlug: string, trackNumber: number): { moods: string[]; confidence: number; overridden: boolean } | null {
+  const key = `${albumSlug}/${trackNumber}`;
+  const overrides = loadMoodOverrides();
+  if (overrides[key]) {
+    return { moods: overrides[key], confidence: 1.0, overridden: true };
+  }
+  const compact = MOODS_DATA.tracks[key];
   if (!compact) return null;
-  return { moods: compact[0].split(","), confidence: compact[1] };
+  return { moods: compact[0].split(","), confidence: compact[1], overridden: false };
 }
 
 function MoodBadges({ albumSlug, trackNumber }: { albumSlug: string; trackNumber: number }) {
+  const [version, setVersion] = useState(0); // increment to force re-render after override
+  const [editing, setEditing] = useState(false);
   const tag = getTrackMoods(albumSlug, trackNumber);
-  if (!tag || tag.moods.length === 0) return null;
+  if (!tag || tag.moods.length === 0) {
+    return (
+      <button
+        onClick={() => setEditing(true)}
+        className="text-[10px] text-mundo-muted/60 hover:text-mundo-muted underline"
+      >
+        + mood
+      </button>
+    );
+  }
+  const key = `${albumSlug}/${trackNumber}`;
   return (
     <span className="inline-flex items-center gap-1">
       {tag.moods.map((m, i) => {
         const meta = MOOD_META[m as LoranneMood];
         if (!meta) return null;
         return (
-          <span
+          <button
             key={m}
-            title={`${meta.paraQuem} (confiança: ${tag.confidence})`}
-            className="text-[10px] px-1.5 py-0.5 rounded-full font-medium"
+            onClick={() => setEditing(true)}
+            title={`${meta.paraQuem} (confiança: ${tag.confidence}${tag.overridden ? " · manual" : ""})`}
+            className="text-[10px] px-1.5 py-0.5 rounded-full font-medium hover:opacity-90 cursor-pointer"
             style={{
               backgroundColor: `${meta.color}33`,
               color: meta.color,
@@ -758,10 +804,132 @@ function MoodBadges({ albumSlug, trackNumber }: { albumSlug: string; trackNumber
             }}
           >
             {meta.label}
-          </span>
+          </button>
         );
       })}
+      {tag.overridden && (
+        <span className="text-[9px] text-mundo-muted/60" title="Editado manualmente">●</span>
+      )}
+      {editing && (
+        <MoodEditor
+          albumSlug={albumSlug}
+          trackNumber={trackNumber}
+          currentMoods={tag.moods}
+          isOverridden={tag.overridden}
+          onSave={(newMoods) => {
+            saveMoodOverride(key, newMoods);
+            setEditing(false);
+            setVersion((v) => v + 1);
+          }}
+          onReset={() => {
+            clearMoodOverride(key);
+            setEditing(false);
+            setVersion((v) => v + 1);
+          }}
+          onClose={() => setEditing(false)}
+        />
+      )}
+      {/* invisible re-render trigger */}
+      <span className="hidden">{version}</span>
     </span>
+  );
+}
+
+function MoodEditor({
+  albumSlug,
+  trackNumber,
+  currentMoods,
+  isOverridden,
+  onSave,
+  onReset,
+  onClose,
+}: {
+  albumSlug: string;
+  trackNumber: number;
+  currentMoods: string[];
+  isOverridden: boolean;
+  onSave: (moods: string[]) => void;
+  onReset: () => void;
+  onClose: () => void;
+}) {
+  const [selected, setSelected] = useState<Set<string>>(new Set(currentMoods));
+
+  function toggle(m: string) {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (next.has(m)) next.delete(m); else next.add(m);
+      return next;
+    });
+  }
+
+  return (
+    <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-4" onClick={onClose}>
+      <div
+        className="bg-[#1a1a2e] rounded-xl max-w-md w-full p-5 border border-white/10"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <h3 className="text-sm font-semibold text-white mb-1">
+          Editar moods
+        </h3>
+        <p className="text-[11px] text-mundo-muted mb-3">
+          {albumSlug}/{trackNumber} · 1 ou 2 moods (primeiro = primário)
+        </p>
+
+        <div className="grid grid-cols-2 gap-2">
+          {(["elevar","aterrar","acordar","lembrar","reunir-se","respirar","atravessar"] as const).map((m) => {
+            const meta = MOOD_META[m];
+            const isSel = selected.has(m);
+            const order = isSel ? Array.from(selected).indexOf(m) + 1 : 0;
+            return (
+              <button
+                key={m}
+                onClick={() => toggle(m)}
+                disabled={!isSel && selected.size >= 2}
+                className="text-left rounded-lg p-2 transition-all border-2 disabled:opacity-30 disabled:cursor-not-allowed"
+                style={{
+                  backgroundColor: isSel ? `${meta.color}33` : "rgba(255,255,255,0.03)",
+                  borderColor: isSel ? meta.color : "transparent",
+                }}
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-semibold text-white">{meta.label}</span>
+                  {isSel && (
+                    <span className="text-[10px] text-white/60">
+                      {order === 1 ? "primário" : "secundário"}
+                    </span>
+                  )}
+                </div>
+                <p className="text-[9px] text-mundo-muted line-clamp-1 mt-0.5">{meta.paraQuem}</p>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="flex items-center gap-2 mt-4">
+          {isOverridden && (
+            <button
+              onClick={onReset}
+              className="text-[11px] px-3 py-1.5 rounded-full text-amber-400 hover:bg-amber-400/10"
+            >
+              Repor auto-tag
+            </button>
+          )}
+          <div className="flex-1" />
+          <button onClick={onClose} className="text-[11px] px-3 py-1.5 text-mundo-muted hover:text-white">
+            Cancelar
+          </button>
+          <button
+            onClick={() => onSave(Array.from(selected))}
+            disabled={selected.size === 0}
+            className={`text-[11px] px-4 py-1.5 rounded-full font-semibold ${
+              selected.size === 0 ? "bg-white/10 text-white/40 cursor-not-allowed" : "bg-[#C9A96E] text-black hover:bg-[#D4B57F]"
+            }`}
+          >
+            Guardar
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -1683,6 +1851,7 @@ function TrackRow({
 
 export default function AlbumProductionPage() {
   const [filter, setFilter] = useState("all");
+  const [moodFilter, setMoodFilter] = useState<LoranneMood | "all">("all");
   const [viewMode, setViewMode] = useState<"producao" | "calendario">("producao");
   const [selectedAlbum, setSelectedAlbum] = useState<string | null>(null);
   const [statuses, setStatuses] = useState<Record<string, TrackStatus>>({});
@@ -1990,10 +2159,22 @@ export default function AlbumProductionPage() {
     }, 5 * 60 * 1000);
   }, []);
 
-  const albums =
+  const albumsByProduct =
     filter === "all"
       ? ALL_ALBUMS
       : getAlbumsByProduct(filter as Album["product"]);
+
+  // Apply mood filter (track-level): keep albums that have at least 1 track
+  // tagged with the selected mood (primary or secondary).
+  const albums = moodFilter === "all"
+    ? albumsByProduct
+    : albumsByProduct.filter((a) =>
+        a.tracks.some((t) => {
+          const tag = MOODS_DATA.tracks[`${a.slug}/${t.number}`];
+          if (!tag) return false;
+          return tag[0].split(",").includes(moodFilter);
+        })
+      );
 
   const album = selectedAlbum
     ? ALL_ALBUMS.find((a) => a.slug === selectedAlbum) || null
@@ -2421,6 +2602,36 @@ export default function AlbumProductionPage() {
         {/* Filter + View Mode */}
         <div className="mb-6 space-y-4">
           <ProductFilter active={filter} onChange={setFilter} />
+          {/* Mood filter — Loranne 7 moods auto-tagged */}
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-[11px] uppercase tracking-wider text-mundo-muted/60">Mood:</span>
+            <button
+              onClick={() => setMoodFilter("all")}
+              className={`text-[11px] px-3 py-1.5 rounded-full transition ${
+                moodFilter === "all" ? "bg-white/15 text-white" : "bg-white/5 text-mundo-muted hover:bg-white/10"
+              }`}
+            >
+              Todos
+            </button>
+            {(["elevar", "aterrar", "acordar", "lembrar", "reunir-se", "respirar", "atravessar"] as const).map((m) => {
+              const meta = MOOD_META[m];
+              const isActive = moodFilter === m;
+              return (
+                <button
+                  key={m}
+                  onClick={() => setMoodFilter(m)}
+                  className="text-[11px] px-3 py-1.5 rounded-full transition border"
+                  style={{
+                    backgroundColor: isActive ? `${meta.color}33` : "transparent",
+                    borderColor: isActive ? meta.color : "transparent",
+                    color: isActive ? meta.color : "rgb(160,160,176)",
+                  }}
+                >
+                  {meta.label}
+                </button>
+              );
+            })}
+          </div>
           <div className="flex items-center gap-3 overflow-x-auto scrollbar-none -mx-4 px-4 pb-2 sm:flex-wrap sm:overflow-x-visible sm:mx-0 sm:px-0 sm:pb-0">
             {/* Suno model selector */}
             <div className="shrink-0 flex items-center gap-2">

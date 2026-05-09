@@ -2,6 +2,7 @@ import { ALL_LISTS } from "@/data/curated-lists";
 import { notFound } from "next/navigation";
 import ListPageClient from "./ListPageClient";
 import type { TrackEnergy } from "@/data/albums";
+import { LORANNE_MOODS, MOOD_META, type LoranneMood } from "@/data/loranne-moods";
 
 const MOOD_ENERGY_MAP: Record<string, TrackEnergy> = {
   "mood-sussurro": "whisper",
@@ -31,5 +32,14 @@ export default async function ListPage({ params }: Props) {
   const categoryLabel = list.category === "genero" ? "Género" : list.category === "mood" ? "Mood" : "Tema";
   const moodEnergy = MOOD_ENERGY_MAP[list.slug] || null;
 
-  return <ListPageClient slug={slug} categoryLabel={categoryLabel} moodEnergy={moodEnergy} />;
+  // Detect Loranne mood (mood-loranne-{slug}) — pass extra metadata for header
+  let loranneMood: { mood: LoranneMood; vibe: string } | null = null;
+  if (slug.startsWith("mood-loranne-")) {
+    const moodSlug = slug.replace("mood-loranne-", "") as LoranneMood;
+    if (LORANNE_MOODS.includes(moodSlug)) {
+      loranneMood = { mood: moodSlug, vibe: MOOD_META[moodSlug].vibe };
+    }
+  }
+
+  return <ListPageClient slug={slug} categoryLabel={categoryLabel} moodEnergy={moodEnergy} loranneMood={loranneMood} />;
 }
