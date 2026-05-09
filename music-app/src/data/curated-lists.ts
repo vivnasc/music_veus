@@ -1,13 +1,16 @@
 /**
  * Listas Curadas — Sete Veus Music
  *
- * Tres categorias:
+ * Categorias:
  * - Generos (flavor): Organico, Marrabenta, House, Gospel
- * - Mood (energy): Sussurro, Constante, Pulso, Hino, Cru
+ * - Mood (energy): Sussurro, Constante, Pulso, Hino, Cru     (musical energy)
+ * - Mood Loranne (espiritual): Elevar, Aterrar, Acordar, Lembrar, Reunir-se, Respirar, Atravessar
  * - Temas: curadas manualmente por tema emocional
  */
 
 import { ALL_ALBUMS, type AlbumTrack } from "./albums";
+import { LORANNE_MOODS, MOOD_META, type LoranneMood, type LoranneMoodsData } from "./loranne-moods";
+import LORANNE_MOODS_DATA from "./loranne-moods-data.json";
 
 // ─────────────────────────────────────────────
 // Types
@@ -54,6 +57,20 @@ function byEnergy(energy: string): TrackRef[] {
   return allTracks()
     .filter(t => t.energy === energy)
     .map(t => ({ albumSlug: t.albumSlug, trackNumber: t.number }));
+}
+
+// Filter tracks by Loranne mood (primary or secondary) using auto-tagged data.
+const MOODS_DATA = LORANNE_MOODS_DATA as LoranneMoodsData;
+function byLoranneMood(mood: LoranneMood, primaryOnly = false): TrackRef[] {
+  const refs: TrackRef[] = [];
+  for (const [key, tag] of Object.entries(MOODS_DATA.tracks)) {
+    const moods = tag.moods || [];
+    if (primaryOnly ? moods[0] === mood : moods.includes(mood)) {
+      const m = key.match(/^(.+)\/(\d+)$/);
+      if (m) refs.push({ albumSlug: m[1], trackNumber: parseInt(m[2], 10) });
+    }
+  }
+  return refs;
 }
 
 // ─────────────────────────────────────────────
@@ -467,6 +484,34 @@ export const MOODS: CuratedList[] = [
   MOOD_CRU,
 ];
 
+// ─────────────────────────────────────────────
+// MOODS LORANNE (espirituais — auto-tagged)
+// elevar · aterrar · acordar · lembrar · reunir-se · respirar · atravessar
+// ─────────────────────────────────────────────
+
+const MOOD_ICONS: Record<LoranneMood, string> = {
+  "elevar": "sun",
+  "aterrar": "mountain",
+  "acordar": "eye",
+  "lembrar": "tree-pine",
+  "reunir-se": "users-round",
+  "respirar": "wind",
+  "atravessar": "door-open",
+};
+
+export const MOODS_LORANNE: CuratedList[] = LORANNE_MOODS.map((mood) => {
+  const meta = MOOD_META[mood];
+  return {
+    slug: `mood-loranne-${meta.slug}`,
+    title: meta.label,
+    subtitle: meta.paraQuem,
+    category: "mood" as const,
+    color: meta.color,
+    icon: MOOD_ICONS[mood],
+    tracks: byLoranneMood(mood),
+  };
+});
+
 export const VIBES: CuratedList[] = [
   VIBE_CHILL_SUNSET,
   VIBE_RUNNING,
@@ -487,7 +532,13 @@ export const TEMAS: CuratedList[] = [
   TEMA_O_SILENCIO,
 ];
 
-export const ALL_LISTS: CuratedList[] = [...VIBES, ...GENEROS, ...MOODS, ...TEMAS];
+export const ALL_LISTS: CuratedList[] = [
+  ...VIBES,
+  ...GENEROS,
+  ...MOODS_LORANNE,  // os 7 moods espirituais aparecem antes da energia
+  ...MOODS,
+  ...TEMAS,
+];
 
 /** Resolve track references to full track objects */
 export function resolveList(list: CuratedList): ResolvedTrack[] {

@@ -158,7 +158,8 @@ export default function DescobrePage() {
   }, []);
 
   const géneros = ALL_LISTS.filter((l) => l.category === "genero");
-  const moods = ALL_LISTS.filter((l) => l.category === "mood");
+  const moodsLoranne = ALL_LISTS.filter((l) => l.slug.startsWith("mood-loranne-"));
+  const moodsEnergia = ALL_LISTS.filter((l) => l.category === "mood" && !l.slug.startsWith("mood-loranne-"));
   const temas = ALL_LISTS.filter((l) => l.category === "tema");
 
   return (
@@ -226,11 +227,14 @@ export default function DescobrePage() {
           )}
         </section>
 
+        {/* Moods Loranne — 7 estados de espírito */}
+        <CuratedSection title="Para que estado de espírito?" lists={moodsLoranne} publishedKeys={publishedKeys} loading={loading} />
+
         {/* Géneros */}
         <CuratedSection title="Géneros" lists={géneros} publishedKeys={publishedKeys} loading={loading} />
 
         {/* Energia */}
-        <CuratedSection title="Energia" lists={moods} publishedKeys={publishedKeys} loading={loading} />
+        <CuratedSection title="Energia" lists={moodsEnergia} publishedKeys={publishedKeys} loading={loading} />
 
         {/* Temas */}
         <CuratedSection title="Temas" lists={temas} publishedKeys={publishedKeys} loading={loading} />
