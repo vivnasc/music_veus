@@ -1,0 +1,891 @@
+# INCENSO-HOJE-NAO — Recusa do peso, sem negação
+# Para quando o peso quer ganhar o dia inteiro. Não é “tudo bem”. É “hoje não te entrego tudo”. A Loranne estabelece o perímetro dentro do qual o dia vai acontecer. Cansada com dignidade, não combativa.
+# Persona: Loranne (voice id a8ad18d5-d23e-4c97-ad68-1006de7ac76d)
+# Carregar via /admin/albums (YAML upload)
+
+slug: incenso-hoje-nao
+title: Hoje Não
+subtitle: Recusa do peso, sem negação
+color: '#7B9EA8'
+collection: incenso
+artist:
+  slug: loranne
+  name: Loranne
+  bio: Contemporary organic-electronic — AwakeSoul lineage. Contemplative, transformative.
+  photo_url: /Loranne-home.png
+published: false
+status: draft
+distribution: false
+tracks:
+- number: 1
+  title: Hoje Não
+  description: Abertura — declaração serena. Hoje não te entrego tudo. Não é heroico, é higiénico.
+  lang: PT
+  energy: steady
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic. Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm, acoustic guitar, warm bass, light percussion, piano accents. Walking pace, present, embodied. No autotune. Clean vocal production. 90 BPM, signature element: warm vocal entering at bar 2 (no long instrumental intro), no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. grounded, present, embodied. warm vocal entering at bar 2 (no long instrumental intro). Theme: Abertura — declaração serena. Hoje não te entrego tudo. Não é heroico, é higiénico..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, vocal entering on bar 2 — no long instrumental opening
+    [Verse 1]
+
+    Hoje não
+    A primeira frase da manhã
+    Hoje não te entrego o dia inteiro
+    Hoje não, peso
+    Hoje não, voz que me fala dentro
+    Hoje não, lista que nunca acaba
+    Hoje não, tudo o que tu queres
+    Hoje não, tudo de uma vez
+    [Verse 2]
+    Não é guerra, não é raiva
+    É higiene, é perímetro
+    Hoje há sítios onde tu não entras
+    Hoje há horas que são minhas
+    Não te explico mais
+    Não te justifico mais
+    Hoje não é palavra completa
+    Não precisa de continuação
+    [Pre-Chorus]
+    Cada hoje não
+    É um hoje sim
+    A outra coisa
+    Que o dia tem para mim
+    [Chorus]
+    Hoje não
+    Não te entrego tudo
+    Hoje não
+    O resto fica para outro dia
+    Não é fraqueza, é escolha
+    Não é fuga, é foco
+    Hoje não
+    Hoje não, hoje não
+    E é para o teu bem também
+    [Verse 3]
+    Hoje não vou pensar nisso
+    Hoje não vou falar disso
+    Hoje não vou ler aquilo
+    Hoje não vou abrir aquela conversa
+    Amanhã talvez sim
+    Daqui a uma semana talvez sim
+    Mas hoje não
+    E hoje não basta saber
+    [Chorus: 3-voice harmonies enter, tambourine on the four]
+
+    Hoje não
+    Não te entrego tudo
+    Hoje não
+    O resto fica para outro dia
+
+    [Bridge: vocal close, harmonies hum underneath, gospel piano carries — opens, does not resolv
+    (European Portuguese, Portugal accent:)
+    Tu chegaste a um ponto
+    Em que aprendeste a guardar
+    A dizer que não
+    Sem teres de gritar
+    Sem teres de explicar
+    A dizer que não
+    Como se fosse uma coisa simples
+    Que finalmente é
+    [Outro: vocal warm, piano fading]
+    Hoje não
+    o resto fica
+    hoje não
+    para outro dia
+  published: false
+  key_verse: Hoje não. / Não te entrego tudo. / O resto fica para outro dia.
+  suno_prompt: 'Style: gospel build mid-tempo · warm vocal entering at bar 2 (no long instrumental intro) · g'
+  bpm: 90
+- number: 2
+  title: Not Today, Not Like This
+  description: Pulse de manhã. Recusa em movimento. Not today — and not in the way you expected.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Pulse de manhã. Recusa em movimento. Not today — and not in the way you expected..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
+    [Verse 1]
+    Not today, not like this
+    The voice that wants me back in bed
+    The voice that wants me back in shame
+    The voice that wants me back in nothing
+    Not today, not like this
+    There is a version of today I will not live
+    There is a version of today I will not feed
+    And the version that wants to be fed knows my name
+    [Verse 2]
+    But I'm not picking up
+    But I'm not opening that door
+    But I'm not entering that room
+    Where the voice has set the table for me
+    The table is laid for two — me and the voice
+    And I'm not eating today
+    I'm eating somewhere else
+    I'm eating with the version of me that lives
+    [Pre-Chorus]
+    Not today, not like this
+    Is the most spiritual thing I say
+    Not today, not like this
+    Is how I keep myself alive
+    [Chorus]
+    Not today, not like this
+    I'm choosing the version that lets me stay
+    Not today, not like this
+    The peso doesn't get the wheel today
+    I am driving, the peso is in the back
+    Quiet, with the seatbelt on
+    Not today, not like this
+    Not today, not like this
+    [Verse 3]
+    The peso has good arguments
+    The peso is articulate, even
+    The peso has been to school
+
+    The peso is older than me
+    But the peso has nowhere to take me
+    That I have not already been
+    Not today, not like this
+    I know the road, I'm not going
+    [Chorus: full harmony stack, sidechained pads peak, key shift to A major on final chorus]
+    Not today, not like this
+    I'm choosing the version that lets me stay
+    Not today, not like this
+    The peso doesn't get the wheel today
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    If the voice in your head has good arguments today
+    You don't have to win the argument
+    You don't have to disprove the voice
+    You just don't have to drive where it tells you
+    The voice can talk
+    The voice can keep talking
+    You can drive in another direction
+    Listening or not listening, that's your call
+    [Final Chorus: full harmony stack, peaks, never shouted, key in A major]
+    Not today, not like this
+    I'm choosing the version that lets me stay
+    Not today, not like this
+    The peso doesn't get the wheel today
+    [Outro: vocal soft, kick fades]
+    Not today
+    not like this
+    I'm driving
+    not today
+  published: false
+  key_verse: Not today, not like this. / I’m choosing the version that lets me stay.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick · warm si'
+  bpm: 108
+- number: 3
+  title: A Culpa Pode Esperar
+  description: PEAK 1 — anthem gospel. A culpa pode esperar. Hoje há outra coisa para fazer.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering at bar 2 that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering at bar 2 that never shouts. Theme: PEAK 1 — anthem gospel. A culpa pode esperar. Hoje há outra coisa para fazer..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
+    [Verse 1]
+    A culpa pode esperar
+    Eu disse-lhe assim mesmo
+    Hoje senta-te na cadeira
+    Hoje toma a tua senha
+    Hoje há fila à minha porta
+    E tu não és a primeira
+    Hoje há outras a entrar
+    Que andaram à espera demais
+    [Verse 2]
+    Quem entra primeiro é o descanso
+    Quem entra a seguir é o pão
+    Quem entra a seguir é a amiga
+    Que me telefonou e eu não atendi
+    A culpa fica aí
+    Sentada com as mãos no colo
+    Pode esperar, sabe esperar
+    A culpa tem todo o tempo do mundo
+    [Pre-Chorus]
+    A culpa não é urgente
+    Embora finja sê-lo
+    A culpa pode esperar
+    E hoje vai esperar
+    [Chorus]
+    A culpa pode esperar
+    Tem fila, tem hora marcada
+
+    A culpa pode esperar
+    E hoje não é a vez dela
+    Hoje é a vez do que me alimenta
+    Hoje é a vez do que me reconstrói
+    A culpa pode esperar
+    Não é hoje a sua hora
+    [Verse 3]
+    Aprendi tarde a fazer fila
+    A pôr a culpa no fim
+    A não a deixar furar
+    Como se fosse de família
+    Não és de família
+    És hábito antigo
+    E hoje os hábitos antigos
+    Esperam que eu lhes diga
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic]
+    A culpa pode esperar
+    Tem fila, tem hora marcada
+    A culpa pode esperar
+    E hoje não é a vez dela
+    [Bridge: vocal close, choir hums underneath, warm strings rising — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não te peço para deitar fora a culpa
+    A culpa às vezes ensina coisas verdadeiras
+    Mas pede-lhe que tire senha
+    Pede-lhe que espere
+    Trata-a como tratas um vizinho persistente
+    Atende-a quando estiveres pronta
+    Não quando ela achar que é hora
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
+    A culpa pode esperar
+    Tem fila, tem hora marcada
+    A culpa pode esperar
+    E hoje não é a vez dela
+    [Outro: vocal warm, choir fading, strings linger]
+    A culpa pode esperar
+    hoje não é a vez dela
+    a culpa pode esperar
+  published: false
+  key_verse: A culpa pode esperar. / Tem fila, tem hora marcada. / E hoje não é a vez dela.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal entering at bar 2 that never shouts · wa'
+  bpm: 100
+- number: 4
+  title: I’m Not Picking Up
+  description: Não estou a atender. A chamada que pesa pode tocar. Eu não atendo hoje.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Não estou a atender. A chamada que pesa pode tocar. Eu não atendo hoje..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
+    [Verse 1]
+    I'm not picking up
+    Not the phone that buzzed at six this morning
+    Not the thought that came at three last night
+    Not the message from the person who pulls
+    I'm not picking up
+    The phone can ring, I am here
+    The voicemail is doing its job
+    I am doing mine, which is being still
+    [Verse 2]
+    There is an art to not picking up
+    That nobody teaches the eldest daughter
+    There is a freedom in the unanswered
+    That nobody told the people-pleaser
+    I'm learning it late, but I'm learning
+    That every call I do not pick up
+    Is a call I make to myself
+
+    Hello, you, you're still here
+    [Pre-Chorus]
+    The phone is not the priority
+    The thought is not the priority
+    The priority is the woman with the phone
+    And she is choosing not to pick up
+    [Chorus]
+    I'm not picking up
+    Not the phone, not the thought
+    Not today
+    I'm not picking up
+    The voicemail handles it
+    The thought returns tomorrow
+    And tomorrow I'll see
+    But not today, not today
+    [Verse 3]
+    Some calls are real emergencies
+    This one is not, this one is just loud
+    Some thoughts are real warnings
+    This one is just the loop, this one is recycled
+    The art of not picking up
+    Is the art of knowing the difference
+    And today I know the difference
+    And today I'm not picking up
+    [Chorus: full harmony stack, sidechained pads peak, tambourine]
+    I'm not picking up
+    Not the phone, not the thought
+    Not today
+    I'm not picking up
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    If something is calling you right now
+    And it doesn't have to be answered today
+    Let it go to voicemail
+    Let it go to tomorrow
+    The world will not end
+    You will check it later
+    And later you will be more able
+    Or maybe you will be more able to ignore it entirely
+    [Final Chorus: full harmony stack, peaks]
+    I'm not picking up
+    Not the phone, not the thought
+
+    Not today
+    I'm not picking up
+    [Outro: vocal soft, kick fades]
+    I'm not picking up
+    not today
+    I'm not picking up
+  published: false
+  key_verse: I’m not picking up. / Not the phone, not the thought. / Not today.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick · warm si'
+  bpm: 108
+- number: 5
+  title: Limite Calmo
+  description: PEAK 2 — o limite que não precisa de gritar. A linha que se desenha sem fúria. Hino do não calmo.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering at bar 2 that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering at bar 2 that never shouts. Theme: PEAK 2 — o limite que não precisa de gritar. A linha que se desenha sem fúria. Hino do não calmo..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
+    [Verse 1]
+    Aprendi tarde
+    A pôr o limite sem ruído
+    Anos a explicar
+    Anos a justificar
+    Anos a fazer reuniões com o limite
+    Como se ele tivesse de o autorizar
+    Hoje não, hoje o limite é informação
+
+    Não pedido de licença
+    [Verse 2]
+    O limite calmo é poderoso
+    O limite calmo não precisa de prova
+    O limite calmo diz a frase
+    E não fica à espera de aplauso
+    Há quem aceite
+    Há quem não aceite
+    E o limite mantém-se na mesma
+    Porque o limite é meu, não é debate
+    [Pre-Chorus]
+    O limite calmo é diferente da fúria
+    A fúria gasta-se, o limite calmo fica
+    A fúria pede plateia, o limite calmo só pede chão
+    E hoje há chão suficiente
+    [Chorus]
+    Aqui termino
+    Não em fúria, em saúde
+    Aqui é o meu limite calmo
+    Não te explico, não me defendo
+    Aqui é onde a minha casa começa
+    Aqui é onde tu entras só com licença
+    Aqui termino, aqui termino
+    E não preciso de discutir
+    [Verse 3]
+    O limite calmo é a herança
+    Que vou deixar a quem vier depois de mim
+    Não a fúria, que cansa
+    Não o silêncio, que doi
+    O limite calmo, dito com a voz da mulher
+    Que aprendeu a respirar antes de falar
+    E que diz a frase com a forma certa
+    Da primeira vez
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic]
+    Aqui termino
+    Não em fúria, em saúde
+    Aqui é o meu limite calmo
+    Não te explico, não me defendo
+    [Bridge: vocal close, choir hums underneath, warm strings rising — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não te peço para gritares
+
+    Nem para deixares de gritar
+    Peço-te que descubras o teu limite calmo
+    Aquele que não precisa de adrenalina
+    Aquele que se diz com a mesma voz
+    Com que pedes a senha no talho
+    Limite calmo, limite calmo
+    É o aprendizado de uma vida
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
+    Aqui termino
+    Aqui é o meu limite calmo
+    Aqui termino
+    E não preciso de discutir
+    [Outro: vocal warm, choir fading]
+    Aqui termino
+    limite calmo
+    aqui termino
+    em saúde
+  published: false
+  key_verse: Aqui termino. / Não em fúria, em saúde. / Aqui é o meu limite calmo.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal entering at bar 2 that never shouts · wa'
+  bpm: 100
+- number: 6
+  title: Quiet No
+  description: Respiro entre picos. The quiet no. The no that doesn’t need an audience.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Respiro entre picos. The quiet no. The no that doesn’t need an audience..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: felt-piano, warm Hammond pad very low, vocal entering on bar 2 — no long instrumental
+    [Verse 1]
+    There is a no that needs a stage
+    That wants the audience, that wants the witness
+    That wants to be remembered
+    That wants to be quoted
+    And there is a quiet no
+    That nobody will ever hear
+    That is said into the room
+    At seven in the evening, alone
+    [Verse 2]
+    The quiet no is the harder no
+    The quiet no is the more honest no
+    The loud no still cares about being seen
+    The quiet no doesn't need to be seen
+    It just needs to be said
+    Even if only the wall hears it
+    And the wall does hear it
+    And the room rearranges itself slightly
+    [Pre-Chorus]
+    The quiet no is a private architecture
+    The quiet no rebuilds the house from inside
+    The quiet no does not require renovation announcements
+    The quiet no just changes the floor plan
+    [Chorus]
+    The quiet no
+    Is the no that lets me sleep tonight
+    The quiet no
+    Is the no that protects what I am building
+    Nobody applauds
+    Nobody objects
+    The quiet no walks through the room
+    And rearranges what was loud into what is calm
+    [Verse 3]
+    I am learning to say it
+    At my own kitchen table
+    When nobody is here
+
+    When nobody is asking
+    The quiet no I owe to nobody
+    The quiet no I owe to me
+    The quiet no is the practice
+    That makes the loud no, when needed, possible
+    [Chorus: soft female choir hum enters, faraway]
+    The quiet no
+    Is the no that lets me sleep tonight
+    The quiet no
+    Is the no that protects what I am building
+    [Bridge: vocal close, choir hums, only piano — opens, does not resolve]
+    There is a no you have not said yet
+    That nobody is waiting for you to say
+    That you can say tonight
+    With nobody around
+    With the curtains closed
+    And the saying will be real
+    Even with no witnesses
+    Even with no witnesses
+    [Outro: vocal soft, piano fading, choir lingers]
+    The quiet no
+    the no that lets me sleep
+    the quiet no
+    that nobody hears
+  published: false
+  key_verse: The quiet no / is the no that lets me sleep tonight.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · vocal entering at bar 2 · felt-piano + w'
+  bpm: 70
+  mood_secondary: respirar
+- number: 7
+  title: Não Hoje, Não Assim
+  description: Raw — a voz cansada que ainda diz não. Sem energia para guerra, com energia para limite.
+  lang: PT
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal entering at bar 2. Theme: Raw — a voz cansada que ainda diz não. Sem energia para guerra, com energia para limite..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
+    [Verse 1]
+    Não hoje, não assim
+    A frase que aprendi a dizer
+    Sem treinar antes ao espelho
+    Sem ensaiar com a amiga
+    Não hoje, não assim
+    Veio-me natural à terceira tentativa
+    Depois de duzentas a engolir
+    Antes de a deixar sair
+    [Verse 2]
+    Não tem mais palavras
+    Não tem mais explicação
+    Não hoje, não assim é frase fechada
+    Não responde a perguntas
+    Não pede aprovação
+    Não fica a aguardar
+    A frase pousa no ar
+    E a sala arruma-se à volta dela
+    [Pre-Chorus]
+    Não hoje, não assim
+    É curta e é inteira
+    Não preciso de continuar
+    A frase já fez o trabalho
+    [Chorus]
+    Não hoje, não assim
+    É a frase mais curta
+    Que aprendi a dizer inteira
+    Não hoje, não assim
+    Não te peço perdão
+    Não te ofereço alternativa
+    Hoje, não assim
+    E o resto é silêncio bom
+
+    [Verse 3]
+    Há quem aceite à primeira
+    Há quem precise de a ouvir três vezes
+    Eu digo as três vezes
+    Sem subir a voz, sem mudar o tom
+    A repetição é minha amiga
+    A repetição é minha saúde
+    Não hoje, não assim, não hoje, não assim
+    E na quarta vez já não preciso
+    [Chorus: small female choir enters, hand-claps soft]
+    Não hoje, não assim
+    É a frase mais curta
+    Que aprendi a dizer inteira
+    Não hoje, não assim
+    [Bridge: vocal close, choir hums underneath, only piano — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    A frase mais difícil
+    É a frase mais curta
+    Quanto mais palavras tu pões
+    Mais o limite se desfaz
+    Não hoje, não assim
+    É como se diz com economia
+    A economia é firmeza
+    A economia é dignidade
+    [Outro: vocal soft, piano fading, choir lingers]
+    Não hoje
+    não assim
+    e o resto é silêncio bom
+  published: false
+  key_verse: Não hoje, não assim. / É a frase mais curta / que aprendi a dizer inteira.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal entering at bar 2 · gospel piano + soft hand-cla'
+  bpm: 76
+- number: 8
+  title: Soft Refusal
+  description: Pulse penúltimo. A recusa suave que move tanto quanto a recusa dura — sometimes more.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Pulse penúltimo. A recusa suave que move tanto quanto a recusa dura — sometimes more..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
+    [Verse 1]
+    Soft refusal
+    Is not the no that breaks the table
+    It is the no that walks past the table
+    And lets the table be
+    Soft refusal does not enter the argument
+    Soft refusal does not need to win
+    Soft refusal turns the corner
+    And the argument loses its target
+    [Verse 2]
+    I have learned soft refusal
+    Late, in my forties, in the kitchen
+    After a lifetime of explaining
+    After a lifetime of negotiating
+    The soft refusal is the body that just leaves
+    Without leaving the room
+    The body that says, with its shoulders
+    That the conversation is over without saying so
+    [Pre-Chorus]
+    Soft refusal moves the world
+    More than the loud one ever did
+    Soft refusal is the river
+    Bending around the rock that wanted to stop it
+    [Chorus]
+    Soft refusal
+    Moves the world more than the loud one
+
+    Soft refusal
+    Is the woman who said no with her shoulders
+    Without changing her face
+    Without raising her voice
+    Without losing the room
+    But losing the conversation
+    That she was never in
+    [Verse 3]
+    You can practise soft refusal
+    At the kitchen table on a Tuesday
+    You can say no with the smallest motion
+    You can say no with the longer pause
+    The other person may not even know
+    That you have refused
+    But you will know
+    And the body will know
+    And the body will sleep tonight
+    [Chorus: full harmony stack, sidechained pads peak]
+    Soft refusal
+    Moves the world more than the loud one
+    Soft refusal
+    Is the woman who said no with her shoulders
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    The next time the conversation pulls you
+    Where you do not want to go
+    Try the soft refusal
+    The shoulders, the pause, the smaller word
+    You will not have to win
+    You will just have to leave
+    And the leaving will be enough
+    And the leaving will be the answer
+    [Final Chorus: full harmony stack, peaks]
+    Soft refusal
+    Moves the world more than the loud one
+    Soft refusal
+    Is the woman who said no with her shoulders
+    [Outro: vocal soft, kick fades]
+    Soft refusal
+    moves the world
+    soft refusal
+    the shoulders said no
+  published: false
+  key_verse: Soft refusal moves the world / more than the loud one ever did.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick (slightly'
+  bpm: 108
+- number: 9
+  title: A Casa É Minha
+  description: PEAK FINAL — declaração territorial. A casa é minha. O perímetro está estabelecido. Hino de quem aprendeu a fechar a porta.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering at bar 2 that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering at bar 2 that never shouts. Theme: PEAK FINAL — declaração territorial. A casa é minha. O perímetro está estabelecido. Hino de quem aprendeu a fechar a porta..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
+    [Verse 1]
+    A casa é minha
+    A frase demorou anos
+    A frase parecia presunção
+    A frase parecia ingratidão
+    A casa é minha
+    Foram anos a construir esta frase
+    A pousar tijolo a tijolo
+    Até finalmente a poder dizer
+    [Verse 2]
+    Há cómodos onde tu não entras
+    Há horas que são minhas
+    Há conversas que ficam à porta
+    Há temas que dormem na rua
+    Não te peço para saíres
+    Digo-te onde tu não entras
+
+    A diferença é grande
+    A diferença é tudo
+    [Pre-Chorus]
+    A casa é minha
+    Não é desafio
+    A casa é minha
+    É facto, é geografia
+    [Chorus]
+    A casa é minha
+    Não te peço para saíres
+    A casa é minha
+    Digo-te onde tu não entras
+    Não é guerra, é planta
+    Não é briga, é arquitectura
+    A casa é minha
+    A casa é minha
+    E há sítios onde só eu vou
+    [Verse 3]
+    Esta casa tem cómodos
+    Que ainda estou a descobrir
+    Esta casa tem janelas
+    Que ainda estou a abrir
+    Esta casa tem vozes
+    Que ainda estou a ouvir
+    A casa é minha — e eu a habito
+    Cada vez mais inteira
+
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, dje
+    A casa é minha
+    Não te peço para saíres
+    A casa é minha
+    Digo-te onde tu não entras
+
+    [Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady — opens, does
+    (European Portuguese, Portugal accent:)
+    Há uma casa que é tua
+    E que tu ainda não habitas inteira
+    Há cómodos que tens a outros emprestados
+    Há cómodos que tens a memórias antigas
+    Há cómodos que tens à culpa, à espera
+    Vai recuperá-los um a um
+    Não te peço para expulsar ninguém
+    Peço-te que reorganizes a tua planta
+
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
+    A casa é minha
+    A casa é minha
+    A casa é minha
+    E há sítios onde só eu vou
+    [Outro: vocal warm, choir fading, djembe lingers]
+    A casa é minha
+    geografia
+    a casa é minha
+    arquitectura
+  published: false
+  key_verse: A casa é minha. / Não te peço para saíres. / Digo-te onde tu não entras.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal entering at bar 2 that never shouts · wa'
+  bpm: 100
+- number: 10
+  title: What I’m Not Doing Today
+  description: Outro raw — fechar o EP enumerando o que não faz hoje. Lista privada, voz cansada com paz.
+  lang: EN
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal entering at bar 2. Theme: Outro raw — fechar o EP enumerando o que não faz hoje. Lista privada, voz cansada com paz..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
+    [Verse 1]
+    I keep two lists now
+
+    The list of what I'm doing today
+    And the list of what I'm not doing today
+    And the second list is longer
+    That used to scare me
+    That used to feel like failure
+    Now it feels like discernment
+    The longer list is the wisdom
+    [Verse 2]
+    I'm not answering that email today
+    I'm not having that conversation today
+    I'm not visiting that place today
+    I'm not eating that food today
+    I'm not opening that book today
+    I'm not checking that account today
+    I'm not feeling guilty about any of this
+    That's a separate list, also being managed
+    [Pre-Chorus]
+    What I'm not doing today
+    Is the active list
+    What I'm not doing today
+    Is the work nobody sees
+    [Chorus]
+    What I'm not doing today
+    Is the longer list
+    And I'm at peace with both
+    What I'm not doing today
+    Is what keeps me whole tomorrow
+    The yes is the easy part
+    The no is the architecture
+    The no is the slow gardening
+    That nobody applauds
+    [Verse 3]
+    By Friday the lists will have changed
+    The not-list might shrink
+    The not-list might grow
+    Both are fine
+    The lists are alive
+    The lists are mine
+    The lists are honest
+    And tonight, the lists let me sleep
+    [Chorus: small female choir enters, hand-claps soft]
+    What I'm not doing today
+
+    Is the longer list
+    And I'm at peace with both
+    What I'm not doing today
+    Is what keeps me whole tomorrow
+    [Bridge: vocal close, choir hums underneath, only piano — opens, does not resolve]
+    Make your own list tonight
+    Of what you're not doing tomorrow
+    Don't apologize on the page
+    Don't justify on the page
+    Just make the list
+    And see how the chest changes shape
+    When the no is given the same dignity
+    As the yes
+    [Outro: vocal soft, piano fading, choir lingers]
+    What I'm not doing today
+    the longer list
+    what I'm not doing today
+    and I'm at peace
+
+    Notas para o canal YouTube
+    Posicionamento da playlist: EP2 entra a seguir ao De Pé na curva diária. Se a playlist
+    Elevar tem ordem implícita “manhã → meio-dia → tarde”, as tracks Hoje Não funcionam
+    bem em qualquer ponto onde o ouvinte está a aguentar pressão (chefe, família, culpa).
+    T2, T4, T8 são pulse-house e mantêm a energia; T1, T3, T5, T9 são tracks declarativas
+    que servem como pontos de afirmação no carro.
+    Tracks-âncora deste EP (puxam ouvinte novo): T3 A Culpa Pode Esperar, T5 Limite
+    Calmo, T9 A Casa É Minha (anthems PT) e T2 Not Today, Not Like This, T4 I’m Not
+    Picking Up (pulses EN para alcance internacional).
+    Coexistência com De Pé: os dois EPs alternam-se bem. De Pé empurra para fora
+    (acção); Hoje Não estabelece o perímetro (limite). Juntos cobrem a manhã da pessoa
+    que precisa.
+    Capa sugerida: mão feminina em close-up a fechar uma porta com gesto calmo (não
+    com força). Cor #7B9EA8 na tipografia. Sem rosto, mantém a estética Loranne.
+  published: false
+  key_verse: What I’m not doing today / is the longer list. / And I’m at peace with both.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal entering at bar 2 · gospel piano + soft hand-cla'
+  bpm: 76
+  mood_secondary: respirar

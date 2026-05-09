@@ -1,0 +1,919 @@
+# INCENSO-AR — Respirar como acto
+# Para o peito apertado. Para a pessoa que esqueceu de respirar fundo há horas. Para a ansiedade aguda no carro, antes da reunião, à noite quando a coisa pesa. Loranne respira em primeira pessoa e o ouv
+# Persona: Loranne (voice id a8ad18d5-d23e-4c97-ad68-1006de7ac76d)
+# Carregar via /admin/albums (YAML upload)
+
+slug: incenso-ar
+title: Ar
+subtitle: Respirar como acto
+color: '#A8C4B5'
+collection: incenso
+artist:
+  slug: loranne
+  name: Loranne
+  bio: Contemporary organic-electronic — AwakeSoul lineage. Contemplative, transformative.
+  photo_url: /Loranne-home.png
+published: false
+status: draft
+distribution: false
+tracks:
+- number: 1
+  title: Lembrar de Respirar
+  description: Abertura. A primeira inspiração consciente do dia. Lembrei-me de respirar — e o resto começou.
+  lang: PT
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Abertura. A primeira inspiração consciente do dia. Lembrei-me de respirar — e o resto começou..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: felt-piano, warm Hammond pad very low, faint inhale, vocal entering on bar 2 — no lon
+    [Verse 1]
+    (inhale)
+    Lembrei-me de respirar
+    (exhale)
+    A primeira respiração consciente
+    Em quantas horas — não sei
+    O peito tinha esquecido
+    (inhale)
+    A barriga tinha esquecido
+    (exhale)
+    E eu também tinha esquecido
+    Que era pessoa que precisava
+    [Verse 2]
+    (inhale)
+    Devagar — devagar
+    (exhale)
+    O ar entrou como amigo
+    A casa do peito recebeu-o
+    A casa do peito alargou
+    (inhale)
+    Não sabia que estava tão fechada
+    (exhale)
+    Não sabia que estava à espera
+    (inhale)
+    E o ar — o ar estava lá
+    [Pre-Chorus]
+    Lembrar de respirar
+    É a meditação mais simples
+    A medicina mais antiga
+    A reza sem palavras
+    [Chorus]
+    Lembrei-me de respirar
+    E o peito alargou-se
+    Lembrei-me de respirar
+    Estava à espera há horas
+    O ar é generoso
+    O ar não cobra
+    O ar entra quando o convido
+    E o convite é só lembrar
+    [Verse 3]
+    (inhale)
+
+    Vou pôr alarme no telefone
+    (exhale)
+    Para lembrar a próxima
+    Daqui a uma hora — outra respiração
+    Daqui a duas — outra
+    (inhale)
+    A vida é uma sequência
+    (exhale)
+    De respirações lembradas
+    A vida começa a cada uma
+    [Chorus: soft female choir hum enters, faraway]
+    Lembrei-me de respirar
+    E o peito alargou-se
+    Lembrei-me de respirar
+    Estava à espera há horas
+    [Bridge: vocal close, choir hums, only piano — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    (inhale)
+    Se ainda não respiraste fundo hoje
+    (exhale)
+    Faz uma agora — comigo
+    (audible inhale, 4 seconds)
+    (audible exhale, 6 seconds)
+    E mais uma — comigo
+    (audible inhale, 4 seconds)
+    (audible exhale, 6 seconds)
+    Já fizeste duas — já é o trabalho da manhã
+    [Outro: vocal soft, piano fading, choir lingers]
+    (inhale)
+    Lembrei-me de respirar
+    (exhale)
+    e o peito alargou-se
+    (inhale)
+    lembrei-me
+    (exhale)
+  published: false
+  key_verse: Lembrei-me de respirar. / E o peito alargou-se. / Estava à espera há horas.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · vocal entering at bar 2 (no long instrum'
+  bpm: 70
+- number: 2
+  title: Slow Breath
+  description: Slow breath as instruction without instruction. The Loranne is breathing slowly, and the listener can copy.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Slow breath as instruction without instruction. The Loranne is breathing slowly, and the listener can copy..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: felt-piano, warm Hammond pad very low, slow audible breathing, vocal entering on bar
+    [Verse 1]
+    (slow inhale)
+    Slow breath
+    (slow exhale)
+    The kind that says you're allowed
+    To take your time
+    (slow inhale)
+    The kind that doesn't measure
+    (slow exhale)
+    The kind that doesn't count
+    The kind that just lets the lungs
+    Be lungs
+    [Verse 2]
+    (slow inhale)
+    The fast breath was for the running
+    (slow exhale)
+    The shallow breath was for the hiding
+    The slow breath is for the staying
+    The slow breath is for the now
+    (slow inhale)
+    You don't have to be anywhere
+    (slow exhale)
+    You don't have to do anything
+
+    For the duration of this breath
+    You are home
+    [Pre-Chorus]
+    Slow breath
+    Is the older medicine
+    Slow breath
+    Is what the body wants when nothing else works
+    [Chorus]
+    Slow breath
+    The kind that says you're allowed
+    To take your time
+    Slow breath
+    The kind that does its work
+    Without making a fuss
+    Slow breath
+    The lungs are old, the lungs know
+    The lungs were here before the worry
+    [Verse 3]
+    (slow inhale)
+    The worry will come back
+    (slow exhale)
+    But not for the next four seconds
+    (slow inhale)
+    The worry will return
+    (slow exhale)
+    But not for these six
+    The slow breath is a small island
+    In the long sea of the worried day
+    And you can visit the island
+    As often as you remember
+    [Chorus: soft female choir hum enters, faraway]
+    Slow breath
+    The kind that says you're allowed
+    To take your time
+    Slow breath
+    The kind that does its work
+    [Bridge: vocal close, choir hums, only piano — opens, does not resolve]
+    (audible slow inhale, 4 seconds)
+    (audible slow exhale, 6 seconds)
+    And again, with me
+    (audible slow inhale, 4 seconds)
+    (audible slow exhale, 6 seconds)
+
+    That was real
+    That was real
+    The body did the work
+    The body always does the work
+    [Outro: vocal soft, piano fading, slow breathing continues]
+    (slow inhale)
+    Slow breath
+    (slow exhale)
+    the lungs know
+    (slow inhale)
+    slow breath
+    (slow exhale)
+  published: false
+  key_verse: Slow breath — / the kind that says you’re allowed / to take your time.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · vocal entering at bar 2 · felt-piano + w'
+  bpm: 70
+- number: 3
+  title: O Peito Alarga
+  description: Movimento médio — o peito a alargar lentamente, gospel build com Hammond suave. Ansiedade que cede sem batalha.
+  lang: PT
+  energy: steady
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic. Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm, acoustic guitar, warm bass, light percussion, piano accents. Walking pace, present, embodied. No autotune. Clean vocal production. 90 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. grounded, present, embodied. warm vocal entering at bar 2. Theme: Movimento médio — o peito a alargar lentamente, gospel build com Hammond suave. Ansiedade que cede sem batalha..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, vocal entering on bar 2 — no long instrumental opening
+    [Verse 1]
+    O peito alarga
+
+    Não por minha vontade
+    Por sua sabedoria antiga
+    O peito sabe o caminho
+    Há quanto tempo não alargava
+    Anos de respiração curta
+    Anos de espreitar pelo lado
+    Hoje — hoje finalmente
+    [Verse 2]
+    Não força nada
+    Não puxa nada
+    Apenas permite
+    Apenas convida
+    O peito alarga porque o peito é assim
+    Quando o deixam ser
+    Quando o deixam ter o seu ritmo
+    Quando o deixam ter o seu tempo
+    [Pre-Chorus]
+    O peito alarga
+    Como o céu alarga
+    Não há técnica
+    Há permissão
+    [Chorus]
+    O peito alarga
+    Lentamente, sem permissão de ninguém
+    O peito alarga
+    O peito sabe o caminho
+    Não preciso de respirar bem
+    Preciso de respirar inteiro
+    O peito alarga
+    Quando lhe dou licença
+    [Verse 3]
+    Hoje conto com o peito
+    Que durante anos não contei
+    Hoje deixo-o ser orgânico
+    Em vez de mecânico
+    O peito conhece-me melhor
+    Do que eu me conheço
+    O peito é o sítio onde a vida
+    Acontece em silêncio
+    [Chorus: 3-voice harmonies enter, tambourine on the four]
+    O peito alarga
+    Lentamente, sem permissão de ninguém
+
+    O peito alarga
+    O peito sabe o caminho
+
+    [Bridge: vocal close, harmonies hum underneath, gospel piano carries — opens, does not resolv
+    (European Portuguese, Portugal accent:)
+    Põe a mão no peito agora
+    Por cinco segundos
+    Não para o controlar
+    Para o reconhecer
+    Está aí — debaixo da mão
+    A bater, a alargar, a descansar
+    Está vivo
+    Tem sido fiel sem te apresentares
+    [Outro: vocal warm, piano fading]
+    O peito alarga
+    sem permissão
+    o peito alarga
+    sabe o caminho
+  published: false
+  key_verse: O peito alarga. / Lentamente, sem permissão de ninguém. / O peito sabe o caminho.
+  suno_prompt: 'Style: gospel build mid-tempo · warm vocal entering at bar 2 · gospel piano + warm Hammond or'
+  bpm: 90
+- number: 4
+  title: Inhale, Exhale
+  description: Pulse de respiração — sidechain mimics breathing, kick is steady but soft. Ansiedade transformada em ritmo.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Pulse de respiração — sidechain mimics breathing, kick is steady but soft. Ansiedade transformada em ritmo..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with breathing-rhythm sidechain, Hammond stabs, vocal entering on bar
+    [Verse 1]
+    Inhale, exhale
+    The only choreography I need today
+    Inhale, exhale
+    The dance the lungs were doing all along
+    While I was busy
+    While I was distracted
+    The lungs kept dancing
+    And the body stayed alive
+    [Verse 2]
+    Today I am dancing with my lungs
+    Today I am following their lead
+    The kick is the heart, the sidechain is the breath
+    The body and the music are in time
+    For once, for once
+    I'm not trying to override the body
+    I'm trying to keep up
+    And keeping up is enough
+    [Pre-Chorus]
+    Inhale, exhale
+    The first dance I ever knew
+    Inhale, exhale
+    The dance my body wants to keep doing
+    [Chorus]
+    Inhale, exhale
+    The only choreography I need today
+    Inhale, exhale
+    The lungs lead, I follow
+    The mind can sit this one out
+    The mind can take a break
+    The body is doing the choreography
+    That has worked since the first breath
+    [Verse 3]
+    At a red light, inhale, exhale
+    At a meeting, inhale, exhale
+    In a difficult conversation, inhale, exhale
+    In the elevator before the call, inhale, exhale
+    The choreography is portable
+    The choreography is private
+
+    The choreography is mine
+    And the choreography is enough
+    [Chorus: full harmony stack, sidechained pads peak with breath rhythm]
+    Inhale, exhale
+    The only choreography I need today
+    Inhale, exhale
+    The lungs lead, I follow
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    You know the choreography
+    You have been doing it since you were born
+    You don't need a new dance
+    You need to remember the dance you have
+    Inhale, inhale, exhale
+    On the kick, on the kick, off the kick
+    That is the dance
+    And the body remembers
+    [Final Chorus: full harmony stack, peaks]
+    Inhale, exhale
+    The only choreography I need today
+    Inhale, exhale
+    The lungs lead, I follow
+    [Outro: vocal soft, kick fades, sidechain breath continues]
+    Inhale, exhale
+    the lungs lead
+    inhale, exhale
+  published: false
+  key_verse: Inhale, exhale — / the only choreography I need today.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick (softer,'
+  bpm: 108
+- number: 5
+  title: Espaço Para o Ar
+  description: PEAK 1 — anthem gospel suave. Hino do espaço interior. A celebração de fazer espaço para o ar dentro de si.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering at bar 2 that never shouts (thi, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering at bar 2 that never shouts (thi. Theme: PEAK 1 — anthem gospel suave. Hino do espaço interior. A celebração de fazer espaço para o ar dentro de si..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell (gentle), vocal entering on bar 2
+    [Verse 1]
+    Faço espaço para o ar
+    Dentro de mim
+    Anos a comprimir
+    Anos a engolir
+    Anos a dizer-me que não havia tempo
+    Para uma respiração inteira
+    Hoje há tempo
+    Hoje há espaço
+    [Verse 2]
+    Tirei coisas para fora
+    Para o ar caber
+    A culpa pequena
+    A urgência fingida
+    A pressa de provar
+    A obrigação de explicar
+    Saíram como hóspedes mal-educados
+    Que ficaram tempo demais
+    [Pre-Chorus]
+    Faço espaço dentro
+    Não é arrumação
+    É demolição
+    Para o ar circular outra vez
+    [Chorus]
+    Faço espaço para o ar
+    E o ar — o ar fica
+    Faço espaço para mim
+    E eu — eu fico
+    A casa de dentro tem janelas
+    Eu é que as fechei sem dar conta
+
+    Hoje abro-as uma a uma
+    Hoje deixo o ar entrar inteiro
+    [Verse 3]
+    Aprendi tarde
+    Que respirar era arte
+    Que ter espaço dentro era prática
+    Não era condição natural
+    A vida moderna comprime
+    A vida moderna preenche
+    A vida moderna não te diz
+    Que o ar é também alimento
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic]
+    Faço espaço para o ar
+    E o ar — o ar fica
+    Faço espaço para mim
+    E eu — eu fico
+    [Bridge: vocal close, choir hums underneath, warm strings rising — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Vê-te como casa
+    Não como agenda, como casa
+    Tem cómodos, tem ar, tem janelas
+    E os cómodos precisam de ser ventilados
+    Não os deixes fechados
+    A vida não te leva os cómodos
+    Tu é que os fechas
+    E tu é que os podes abrir
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
+    Faço espaço para o ar
+    E o ar fica
+    Faço espaço para mim
+    E eu fico
+    [Outro: vocal warm, choir fading]
+    Faço espaço
+    para o ar
+    faço espaço
+    para mim
+  published: false
+  key_verse: Faço espaço para o ar. / E o ar — o ar fica. / Faço espaço para mim.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal entering at bar 2 that never shouts (thi'
+  bpm: 100
+- number: 6
+  title: One Long Breath
+  description: Raw mid-album. The one long breath that changes the temperature of the whole afternoon.
+  lang: EN
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal entering at bar 2. Theme: Raw mid-album. The one long breath that changes the temperature of the whole afternoon..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano, low fretless bass, audible long breath, vocal entering on bar 2 — no lo
+    [Verse 1]
+    (long inhale, long exhale)
+    One long breath at three in the afternoon
+    Changed the temperature of the room
+    Changed the temperature of my Wednesday
+    Changed the temperature of my year, perhaps
+    Nobody told me it could do that
+    I had been short-breathing for so long
+    That I forgot the long one was an option
+    The long one is always an option
+    [Verse 2]
+    (long inhale, long exhale)
+    The long one is the medicine
+    The long one is the reset
+    The long one is the small interruption
+    That changes the algorithm of the day
+    At a desk, in traffic, at the table
+    In a difficult conversation, in front of the screen
+    The long one is portable
+
+    And the long one is free
+    [Pre-Chorus]
+    One long breath
+    Costs nothing
+    One long breath
+    Changes everything
+    [Chorus]
+    One long breath
+    Changes the temperature
+    Of the whole afternoon
+    One long breath
+    Is the smallest revolution
+    Available to a body
+    That has been compressed
+    For a very long time
+    [Verse 3]
+    I'm taking long breaths now
+    At hours I never used to
+    Before answering the phone
+    Before opening the email
+    Before walking into the room
+    The breath buys me three seconds of clarity
+    And three seconds is more than zero
+    And three seconds is everything
+    [Chorus: small female choir enters, hand-claps soft, key shift to C major on final chorus]
+    One long breath
+    Changes the temperature
+    Of the whole afternoon
+    One long breath
+    Is the smallest revolution
+    [Bridge: vocal close, choir hums underneath, only piano — opens, does not resolve]
+    (audible long inhale, 6 seconds)
+    (audible long exhale, 8 seconds)
+    That was a long breath
+    You took one with me
+    The afternoon is slightly different now
+    You will not feel it as a miracle
+    You will feel it as a small softness
+    That you cannot quite explain
+    And that is the work, that is the work
+    [Outro: vocal soft, piano fading, choir lingers, long breaths continue]
+
+    One long breath
+    the smallest revolution
+    one long breath
+  published: false
+  key_verse: One long breath / changes the temperature / of the whole afternoon.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal entering at bar 2 · gospel piano + soft hand-cla'
+  bpm: 76
+- number: 7
+  title: Caber em Mim
+  description: Raw — caber em mim mesma. A descoberta de que sou o tamanho que sou, e que isso basta.
+  lang: PT
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal entering at bar 2. Theme: Raw — caber em mim mesma. A descoberta de que sou o tamanho que sou, e que isso basta..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
+    [Verse 1]
+    Hoje cabe em mim
+    O dia que tenho
+    Não o dia que pensei que ia ter
+    Não o dia da outra mulher na fotografia
+    O dia que tenho
+    Cabe no peito que tenho
+    No tempo que tenho
+    Na disponibilidade que tenho
+    [Verse 2]
+    Caber em mim é uma decisão
+
+    Não é resignação
+    Caber em mim é dizer ao excesso
+    Que ele não pertence aqui
+    Caber em mim é alargar
+    O perímetro do que aceito
+    Caber em mim é encolher
+    O perímetro do que persigo
+    [Pre-Chorus]
+    Caber em mim é matemática
+    De aceitar o tamanho real
+    Em vez do tamanho aspiracional
+    Que me prometeram noutro lado
+    [Chorus]
+    Hoje cabe em mim
+    O dia, o ar, eu mesma
+    Hoje cabe em mim
+    O que era para caber
+    Não estiquei a pele
+    Não cortei o coração
+    Hoje cabe em mim
+    E a paz é fisicamente notável
+    [Verse 3]
+    Há dias que não vão caber
+    Há dias que vão transbordar
+    Mas hoje — hoje é dia de caber
+    E vou habitar este caber inteiro
+    Não preciso de ser maior
+    Não preciso de ser melhor
+    Preciso de ser do tamanho
+    Que sou hoje
+    [Chorus: small female choir enters, hand-claps soft]
+    Hoje cabe em mim
+    O dia, o ar, eu mesma
+    Hoje cabe em mim
+    O que era para caber
+    [Bridge: vocal close, choir hums underneath, only piano — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Mede o teu tamanho hoje
+    Não em metros, em capacidade
+    Quanto cabe em ti hoje
+    Sem te machucares
+    Talvez seja menos do que ontem
+
+    Talvez seja mais do que amanhã
+    Não importa
+    Cabe o que cabe — e tu habitas o que cabe
+    [Outro: vocal soft, piano fading, choir lingers]
+    Hoje cabe em mim
+    o ar, eu mesma
+    hoje cabe em mim
+  published: false
+  key_verse: Hoje cabe em mim. / O dia, o ar, eu mesma. / Cabe.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal entering at bar 2 · gospel piano + soft hand-cla'
+  bpm: 76
+- number: 8
+  title: The Lungs Are Older Than the Worry
+  description: Pulse — a verdade fisiológica como balm. Os pulmões existem antes da preocupação, e estarão depois.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Pulse — a verdade fisiológica como balm. Os pulmões existem antes da preocupação, e estarão depois..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
+    [Verse 1]
+    The lungs are older than the worry
+    The lungs were here first
+    Before the diagnosis, before the disappointment
+    Before the news that broke last week
+
+    The lungs were doing their work
+    Quietly, without applause
+    And the lungs will keep doing their work
+    After the worry has had its day
+    [Verse 2]
+    Tonight the worry feels like the truth
+    Tonight the worry feels like all there is
+    But the lungs disagree, kindly
+    The lungs say — I'm still here
+    And the lungs are not lying
+    And the lungs have been here every Tuesday
+    For decades, for centuries through your line
+    The lungs are older, the lungs know
+    [Pre-Chorus]
+    The worry will go to bed
+    Or rearrange itself
+    Or pack up entirely
+    While the lungs continue, while the lungs continue
+    [Chorus]
+    The lungs are older than the worry
+    The lungs were here first
+    The lungs will be here last
+    The worry is loud, the lungs are quiet
+    The worry is fast, the lungs are patient
+    The worry will exhaust itself eventually
+    And the lungs will still be doing their work
+    That is the longest comfort
+    [Verse 3]
+    Put your hand on your chest tonight
+    Feel the lungs at their long work
+    They are not arguing with the worry
+    They are not even noticing it
+    They are just rising and falling
+    Rising and falling, rising and falling
+    And you can join them
+    You can join them without permission
+    [Chorus: full harmony stack, sidechained pads peak]
+    The lungs are older than the worry
+    The lungs were here first
+    The lungs will be here last
+    The worry is loud, the lungs are quiet
+
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    The thing in your head tonight
+    Did not exist five years ago
+    Will not exist five years from now
+    But the lungs — the lungs are still going
+    Five years before, five years from now
+    The lungs are the long story
+    The worry is the chapter
+    And the lungs read every chapter without alarm
+    [Final Chorus: full harmony stack, peaks]
+    The lungs are older than the worry
+    The lungs were here first
+    The lungs will be here last
+    The worry is loud, the lungs are quiet
+    [Outro: vocal soft, kick fades]
+    The lungs are older
+    than the worry
+    the lungs were here first
+    the lungs will be here last
+  published: false
+  key_verse: The lungs are older than the worry. / The lungs were here first. / The lungs will be here / last.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick · warm si'
+  bpm: 108
+- number: 9
+  title: Ar de Volta
+  description: PEAK FINAL — anthem gospel. O ar voltou. Hino para quem reaprendeu a respirar inteiro.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering at bar 2 that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering at bar 2 that never shouts. Theme: PEAK FINAL — anthem gospel. O ar voltou. Hino para quem reaprendeu a respirar inteiro..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
+    [Verse 1]
+    O ar de volta
+    Não como prémio
+    Não como recompensa por mérito
+    Apenas — voltou
+    Tinha-me ido sem avisar
+    Anos com a respiração curta
+    Anos a explicar a si mesma
+    Que era assim, que tinha de ser
+    [Verse 2]
+    E numa terça à tarde
+    Sem motivo, sem aviso
+    O peito alargou de uma vez
+    E o ar entrou inteiro
+    Como quem volta a casa
+    Sem ter pedido perdão
+    Como quem se senta à mesa
+    Como se nunca tivesse saído
+    [Pre-Chorus]
+    O ar de volta é graça
+    Não é técnica
+    O ar de volta é graça
+    Não é mérito
+    [Chorus]
+    O ar de volta
+    Não me prometeu nada
+    E voltou
+    O ar de volta
+    A entrar pelo peito
+    Como entrava antes de tudo
+    O ar de volta
+    Sem termos discutido
+    Sem nos termos despedido bem
+    [Verse 3]
+    Saúdo o ar de volta
+    Como saúdo um amigo
+
+    Que esteve ausente sem explicar
+    E que nem peço explicação
+    Está aqui — basta isso
+    Está aqui — e eu reparo
+    Está aqui — e eu agradeço
+    Está aqui — e eu canto
+
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, dje
+    O ar de volta
+    Não me prometeu nada
+    E voltou
+    O ar de volta
+    A entrar pelo peito
+
+    [Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady — opens, does
+    (European Portuguese, Portugal accent:)
+    Talvez o teu ar ainda não tenha voltado
+    E eu não te prometo o regresso
+    O ar não é justo
+    O ar é antigo
+    Mas há gestos que o convidam
+    Janela aberta, mãos no peito, frase devagar
+    Não te prometo o regresso
+    Prometo-te os gestos do convite
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
+    O ar de volta
+    e voltou
+    o ar de volta
+    sem me prometer nada
+    [Outro: vocal warm, choir fading, djembe lingers]
+    O ar de volta
+    graça
+    o ar de volta
+    não pedi e veio
+  published: false
+  key_verse: O ar de volta. / Não me prometeu nada. / E voltou.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal entering at bar 2 that never shouts · wa'
+  bpm: 100
+- number: 10
+  title: Soft Landing
+  description: Outro whisper — fechar o EP suavemente. The soft landing after the breath has come back.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Outro whisper — fechar o EP suavemente. The soft landing after the breath has come back..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo felt-piano, warm Hammond pad very low, slow audible breathing, vocal entering on
+    [Verse 1]
+    (slow inhale, slow exhale)
+    Soft landing
+    The breath came back during the afternoon
+    And by the evening I was sitting here
+    With both feet on the ground
+    And the chest doing its work
+    Without my supervision
+    This is the destination
+    That nobody promised me
+    [Verse 2]
+    (slow inhale, slow exhale)
+    The day is doing its work
+    Without me — I am at the kitchen window
+    The phone is silent, or maybe it's not
+    I am not checking
+    The body is breathing slow now
+    After the long day of breathing fast
+    The body is allowed
+    The body has earned this
+    [Pre-Chorus]
+    Soft landing
+
+    Not the high, not the low
+    Soft landing
+    The middle place where the body sits
+    [Chorus]
+    Soft landing
+    The breath is back
+    The day is doing its work without me
+    Soft landing
+    The chest is open
+    The shoulders are lower
+    Soft landing
+    The version of evening
+    Where I let the world be
+    [Verse 3]
+    (slow inhale, slow exhale)
+    This is the landing the body wanted
+    Not the crash, not the conquest
+    The slow descent
+    With nothing burning, nothing celebrated
+    Tomorrow the breath may be short again
+    But tonight, the breath is long
+    And I will sleep with the long breath
+    And the body will continue
+    [Chorus: soft female choir hum enters, faraway]
+    Soft landing
+    The breath is back
+    The day is doing its work without me
+    Soft landing
+    The chest is open
+    [Bridge: vocal close, choir hums, only piano — opens, does not resolve]
+    (audible slow inhale, 6 seconds)
+    (audible slow exhale, 8 seconds)
+    You may not have arrived yet
+    You may still be in the high or the low
+    But the soft landing is real
+    The soft landing is reachable
+    Not by force, by patience
+    Tomorrow, the next day, eventually
+    Soft landing is what the body returns to
+    When you let the body lead
+    [Outro: vocal soft, piano fading, slow breathing continues, choir lingers]
+    (slow inhale, slow exhale)
+
+    Soft landing
+    the breath is back
+    soft landing
+    the body breathes slow
+
+    Notas para o canal YouTube
+    Posicionamento da playlist: EP3 entra como bálsamo. Funciona em qualquer hora do
+    dia onde a ansiedade está activa — antes de uma reunião, depois de uma chamada
+    difícil, à noite quando a coisa pesa. Diferentemente de De Pé (manhã) e Hoje Não (limite
+    contra pressão), Ar é a respiração de fundo da playlist.
+    Tracks-âncora deste EP: T1 Lembrar de Respirar, T5 Espaço Para o Ar, T9 Ar de Volta
+    (PT — anthems suaves muito cantáveis); T2 Slow Breath, T8 The Lungs Are Older Than
+    the Worry (EN — para alcance internacional).
+    Capa sugerida: ângulo lateral, peito feminino em primeiro plano (vestido, decote alto),
+    mão pousada no peito a sentir a respiração, luz suave. Cor #A8C4B5 na tipografia. Sem
+    rosto.
+  published: false
+  key_verse: Soft landing. / The breath is back. / The day is doing its work without me.
+  suno_prompt: 'Style: gospel ambient closing · intimate whisper close-mic · vocal entering at bar 2 · solo f'
+  bpm: 70
+  mood_secondary: respirar
