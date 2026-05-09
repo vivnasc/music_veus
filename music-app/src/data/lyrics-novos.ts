@@ -1220,7 +1220,11 @@ Free
 That's the whole story
 Free`,
 
-  "incenso-cinzento/1": `[Verse 1]
+  "incenso-cinzento/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Acordei à mesma hora
 Fiz o mesmo café
 Olhei pela janela
@@ -1275,7 +1279,11 @@ Passou
 Quarta chegou
 Igual`,
 
-  "incenso-cinzento/2": `[Verse 1]
+  "incenso-cinzento/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 People keep asking if I'm okay
 And I say yes because what else
 Because sad has a shape
@@ -1326,7 +1334,11 @@ Grey
 Just grey
 For now`,
 
-  "incenso-cinzento/3": `[Verse 1]
+  "incenso-cinzento/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Há dias em que a cama
 É a única coisa que faz sentido
 O edredão como fronteira
@@ -1376,7 +1388,11 @@ A cama
 Segurou
 Eu deixei`,
 
-  "incenso-cinzento/4": `[Verse 1]
+  "incenso-cinzento/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I went to work and laughed at lunch
 I answered every email
 I held the door for strangers
@@ -1429,7 +1445,11 @@ Nobody knows
 Yet
 Yet`,
 
-  "incenso-cinzento/5": `[Verse 1]
+  "incenso-cinzento/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Passou uma semana
 Não sei bem como
 Sei que comi
@@ -1482,7 +1502,11 @@ Semanas
 Hei de voltar
 A estar nelas`,
 
-  "incenso-cinzento/6": `[Verse 1]
+  "incenso-cinzento/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I got up today
 That's not nothing
 I made tea
@@ -1536,7 +1560,11 @@ Still here
 That's enough
 For today`,
 
-  "incenso-cinzento/7": `[Verse 1]
+  "incenso-cinzento/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Hoje o duche foi uma vitória
 Não estou a exagerar
 A água quente como prova
@@ -1588,7 +1616,11 @@ O café
 O dia
 Um de cada vez`,
 
-  "incenso-cinzento/8": `[Verse 1]
+  "incenso-cinzento/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 She didn't ask if I was okay
 She brought food instead
 She didn't need me to explain
@@ -1641,7 +1673,11 @@ She saw me
 I let her
 That was enough`,
 
-  "incenso-cinzento/9": `[Verse 1]
+  "incenso-cinzento/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Foi uma coisa pequena
 Uma música no café
 Que me fez parar
@@ -1695,7 +1731,11 @@ Luz
 Devagar
 A cor volta`,
 
-  "incenso-cinzento/10": `[Verse 1]
+  "incenso-cinzento/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I'm not going to tell you
 That I woke up healed
 I'm not going to tell you
