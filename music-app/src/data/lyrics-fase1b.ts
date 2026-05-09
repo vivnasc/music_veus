@@ -800,7 +800,11 @@ When you walk it on your own`,
   // PÉS DESCALÇOS (dança, corpo livre)
   // ─────────────────────────────────────────────
 
-  "incenso-pes-descalcos/1": `[Verse 1]
+  "incenso-pes-descalcos/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O primeiro passo é o mais difícil
 Não porque o corpo não queira
 Mas porque a mente diz que é inútil
@@ -878,7 +882,11 @@ A música já começou
 E o teu primeiro passo era
 Tudo o que te faltou`,
 
-  "incenso-pes-descalcos/2": `[Verse 1]
+  "incenso-pes-descalcos/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Take off your shoes and feel the ground
 The cold tile underneath your skin
 The texture that your feet have found
@@ -956,7 +964,11 @@ And you will know
 The earth was always playing drums
 Beneath you, slow and low`,
 
-  "incenso-pes-descalcos/3": `[Verse 1]
+  "incenso-pes-descalcos/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O tambor começa baixo
 Como um coração a acordar
 Primeiro lento, quase um cacho
@@ -1034,7 +1046,11 @@ O tambor nunca parou
 E cada batida é um feito
 Do ritmo que te encontrou`,
 
-  "incenso-pes-descalcos/4": `[Verse 1]
+  "incenso-pes-descalcos/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The floor is dark and slightly worn
 By years of heels and rubber soles
 A surface scratched and slightly torn
@@ -1112,7 +1128,11 @@ When new feet will come to pray
 To this temple built of sorrow
 And the funk that burns it away`,
 
-  "incenso-pes-descalcos/5": `[Verse 1]
+  "incenso-pes-descalcos/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Gira, gira, gira sem parar
 O mundo é um borrão de cor
 Os braços abertos como o mar
@@ -1190,7 +1210,11 @@ A pista encontrou a paz
 E aqui dentro, bem dentro
 A dança nunca se desfaz`,
 
-  "incenso-pes-descalcos/6": `[Verse 1]
+  "incenso-pes-descalcos/6": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The beat has been going for hours now
 The room is a furnace of sound
 I lost my name somewhere around
@@ -1268,7 +1292,11 @@ Standing still and breathing hard
 With something I will never lack
 The memory of coming apart`,
 
-  "incenso-pes-descalcos/7": `[Verse 1]
+  "incenso-pes-descalcos/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O suor escorre pela testa
 E cai na pista como chuva
 O corpo inteiro está em festa
@@ -1346,7 +1374,11 @@ Fica na pele como sal
 De um mar sem açoite
 De um corpo carnal`,
 
-  "incenso-pes-descalcos/8": `[Verse 1]
+  "incenso-pes-descalcos/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The music slows and something shifts
 Inside the engine of my chest
 The urgency dissolves and lifts
@@ -1424,7 +1456,11 @@ Into rhythm, into grace
 Surrender is the body calling
 Come home, come home to this place`,
 
-  "incenso-pes-descalcos/9": `[Verse 1]
+  "incenso-pes-descalcos/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Formamos uma roda sem combinar
 As mãos encontram outras mãos
 E de repente o circular
@@ -1502,7 +1538,11 @@ Fica no corpo como um selo
 De uma noite que nos merece
 E de um ritmo que é o mais belo`,
 
-  "incenso-pes-descalcos/10": `[Verse 1]
+  "incenso-pes-descalcos/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The DJ plays a slower song
 The lights come down to amber low
 The ones who danced all night long

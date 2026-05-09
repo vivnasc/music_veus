@@ -1149,7 +1149,11 @@ and who I still am`,
   // Perda profunda — morte, fim, ausência, o corpo que fica
   // ─────────────────────────────────────────────
 
-  "incenso-luto/1": `[Verse 1]
+  "incenso-luto/1": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O telefone tocou às seis da manhã
 e o corpo soube antes da voz
 Há notícias que não precisam de palavras
@@ -1186,7 +1190,11 @@ a tentar perceber
 porque é que tudo
 continua`,
 
-  "incenso-luto/2": `[Verse 1]
+  "incenso-luto/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The chair is still warm
 or maybe that's my imagination
 The glass beside the bed still has
@@ -1225,7 +1233,11 @@ as if leaving
 was something
 you could undo`,
 
-  "incenso-luto/3": `[Verse 1]
+  "incenso-luto/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 As pessoas dizem "força"
 como se a força fosse o que eu preciso
 O que eu preciso é de licença
@@ -1261,7 +1273,11 @@ só fica
 o silêncio é suficiente
 quando é honesto`,
 
-  "incenso-luto/4": `[Verse 1]
+  "incenso-luto/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Grief visits in the grocery store
 between the bread and milk
 It lands on my shoulder like a bird
@@ -1298,7 +1314,11 @@ and let it come
 all of it
 all at once`,
 
-  "incenso-luto/5": `[Verse 1]
+  "incenso-luto/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 A primeira vez que ri depois de ti
 senti-me culpada como uma ladra
 Como se rir fosse uma traição
@@ -1336,7 +1356,11 @@ porque o corpo
 recusa-se
 a ser tumba`,
 
-  "incenso-luto/6": `[Verse 1]
+  "incenso-luto/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I wear your sweater on the bad days
 the one with the hole in the left sleeve
 It smells less like you every wash
@@ -1373,7 +1397,11 @@ to the felt
 from the here
 to the everywhere`,
 
-  "incenso-luto/7": `[Verse 1]
+  "incenso-luto/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Um ano depois e ainda procuro
 o teu nome no ecrã do telefone
 Ainda guardo o teu lado da cama
@@ -1415,7 +1443,11 @@ a viver com ela
 como se vive
 com o próprio coração`,
 
-  "incenso-luto/8": `[Verse 1]
+  "incenso-luto/8": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The first birthday after you died
 I set a plate — I know, I know
 But the table looked so wrong without it
@@ -1450,7 +1482,11 @@ that's empty
 and full
 at the same time`,
 
-  "incenso-luto/9": `[Verse 1]
+  "incenso-luto/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Sonhei contigo esta noite
 estavas na cozinha como sempre
 A fazer chá com as mãos calmas
@@ -1485,7 +1521,11 @@ A porta está aberta
 a chávena
 está sempre pronta`,
 
-  "incenso-luto/10": `[Verse 1]
+  "incenso-luto/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 There will come a day I say your name
 and smile before I cry
 A day the memory is warm
@@ -2692,7 +2732,11 @@ mine`,
   // Crise de identidade — quem sou quando tudo o que construí cai
   // ─────────────────────────────────────────────
 
-  "incenso-espelho-partido/1": `[Verse 1]
+  "incenso-espelho-partido/1": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O espelho caiu e partiu-se em sete
 cada pedaço mostra um rosto diferente
 A boca de uma, os olhos de outra
@@ -2730,7 +2774,11 @@ no meio
 a tentar
 juntar`,
 
-  "incenso-espelho-partido/2": `[Verse 1]
+  "incenso-espelho-partido/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I woke up one morning and didn't recognise
 the woman in the bathroom mirror
 Same face, same hands, same morning light
@@ -2768,7 +2816,11 @@ but I know
 I am still
 standing`,
 
-  "incenso-espelho-partido/3": `[Verse 1]
+  "incenso-espelho-partido/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Perdi o emprego e com ele perdi
 o direito de responder "sou"
 Sou o quê agora — sem cartão
@@ -2802,7 +2854,11 @@ sou o que fica
 quando não faço
 nada`,
 
-  "incenso-espelho-partido/4": `[Verse 1]
+  "incenso-espelho-partido/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The divorce papers sit on the table
 next to the fruit bowl — mundane and mythic
 Seventeen years summarised in sections
@@ -2842,7 +2898,11 @@ whole
 terrifying
 one`,
 
-  "incenso-espelho-partido/5": `[Verse 1]
+  "incenso-espelho-partido/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Cortei o cabelo e chorei no salão
 como se o cabelo fosse quem eu era
 A cabeleireira não disse nada
@@ -2882,7 +2942,11 @@ a nova
 a crua
 a que cortou`,
 
-  "incenso-espelho-partido/6": `[Verse 1]
+  "incenso-espelho-partido/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I said I was fine so many times
 the word lost all its meaning
 Fine is the fence around the fire
@@ -2925,7 +2989,11 @@ just raw
 just done
 pretending`,
 
-  "incenso-espelho-partido/7": `[Verse 1]
+  "incenso-espelho-partido/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Olho para as minhas mãos e não reconheço
 o que elas fizeram, o que elas seguraram
 Parecem mãos de outra pessoa
@@ -2962,7 +3030,11 @@ e o possível
 é mais
 do que eu pensava`,
 
-  "incenso-espelho-partido/8": `[Verse 1]
+  "incenso-espelho-partido/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The photos on my phone tell a story
 of someone I performed with care
 She smiled in all the right places
@@ -3003,7 +3075,11 @@ this mess
 this
 me`,
 
-  "incenso-espelho-partido/9": `[Verse 1]
+  "incenso-espelho-partido/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Estou a juntar os pedaços
 sem pressa, sem cola, sem manual
 Cada pedaço é um pedaço válido
@@ -3042,7 +3118,11 @@ não é o que era
 é mais honesto
 é mais — eu`,
 
-  "incenso-espelho-partido/10": `[Verse 1]
+  "incenso-espelho-partido/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I don't know who I am today
 and that's the truest thing I've said
 Not lost — just between chapters
