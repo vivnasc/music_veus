@@ -17,7 +17,7 @@ export default function MixPageClient({ moods }: { moods: string[] }) {
     Object.keys(MOOD_META).includes(m)
   ) as LoranneMood[];
 
-  const { playTrack, currentTrack } = useMusicPlayer();
+  const { playTrack, currentTrack, currentAlbum } = useMusicPlayer();
   const [publishedKeys, setPublishedKeys] = useState<Set<string>>(new Set());
 
   useEffect(() => {
@@ -203,7 +203,7 @@ export default function MixPageClient({ moods }: { moods: string[] }) {
             {tracks.map((track, idx) => {
               const album = ALL_ALBUMS.find((a) => a.slug === track.albumSlug);
               if (!album) return null;
-              const isCurrent = currentTrack?.albumSlug === track.albumSlug && currentTrack?.number === track.number;
+              const isCurrent = currentAlbum?.slug === track.albumSlug && currentTrack?.number === track.number;
 
               return (
                 <div
