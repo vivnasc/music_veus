@@ -24,7 +24,11 @@ export const EXPANSAO_LYRICS: Record<string, string> = {
   // Ciclos do ano como ciclos interiores
   // ─────────────────────────────────────────────
 
-  "grao-estacoes/1": `[Verse 1]
+  "grao-estacoes/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Houve um tempo em que fiquei deitada
 dentro de mim mesma, pedra sobre pedra
 O corpo pesado como terra molhada
@@ -78,7 +82,11 @@ e era Páscoa dentro de mim
 Não porque alguém voltou
 mas porque eu decidi nascer`,
 
-  "grao-estacoes/2": `[Verse 1]
+  "grao-estacoes/2": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 There was a stone I carried in my chest
 for months or maybe more
 I called it safety, called it rest
@@ -121,7 +129,11 @@ not because the story says I should
 but because my body finally decided
 that it could`,
 
-  "grao-estacoes/3": `[Verse 1]
+  "grao-estacoes/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O sol demora mais hoje
 como quem se recusa a sair
 O ar tem peso de ouro
@@ -157,7 +169,11 @@ que bom
 que bom
 que bom`,
 
-  "grao-estacoes/4": `[Verse 1]
+  "grao-estacoes/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The longest day unfolds like cloth
 the sun refusing night
 My skin remembers something old
@@ -192,7 +208,11 @@ I am here
 I am whole
 I am here`,
 
-  "grao-estacoes/5": `[Verse 1]
+  "grao-estacoes/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 As folhas caem como quem desiste
 mas sem drama — com elegância
 Soltam-se do ramo em silêncio
@@ -230,7 +250,11 @@ E o que fica
 nu
 e inteiro`,
 
-  "grao-estacoes/6": `[Verse 1]
+  "grao-estacoes/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The trees undress without a sound
 no shame in standing bare
 They've done this dance a thousand times
@@ -266,7 +290,11 @@ The trunk remains
 the rings remain
 the roots remain`,
 
-  "grao-estacoes/7": `[Verse 1]
+  "grao-estacoes/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 A noite mais longa abraça o mundo
 e eu não luto contra ela
 Acendo uma vela no escuro
@@ -302,7 +330,11 @@ e eu tenho o meu
 aqui dentro
 a arder devagar`,
 
-  "grao-estacoes/8": `[Verse 1]
+  "grao-estacoes/8": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The dark arrived at four today
 and I did not resist
 I lit a candle, shut the door
@@ -338,7 +370,11 @@ I sit with the small flame
 that lives inside my chest
 and will not stop`,
 
-  "grao-estacoes/9": `[Verse 1]
+  "grao-estacoes/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Meia-noite e o mundo finge que muda
 os relógios voltam ao início
 Mas a mudança verdadeira
@@ -376,7 +412,11 @@ sem plateia
 Só eu
 e a decisão de arder`,
 
-  "grao-estacoes/10": `[Verse 1]
+  "grao-estacoes/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Midnight strikes and the world pretends
 a number changes everything
 But I've been reborn in April rain
@@ -1574,7 +1614,11 @@ okay`,
   // A noite acordada — pensamentos às 3h, o corpo que não desliga
   // ─────────────────────────────────────────────
 
-  "grao-insonia/1": `[Verse 1]
+  "grao-insonia/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O tecto tem fissuras que só eu conheço
 sei o mapa delas de cor
 São três da manhã e o corpo não desliga
@@ -1610,7 +1654,11 @@ e a noite continua
 e nada pára
 especialmente eu`,
 
-  "grao-insonia/2": `[Verse 1]
+  "grao-insonia/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The ceiling knows my face by now
 we've met too many nights
 My body says it's tired
@@ -1646,7 +1694,11 @@ one more thought
 just one more
 just one`,
 
-  "grao-insonia/3": `[Verse 1]
+  "grao-insonia/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Conto carneiros que se transformam
 em listas de coisas por fazer
 O primeiro é um email que não enviei
@@ -1683,7 +1735,11 @@ como sempre
 a lista ganhou
 outra vez`,
 
-  "grao-insonia/4": `[Verse 1]
+  "grao-insonia/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The blue light of my phone at two AM
 is the only honest company
 I scroll through other people's lives
@@ -1720,7 +1776,11 @@ with no one left
 to scroll through
 except myself`,
 
-  "grao-insonia/5": `[Verse 1]
+  "grao-insonia/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O corpo diz dorme
 a mente diz espera
 Há uma guerra civil no escuro
@@ -1758,7 +1818,11 @@ cabeça
 rendo-me
 e fico`,
 
-  "grao-insonia/6": `[Verse 1]
+  "grao-insonia/6": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 There's a woman in the kitchen at four AM
 boiling water she won't drink
 Standing barefoot on cold tiles
@@ -1797,7 +1861,11 @@ who carries the house
 in silence
 at four`,
 
-  "grao-insonia/7": `[Verse 1]
+  "grao-insonia/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Ouço a respiração de toda a casa
 o cão que sonha, a máquina que zumbe
 O frigorífico é um órgão de catedral
@@ -1836,7 +1904,11 @@ que eu estou
 acordada
 a ouvir`,
 
-  "grao-insonia/8": `[Verse 1]
+  "grao-insonia/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 At five the birds begin
 before the light, before the reason
 A tentative first note
@@ -1875,7 +1947,11 @@ through another night
 and morning
 is my proof`,
 
-  "grao-insonia/9": `[Verse 1]
+  "grao-insonia/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O primeiro raio de sol é uma trégua
 entre mim e a minha própria cabeça
 A luz entra devagar pela cortina
@@ -1911,7 +1987,11 @@ Bom dia
 ao dia que veio
 mesmo assim`,
 
-  "grao-insonia/10": `[Verse 1]
+  "grao-insonia/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Tonight I will not fight it
 I will let the dark be dark
 I will lie here like a boat
@@ -1954,7 +2034,11 @@ for now`,
   // O corpo como água — fluir, afogar, submergir, emergir
   // ─────────────────────────────────────────────
 
-  "eter-oceano/1": `[Verse 1]
+  "eter-oceano/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O meu corpo é feito de água
 mais de metade é mar
 E quando fecho os olhos à noite
@@ -1988,7 +2072,11 @@ porque o fundo
 se lembra
 de ser mar`,
 
-  "eter-oceano/2": `[Verse 1]
+  "eter-oceano/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I am more ocean than I thought
 more tide than solid ground
 The pull I feel beneath my skin
@@ -2025,7 +2113,11 @@ and neither one
 is less
 than the other`,
 
-  "eter-oceano/3": `[Verse 1]
+  "eter-oceano/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Afundei — não de uma vez
 mas devagar, como quem desce escadas
 Cada degrau mais fundo, mais escuro
@@ -2062,7 +2154,11 @@ a certeza
 de quem já não tem
 mais nada a perder`,
 
-  "eter-oceano/4": `[Verse 1]
+  "eter-oceano/4": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The surface breaks and I come through
 gasping, wild, alive
 Water streaming from my hair
@@ -2101,7 +2197,11 @@ and dripping
 with everything
 I survived`,
 
-  "eter-oceano/5": `[Verse 1]
+  "eter-oceano/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 A chuva cai sobre a minha pele
 como mãos que sabem onde tocar
 Cada gota é uma pergunta
@@ -2137,7 +2237,11 @@ e eu fico
 cada vez mais
 leve`,
 
-  "eter-oceano/6": `[Verse 1]
+  "eter-oceano/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Rivers don't run in straight lines
 they bend around the stone
 They don't fight what's in the way
@@ -2176,7 +2280,11 @@ not by force
 but by refusing
 to stop`,
 
-  "eter-oceano/7": `[Verse 1]
+  "eter-oceano/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O banho é o meu templo
 a banheira é o meu altar
 A água quente dissolve
@@ -2216,7 +2324,11 @@ só corpo
 só água
 só calor`,
 
-  "eter-oceano/8": `[Verse 1]
+  "eter-oceano/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The sea at night is a different animal
 black glass that breathes and waits
 I stand at the edge with bare feet
@@ -2255,7 +2367,11 @@ where I end
 and the universe
 begins`,
 
-  "eter-oceano/9": `[Verse 1]
+  "eter-oceano/9": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 As lágrimas são água salgada
 o mesmo sal do oceano
 O corpo chora e o mar responde
@@ -2293,7 +2409,11 @@ que precisa de cair
 para voltar
 a subir`,
 
-  "eter-oceano/10": `[Verse 1]
+  "eter-oceano/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 After the storm the sea goes still
 not empty — just complete
 The rage has said its piece
@@ -2340,7 +2460,11 @@ enough`,
   // Começos — mudar de cidade, começar de novo, o primeiro dia
   // ─────────────────────────────────────────────
 
-  "grao-primeiro-passo/1": `[Verse 1]
+  "grao-primeiro-passo/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 A mala está feita e pesa mais
 do que a roupa que lá pus
 Pesa o medo, pesa a dúvida
@@ -2377,7 +2501,11 @@ ou não vem
 mas este
 este é meu`,
 
-  "grao-primeiro-passo/2": `[Verse 1]
+  "grao-primeiro-passo/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 New city, new key, new silence
 the walls don't know my name
 The echo of my footsteps sounds
@@ -2417,7 +2545,11 @@ but sitting still
 in the mess
 of becoming`,
 
-  "grao-primeiro-passo/3": `[Verse 1]
+  "grao-primeiro-passo/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O primeiro dia de trabalho
 com as mãos a tremer no colo
 Ninguém sabe quem eu sou aqui
@@ -2454,7 +2586,11 @@ tudo possível
 tudo
 a começar`,
 
-  "grao-primeiro-passo/4": `[Verse 1]
+  "grao-primeiro-passo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 She left the ring on the kitchen counter
 next to the salt — poetic and plain
 Walked out with one bag and both shoes untied
@@ -2492,7 +2628,11 @@ and she
 does not
 adjust it`,
 
-  "grao-primeiro-passo/5": `[Verse 1]
+  "grao-primeiro-passo/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Tenho quarenta anos e começo do zero
 como se os outros não contassem
 Começo com rugas e com história
@@ -2530,7 +2670,11 @@ o que importa
 escolhi
 começar`,
 
-  "grao-primeiro-passo/6": `[Verse 1]
+  "grao-primeiro-passo/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The blank page doesn't judge
 it sits there, patient, white
 Waiting for the first word
@@ -2569,7 +2713,11 @@ and that's
 enough
 to begin`,
 
-  "grao-primeiro-passo/7": `[Verse 1]
+  "grao-primeiro-passo/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 A primeira refeição sozinha
 sem ninguém do outro lado da mesa
 O garfo pesa mais sem testemunha
@@ -2605,7 +2753,11 @@ silêncio cheio
 tudo cheio
 de mim`,
 
-  "grao-primeiro-passo/8": `[Verse 1]
+  "grao-primeiro-passo/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I said hello to my reflection
 for the first time without flinching
 Not fixing my hair, not checking for flaws
@@ -2645,7 +2797,11 @@ to look
 without
 looking away`,
 
-  "grao-primeiro-passo/9": `[Verse 1]
+  "grao-primeiro-passo/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Plantei uma semente no vaso da janela
 sem saber se ia resultar
 Reguei-a todos os dias como quem reza
@@ -2684,7 +2840,11 @@ porque a terra disse sim
 e a água disse sim
 e o sol disse sim`,
 
-  "grao-primeiro-passo/10": `[Verse 1]
+  "grao-primeiro-passo/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Tonight I sleep in a bed I chose
 in a room I painted myself
 The colour is wrong — too bright, too bold
