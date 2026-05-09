@@ -48,46 +48,10 @@ export type AlbumTrack = {
 type TrackDef = Omit<AlbumTrack, "lyrics" | "energy" | "flavor" | "vocalMode"> & { lyrics?: string; energy?: TrackEnergy; flavor?: TrackFlavor | null; vocalMode?: VocalMode };
 type AlbumDef = Omit<Album, "tracks" | "status" | "distribution" | "distrokidUploadDate"> & { tracks: TrackDef[]; status?: AlbumStatus; distribution?: boolean; distrokidUploadDate?: string | null };
 
-// Lyrics are stored in separate files to keep this file manageable
-import { ESPELHO_LYRICS } from "./lyrics-espelhos";
-import { NO_LYRICS } from "./lyrics-nos";
-import { LIVRO_LYRICS, CURSO_LYRICS } from "./lyrics-livro-cursos";
-import { ESPIRITUAL_LYRICS } from "./lyrics-espirituais";
-import { VIDA_LYRICS } from "./lyrics-vida";
-import { COSMIC_LYRICS } from "./lyrics-cosmic";
-import { ROMANCE_LYRICS } from "./lyrics-romance";
-import { EXPANSAO_LYRICS } from "./lyrics-expansao";
-import { FASE1_LYRICS } from "./lyrics-fase1";
-import { FASE1B_LYRICS } from "./lyrics-fase1b";
-import { FASE2_LYRICS } from "./lyrics-fase2";
-import { FIBRA_CORRIDA_LYRICS } from "./lyrics-fibra-corrida";
-import { NOVOS_LYRICS } from "./lyrics-novos";
-import { IMPORTADAS_LYRICS } from "./lyrics-importadas";
-import { ELEVAR_LYRICS } from "./lyrics-elevar";
+// Lyrics moved to ./all-lyrics — kept out of albums.ts so public pages don't
+// pull ~2.4MB of lyric strings into the client bundle. Pages that need lyrics
+// (FullPlayer, FraseDoDia, admin tools) import getLyrics from "@/data/all-lyrics".
 import { LORANNE_RELEASE_DATES } from "./production-calendar";
-
-const ALL_LYRICS: Record<string, string> = {
-  ...ESPELHO_LYRICS,
-  ...NO_LYRICS,
-  ...LIVRO_LYRICS,
-  ...CURSO_LYRICS,
-  ...ESPIRITUAL_LYRICS,
-  ...VIDA_LYRICS,
-  ...COSMIC_LYRICS,
-  ...ROMANCE_LYRICS,
-  ...EXPANSAO_LYRICS,
-  ...FASE1_LYRICS,
-  ...FASE1B_LYRICS,
-  ...FASE2_LYRICS,
-  ...FIBRA_CORRIDA_LYRICS,
-  ...NOVOS_LYRICS,
-  ...IMPORTADAS_LYRICS,
-  ...ELEVAR_LYRICS,
-};
-
-function getLyrics(albumSlug: string, trackNumber: number): string {
-  return ALL_LYRICS[`${albumSlug}/${trackNumber}`] || "";
-}
 
 export type AlbumStatus = "draft" | "ready" | "produced" | "published";
 
@@ -1234,7 +1198,7 @@ function applyLyrics(albumDef: AlbumDef): Album {
       energy: t.energy || "whisper",
       flavor: t.flavor ?? null,
       vocalMode: t.vocalMode || "solo",
-      lyrics: t.lyrics || getLyrics(albumDef.slug, t.number),
+      lyrics: t.lyrics || "",
       audioUrl: t.audioUrl ?? null,
     })),
   } as Album;

@@ -3,10 +3,10 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import {
-  ALL_ALBUMS,
   type Album,
   type AlbumTrack,
 } from "@/data/albums";
+import { ALL_ALBUMS_WITH_LYRICS as ALL_ALBUMS } from "@/data/albums-with-lyrics";
 import { adminFetch } from "@/lib/admin-fetch";
 
 

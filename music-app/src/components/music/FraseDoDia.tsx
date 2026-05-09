@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useEffect } from "react";
 import { ALL_ALBUMS, getArtist } from "@/data/albums";
 
 /**
@@ -9,13 +9,19 @@ import { ALL_ALBUMS, getArtist } from "@/data/albums";
  * Shareable. Intimate. Like a daily oracle from the music.
  */
 
-function getDailyLyric() {
-  const allLines: { line: string; trackTitle: string; trackNumber: number; albumTitle: string; albumSlug: string; albumColor: string; artist: string }[] = [];
+type DailyLyric = { line: string; trackTitle: string; trackNumber: number; albumTitle: string; albumSlug: string; albumColor: string; artist: string };
+
+async function getDailyLyric(): Promise<DailyLyric | null> {
+  // Lyrics are not bundled with ALL_ALBUMS — load lazily so the home page
+  // doesn't ship 2.4MB of strings just to render this card.
+  const { ALL_LYRICS } = await import("@/data/all-lyrics");
+  const allLines: DailyLyric[] = [];
 
   for (const album of ALL_ALBUMS) {
     for (const track of album.tracks) {
-      if (!track.lyrics) continue;
-      const lines = track.lyrics.split("\n").filter(l => {
+      const raw = track.lyrics || ALL_LYRICS[`${album.slug}/${track.number}`] || "";
+      if (!raw) continue;
+      const lines = raw.split("\n").filter(l => {
         const trimmed = l.trim();
         return trimmed.length > 15 && trimmed.length < 100 && !trimmed.startsWith("[");
       });
@@ -42,8 +48,12 @@ function getDailyLyric() {
 }
 
 export default function FraseDoDia() {
-  const daily = useMemo(() => getDailyLyric(), []);
+  const [daily, setDaily] = useState<DailyLyric | null>(null);
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    getDailyLyric().then(setDaily);
+  }, []);
 
   if (!daily) return null;
 

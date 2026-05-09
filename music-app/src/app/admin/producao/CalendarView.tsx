@@ -3,12 +3,12 @@
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import {
-  ALL_ALBUMS,
   ENERGY_LABELS,
   FLAVOR_LABELS,
   type Album,
   type AlbumStatus,
 } from "@/data/albums";
+import { ALL_ALBUMS_WITH_LYRICS as ALL_ALBUMS } from "@/data/albums-with-lyrics";
 import {
   PRODUCTION_CALENDAR,
   LORANNE_RELEASE_DATES,

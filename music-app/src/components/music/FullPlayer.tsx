@@ -142,12 +142,26 @@ export default function FullPlayer() {
   const [showSleep, setShowSleep] = useState(false);
   const [activeTab, setActiveTab] = useState<ViewTab>("cover");
   const [trackCover, setTrackCover] = useState<string | null>(null);
+  const [staticLyrics, setStaticLyrics] = useState("");
   const { saveTrack, removeTrack, getSaveState, isSaved } = useDownloads();
   const { isFavorite, toggleFavorite, userId } = useLibrary();
   const { getTitle } = useCustomTitles();
   const displayTitle = currentTrack ? getTitle(currentAlbum?.slug || "", currentTrack.number, currentTrack.title) : "";
   const { getLyrics: getCustomLyrics } = useCustomLyrics();
   const router = useRouter();
+
+  // Lazy-load static lyrics so the lyrics bundle (~2.4MB) doesn't ship with
+  // every page that mounts the player. Only fetched when a track is loaded.
+  useEffect(() => {
+    if (!currentTrack || !currentAlbum) { setStaticLyrics(""); return; }
+    if (currentTrack.lyrics) { setStaticLyrics(currentTrack.lyrics); return; }
+    let cancelled = false;
+    import("@/data/all-lyrics").then(({ getLyrics }) => {
+      if (cancelled) return;
+      setStaticLyrics(getLyrics(currentAlbum.slug, currentTrack.number));
+    });
+    return () => { cancelled = true; };
+  }, [currentTrack, currentAlbum]);
 
   // ── Track-specific cover ──
   useEffect(() => {
@@ -224,8 +238,8 @@ export default function FullPlayer() {
   const albumColor = currentAlbum?.color || "#C9A96E";
   const coverSrc = trackCover || (currentAlbum ? getAlbumCover(currentAlbum) : "/poses/loranne-hero.png");
   const resolvedLyrics = currentAlbum
-    ? getCustomLyrics(currentAlbum.slug, currentTrack.number, currentTrack.lyrics || "")
-    : currentTrack.lyrics || "";
+    ? getCustomLyrics(currentAlbum.slug, currentTrack.number, staticLyrics)
+    : staticLyrics;
   const hasLyrics = !!resolvedLyrics;
   const currentIdx = queue.findIndex(t => {
     if (t.number !== currentTrack.number) return false;
