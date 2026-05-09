@@ -7,9 +7,10 @@ import { useRouter } from "next/navigation";
 import { useRecommendations } from "@/hooks/useRecommendations";
 import { ALL_LISTS, type CuratedList } from "@/data/curated-lists";
 import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
-import { LORANNE_MOODS, MOOD_META, type LoranneMood, type CompactMoodsData } from "@/data/loranne-moods";
+import { LORANNE_MOODS, MOOD_META, moodCoverUrl, type LoranneMood, type CompactMoodsData } from "@/data/loranne-moods";
 import LORANNE_MOODS_DATA from "@/data/loranne-moods-data.json";
 import { getTrackCoverUrl } from "@/lib/album-covers";
+import { LangFilterToggle } from "@/components/music/LangFilterToggle";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
 import OutrosMundosSection from "@/components/music/OutrosMundosSection";
 import { useDbAlbums } from "@/hooks/useDbAlbums";
@@ -242,6 +243,9 @@ export default function DescobrePage() {
             </svg>
           </Link>
           <h1 className="text-lg font-semibold">Descobre</h1>
+          <div className="ml-auto">
+            <LangFilterToggle compact />
+          </div>
         </div>
       </div>
 
@@ -385,26 +389,35 @@ function HeroMoodSelector({
             >
               <Link
                 href={`/lista/mood-loranne-${meta.playlistSlug}`}
-                className="block aspect-[5/4] relative"
+                className="block aspect-[5/4] relative overflow-hidden"
                 style={{
                   background: `linear-gradient(135deg, ${meta.color}, ${meta.color}33)`,
                 }}
               >
+                <Image
+                  src={moodCoverUrl(mood)}
+                  alt={meta.label}
+                  fill
+                  className="object-cover"
+                  unoptimized
+                  onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                 <div className="absolute inset-0 flex flex-col justify-end p-4">
                   <div className="flex items-baseline justify-between mb-1">
                     <span className="text-2xl font-semibold text-white drop-shadow-sm">
                       {meta.label}
                     </span>
                     {isSuggested && (
-                      <span className="text-[10px] text-white/90 bg-black/30 px-2 py-0.5 rounded-full">
+                      <span className="text-[10px] text-white/90 bg-black/40 px-2 py-0.5 rounded-full">
                         agora
                       </span>
                     )}
                   </div>
-                  <p className="text-[11px] text-white/80 line-clamp-2 mb-1">
+                  <p className="text-[11px] text-white/85 line-clamp-2 mb-1">
                     {meta.paraQuem}
                   </p>
-                  <p className="text-[10px] text-white/50">{count} faixas</p>
+                  <p className="text-[10px] text-white/60">{count} faixas</p>
                 </div>
               </Link>
 

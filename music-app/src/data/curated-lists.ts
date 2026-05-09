@@ -205,6 +205,11 @@ const TEMA_AUTO_PODER: CuratedList = {
     { albumSlug: "curso-coroa", trackNumber: 4 },          // Crown
     { albumSlug: "curso-chama", trackNumber: 3 },         // Fogo Controlado
     { albumSlug: "no-silencio", trackNumber: 5 },        // Voice
+    { albumSlug: "incenso-maos-juntas", trackNumber: 7 }, // Dádiva
+    { albumSlug: "incenso-aleluia", trackNumber: 5 },     // Hallelujah / peak
+    { albumSlug: "incenso-coro", trackNumber: 9 },        // Eu Sou Porque Tu És
+    { albumSlug: "incenso-de-pe", trackNumber: 1 },       // De Pé
+    { albumSlug: "incenso-acende", trackNumber: 5 },      // Voltei
   ],
 };
 
@@ -268,6 +273,11 @@ const TEMA_O_CORPO: CuratedList = {
     { albumSlug: "espelho-controlo", trackNumber: 7 },   // Respirar
     { albumSlug: "curso-oficio-ser", trackNumber: 2 },    // Pause
     { albumSlug: "curso-fome", trackNumber: 1 },          // Mesa Vazia
+    { albumSlug: "fibra-corpo-aberto", trackNumber: 1 },  // Corpo Aberto
+    { albumSlug: "fibra-sangue-aceso", trackNumber: 1 },  // Sangue Aceso
+    { albumSlug: "fibra-barra-carregada", trackNumber: 1 }, // Barra Carregada
+    { albumSlug: "fibra-asfalto-vivo", trackNumber: 1 },  // Asfalto Vivo
+    { albumSlug: "fibra-corpo-acorda", trackNumber: 1 },  // Corpo Acorda
   ],
 };
 
@@ -289,6 +299,13 @@ const TEMA_RECOMECAR: CuratedList = {
     { albumSlug: "espelho-separacao", trackNumber: 7 },    // Sete Veus
     { albumSlug: "no-pertenca", trackNumber: 4 },          // Reinventar
     { albumSlug: "curso-relogio", trackNumber: 4 },       // Present
+    { albumSlug: "incenso-acende", trackNumber: 1 },      // Pequena Chama
+    { albumSlug: "incenso-acende", trackNumber: 2 },      // Coming Back
+    { albumSlug: "incenso-acende", trackNumber: 5 },      // Voltei
+    { albumSlug: "incenso-acende", trackNumber: 9 },      // Cá Estou
+    { albumSlug: "incenso-volta-a-mim", trackNumber: 1 }, // Volta a Mim
+    { albumSlug: "grao-primeiro-passo", trackNumber: 1 }, // Primeiro Passo
+    { albumSlug: "grao-segunda-vez", trackNumber: 1 },    // Segunda Vez
   ],
 };
 
@@ -310,6 +327,175 @@ const TEMA_O_SILENCIO: CuratedList = {
     { albumSlug: "curso-voz-dentro", trackNumber: 1 },     // Silêncio
     { albumSlug: "curso-voz-dentro", trackNumber: 2 },     // Echo
     { albumSlug: "curso-silencio-grita", trackNumber: 1 }, // Caverna Muda
+  ],
+};
+
+const TEMA_ATENCAO: CuratedList = {
+  slug: "tema-atencao",
+  title: "Atenção",
+  subtitle: "Acordar do automatismo. Ver o que estava à frente.",
+  category: "tema",
+  color: "#7E57C2",
+  icon: "eye",
+  tracks: [
+    { albumSlug: "eter-olhos-arregalados", trackNumber: 1 }, // Olhos Arregalados
+    { albumSlug: "incenso-norte-interno", trackNumber: 1 },  // Norte Interno
+    { albumSlug: "incenso-raiz-muda", trackNumber: 1 },      // Raiz Muda
+    { albumSlug: "incenso-ressonancia", trackNumber: 1 },    // Ressonância
+    { albumSlug: "curso-voz-dentro", trackNumber: 1 },       // Silêncio
+    { albumSlug: "curso-voz-dentro", trackNumber: 2 },       // Echo
+    { albumSlug: "curso-silencio-grita", trackNumber: 1 },   // Caverna Muda
+    { albumSlug: "espelho-ilusao", trackNumber: 7 },         // O Veu Cai
+    { albumSlug: "incenso-acende", trackNumber: 1 },         // Pequena Chama
+    { albumSlug: "grao-primeira-luz", trackNumber: 1 },      // Primeira Luz
+  ],
+};
+
+const TEMA_CUIDADO: CuratedList = {
+  slug: "tema-cuidado",
+  title: "Cuidado",
+  subtitle: "Os gestos pequenos que te lembram que estás aqui.",
+  category: "tema",
+  color: "#D4A0B0",
+  icon: "hand-heart",
+  tracks: [
+    { albumSlug: "grao-porcelana", trackNumber: 1 },          // Porcelana
+    { albumSlug: "nua-beijo-na-testa", trackNumber: 1 },      // Beijo na Testa
+    { albumSlug: "incenso-maos-juntas", trackNumber: 1 },     // Corpo Que Me Leva
+    { albumSlug: "incenso-maos-juntas", trackNumber: 4 },     // Enough
+    { albumSlug: "espelho-culpa", trackNumber: 7 },           // Ternura
+    { albumSlug: "espelho-culpa", trackNumber: 5 },           // Deserve
+    { albumSlug: "incenso-maos-abertas", trackNumber: 1 },    // Mãos Abertas
+    { albumSlug: "incenso-rescaldo", trackNumber: 1 },        // Rescaldo
+    { albumSlug: "grao-pao-sal", trackNumber: 1 },            // O Pão e o Sal
+    { albumSlug: "grao-no-de-ouro", trackNumber: 1 },         // Nó de Ouro
+  ],
+};
+
+const TEMA_A_MAE: CuratedList = {
+  slug: "tema-a-mae",
+  title: "A Mãe",
+  subtitle: "A relação que te fez. A que carregas. A que te falta.",
+  category: "tema",
+  color: "#B0344A",
+  icon: "baby",
+  tracks: [
+    { albumSlug: "sangue-mae", trackNumber: 1 },              // Mãe
+    { albumSlug: "curso-sangue-seda", trackNumber: 2 },       // The Inner Mother
+    { albumSlug: "no-heranca", trackNumber: 1 },              // O Silêncio de Helena
+    { albumSlug: "no-heranca", trackNumber: 3 },              // Duas Mulheres
+    { albumSlug: "espelho-culpa", trackNumber: 4 },           // Herança
+    { albumSlug: "sangue-ventre", trackNumber: 1 },           // Ventre
+    { albumSlug: "sangue-linhagem", trackNumber: 1 },         // Linhagem
+    { albumSlug: "no-heranca", trackNumber: 4 },              // O Que Nunca Foi Dito
+    { albumSlug: "espelho-ilusao", trackNumber: 2 },          // The Coat I Never Chose
+    { albumSlug: "sangue-o-que-nao-nasceu", trackNumber: 1 }, // O Que Não Nasceu
+  ],
+};
+
+const TEMA_CASA: CuratedList = {
+  slug: "tema-casa",
+  title: "Casa",
+  subtitle: "O lugar onde se chega. Pertença, mesa, abrigo.",
+  category: "tema",
+  color: "#C9B896",
+  icon: "house",
+  tracks: [
+    { albumSlug: "grao-pao-sal", trackNumber: 1 },           // O Pão e o Sal
+    { albumSlug: "grao-toalha-posta", trackNumber: 1 },      // Toalha Posta
+    { albumSlug: "grao-abrigo", trackNumber: 1 },            // Abrigo
+    { albumSlug: "grao-porta-aberta", trackNumber: 1 },      // Porta Aberta
+    { albumSlug: "grao-terra-molhada", trackNumber: 1 },     // Terra Molhada
+    { albumSlug: "no-pertenca", trackNumber: 4 },            // Reinventar
+    { albumSlug: "incenso-ancora", trackNumber: 1 },         // Âncora
+    { albumSlug: "mare-varanda-quente", trackNumber: 1 },    // Varanda Quente
+    { albumSlug: "incenso-coro", trackNumber: 3 },           // A Casa de Outra
+    { albumSlug: "incenso-volta-a-mim", trackNumber: 1 },    // Volta a Mim
+  ],
+};
+
+const TEMA_SAUDADE: CuratedList = {
+  slug: "tema-saudade",
+  title: "Saudade",
+  subtitle: "A falta que ensina o tamanho do amor.",
+  category: "tema",
+  color: "#7AABBA",
+  icon: "cloud-fog",
+  tracks: [
+    { albumSlug: "nua-longe-e-bem", trackNumber: 1 },        // Longe e Bem
+    { albumSlug: "eter-fotografia-velha", trackNumber: 1 },  // Fotografia Velha
+    { albumSlug: "eter-amanha-inventado", trackNumber: 1 },  // Amanhã Inventado
+    { albumSlug: "nua-traco", trackNumber: 1 },              // Traço
+    { albumSlug: "sangue-o-que-nao-nasceu", trackNumber: 1 }, // O Que Não Nasceu
+    { albumSlug: "mare-tardes-vazias", trackNumber: 1 },     // Tardes Vazias
+    { albumSlug: "incenso-luto", trackNumber: 1 },           // Luto
+    { albumSlug: "eter-sala-vazia", trackNumber: 1 },        // Sala Vazia
+    { albumSlug: "no-heranca", trackNumber: 4 },             // O Que Nunca Foi Dito
+    { albumSlug: "incenso-diluvio-manso", trackNumber: 1 },  // Dilúvio Manso
+  ],
+};
+
+const TEMA_TEMPO: CuratedList = {
+  slug: "tema-tempo",
+  title: "Tempo",
+  subtitle: "Estações, idade, ciclos. O corpo como calendário.",
+  category: "tema",
+  color: "#C9A96E",
+  icon: "hourglass",
+  tracks: [
+    { albumSlug: "grao-estacoes", trackNumber: 1 },          // Estações
+    { albumSlug: "mare-viva", trackNumber: 1 },              // Maré Viva
+    { albumSlug: "nua-tempo-no-corpo", trackNumber: 1 },     // Tempo no Corpo
+    { albumSlug: "grao-segunda-vez", trackNumber: 1 },       // Segunda Vez
+    { albumSlug: "curso-relogio", trackNumber: 4 },          // Present
+    { albumSlug: "mare-penumbra", trackNumber: 1 },          // Penumbra
+    { albumSlug: "grao-espelho-agua", trackNumber: 1 },      // Espelho d'Água
+    { albumSlug: "grao-sal-na-pele", trackNumber: 1 },       // Sal na Pele
+    { albumSlug: "grao-abrigo", trackNumber: 1 },            // Abrigo
+    { albumSlug: "grao-insonia", trackNumber: 1 },           // Insónia
+  ],
+};
+
+const TEMA_SOLIDAO_BOA: CuratedList = {
+  slug: "tema-solidao-boa",
+  title: "Solidão Boa",
+  subtitle: "A companhia de ti mesma. Estar só sem estar perdida.",
+  category: "tema",
+  color: "#7A7A8B",
+  icon: "user",
+  tracks: [
+    { albumSlug: "mare-companhia-propria", trackNumber: 1 }, // Companhia Própria
+    { albumSlug: "nua-so", trackNumber: 1 },                 // Só
+    { albumSlug: "eter-sala-vazia", trackNumber: 1 },        // Sala Vazia
+    { albumSlug: "grao-insonia", trackNumber: 1 },           // Insónia
+    { albumSlug: "grao-ferias", trackNumber: 1 },            // Férias
+    { albumSlug: "no-silencio", trackNumber: 1 },            // Dois Corpos Quietos
+    { albumSlug: "mare-luz-mansa", trackNumber: 1 },         // Luz Mansa
+    { albumSlug: "mare-lua-acordada", trackNumber: 1 },      // Lua Acordada
+    { albumSlug: "incenso-silencio-fertil", trackNumber: 1 }, // Silêncio Fértil
+    { albumSlug: "mare-tardes-vazias", trackNumber: 1 },     // Tardes Vazias
+  ],
+};
+
+const TEMA_ROMANCE: CuratedList = {
+  slug: "tema-romance",
+  title: "Romance",
+  subtitle: "Intimidade adulta. O amor que se escolhe e se serve.",
+  category: "tema",
+  color: "#9B4A5A",
+  icon: "flame",
+  tracks: [
+    { albumSlug: "nua-corpo-a-corpo", trackNumber: 1 },      // Corpo a Corpo
+    { albumSlug: "espelho-desejo", trackNumber: 6 },         // Habitar o Desejo
+    { albumSlug: "espelho-desejo", trackNumber: 3 },         // O Que o Corpo Pede
+    { albumSlug: "espelho-desejo", trackNumber: 7 },         // Inteira
+    { albumSlug: "nua-pequeno-demais", trackNumber: 1 },     // Pequeno Demais
+    { albumSlug: "nua-nao-era-amor", trackNumber: 1 },       // Não Era Amor
+    { albumSlug: "grao-no-de-ouro", trackNumber: 1 },        // Nó de Ouro
+    { albumSlug: "incenso-pele-exposta", trackNumber: 1 },   // Pele Exposta
+    { albumSlug: "no-sacrificio", trackNumber: 4 },          // Dois Inteiros
+    { albumSlug: "grao-combustao", trackNumber: 1 },         // Combustão
+    { albumSlug: "fibra-corpo-aberto", trackNumber: 1 },     // Corpo Aberto
   ],
 };
 
@@ -531,6 +717,14 @@ export const TEMAS: CuratedList[] = [
   TEMA_O_CORPO,
   TEMA_RECOMECAR,
   TEMA_O_SILENCIO,
+  TEMA_ATENCAO,
+  TEMA_CUIDADO,
+  TEMA_A_MAE,
+  TEMA_CASA,
+  TEMA_SAUDADE,
+  TEMA_TEMPO,
+  TEMA_SOLIDAO_BOA,
+  TEMA_ROMANCE,
 ];
 
 export const ALL_LISTS: CuratedList[] = [

@@ -13,7 +13,7 @@ import ListTrackRow from "@/components/music/ListTrackRow";
 import VersionTracks from "@/components/music/VersionTracks";
 import NavBar from "@/components/music/NavBar";
 import type { TrackEnergy } from "@/data/albums";
-import { LORANNE_MOODS, MOOD_META, type LoranneMood } from "@/data/loranne-moods";
+import { LORANNE_MOODS, MOOD_META, moodCoverUrl, type LoranneMood } from "@/data/loranne-moods";
 
 type AlbumGroup = {
   album: Album;
@@ -99,6 +99,20 @@ export default function ListPageClient({ slug, categoryLabel, moodEnergy, lorann
           className="absolute inset-0 opacity-20"
           style={{ background: `radial-gradient(ellipse at center top, ${list.color}, transparent 70%)` }}
         />
+        {/* Mood cover background — only for mood-loranne-* */}
+        {loranneMood && (
+          <>
+            <Image
+              src={moodCoverUrl(loranneMood.mood)}
+              alt={list.title}
+              fill
+              className="object-cover opacity-30"
+              unoptimized
+              onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0D0D1A]/50 to-[#0D0D1A]" />
+          </>
+        )}
         <div className="relative max-w-screen-lg mx-auto px-6 pt-8 pb-10">
           <Link href="/descobre" className="text-xs text-[#666680] hover:text-[#a0a0b0] transition-colors">
             &larr; Descobre

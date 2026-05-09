@@ -5629,7 +5629,11 @@ a única que ninguém me dói`,
   // ALBUM: VENTRE
   // ─────────────────────────────────────────────
 
-  "sangue-ventre/1": `[Verse 1]
+  "sangue-ventre/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Antes de saber o teu nome
 O meu corpo já te fazia espaço
 As ancas alargavam em silêncio
@@ -5664,7 +5668,11 @@ Já eras
 De alguma forma
 Já eras`,
 
-  "sangue-ventre/2": `[Verse 1]
+  "sangue-ventre/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The room was cold and the gel was cold
 And the screen was grey and small
 Then a sound appeared — not mine
@@ -5698,7 +5706,11 @@ Tiny drum
 I hear you
 I'm coming`,
 
-  "sangue-ventre/3": `[Verse 1]
+  "sangue-ventre/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Ninguém te avisa
 Que o corpo se abre como a terra
 Que a dor é um portal
@@ -5734,7 +5746,11 @@ Parti
 E nasci
 Outra vez`,
 
-  "sangue-ventre/4": `[Verse 1]
+  "sangue-ventre/4": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The room was painted yellow
 For someone who never came
 The mobile turns in silence
@@ -5776,7 +5792,11 @@ Every morning
 Like a prayer
 For what could have been`,
 
-  "sangue-ventre/5": `[Verse 1]
+  "sangue-ventre/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 São três da manhã
 O mundo inteiro dorme
 Menos eu e esta boca pequena
@@ -5812,7 +5832,11 @@ Eu estou aqui
 Dorme
 Que o leite sabe a casa`,
 
-  "sangue-ventre/6": `[Verse 1]
+  "sangue-ventre/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 They call me mama in the morning
 And darling in the night
 But somewhere in between the names
@@ -5852,7 +5876,11 @@ A woman
 First
 And always`,
 
-  "sangue-ventre/7": `[Verse 1]
+  "sangue-ventre/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Dizem-me que vou mudar de ideias
 Dizem-me que é diferente quando é teu
 Dizem-me que uma mulher sem filhos
@@ -5889,7 +5917,11 @@ Sem filhos
 Inteira
 Com tudo`,
 
-  "sangue-ventre/8": `[Verse 1]
+  "sangue-ventre/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 My mother sang a song to me
 In a language she half-remembered
 A melody from her own mother
@@ -5925,7 +5957,11 @@ Whispered once
 Hush
 And be held`,
 
-  "sangue-ventre/9": `[Verse 1]
+  "sangue-ventre/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Começou com um soluço
 Pequeno como uma semente
 Depois os olhos brilharam
@@ -5965,7 +6001,11 @@ Ri
 Que o mundo precisa
 Desse som`,
 
-  "sangue-ventre/10": `[Verse 1]
+  "sangue-ventre/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 My mother's mother carried water
 Three miles before the sun
 Her mother's mother carried children

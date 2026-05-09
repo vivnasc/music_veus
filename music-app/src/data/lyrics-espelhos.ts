@@ -344,7 +344,11 @@ Eu sempre estive aqui`,
   // ESPELHO DO MEDO (Véu 2 — fear deciding for you)
   // ─────────────────────────────────────────────
 
-  "espelho-medo/1": `[Verse 1]
+  "espelho-medo/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Cuidado com a esquina, cuidado com o chão
 Cuidado com o riso, cuidado com a mão
 Cuidado com o mundo que te pode magoar
@@ -391,7 +395,11 @@ E eu saio
 Descalca, tremula
 Mas saio`,
 
-  "espelho-medo/2": `[Verse 1]
+  "espelho-medo/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I rehearse the sentence in the shower steam
 Practise every pause and every smile
 Cut the honest version from the scene
@@ -435,7 +443,11 @@ Falls like rain on stone
 And suddenly the desert
 Doesn't feel like home alone`,
 
-  "espelho-medo/3": `[Verse 1]
+  "espelho-medo/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Fico aqui na esquina entre o sim e o não
 Com os pés colados ao alcatrão
 Chamo-lhe paciência, chamo-lhe prudencia
@@ -478,7 +490,11 @@ E tremulo e pequeno
 Mas e meu, e vivo
 E vale mais que cem perfeitos no caderno`,
 
-  "espelho-medo/4": `[Verse 1]
+  "espelho-medo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 A barriga aperta antes da boca falar
 O peito fecha antes do medo chegar
 As mãos tremem antes de eu saber
@@ -522,7 +538,11 @@ Ouço os ossos
 Ouço tudo o que já sei
 Mas finjo que não sinto`,
 
-  "espelho-medo/5": `[Verse 1]
+  "espelho-medo/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I built a wall with steady hands
 I locked the door and hid the key
 I called it peace, I called it safe
@@ -568,7 +588,11 @@ I know your voice, I know your face
 I will not run from you again
 We'll find the morning at the same pace`,
 
-  "espelho-medo/6": `[Verse 1]
+  "espelho-medo/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Ouves a tua voz na minha orelha
 Sinto o teu peso nós meus pés
 Conheco-te como se conhece uma canção velha
@@ -615,7 +639,11 @@ Com as pernas a tremer
 É o coração aos pulos
 Vou`,
 
-  "espelho-medo/7": `[Verse 1]
+  "espelho-medo/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 A vela treme na minha mão
 A chama e tão pequena, tão frágil
 Mas ilumina mais que qualquer trovão
@@ -1063,7 +1091,11 @@ E chega, e chega
   // ESPELHO DA IDENTIDADE (Véu 4 — not knowing who you are)
   // ─────────────────────────────────────────────
 
-  "espelho-identidade/1": `[Verse 1]
+  "espelho-identidade/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 De manhã sou a mãe que sorri na porta
 A meio do dia a colega perfeita
 A noite a mulher que ninguém importa
@@ -1109,7 +1141,11 @@ Que espera
 Com a paciência
 De quem nunca desistiu`,
 
-  "espelho-identidade/2": `[Verse 1]
+  "espelho-identidade/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 When the house is empty and the lights go low
 When the curtains close and there's no more show
 When the phone stops ringing and the world moves on
@@ -1154,7 +1190,11 @@ And oh, that's the truest thing
 These lips have ever said
 The truest, sweetest thing`,
 
-  "espelho-identidade/3": `[Verse 1]
+  "espelho-identidade/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Construi uma torre com opinioes
 Cada certeza um tijolo a mais
 Eu sei quem sou, eu sei o que quero
@@ -1201,7 +1241,11 @@ Só há pele
 Quente, viva
 A respirar`,
 
-  "espelho-identidade/4": `[Verse 1]
+  "espelho-identidade/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Há um espelho que não está na parede
 Está algures entre o peito e a garganta
 Não mostra a roupa nem o penteado
@@ -1248,7 +1292,11 @@ Sem querer ser mais
 Sem querer ser menos
 Só eu, parada, ali`,
 
-  "espelho-identidade/5": `[Verse 1]
+  "espelho-identidade/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Take away my name and watch me tremble
 Take away the job, the house, the ring
 Take away the story I'vê been telling
@@ -1296,7 +1344,11 @@ Just here
 Just whole
 Just breathing`,
 
-  "espelho-identidade/6": `[Verse 1]
+  "espelho-identidade/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Agora vejo as máscaras na mesa
 Cada uma com a sua cor
 Escolho a que me serve está manhã
@@ -1342,7 +1394,11 @@ Com um sorriso nós lábios
 Descansa feliz
 Porque já não precisa de se esconder`,
 
-  "espelho-identidade/7": `[Verse 1]
+  "espelho-identidade/7": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Não trago provas do que valho
 Não trago selos nem certidão
 Trago só este corpo inteiro
@@ -1395,7 +1451,11 @@ E isso é tudo o que preciso de dizer`,
   // ESPELHO DO CONTROLO (Véu 5 — holding on as the only way)
   // ─────────────────────────────────────────────
 
-  "espelho-controlo/1": `[Verse 1]
+  "espelho-controlo/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 As almofadas na posição certa
 Os sapatos alinhados junto a porta
 A agenda fechada como fortaleza
@@ -1442,7 +1502,11 @@ Menos eu
 Que estou a tremer
 No meio de tanta ordem`,
 
-  "espelho-controlo/2": `[Verse 1]
+  "espelho-controlo/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 They call at midnight and I answer still
 They call at dawn before the coffee's warm
 I am the lighthouse on the frozen hill
@@ -1488,7 +1552,11 @@ Also tender
 Also human
 Also here`,
 
-  "espelho-controlo/3": `[Verse 1]
+  "espelho-controlo/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O tecto escuro não me responde
 Mas eu pergunto na mesma
 O que eu devia ter dito ao almoço
@@ -1535,7 +1603,11 @@ Deixo o comboio partir sem mim
 Dorme, querida
 Amanha o mundo continua assim`,
 
-  "espelho-controlo/4": `[Verse 1]
+  "espelho-controlo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Desenhei um mapa para cada dia
 Com as estradas todas marcadas a vermelho
 Cada curva prevista, cada paragem
@@ -1582,7 +1654,11 @@ Havia céu
 Havia espaço para me perder
 E me encontrar ao mesmo tempo`,
 
-  "espelho-controlo/5": `[Verse 1]
+  "espelho-controlo/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I packed an umbrella for the sun
 I wore a coat in June
 I planned for every kind of storm
@@ -1627,7 +1703,11 @@ And the road kept on
 I let go of the rain
 And I danced till dawn`,
 
-  "espelho-controlo/6": `[Verse 1]
+  "espelho-controlo/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Desliguei o telefone a tarde inteira
 O mundo girou sem a minha mão
 O jantar queimou e ninguém chorou
@@ -1679,7 +1759,11 @@ A rir
 Com as mãos abertas
 Finalmente abertas`,
 
-  "espelho-controlo/7": `[Verse 1]
+  "espelho-controlo/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O ar entra como um rio manso
 Enche-me o peito como um barco ao mar
 O ar sai e leva tudo
@@ -2113,7 +2197,11 @@ Para deixar florescer`,
   // ESPELHO DA SEPARACAO (Véu 7 — distancing from yourself to belong)
   // ─────────────────────────────────────────────
 
-  "espelho-separacao/1": `[Verse 1]
+  "espelho-separacao/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Arredondei os cantos para caber na porta
 Limei as arestas para não magoar
 Fiz-me de água para caber no copo
@@ -2158,7 +2246,11 @@ Como a mare que sobe sem aviso
 Devagar, sem pedir licença
 Ao tamanho que sempre foi preciso`,
 
-  "espelho-separacao/2": `[Verse 1]
+  "espelho-separacao/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 We share the bread, we share the bed
 We share the silence and the rain
 You know the way I like my tea
@@ -2203,7 +2295,11 @@ Or alone with grace
 But not this gentle war
 This almost-touching empty space`,
 
-  "espelho-separacao/3": `[Verse 1]
+  "espelho-separacao/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Há uma pergunta guardada há anos
 No fundo da gaveta dos lençóis
 Debaixo da rotina e dos enganos
@@ -2249,7 +2345,11 @@ Por este suspiro
 Por está pergunta
 Que finalmente saiu`,
 
-  "espelho-separacao/4": `[Verse 1]
+  "espelho-separacao/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Não é um muro, é uma varanda
 De onde eu te vejo inteiro e tu me vês
 Não é uma fuga, é uma dança
@@ -2294,7 +2394,11 @@ Separar não é o fim
 Como duas luzes juntas
 Que brilham mais por ser`,
 
-  "espelho-separacao/5": `[Verse 1]
+  "espelho-separacao/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I opened up my hands and watched
 The autumn leaves come tumbling down
 The roles I wore like winter coats
@@ -2343,7 +2447,11 @@ Is mine forever
 What remains
 Is all`,
 
-  "espelho-separacao/6": `[Verse 1]
+  "espelho-separacao/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Há um caminho entre as costelas
 Que da para um sitio que eu conheco
 Um lugar com cheiro a terra molhada
@@ -2390,7 +2498,11 @@ Finalmente amada
 Por quem mais importa
 Por mim`,
 
-  "espelho-separacao/7": `[Verse 1]
+  "espelho-separacao/7": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Sete vezes a luz tentou entrar
 Sete vezes eu fechei a cortina
 Sete camadas de tecido fino
