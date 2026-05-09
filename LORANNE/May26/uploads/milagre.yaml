@@ -1,0 +1,854 @@
+# INCENSO-MILAGRE — A graça que apareceu sem eu ter pedido
+# Para quem desistiu de pedir e mesmo assim a coisa aparece. Graça pequena, súbita, não pedida. O café quente sem pedir. A mensagem aos quatro da manhã. A pessoa certa no autocarro. Misericórdias do quo
+# Persona: Loranne (voice id a8ad18d5-d23e-4c97-ad68-1006de7ac76d)
+# Carregar via /admin/albums (YAML upload)
+
+slug: incenso-milagre
+title: Milagre
+subtitle: A graça que apareceu sem eu ter pedido
+color: '#D4A853'
+collection: incenso
+artist:
+  slug: loranne
+  name: Loranne
+  bio: Contemporary organic-electronic — AwakeSoul lineage. Contemplative, transformative.
+  photo_url: /Loranne-home.png
+published: false
+status: draft
+distribution: false
+tracks:
+- number: 1
+  title: Já Não Pedia
+  description: Abertura — o estado de quem parou de pedir. E mesmo assim.
+  lang: PT
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Abertura — o estado de quem parou de pedir. E mesmo assim..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo upright piano with felt damper, warm Wurlitzer pad, room tone, breath audible]
+
+    [Verse 1]
+    Já não pedia nada
+    Tinha desistido
+    Não por amargura
+    Por cansaço de esperar
+    Anos a estender a mão
+    Anos a fechá-la vazia
+    Aprendi a dormir com ela fechada
+    E foi assim que dormi muito tempo
+    [Verse 2]
+    E numa quinta sem motivo
+    Sem ter pedido, sem ter aberto
+    A coisa começou a aparecer
+    Pequena, sem aviso
+    Um café quente que ninguém pediu
+    Um sol pela janela à hora certa
+    Uma palavra de uma estranha
+    Que era exactamente a palavra
+    [Pre-Chorus]
+    Não foi resposta
+    Não foi prémio
+    Foi a coisa a chegar
+    Por outras portas
+    [Chorus]
+    Já não pedia
+    E foi quando começou
+    Já não pedia
+    E o céu lembrou-se sozinho
+    Não tem nome o que aconteceu
+    Não tem credo, não tem livro
+    Só tem o facto pequeno
+    De que voltou a chegar
+    [Verse 3]
+    Não te digo para parar de pedir
+    Não te digo para confiar
+    Digo-te só o que vi
+    Quando deixei de pedir bem alto
+    Apareceu pelo lado
+    Não como queria, não quando queria
+    Mas apareceu
+    E foi suficiente
+
+    [Chorus: single soft harmony enters, Wurlitzer pad blooms]
+    Já não pedia
+    E foi quando começou
+    Já não pedia
+    E o céu lembrou-se sozinho
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não sei como funciona
+    Não sou pessoa de explicar
+    Sei que parei de empurrar
+    E que algo se aproximou
+    Talvez seja coincidência
+    Talvez não — não sei
+    Mas reparei
+    E hoje canto isto
+    [Outro: vocal exhaled, piano fading]
+    Já não pedia
+    e mesmo assim
+    já não pedia
+  published: false
+  key_verse: Já não pedia nada. / E foi quando começou a chegar.
+  suno_prompt: 'Style: gospel ambient with soul colour · intimate whisper close-mic · solo upright piano with'
+  bpm: 70
+- number: 2
+  title: The Coffee Was Warm
+  description: A graça mais pequena — o café que estava quente quando não tinha de estar.
+  lang: EN
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: A graça mais pequena — o café que estava quente quando não tinha de estar..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo Wurlitzer piano, warm upright bass, room creak audible, no drums until chorus]
+    [Verse 1]
+    The coffee was warm
+    That was the first thing
+    I had not asked for it to be warm
+    The kettle had done its work alone
+    While I was looking the other way
+    And when I picked it up
+    It was the right temperature
+    For a Tuesday I had been dreading
+    [Verse 2]
+    The bus came on time
+    That was the second thing
+    The seat by the window was open
+    That was the third thing
+    The driver said good morning
+    And meant it
+    And I — I had not earned this
+    And it came anyway
+    [Pre-Chorus]
+    There is a kind of small luck
+    That has no logic
+    That arrives on bad days
+    On purpose, it seems
+    [Chorus]
+    The coffee was warm
+    And nobody promised me that
+    The coffee was warm
+    And the small day did not break
+    Not the rescue, not the answer
+    Not the door opening wide
+    Just the coffee, warm
+    On a Tuesday I had been dreading
+    [Verse 3]
+    I have stopped expecting big mercies
+
+    But the small ones still arrive
+    A door someone holds
+    A pen someone hands me
+    The shop that has the thing I needed
+    The coat that still fits
+    These are not coincidences anymore
+    They are the architecture of grace
+    [Chorus: single soft harmony enters, brushed drum soft on chorus]
+    The coffee was warm
+    And nobody promised me that
+    The coffee was warm
+    And the small day did not break
+    [Bridge: vocal close, no harmonies, only Wurlitzer — opens, does not resolve]
+    The kettle does its work without me
+    The bus arrives without my prayer
+    The coat fits without my asking
+    And maybe this is what it means
+    That the world is not, after all, against me
+    Maybe just that
+    [Outro: vocal soft, Wurlitzer fading]
+    The coffee was warm
+    that was the morning
+    the coffee was warm
+  published: false
+  key_verse: The coffee was warm / and nobody promised me that.
+  suno_prompt: 'Style: gospel intimate with soul colour · raw close-mic vocal · gospel piano + warm Wurlitzer'
+  bpm: 76
+  mood_secondary: respirar
+- number: 3
+  title: A Pessoa Certa no Autocarro
+  description: Primeiro movimento — o desconhecido que disse o que era preciso ouvir.
+  lang: PT
+  energy: steady
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic. Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm, acoustic guitar, warm bass, light percussion, piano accents. Walking pace, present, embodied. No autotune. Clean vocal production. 90 BPM, signature element: warm vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. grounded, present, embodied. warm vocal. Theme: Primeiro movimento — o desconhecido que disse o que era preciso ouvir..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: soft Rhodes piano, light brushed drums entering on bar 4, warm fretless bass, faint b
+    [Verse 1]
+    Sentou-se ao meu lado por engano
+    Não havia outro lugar
+    Era uma mulher mais velha
+    Com um saco de pão na mão
+    Não disse nada por três paragens
+    E depois disse uma frase
+    Sobre o tempo, sobre o filho dela
+    Sobre o que tinha feito de almoço
+    [Verse 2]
+    E no meio da frase
+    Disse outra coisa
+    Disse uma frase que não era sobre nada
+    E que era sobre tudo
+    Não vou repetir aqui
+    Era só para mim
+    Mas mudou a tarde
+    Mudou a forma como cheguei a casa
+    [Pre-Chorus]
+    Não sabia o nome dela
+    Não vou saber o nome dela
+    E ela não soube
+    Que disse o que tinha de dizer
+    [Chorus]
+    A pessoa certa no autocarro
+    Que apareceu sem ter sido chamada
+    A pessoa certa no autocarro
+    Que disse o que faltava
+    Não foi sermão, não foi conselho
+    Foi uma frase de passagem
+
+    E acertou no sítio certo
+    Sem mira, sem intenção
+    [Verse 3]
+    Saí na minha paragem
+    Olhei para trás à porta do prédio
+    Ela continuou no autocarro
+    Para onde tinha de ir
+    E eu fiquei com a frase dela
+    A respirar nas mãos
+    Como quem recebeu um pão
+    Que não tinha pedido
+    [Chorus: 3-voice airy harmonies enter, brushed drums steady]
+    A pessoa certa no autocarro
+    Que apareceu sem ter sido chamada
+    A pessoa certa no autocarro
+    Que disse o que faltava
+    [Bridge: vocal close, no harmonies, only Rhodes — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Talvez já tenhas sido essa pessoa
+    Para alguém num autocarro qualquer
+    E não saibas
+    A coisa que disseste
+    Que não pensaste
+    Que não preparaste
+    Pode ter mudado uma tarde
+    Que tu não sabias estar a caminho
+    [Outro: vocal soft, Rhodes fading]
+    A pessoa certa
+    no autocarro
+    sem nome
+    e foi tudo
+  published: false
+  key_verse: Sentou-se ao meu lado por engano. / Disse uma frase. / Mudou a tarde.
+  suno_prompt: 'Style: gospel build mid-tempo with soul colour · warm vocal · gospel piano + warm Hammond org'
+  bpm: 90
+  mood_secondary: respirar
+- number: 4
+  title: The Job I Didn’t Apply For
+  description: A door that opened without knocking.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: driving four-on-the-floor kick, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. driving four-on-the-floor kick. Theme: A door that opened without knocking..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads, plucky synth motif, Wurlitzer chord stabs, sidechained kick entering
+    [Verse 1]
+    I didn't apply for that thing
+    I had stopped applying
+    I had made peace with the smaller life
+    I had mourned the rooms I would not enter
+    And then the email came
+    From a name I half remembered
+    A small chair was being offered
+    That I had not asked to sit in
+    [Verse 2]
+    It was not a fairy tale
+    It was not above my station
+    It was the right size, the right weight
+    The kind of grace that does not embarrass
+    The thing I would have asked for
+    If I had still been asking
+    Found me without asking
+    And I — I sat down
+    [Pre-Chorus]
+    I had stopped knocking on doors
+    I had made the small life enough
+    And then the small life expanded
+    Without my consent
+    [Chorus]
+
+    The job I didn't apply for
+    The seat I didn't claim
+    The room that opened sideways
+    And let me in by another name
+    This is the way mercy moves
+    Not down the avenue
+    But through the alley
+    Where you stopped looking
+    [Verse 3]
+    There is a humility in this
+    That I had not learned before
+    I cannot claim what I did not earn
+    I cannot pretend I knocked
+    I can only sit in the chair
+    I can only do the work
+    I can only thank the air
+    For its strange administration
+    [Chorus]
+    The job I didn't apply for
+    The seat I didn't claim
+    The room that opened sideways
+    And let me in by another name
+    [Bridge: vocal close, kick drops out, only pads underneath — opens, does not resolve]
+    There may be doors closing for me right now
+    That I will never see closing
+    There are also doors opening
+    That I have not yet seen
+    And I cannot tell which is which
+    Until much later
+    Until much later
+    [Final Chorus: kick returns, harmonies layered, key shift to A major]
+    The job I didn't apply for
+    The seat I didn't claim
+    The room that opened sideways
+    And let me in by another name
+    [Outro: vocal soft, pads fade]
+    I didn't knock
+    the door opened
+    anyway
+  published: false
+  key_verse: I didn’t knock. / The door opened anyway.
+  suno_prompt: 'Style: gospel house · driving four-on-the-floor kick · warm sidechained pads + plucky synth l'
+  bpm: 108
+  mood_secondary: atravessar
+- number: 5
+  title: Misericórdia
+  description: PEAK 1 — palavra antiga, sentido contemporâneo. Misericórdia como facto, não dogma.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: powerful chest vocal that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. powerful chest vocal that never shouts. Theme: PEAK 1 — palavra antiga, sentido contemporâneo. Misericórdia como facto, não dogma..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo gospel piano with rich chords, Hammond organ swell, no vocal yet — instrumental
+    [Verse 1]
+    Tinha deixado a palavra
+    Era palavra de avó
+    Era palavra de igreja
+    Era palavra que não cabia em mim
+    E voltou com outro corpo
+    Não de joelhos, não de medo
+    Voltou pela cozinha
+    Pela mão que serviu chá
+    [Verse 2]
+    Misericórdia é o nome
+    Daquilo que recebi sem merecer
+    E que aceitei sem retórica
+    E que hoje canto sem vergonha
+    Não é prémio, não é dádiva
+    É a vida a fazer o seu trabalho
+    Quando a gente já não acredita
+
+    Que a vida ainda trabalha
+    [Pre-Chorus]
+    Não preciso de credo para isto
+    Não preciso de templo
+    Preciso só de reparar
+    Quando ela passa, quando ela passa
+    [Chorus]
+    Misericórdia
+    A palavra que voltou
+    Misericórdia
+    Sem o peso, com a graça
+    Não é benção que se pede
+    É a coisa que aparece
+    Quando a porta estava trancada
+    E mesmo assim alguém abriu
+    [Verse 3]
+    A palavra antiga é boa
+    Quando se descasca da imposição
+    Misericórdia é o nome técnico
+    Da coisa que quase não tem nome
+    A bondade que sobra
+    Quando a justiça já não chega
+    A graça que amortece
+    O que era para ter doído mais
+    [Chorus: full gospel choir enters, Hammond blooms, tambourine on the four]
+    Misericórdia
+    A palavra que voltou
+    Misericórdia
+    Sem o peso, com a graça
+    Não é benção que se pede
+    É a coisa que aparece
+    Quando a porta estava trancada
+    E mesmo assim alguém abriu
+    [Bridge: vocal close, choir hums underneath — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não te peço para usar a palavra
+    Usa a tua
+    A coisa não precisa do nome
+    A coisa funciona
+    Quando reparas que está a funcionar
+    E é isso que esta canção faz
+    Reparar
+
+    [Final Chorus: 6-voice gospel choir layered, peak warmth, never shouted]
+    Misericórdia
+    Sem o peso, com a graça
+    Misericórdia
+    A palavra que voltou
+    [Outro: vocal soft, choir fades]
+    Misericórdia
+    reparei
+    misericórdia
+  published: false
+  key_verse: Misericórdia. / A palavra que descobri / depois de a deixar de pronunciar.
+  suno_prompt: 'Style: contemporary gospel anthem · powerful chest vocal that never shouts · warm Hammond org'
+  bpm: 100
+- number: 6
+  title: Quiet Mercy
+  description: Recolher — the small mercy that did not announce itself.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Recolher — the small mercy that did not announce itself..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: felt-piano with warm Wurlitzer pad swell, ambient room tone with rain on window faint
+    [Verse 1]
+    The mercy did not announce itself
+    It came in through the side
+
+    Not as a great wave
+    Not as the light through the curtain
+    But as a small temperature shift
+    In the corner of the kitchen
+    Where I had been losing the day
+    And was, suddenly, not
+    [Verse 2]
+    I did not know to thank it
+    I had no posture for it
+    It was so quiet
+    That I almost did not notice
+    And I think — I think
+    That is its nature
+    Loud mercy is not mercy
+    It is something else
+    [Pre-Chorus]
+    The big rescue does not come
+    The big door does not open
+    The small one comes
+    And changes the shape of the day
+    [Chorus]
+    Quiet mercy
+    That did not knock
+    Quiet mercy
+    That just sat down beside me
+    No question, no demand
+    No record kept
+    The kind of grace
+    That does not need to be remembered
+    [Verse 3]
+    If I had been louder
+    I would have missed it
+    If I had been waiting
+    For the trumpets
+    The quiet thing would have come
+    And I would have looked past it
+    This is the lesson, almost
+    Not lesson — practice
+    [Chorus]
+    Quiet mercy
+    That did not knock
+    Quiet mercy
+
+    That just sat down beside me
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    There may be many of these
+    That I did not catch
+    I am not anxious about them
+    What was for me has reached me
+    What didn't reach me
+    Wasn't for me
+    Maybe
+    [Outro: vocal exhaled, piano fades]
+    Quiet mercy
+    no record
+    quiet mercy
+  published: false
+  key_verse: Mercy that did not knock. / Mercy that just sat down beside me.
+  suno_prompt: 'Style: gospel ambient with soul colour · intimate whisper close-mic · felt-piano + warm Wurli'
+  bpm: 70
+  mood_secondary: respirar
+- number: 7
+  title: Vizinho
+  description: Reabertura — o vizinho que viu sem espreitar, ajudou sem pedir nada.
+  lang: PT
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: Reabertura — o vizinho que viu sem espreitar, ajudou sem pedir nada..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo nylon guitar, warm Wurlitzer chord swells, low fretless bass, faint street ambie
+
+    [Verse 1]
+    O vizinho do quinto andar
+    Que eu mal cumprimentava
+    Reparou que eu não saía
+    Há demasiados dias
+    Bateu à porta uma quarta-feira
+    Sem palavra
+    Trazia uma marmita
+    E disse — comi a mais
+    [Verse 2]
+    Não perguntou nada
+    Não entrou
+    Pousou a marmita na soleira
+    Disse — devolve quando puder
+    E foi-se embora pelo corredor
+    Como quem não tinha feito nada
+    Como quem tinha trazido pão
+    Por engano
+    [Pre-Chorus]
+    Eu nunca lhe disse o que aquilo foi
+    Ele nunca soube
+    E eu hoje canto isto
+    Sem dizer o nome dele
+    [Chorus]
+    O vizinho viu
+    E não disse a ninguém
+    O vizinho viu
+    E ajudou pelo lado
+    Não com aviso, não com vénia
+    Com uma marmita à porta
+    E uma frase pequena
+    Que me salvou aquele dia
+    [Verse 3]
+    Há graças que vêm com nome
+    Estas vêm sem
+    Há graças que ficam no jornal
+    Estas ficam só na soleira
+    Se algum dia entendi alguma coisa
+    Foi nesse corredor estreito
+    Onde alguém me deu o que eu precisava
+    E não me obrigou a chamar-lhe nada
+
+    [Chorus]
+    O vizinho viu
+    E não disse a ninguém
+    O vizinho viu
+    E ajudou pelo lado
+    [Bridge: vocal close, only guitar and Wurlitzer — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Vê quem está à tua porta
+    E não te peças permissão
+    Se reparares, reparaste
+    Se a soleira for deles
+    Põe lá a marmita
+    E vai-te embora
+    Sem te explicares
+    [Outro: vocal soft, guitar fading]
+    O vizinho viu
+    e não disse a ninguém
+    o vizinho viu
+  published: false
+  key_verse: O vizinho viu. / E não disse a ninguém. / E ajudou.
+  suno_prompt: 'Style: gospel intimate with soul colour · raw close-mic vocal · gospel piano + warm Wurlitzer'
+  bpm: 76
+  mood_secondary: lembrar
+- number: 8
+  title: When the Light Came Back
+  description: PEAK 2 — the day grace returned and stayed for an afternoon.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: driving four-on-the-floor kick, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. driving four-on-the-floor kick. Theme: PEAK 2 — the day grace returned and stayed for an afternoon..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads, plucky synth lead, Wurlitzer chord stabs, sidechained kick entering
+    [Verse 1]
+    The light came back on a Thursday
+    Not the metaphor — the actual light
+    The room got brighter
+    The kitchen got warmer
+    And I had not earned this
+    And nobody had said it would happen
+    The grey just lifted
+    For the length of one afternoon
+    [Verse 2]
+    I made a small lunch
+    That I almost wanted
+    I sent a message
+    That I almost meant
+    The afternoon had the texture of afternoon
+    Which is not always true
+    Some afternoons are texture-less
+    This one was an afternoon
+    [Pre-Chorus]
+    Don't fear when it goes
+    That has happened before
+    Don't worship when it comes
+    That changes nothing
+    Just notice, just notice
+    That you noticed
+    [Chorus]
+    The light came back
+    On a Thursday with no warning
+    The light came back
+    And I had not earned it
+    A small grace, a small visit
+    The afternoon held me
+    And when it ended
+    I was a little less hollow
+    [Verse 3]
+    By evening it had gone again
+    And I was a little surprised
+    But not crushed
+    That is the lesson, almost
+
+    The afternoon was not the cure
+    The afternoon was the visit
+    And visits end, and that is fine
+    Visits end and visits return
+    [Chorus]
+    The light came back
+    On a Thursday with no warning
+    The light came back
+    And I had not earned it
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    Maybe Thursday afternoons
+    Are a kind of mercy
+    That does not promise to repeat
+    Maybe Thursday afternoons
+    Are a postcard from the world
+    Saying — not yet, not yet
+    [Final Chorus: full harmony stack, sidechained pads peak, never shouted]
+    The light came back
+    On a Thursday with no warning
+    The light came back
+    And I had not earned it
+    [Outro: vocal soft, kick fades]
+    The light came back
+    the light came back
+    on a Thursday
+  published: false
+  key_verse: The light came back / and I had not earned it.
+  suno_prompt: 'Style: gospel house · driving four-on-the-floor kick · warm sidechained pads + plucky synth l'
+  bpm: 108
+- number: 9
+  title: Sem Eu Pedir
+  description: PEAK FINAL — declaração colectiva. Nem todas as graças vêm pedidas. Algumas vêm em nome próprio.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: powerful chest vocal that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. powerful chest vocal that never shouts. Theme: PEAK FINAL — declaração colectiva. Nem todas as graças vêm pedidas. Algumas vêm em nome próprio..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo gospel piano with rich chords, Hammond organ swells, no vocal yet — instrumental
+    [Verse 1]
+    Eu fiz a lista do que merecia
+    E a lista era curta
+    Tinha dado pouco, tinha pedido mal
+    Tinha esperado pelo tempo errado
+    Quando olhei para a vida
+    Vi que tinha recebido demais
+    Para a lista que eu tinha feito
+    E percebi que a lista estava errada
+    [Verse 2]
+    Não é por mérito
+    Não é por castigo
+    A vida não funciona assim
+    A vida funciona por excesso
+    Há quem não saiba e morra dura
+    Há quem saiba e morra grata
+    Eu hoje canto deste lado
+    Do lado que aprendeu a contar
+    [Pre-Chorus]
+    Não te peço para acreditares no excesso
+    Peço-te para o procurares
+    Está lá, mais perto do que parece
+    A esperar pela tua atenção
+    [Chorus]
+    Sem eu pedir, chegaste tu
+    Sem eu merecer, ficaste
+    Sem eu acreditar, fizeste
+    A coisa em mim que eu desistira
+    Não falo de Deus, falo da vida
+    Não falo de fé, falo do facto
+
+    Que algo me amparou
+    Quando eu já não amparava ninguém
+    [Verse 3]
+    A pessoa, o gesto, a tarde
+    A oferta, o silêncio, a frase
+    Tudo isso são nomes possíveis
+    Para a coisa que me chegou
+    E eu hoje, da janela
+    A olhar para a rua
+    Conto as graças, uma a uma
+    E não me chega papel
+    [Chorus: full gospel choir enters, Hammond blooms, tambourine, warm strings rising]
+    Sem eu pedir, chegaste tu
+    Sem eu merecer, ficaste
+    Sem eu acreditar, fizeste
+    A coisa em mim que eu desistira
+    [Bridge: vocal close, choir hums underneath — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Conta a tua lista
+    Mas conta as duas
+    A do que perdeste
+    E a do que apareceu
+    E vê se a segunda
+    Não é maior
+    Do que tu imaginavas
+    Quando começaste a chorar
+    [Final Chorus: 6-voice gospel choir layered, peak energy, never shouted]
+    Sem eu pedir
+    Chegaste tu
+    Sem eu merecer
+    Ficaste
+    [Outro: vocal soft, choir fades]
+    Sem eu pedir
+    chegaste
+    sem eu pedir
+  published: false
+  key_verse: Sem eu pedir, / chegaste tu. / Sem eu merecer, / ficaste.
+  suno_prompt: 'Style: contemporary gospel anthem · powerful chest vocal that never shouts · warm Hammond org'
+  bpm: 100
+- number: 10
+  title: What I Didn’t Have to Earn
+  description: Outro — what stayed without my having to deserve it.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Outro — what stayed without my having to deserve it..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo felt-piano, warm Wurlitzer pad, room tone, breath audible, no drums]
+    [Verse 1]
+    I made a small list this evening
+    Of what I did not have to earn
+    The cup of tea that was already warm
+    The chair that fit
+    The way the kitchen still smells of bread
+    The fact that the body wakes up
+    And carries me from one room to the next
+    Without sending me a bill
+    [Verse 2]
+    None of this is mine
+    And all of this is mine
+    This is the small contradiction
+    That makes living possible
+    What was given to me freely
+    I could not have asked for
+    What was given to me freely
+    Is the floor I stand on
+    [Pre-Chorus]
+
+    The bill never came
+    The bill is not coming
+    Stop checking the door
+    Stop preparing for it
+    [Chorus]
+    What I did not have to earn
+    Is more than what I earned
+    What I did not have to earn
+    Is the larger half of my life
+    Don't make me a saint for noticing
+    I am only the woman
+    Who kept her eyes open
+    Long enough to count
+    [Verse 3]
+    If there is a thing called grace
+    And there may not be
+    This is the closest I have come
+    To meeting it
+    The small Tuesday afternoon
+    With the warm tea
+    And the chair that fits
+    And the bread still in the kitchen
+    [Chorus]
+    What I did not have to earn
+    Is more than what I earned
+    What I did not have to earn
+    Is the larger half of my life
+
+    [Bridge: vocal close, single soft harmony layer enters, only piano — opens, does not resolve]
+    There is a tally I no longer keep
+    Of debts and payments
+    There is a different tally I keep now
+    Of small graces, small arrivals
+    Small mercies, small returns
+    And the tally is long
+    And the tally is long
+    [Outro: vocal exhaled, piano resolves softly to C major in last bar]
+    What I did not have to earn
+    the larger half
+    the larger half
+    of my life
+  published: false
+  key_verse: What I did not have to earn / is more than what I earned.
+  suno_prompt: 'Style: gospel ambient with soul colour · intimate whisper close-mic · solo felt-piano + warm'
+  bpm: 70
+  mood_secondary: respirar

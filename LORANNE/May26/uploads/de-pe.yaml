@@ -1,0 +1,891 @@
+# INCENSO-DE-PE — Levantar-me agora, em tempo real
+# Para quem acorda pesado e precisa de uma voz a tirar-se da cama ao mesmo tempo. Loranne em primeira pessoa, em movimento, sem clichê motivacional. O ouvinte cola-se ao gesto dela. Funciona às 7h da ma
+# Persona: Loranne (voice id a8ad18d5-d23e-4c97-ad68-1006de7ac76d)
+# Carregar via /admin/albums (YAML upload)
+
+slug: incenso-de-pe
+title: De Pé
+subtitle: Levantar-me agora, em tempo real
+color: '#F5A65B'
+collection: incenso
+artist:
+  slug: loranne
+  name: Loranne
+  bio: Contemporary organic-electronic — AwakeSoul lineage. Contemplative, transformative.
+  photo_url: /Loranne-home.png
+published: false
+status: draft
+distribution: false
+tracks:
+- number: 1
+  title: O Chão Está Cá
+  description: Abertura — o gesto mais pequeno e mais decisivo do dia. Os pés a tocarem o chão.
+  lang: PT
+  energy: steady
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic. Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm, acoustic guitar, warm bass, light percussion, piano accents. Walking pace, present, embodied. No autotune. Clean vocal production. 90 BPM, signature element: warm vocal entering at bar 2 (no long instrumental intro), no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. grounded, present, embodied. warm vocal entering at bar 2 (no long instrumental intro). Theme: Abertura — o gesto mais pequeno e mais decisivo do dia. Os pés a tocarem o chão..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, vocal entering on bar 2 — no long instrumental opening
+
+    [Verse 1]
+    Pés no chão
+    A coisa mais pequena
+    A coisa mais pequena que eu sei fazer
+    Não é vontade, é gravidade
+    Os pés desceram, o chão veio recebê-los
+    E eu — eu fui atrás
+    Não pensei muito
+    Pensar muito é outro dia
+    [Verse 2]
+    Está frio o chão de manhã
+    Mas isso é a prova de que existo
+    Sinto o frio, logo estou aqui
+    Sinto o frio, logo a manhã chegou
+    Não preciso de ânimo
+    Preciso de chão
+    E o chão está cá
+    Antes de eu ter chegado
+    [Pre-Chorus]
+    Não me peças o sorriso
+    Não me peças o salto
+    Pede-me só os pés
+    E eu trago os pés
+    [Chorus]
+    Pés no chão
+    Pés no chão
+    O chão está cá
+    Já é alguma coisa
+    Pés no chão
+    Pés no chão
+    Hoje basta este gesto
+    Hoje basta começar
+    [Verse 3]
+    Vou levantar-me a seguir
+    Mas isso é a próxima parte
+    Por agora os pés estão no chão
+    E o chão não me empurrou
+    O chão suportou-me
+    O chão é antigo nisto
+    O chão fez isto a milhões de mulheres
+    Antes de eu cá chegar
+
+    [Chorus: 3-voice harmonies enter, tambourine on the four]
+    Pés no chão
+    Pés no chão
+    O chão está cá
+    Já é alguma coisa
+    Pés no chão
+    Pés no chão
+    Hoje basta este gesto
+    Hoje basta começar
+
+    [Bridge: vocal close, harmonies hum underneath, gospel piano carries — opens, does not resolv
+    (European Portuguese, Portugal accent:)
+    Se os pés estão no chão
+    Já fizeste o trabalho da manhã
+    O resto é o resto
+    O resto vai acontecendo
+    Mas os pés no chão
+    Os pés no chão
+    São o teu sim de hoje
+    [Outro: vocal warm, piano fading]
+    Pés no chão
+    o chão está cá
+    pés no chão
+    já é alguma coisa
+  published: false
+  key_verse: Pés no chão. / O chão está cá. / Já é alguma coisa.
+  suno_prompt: 'Style: gospel build mid-tempo · warm vocal entering at bar 2 (no long instrumental intro) · g'
+  bpm: 90
+- number: 2
+  title: This Is the Morning
+  description: Second track — energia que entra pelo corpo. Esta é a manhã, sem perguntar permissão.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2 (no long instrumental intro), no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2 (no long instrumental intro). Theme: Second track — energia que entra pelo corpo. Esta é a manhã, sem perguntar permissão..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, kick entering on bar 2 with vocal — no long instr
+    [Verse 1]
+    This is the morning
+    And I am in it
+    This is the morning
+    And it did not ask my opinion
+    The light came in through the window
+    The kettle started its work
+    And I — I was here
+    Without having to decide anything yet
+    [Verse 2]
+    This is the morning
+    And I am dressing
+    Not pretty, not for anyone
+    Just dressing because the day is here
+    The shirt is the shirt I have
+    The shoes are the shoes I have
+    Nothing about this is a performance
+    This is the morning, and I am in it
+    [Pre-Chorus]
+    The morning came without my prayer
+    The morning came without my consent
+    The morning is not asking how I feel
+    The morning is just here
+    [Chorus]
+    This is the morning
+    And I am in it
+    This is the morning
+    And so are you
+    Nothing required, nothing earned
+    Just the simple fact of presence
+    This is the morning
+    And I am in it
+    [Verse 3]
+
+    This is the morning
+    And I am drinking water
+    This is the morning
+    And I am tying my shoes
+    The body is doing what the body does
+    On Tuesdays and Wednesdays alike
+    The body is older than my mood
+    The body knows the way
+    [Chorus: full harmony stack, sidechained pads peak]
+    This is the morning
+    And I am in it
+    This is the morning
+    And so are you
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    If you are listening to this in your kitchen right now
+    Or in your car, or with the light not yet on
+    This is the morning
+    And you are in it
+    That is enough
+    That is the whole work for now
+    [Final Chorus: full harmony stack, peaks, never shouted]
+    This is the morning
+    And I am in it
+    This is the morning
+    And so are you
+    [Outro: vocal soft, kick fades]
+    This is the morning
+    and I am in it
+    this is the morning
+  published: false
+  key_verse: This is the morning, and I am in it. / This is the morning, and so are you.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 (no long instrumental intro) · driving fou'
+  bpm: 108
+- number: 3
+  title: Abro a Janela
+  description: PEAK 1 — o gesto físico de abrir a janela como acto pequeno-grande. Receber o ar.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering at bar 2 that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering at bar 2 that never shouts. Theme: PEAK 1 — o gesto físico de abrir a janela como acto pequeno-grande. Receber o ar..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
+    [Verse 1]
+    Abro a janela
+    A primeira coisa que faço de pé
+    A janela tem o seu peso
+    A trinco tem a sua canção
+    E o ar — o ar entra de uma vez
+    Como se estivesse à minha espera
+    O ar não me devia nada
+    E veio
+    [Verse 2]
+    Vejo a rua, vejo a árvore
+    Vejo o vizinho que abriu a porta
+    Vejo um cão que conheço bem
+    Vejo o pão que vai a passar
+    Não é vista bonita
+    É só vista de manhã
+    E é minha por dois minutos
+    Antes de tudo começar
+    [Pre-Chorus]
+    A janela é uma decisão pequena
+    Que tem efeito grande
+    A janela diz à manhã
+    Que estou cá
+    [Chorus]
+    Abro a janela
+    E o ar entra
+
+    Abro a janela
+    E a manhã chega
+    Não preciso de muito
+    Preciso da janela aberta
+    Hoje começo assim
+    Hoje começo respirando
+    [Verse 3]
+    A janela traz o som
+    Que a casa não tinha
+    A janela traz a luz
+    Que a casa não fazia
+    A janela é a porta da manhã
+    Antes da porta da manhã
+    A janela é a minha primeira reza
+    Sem palavras
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic]
+    Abro a janela
+    E o ar entra
+    Abro a janela
+    E a manhã chega
+    [Bridge: vocal close, choir hums underneath, warm strings rising — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Se ainda não abriste a tua
+    Vai já abrir
+    Não para mim, para ti
+    A casa precisa do ar de fora
+    A casa adoece se ficar fechada
+    E tu também, e tu também
+    Abre a tua janela hoje
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
+    Abro a janela
+    E o ar entra
+    Abro a janela
+    E a manhã chega
+    [Outro: vocal warm, choir fading, strings linger]
+    Abro a janela
+    o ar entra
+    abro a janela
+  published: false
+  key_verse: Abro a janela. / O ar não me devia nada. / E veio.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal entering at bar 2 that never shouts · wa'
+  bpm: 100
+- number: 4
+  title: Bebo Água
+  description: O gesto mais subestimado da manhã. Beber água como acto político contra o esquecimento de si.
+  lang: PT
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: O gesto mais subestimado da manhã. Beber água como acto político contra o esquecimento de si..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
+    [Verse 1]
+    Bebo água
+    A primeira coisa que entra em mim
+    Antes do café, antes da notícia
+    Antes do que o dia me vai pedir
+    A água não tem opinião sobre mim
+    A água só me hidrata
+    A água é a forma mais simples
+    De cuidar de mim ao acordar
+    [Verse 2]
+    Lembrei-me anos a esquecer-me
+    A esquecer-me do copo da manhã
+    A esquecer-me da água do dia
+    A esquecer-me de mim como sujeito
+    Hoje encho o copo
+    Hoje bebo até ao fim
+    Hoje sou a primeira pessoa
+
+    Que cuida de mim
+    [Pre-Chorus]
+    A água é gesto, não é ideia
+    A água é prova, não é símbolo
+    Quem bebe água de manhã
+    Está a votar em si
+    [Chorus]
+    Bebo água
+    Trato de mim
+    Como trato de outro
+    Bebo água
+    Bebo água
+    A reza mais antiga
+    Que o corpo conhece
+    Bebo água
+    [Verse 3]
+    Vou beber outro copo daqui a uma hora
+    Vou beber outro à hora de almoço
+    Vou beber outro antes do café da tarde
+    Vou beber outro à noite
+    A vida é uma sequência
+    De copos de água
+    E quem se lembra disto
+    Está a tratar de si
+    [Chorus]
+    Bebo água
+    Trato de mim
+    Como trato de outro
+    Bebo água
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    Se ouves isto agora
+    Vai ao copo
+    Vai à torneira, vai ao filtro
+    Vai à garrafa que tens à mão
+    Bebe um copo até ao fim
+    Não a meias, até ao fim
+    E vê o que se passa no peito
+    [Final Chorus: full harmony stack, sidechained pads peak]
+    Bebo água
+    Trato de mim
+    Como trato de outro
+
+    Bebo água
+    [Outro: vocal soft, kick fades]
+    Bebo água
+    trato de mim
+    bebo água
+  published: false
+  key_verse: Bebo água. / Trato de mim como trato de outro. / Bebo água.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick · warm si'
+  bpm: 108
+- number: 5
+  title: Aqui Vamos
+  description: PEAK 2 — declaração que junta. “Aqui vamos” como convite que não obriga. Coro entra cedo.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering at bar 2 that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering at bar 2 that never shouts. Theme: PEAK 2 — declaração que junta. “Aqui vamos” como convite que não obriga. Coro entra cedo..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
+    [Verse 1]
+    Aqui vamos
+    A palavra que aprendi a usar
+    Em vez de "tu consegues"
+    Que sempre soou a sermão
+    Aqui vamos é diferente
+    Aqui vamos é convite
+    Aqui vamos é eu de pé
+    A deixar a porta aberta atrás de mim
+
+    [Verse 2]
+    Não te empurro pelas costas
+    Não te puxo pelos braços
+    Eu vou — e tu vens se quiseres
+    E se hoje não vieres está tudo bem
+    Mas eu vou
+    Porque parar custa mais
+    Do que ir devagar
+    E hoje aprendi a ir devagar
+    [Pre-Chorus]
+    Aqui vamos não é guerra
+    Aqui vamos não é corrida
+    Aqui vamos é o passo
+    Que cabe no que tens hoje
+    [Chorus]
+    Aqui vamos
+    Não te empurro, não te puxo
+    Aqui vamos
+    Vou — e tu vens se quiseres
+    A porta fica aberta
+    A música fica a tocar
+    Aqui vamos
+    Aqui vamos
+    Cada um ao seu passo
+    [Verse 3]
+    Vou pôr o casaco agora
+    Vou descer a escada agora
+    Vou abrir a porta da rua agora
+    Vou pisar a calçada agora
+    Não é épico, não é hino
+    É só a ordem dos gestos
+    Mas se ouvires com atenção
+    Há um coro a contar contigo
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic]
+    Aqui vamos
+    Não te empurro, não te puxo
+    Aqui vamos
+    Vou — e tu vens se quiseres
+    [Bridge: vocal close, choir hums underneath, warm strings rising — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Há uma forma de estar disponível
+
+    Sem estar a obrigar
+    Há uma forma de estar à frente
+    Sem estar a puxar
+    É a forma da que reza ao lado
+    É a forma da que canta com a porta aberta
+    É a forma do aqui vamos
+    Sem coação
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
+    Aqui vamos
+    Aqui vamos
+    Cada um ao seu passo
+    [Outro: vocal warm, choir fading]
+    Aqui vamos
+    a porta aberta
+    aqui vamos
+  published: false
+  key_verse: Aqui vamos. / Não te empurro, não te puxo. / Vou — e tu vens se quiseres.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal entering at bar 2 that never shouts · wa'
+  bpm: 100
+- number: 6
+  title: Soft Start
+  description: Respiro entre picos. Não é desânimo — é permissão para começar devagar. O peito a abrir antes do dia decidir.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Respiro entre picos. Não é desânimo — é permissão para começar devagar. O peito a abrir antes do dia decidir..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: felt-piano, warm Hammond pad very low, faint kettle steam, vocal entering on bar 2 —
+    [Verse 1]
+    A soft start is still a start
+    This is what I had not understood
+    For years I thought the morning had to be sharp
+    The leap, the cold shower, the alarm
+    Now I know — the soft start is still a start
+    The slow kettle is still a kettle
+    The gentle yes is still a yes
+    And the day still happens
+    [Verse 2]
+    I am sitting at the kitchen window
+    With my hands around the cup
+    Not doing anything yet
+    Not solving anything yet
+    The kettle agrees with me
+    The light agrees with me
+    The morning is doing its work
+    While I am doing mine — which is being here
+    [Pre-Chorus]
+    The harsh start is not the only start
+    The harsh start is the rumour we were told
+    A soft start is older
+    A soft start is what the body actually wants
+    [Chorus]
+    A soft start
+    Is still a start
+    A soft start
+    Lets the day in slowly
+    The kettle agrees with me
+    The chair agrees with me
+    A soft start
+    Is still a start
+    [Verse 3]
+    I will stand up in a moment
+    But not yet, not yet
+    The soft start has its own dignity
+    Not laziness, not avoidance
+    The soft start is the warming
+    That precedes the cooking
+
+    And the soup is better
+    For having been allowed to warm
+    [Chorus: soft female choir hum enters, faraway]
+    A soft start
+    Is still a start
+    A soft start
+    Lets the day in slowly
+    [Bridge: vocal close, choir hums, only piano — opens, does not resolve]
+    If you are still in bed
+    And the day is asking for you
+    You can give the day a soft start
+    You don't owe the day a sharp one
+    You owe the day your presence
+    Eventually
+    And eventually is fine
+    [Outro: vocal soft, piano resolves softly to A major]
+    A soft start
+    is still a start
+    the kettle agrees
+    soft start
+  published: false
+  key_verse: A soft start is still a start. / The kettle agrees with me.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · vocal entering at bar 2 · felt-piano + w'
+  bpm: 70
+  mood_secondary: respirar
+- number: 7
+  title: Vou Indo
+  description: Cinemática do meio-da-manhã. A Loranne já está fora, na rua, em movimento — e o ouvinte vai com ela.
+  lang: PT
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Cinemática do meio-da-manhã. A Loranne já está fora, na rua, em movimento — e o ouvinte vai com ela..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
+    [Verse 1]
+    Vou indo
+    Pela rua que conheço
+    Pela rua que mudou um pouco
+    Pela rua que é a mesma de ontem
+    Os pés sabem o caminho
+    Os pés não me consultam
+    Os pés vão e eu vou com eles
+    Como uma carta que se entrega
+    [Verse 2]
+    Vou indo
+    A passada não é grande
+    Vou indo
+    A passada não é pequena
+    É a passada do dia que tenho hoje
+    Não a do dia que pensei que ia ter
+    Não a do dia que outro tem
+    A passada que cabe em mim agora
+    [Pre-Chorus]
+    Vou indo
+    Não é pressa, é continuação
+    Vou indo
+    Não é fuga, é trajecto
+    [Chorus]
+    Vou indo
+    A passada que cabe em mim
+    Vou indo
+    Cada passo é uma palavra
+    Que o corpo escreve no chão
+    Vou indo
+    Não pergunto até onde
+    Pergunto se ainda vou
+    E hoje vou
+    [Verse 3]
+
+    Vou indo
+    Atravesso a passadeira
+    Vou indo
+    Cumprimento a senhora do quiosque
+    Vou indo
+    Cheiro o pão da padaria
+    Vou indo
+    Sinto o sol no lado direito da cara
+    [Chorus]
+    Vou indo
+    A passada que cabe em mim
+    Vou indo
+    Cada passo é uma palavra
+    Que o corpo escreve no chão
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    Se estás a ouvir isto a caminho do trabalho
+    Se estás a ouvir isto a caminho de qualquer lado
+    Vai indo, vai indo
+    Não te peço ânimo
+    Peço-te continuidade
+    A continuidade é mais antiga que o ânimo
+    A continuidade é o que faz a vida acontecer
+    [Final Chorus: full harmony stack, sidechained pads peak]
+    Vou indo
+    A passada que cabe em mim
+    Vou indo
+    Cada passo é uma palavra
+    Que o corpo escreve no chão
+    [Outro: vocal soft, kick fades]
+    Vou indo
+    não é pressa
+    vou indo
+  published: false
+  key_verse: Vou indo. / Não é pressa, é continuação. / Vou indo.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick · warm si'
+  bpm: 108
+- number: 8
+  title: The Body Already Said Yes
+  description: Pulse mid-album. O corpo decidiu antes da mente. A mente que apanhe o passo.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Pulse mid-album. O corpo decidiu antes da mente. A mente que apanhe o passo..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
+    [Verse 1]
+    The body already said yes
+    While the mind was still in committee
+    The body got out of bed
+    Brushed its teeth, drank the water
+    The body opened the door
+    Walked down the stairs, hit the street
+    The mind is catching up
+    Somewhere around the second block
+    [Verse 2]
+    The body knows things the mind does not
+    The body knows that to wait for clarity
+    Is to wait forever, mostly
+    The body knows that motion makes the mood
+    And not the other way around
+    The body has done this for a very long time
+    Long before the mind had opinions
+    And the body will keep going
+    [Pre-Chorus]
+    Trust the body, trust the body
+    The body is older than the mind
+    The body has the rhythm
+    The mind has the commentary
+
+    [Chorus]
+    The body already said yes
+    The mind is catching up
+    The body already said yes
+    And the day is happening anyway
+    Don't wait for the mind
+    The mind takes its time
+    The body is doing the work
+    The body is doing the work
+    [Verse 3]
+    By lunchtime the mind will agree
+    Begrudgingly, with footnotes
+    But the body will have moved
+    Through six small accomplishments
+    The body will not need the mind's approval
+    The body will not request a vote
+    The body just keeps doing
+    What the body does
+    [Chorus: full harmony stack, sidechained pads peak, tambourine]
+    The body already said yes
+    The mind is catching up
+    The body already said yes
+    And the day is happening anyway
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    If your mind is heavy this morning
+    Don't wait for it to clear
+    Move first
+    Hands first, feet first, mouth first
+    The body already said yes when you woke up
+    You just didn't notice it yet
+    You just didn't notice it yet
+    [Final Chorus: full harmony stack, peaks]
+    The body already said yes
+    The mind is catching up
+    The body already said yes
+    And the day is happening anyway
+    [Outro: vocal soft, kick fades]
+    The body already said yes
+    the mind is catching up
+    the body already said yes
+  published: false
+  key_verse: The body already said yes. / The mind is catching up.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick · warm si'
+  bpm: 108
+- number: 9
+  title: De Pé
+  description: PEAK FINAL — título do álbum. Declaração colectiva. Hoje estamos de pé. As que conseguem e as que ainda não, mas estamos a tentar todas.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering at bar 2 that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering at bar 2 that never shouts. Theme: PEAK FINAL — título do álbum. Declaração colectiva. Hoje estamos de pé. As que conseguem e as que ainda não, mas estamos a tentar todas..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
+    [Verse 1]
+    De pé
+    Não foi épico, não foi heróico
+    De pé pela ordem dos gestos
+    Pés no chão, copo de água, janela
+    De pé como quem aprende um verbo
+    Devagar, com sotaque
+    Mas de pé
+    E o dia recebeu-me
+    [Verse 2]
+    De pé pelas que não estão hoje
+    De pé pelas que ontem não conseguiram
+    De pé pela mulher do quarto andar
+    Que ainda está deitada agora
+    De pé não é mérito
+    De pé é geografia
+    Hoje calhei deste lado
+
+    Hoje é o lado de pé
+    [Pre-Chorus]
+    De pé não é a única forma
+    De estar viva
+    De pé é a forma de hoje
+    E hoje basta
+    [Chorus]
+    De pé
+    Não como guerra
+    Como verbo
+    De pé é o que faço hoje
+    De pé é o que canto hoje
+    De pé é o que digo hoje
+    À que ainda não está
+    Que tenho fé que estará amanhã
+    [Verse 3]
+    De pé na rua
+    De pé na cozinha
+    De pé no autocarro
+    De pé no escritório
+    De pé com cansaço
+    De pé com saudade
+    De pé com tudo o que o dia traz
+    Sem deixar de estar de pé
+
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, dje
+    De pé
+    Não como guerra
+    Como verbo
+    De pé é o que faço hoje
+    De pé é o que canto hoje
+    De pé é o que digo hoje
+    À que ainda não está
+    Que tenho fé que estará amanhã
+
+    [Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady — opens, does
+    (European Portuguese, Portugal accent:)
+    Se estás de pé agora
+    Não te peço orgulho
+    Peço-te continuação
+    E se ainda estás deitada
+    Não te peço pressa
+    Peço-te o pé que conseguires
+    Hoje, amanhã, na próxima quarta
+
+    Pé que consigas, pé que basta
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
+    De pé
+    De pé
+    De pé é o que faço hoje
+    De pé é o que canto hoje
+    [Outro: vocal warm, choir fading, djembe lingers]
+    De pé
+    hoje
+    de pé
+    para amanhã
+  published: false
+  key_verse: De pé. / Não como guerra, como verbo. / De pé é o que faço hoje.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal entering at bar 2 that never shouts · wa'
+  bpm: 100
+- number: 10
+  title: Hoje Eu Fico
+  description: Outro raw — fechar o álbum a baixa intensidade. A Loranne fez o trabalho da manhã. Hoje fica. Não foge mais.
+  lang: PT
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal entering at bar 2. Theme: Outro raw — fechar o álbum a baixa intensidade. A Loranne fez o trabalho da manhã. Hoje fica. Não foge mais..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
+
+    [Verse 1]
+    Hoje eu fico
+    Fui à rua e voltei
+    Vi pessoas, atravessei
+    Comi à hora certa
+    E agora estou na sala
+    Sem fugir para fora
+    Sem fugir para dentro
+    Hoje eu fico no que é
+    [Verse 2]
+    Não tem palmas, não tem prémio
+    Esta sala continua a ser sala
+    A luz continua a ser a luz
+    A tarde continua a ser a tarde
+    Mas eu — eu estou cá
+    Em vez de fora
+    Em vez de longe
+    Em vez de na cabeça que me leva sempre
+    [Pre-Chorus]
+    Hoje eu fico
+    Não como castigo
+    Hoje eu fico
+    Como exercício de presença
+    [Chorus]
+    Hoje eu fico
+    Não foi vitória
+    Foi escolha pequena
+    Hoje eu fico
+    A casa recebeu-me
+    A tarde recebeu-me
+    Hoje eu fico
+    E é mais do que ontem
+    E é menos do que amanhã
+    [Verse 3]
+    Vou jantar daqui a duas horas
+    Vou ler um bocadinho antes
+    Vou pôr a roupa para amanhã
+    Vou apagar a luz quando for tempo
+    Não é programa de vida
+    É só programa de hoje
+    E hoje basta o programa de hoje
+    Amanhã faço o de amanhã
+
+    [Chorus: small female choir enters, hand-claps soft]
+    Hoje eu fico
+    Não foi vitória
+    Foi escolha pequena
+    Hoje eu fico
+    [Bridge: vocal close, choir hums underneath, only piano — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Se estás a ouvir isto ao fim da tarde
+    E aguentaste o dia
+    Não te peço orgulho — peço-te ficar
+    Não fujas para o telefone
+    Não fujas para a comida que não tens fome
+    Não fujas para o sono que ainda não é
+    Fica os minutos que conseguires
+    E vê o que a tarde te dá
+    [Outro: vocal soft, piano fading, choir lingers]
+    Hoje eu fico
+    foi escolha pequena
+    hoje eu fico
+    e amanhã fazemos o de amanhã
+
+    Notas para o canal YouTube
+    Ordem na playlist Elevar: as 10 tracks deste EP funcionam tanto isoladas como em
+    sequência. Se quiseres alimentar a playlist em sequência, T1→T10 é a curva natural da
+    manhã. Se quiseres alimentar isoladamente, as quatro tracks anthem (T3, T5, T9) e a
+    pulse T2 são as que mais prendem ouvinte novo nos primeiros 8 segundos.
+    Compatibilidade com tracks dos 5 álbuns Elevar: este EP coexiste sem competir. As
+    tracks De Pé puxam para fora; as do Acende, Coro, Milagre, Amen, Aleluia
+    testemunham. Na playlist, alterna — três De Pé seguidas de duas testemunho cria
+    respiração.
+    CTA Apple Music: “Ouve no Apple Music → music.seteveus.space” — formato já
+    estabelecido.
+    Capa sugerida: ângulo baixo, pés femininos a tocar o chão, luz da janela a entrar de
+    lado. Cor #F5A65B na tipografia. Sem rosto.
+  published: false
+  key_verse: Hoje eu fico. / Não foi vitória — foi escolha pequena. / Hoje eu fico.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal entering at bar 2 · gospel piano + soft hand-cla'
+  bpm: 76
+  mood_secondary: respirar

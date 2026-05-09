@@ -19,6 +19,8 @@ import { saveLyrics, downloadBackup, flushPending } from "@/lib/lyrics-store";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
 import { pickLorannImages } from "@/lib/loranne-images";
 import { LORANNE_VOICE_ID, LORANNE_PERSONA_SEED } from "@/data/loranne-persona";
+import { MOOD_META, type LoranneMood, type CompactMoodsData } from "@/data/loranne-moods";
+import LORANNE_MOODS_DATA from "@/data/loranne-moods-data.json";
 import CalendarView from "./CalendarView";
 
 /** Read ID3 title from an MP3 File */
@@ -727,6 +729,42 @@ function ClipApprovalRow({
 }
 
 
+// Mood lookup — uses the auto-tagged loranne-moods-data.json (compact format)
+const MOODS_DATA = LORANNE_MOODS_DATA as unknown as CompactMoodsData;
+function getTrackMoods(albumSlug: string, trackNumber: number): { moods: string[]; confidence: number } | null {
+  const compact = MOODS_DATA.tracks[`${albumSlug}/${trackNumber}`];
+  if (!compact) return null;
+  return { moods: compact[0].split(","), confidence: compact[1] };
+}
+
+function MoodBadges({ albumSlug, trackNumber }: { albumSlug: string; trackNumber: number }) {
+  const tag = getTrackMoods(albumSlug, trackNumber);
+  if (!tag || tag.moods.length === 0) return null;
+  return (
+    <span className="inline-flex items-center gap-1">
+      {tag.moods.map((m, i) => {
+        const meta = MOOD_META[m as LoranneMood];
+        if (!meta) return null;
+        return (
+          <span
+            key={m}
+            title={`${meta.paraQuem} (confiança: ${tag.confidence})`}
+            className="text-[10px] px-1.5 py-0.5 rounded-full font-medium"
+            style={{
+              backgroundColor: `${meta.color}33`,
+              color: meta.color,
+              border: `1px solid ${meta.color}66`,
+              opacity: i === 0 ? 1 : 0.7,
+            }}
+          >
+            {meta.label}
+          </span>
+        );
+      })}
+    </span>
+  );
+}
+
 function TrackRow({
   track,
   albumSlug,
@@ -875,6 +913,11 @@ function TrackRow({
             )}
           </div>
           <p className="text-sm text-mundo-muted mt-0.5">{track.description}</p>
+
+          {/* Mood badges — auto-tagged from loranne-moods-data.json */}
+          <div className="mt-1.5">
+            <MoodBadges albumSlug={albumSlug} trackNumber={track.number} />
+          </div>
 
           {/* Copy buttons — always visible */}
           <div className="mt-2 flex items-center gap-2">

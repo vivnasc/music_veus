@@ -58,6 +58,12 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
     isDbAlbum(a) || a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
   );
 
+  // Albums escritos mas ainda sem áudio publicado — mostram como "Em breve"
+  // para o utilizador ver o catálogo a ser preparado.
+  const upcomingAlbums = albums.filter((a) =>
+    !isDbAlbum(a) && !a.tracks.some((t) => publishedKeys.has(`${a.slug}-t${t.number}`))
+  );
+
   const allPublishedTracks: { track: AlbumTrack; album: Album }[] = [];
   for (const album of publishedAlbums) {
     for (const track of album.tracks) {
@@ -289,6 +295,48 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
             );
           })}
         </div>
+
+        {/* Em breve — albums escritos mas ainda sem áudio */}
+        {upcomingAlbums.length > 0 && (
+          <div className="mt-12">
+            <h2 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">
+              Em breve · {upcomingAlbums.length} {upcomingAlbums.length === 1 ? "álbum" : "álbuns"}
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+              {upcomingAlbums.map((album) => (
+                <div
+                  key={album.slug}
+                  className="block rounded-xl overflow-hidden text-left opacity-60"
+                >
+                  <div
+                    className="aspect-square relative overflow-hidden"
+                    style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}33)` }}
+                  >
+                    <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3">
+                      <span className="text-[10px] uppercase tracking-wider text-white/70 mb-1">
+                        Em produção
+                      </span>
+                      <span className="text-base font-semibold text-white drop-shadow">
+                        {album.title}
+                      </span>
+                      {album.subtitle && (
+                        <span className="text-[10px] text-white/70 mt-1.5 line-clamp-2 max-w-[90%]">
+                          {album.subtitle}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  <p className="text-[10px] text-[#666680] mt-1.5 px-1">
+                    {album.tracks.length} faixas escritas
+                  </p>
+                </div>
+              ))}
+            </div>
+            <p className="text-[11px] text-[#666680] mt-3">
+              Estes álbuns têm letra e prompt prontos. Vão aparecer aqui assim que tiverem áudio publicado.
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );

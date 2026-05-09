@@ -1,0 +1,850 @@
+# INCENSO-CORO — As vozes que chegaram quando eu não pedi
+# Para quem se sente isolada na sua dor — diáspora, mãe solo, “só eu sei”. Não estava sozinha e não sabia. Princípio editorial: Coro = comunidade que chega de fora, não linhagem interior. Vozes vivas, p
+# Persona: Loranne (voice id a8ad18d5-d23e-4c97-ad68-1006de7ac76d)
+# Carregar via /admin/albums (YAML upload)
+
+slug: incenso-coro
+title: Coro
+subtitle: As vozes que chegaram quando eu não pedi
+color: '#E8B86F'
+collection: incenso
+artist:
+  slug: loranne
+  name: Loranne
+  bio: Contemporary organic-electronic — AwakeSoul lineage. Contemplative, transformative.
+  photo_url: /Loranne-home.png
+published: false
+status: draft
+distribution: false
+tracks:
+- number: 1
+  title: Alguém Está Acordada
+  description: Abertura — em qualquer lugar do mundo, agora, há outra mulher acordada com o mesmo peso.
+  lang: PT
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Abertura — em qualquer lugar do mundo, agora, há outra mulher acordada com o mesmo peso..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo mbira, soft pad bed, room tone with subtle static, distant hum almost impercepti
+    [Verse 1]
+    É de madrugada aqui
+    E eu pensei que estava só
+    A olhar para o tecto
+    A contar respirações
+    Mas algures, agora
+    Outra mulher tem os meus olhos abertos
+    Não a conheço
+    E no entanto estamos juntas
+    [Verse 2]
+    Ela pode estar em Maputo
+    Ela pode estar em Lisboa
+    Ela pode estar a dois quarteirões
+    A contar o mesmo tecto
+    Não sabemos uma da outra
+    E isto não muda nada
+    As duas estamos acordadas
+    As duas estamos a aguentar
+    [Pre-Chorus]
+    Não é poesia
+    Não é consolo
+    É matemática
+    Neste momento, em mil tectos
+    [Chorus]
+    Alguém está acordada
+    Como eu, agora
+    Alguém está a respirar
+    O mesmo ar pesado
+    Não nos vemos
+    Não nos falamos
+    Mas o mundo sabe
+    Que não estamos sós
+    Mesmo sem nos sabermos
+    [Verse 3]
+    Quando o sol chegar
+    Nenhuma de nós vai contar
+    Que passou a noite assim
+    Vai pôr a roupa, pôr o café
+    Vai sair como se nada
+    Mas nós sabemos
+    E eu hoje quis dizer
+
+    Que sei que sabes
+    [Chorus: distant female hum enters underneath, still faraway]
+    Alguém está acordada
+    Como eu, agora
+    Alguém está a respirar
+    O mesmo ar pesado
+    Não nos vemos
+    Não nos falamos
+    Mas o mundo sabe
+    Que não estamos sós
+    Mesmo sem nos sabermos
+    [Bridge: vocal close, no harmonies, only mbira — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Se estás a ouvir isto
+    Às três da manhã num quarto qualquer
+    Não te prometo que adormeças
+    Prometo-te só uma coisa
+    Não és só tu
+    Não és só tu
+    [Outro: vocal soft, mbira fading, distant hum lingers]
+    Alguém está acordada
+    como tu
+    alguém
+  published: false
+  key_verse: Algures, agora, / outra mulher tem os meus olhos abertos.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + solo mbira motif + warm Ham'
+  bpm: 70
+  mood_secondary: lembrar
+- number: 2
+  title: You Are Not the First
+  description: Recognition — what you carry has been carried before, by women you’ll never meet.
+  lang: EN
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: Recognition — what you carry has been carried before, by women you’ll never meet..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: fingerpicked nylon guitar, soft kora line, low standing bass, room creak audible, no
+    [Verse 1]
+    Whatever you are carrying tonight
+    A woman in 1873 carried it too
+    She didn't have a name for it
+    She didn't have a song for it
+    She washed the same clothes
+    She fed the same children
+    She lay down with the same weight
+    And somehow she got up
+    [Verse 2]
+    A woman in your own street
+    Fifty years ago, in your own kitchen
+    Looked at the same window
+    With the same exhaustion in her face
+    She is dust now
+    But she got up
+    Not beautifully, not cleanly
+    She got up
+    [Pre-Chorus]
+    This is not a comfort
+    This is the truth
+    You are joining a long line
+    Of women who did not give up
+    [Chorus]
+    You are not the first
+    And that is the kindest news
+    You are not the first
+    And you will not be the last
+    The weight you carry tonight
+    Has been carried
+
+    The weight you carry tonight
+    Will be put down
+    By hands like yours, eventually
+    [Verse 3]
+    They couldn't write to you
+    They couldn't reach you
+    But their bodies did this work
+    So your body could do this work
+    They didn't make it pretty
+    They didn't make it clean
+    They just made it through
+    And you are made of them
+    [Chorus]
+    You are not the first
+    And that is the kindest news
+    You are not the first
+    And you will not be the last
+    [Bridge: vocal close, almost spoken, only guitar — opens, does not resolve]
+    Somewhere a great-grandmother
+    Is reaching across the years
+    And putting her hand on your shoulder
+    You won't feel it
+    But it is there
+    It is there
+    [Outro: vocal soft, guitar and kora fading]
+    You are not the first
+    you are not
+    you are not
+  published: false
+  key_verse: You are not the first / and that is the kindest news.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal · gospel piano + soft kora line throughout + sof'
+  bpm: 76
+  mood_secondary: lembrar
+- number: 3
+  title: A Casa de Outra
+  description: Primeiro movimento — bater à porta de outra mulher pela primeira vez sem fingir que está tudo bem.
+  lang: PT
+  energy: steady
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic. Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm, acoustic guitar, warm bass, light percussion, piano accents. Walking pace, present, embodied. No autotune. Clean vocal production. 90 BPM, signature element: warm vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. grounded, present, embodied. warm vocal. Theme: Primeiro movimento — bater à porta de outra mulher pela primeira vez sem fingir que está tudo bem..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: soft Rhodes piano, light brushed drums entering on bar 4, warm fretless bass, no voca
+    [Verse 1]
+    Bati à porta dela
+    Às três da tarde de uma terça
+    Não tinha plano
+    Não tinha frase
+    O meu rosto estava como estava
+    Sem maquilhagem, sem postura
+    E ela abriu
+    E não perguntou nada
+    [Verse 2]
+    Fez chá de capim
+    Não me ofereceu lição
+    Não me disse o que fazer
+    Não me disse o que sentir
+    Fiquei na cozinha dela
+    Uma hora, talvez duas
+    E quando saí
+    O peso era o mesmo, mas mais leve
+    [Pre-Chorus]
+    Não é mágico
+    Não é cura
+    É uma mulher
+    A receber outra mulher
+    [Chorus]
+    A casa de outra
+    É o primeiro lugar onde se chega
+
+    A casa de outra
+    É onde o peso descansa um bocadinho
+    Não é a tua
+    Não é o teu chão
+    Mas ela abriu
+    E isso é uma forma de salvação
+    Pequena, real, repetível
+    [Verse 3]
+    Voltei a casa a pé
+    A olhar para outras janelas
+    A pensar em quantas casas
+    Tinham uma mulher pronta a abrir
+    Não a maioria
+    Mas algumas
+    E de hoje em diante
+    Vou aprender a bater
+    [Chorus: 3-voice airy harmonies enter, hand-claps soft on the off-beat]
+    A casa de outra
+    É o primeiro lugar onde se chega
+    A casa de outra
+    É onde o peso descansa um bocadinho
+    [Bridge: vocal close, low female hum underneath, only Rhodes — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não sei quem te abre a porta
+    Não sei se ainda há essa mulher na tua rua
+    Sei que a houve algures
+    Sei que pode haver outra
+    E que bater é sempre mais difícil
+    Do que a porta abrir-se
+    [Outro: vocal soft, Rhodes and hum fading]
+    A casa de outra
+    a minha casa
+    a casa de outra
+    repete-se
+  published: false
+  key_verse: Bati à porta sem maquilhagem. / Abriu sem perguntas.
+  suno_prompt: 'Style: gospel build mid-tempo · warm vocal · gospel piano + warm Hammond organ + light brushe'
+  bpm: 90
+  mood_secondary: atravessar
+- number: 4
+  title: WhatsApp at 4 a.m.
+  description: The message that arrives without context — someone you barely know, knowing exactly.
+  lang: EN
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: The message that arrives without context — someone you barely know, knowing exactly..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo felt-piano, warm pad swell, subtle phone-buzz percussion as rhythmic texture, oc
+    [Verse 1]
+    The phone lit up at four
+    It was a woman I barely knew
+    She wrote three words
+    She wrote — are you up
+    I didn't answer for a minute
+    I was crying too hard to type
+    Then I wrote yes
+    And she wrote — me too
+    [Verse 2]
+    We didn't say what was wrong
+    We didn't fix anything
+    We were just two phones
+    Lit at four in the morning
+    In different cities
+    In different lives
+    Doing the same vigil
+    For reasons we didn't share
+    [Pre-Chorus]
+    She didn't ask why
+    She just wrote — I'm here
+    That was all I needed
+
+    That was enough to make it to morning
+    [Chorus]
+    WhatsApp at four a.m.
+    The coro nobody calls
+    WhatsApp at four a.m.
+    The sisters of the silent hour
+    We don't see each other's faces
+    We don't share each other's names
+    But the typing dots appear
+    And I am not alone
+    [Verse 3]
+    We sent each other nothing
+    No wisdom, no advice
+    A voice note that was just breathing
+    A picture of a window with light
+    A single word — courage
+    A single word — okay
+    At six in the morning
+    We stopped, and slept
+    [Chorus]
+    WhatsApp at four a.m.
+    The coro nobody calls
+    WhatsApp at four a.m.
+    The sisters of the silent hour
+    [Bridge: vocal close, single soft harmony, only felt-piano — opens, does not resolve]
+    There is a woman somewhere right now
+    Whose phone is the only light in the room
+    You don't know her
+    She doesn't know you
+    Three words would change her night
+    Three words
+    [Outro: vocal soft, piano fading]
+    Four a.m.
+    the small typing dots
+    are you up
+    me too
+  published: false
+  key_verse: 'She didn’t ask why. / She just wrote: I’m here.'
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal · gospel piano + soft hand-claps from verse 2 +'
+  bpm: 76
+- number: 5
+  title: Não Sozinha
+  description: PEAK 1 — declaração colectiva, gospel sem fanfarra americana.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: powerful chest vocal that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. powerful chest vocal that never shouts. Theme: PEAK 1 — declaração colectiva, gospel sem fanfarra americana..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, djembe entering on bar 4, hand-cl
+    [Verse 1]
+    Disseram-me que era assim
+    Que era para aguentar sozinha
+    Que era a minha cruz
+    Que era a minha vida
+    E eu acreditei tanto tempo
+    Que até parou de doer perguntar
+    Mas hoje pergunto
+    E a resposta é outra
+    [Verse 2]
+    Não sou a primeira
+    Não sou a última
+    E não sou a única
+    Agora, neste preciso minuto
+    Há mulheres a aguentar
+    Há mulheres a abrir portas
+    Há mulheres a escrever às quatro
+    E eu sou uma delas
+    [Pre-Chorus]
+
+    A mentira mais antiga
+    Foi convencer-me
+    Que carregar sozinha
+    Era forma de força
+    [Chorus]
+    Não sozinha
+    Repete comigo — não sozinha
+    Não sozinha
+    Nem que o quarto esteja vazio
+    O mundo é cheio de mulheres
+    Que sabem o que tu sabes
+    Não sozinha
+    Não sozinha
+    A partir de hoje, não sozinha
+    [Verse 3]
+    A solidão era um hábito
+    Não era uma verdade
+    O hábito de não pedir
+    De não bater
+    De não escrever às quatro
+    De não receber
+    O hábito quebra-se
+    Um gesto de cada vez
+
+    [Chorus: full female chorus enters, Hammond blooms, djembe + tambourine + hand-claps polyrhyt
+    Não sozinha
+    Repete comigo — não sozinha
+    Não sozinha
+    Nem que o quarto esteja vazio
+    O mundo é cheio de mulheres
+    Que sabem o que tu sabes
+    Não sozinha
+    Não sozinha
+    A partir de hoje, não sozinha
+    [Bridge: vocal close, chorus hums underneath — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não te peço para confiares já
+    O hábito é grosso
+    Apenas — abre a possibilidade
+    De que não estás só
+    E deixa que essa fissura
+    Faça o resto
+    [Final Chorus: 6-voice female chorus layered, peak warmth, never shouted]
+
+    Não sozinha
+    Não sozinha
+    Não sozinha
+    [Outro: vocal soft, chorus fades]
+    Não sozinha
+    repete comigo
+    não sozinha
+  published: false
+  key_verse: 'Não sozinha. / Repete comigo: não sozinha.'
+  suno_prompt: 'Style: contemporary African gospel anthem · powerful chest vocal that never shouts · warm Ham'
+  bpm: 100
+- number: 6
+  title: Held
+  description: Pulling back — being received, not rescued. The whisper of being held.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Pulling back — being received, not rescued. The whisper of being held..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: soft pad bed, single sustained cello, room tone, collective female breath very faint,
+    [Verse 1]
+    Nobody fixed me today
+    Somebody held me today
+    There is a difference
+    And it took me years to learn it
+    The holding is enough
+
+    The holding does the work
+    The fixing is what we ask for
+    When we cannot ask for the holding
+    [Verse 2]
+    She didn't say it would be fine
+    She didn't say it would pass
+    She just sat next to me
+    With her arm against my arm
+    For an hour, maybe two
+    Not speaking, not solving
+    Just the warmth of skin
+    Doing what skin does
+    [Pre-Chorus]
+    The nervous system
+    Does not understand words
+    The nervous system
+    Understands another body, near
+    [Chorus]
+    Held
+    Not rescued, not repaired
+    Held
+    The oldest medicine
+    A body next to my body
+    A breath inside my breath
+    Nothing said, nothing solved
+    And somehow — nothing left to solve
+    [Verse 3]
+    If you cannot find the words
+    For what is wrong tonight
+    Do not look for the words
+    Look for the body
+    A friend, a child, a dog
+    The nearest warm thing
+    Let that body be near you
+    That is the prayer
+    [Chorus]
+    Held
+    Not rescued, not repaired
+    Held
+    The oldest medicine
+
+    [Bridge: vocal close, collective breath audible, only pad and cello — opens, does not resolve
+
+    The coro is not a sound
+    Sometimes the coro is a body
+    Quietly there
+    Saying nothing
+    Meaning everything
+    [Outro: vocal exhaled, collective breath continues, pad fades]
+    Held
+    the oldest medicine
+    held
+  published: false
+  key_verse: Nobody fixed me. / Somebody held me. / That was all.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + warm Hammond pad (very low'
+  bpm: 70
+  mood_secondary: respirar
+- number: 7
+  title: Tia
+  description: Reabertura — a tia, a vizinha, a estranha que se tornou linhagem escolhida.
+  lang: PT
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: Reabertura — a tia, a vizinha, a estranha que se tornou linhagem escolhida..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo nylon guitar, low fretless bass, breath audible, no drums]
+    [Verse 1]
+    A mulher que me ensinou a viver
+    Não era a minha mãe
+
+    Era a vizinha do segundo andar
+    Que abria a porta sem perguntar
+    Que tinha sempre uma cadeira
+    Que tinha sempre um caneco
+    Que ouvia o que eu não dizia
+    E nunca repetia a ninguém
+    [Verse 2]
+    A outra que me ensinou
+    Foi uma colega de trabalho
+    Dez anos mais velha que eu
+    Que me disse uma vez à mesa
+    Não é assim que se aguenta
+    E eu não percebi naquele dia
+    Mas anos depois percebi
+    E foi ela que me salvou
+    [Pre-Chorus]
+    A família que escolhi
+    É maior do que a que recebi
+    E não me peço desculpa
+    A ninguém por isto
+    [Chorus]
+    Tia
+    Não por sangue, por escolha
+    Tia
+    A mulher que me viu
+    Quando a casa era barulho
+    Quando ninguém olhava
+    A tia abriu os olhos
+    E eu existi por causa disso
+    [Verse 3]
+    Se estás a fazer essa função
+    Para alguém na tua rua
+    Não sabes o que estás a fazer
+    E no entanto estás a fazer tudo
+    A criança ou a mulher
+    Que tu recebes em silêncio
+    Vai ser pessoa um dia
+    Por causa de te ter
+    [Chorus: balafon enters, finger-snaps soft, harmonies remain absent]
+    Tia
+    Não por sangue, por escolha
+    Tia
+
+    A mulher que me viu
+    [Bridge: vocal close, only guitar and balafon — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Nem todas as mães te puseram no mundo
+    Algumas só te impediram de o deixar
+    E essas também são mães
+    E essas também merecem o nome
+    E essas também merecem a canção
+    [Outro: vocal soft, balafon and guitar fading]
+    Tia
+    obrigada
+    tia
+  published: false
+  key_verse: Nem todas as mães te puseram no mundo. / Algumas só te impediram de o deixar.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal · gospel piano + balafon entering at verse 2 + s'
+  bpm: 76
+  mood_secondary: lembrar
+- number: 8
+  title: Sisters Without Names
+  description: PEAK 2 rising — the global thread of women who never met, holding the same line.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: driving four-on-the-floor kick layered with dje, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. driving four-on-the-floor kick layered with dje. Theme: PEAK 2 rising — the global thread of women who never met, holding the same line..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads, plucky synth lead, djembe layered with sidechained kick entering on
+    [Verse 1]
+
+    In Tokyo it is morning
+    A woman is washing rice
+    In Lagos it is afternoon
+    A woman is closing a sale
+    In Maputo it is evening
+    A woman is bathing a child
+    In Lisbon it is night
+    A woman is finally putting down her bag
+    [Verse 2]
+    We are not connected
+    We are not in touch
+    And yet — we are doing this
+    The same work, all of us
+    The administration of caring
+    The quiet labor of holding
+    The small repeating yes
+    That keeps the world from falling
+    [Pre-Chorus]
+    In every timezone, every hour
+    A woman is doing what I am doing
+    This is not solidarity
+    This is geography
+    [Chorus]
+    Sisters without names
+    The coro you cannot count
+    Sisters without names
+    The coro you cannot see
+    We will never meet
+    We will never speak
+    But we are holding the same line
+    In different rooms, different tongues
+    We are the floor of the world
+    [Verse 3]
+    If you fall down tonight
+    Thirty thousand of us catch you
+    Without knowing your name
+    Without knowing your face
+    The woman who lit the candle
+    The woman who wrote the message
+    The woman who refused to give up at three a.m.
+    Is catching you, indirectly, anyway
+    [Chorus]
+
+    Sisters without names
+    The coro you cannot count
+    Sisters without names
+    The coro you cannot see
+
+    [Bridge: vocal opens, harmonies stack, kick keeps going, djembe surges — opens, does not reso
+    Right now in a kitchen on the other side of the world
+    A woman is washing the same plate she washed yesterday
+    She does not know your name
+    She is holding the line anyway
+    [Final Chorus: full harmony stack, sidechained pads peak, djembe + kick layered]
+    Sisters without names
+    The coro you cannot count
+    Sisters without names
+    The coro you cannot see
+    [Outro: vocal soft, djembe and pads fading]
+    We are the floor of the world
+    the floor
+    the floor
+  published: false
+  key_verse: In every timezone, / a woman is doing what I am doing.
+  suno_prompt: 'Style: gospel house with West African pulse · driving four-on-the-floor kick layered with dje'
+  bpm: 108
+- number: 9
+  title: Eu Sou Porque Tu És
+  description: PEAK FINAL — ubuntu como facto cantado, não citado.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: powerful chest vocal that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. powerful chest vocal that never shouts. Theme: PEAK FINAL — ubuntu como facto cantado, não citado..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, djembe entering on bar 4, timbila
+    [Verse 1]
+    Um provérbio antigo dizia
+    E eu nunca tinha percebido
+    Eu sou porque tu és
+    Falavam de mim e eu não sabia
+    Mas hoje percebi
+    No silêncio entre duas mulheres
+    Que não disseram nada
+    E arrumaram o mundo
+    [Verse 2]
+    Não é frase para parede
+    Não é citação para o livro
+    É matemática do corpo
+    É a única equação que importa
+    O eu é mentira
+    Quando se aprofunda
+    Lá no fundo só existe nós
+    No fundo só existe o coro
+    [Pre-Chorus]
+    Não te peço fé
+    Peço-te conta
+    Quantas mulheres te puseram
+    No lugar onde estás agora
+    [Chorus]
+    Eu sou porque tu és
+    E é por isso que existo hoje
+    Eu sou porque tu és
+    E tu és porque alguém te recebeu
+    Nenhuma de nós
+    É feita só de si
+    Somos a corda longa
+    De mãos sobre mãos sobre mãos
+    E hoje canto este nome
+    [Verse 3]
+    A quem me leu, quem me ouviu
+    A quem me deu silêncio
+    A quem me passou o caneco
+    A quem me deixou ficar
+
+    Não vou saber todos os nomes
+    Mas sei a forma que vocês têm
+    Quando a vida me toca o ombro
+    A forma é vossa
+
+    [Chorus: full female chorus enters, Hammond blooms, djembe + timbila + tambourine + warm stri
+    Eu sou porque tu és
+    E é por isso que existo hoje
+    Eu sou porque tu és
+    E tu és porque alguém te recebeu
+    [Bridge: vocal close, chorus hums underneath — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    A quem ainda se sente sozinha
+    Não te peço para acreditares
+    Apenas conta
+    Conta as mãos que te puseram aqui
+    A mãe que te lavou
+    A professora que te ouviu
+    A estranha que te deu água
+    Conta — e a solidão não cabe
+    [Final Chorus: 8-voice female chorus layered, peak warmth, never shouted]
+    Eu sou porque tu és
+    Eu sou porque tu és
+    Eu sou
+    porque tu és
+    [Outro: vocal soft, chorus fades, djembe lingers]
+    Eu sou
+    porque tu és
+    porque vocês
+    porque nós
+  published: false
+  key_verse: Eu sou porque tu és. / E é por isso que existo hoje.
+  suno_prompt: 'Style: contemporary African gospel anthem · powerful chest vocal that never shouts · warm Ham'
+  bpm: 100
+- number: 10
+  title: What the Coro Leaves
+  description: Outro — what remains after the chorus has gone home. The thread that doesn’t break.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Outro — what remains after the chorus has gone home. The thread that doesn’t break..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo felt-piano, soft pad bed, distant single mbira note repeating, room tone with su
+    [Verse 1]
+    The coro went home
+    The friend left the kitchen
+    The phone went quiet
+    The woman next door turned off her light
+    And I — I was still held
+    By something that did not need to be in the room
+    A presence that stayed
+    After the bodies had gone
+    [Verse 2]
+    This is the part that surprised me
+    The coro is not the people
+    The coro is what the people leave
+    When they go away
+    A temperature in the air
+    A permission in the chest
+    A thread that does not break
+    When the door closes behind them
+    [Pre-Chorus]
+    Nobody is here right now
+    And yet I am not alone
+    This is the work the coro did
+    While I was barely paying attention
+    [Chorus]
+
+    What the coro leaves
+    Is not a memory
+    What the coro leaves
+    Is a quiet floor under your feet
+    The room is empty
+    The night is long
+    But the floor holds
+    But the floor holds
+    And that is the gift, that is the gift
+    [Verse 3]
+    If one day you cannot find the people
+    Reach for what they left
+    The phrase she said in passing
+    The gesture you barely noticed
+    The hand that touched your shoulder
+    Three years ago in a kitchen
+    That hand is still on your shoulder
+    The coro does not leave entirely
+    [Chorus]
+    What the coro leaves
+    Is not a memory
+    What the coro leaves
+    Is a quiet floor under your feet
+
+    [Bridge: vocal close, single soft harmony layer enters, only piano — opens, does not resolve]
+    There is a hand on your shoulder right now
+    And it is not yours
+    You can feel it if you stop
+    You can feel it if you stop
+    [Outro: vocal exhaled, mbira lingers, piano resolves softly]
+    What the coro leaves
+    is a quiet floor
+    is a quiet floor
+    that holds
+  published: false
+  key_verse: They went home / and I was still held.
+  suno_prompt: 'Style: gospel ambient with subtle African colour · intimate whisper close-mic · felt-piano +'
+  bpm: 70
+  mood_secondary: respirar

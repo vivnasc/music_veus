@@ -1,0 +1,890 @@
+# INCENSO-ACENDE — A chama que voltou sem pedir licença
+# Para quem está em rock-bottom — depressão, luto, anos sem sentir. Não é “tudo vai ficar bem”. É o testemunho de que algo voltou.
+# Persona: Loranne (voice id a8ad18d5-d23e-4c97-ad68-1006de7ac76d)
+# Carregar via /admin/albums (YAML upload)
+
+slug: incenso-acende
+title: Acende
+subtitle: A chama que voltou sem pedir licença
+color: '#FFB347'
+collection: incenso
+artist:
+  slug: loranne
+  name: Loranne
+  bio: Contemporary organic-electronic — AwakeSoul lineage. Contemplative, transformative.
+  photo_url: /Loranne-home.png
+published: false
+status: draft
+distribution: false
+tracks:
+- number: 1
+  title: Pequena Chama
+  description: A luz mais pequena que sobreviveu — a primeira a notar.
+  lang: PT
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: A luz mais pequena que sobreviveu — a primeira a notar..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo upright piano with felt damper, single note ringing into silence, breath audible
+    [Verse 1]
+    Eu não me apaguei toda
+    Por mais que tenha tentado
+    Há um ponto de luz no escuro
+    Que ficou
+    Não pediu autorização para ficar
+    Não me consultou
+
+    Está aqui, pequenino
+    A respirar antes de eu respirar
+    [Verse 2]
+    Reparei nele de repente
+    Numa terça-feira sem nada
+    A acender o que pensei perdido
+    A aquecer o que estava frio
+    Não é grande
+    Não promete nada
+    Mas existe
+    E hoje isso já é tudo
+    [Pre-Chorus]
+    Não acreditei que sobrava
+    Não acreditei que aguentava
+    Mas há fogo aqui dentro ainda
+    A teimar, a teimar
+    [Chorus]
+    Pequena chama
+    Que não pediste licença
+    Pequena chama
+    Que ficou contra a evidência
+    Não te apago
+    Não te explico
+    Apenas reparo
+    Que ainda existes
+    Que ainda existo
+    [Verse 3]
+    Não me digas que vai melhorar
+    Não me digas que se passa
+    Diz-me só que reparas
+    Como eu reparo nesta chama
+    Que é só ela e basta
+    Que é só ela hoje
+    [Chorus: 3-voice airy harmonies enter softly, soft brushed snare on the off-beat]
+    Pequena chama
+    Que não pediste licença
+    Pequena chama
+    Que ficou contra a evidência
+    Não te apago
+    Não te explico
+    Apenas reparo
+    Que ainda existes
+
+    Que ainda existo
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não sei o que isto vai ser amanhã
+    Não te prometo que dure
+    Só te digo o que vejo agora
+    Há fogo aqui dentro ainda
+    E é estranho
+    E é verdade
+    [Outro: vocal exhaled, piano fading]
+    Pequena chama
+    Pequena chama
+    Repara
+    Ainda há fogo aqui dentro
+    ainda
+  published: false
+  key_verse: 'Não me apaguei toda. / Repara: ainda há fogo aqui dentro.'
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + warm Hammond pad (very low'
+  bpm: 70
+- number: 2
+  title: Coming Back
+  description: O corpo a voltar sem aviso — a fome, a sede, o sono que tem forma outra vez.
+  lang: EN
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: O corpo a voltar sem aviso — a fome, a sede, o sono que tem forma outra vez..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo piano, single low cello bow, room tone, breath audible]
+    [Verse 1]
+    The hunger came back first
+    Not the joy, not the will
+    Just hunger — at four in the afternoon
+    Unannounced
+    I hadn't asked for it
+    The stomach spoke before me
+    And I sat down to eat
+    Like someone who didn't decide
+    [Verse 2]
+    Then the thirst at three in the morning
+    Real water in a glass
+    My hand reaching out
+    Without my permission
+    The body knows things
+    I haven't agreed to yet
+    It's coming back without me
+    Quietly stubborn
+    [Pre-Chorus]
+    I didn't decide
+    I didn't choose
+    The body did this
+    While I was elsewhere
+    [Chorus]
+    Coming back, coming back
+    Without asking, without consent
+    Coming back through the small door
+    The body knew the way
+    I was looking the other way
+    And it found its own road
+    Coming back, coming back
+    Without me
+    [Verse 3]
+    The sleep started having shape again
+    Four hours, then five
+    The dreams returned with their nonsense
+    The morning had warmth
+    Nothing of mine
+    Was mine in this
+
+    It was the body — old animal —
+    Deciding to live
+    [Chorus]
+    Coming back, coming back
+    Without asking, without consent
+    Coming back through the small door
+    The body knew the way
+    I was looking the other way
+    And it found its own road
+    Coming back, coming back
+    Without me
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    The body is older than the mind
+    The body has done this before
+    Centuries before me
+    Centuries after me
+    The body has a road
+    That I do not know
+    [Outro: vocal exhaled, fading]
+    Coming back
+    Without me
+    Coming back
+    before I asked
+  published: false
+  key_verse: I didn’t decide. / The body chose without me.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal · gospel piano + soft hand-claps from verse 2 +'
+  bpm: 76
+  mood_secondary: respirar
+- number: 3
+  title: Movimento
+  description: O primeiro pé que sai da cama — o corpo move-se antes de eu decidir.
+  lang: PT
+  energy: steady
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic. Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm, acoustic guitar, warm bass, light percussion, piano accents. Walking pace, present, embodied. No autotune. Clean vocal production. 90 BPM, signature element: warm vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. grounded, present, embodied. warm vocal. Theme: O primeiro pé que sai da cama — o corpo move-se antes de eu decidir..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: soft Rhodes piano, light brushed drums entering on bar 4, warm fretless bass]
+    [Verse 1]
+    O pé desceu primeiro
+    Não eu, não a vontade
+    O pé tocou no chão
+    E o resto teve de seguir
+    Não fiz contas, não fiz planos
+    Não sabia que era hoje
+    Mas o pé sabia
+    E pousou
+    [Verse 2]
+    Depois foi a outra perna
+    Depois foram as costas
+    Depois foi o tronco a vir atrás
+    De alguma coisa que decidiu
+    Sem mim, à minha frente
+    O corpo é um animal antigo
+    Que não pede licença
+    Para querer estar vivo
+    [Pre-Chorus]
+    A cabeça chegou por último
+    A pensar que era cedo
+    Mas o corpo já estava de pé
+    A aquecer, a respirar
+    [Chorus]
+    Movimento, movimento
+    É assim que se volta
+    Não com a mente decidida
+    Mas com o pé que se solta
+    Movimento, movimento
+    O corpo é mais corajoso
+    Que a pessoa que o habita
+    Nos dias mais escuros
+
+    [Verse 3]
+    Fiz a cama sem pensar
+    Fiz café sem programa
+    A mão pegou no caneco
+    A boca soube beber
+    E quando dei por mim
+    A manhã estava feita
+    E eu estava nela
+    Integralmente
+    [Chorus]
+    Movimento, movimento
+    É assim que se volta
+    Não com a mente decidida
+    Mas com o pé que se solta
+    [Bridge: vocal close, no harmonies — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não sei se vou aguentar a tarde
+    Não sei se vou aguentar a semana
+    Sei que pus o pé no chão
+    E que a manhã está feita
+    E talvez seja só isso
+    Que se pode saber
+    [Outro]
+    Movimento
+    Um pé
+    Depois o outro
+    E o resto
+    Vai aprendendo
+  published: false
+  key_verse: O pé desceu primeiro. / A coragem chegou depois.
+  suno_prompt: 'Style: gospel build mid-tempo · warm vocal · gospel piano + warm Hammond organ + light brushe'
+  bpm: 90
+  mood_secondary: atravessar
+- number: 4
+  title: Cinco Passos
+  description: Cinco passos da cama à janela — a primeira viagem do dia.
+  lang: PT
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: steady four-on-the-floor kick, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. steady four-on-the-floor kick. Theme: Cinco passos da cama à janela — a primeira viagem do dia..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads, plucky synth motif, soft hand-claps on bar 4, faint footstep texture
+    [Verse 1]
+    Cinco passos da cama à janela
+    Hoje foi a viagem inteira
+    Não fui à esquina
+    Não fui ao mercado
+    Fui à janela
+    E fiquei lá quinze minutos
+    A ver o que o mundo fazia
+    Sem mim, sem ter dado por mim
+    [Verse 2]
+    Conta-se em metros, não em quilómetros
+    Conta-se em respirações, não em horas
+    A vida pequena tem o seu sistema
+    De medir o que custou
+    Não me perguntes para onde vou
+    Pergunta-me até onde cheguei
+    Cinco passos é um continente
+    Quando se vinha de tão longe
+    [Pre-Chorus]
+    Não me peças o salto
+    Não me peças a corrida
+    Pede-me cinco passos
+    E eu trago cinco passos
+    [Chorus]
+    Cinco passos
+    Mais do que ontem
+
+    Cinco passos
+    E a janela aberta um bocadinho
+    Não o céu inteiro
+    Só este pedaço
+    Que cabe na vidraça
+    E hoje cabe em mim
+    [Verse 3]
+    Amanhã talvez sejam dez
+    Talvez sejam outra vez três
+    Não há linha recta neste regresso
+    Há só dias e dias
+    Eu não conto adiante
+    Eu conto este dia
+    E neste dia foram cinco
+    E foram suficientes
+    [Chorus]
+    Cinco passos
+    Mais do que ontem
+    Cinco passos
+    E a janela aberta um bocadinho
+    [Bridge: vocal close, kick drops out, only pads underneath]
+    (European Portuguese, Portugal accent:)
+    Há quem corra maratonas
+    Há quem dê cinco passos
+    Hoje a glória é a mesma
+    Para os dois
+    E ninguém te vai dar medalha
+    Por isto
+    Mas eu vejo
+    E hoje basta que eu veja
+    [Final Chorus: kick returns, harmonies layered, key shift to A major]
+    Cinco passos
+    Mais do que ontem
+    Cinco passos
+    E a janela aberta um bocadinho
+    Não o céu inteiro
+    Só este pedaço
+    Que cabe na vidraça
+    E hoje cabe em mim
+    [Outro: vocal soft, pads fade]
+    Cinco passos
+    foi a viagem
+
+    cinco passos
+  published: false
+  key_verse: Cinco passos da cama à janela. / Hoje foi a viagem inteira.
+  suno_prompt: 'Style: gospel house · steady four-on-the-floor kick · warm sidechained pads + plucky synth mo'
+  bpm: 108
+  mood_secondary: atravessar
+- number: 5
+  title: Voltei
+  description: PEAK 1 — A volta sem trompetes, primeira pessoa íntima.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: powerful chest vocal that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. powerful chest vocal that never shouts. Theme: PEAK 1 — A volta sem trompetes, primeira pessoa íntima..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo gospel piano with rich chords, Hammond organ swells gradually, no vocal yet — in
+    [Verse 1]
+    Ninguém apita
+    Ninguém aplaude
+    A volta acontece à porta fechada
+    No silêncio que ninguém vê
+    Voltei e ninguém soube
+    A não ser eu
+    E bastou
+    E hoje basta
+    [Verse 2]
+    Não sou outra mulher
+    Não sou a versão melhorada
+    Sou esta mesma, gasta
+    E viva
+
+    A mesma cara, os mesmos olhos
+    Mas dentro há de novo um sítio
+    Onde o ar entra
+    Onde a luz pode chegar
+    [Pre-Chorus]
+    Não peço milagre
+    Não peço fanfarra
+    O milagre é estar de pé
+    A contar a história
+    [Chorus]
+    Voltei
+    Sem trompetes, sem festa — voltei
+    Não grito, não corro
+    Voltei
+    O chão sentiu-me chegar
+    A cama sentiu-me deitar
+    E eu, eu reparei
+    Que era eu outra vez aqui
+    [Verse 3]
+    O café desta manhã
+    Soube-me ao café
+    E eu chorei sem saber porquê
+    Porque saber é demais
+    Mas o café soube-me ao café
+    E isso é uma vitória
+    Que não cabe no jornal
+    Mas cabe em mim
+    [Chorus: full gospel choir enters, Hammond blooms, tambourine on the four]
+    Voltei
+    Sem trompetes, sem festa — voltei
+    Não grito, não corro
+    Voltei
+    O chão sentiu-me chegar
+    A cama sentiu-me deitar
+    E eu, eu reparei
+    Que era eu outra vez aqui
+    [Bridge: vocal close, choir hums underneath — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não sei quem volta amanhã
+    Talvez esta mesma, talvez não
+    A volta não é casa fixa
+    A volta é uma porta que se abre
+
+    Hoje abriu-se
+    Hoje passei
+    [Final Chorus: 6-voice gospel choir layered, peak warmth, never shouted]
+    Voltei
+    Sem trompetes, sem festa — voltei
+    Voltei para mim
+    Voltei
+    [Outro: vocal soft, choir fades]
+    Voltei
+    Reparem comigo
+    voltei
+  published: false
+  key_verse: Voltei. / Sem trompetes, sem festa — voltei.
+  suno_prompt: 'Style: contemporary gospel anthem · powerful chest vocal that never shouts · warm Hammond org'
+  bpm: 100
+- number: 6
+  title: Aftercare
+  description: O recolher depois do pico — ser tenra contigo agora.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: O recolher depois do pico — ser tenra contigo agora..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: felt-piano with single warm pad swell, ambient room tone, breath audible, no drums]
+    [Verse 1]
+
+    So here we are again
+    The woman who came back
+    Sitting at the kitchen wall
+    Not crying, not laughing
+    Just here
+    The big return is over
+    Now there's only this — the rest
+    The long Tuesday after
+    [Verse 2]
+    Now what
+    The softest question
+    No bigger plan, no clean victory
+    Just now what
+    A small wash of tea
+    A small thought of bread
+    A small permission to stay still
+    For a while longer
+    [Pre-Chorus]
+    Don't make this mean too much
+    Don't make this be the lesson
+    Let it be the small after
+    Let it be the long descent into rest
+    [Chorus]
+    Aftercare, aftercare
+    Not the rescue, the time after
+    Aftercare, aftercare
+    The quiet hand, the second cup
+    Nothing dramatic, nothing said
+    The woman who came back
+    Deserves the longest soft
+    That the world can offer her
+    [Verse 3]
+    I don't have to grow now
+    I don't have to teach what I learned
+    The lesson can wait
+    The wisdom can wait
+    What doesn't wait is this body
+    That saved itself today
+    And needs to be held now
+    With the gentlest hand it has
+    [Chorus]
+    Aftercare, aftercare
+
+    Not the rescue, the time after
+    Aftercare, aftercare
+    The quiet hand, the second cup
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    There is no instruction for the after
+    The kettle whistles
+    The chair holds your weight
+    The room is the same room as before
+    And you are here
+    Slightly other
+    Slightly the same
+    [Outro: vocal exhaled, piano fades]
+    Aftercare
+    The long after
+    The quiet care
+    that I owe myself
+  published: false
+  key_verse: Now what — / the gentle question / nobody else can answer.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + warm Hammond pad (very low)'
+  bpm: 70
+  mood_secondary: respirar
+- number: 7
+  title: Sair de Casa
+  description: A primeira vez fora — não para conquistar, só para estar fora.
+  lang: PT
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: A primeira vez fora — não para conquistar, só para estar fora..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: fingerpicked nylon guitar, soft cello drone underneath, faint street ambience, breath
+    [Verse 1]
+    A porta abre para fora
+    E eu fico parada à frente dela
+    A olhar para o mundo
+    Que não veio cá dentro
+    Não vou trabalhar
+    Não vou comprar nada
+    Vou só sair
+    E talvez voltar
+    [Verse 2]
+    O ar lá fora é mais frio
+    Do que eu lembrava
+    O som da rua é mais alto
+    Do que eu lembrava
+    A luz fere os olhos
+    Que se desabituaram
+    E no entanto fico
+    Mais um minuto, mais um
+    [Pre-Chorus]
+    Não vim para fingir
+    Nem para mostrar nada
+    Vim porque a porta abria
+    E o meu corpo escolheu
+    [Chorus]
+    Sair, sair
+    Não para chegar a lado nenhum
+    Sair, sair
+    Para o mundo lembrar que existo
+    A porta abre para fora
+    O resto aprende-se a andar
+    Uma rua, depois outra
+    E o regresso à hora certa
+    [Verse 3]
+    Vi uma criança a chorar
+    Vi um cão a correr
+    Vi um homem a chamar a mulher
+    Vi a vida toda a passar
+    E percebi que o mundo
+    Continuou sem mim
+
+    E que ainda há lugar nele
+    Quando eu voltar
+    [Chorus]
+    Sair, sair
+    Não para chegar a lado nenhum
+    Sair, sair
+    Para o mundo lembrar que existo
+    [Bridge: vocal close, almost spoken, only guitar — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não sei se isto se repete amanhã
+    Não sei se a porta abre outra vez assim
+    Hoje abriu
+    Hoje saí
+    Hoje voltei
+    E é o que sei
+    [Outro: vocal soft, guitar fades]
+    Fui à esquina
+    E voltei
+    É tudo
+    E é tanto
+    fui à esquina e voltei
+  published: false
+  key_verse: A porta abre para fora. / O resto aprende-se a andar.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal · gospel piano + soft hand-claps from verse 2 +'
+  bpm: 76
+  mood_secondary: atravessar
+- number: 8
+  title: Batimento
+  description: 2nd PEAK rising — o ritmo cardíaco a recuperar, a passada a ficar firme.
+  lang: PT
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: driving four-on-the-floor kick that mimics heartbeat, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. driving four-on-the-floor kick that mimics heartbeat. Theme: 2nd PEAK rising — o ritmo cardíaco a recuperar, a passada a ficar firme..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads, plucky synth lead, sidechained kick entering on bar 4 mimicking hear
+    [Verse 1]
+    O coração voltou a marcar tempo
+    Não o bonito, não o forte
+    O ordinário pulso de quem está
+    Que tinha andado calado
+    Está alto o suficiente agora
+    Para me levar até à noite
+    Está alto o suficiente agora
+    Para fazer planos e cumprir
+    [Verse 2]
+    A passada ficou firme
+    Três dias seguidos a sair
+    Três refeições na terça
+    Nada disto é notícia
+    E é tudo
+    Bato outra vez
+    E é tudo o que tinha de fazer
+    Bato outra vez
+    [Pre-Chorus]
+    Não celebres alto
+    Não assustes o ritmo
+    Só firme, só firme
+    Deixa o corpo confiar em ti outra vez
+    [Chorus]
+    Batimento, batimento
+    O coração lembrou-se do trabalho
+    Batimento, batimento
+    Hora a hora a passada firma
+    Não brilho, não coroa
+    Só firme, só aqui
+    A pessoa que aprendeu
+    Que podia atravessar o dia
+    [Verse 3]
+    Marquei a próxima consulta
+
+    Atendi a chamada da amiga
+    Comprei o que faltava
+    Atirei o que estourou
+    Pequenas administrações
+    De uma pessoa a tornar-se pessoa
+    Nada para a câmara
+    Tudo para mim
+    [Chorus]
+    Batimento, batimento
+    O coração lembrou-se do trabalho
+    Batimento, batimento
+    Hora a hora a passada firma
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    A pulsação não é coragem
+    A pulsação é mais antiga que a coragem
+    A pulsação é o que ficou
+    Quando tudo o resto desistiu
+    E hoje, hoje está aqui
+    A bater sem me consultar
+    [Final Chorus: full harmony stack, sidechained pads peak, never shouted]
+    Batimento, batimento
+    O coração lembrou-se do trabalho
+    Batimento, batimento
+    Hora a hora a passada firma
+    [Outro: vocal soft, kick fades]
+    Batimento
+    firme
+    batimento
+    firme
+  published: false
+  key_verse: Bato outra vez. / E é tudo o que tinha de fazer.
+  suno_prompt: 'Style: gospel house · driving four-on-the-floor kick that mimics heartbeat · warm sidechained'
+  bpm: 108
+- number: 9
+  title: Cá Estou
+  description: PEAK FINAL — testemunho declarativo dirigido a quem ainda lá está. Segunda pessoa testemunhal.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: powerful chest vocal that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. powerful chest vocal that never shouts. Theme: PEAK FINAL — testemunho declarativo dirigido a quem ainda lá está. Segunda pessoa testemunhal..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo gospel piano with rich chords, Hammond organ swells, log-feel low drum sparse, n
+    [Verse 1]
+    Disseram-me que não voltava
+    Disseram-me que era assim
+    Que o que se quebra fica quebrado
+    Que o que se apaga não acende
+    E eu acreditei meses
+    E eu acreditei anos
+    E no entanto, no entanto
+    Cá estou
+    [Verse 2]
+    Não sou prova de nada
+    Não sou exemplo nenhum
+    Sou só uma mulher
+    Que não morreu de tudo o que viveu
+    E isso não me torna santa
+    Nem me torna especial
+    Mas torna-me viva
+    E hoje canto-te de viva
+    [Pre-Chorus]
+    Não te peço discurso
+    Não te peço a lição
+    Estou aqui com a voz
+    Para quem ainda não tem voz
+    [Chorus]
+    Cá estou
+    Sem ter pedido — cá estou
+
+    Cá estou — para ti
+    Que ainda não consegues estar
+    A respirar este ar por nós duas
+    A pisar este chão por nós duas
+    Cá estou — e digo-te o nome
+    Do que isto custou para acontecer
+    [Verse 3]
+    Tu não me conheces
+    E eu não te conheço
+    E no entanto canto isto
+    A pensar exactamente em ti
+    Que estás a ouvir agora
+    À frente do tecto
+    A contar respirações
+    Cá estou para te dizer
+    [Chorus: full gospel choir enters, Hammond blooms, tambourine, warm strings rising]
+    Cá estou
+    Sem ter pedido — cá estou
+    Cá estou — para ti
+    Que ainda não consegues estar
+    A respirar este ar por nós duas
+    A pisar este chão por nós duas
+    Cá estou — e digo-te o nome
+    Do que isto custou para acontecer
+    [Bridge: vocal close, choir hums underneath — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não te prometo o teu regresso
+    Não tenho essa autoridade
+    Só te digo o que sei
+    Eu também lá estive
+    E hoje canto
+    E talvez um dia cantes tu
+    A esta mesma hora, deste mesmo lado
+    A outra que ainda não sabe
+    [Final Chorus: 6-voice gospel choir layered, peak energy, never shouted]
+    Cá estou
+    Para ti
+    Cá estou
+    Para ti
+    Cá estou
+    [Outro: vocal soft, choir fades]
+    Cá estou
+
+    e fica
+    cá estou
+  published: false
+  key_verse: Cá estou — sem ter pedido. / Cá estou — para ti.
+  suno_prompt: 'Style: contemporary gospel anthem · powerful chest vocal that never shouts · warm Hammond org'
+  bpm: 100
+- number: 10
+  title: What Stays
+  description: Outro — o que fica depois do testemunho. Suave, sem moral.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Outro — o que fica depois do testemunho. Suave, sem moral..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo felt-piano, soft pad bed, room tone, breath audible, no drums]
+    [Verse 1]
+    The storm is gone
+    The house still stands
+    Not pretty, not the same
+    But standing
+    The roof has different shapes now
+    The walls remember water
+    And I — I am the woman
+    Who didn't move when she could have
+    [Verse 2]
+    There is no big lesson here
+
+    No bow on the ending
+    Just the small fact of breath
+    In and out, in and out
+    The small fact of skin
+    With the temperature of being alive
+    The small fact of you
+    Noticing it
+    [Pre-Chorus]
+    Don't make this a story
+    Don't make this a song
+    Let it be the quiet thing
+    That just is what it is
+    [Chorus]
+    What stays
+    Is the body that didn't quit
+    What stays
+    Is the woman who notices
+    Not the heroine, not the wreck
+    Just the woman who is here
+    A Tuesday in October
+    With her cup of tea
+    [Verse 3]
+    Tomorrow may be hard again
+    This is not a promise
+    Tomorrow may be soft
+    This is not a promise either
+    What I have is now
+    This breath, this chair, this room
+    And that is more than I had
+    At the bottom of the dark
+    [Chorus]
+    What stays
+    Is the body that didn't quit
+    What stays
+    Is the woman who notices
+
+    [Bridge: vocal close, single soft harmony layer enters, only piano — opens, does not resolve]
+    If you find this song
+    At the bottom of your own dark
+    I am not here to promise you
+    I am here to leave a sound
+    That said this once
+    And meant it
+
+    [Outro: vocal exhaled, piano resolves softly to C major in last bar]
+    What stays
+    What stays
+    The body, the breath, the woman
+    the woman who noticed
+
+    Notas de revisão (vs. versão anterior)
+    Track 4 reescrita de “One Inch” (EN) para “Cinco Passos” (PT). Saiu o registo de
+    coach (“brick by brick”, “small geography of being okay”). Nova metáfora física:
+    passos da cama à janela. Mantém PEAK 1 da estrutura.
+    Track 8 reescrita de “Flicker” (EN, chama outra vez) para “Batimento” (PT, ritmo
+    cardíaco). Resolve a repetição da metáfora da chama nas tracks 1, 5, 8.
+    Bridges reescritas em todas as tracks que fechavam com moral. Agora abrem
+    fissura — sem “the miracle is…”, sem “thank yourself like a doctor”.
+    Track 9 (Cá Estou) reposicionada para 2ª pessoa testemunhal. Volta = “voltei para
+    mim”. Cá Estou = “cá estou para ti que ainda não conseguiste”. Diferenciação clara.
+    Distribuição PT/EN atinge 6 PT / 4 EN (vs 5/5 anterior) — mais coerente com
+    Loranne pós-AO90 como base.
+    Prompts Suno com mais atrito (vinyl crackle, room tone, tape saturation, faint
+    street ambience) sem comprometer clareza.
+  published: false
+  key_verse: What stays / is the body that didn’t quit / and the woman who notices.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + warm Hammond pad (very low'
+  bpm: 70
+  mood_secondary: respirar

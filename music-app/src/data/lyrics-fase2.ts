@@ -5474,7 +5474,11 @@ And I have never been less alone`,
 // MÃOS ABERTAS (perdão como liberdade)
 // ─────────────────────────────────────────────
 
-"incenso-maos-abertas/1": `[Verse 1]
+"incenso-maos-abertas/1": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Trago um peso nos ombros que não é meu
 Um rancor que herdei sem dar por isso
 Cada manhã acordo e carrego o fardo
@@ -5526,7 +5530,11 @@ E o chão aguenta
 Pouso devagar
 E eu também`,
 
-"incenso-maos-abertas/2": `[Verse 1]
+"incenso-maos-abertas/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I didn't know my fist was closed
 Until my fingers started aching
 I held so tight to something old
@@ -5576,7 +5584,11 @@ Unclench — there's so much left to learn
 Open now — and nothing falls
 Open now — and everything begins`,
 
-"incenso-maos-abertas/3": `[Verse 1]
+"incenso-maos-abertas/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Querida, escrevo-te esta carta
 Que nunca vais ler com os teus olhos
 Cada palavra sai em sangue
@@ -5628,7 +5640,11 @@ Eu fico mais leve
 As cinzas voam
 E eu respiro`,
 
-"incenso-maos-abertas/4": `[Verse 1]
+"incenso-maos-abertas/4": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I didn't forgive you for your sake
 I did it for these tired bones
 For every night I lay awake
@@ -5680,7 +5696,11 @@ I forgive — I'm free
 I forgive — and finally
 I can breathe`,
 
-"incenso-maos-abertas/5": `[Verse 1]
+"incenso-maos-abertas/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O espelho mais difícil não tem moldura
 Não está na parede nem na casa de banho
 Está na insónia das três da manhã
@@ -5732,7 +5752,11 @@ Fizeste o melhor que sabias
 Estás bem
 E amanhã saberás mais`,
 
-"incenso-maos-abertas/6": `[Verse 1]
+"incenso-maos-abertas/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The phone sits heavy in my hand
 A number I could dial in sleep
 For seven years I've almost called
@@ -5784,7 +5808,11 @@ Lighter than I've felt in years
 Nothing's fixed, but something's started
 And that's worth these quiet tears`,
 
-"incenso-maos-abertas/7": `[Verse 1]
+"incenso-maos-abertas/7": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Mãe, eu trouxe tudo o que calei
 Nos jantares de domingo à noite
 Tu servias a comida quente
@@ -5836,7 +5864,11 @@ Desta vez não digo nada
 Vem cá, filha
 Desta vez só ficamos assim`,
 
-"incenso-maos-abertas/8": `[Verse 1]
+"incenso-maos-abertas/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I opened my hands this morning
 And checked what fell to the ground
 But nothing dropped, nothing shattered
@@ -5886,7 +5918,11 @@ Let go — and let life in
 My hands are open now
 And look — they're full of sky`,
 
-"incenso-maos-abertas/9": `[Verse 1]
+"incenso-maos-abertas/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Estás à minha frente e eu não sei
 Se o corpo vai ou se congela
 Quem me magoou está aqui tão perto
@@ -5938,7 +5974,11 @@ Mais um segundo só
 E nesse segundo extra
 Cabe o perdão todo`,
 
-"incenso-maos-abertas/10": `[Verse 1]
+"incenso-maos-abertas/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 This is for every fist that learned to open
 For every jaw that learned to unclench
 For every heart that held a stone for years

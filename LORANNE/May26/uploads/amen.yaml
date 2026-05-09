@@ -1,0 +1,857 @@
+# INCENSO-AMEN — A entrega ao que já é
+# Para quem luta contra o que já é — diagnóstico, idade, perda irreversível. Receber. Render-se. Dizer sim. Não resignação — entrega activa. O alívio de parar de empurrar a água. Princípio editorial: A 
+# Persona: Loranne (voice id a8ad18d5-d23e-4c97-ad68-1006de7ac76d)
+# Carregar via /admin/albums (YAML upload)
+
+slug: incenso-amen
+title: Amen
+subtitle: A entrega ao que já é
+color: '#A088C0'
+collection: incenso
+artist:
+  slug: loranne
+  name: Loranne
+  bio: Contemporary organic-electronic — AwakeSoul lineage. Contemplative, transformative.
+  photo_url: /Loranne-home.png
+published: false
+status: draft
+distribution: false
+tracks:
+- number: 1
+  title: Empurrar a Água
+  description: Abertura — anos a empurrar a água que entrava na casa.
+  lang: PT
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Abertura — anos a empurrar a água que entrava na casa..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo upright piano with felt damper, soft pad bed, faint water sound (a tap dripping
+
+    [Verse 1]
+    Empurrei a água anos
+    Com as duas mãos
+    A água entrava pela porta
+    E eu empurrava-a para fora
+    À noite descansava as mãos
+    De manhã voltava a empurrar
+    A água não me obedeceu
+    Mas eu não desisti
+    [Verse 2]
+    Foi-me dito que era assim
+    Que a luta era a vida
+    Que ceder era falhar
+    Que parar era morrer
+    Empurrei o diagnóstico
+    Empurrei a perda
+    Empurrei a idade que vinha
+    Como se a maré fosse decisão
+    [Pre-Chorus]
+    Hoje as mãos doem
+    De anos a empurrar
+    E a água continua a entrar
+    E eu já não tenho com quê
+    [Chorus]
+    Empurrei a água
+    Anos a empurrar
+    A água é mais antiga
+    Que a minha vontade
+    Não é falência
+    Não é desistir
+    É reparar
+    Que ela vai entrar
+    Eu empurre ou não
+    [Verse 3]
+    Não te digo para parar já
+    Não tenho essa autoridade
+    Digo-te o que aprendi
+    Quando as minhas mãos pararam
+    A casa não se afundou
+    A casa molhou-se diferente
+    E eu — eu pude finalmente
+    Dormir uma noite inteira
+
+    [Chorus]
+    Empurrei a água
+    Anos a empurrar
+    A água é mais antiga
+    Que a minha vontade
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não te peço para te molhares
+    Peço-te para reparares
+    Que estás molhada há muito
+    E que continuar a empurrar
+    Não te tem secado
+    Apenas tem-te cansado
+    [Outro: vocal exhaled, piano fading]
+    Empurrei a água
+    e ela ficou
+    empurrei a água
+  published: false
+  key_verse: Empurrei a água anos. / A água não me obedeceu.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + warm Hammond pad (very low'
+  bpm: 70
+- number: 2
+  title: Letting Go of the Rope
+  description: The rope I had been holding so long my hands forgot how to open.
+  lang: EN
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: The rope I had been holding so long my hands forgot how to open..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo piano, single low cello bow, room creak, breath audible]
+    [Verse 1]
+    I had been holding the rope
+    For so many years
+    My hand did not remember
+    What an open hand felt like
+    The grip had become my hand
+    The grip had become my body
+    The grip had become the way I lived
+    And I called it strength
+    [Verse 2]
+    Then one Tuesday
+    My fingers, on their own
+    Started to let go
+    Slowly, knuckle by knuckle
+    I had not decided this
+    I had not chosen this
+    The hand was tired
+    And the hand was wiser
+    [Pre-Chorus]
+    The rope did not pull me into the sea
+    The rope was not even attached to anything
+    I had been gripping the air
+    For most of my life
+    [Chorus]
+    Letting go of the rope
+    That I had been holding for years
+    Letting go of the rope
+    That had become my fist
+    Not surrender, not failure
+    The hand opening
+    Like a flower
+    That had forgotten it was a flower
+    [Verse 3]
+    The hand was sore for days
+    After the opening
+    Like a muscle that does not remember
+
+    What rest is
+    But the soreness is different from the pain
+    The soreness is recovery
+    The pain was the holding
+    And I had not noticed the difference
+    [Chorus]
+    Letting go of the rope
+    That I had been holding for years
+    Letting go of the rope
+    That had become my fist
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    There is a rope you may be holding
+    That you have forgotten you are holding
+    Notice the soreness in your shoulder
+    Notice the cramp in your jaw
+    There is a rope
+    And you do not have to keep holding it
+    There is a rope
+    [Outro: vocal exhaled, fading]
+    Letting go
+    the hand opens
+    letting go
+  published: false
+  key_verse: The hand was so used to gripping / it had forgotten how to open.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal · gospel piano + soft hand-claps from verse 2 +'
+  bpm: 76
+  mood_secondary: respirar
+- number: 3
+  title: A Maré Sobe
+  description: Primeiro movimento — a entrega à hora certa, não como sentimento mas como movimento físico.
+  lang: PT
+  energy: steady
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic. Warm female vocals with poetic lyrics. Mid-tempo groove, grounded rhythm, acoustic guitar, warm bass, light percussion, piano accents. Walking pace, present, embodied. No autotune. Clean vocal production. 90 BPM, signature element: warm vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. grounded, present, embodied. warm vocal. Theme: Primeiro movimento — a entrega à hora certa, não como sentimento mas como movimento físico..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: soft Rhodes piano, light brushed drums entering on bar 4, warm fretless bass, faint s
+    [Verse 1]
+    A maré sobe à hora dela
+    Eu posso lutar contra ela
+    Posso correr para a praia
+    Posso encher os pulmões e gritar
+    A maré sobe à mesma
+    A maré não sabe quem eu sou
+    A maré tem o seu calendário
+    E é mais antigo que o meu
+    [Verse 2]
+    Hoje aprendo a flutuar
+    Não a vencer
+    Não a empurrar
+    Só a flutuar
+    A água sobe e eu subo com ela
+    A água desce e eu desço
+    Não é resignação
+    É outra forma de estar viva
+    [Pre-Chorus]
+    Há coisas que não posso decidir
+    A morte do pai foi uma
+    A doença do filho foi outra
+    A idade que chega é outra ainda
+    [Chorus]
+    A maré sobe
+    À hora dela, sem licença
+    A maré sobe
+    E eu posso estar molhada ou flutuar
+    Não é a mesma coisa
+    Não é desistir
+    É escolher outra forma
+    De habitar o mar
+
+    Que sempre foi este mar
+    [Verse 3]
+    A flutuar não vou para a praia
+    Mas também não me afundo
+    Estou na superfície
+    E é mais leve do que eu pensei
+    Os meus pais flutuaram antes
+    Os pais deles também
+    Talvez a sabedoria de uma família
+    Seja saber quando flutuar
+    [Chorus: 3-voice airy harmonies enter, brushed drums steady]
+    A maré sobe
+    À hora dela, sem licença
+    A maré sobe
+    E eu posso estar molhada ou flutuar
+    [Bridge: vocal close, no harmonies, only Rhodes — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não te digo para flutuares já
+    Não te digo que é para todos
+    Há marés que ainda se conseguem subir
+    Há marés que não
+    A inteligência é saber qual é qual
+    E essa é uma aprendizagem lenta
+    [Outro: vocal soft, Rhodes fading]
+    A maré sobe
+    e eu também
+    a maré sobe
+  published: false
+  key_verse: A maré sobe à hora dela. / Hoje aprendo a flutuar.
+  suno_prompt: 'Style: gospel build mid-tempo · warm vocal · gospel piano + warm Hammond organ + light brushe'
+  bpm: 90
+  mood_secondary: atravessar
+- number: 4
+  title: The Diagnosis Is True
+  description: The day the body told me what was true and I stopped arguing with it.
+  lang: EN
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: The day the body told me what was true and I stopped arguing with it..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: fingerpicked nylon guitar, soft cello drone underneath, faint clinical room tone, bre
+    [Verse 1]
+    The diagnosis is true
+    I argued with it for a year
+    I went to three doctors
+    I read seventeen articles
+    I waited for the body to lie
+    But the body did not lie
+    And the diagnosis is true
+    And I have to live in this house
+    [Verse 2]
+    It is not the worst thing about me
+    It is one thing about me
+    I have a body and the body has this
+    And the body also has hands
+    And the body also has a tongue
+    And the body also has a mind
+    That can hold the diagnosis
+    Without becoming it
+    [Pre-Chorus]
+    I am not my disease
+    I am not my decline
+    I am the woman with the disease
+    I am the woman in the decline
+    [Chorus]
+    The diagnosis is true
+    And I am still myself
+    The diagnosis is true
+    And the morning still comes
+    I do not have to fight
+    What is already settled
+
+    I have to live with it
+    And living with it is the work
+    [Verse 3]
+    There is a freedom in the yes
+    That I did not expect
+    The yes is not the end
+    The yes is the beginning of the rest
+    Of what is mine to do
+    Without the daily war
+    Of pretending the body is wrong
+    About what the body knows
+    [Chorus]
+    The diagnosis is true
+    And I am still myself
+    The diagnosis is true
+    And the morning still comes
+    [Bridge: vocal close, almost spoken, only guitar — opens, does not resolve]
+    The body is honest
+    And the body is wise
+    The body has been telling me for years
+    What the doctors have now confirmed
+    There is grief in this
+    And there is also relief
+    The two can sit together
+    On the same bench
+    [Outro: vocal soft, guitar fading]
+    The diagnosis is true
+    and the morning still comes
+    the diagnosis is true
+  published: false
+  key_verse: The diagnosis is true. / It is not the worst thing about me.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal · gospel piano + soft hand-claps from verse 2 +'
+  bpm: 76
+- number: 5
+  title: Amen
+  description: PEAK 1 — pivot do álbum. O “amen” pronunciado em voz baixa pela primeira vez. Não é fim — é começo.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal that never shouts. Theme: PEAK 1 — pivot do álbum. O “amen” pronunciado em voz baixa pela primeira vez. Não é fim — é começo..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo gospel piano with rich chords, Hammond organ swell, no vocal yet — instrumental
+    [Verse 1]
+    Amen é uma palavra antiga
+    Que eu também tinha empurrado
+    Achava que era resignação
+    Achava que era o fim
+    Hoje aprendi outra coisa
+    Amen é o começo
+    Amen é o sim ao que já é
+    Para que eu possa começar a viver
+    [Verse 2]
+    Amen não me devolve o pai
+    Amen não me devolve a saúde
+    Amen não me devolve os anos
+    Que perdi a empurrar a água
+    Mas Amen devolve-me a mim
+    Devolve-me as mãos para outra coisa
+    Devolve-me a noite para dormir
+    Devolve-me o dia para amar
+    [Pre-Chorus]
+    Amen é entrega
+    Não é desistência
+    Amen é a porta
+    Que estava trancada de dentro
+    [Chorus]
+    Amen
+    A palavra que diz sim
+
+    Amen
+    Não ao injusto, ao real
+    Eu não tenho de gostar
+    Mas tenho de pousar
+    Aquilo que não posso mudar
+    E começar a tratar do que posso
+    Amen, amen
+    [Verse 3]
+    Amen ao corpo que tenho
+    Não ao que não tenho
+    Amen à idade que chega
+    Não à que se foi
+    Amen às pessoas que ficaram
+    Não às que partiram
+    Amen é uma forma de focar
+    Onde a vida ainda está
+
+    [Chorus: full gospel choir enters, Hammond blooms, tambourine on the four — but the energy st
+    Amen
+    A palavra que diz sim
+    Amen
+    Não ao injusto, ao real
+    Eu não tenho de gostar
+    Mas tenho de pousar
+    Aquilo que não posso mudar
+    E começar a tratar do que posso
+    [Bridge: vocal close, choir hums underneath — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Não te peço para dizeres a palavra
+    A palavra é difícil
+    Diz-me só uma coisa que não podes mudar
+    E pousa-a por hoje
+    Pousa-a só por hoje
+    Amanhã levantas outra vez
+    Se quiseres
+    Se quiseres
+    [Final Chorus: 6-voice gospel choir layered, peak warmth, never shouted]
+    Amen
+    A palavra que diz sim
+    Amen
+    Ao real, ao que ficou
+    [Outro: vocal soft, choir fades]
+    Amen
+
+    ao que é
+    amen
+  published: false
+  key_verse: Amen. / A palavra que diz sim / a tudo o que já é.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal that never shouts · warm Hammond organ +'
+  bpm: 100
+- number: 6
+  title: The Yes That Doesn’t Hurt
+  description: Recolher — the yes that finally costs less than the no did.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Recolher — the yes that finally costs less than the no did..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: felt-piano with single warm pad swell, ambient room tone with kettle steam in the dis
+    [Verse 1]
+    There is a yes that hurts
+    And there is a yes that doesn't
+    The first is the lie I told for years
+    The second is what I am learning now
+    The yes that hurts
+    Is the yes I owe to nobody
+    The yes that doesn't hurt
+    Is the yes to what is
+    [Verse 2]
+    The body got tired of carrying the no
+
+    The no I had been carrying for years
+    The no to my mother's death
+    The no to my body's limits
+    The no to the year that wasted itself
+    The no was so heavy I could not lift my arms
+    [Pre-Chorus]
+    The yes is lighter
+    That is the strange thing
+    The yes is the lighter of the two
+    And nobody warns you about that
+    [Chorus]
+    The yes that doesn't hurt
+    Costs less than the no I had been carrying
+    The yes that doesn't hurt
+    Is not approval, is not love
+    Is just the not-fighting
+    With the rain that has already fallen
+    The yes that doesn't hurt
+    Is the yes that lets me sleep
+    [Verse 3]
+    I will say the no when I need to
+    The no to the things I can change
+    The no to the people who hurt me
+    The no to the work that drains me
+    That no is alive, that no is mine
+    But the no to what is
+    Is dead weight
+    And I am putting it down
+    [Chorus]
+    The yes that doesn't hurt
+    Costs less than the no I had been carrying
+    The yes that doesn't hurt
+    Is not approval, is not love
+    [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
+    There is a no in your chest right now
+    You may know which one
+    Try, just try, putting it down
+    Just for an hour
+    Just for a kettle's worth of time
+    And see if your shoulders drop
+    And see if your shoulders drop
+
+    [Outro: vocal exhaled, piano fades]
+    The yes that doesn't hurt
+    the yes that lets me sleep
+    the yes that doesn't hurt
+  published: false
+  key_verse: The yes that doesn’t hurt / costs less than the no I had been carrying.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + warm Hammond pad (very low'
+  bpm: 70
+  mood_secondary: respirar
+- number: 7
+  title: Não Atirei
+  description: Reabertura — o gesto físico de pousar uma coisa. Não atirar. Pousar.
+  lang: PT
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal. Theme: Reabertura — o gesto físico de pousar uma coisa. Não atirar. Pousar..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo nylon guitar, low fretless bass, room creak audible, no drums]
+    [Verse 1]
+    Pousei o pai
+    Não atirei, pousei
+    Levei a urna ao mar
+    Não a despejei com raiva
+    Pousei-a na água
+    Como se pousa uma coisa amada
+    E ele foi-se com a maré
+    E eu fiquei na praia
+
+    [Verse 2]
+    Pousei a expectativa
+    Não atirei, pousei
+    A ideia da minha vida
+    Que já não cabia em mim
+    Pousei-a numa caixa
+    Levei-a para o sótão
+    Não vou abrir a caixa
+    Mas também não a deitei fora
+    [Pre-Chorus]
+    Atirar é raiva
+    Atirar é guerra
+    Pousar é cerimónia
+    Pousar é despedida
+    [Chorus]
+    Não atirei, pousei
+    É outra coisa
+    Pousei
+    Com cuidado, com gratidão
+    A coisa que tive de soltar
+    Não merecia raiva
+    Merecia o gesto bom
+    De ser despedida bem
+    Pousei
+    [Verse 3]
+    Há coisas em mim ainda
+    Que vou ter de pousar
+    A pessoa que pensei que ia ser
+    A história que pensei que tinha
+    Vou pousá-las uma a uma
+    Sem pressa, sem cerimónia
+    E o sítio onde as pouso
+    Vai-se tornando o meu altar
+    [Chorus]
+    Não atirei, pousei
+    É outra coisa
+    Pousei
+    Com cuidado, com gratidão
+    [Bridge: vocal close, only guitar — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Vê o que estás a atirar
+    E vê o que mereces pousar
+
+    São coisas diferentes
+    E o teu corpo sabe a diferença
+    A raiva endurece o gesto
+    A despedida abranda
+    Há tempo, há tempo
+    Para pousar
+    [Outro: vocal soft, guitar fading]
+    Pousei
+    não atirei
+    pousei
+  published: false
+  key_verse: Não atirei. / Pousei. / É outra coisa.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal · gospel piano + soft hand-claps from verse 2 +'
+  bpm: 76
+  mood_secondary: respirar
+- number: 8
+  title: Soft Power
+  description: PEAK 2 — the strength I did not know was strength.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: driving four-on-the-floor kick, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. driving four-on-the-floor kick. Theme: PEAK 2 — the strength I did not know was strength..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads, plucky synth lead, sidechained kick (softer, rounded) entering on ba
+    [Verse 1]
+    I thought strength was the holding
+    The teeth-gritting, the pushing back
+    The body braced against the wave
+    The hands curled into fists
+
+    But the strongest thing I ever did
+    Was open the hand
+    And let the rope drop
+    Without ceremony, without speech
+    [Verse 2]
+    There is a power in the yielding
+    That I had been taught to despise
+    The water bends around the stone
+    And the water wins, eventually
+    The stone is broken into sand
+    And the water keeps moving
+    Maybe I have been the stone
+    For too long
+    [Pre-Chorus]
+    Soft is not weak
+    Soft is older than hard
+    Soft is the river
+    That has been here longer than the rock
+    [Chorus]
+    Soft power
+    The strength I did not name
+    Soft power
+    The way the water wins
+    Not by force, not by speech
+    By being the shape
+    That the world bends around
+    Eventually, eventually
+    [Verse 3]
+    The doctor cannot bend the diagnosis
+    The widow cannot bend the death
+    The mother cannot bend the autism
+    The years cannot bend back
+    But I can be the shape
+    That moves around the unbending
+    And in the moving, I am alive
+    And the unbending knows my name
+    [Chorus]
+    Soft power
+    The strength I did not name
+    Soft power
+    The way the water wins
+
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    Listen to the women who survived
+    They did not push the world back
+    They became the shape
+    That the world made room for
+    That is a different kind of victory
+    That is a different kind of strength
+    And it is the only one
+    That lasts past forty
+    [Final Chorus: full harmony stack, sidechained pads peak, never shouted]
+    Soft power
+    The strength I did not name
+    Soft power
+    The way the water wins
+    [Outro: vocal soft, kick fades]
+    Soft power
+    the river wins
+    soft power
+  published: false
+  key_verse: The strength I did not name as strength / was the only strength I had.
+  suno_prompt: 'Style: gospel house · driving four-on-the-floor kick · warm sidechained pads + plucky synth l'
+  bpm: 108
+- number: 9
+  title: O Sim Pequeno
+  description: PEAK FINAL — a palavra simples. Sim.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: powerful chest vocal that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. powerful chest vocal that never shouts. Theme: PEAK FINAL — a palavra simples. Sim..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo gospel piano with rich chords, Hammond organ swells, no vocal yet — instrumental
+    [Verse 1]
+    Sim
+    É a palavra mais difícil
+    Pesa mais do que o não
+    Custa mais do que parece
+    Sim ao corpo que tenho
+    Sim ao tempo que me sobrou
+    Sim à perda que ficou
+    Sim à vida que está aqui
+    [Verse 2]
+    Disse não tantas vezes
+    A coisas que estavam aqui
+    Querendo o impossível
+    Recusando o real
+    Hoje aprendi a palavra
+    Que sempre estive a evitar
+    Sim — e o peito alargou-se
+    Sim — e os ombros desceram
+    [Pre-Chorus]
+    Não te peço o sim grande
+    Pede-te o sim pequeno
+    Um sim por vez
+    Um sim por dia
+    [Chorus]
+    Sim à manhã que veio
+    Sim ao dia que custa
+    Sim ao corpo que envelhece
+    Sim ao filho que não muda
+    Sim ao pai que partiu
+    Sim à mãe que esquece
+    Sim, sim — não como derrota
+    Como o gesto que finalmente liberta
+    [Verse 3]
+    O sim não é amen
+    E é
+    O amen é teológico
+    O sim é doméstico
+    O sim é o pão da entrega
+    O amen é o vinho
+
+    Bebem-se aos dois na mesma mesa
+    E a mesa é a vida que ficou
+    [Chorus: full gospel choir enters, Hammond blooms, tambourine, warm strings rising]
+    Sim à manhã que veio
+    Sim ao dia que custa
+    Sim ao corpo que envelhece
+    Sim ao filho que não muda
+    Sim ao pai que partiu
+    Sim à mãe que esquece
+    Sim, sim — não como derrota
+    Como o gesto que finalmente liberta
+    [Bridge: vocal close, choir hums underneath — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Há um sim teu hoje
+    Que está à espera de ser dito
+    Não te peço para o dizeres alto
+    Diz-o dentro da cabeça
+    Diz-o ao tecto
+    Diz-o à parede
+    E vê se a parede não solta
+    Alguma coisa por ti
+    [Final Chorus: 6-voice gospel choir layered, peak energy, never shouted]
+    Sim
+    À vida que ficou
+    Sim
+    Sim
+    Sim
+    [Outro: vocal soft, choir fades]
+    Sim
+    o gesto que liberta
+    sim
+  published: false
+  key_verse: Sim. / A palavra mais difícil. / A palavra mais leve.
+  suno_prompt: 'Style: contemporary gospel anthem · powerful chest vocal that never shouts · warm Hammond org'
+  bpm: 100
+- number: 10
+  title: What Surrender Tastes Like
+  description: Outro — what surrender actually tastes like, when you’ve been told it tastes bitter.
+  lang: EN
+  energy: whisper
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary organic-electronic, AwakeSoul. Warm female vocals with poetic lyrics. Soft synth pads, piano, subtle percussion, strings. Intimate, contemplative, transformative. No autotune. Clean vocal production. 70 BPM, signature element: intimate whisper close-mic, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. intimate, contemplative, vulnerable. intimate whisper close-mic. Theme: Outro — what surrender actually tastes like, when you’ve been told it tastes bitter..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: solo felt-piano, soft pad bed, room tone, breath audible, no drums]
+    [Verse 1]
+    They told me surrender would taste like ash
+    That to give up the fight was to lose
+    That the woman who said yes
+    Was the woman who lost
+    But I tasted it tonight
+    After years of refusing
+    And it does not taste like ash
+    It tastes like rest
+    [Verse 2]
+    It tastes like a room that finally cools
+    After the day's argument
+    It tastes like the body that finally lies down
+    After years of standing braced
+    There is no shame in the taste
+    There is no failure in the taste
+    Whoever told me there would be
+    Was selling me a war
+    [Pre-Chorus]
+    The war is not noble
+    The war is just tiring
+    The peace is not surrender
+    The peace is the rest
+
+    [Chorus]
+    What surrender tastes like
+    Is rest, finally rest
+    What surrender tastes like
+    Is the kettle stopping its scream
+    The room not echoing
+    The body not bracing
+    The woman who lay down
+    And was not killed by the lying down
+    [Verse 3]
+    I will fight again tomorrow
+    For the things worth fighting for
+    But tonight I am putting down
+    What was never worth the war
+    And I am tasting this taste
+    That I had been refused
+    And telling you in this small song
+    That it tastes like rest
+    [Chorus]
+    What surrender tastes like
+    Is rest, finally rest
+    What surrender tastes like
+    Is the kettle stopping its scream
+
+    [Bridge: vocal close, single soft harmony layer enters, only piano — opens, does not resolve]
+    If you have been at war for years
+    With something you cannot win
+    Try the taste once
+    Just once, just for tonight
+    You can pick up the rope tomorrow
+    If you want to
+    But you may not want to
+    You may not want to
+    [Outro: vocal exhaled, piano resolves softly to C major in last bar]
+    What surrender tastes like
+    is rest
+    finally rest
+    the kettle quiet
+  published: false
+  key_verse: They told me it would taste like ash. / It tastes like rest.
+  suno_prompt: 'Style: gospel ambient · intimate whisper close-mic · felt-piano + warm Hammond pad (very low'
+  bpm: 70
+  mood_secondary: respirar

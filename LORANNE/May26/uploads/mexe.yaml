@@ -1,0 +1,912 @@
+# INCENSO-MEXE — Corpo em movimento
+# Para quem precisa de sair do tapete físico — não só emocional. Loranne põe o corpo a mover-se em primeira pessoa, e o corpo do ouvinte segue por contágio. Funciona para fazer exercício leve, andar a p
+# Persona: Loranne (voice id a8ad18d5-d23e-4c97-ad68-1006de7ac76d)
+# Carregar via /admin/albums (YAML upload)
+
+slug: incenso-mexe
+title: Mexe
+subtitle: Corpo em movimento
+color: '#D67A55'
+collection: incenso
+artist:
+  slug: loranne
+  name: Loranne
+  bio: Contemporary organic-electronic — AwakeSoul lineage. Contemplative, transformative.
+  photo_url: /Loranne-home.png
+published: false
+status: draft
+distribution: false
+tracks:
+- number: 1
+  title: Mexe
+  description: Abertura forte. Anthem gospel que arranca. Mexe — eu mexo, vem comigo se quiseres.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering at bar 2 that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering at bar 2 that never shouts. Theme: Abertura forte. Anthem gospel que arranca. Mexe — eu mexo, vem comigo se quiseres..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
+    [Verse 1]
+    Mexe
+    A primeira ordem que dou a mim mesma
+    Não pensa, mexe
+    Não decide, mexe
+    Não espera vontade, mexe
+    A vontade não chega antes
+    A vontade chega depois
+    Mexe primeiro, e a vontade vem
+    [Verse 2]
+    Levanto, ando até à porta
+    Toco no batente, volto
+    Já mexi
+    Já mexi e não morri
+    A primeira vez é assim
+    Pequena, ridícula, suficiente
+    A primeira vez é a porta
+    Que abre todas as outras
+    [Pre-Chorus]
+    Mexe não é exercício
+    Mexe não é projeto
+    Mexe é o gesto mais antigo
+    Que o corpo conhece bem
+    [Chorus]
+    Mexe
+    Eu mexo, vem comigo
+    Mexe
+    A casa está cansada de te ver parada
+    Não te peço a corrida
+    Não te peço o ginásio
+    Mexe
+    Apenas mexe
+    E o resto vai aprendendo
+    [Verse 3]
+    Lavo a louça e mexe
+    Estendo a roupa e mexe
+    Vou ao quintal e mexe
+    Subo as escadas e mexe
+    A vida inteira é mexe
+    Em cada passo, em cada gesto
+
+    Tu sabes mexer-te
+    Lembra-te que tu sabes
+
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, dje
+    Mexe
+    Eu mexo, vem comigo
+    Mexe
+    A casa está cansada de te ver parada
+
+    [Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady — opens, does
+    (European Portuguese, Portugal accent:)
+    Estás a ouvir isto sentada
+    Levanta-te agora — só por dois segundos
+    Se voltares a sentar-te logo está bem
+    Mas levanta-te agora
+    Não pelo programa, pelo gesto
+    Os teus joelhos sabem o que fazer
+    A tua coluna sabe o que fazer
+    Confia no que sabe sem ti
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
+    Mexe
+    Eu mexo, vem comigo
+    Mexe
+    A casa está cansada
+    [Outro: vocal warm, choir fading, djembe lingers]
+    Mexe
+    vem comigo
+    mexe
+    e o resto vai aprendendo
+  published: false
+  key_verse: Mexe. / Eu mexo, vem comigo. / Mexe.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal entering at bar 2 that never shouts · wa'
+  bpm: 100
+- number: 2
+  title: Get Up With Me
+  description: Pulse early. Convite directo. Get up with me — não é “you can do it”, é “I’m doing it, walk with me”.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Pulse early. Convite directo. Get up with me — não é “you can do it”, é “I’m doing it, walk with me”..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
+    [Verse 1]
+    Get up with me
+    I'm not asking you to lead
+    I'm not asking you to follow
+    Just walk beside me, that's enough
+    I'm putting my shoes on right now
+    I'm putting my jacket on right now
+    I'm putting my keys in the pocket right now
+    And I'm walking — and you can walk with me
+    [Verse 2]
+    You don't have to talk
+    You don't have to think
+    You just have to put one foot in front of the other
+    And keep doing it for ten minutes
+    We can walk to the corner
+    We can walk to the next corner
+    We can walk to the bench, and sit
+    The point is the walking, not the destination
+    [Pre-Chorus]
+    Get up with me
+    The hardest part is the first step
+    Get up with me
+    And the second step is easier
+    [Chorus]
+    Get up with me
+    I'm not asking you to lead
+    I'm asking you to walk beside
+    Get up with me
+
+    I'm doing this anyway
+    You can do it too, with me
+    Or you can do it later, alone
+    But the door is open, and I'm walking now
+    [Verse 3]
+    This is what we needed
+    A walking partner who doesn't need conversation
+    A walking partner who doesn't grade you
+    A walking partner who just walks
+    The body doesn't need motivation
+    The body needs company
+    And company can be a song
+    Company can be this song
+    [Chorus: full harmony stack, sidechained pads peak]
+    Get up with me
+    I'm not asking you to lead
+    I'm asking you to walk beside
+    Get up with me
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    You're sitting somewhere right now
+    The chair is comfortable
+    The chair has been comfortable for too long
+    Get up — just for the duration of this bridge
+    Just walk to the kitchen, to the window, to the door
+    You don't have to leave the house
+    You just have to stop being one with the chair
+    The chair will still be there
+    [Final Chorus: full harmony stack, peaks]
+    Get up with me
+    I'm not asking you to lead
+    I'm asking you to walk beside
+    Get up with me
+    [Outro: vocal soft, kick fades]
+    Get up with me
+    walk beside
+    get up with me
+    the door is open
+  published: false
+  key_verse: Get up with me. / I’m not asking you to lead. / I’m asking you to walk beside.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick · warm si'
+  bpm: 108
+- number: 3
+  title: Anda Comigo
+  description: Pulse mid-album. Anda comigo — convite directo, ritmo de passada de quem caminha rápido sem correr.
+  lang: PT
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Pulse mid-album. Anda comigo — convite directo, ritmo de passada de quem caminha rápido sem correr..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, footstep texture, vocal entering on bar 2, kick f
+    [Verse 1]
+    Anda comigo
+    Saí de casa há quinze minutos
+    Estou na rua de baixo
+    A passada é rápida mas não é corrida
+    Anda comigo
+    Não tenho destino
+    Tenho rua, tenho passos
+    Tenho ar a entrar pelo peito
+    [Verse 2]
+    Não me importa para onde vamos
+    Importa-me que vamos juntas
+    Mesmo sem nos vermos
+    Mesmo sem nos falarmos
+    Tu na tua rua, eu na minha
+    Mas a passada é a mesma
+    A música é a mesma
+    E isso já é estarmos juntas
+
+    [Pre-Chorus]
+    Anda comigo
+    Não te peço explicação
+    Anda comigo
+    Não te peço companhia eterna
+    Apenas — esta hora
+    [Chorus]
+    Anda comigo
+    Não tenho mapa, tenho passada
+    Anda comigo
+    A rua é boa para nós duas
+    Não preciso da tua palavra
+    Preciso da tua presença
+    Anda comigo
+    E a manhã arruma-se à volta de nós
+    [Verse 3]
+    Quando voltarmos a casa
+    Vamos chegar diferentes
+    Não diferentes mulheres
+    A mesma mulher mais arejada
+    A passada arruma a cabeça
+    A passada arruma o peito
+    A passada faz o que terapias antigas
+    Demoraram anos a fazer
+    [Chorus]
+    Anda comigo
+    Não tenho mapa, tenho passada
+    Anda comigo
+    A rua é boa para nós duas
+
+    [Bridge: vocal opens, harmonies stack, kick keeps going, footsteps surge — opens, does not re
+    Há um quarteirão à tua espera
+    Um quarteirão pequeno, conhecido, gasto
+    Nem sequer precisa de ser bonito
+    Anda à volta dele uma vez, devagar
+    Não é exercício
+    É comemoração de teres pernas
+    E hoje as pernas estão a postos
+    E as pernas têm saudade
+    [Final Chorus: full harmony stack, sidechained pads peak]
+    Anda comigo
+    Não tenho mapa, tenho passada
+    Anda comigo
+
+    A rua é boa para nós duas
+    [Outro: vocal soft, kick fades, footsteps lingering]
+    Anda comigo
+    a rua é boa
+    anda comigo
+    a manhã arruma-se
+  published: false
+  key_verse: Anda comigo. / Não tenho mapa, tenho passada. / Anda comigo.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick (mimics w'
+  bpm: 108
+- number: 4
+  title: Dance Without Asking
+  description: PEAK pulse — dança sem perguntar. The body knows. Não precisa de licença, não precisa de motivo.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: PEAK pulse — dança sem perguntar. The body knows. Não precisa de licença, não precisa de motivo..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, hand-claps polyrhythmic, vocal entering on bar 2,
+    [Verse 1]
+    Dance without asking
+    The body knew before the music started
+    The hips were already moving slightly
+    Before the bar count began
+    Dance without asking
+
+    Permission is for performance
+    This is not performance
+    This is the body remembering itself
+    [Verse 2]
+    Nobody is watching
+    And nobody needs to be
+    The kitchen is the dance floor
+    The corridor is the dance floor
+    The bedroom mirror is the dance floor
+    The bathroom is the dance floor
+    Anywhere with two square metres
+    Is the dance floor
+    [Pre-Chorus]
+    Dance without asking
+    Nobody is the judge
+    Dance without asking
+    The body has its own grammar
+    And the grammar is fine
+    [Chorus]
+    Dance without asking
+    The body knew before the music started
+    Dance without asking
+    The hips are wiser than the head
+    The body knows the rhythm
+    The body has always known the rhythm
+    Dance without asking
+    And see what comes loose
+    [Verse 3]
+    Three minutes will change the chest
+    Three minutes will rearrange the day
+    The body will sweat just enough
+    To remember it has skin
+    The lungs will work harder for once
+    And the lungs are pleased about that
+    Dance without asking
+    And the body will thank you tonight
+    [Chorus: full harmony stack, sidechained pads peak]
+    Dance without asking
+    The body knew before the music started
+    Dance without asking
+    The hips are wiser than the head
+
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    Right now, where you are
+    Wherever you are, however you are
+    Move one part of the body for ten seconds
+    Hand, foot, hip, shoulder
+    You don't have to do it well
+    You don't have to do it pretty
+    You just have to do it
+    And the body will remember the rest
+    [Final Chorus: full harmony stack, peaks]
+    Dance without asking
+    The body knew before the music started
+    Dance without asking
+    The hips are wiser than the head
+    [Outro: vocal soft, kick fades]
+    Dance without asking
+    the body knew
+    dance without asking
+  published: false
+  key_verse: Dance without asking. / The body knew before the music started. / Dance without / asking.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick · warm si'
+  bpm: 108
+- number: 5
+  title: Suor Bom
+  description: PEAK 1 — anthem gospel. Suor bom. O suor que é prova de movimento, não de pânico.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering at bar 2 that never shouts, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering at bar 2 that never shouts. Theme: PEAK 1 — anthem gospel. Suor bom. O suor que é prova de movimento, não de pânico..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
+    [Verse 1]
+    Suor bom
+    A camisola colada à testa
+    A nuca quente
+    A respiração funda
+    Suor bom
+    O suor de ter caminhado
+    O suor de ter dançado
+    O suor de ter trabalhado o corpo
+    [Verse 2]
+    Há suor que é pânico
+    E há suor que é prova
+    O primeiro veio comigo durante anos
+    O segundo aprendi tarde
+    O suor bom é vitamina
+    O suor bom é purga
+    O suor bom é a confissão do corpo
+    De que esteve a viver
+    [Pre-Chorus]
+    Suor bom não é vergonha
+    Suor bom é assinatura
+    Suor bom é o nome
+    Que o corpo deixa no dia
+    [Chorus]
+    Suor bom
+    O suor que prova
+    Que estive a viver
+    Suor bom
+    A roupa molhada
+    A pele quente
+    O coração rápido
+    Tudo prova de existência
+    Suor bom
+    [Verse 3]
+    Anos a fugir do suor
+    Anos a desodorizar a vida
+    Hoje aceito o suor
+    Como aceito a chuva
+
+    Vem do corpo, vem do esforço
+    Vem do trabalho honesto da carne
+    Que carregou a vida pelas escadas
+    Que pôs a roupa a estender ao sol
+
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, dje
+    Suor bom
+    O suor que prova
+    Que estive a viver
+    Suor bom
+    A roupa molhada
+
+    [Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady — opens, does
+    (European Portuguese, Portugal accent:)
+    Suor é água que sai
+    Suor é água que entrou outro dia
+    Suor é circulação
+    Suor é confirmação
+    A pessoa que sua hoje
+    É a pessoa que se moveu hoje
+    E a pessoa que se moveu hoje
+    Vai dormir melhor esta noite
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
+    Suor bom
+    o suor que prova
+    suor bom
+    estive a viver
+    [Outro: vocal warm, choir fading, djembe lingers]
+    Suor bom
+    assinatura
+    suor bom
+    estive a viver
+  published: false
+  key_verse: Suor bom. / O suor que prova / que estive a viver.
+  suno_prompt: 'Style: contemporary gospel anthem · warm chest vocal entering at bar 2 that never shouts · wa'
+  bpm: 100
+- number: 6
+  title: Walk It Off
+  description: Pulse para caminhada. Walk it off — não negligência, mas reconhecimento de que a caminhada digere coisas que a cabeça não consegue.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Pulse para caminhada. Walk it off — não negligência, mas reconhecimento de que a caminhada digere coisas que a cabeça não consegue..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, footstep texture, vocal entering on bar 2, kick f
+    [Verse 1]
+    Walk it off
+    The phrase used to annoy me
+    It sounded like dismissal
+    Like nothing matters, like get over it
+    Now I understand it differently
+    Walk it off is digestion
+    Walk it off is metabolism
+    Walk it off is what the body does
+    [Verse 2]
+    The argument with my colleague
+    The terrible message at noon
+    The thing my mother said three days ago
+    That has been sitting in the chest
+    Walk it off
+    For thirty minutes
+    The body sorts what the head couldn't
+    The body files what the head left scattered
+    [Pre-Chorus]
+    Walk it off is not denial
+    Walk it off is dignity
+    Walk it off is the ancient remedy
+    That worked when nothing else did
+    [Chorus]
+    Walk it off
+    Not denial — digestion
+
+    Walk it off
+    The body sorts the day
+    The streets are the therapist
+    The pavement is the couch
+    Walk it off
+    And the chest is lighter at the corner
+    [Verse 3]
+    I walked off three things this week
+    A worry that had no answer
+    A grief that had no shape
+    A tiredness that had no name
+    None of them were solved
+    But all of them got smaller
+    Smaller doesn't mean gone
+    Smaller means manageable
+    [Chorus]
+    Walk it off
+    Not denial — digestion
+    Walk it off
+    The body sorts the day
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    You have something to walk off this week
+    You know what it is
+    You don't have to name it to walk it off
+    The body knows the name
+    And the body wants the walk
+    Twenty minutes, thirty
+    The streets are wiser than your group chat
+    The streets digest in silence
+    [Final Chorus: full harmony stack, sidechained pads peak]
+    Walk it off
+    Not denial — digestion
+    Walk it off
+    The body sorts the day
+    [Outro: vocal soft, kick fades]
+    Walk it off
+    the body sorts
+    walk it off
+    the chest is lighter
+  published: false
+  key_verse: Walk it off. / Not denial — / digestion.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick (walking'
+  bpm: 108
+- number: 7
+  title: Levanta-te Devagar
+  description: Raw — única “respiração” do EP. Levanta-te devagar. Não corrida, não pressão. Apenas levanta.
+  lang: PT
+  energy: raw
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Stripped-back emotional. Raw female vocals, close-mic, imperfect beauty. Minimal production — solo piano or guitar, breath sounds, silence as instrument. Vulnerable, unpolished, real. No autotune. Clean vocal production. 76 BPM, signature element: raw close-mic vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. raw, exposed, honest. raw close-mic vocal entering at bar 2. Theme: Raw — única “respiração” do EP. Levanta-te devagar. Não corrida, não pressão. Apenas levanta..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
+    [Verse 1]
+    Levanta-te devagar
+    Não como quem foge
+    Como quem aceita o convite
+    Sem se esforçar para parecer entusiasmado
+    Levanta-te devagar
+    A coluna agradece o devagar
+    Os joelhos agradecem o devagar
+    A cabeça agradece o devagar
+    [Verse 2]
+    Não tens de superar nada
+    Não tens de provar a ninguém
+    Tens de te encontrar de pé
+    Naquela posição familiar e antiga
+    Vertical, com os pés no chão
+    Como há milhões de antepassados
+    Antes de te terem dito
+
+    Que tinhas de fazer mais
+    [Pre-Chorus]
+    Levanta-te devagar
+    A vida não é pressa
+    Levanta-te devagar
+    O dia tem horas suficientes
+    [Chorus]
+    Levanta-te devagar
+    Não tens de te superar
+    Tens de te encontrar de pé
+    Levanta-te devagar
+    A passada vem depois
+    A passada espera por ti
+    Levanta-te devagar
+    E o dia vai começando a teu ritmo
+    [Verse 3]
+    Vou levantar-me hoje sete vezes
+    Da cama, da cadeira, do sofá
+    Cada vez vou ser devagar
+    Cada vez vou agradecer aos joelhos
+    Cada vez vou notar o privilégio
+    Da pessoa que ainda se levanta
+    Sem ajuda, com tempo, com música
+    Levantar-se devagar é privilégio agradecido
+    [Chorus: small female choir enters, hand-claps soft]
+    Levanta-te devagar
+    Não tens de te superar
+    Tens de te encontrar de pé
+    Levanta-te devagar
+    [Bridge: vocal close, choir hums underneath, only piano — opens, does not resolve]
+    (European Portuguese, Portugal accent:)
+    Se estás na cama agora
+    Não te peço para saltares
+    Peço-te três centímetros
+    Os primeiros três centímetros
+    Que separam estar deitada de estar sentada
+    A cama não te vai engolir nesses três
+    A cama não vai contar-se de ti
+    Os três centímetros são teus
+    [Outro: vocal soft, piano fading, choir lingers]
+    Levanta-te devagar
+
+    encontra-te de pé
+    levanta-te devagar
+    não há pressa
+  published: false
+  key_verse: Levanta-te devagar. / Não tens de te superar. / Tens de te encontrar de pé.
+  suno_prompt: 'Style: gospel intimate · raw close-mic vocal entering at bar 2 · gospel piano + soft hand-cla'
+  bpm: 76
+- number: 8
+  title: Move and the Mood Follows
+  description: Pulse penúltimo. Verdade fisiológica direta. Move first, mood second. The order matters.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Pulse penúltimo. Verdade fisiológica direta. Move first, mood second. The order matters..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
+    [Verse 1]
+    Move and the mood follows
+    This is the order of operations
+    That nobody told me when I was young
+    I waited for the mood to come first
+    And it did not come, not for years
+    Then I started moving anyway
+    And the mood — eventually — followed
+    Like a slow dog catching up
+    [Verse 2]
+    Walk first, want later
+
+    Stand first, decide later
+    Step first, feel later
+    The body has the gift of motion
+    The mood has the gift of arrival
+    And the mood arrives by walking
+    Not by sitting and considering
+    Whether to walk
+    [Pre-Chorus]
+    The mood is not the boss
+    The mood is the passenger
+    Move and the mood follows
+    Move and the mood arrives
+    [Chorus]
+    Move and the mood follows
+    The mood doesn't lead
+    The body leads
+    Move and the mood follows
+    The order is body first
+    The mood catches up later
+    And the mood will catch up
+    The mood always catches up
+    [Verse 3]
+    This is the secret nobody printed
+    On the front of the magazine
+    This is the secret the elderly women know
+    Who get up at six and walk to the bakery
+    This is the secret the mothers know
+    Who clean the kitchen before they cry
+    This is the secret the body always knew
+    And waited for the mind to figure out
+    [Chorus: full harmony stack, sidechained pads peak]
+    Move and the mood follows
+    The mood doesn't lead
+    The body leads
+    Move and the mood follows
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    If the mood is not here this morning
+    Don't wait for it
+    Move first
+    Walk to the kettle, walk to the door
+    Walk to the corner, walk back
+    By the time you sit down again
+
+    The mood will be slightly different
+    And slightly different is everything
+    [Final Chorus: full harmony stack, peaks]
+    Move and the mood follows
+    The mood doesn't lead
+    The body leads
+    Move and the mood follows
+    [Outro: vocal soft, kick fades]
+    Move and the mood follows
+    the body leads
+    move and the mood follows
+    the order matters
+  published: false
+  key_verse: Move and the mood follows. / The mood doesn’t lead. / The body leads.
+  suno_prompt: 'Style: gospel house · warm vocal entering at bar 2 · driving four-on-the-floor kick · warm si'
+  bpm: 108
+- number: 9
+  title: A Ginga
+  description: PEAK FINAL — anthem gospel com ginga. Hino do andar bonito, da forma como o corpo sabe ser ele mesmo. Identidade africana presente.
+  lang: PT
+  energy: anthem
+  flavor: gospel
+  vocal_mode: solo
+  duration_seconds: 280
+  prompt: |-
+    Contemporary empowerment anthem. Powerful female vocals, declarative, full-chested. Big chorus, layered vocals, driving drums, rising strings, synth stabs. Bold, celebratory, unstoppable. Stadium energy meets intimacy. No autotune. Clean vocal production. 100 BPM, signature element: warm chest vocal entering, no afrobeats no afropop no amapiano no tropical. Lyrics in Portuguese. Sacred but not religious, body-centred, breath as prayer. triumphant, declarative, never shouted. warm chest vocal entering. Theme: PEAK FINAL — anthem gospel com ginga. Hino do andar bonito, da forma como o corpo sabe ser ele mesmo. Identidade africana presente..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
+    [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: gospel piano with rich chords, Hammond organ swell, djembe, timbila, vocal entering o
+    [Verse 1]
+
+    A ginga voltou
+    Não a aprendi em aulas
+    Não veio de um curso
+    Não veio de um espelho
+    A ginga voltou no quadril
+    Quando a música bateu na rua
+    A ginga é mais antiga que a minha mãe
+    A ginga é mais antiga que a avó da avó
+    [Verse 2]
+    Foi tirada à força um tempo
+    Por escolas que ensinavam o andar reto
+    Por chefes que ensinavam o sentar formal
+    Por séculos que ensinavam vergonha do corpo
+    Mas a ginga é água
+    A água lembra o caminho
+    E hoje, hoje voltou ao quadril
+    Sem me ter pedido autorização
+    [Pre-Chorus]
+    A ginga é herança
+    Não é frivolidade
+    A ginga é a forma do corpo africano
+    A ler o ritmo do mundo
+    [Chorus]
+    A ginga voltou
+    Não a aprendi nas aulas
+    Aprendi-a no sangue
+    A ginga voltou
+    A passada bonita, o quadril vivo
+    O ombro a contar a sua versão da canção
+    A ginga voltou
+    E a rua reconheceu-me
+    [Verse 3]
+    Levam séculos a tirar a ginga
+    A ginga volta numa terça
+    Levam séculos a ensinar o reto
+    A ginga volta numa quarta
+    A ginga é forma de resistência
+    A ginga é forma de memória
+    A ginga é forma de eu dizer ao mundo
+    Que ainda não me converteram inteira
+
+    [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, dje
+    A ginga voltou
+
+    Não a aprendi nas aulas
+    Aprendi-a no sangue
+    A ginga voltou
+
+    [Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady — opens, does
+    (European Portuguese, Portugal accent:)
+    Se há ginga na tua família
+    Sabes do que estou a falar
+    Se foi tirada da tua família
+    Também sabes — pelo lado da ausência
+    A ginga reaprende-se
+    Não com técnica, com permissão
+    Põe a música e deixa o corpo
+    Lembrar-se daquilo que ele sempre soube
+
+    [Final Chorus: 6-voice chorus layered, peak warmth, never shouted, djembe + timbila + Hammond
+    A ginga voltou
+    A ginga voltou
+    A passada bonita
+    A rua reconheceu-me
+    [Outro: vocal warm, choir fading, djembe and timbila lingering]
+    A ginga voltou
+    no sangue
+    a ginga voltou
+    e ficou
+  published: false
+  key_verse: A ginga voltou. / Não a aprendi nas aulas. / Aprendi-a no sangue.
+  suno_prompt: 'Style: contemporary gospel anthem with strong West African colour · warm chest vocal entering'
+  bpm: 100
+- number: 10
+  title: After the Walk
+  description: Outro pulse — fechar com energia ainda viva. After the walk. The endorphins, the lighter chest, the small smile.
+  lang: EN
+  energy: pulse
+  flavor: house
+  vocal_mode: solo
+  duration_seconds: 240
+  prompt: |-
+    Contemporary pop-electronic, empowering. Strong female vocals with conviction. Driving beat, rhythmic synths, bass-forward, claps, energy builds. Upbeat, momentum, forward motion. No autotune. Clean vocal production. 108 BPM, signature element: warm vocal entering at bar 2, no afrobeats no afropop no amapiano no tropical. Lyrics in English. Sacred but not religious, body-centred, breath as prayer. driving, momentum, alive. warm vocal entering at bar 2. Theme: Outro pulse — fechar com energia ainda viva. After the walk. The endorphins, the lighter chest, the small smile..
+  lyrics: |-
+    [Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+    [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+    [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+    [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
+    [Verse 1]
+    After the walk
+    The day is a different day
+    The chest is lighter, the head is quieter
+    The thing I was carrying is smaller now
+    After the walk
+    I am at the kitchen window
+    With water, with patience
+    With the small smile of a woman who moved
+    [Verse 2]
+    I didn't fix anything
+    The job is still the job
+    The grief is still the grief
+    The body in the mirror is still the same body
+    But after the walk
+    The relationship I have with all those things
+    Has shifted by exactly five degrees
+    And five degrees is enough
+    [Pre-Chorus]
+    After the walk
+    The mood arrived, finally
+    After the walk
+    The mood was waiting at the corner
+    With my name on a piece of paper
+    [Chorus]
+    After the walk
+    The day is a different day
+    After the walk
+    I didn't fix anything — I just moved
+    The body is the medicine
+    The streets are the dosage
+    After the walk
+
+    The afternoon has shape again
+    [Verse 3]
+    Tomorrow I will walk again
+    Maybe shorter, maybe longer
+    The walk does not need consistency
+    The walk needs repetition
+    And repetition does not mean perfection
+    Repetition means showing up
+    Showing up at the door with the shoes on
+    That is the whole work, that is the whole work
+    [Chorus: full harmony stack, sidechained pads peak]
+    After the walk
+    The day is a different day
+    After the walk
+    I didn't fix anything — I just moved
+    [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
+    You don't have to walk for an hour
+    You don't have to walk fast
+    You have to walk
+    Some days for ten minutes
+    Some days for thirty
+    Some days you walk to the corner and back
+    And that counts, and that counts
+    That counts as the work being done
+    [Final Chorus: full harmony stack, peaks]
+    After the walk
+    The day is a different day
+    After the walk
+    I didn't fix anything — I just moved
+    [Outro: vocal soft, kick fades]
+    After the walk
+    the day is different
+    after the walk
+    the body is the medicine
+
+    Notas para o canal YouTube
+    Posicionamento da playlist: EP4 entra como o ponto de maior energia da playlist
+    Elevar. Funciona melhor à hora de maior queda — meio da tarde, quando o corpo está
+
+    parado no escritório, ou ao fim da tarde quando a pessoa precisa de tirar o peso do dia.
+    Diferente dos outros EPs, este é para mover o corpo.
+    Tracks-âncora deste EP: T1 Mexe, T5 Suor Bom, T9 A Ginga (anthems PT — muito
+    cantáveis e com identidade africana clara); T2 Get Up With Me, T4 Dance Without
+    Asking (pulse EN — para playlists internacionais de movimento/exercício).
+    Capa sugerida: silhueta feminina de costas, em movimento, contornos suaves a soltar
+    suor (não graphic, contemplativo). Cor #D67A55 na tipografia. Sem rosto, mantém
+    estética Loranne.
+    Cross-listing: as tracks deste EP funcionam excelentes em playlists secundárias de
+    “Movimento Suave” ou “Caminhada Matinal” no YouTube — alcance além da playlist
+    Elevar principal.
+  published: false
+  key_verse: After the walk, / the day is a different day. / I didn’t fix anything. / I just moved.
+  suno_prompt: 'Style: gospel house closing · warm vocal entering at bar 2 · driving four-on-the-floor kick ('
+  bpm: 108

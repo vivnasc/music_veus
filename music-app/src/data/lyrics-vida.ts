@@ -3243,7 +3243,11 @@ Mas o dia não se nega
 Amanheceu
 Apesar de tudo amanheceu`,
 
-  "incenso-rescaldo/2": `[Verse 1]
+  "incenso-rescaldo/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 My fingers sift through what is left
 The outlines hold though substance burned
 In devastation, strangely deft
@@ -3280,7 +3284,11 @@ Between the false and the breakthrough
 In the ash
 I found what's real`,
 
-  "incenso-rescaldo/3": `[Verse 1]
+  "incenso-rescaldo/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 A chávena de café na mesa sem palavra
 A mão que encontra a outra mão na cama
 O cobertor puxado sobre quem descansa
@@ -3317,7 +3325,11 @@ Que as bocas quebraram
 Um café na mesa
 E tudo o que precisas de dizer`,
 
-  "incenso-rescaldo/4": `[Verse 1]
+  "incenso-rescaldo/4": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 One hand drum first, then bass arrives
 Then guitar finds a careful chord
 Two people building what survives
@@ -3354,7 +3366,11 @@ When both of us lay floors
 We're building
 We're building something new`,
 
-  "incenso-rescaldo/5": `[Verse 1]
+  "incenso-rescaldo/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O dedo passa pela cicatriz
 A pele levantada como um mapa
 O corpo guarda o que a mente diz
@@ -3391,7 +3407,11 @@ Do livro que a vida me contou
 Está cicatriz
 E minha e eu fico com ela`,
 
-  "incenso-rescaldo/6": `[Verse 1]
+  "incenso-rescaldo/6": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 We walk across the wood still pale
 The railing smooth beneath our hands
 Below the water tells its tale
