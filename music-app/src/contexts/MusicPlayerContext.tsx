@@ -6,6 +6,7 @@ import { getCachedAudioUrl } from "@/hooks/useDownloads";
 import { getAlbumCover } from "@/lib/album-covers";
 import { supabase } from "@/lib/supabase";
 import { buildTasteProfile, generateContinuation } from "@/lib/taste-engine";
+import { getLangFilter, matchesLangFilter } from "@/lib/lang-filter";
 
 export function formatTime(s: number): string {
   if (!isFinite(s) || s < 0) return "0:00";
@@ -344,15 +345,17 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
         return true;
       });
       let nextIdx: number;
+      const langFilter = getLangFilter();
+      const matchesFilter = (i: number) => matchesLangFilter(prev.queue[i]?.lang, langFilter);
 
       let shuffleHistoryUpdate: number[] | undefined;
       if (prev.shuffle) {
         const history = new Set(prev.shuffleHistory || []);
         history.add(currentIdx);
-        let availableIndices = prev.queue.map((_, i) => i).filter(i => !history.has(i));
+        let availableIndices = prev.queue.map((_, i) => i).filter(i => !history.has(i) && matchesFilter(i));
         if (availableIndices.length === 0) {
           // All played, reset
-          availableIndices = prev.queue.map((_, i) => i).filter(i => i !== currentIdx);
+          availableIndices = prev.queue.map((_, i) => i).filter(i => i !== currentIdx && matchesFilter(i));
           history.clear();
         }
         if (availableIndices.length === 0) return { ...prev, isPlaying: false };
@@ -364,6 +367,10 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
         shuffleHistoryUpdate = [...Array.from(history), nextIdx];
       } else {
         nextIdx = currentIdx + 1;
+        // Skip ahead while the track at nextIdx doesn't match the language filter.
+        while (nextIdx < prev.queue.length && !matchesFilter(nextIdx)) {
+          nextIdx++;
+        }
       }
 
       if (nextIdx >= prev.queue.length) {
@@ -387,10 +394,12 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
 
           if (profile && profile.totalPlays >= 3) {
             const continuation = generateContinuation(
-              profile, prev.currentTrack, prev.currentAlbum, prev.queue, 5
+              profile, prev.currentTrack, prev.currentAlbum, prev.queue, 8
             );
-            if (continuation.length > 0) {
-              const best = continuation[0];
+            const filtered = continuation.filter(c => matchesLangFilter(c.track.lang, langFilter));
+            const list = filtered.length > 0 ? filtered : continuation;
+            if (list.length > 0) {
+              const best = list[0];
               pick = { ...best.track, albumSlug: best.album.slug } as QueueTrack;
               pickAlbum = best.album;
             }
@@ -403,7 +412,9 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
               a.tracks.filter(t => t.audioUrl).map(t => ({ ...t, albumSlug: a.slug } as QueueTrack))
             );
             const sameEnergy = allTracks.filter(
-              t => t.energy === currentEnergy && !(t.number === prev.currentTrack!.number && t.albumSlug === prev.currentAlbum?.slug)
+              t => t.energy === currentEnergy
+                && !(t.number === prev.currentTrack!.number && t.albumSlug === prev.currentAlbum?.slug)
+                && matchesLangFilter(t.lang, langFilter)
             );
             if (sameEnergy.length > 0) {
               pick = sameEnergy[Math.floor(Math.random() * sameEnergy.length)];

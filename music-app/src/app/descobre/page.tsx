@@ -10,6 +10,7 @@ import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
 import { LORANNE_MOODS, MOOD_META, moodCoverUrl, type LoranneMood, type CompactMoodsData } from "@/data/loranne-moods";
 import LORANNE_MOODS_DATA from "@/data/loranne-moods-data.json";
 import { getTrackCoverUrl } from "@/lib/album-covers";
+import { LangFilterToggle } from "@/components/music/LangFilterToggle";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
 import OutrosMundosSection from "@/components/music/OutrosMundosSection";
 import { useDbAlbums } from "@/hooks/useDbAlbums";
@@ -242,6 +243,9 @@ export default function DescobrePage() {
             </svg>
           </Link>
           <h1 className="text-lg font-semibold">Descobre</h1>
+          <div className="ml-auto">
+            <LangFilterToggle compact />
+          </div>
         </div>
       </div>
 
