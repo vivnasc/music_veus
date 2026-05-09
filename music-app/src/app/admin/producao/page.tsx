@@ -2678,6 +2678,13 @@ export default function AlbumProductionPage() {
             </Link>
 
             <Link
+              href="/admin/moods"
+              className="shrink-0 whitespace-nowrap rounded-lg bg-amber-900/30 px-4 py-2.5 text-xs text-amber-400 hover:bg-amber-900/50 transition flex items-center min-h-[44px]"
+            >
+              Capas dos Moods
+            </Link>
+
+            <Link
               href="/admin/fotos"
               className="shrink-0 whitespace-nowrap rounded-lg bg-pink-900/30 px-4 py-2.5 text-xs min-h-[44px] text-pink-400 hover:bg-pink-900/50 transition flex items-center"
             >

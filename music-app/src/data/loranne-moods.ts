@@ -147,6 +147,18 @@ export function moodPlaylistUrl(mood: LoranneMood): string {
   return `https://music.seteveus.space/${MOOD_META[mood].playlistSlug}`;
 }
 
+/**
+ * URL pública da capa do mood (Midjourney import).
+ * Storage: audios/mood-covers/{slug}.jpg (Supabase public bucket).
+ * Componentes que renderizam moods devem fazer fallback ao gradient
+ * caso a imagem falhe a carregar.
+ */
+export function moodCoverUrl(mood: LoranneMood, version?: number): string {
+  const base = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
+  const v = version ?? 1;
+  return `${base}/storage/v1/object/public/audios/mood-covers/${mood}.jpg?v=${v}`;
+}
+
 /** Track key canónica. */
 export function trackKey(albumSlug: string, trackNumber: number): string {
   return `${albumSlug}/${trackNumber}`;
