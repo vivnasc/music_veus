@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { NextRequest } from "next/server";
-import { ALL_ALBUMS } from "@/data/albums";
+import { ALL_ALBUMS_WITH_LYRICS as ALL_ALBUMS } from "@/data/albums-with-lyrics";
 
 export const runtime = "nodejs";
 

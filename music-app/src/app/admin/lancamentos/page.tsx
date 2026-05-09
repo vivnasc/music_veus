@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect, useCallback, type MouseEvent, type ChangeEvent } from "react";
 import Link from "next/link";
-import { ALL_ALBUMS, type Album } from "@/data/albums";
+import { type Album } from "@/data/albums";
+import { ALL_ALBUMS_WITH_LYRICS as ALL_ALBUMS } from "@/data/albums-with-lyrics";
 import {
   PRODUCTION_CALENDAR,
   LORANNE_RELEASES,

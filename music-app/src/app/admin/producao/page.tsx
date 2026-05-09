@@ -4,7 +4,6 @@ import { useState, useRef, useCallback, useEffect } from "react";
 import Link from "next/link";
 import { parseBlob } from "music-metadata-browser";
 import {
-  ALL_ALBUMS,
   getAlbumsByProduct,
   ENERGY_LABELS,
   FLAVOR_LABELS,
@@ -13,6 +12,7 @@ import {
   type TrackEnergy,
   type TrackFlavor,
 } from "@/data/albums";
+import { ALL_ALBUMS_WITH_LYRICS as ALL_ALBUMS } from "@/data/albums-with-lyrics";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
 import { adminFetch } from "@/lib/admin-fetch";
 import { saveLyrics, downloadBackup, flushPending } from "@/lib/lyrics-store";

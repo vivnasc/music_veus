@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, type ChangeEvent } from "react";
 import Link from "next/link";
-import { ALL_ALBUMS } from "@/data/albums";
+import { ALL_ALBUMS_WITH_LYRICS as ALL_ALBUMS } from "@/data/albums-with-lyrics";
 import { LORANNE_RELEASE_THEMES } from "@/data/production-calendar";
 import { ANCIENT_GROUND_SINGLES } from "@/data/ancient-ground-singles";
 import {
