@@ -113,6 +113,30 @@ export type LoranneMoodsData = {
   lastAutoTagAt?: string;
 };
 
+/**
+ * Formato compacto persistido em loranne-moods-data.json — para reduzir o
+ * bundle do cliente. value = [moodsCsvString, confidence].
+ * Ex: ["elevar,respirar", 0.95]
+ */
+export type CompactMoodsData = {
+  version: number;
+  lastAutoTagAt?: string;
+  tracks: Record<string, [string, number]>;
+};
+
+/** Helper: converte uma entrada compacta para TrackMoodAssignment. */
+export function expandCompactTag(compact: [string, number] | undefined): TrackMoodAssignment | null {
+  if (!compact) return null;
+  const [moodsStr, confidence] = compact;
+  return {
+    moods: moodsStr.split(",").filter(Boolean) as LoranneMood[],
+    confidence,
+    reason: "",
+    updatedAt: "",
+    source: "auto",
+  };
+}
+
 export const EMPTY_MOODS_DATA: LoranneMoodsData = {
   version: 1,
   tracks: {},

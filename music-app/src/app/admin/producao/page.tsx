@@ -19,7 +19,7 @@ import { saveLyrics, downloadBackup, flushPending } from "@/lib/lyrics-store";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
 import { pickLorannImages } from "@/lib/loranne-images";
 import { LORANNE_VOICE_ID, LORANNE_PERSONA_SEED } from "@/data/loranne-persona";
-import { MOOD_META, type LoranneMood, type LoranneMoodsData } from "@/data/loranne-moods";
+import { MOOD_META, type LoranneMood, type CompactMoodsData } from "@/data/loranne-moods";
 import LORANNE_MOODS_DATA from "@/data/loranne-moods-data.json";
 import CalendarView from "./CalendarView";
 
@@ -729,16 +729,17 @@ function ClipApprovalRow({
 }
 
 
-// Mood lookup — uses the auto-tagged loranne-moods-data.json
-const MOODS_DATA = LORANNE_MOODS_DATA as LoranneMoodsData;
-function getTrackMoods(albumSlug: string, trackNumber: number) {
-  const key = `${albumSlug}/${trackNumber}`;
-  return MOODS_DATA.tracks[key] || null;
+// Mood lookup — uses the auto-tagged loranne-moods-data.json (compact format)
+const MOODS_DATA = LORANNE_MOODS_DATA as unknown as CompactMoodsData;
+function getTrackMoods(albumSlug: string, trackNumber: number): { moods: string[]; confidence: number } | null {
+  const compact = MOODS_DATA.tracks[`${albumSlug}/${trackNumber}`];
+  if (!compact) return null;
+  return { moods: compact[0].split(","), confidence: compact[1] };
 }
 
 function MoodBadges({ albumSlug, trackNumber }: { albumSlug: string; trackNumber: number }) {
   const tag = getTrackMoods(albumSlug, trackNumber);
-  if (!tag || !tag.moods || tag.moods.length === 0) return null;
+  if (!tag || tag.moods.length === 0) return null;
   return (
     <span className="inline-flex items-center gap-1">
       {tag.moods.map((m, i) => {
@@ -747,7 +748,7 @@ function MoodBadges({ albumSlug, trackNumber }: { albumSlug: string; trackNumber
         return (
           <span
             key={m}
-            title={`${meta.paraQuem} (confiança: ${tag.confidence}, ${tag.source})`}
+            title={`${meta.paraQuem} (confiança: ${tag.confidence})`}
             className="text-[10px] px-1.5 py-0.5 rounded-full font-medium"
             style={{
               backgroundColor: `${meta.color}33`,

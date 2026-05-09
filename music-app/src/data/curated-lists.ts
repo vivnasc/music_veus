@@ -9,7 +9,7 @@
  */
 
 import { ALL_ALBUMS, type AlbumTrack } from "./albums";
-import { LORANNE_MOODS, MOOD_META, type LoranneMood, type LoranneMoodsData } from "./loranne-moods";
+import { LORANNE_MOODS, MOOD_META, type LoranneMood, type CompactMoodsData } from "./loranne-moods";
 import LORANNE_MOODS_DATA from "./loranne-moods-data.json";
 
 // ─────────────────────────────────────────────
@@ -60,11 +60,12 @@ function byEnergy(energy: string): TrackRef[] {
 }
 
 // Filter tracks by Loranne mood (primary or secondary) using auto-tagged data.
-const MOODS_DATA = LORANNE_MOODS_DATA as LoranneMoodsData;
+// Uses compact format: tracks[key] = [moodsCsv, confidence]
+const MOODS_DATA = LORANNE_MOODS_DATA as unknown as CompactMoodsData;
 function byLoranneMood(mood: LoranneMood, primaryOnly = false): TrackRef[] {
   const refs: TrackRef[] = [];
-  for (const [key, tag] of Object.entries(MOODS_DATA.tracks)) {
-    const moods = tag.moods || [];
+  for (const [key, compact] of Object.entries(MOODS_DATA.tracks)) {
+    const moods = compact[0].split(",");
     if (primaryOnly ? moods[0] === mood : moods.includes(mood)) {
       const m = key.match(/^(.+)\/(\d+)$/);
       if (m) refs.push({ albumSlug: m[1], trackNumber: parseInt(m[2], 10) });

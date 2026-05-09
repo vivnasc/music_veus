@@ -900,13 +900,28 @@ function vidaAlbum(
   subtitle: string,
   color: string,
   tracks: Omit<TrackDef, "audioUrl" | "lyrics">[],
-  product: Album["product"] = "grao"
+  product?: Album["product"]
 ): AlbumDef {
+  // Auto-detect product from slug prefix when not explicitly passed.
+  // Fixes a bug where vidaAlbum("incenso-...") fell back to "grao".
+  let resolvedProduct: Album["product"] = product ?? "grao";
+  if (!product) {
+    const knownPrefixes: Album["product"][] = [
+      "incenso", "fibra", "mare", "grao", "nua", "sangue", "espelho",
+      "no", "eter", "livro", "curso",
+    ];
+    for (const p of knownPrefixes) {
+      if (slug.startsWith(`${p}-`) || slug === p) {
+        resolvedProduct = p;
+        break;
+      }
+    }
+  }
   return {
     slug,
     title,
     subtitle,
-    product,
+    product: resolvedProduct,
     color,
     tracks: tracks.map((t) => ({ ...t, audioUrl: null })),
   };
