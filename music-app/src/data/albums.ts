@@ -1146,12 +1146,25 @@ const DISTROKID_UPLOAD_DATES: Record<string, string> = (() => {
 const PRODUCED_SLUGS = new Set([
   "sangue-raiz", "nua-inteira", "nua-por-dentro",
   "nua-boa", "nua-pele", "nua-duas-vozes", "sangue-mae",
-  "grao-o-tear", "incenso-salto-bonito",
+  "grao-o-tear",
   // Loranne formato VENNA (priority batch)
   "fibra-corpo-aberto",
   "espelho-culpa",
-  "incenso-folego",
-  "incenso-oferenda",
+  // Toda a colecção incenso (41 álbuns — incenso-frequencia já em PUBLISHED)
+  "incenso-travessia", "incenso-humus", "incenso-folego",
+  "incenso-demora", "incenso-corpo-celeste", "incenso-correnteza",
+  "incenso-o-que-resta", "incenso-limiar", "incenso-o-circulo",
+  "incenso-o-gesto", "incenso-silencio-fertil", "incenso-diluvio-manso",
+  "incenso-ancora", "incenso-rescaldo", "incenso-oferenda",
+  "incenso-raiz-muda", "incenso-ressonancia", "incenso-luto",
+  "incenso-espelho-partido", "incenso-nevoeiro", "incenso-pes-descalcos",
+  "incenso-maos-juntas", "incenso-acende", "incenso-coro",
+  "incenso-milagre", "incenso-amen", "incenso-aleluia",
+  "incenso-de-pe", "incenso-hoje-nao", "incenso-ar",
+  "incenso-mexe", "incenso-volta-a-mim", "incenso-espelho-verde",
+  "incenso-pele-exposta", "incenso-teimosa", "incenso-fogo-engolido",
+  "incenso-salto-bonito", "incenso-maos-abertas", "incenso-norte-interno",
+  "incenso-cinzento",
 ]);
 
 // Exactamente os 39 álbuns que vão para Spotify via DistroKid
