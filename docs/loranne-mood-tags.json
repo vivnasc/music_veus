@@ -1,190 +1,3233 @@
 {
   "espelho-ilusao": {
-    "1": { "mood": ["acordar"], "rationale": "Corpo no automático; algo treme cá dentro a pedir nascer." },
-    "2": { "mood": ["acordar", "reunir-se"], "rationale": "Casaco herdado a soltar-se; descobre que sempre esteve ali." },
-    "3": { "mood": ["acordar"], "rationale": "Roda sem sentir; pergunta quem vive no seu lugar." },
-    "4": { "mood": ["acordar"], "rationale": "Quando deixei de escolher; rotina apaga o desejo." },
-    "5": { "mood": ["aterrar", "acordar"], "rationale": "Corpo guarda a história que a mente esqueceu." },
-    "6": { "mood": ["respirar"], "rationale": "Sentar quieta como o fundo do mar; rendição calma." },
-    "7": { "mood": ["elevar"], "rationale": "Véu cai; danço na luz, sempre fui eu." }
+    "1": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Corpo no automático; algo treme cá dentro a pedir nascer."
+    },
+    "2": {
+      "mood": [
+        "acordar",
+        "reunir-se"
+      ],
+      "rationale": "Casaco herdado a soltar-se; descobre que sempre esteve ali."
+    },
+    "3": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Roda sem sentir; pergunta quem vive no seu lugar."
+    },
+    "4": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Quando deixei de escolher; rotina apaga o desejo."
+    },
+    "5": {
+      "mood": [
+        "aterrar",
+        "acordar"
+      ],
+      "rationale": "Corpo guarda a história que a mente esqueceu."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Sentar quieta como o fundo do mar; rendição calma."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Véu cai; danço na luz, sempre fui eu."
+    }
   },
   "espelho-culpa": {
-    "1": { "mood": ["acordar", "reunir-se"], "rationale": "Voz interior da culpa não é minha; recupera a outra." },
-    "2": { "mood": ["acordar", "reunir-se"], "rationale": "Mártir doce esvaziada; jarro vazio aprende a beber." },
-    "3": { "mood": ["acordar"], "rationale": "Confundi descanso com felicidade; alegria vem da barriga." },
-    "4": { "mood": ["atravessar", "lembrar"], "rationale": "Pedra de avó e mãe; pousa sem trair sangue." },
-    "5": { "mood": ["elevar"], "rationale": "Pássaros não merecem manhã; libertação do mereço pago." },
-    "6": { "mood": ["respirar"], "rationale": "Abrir mãos devagar; chão recebe o que largo." },
-    "7": { "mood": ["reunir-se"], "rationale": "Mão no peito; força que ninguém me ensinou." }
+    "1": {
+      "mood": [
+        "acordar",
+        "reunir-se"
+      ],
+      "rationale": "Voz interior da culpa não é minha; recupera a outra."
+    },
+    "2": {
+      "mood": [
+        "acordar",
+        "reunir-se"
+      ],
+      "rationale": "Mártir doce esvaziada; jarro vazio aprende a beber."
+    },
+    "3": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Confundi descanso com felicidade; alegria vem da barriga."
+    },
+    "4": {
+      "mood": [
+        "atravessar",
+        "lembrar"
+      ],
+      "rationale": "Pedra de avó e mãe; pousa sem trair sangue."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Pássaros não merecem manhã; libertação do mereço pago."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Abrir mãos devagar; chão recebe o que largo."
+    },
+    "7": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Mão no peito; força que ninguém me ensinou."
+    }
   },
   "livro-filosofico": {
-    "1": { "mood": ["acordar"], "rationale": "Porta no peito; descobres que és tu a vela." },
-    "2": { "mood": ["respirar"], "rationale": "Nada fica; deixa permanência dissolver-se na manhã." },
-    "3": { "mood": ["respirar", "acordar"], "rationale": "Largar a cadeira do passado; presente espera quieto." },
-    "4": { "mood": ["respirar"], "rationale": "Pensamentos como pássaros famintos; silêncio sob a tempestade." },
-    "5": { "mood": ["respirar"], "rationale": "Para — não há nada a conquistar; chegada é aqui." },
-    "6": { "mood": ["atravessar"], "rationale": "Vazio é útero fértil; escuro antes da catedral." },
-    "7": { "mood": ["acordar", "respirar"], "rationale": "Não há destino; és oceano, não costa." },
-    "8": { "mood": ["reunir-se"], "rationale": "Luz e escuro são uma; abraça a sombra." },
-    "9": { "mood": ["reunir-se"], "rationale": "Sempre foste tu; só precisavas de parar de fugir." }
+    "1": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Porta no peito; descobres que és tu a vela."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Nada fica; deixa permanência dissolver-se na manhã."
+    },
+    "3": {
+      "mood": [
+        "respirar",
+        "acordar"
+      ],
+      "rationale": "Largar a cadeira do passado; presente espera quieto."
+    },
+    "4": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pensamentos como pássaros famintos; silêncio sob a tempestade."
+    },
+    "5": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Para — não há nada a conquistar; chegada é aqui."
+    },
+    "6": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Vazio é útero fértil; escuro antes da catedral."
+    },
+    "7": {
+      "mood": [
+        "acordar",
+        "respirar"
+      ],
+      "rationale": "Não há destino; és oceano, não costa."
+    },
+    "8": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Luz e escuro são uma; abraça a sombra."
+    },
+    "9": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Sempre foste tu; só precisavas de parar de fugir."
+    }
+  },
+  "incenso-travessia": {
+    "1": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Manhã apenas tua antes do mundo entrar."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pausa entre inspirações como catedral interna."
+    },
+    "3": {
+      "mood": [
+        "aterrar",
+        "lembrar"
+      ],
+      "rationale": "Pés no barro reconhecem a terra ancestral."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Raiva sagrada como passagem para o NÃO próprio."
+    },
+    "5": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Mergulho ao fundo do que sempre se contornou."
+    },
+    "6": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Ancestrais femininas vivem nas mãos e na voz."
+    },
+    "7": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Quietude como prática disciplinada do estar."
+    },
+    "8": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Fogo destruiu sem lição; só o que sobrou."
+    },
+    "9": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Primeiro verde frágil depois das cinzas."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Respirar como oração antes da palavra."
+    },
+    "11": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Lua negra ensina o repouso na ausência de luz."
+    }
+  },
+  "incenso-humus": {
+    "1": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Gesto pequeno e diário traz presença ao corpo."
+    },
+    "2": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Pés descalços na terra, contacto direto com o chão."
+    },
+    "3": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Choro partilhado como travessia da dor."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Confiar no escuro no meio da queda."
+    },
+    "5": {
+      "mood": [
+        "aterrar",
+        "reunir-se"
+      ],
+      "rationale": "Eixo entre raiz e céu, corpo inteiro como templo."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pausa para quem se esvaziou a dar."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Graça que cai e levanta sem mérito."
+    },
+    "8": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Apodrecer como passagem para o que renasce."
+    },
+    "9": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino interior que persiste mesmo apagado."
+    },
+    "10": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Raiz oculta da semente, sagrado do invisível."
+    }
   },
   "incenso-folego": {
-    "1": { "mood": ["respirar"], "rationale": "Mundo entra pela garganta; não tens de o merecer." },
-    "2": { "mood": ["atravessar"], "rationale": "Mão na maçaneta; cada porta atravessada muda quem entra." },
-    "3": { "mood": ["acordar", "aterrar"], "rationale": "Animal antigo fareja antes da palavra; corpo sabe primeiro." },
-    "4": { "mood": ["atravessar"], "rationale": "Reza dentro da tempestade; pede para nascer, não abrigo." },
-    "5": { "mood": ["respirar"], "rationale": "Largar o que carregava; mãos abertas como peito que respira." },
-    "6": { "mood": ["atravessar"], "rationale": "Boca à parede no escuro; continua a pedir sem resposta." },
-    "7": { "mood": ["aterrar", "elevar"], "rationale": "Corpo descalço sabe o caminho; suor é água benta." },
-    "8": { "mood": ["atravessar", "elevar"], "rationale": "Brasa pequena que recusa morrer; ainda aqui, ainda quente." },
-    "9": { "mood": ["aterrar", "lembrar"], "rationale": "Som antes da palavra; corpo lembra ao espírito que existe." },
-    "10": { "mood": ["respirar"], "rationale": "Largar o ar usado; ciclo que mantém vivo." }
+    "1": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Mundo entra pela garganta; não tens de o merecer."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Mão na maçaneta; cada porta atravessada muda quem entra."
+    },
+    "3": {
+      "mood": [
+        "acordar",
+        "aterrar"
+      ],
+      "rationale": "Animal antigo fareja antes da palavra; corpo sabe primeiro."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Reza dentro da tempestade; pede para nascer, não abrigo."
+    },
+    "5": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Largar o que carregava; mãos abertas como peito que respira."
+    },
+    "6": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Boca à parede no escuro; continua a pedir sem resposta."
+    },
+    "7": {
+      "mood": [
+        "aterrar",
+        "elevar"
+      ],
+      "rationale": "Corpo descalço sabe o caminho; suor é água benta."
+    },
+    "8": {
+      "mood": [
+        "atravessar",
+        "elevar"
+      ],
+      "rationale": "Brasa pequena que recusa morrer; ainda aqui, ainda quente."
+    },
+    "9": {
+      "mood": [
+        "aterrar",
+        "lembrar"
+      ],
+      "rationale": "Som antes da palavra; corpo lembra ao espírito que existe."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Largar o ar usado; ciclo que mantém vivo."
+    }
+  },
+  "incenso-demora": {
+    "1": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Testemunha interior que observa sem se perder."
+    },
+    "2": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Armadura que se dissolve, corpo a abrir-se."
+    },
+    "3": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Esvaziar para descobrir a presença inteira."
+    },
+    "4": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Caminhar como oração lenta, terra a sustentar."
+    },
+    "5": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Súplica em joelho, dor que pede sem nome."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Mãos abertas ao alvor, gesto de receber."
+    },
+    "7": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Transformação lenta como brasa que arde sem pressa."
+    },
+    "8": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Pânico no peito, corpo a lutar pelo ar."
+    },
+    "9": {
+      "mood": [
+        "lembrar",
+        "elevar"
+      ],
+      "rationale": "Árvore enraizada como hino de inteireza."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Lavar mãos a 3am, pequeno ritual de soltar."
+    },
+    "11": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Fechar olhos para regressar a quem ficou."
+    }
+  },
+  "incenso-corpo-celeste": {
+    "1": {
+      "mood": [
+        "aterrar",
+        "respirar"
+      ],
+      "rationale": "Diante do oceano, alivio de não ser o centro."
+    },
+    "2": {
+      "mood": [
+        "lembrar",
+        "reunir-se"
+      ],
+      "rationale": "Cicatrizes como portas, marcas integradas no corpo."
+    },
+    "3": {
+      "mood": [
+        "lembrar",
+        "aterrar"
+      ],
+      "rationale": "Costelas como catedral, osso guarda o sagrado."
+    },
+    "4": {
+      "mood": [
+        "reunir-se",
+        "aterrar"
+      ],
+      "rationale": "Pele lembra toques, corpo é arquivo táctil."
+    },
+    "5": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Cálcio e ferro vêm de estrelas, matéria ancestral."
+    },
+    "6": {
+      "mood": [
+        "atravessar",
+        "reunir-se"
+      ],
+      "rationale": "Largar o agarrar é o voo, queda partilhada."
+    },
+    "7": {
+      "mood": [
+        "lembrar",
+        "aterrar"
+      ],
+      "rationale": "Sangue e lua, ciclo do corpo sem vergonha."
+    },
+    "8": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Pequenez como tamanho certo, finalmente chegar a si."
+    },
+    "9": {
+      "mood": [
+        "elevar",
+        "lembrar"
+      ],
+      "rationale": "Cabe tudo no peito, corpo é vaso cósmico."
+    },
+    "10": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Encarar espelho sem desviar, ficar com a cara."
+    }
+  },
+  "incenso-correnteza": {
+    "1": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Origem da água como matéria sagrada e raiz."
+    },
+    "2": {
+      "mood": [
+        "lembrar",
+        "atravessar"
+      ],
+      "rationale": "Rio herdado da mãe, corrente ancestral que atravessa."
+    },
+    "3": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Graça inesperada que recolhe a pessoa inteira."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Queda em vertigem sem rede, passagem difícil."
+    },
+    "5": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Gesto simples de dar, mão e pão concretos."
+    },
+    "6": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Comunhão silenciosa, ficar junto na mesma verdade."
+    },
+    "7": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Gota e mar como mesma água, unidade ancestral."
+    },
+    "8": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Avó, delta, marrabenta — raiz de água e terra."
+    },
+    "9": {
+      "mood": [
+        "elevar",
+        "atravessar"
+      ],
+      "rationale": "Hino de chegada ao mar depois de carregar pedras."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pequeno ritual da torneira que devolve oxigénio."
+    }
+  },
+  "incenso-o-que-resta": {
+    "1": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Nave interior, regressar ao centro silencioso."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Escutar o silêncio até ouvir-se a si mesma."
+    },
+    "3": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Tirar tudo, encontrar o que é anterior."
+    },
+    "4": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Faísca acende quarto, fogo entre dois corpos."
+    },
+    "5": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Faísca anterior à chama, corpo pressente revelação."
+    },
+    "6": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Brasa que sobrevive ao frio, sobrevivência teimosa."
+    },
+    "7": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Osso é estrutura anterior, base que sustém."
+    },
+    "8": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Sagrado anterior à palavra, mais velho que língua."
+    },
+    "9": {
+      "mood": [
+        "elevar",
+        "lembrar"
+      ],
+      "rationale": "Altar é aqui, hino do sagrado encarnado."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Calar como mar entre ondas, descanso da voz."
+    },
+    "11": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Receber sem merecer, abrir mãos à ternura."
+    }
+  },
+  "incenso-limiar": {
+    "1": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Raiz que sustenta, matéria escondida e ancestral."
+    },
+    "2": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Raiz e céu unidos numa só inteireza."
+    },
+    "3": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Largar o que não é teu, pousar o peso."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Subir à superfície ofegante depois da quase morte."
+    },
+    "5": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Render-se à corrente, deixar passar sem luta."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Mãos abertas, dar sem aperto, oxigénio interior."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Chuva-bênção que lava e devolve o nome."
+    },
+    "8": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "O céu não está fora, está dentro do corpo."
+    },
+    "9": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Joelhos no chão por escolha, dignidade serena."
+    },
+    "10": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Cozinha como ritual ancestral materno."
+    }
+  },
+  "incenso-o-circulo": {
+    "1": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Largar nomes, voltar ao que é anterior."
+    },
+    "2": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Ossos rezam memória ancestral mais velha que a língua."
+    },
+    "3": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Joelhos no chão, desamparo como passagem dolorosa."
+    },
+    "4": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Pão partido, ritual sagrado quotidiano com mãos."
+    },
+    "5": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Eu também parte armadura, regressa à companhia."
+    },
+    "6": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino do basta, libertar-se da prova constante."
+    },
+    "7": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Ser um, inteira, casa em si própria."
+    },
+    "8": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Grão de areia, quietude pequena e suficiente."
+    },
+    "9": {
+      "mood": [
+        "elevar",
+        "reunir-se"
+      ],
+      "rationale": "Vozes juntas que salvam, plural sagrado."
+    },
+    "10": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Última prece é ficar no escuro com o corpo."
+    }
+  },
+  "incenso-o-gesto": {
+    "1": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Templo interior, sagrado entre costelas próprias."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pausa entre inspirar e expirar, presença suspensa."
+    },
+    "3": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Corpo reza sem palavras, ámen carnal antigo."
+    },
+    "4": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Brasa interior ancestral, hino do fogo herdado."
+    },
+    "5": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Servir como dança encarnada, gesto presente."
+    },
+    "6": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Grão pequeno, ámen interior aceita o tamanho."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Luz interna sobrevive ao escuro, hino de resistência."
+    },
+    "8": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Pertencer sem mérito, descansar no maior."
+    },
+    "9": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Buraco no peito como porta inteira de si."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Respiração involuntária, sabedoria do não gerir."
+    },
+    "11": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Despir o dia peça a peça, pausa restauradora."
+    }
   },
   "fibra-sangue-aceso": {
-    "1": { "mood": ["elevar"], "rationale": "Batalha contra o sofá; primeiro passo dói, segundo já não para." },
-    "2": { "mood": ["elevar"], "rationale": "Algo mudou na coluna; corpo construído para este fogo." },
-    "3": { "mood": ["aterrar", "elevar"], "rationale": "Suor é oração; corpo lava o que não sou." },
-    "4": { "mood": ["elevar"], "rationale": "Pulmões em fogo; tudo o que segurei arde para fora." },
-    "5": { "mood": ["atravessar"], "rationale": "Corpo mente quando grita; mais uma além do limite imaginado." },
-    "6": { "mood": ["atravessar"], "rationale": "Aos trinta quilómetros corpo começa a mentir; atravesso a parede." },
-    "7": { "mood": ["elevar"], "rationale": "Corpo explode de alegria; dor virou poesia, peso saltou." },
-    "8": { "mood": ["respirar"], "rationale": "Coração desce como maré; descanso ganho, corpo não pede mais." }
+    "1": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Batalha contra o sofá; primeiro passo dói, segundo já não para."
+    },
+    "2": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Algo mudou na coluna; corpo construído para este fogo."
+    },
+    "3": {
+      "mood": [
+        "aterrar",
+        "elevar"
+      ],
+      "rationale": "Suor é oração; corpo lava o que não sou."
+    },
+    "4": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Pulmões em fogo; tudo o que segurei arde para fora."
+    },
+    "5": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Corpo mente quando grita; mais uma além do limite imaginado."
+    },
+    "6": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Aos trinta quilómetros corpo começa a mentir; atravesso a parede."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Corpo explode de alegria; dor virou poesia, peso saltou."
+    },
+    "8": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Coração desce como maré; descanso ganho, corpo não pede mais."
+    }
+  },
+  "incenso-silencio-fertil": {
+    "1": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Sentar no chão é regresso ao corpo presente."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Águas paradas; pausa que aquieta a mente."
+    },
+    "3": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Respiração simples como oxigénio sem crença."
+    },
+    "4": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pausa entre pensamentos abre espaço sereno."
+    },
+    "5": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "No vazio descobre-se plenitude já habitada."
+    },
+    "6": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Sino chama de volta à consciência presente."
+    },
+    "7": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Sem destino nem pressa; só o ar e o chão."
+    },
+    "8": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Regresso ao mundo com silêncio nos ossos."
+    }
   },
   "grao-o-tear": {
-    "1": { "mood": ["aterrar"], "rationale": "Seguir o fio sem pensar; ponto entre grito e hino." },
-    "2": { "mood": ["respirar"], "rationale": "Corrente debaixo do dia; mãos fazem antes da mente saber." },
-    "3": { "mood": ["aterrar"], "rationale": "Mãos amassam, costuram; mente descansa quando dedos trabalham." },
-    "4": { "mood": ["aterrar"], "rationale": "Lançadeira vai e vem; ritmo do fazer apaga o resto." },
-    "5": { "mood": ["reunir-se", "aterrar"], "rationale": "Mundo pára quando escrevo; tinta fiel à minha vontade." },
-    "6": { "mood": ["aterrar"], "rationale": "Mãos são o instrumento; criação é músculo, osso e combustível." },
-    "7": { "mood": ["respirar"], "rationale": "Ferramentas pousadas; silêncio de quem fez, descanso ganho." }
+    "1": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Seguir o fio sem pensar; ponto entre grito e hino."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Corrente debaixo do dia; mãos fazem antes da mente saber."
+    },
+    "3": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Mãos amassam, costuram; mente descansa quando dedos trabalham."
+    },
+    "4": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Lançadeira vai e vem; ritmo do fazer apaga o resto."
+    },
+    "5": {
+      "mood": [
+        "reunir-se",
+        "aterrar"
+      ],
+      "rationale": "Mundo pára quando escrevo; tinta fiel à minha vontade."
+    },
+    "6": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Mãos são o instrumento; criação é músculo, osso e combustível."
+    },
+    "7": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Ferramentas pousadas; silêncio de quem fez, descanso ganho."
+    }
+  },
+  "incenso-diluvio-manso": {
+    "1": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Permissão para desabar, corpo cobra o segurado."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Barragem que rompe, alívio terrível do soltar."
+    },
+    "3": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Sal das lágrimas e do mar, dor válida."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Carregar luto sem nome, aparecer mesmo assim."
+    },
+    "5": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Peso da ausência, cadeira vazia que dói."
+    },
+    "6": {
+      "mood": [
+        "atravessar",
+        "respirar"
+      ],
+      "rationale": "Chuva interior que limpa, monção depois da seca."
+    },
+    "7": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Leveza fresca depois do choro, ar renovado."
+    }
+  },
+  "incenso-ancora": {
+    "1": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Ataque de pânico em pleno aperto, sem chão."
+    },
+    "2": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Pés descalços encontram chão por baixo do medo."
+    },
+    "3": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Cinco sentidos como âncora ao real concreto."
+    },
+    "4": {
+      "mood": [
+        "aterrar",
+        "reunir-se"
+      ],
+      "rationale": "Aqui, agora, neste sítio, sem peso do alhures."
+    },
+    "5": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Pedra no bolso como abrigo táctil portátil."
+    },
+    "6": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Corpo sólido depois do tremor, terra firme."
+    }
+  },
+  "incenso-rescaldo": {
+    "1": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Manhã frágil depois da guerra interior; passagem difícil."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Cinzas mornas após incêndio; sobrevivência ao essencial."
+    },
+    "3": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Gestos mudos reparam a fractura entre duas pessoas."
+    },
+    "4": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Reconstrução partilhada pedra a pedra; regresso à inteireza."
+    },
+    "5": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "O corpo guarda a marca como prova; matéria honesta."
+    },
+    "6": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Nova ponte escolhida em conjunto; encontro renovado."
+    }
   },
   "incenso-oferenda": {
-    "1": { "mood": ["lembrar", "respirar"], "rationale": "Oferecer sem garantia; gesto sagrado de mãos abertas." },
-    "2": { "mood": ["respirar"], "rationale": "Conta o que está, não o que falta; surpresa simples." },
-    "3": { "mood": ["lembrar"], "rationale": "Mãos no peito sentem o sagrado a pulsar dentro." },
-    "4": { "mood": ["respirar"], "rationale": "Pausa antes da refeição; atenção como graça simples." },
-    "5": { "mood": ["respirar"], "rationale": "Olho à volta; abundância sempre esteve aqui agora." },
-    "6": { "mood": ["elevar"], "rationale": "Palmas para cima; corpo entregue ao dia sem armadura." }
+    "1": {
+      "mood": [
+        "lembrar",
+        "respirar"
+      ],
+      "rationale": "Oferecer sem garantia; gesto sagrado de mãos abertas."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Conta o que está, não o que falta; surpresa simples."
+    },
+    "3": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Mãos no peito sentem o sagrado a pulsar dentro."
+    },
+    "4": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pausa antes da refeição; atenção como graça simples."
+    },
+    "5": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Olho à volta; abundância sempre esteve aqui agora."
+    },
+    "6": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Palmas para cima; corpo entregue ao dia sem armadura."
+    }
+  },
+  "incenso-raiz-muda": {
+    "1": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Trabalho invisível debaixo da terra, raiz silenciosa."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Inverno do bolbo, espera invisível antes da flor."
+    },
+    "3": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Composto, dor antiga vira alimento da terra."
+    },
+    "4": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Paciência das sementes, confiar sem relógio."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Primeira folha rompe chão, triunfo após escuro."
+    },
+    "6": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Tornar-se no que sempre foi, sem plano."
+    }
+  },
+  "incenso-ressonancia": {
+    "1": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Uma voz quebra o silêncio; pulso revelador."
+    },
+    "2": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Onda invisível de bondade levanta vidas distantes."
+    },
+    "3": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Encontro entre duas mulheres dissolve a solidão."
+    },
+    "4": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Círculo que segura cada uma na inteireza partilhada."
+    },
+    "5": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Chamada que acorda outras; pergunta quebra o automatismo."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Respiração colectiva como pausa que une corpos."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino colectivo de mulheres que largam o silêncio."
+    }
   },
   "sangue-raiz": {
-    "1": { "mood": ["lembrar"], "rationale": "Terra vermelha corre nas veias; chão pinta antes do nome." },
-    "2": { "mood": ["reunir-se", "lembrar"], "rationale": "Ponte entre dois céus; pertenço a tudo e a nada." },
-    "3": { "mood": ["lembrar"], "rationale": "Capulana como coroa; pano sagrado conta linhagem inteira." },
-    "4": { "mood": ["lembrar"], "rationale": "Receita é arquivo; avó está no tacho, nas especiarias." },
-    "5": { "mood": ["lembrar", "aterrar"], "rationale": "Sangue sabe a coreografia; dança é língua-mãe que dorme." },
-    "6": { "mood": ["atravessar", "lembrar"], "rationale": "Saudade sem palavra inglesa; sou ponte entre duas verdades." },
-    "7": { "mood": ["lembrar"], "rationale": "Mar como primeiro espelho; recebe sem julgar de onde venho." },
-    "8": { "mood": ["lembrar"], "rationale": "Anciãos guardam bibliotecas; árvore que esquece raízes cai." },
-    "9": { "mood": ["atravessar", "lembrar"], "rationale": "Lugar ficou mas eu mudei; hóspede e caseira ao mesmo tempo." },
-    "10": { "mood": ["lembrar"], "rationale": "Passo a raiz à filha; linhagem que não acaba." }
+    "1": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Terra vermelha corre nas veias; chão pinta antes do nome."
+    },
+    "2": {
+      "mood": [
+        "reunir-se",
+        "lembrar"
+      ],
+      "rationale": "Ponte entre dois céus; pertenço a tudo e a nada."
+    },
+    "3": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Capulana como coroa; pano sagrado conta linhagem inteira."
+    },
+    "4": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Receita é arquivo; avó está no tacho, nas especiarias."
+    },
+    "5": {
+      "mood": [
+        "lembrar",
+        "aterrar"
+      ],
+      "rationale": "Sangue sabe a coreografia; dança é língua-mãe que dorme."
+    },
+    "6": {
+      "mood": [
+        "atravessar",
+        "lembrar"
+      ],
+      "rationale": "Saudade sem palavra inglesa; sou ponte entre duas verdades."
+    },
+    "7": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Mar como primeiro espelho; recebe sem julgar de onde venho."
+    },
+    "8": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Anciãos guardam bibliotecas; árvore que esquece raízes cai."
+    },
+    "9": {
+      "mood": [
+        "atravessar",
+        "lembrar"
+      ],
+      "rationale": "Lugar ficou mas eu mudei; hóspede e caseira ao mesmo tempo."
+    },
+    "10": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Passo a raiz à filha; linhagem que não acaba."
+    }
   },
   "sangue-mae": {
-    "1": { "mood": ["atravessar"], "rationale": "Corpo muda de mapa; amar é deixar de ser quem era." },
-    "2": { "mood": ["reunir-se", "atravessar"], "rationale": "Primeiro choro divide o tempo; nunca esteve tão inteira." },
-    "3": { "mood": ["atravessar", "lembrar"], "rationale": "Três da manhã, corpo sustém; mães antes ficaram de pé igual." },
-    "4": { "mood": ["atravessar", "elevar"], "rationale": "Mãe perfeita não existe; a que tenta, sim — basta." },
-    "5": { "mood": ["aterrar", "atravessar"], "rationale": "Marcas contam viagem; corpo mais honesto que vou habitar." },
-    "6": { "mood": ["atravessar"], "rationale": "Amor feroz e suave; queimaria o mundo por ti." },
-    "7": { "mood": ["elevar"], "rationale": "Boca pequena diz mamã; tudo valeu a pena." },
-    "8": { "mood": ["atravessar"], "rationale": "Largar é o ato mais corajoso; ela corre para o mundo." },
-    "9": { "mood": ["atravessar"], "rationale": "Trabalho da mãe ninguém vê; quero ser vista, não santa." },
-    "10": { "mood": ["reunir-se"], "rationale": "Dezassete minutos lembro quem fui; mulher e mãe, ambas ficam." }
+    "1": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Corpo muda de mapa; amar é deixar de ser quem era."
+    },
+    "2": {
+      "mood": [
+        "reunir-se",
+        "atravessar"
+      ],
+      "rationale": "Primeiro choro divide o tempo; nunca esteve tão inteira."
+    },
+    "3": {
+      "mood": [
+        "atravessar",
+        "lembrar"
+      ],
+      "rationale": "Três da manhã, corpo sustém; mães antes ficaram de pé igual."
+    },
+    "4": {
+      "mood": [
+        "atravessar",
+        "elevar"
+      ],
+      "rationale": "Mãe perfeita não existe; a que tenta, sim — basta."
+    },
+    "5": {
+      "mood": [
+        "aterrar",
+        "atravessar"
+      ],
+      "rationale": "Marcas contam viagem; corpo mais honesto que vou habitar."
+    },
+    "6": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Amor feroz e suave; queimaria o mundo por ti."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Boca pequena diz mamã; tudo valeu a pena."
+    },
+    "8": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Largar é o ato mais corajoso; ela corre para o mundo."
+    },
+    "9": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Trabalho da mãe ninguém vê; quero ser vista, não santa."
+    },
+    "10": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Dezassete minutos lembro quem fui; mulher e mãe, ambas ficam."
+    }
+  },
+  "incenso-luto": {
+    "1": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Notícia da morte, o mundo continua sem piedade."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Objetos que ficam quando a pessoa partiu."
+    },
+    "3": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Pedido de presença sem soluções na dor."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Emboscada da saudade no quotidiano."
+    },
+    "5": {
+      "mood": [
+        "elevar",
+        "atravessar"
+      ],
+      "rationale": "Rir após a morte como ato corajoso de vida."
+    },
+    "6": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Os mortos mudam de morada mas permanecem."
+    },
+    "7": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Crescer à volta da dor sem a apagar."
+    },
+    "8": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Rituais que mantêm os ausentes presentes."
+    },
+    "9": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Sonhos como porta dos que já partiram."
+    },
+    "10": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Promessa de que um dia a dor abrandará."
+    }
+  },
+  "incenso-espelho-partido": {
+    "1": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Sete versões fragmentadas, tentar juntar pedaços."
+    },
+    "2": {
+      "mood": [
+        "reunir-se",
+        "atravessar"
+      ],
+      "rationale": "Identidade desfeita, cair em si mesma."
+    },
+    "3": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Sem cargo nem moldura, tela nua mais honesta."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Divórcio, aprender a ser uma sozinha."
+    },
+    "5": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Cortar cabelo, ficar com a estranha que é nova."
+    },
+    "6": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Parar de dizer fine, honestidade como muro real."
+    },
+    "7": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Mãos guardam memória que a mente esqueceu."
+    },
+    "8": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Apagar o filtro, ver-se sem curadoria."
+    },
+    "9": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Kintsugi, reparar com ouro as fracturas."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Habitar o intervalo, pausa entre quem fui e serei."
+    }
   },
   "nua-duas-vozes": {
-    "1": { "mood": ["reunir-se"], "rationale": "Dois relógios em casa; amor não é sincronizar, é luz acesa." },
-    "2": { "mood": ["atravessar"], "rationale": "Após a luta, conversa real começa; chão da cozinha mais honesto." },
-    "3": { "mood": ["aterrar"], "rationale": "Amor mora no copo, no riso, no casaco no cabide." },
-    "4": { "mood": ["respirar"], "rationale": "Segura sem reparar; presença é a revolução." },
-    "5": { "mood": ["lembrar"], "rationale": "Cada ruga é dia partilhado; mais perto do eterno." },
-    "6": { "mood": ["reunir-se"], "rationale": "Sob 'como foi o dia' está 'ainda me escolhes'." },
-    "7": { "mood": ["respirar"], "rationale": "Girassóis sem motivo; amor que não pede causa." },
-    "8": { "mood": ["elevar"], "rationale": "Cantar fora do tom; corpo lembra a alegria antes da censura." },
-    "9": { "mood": ["respirar"], "rationale": "Sofá como altar; brasa calma do amor verdadeiro." },
-    "10": { "mood": ["aterrar"], "rationale": "Amor dito em camisas dobradas, café, manta na noite." }
+    "1": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Dois relógios em casa; amor não é sincronizar, é luz acesa."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Após a luta, conversa real começa; chão da cozinha mais honesto."
+    },
+    "3": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Amor mora no copo, no riso, no casaco no cabide."
+    },
+    "4": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Segura sem reparar; presença é a revolução."
+    },
+    "5": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Cada ruga é dia partilhado; mais perto do eterno."
+    },
+    "6": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Sob 'como foi o dia' está 'ainda me escolhes'."
+    },
+    "7": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Girassóis sem motivo; amor que não pede causa."
+    },
+    "8": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Cantar fora do tom; corpo lembra a alegria antes da censura."
+    },
+    "9": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Sofá como altar; brasa calma do amor verdadeiro."
+    },
+    "10": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Amor dito em camisas dobradas, café, manta na noite."
+    }
   },
   "eter-raiz-vermelha": {
-    "1": { "mood": ["lembrar"], "rationale": "Terra vermelha pintou os pés antes dos sapatos." },
-    "2": { "mood": ["reunir-se"], "rationale": "Entre dois mundos; rio ama as duas margens iguais." },
-    "3": { "mood": ["lembrar"], "rationale": "Sonho em changana; língua-mãe mora no fundo da garganta." },
-    "4": { "mood": ["reunir-se"], "rationale": "Mil tons; sou a ponte entre dois jardins." },
-    "5": { "mood": ["lembrar"], "rationale": "Capulana cobre berço e cova; pano nunca larga a mão." },
-    "6": { "mood": ["lembrar"], "rationale": "Honrar sem possuir; lua honra o sol com luz emprestada." },
-    "7": { "mood": ["lembrar"], "rationale": "Avó lia o céu; sabedoria sem diploma, mãos na terra." },
-    "8": { "mood": ["elevar"], "rationale": "Jardim é a oração mais antiga; esperança é verbo, não sentimento." },
-    "9": { "mood": ["reunir-se"], "rationale": "Arco-íris inteiro; não me peçam para escolher uma cor." },
-    "10": { "mood": ["lembrar"], "rationale": "Raiz vermelha vai onde eu vou; nunca estou só." }
+    "1": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Terra vermelha pintou os pés antes dos sapatos."
+    },
+    "2": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Entre dois mundos; rio ama as duas margens iguais."
+    },
+    "3": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Sonho em changana; língua-mãe mora no fundo da garganta."
+    },
+    "4": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Mil tons; sou a ponte entre dois jardins."
+    },
+    "5": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Capulana cobre berço e cova; pano nunca larga a mão."
+    },
+    "6": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Honrar sem possuir; lua honra o sol com luz emprestada."
+    },
+    "7": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Avó lia o céu; sabedoria sem diploma, mãos na terra."
+    },
+    "8": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Jardim é a oração mais antiga; esperança é verbo, não sentimento."
+    },
+    "9": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Arco-íris inteiro; não me peçam para escolher uma cor."
+    },
+    "10": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Raiz vermelha vai onde eu vou; nunca estou só."
+    }
   },
   "nua-inteira": {
-    "1": { "mood": ["respirar"], "rationale": "Minuto no carro antes de entrar; pausa entre dois mundos." },
-    "2": { "mood": ["elevar"], "rationale": "Silenciada quase me matou; alta é mulher que se escolheu." },
-    "3": { "mood": ["elevar"], "rationale": "Não sem desculpa; primeira palavra de libertação." },
-    "4": { "mood": ["atravessar"], "rationale": "Trabalho mental invisível; conta paga em sono que não tenho." },
-    "5": { "mood": ["elevar"], "rationale": "Demais é elogio que têm medo de dar; construo lugar." },
-    "6": { "mood": ["reunir-se"], "rationale": "Poder calmo derrubou paredes; mulher liderou desde sempre." },
-    "7": { "mood": ["acordar"], "rationale": "Espelho juiz de manhã; aprender a ver sem medo." },
-    "8": { "mood": ["elevar"], "rationale": "Ama-me como mulher, não projecto; ou não me ames." },
-    "9": { "mood": ["lembrar"], "rationale": "Mãos partidas seguram dez vidas; herança das mães antes." },
-    "10": { "mood": ["reunir-se"], "rationale": "Inteira com contradições; força e derrapada, suficiente." }
+    "1": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Minuto no carro antes de entrar; pausa entre dois mundos."
+    },
+    "2": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Silenciada quase me matou; alta é mulher que se escolheu."
+    },
+    "3": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Não sem desculpa; primeira palavra de libertação."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Trabalho mental invisível; conta paga em sono que não tenho."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Demais é elogio que têm medo de dar; construo lugar."
+    },
+    "6": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Poder calmo derrubou paredes; mulher liderou desde sempre."
+    },
+    "7": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Espelho juiz de manhã; aprender a ver sem medo."
+    },
+    "8": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Ama-me como mulher, não projecto; ou não me ames."
+    },
+    "9": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Mãos partidas seguram dez vidas; herança das mães antes."
+    },
+    "10": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Inteira com contradições; força e derrapada, suficiente."
+    }
   },
   "nua-por-dentro": {
-    "1": { "mood": ["atravessar"], "rationale": "Forte é cadeado; prémio de quem não tem quem a salve." },
-    "2": { "mood": ["atravessar"], "rationale": "Hora da dúvida; mulher por trás da mulher aparece." },
-    "3": { "mood": ["atravessar"], "rationale": "Pergunto a tudo, ninguém me pergunta; choro no duche." },
-    "4": { "mood": ["atravessar", "acordar"], "rationale": "Rachada no supermercado; armadura cai, luz entra." },
-    "5": { "mood": ["atravessar"], "rationale": "Gravidade que só mulher conhece; ninguém a nomeia." },
-    "6": { "mood": ["elevar"], "rationale": "Porta sempre aberta; mato a palavra licença que vestia." },
-    "7": { "mood": ["atravessar"], "rationale": "Rodeada e fantasma; distância entre cuidar e ser cuidada." },
-    "8": { "mood": ["elevar"], "rationale": "Mulher de vidro enterrada; agora opaca, densa, minha." },
-    "9": { "mood": ["atravessar"], "rationale": "Medo engolido com café; segredo comum entre nós." },
-    "10": { "mood": ["atravessar", "elevar"], "rationale": "Depois de tudo, ainda aqui; teimosia que parece amor." }
+    "1": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Forte é cadeado; prémio de quem não tem quem a salve."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Hora da dúvida; mulher por trás da mulher aparece."
+    },
+    "3": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Pergunto a tudo, ninguém me pergunta; choro no duche."
+    },
+    "4": {
+      "mood": [
+        "atravessar",
+        "acordar"
+      ],
+      "rationale": "Rachada no supermercado; armadura cai, luz entra."
+    },
+    "5": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Gravidade que só mulher conhece; ninguém a nomeia."
+    },
+    "6": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Porta sempre aberta; mato a palavra licença que vestia."
+    },
+    "7": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Rodeada e fantasma; distância entre cuidar e ser cuidada."
+    },
+    "8": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Mulher de vidro enterrada; agora opaca, densa, minha."
+    },
+    "9": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Medo engolido com café; segredo comum entre nós."
+    },
+    "10": {
+      "mood": [
+        "atravessar",
+        "elevar"
+      ],
+      "rationale": "Depois de tudo, ainda aqui; teimosia que parece amor."
+    }
   },
   "nua-boa": {
-    "1": { "mood": ["respirar"], "rationale": "Hoje está bom sem porquê; não estrago com a lista." },
-    "2": { "mood": ["respirar"], "rationale": "Pés descalços nos azulejos; alegria que não cabe em foto." },
-    "3": { "mood": ["reunir-se"], "rationale": "Gosto de mim hoje; versão real, não a perseguida." },
-    "4": { "mood": ["respirar"], "rationale": "Café em pé; rebelião pequena de mulher a respirar." },
-    "5": { "mood": ["respirar"], "rationale": "Arte difícil de não me ocupar; respirar sem treinar." },
-    "6": { "mood": ["respirar"], "rationale": "Cansaço bom; o que vem de dia cheio sem dúvida." },
-    "7": { "mood": ["respirar"], "rationale": "Riso à mesa sem motivo; som mais bonito desta casa." },
-    "8": { "mood": ["respirar"], "rationale": "Noite inteira sem rachadura; vida diz sim, contentamento basta." },
-    "9": { "mood": ["elevar"], "rationale": "Vestido só para mim; mereci porque sim, sem licença." },
-    "10": { "mood": ["respirar"], "rationale": "Boa não é ausência de problema; escolho estar bem hoje." }
+    "1": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Hoje está bom sem porquê; não estrago com a lista."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pés descalços nos azulejos; alegria que não cabe em foto."
+    },
+    "3": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Gosto de mim hoje; versão real, não a perseguida."
+    },
+    "4": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Café em pé; rebelião pequena de mulher a respirar."
+    },
+    "5": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Arte difícil de não me ocupar; respirar sem treinar."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Cansaço bom; o que vem de dia cheio sem dúvida."
+    },
+    "7": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Riso à mesa sem motivo; som mais bonito desta casa."
+    },
+    "8": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Noite inteira sem rachadura; vida diz sim, contentamento basta."
+    },
+    "9": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Vestido só para mim; mereci porque sim, sem licença."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Boa não é ausência de problema; escolho estar bem hoje."
+    }
+  },
+  "incenso-nevoeiro": {
+    "1": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Dia em que o corpo só pede para ficar."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Nevoeiro depressivo, esperar que a luz volte."
+    },
+    "3": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Comprimido como ponte sem vergonha entre vale e luz."
+    },
+    "4": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Sala onde a verdade ganha cadeira, ser testemunhada."
+    },
+    "5": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Ataque de pânico, respirar até o alarme passar."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Águas calmas depois da tempestade, paz ganha."
+    },
+    "7": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Pedir ajuda como primeira frase para sobreviver."
+    },
+    "8": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Dia bom suficiente, prova de que melhora."
+    },
+    "9": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Dor invisível que ninguém vê mas é real."
+    },
+    "10": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino à luz que sempre regressa do escuro."
+    }
   },
   "incenso-frequencia": {
-    "1": { "mood": ["acordar"], "rationale": "Rádio interno em dez canais; aprendo a ouvir o meu sinal." },
-    "2": { "mood": ["acordar"], "rationale": "Mundo desaparece; cérebro diferente na sua forma mais verdadeira." },
-    "3": { "mood": ["reunir-se", "acordar"], "rationale": "Cansada de fingir como o resto; tiro a máscara, fico inteira." },
-    "4": { "mood": ["acordar", "atravessar"], "rationale": "Três letras explicam trinta anos; luto e alívio no mesmo respirar." },
-    "5": { "mood": ["atravessar", "respirar"], "rationale": "Mundo demasiado alto dentro; sistema pede trégua, escuro e silêncio." },
-    "6": { "mood": ["reunir-se"], "rationale": "Cabeça diferente, não menos; ligo pontos que ninguém vê." },
-    "7": { "mood": ["reunir-se"], "rationale": "Sala onde finalmente caibo; cadeira do tamanho da minha coluna." },
-    "8": { "mood": ["acordar"], "rationale": "Mente vê padrões no caos; defeito que afinal é dom." },
-    "9": { "mood": ["reunir-se"], "rationale": "Relógio é meu; agenda sou eu, ritmo do peito." },
-    "10": { "mood": ["elevar"], "rationale": "Sinal raro, não defeito; já não baixo o volume." }
+    "1": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Rádio interno em dez canais; aprendo a ouvir o meu sinal."
+    },
+    "2": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Mundo desaparece; cérebro diferente na sua forma mais verdadeira."
+    },
+    "3": {
+      "mood": [
+        "reunir-se",
+        "acordar"
+      ],
+      "rationale": "Cansada de fingir como o resto; tiro a máscara, fico inteira."
+    },
+    "4": {
+      "mood": [
+        "acordar",
+        "atravessar"
+      ],
+      "rationale": "Três letras explicam trinta anos; luto e alívio no mesmo respirar."
+    },
+    "5": {
+      "mood": [
+        "atravessar",
+        "respirar"
+      ],
+      "rationale": "Mundo demasiado alto dentro; sistema pede trégua, escuro e silêncio."
+    },
+    "6": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Cabeça diferente, não menos; ligo pontos que ninguém vê."
+    },
+    "7": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Sala onde finalmente caibo; cadeira do tamanho da minha coluna."
+    },
+    "8": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Mente vê padrões no caos; defeito que afinal é dom."
+    },
+    "9": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Relógio é meu; agenda sou eu, ritmo do peito."
+    },
+    "10": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Sinal raro, não defeito; já não baixo o volume."
+    }
   },
   "fibra-corpo-aberto": {
-    "1": { "mood": ["respirar"], "rationale": "Ar entra devagar; corpo sabe onde mora a calma verdadeira." },
-    "2": { "mood": ["respirar"], "rationale": "Ombros guardam histórias; alongar abre porta sem chave." },
-    "3": { "mood": ["aterrar"], "rationale": "Centro entre o que puxa para cima e para o chão." },
-    "4": { "mood": ["respirar"], "rationale": "Salgueiro sabe o segredo; força está em ceder, não rigidez." },
-    "5": { "mood": ["aterrar"], "rationale": "Deito-me no chão; gravidade segura como porto." },
-    "6": { "mood": ["respirar"], "rationale": "Maxilar solta primeiro; deixar cair é o mais corajoso." },
-    "7": { "mood": ["aterrar"], "rationale": "Corpo é o mar inteiro; gesto nasce de dentro para fora." },
-    "8": { "mood": ["aterrar"], "rationale": "Coluna lembra estar de pé; cada osso encontra casa." },
-    "9": { "mood": ["respirar", "aterrar"], "rationale": "Sólido era ilusão; corpo sempre foi água, só faltava licença." },
-    "10": { "mood": ["lembrar"], "rationale": "Luz em mim vê luz em ti; igreja construída em silêncio." }
+    "1": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Ar entra devagar; corpo sabe onde mora a calma verdadeira."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Ombros guardam histórias; alongar abre porta sem chave."
+    },
+    "3": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Centro entre o que puxa para cima e para o chão."
+    },
+    "4": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Salgueiro sabe o segredo; força está em ceder, não rigidez."
+    },
+    "5": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Deito-me no chão; gravidade segura como porto."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Maxilar solta primeiro; deixar cair é o mais corajoso."
+    },
+    "7": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Corpo é o mar inteiro; gesto nasce de dentro para fora."
+    },
+    "8": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Coluna lembra estar de pé; cada osso encontra casa."
+    },
+    "9": {
+      "mood": [
+        "respirar",
+        "aterrar"
+      ],
+      "rationale": "Sólido era ilusão; corpo sempre foi água, só faltava licença."
+    },
+    "10": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Luz em mim vê luz em ti; igreja construída em silêncio."
+    }
+  },
+  "incenso-pes-descalcos": {
+    "1": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Primeiro passo destrói muros, corpo desperta."
+    },
+    "2": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Pés descalços no chão, raiz e ritmo."
+    },
+    "3": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Tambor chama o corpo a obedecer."
+    },
+    "4": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Pista como templo, chão recebe sem julgar."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Girar até libertar, hino da tontura sagrada."
+    },
+    "6": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Transe dissolve o eu, passagem para puro movimento."
+    },
+    "7": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Suor é o corpo honesto, presença encarnada."
+    },
+    "8": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Render-se à música, parar de tentar."
+    },
+    "9": {
+      "mood": [
+        "reunir-se",
+        "elevar"
+      ],
+      "rationale": "Roda colectiva, comunhão de corpos juntos."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Última dança lenta, ternura silenciosa partilhada."
+    }
+  },
+  "incenso-maos-juntas": {
+    "1": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Agradecimento ao corpo que carrega sem pedir."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pausa antes de comer, gratidão no instante."
+    },
+    "3": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Reparar nas pequenas coisas do quotidiano."
+    },
+    "4": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Suficiência como liberdade, parar de querer mais."
+    },
+    "5": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Mãos abertas para receber e dar sem medo."
+    },
+    "6": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Agradecer ao corpo, templo de carne e osso."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino à dádiva de estar vivo neste corpo."
+    },
+    "8": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pequenas mercês quotidianas que sustentam o dia."
+    },
+    "9": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Gratidão a transbordar como copo cheio."
+    },
+    "10": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Aleluia laica ao simples facto de viver."
+    }
+  },
+  "incenso-acende": {
+    "1": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Chama interior que teima e ergue de baixo."
+    },
+    "2": {
+      "mood": [
+        "aterrar",
+        "elevar"
+      ],
+      "rationale": "Corpo decide voltar à vida sem pedir licença."
+    },
+    "3": {
+      "mood": [
+        "aterrar",
+        "elevar"
+      ],
+      "rationale": "Pé no chão move quando a mente desistiu."
+    },
+    "4": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Cinco passos como vitória pequena de quem regressa."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Anthem gospel do regresso silencioso a si."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pausa cuidada depois do esforço de voltar."
+    },
+    "7": {
+      "mood": [
+        "atravessar",
+        "elevar"
+      ],
+      "rationale": "Sair de casa como travessia mínima reconquistada."
+    },
+    "8": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Coração e passada firmes, corpo que volta a confiar."
+    },
+    "9": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Anthem testemunhal para quem ainda não consegue estar."
+    },
+    "10": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Mulher inteira após a tempestade, presente consigo."
+    }
+  },
+  "incenso-coro": {
+    "1": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Outra mulher acordada à mesma hora, vigília partilhada."
+    },
+    "2": {
+      "mood": [
+        "lembrar",
+        "reunir-se"
+      ],
+      "rationale": "Linhagem de mulheres que carregaram o mesmo peso."
+    },
+    "3": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Cozinha de outra mulher como salvação repetível."
+    },
+    "4": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "WhatsApp às quatro, irmandade da hora silenciosa."
+    },
+    "5": {
+      "mood": [
+        "reunir-se",
+        "elevar"
+      ],
+      "rationale": "Quebrar hábito de carregar sozinha, anthem coletivo."
+    },
+    "6": {
+      "mood": [
+        "reunir-se",
+        "aterrar"
+      ],
+      "rationale": "Corpo ao lado do corpo, medicina mais antiga."
+    },
+    "7": {
+      "mood": [
+        "lembrar",
+        "reunir-se"
+      ],
+      "rationale": "Tia eleita, família escolhida que vê em silêncio."
+    },
+    "8": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Mulheres anónimas seguram o chão do mundo."
+    },
+    "9": {
+      "mood": [
+        "lembrar",
+        "reunir-se"
+      ],
+      "rationale": "Eu sou porque tu és, corda longa de mãos."
+    },
+    "10": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Coro deixa chão silencioso mesmo depois de partir."
+    }
+  },
+  "incenso-milagre": {
+    "1": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Reparar no que chega quando se deixa de pedir."
+    },
+    "2": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Notar a pequena graça num café morno qualquer."
+    },
+    "3": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Estranha no autocarro acerta sem saber, repara."
+    },
+    "4": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Porta abre-se de lado quando deixaste de bater."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino à misericórdia que aparece sem ser pedida."
+    },
+    "6": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Mercê silenciosa que só repara quem está atento."
+    },
+    "7": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Vizinho repara em ti e ajuda discretamente."
+    },
+    "8": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Reparar na luz que volta numa quinta qualquer."
+    },
+    "9": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino ao excesso que chegou sem ser merecido."
+    },
+    "10": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Contar o que não tiveste de merecer, reparar."
+    }
+  },
+  "incenso-amen": {
+    "1": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Anos a empurrar a água, exaustão da luta inútil."
+    },
+    "2": {
+      "mood": [
+        "atravessar",
+        "respirar"
+      ],
+      "rationale": "Mão abre a corda, alivio depois da tensão."
+    },
+    "3": {
+      "mood": [
+        "respirar",
+        "atravessar"
+      ],
+      "rationale": "Aprender a flutuar em vez de combater a maré."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Aceitar diagnóstico e continuar a viver dentro dele."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Amen como sim ao real, abertura de porta."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pousar o não pesado, ombros caem finalmente."
+    },
+    "7": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Pousar com cuidado o que se teve de soltar."
+    },
+    "8": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Força suave da água, corpo cede e vence."
+    },
+    "9": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Sim pequeno e diário, gesto que liberta peito."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Sabor da rendição é descanso, não cinza."
+    }
+  },
+  "incenso-aleluia": {
+    "1": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Riso antigo regressa, devolve parte esquecida de si."
+    },
+    "2": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Sorriso surpreende no espelho, revelação pequena."
+    },
+    "3": {
+      "mood": [
+        "lembrar",
+        "reunir-se"
+      ],
+      "rationale": "Boca recupera canção da avó, memória ancestral."
+    },
+    "4": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Corpo dança sozinho, alegria liberta o luto."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Festa privada como celebração reivindicada."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Alegria sem motivo, hóspede que pousa devagar."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Cantar alto como vingança contra anos de silêncio."
+    },
+    "8": {
+      "mood": [
+        "lembrar",
+        "elevar"
+      ],
+      "rationale": "Suor é oração ancestral, corpo recupera o sagrado."
+    },
+    "9": {
+      "mood": [
+        "lembrar",
+        "elevar"
+      ],
+      "rationale": "Aleluia das avós, transmissão da risada política."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Calor depois da festa, alegria deixa residuo."
+    }
+  },
+  "incenso-de-pe": {
+    "1": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Pés no chão como gesto mínimo de presença."
+    },
+    "2": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Manhã que chega sem permissão, pulsar do dia."
+    },
+    "3": {
+      "mood": [
+        "elevar",
+        "respirar"
+      ],
+      "rationale": "Hino da janela aberta, ar como primeira reza."
+    },
+    "4": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Beber água como cuidado concreto do corpo."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Convite anthémico ao passo possível, porta aberta."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Começo lento sem pressa, dignidade da pausa."
+    },
+    "7": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Caminhar com a passada que cabe hoje."
+    },
+    "8": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Corpo move antes da mente, pulse e revelação."
+    },
+    "9": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Anthem de pé pelas que ainda não conseguem."
+    },
+    "10": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Ficar em casa, exercício de presença consigo."
+    }
+  },
+  "incenso-hoje-nao": {
+    "1": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Hoje não como higiene, perímetro do dia."
+    },
+    "2": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Recusar a voz que puxa, escolher versão que vive."
+    },
+    "3": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino que põe a culpa na fila, hoje não."
+    },
+    "4": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Não atender chamadas nem pensamentos, espaço para si."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Limite calmo como saúde, não fúria nem debate."
+    },
+    "6": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Não silencioso dito à parede, arquitectura privada."
+    },
+    "7": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Frase curta e inteira, economia como dignidade."
+    },
+    "8": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Recusa suave, ombros que saem da conversa."
+    },
+    "9": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Casa minha como hino de geografia interior."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Lista do que não se faz, não como arquitectura."
+    }
+  },
+  "incenso-ar": {
+    "1": {
+      "mood": [
+        "respirar",
+        "acordar"
+      ],
+      "rationale": "Lembrar de respirar como medicina mais simples."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Respiração lenta como ilha no mar do dia."
+    },
+    "3": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Peito alarga sozinho quando recebe permissão."
+    },
+    "4": {
+      "mood": [
+        "respirar",
+        "aterrar"
+      ],
+      "rationale": "Coreografia do inalar e exalar guia o corpo."
+    },
+    "5": {
+      "mood": [
+        "respirar",
+        "elevar"
+      ],
+      "rationale": "Demolir excesso interior para o ar caber."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Uma respiração longa muda a temperatura do dia."
+    },
+    "7": {
+      "mood": [
+        "reunir-se",
+        "respirar"
+      ],
+      "rationale": "Caber no tamanho real, sem esticar pele."
+    },
+    "8": {
+      "mood": [
+        "respirar",
+        "aterrar"
+      ],
+      "rationale": "Pulmões mais antigos que a preocupação, conforto longo."
+    },
+    "9": {
+      "mood": [
+        "respirar",
+        "elevar"
+      ],
+      "rationale": "Ar regressa como graça, não como mérito."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Aterragem suave, descanso depois do dia ofegante."
+    }
+  },
+  "incenso-mexe": {
+    "1": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Mexer antes de sentir vontade, quebrar a paragem."
+    },
+    "2": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Convite a sair da cadeira e caminhar agora."
+    },
+    "3": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Caminhada partilhada, sair do automatismo parado."
+    },
+    "4": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Dançar sem pedir licença, corpo a lembrar-se."
+    },
+    "5": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Suor como assinatura honesta do corpo vivo."
+    },
+    "6": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Andar para digerir o que a cabeça não resolve."
+    },
+    "7": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Levantar devagar, encontrar-se de pé sem pressa."
+    },
+    "8": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Mover primeiro, o estado segue o corpo."
+    },
+    "9": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Ginga ancestral africana, herança no quadril."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Depois da caminhada, o dia respira diferente."
+    }
+  },
+  "incenso-volta-a-mim": {
+    "1": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Voltar à mulher inteira por baixo dos papéis."
+    },
+    "2": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Regressar ao corpo como reassemblagem lenta de si."
+    },
+    "3": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Mulher debaixo das funções respira em frente."
+    },
+    "4": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Eu menor sem audiência é onde se vive."
+    },
+    "5": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Reaprender é lembrar o que sempre se soube."
+    },
+    "6": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Pequenos prazeres como arquitectura do regresso quotidiano."
+    },
+    "7": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Voz original debaixo da civilizada volta a falar."
+    },
+    "8": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Sim lento devolve a escolha à mulher inteira."
+    },
+    "9": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Voltar inteira sem compartimentos secretos entre vidas."
+    },
+    "10": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Casa no próprio corpo como ocupação diária."
+    }
+  },
+  "incenso-espelho-verde": {
+    "1": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Ciúme como espelho que mostra o desejo real."
+    },
+    "2": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Inveja revela longing, mapa do não vivido."
+    },
+    "3": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Amiga sortuda, verdade do avesso a aparecer."
+    },
+    "4": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Scroll comparativo, descer do feed e voltar a si."
+    },
+    "5": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Fogo mudo de inveja escondida há anos."
+    },
+    "6": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Vida da outra revela rachas, todas carregam."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Sair da sombra de quem brilha, encontrar luz própria."
+    },
+    "8": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino do enough, declaração diária de pertença."
+    },
+    "9": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Espelho da inveja como farol do desejo."
+    },
+    "10": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Deixar arder e passar, sentir não é cela."
+    }
+  },
+  "incenso-pele-exposta": {
+    "1": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Espelho nu sem desviar, aceitar o corpo real."
+    },
+    "2": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Sotaque é mapa da raiz, herança sonora."
+    },
+    "3": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Cicatrizes contadas como mapa de sobrevivência."
+    },
+    "4": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Roupas erradas como bandeira, orgulho da origem."
+    },
+    "5": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Mãe pobre, raiz reconhecida, herança honrada."
+    },
+    "6": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino à pele, recusa do pedido de desculpa."
+    },
+    "7": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Sotaque volta, terra e raiz na voz."
+    },
+    "8": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Estrias como mapas, corpo aceite por inteiro."
+    },
+    "9": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Nudez da verdade, hino de quem se mostra."
+    },
+    "10": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Sem máscaras, vazio cheio, paz consigo."
+    }
+  },
+  "incenso-teimosa": {
+    "1": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino de quem cai e se levanta sempre."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Mais um dia como vitória pequena de sobrevivência."
+    },
+    "3": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Raiz fura o asfalto; vida insiste no impossível."
+    },
+    "4": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Ardentes na pobreza; alegria como luz teimosa."
+    },
+    "5": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Mãos no barro plantam fé sem garantia."
+    },
+    "6": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Tentar de novo após cada não duro."
+    },
+    "7": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Vela que não apaga apesar do escuro."
+    },
+    "8": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Flor brava que cresce sem permissão."
+    },
+    "9": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Amanhã como certeza mínima que sustenta hoje."
+    },
+    "10": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino de quem ficou de pé contra previsões."
+    }
+  },
+  "incenso-fogo-engolido": {
+    "1": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Engolir raiva herdada, fogo que queima por dentro."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Sorriso como jaula, fúria sem voz."
+    },
+    "3": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Maxilar cerrado, corpo grita o que a boca cala."
+    },
+    "4": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Dizer não como hino de auto-respeito."
+    },
+    "5": {
+      "mood": [
+        "elevar",
+        "atravessar"
+      ],
+      "rationale": "Grito libertador pelas avós que se calaram."
+    },
+    "6": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Fúria canalizada em correr e limpar, corpo activo."
+    },
+    "7": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Mesa virada, primeira vez que recusa ser paz."
+    },
+    "8": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Cinza depois do fogo, calma que segue raiva."
+    },
+    "9": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Raiva como amiga, fogo segurado sem queimar."
+    },
+    "10": {
+      "mood": [
+        "elevar",
+        "lembrar"
+      ],
+      "rationale": "Hino da herança feminina, fogo passado entre mulheres."
+    }
   },
   "incenso-salto-bonito": {
-    "1": { "mood": ["atravessar", "elevar"], "rationale": "Pernas tremem, voz não; salto contra a gravidade." },
-    "2": { "mood": ["atravessar"], "rationale": "Distância entre duas bocas pesa uma tonelada; salto para o novo." },
-    "3": { "mood": ["elevar"], "rationale": "Salto do penhasco; ar é casa um segundo, medo morre." },
-    "4": { "mood": ["elevar"], "rationale": "Carta de demissão; queda sem rede é o voo verdadeiro." },
-    "5": { "mood": ["elevar"], "rationale": "Sim que divide vida em antes e depois; gravidade muda." },
-    "6": { "mood": ["atravessar"], "rationale": "Mãos suadas, voz a tremer; presente e desprotegida na sala." },
-    "7": { "mood": ["atravessar"], "rationale": "Mão no escuro sem saber se é aceite; gesto vulnerável." },
-    "8": { "mood": ["atravessar"], "rationale": "Ler em voz alta é nudez; público segura sem mirar." },
-    "9": { "mood": ["atravessar"], "rationale": "Aeroporto, mala mais leve que saudade; partida para o desconhecido." },
-    "10": { "mood": ["elevar"], "rationale": "Para todas as mulheres que saltaram; coragem que não desbota." }
+    "1": {
+      "mood": [
+        "atravessar",
+        "elevar"
+      ],
+      "rationale": "Pernas tremem, voz não; salto contra a gravidade."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Distância entre duas bocas pesa uma tonelada; salto para o novo."
+    },
+    "3": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Salto do penhasco; ar é casa um segundo, medo morre."
+    },
+    "4": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Carta de demissão; queda sem rede é o voo verdadeiro."
+    },
+    "5": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Sim que divide vida em antes e depois; gravidade muda."
+    },
+    "6": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Mãos suadas, voz a tremer; presente e desprotegida na sala."
+    },
+    "7": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Mão no escuro sem saber se é aceite; gesto vulnerável."
+    },
+    "8": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Ler em voz alta é nudez; público segura sem mirar."
+    },
+    "9": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Aeroporto, mala mais leve que saudade; partida para o desconhecido."
+    },
+    "10": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Para todas as mulheres que saltaram; coragem que não desbota."
+    }
+  },
+  "incenso-maos-abertas": {
+    "1": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pousar o peso herdado que não nos pertence."
+    },
+    "2": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Abrir o punho fechado, deixar o sangue voltar."
+    },
+    "3": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Queimar carta como ritual de libertação interior."
+    },
+    "4": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino do perdão como ato de auto-libertação."
+    },
+    "5": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Perdoar-se a si mesma, ver-se inteira nas fendas."
+    },
+    "6": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Telefonema corajoso após anos de silêncio."
+    },
+    "7": {
+      "mood": [
+        "lembrar"
+      ],
+      "rationale": "Cura entre mãe e filha, dança geracional."
+    },
+    "8": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Largar o que se segurava, deixar entrar a vida."
+    },
+    "9": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Abraço difícil como gesto que cura sem palavras."
+    },
+    "10": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Hino coletivo às mãos abertas e ao perdão."
+    }
+  },
+  "incenso-norte-interno": {
+    "1": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Pele e corpo como sinal anterior ao pensamento."
+    },
+    "2": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Confiar na barriga, no saber instintivo do corpo."
+    },
+    "3": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Mãos sabem antes da mente, gesto encarnado."
+    },
+    "4": {
+      "mood": [
+        "respirar"
+      ],
+      "rationale": "Pausa para ouvir a voz mais fina por baixo."
+    },
+    "5": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Sonho como mapa, revelação que chega ao acordar."
+    },
+    "6": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Sala errada que vira revelação inesperada."
+    },
+    "7": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Barriga contra cabeça, escolher o instinto."
+    },
+    "8": {
+      "mood": [
+        "acordar"
+      ],
+      "rationale": "Déjà vu como dobra que abre reconhecimento."
+    },
+    "9": {
+      "mood": [
+        "aterrar"
+      ],
+      "rationale": "Corpo como bússola, ossos sabem o norte."
+    },
+    "10": {
+      "mood": [
+        "aterrar",
+        "elevar"
+      ],
+      "rationale": "Hino à confiança no corpo, eixo presença e libertação."
+    }
+  },
+  "incenso-cinzento": {
+    "1": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Tristeza cinzenta sem nome, dia indistinto."
+    },
+    "2": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Cinzento entre quebrado e bem, espaço sem nome."
+    },
+    "3": {
+      "mood": [
+        "respirar",
+        "atravessar"
+      ],
+      "rationale": "Cama segura o peso quando o dia pesa demais."
+    },
+    "4": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Solidão de quem aguenta sem ninguém saber."
+    },
+    "5": {
+      "mood": [
+        "atravessar"
+      ],
+      "rationale": "Semanas em piloto automático, neblina com nome."
+    },
+    "6": {
+      "mood": [
+        "elevar",
+        "atravessar"
+      ],
+      "rationale": "Continuar de pé conta como vitória discreta."
+    },
+    "7": {
+      "mood": [
+        "aterrar",
+        "elevar"
+      ],
+      "rationale": "Duche como gesto mínimo de cuidado próprio."
+    },
+    "8": {
+      "mood": [
+        "reunir-se"
+      ],
+      "rationale": "Amiga vê sem perguntar, presença que sustenta."
+    },
+    "9": {
+      "mood": [
+        "acordar",
+        "elevar"
+      ],
+      "rationale": "Fissura no cinzento deixa entrar luz pequena."
+    },
+    "10": {
+      "mood": [
+        "elevar"
+      ],
+      "rationale": "Luz volta em pedaços a quem ficou."
+    }
   }
 }
