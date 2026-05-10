@@ -1,0 +1,806 @@
+{
+  "espelho-ilusao": {
+    "1": {
+      "title": "Despertar",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "The Coat I Never Chose",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Automatismos",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "A Pergunta do Café",
+      "energy": "raw",
+      "lang": "PT"
+    },
+    "5": {
+      "title": "The Body Knows",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "6": {
+      "title": "Honestidade Quieta",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "7": {
+      "title": "O Veu Cai",
+      "energy": "anthem",
+      "lang": "PT"
+    }
+  },
+  "espelho-culpa": {
+    "1": {
+      "title": "A Voz Baixa",
+      "energy": "raw",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Disguised Virtue",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Alivio ou Alegria",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Herança",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "5": {
+      "title": "Deserve",
+      "energy": "anthem",
+      "lang": "EN"
+    },
+    "6": {
+      "title": "Pousar",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "7": {
+      "title": "Ternura",
+      "energy": "whisper",
+      "lang": "PT"
+    }
+  },
+  "livro-filosofico": {
+    "1": {
+      "title": "O Convite",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Permanence",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Memoria",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Whirlwind",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Esforco",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Desolation",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "Horizonte",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Duality",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "O Espelho",
+      "energy": "anthem",
+      "lang": "PT"
+    }
+  },
+  "incenso-folego": {
+    "1": {
+      "title": "Inspira",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Threshold",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Bicho",
+      "energy": "raw",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Storm Prayer",
+      "energy": "pulse",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Mãos Vazias",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Unanswered",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "Dança",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Ember",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "Hum",
+      "energy": "anthem",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "Expira",
+      "energy": "steady",
+      "lang": "PT"
+    }
+  },
+  "fibra-sangue-aceso": {
+    "1": {
+      "title": "O Primeiro Passo",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Ignite",
+      "energy": "anthem",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Suor Sagrado",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Breathless",
+      "energy": "anthem",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Mais Uma",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "The Wall",
+      "energy": "raw",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "Descarga",
+      "energy": "anthem",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Cool Down",
+      "energy": "steady",
+      "lang": "EN"
+    }
+  },
+  "grao-o-tear": {
+    "1": {
+      "title": "O Fio",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Undercurrent",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Mãos Ocupadas",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "The Loom",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Tinta e Papel",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Rhythm of Making",
+      "energy": "pulse",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "A Peça Pronta",
+      "energy": "steady",
+      "lang": "PT"
+    }
+  },
+  "incenso-oferenda": {
+    "1": {
+      "title": "Obrigada",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "The List",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Mãos no Peito",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Grace",
+      "energy": "raw",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "O Que Tenho",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Offering",
+      "energy": "raw",
+      "lang": "EN"
+    }
+  },
+  "sangue-raiz": {
+    "1": {
+      "title": "Aeroporto",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Diaspora Child",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Cheiro de Longe",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Heritage Tastes Like This",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "A Dança Acorda",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Cold Country",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "Índico",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Explain Again",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "Regresso",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "Still the Seed",
+      "energy": "anthem",
+      "lang": "EN"
+    }
+  },
+  "sangue-mae": {
+    "1": {
+      "title": "Nove Meses",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "The First Cry",
+      "energy": "raw",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Desvelo",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Good Enough",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Corpo de Mãe",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Tender Beast",
+      "energy": "anthem",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "A Primeira Palavra",
+      "energy": "raw",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Letting Go",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "Invisível",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "I Am Still Here",
+      "energy": "whisper",
+      "lang": "EN"
+    }
+  },
+  "nua-duas-vozes": {
+    "1": {
+      "title": "Dois Ritmos",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "After the Fight",
+      "energy": "raw",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Os Detalhes",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Hold Me Without Fixing Me",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Envelhecer Contigo",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Underneath the Words",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "Flores Sem Razão",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Sing",
+      "energy": "pulse",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "O Sofá",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "I Love You in Coffee Cups",
+      "energy": "steady",
+      "lang": "EN"
+    }
+  },
+  "eter-raiz-vermelha": {
+    "1": {
+      "title": "Solo de Origem",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "In Between",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Língua Mãe",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "A Thousand Shades",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "O Pano",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Honouring",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "A Avó Sabia",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "The Garden",
+      "energy": "anthem",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "Todos os Tons",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "Red Root",
+      "energy": "anthem",
+      "lang": "EN"
+    }
+  },
+  "nua-inteira": {
+    "1": {
+      "title": "Antes de Entrar",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Too Loud",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Sangra e Vai",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "The Bill",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Demais",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Quiet Power",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "Espelho",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Don't Fix Me",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "Mãos de Mãe",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "Inteira",
+      "energy": "steady",
+      "lang": "PT"
+    }
+  },
+  "nua-por-dentro": {
+    "1": {
+      "title": "Forte",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Three AM",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Ninguém Pergunta",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Cracked Open",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Peso Invisível",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Permission",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "Sozinha Com Tudo",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Glass Woman",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "Medo Que Não Se Diz",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "Ainda Aqui",
+      "energy": "steady",
+      "lang": "PT"
+    }
+  },
+  "nua-boa": {
+    "1": {
+      "title": "Hoje Está Bom",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Kitchen Dancing",
+      "energy": "pulse",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Gosto de Mim",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Small Luxury",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Sábado",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Good Tired",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "Riso",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Whole Evening",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "Mereci",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "Boa",
+      "energy": "steady",
+      "lang": "PT"
+    }
+  },
+  "incenso-frequencia": {
+    "1": {
+      "title": "Barulho de Dentro",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Hyperfocus",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Máscara",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Late Diagnosis",
+      "energy": "raw",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Sobrecarga",
+      "energy": "raw",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Different Wiring",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "A Tribo",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Beautiful Mind",
+      "energy": "anthem",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "Meu Ritmo",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "Frequency",
+      "energy": "anthem",
+      "lang": "EN"
+    }
+  },
+  "fibra-corpo-aberto": {
+    "1": {
+      "title": "Respira",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "Stretch",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Equilíbrio",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Bend",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Chão",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Release",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "Onda",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Align",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "Corpo Líquido",
+      "energy": "whisper",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "Namaste",
+      "energy": "anthem",
+      "lang": "EN"
+    }
+  },
+  "incenso-salto-bonito": {
+    "1": {
+      "title": "Palco",
+      "energy": "pulse",
+      "lang": "PT"
+    },
+    "2": {
+      "title": "First Kiss",
+      "energy": "whisper",
+      "lang": "EN"
+    },
+    "3": {
+      "title": "Penhasco",
+      "energy": "anthem",
+      "lang": "PT"
+    },
+    "4": {
+      "title": "Leap",
+      "energy": "raw",
+      "lang": "EN"
+    },
+    "5": {
+      "title": "Sim",
+      "energy": "steady",
+      "lang": "PT"
+    },
+    "6": {
+      "title": "Audition",
+      "energy": "pulse",
+      "lang": "EN"
+    },
+    "7": {
+      "title": "Mão Estendida",
+      "energy": "raw",
+      "lang": "PT"
+    },
+    "8": {
+      "title": "Open Mic",
+      "energy": "steady",
+      "lang": "EN"
+    },
+    "9": {
+      "title": "Despedida",
+      "energy": "anthem",
+      "lang": "PT"
+    },
+    "10": {
+      "title": "Jump",
+      "energy": "anthem",
+      "lang": "EN"
+    }
+  }
+}
