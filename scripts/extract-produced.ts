@@ -11,8 +11,16 @@ const ROOT = path.resolve(__dirname, "..");
 const LYRICS_DIR = path.join(ROOT, "loranne-lyrics");
 const TRACKS_OUT = path.join(ROOT, "docs", "loranne-tracks-produced.json");
 
+// Critério "produzido":
+//  - status produced ou published, OU
+//  - product === "incenso" (toda a colecção incenso já está produzida).
 const produced = ALL_ALBUMS.filter(
-  (a) => (a.status === "produced" || a.status === "published") && a.artist !== "Ancient Ground"
+  (a) =>
+    a.artist !== "Ancient Ground" &&
+    (a.status === "produced" ||
+      a.status === "published" ||
+      a.product === "incenso" ||
+      a.slug.startsWith("incenso-"))
 );
 
 type Out = Record<string, Record<string, { title: string; energy: string; lang: string }>>;
