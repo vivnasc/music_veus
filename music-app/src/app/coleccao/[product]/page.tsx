@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
 import { getTrackCoverUrl, getAlbumCover } from "@/lib/album-covers";
+import { productCoverUrl, type ProductSlug } from "@/lib/product-covers";
 import { useMusicPlayer } from "@/contexts/MusicPlayerContext";
 import NavBar from "@/components/music/NavBar";
 import TrackRow from "@/components/music/TrackRow";
@@ -116,6 +117,9 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
   }
 
   const featuredAlbum = publishedAlbums[0] || albums[0];
+  // Custom collection hero (uploaded via /admin/coleccoes) overrides the
+  // album-derived cover. The component handles 404s by hiding the image.
+  const customHero = productCoverUrl(product as ProductSlug);
   const coverUrl = getTrackCoverUrl(featuredAlbum.slug, getCoverTrack(featuredAlbum.slug));
 
   return (
@@ -126,13 +130,20 @@ export default function CollectionPage({ params }: { params: Promise<{ product: 
       <div className="relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src={coverUrl}
+            src={customHero}
             alt=""
             fill
-            className="object-cover blur-[60px] scale-110 opacity-30"
-            quality={20}
+            className="object-cover scale-110 opacity-40"
+            quality={40}
             unoptimized
-            onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+            onError={(e) => {
+              const el = e.target as HTMLImageElement;
+              if (el.dataset.fallback) { el.style.display = "none"; return; }
+              el.dataset.fallback = "1";
+              el.src = coverUrl;
+              el.classList.add("blur-[60px]", "opacity-30");
+              el.classList.remove("opacity-40");
+            }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D1A]/50 via-[#0D0D1A]/80 to-[#0D0D1A]" />
         </div>
