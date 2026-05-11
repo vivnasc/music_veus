@@ -11,6 +11,7 @@
  */
 
 import PRESENCA_DATA from "./presenca-data.json";
+import type { Album, AlbumTrack } from "./albums";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -123,6 +124,57 @@ export function presencaAlbumCoverUrl(sub: PresencaSubSlug, albumSlug: string, v
   const base = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
   const v = version ?? 1;
   return `${base}/storage/v1/object/public/audios/presenca-covers/${sub}/${albumSlug}.jpg?v=${v}`;
+}
+
+/**
+ * Adapta um álbum Presença para o formato `Album` usado pela pipeline
+ * /admin/producao da Loranne. Mapeamento:
+ *   - slug:    "presenca-{sub}-{album-slug}" — namespace separado no storage
+ *   - prompt:  o campo `style` (vai para o input Style do Suno)
+ *   - lyrics:  o bloco bracketed completo com [Verse 1 - whispered ...] +
+ *              texto (vai para o input Lyrics do Suno em custom mode)
+ *
+ * A persona já configurada na pipeline (Loranne voice ID) aplica-se
+ * automaticamente.
+ */
+export function getPresencaAlbumsAsAlbums(): Album[] {
+  const result: Album[] = [];
+  for (const sub of PRESENCA_SUBS) {
+    const meta = PRESENCA_SUB_META[sub.slug];
+    const albums = getAlbumsForSub(sub.slug);
+    for (const album of albums) {
+      const tracks: AlbumTrack[] = album.tracks.map((t) => ({
+        number: t.number,
+        title: t.title,
+        description: t.concept || `${album.title} · ${t.position}`,
+        lang: "PT",
+        energy: "whisper",
+        flavor: null,
+        vocalMode: "solo",
+        // Style instructions → Suno "Style" field
+        prompt: t.style || "african meditation, contemplative ambient, presence, grounding, no performance, mantra repetition with development, low female voice, Mozambican Portuguese from Maputo only, hard consonants, no Brazilian",
+        // Bracketed Suno custom lyrics block → Suno "Lyrics" field
+        lyrics: t.sunoPrompt,
+        durationSeconds: 480,
+        audioUrl: null,
+        bpm: sub.instrumental ? Number(sub.instrumental.bpm.split("-")[0]) || undefined : undefined,
+        signatureElement: sub.instrumental?.sounds,
+      }));
+      result.push({
+        slug: `presenca-${sub.slug}-${album.slug}`,
+        title: album.title,
+        subtitle: `${sub.label} · Álbum ${album.number}${album.funcao ? " — " + album.funcao : ""}`,
+        artist: "Loranne & Ancient Ground",
+        product: "presenca",
+        color: meta.color,
+        tracks,
+        status: "ready",
+        distribution: false,
+        distrokidUploadDate: null,
+      });
+    }
+  }
+  return result;
 }
 
 /** Stats — quantas faixas têm prompt Suno escrito (pronto para geração) vs. ainda por escrever. */

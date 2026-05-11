@@ -101,12 +101,20 @@ export default function AdminPresencaPage() {
               Loranne & Ancient Ground · meditação cantada · 49 álbuns / 343 faixas
             </p>
           </div>
-          <Link
-            href="/presenca"
-            className="ml-auto text-[11px] px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 text-[#c9c9d4]"
-          >
-            Ver site público →
-          </Link>
+          <div className="ml-auto flex items-center gap-2">
+            <Link
+              href="/admin/producao?filter=presenca"
+              className="text-[11px] px-3 py-1.5 rounded-full bg-[#C9A96E] text-black font-semibold hover:bg-[#D4B57F]"
+            >
+              ▶ Gerar no Suno (pipeline Loranne)
+            </Link>
+            <Link
+              href="/presenca"
+              className="text-[11px] px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 text-[#c9c9d4]"
+            >
+              Ver site público →
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -330,11 +338,17 @@ function AlbumRow({
           ))}
           <div className="px-4 py-2 border-t border-white/5 flex flex-wrap gap-3 text-[11px]">
             <Link
+              href={`/admin/producao?filter=presenca&album=presenca-${sub.slug}-${album.slug}`}
+              className="px-3 py-1.5 rounded-full bg-[#C9A96E] text-black font-semibold hover:bg-[#D4B57F]"
+            >
+              ▶ Gerar no Suno
+            </Link>
+            <Link
               href={`/presenca/${sub.slug}/${album.slug}`}
               className="px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 text-[#c9c9d4]"
               target="_blank"
             >
-              Abrir página pública →
+              Página pública →
             </Link>
           </div>
         </div>

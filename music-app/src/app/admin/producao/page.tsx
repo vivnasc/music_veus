@@ -310,6 +310,7 @@ function ProductFilter({
 }) {
   const tabs = [
     { key: "all", label: "Todos" },
+    { key: "presenca", label: "Presença" },
     { key: "espelho", label: "Espelhos" },
     { key: "no", label: "Nos" },
     { key: "livro", label: "Livro" },
@@ -1850,10 +1851,17 @@ function TrackRow({
 }
 
 export default function AlbumProductionPage() {
-  const [filter, setFilter] = useState("all");
+  const [filter, setFilter] = useState<string>(() => {
+    if (typeof window === "undefined") return "all";
+    const p = new URLSearchParams(window.location.search).get("filter");
+    return p || "all";
+  });
   const [moodFilter, setMoodFilter] = useState<LoranneMood | "all">("all");
   const [viewMode, setViewMode] = useState<"producao" | "calendario">("producao");
-  const [selectedAlbum, setSelectedAlbum] = useState<string | null>(null);
+  const [selectedAlbum, setSelectedAlbum] = useState<string | null>(() => {
+    if (typeof window === "undefined") return null;
+    return new URLSearchParams(window.location.search).get("album");
+  });
   const [statuses, setStatuses] = useState<Record<string, TrackStatus>>({});
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [audioUrls, setAudioUrls] = useState<Record<string, string>>({});
