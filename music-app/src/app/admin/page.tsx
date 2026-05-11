@@ -13,6 +13,7 @@ type AdminSection = {
 const SECTIONS: AdminSection[] = [
   // Produzir
   { href: "/admin/producao", title: "Produção", subtitle: "Gerar tracks Suno, gerir personas e clips", emoji: "🎼", group: "produzir" },
+  { href: "/admin/presenca", title: "Presença", subtitle: "Meditação cantada — Loranne & Ancient Ground (49 álbuns)", emoji: "🕯", group: "produzir" },
   { href: "/admin/nova", title: "Nova", subtitle: "Bulk editor de letras e prompts", emoji: "✍️", group: "produzir" },
   { href: "/admin/venna", title: "VENNA", subtitle: "Wrapper de letras e accent locks", emoji: "🎙", group: "produzir" },
   { href: "/admin/lora", title: "LoRA", subtitle: "Treino e zip de imagens Loranne", emoji: "🧬", group: "produzir" },

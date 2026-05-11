@@ -9,6 +9,7 @@ import { ALL_LISTS, type CuratedList } from "@/data/curated-lists";
 import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
 import { LORANNE_MOODS, MOOD_META, moodCoverUrl, type LoranneMood, type CompactMoodsData } from "@/data/loranne-moods";
 import LORANNE_MOODS_DATA from "@/data/loranne-moods-data.json";
+import { PRESENCA_SUBS, PRESENCA_SUB_META, getAlbumsForSub, presencaSubCoverUrl } from "@/data/presenca";
 import { getTrackCoverUrl } from "@/lib/album-covers";
 import { LangFilterToggle } from "@/components/music/LangFilterToggle";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
@@ -258,6 +259,9 @@ export default function DescobrePage() {
           suggested={suggested}
         />
 
+        {/* Presença — Loranne & Ancient Ground (7 sub-colecções) */}
+        <PresencaSection />
+
         {/* Para Ti */}
         {recommendations.length > 0 && (
           <section>
@@ -495,6 +499,76 @@ function MixBar({
         </button>
       </div>
     </div>
+  );
+}
+
+// ─────────────────────────────────────────────
+// PresencaSection — 7 sub-colecções da coleção Presença
+// (Loranne & Ancient Ground — meditação cantada)
+// ─────────────────────────────────────────────
+
+function PresencaSection() {
+  return (
+    <section>
+      <div className="flex items-baseline justify-between mb-3">
+        <div>
+          <h2 className="text-xl font-semibold text-[#F5F0E6]">Presença</h2>
+          <p className="text-[11px] text-[#a0a0b0] mt-0.5">
+            Loranne & Ancient Ground · meditação cantada em 7 sub-colecções
+          </p>
+        </div>
+        <Link
+          href="/presenca"
+          className="text-[11px] text-[#C9A96E] hover:text-[#D4B57F] whitespace-nowrap"
+        >
+          Ver tudo →
+        </Link>
+      </div>
+
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+        {PRESENCA_SUBS.map((sub) => {
+          const meta = PRESENCA_SUB_META[sub.slug];
+          const written = getAlbumsForSub(sub.slug).length;
+          return (
+            <Link
+              key={sub.slug}
+              href={`/presenca/${sub.slug}`}
+              className="group block rounded-2xl overflow-hidden border border-white/5 hover:border-white/15 transition"
+            >
+              <div
+                className="aspect-[5/4] relative overflow-hidden"
+                style={{ background: `linear-gradient(135deg, ${meta.color}, ${meta.color}33)` }}
+              >
+                <Image
+                  src={presencaSubCoverUrl(sub.slug)}
+                  alt={sub.label}
+                  fill
+                  className="object-cover opacity-70 group-hover:opacity-90 transition"
+                  unoptimized
+                  onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent" />
+                <div className="absolute inset-0 flex flex-col justify-end p-3">
+                  <p className="text-[10px] uppercase tracking-widest text-white/70">
+                    {meta.verbo}
+                  </p>
+                  <h3 className="text-xl font-semibold text-white drop-shadow mt-0.5">
+                    {sub.label}
+                  </h3>
+                  <p className="text-[10px] text-white/75 mt-1 line-clamp-2">
+                    {meta.paraQuando}
+                  </p>
+                </div>
+              </div>
+              <div className="px-3 py-1.5 flex items-center justify-between text-[10px] text-[#666680]">
+                <span>{sub.albumCount} álbuns</span>
+                {written > 0 && <span className="text-[#C9A96E]">{written} escritos</span>}
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+    </section>
   );
 }
 

@@ -1,0 +1,506 @@
+{
+  "generatedAt": "2026-05-11T14:32:11.369Z",
+  "manifestoExcerpt": "# Presença\n\n> Uma coleção de Loranne & Ancient Ground\n\n## Manifesto da coleção\n\n---\n\nHá músicas para dançar. Há músicas para chorar. Há músicas para esquecer.\n\nEsta coleção não é nenhuma dessas.\n\n**Presença** é para o momento em que paras. Em que te sentas. Em que fechas os olhos — ou os deixas abertos, mas pousados. Em que reconheces que estás aqui, e que isso, por si só, é trabalho suficiente para um dia inteiro.\n\nNão há mensagem a passar. Não há lição a dar. Não há catarse a provocar.\n\nHá um chão. Há um sopro. Há uma voz que não te pede nada.\n\n---\n\nCada faixa nasce de uma necessidade humana concreta — enraizar, acolher, acender, clarear, alinhar, ver, pousar. Não de uma teoria. Não de uma estética. De uma carência real do corpo que escuta.\n\nPor dentro, cada som carrega camadas que tu não precisas de conhecer para sentir. Frequências antigas. Cores que tradições contemplativas aprenderam a respeitar. Gestos vocais que vêm de práticas com séculos. Tudo isso fica escondido — como as raízes de uma árvore que não se vêem mas sustentam tudo.\n\nTu recebes apenas a função: o som que te devolve a ti.\n\n---\n\nA voz que ouves é Loranne. Mas Loranne aqui não canta para ti — canta **contigo**. Não é palco. Não é performance. É companhia.\n\nPor vezes a voz é firme. Por vezes é sussurro. Por vezes desaparece e fica só o instrumento. Tudo isso é deliberado: porque há momentos em que precisas de ser conduzida, e momentos em que precisas de ser deixada em paz.\n\nAs palavras, quando há, são poucas mas desenvolvidas. Repetem-se em ondas. São mantras no sentido literal: instrumentos da mente. Não te pedem para acreditar em nada. Pedem-te apenas para respirar com elas.\n\n---\n\n**Presença não é um produto.**\n\nNão vive em playlists de algoritmo. Não compete por atenção. Não te quer prender.\n\nVive onde a meditação vive — no silêncio escolhido, no tempo que dás a ti própria, no lugar onde o telemóvel se cala.\n\nSe te servir, fica.\nSe não servir, vai.\n\nEstás aqui. Isso já conta.\n\n---",
+  "subs": [
+    {
+      "slug": "medo",
+      "order": 1,
+      "label": "Medo",
+      "funcao": "para enraizar quando estás dispersa",
+      "albumCount": 8,
+      "instrumental": {
+        "sounds": "Kalimba grave, frame drum, mbira",
+        "key": "G dórico",
+        "bpm": "56-62"
+      },
+      "layers": {
+        "ray": "1 (Vontade)",
+        "solfeggio": "396 Hz",
+        "chakra": "Raiz",
+        "element": "Terra",
+        "tradition": "Ubuntu"
+      },
+      "eixo": "Todo (com fio ao consigo)"
+    },
+    {
+      "slug": "magoa",
+      "order": 2,
+      "label": "Mágoa",
+      "funcao": "para acolher quando o coração dói",
+      "albumCount": 9,
+      "instrumental": {
+        "sounds": "Piano feutré, cello, harpa, água subtil",
+        "key": "A",
+        "bpm": "52-58"
+      },
+      "layers": {
+        "ray": "2 (Sabedoria-Amor)",
+        "solfeggio": "417 Hz",
+        "chakra": "Sacro",
+        "element": "Água",
+        "tradition": "Metta budista"
+      },
+      "eixo": "Outro + consigo (com toque do todo)"
+    },
+    {
+      "slug": "apatia",
+      "order": 3,
+      "label": "Apatia",
+      "funcao": "para acender quando estás apagada",
+      "albumCount": 6,
+      "instrumental": {
+        "sounds": "Djembe baixo, cordas com arco, kalimba média",
+        "key": "C",
+        "bpm": "64-72"
+      },
+      "layers": {
+        "ray": "3 (Inteligência Activa)",
+        "solfeggio": "528 Hz",
+        "chakra": "Plexo solar",
+        "element": "Fogo",
+        "tradition": "Dhikr sufi"
+      },
+      "eixo": "Consigo (com toque do todo)"
+    },
+    {
+      "slug": "inquietacao",
+      "order": 4,
+      "label": "Inquietação",
+      "funcao": "para clarear quando a mente está turva",
+      "albumCount": 7,
+      "instrumental": null,
+      "layers": null,
+      "eixo": ""
+    },
+    {
+      "slug": "sufoco",
+      "order": 5,
+      "label": "Sufoco",
+      "funcao": "para alinhar quando há algo a ser dito",
+      "albumCount": 5,
+      "instrumental": {
+        "sounds": "Drone longo, voz a capella, mínimo instrumental",
+        "key": "D",
+        "bpm": "48-54"
+      },
+      "layers": {
+        "ray": "5 (Ciência Concreta)",
+        "solfeggio": "741 Hz",
+        "chakra": "Garganta",
+        "element": "Éter",
+        "tradition": "Hesicasmo / Oração de Jesus"
+      },
+      "eixo": "Consigo"
+    },
+    {
+      "slug": "confusao",
+      "order": 6,
+      "label": "Confusão",
+      "funcao": "para ver quando estás cega de tanto ruído",
+      "albumCount": 6,
+      "instrumental": null,
+      "layers": null,
+      "eixo": ""
+    },
+    {
+      "slug": "vazio",
+      "order": 7,
+      "label": "Vazio",
+      "funcao": "para pousar quando o dia foi muito",
+      "albumCount": 8,
+      "instrumental": {
+        "sounds": "Pads longos, vento distante, harmónicos suspensos",
+        "key": "B",
+        "bpm": "42-48"
+      },
+      "layers": {
+        "ray": "7 (Ordem Cerimonial)",
+        "solfeggio": "963 Hz",
+        "chakra": "Coroa",
+        "element": "Éter total",
+        "tradition": "Compline / horas canónicas"
+      },
+      "eixo": "Todo + consigo"
+    }
+  ],
+  "albums": {
+    "medo": [
+      {
+        "number": 1,
+        "slug": "chao",
+        "title": "Chão",
+        "subLabel": "Medo",
+        "funcao": "encontrar chão quando tudo se sente instável.",
+        "horaInterior": "manhã muito cedo.",
+        "tracks": [
+          {
+            "number": 1,
+            "title": "Parar",
+            "position": "Chegada",
+            "flag": null,
+            "concept": "interromper o movimento sem direção. A primeira oração é parar.",
+            "sunoPrompt": "[Intro - kalimba grave solo, very deep low drone underneath, single notes with very long silences, 30 seconds]\n\n[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que andava em mim\npode descansar agora\n\no que pensava\no que planeava\no que se preocupava\n\npode descansar\n\nparar não é fraqueza\nparar é a primeira honestidade\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnão preciso de chegar a parte nenhuma\nnos próximos minutos\n\nnem terminar\nnem decidir\nnem entender\n\nparar é a primeira honestidade\n\n[Bridge - instrumental, kalimba and deep drone only, very sparse, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando paro\nescuto o que andava por dentro\n\nquando paro\nsinto o que andava por dentro\n\nparar é a primeira honestidade\n\n[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquem para\nnão desiste\n\nquem para\nescolhe outra direção\nem vez de ir sempre em frente\n\n[Outro - voice fades to whisper, kalimba sustains, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsilêncio\nsilêncio bom\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave solo foreground, no frame drum, no percussion, very deep low drone underneath, single isolated notes with very long silences between, arrival, sparse to the extreme, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 2,
+            "title": "O Medo Tem Nome",
+            "position": "Reconhecimento",
+            "flag": null,
+            "concept": "identificar o medo concreto. Nomear sem julgar nem tentar resolver.",
+            "sunoPrompt": "[Intro - kalimba grave with mbira distant, frame drum slow spaced pulse, low drone, 25 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no medo não é vago\no medo tem nome próprio\n\nmedo do que pode falhar\nmedo do que pode ser perdido\nmedo do que pode mudar\n\no medo tem nome\ne nomear é começar a ver\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnomeio sem combater\nnomeio sem me envergonhar\n\nter medo não me faz menor\nter medo faz-me humana\n\no medo tem nome\ne nomear é começar a ver\n\n[Bridge - instrumental, kalimba and frame drum sustained, mbira distant, no voice, 60 seconds]\n\n[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando vejo o medo claramente\nele perde o poder oculto\n\no que se vê\ndeixa de governar em segredo\n\no medo tem nome\ne nomear é começar a ver\n\n[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no medo veio dizer-me algo\nnão veio dominar\n\nveio mostrar o que importa\nveio mostrar onde está o que amo\n\n[Outro - voices fade, kalimba sustains, frame drum slows, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nvejo\nvejo o que receava ver\nvejo\n\nvejo",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave with mbira distant, frame drum slow spaced pulse, low drone sustained, settling rhythm, naming, recognition, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 3,
+            "title": "Atravesso o Medo",
+            "position": "Aprofundamento",
+            "flag": null,
+            "concept": "entrar no medo em vez de fugir. Atrás dele está o que ele queria proteger.",
+            "sunoPrompt": "[Intro - kalimba grave deeper, frame drum sustained low rumble, deep drone emerging, 30 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no medo não se evita\no medo atravessa-se\n\natrás dele\nestá o que ele queria proteger\n\natravesso o medo\ne descubro o que ele guardava\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnão corro nem combato\nrespiro dentro dele\n\ncada respiração\né um passo dentro do medo\n\natravesso o medo\ne descubro o que ele guardava\n\n[Bridge - instrumental, deep drone full, kalimba grave, frame drum sustained low, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que estava por baixo do medo\nera amor antigo\n\no que estava por baixo do medo\nera ternura por algo\n\natravesso o medo\ne descubro o que ele guardava\n\n[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nmedo é amor preocupado\nmedo é amor com medo\n\nquando vejo o amor por trás do medo\no medo agradece e descansa\n\n[Outro - voices fade, kalimba sustains, drone holds, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\natravesso\natravesso devagar\natravesso\n\natravesso",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper register, frame drum sustained low rumble not pulsed, deep emerging drone as new layer, descending mbira, no melodic movement, crossing, depth, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 4,
+            "title": "Aqui",
+            "position": "Centro",
+            "flag": "aprovada",
+            "concept": "o reconhecimento do chão como anterior à pessoa. Não conquista, mas regresso.",
+            "sunoPrompt": "[Intro - kalimba grave solo, frame drum distant pulse, 30 seconds, building]\n\n[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nparei\ne o que parei foi a procura\nnão o caminho\n\naqui não é lugar a que cheguei\naqui é lugar que me esperava\n\n[Verse 2 - same whispered tone, slightly more present, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsempre soube\nmesmo sem saber\nque havia um aqui\n\num aqui anterior à pressa\num aqui anterior ao nome\n\naqui não é lugar a que cheguei\naqui é lugar que me esperava\n\n[Bridge - instrumental, kalimba and frame drum only, no voice, sustained, 60 seconds]\n\n[Verse 3 - sung low now, deep female voice, no vibrato, more grounded, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que me sustenta\nnão começou comigo\nnão acaba comigo\n\neu sou o lugar\nonde isto se reconhece\n\naqui não é lugar a que cheguei\naqui é lugar que me esperava\n\n[Verse 4 - layered female voices, two Loranne in unison and slight harmony, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que procurava\nera o que procurava em mim\n\nquem chega\nera quem já estava\n\n[Outro - voice fades to whisper, kalimba sustains, frame drum slows, 60 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\naqui\naqui que me esperava\n\nah",
+            "style": "african meditation, contemplative ambient, deep mbira, kalimba grave, frame drum, low female voice, mantra repetition with development, dhikr-like, presence, grounding, no performance, sparse instrumental, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 5,
+            "title": "Confio no Que Sustenta",
+            "position": "Habitação",
+            "flag": null,
+            "concept": "delegar o peso ao que é maior. Não tenho de segurar tudo.",
+            "sunoPrompt": "[Intro - mbira foreground warm, kalimba grave background, frame drum very slow regular, 25 seconds]\n\n[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnem tudo é meu para segurar\nnem tudo cabe nas minhas mãos\n\nconfio no que me sustenta\nmesmo sem o conseguir nomear\n\na terra continua a girar\nsem eu a empurrar\n\nconfio\ne o que sustenta sustenta-me\n\n[Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no controlo era ilusão pesada\ndeixá-lo cair é alívio\n\nquem confia\nnão solta tudo\nmas solta o que não lhe pertence carregar\n\nconfio\ne o que sustenta sustenta-me\n\n[Bridge - instrumental, mbira and kalimba sustained warm, frame drum slow regular, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nhá algo maior em movimento\ndo que tenho consciência\n\nesse algo tem-me tido\nmesmo quando esqueço dele\n\nconfio\ne o que sustenta sustenta-me\n\n[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nconfiança não é certeza\nconfiança é repouso na incerteza\n\nconfio sem provas\nporque a desconfiança custa mais cara\n\n[Outro - voices fade gently, mbira sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nconfio\nsustento-me em algo maior\nconfio\n\nconfio",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira foreground warm, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, settled rhythm, trust, surrender, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 6,
+            "title": "O Chão Vem Comigo",
+            "position": "Despedida",
+            "flag": null,
+            "concept": "o que aprendi enraizada vai para o trabalho, para a conversa, para o conflito. A prática é prelúdio ao dia.",
+            "sunoPrompt": "[Intro - kalimba grave more articulated, frame drum gentle awakening pulse, drone beginning to open, 25 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnão fui ao chão para escapar\nfui ao chão para voltar mais inteira\n\nquando me levantar\nlevo o que encontrei\n\npara a reunião\npara a discussão\npara a decisão difícil\n\no chão vem comigo\npara onde for preciso\n\n[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na meditação não acaba quando me levanto\nmuda de forma\n\nagora vou agir\nmas agir enraizada\n\no chão vem comigo\npara onde for preciso\n\n[Bridge - instrumental, kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]\n\n[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando o dia ficar difícil\nsaberei voltar a este lugar\n\nmesmo a meio da reunião\nmesmo a meio do conflito\n\no chão vem comigo\npara onde for preciso\n\n[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nser enraizada não é parar de fazer\né fazer a partir do que sustenta\n\no gesto enraizado\né diferente do gesto ansioso\n\n[Outro - voices fade to whisper, kalimba sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nvou comigo\nvou enraizada\nvou\n\nvou",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated notes, frame drum gentle awakening pulse, drone beginning to open upward, mbira lighter, preparing movement, transition, embodiment, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 7,
+            "title": "Liberta a Prática",
+            "position": "Dissolução",
+            "flag": null,
+            "concept": "soltar a própria meditação. Não fazer da prática nova muleta.",
+            "sunoPrompt": "[Intro - very sparse kalimba single notes, no frame drum, much silence, 20 seconds]\n\n[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nliberto a meditação\npara que ela me liberte\n\nse a usar como muleta\nela vira nova prisão\n\na presença não precisa da prática\na prática é só o lembrete\n\n[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\namanhã talvez não medite\ne isso está bem\n\na presença não me abandona\nquando deixo de a procurar\n\n[Bridge - very minimal instrumental, kalimba single notes with much silence, distant breath, 40 seconds]\n\n[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que aprendi não precisa de nome\no que aprendi não precisa de hora\n\njá é o que sou\nquando lembro\n\n[Outro - voices dissolve into breath, kalimba fades, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nlivre\nlivre da prática\nah\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences between, frame drum disappears in first half, only breath and one residual instrument, dissolving texture, release, freedom, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          }
+        ],
+        "sourceFile": "01a-MEDO-album-1-CHAO.md"
+      },
+      {
+        "number": 2,
+        "slug": "pertenco",
+        "title": "Pertenço",
+        "subLabel": "Medo",
+        "funcao": "enraizar pela pertença. O medo dissolve-se quando reconhecemos que não estamos sozinhas.",
+        "horaInterior": "meio da manhã.",
+        "tracks": [
+          {
+            "number": 1,
+            "title": "Cheguei Carregada",
+            "position": "Chegada",
+            "flag": null,
+            "concept": "chegar a si reconhecendo que se chega sempre acompanhada — pelos que ensinaram, pelos que deixaram marca.",
+            "sunoPrompt": "[Intro - kalimba grave with very distant frame drum almost imperceptible, single notes spread out, 30 seconds]\n\n[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnão cheguei aqui sozinha\nestão dentro de mim\nquem me ensinou a respirar\n\na minha avó está nas minhas mãos\na sua avó está nas minhas mãos\n\ncheguei carregada\nde tudo o que me fez\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquem me viu pequena\nainda me vê\n\nquem me ouviu a primeira palavra\nainda me ouve\n\ncheguei carregada\nde tudo o que me fez\n\n[Bridge - instrumental, kalimba and very distant frame drum sustained, no voice, 55 seconds]\n\n[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nesta carga não pesa\nesta carga sustenta\n\nquem me precedeu\nnão saiu de mim quando partiu\n\ncheguei carregada\nde tudo o que me fez\n\n[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsozinha é palavra\nque pertence ao medo\n\na verdade é\nque nunca estive só\n\n[Outro - voices fade to whisper, kalimba sustains, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\ncarregada\nde quem me ama\nde quem me amou\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave foreground, very distant frame drum almost imperceptible, single isolated notes with long silences, ancestral arrival, gentle entry, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 2,
+            "title": "O Que Pensava Meu É Herança",
+            "position": "Reconhecimento",
+            "flag": null,
+            "concept": "reconhecer que aquilo que tomamos por nosso (gestos, formas de amar, formas de rezar) foi-nos passado. Humildade da herança.",
+            "sunoPrompt": "[Intro - kalimba grave with mbira distant entering, frame drum slow spaced pulse begins, 25 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que pensava meu\né herança\n\na forma como rio\nfoi-me ensinada por alguém\n\na forma como olho para as coisas\nfoi-me ensinada por alguém\n\no que pensava meu\nfoi-me passado às mãos\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nisto não me diminui\nisto situa-me\n\nsou ponto numa linha longa\nnão origem de tudo\n\no que pensava meu\nfoi-me passado às mãos\n\n[Bridge - instrumental, mbira and frame drum sustained pulse, kalimba background, no voice, 60 seconds]\n\n[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nposso honrar a herança\nsem ser prisioneira dela\n\nposso receber\ne escolher o que mantenho\n\no que pensava meu\nfoi-me passado às mãos\n\n[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquem reconhece o que herdou\ndeixa de fingir originalidade absoluta\n\nessa honestidade\nabre espaço para a verdadeira singularidade\n\n[Outro - voices fade, mbira sustains, frame drum slows, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nherança\nrecebida com gratidão\nherança\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave with mbira distant, frame drum slow spaced pulse, low drone sustained, settling rhythm, ancestral grounding, recognition, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 3,
+            "title": "A Terra Reconhece",
+            "position": "Aprofundamento",
+            "flag": null,
+            "concept": "o lugar conhece quem o habita. A pertença não é abstracta — é geográfica, é cheiro, é luz específica.",
+            "sunoPrompt": "[Intro - kalimba grave deeper, frame drum sustained low rumble, mbira descending, 30 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na terra onde nasci\nconhece-me ainda\n\na luz desta cidade\nsabe a minha pele\n\no som das vozes em redor\nfala-me numa língua que reconheço sem pensar\n\na terra reconhece\nquem dela é\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnão preciso de provar pertença\no cheiro do ar prova\n\nnão preciso de explicar\no vento sabe quem sou\n\na terra reconhece\nquem dela é\n\n[Bridge - instrumental, deep drone emerges, kalimba grave, frame drum sustained rumble, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquem é desta terra\nencontra-a no corpo\n\na maneira de andar\na maneira de descansar\na maneira de esperar\n\na terra reconhece\nquem dela é\n\n[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nposso estar longe\ne a terra reconhecer-me na mesma\n\na pertença não depende de distância\na pertença é assinatura no corpo\n\n[Outro - voices fade, kalimba sustains, drone holds, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\ndesta terra\nsou desta terra\nah\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper register, frame drum sustained low rumble not pulsed, deep emerging drone as new layer, descending mbira, no melodic movement, downward feeling, place-recognition, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 4,
+            "title": "Vimos Juntas",
+            "position": "Centro",
+            "flag": null,
+            "concept": "Ubuntu literal. Não é figura de estilo — é estrutura ontológica. Eu existo porque existimos.",
+            "sunoPrompt": "[Intro - kalimba grave, frame drum slow steady pulse, mbira present, low drone, 30 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnão é figura de estilo\nquando digo nós\n\nquando me sento\nsentam-se comigo\ntodos os que me ensinaram a sentar\n\nvimos juntas até aqui\nvimos juntas até agora\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsou porque somos\nnão há eu antes do nós\n\nesta sabedoria não é nova\né a mais antiga deste continente\n\nvimos juntas até aqui\nvimos juntas até agora\n\n[Bridge - instrumental, all elements in balance, frame drum steady pulse, kalimba and mbira interweaving, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que amo\nfoi-me ensinado a amar\n\no que defendo\nfoi-me passado para defender\n\nmas escolho honrar\nnão imitar\n\nvimos juntas até aqui\nvimos juntas até agora\n\n[Verse 4 - layered female voices, two Loranne in unison and slight harmony, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquem chega comigo\nsou eu também\n\nquem partiu antes de mim\nsou eu também\n\n[Outro - voices fade, kalimba and frame drum sustain, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\njuntas\nvimos juntas\nah\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave, frame drum slow steady pulse, mbira present, low sustained drone, all elements in balance, centered, fullness without density, ancestral, communion, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 5,
+            "title": "Estou em Rede Invisível",
+            "position": "Habitação",
+            "flag": null,
+            "concept": "comunidade que sustenta sem se ver. As pessoas que pensam em nós quando não estamos a pensar nelas.",
+            "sunoPrompt": "[Intro - mbira foreground warm, kalimba grave background, frame drum very slow regular, 25 seconds]\n\n[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nneste momento alguém pensa em mim\nsem eu saber\n\nalguém deseja-me bem\ndo outro lado da cidade\ndo outro lado do continente\n\nestou em rede invisível\nque me sustenta sem eu ver\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que comi hoje\nfoi feito por mãos que não conheço\n\no que vesti\nfoi cosido por dedos invisíveis\n\nestou em rede invisível\nque me sustenta sem eu ver\n\n[Bridge - instrumental, mbira sustained warm, kalimba background, frame drum slow regular pulse, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando me lembro disto\ndeixo de me sentir só\n\na solidão é esquecimento\na presença é lembrança\n\nestou em rede invisível\nque me sustenta sem eu ver\n\n[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\ntambém eu sou parte da rede invisível\nde outros\n\ntambém alguém me come no pão que faço\ntambém alguém me veste na roupa que costuro com cuidado\n\n[Outro - voices fade gently, mbira sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nem rede\nem rede invisível\nsustentada\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira foreground warm, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, settled rhythm, dwelling, inhabited, communion, network, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 6,
+            "title": "Levo Todos Para o Dia",
+            "position": "Despedida",
+            "flag": null,
+            "concept": "a presença comunitária não fica na meditação — vai para o trabalho, para o conflito, para a reunião difícil.",
+            "sunoPrompt": "[Intro - kalimba grave more articulated, frame drum gentle awakening pulse, drone beginning to open, 25 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando me levantar agora\nnão os deixo aqui\n\neles vêm comigo\npara o trabalho do dia\n\npara a conversa difícil\npara a decisão complicada\npara o conflito que evito\n\nlevo todos para o dia\ne o dia recebe-os comigo\n\n[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando rir hoje\nnão rio sozinha\n\nquando agir hoje\nnão ajo sozinha\n\nquando errar hoje\ntambém não erro sozinha\n\nlevo todos para o dia\ne o dia recebe-os comigo\n\n[Bridge - instrumental, kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]\n\n[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nobrigada à comunidade invisível\nque me sustenta\n\nobrigada aos ancestrais\nque continuam a agir através de mim\n\nlevo todos para o dia\ne o dia recebe-os comigo\n\n[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na meditação não me afastou do mundo\nfortaleceu a minha presença nele\n\nagora ajo em nome dos meus\nnão só em nome de mim\n\n[Outro - voices fade to whisper, kalimba sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nlevo\nlevo todos comigo\nvou\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated notes, frame drum gentle awakening pulse, drone beginning to open upward, mbira lighter, preparing movement, transition feeling, communal action, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 7,
+            "title": "A Pertença Persiste Sem Mim",
+            "position": "Dissolução",
+            "flag": null,
+            "concept": "soltar a posse da pertença. A comunidade existia antes e existirá depois — eu participo, não controlo.",
+            "sunoPrompt": "[Intro - very sparse kalimba single notes, no frame drum, much silence, 20 seconds]\n\n[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na pertença não me pertence\na pertença é o lugar onde estou\n\nquando eu não estiver\na pertença continua\n\nela existia antes\nela existirá depois\n\n[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnão preciso de a defender\nnão preciso de a explicar\n\nela respira sem mim\nela vive sem mim\n\n[Bridge - very minimal instrumental, kalimba single notes with much silence, distant breath, 40 seconds]\n\n[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsoltar a posse é alívio\nsoltar a posse é confiança\n\na comunidade continua\nmesmo quando deixo de a segurar\n\n[Outro - voices dissolve into breath, kalimba fades, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsolta\nsoltei a pertença\nah\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences between, frame drum disappears in first half, only breath and one residual instrument, dissolving texture, release, surrender, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          }
+        ],
+        "sourceFile": "01a-MEDO-album-2-PERTENCO.md"
+      },
+      {
+        "number": 3,
+        "slug": "peso",
+        "title": "Peso",
+        "subLabel": "Medo",
+        "funcao": "enraizar através da gravidade. O peso como mensageiro, não como problema.",
+        "horaInterior": "tarde, depois do almoço.",
+        "tracks": [
+          {
+            "number": 1,
+            "title": "Tenho Direito",
+            "position": "Chegada",
+            "flag": null,
+            "concept": "autorizar-se a estar pesada. Sem culpa, sem desculpa, sem prometer melhorar.",
+            "sunoPrompt": "[Intro - kalimba grave solo, very deep low drone underneath, single notes with very long silences, 30 seconds]\n\n[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\ntenho direito a estar pesada hoje\nsem dar explicações\n\nsem prometer melhorar amanhã\nsem fingir que está tudo bem\n\ntenho direito\ne este direito não preciso de justificar\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no mundo pode esperar\no mundo já esperou por mim outras vezes\n\nhoje não vou empurrar\nnem fingir energia que não tenho\n\ntenho direito\ne este direito não preciso de justificar\n\n[Bridge - instrumental, kalimba and deep drone only, very sparse, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nser produtiva não é o sentido\nestar viva não exige rendimento\n\ntenho direito a parar\nsem pedir desculpa a ninguém\n\ntenho direito\ne este direito não preciso de justificar\n\n[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no descanso é meu\nnão é favor que me fazem\nnão é coisa que me conceda alguém\n\né direito\nde quem habita um corpo\n\n[Outro - voice fades to whisper, kalimba sustains, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\ndireito\nmeu por inteiro\ndireito\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave solo foreground, no frame drum, no percussion, very deep low drone underneath, single isolated notes with very long silences between, arrival, sparse to the extreme, permission, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 2,
+            "title": "O Peso Tem Mensagem",
+            "position": "Reconhecimento",
+            "flag": null,
+            "concept": "o peso é informação. Veio dizer algo concreto sobre limites ultrapassados.",
+            "sunoPrompt": "[Intro - kalimba grave with mbira distant, frame drum slow spaced pulse, low drone, 25 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no peso veio dizer algo\nnão veio por castigo\n\nveio dizer\nultrapassaste um limite\n\nveio dizer\ndisseste sim a algo que era não\n\no peso tem mensagem\nescuto antes de o tirar\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nqual o sim que era não?\nqual a tarefa que aceitei e não cabia?\n\nqual a pessoa que sustentei\nquando precisava de ser sustentada eu?\n\no peso tem mensagem\nescuto antes de o tirar\n\n[Bridge - instrumental, kalimba and frame drum sustained, mbira distant, no voice, 60 seconds]\n\n[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando escuto o peso\nele agradece e fala mais claro\n\nele diz onde dói\nele diz o que mudar\n\no peso tem mensagem\nescuto antes de o tirar\n\n[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no peso é amigo difícil\namigo que diz o que mais ninguém diz\n\namigo que aponta\no que eu não queria ver\n\n[Outro - voices fade, kalimba sustains, frame drum slows, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nescuto\nescuto a mensagem\nescuto\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave with mbira distant, frame drum slow spaced pulse, low drone sustained, settling rhythm, listening, message, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 3,
+            "title": "Solto o Que Não Era Meu",
+            "position": "Aprofundamento",
+            "flag": null,
+            "concept": "distinguir entre o peso próprio e o peso herdado/imposto. Soltar o que não me pertence carregar.",
+            "sunoPrompt": "[Intro - kalimba grave deeper, frame drum sustained low rumble, deep drone emerging, 30 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnem todo o peso era meu\nmuito veio de fora\n\nexpectativas alheias\nmedos herdados\nculpas que aceitei sem questionar\n\nsolto o que não era meu\nfico com o que é genuinamente meu\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no peso de ser perfeita\nnão era meu\n\no peso de agradar\nnão era meu\n\no peso de não desiludir ninguém\nnão era meu\n\nsolto o que não era meu\nfico com o que é genuinamente meu\n\n[Bridge - instrumental, deep drone full, kalimba grave, frame drum sustained low, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no meu peso real é mais pequeno\ndo que o que andava a carregar\n\no meu peso real é gerível\no resto era acumulação\n\nsolto o que não era meu\nfico com o que é genuinamente meu\n\n[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsoltar o que era de outros\nnão é egoísmo\n\né devolver-lhes o que sempre foi deles\npara que eu possa carregar o meu\n\n[Outro - voices fade, kalimba sustains, drone holds, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsolto\nsolto o que não era meu\nsolto\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper register, frame drum sustained low rumble not pulsed, deep emerging drone as new layer, descending mbira, no melodic movement, discernment, release, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 4,
+            "title": "Sagrado",
+            "position": "Centro",
+            "flag": null,
+            "concept": "o cansaço também é estado sagrado. Não há estados indignos de presença.",
+            "sunoPrompt": "[Intro - kalimba grave, frame drum slow steady, mbira present, drone sustained, 30 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nestar cansada é sagrado\nestar pesada é sagrado\n\nnão há estados indignos\nde presença\n\na meditação não é só para a paz\na meditação é também para o cansaço\n\no cansaço também é sagrado\no cansaço também é forma de oração\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nestar mal não me afasta do divino\nestar mal aproxima-me da minha humanidade\n\ne isso já é o caminho\nnão há outro\n\no cansaço também é sagrado\no cansaço também é forma de oração\n\n[Bridge - instrumental, all elements in balance, kalimba and mbira interweaving, frame drum steady, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nposso meditar exausta\nposso rezar exausta\nposso estar inteira mesmo exausta\n\na inteireza não exige bem-estar\na inteireza só exige presença\n\no cansaço também é sagrado\no cansaço também é forma de oração\n\n[Verse 4 - layered female voices, two Loranne in unison and slight harmony, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquem só medita bem\nnão conhece a meditação completa\n\na meditação inteira inclui o cansaço\na meditação inteira honra o exausto\n\n[Outro - voice fades to whisper, kalimba and frame drum sustain, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsagrado\no cansaço sagrado\nah\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave, frame drum slow steady pulse, mbira present, low sustained drone, all elements in balance, centered, fullness without density, sacred, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 5,
+            "title": "Posso Descansar Sem Provar Nada",
+            "position": "Habitação",
+            "flag": null,
+            "concept": "ócio legítimo. O descanso não exige justificação de produtividade.",
+            "sunoPrompt": "[Intro - mbira foreground warm, kalimba grave background, frame drum very slow regular, 25 seconds]\n\n[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nposso descansar sem provar nada\nposso ficar parada sem culpa\n\nnão preciso de aproveitar este descanso\npara preparar o próximo trabalho\n\ndescansar é actividade completa\nnão preparação para outra coisa\n\nposso descansar\nsem agenda escondida\n\n[Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no sistema diz que ócio é desperdício\no corpo sabe que ócio é matéria-prima\n\ndeixo o sistema falar\nfico com o que o corpo sabe\n\nposso descansar\nsem agenda escondida\n\n[Bridge - instrumental, mbira and kalimba sustained warm, frame drum slow regular, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquem descansa sem culpa\ndescansa mais profundamente\n\no descanso culpado\nnão é descanso real\n\nposso descansar\nsem agenda escondida\n\n[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\neste momento parado\nestá completo em si mesmo\n\nnão precisa de levar a nada\nnão precisa de justificar nada\n\n[Outro - voices fade gently, mbira sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\ndescanso\nsem provar nada\ndescanso\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira foreground warm, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, settled rhythm, dwelling, inhabited, legitimate rest, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 6,
+            "title": "Vou Parar Mais Cedo",
+            "position": "Despedida",
+            "flag": null,
+            "concept": "prevenir. Da próxima vez não chegarei tão pesada — vou reconhecer os sinais antes.",
+            "sunoPrompt": "[Intro - kalimba grave more articulated, frame drum gentle awakening pulse, drone beginning to open, 25 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nda próxima vez vou parar mais cedo\nnão esperar pelo extremo\n\nos sinais existem antes\nsó me distraio deles\n\no cansaço pequeno\navisa antes do cansaço grande\n\nvou parar mais cedo\nvou escutar antes de gritar\n\n[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando sentir o ombro a apertar\nvou parar\n\nquando sentir a paciência a acabar\nvou parar\n\nquando sentir-me a empurrar-me\nvou parar\n\nvou parar mais cedo\nvou escutar antes de gritar\n\n[Bridge - instrumental, kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]\n\n[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\neste peso ensinou-me a ouvir\nmais cedo da próxima vez\n\nobrigada peso\npor me teres trazido até aqui\n\nvou parar mais cedo\nvou escutar antes de gritar\n\n[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nprevenir é forma de amor\npara o eu de amanhã\n\ncuido hoje\nda quem vou ser daqui a uma semana\n\n[Outro - voices fade to whisper, kalimba sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nmais cedo\nda próxima vez mais cedo\nvou\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated notes, frame drum gentle awakening pulse, drone beginning to open upward, mbira lighter, preparing movement, transition feeling, prevention, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 7,
+            "title": "A Leveza Não É Meta",
+            "position": "Dissolução",
+            "flag": null,
+            "concept": "soltar a obsessão pela leveza. Pesada ou leve, ambas são formas de estar inteira.",
+            "sunoPrompt": "[Intro - very sparse kalimba single notes, no frame drum, much silence, 20 seconds]\n\n[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na leveza não é meta\na leveza não é prova de bem-estar\n\nposso estar pesada e estar bem\nposso estar leve e estar perdida\n\nambas as coisas são possíveis\nambas as coisas existem\n\n[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsolto a perseguição da leveza\nela vinha empurrar-me também\n\no que procurava era inteireza\nnão leveza\n\n[Bridge - very minimal instrumental, kalimba single notes with much silence, distant breath, 40 seconds]\n\n[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\ninteira pesada\ninteira leve\n\nambas verdade\nambas legítimas\n\n[Outro - voices dissolve into breath, kalimba fades, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsolto a meta\ninteira como estiver\nah\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences between, frame drum disappears in first half, only breath and one residual instrument, dissolving texture, release, freedom from goals, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          }
+        ],
+        "sourceFile": "01a-MEDO-album-3-PESO.md"
+      },
+      {
+        "number": 4,
+        "slug": "arvore",
+        "title": "Árvore",
+        "subLabel": "Medo",
+        "funcao": "enraizar através da verticalidade interior. Coluna como tronco, pés como raízes.",
+        "horaInterior": "fim de tarde, luz dourada.",
+        "tracks": [
+          {
+            "number": 1,
+            "title": "Verticalidade é Decisão",
+            "position": "Chegada",
+            "flag": null,
+            "concept": "não postura forçada",
+            "sunoPrompt": "[Intro - kalimba grave solo, very deep low drone underneath, single notes with very long silences, 30 seconds]\n\n[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nestar de pé por dentro\nnão é postura física\n\né decisão interior\nde não me curvar perante o medo\n\nmesmo deitada posso estar erguida\nmesmo sentada posso estar plena\n\na verticalidade é decisão\nnão é exercício\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que se ergue em mim\né a dignidade\n\nnão orgulho\nnão vaidade\ndignidade\n\na verticalidade é decisão\nnão é exercício\n\n[Bridge - instrumental, kalimba and deep drone only, very sparse, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando decido estar de pé\nalgo em mim responde\n\na coluna lembra-se\no peito lembra-se\no queixo lembra-se\n\na verticalidade é decisão\nnão é exercício\n\n[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquem decide estar de pé\nnão precisa de provar verticalidade\n\njá está\nquando se decide\n\n[Outro - voice fades to whisper, kalimba sustains, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nde pé\npor dentro de pé\nah\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave solo foreground, no frame drum, no percussion, very deep low drone underneath, single isolated notes with very long silences between, arrival, sparse to the extreme, vertical decision, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 2,
+            "title": "A Coluna Trabalha em Silêncio",
+            "position": "Reconhecimento",
+            "flag": null,
+            "concept": "gratidão ao que sustenta sem se ver",
+            "sunoPrompt": "[Intro - kalimba grave with mbira distant, frame drum slow spaced pulse, low drone, 25 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na coluna trabalha desde que nasci\nsem pedir atenção\n\ncada vértebra\ncada disco\ncada músculo profundo\nsustenta o que sou\n\na coluna trabalha em silêncio\ne eu mal lhe agradeço\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando me curvo\nela aguenta\n\nquando me ergo\nela suporta\n\nquando me esforço demais\nela paga em silêncio\n\na coluna trabalha em silêncio\ne eu mal lhe agradeço\n\n[Bridge - instrumental, kalimba and frame drum sustained, mbira distant, no voice, 60 seconds]\n\n[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nhoje agradeço à coluna\npeço perdão à coluna\nprometo escutar a coluna\n\nquando ela falar\nnão vou ignorar\n\na coluna trabalha em silêncio\ne eu finalmente lhe agradeço\n\n[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que sustenta sem se ver\nmerece o reconhecimento mais profundo\n\ninvisível\nmas indispensável\n\n[Outro - voices fade, kalimba sustains, frame drum slows, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nobrigada\nà coluna que me ergue\nobrigada\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave with mbira distant, frame drum slow spaced pulse, low drone sustained, settling rhythm, recognition, gratitude, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 3,
+            "title": "Raízes Para Baixo",
+            "position": "Aprofundamento",
+            "flag": null,
+            "concept": "o oculto sustenta o visível",
+            "sunoPrompt": "[Intro - kalimba grave deeper, frame drum sustained low rumble, deep drone emerging, 30 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na árvore não cresce só para cima\ncresce para baixo também\n\nquanto mais alta a copa\nmais profunda a raiz\n\nraízes para baixo\npara que eu possa subir sem cair\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que sustenta a minha presença pública\né a minha presença privada\n\no que sustenta as minhas palavras\né o meu silêncio\n\nraízes para baixo\npara que eu possa subir sem cair\n\n[Bridge - instrumental, deep drone full, kalimba grave, frame drum sustained low, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\npreciso de descer mais\npara poder subir mais\n\npreciso de calar mais\npara poder dizer mais\n\nraízes para baixo\npara que eu possa subir sem cair\n\n[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquem só tem copa\no primeiro vento derruba\n\nquem tem raízes\nbalança e fica\n\n[Outro - voices fade, kalimba sustains, drone holds, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nraízes\nraízes profundas\nah\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper register, frame drum sustained low rumble not pulsed, deep emerging drone as new layer, descending mbira, no melodic movement, downward feeling, depth, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 4,
+            "title": "Em Pé Inteira",
+            "position": "Centro",
+            "flag": null,
+            "concept": "ponte entre o que está em baixo e o que está em cima",
+            "sunoPrompt": "[Intro - kalimba grave, frame drum slow steady, mbira present, drone sustained, 30 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nem pé inteira\nde baixo a cima\n\nsou ponte\nentre o que pisa o chão\ne o que respira o ar\n\na corrente sobe e desce em mim\nsem pedir licença\n\nem pé inteira\ncanal aberto entre dois mundos\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\natravés de mim\na terra encontra-se com o céu\n\natravés de mim\no oculto encontra-se com o visível\n\natravés de mim\no ancestral encontra-se com o futuro\n\nem pé inteira\ncanal aberto entre dois mundos\n\n[Bridge - instrumental, all elements in balance, kalimba and mbira interweaving, frame drum steady, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnão tenho de escolher entre o em baixo e o em cima\nsou os dois ao mesmo tempo\n\nessa é a graça da árvore\nessa é a graça do humano\n\nem pé inteira\ncanal aberto entre dois mundos\n\n[Verse 4 - layered female voices, two Loranne in unison and slight harmony, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nestar inteira\né estar em duas dimensões ao mesmo tempo\n\nvertical e horizontal\noculto e visível\n\n[Outro - voice fades to whisper, kalimba and frame drum sustain, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\ninteira\ncanal aberto\ninteira\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave, frame drum slow steady pulse, mbira present, low sustained drone, all elements in balance, centered, fullness without density, vertical wholeness, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 5,
+            "title": "A Árvore Balança Sem Cair",
+            "position": "Habitação",
+            "flag": null,
+            "concept": "flexibilidade enraizada",
+            "sunoPrompt": "[Intro - mbira foreground warm, kalimba grave background, frame drum very slow regular, 25 seconds]\n\n[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na árvore balança sem cair\no vento passa por ela\nela move-se\nmas fica\n\na flexibilidade enraizada\nnão é fraqueza\né a única força verdadeira\n\nbalanço sem cair\nmovimento sem perda de eixo\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquem é demasiado rígido\nparte ao primeiro vento\n\nquem é demasiado solto\nvoa sem direção\n\na árvore sabe a medida\noscila e fica\n\nbalanço sem cair\nmovimento sem perda de eixo\n\n[Bridge - instrumental, mbira and kalimba sustained warm, frame drum slow regular, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nposso ser afectada\nsem perder quem sou\n\nposso ser tocada\nsem ser arrancada\n\nbalanço sem cair\nmovimento sem perda de eixo\n\n[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na árvore mais forte\né a que balança mais\nsem cair\n\na vida pede flexibilidade\nmas exige raiz\n\n[Outro - voices fade gently, mbira sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nbalanço\ne fico\nbalanço\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira foreground warm, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, settled rhythm, dwelling, inhabited, rooted flexibility, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 6,
+            "title": "Levo a Coluna Comigo",
+            "position": "Despedida",
+            "flag": null,
+            "concept": "verticalidade no movimento do dia",
+            "sunoPrompt": "[Intro - kalimba grave more articulated, frame drum gentle awakening pulse, drone beginning to open, 25 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando me levantar agora\na coluna não fica para trás\n\nvou andar erguida\nvou trabalhar erguida\nvou conversar erguida\n\na verticalidade vai comigo\npara todas as conversas difíceis\n\n[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando alguém tentar dobrar-me hoje\nvou lembrar-me da árvore\n\nquando alguém tentar arrancar-me\nvou lembrar-me das raízes\n\na verticalidade vai comigo\npara todas as conversas difíceis\n\n[Bridge - instrumental, kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]\n\n[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnão é arrogância\né dignidade\n\nnão é desafio\né integridade\n\na verticalidade vai comigo\npara todas as conversas difíceis\n\n[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no que aprendi enraizada\nserve para o conflito\n\nquem está enraizada\nnão foge nem ataca\nfica e responde\n\n[Outro - voices fade to whisper, kalimba sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nlevo\nergo a coluna\nvou\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated notes, frame drum gentle awakening pulse, drone beginning to open upward, mbira lighter, preparing movement, transition feeling, embodied integrity, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 7,
+            "title": "Mesmo o Tronco Se Solta",
+            "position": "Dissolução",
+            "flag": null,
+            "concept": "aceitar que tudo se dissolve",
+            "sunoPrompt": "[Intro - very sparse kalimba single notes, no frame drum, much silence, 20 seconds]\n\n[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nmesmo a árvore mais forte\num dia cai\n\nmesmo o tronco mais grosso\nvolta à terra\n\na verticalidade não é permanência\né dignidade enquanto dura\n\n[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsolto a obsessão de estar sempre de pé\nposso descansar deitada também\n\na árvore que cai não falhou\ncumpriu o seu tempo\n\n[Bridge - very minimal instrumental, kalimba single notes with much silence, distant breath, 40 seconds]\n\n[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nser ergue-se\nser cai\nambas são gestos completos\n\na dignidade não está em durar\na dignidade está em ser\n\n[Outro - voices dissolve into breath, kalimba fades, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsolto\nmesmo a verticalidade\nah\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences between, frame drum disappears in first half, only breath and one residual instrument, dissolving texture, release, impermanence, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          }
+        ],
+        "sourceFile": "01a-MEDO-album-4-ARVORE.md"
+      },
+      {
+        "number": 5,
+        "slug": "pes-descalcos",
+        "title": "Pés Descalços",
+        "subLabel": "Medo",
+        "funcao": "enraizar pelo sensorial. Voltar ao corpo através do que toca a pele.",
+        "horaInterior": "manhã com orvalho.",
+        "tracks": [
+          {
+            "number": 1,
+            "title": "Deixei de Habitar a Pele",
+            "position": "Chegada",
+            "flag": null,
+            "concept": "diagnóstico de afastamento",
+            "sunoPrompt": "[Intro - kalimba grave solo, very deep low drone underneath, single notes with very long silences, 30 seconds]\n\n[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\ndeixei de habitar a pele\nsem dar por isso\n\nandei na cabeça\nandei no telemóvel\nandei nos planos\n\nesqueci-me da pele\nque respira por mim\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na pele esperou pacientemente\nsem reclamar\n\nagora regresso a ela\nsem culpa\nmas com presença\n\nesqueci-me da pele\nque respira por mim\n\n[Bridge - instrumental, kalimba and deep drone only, very sparse, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no corpo é casa\nnão foi feito para estar vazio\n\nquando regresso a ele\nele recebe-me em silêncio\n\nesqueci-me da pele\nagora regresso a ela\n\n[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no exílio do corpo\né o exílio mais comum\n\nregressar é o gesto mais simples\ne o mais esquecido\n\n[Outro - voice fades to whisper, kalimba sustains, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nregresso\nà pele que sou\nregresso\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave solo foreground, no frame drum, no percussion, very deep low drone underneath, single isolated notes with very long silences between, arrival, sparse to the extreme, sensory return, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 2,
+            "title": "A Pele é Fronteira Viva",
+            "position": "Reconhecimento",
+            "flag": null,
+            "concept": "não barreira, mas órgão de relação",
+            "sunoPrompt": "[Intro - kalimba grave with mbira distant, frame drum slow spaced pulse, low drone, 25 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na pele não é barreira\na pele é órgão de relação\n\natravés dela conheço o mundo\natravés dela o mundo conhece-me\n\na pele decide o que entra\na pele decide o que sai\n\na pele é fronteira viva\nnão muro\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no calor entra pela pele\no frio entra pela pele\no toque entra pela pele\n\ne eu saio pela pele para os outros\nquando me deixo tocar\n\na pele é fronteira viva\nnão muro\n\n[Bridge - instrumental, kalimba and frame drum sustained, mbira distant, no voice, 60 seconds]\n\n[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nrespeitar a pele\né respeitar o direito de filtrar\n\nnem tudo deve entrar\nnem tudo deve sair\n\na pele sabe a medida\nquando eu a escuto\n\na pele é fronteira viva\nnão muro\n\n[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na fronteira saudável\nnão isola\n\na fronteira saudável\nrelaciona com discernimento\n\n[Outro - voices fade, kalimba sustains, frame drum slows, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nfronteira\nviva e respirante\nfronteira\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave with mbira distant, frame drum slow spaced pulse, low drone sustained, settling rhythm, sensory boundary, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 3,
+            "title": "Tocar é Ser Tocada",
+            "position": "Aprofundamento",
+            "flag": null,
+            "concept": "reciprocidade sensorial",
+            "sunoPrompt": "[Intro - kalimba grave deeper, frame drum sustained low rumble, deep drone emerging, 30 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nnão há tocar sem ser tocada\nnem há ser tocada sem tocar de volta\n\na relação sensorial é sempre dupla\nmesmo quando não pensamos nisso\n\nquando piso o chão\no chão pisa-me também\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando seguro algo\nsou também segurada por ele\n\na reciprocidade é lei\nnão é cortesia\n\nquando piso o chão\no chão pisa-me também\n\n[Bridge - instrumental, deep drone full, kalimba grave, frame drum sustained low, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nesta reciprocidade muda tudo\nnão sou separada do mundo\n\nestou em conversa contínua\natravés de cada milímetro de pele\n\nquando piso o chão\no chão pisa-me também\n\n[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no tocar como prece\no ser tocada como resposta\n\na pele é local de comunhão constante\nmesmo quando esquecemos\n\n[Outro - voices fade, kalimba sustains, drone holds, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\ntocar\nser tocada\nambas em mim\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper register, frame drum sustained low rumble not pulsed, deep emerging drone as new layer, descending mbira, no melodic movement, reciprocity, sensory depth, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 4,
+            "title": "Volto Pelo Corpo",
+            "position": "Centro",
+            "flag": null,
+            "concept": "caminho corpo-primeiro",
+            "sunoPrompt": "[Intro - kalimba grave, frame drum slow steady, mbira present, drone sustained, 30 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nvolto pelo corpo\nnão pela cabeça\n\na cabeça tenta sempre regressar pensando\no corpo regressa sentindo\n\na cabeça quer entender\no corpo basta-se em estar\n\nvolto pelo corpo\nporque a cabeça nunca chegou inteira\n\n[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsinto o peso na cadeira\nsinto o ar nas narinas\nsinto a saliva na boca\n\nsinto, sinto, sinto\ne estou inteira\n\nvolto pelo corpo\nporque a cabeça nunca chegou inteira\n\n[Bridge - instrumental, all elements in balance, kalimba and mbira interweaving, frame drum steady, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no caminho do corpo\né mais curto do que parece\n\nbasta sentir uma coisa\ne já estou em casa\n\nvolto pelo corpo\nporque a cabeça nunca chegou inteira\n\n[Verse 4 - layered female voices, two Loranne in unison and slight harmony, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na sabedoria do corpo\né mais antiga que a sabedoria da mente\n\no corpo sabia chegar\nantes da palavra existir\n\n[Outro - voice fades to whisper, kalimba and frame drum sustain, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\npelo corpo\nvolto pelo corpo\npelo corpo\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave, frame drum slow steady pulse, mbira present, low sustained drone, all elements in balance, centered, fullness without density, body-first return, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 5,
+            "title": "Habitante Deste Corpo",
+            "position": "Habitação",
+            "flag": null,
+            "concept": "moradora, não passageira",
+            "sunoPrompt": "[Intro - mbira foreground warm, kalimba grave background, frame drum very slow regular, 25 seconds]\n\n[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsou habitante deste corpo\nnão passageira de viagem\n\nvou viver aqui dentro\ndurante o tempo que durar\n\nposso conhecer cada canto\nposso ter familiaridade\n\nsou habitante\nnão turista do meu próprio corpo\n\n[Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nhabitar é diferente de visitar\nhabitar implica intimidade\n\nconhecer quando dói\nconhecer quando vibra\nconhecer quando pede repouso\n\nsou habitante\nnão turista do meu próprio corpo\n\n[Bridge - instrumental, mbira and kalimba sustained warm, frame drum slow regular, no voice, 60 seconds]\n\n[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\neste corpo é casa\nnão veículo\n\nmerece manutenção\nmerece carinho\nmerece atenção\n\nsou habitante\nnão turista do meu próprio corpo\n\n[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nhabitar com presença\né forma de gratidão\n\na casa que me foi dada\nmerece ser amada\n\n[Outro - voices fade gently, mbira sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nhabito\nmoro neste corpo\nhabito\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira foreground warm, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, settled rhythm, dwelling, inhabited, body as home, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 6,
+            "title": "Sensibilidade Para o Dia",
+            "position": "Despedida",
+            "flag": null,
+            "concept": "atenção sensorial activa",
+            "sunoPrompt": "[Intro - kalimba grave more articulated, frame drum gentle awakening pulse, drone beginning to open, 25 seconds]\n\n[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nlevo a sensibilidade para o dia\nnão a deixo aqui\n\nvou sentir o sol no caminho para o trabalho\nvou sentir a textura da chávena\nvou sentir o peso do telefone na mão\n\na presença sensorial é prática contínua\nnão é só meditação\n\n[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nquando me esquecer\nbasta sentir uma coisa\n\nbasta um toque consciente\npara regressar\n\na presença sensorial é prática contínua\nnão é só meditação\n\n[Bridge - instrumental, kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]\n\n[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\no dia inteiro pode ser meditação\nse a pele estiver acordada\n\ncada toque\ncada cheiro\ncada som\né convite a regressar\n\na presença sensorial é prática contínua\nnão é só meditação\n\n[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nviver através dos sentidos\né viver sem distância\n\nsem ecrã interno\nsem narração mental\n\n[Outro - voices fade to whisper, kalimba sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsensível\natravés do dia\nsensível\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated notes, frame drum gentle awakening pulse, drone beginning to open upward, mbira lighter, preparing movement, transition feeling, sensory awakening, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          },
+          {
+            "number": 7,
+            "title": "A Pele Também Se Dissolve",
+            "position": "Dissolução",
+            "flag": null,
+            "concept": "aceitar a permeabilidade",
+            "sunoPrompt": "[Intro - very sparse kalimba single notes, no frame drum, much silence, 20 seconds]\n\n[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\na pele que sou\ntambém se dissolve\n\né matéria temporária\né célula em renovação\n\na pele que tenho agora\nnão é a pele de há sete anos\n\n[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\naceitar a impermanência da pele\né aceitar a impermanência de tudo\n\na pele ensina\natravés do que perde e renova\n\n[Bridge - very minimal instrumental, kalimba single notes with much silence, distant breath, 40 seconds]\n\n[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nmesmo a fronteira que sou\né permeável\n\nmesmo o limite do corpo\nrespira\n\n[Outro - voices dissolve into breath, kalimba fades, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]\nsolta\nmesmo a forma se dissolve\nah\n\nah",
+            "style": "african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences between, frame drum disappears in first half, only breath and one residual instrument, dissolving texture, release, impermanence, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
+          }
+        ],
+        "sourceFile": "01a-MEDO-album-5-PES-DESCALCOS.md"
+      }
+    ],
+    "magoa": [],
+    "apatia": [],
+    "inquietacao": [],
+    "sufoco": [],
+    "confusao": [],
+    "vazio": []
+  }
+}
