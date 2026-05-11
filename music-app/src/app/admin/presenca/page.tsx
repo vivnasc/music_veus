@@ -109,6 +109,12 @@ export default function AdminPresencaPage() {
               ▶ Gerar no Suno (pipeline Loranne)
             </Link>
             <Link
+              href="/admin/presenca-capas"
+              className="text-[11px] px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 text-[#c9c9d4]"
+            >
+              🕯 Capas
+            </Link>
+            <Link
               href="/presenca"
               className="text-[11px] px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 text-[#c9c9d4]"
             >
