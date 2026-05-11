@@ -60,7 +60,7 @@ export type Album = {
   title: string;
   subtitle: string;
   artist?: string; // Default "Loranne" — override for other artists (e.g. "Ancient Ground")
-  product: "espelho" | "no" | "livro" | "curso" | "incenso" | "eter" | "nua" | "sangue" | "fibra" | "grao" | "mare" | "ancient-ground" | "nova" | "venna";
+  product: "espelho" | "no" | "livro" | "curso" | "incenso" | "eter" | "nua" | "sangue" | "fibra" | "grao" | "mare" | "ancient-ground" | "nova" | "venna" | "presenca";
   veu?: number;
   courseSlug?: string;
   color: string;

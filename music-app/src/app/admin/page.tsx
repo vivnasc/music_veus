@@ -13,6 +13,7 @@ type AdminSection = {
 const SECTIONS: AdminSection[] = [
   // Produzir
   { href: "/admin/producao", title: "Produção", subtitle: "Gerar tracks Suno, gerir personas e clips", emoji: "🎼", group: "produzir" },
+  { href: "/admin/presenca", title: "Presença", subtitle: "Meditação cantada — Loranne & Ancient Ground (49 álbuns)", emoji: "🕯", group: "produzir" },
   { href: "/admin/nova", title: "Nova", subtitle: "Bulk editor de letras e prompts", emoji: "✍️", group: "produzir" },
   { href: "/admin/venna", title: "VENNA", subtitle: "Wrapper de letras e accent locks", emoji: "🎙", group: "produzir" },
   { href: "/admin/lora", title: "LoRA", subtitle: "Treino e zip de imagens Loranne", emoji: "🧬", group: "produzir" },
@@ -25,6 +26,7 @@ const SECTIONS: AdminSection[] = [
   // Capas
   { href: "/admin/moods", title: "Capas dos 7 moods", subtitle: "Elevar, Aterrar, Acordar, Lembrar, Reunir-se, Respirar, Atravessar", emoji: "🌒", group: "capas" },
   { href: "/admin/coleccoes", title: "Capas das 11 coleções", subtitle: "Incenso, Fibra, Maré, Grão, Nua, Sangue, Espelho, Nó, Éter, Livro, Curso", emoji: "📚", group: "capas" },
+  { href: "/admin/presenca-capas", title: "Capas das 7 sub-Presença", subtitle: "Medo, Mágoa, Apatia, Inquietação, Sufoco, Confusão, Vazio", emoji: "🕯", group: "capas" },
   { href: "/admin/fotos", title: "Fotos / Loranne images", subtitle: "Banco de imagens da Loranne", emoji: "📷", group: "capas" },
 
   // Outras
