@@ -9,7 +9,7 @@
 // Run with:
 //   node scripts/build-presenca.mjs
 
-import { readFileSync, writeFileSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -18,6 +18,14 @@ const __dirname = dirname(__filename);
 
 const PROJECT_DIR = resolve(__dirname, "../../PRESENÇA_Project");
 const OUT_FILE = resolve(__dirname, "../src/data/presenca-data.json");
+
+// If the source markdown folder isn't present (e.g. some CI builds scope the
+// checkout to music-app/ only), keep the committed JSON as-is and exit
+// gracefully so the build still succeeds.
+if (!existsSync(PROJECT_DIR)) {
+  console.log(`[build-presenca] ${PROJECT_DIR} not found — keeping existing presenca-data.json.`);
+  process.exit(0);
+}
 
 // ─── Sub-coleções map (from MAPA-DECIDIDO.md) ────────────────────────────────
 // Slug → numeric prefix in filenames (01a, 02a, etc.)

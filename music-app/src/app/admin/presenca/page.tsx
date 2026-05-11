@@ -233,7 +233,8 @@ function SubDetailPanel({
             Ainda não há álbuns escritos para <strong>{sub.label}</strong>.
           </p>
           <p className="text-[11px] text-[#666680] mt-1">
-            {sub.albumCount} álbuns previstos. Cria os ficheiros em <code>PRESENÇA_Project/</code> e corre <code>node scripts/build-presenca.mjs</code>.
+            {sub.albumCount} álbuns previstos. Cria os ficheiros <code>PRESENÇA_Project/*.md</code> no GitHub —
+            o deploy seguinte parseia automaticamente.
           </p>
         </div>
       ) : (
