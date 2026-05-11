@@ -70,7 +70,6 @@ export type PresencaAlbum = {
 };
 
 export type PresencaData = {
-  generatedAt: string;
   manifestoExcerpt: string;
   subs: PresencaSub[];
   albums: Record<PresencaSubSlug, PresencaAlbum[]>;

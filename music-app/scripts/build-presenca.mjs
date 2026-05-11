@@ -259,8 +259,10 @@ for (const sub of subs) {
   allAlbums[sub.slug] = collectAlbumsFor(sub.slug);
 }
 
+// Output is deterministic — no timestamps — so re-running the parser without
+// changes to the source markdown produces a byte-identical JSON. Avoids
+// noisy git diffs on every build.
 const out = {
-  generatedAt: new Date().toISOString(),
   manifestoExcerpt: readManifesto(),
   subs,
   albums: allAlbums,
