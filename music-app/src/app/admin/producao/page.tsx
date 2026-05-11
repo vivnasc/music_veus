@@ -4,7 +4,6 @@ import { useState, useRef, useCallback, useEffect } from "react";
 import Link from "next/link";
 import { parseBlob } from "music-metadata-browser";
 import {
-  getAlbumsByProduct,
   ENERGY_LABELS,
   FLAVOR_LABELS,
   type Album,
@@ -2167,10 +2166,13 @@ export default function AlbumProductionPage() {
     }, 5 * 60 * 1000);
   }, []);
 
+  // Filter using local ALL_ALBUMS (= ALL_ALBUMS_WITH_LYRICS) which includes
+  // Presença. The exported getAlbumsByProduct() helper only sees the lyric-less
+  // ALL_ALBUMS in albums.ts and would miss Presença entirely.
   const albumsByProduct =
     filter === "all"
       ? ALL_ALBUMS
-      : getAlbumsByProduct(filter as Album["product"]);
+      : ALL_ALBUMS.filter((a) => a.product === filter);
 
   // Apply mood filter (track-level): keep albums that have at least 1 track
   // tagged with the selected mood (primary or secondary).
