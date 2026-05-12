@@ -22,6 +22,7 @@ import { MOOD_META, type LoranneMood, type CompactMoodsData } from "@/data/loran
 import LORANNE_MOODS_DATA from "@/data/loranne-moods-data.json";
 import CalendarView from "./CalendarView";
 import { PRESENCA_SUBS, PRESENCA_SUB_META, type PresencaSubSlug } from "@/data/presenca";
+import { ACCENT_FIXES_MANIFEST } from "@/data/accent-fixes-manifest";
 
 /** Read ID3 title from an MP3 File */
 async function readId3Title(file: File): Promise<string | null> {
@@ -1881,6 +1882,12 @@ export default function AlbumProductionPage() {
   const lyricsSaveRef = useRef<Record<string, NodeJS.Timeout>>({});
   const [trackVersions, setTrackVersions] = useState<Record<string, VersionInfo[]>>({}); // key → versions
   const [sunoModel, setSunoModel] = useState("V5_5");
+  // Bulk regen state for the "Regenerar faixas com letra corrigida" panel
+  const [accentRegenRunning, setAccentRegenRunning] = useState(false);
+  const [accentRegenIdx, setAccentRegenIdx] = useState(0);
+  // ref because the cancel button needs to interrupt an in-flight loop whose
+  // closure already captured the previous state
+  const accentRegenCancelRef = useRef(false);
   // Persona Loranne — auto-set from Goodnight World seed; user override persists in localStorage
   const [personaId, setPersonaId] = useState<string>(() => {
     if (typeof window === "undefined") return LORANNE_VOICE_ID;
@@ -2560,6 +2567,29 @@ export default function AlbumProductionPage() {
     }
   }
 
+  // Bulk-regenerate the tracks listed in ACCENT_FIXES_MANIFEST.
+  // Sequential, 2s delay between submissions (same pattern as "Gerar todas").
+  async function regenerateAccentFixes() {
+    if (accentRegenRunning) return;
+    accentRegenCancelRef.current = false;
+    setAccentRegenRunning(true);
+    setAccentRegenIdx(0);
+    for (let i = 0; i < ACCENT_FIXES_MANIFEST.length; i++) {
+      if (accentRegenCancelRef.current) break;
+      const { albumSlug, trackNumber } = ACCENT_FIXES_MANIFEST[i];
+      const alb = ALL_ALBUMS.find((a) => a.slug === albumSlug);
+      const track = alb?.tracks.find((t) => t.number === trackNumber);
+      setAccentRegenIdx(i + 1);
+      if (!track) continue;
+      generateTrack(albumSlug, track);
+      // 2s pause between submissions to avoid Suno rate limits
+      if (i < ACCENT_FIXES_MANIFEST.length - 1) {
+        await new Promise((r) => setTimeout(r, 2000));
+      }
+    }
+    setAccentRegenRunning(false);
+  }
+
   function removeTrack(albumSlug: string, trackNum: number) {
     const key = trackKey(albumSlug, trackNum);
     setStatuses((s) => ({ ...s, [key]: "idle" }));
@@ -2813,6 +2843,69 @@ export default function AlbumProductionPage() {
             </div>
           </div>
         </div>
+
+        {/* Regenerar faixas com letra corrigida (acentuação Incenso) */}
+        {viewMode === "producao" && (() => {
+          const total = ACCENT_FIXES_MANIFEST.length;
+          const byAlbum = ACCENT_FIXES_MANIFEST.reduce<Record<string, number[]>>((acc, e) => {
+            (acc[e.albumSlug] ||= []).push(e.trackNumber);
+            return acc;
+          }, {});
+          const current = accentRegenIdx;
+          return (
+            <div className="mb-6 rounded-lg border border-amber-500/30 bg-amber-950/20 p-4">
+              <div className="flex items-start justify-between gap-3 flex-wrap">
+                <div>
+                  <h3 className="text-sm font-semibold text-amber-200">
+                    Regenerar faixas com letra corrigida (acentuação Incenso)
+                  </h3>
+                  <p className="mt-1 text-[11px] text-amber-200/70">
+                    {total} faixas em {Object.keys(byAlbum).length} álbuns — letras com acentos corrigidos na branch{" "}
+                    <code className="rounded bg-black/30 px-1">claude/fix-album-accents-1htRZ</code>.
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  {!accentRegenRunning ? (
+                    <button
+                      onClick={regenerateAccentFixes}
+                      className="rounded-lg bg-amber-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-amber-700"
+                    >
+                      Regenerar todas ({total})
+                    </button>
+                  ) : (
+                    <>
+                      <span className="text-xs text-amber-300">
+                        A submeter {current}/{total}...
+                      </span>
+                      <button
+                        onClick={() => { accentRegenCancelRef.current = true; }}
+                        className="rounded-lg bg-red-700/50 px-3 py-2 text-xs text-red-200 hover:bg-red-700/70"
+                      >
+                        Cancelar
+                      </button>
+                    </>
+                  )}
+                </div>
+              </div>
+              <details className="mt-3 text-[11px] text-amber-200/60">
+                <summary className="cursor-pointer hover:text-amber-200">
+                  Ver lista por álbum
+                </summary>
+                <ul className="mt-2 space-y-1">
+                  {Object.entries(byAlbum).map(([slug, nums]) => {
+                    const a = ALL_ALBUMS.find((x) => x.slug === slug);
+                    return (
+                      <li key={slug}>
+                        <span className="text-amber-100">{a?.title || slug}</span>
+                        <span className="text-amber-200/50"> — faixas {nums.join(", ")}</span>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </details>
+            </div>
+          );
+        })()}
 
         {/* Calendar view */}
         {viewMode === "calendario" && <CalendarView />}
