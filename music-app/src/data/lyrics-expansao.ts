@@ -1535,7 +1535,7 @@ e eu sabia — mesmo no sonho — que estavas ausente
 [Verse 2]
 Não disse nada, não perguntei nada
 só fiquei ali a olhar
-A forma como pousamvas a chávena
+A forma como pousavas a chávena
 a forma como o vapor subia no ar
 
 [Chorus]

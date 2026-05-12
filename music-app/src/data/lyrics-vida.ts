@@ -385,7 +385,7 @@ O peso de quem finjo que amo
 Sentar
 Só sentar e já chegar
 Não há nada para resolver
-Só este chão é este respirar
+Só este chão e este respirar
 Só este corpo a aprender
 A estar
 
@@ -400,7 +400,7 @@ Só o agora a acontecer
 Sentar
 Só sentar e já chegar
 Não há nada para resolver
-Só este chão é este respirar
+Só este chão e este respirar
 Só este corpo a aprender
 A estar
 
@@ -460,15 +460,15 @@ Still, still, still water`,
 
 [Verse 1]
 As costelas abrem como portas
-O ar entra frio é sai quente
+O ar entra frio e sai quente
 Não há mais palavras mortas
 Só o corpo, simplesmente
 
 [Verse 2]
 A barriga sobe e desce
-Como a mare sem lua
+Como a maré sem lua
 Não há nada que acontece
-Que está respiração não sua
+Que esta respiração não sua
 
 [Chorus]
 O corpo respira
@@ -482,7 +482,7 @@ Que o corpo não trai
 
 [Verse 3]
 Cada inspiração é um mundo
-Cada expiração e adeus
+Cada expiração é adeus
 O corpo sabe no mais fundo
 Que respirar é o nome de Deus
 
@@ -653,7 +653,7 @@ Nenhum lugar
 Nenhuma pressa
 Nenhum altar
 Nenhuma promessa
-Só este chão é este ar
+Só este chão e este ar
 Só este corpo a respirar
 Sem destino, sem razão
 Só a mão no coração
@@ -664,7 +664,7 @@ Nenhum lugar
 Nenhuma pressa
 Nenhum altar
 Nenhuma promessa
-Só este chão é este ar
+Só este chão e este ar
 Só este corpo a respirar
 Sem destino, sem razão
 Só a mão no coração
@@ -681,7 +681,7 @@ Só estar`,
 [Verse 1]
 Fingers move, the blood returns
 Eyelids flutter to the light
-The room I left só long ago
+The room I left so long ago
 Has changed its angle, changed its white
 
 [Verse 2]
@@ -2443,7 +2443,7 @@ Permissão
 Para ser a chuva e a inundação
 Não é fraqueza, não é derrota
 É o corpo a cobrar o que lhe devem
-Cada lagrima é uma nota
+Cada lágrima é uma nota
 De tudo o que segurei para sempre
 
 
@@ -2454,7 +2454,7 @@ Permissão
 Para ser a chuva e a inundação
 Não é fraqueza, não é derrota
 É o corpo a cobrar o que lhe devem
-Cada lagrima é uma nota
+Cada lágrima é uma nota
 De tudo o que segurei para sempre
 
 [Outro]
@@ -2507,36 +2507,36 @@ Let it all come through`,
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
-As lagrimas secam na face
+As lágrimas secam na face
 Apertam a pele de sal
 O mesmo sal que o mar desfaz
 O mesmo sal que é mineral
 
 [Verse 2]
 O corpo é oceano por dentro
-O choro e a mare que sobe
+O choro é a maré que sobe
 Sou água e sal e vento
-E nada disto me corroi
+E nada disto me corrói
 
 [Chorus]
 Salgado
-O sal das lagrimas e do mar
+O sal das lágrimas e do mar
 Salgado
 O mesmo sal que sabe curar
 Não estou partida
 Sou água que corre
-A dor é valida
+A dor é válida
 É o sal socorre
 
 
 [Chorus]
 Salgado
-O sal das lagrimas e do mar
+O sal das lágrimas e do mar
 Salgado
 O mesmo sal que sabe curar
 Não estou partida
 Sou água que corre
-A dor é valida
+A dor é válida
 É o sal socorre
 
 [Outro]
@@ -2611,7 +2611,7 @@ A falta
 Mais pesada que o corpo
 Mais densa que a presença
 A ausência é um porto
-Onde nunca há sentenca
+Onde nunca há sentença
 
 
 [Chorus]
@@ -2622,7 +2622,7 @@ A falta
 Mais pesada que o corpo
 Mais densa que a presença
 A ausência é um porto
-Onde nunca há sentenca
+Onde nunca há sentença
 
 [Outro]
 Falta
@@ -2680,7 +2680,7 @@ Há uma fome estranha que vem e que traz
 O corpo de volta do mudo
 
 [Verse 2]
-Peco água, peco pão
+Peço água, peço pão
 As coisas mais simples do mundo
 O corpo pede com a mão
 Depois do choro mais profundo
@@ -2689,7 +2689,7 @@ Depois do choro mais profundo
 Depois do choro
 Uma leveza estranha fica
 Depois do choro
-O ar e fresco e a vida é rica
+O ar é fresco e a vida é rica
 Como o céu depois da chuva
 Quando a luz tem outra cor
 O corpo encontra a sua uva
@@ -2700,7 +2700,7 @@ O corpo encontra a sua uva
 Depois do choro
 Uma leveza estranha fica
 Depois do choro
-O ar e fresco e a vida é rica
+O ar é fresco e a vida é rica
 Como o céu depois da chuva
 Quando a luz tem outra cor
 O corpo encontra a sua uva
@@ -2726,18 +2726,18 @@ As mãos procuram onde agarrar
 
 [Verse 2]
 O suor frio corre pelas costas
-O coração bate nós ouvidos
+O coração bate nos ouvidos
 O mundo gira e as respostas
-Estão todas perdidas nós sentidos
+Estão todas perdidas nos sentidos
 
 [Chorus]
 O aperto
 O chão que some debaixo de mim
 O aperto
 O corpo que grita por um fim
-A solidão do panico
+A solidão do pânico
 É a pior que há
-Dentro do meu organico
+Dentro do meu orgânico
 Ninguém me vai buscar
 
 
@@ -2746,9 +2746,9 @@ O aperto
 O chão que some debaixo de mim
 O aperto
 O corpo que grita por um fim
-A solidão do panico
+A solidão do pânico
 É a pior que há
-Dentro do meu organico
+Dentro do meu orgânico
 Ninguém me vai buscar
 
 [Outro]
@@ -2807,14 +2807,14 @@ Quatro coisas que a pele explora
 O tecido da cadeira, o metal directo
 
 [Verse 2]
-Três sons que entram nós ouvidos
+Três sons que entram nos ouvidos
 O relógio, a rua, o meu respirar
 Dois cheiros que ficam perdidos
 O café, o sabão a brilhar
 
 [Chorus]
 Cinco sentidos
-A ancora que me traz de volta
+A âncora que me traz de volta
 Cinco sentidos
 A porta que se abre e não se solta
 O real é o que eu toco
@@ -2825,7 +2825,7 @@ Só a certeza deste azulejo
 
 [Chorus]
 Cinco sentidos
-A ancora que me traz de volta
+A âncora que me traz de volta
 Cinco sentidos
 A porta que se abre e não se solta
 O real é o que eu toco
@@ -2885,14 +2885,14 @@ Just here`,
 [Verse 1]
 No bolso há uma pedra lisa
 Que o polegar conhece de cor
-A superficie é uma divisa
-Entre o panico e o amor
+A superfície é uma divisa
+Entre o pânico e o amor
 
 [Verse 2]
 Atravesso a multidão com ela
 A mão fechada no segredo
-A pedra quente e a minha estrela
-A minha ancora contra o medo
+A pedra quente é a minha estrela
+A minha âncora contra o medo
 
 [Chorus]
 Pedra no bolso
@@ -3472,23 +3472,23 @@ Be tender with yourself`,
 
 [Verse 1]
 A luz entra cinzenta pela cortina
-O corpo rigido de quem dormiu em guarda
-A almofada humida, a rotina
+O corpo rígido de quem dormiu em guarda
+A almofada húmida, a rotina
 De um dia que começa com ressaca
 
 [Verse 2]
 A chaleira é um acto de fé
 A chávena quente entre as mãos
 O silêncio já não é
-O que era antes das questoes
+O que era antes das questões
 
 [Chorus]
 A manhã seguinte
 Depois da guerra que ficou
 A manhã seguinte
-E frágil mas chegou
+É frágil mas chegou
 A luz não é bonita
-Mas e luz é chega
+Mas é luz e chega
 A manhã não é escrita
 Mas o dia não se nega
 
@@ -3497,9 +3497,9 @@ Mas o dia não se nega
 A manhã seguinte
 Depois da guerra que ficou
 A manhã seguinte
-E frágil mas chegou
+É frágil mas chegou
 A luz não é bonita
-Mas e luz é chega
+Mas é luz e chega
 A manhã não é escrita
 Mas o dia não se nega
 
@@ -3568,7 +3568,7 @@ As mãos sabem como reparar
 Desculpa muda
 O pedido que vem nas mãos
 Desculpa muda
-Mais verdadeira que sermoes
+Mais verdadeira que sermões
 Um gesto vale mais que mil palavras
 Quando as palavras já falharam
 As mãos reparam as traves
@@ -3579,7 +3579,7 @@ Que as bocas quebraram
 Desculpa muda
 O pedido que vem nas mãos
 Desculpa muda
-Mais verdadeira que sermoes
+Mais verdadeira que sermões
 Um gesto vale mais que mil palavras
 Quando as palavras já falharam
 As mãos reparam as traves
@@ -3609,7 +3609,7 @@ Just labour done in quiet blood
 Rebuild, rebuild
 Not the old bridge painted new
 Rebuild, rebuild
-Something we'vê never walked through
+Something we've never walked through
 Stone by careful stone
 From my side and from yours
 The bridge is better grown
@@ -3620,7 +3620,7 @@ When both of us lay floors
 Rebuild, rebuild
 Not the old bridge painted new
 Rebuild, rebuild
-Something we'vê never walked through
+Something we've never walked through
 Stone by careful stone
 From my side and from yours
 The bridge is better grown
@@ -3641,35 +3641,35 @@ O corpo guarda o que a mente diz
 Que não merece mas que nunca escapa
 
 [Verse 2]
-Não é castigo está marca
+Não é castigo esta marca
 E prova de que sobrevivi
 O corpo escreve a sua arca
 Na pele de quem nunca desistiu de si
 
 [Chorus]
 A cicatriz
-Não é vergonha, e historia
+Não é vergonha, é história
 A cicatriz
-É a mais honesta memoria
-Cada marca é um capitulo
+É a mais honesta memória
+Cada marca é um capítulo
 Que o corpo não editou
-A cicatriz e o titulo
+A cicatriz é o título
 Do livro que a vida me contou
 
 
 [Chorus]
 A cicatriz
-Não é vergonha, e historia
+Não é vergonha, é história
 A cicatriz
-É a mais honesta memoria
-Cada marca é um capitulo
+É a mais honesta memória
+Cada marca é um capítulo
 Que o corpo não editou
-A cicatriz e o titulo
+A cicatriz é o título
 Do livro que a vida me contou
 
 [Outro]
-Está cicatriz
-E minha e eu fico com ela`,
+Esta cicatriz
+É minha e eu fico com ela`,
 
   "incenso-rescaldo/6": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5199,8 +5199,8 @@ Long after the fire forgets its name`,
 
 [Verse 1]
 A terra prensa de todos os lados
-A escuridão humida onde ninguém vê
-As sementes abrem nós seus estados
+A escuridão húmida onde ninguém vê
+As sementes abrem nos seus estados
 Privados de qualquer porque
 
 [Verse 2]
@@ -5213,7 +5213,7 @@ Em camadas profundas e temíveis
 Debaixo da terra
 Onde ninguém vem ver
 Debaixo da terra
-E onde eu aprendo a ser
+É onde eu aprendo a ser
 O trabalho verdadeiro
 Acontece no escuro
 Sem plateia nem letreiro
@@ -5229,7 +5229,7 @@ E cresce sem que ninguém o noticie
 Debaixo da terra
 Onde ninguém vem ver
 Debaixo da terra
-E onde eu aprendo a ser
+É onde eu aprendo a ser
 O trabalho verdadeiro
 Acontece no escuro
 Sem plateia nem letreiro
@@ -5270,7 +5270,7 @@ In the patient dark I lurk
 Building roots that no one sees
 Storing strength for the unseen
 Growing slowly by degrees
-Toward a spring I'vê never been
+Toward a spring I've never been
 
 [Verse 3]
 Months of nothing, months of still
@@ -5286,7 +5286,7 @@ In the patient dark I lurk
 Building roots that no one sees
 Storing strength for the unseen
 Growing slowly by degrees
-Toward a spring I'vê never been
+Toward a spring I've never been
 
 [Bridge]
 The ones who bloom the brightest knew
@@ -5403,7 +5403,7 @@ And let the rain find my seedbed
 [Outro]
 Seeds don't hurry
 Seeds just know
-And só do I`,
+And so do I`,
 
   "incenso-raiz-muda/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
@@ -5538,7 +5538,7 @@ Uma nota
 É o mais puro apreço
 Pelo silêncio que existia
 Antes de eu abrir a boca
-Uma nota e a poesia
+Uma nota é a poesia
 Mais corajosa que se toca
 
 [Verse 3]
@@ -5554,7 +5554,7 @@ Uma nota
 É o mais puro apreço
 Pelo silêncio que existia
 Antes de eu abrir a boca
-Uma nota e a poesia
+Uma nota é a poesia
 Mais corajosa que se toca
 
 [Bridge]
@@ -5582,7 +5582,7 @@ That reached a shore I'll never write
 The message sent without a stamp
 The kindness thrown without a net
 A single light inside a lamp
-That lit a room I'vê never met
+That lit a room I've never met
 
 [Chorus]
 Ripple, ripple
@@ -5614,7 +5614,7 @@ Their winter became their summer
 We measure impact by what we can count
 But the truest waves are never seen
 They travel past the furthest mount
-To places where we'vê never been
+To places where we've never been
 
 [Outro]
 Ripple
@@ -5644,7 +5644,7 @@ Duas vozes
 Mais fortes que qualquer muro
 Tu também? Tu também?
 A harmonia do encontro
-Quando a verdade convem
+Quando a verdade convém
 É o mundo ganha contorno
 
 [Verse 3]
@@ -5660,7 +5660,7 @@ Duas vozes
 Mais fortes que qualquer muro
 Tu também? Tu também?
 A harmonia do encontro
-Quando a verdade convem
+Quando a verdade convém
 É o mundo ganha contorno
 
 [Bridge]
@@ -5750,7 +5750,7 @@ Chamada
 As portas que se abrem contra as troutas
 Do rio que corre sozinho
 Acorda, acorda, acorda
-O chamamento e o caminho
+O chamamento é o caminho
 Que a tua voz acorda
 
 [Verse 3]
@@ -5766,7 +5766,7 @@ Chamada
 As portas que se abrem contra as troutas
 Do rio que corre sozinho
 Acorda, acorda, acorda
-O chamamento e o caminho
+O chamamento é o caminho
 Que a tua voz acorda
 
 [Bridge]
@@ -5846,7 +5846,7 @@ Como um terramoto de contentamento
 [Verse 2]
 As mãos encontram outras mãos
 Os olhos brilham sem combinar
-O que estava preso nas gavetas e nós vãos
+O que estava preso nas gavetas e nos vãos
 Agora ecoa como um mar
 
 [Chorus]
@@ -5854,9 +5854,9 @@ Todas
 O sim colectivo
 Todas
 O acto mais vivo
-Não somos soldadas, somos dancas
-Não é raiva, e chegada
-O trovão das nossas canças
+Não somos soldadas, somos danças
+Não é raiva, é chegada
+O trovão das nossas danças
 Faz tremer a estrada
 
 [Verse 3]
@@ -5870,16 +5870,16 @@ Todas
 O sim colectivo
 Todas
 O acto mais vivo
-Não somos soldadas, somos dancas
-Não é raiva, e chegada
-O trovão das nossas canças
+Não somos soldadas, somos danças
+Não é raiva, é chegada
+O trovão das nossas danças
 Faz tremer a estrada
 
 [Bridge]
 Os pés batem em unissono
 O sim viaja pelo ar
 O corpo inteiro é um hino
-Que ninguém nós vai calar
+Que ninguém nos vai calar
 
 [Outro]
 Todas
