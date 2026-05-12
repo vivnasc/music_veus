@@ -21,6 +21,7 @@ import { LORANNE_VOICE_ID, LORANNE_PERSONA_SEED } from "@/data/loranne-persona";
 import { MOOD_META, type LoranneMood, type CompactMoodsData } from "@/data/loranne-moods";
 import LORANNE_MOODS_DATA from "@/data/loranne-moods-data.json";
 import CalendarView from "./CalendarView";
+import { PRESENCA_SUBS, PRESENCA_SUB_META, type PresencaSubSlug } from "@/data/presenca";
 
 /** Read ID3 title from an MP3 File */
 async function readId3Title(file: File): Promise<string | null> {
@@ -2190,6 +2191,65 @@ export default function AlbumProductionPage() {
     ? ALL_ALBUMS.find((a) => a.slug === selectedAlbum) || null
     : null;
 
+  // Render do cartão de álbum — usado pelo grid flat e pelas secções agrupadas
+  // por sub-coleção quando filter === "presenca".
+  function renderAlbumCard(a: Album) {
+    const done = a.tracks.filter(
+      (t) => statuses[trackKey(a.slug, t.number)] === "done"
+    ).length;
+    const withLyrics = a.tracks.filter((t) => t.lyrics).length;
+    const albumVersions = a.tracks.reduce(
+      (s, t) => s + (trackVersions[trackKey(a.slug, t.number)]?.length || 0),
+      0,
+    );
+    const totalMin = Math.floor(
+      a.tracks.reduce((s, t) => s + t.durationSeconds, 0) / 60,
+    );
+
+    return (
+      <button
+        key={a.slug}
+        onClick={() => setSelectedAlbum(a.slug)}
+        className="group rounded-xl border border-mundo-muted-dark/30 bg-mundo-bg-light p-5 text-left transition hover:border-mundo-muted-dark/50"
+      >
+        <div className="flex items-start justify-between">
+          <div className="h-2.5 w-2.5 rounded-full mt-1" style={{ background: a.color }} />
+          <span className="rounded bg-mundo-muted-dark/10 px-2 py-0.5 text-[0.6rem] uppercase tracking-wider text-mundo-muted">
+            {a.product}
+          </span>
+        </div>
+        <h3 className="mt-3 font-display text-lg text-mundo-creme group-hover:text-mundo-dourado transition-colors">
+          {a.title}
+        </h3>
+        <p className="mt-0.5 text-sm text-mundo-muted line-clamp-1">{a.subtitle}</p>
+        <div className="mt-3 flex items-center justify-between">
+          <span className="text-xs text-mundo-muted/60">
+            {a.tracks.length} faixas · ~{totalMin} min
+          </span>
+          <div className="flex items-center gap-2">
+            {withLyrics > 0 && (
+              <span className="text-[10px] text-green-400">{withLyrics} letras</span>
+            )}
+            {albumVersions > 0 && (
+              <span className="text-[10px] text-violet-400">{albumVersions} v.</span>
+            )}
+            <span className={`text-xs font-medium ${done === a.tracks.length ? "text-green-400" : done > 0 ? "text-mundo-dourado" : "text-mundo-muted/40"}`}>
+              {done}/{a.tracks.length} audio
+            </span>
+          </div>
+        </div>
+        {(done > 0 || withLyrics > 0) && (
+          <div className="mt-2 h-1 rounded-full bg-mundo-muted-dark/10">
+            <div
+              className="h-1 rounded-full bg-mundo-dourado transition-all"
+              style={{ width: `${(Math.max(done, withLyrics) / a.tracks.length) * 100}%` }}
+            />
+          </div>
+        )}
+      </button>
+    );
+  }
+
   const totalTracks = ALL_ALBUMS.reduce((s, a) => s + a.tracks.length, 0);
   const totalDone = Object.values(statuses).filter((s) => s === "done").length;
   const totalWithLyrics = ALL_ALBUMS.reduce(
@@ -3359,65 +3419,50 @@ export default function AlbumProductionPage() {
           </div>
         )}
 
-        {/* Album grid */}
-        {viewMode === "producao" && !album && (
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {albums.map((a) => {
-              const done = a.tracks.filter(
-                (t) => statuses[trackKey(a.slug, t.number)] === "done"
-              ).length;
-              const withLyrics = a.tracks.filter((t) => t.lyrics).length;
-              const albumVersions = a.tracks.reduce(
-                (s, t) => s + (trackVersions[trackKey(a.slug, t.number)]?.length || 0),
-                0
-              );
-              const totalMin = Math.floor(
-                a.tracks.reduce((s, t) => s + t.durationSeconds, 0) / 60
-              );
-
+        {/* Album grid — agrupado por sub-coleção quando filter=presenca */}
+        {viewMode === "producao" && !album && filter === "presenca" && (
+          <div className="space-y-8">
+            {PRESENCA_SUBS.map((sub) => {
+              const meta = PRESENCA_SUB_META[sub.slug as PresencaSubSlug];
+              const subAlbums = albums.filter((a) => a.slug.startsWith(`presenca-${sub.slug}-`));
               return (
-                <button
-                  key={a.slug}
-                  onClick={() => setSelectedAlbum(a.slug)}
-                  className="group rounded-xl border border-mundo-muted-dark/30 bg-mundo-bg-light p-5 text-left transition hover:border-mundo-muted-dark/50"
-                >
-                  <div className="flex items-start justify-between">
-                    <div className="h-2.5 w-2.5 rounded-full mt-1" style={{ background: a.color }} />
-                    <span className="rounded bg-mundo-muted-dark/10 px-2 py-0.5 text-[0.6rem] uppercase tracking-wider text-mundo-muted">
-                      {a.product}
-                    </span>
-                  </div>
-                  <h3 className="mt-3 font-display text-lg text-mundo-creme group-hover:text-mundo-dourado transition-colors">
-                    {a.title}
-                  </h3>
-                  <p className="mt-0.5 text-sm text-mundo-muted line-clamp-1">{a.subtitle}</p>
-                  <div className="mt-3 flex items-center justify-between">
-                    <span className="text-xs text-mundo-muted/60">
-                      {a.tracks.length} faixas · ~{totalMin} min
-                    </span>
-                    <div className="flex items-center gap-2">
-                      {withLyrics > 0 && (
-                        <span className="text-[10px] text-green-400">{withLyrics} letras</span>
-                      )}
-                      {albumVersions > 0 && (
-                        <span className="text-[10px] text-violet-400">{albumVersions} v.</span>
-                      )}
-                      <span className={`text-xs font-medium ${done === a.tracks.length ? "text-green-400" : done > 0 ? "text-mundo-dourado" : "text-mundo-muted/40"}`}>
-                        {done}/{a.tracks.length} audio
+                <section key={sub.slug}>
+                  <div className="flex items-baseline justify-between mb-3 px-1">
+                    <div className="flex items-baseline gap-3">
+                      <span
+                        className="inline-block w-2.5 h-2.5 rounded-full shrink-0"
+                        style={{ background: meta.color }}
+                      />
+                      <h3 className="font-display text-xl text-mundo-creme">{sub.label}</h3>
+                      <span className="text-[11px] uppercase tracking-widest text-mundo-muted">
+                        {meta.verbo} · {meta.paraQuando.replace(/^para /, "")}
                       </span>
                     </div>
+                    <span className="text-[11px] text-mundo-muted/60 whitespace-nowrap">
+                      {subAlbums.length}/{sub.albumCount} álbuns
+                    </span>
                   </div>
-                  {(done > 0 || withLyrics > 0) && (
-                    <div className="mt-2 h-1 rounded-full bg-mundo-muted-dark/10">
-                      <div
-                        className="h-1 rounded-full bg-mundo-dourado transition-all"
-                        style={{ width: `${(Math.max(done, withLyrics) / a.tracks.length) * 100}%` }}
-                      />
+
+                  {subAlbums.length === 0 ? (
+                    <div className="rounded-xl border border-dashed border-mundo-muted-dark/20 px-4 py-6 text-center">
+                      <p className="text-[11px] text-mundo-muted/60">
+                        {sub.albumCount} álbuns previstos · ainda nenhum escrito
+                      </p>
+                    </div>
+                  ) : (
+                    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                      {subAlbums.map((a) => renderAlbumCard(a))}
                     </div>
                   )}
-                </button>
+                </section>
               );
             })}
+          </div>
+        )}
+
+        {viewMode === "producao" && !album && filter !== "presenca" && (
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {albums.map((a) => renderAlbumCard(a))}
           </div>
         )}
       </div>
