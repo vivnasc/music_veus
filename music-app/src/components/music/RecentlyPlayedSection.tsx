@@ -4,13 +4,17 @@ import Link from "next/link";
 import Image from "next/image";
 import { useLocalListeningData } from "@/hooks/useLocalListeningData";
 import { ALL_ALBUMS, type AlbumTrack, type Album } from "@/data/albums";
+import { getPresencaAlbumsAsAlbums } from "@/data/presenca";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
+
+const PRESENCA_LOOKUP = getPresencaAlbumsAsAlbums();
 
 function resolveTrack(
   trackNumber: number,
   albumSlug: string
 ): { track: AlbumTrack; album: Album } | null {
-  const album = ALL_ALBUMS.find((a) => a.slug === albumSlug);
+  const album = ALL_ALBUMS.find((a) => a.slug === albumSlug)
+    ?? PRESENCA_LOOKUP.find((a) => a.slug === albumSlug);
   if (!album) return null;
   const track = album.tracks.find((t) => t.number === trackNumber);
   if (!track) return null;

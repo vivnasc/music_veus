@@ -3,9 +3,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ALL_ALBUMS, type Album } from "@/data/albums";
+import { getPresencaAlbumsAsAlbums } from "@/data/presenca";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
 import { usePublishedTracks } from "@/hooks/usePublishedTracks";
+
+// Presença albums vivem fora de ALL_ALBUMS (estão num merge lyric-light em
+// albums-with-lyrics). Aqui consultamos a fonte primária — getPresencaAlbumsAsAlbums()
+// devolve um array estático (~49 álbuns no total quando completo) para que slugs
+// como `presenca-medo-chao` apareçam em Novidades quando têm áudio publicado.
+const PRESENCA_LOOKUP = getPresencaAlbumsAsAlbums();
 
 export default function NovidadesSection() {
   const { getCoverTrack } = useAlbumCovers();
@@ -16,7 +23,8 @@ export default function NovidadesSection() {
 
     const items: { album: Album; trackCount: number; publishedAt: string }[] = [];
     for (const [slug, info] of Object.entries(publishedAlbums)) {
-      const album = ALL_ALBUMS.find(a => a.slug === slug);
+      const album = ALL_ALBUMS.find(a => a.slug === slug)
+        ?? PRESENCA_LOOKUP.find(a => a.slug === slug);
       if (album) {
         items.push({ album, trackCount: info.trackCount, publishedAt: info.publishedAt });
       }

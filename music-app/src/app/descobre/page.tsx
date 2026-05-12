@@ -9,14 +9,7 @@ import { ALL_LISTS, type CuratedList } from "@/data/curated-lists";
 import { ALL_ALBUMS, type Album, type AlbumTrack } from "@/data/albums";
 import { LORANNE_MOODS, MOOD_META, moodCoverUrl, type LoranneMood, type CompactMoodsData } from "@/data/loranne-moods";
 import LORANNE_MOODS_DATA from "@/data/loranne-moods-data.json";
-import {
-  PRESENCA_SUBS,
-  PRESENCA_SUB_META,
-  getAlbumsForSub,
-  getPresencaAlbumsAsAlbums,
-  presencaSubCoverUrl,
-  type PresencaSubSlug,
-} from "@/data/presenca";
+import { PRESENCA_SUBS, PRESENCA_SUB_META, getAlbumsForSub, presencaSubCoverUrl } from "@/data/presenca";
 import { getTrackCoverUrl } from "@/lib/album-covers";
 import { LangFilterToggle } from "@/components/music/LangFilterToggle";
 import AddToPlaylistModal from "@/components/music/AddToPlaylistModal";
@@ -266,10 +259,9 @@ export default function DescobrePage() {
           suggested={suggested}
         />
 
-        {/* Novidades Presença — álbuns Presença com faixas publicadas */}
-        <PresencaNewReleases publishedKeys={publishedKeys} />
-
-        {/* Presença — Loranne & Ancient Ground (7 sub-colecções) */}
+        {/* Presença — Loranne & Ancient Ground (7 sub-colecções).
+            Recém-publicado vive na home (/), não aqui — /descobre é a
+            biblioteca, organizada por sub-colecções e géneros. */}
         <PresencaSection publishedKeys={publishedKeys} />
 
         {/* Para Ti */}
@@ -602,76 +594,6 @@ function PresencaSection({ publishedKeys }: { publishedKeys: Set<string> }) {
                   <span className="text-[#C9A96E]">{subAlbums.length} escritos</span>
                 ) : null}
               </div>
-            </Link>
-          );
-        })}
-      </div>
-    </section>
-  );
-}
-
-// ─────────────────────────────────────────────
-// PresencaNewReleases — só aparece se há álbuns Presença
-// com faixas publicadas no Supabase. Cartões grandes a apontar para
-// /album/{slug} para o user poder ouvir.
-// ─────────────────────────────────────────────
-
-function PresencaNewReleases({ publishedKeys }: { publishedKeys: Set<string> }) {
-  const presencaAlbums = useMemo(() => getPresencaAlbumsAsAlbums(), []);
-  const withAudio = useMemo(() => {
-    return presencaAlbums
-      .map((a) => ({
-        album: a,
-        published: countPublishedFor(a.slug, a.tracks.length, publishedKeys),
-      }))
-      .filter((x) => x.published > 0)
-      .sort((a, b) => b.published - a.published);
-  }, [presencaAlbums, publishedKeys]);
-
-  if (withAudio.length === 0) return null;
-
-  return (
-    <section>
-      <div className="flex items-baseline justify-between mb-3">
-        <div>
-          <h2 className="text-xl font-semibold text-[#F5F0E6]">Recém-publicado · Presença</h2>
-          <p className="text-[11px] text-[#a0a0b0] mt-0.5">
-            Meditação cantada — Loranne & Ancient Ground
-          </p>
-        </div>
-      </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-        {withAudio.map(({ album, published }) => {
-          // sub label is encoded in subtitle ("Sub · Álbum N — funcao")
-          const subSlug = album.slug.replace(/^presenca-/, "").split("-")[0] as PresencaSubSlug;
-          const meta = PRESENCA_SUB_META[subSlug];
-          return (
-            <Link
-              key={album.slug}
-              href={`/album/${album.slug}`}
-              className="group block text-left"
-            >
-              <div
-                className="aspect-square rounded-lg mb-1.5 overflow-hidden relative"
-                style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}33)` }}
-              >
-                <Image
-                  src={getTrackCoverUrl(album.slug, 1)}
-                  alt={album.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform"
-                  unoptimized
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                <span className="absolute top-2 left-2 text-[9px] uppercase tracking-widest text-white/80">
-                  {meta?.verbo}
-                </span>
-                <span className="absolute top-2 right-2 text-[10px] px-1.5 py-0.5 rounded-full bg-green-500/30 text-green-100 backdrop-blur-sm">
-                  {published}/{album.tracks.length}
-                </span>
-              </div>
-              <p className="text-xs text-[#c0c0d0] truncate">{album.title}</p>
-              <p className="text-[10px] text-[#666680] truncate">{album.subtitle}</p>
             </Link>
           );
         })}
