@@ -5,9 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { ALL_ALBUMS } from "@/data/albums";
 import type { Album, AlbumTrack } from "@/data/albums";
+import { getPresencaAlbumsAsAlbums } from "@/data/presenca";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
 import { useMusicPlayer, formatTime as fmt } from "@/contexts/MusicPlayerContext";
 import { useTopTracks } from "@/hooks/useTopTracks";
+
+const PRESENCA_LOOKUP = getPresencaAlbumsAsAlbums();
 
 type Period = "week" | "month" | "year";
 
@@ -18,7 +21,8 @@ const PERIOD_LABELS: Record<Period, string> = {
 };
 
 function resolveTrack(trackNumber: number, albumSlug: string) {
-  const album = ALL_ALBUMS.find(a => a.slug === albumSlug);
+  const album = ALL_ALBUMS.find(a => a.slug === albumSlug)
+    ?? PRESENCA_LOOKUP.find(a => a.slug === albumSlug);
   if (!album) return null;
   const track = album.tracks.find(t => t.number === trackNumber);
   if (!track) return null;
