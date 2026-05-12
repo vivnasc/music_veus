@@ -4,6 +4,7 @@ import { use } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ALL_ALBUMS as ALBUMS, ENERGY_LABELS, getArtist } from "@/data/albums";
+import { getPresencaAlbumsAsAlbums } from "@/data/presenca";
 import { useDbAlbums } from "@/hooks/useDbAlbums";
 import { useState } from "react";
 import { useMusicPlayer } from "@/contexts/MusicPlayerContext";
@@ -100,7 +101,10 @@ function VersionRow({
 export default function AlbumPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
   const { albums: dbAlbums, loading: dbLoading } = useDbAlbums();
-  const album = ALBUMS.find(a => a.slug === slug) ?? dbAlbums.find(a => a.slug === slug);
+  const presencaAlbums = slug.startsWith("presenca-") ? getPresencaAlbumsAsAlbums() : [];
+  const album = ALBUMS.find(a => a.slug === slug)
+    ?? presencaAlbums.find(a => a.slug === slug)
+    ?? dbAlbums.find(a => a.slug === slug);
   const { currentTrack, currentAlbum, playAlbum, addToQueue, toggleShuffle, shuffle } = useMusicPlayer();
   const [showPlaylistModal, setShowPlaylistModal] = useState(false);
   const { isPremium, requestPlay } = useSubscriptionGate();
