@@ -2586,19 +2586,42 @@ export default function AlbumProductionPage() {
   // Sequential, 2s delay between submissions (same pattern as "Gerar todas").
   async function regenerateAccentFixes() {
     if (accentRegenRunning) return;
+    await runAccentRegen(ACCENT_FIXES_MANIFEST);
+  }
+
+  // Retry only manifest entries that don't have clips ready yet — skips the
+  // ones that already came back from Suno, saving credits.
+  async function regenerateAccentFixesMissing() {
+    if (accentRegenRunning) return;
+    const missing = ACCENT_FIXES_MANIFEST.filter((e) => {
+      const k = trackKey(e.albumSlug, e.trackNumber);
+      return !(generatedClips[k]?.clips || []).some((c) => c.audioUrl);
+    });
+    if (missing.length === 0) {
+      alert("Todas as faixas do manifesto já têm clips prontos.");
+      return;
+    }
+    const ok = window.confirm(
+      `Vai re-submeter ${missing.length} faixas em falta (~${missing.length * 10} créditos). Continuar?`
+    );
+    if (!ok) return;
+    await runAccentRegen(missing);
+  }
+
+  async function runAccentRegen(list: typeof ACCENT_FIXES_MANIFEST) {
     accentRegenCancelRef.current = false;
     setAccentRegenRunning(true);
     setAccentRegenIdx(0);
-    for (let i = 0; i < ACCENT_FIXES_MANIFEST.length; i++) {
+    for (let i = 0; i < list.length; i++) {
       if (accentRegenCancelRef.current) break;
-      const { albumSlug, trackNumber } = ACCENT_FIXES_MANIFEST[i];
+      const { albumSlug, trackNumber } = list[i];
       const alb = ALL_ALBUMS.find((a) => a.slug === albumSlug);
       const track = alb?.tracks.find((t) => t.number === trackNumber);
       setAccentRegenIdx(i + 1);
       if (!track) continue;
       generateTrack(albumSlug, track);
       // 2s pause between submissions to avoid Suno rate limits
-      if (i < ACCENT_FIXES_MANIFEST.length - 1) {
+      if (i < list.length - 1) {
         await new Promise((r) => setTimeout(r, 2000));
       }
     }
@@ -3001,12 +3024,23 @@ export default function AlbumProductionPage() {
               </div>
               <div className="mt-3 flex flex-wrap items-center gap-2">
                 {!accentRegenRunning ? (
-                  <button
-                    onClick={regenerateAccentFixes}
-                    className="rounded-lg bg-amber-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-amber-700"
-                  >
-                    1. Regenerar todas ({total})
-                  </button>
+                  <>
+                    <button
+                      onClick={regenerateAccentFixes}
+                      className="rounded-lg bg-amber-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-amber-700"
+                    >
+                      1. Regenerar todas ({total})
+                    </button>
+                    {total - readyForApproval > 0 && readyForApproval > 0 && (
+                      <button
+                        onClick={regenerateAccentFixesMissing}
+                        className="rounded-lg bg-orange-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-orange-700"
+                        title="Re-submete só as que não voltaram (sem gastar créditos nas já prontas)"
+                      >
+                        Retry só em falta ({total - readyForApproval})
+                      </button>
+                    )}
+                  </>
                 ) : (
                   <>
                     <span className="text-xs text-amber-300">
