@@ -1,428 +1,405 @@
 # Álbum 8 — **Dissolução** (Vazio)
 
 > Sub-coleção: Vazio · Eixo dominante: **Todo + consigo** · Tradição encarnada (não nomeada): Compline / horas canónicas — última oração antes do sono
-> Função do álbum: o álbum final — soltar tudo, até a prática Presença em si.
-> Hora interior: última noite (a soltura final)
+> Função do álbum: o álbum final da coleção. A dissolução não é tese filosófica nem renúncia espiritual — é o que o corpo faz quando adormece. Os pés ficam mais quentes, os ombros descem, a mandíbula solta, o eu perde os contornos. Dissolução vivida, não pensada.
+> Hora interior: última noite (a soltura final, antes da última respiração acordada)
 > Compliance: `ESCREVER-LETRAS.md`
+> Notas de revisão: versão refeita à mão — a primeira passagem caía em meta-filosofia ("nem a prática, sem forma, vou sem mim, nem isto"). Demasiado pleased com a própria dissolução. Esta versão entrega a dissolução através do corpo a adormecer — pés quentes, ombros que descem, respiração que se alonga — terminando no *nem isto* mantra mínimo. Como último álbum da coleção inteira, é onde mais conta aterrar no corpo, não na ideia.
 
 **Os 7 conceitos do álbum, sem sobreposição:**
 
 | # | Posição | Mantra | Conceito |
 |---|---|---|---|
-| 8.1 | Chegada | **Solto** — `solto` | soltar o que ainda restava |
-| 8.2 | Reconhecimento | **Já Não Preciso** — `já não preciso` | reconhecer o desnecessário |
-| 8.3 | Aprofundamento | **Nem a Prática** — `nem a prática` | soltar a meditação como categoria |
-| 8.4 | Centro | **Dissolução** — `dissolução` | no centro: o nome do álbum como mantra |
-| 8.5 | Habitação | **Sem Forma** — `sem forma` | habitar o sem-forma |
-| 8.6 | Despedida | **Vou Sem Mim** — `vou sem mim` | levar a dissolução ao dia |
-| 8.7 | Dissolução | **Nem Isto** — `nem isto` | ecoa Chão 1.7 e Pertenço 2.7 — o nem isto final, mais radical de toda a coleção |
+| 8.1 | Chegada | **Solta-se** — `solta-se` | reflexivo — algo se solta antes de eu mandar |
+| 8.2 | Reconhecimento | **Pousa o Dia** — `pousa o dia` | o dia pousa-se ao lado da cama |
+| 8.3 | Aprofundamento | **Pés Quentes** — `pés quentes` | os pés aquecem debaixo do lençol |
+| 8.4 | Centro | **Adormece** — `adormece` | reflexivo do adormecer — terceira pessoa de si |
+| 8.5 | Habitação | **Quase** — `quase` | quase adormecida, entre estados |
+| 8.6 | Despedida | **Já Vou** — `já vou` | última frase ao limiar |
+| 8.7 | Dissolução | **Nem Isto** — `nem isto` | mantra final que ecoa Chão 1.7 |
 
 ---
 
-## 8.1 *Solto* (Chegada)
+## 8.1 *Solta-se* (Chegada)
 
-**Conceito:** solto. O que ainda restava por soltar — solto. As últimas resistências, os últimos apegos. Solto.
+**Conceito:** a soltura começa antes de eu decidir. *Solta-se*. Reflexivo. O ombro desce sozinho. A mandíbula relaxa sem eu lhe pedir. O corpo sabe a hora — começou a dissolver-se mesmo quando ainda penso que estou acordada.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - long sustained pad in B, very slow, distant wind, long silences, dissolving throughout, 30 seconds]
+[Intro - long sustained pad in B, very slow, distant wind, long silences, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-solto
+solta-se
 
-o que ainda restava por soltar
+o ombro desce sozinho
 
-solto
+a mandíbula relaxa
+sem eu lhe pedir
 
-solto
+solta-se`
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-as últimas resistências
-os últimos apegos
+o corpo sabe a hora
 
-solto
+começou a dissolver-se
+mesmo quando ainda penso que estou acordada
 
-solto
+solta-se
 
 [Bridge - pad and distant wind, no voice, very minimal, 60 seconds]
 
 [Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem solta o que solta facilmente
-e também o que solta com custo
-encontra liberdade
+não tenho de mandar nada
 
-solto
+a dissolução faz-se sem instrução
 
-solto
+quem aprendeu a confiar
+adormece mais depressa
+
+solta-se
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-solto
-solto
-solto
+solta-se
+solta-se
+solta-se
 
 [Outro - voice fades, pad sustains, wind softens, 45 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-solto
-solto
+solta-se
+solta-se
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, releasing remaining attachments, freedom, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, reflexive Portuguese - body releases without ego command, dissolution begins before deciding, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 8.2 *Já Não Preciso* (Reconhecimento)
+## 8.2 *Pousa o Dia* (Reconhecimento)
 
-**Conceito:** já não preciso. Coisas que pareciam essenciais durante anos — já não preciso. Identidades, exigências, papéis. Já não preciso.
+**Conceito:** o dia pousa-se ao lado da cama, como um chapéu. Não o levo para dentro do lençol. Fica ao lado. As preocupações de hoje ficam na cadeira. As tarefas por terminar ficam à mesa. Reconhecimento físico de que o dia tem onde ficar, fora de mim.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - pad sustained, suspended harmonics entering, distant wind, dissolving throughout, 25 seconds]
+[Intro - pad sustained, suspended harmonics entering, distant wind, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-já não preciso
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+pousa o dia
 
-coisas que pareciam essenciais durante anos
+ao lado da cama
 
-já não preciso
+como um chapéu
 
-identidades
-exigências
-papéis
-
-já não preciso
-
-já não preciso
+pousa o dia
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que era essencial
-deixou de ser
+não o levo para dentro do lençol
 
-já não preciso
+as preocupações de hoje
+ficam na cadeira
 
-já não preciso
+as tarefas por terminar
+ficam à mesa
+
+pousa o dia
 
 [Bridge - pad and harmonics sustained, wind distant, no voice, 55 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem reconhece o que já não precisa
-liberta espaço para o que pode vir
+[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o dia tem onde ficar
+fora de mim
 
-já não preciso
+a cama é só minha
+não é do dia
 
-já não preciso
+pousa o dia
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-já
-já não preciso
-já
+pousa o dia
+pousa o dia
+pousa o dia
 
 [Outro - voices fade, pad slows, harmonics linger, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-já não preciso
-já não preciso
+pousa o dia
+pousa o dia
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, recognizing the no-longer-essential, space for new, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, pad sustained, suspended harmonics, distant wind, day placed beside bed like a hat, worries staying on chair, bed only for self, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 8.3 *Nem a Prática* (Aprofundamento)
+## 8.3 *Pés Quentes* (Aprofundamento)
 
-**Conceito:** nem a prática. Esta sequência de álbuns, esta meditação cantada, este projecto Presença — também se solta. A prática era andaime. A casa fica. Nem a prática.
+**Conceito:** descer ao detalhe sensorial mais fundo do adormecer. Os pés aquecem debaixo do lençol. A sola começa a perder definição. Os dedos amaciam. Esse é o sinal mais antigo do sono — os pés quentes. O corpo conhece-o desde bebé.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - pad deeper, suspended harmonics low, wind closer, sustained, dissolving throughout, 30 seconds]
+[Intro - pad deeper, suspended harmonics low, wind closer, sustained, 30 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-nem a prática
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+pés quentes
 
-esta sequência de álbuns
+debaixo do lençol
 
-esta meditação cantada
+a sola começa a perder definição
 
-este projecto Presença
+os dedos amaciam
 
-também se solta
-
-nem a prática
-
-nem a prática
+pés quentes
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a prática era andaime
+este é o sinal mais antigo do sono
 
-a casa fica
+o corpo conhece-o desde bebé
 
-nem a prática
+quando os pés aquecem
+o resto sabe que pode ir
 
-nem a prática
+pés quentes
 
 [Bridge - pad low, harmonics deep, wind, no voice, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem usa a prática como porta
-não confunde porta com casa
+[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+as mães sabem desta verdade dos pés
+desde sempre
 
-a porta serve
-até deixar de servir
+aquecem o filho pelos pés
+para o filho dormir
 
-nem a prática
+eu também
+agora
+aqueço-me pelos pés
+e o resto entrega-se
 
-nem a prática
+pés quentes
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-nem
-nem a prática
-nem
+pés quentes
+pés quentes
+pés quentes
 
 [Outro - voices fade, pad holds, harmonics decay, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-nem a prática
-nem a prática
+pés quentes
+pés quentes
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, releasing even the practice itself, scaffold not house, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, pad deeper, suspended harmonics low, wind closer, sustained, warm feet as oldest sleep-signal, mothers warming children's feet, body remembers from infancy, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 8.4 *Dissolução* (Centro)
+## 8.4 *Adormece* (Centro)
 
-**Conceito:** no centro: dissolução. Verbo-substantivo. O que tinha forma perde forma. O que tinha nome perde nome. Dissolução.
+**Conceito:** o centro do álbum final. *Adormece.* Reflexivo. Terceira pessoa de mim mesma — *ela adormece*. O eu já está a perder os contornos, vejo-me a adormecer como veria outra pessoa. Não comando o adormecer — assisto a ele.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - pad balanced, suspended harmonics, wind soft, hovering atmosphere, dissolving throughout, 30 seconds]
+[Intro - pad balanced, suspended harmonics, wind soft, hovering atmosphere, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-dissolução
+adormece
 
-o que tinha forma
-perde forma
+ela adormece
 
-o que tinha nome
-perde nome
+vejo-a a adormecer
+como veria outra pessoa
 
-dissolução
+adormece`
 
-dissolução
+[Verse 2 - same whispered tone, slightly more present, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não comando o adormecer
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não é morte
+assisto a ele
 
-é mudança de estado
-
-dissolução
-
-dissolução
+adormece
 
 [Bridge - pad harmonics wind balanced, no voice, sustained, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o sal dissolve-se na água
-e continua a existir
-de outra maneira
+[Verse 3 - sung low, deep female voice, no vibrato, grounded, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o "eu" já não tem contorno firme
 
-eu também
+está a dissolver-se
+sem aviso
+sem cerimónia
 
-dissolução
+adormece
 
-dissolução
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-dissolução
-dissolução
-dissolução
+[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+adormece
+adormece
+adormece
 
 [Outro - voice fades to whisper, pad sustains, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-dissolução
-dissolução
+adormece
+adormece
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, dissolution as change of state not death, salt in water, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, pad balanced, suspended harmonics, wind soft, hovering atmosphere, reflexive sleep verb as third-person of self, ego losing outline, witnessing own falling asleep, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 8.5 *Sem Forma* (Habitação)
+## 8.5 *Quase* (Habitação)
 
-**Conceito:** sem forma. Habitar o sem-forma. Não preciso de ter forma rígida para existir. A água tem todas as formas e nenhuma. Sem forma.
+**Conceito:** habitar o limiar. Quase adormecida — entre estados. A consciência ainda lá mas já meio-difusa. Os pensamentos começam a ficar absurdos sem que isso me preocupe. *Quase.*
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - pad foreground gentle, wind soft, harmonics suspended, dissolving throughout, 25 seconds]
+[Intro - pad foreground gentle, wind soft, harmonics suspended, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem forma
+[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quase
 
-habitar o sem-forma
+quase adormecida
 
-não preciso de ter forma rígida para existir
+entre estados
 
-a água tem todas as formas
-e nenhuma
+quase`
 
-sem forma
+[Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+os pensamentos começam a ficar absurdos
 
-sem forma
+sem que isso me preocupe
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que importa é a essência
-
-a forma muda
-
-sem forma
-
-sem forma
+quase
 
 [Bridge - pad and wind sustained gentle, harmonics soft, no voice, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem habita sem forma fixa
-adapta-se ao que vem
+[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+neste limiar
+o eu e o sono encontram-se
 
-sem forma
+a consciência rende-se devagar
 
-sem forma
+quase
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem forma
-sem forma
-sem forma
+[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quase
+quase
+quase
 
 [Outro - voices fade gently, pad sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem forma
-sem forma
+quase
+quase
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, dwelling formless, water as teacher of adaptation, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, pad foreground gentle, wind soft, harmonics suspended, dwelling at the threshold between waking and sleep, absurd thoughts without worry, consciousness surrendering slowly, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 8.6 *Vou Sem Mim* (Despedida)
+## 8.6 *Já Vou* (Despedida)
 
-**Conceito:** vou sem mim. O eu firme que carregava — solto-o. Vou ao dia sem essa rigidez. Vou sem mim, e ainda assim vou.
+**Conceito:** a última frase ao limiar. *Já vou.* Despedida íntima — como quem se vai à mãe ou ao amante quando o sono finalmente leva. Não declaração filosófica. Frase pequena, doméstica. Já vou.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - pad opening upward slightly, harmonics awakening, gentle wind, dissolving throughout, 25 seconds]
+[Intro - pad opening upward slightly, harmonics awakening, gentle wind, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou sem mim
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+já vou
 
-o eu firme que carregava
+a última frase ao limiar
 
-solto-o
+como quem se vai à mãe
 
-vou ao dia sem essa rigidez
+como quem se vai ao amante
 
-vou sem mim
+já vou`
 
-vou sem mim
+[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não declaração filosófica
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-e ainda assim vou
+frase pequena
+doméstica
 
-vou sem mim
-
-vou sem mim
+já vou
 
 [Bridge - pad more present, harmonics open, wind awakening, no voice, 50 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem vai sem o eu rígido
-encontra-se com mais frescura em tudo
+[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem teve quem amar
+diz já vou
+ao adormecer
 
-a rigidez do eu cansa
+quem está sozinha
+também o diz
+mesmo sem ouvido a receber
 
-vou sem mim
+já vou
 
-vou sem mim
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou
-vou sem mim
-vou
+[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+já vou
+já vou
+já vou
 
 [Outro - voices fade to whisper, pad sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou sem mim
-vou sem mim
+já vou
+já vou
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, going without the rigid self, freshness in everything, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, pad opening upward, harmonics awakening, gentle wind, intimate domestic farewell as one would say to mother or lover, small phrase not declaration, ancestral parting words, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
 ## 8.7 *Nem Isto* (Dissolução)
 
-**Conceito:** nem isto. Este último mantra. Esta última faixa. Esta colecção inteira. Soltam-se. Nem isto. Apenas é, sem nome.
+**Conceito:** o último mantra da coleção inteira. Ecoa o *Nem Isto* do Chão 1.7 — o gesto final que fecha as 343 faixas. Não é declaração de soltura — é o que sobra quando até a palavra "soltar" se solta. Nem isto. Última respiração acordada. Depois silêncio. Depois sono.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - extremely sparse pad, much silence, distant breath, dissolving throughout, 20 seconds]
+[Intro - extremely sparse pad, much silence, distant breath, 20 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
 nem isto
 
-este último mantra
+até a palavra soltar
+solta-se
 
-esta última faixa
+nem isto`
 
-esta colecção inteira
+[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+última respiração acordada
 
-soltam-se
+depois silêncio
 
-nem isto
-
-nem isto
-
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-apenas é
-
-sem nome
-
-nem isto
+depois sono
 
 nem isto
 
 [Bridge - very minimal, pad faint with much silence, distant breath, 40 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-chegou ao fim a sequência
+[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+no Chão começou nem isto
 
-e o que era essencial
-estava antes da sequência
+aqui no Vazio acaba também nem isto
 
-ainda está
-
-nem isto
+a coleção fechou-se em si
 
 nem isto
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 4 - layered voices, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
 nem
 nem isto
 ah
@@ -433,4 +410,4 @@ ah
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, final release of all that was held, including the collection itself, essence always preceded, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, extremely sparse pad, much silence, distant breath, final dissolution of the entire collection, echo of Chão 1.7 closing the cycle of 343 mantras, last waking breath then silence then sleep, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
