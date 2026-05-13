@@ -1,456 +1,406 @@
 # Álbum 6 — **Por Quem Sofre** (Mágoa)
 
 > Sub-coleção: Mágoa · Eixo dominante: **Outro + consigo (com toque do todo)** · Tradição encarnada (não nomeada): Metta — bondade amorosa
-> Função do álbum: estender a bondade a todos os que sofrem — universal Metta. Eixo Todo activado.
+> Função do álbum: a bondade alarga-se a quem não conheço — não como categoria abstracta ("todos") mas pela porta de rostos concretos. A mulher na paragem do autocarro. O homem que vendeu o pão. A criança que vi a chorar na rua. Universal-Metta entra pelo particular.
 > Hora interior: hora azul (entardecer, antes de acender luzes)
 > Compliance: `ESCREVER-LETRAS.md`
+> Notas de revisão: versão refeita à mão — a primeira passagem caía em vocabulário abstracto ("outros, também sofrem, cidade inteira, por todos"). Categorias sem corpo. Metta universal é poderoso quando ancorado em rostos específicos — a porta de entrada é o particular, não o abstracto.
 
 **Os 7 conceitos do álbum, sem sobreposição:**
 
 | # | Posição | Mantra | Conceito |
 |---|---|---|---|
-| 6.1 | Chegada | **Outros** — `outros` | abrir o olhar a quem não conheço |
-| 6.2 | Reconhecimento | **Também Sofrem** — `também sofrem` | todos têm dor desconhecida |
-| 6.3 | Aprofundamento | **Cidade Inteira** — `cidade inteira` | alargar o círculo à cidade toda |
-| 6.4 | Centro | **Por Todos** — `por todos` | no centro: desejo bem a todos |
-| 6.5 | Habitação | **Que Estejam Bem** — `que estejam bem` | frase Metta colectiva |
-| 6.6 | Despedida | **Para Fora** — `para fora` | levar a compaixão à rua |
-| 6.7 | Dissolução | **Sem Saber Onde Vai** — `sem saber onde vai` | soltar a bondade sem rastrear |
+| 6.1 | Chegada | **Aquela Mulher** — `aquela mulher` | um rosto específico visto hoje |
+| 6.2 | Reconhecimento | **Também Carrega** — `também carrega` | esse rosto carrega coisas que não vejo |
+| 6.3 | Aprofundamento | **Em Toda a Cidade** — `em toda a cidade` | multiplicação por outros como ela |
+| 6.4 | Centro | **Por Aqueles** — `por aqueles` | desejo concreto por quem está agora a sofrer |
+| 6.5 | Habitação | **Cada Rosto** — `cada rosto` | demorar em cada rosto, um de cada vez |
+| 6.6 | Despedida | **Hoje Vejo-os** — `hoje vejo-os` | atenção a pessoas reais ao longo do dia |
+| 6.7 | Dissolução | **Mais Que Sei** — `mais que sei` | há sofrimento para além do que posso saber |
 
 ---
 
-## 6.1 *Outros* (Chegada)
+## 6.1 *Aquela Mulher* (Chegada)
 
-**Conceito:** abrir o olhar para fora de mim. Para o homem na esquina, a mulher no autocarro, a criança que não consigo ver mas existe algures.
+**Conceito:** começo por um rosto. Aquela mulher que vi hoje na paragem do autocarro. Tinha os olhos cansados. Eu não a conheço — mas vi-a. Não é "todos os outros" — é ela. A particularidade é a porta.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - piano feutré solo, deep cello drone underneath, single muted notes with long silences, expanding harpa, 30 seconds]
+[Intro - piano feutré solo, deep cello drone underneath, single muted notes with long silences, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-outros
+aquela mulher
 
-o homem na esquina
-a mulher no autocarro
-a criança que existe algures
+vi-a hoje
+na paragem do autocarro
 
-outros
+tinha os olhos cansados
 
-outros
+aquela mulher
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não conheço os nomes
-não conheço os rostos
+não a conheço
 
-mas sei que existem
+mas vi-a
 
-outros
+ela é uma pessoa específica
+com um nome que não sei
 
-outros
+aquela mulher
 
 [Bridge - piano feutré and cello drone, very sparse, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem antes de mim olhou para fora de si
-encontrou mundo
+o seu rosto fica comigo
+agora à noite
 
-eu também
-agora
-abro
+eu não escolhi guardá-lo
+o rosto entrou e ficou
 
-outros
-
-outros
+aquela mulher
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-outros
-outros
-outros
+aquela mulher
+aquela mulher
+aquela mulher
 
 [Outro - voice fades to whisper, piano sustains, 45 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-outros
-outros
+aquela mulher
+aquela mulher
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, dhikr-like, Metta-like loving-kindness, mantra repetition with development, low female voice, piano feutré, cello bowed warm, harpa gentle, subtle water texture, opening gaze beyond self, recognizing strangers exist, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, Metta-like loving-kindness, mantra repetition with development, low female voice, piano feutré, cello bowed warm, subtle water texture, specific stranger as door to universal compassion, particular face holding place of all faces, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.2 *Também Sofrem* (Reconhecimento)
+## 6.2 *Também Carrega* (Reconhecimento)
 
-**Conceito:** cada pessoa que vejo tem dor que não conheço. O senhor que serve o café perdeu alguém. A mulher que atravessa a rua tem medo de algo. Não é só comigo.
+**Conceito:** ela carrega o que não vejo. Talvez perdeu alguém recentemente. Talvez tenha um filho doente. Talvez tenha um marido que a maltrata. Eu não sei o quê — mas ela carrega. Reconhecer a invisibilidade da maior parte do sofrimento.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - piano feutré with cello entering, harpa distant, slow water-like texture, expanding harpa, 25 seconds]
+[Intro - piano feutré with cello entering, harpa distant, slow water-like texture, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-também sofrem
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+ela carrega o que não vejo
 
-cada pessoa que vejo
-tem dor que não conheço
+talvez perdeu alguém recentemente
+talvez tenha um filho doente
+talvez tenha um marido que a maltrata
 
-o senhor que serve o café
-perdeu alguém
-
-a mulher que atravessa a rua
-tem medo de algo
-
-também sofrem
-
-também sofrem
+também carrega
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não é só comigo
-nunca foi só comigo
+eu não sei o quê
 
-a vida ensina a todos
-em formas próprias
+mas ela carrega
 
-também sofrem
-
-também sofrem
+também carrega
 
 [Bridge - piano feutré and cello sustained, harpa distant, no voice, 55 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando vejo o meu sofrimento como único
-fico mais só
+[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+a maior parte do sofrimento é invisível
 
-quando vejo o sofrimento como condição comum
-encontro companhia
+passa todos os dias por mim
+sem que eu o veja
 
-também sofrem
+quando começo a vê-lo
+descubro que está em toda a parte
 
-também sofrem
+também carrega
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-também
-também sofrem
-também
+também carrega
+também carrega
+também carrega
 
 [Outro - voices fade, piano sustains, cello slows, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-também sofrem
-também sofrem
+também carrega
+também carrega
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, dhikr-like, Metta-like loving-kindness, mantra repetition with development, low female voice, piano feutré, cello bowed warm, harpa gentle, subtle water texture, universal suffering as common condition, finding company in shared pain, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, Metta-like loving-kindness, mantra repetition with development, low female voice, piano feutré, cello entering, harpa distant, water-like texture, recognizing invisible weight others carry, suffering as background of strangers' lives, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.3 *Cidade Inteira* (Aprofundamento)
+## 6.3 *Em Toda a Cidade* (Aprofundamento)
 
-**Conceito:** esta cidade tem pessoas a sofrer agora. Em apartamentos sozinhos. Em hospitais. Em camas estrangeiras. Em quartos com a luz apagada. A cidade inteira contém muita dor invisível.
+**Conceito:** se ela carrega, quantas mais como ela? Não a categoria "outros" — mas a multiplicação por concretos. O homem que serviu o café, a mulher do quarto ao lado, o adolescente que pediu cigarro, o velho na esquina. Em toda a cidade há rostos a carregar. A escala dá-se por adição de particulares, não por abstracção.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - piano feutré deeper, cello bowed sustained low, deep drone emerging, expanding harpa, 30 seconds]
+[Intro - piano feutré deeper, cello bowed sustained low, deep drone emerging, 30 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-cidade inteira
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+se ela carrega
 
-em apartamentos sozinhos
-em hospitais
-em camas estrangeiras
+quantas mais como ela
 
-em quartos com a luz apagada
-
-cidade inteira
-
-cidade inteira
+em toda a cidade
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-enquanto eu respiro aqui
-alguém tem o peito apertado
+o homem que serviu o café
+a mulher do quarto ao lado
+o adolescente que pediu cigarro
+o velho na esquina
 
-enquanto eu como
-alguém tem fome
-
-cidade inteira
-
-cidade inteira
+em toda a cidade
 
 [Bridge - cello deep, piano feutré low register, sustained, no voice, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a cidade tem mais dor do que mostra
-a cidade tem mais bondade do que mostra
+[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não digo "todos" para esconder a conta
 
-ambas estão acontecendo agora
-em paralelo
-sob o mesmo céu
+vejo um
+e depois outro
+e depois outro
 
-cidade inteira
+a escala faz-se por adição
+de rostos que ficaram comigo
 
-cidade inteira
+em toda a cidade
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-cidade
-cidade inteira
-cidade
+em toda
+em toda a cidade
+em toda
 
 [Outro - voices fade, piano sustains, drone holds, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-cidade inteira
-cidade inteira
+em toda a cidade
+em toda a cidade
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, dhikr-like, Metta-like loving-kindness, mantra repetition with development, low female voice, piano feutré, cello bowed warm, harpa gentle, subtle water texture, expanding awareness to the whole city, parallel realities of suffering, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, Metta-like loving-kindness, mantra repetition with development, low female voice, piano feutré deeper, cello bowed sustained low, deep drone, scale through addition of particulars not abstraction, multiplication by concrete faces, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.4 *Por Todos* (Centro)
+## 6.4 *Por Aqueles* (Centro)
 
-**Conceito:** no centro: desejo bem a todos. A quem conheço, a quem não conheço, a quem me magoou, a quem ama o que eu odeio. Por todos.
+**Conceito:** o centro do álbum. *Por aqueles* — plural concreto, não abstracto. Por aquela mulher e por o homem do café e por o adolescente. Por aqueles que estão agora a sofrer. Desejo bem — sem saber o nome, sem saber a história, sabendo apenas o rosto.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - piano feutré with cello and harpa balanced, sustained warm drone, subtle water, expanding harpa, 30 seconds]
+[Intro - piano feutré with cello and harpa balanced, sustained warm drone, subtle water, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-por todos
+por aqueles
 
-a quem conheço
-a quem não conheço
+por aquela mulher do autocarro
+por o homem do café
+por o adolescente do cigarro
 
-a quem me magoou
-a quem me ama
+por aqueles`
 
-por todos
+[Verse 2 - same whispered tone, slightly more present, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+desejo
 
-por todos
+que esta noite o peso seja menor
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-que tenham ar
-que tenham teto
-que tenham alguém
+que amanhã haja um momento bom
 
-por todos
-
-por todos
+por aqueles
 
 [Bridge - piano feutré cello harpa balanced, no voice, sustained, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem deseja só aos seus
-mantém o mundo pequeno
+[Verse 3 - sung low, deep female voice, no vibrato, grounded, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não tenho como ajudá-los individualmente
 
-quem deseja a todos
-sem distinção
-abre o mundo
+mas posso desejar-lhes bem
+um por um
+no silêncio
 
-por todos
+o desejo conta
+mesmo silencioso
 
-por todos
+por aqueles
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-por
-por todos
-por
+[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+por aqueles
+por aqueles
+por aqueles
 
 [Outro - voice fades to whisper, piano sustains, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-por todos
-por todos
+por aqueles
+por aqueles
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, dhikr-like, Metta-like loving-kindness, mantra repetition with development, low female voice, piano feutré, cello bowed warm, harpa gentle, subtle water texture, universal wish for wellbeing, expansion beyond known circles, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, Metta-like loving-kindness for specific strangers, mantra repetition with development, low female voice, piano feutré cello harpa balanced, sustained warm drone, concrete-plural Metta one-by-one in silence, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.5 *Que Estejam Bem* (Habitação)
+## 6.5 *Cada Rosto* (Habitação)
 
-**Conceito:** que estejam bem. Em terceira pessoa do plural. Os outros. Os outros todos. Que estejam bem onde estiverem, no estado em que estiverem.
+**Conceito:** habitar a particularidade. Não passo dos rostos para uma "humanidade" abstracta. Demoro em cada rosto. Cada um vai pesar por si. Cada um vai ser olhado um momento.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - harpa foreground gentle, piano feutré background, cello very slow, expanding harpa, 25 seconds]
+[Intro - harpa foreground gentle, piano feutré background, cello very slow, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-que estejam bem
+[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+cada rosto
 
-os outros
-todos os outros
+não passo aos abstractos
 
-onde estiverem
-no estado em que estiverem
+demoro em cada
 
-que estejam bem
+cada rosto
 
-que estejam bem
+[Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+aquela mulher pesa um momento
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-que tenham comida
-que tenham descanso
-que tenham bondade
+depois o homem do café pesa um momento
 
-que estejam bem
+depois o adolescente pesa um momento
 
-que estejam bem
+cada rosto
 
 [Bridge - harpa and piano sustained warm, cello slow, no voice, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem deseja a todos os que sofrem
-sente a vida mais larga
+[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem demora em cada rosto
+não fica esgotada
+porque não tenta abraçar tudo de uma vez
 
-a casa fica maior
-o peito fica mais aberto
+um de cada vez
+basta
 
-que estejam bem
+cada rosto
 
-que estejam bem
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-que estejam bem
-que estejam bem
-que estejam bem
+[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+cada rosto
+cada rosto
+cada rosto
 
 [Outro - voices fade gently, harpa sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-que estejam bem
-que estejam bem
+cada rosto
+cada rosto
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, dhikr-like, Metta-like loving-kindness, mantra repetition with development, low female voice, piano feutré, cello bowed warm, harpa gentle, subtle water texture, collective Metta phrasing, expanded heart, larger life, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, Metta-like loving-kindness lingering on each face, mantra repetition with development, low female voice, harpa foreground gentle, piano feutré background, cello very slow, one face at a time as sustainable practice, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.6 *Para Fora* (Despedida)
+## 6.6 *Hoje Vejo-os* (Despedida)
 
-**Conceito:** levo a compaixão para fora. Quando o motorista buzinar zangado, lembro: também sofre. Quando alguém for ríspido, lembro: também sofre. Para fora.
+**Conceito:** levar a atenção ao dia. Não vou olhar para "as pessoas" abstractamente. Vou olhar para cada pessoa específica que cruza o meu dia. O motorista. A vendedora. O homem que dorme à entrada. O olhar é a primeira forma de Metta.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - piano feutré more articulated, harpa gentle awakening, drone beginning to open, expanding harpa, 25 seconds]
+[Intro - piano feutré more articulated, harpa gentle awakening, drone beginning to open, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-para fora
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+hoje vejo-os
 
-levo a compaixão à rua
+o motorista do meu autocarro
 
-quando o motorista buzinar zangado
-lembro: também sofre
+a vendedora do pão
 
-quando alguém for ríspido
-lembro: também sofre
+o homem que dorme à entrada do prédio
 
-para fora
+hoje vejo-os
 
-para fora
+[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+um olhar de meio segundo
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não tenho de explicar
-não tenho de mostrar
+não a abordagem
+não a intervenção
 
-a compaixão acontece por dentro
-e muda o que sai cá para fora
+o olhar
 
-para fora
-
-para fora
+hoje vejo-os
 
 [Bridge - piano feutré slightly more present, harpa awakening, drone opens upward, no voice, 50 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem antes de mim levou bondade ao mercado
-sem dizer nada
-mudou o mercado
+[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o olhar é a primeira forma de bondade
 
-eu também posso
-hoje
-um pouco
+quem é olhada uma vez
+sente que existe
 
-para fora
+a maioria das pessoas não é olhada
 
-para fora
+hoje vejo-os
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-para
-para fora
-para
+[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+hoje vejo-os
+hoje vejo-os
+hoje vejo-os
 
 [Outro - voices fade to whisper, piano sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-para fora
-para fora
+hoje vejo-os
+hoje vejo-os
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, dhikr-like, Metta-like loving-kindness, mantra repetition with development, low female voice, piano feutré, cello bowed warm, harpa gentle, subtle water texture, carrying compassion into the street, silent transformation, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, Metta-like loving-kindness as gaze, mantra repetition with development, low female voice, piano feutré more articulated, harpa awakening, drone opening upward, half-second gaze as first form of kindness, the unseen majority finally seen, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.7 *Sem Saber Onde Vai* (Dissolução)
+## 6.7 *Mais Que Sei* (Dissolução)
 
-**Conceito:** desejo bem e solto. Não saber para onde vai o desejo. Não medir o efeito. A bondade não precisa de prova para existir.
+**Conceito:** soltar a obsessão de cobrir tudo. Há sofrimento para além do que posso saber, do que posso ver, do que posso desejar bem. Mais que sei. Solto a tentativa de chegar a tudo — e fico apenas com o que está no meu dia.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - very sparse piano feutré single notes, no cello, much silence, expanding harpa, 20 seconds]
+[Intro - very sparse piano feutré single notes, no cello, much silence, 20 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem saber onde vai
+[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+mais que sei
 
-desejo bem
-e solto
+há sofrimento para além do que vejo
 
-não meço
-não rastreio
+para além das pessoas que cruzam o meu dia
 
-sem saber onde vai
+mais que sei
 
-sem saber onde vai
+[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não posso desejar bem a quem não posso imaginar
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a bondade não precisa de prova
-para existir
+solto a obsessão de cobrir tudo
 
-talvez chegue
-talvez não chegue
-
-sem saber onde vai
-
-sem saber onde vai
+mais que sei
 
 [Bridge - very minimal instrumental, piano single notes with much silence, distant breath, 40 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o vento sopra sem saber para onde
-a chuva cai sem saber para onde
+[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o pouco que faço
+é fazer
 
-a bondade também
-quando é genuína
+o muito que não consigo fazer
+não me anula o pouco
 
-sem saber onde vai
+mais que sei
 
-sem saber onde vai
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem
-sem saber onde vai
+[Verse 4 - layered voices, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+mais
+mais que sei
 ah
 
 [Outro - voices dissolve into breath, piano fades to nothing, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
@@ -459,4 +409,4 @@ ah
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, dhikr-like, Metta-like loving-kindness, mantra repetition with development, low female voice, piano feutré, cello bowed warm, harpa gentle, subtle water texture, releasing kindness without tracking outcome, wind and rain as teachers, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, Metta-like loving-kindness, mantra repetition with development, low female voice, extremely sparse piano feutré single notes, much silence, releasing the obligation to cover all suffering, what is done is not nullified by what cannot be done, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register

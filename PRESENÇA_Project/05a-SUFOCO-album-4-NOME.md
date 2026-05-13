@@ -1,27 +1,28 @@
 # Álbum 4 — **Nome** (Sufoco)
 
 > Sub-coleção: Sufoco · Eixo dominante: **Consigo** · Tradição encarnada (não nomeada): Hesicasmo — oração do coração, voz interior que se faz audível
-> Função do álbum: o meu nome, dito por mim, em voz baixa.
-> Hora interior: manhã muito cedo (antes dos outros)
+> Função do álbum: dizer um nome por dentro, em sincronia com o sopro, até o nome descer da cabeça para o peito e ficar lá a repetir-se sozinho. Hesicasmo encarnado em garganta, língua, sopro — não afirmação de identidade.
+> Hora interior: manhã muito cedo (antes do dia se quebrar)
 > Compliance: `ESCREVER-LETRAS.md`
+> Notas de revisão: versão refeita à mão — a primeira passagem caía em "naming as empowerment" ("tenho nome, digo o meu nome, sou chamada, vou em nome"). Identidade-afirmação. Hesicasmo é outra coisa: um nome (qualquer um) dito por dentro com cada respiração, descendo da cabeça para o coração, repetindo-se até parecer respirar sozinho.
 
 **Os 7 conceitos do álbum, sem sobreposição:**
 
 | # | Posição | Mantra | Conceito |
 |---|---|---|---|
-| 4.1 | Chegada | **Tenho Nome** — `tenho nome` | reconhecer ter nome próprio |
-| 4.2 | Reconhecimento | **Digo o Meu Nome** — `digo o meu nome` | pronunciar o próprio nome |
-| 4.3 | Aprofundamento | **Quem Sou** — `quem sou` | para além do nome, perguntar quem |
-| 4.4 | Centro | **Nome** — `nome` | no centro: o nome em si |
-| 4.5 | Habitação | **Sou Chamada** — `sou chamada` | habitar a chamada — pelos outros e por si |
-| 4.6 | Despedida | **Vou em Nome** — `vou em nome` | levar o nome ao dia, completa |
-| 4.7 | Dissolução | **Sem Nome Também** — `sem nome também` | soltar até a identificação com o nome |
+| 4.1 | Chegada | **Um Nome** — `um nome` | qualquer nome — som que cabe na garganta |
+| 4.2 | Reconhecimento | **Cabe na Boca** — `cabe na boca` | o nome enche a língua, toca o palato |
+| 4.3 | Aprofundamento | **Desce ao Peito** — `desce ao peito` | o nome migra da cabeça para o coração |
+| 4.4 | Centro | **Cada Sopro** — `cada sopro` | o nome no sopro — entra, fica, sai |
+| 4.5 | Habitação | **Repete-se** — `repete-se` | o nome continua sem eu o dizer |
+| 4.6 | Despedida | **No Andar** — `no andar` | o nome acompanha-me em cada passo do dia |
+| 4.7 | Dissolução | **Sem Nome** — `sem nome` | resta o sopro, sem palavra |
 
 ---
 
-## 4.1 *Tenho Nome* (Chegada)
+## 4.1 *Um Nome* (Chegada)
 
-**Conceito:** tenho nome. Foi-me dado, é meu agora. Quando os outros me chamam, é-me dito. Quando eu me chamo, é-me dito por mim.
+**Conceito:** começo com um nome. Não importa qual. Pode ser o meu, pode ser "paz", pode ser o nome de alguém que amo, pode ser apenas um som. O Hesicasmo nasceu com "Senhor Jesus Cristo" mas o gesto é mais antigo do que essa frase. Aqui é um nome qualquer, dito por dentro.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
@@ -31,405 +32,374 @@
 [Intro - long sustained drone in D, voice-only emphasis, almost no other instrument, voice naming, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-tenho nome
+um nome
 
-foi-me dado
-é meu agora
+não importa qual
 
-tenho nome
+pode ser o meu
+pode ser paz
+pode ser o nome de alguém que amo
+pode ser apenas um som
 
-tenho nome
+um nome
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando os outros me chamam
-sou dita
+escolho-o uma vez
 
-quando eu me chamo
-sou dita por mim
+depois não escolho mais
+ele fica
 
-tenho nome
-
-tenho nome
+um nome
 
 [Bridge - long drone alone, no voice, no other instrument, 60 seconds]
 
 [Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o nome é a primeira propriedade
+os monges antigos diziam um nome
+o dia inteiro
 
-veio antes da casa
-antes da pele
-antes da memória
+o nome não tinha de ser sagrado para sagrar
 
-tenho nome
+a repetição é que sagra
 
-tenho nome
+um nome
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-tenho nome
-tenho nome
-tenho nome
+um nome
+um nome
+um nome
 
 [Outro - voice fades, drone holds, 45 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-tenho nome
-tenho nome
+um nome
+um nome
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer, mantra repetition with development, low female voice, long sustained drone in D, voice-foreground a capella, minimal instrumentation, throat as instrument, inner voice releasing, having a name as first property, beyond memory, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer, mantra repetition with development, low female voice, long sustained drone in D, voice-foreground a capella, name as breath-anchor not identity, choosing any name once and letting it stay, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.2 *Digo o Meu Nome* (Reconhecimento)
+## 4.2 *Cabe na Boca* (Reconhecimento)
 
-**Conceito:** digo o meu nome. Em voz baixa, devagar. O som do meu nome saindo da minha própria boca. Auto-reconhecimento sonoro.
+**Conceito:** o nome torna-se sensação. Tem peso na língua. Encosta no palato. Tem sílabas que vibram nos lábios e sílabas que vibram na garganta. Reconhecer o nome como objecto físico dentro da boca.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - long drone in D, minimal piano single note, voice as primary, voice naming, 25 seconds]
+[Intro - long drone in D, minimal piano single note, voice as primary, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-digo o meu nome
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o nome cabe na boca
 
-em voz baixa
-devagar
+tem peso na língua
 
-o som do meu nome
-saindo da minha própria boca
+encosta no palato
 
-digo o meu nome
-
-digo o meu nome
+cabe na boca
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-auto-reconhecimento sonoro
+as sílabas finais vibram nos lábios
+as sílabas iniciais vibram na garganta
 
-eu sou esta a quem chamo
+o nome é objecto físico
+dentro da boca
 
-digo o meu nome
-
-digo o meu nome
+cabe na boca
 
 [Bridge - drone sustained, single piano note distant, no voice, 55 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem se chama
-não está nunca sem companhia
+[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não digo o nome em voz alta
 
-a primeira pessoa que me chama
-é boa pessoa para começar o dia
+mas a boca move-se
 
-digo o meu nome
+o gesto da boca é igual
+seja sussurrado ou silencioso
 
-digo o meu nome
+cabe na boca
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-digo
-digo o meu nome
-digo
+cabe na boca
+cabe na boca
+cabe na boca
 
 [Outro - voices fade, drone holds, piano single decay, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-digo o meu nome
-digo o meu nome
+cabe na boca
+cabe na boca
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer, mantra repetition with development, low female voice, long sustained drone in D, voice-foreground a capella, minimal instrumentation, throat as instrument, inner voice releasing, self-naming aloud, auditory self-recognition, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer, mantra repetition with development, low female voice, long drone in D, minimal piano single note, name as physical object in mouth, tongue palate lips vibrating, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.3 *Quem Sou* (Aprofundamento)
+## 4.3 *Desce ao Peito* (Aprofundamento)
 
-**Conceito:** para além do nome, quem sou? A pergunta sem responder. Não-resposta. Quem sou.
+**Conceito:** descoberta central do Hesicasmo — o nome desce da cabeça para o coração. No início diz-se no pensamento (cabeça). Depois sente-se na boca. Depois aterra no peito, atrás do esterno. Quando o nome vive lá, a oração faz-se sozinha.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - deeper drone, voice resonating, minimal accompaniment, voice naming, 30 seconds]
+[Intro - deeper drone, voice resonating, minimal accompaniment, 30 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem sou
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o nome começou na cabeça
 
-para além do nome
+passou para a boca
 
-a pergunta sem responder
+agora desce ao peito
 
-quem sou
-
-quem sou
+desce ao peito`
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não tenho de responder
+atrás do esterno
 
-a pergunta também é casa
+ali assenta
 
-quem sou
-
-quem sou
+desce ao peito
 
 [Bridge - deeper drone, no voice, very minimal, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem se pergunta sem urgência de resposta
-fica aberta a si própria
+[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem deixou o nome descer ao peito
+descobriu que o nome continua a dizer-se
+sem a cabeça mandar
 
-quem sou
+o peito ficou guarda do nome
 
-quem sou
+desce ao peito
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem sou
-quem sou
-quem sou
+desce
+desce ao peito
+desce
 
 [Outro - voices fade, drone deepens, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem sou
-quem sou
+desce ao peito
+desce ao peito
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer, mantra repetition with development, low female voice, long sustained drone in D, voice-foreground a capella, minimal instrumentation, throat as instrument, inner voice releasing, question beyond name, dwelling in question, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer descending to heart, mantra repetition with development, low female voice, deeper drone, voice resonating, name migrating from head to mouth to chest, classic Hesicasmo descent, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.4 *Nome* (Centro)
+## 4.4 *Cada Sopro* (Centro)
 
-**Conceito:** no centro: nome. Não importa qual é. O facto de ter nome, de poder ser chamada, de existir como alguém — é só. Nome.
+**Conceito:** o centro do álbum — o nome no sopro. Em cada inspiração, o nome entra. Em cada expiração, o nome sai. O nome cavalga a respiração. Não preciso de o segurar — ele vem com o ar.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - drone with subtle harmonic, voice-foreground, throat-prayer quality, voice naming, 30 seconds]
+[Intro - drone with subtle harmonic, voice-foreground, throat-prayer quality, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-nome
+cada sopro
 
-não importa qual é
+em cada inspiração
+o nome entra
 
-o facto de ter nome
-de poder ser chamada
-de existir como alguém
+em cada expiração
+o nome sai
 
-nome
+cada sopro
 
-nome
+[Verse 2 - same whispered tone, slightly more present, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o nome cavalga a respiração
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o nome é a primeira evidência
-de que existo para alguém
+não preciso de o segurar
 
-nome
+ele vem com o ar
 
-nome
+cada sopro
 
 [Bridge - drone with harmonic, no voice, sustained, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem se diz pelo nome
-afirma a sua existência sem necessidade de explicar
+[Verse 3 - sung low, deep female voice, no vibrato, grounded, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem casou o nome com o sopro
+nunca está sem oração
 
-nome
+enquanto respiro
+rezo
 
-nome
+cada sopro
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-nome
-nome
-nome
+[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+cada sopro
+cada sopro
+cada sopro
 
 [Outro - voice fades, drone sustains, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-nome
-nome
+cada sopro
+cada sopro
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer, mantra repetition with development, low female voice, long sustained drone in D, voice-foreground a capella, minimal instrumentation, throat as instrument, inner voice releasing, name as primary evidence of existence, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer wedded to breath, mantra repetition with development, low female voice, drone with subtle harmonic, voice-foreground throat-prayer quality, name riding the breath, prayer becoming respiration, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.5 *Sou Chamada* (Habitação)
+## 4.5 *Repete-se* (Habitação)
 
-**Conceito:** sou chamada. Pela mãe, pela amiga, pelo cliente, por mim. Quando o nome soa, eu acudo. Sou aquela que acode quando ouve o seu nome.
+**Conceito:** o gesto fica autónomo. Já não sou eu a dizer o nome — *repete-se*. Habito uma prática que se mantém sozinha. Posso falar com outra pessoa, posso cozinhar — o nome continua, no fundo.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - gentle drone, voice resting in it, voice naming, 25 seconds]
+[Intro - gentle drone, voice resting in it, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sou chamada
+[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+repete-se
 
-pela mãe
-pela amiga
-pelo cliente
-por mim
+já não sou eu a dizer o nome
 
-sou chamada
+repete-se sozinho
 
-sou chamada
+repete-se
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando o nome soa
-eu acudo
+[Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+posso falar com outra pessoa
+posso cozinhar
+posso conduzir
 
-sou aquela que acode
-quando ouve o seu nome
+o nome continua no fundo
 
-sou chamada
-
-sou chamada
+repete-se
 
 [Bridge - gentle drone, no voice, sustained, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem responde ao próprio nome
-afirma a sua presença no mundo
+[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem habitou esta prática durante anos
+encontrou-se com o nome a dizer-se
+mesmo durante o sono
 
-estou cá
-quando me chamam
+a oração tornou-se modo de viver
 
-sou chamada
+repete-se
 
-sou chamada
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sou
-sou chamada
-sou
+[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+repete-se
+repete-se
+repete-se
 
 [Outro - voices fade gently, drone sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sou chamada
-sou chamada
+repete-se
+repete-se
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer, mantra repetition with development, low female voice, long sustained drone in D, voice-foreground a capella, minimal instrumentation, throat as instrument, inner voice releasing, responding to one's name as affirmation of presence, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer, mantra repetition with development, low female voice, gentle drone, voice resting, name repeating autonomously, prayer as way of living continuous in background, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.6 *Vou em Nome* (Despedida)
+## 4.6 *No Andar* (Despedida)
 
-**Conceito:** vou em nome. Sou eu quem vou — não anónima, não interchangeable. Eu, com este nome, com esta voz, com esta cara. Vou em nome.
+**Conceito:** levar o nome ao dia, em sincronia com cada passo. Pé direito, sílaba uma. Pé esquerdo, sílaba duas. O nome anda comigo. Quando a Loranne sai à rua, o nome vai consigo, no ritmo do andar.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - drone opening upward, voice articulated, slight minimal piano, voice naming, 25 seconds]
+[Intro - drone opening upward, voice articulated, slight minimal piano, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou em nome
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+no andar
 
-sou eu quem vou
+pé direito
+sílaba uma
 
-não anónima
-não interchangeable
+pé esquerdo
+sílaba duas
 
-eu
-com este nome
-com esta voz
-com esta cara
+o nome anda comigo
 
-vou em nome
+no andar
 
-vou em nome
+[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quando saio à rua
+o nome vai à rua
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando entro na sala
-entra alguém
+quando subo as escadas
+o nome sobe as escadas
 
-quando saio
-sai alguém
-
-vou em nome
-
-vou em nome
+no andar
 
 [Bridge - drone more present, no voice, piano single, 50 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem antes de mim levou o seu nome ao mundo
-contribuiu por ter nome
-não apesar de
+[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem casa o nome com o passo
+nunca está sem prece em movimento
 
-eu também
+a cidade vira mosteiro
+para quem sabe disto
 
-vou em nome
+no andar
 
-vou em nome
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou
-vou em nome
-vou
+[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+no andar
+no andar
+no andar
 
 [Outro - voices fade to whisper, drone sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou em nome
-vou em nome
+no andar
+no andar
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer, mantra repetition with development, low female voice, long sustained drone in D, voice-foreground a capella, minimal instrumentation, throat as instrument, inner voice releasing, taking one's name into the world, contribution through naming, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer in walking, mantra repetition with development, low female voice, drone opening upward, voice articulated, name synchronized with steps, walking as mobile monastery, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.7 *Sem Nome Também* (Dissolução)
+## 4.7 *Sem Nome* (Dissolução)
 
-**Conceito:** no fim, sem nome também sou. Antes de me darem o nome eu existia. Depois do nome esquecido vou ainda existir. Sem nome também.
+**Conceito:** o nome desaparece. Fica o sopro. Fica o coração a bater. Fica o gesto do peito a subir e descer. Sem nome — mas a prática continua, em forma de pura respiração.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - very minimal drone, much silence, voice almost breath, voice naming, 20 seconds]
+[Intro - very minimal drone, much silence, voice almost breath, 20 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem nome também
+[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+sem nome
 
-antes de me darem o nome
-eu existia
+o nome desapareceu
 
-depois do nome esquecido
-vou ainda existir
+ficou o sopro
 
-sem nome também
+ficou o coração a bater
 
-sem nome também
+sem nome
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o nome serve
-mas não me define
+[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+ficou o gesto do peito a subir e descer
 
-sem nome também
+a prática continua
+em forma de pura respiração
 
-sem nome também
+sem nome
 
 [Bridge - very minimal, drone faint with much silence, distant breath, 40 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem solta o nome
-encontra a existência por trás do nome
+[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o nome serviu para chegar aqui
 
-a existência veio primeiro
-o nome é roupa
+aqui é onde o nome se solta
 
-sem nome também
+sem nome
 
-sem nome também
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 4 - layered voices, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
 sem
-sem nome também
+sem nome
 ah
 
 [Outro - voices dissolve into breath, drone fades to nothing, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
@@ -438,4 +408,4 @@ ah
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like throat prayer, mantra repetition with development, low female voice, long sustained drone in D, voice-foreground a capella, minimal instrumentation, throat as instrument, inner voice releasing, existence before and beyond name, name as clothing not essence, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, hesycast-like, mantra repetition with development, low female voice, very minimal drone, much silence, voice almost breath, name dissolves leaving breath, prayer as pure respiration, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register

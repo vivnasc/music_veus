@@ -1,438 +1,406 @@
 # Álbum 6 — **Observar** (Inquietação)
 
 > Sub-coleção: Inquietação · Eixo dominante: **Consigo** · Tradição encarnada (não nomeada): Vipassana — atenção plena, observação sem agarrar
-> Função do álbum: a prática da testemunha — ver-se a si mesma sem se julgar.
-> Hora interior: começo da tarde (luz clara, mente alerta)
+> Função do álbum: o reparar como prática corpórea — não comentário psicológico mas atenção a sensações concretas. Vipassana de verdade não é a "testemunha" (categoria intelectual) — é o reparar no formigueiro do dedo, no peso atrás dos olhos, no calor que se desloca pela face.
+> Hora interior: começo da tarde (luz clara, atenção alerta sem peso)
 > Compliance: `ESCREVER-LETRAS.md`
+> Notas de revisão: versão refeita à mão — a primeira passagem caía em vocabulário de manual de Vipassana ocidental ("vejo-me, não julgo, sem defender, observo, habito a testemunha"). Eckhart-Tolle-paperback. Esta versão ancora a observação em sensações corporais concretas, não em estados psicológicos abstractos.
 
 **Os 7 conceitos do álbum, sem sobreposição:**
 
 | # | Posição | Mantra | Conceito |
 |---|---|---|---|
-| 6.1 | Chegada | **Vejo-me** — `vejo-me` | primeiro reconhecimento da testemunha interna |
-| 6.2 | Reconhecimento | **Não Julgo** — `não julgo` | ver sem comentar |
-| 6.3 | Aprofundamento | **Sem Defender** — `sem defender` | ver sem defender o que está sendo visto |
-| 6.4 | Centro | **Observo** — `observo` | no centro: pura testemunha activa |
-| 6.5 | Habitação | **Habito a Testemunha** — `habito a testemunha` | viver como testemunha |
-| 6.6 | Despedida | **Vejo Tudo** — `vejo tudo` | levar a observação ao dia inteiro |
-| 6.7 | Dissolução | **Nem Eu Vejo** — `nem eu vejo` | soltar a identificação com a testemunha |
+| 6.1 | Chegada | **Onde Está** — `onde está` | onde está a sensação no corpo, agora |
+| 6.2 | Reconhecimento | **Tem Sítio** — `tem sítio` | cada sensação tem sítio concreto |
+| 6.3 | Aprofundamento | **Muda Sozinha** — `muda sozinha` | observada, a sensação muda sem eu mexer |
+| 6.4 | Centro | **Sente-se** — `sente-se` | reflexivo — sensação sentida sem sujeito separado |
+| 6.5 | Habitação | **Deixo Estar** — `deixo estar` | a sensação fica onde está, eu fico onde estou |
+| 6.6 | Despedida | **Reparo Hoje** — `reparo hoje` | levar o reparar ao corpo do dia |
+| 6.7 | Dissolução | **Nem Reparar** — `nem reparar` | soltar até o acto de reparar |
 
 ---
 
-## 6.1 *Vejo-me* (Chegada)
+## 6.1 *Onde Está* (Chegada)
 
-**Conceito:** vejo-me. Há uma parte de mim que vê o resto. Que vê o medo, que vê a raiva, que vê o cansaço. Esta parte que vê é eu também — talvez mais eu do que o que ela vê.
+**Conceito:** primeira pergunta da atenção concreta. Há uma sensação no corpo agora — qual e onde. Não pensamento sobre sensação. A própria sensação localizada. O formigueiro no pé esquerdo. O peso atrás dos olhos. O leve enjoo de manhã que não tinha notado.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - shakuhachi/ney solo breath-tone, distant string harmonics, very long pauses, neutral witness quality, 30 seconds]
+[Intro - shakuhachi/ney solo breath-tone, distant string harmonics, very long pauses, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vejo-me
+onde está
 
-há uma parte de mim
-que vê o resto
+a sensação
+agora
 
-vê o medo
-vê a raiva
-vê o cansaço
+no pé esquerdo formiga
+atrás dos olhos pesa
+no estômago há um leve enjoo
 
-vejo-me
-
-vejo-me
+onde está
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-esta parte que vê
-é eu também
+não tinha notado
 
-talvez mais eu
-do que o que ela vê
+agora notei
 
-vejo-me
-
-vejo-me
+onde está
 
 [Bridge - shakuhachi/ney sustained, string harmonics distant, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a testemunha sempre esteve aqui
+quem antes de mim aprendeu a perguntar onde está
+viveu mais próxima do corpo
 
-só preciso de lembrar dela
+a pergunta é simples
+o corpo responde sem palavra
 
-vejo-me
-
-vejo-me
+onde está
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vejo-me
-vejo-me
-vejo-me
+onde
+onde está
+onde
 
 [Outro - voice fades, shakuhachi sustains, sinos faint, 45 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vejo-me
-vejo-me
+onde está
+onde está
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney breath-tones, cordas em harmónicos, sinos pequenos cristal, airy ascendant, mind-clarity through observation, discovering internal witness, the one who sees, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney breath-tones, cordas em harmónicos, sinos pequenos cristal, body-localized attention to sensation, where in the body is what is felt, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.2 *Não Julgo* (Reconhecimento)
+## 6.2 *Tem Sítio* (Reconhecimento)
 
-**Conceito:** vejo o que vejo, mas não julgo. Não digo isto é mau, isto é bom. Apenas vejo. O julgamento é mais uma camada — observo sem ela.
+**Conceito:** cada sensação tem sítio concreto. O cansaço não está "em mim" abstracto — está no peito superior. A ansiedade não é geral — está na boca do estômago. A irritação tem sítio entre as duas escápulas. Reconhecer cada sensação tem o seu lugar.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - shakuhachi/ney with cordas em harmónicos entering, small bells distant, slow, neutral witness quality, 25 seconds]
+[Intro - shakuhachi/ney with cordas em harmónicos entering, small bells distant, slow, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não julgo
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o cansaço tem sítio
+no peito superior
 
-vejo o que vejo
-mas não comento
+a ansiedade tem sítio
+na boca do estômago
 
-não digo isto é mau
-isto é bom
+a irritação tem sítio
+entre as duas escápulas
 
-apenas vejo
-
-não julgo
-
-não julgo
+tem sítio
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o julgamento é mais uma camada
-que adiciono ao que vejo
+nada está em mim em geral
 
-posso observar sem ela
+cada coisa tem o seu lugar
 
-não julgo
-
-não julgo
+tem sítio
 
 [Bridge - shakuhachi/ney and string harmonics sustained, sinos sparse, no voice, 55 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem aprende a observar sem julgar
-encontra paz inesperada
+[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o corpo é mapa muito antigo
 
-a maior parte do sofrimento
-vem do julgamento, não do que se vê
+quem aprende a lê-lo
+sabe o que se passa em cada momento
 
-não julgo
-
-não julgo
+tem sítio
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não
-não julgo
-não
+tem sítio
+tem sítio
+tem sítio
 
 [Outro - voices fade, shakuhachi slows, harmonics linger, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não julgo
-não julgo
+tem sítio
+tem sítio
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney breath-tones, cordas em harmónicos, sinos pequenos cristal, airy ascendant, mind-clarity through observation, seeing without commentary, the layer of judgment removed, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney, cordas em harmónicos, sinos pequenos cristal, body as ancient map, sensations have concrete locations, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.3 *Sem Defender* (Aprofundamento)
+## 6.3 *Muda Sozinha* (Aprofundamento)
 
-**Conceito:** sem defender. Quando vejo algo difícil em mim, a tentação é defendê-lo ou esconder. Sem defender. Vejo, deixo ver, não tento mudar a verdade do que vi.
+**Conceito:** descoberta central de Vipassana, dada por experiência. Quando observo o formigueiro no pé sem o querer aliviar, ele transforma-se sozinho. Migra. Diminui. Cresce. Muda de qualidade. A sensação observada muda — e eu nem mexi.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - shakuhachi/ney deeper register, cordas em harmónicos low, sustained tones, neutral witness quality, 30 seconds]
+[Intro - shakuhachi/ney deeper register, cordas em harmónicos low, sustained tones, 30 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem defender
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o formigueiro no pé esquerdo
 
-quando vejo algo difícil em mim
+observo
 
-a tentação é defendê-lo
-ou esconder
+sem o querer aliviar
+sem o querer prolongar
 
-sem defender
-
-sem defender
+muda sozinha
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vejo
+migra para o tornozelo
+diminui
+muda de qualidade
 
-deixo ver
+eu nem mexi
 
-não tento mudar a verdade do que vi
-
-sem defender
-
-sem defender
+muda sozinha
 
 [Bridge - shakuhachi/ney low, string harmonics deep, sustained, no voice, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem se vê sem defender
-é a primeira a saber a verdade sobre si
+[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+nada que sinto fica igual
+se observo o suficiente
 
-quem se defende
-gasta energia que podia gastar em viver
+isto é a observação a fazer trabalho
+que o esforço nunca consegue
 
-sem defender
-
-sem defender
+muda sozinha
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem
-sem defender
-sem
+muda
+muda sozinha
+muda
 
 [Outro - voices fade, shakuhachi holds, harmonics decay, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem defender
-sem defender
+muda sozinha
+muda sozinha
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney breath-tones, cordas em harmónicos, sinos pequenos cristal, airy ascendant, mind-clarity through observation, witnessing without self-defense, energy preserved for living, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney deeper, cordas em harmónicos low, sensation transforms under observation, sustained airiness, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.4 *Observo* (Centro)
+## 6.4 *Sente-se* (Centro)
 
-**Conceito:** no centro: observo. Verbo neutro. Não me apego ao que vejo, não fujo, não corrijo, não interpreto. Observo.
+**Conceito:** o centro do álbum no reflexivo português. Não "eu sinto" (com sujeito psicológico) — *sente-se*. A sensação acontece sem observador separado. Como *faz-se* em Apatia, *sente-se* aqui: a observação sem ego.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - shakuhachi/ney balanced, cordas em harmónicos, sinos cristal-like, sustained airiness, neutral witness quality, 30 seconds]
+[Intro - shakuhachi/ney balanced, cordas em harmónicos, sinos cristal-like, sustained airiness, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-observo
+sente-se
 
-não me apego ao que vejo
-não fujo
-não corrijo
-não interpreto
+não é eu que sinto
 
-observo
+não é outro que sente
 
-observo
+sente-se`
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-só observo
+[Verse 2 - same whispered tone, slightly more present, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o ar entra no nariz
+o pulmão expande
 
-observo
+sente-se
 
-observo
+a saliva engole-se
+o pulso bate
+
+sente-se
 
 [Bridge - shakuhachi cordas sinos balanced, no voice, sustained, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem observa
-encontra largueza
+[Verse 3 - sung low, deep female voice, no vibrato, grounded, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem se solta de ser quem sente
+descobre que sentir continua
 
-a coisa observada é pequena
-a observadora é o céu
+a sensação não precisa de dono
+para acontecer
 
-observo
+sente-se
 
-observo
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-observo
-observo
-observo
+[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+sente-se
+sente-se
+sente-se
 
 [Outro - voice fades to whisper, shakuhachi sustains, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-observo
-observo
+sente-se
+sente-se
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney breath-tones, cordas em harmónicos, sinos pequenos cristal, airy ascendant, mind-clarity through observation, pure witness as central practice, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney balanced, cordas em harmónicos, sinos cristal, Portuguese reflexive grammar as sensation without subject, fullness without density, sensation does not need owner, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.5 *Habito a Testemunha* (Habitação)
+## 6.5 *Deixo Estar* (Habitação)
 
-**Conceito:** habito a testemunha. Não é um exercício de cinco minutos — é o modo de habitar. Estar sempre um pouco distante de mim, sem deixar de ser eu.
+**Conceito:** habitar o reparar sem mexer. A sensação está onde está — não a empurro, não a chamo. *Deixo estar.* Frase coloquial portuguesa que carrega exactamente o que Vipassana pede. Eu fico onde estou também. Habitação dupla: a sensação no seu sítio, eu no meu.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - cordas em harmónicos foreground, shakuhachi/ney soft, sinos gentle, neutral witness quality, 25 seconds]
+[Intro - cordas em harmónicos foreground, shakuhachi/ney soft, sinos gentle, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-habito a testemunha
+[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+deixo estar
 
-não é exercício de cinco minutos
+a tensão no ombro
 
-é modo de habitar
+deixo estar
 
-habito a testemunha
+não a empurro
+não a chamo
 
-habito a testemunha
+está onde está
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-estar sempre um pouco distante de mim
+deixo estar
 
-sem deixar de ser eu
+[Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+eu fico onde estou também
 
-habito a testemunha
+a sensação no seu sítio
+eu no meu
 
-habito a testemunha
+deixo estar
 
 [Bridge - string harmonics and shakuhachi sustained, sinos soft, no voice, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a testemunha não é fria
-é serena
+[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem deixa estar
+não está parada
+nem está a fazer
 
-vê tudo com olhos de quem sabe que tudo passa
+está numa terceira coisa
+mais antiga e simples
 
-habito a testemunha
+deixo estar
 
-habito a testemunha
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-habito
-habito a testemunha
-habito
+[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+deixo estar
+deixo estar
+deixo estar
 
 [Outro - voices fade gently, harmonics sustain, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-habito a testemunha
-habito a testemunha
+deixo estar
+deixo estar
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney breath-tones, cordas em harmónicos, sinos pequenos cristal, airy ascendant, mind-clarity through observation, witness as way of dwelling, not as exercise, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, cordas em harmónicos foreground, shakuhachi soft, sinos gentle, Portuguese colloquial "deixo estar" as exact vipassana, double dwelling sensation in place self in place, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.6 *Vejo Tudo* (Despedida)
+## 6.6 *Reparo Hoje* (Despedida)
 
-**Conceito:** vejo tudo. Sem catalogar, sem registar, sem comentar — vejo tudo o que acontece, dentro e fora. Hoje vou ver tudo, e tudo vai ser interessante porque vi.
+**Conceito:** levar o reparar ao corpo do dia. Não "vou estar consciente" abstracto — mas reparar no peso da chávena na mão, na temperatura do volante, na pressão da cadeira contra as costas. O reparar como prática portátil em sensações concretas.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - shakuhachi/ney more articulated, cordas opening, sinos awakening, neutral witness quality, 25 seconds]
+[Intro - shakuhachi/ney more articulated, cordas opening, sinos awakening, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vejo tudo
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+reparo hoje
 
-dentro e fora
+no peso da chávena na mão
+na temperatura do volante
+na pressão da cadeira contra as costas
 
-sem catalogar
-sem registar
-sem comentar
+reparo hoje
 
-vejo tudo
+[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não estou consciente em geral
 
-vejo tudo
+estou consciente
+da textura desta caneta agora
+da maciez deste lençol agora
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-hoje vou ver tudo
-
-e tudo vai ser interessante
-porque vi
-
-vejo tudo
-
-vejo tudo
+reparo hoje
 
 [Bridge - shakuhachi more present, harmonics open, sinos awakening, no voice, 50 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem vê tudo
-vive duas vezes
+[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem repara em coisas pequenas
+o dia inteiro
+vive mais inteira
 
-uma vez no acontecer
-outra vez no ver
+a atenção é a sua própria recompensa
 
-vejo tudo
+reparo hoje
 
-vejo tudo
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vejo
-vejo tudo
-vejo
+[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+reparo
+reparo hoje
+reparo
 
 [Outro - voices fade to whisper, shakuhachi sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vejo tudo
-vejo tudo
+reparo hoje
+reparo hoje
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney breath-tones, cordas em harmónicos, sinos pequenos cristal, airy ascendant, mind-clarity through observation, all-day witnessing, life doubled by attention, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi more articulated, harmonics opening upward, sinos awakening, awareness as concrete sensorial attention through day, presence portable in specific particulars, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.7 *Nem Eu Vejo* (Dissolução)
+## 6.7 *Nem Reparar* (Dissolução)
 
-**Conceito:** no fim, até a testemunha é mais uma máscara. Quem é o eu que vê? Quem vê o eu que vê? Nem eu vejo. Apenas ver acontece.
+**Conceito:** soltar até o acto de reparar. A atenção continua sem precisar de ser exercida deliberadamente. O corpo sente sozinho. A consciência opera sem instrução. Nem reparar — a atenção fica disponível mas sem trabalho.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - very sparse shakuhachi/ney breaths, distant sinos, much silence, neutral witness quality, 20 seconds]
+[Intro - very sparse shakuhachi/ney breaths, distant sinos, much silence, 20 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-nem eu vejo
+[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+nem reparar
 
-quem é o eu que vê?
+a atenção continua
 
-quem vê o eu que vê?
+sem eu a exercer
 
-nem eu vejo
+nem reparar
 
-nem eu vejo
+[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o corpo sente sozinho
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-apenas ver acontece
+a consciência opera
+sem instrução
 
-sem dono
-
-nem eu vejo
-
-nem eu vejo
+nem reparar
 
 [Bridge - very minimal, shakuhachi breath-tones with much silence, distant breath, 40 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem chega ao ver-sem-dono
-descansa profundamente
+[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o reparar é mais leve
+quando não tem trabalhador
 
-já não há trabalho de quem vê
-só ver
-acontecendo
+torna-se modo de ser
+em vez de gesto
 
-nem eu vejo
+nem reparar
 
-nem eu vejo
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 4 - layered voices, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
 nem
-nem eu vejo
+nem reparar
 ah
 
 [Outro - voices dissolve into breath, instruments fade to nothing, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
@@ -441,4 +409,4 @@ ah
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, shakuhachi or ney breath-tones, cordas em harmónicos, sinos pequenos cristal, airy ascendant, mind-clarity through observation, releasing identification with witness, seeing without owner, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, vipassana-like observation, mantra repetition with development, low female voice, extremely sparse shakuhachi breath-tones, distant sinos, much silence, attention without exercising, awareness as mode of being not gesture, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
