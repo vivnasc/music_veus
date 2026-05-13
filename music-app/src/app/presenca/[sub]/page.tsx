@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import { PresencaSubPlayer } from "../PresencaSubPlayer";
 import {
   PRESENCA_SUBS,
   PRESENCA_SUB_META,
@@ -76,6 +77,13 @@ export default async function PresencaSubPage({ params }: Params) {
               )}
               {sub.layers?.solfeggio && <Box label="Solfeggio">{sub.layers.solfeggio}</Box>}
             </div>
+
+            {/* Tocar tudo / Aleatório / Adicionar a playlist — sub-coleção inteira */}
+            <PresencaSubPlayer
+              subSlug={sub.slug as PresencaSubSlug}
+              subLabel={sub.label}
+              accentColor={meta.color}
+            />
           </div>
         </div>
       </section>
