@@ -11,6 +11,7 @@ import {
   type PresencaSubSlug,
 } from "@/data/presenca";
 import { TrackPromptCopy } from "./TrackPromptCopy";
+import { PresencaAlbumActions } from "../../PresencaAlbumActions";
 
 export function generateStaticParams() {
   const params: { sub: string; album: string }[] = [];
@@ -82,21 +83,14 @@ export default async function PresencaAlbumPage({ params }: Params) {
               </p>
             )}
 
-            {/* Ouvir álbum — abre /album/{slug} se houver áudio publicado */}
-            <div className="mt-5 flex flex-wrap items-center gap-2">
-              <Link
-                href={`/album/presenca-${sub.slug}-${album.slug}`}
-                className="inline-flex items-center gap-2 px-5 py-2 rounded-full text-sm font-medium text-black bg-[#F5F0E6] hover:bg-white transition"
-              >
-                <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-                Ouvir álbum
-              </Link>
-              <span className="text-[11px] text-[#8a8a9a]">
-                (só toca o que já foi gerado e aprovado)
-              </span>
-            </div>
+            {/* Acções do álbum — mesmas ferramentas que a sub-coleção e os
+                álbuns standard: Ouvir · Aleatório · Tocar a seguir · Playlist */}
+            <PresencaAlbumActions
+              subSlug={sub.slug as PresencaSubSlug}
+              albumSlug={album.slug}
+              albumTitle={album.title}
+              accentColor={meta.color}
+            />
           </div>
         </div>
       </section>
