@@ -1888,6 +1888,11 @@ export default function AlbumProductionPage() {
   // ref because the cancel button needs to interrupt an in-flight loop whose
   // closure already captured the previous state
   const accentRegenCancelRef = useRef(false);
+  // Bulk approve state — runs after regen finishes and clips are ready
+  const [accentApproveRunning, setAccentApproveRunning] = useState(false);
+  const [accentApproveIdx, setAccentApproveIdx] = useState(0);
+  const [accentApproveSkipped, setAccentApproveSkipped] = useState<string[]>([]);
+  const accentApproveCancelRef = useRef(false);
   // Persona Loranne — auto-set from Goodnight World seed; user override persists in localStorage
   const [personaId, setPersonaId] = useState<string>(() => {
     if (typeof window === "undefined") return LORANNE_VOICE_ID;
@@ -2590,6 +2595,39 @@ export default function AlbumProductionPage() {
     setAccentRegenRunning(false);
   }
 
+  // Bulk-approve the first ready clip for every track in the manifest.
+  // Tracks without clips yet are skipped and reported back to the user.
+  async function approveAllAccentFixes() {
+    if (accentApproveRunning) return;
+    const ok = window.confirm(
+      "Vai SUBSTITUIR o áudio principal das faixas regeneradas, escrevendo por cima do que está no Supabase. As versões anteriores são perdidas. Continuar?"
+    );
+    if (!ok) return;
+    accentApproveCancelRef.current = false;
+    setAccentApproveRunning(true);
+    setAccentApproveIdx(0);
+    const skipped: string[] = [];
+    for (let i = 0; i < ACCENT_FIXES_MANIFEST.length; i++) {
+      if (accentApproveCancelRef.current) break;
+      const { albumSlug, trackNumber } = ACCENT_FIXES_MANIFEST[i];
+      setAccentApproveIdx(i + 1);
+      const alb = ALL_ALBUMS.find((a) => a.slug === albumSlug);
+      const track = alb?.tracks.find((t) => t.number === trackNumber);
+      if (!track) { skipped.push(`${albumSlug}/${trackNumber}`); continue; }
+      const key = trackKey(albumSlug, trackNumber);
+      const clips = generatedClips[key]?.clips || [];
+      const idx = selectedClipIdx[key] ?? 0;
+      const clip = clips[idx] || clips.find((c) => c.audioUrl);
+      if (!clip?.audioUrl) {
+        skipped.push(`${alb?.title || albumSlug} #${trackNumber}`);
+        continue;
+      }
+      await approveClip(albumSlug, track, clip.audioUrl, clip.title, clip.imageUrl || null);
+    }
+    setAccentApproveSkipped(skipped);
+    setAccentApproveRunning(false);
+  }
+
   function removeTrack(albumSlug: string, trackNum: number) {
     const key = trackKey(albumSlug, trackNum);
     setStatuses((s) => ({ ...s, [key]: "idle" }));
@@ -2851,7 +2889,11 @@ export default function AlbumProductionPage() {
             (acc[e.albumSlug] ||= []).push(e.trackNumber);
             return acc;
           }, {});
-          const current = accentRegenIdx;
+          // Count how many manifest tracks already have clips ready to approve
+          const readyForApproval = ACCENT_FIXES_MANIFEST.filter((e) => {
+            const k = trackKey(e.albumSlug, e.trackNumber);
+            return (generatedClips[k]?.clips || []).some((c) => c.audioUrl);
+          }).length;
           return (
             <div className="mb-6 rounded-lg border border-amber-500/30 bg-amber-950/20 p-4">
               <div className="flex items-start justify-between gap-3 flex-wrap">
@@ -2860,33 +2902,65 @@ export default function AlbumProductionPage() {
                     Regenerar faixas com letra corrigida (acentuação Incenso)
                   </h3>
                   <p className="mt-1 text-[11px] text-amber-200/70">
-                    {total} faixas em {Object.keys(byAlbum).length} álbuns — letras com acentos corrigidos na branch{" "}
+                    Caso especial: {total} faixas em {Object.keys(byAlbum).length} álbuns já produzidas, cujas
+                    letras foram corrigidas. Regenera tudo → substitui directamente o áudio principal no Supabase
+                    (não passa por "guardar versão"). Branch{" "}
                     <code className="rounded bg-black/30 px-1">claude/fix-album-accents-1htRZ</code>.
                   </p>
                 </div>
-                <div className="flex items-center gap-2">
-                  {!accentRegenRunning ? (
-                    <button
-                      onClick={regenerateAccentFixes}
-                      className="rounded-lg bg-amber-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-amber-700"
-                    >
-                      Regenerar todas ({total})
-                    </button>
-                  ) : (
-                    <>
-                      <span className="text-xs text-amber-300">
-                        A submeter {current}/{total}...
-                      </span>
-                      <button
-                        onClick={() => { accentRegenCancelRef.current = true; }}
-                        className="rounded-lg bg-red-700/50 px-3 py-2 text-xs text-red-200 hover:bg-red-700/70"
-                      >
-                        Cancelar
-                      </button>
-                    </>
-                  )}
-                </div>
               </div>
+              <div className="mt-3 flex flex-wrap items-center gap-2">
+                {!accentRegenRunning ? (
+                  <button
+                    onClick={regenerateAccentFixes}
+                    className="rounded-lg bg-amber-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-amber-700"
+                  >
+                    1. Regenerar todas ({total})
+                  </button>
+                ) : (
+                  <>
+                    <span className="text-xs text-amber-300">
+                      A submeter {accentRegenIdx}/{total}...
+                    </span>
+                    <button
+                      onClick={() => { accentRegenCancelRef.current = true; }}
+                      className="rounded-lg bg-red-700/50 px-3 py-2 text-xs text-red-200 hover:bg-red-700/70"
+                    >
+                      Cancelar
+                    </button>
+                  </>
+                )}
+                {!accentApproveRunning ? (
+                  <button
+                    onClick={approveAllAccentFixes}
+                    disabled={readyForApproval === 0}
+                    className="rounded-lg bg-green-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-green-700 disabled:cursor-not-allowed disabled:opacity-40"
+                    title={readyForApproval === 0 ? "Espera o Suno gerar os clips" : "Substitui o áudio principal nas faixas regeneradas"}
+                  >
+                    2. SUBSTITUIR principal nas {readyForApproval}/{total} prontas
+                  </button>
+                ) : (
+                  <>
+                    <span className="text-xs text-green-300">
+                      A substituir {accentApproveIdx}/{total}...
+                    </span>
+                    <button
+                      onClick={() => { accentApproveCancelRef.current = true; }}
+                      className="rounded-lg bg-red-700/50 px-3 py-2 text-xs text-red-200 hover:bg-red-700/70"
+                    >
+                      Cancelar
+                    </button>
+                  </>
+                )}
+              </div>
+              {accentApproveSkipped.length > 0 && !accentApproveRunning && (
+                <div className="mt-3 rounded bg-yellow-950/40 p-2 text-[11px] text-yellow-200">
+                  {accentApproveSkipped.length} faixa(s) ignorada(s) (sem clips prontos):{" "}
+                  {accentApproveSkipped.slice(0, 8).join(", ")}
+                  {accentApproveSkipped.length > 8 && `, +${accentApproveSkipped.length - 8}`}
+                  . Carrega outra vez quando estiverem prontas, ou aprova manualmente.
+                </div>
+              )}
               <details className="mt-3 text-[11px] text-amber-200/60">
                 <summary className="cursor-pointer hover:text-amber-200">
                   Ver lista por álbum
