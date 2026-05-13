@@ -1,27 +1,28 @@
 # Álbum 5 — **Confio** (Confusão)
 
 > Sub-coleção: Confusão · Eixo dominante: **Todo + consigo** · Tradição encarnada (não nomeada): Mística cristã contemplativa — noite escura, luz que não se entende
-> Função do álbum: confiar no que não se entende — fé como acto, não como crença.
+> Função do álbum: confiar como observação corporal. A cadeira aguenta-me agora. O chão aguenta a cadeira. Algo aguenta o chão. A confiança não é crença — é o registo sensorial daquilo que segura o meu peso enquanto eu não percebo o resto.
 > Hora interior: meio da tarde (luz alta, ar sereno)
 > Compliance: `ESCREVER-LETRAS.md`
+> Notas de revisão: versão refeita à mão — a primeira passagem caía em vocabulário crypto-religioso ("algo sabe", "em mãos maiores", "sem garantia"). A tradição que devia estar codificada (mística cristã) estava a transbordar em doutrina disfarçada. Esta versão ancora a confiança em coisas que aguentam o corpo agora, neste instante, fisicamente.
 
 **Os 7 conceitos do álbum, sem sobreposição:**
 
 | # | Posição | Mantra | Conceito |
 |---|---|---|---|
-| 5.1 | Chegada | **Algo Sabe** — `algo sabe` | reconhecer que algo maior orienta |
-| 5.2 | Reconhecimento | **Não Sozinha** — `não sozinha` | reconhecer companhia invisível |
-| 5.3 | Aprofundamento | **Solto-me** — `solto-me` | entregar-se ao que sustenta sem nomear |
-| 5.4 | Centro | **Confio** — `confio` | no centro: a confiança como acto |
-| 5.5 | Habitação | **Em Mãos Maiores** — `em mãos maiores` | habitar a entrega ao que sustenta |
-| 5.6 | Despedida | **Vou Confiada** — `vou confiada` | levar a confiança ao dia |
-| 5.7 | Dissolução | **Sem Garantia** — `sem garantia` | soltar a necessidade de prova |
+| 5.1 | Chegada | **A Cadeira Aguenta** — `a cadeira aguenta` | reconhecimento físico mínimo |
+| 5.2 | Reconhecimento | **O Chão Aguenta** — `o chão aguenta` | a cadeira é aguentada pelo chão |
+| 5.3 | Aprofundamento | **Por Baixo do Chão** — `por baixo do chão` | algo aguenta o chão também |
+| 5.4 | Centro | **Algo Aguenta** — `algo aguenta` | verbo concreto, sem nomear o quê |
+| 5.5 | Habitação | **Não Caio** — `não caio` | observação empírica de não estar a cair |
+| 5.6 | Despedida | **Apoio-me** — `apoio-me` | levar o registo de apoio ao dia |
+| 5.7 | Dissolução | **Nem Apoio** — `nem apoio` | soltar até a categoria do que aguenta |
 
 ---
 
-## 5.1 *Algo Sabe* (Chegada)
+## 5.1 *A Cadeira Aguenta* (Chegada)
 
-**Conceito:** algo sabe. Não eu — algo. Algo no fundo, algo maior, algo antes de eu pensar. Algo sabe o que eu não sei.
+**Conceito:** o primeiro registo físico da confiança. Estou sentada nesta cadeira. Ela aguenta-me. Não pensei nela toda a manhã — mas estava a aguentar-me em silêncio. Mesmo na confusão, há coisas a aguentar-me.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
@@ -31,401 +32,377 @@
 [Intro - harpa solo, very sparse plucks, distant sinos cristal, long silences, warm reassurance, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-algo sabe
+estou sentada
 
-não eu
+a cadeira aguenta o meu peso
+neste momento
 
-algo
+não pensei nela toda a manhã
+mas ela estava a aguentar-me em silêncio
 
-algo no fundo
-algo maior
-algo antes de eu pensar
-
-algo sabe
-
-algo sabe
+a cadeira aguenta
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-algo sabe o que eu não sei
+mesmo na confusão
+há coisas a aguentar-me
 
-algo sabe
+a cadeira é uma delas
 
-algo sabe
+a cadeira aguenta
 
 [Bridge - harpa sustained, sinos cristal distant, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-as avós diziam
-deus sabe
-sem definir deus
+alguém fez esta cadeira
+para alguém se sentar
 
-a forma humilde de reconhecer
-que não somos quem manda em tudo
+a cadeira não exige troca
+a cadeira faz o que sabe fazer
 
-algo sabe
-
-algo sabe
+a cadeira aguenta
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-algo sabe
-algo sabe
-algo sabe
+a cadeira aguenta
+a cadeira aguenta
+a cadeira aguenta
 
 [Outro - voice fades, harpa sustains, sinos faint, 45 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-algo sabe
-algo sabe
+a cadeira aguenta
+a cadeira aguenta
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa, sinos cristal, long harmonics, crystalline luminous atmosphere, seeing without understanding, something knows what I do not, ancestral humility, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa, sinos cristal, long harmonics, crystalline luminous atmosphere, trust as physical observation of chair holding weight, chair as silent companion through confusion, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.2 *Não Sozinha* (Reconhecimento)
+## 5.2 *O Chão Aguenta* (Reconhecimento)
 
-**Conceito:** não sozinha. Mesmo neste mistério, mesmo nesta confusão, não estou sozinha. Algo está comigo, mesmo que não o veja.
+**Conceito:** a cadeira não está suspensa no ar. Tem pés. Os pés da cadeira pousam no chão. O chão aguenta a cadeira. A rede de coisas a aguentar é mais antiga e mais larga do que eu vejo num primeiro olhar.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - harpa with sinos cristal entering, long harmonics, slow, warm reassurance, 25 seconds]
+[Intro - harpa with sinos cristal entering, long harmonics, slow, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não sozinha
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+a cadeira não está suspensa no ar
 
-mesmo neste mistério
-mesmo nesta confusão
+a cadeira tem pés
+e os pés da cadeira pousam no chão
 
-não estou sozinha
-
-algo está comigo
-
-mesmo que não o veja
-
-não sozinha
-
-não sozinha
+o chão aguenta
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não preciso de o nomear
-para o sentir
+o chão aguenta a cadeira
+que me aguenta a mim
 
-não sozinha
+a rede é mais antiga e mais larga
+do que eu vi num primeiro olhar
 
-não sozinha
+o chão aguenta
 
 [Bridge - harpa and sinos sustained, harmonics distant, no voice, 55 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem confia
-não está nunca completamente só
+[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o chão desta sala foi feito
+para receber pessoas
 
-a confiança convoca companhia
+receberam outras antes de mim
+vão receber outras depois
 
-não sozinha
+o chão aguenta sem se cansar
 
-não sozinha
+o chão aguenta
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não sozinha
-não sozinha
-não sozinha
+o chão aguenta
+o chão aguenta
+o chão aguenta
 
 [Outro - voices fade, harpa slows, sinos linger, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não sozinha
-não sozinha
+o chão aguenta
+o chão aguenta
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa, sinos cristal, long harmonics, crystalline luminous atmosphere, seeing without understanding, invisible company in confusion, trust as summoning, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa, sinos cristal, long harmonics, recognizing the network of holding, floor as ancestral receiver of bodies, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.3 *Solto-me* (Aprofundamento)
+## 5.3 *Por Baixo do Chão* (Aprofundamento)
 
-**Conceito:** solto-me. Não tenho de aguentar tudo eu. Solto-me ao que me sustenta — sem precisar de o nomear. Solto-me.
+**Conceito:** o chão também não está suspenso. Por baixo do chão está terra. Por baixo da terra está pedra. Por baixo da pedra está calor que não vejo. A confiança é a observação de que há sempre mais a aguentar — para baixo, para baixo, sem fundo.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - harpa deeper register, long harmonic drones, sinos sparse, warm reassurance, 30 seconds]
+[Intro - harpa deeper register, long harmonic drones, sinos sparse, 30 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-solto-me
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o chão também não está suspenso
 
-não tenho de aguentar tudo eu
+por baixo do chão está terra
+por baixo da terra está pedra
+por baixo da pedra está calor
 
-solto-me ao que me sustenta
-
-sem precisar de o nomear
-
-solto-me
-
-solto-me
+por baixo do chão
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o peso que eu não consigo
-talvez não fosse meu
+há sempre mais a aguentar
 
-solto-me
+para baixo
+para baixo
+sem fundo que eu possa ver
 
-solto-me
+por baixo do chão
 
 [Bridge - harpa low, harmonics deep, sinos sparse, no voice, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem se solta
-descobre que não cai
+[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem antes de mim se assentou em chão antigo
+descansou em camadas que não conheceu
 
-algo segura
+eu também descanso
+em camadas que não conheço
 
-solto-me
-
-solto-me
+por baixo do chão
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-solto-me
-solto-me
-solto-me
+por baixo
+por baixo do chão
+por baixo
 
 [Outro - voices fade, harpa holds, harmonics decay, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-solto-me
-solto-me
+por baixo do chão
+por baixo do chão
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa, sinos cristal, long harmonics, crystalline luminous atmosphere, seeing without understanding, surrender to what holds, weight not always mine, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa deeper, long harmonic drones, sinos sparse, descending recognition of layers holding, ancestral resting in unseen layers, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.4 *Confio* (Centro)
+## 5.4 *Algo Aguenta* (Centro)
 
-**Conceito:** no centro: confio. Não acredito, não creio dogma — confio. A confiança é acto, não crença. Confio na vida que recebi, na hora que estou, no próximo passo.
+**Conceito:** no centro do álbum, o verbo simples. *Algo aguenta*. Não digo o quê. Não preciso de saber. Não é teologia, não é doutrina. É a observação de que o meu peso está a ser aguentado neste momento — pela cadeira, pelo chão, pelo que está por baixo do chão, e por aí adiante. Algo aguenta.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - harpa balanced, sinos cristal, long harmonics, sustained crystalline atmosphere, warm reassurance, 30 seconds]
+[Intro - harpa balanced, sinos cristal, long harmonics, sustained crystalline atmosphere, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-confio
+algo aguenta
 
-não acredito
-não creio dogma
+não digo o quê
 
-confio
+não preciso de saber
 
-a confiança é acto
-não crença
+algo aguenta`
 
-confio
+[Verse 2 - same whispered tone, slightly more present, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o meu peso está a ser aguentado
+neste momento
 
-confio
+pela cadeira
+pelo chão
+pelo que está por baixo do chão
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-confio na vida que recebi
-na hora que estou
-no próximo passo
+por aí adiante
 
-confio
-
-confio
+algo aguenta
 
 [Bridge - harpa sinos harmonics balanced, no voice, sustained, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem confia
-sem necessidade de prova
-toca o que é antes da fé
+[Verse 3 - sung low, deep female voice, no vibrato, grounded, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não preciso de nome para confiar
 
-confio
+a observação basta
 
-confio
+vejo que estou a ser aguentada
+e isso é suficiente para hoje
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-confio
-confio
-confio
+algo aguenta
+
+[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+algo aguenta
+algo aguenta
+algo aguenta
 
 [Outro - voice fades to whisper, harpa sustains, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-confio
-confio
+algo aguenta
+algo aguenta
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa, sinos cristal, long harmonics, crystalline luminous atmosphere, seeing without understanding, trust as act not creed, before faith, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa balanced, sinos cristal, long harmonics, crystalline atmosphere, trust as observation not doctrine, naming the holding without naming the holder, fullness without density, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.5 *Em Mãos Maiores* (Habitação)
+## 5.5 *Não Caio* (Habitação)
 
-**Conceito:** em mãos maiores. As minhas mãos não chegam para tudo. Mas há mãos maiores. Não sei de quem — sei que existem porque algo me tem mantido.
+**Conceito:** observação empírica simples. Não estou a cair. Mesmo nesta confusão, mesmo sem mapa, mesmo sem saber para onde vou — não estou a cair. O facto de não cair é a forma mais simples da confiança. Habitar este facto.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - harpa foreground gentle, sinos soft, long harmonics underneath, warm reassurance, 25 seconds]
+[Intro - harpa foreground gentle, sinos soft, long harmonics underneath, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-em mãos maiores
+[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não caio
 
-as minhas mãos não chegam para tudo
+mesmo nesta confusão
+mesmo sem mapa
+mesmo sem saber para onde vou
 
-mas há mãos maiores
+não caio
 
-em mãos maiores
+[Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o facto de não cair é a forma mais simples da confiança
 
-em mãos maiores
+não preciso de mais argumento
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não sei de quem
-
-sei que existem
-porque algo me tem mantido
-
-em mãos maiores
-
-em mãos maiores
+não caio
 
 [Bridge - harpa and sinos sustained gentle, harmonics soft, no voice, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem confia em mãos maiores
-descansa sem ter de controlar
+[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem antes de mim atravessou tempos confusos
+também não caiu
 
-a vida não é toda controlável
-nem precisa de ser
+algumas vezes pareceu que iam cair
+mas mantiveram-se de pé
+não pelo próprio mérito
+pelo facto de haver tanta coisa a aguentá-las
 
-em mãos maiores
+não caio
 
-em mãos maiores
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-em mãos maiores
-em mãos maiores
-em mãos maiores
+[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não caio
+não caio
+não caio
 
 [Outro - voices fade gently, harpa sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-em mãos maiores
-em mãos maiores
+não caio
+não caio
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa, sinos cristal, long harmonics, crystalline luminous atmosphere, seeing without understanding, dwelling in larger hands, life not all controllable, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa foreground gentle, sinos soft, long harmonics, trust as empirical observation of not-falling, ancestral testimony of not falling through difficult times, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.6 *Vou Confiada* (Despedida)
+## 5.6 *Apoio-me* (Despedida)
 
-**Conceito:** vou confiada. À reunião, à conversa, à incerteza. Não vou tensa porque preciso de garantir tudo — vou confiada porque algo sustenta. Vou confiada.
+**Conceito:** levar este modo de confiar ao dia. Quando hoje a confusão voltar, vou lembrar-me das coisas que aguentam o meu peso fisicamente — a cadeira da reunião, o chão do corredor, a mesa do café. Apoio-me em coisas pequenas e reais.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - harpa more articulated, sinos awakening, harmonics opening upward, warm reassurance, 25 seconds]
+[Intro - harpa more articulated, sinos awakening, harmonics opening upward, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou confiada
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+levo isto comigo
 
-à reunião
-à conversa
-à incerteza
+quando a confusão voltar hoje
+vou lembrar-me
 
-vou confiada
+apoio-me na cadeira da reunião
+apoio-me no chão do corredor
+apoio-me na mesa do café
 
-vou confiada
+apoio-me
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não vou tensa porque preciso de garantir tudo
+[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+em coisas pequenas e reais
 
-vou confiada porque algo sustenta
+não preciso de grande certeza
+preciso só de um sítio onde pousar a mão
 
-vou confiada
-
-vou confiada
+apoio-me
 
 [Bridge - harpa more present, sinos open, harmonics awakening, no voice, 50 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem vai confiada
-trabalha melhor
-ama melhor
-descansa melhor
+[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem antes de mim aprendeu a apoiar-se em coisas pequenas
+atravessou tempos confusos sem cair
 
-vou confiada
+eu também
+um pouco
+hoje
 
-vou confiada
+apoio-me
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou
-vou confiada
-vou
+[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+apoio-me
+apoio-me
+apoio-me
 
 [Outro - voices fade to whisper, harpa sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou confiada
-vou confiada
+apoio-me
+apoio-me
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa, sinos cristal, long harmonics, crystalline luminous atmosphere, seeing without understanding, going trustful through the day, life supported, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa more articulated, sinos awakening, harmonics opening upward, carrying physical trust into the day, leaning on small real things, ancestral practice of small supports, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.7 *Sem Garantia* (Dissolução)
+## 5.7 *Nem Apoio* (Dissolução)
 
-**Conceito:** sem garantia. A confiança é maior quando não tem garantia. Não confio porque tenho prova — confio porque escolho. Sem garantia.
+**Conceito:** soltar até a categoria de apoio. Quem apoia e o que apóia talvez sejam a mesma coisa, ou nenhuma. No silêncio do adormecer, deixa de haver diferença entre quem é aguentada e o que aguenta. Nem apoio é distinto.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - very sparse harpa single notes, distant sinos, much silence, warm reassurance, 20 seconds]
+[Intro - very sparse harpa single notes, distant sinos, much silence, 20 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem garantia
+[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+nem apoio
 
-a confiança é maior quando não tem garantia
+quem apoia e o que apóia
+talvez sejam a mesma coisa
+ou nenhuma
 
-sem garantia
+nem apoio
 
-sem garantia
+[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+no silêncio
+deixa de haver diferença
+entre quem é aguentada
+e o que aguenta
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não confio porque tenho prova
+nem apoio é distinto
 
-confio porque escolho
-
-sem garantia
-
-sem garantia
+nem apoio
 
 [Bridge - very minimal, harpa single notes with much silence, distant breath, 40 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem precisa de garantia
-não confia
-calcula
+[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o aguentar acontece
+sem precisar de quem aguenta nem de quem é aguentada
 
-confiar é dar saltos sem rede
+aguentar
+sem mais
 
-sem garantia
+nem apoio
 
-sem garantia
-
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem
-sem garantia
+[Verse 4 - layered voices, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+nem
+nem apoio
 ah
 
 [Outro - voices dissolve into breath, instruments fade to nothing, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
@@ -434,4 +411,4 @@ ah
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, harpa, sinos cristal, long harmonics, crystalline luminous atmosphere, seeing without understanding, trust greater without guarantee, choice not calculation, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, contemplative mystic, mantra repetition with development, low female voice, extremely sparse harpa single notes, much silence, holding without holder, dissolution of support categories, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
