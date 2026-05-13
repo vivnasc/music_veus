@@ -3742,9 +3742,24 @@ export default function AlbumProductionPage() {
             {PRESENCA_SUBS.map((sub) => {
               const meta = PRESENCA_SUB_META[sub.slug as PresencaSubSlug];
               const subAlbums = albums.filter((a) => a.slug.startsWith(`presenca-${sub.slug}-`));
+              // Bulk counts for this sub-collection
+              let subPending = 0;
+              let subReady = 0;
+              for (const a of subAlbums) {
+                for (const t of a.tracks) {
+                  const k = trackKey(a.slug, t.number);
+                  const hasAudio = audioUrls[k] || t.audioUrl;
+                  const isBusy = statuses[k] === "generating" || statuses[k] === "polling";
+                  const lyric = editedLyrics[k] || t.lyrics;
+                  if (!hasAudio && !isBusy && lyric) subPending++;
+                  const clips = generatedClips[k]?.clips || [];
+                  if (clips.some((c) => c.audioUrl)) subReady++;
+                }
+              }
+              const busy = collectionGenRunning || collectionApproveRunning;
               return (
                 <section key={sub.slug}>
-                  <div className="flex items-baseline justify-between mb-3 px-1">
+                  <div className="flex items-baseline justify-between mb-3 px-1 flex-wrap gap-2">
                     <div className="flex items-baseline gap-3">
                       <span
                         className="inline-block w-2.5 h-2.5 rounded-full shrink-0"
@@ -3755,9 +3770,31 @@ export default function AlbumProductionPage() {
                         {meta.verbo} · {meta.paraQuando.replace(/^para /, "")}
                       </span>
                     </div>
-                    <span className="text-[11px] text-mundo-muted/60 whitespace-nowrap">
-                      {subAlbums.length}/{sub.albumCount} álbuns
-                    </span>
+                    <div className="flex items-center gap-2 flex-wrap">
+                      {subAlbums.length > 0 && (
+                        <>
+                          <button
+                            onClick={() => generateCollectionPending(subAlbums)}
+                            disabled={busy || subPending === 0}
+                            className="rounded-lg bg-violet-700 px-2.5 py-1 text-[10px] text-white transition hover:bg-violet-800 disabled:cursor-not-allowed disabled:opacity-30"
+                            title={subPending === 0 ? "Sem faixas pendentes" : `Gerar ${subPending} faixas em ${subAlbums.length} álbum(ns)`}
+                          >
+                            Gerar {subPending}
+                          </button>
+                          <button
+                            onClick={() => approveCollectionReady(subAlbums)}
+                            disabled={busy || subReady === 0}
+                            className="rounded-lg bg-green-700 px-2.5 py-1 text-[10px] text-white transition hover:bg-green-800 disabled:cursor-not-allowed disabled:opacity-30"
+                            title={subReady === 0 ? "Sem clips prontos" : `Aprovar ${subReady} clips em ${subAlbums.length} álbum(ns)`}
+                          >
+                            Aprovar {subReady}
+                          </button>
+                        </>
+                      )}
+                      <span className="text-[11px] text-mundo-muted/60 whitespace-nowrap">
+                        {subAlbums.length}/{sub.albumCount} álbuns
+                      </span>
+                    </div>
                   </div>
 
                   {subAlbums.length === 0 ? (
