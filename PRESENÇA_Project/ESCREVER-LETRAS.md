@@ -157,7 +157,8 @@ Risca cada item depois de confirmares. Se algum falhar, reescreve.
 - [ ] O mantra repete 3-4 vezes
 - [ ] Verses desenvolvem (não são loop)
 - [ ] Outro dissolve em vogal ("ah" / mantra mínimo)
-- [ ] Blindagem de sotaque presente em cada [Verse] e [Outro] (Mozambican Portuguese Maputo, etc.)
+- [ ] **Bloco [Vocal:]+[CRITICAL:]+[Persona:] está no TOPO da faixa, antes de [Intro - ...]** (obrigatório — sem isto Suno deriva para BR mesmo com persona)
+- [ ] Blindagem curta também em cada [Verse] e [Outro] (Mozambican Portuguese Maputo, etc.)
 - [ ] Style line termina com o bloco "NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register"
 - [ ] Se a letra fosse lida em voz alta sem música, deixaria silêncio à volta — não pedido, não tese, não fecho
 
@@ -167,7 +168,13 @@ Risca cada item depois de confirmares. Se algum falhar, reescreve.
 
 Copia, preenche, mantém esta forma exacta. Suno V5.5 ignora variações.
 
+**OBRIGATÓRIO — bloco de blindagem vocal no topo de cada faixa.** Sem este bloco no `.md`, Suno gera com sotaque BR mesmo com persona Loranne configurada. **Não é opcional. Não é "vou pôr depois"**. Vai no source, antes de `[Intro - ...]`, em cada faixa.
+
 ```
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
 [Intro - {instrumento da sub-coleção} {modo da posição}, {duração} seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
