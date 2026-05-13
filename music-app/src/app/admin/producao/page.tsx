@@ -1890,6 +1890,51 @@ export default function AlbumProductionPage() {
   const [collectionApproveRunning, setCollectionApproveRunning] = useState(false);
   const [collectionApproveIdx, setCollectionApproveIdx] = useState(0);
   const collectionApproveCancelRef = useRef(false);
+  // Total target counts captured at start of an operation, for banner display.
+  const [collectionGenTotal, setCollectionGenTotal] = useState(0);
+  const [collectionApproveTotal, setCollectionApproveTotal] = useState(0);
+  // Silent audio kept playing while bulk ops run — prevents browser tab
+  // throttling when the user navigates to another album/page/window.
+  // Chromium throttles JavaScript heavily in background tabs, but tabs that
+  // are playing audio are exempt from this throttling.
+  const silentAudioRef = useRef<HTMLAudioElement | null>(null);
+  const startSilentAudio = useCallback(() => {
+    if (typeof window === "undefined") return;
+    if (silentAudioRef.current) return;
+    // Tiny inline WAV: 1 second of silence at 44.1kHz mono.
+    const SILENT_WAV = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
+    const a = new Audio(SILENT_WAV);
+    a.loop = true;
+    a.volume = 0;
+    a.play().catch(() => { /* autoplay blocked — fine, op continues, may throttle */ });
+    silentAudioRef.current = a;
+  }, []);
+  const stopSilentAudio = useCallback(() => {
+    if (silentAudioRef.current) {
+      silentAudioRef.current.pause();
+      silentAudioRef.current = null;
+    }
+  }, []);
+  // beforeunload guard — warn the user before closing the tab during an op.
+  useEffect(() => {
+    const handler = (e: BeforeUnloadEvent) => {
+      if (collectionGenRunning || collectionApproveRunning) {
+        e.preventDefault();
+        e.returnValue = "";
+      }
+    };
+    window.addEventListener("beforeunload", handler);
+    return () => window.removeEventListener("beforeunload", handler);
+  }, [collectionGenRunning, collectionApproveRunning]);
+  // Stop silent audio on unmount as safety net.
+  useEffect(() => {
+    return () => {
+      if (silentAudioRef.current) {
+        silentAudioRef.current.pause();
+        silentAudioRef.current = null;
+      }
+    };
+  }, []);
   // Persona Loranne — auto-set from Goodnight World seed; user override persists in localStorage
   const [personaId, setPersonaId] = useState<string>(() => {
     if (typeof window === "undefined") return LORANNE_VOICE_ID;
@@ -2596,15 +2641,21 @@ export default function AlbumProductionPage() {
     if (!ok) return;
     collectionGenCancelRef.current = false;
     setCollectionGenRunning(true);
+    setCollectionGenTotal(pending.length);
     setCollectionGenIdx(0);
-    for (let i = 0; i < pending.length; i++) {
-      if (collectionGenCancelRef.current) break;
-      const { albumSlug, track } = pending[i];
-      setCollectionGenIdx(i + 1);
-      generateTrack(albumSlug, track);
-      if (i < pending.length - 1) await new Promise((r) => setTimeout(r, 2000));
+    startSilentAudio();
+    try {
+      for (let i = 0; i < pending.length; i++) {
+        if (collectionGenCancelRef.current) break;
+        const { albumSlug, track } = pending[i];
+        setCollectionGenIdx(i + 1);
+        generateTrack(albumSlug, track);
+        if (i < pending.length - 1) await new Promise((r) => setTimeout(r, 2000));
+      }
+    } finally {
+      setCollectionGenRunning(false);
+      stopSilentAudio();
     }
-    setCollectionGenRunning(false);
   }
 
   // Approve the first ready clip for every track across `targetAlbums` that
@@ -2639,14 +2690,20 @@ export default function AlbumProductionPage() {
     if (!ok) return;
     collectionApproveCancelRef.current = false;
     setCollectionApproveRunning(true);
+    setCollectionApproveTotal(ready.length);
     setCollectionApproveIdx(0);
-    for (let i = 0; i < ready.length; i++) {
-      if (collectionApproveCancelRef.current) break;
-      const r = ready[i];
-      setCollectionApproveIdx(i + 1);
-      await approveClip(r.albumSlug, r.track, r.clipAudioUrl, r.title, r.imageUrl);
+    startSilentAudio();
+    try {
+      for (let i = 0; i < ready.length; i++) {
+        if (collectionApproveCancelRef.current) break;
+        const r = ready[i];
+        setCollectionApproveIdx(i + 1);
+        await approveClip(r.albumSlug, r.track, r.clipAudioUrl, r.title, r.imageUrl);
+      }
+    } finally {
+      setCollectionApproveRunning(false);
+      stopSilentAudio();
     }
-    setCollectionApproveRunning(false);
   }
 
   function removeTrack(albumSlug: string, trackNum: number) {
@@ -2661,6 +2718,34 @@ export default function AlbumProductionPage() {
 
   return (
     <div className="min-h-screen bg-mundo-bg">
+      {/* Sticky banner shown during bulk operations — survives navigation
+          between albums within the page and visible on any sub-view. */}
+      {(collectionGenRunning || collectionApproveRunning) && (
+        <div className="sticky top-0 z-50 border-b border-amber-500/40 bg-amber-950/95 backdrop-blur px-4 py-2">
+          <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2 text-xs">
+            <div className="text-amber-100">
+              {collectionGenRunning && (
+                <span>🟣 A gerar {collectionGenIdx}/{collectionGenTotal} no Suno</span>
+              )}
+              {collectionApproveRunning && (
+                <span>🟢 A aprovar {collectionApproveIdx}/{collectionApproveTotal} no Supabase</span>
+              )}
+              <span className="ml-2 text-amber-200/60">
+                Áudio silencioso a tocar para manter a operação activa em background. Não feches a tab.
+              </span>
+            </div>
+            <button
+              onClick={() => {
+                if (collectionGenRunning) collectionGenCancelRef.current = true;
+                if (collectionApproveRunning) collectionApproveCancelRef.current = true;
+              }}
+              className="rounded bg-red-700/60 px-2 py-1 text-[10px] text-red-100 hover:bg-red-700/80"
+            >
+              Cancelar
+            </button>
+          </div>
+        </div>
+      )}
       {/* Header */}
       <div className="border-b border-mundo-muted-dark/30 bg-mundo-bg-light/50">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 py-8 overflow-x-hidden">
