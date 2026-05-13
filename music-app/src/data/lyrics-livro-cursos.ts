@@ -563,7 +563,7 @@ e alimenta-se do que sentes
 
 [Verse 2]
 As raízes vão longe, tão longe
-até avos que nunca viste
+até avós que nunca viste
 Carregas o peso de histórias
 que ninguém te pediu que ouvisse
 
@@ -858,7 +858,7 @@ não precisa de implorar por alguém
 
 [Bridge]
 Ninguém te completa, ninguém te parte
-ninguém te da o que já possuis
+ninguém te dá o que já possuis
 A inteireza não é orgulho
 e o chão de onde o amor se ergue
 
@@ -1182,7 +1182,7 @@ e a verdade fez-se conquista
 
 [Outro]
 Já consegues ver o chão
-o proximo passo é teu`,
+o próximo passo é teu`,
 
   "curso-olhos-abertos/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

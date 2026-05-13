@@ -4995,7 +4995,7 @@ O que é bom nasce devagar do amor
 
 [Chorus]
 O tempo certo
-Não o tempo rapido
+Não o tempo rápido
 O tempo certo
 É o mais capacitado
 Para dar o que a pressa não da
@@ -5011,7 +5011,7 @@ O que resiste ao cronometro
 
 [Chorus]
 O tempo certo
-Não o tempo rapido
+Não o tempo rápido
 O tempo certo
 É o mais capacitado
 Para dar o que a pressa não da

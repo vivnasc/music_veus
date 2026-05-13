@@ -22,7 +22,6 @@ import { MOOD_META, type LoranneMood, type CompactMoodsData } from "@/data/loran
 import LORANNE_MOODS_DATA from "@/data/loranne-moods-data.json";
 import CalendarView from "./CalendarView";
 import { PRESENCA_SUBS, PRESENCA_SUB_META, type PresencaSubSlug } from "@/data/presenca";
-import { ACCENT_FIXES_MANIFEST } from "@/data/accent-fixes-manifest";
 
 /** Read ID3 title from an MP3 File */
 async function readId3Title(file: File): Promise<string | null> {
@@ -1882,27 +1881,60 @@ export default function AlbumProductionPage() {
   const lyricsSaveRef = useRef<Record<string, NodeJS.Timeout>>({});
   const [trackVersions, setTrackVersions] = useState<Record<string, VersionInfo[]>>({}); // key → versions
   const [sunoModel, setSunoModel] = useState("V5_5");
-  // Bulk regen state for the "Regenerar faixas com letra corrigida" panel
-  const [accentRegenRunning, setAccentRegenRunning] = useState(false);
-  const [accentRegenIdx, setAccentRegenIdx] = useState(0);
-  // ref because the cancel button needs to interrupt an in-flight loop whose
-  // closure already captured the previous state
-  const accentRegenCancelRef = useRef(false);
-  // Bulk approve state — runs after regen finishes and clips are ready
-  const [accentApproveRunning, setAccentApproveRunning] = useState(false);
-  const [accentApproveIdx, setAccentApproveIdx] = useState(0);
-  const [accentApproveSkipped, setAccentApproveSkipped] = useState<string[]>([]);
-  const accentApproveCancelRef = useRef(false);
-
   // Collection-level bulk operations (operates on the current filtered view).
   // Generate all non-produced tracks across visible albums, or approve all
-  // ready clips. Same sequential 2s pattern as the accent-fixes panel.
+  // ready clips. Same sequential pattern with 2s delay between submissions.
   const [collectionGenRunning, setCollectionGenRunning] = useState(false);
   const [collectionGenIdx, setCollectionGenIdx] = useState(0);
   const collectionGenCancelRef = useRef(false);
   const [collectionApproveRunning, setCollectionApproveRunning] = useState(false);
   const [collectionApproveIdx, setCollectionApproveIdx] = useState(0);
   const collectionApproveCancelRef = useRef(false);
+  // Total target counts captured at start of an operation, for banner display.
+  const [collectionGenTotal, setCollectionGenTotal] = useState(0);
+  const [collectionApproveTotal, setCollectionApproveTotal] = useState(0);
+  // Silent audio kept playing while bulk ops run — prevents browser tab
+  // throttling when the user navigates to another album/page/window.
+  // Chromium throttles JavaScript heavily in background tabs, but tabs that
+  // are playing audio are exempt from this throttling.
+  const silentAudioRef = useRef<HTMLAudioElement | null>(null);
+  const startSilentAudio = useCallback(() => {
+    if (typeof window === "undefined") return;
+    if (silentAudioRef.current) return;
+    // Tiny inline WAV: 1 second of silence at 44.1kHz mono.
+    const SILENT_WAV = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
+    const a = new Audio(SILENT_WAV);
+    a.loop = true;
+    a.volume = 0;
+    a.play().catch(() => { /* autoplay blocked — fine, op continues, may throttle */ });
+    silentAudioRef.current = a;
+  }, []);
+  const stopSilentAudio = useCallback(() => {
+    if (silentAudioRef.current) {
+      silentAudioRef.current.pause();
+      silentAudioRef.current = null;
+    }
+  }, []);
+  // beforeunload guard — warn the user before closing the tab during an op.
+  useEffect(() => {
+    const handler = (e: BeforeUnloadEvent) => {
+      if (collectionGenRunning || collectionApproveRunning) {
+        e.preventDefault();
+        e.returnValue = "";
+      }
+    };
+    window.addEventListener("beforeunload", handler);
+    return () => window.removeEventListener("beforeunload", handler);
+  }, [collectionGenRunning, collectionApproveRunning]);
+  // Stop silent audio on unmount as safety net.
+  useEffect(() => {
+    return () => {
+      if (silentAudioRef.current) {
+        silentAudioRef.current.pause();
+        silentAudioRef.current = null;
+      }
+    };
+  }, []);
   // Persona Loranne — auto-set from Goodnight World seed; user override persists in localStorage
   const [personaId, setPersonaId] = useState<string>(() => {
     if (typeof window === "undefined") return LORANNE_VOICE_ID;
@@ -2582,85 +2614,6 @@ export default function AlbumProductionPage() {
     }
   }
 
-  // Bulk-regenerate the tracks listed in ACCENT_FIXES_MANIFEST.
-  // Sequential, 2s delay between submissions (same pattern as "Gerar todas").
-  async function regenerateAccentFixes() {
-    if (accentRegenRunning) return;
-    await runAccentRegen(ACCENT_FIXES_MANIFEST);
-  }
-
-  // Retry only manifest entries that don't have clips ready yet — skips the
-  // ones that already came back from Suno, saving credits.
-  async function regenerateAccentFixesMissing() {
-    if (accentRegenRunning) return;
-    const missing = ACCENT_FIXES_MANIFEST.filter((e) => {
-      const k = trackKey(e.albumSlug, e.trackNumber);
-      return !(generatedClips[k]?.clips || []).some((c) => c.audioUrl);
-    });
-    if (missing.length === 0) {
-      alert("Todas as faixas do manifesto já têm clips prontos.");
-      return;
-    }
-    const ok = window.confirm(
-      `Vai re-submeter ${missing.length} faixas em falta (~${missing.length * 10} créditos). Continuar?`
-    );
-    if (!ok) return;
-    await runAccentRegen(missing);
-  }
-
-  async function runAccentRegen(list: typeof ACCENT_FIXES_MANIFEST) {
-    accentRegenCancelRef.current = false;
-    setAccentRegenRunning(true);
-    setAccentRegenIdx(0);
-    for (let i = 0; i < list.length; i++) {
-      if (accentRegenCancelRef.current) break;
-      const { albumSlug, trackNumber } = list[i];
-      const alb = ALL_ALBUMS.find((a) => a.slug === albumSlug);
-      const track = alb?.tracks.find((t) => t.number === trackNumber);
-      setAccentRegenIdx(i + 1);
-      if (!track) continue;
-      generateTrack(albumSlug, track);
-      // 2s pause between submissions to avoid Suno rate limits
-      if (i < list.length - 1) {
-        await new Promise((r) => setTimeout(r, 2000));
-      }
-    }
-    setAccentRegenRunning(false);
-  }
-
-  // Bulk-approve the first ready clip for every track in the manifest.
-  // Tracks without clips yet are skipped and reported back to the user.
-  async function approveAllAccentFixes() {
-    if (accentApproveRunning) return;
-    const ok = window.confirm(
-      "Vai SUBSTITUIR o áudio principal das faixas regeneradas, escrevendo por cima do que está no Supabase. As versões anteriores são perdidas. Continuar?"
-    );
-    if (!ok) return;
-    accentApproveCancelRef.current = false;
-    setAccentApproveRunning(true);
-    setAccentApproveIdx(0);
-    const skipped: string[] = [];
-    for (let i = 0; i < ACCENT_FIXES_MANIFEST.length; i++) {
-      if (accentApproveCancelRef.current) break;
-      const { albumSlug, trackNumber } = ACCENT_FIXES_MANIFEST[i];
-      setAccentApproveIdx(i + 1);
-      const alb = ALL_ALBUMS.find((a) => a.slug === albumSlug);
-      const track = alb?.tracks.find((t) => t.number === trackNumber);
-      if (!track) { skipped.push(`${albumSlug}/${trackNumber}`); continue; }
-      const key = trackKey(albumSlug, trackNumber);
-      const clips = generatedClips[key]?.clips || [];
-      const idx = selectedClipIdx[key] ?? 0;
-      const clip = clips[idx] || clips.find((c) => c.audioUrl);
-      if (!clip?.audioUrl) {
-        skipped.push(`${alb?.title || albumSlug} #${trackNumber}`);
-        continue;
-      }
-      await approveClip(albumSlug, track, clip.audioUrl, clip.title, clip.imageUrl || null);
-    }
-    setAccentApproveSkipped(skipped);
-    setAccentApproveRunning(false);
-  }
-
   // Generate every non-produced track across `targetAlbums` (typically the
   // currently filtered collection). Asks for confirmation before running
   // because Suno generations cost credits.
@@ -2688,15 +2641,21 @@ export default function AlbumProductionPage() {
     if (!ok) return;
     collectionGenCancelRef.current = false;
     setCollectionGenRunning(true);
+    setCollectionGenTotal(pending.length);
     setCollectionGenIdx(0);
-    for (let i = 0; i < pending.length; i++) {
-      if (collectionGenCancelRef.current) break;
-      const { albumSlug, track } = pending[i];
-      setCollectionGenIdx(i + 1);
-      generateTrack(albumSlug, track);
-      if (i < pending.length - 1) await new Promise((r) => setTimeout(r, 2000));
+    startSilentAudio();
+    try {
+      for (let i = 0; i < pending.length; i++) {
+        if (collectionGenCancelRef.current) break;
+        const { albumSlug, track } = pending[i];
+        setCollectionGenIdx(i + 1);
+        generateTrack(albumSlug, track);
+        if (i < pending.length - 1) await new Promise((r) => setTimeout(r, 2000));
+      }
+    } finally {
+      setCollectionGenRunning(false);
+      stopSilentAudio();
     }
-    setCollectionGenRunning(false);
   }
 
   // Approve the first ready clip for every track across `targetAlbums` that
@@ -2731,14 +2690,20 @@ export default function AlbumProductionPage() {
     if (!ok) return;
     collectionApproveCancelRef.current = false;
     setCollectionApproveRunning(true);
+    setCollectionApproveTotal(ready.length);
     setCollectionApproveIdx(0);
-    for (let i = 0; i < ready.length; i++) {
-      if (collectionApproveCancelRef.current) break;
-      const r = ready[i];
-      setCollectionApproveIdx(i + 1);
-      await approveClip(r.albumSlug, r.track, r.clipAudioUrl, r.title, r.imageUrl);
+    startSilentAudio();
+    try {
+      for (let i = 0; i < ready.length; i++) {
+        if (collectionApproveCancelRef.current) break;
+        const r = ready[i];
+        setCollectionApproveIdx(i + 1);
+        await approveClip(r.albumSlug, r.track, r.clipAudioUrl, r.title, r.imageUrl);
+      }
+    } finally {
+      setCollectionApproveRunning(false);
+      stopSilentAudio();
     }
-    setCollectionApproveRunning(false);
   }
 
   function removeTrack(albumSlug: string, trackNum: number) {
@@ -2753,6 +2718,34 @@ export default function AlbumProductionPage() {
 
   return (
     <div className="min-h-screen bg-mundo-bg">
+      {/* Sticky banner shown during bulk operations — survives navigation
+          between albums within the page and visible on any sub-view. */}
+      {(collectionGenRunning || collectionApproveRunning) && (
+        <div className="sticky top-0 z-50 border-b border-amber-500/40 bg-amber-950/95 backdrop-blur px-4 py-2">
+          <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2 text-xs">
+            <div className="text-amber-100">
+              {collectionGenRunning && (
+                <span>🟣 A gerar {collectionGenIdx}/{collectionGenTotal} no Suno</span>
+              )}
+              {collectionApproveRunning && (
+                <span>🟢 A aprovar {collectionApproveIdx}/{collectionApproveTotal} no Supabase</span>
+              )}
+              <span className="ml-2 text-amber-200/60">
+                Áudio silencioso a tocar para manter a operação activa em background. Não feches a tab.
+              </span>
+            </div>
+            <button
+              onClick={() => {
+                if (collectionGenRunning) collectionGenCancelRef.current = true;
+                if (collectionApproveRunning) collectionApproveCancelRef.current = true;
+              }}
+              className="rounded bg-red-700/60 px-2 py-1 text-[10px] text-red-100 hover:bg-red-700/80"
+            >
+              Cancelar
+            </button>
+          </div>
+        </div>
+      )}
       {/* Header */}
       <div className="border-b border-mundo-muted-dark/30 bg-mundo-bg-light/50">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 py-8 overflow-x-hidden">
@@ -2995,131 +2988,26 @@ export default function AlbumProductionPage() {
           </div>
         </div>
 
-        {/* Regenerar faixas com letra corrigida (acentuação Incenso) */}
-        {viewMode === "producao" && (() => {
-          const total = ACCENT_FIXES_MANIFEST.length;
-          const byAlbum = ACCENT_FIXES_MANIFEST.reduce<Record<string, number[]>>((acc, e) => {
-            (acc[e.albumSlug] ||= []).push(e.trackNumber);
-            return acc;
-          }, {});
-          // Count how many manifest tracks already have clips ready to approve
-          const readyForApproval = ACCENT_FIXES_MANIFEST.filter((e) => {
-            const k = trackKey(e.albumSlug, e.trackNumber);
-            return (generatedClips[k]?.clips || []).some((c) => c.audioUrl);
-          }).length;
-          return (
-            <div className="mb-6 rounded-lg border border-amber-500/30 bg-amber-950/20 p-4">
-              <div className="flex items-start justify-between gap-3 flex-wrap">
-                <div>
-                  <h3 className="text-sm font-semibold text-amber-200">
-                    Regenerar faixas com letra corrigida (acentuação Espelhos / Livro+Cursos / Nós / Vida)
-                  </h3>
-                  <p className="mt-1 text-[11px] text-amber-200/70">
-                    Caso especial: {total} faixas em {Object.keys(byAlbum).length} álbuns já produzidas, cujas
-                    letras foram corrigidas. Regenera tudo → substitui directamente o áudio principal no Supabase
-                    (não passa por "guardar versão"). Incenso já foi feito e foi removido deste manifesto. Branch{" "}
-                    <code className="rounded bg-black/30 px-1">claude/fix-album-accents-1htRZ</code>.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-3 flex flex-wrap items-center gap-2">
-                {!accentRegenRunning ? (
-                  <>
-                    <button
-                      onClick={regenerateAccentFixes}
-                      className="rounded-lg bg-amber-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-amber-700"
-                    >
-                      1. Regenerar todas ({total})
-                    </button>
-                    {total - readyForApproval > 0 && readyForApproval > 0 && (
-                      <button
-                        onClick={regenerateAccentFixesMissing}
-                        className="rounded-lg bg-orange-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-orange-700"
-                        title="Re-submete só as que não voltaram (sem gastar créditos nas já prontas)"
-                      >
-                        Retry só em falta ({total - readyForApproval})
-                      </button>
-                    )}
-                  </>
-                ) : (
-                  <>
-                    <span className="text-xs text-amber-300">
-                      A submeter {accentRegenIdx}/{total}...
-                    </span>
-                    <button
-                      onClick={() => { accentRegenCancelRef.current = true; }}
-                      className="rounded-lg bg-red-700/50 px-3 py-2 text-xs text-red-200 hover:bg-red-700/70"
-                    >
-                      Cancelar
-                    </button>
-                  </>
-                )}
-                {!accentApproveRunning ? (
-                  <button
-                    onClick={approveAllAccentFixes}
-                    disabled={readyForApproval === 0}
-                    className="rounded-lg bg-green-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-green-700 disabled:cursor-not-allowed disabled:opacity-40"
-                    title={readyForApproval === 0 ? "Espera o Suno gerar os clips" : "Substitui o áudio principal nas faixas regeneradas"}
-                  >
-                    2. SUBSTITUIR principal nas {readyForApproval}/{total} prontas
-                  </button>
-                ) : (
-                  <>
-                    <span className="text-xs text-green-300">
-                      A substituir {accentApproveIdx}/{total}...
-                    </span>
-                    <button
-                      onClick={() => { accentApproveCancelRef.current = true; }}
-                      className="rounded-lg bg-red-700/50 px-3 py-2 text-xs text-red-200 hover:bg-red-700/70"
-                    >
-                      Cancelar
-                    </button>
-                  </>
-                )}
-              </div>
-              {accentApproveSkipped.length > 0 && !accentApproveRunning && (
-                <div className="mt-3 rounded bg-yellow-950/40 p-2 text-[11px] text-yellow-200">
-                  {accentApproveSkipped.length} faixa(s) ignorada(s) (sem clips prontos):{" "}
-                  {accentApproveSkipped.slice(0, 8).join(", ")}
-                  {accentApproveSkipped.length > 8 && `, +${accentApproveSkipped.length - 8}`}
-                  . Carrega outra vez quando estiverem prontas, ou aprova manualmente.
-                </div>
-              )}
-              <details className="mt-3 text-[11px] text-amber-200/60">
-                <summary className="cursor-pointer hover:text-amber-200">
-                  Ver lista por álbum
-                </summary>
-                <ul className="mt-2 space-y-1">
-                  {Object.entries(byAlbum).map(([slug, nums]) => {
-                    const a = ALL_ALBUMS.find((x) => x.slug === slug);
-                    return (
-                      <li key={slug}>
-                        <span className="text-amber-100">{a?.title || slug}</span>
-                        <span className="text-amber-200/50"> — faixas {nums.join(", ")}</span>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </details>
-            </div>
-          );
-        })()}
-
         {/* Produção em lote por colecção (opera sobre o filtro actual) */}
         {viewMode === "producao" && !album && (() => {
-          // Calculate pending and ready counts for the currently filtered view.
+          // Per-album rows: each album becomes a sub-collection that can be
+          // generated/approved independently (e.g. espelho-medo, espelho-magoa).
+          type Counts = { pending: number; ready: number };
+          const perAlbum = new Map<string, Counts>();
           let pendingCount = 0;
           let readyCount = 0;
           for (const a of albums) {
+            const c: Counts = { pending: 0, ready: 0 };
             for (const t of a.tracks) {
               const k = trackKey(a.slug, t.number);
               const hasAudio = audioUrls[k] || t.audioUrl;
               const isBusy = statuses[k] === "generating" || statuses[k] === "polling";
               const lyric = editedLyrics[k] || t.lyrics;
-              if (!hasAudio && !isBusy && lyric) pendingCount++;
+              if (!hasAudio && !isBusy && lyric) { c.pending++; pendingCount++; }
               const clips = generatedClips[k]?.clips || [];
-              if (clips.some((c) => c.audioUrl)) readyCount++;
+              if (clips.some((cc) => cc.audioUrl)) { c.ready++; readyCount++; }
             }
+            perAlbum.set(a.slug, c);
           }
           const label = filter === "all" ? "todas as colecções" : `colecção ${filter}`;
           return (
@@ -3134,6 +3022,8 @@ export default function AlbumProductionPage() {
                   </p>
                 </div>
               </div>
+
+              {/* Aggregate buttons — act on the whole filtered view */}
               <div className="mt-3 flex flex-wrap items-center gap-2">
                 {!collectionGenRunning ? (
                   <button
@@ -3141,12 +3031,12 @@ export default function AlbumProductionPage() {
                     disabled={pendingCount === 0}
                     className="rounded-lg bg-violet-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-violet-700 disabled:cursor-not-allowed disabled:opacity-40"
                   >
-                    Gerar {pendingCount} faixa(s) não produzida(s)
+                    Gerar tudo ({pendingCount})
                   </button>
                 ) : (
                   <>
                     <span className="text-xs text-violet-300">
-                      A submeter {collectionGenIdx}/{pendingCount}...
+                      A submeter {collectionGenIdx}...
                     </span>
                     <button
                       onClick={() => { collectionGenCancelRef.current = true; }}
@@ -3162,12 +3052,12 @@ export default function AlbumProductionPage() {
                     disabled={readyCount === 0}
                     className="rounded-lg bg-green-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-green-700 disabled:cursor-not-allowed disabled:opacity-40"
                   >
-                    Aprovar {readyCount} clip(s) prontos
+                    Aprovar tudo ({readyCount})
                   </button>
                 ) : (
                   <>
                     <span className="text-xs text-green-300">
-                      A aprovar {collectionApproveIdx}/{readyCount}...
+                      A aprovar {collectionApproveIdx}...
                     </span>
                     <button
                       onClick={() => { collectionApproveCancelRef.current = true; }}
@@ -3178,8 +3068,64 @@ export default function AlbumProductionPage() {
                   </>
                 )}
               </div>
+
+              {/* Per-album sub-collection rows */}
+              <details className="mt-3" open>
+                <summary className="cursor-pointer text-[11px] text-violet-200/70 hover:text-violet-200">
+                  Por sub-colecção (clica para expandir/colapsar)
+                </summary>
+                <div className="mt-2 max-h-96 overflow-y-auto rounded border border-violet-500/20">
+                  <table className="w-full text-[11px]">
+                    <thead className="sticky top-0 bg-violet-950/80 text-violet-300">
+                      <tr>
+                        <th className="px-2 py-1.5 text-left">Álbum</th>
+                        <th className="px-2 py-1.5 text-right">Pendentes</th>
+                        <th className="px-2 py-1.5 text-right">Prontas</th>
+                        <th className="px-2 py-1.5 text-center">Acções</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {albums.map((a) => {
+                        const c = perAlbum.get(a.slug) || { pending: 0, ready: 0 };
+                        const busy = collectionGenRunning || collectionApproveRunning;
+                        return (
+                          <tr key={a.slug} className="border-t border-violet-500/10 hover:bg-violet-950/40">
+                            <td className="px-2 py-1.5">
+                              <span className="text-violet-100">{a.title}</span>
+                              <span className="ml-1 text-violet-300/40">[{a.product}]</span>
+                            </td>
+                            <td className="px-2 py-1.5 text-right text-violet-200/80">{c.pending}</td>
+                            <td className="px-2 py-1.5 text-right text-violet-200/80">{c.ready}</td>
+                            <td className="px-2 py-1.5">
+                              <div className="flex items-center justify-center gap-1">
+                                <button
+                                  onClick={() => generateCollectionPending([a])}
+                                  disabled={busy || c.pending === 0}
+                                  className="rounded bg-violet-700 px-2 py-1 text-[10px] text-white transition hover:bg-violet-800 disabled:cursor-not-allowed disabled:opacity-30"
+                                  title={c.pending === 0 ? "Sem faixas pendentes" : `Gerar ${c.pending} faixa(s)`}
+                                >
+                                  Gerar {c.pending}
+                                </button>
+                                <button
+                                  onClick={() => approveCollectionReady([a])}
+                                  disabled={busy || c.ready === 0}
+                                  className="rounded bg-green-700 px-2 py-1 text-[10px] text-white transition hover:bg-green-800 disabled:cursor-not-allowed disabled:opacity-30"
+                                  title={c.ready === 0 ? "Sem clips prontos" : `Aprovar ${c.ready} clip(s)`}
+                                >
+                                  Aprovar {c.ready}
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </details>
+
               <p className="mt-2 text-[10px] text-violet-200/50">
-                Filtra por colecção no topo da página para limitar o alvo. Geração custa ~10 créditos Suno por faixa.
+                Filtra por colecção no topo. Geração ≈ 10 créditos Suno/faixa. Aprovação é grátis (escolhe 1º clip de cada faixa, substitui áudio principal).
               </p>
             </div>
           );
