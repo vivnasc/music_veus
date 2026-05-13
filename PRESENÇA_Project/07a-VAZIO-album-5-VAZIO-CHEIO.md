@@ -1,27 +1,28 @@
 # Álbum 5 — **Vazio Cheio** (Vazio)
 
 > Sub-coleção: Vazio · Eixo dominante: **Todo + consigo** · Tradição encarnada (não nomeada): Compline / horas canónicas — última oração antes do sono
-> Função do álbum: habitar o vazio como abundância, não como falta.
+> Função do álbum: descobrir que o quarto que pareceu vazio está cheio de coisas que normalmente não noto — a parede com a sua textura, o frigorífico longe, o cheiro próprio deste sítio, a respiração de quem dorme ao lado. O vazio é só o ponto onde a atenção encontra finalmente o que estava sempre presente.
 > Hora interior: noite profunda (silêncio cheio)
 > Compliance: `ESCREVER-LETRAS.md`
+> Notas de revisão: versão refeita à mão — a primeira passagem caía em paradoxos gnósticos ("vazio cheio", "estar é bastante", "nem cheio nem vazio") tipo Zen-saquinho-de-chá. O paradoxo do título fica, mas as faixas agora são feitas de objectos concretos do quarto à noite, não de pronunciamentos metafísicos.
 
 **Os 7 conceitos do álbum, sem sobreposição:**
 
 | # | Posição | Mantra | Conceito |
 |---|---|---|---|
-| 5.1 | Chegada | **Cheio de Nada** — `cheio de nada` | reconhecer o silêncio como conteúdo |
-| 5.2 | Reconhecimento | **Já Não Falta Nada** — `já não falta nada` | reconhecer a suficiência do momento |
-| 5.3 | Aprofundamento | **Estar É Bastante** — `estar é bastante` | ser-suficiente sem fazer |
-| 5.4 | Centro | **Vazio Cheio** — `vazio cheio` | no centro: paradoxo do vazio habitado |
-| 5.5 | Habitação | **Sem Mais Nada** — `sem mais nada` | habitar a simplicidade absoluta |
-| 5.6 | Despedida | **Vou Dormir Cheia** — `vou dormir cheia` | levar a abundância para o sono |
-| 5.7 | Dissolução | **Nem Cheio Nem Vazio** — `nem cheio nem vazio` | soltar as categorias finais |
+| 5.1 | Chegada | **A Parede** — `a parede` | notar a parede agora — a textura, a luz, a forma |
+| 5.2 | Reconhecimento | **O Frigorífico** — `o frigorífico` | o som que sempre lá esteve sem eu o ouvir |
+| 5.3 | Aprofundamento | **O Cheiro** — `o cheiro` | o cheiro próprio deste quarto, herdado de noites |
+| 5.4 | Centro | **Quarto Cheio** — `quarto cheio` | o quarto está cheio sem eu ter posto nada nele |
+| 5.5 | Habitação | **Já Aqui Estava** — `já aqui estava` | tudo isto já cá estava antes de eu notar |
+| 5.6 | Despedida | **Levo o Quarto** — `levo o quarto` | levar este modo de notar ao dia |
+| 5.7 | Dissolução | **Nem Notei** — `nem notei` | soltar até o acto de notar |
 
 ---
 
-## 5.1 *Cheio de Nada* (Chegada)
+## 5.1 *A Parede* (Chegada)
 
-**Conceito:** cheio de nada. O quarto está cheio. De silêncio, de escuro, de mim. Cheio de nada não é vazio sem habitante. É vazio habitado.
+**Conceito:** a parede em frente à cama. Sempre lá esteve. Agora vejo-a por inteiro. A luz da rua que entra pela frincha pinta um traço na parede. A pintura tem uma textura. A parede está cheia de pequenas coisas que normalmente não vejo.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
@@ -31,379 +32,390 @@
 [Intro - long sustained pad in B, very slow, distant wind, long silences, fullness in emptiness, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-cheio de nada
+a parede
 
-o quarto está cheio
+em frente à cama
 
-de silêncio
-de escuro
-de mim
+sempre cá esteve
 
-cheio de nada
+agora vejo-a inteira
 
-cheio de nada
+a parede`
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-cheio de nada não é vazio sem habitante
+a luz da rua entra pela frincha
+e pinta um traço
 
-é vazio habitado
+a pintura tem uma textura
+que nunca toquei com a atenção
 
-cheio de nada
-
-cheio de nada
+a parede
 
 [Bridge - pad and distant wind, no voice, very minimal, 60 seconds]
 
 [Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem reconhece este tipo de cheio
-deixa de procurar barulho para o substituir
+esta parede recebeu o olhar
+de quem morou aqui antes de mim
 
-cheio de nada
+talvez tenham deitado a mão na mesma textura
+talvez tenham visto a mesma frincha de luz
 
-cheio de nada
+a parede
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-cheio de nada
-cheio de nada
-cheio de nada
+a parede
+a parede
+a parede
 
 [Outro - voice fades, pad sustains, wind softens, 45 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-cheio de nada
-cheio de nada
+a parede
+a parede
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, fullness within emptiness, silence as content, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, attention to wall texture in night-light, room as full of unnoticed details, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.2 *Já Não Falta Nada* (Reconhecimento)
+## 5.2 *O Frigorífico* (Reconhecimento)
 
-**Conceito:** já não falta nada. O quarto, o sono que vem, eu. Tudo o que é preciso já está. Já não falta nada.
+**Conceito:** o frigorífico zumbe na cozinha distante. Esse som esteve aí toda a noite, todo o dia, todos os meses. A atenção descobre-o agora, mas ele não chegou agora. Reconhecer o que sempre lá esteve.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - pad sustained, suspended harmonics entering, distant wind, fullness in emptiness, 25 seconds]
+[Intro - pad sustained, suspended harmonics entering, distant wind, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-já não falta nada
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o frigorífico zumbe
 
-o quarto
+na cozinha distante
 
-o sono que vem
+esteve aí toda a noite
+todo o dia
+todos os meses
 
-eu
-
-já não falta nada
-
-já não falta nada
+o frigorífico
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-tudo o que é preciso já está
+a atenção descobre-o agora
+mas ele não chegou agora
 
-já não falta nada
+o som estava aí
+à espera de ouvido
 
-já não falta nada
+o frigorífico
 
 [Bridge - pad and harmonics sustained, wind distant, no voice, 55 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem reconhece já não faltar nada
-não procura nada
+[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quantos sons da minha vida
+estiveram presentes
+sem terem testemunha
 
-descansa profundo no que é
+o ventilador da escola
+o relógio do corredor
+o motor longe na rua de criança
 
-já não falta nada
-
-já não falta nada
+o frigorífico
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-já
-já não falta nada
-já
+o frigorífico
+o frigorífico
+o frigorífico
 
 [Outro - voices fade, pad slows, harmonics linger, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-já não falta nada
-já não falta nada
+o frigorífico
+o frigorífico
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, nothing missing in the present moment, deep rest, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, pad sustained, suspended harmonics, distant wind, hum of fridge as background ever-present, sounds that lived without witness, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.3 *Estar É Bastante* (Aprofundamento)
+## 5.3 *O Cheiro* (Aprofundamento)
 
-**Conceito:** estar é bastante. Não preciso de pensar mais nada, não preciso de planear mais nada. Estar deitada aqui é bastante. Estar é bastante.
+**Conceito:** o cheiro deste quarto. Próprio, herdado das noites todas que aqui dormi. Os meus lençóis, o pó das estantes, o sabão da cozinha que viaja pelo corredor. Este cheiro só este quarto tem. Nenhum outro quarto cheira a este.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - pad deeper, suspended harmonics low, wind closer, sustained, fullness in emptiness, 30 seconds]
+[Intro - pad deeper, suspended harmonics low, wind closer, sustained, 30 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-estar é bastante
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o cheiro deste quarto
 
-não preciso de pensar mais nada
+próprio
 
-não preciso de planear mais nada
+herdado das noites todas
+que aqui dormi
 
-estar deitada aqui é bastante
-
-estar é bastante
-
-estar é bastante
+o cheiro
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o estar é actividade plena
+os meus lençóis
+o pó das estantes
+o sabão da cozinha que viaja pelo corredor
 
-mesmo sem actividade
+nenhum outro quarto cheira a este
 
-estar é bastante
-
-estar é bastante
+o cheiro
 
 [Bridge - pad low, harmonics deep, wind, no voice, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem aprende que estar é bastante
-deixa de exigir ao ser
+[Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o cheiro do quarto da minha mãe quando era criança
+ainda está dentro de mim
+como memória que o nariz reconhece sem palavra
 
-a vida não pede produção contínua
-às vezes só pede presença
+cada quarto tem o seu cheiro
+e o cheiro acompanha quem o habita
 
-estar é bastante
-
-estar é bastante
+o cheiro
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-estar é bastante
-estar é bastante
-estar é bastante
+o cheiro
+o cheiro
+o cheiro
 
 [Outro - voices fade, pad holds, harmonics decay, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-estar é bastante
-estar é bastante
+o cheiro
+o cheiro
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, being as enough, no demand on the self, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, pad deeper, suspended harmonics low, wind closer, smell of room as inherited and unique, childhood-room smell as embodied memory, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.4 *Vazio Cheio* (Centro)
+## 5.4 *Quarto Cheio* (Centro)
 
-**Conceito:** no centro: vazio cheio. O vazio é cheio quando habitado. A taça vazia recebe — a taça cheia não. Vazio cheio.
+**Conceito:** no centro, o paradoxo do título — *vazio cheio*, dito agora pela via concreta. O quarto está cheio. Não de objectos novos, mas de tudo o que normalmente não notava. A parede, o frigorífico, o cheiro, a temperatura, o som da minha própria respiração. O quarto sempre esteve cheio. Eu é que estava distraída.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - pad balanced, suspended harmonics, wind soft, hovering atmosphere, fullness in emptiness, 30 seconds]
+[Intro - pad balanced, suspended harmonics, wind soft, hovering atmosphere, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vazio cheio
+o quarto está cheio
 
-o vazio é cheio quando habitado
+não de objectos novos
 
-vazio cheio
+de tudo o que normalmente não notava
 
-vazio cheio
+quarto cheio
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a taça vazia recebe
+[Verse 2 - same whispered tone, slightly more present, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+a parede
+o frigorífico
+o cheiro
+a temperatura
+o som da minha própria respiração
 
-a taça cheia não
+estava cheio
+eu é que estava distraída
 
-vazio cheio
-
-vazio cheio
+quarto cheio
 
 [Bridge - pad harmonics wind balanced, no voice, sustained, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem habita o vazio
-descobre que ele tem espaço infinito por dentro
+[Verse 3 - sung low, deep female voice, no vibrato, grounded, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem habitou este quarto antes de mim
+também o encontrou cheio
+quando parou para olhar
 
-vazio cheio
+a casa não está vazia
+nunca esteve
 
-vazio cheio
+quarto cheio
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vazio cheio
-vazio cheio
-vazio cheio
+[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quarto cheio
+quarto cheio
+quarto cheio
 
 [Outro - voice fades to whisper, pad sustains, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vazio cheio
-vazio cheio
+quarto cheio
+quarto cheio
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, paradox of inhabited emptiness as fullness, empty cup receives, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, pad balanced, suspended harmonics, wind soft, hovering atmosphere, room as full of unnoticed presences, distraction not emptiness, fullness without density, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.5 *Sem Mais Nada* (Habitação)
+## 5.5 *Já Aqui Estava* (Habitação)
 
-**Conceito:** sem mais nada. Esta cama, esta noite, este corpo. Sem mais nada. Sem mais nada é tudo.
+**Conceito:** habitar o que sempre lá esteve. Não preciso de procurar mais. Tudo o que precisava de notar à noite — já cá estava. A respiração, o chão, o lençol, o silêncio entre os sons. Habitar este estar.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - pad foreground gentle, wind soft, harmonics suspended, fullness in emptiness, 25 seconds]
+[Intro - pad foreground gentle, wind soft, harmonics suspended, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem mais nada
+[Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+já aqui estava
 
-esta cama
-esta noite
-este corpo
+a respiração
+o chão
+o lençol
 
-sem mais nada
+o silêncio entre os sons
 
-sem mais nada
+já aqui estava
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem mais nada é tudo
+[Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não preciso de procurar mais
 
-sem mais nada
+tudo o que precisava de notar à noite
+já cá estava
 
-sem mais nada
+já aqui estava
 
 [Bridge - pad and wind sustained gentle, harmonics soft, no voice, 60 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem vive sem mais nada
-descansa em si própria
+[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem viveu muito
+sabe que o essencial
+estava sempre debaixo do nariz
 
-sem mais nada
+a velhice ensina a notar
+o que a juventude atravessava sem reparar
 
-sem mais nada
+já aqui estava
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem
-sem mais nada
-sem
+[Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+já aqui estava
+já aqui estava
+já aqui estava
 
 [Outro - voices fade gently, pad sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sem mais nada
-sem mais nada
+já aqui estava
+já aqui estava
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, absolute simplicity, less is all, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, pad foreground gentle, wind soft, harmonics suspended, dwelling in what was always already here, age teaching attention to the always-present, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.6 *Vou Dormir Cheia* (Despedida)
+## 5.6 *Levo o Quarto* (Despedida)
 
-**Conceito:** vou dormir cheia. Cheia de nada, cheia de tudo, cheia de ser. Não chego à cama de mãos vazias — chego cheia. Vou dormir cheia.
+**Conceito:** levo este modo de notar ao dia. Amanhã na cozinha, o frigorífico vai continuar a zumbir, e desta vez ouço. A parede do escritório vai ter textura, e desta vez vejo. Levo o modo, não o quarto — mas é como se levasse o quarto comigo.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - pad opening upward slightly, harmonics awakening, gentle wind, fullness in emptiness, 25 seconds]
+[Intro - pad opening upward slightly, harmonics awakening, gentle wind, 25 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou dormir cheia
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+levo o quarto
 
-cheia de nada
-cheia de tudo
-cheia de ser
+amanhã na cozinha
+o frigorífico vai continuar a zumbir
 
-vou dormir cheia
+desta vez ouço
 
-vou dormir cheia
+a parede do escritório vai ter textura
+desta vez vejo
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não chego à cama de mãos vazias
+levo o quarto
 
-chego cheia
+[Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+levo o modo de notar
+mais do que o quarto em si
 
-vou dormir cheia
+mas é como se levasse o quarto comigo
 
-vou dormir cheia
+levo o quarto
 
 [Bridge - pad more present, harmonics open, wind awakening, no voice, 50 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem dorme cheia
-acorda renovada
-não esfomeada
+[Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem aprende a notar à noite
+nota também de dia
 
-vou dormir cheia
+a atenção não distingue
+entre horas que mereçam ou não
 
-vou dormir cheia
+levo o quarto
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou
-vou dormir cheia
-vou
+[Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+levo o quarto
+levo o quarto
+levo o quarto
 
 [Outro - voices fade to whisper, pad sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou dormir cheia
-vou dormir cheia
+levo o quarto
+levo o quarto
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, going to sleep abundant, waking renewed, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, pad opening upward, harmonics awakening, gentle wind, carrying the way of noticing into daytime, attention undistinguishing of hours, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 5.7 *Nem Cheio Nem Vazio* (Dissolução)
+## 5.7 *Nem Notei* (Dissolução)
 
-**Conceito:** no fim, nem cheio nem vazio. As categorias servem para falar do que excede a palavra. No silêncio do adormecer, soltam-se. Nem cheio nem vazio.
+**Conceito:** soltar até o acto de notar. Quem nota, o que é notado, e o notar em si — três coisas que parecem distintas. Adormecida, são uma só. Nem notei. E mesmo assim — talvez sobretudo assim — o quarto continua cheio.
 
 ```
 [Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
 [CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Intro - extremely sparse pad, much silence, distant breath, fullness in emptiness, 20 seconds]
+[Intro - extremely sparse pad, much silence, distant breath, 20 seconds]
 
-[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-nem cheio nem vazio
+[Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+nem notei
 
-as categorias servem para falar do que excede a palavra
+já adormecia
 
-no silêncio do adormecer
-soltam-se
+a parede continuava cheia
+o frigorífico continuava a zumbir
+o cheiro continuava
 
-nem cheio nem vazio
+sem precisar de mim a notar
 
-nem cheio nem vazio
+nem notei
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-só estar
+[Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quem notava
+o que era notado
+o notar em si
 
-nem cheio nem vazio
+três coisas que pareciam distintas
 
-nem cheio nem vazio
+adormecida
+são uma só
+
+nem notei
 
 [Bridge - very minimal, pad faint with much silence, distant breath, 40 seconds]
 
-[Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem chega ao puro estar
-não precisa de categoria
+[Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+e mesmo assim
+talvez sobretudo assim
 
-nem cheio nem vazio
+o quarto continua cheio
 
-nem cheio nem vazio
+nem notei
 
-[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 4 - layered voices, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
 nem
-nem cheio nem vazio
+nem notei
 ah
 
 [Outro - voices dissolve into breath, pad fades to nothing, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
@@ -412,4 +424,4 @@ ah
 ah
 ```
 
-**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, long sustained pad in B, distant wind, suspended harmonics, atmospheric hovering, dissolution and rest, release of categories, pure being beyond full and empty, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** contemplative meditation, presence, grounding, no performance, compline-like night prayer, mantra repetition with development, low female voice, extremely sparse pad, much silence, distant breath, dissolution of noticer / noticed / noticing, room continues full without need of noticing, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
