@@ -3,418 +3,394 @@
 > Sub-coleção: Medo (para enraizar quando estás dispersa, quando o chakra raiz pede atenção).
 > Função do álbum: encontrar chão quando tudo se sente instável.
 > Hora interior: manhã muito cedo.
+> Eixo: **Todo** (com fio ao consigo) · Tradição encarnada (não nomeada): **Ubuntu** — *sou porque somos*.
+
+**Princípios desta reescrita (manifesto-compliant):**
+
+- Frase-mantra como **âncora funcional**, não proposição. (Não: *"X não é Y, X é Z"*. Sim: verbo / sítio / estado puro tipo `aqui`, `ainda`, `fica comigo`, `deixo`.)
+- **Sentidos como portas**: ar, peso, queixo, ombro, pé, garganta, estômago, útero, cadeira. Onde o medo mora no corpo, não como o medo se descreve mentalmente.
+- **Sem lição.** Sem catarse. Sem reframe terapêutico ("medo é amor preocupado" foi removido).
+- **Ubuntu codificado**: a ancestralidade aparece sem nome — "quem se sentou antes", "quem me deu este corpo", "quem desceu antes", "algo segurou-me no útero". O eixo Todo nunca é dito; é vivido.
+- **Voz que não te pede nada**: 1ª pessoa contemplativa, não imperativa. Quando há verbo de acção é o corpo a fazer sozinho ("o ombro desce sozinho").
 
 **Os 7 conceitos do álbum, sem sobreposição:**
 
-| # | Posição | Conceito |
-|---|---|---|
-| 1.1 | Chegada | **Parar** — interromper o movimento sem direção |
-| 1.2 | Reconhecimento | **Nomear o medo** — identificá-lo sem combater |
-| 1.3 | Aprofundamento | **Atravessar** — entrar nele em vez de fugir |
-| 1.4 | Centro | **Aqui** — reconhecer o chão como anterior (aprovada) |
-| 1.5 | Habitação | **Confiar** — delegar o peso ao que é maior |
-| 1.6 | Despedida | **Trazer para o mundo** — a prática vai para o dia |
-| 1.7 | Dissolução | **Soltar a prática** — não fazer dela nova prisão |
+| # | Posição | Mantra | Conceito |
+|---|---|---|---|
+| 1.1 | Chegada | **Parar** — `ar ainda` | pôr o corpo em terra |
+| 1.2 | Reconhecimento | **Tem Forma** — `também isto` | o medo tem onde mora no corpo |
+| 1.3 | Aprofundamento | **Fica Comigo** — `fica comigo` | descer sem combinar a saída |
+| 1.4 | Centro | **Aqui** — `aqui` (aprovada, refinada) | o sítio estava antes |
+| 1.5 | Habitação | **Deixo** — `deixo` | algo segura |
+| 1.6 | Despedida | **Vem Comigo** — `isto vem comigo` | o sítio viaja |
+| 1.7 | Dissolução | **Nem Isto** — `nem isto` / `ah` | soltar mesmo a prática |
 
 ---
 
 ## 1.1 *Parar* (Chegada)
 
-**Conceito:** interromper o movimento sem direção. A primeira oração é parar.
+**Conceito:** o corpo pousa em terra. Não há definição do que é parar; o corpo simplesmente para. A primeira coisa que para é o pé. Depois o queixo. Depois o lugar para onde se ia.
 
 ```
-[Intro - kalimba grave solo, very deep low drone underneath, single notes with very long silences, 30 seconds]
+[Intro - kalimba grave solo, very deep low drone underneath, single notes with very long silences between, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que andava em mim
-pode descansar agora
+parou
+parou o pé
 
-o que pensava
-o que planeava
-o que se preocupava
+parou o queixo
+parou o lugar onde eu ia
 
-pode descansar
-
-parar não é fraqueza
-parar é a primeira honestidade
+ar ainda
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não preciso de chegar a parte nenhuma
-nos próximos minutos
+o ombro desce sozinho
+quando ninguém está a olhar
 
-nem terminar
-nem decidir
-nem entender
+a mão descansa
+a mão sabe descansar
+a mão lembra-se
 
-parar é a primeira honestidade
+ar ainda
 
-[Bridge - instrumental, kalimba and deep drone only, very sparse, no voice, 60 seconds]
+[Bridge - kalimba and deep drone only, very sparse, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando paro
-escuto o que andava por dentro
+a cadeira é mais antiga do que eu
+o chão é mais antigo do que a cadeira
+o que está debaixo do chão é mais antigo ainda
 
-quando paro
-sinto o que andava por dentro
+quem se sentou aqui antes
+também respirou
 
-parar é a primeira honestidade
+ar ainda
 
 [Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem para
-não desiste
-
-quem para
-escolhe outra direção
-em vez de ir sempre em frente
+ar
+ar ainda
+ar ainda comigo
 
 [Outro - voice fades to whisper, kalimba sustains, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-silêncio
-silêncio bom
-
+ar
+ar
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave solo foreground, no frame drum, no percussion, very deep low drone underneath, single isolated notes with very long silences between, arrival, sparse to the extreme, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave solo foreground, no frame drum, no percussion, very deep low drone underneath, single isolated notes with very long silences between, arrival, sparse to the extreme, body-arrival not concept, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 1.2 *O Medo Tem Nome* (Reconhecimento)
+## 1.2 *Tem Forma* (Reconhecimento)
 
-**Conceito:** identificar o medo concreto. Nomear sem julgar nem tentar resolver.
+**Conceito:** o medo não se nomeia, localiza-se. Tem peso, tem temperatura, tem onde mora no corpo. O reconhecimento é sensorial, não conceptual. (Ubuntu: o medo não é só meu — vem inscrito no corpo que herdei.)
 
 ```
 [Intro - kalimba grave with mbira distant, frame drum slow spaced pulse, low drone, 25 seconds]
 
 [Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o medo não é vago
-o medo tem nome próprio
+isto que aperta no peito
+está aqui também
 
-medo do que pode falhar
-medo do que pode ser perdido
-medo do que pode mudar
+isto que segura na garganta
+está aqui também
 
-o medo tem nome
-e nomear é começar a ver
+isto que pesa no estômago
+está aqui também
+
+também isto
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-nomeio sem combater
-nomeio sem me envergonhar
+não é só meu
+nunca foi só meu
 
-ter medo não me faz menor
-ter medo faz-me humana
+quem me deu este corpo
+deu-me também esta forma de ter medo
 
-o medo tem nome
-e nomear é começar a ver
+também isto
 
-[Bridge - instrumental, kalimba and frame drum sustained, mbira distant, no voice, 60 seconds]
+[Bridge - kalimba and frame drum sustained, mbira distant, no voice, 60 seconds]
 
 [Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando vejo o medo claramente
-ele perde o poder oculto
+o medo tem temperatura
+o medo tem peso
 
-o que se vê
-deixa de governar em segredo
+tem onde mora dentro do corpo
+e o corpo conhece o sítio
 
-o medo tem nome
-e nomear é começar a ver
+também isto
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o medo veio dizer-me algo
-não veio dominar
-
-veio mostrar o que importa
-veio mostrar onde está o que amo
+também
+também isto
+está aqui também
 
 [Outro - voices fade, kalimba sustains, frame drum slows, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vejo
-vejo o que receava ver
-vejo
-
-vejo
+isto
+isto
+ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave with mbira distant, frame drum slow spaced pulse, low drone sustained, settling rhythm, naming, recognition, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave with mbira distant, frame drum slow spaced pulse, low drone sustained, settling rhythm, body-localization not naming, sensorial recognition, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 1.3 *Atravesso o Medo* (Aprofundamento)
+## 1.3 *Fica Comigo* (Aprofundamento)
 
-**Conceito:** entrar no medo em vez de fugir. Atrás dele está o que ele queria proteger.
+**Conceito:** descer sem combinar a saída. A respiração fica curta, o estômago aperta — fica comigo, fica. Sem reframe, sem "atrás está amor". Apenas presença que não se vai embora. (Ubuntu: ouço-os respirar comigo no escuro.)
 
 ```
 [Intro - kalimba grave deeper, frame drum sustained low rumble, deep drone emerging, 30 seconds]
 
 [Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o medo não se evita
-o medo atravessa-se
+descer
 
-atrás dele
-está o que ele queria proteger
+sem combinar a saída
+sem combinar a hora
 
-atravesso o medo
-e descubro o que ele guardava
+a respiração fica mais curta
+fica curta mesmo
+e fica
+
+fica comigo
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não corro nem combato
-respiro dentro dele
+o estômago aperta
+o estômago aperta mais
 
-cada respiração
-é um passo dentro do medo
+e fica
 
-atravesso o medo
-e descubro o que ele guardava
+fica comigo
 
-[Bridge - instrumental, deep drone full, kalimba grave, frame drum sustained low, no voice, 60 seconds]
+[Bridge - deep drone full, kalimba grave, frame drum sustained low, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que estava por baixo do medo
-era amor antigo
+quem desceu antes
+desceu sem mapa
 
-o que estava por baixo do medo
-era ternura por algo
+ficou
+ainda está dentro
 
-atravesso o medo
-e descubro o que ele guardava
+ouço-os respirar
+no escuro
+
+fica comigo
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-medo é amor preocupado
-medo é amor com medo
-
-quando vejo o amor por trás do medo
-o medo agradece e descansa
+fica
+fica comigo
+fica
 
 [Outro - voices fade, kalimba sustains, drone holds, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-atravesso
-atravesso devagar
-atravesso
-
-atravesso
+fica
+fica
+ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper register, frame drum sustained low rumble not pulsed, deep emerging drone as new layer, descending mbira, no melodic movement, crossing, depth, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper register, frame drum sustained low rumble not pulsed, deep emerging drone as new layer, descending mbira, no melodic movement, descent without resolution, no catharsis, presence that does not leave, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
 ## 1.4 *Aqui* (Centro) — APROVADA
 
-**Conceito:** o reconhecimento do chão como anterior à pessoa. Não conquista, mas regresso.
+**Conceito:** o sítio estava antes (refinada). Sem dizer "lugar a que cheguei vs. lugar que me esperava" (proposição). Apenas presença pura: aqui. (Ubuntu: o aqui não muda; muda quem para. Outros pararam aqui antes.)
 
 ```
 [Intro - kalimba grave solo, frame drum distant pulse, 30 seconds, building]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
 parei
-e o que parei foi a procura
-não o caminho
 
-aqui não é lugar a que cheguei
-aqui é lugar que me esperava
+e o sítio estava
+
+estava antes
+e estava depois
+e estava enquanto eu o procurava
+
+aqui
 
 [Verse 2 - same whispered tone, slightly more present, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sempre soube
-mesmo sem saber
-que havia um aqui
+isto está
+isto está sem a minha ajuda
 
-um aqui anterior à pressa
-um aqui anterior ao nome
+a respiração é minha
+e não é minha
 
-aqui não é lugar a que cheguei
-aqui é lugar que me esperava
+aqui
 
-[Bridge - instrumental, kalimba and frame drum only, no voice, sustained, 60 seconds]
+[Bridge - kalimba and frame drum only, no voice, sustained, 60 seconds]
 
 [Verse 3 - sung low now, deep female voice, no vibrato, more grounded, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que me sustenta
-não começou comigo
-não acaba comigo
+quem antes de mim parou
+encontrou o mesmo aqui
 
-eu sou o lugar
-onde isto se reconhece
+o aqui não muda
+muda quem para
 
-aqui não é lugar a que cheguei
-aqui é lugar que me esperava
+aqui
 
 [Verse 4 - layered female voices, two Loranne in unison and slight harmony, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que procurava
-era o que procurava em mim
-
-quem chega
-era quem já estava
+aqui
+aqui
+aqui
 
 [Outro - voice fades to whisper, kalimba sustains, frame drum slows, 60 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
 aqui
-aqui que me esperava
-
+aqui
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, deep mbira, kalimba grave, frame drum, low female voice, mantra repetition with development, dhikr-like, presence, grounding, no performance, sparse instrumental, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, deep mbira, kalimba grave, frame drum, low female voice, mantra repetition with development, dhikr-like, presence, grounding, no performance, sparse instrumental, fullness without density, the place was before, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 1.5 *Confio no Que Sustenta* (Habitação)
+## 1.5 *Deixo* (Habitação)
 
-**Conceito:** delegar o peso ao que é maior. Não tenho de segurar tudo.
+**Conceito:** algo segura. Não se nomeia o quê. O corpo deixa cair o que não tinha de carregar. Sem aphorism "confiança é repouso na incerteza". (Ubuntu: algo segurou-me no útero, algo segura agora, algo vai segurar quando eu não estiver.)
 
 ```
 [Intro - mbira foreground warm, kalimba grave background, frame drum very slow regular, 25 seconds]
 
 [Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-nem tudo é meu para segurar
-nem tudo cabe nas minhas mãos
+deixo
 
-confio no que me sustenta
-mesmo sem o conseguir nomear
+deixo a coluna fazer
+o que sabe fazer
 
-a terra continua a girar
-sem eu a empurrar
+deixo o peito
+ser uma casa
+em vez de um cofre
 
-confio
-e o que sustenta sustenta-me
+deixo
 
 [Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o controlo era ilusão pesada
-deixá-lo cair é alívio
+isto não cai
+isto não cai porque algo segura
 
-quem confia
-não solta tudo
-mas solta o que não lhe pertence carregar
+algo segurou-me no útero
+algo segura-me agora
+algo vai segurar quando eu não estiver
 
-confio
-e o que sustenta sustenta-me
+deixo
 
-[Bridge - instrumental, mbira and kalimba sustained warm, frame drum slow regular, no voice, 60 seconds]
+[Bridge - mbira and kalimba sustained warm, frame drum slow regular, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-há algo maior em movimento
-do que tenho consciência
+não tenho de saber o nome
+do que segura
 
-esse algo tem-me tido
-mesmo quando esqueço dele
+não tenho de saber a forma
+do que segura
 
-confio
-e o que sustenta sustenta-me
+deixo
 
 [Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-confiança não é certeza
-confiança é repouso na incerteza
-
-confio sem provas
-porque a desconfiança custa mais cara
+deixo
+deixo cair
+deixo ser segurada
 
 [Outro - voices fade gently, mbira sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-confio
-sustento-me em algo maior
-confio
-
-confio
+deixo
+deixo
+ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira foreground warm, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, settled rhythm, trust, surrender, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira foreground warm, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, dwelling rhythm, weight transfer, something holds, no naming of the holder, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 1.6 *O Chão Vem Comigo* (Despedida)
+## 1.6 *Vem Comigo* (Despedida)
 
-**Conceito:** o que aprendi enraizada vai para o trabalho, para a conversa, para o conflito. A prática é prelúdio ao dia.
+**Conceito:** o sítio viaja. Não como conceito ("o chão vem comigo para a reunião") mas como **forma do peso** — a língua que vai falar carrega este chão por baixo. Sem definir "ser enraizada". (Ubuntu: levo o sítio onde outros pousaram antes.)
 
 ```
 [Intro - kalimba grave more articulated, frame drum gentle awakening pulse, drone beginning to open, 25 seconds]
 
 [Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não fui ao chão para escapar
-fui ao chão para voltar mais inteira
+vou levantar daqui a pouco
+vou andar
+vou falar
 
-quando me levantar
-levo o que encontrei
+isto vem comigo
 
-para a reunião
-para a discussão
-para a decisão difícil
+a língua que falar agora
+vai ter este chão por baixo
 
-o chão vem comigo
-para onde for preciso
+isto vem comigo
 
 [Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a meditação não acaba quando me levanto
-muda de forma
+quando o dia ficar áspero
+posso voltar a este sítio
+em três respirações
 
-agora vou agir
-mas agir enraizada
+isto vem comigo
 
-o chão vem comigo
-para onde for preciso
-
-[Bridge - instrumental, kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]
+[Bridge - kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]
 
 [Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando o dia ficar difícil
-saberei voltar a este lugar
+não levo conceito
+levo o sítio
 
-mesmo a meio da reunião
-mesmo a meio do conflito
+não levo lição
+levo a forma do peso na cadeira
 
-o chão vem comigo
-para onde for preciso
+isto vem comigo
 
 [Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-ser enraizada não é parar de fazer
-é fazer a partir do que sustenta
-
-o gesto enraizado
-é diferente do gesto ansioso
+vem
+vem comigo
+isto vem comigo
 
 [Outro - voices fade to whisper, kalimba sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vou comigo
-vou enraizada
-vou
-
-vou
+vem
+vem
+ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated notes, frame drum gentle awakening pulse, drone beginning to open upward, mbira lighter, preparing movement, transition, embodiment, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated notes, frame drum gentle awakening pulse, drone beginning to open upward, mbira lighter, preparing movement, transition, the place travels not the lesson, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 1.7 *Liberta a Prática* (Dissolução)
+## 1.7 *Nem Isto* (Dissolução)
 
-**Conceito:** soltar a própria meditação. Não fazer da prática nova muleta.
+**Conceito:** soltar mesmo a prática. Sem teorizar a soltura ("se a usar como muleta vira nova prisão" é teoria). A faixa **dissolve-se enquanto fala** — silêncios crescem, voz vira respiração, instrumento desaparece. O mantra também se dissolve em "ah".
 
 ```
 [Intro - very sparse kalimba single notes, no frame drum, much silence, 20 seconds]
 
 [Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-liberto a meditação
-para que ela me liberte
+nem isto preciso de guardar
 
-se a usar como muleta
-ela vira nova prisão
-
-a presença não precisa da prática
-a prática é só o lembrete
+nem isto
 
 [Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-amanhã talvez não medite
-e isso está bem
+amanhã talvez não venha aqui sentar
+e o sítio não fica zangado
 
-a presença não me abandona
-quando deixo de a procurar
+talvez venha
+talvez não
+
+nem isto
 
 [Bridge - very minimal instrumental, kalimba single notes with much silence, distant breath, 40 seconds]
 
 [Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que aprendi não precisa de nome
-o que aprendi não precisa de hora
+o que isto era
+não tinha nome
 
-já é o que sou
-quando lembro
+não precisa
+de continuar a ter forma
 
-[Outro - voices dissolve into breath, kalimba fades, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-livre
-livre da prática
+nem isto
+
+[Verse 4 - layered voices, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+nem
+nem isto
 ah
 
+[Outro - voices dissolve into breath, kalimba fades to nothing, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+ah
+ah
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences between, frame drum disappears in first half, only breath and one residual instrument, dissolving texture, release, freedom, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences between, frame drum disappears in first half, only breath and one residual instrument, dissolving texture, dissolution, the practice releases itself, no theory of release, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
