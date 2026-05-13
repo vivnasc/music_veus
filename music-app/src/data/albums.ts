@@ -2946,6 +2946,12 @@ export const ALL_ALBUMS: Album[] = [
   NOVO_ORIGEM,
 ].map(applyLyrics) as Album[];
 
+// Presença albums (Loranne & Ancient Ground) — incluídos no índice global
+// para que apareçam em /novidades, /descobre e outros sítios públicos.
+// Versão pública sem letras (Suno custom-lyrics blocks são pesados).
+import { getPresencaAlbumsAsAlbumsPublic } from "./presenca";
+ALL_ALBUMS.push(...getPresencaAlbumsAsAlbumsPublic());
+
 // ─── Ancient Ground — 49 instrumental African meditation singles ───
 import { ANCIENT_GROUND_SINGLES } from "./ancient-ground-singles";
 
