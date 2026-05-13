@@ -18,6 +18,23 @@
  */
 
 import type { Album } from "@/data/albums";
+import { PRESENCA_SUBS, presencaSubCoverUrl, type PresencaSubSlug } from "@/data/presenca";
+
+// Set de slugs Presença para detecção rápida em getTrackCoverUrl / getAlbumCoverImageUrl
+const PRESENCA_SUB_SLUGS: Set<string> = new Set(PRESENCA_SUBS.map((s) => s.slug));
+
+/**
+ * Detecta se um albumSlug é um álbum Presença e devolve a sub-coleção.
+ * Slugs Presença têm formato `presenca-{sub}-{album}` onde sub é uma das 7
+ * sub-coleções (medo, magoa, apatia, inquietacao, sufoco, confusao, vazio).
+ */
+function presencaSubFromSlug(albumSlug: string): PresencaSubSlug | null {
+  if (!albumSlug.startsWith("presenca-")) return null;
+  const parts = albumSlug.split("-");
+  if (parts.length < 3) return null;
+  const sub = parts[1];
+  return PRESENCA_SUB_SLUGS.has(sub) ? (sub as PresencaSubSlug) : null;
+}
 
 // Nomes dos espelhos (sem prefixo "Véu" ou "Espelho")
 export const ESPELHO_NAMES: Record<number, string> = {
@@ -118,6 +135,11 @@ export const ALL_POSES = [
 ];
 
 export function getAlbumCover(album: Album): string {
+  // Presença — capa da sub-coleção (não usa poses Loranne)
+  if (album.product === "presenca") {
+    const sub = presencaSubFromSlug(album.slug);
+    if (sub) return presencaSubCoverUrl(sub);
+  }
   // Espelhos — pose fixa por veu
   if (album.product === "espelho" && album.veu && ESPELHO_COVERS[album.veu]) {
     return ESPELHO_COVERS[album.veu];
@@ -143,6 +165,12 @@ export function getAlbumCover(album: Album): string {
  * Retorna sempre um URL — o caller deve fazer probe (Image onload/onerror).
  */
 export function getTrackCoverUrl(albumSlug: string, trackNumber: number): string {
+  // Presença: capa por sub-coleção (uma capa para todos os álbuns da sub).
+  // Carregada via /admin/presenca-capas. Se ainda não foi carregada, o
+  // Supabase devolve 404 e o caller faz fallback ao gradient.
+  const presencaSub = presencaSubFromSlug(albumSlug);
+  if (presencaSub) return presencaSubCoverUrl(presencaSub);
+
   // Cache-bust every 5 minutes so new covers appear quickly after approval
   const cb = Math.floor(Date.now() / 300000);
   return `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=${trackNumber}&type=cover&v=${cb}`;
@@ -155,6 +183,10 @@ export function getTrackCoverUrl(albumSlug: string, trackNumber: number): string
  * caller deve ter onError-fallback para getTrackCoverUrl da faixa de capa.
  */
 export function getAlbumCoverImageUrl(albumSlug: string): string {
+  // Presença: capa por sub-coleção
+  const presencaSub = presencaSubFromSlug(albumSlug);
+  if (presencaSub) return presencaSubCoverUrl(presencaSub);
+
   const cb = Math.floor(Date.now() / 300000);
   return `/api/music/stream?album=${encodeURIComponent(albumSlug)}&track=0&type=cover&v=${cb}`;
 }

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { PresencaSubPlayer } from "./PresencaSubPlayer";
 import {
   PRESENCA_SUBS,
   PRESENCA_SUB_META,
@@ -50,6 +51,9 @@ export default function PresencaLandingPage() {
             49 álbuns × 7 faixas = 343 mantras. Cadência: 1-2 álbuns por mês.
             Não vai para Apple Music nem DistroKid. Vive aqui e no YouTube.
           </p>
+
+          {/* Tocar tudo / Aleatório — coleção Presença inteira */}
+          <PresencaSubPlayer subLabel="Presença" accentColor="#C9A96E" />
         </section>
 
         {/* 7 sub-colecções */}
