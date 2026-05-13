@@ -100,7 +100,7 @@ And finding gold beneath the dread
 Stitch by stitch I let the fabric fall
 Stitch by stitch I find there's nothing wrong
 Underneath the coat, beneath it all
-I'vê been here all along`,
+I've been here all along`,
 
   "espelho-ilusao/3": `[Verse 1]
 Gira a chave, gira a mão
@@ -208,7 +208,7 @@ Like arms around a lullaby
 Oh, the body keeps the tale
 Written underneath the skin
 Every scar's a letter sent
-From the girl I'vê always been
+From the girl I've always been
 The body hums a melody
 The mind forgot to sing
 And if you press your ear right here
@@ -224,7 +224,7 @@ And held them like the living dead
 Oh, the body keeps the tale
 Written underneath the skin
 Every scar's a letter sent
-From the girl I'vê always been
+From the girl I've always been
 The body hums a melody
 The mind forgot to sing
 And if you press your ear right here
@@ -408,13 +408,13 @@ And serve the one that's safe across the mile
 [Verse 2]
 I weigh each syllable like gold on glass
 I measure out my laughter by the spoon
-I'vê polished every answer till it shines
+I've polished every answer till it shines
 But the truth still hums a crooked little tune
 
 [Chorus]
 What if I said the wrong and lovely thing
 The messy word that blooms between my teeth
-What if the thing I'vê held behind my tongue
+What if the thing I've held behind my tongue
 Is the only song worth underneath
 The only song worth singing underneath
 
@@ -427,7 +427,7 @@ And whisper darling, we're your only hope
 [Chorus]
 What if I said the wrong and lovely thing
 The messy word that blooms between my teeth
-What if the thing I'vê held behind my tongue
+What if the thing I've held behind my tongue
 Is the only song worth underneath
 The only song worth singing underneath
 
@@ -610,7 +610,7 @@ Mas os meus pés já decidiram
 Ouço-te, ouço-te
 Mas as raízes que me prendem
 Hoje viraram asas
-E eu vou com o teu nome nós ouvidos
+E eu vou com o teu nome nos ouvidos
 Vou tremendo, vou cantando
 Vou
 
@@ -621,7 +621,7 @@ Mas os meus pés já decidiram
 Ouço-te, ouço-te
 Mas as raízes que me prendem
 Hoje viraram asas
-E eu vou com o teu nome nós ouvidos
+E eu vou com o teu nome nos ouvidos
 Vou tremendo, vou cantando
 Vou
 
@@ -846,7 +846,7 @@ Vem do lugar onde a vida é festa
 [Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only legato piano underneath]
 (European Portuguese, Portugal accent:)
 Não quero só o suspiro do fim
-Quero o arrepio do inicio
+Quero o arrepio do início
 Não quero só o alívio
 Quero a dança, o salto, o precipício
 
@@ -1299,7 +1299,7 @@ Só eu, parada, ali`,
 [Verse 1]
 Take away my name and watch me tremble
 Take away the job, the house, the ring
-Take away the story I'vê been telling
+Take away the story I've been telling
 And see if there's a bird that still can sing
 
 [Verse 2]
@@ -1542,7 +1542,7 @@ There's a woman wanting rest
 [Bridge]
 What if I said I can't today
 What if the rock became the river
-What if the strongest thing I'vê done
+What if the strongest thing I've done
 Is finally learning how to shiver
 
 [Outro]
@@ -1779,7 +1779,7 @@ De inspirar o céu e soltar o escuro
 Respira, respira
 O mundo pode esperar
 Respira, respira
-Entre a entrada e a saida do ar
+Entre a entrada e a saída do ar
 Mora um silêncio tão bonito
 Que parece um lugar
 Onde nada me persegue
@@ -1790,7 +1790,7 @@ Onde tudo pode pousar
 Respira, respira
 O mundo pode esperar
 Respira, respira
-Entre a entrada e a saida do ar
+Entre a entrada e a saída do ar
 Mora um silêncio tão bonito
 Que parece um lugar
 Onde nada me persegue
@@ -2237,7 +2237,7 @@ E eu não me encolho mais, não, não me encolho
 [Bridge]
 Há uma diferença entre a água que se adapta
 É a água que desaparece
-Uma abraca a forma do rio
+Uma abraça a forma do rio
 Outra seca e ninguém aquece
 
 [Outro]
@@ -2453,7 +2453,7 @@ Is all`,
 
 [Verse 1]
 Há um caminho entre as costelas
-Que da para um sitio que eu conheco
+Que dá para um sítio que eu conheço
 Um lugar com cheiro a terra molhada
 É uma porta que nunca fecho
 

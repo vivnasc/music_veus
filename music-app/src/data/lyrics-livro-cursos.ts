@@ -88,13 +88,13 @@ Let it flow like water through your hands
 the only truth is in the unfolding`,
 
   "livro-filosofico/3": `[Verse 1]
-A memoria é uma sala escura
+A memória é uma sala escura
 com cadeiras viradas para trás
 Sentas-te e olhas o que já foi
 como se pudesses mudar o que já não faz
 
 [Verse 2]
-Cada historia que contas de ti
+Cada história que contas de ti
 tem uma porta que não abres nunca mais
 O presente bate e tu não atendes
 a sala antiga e a que mais te atrai
@@ -164,7 +164,7 @@ Cada dia uma nova trincheira
 cada noite um novo abaco
 
 [Verse 2]
-Mas há um cansaco que não dorme
+Mas há um cansaço que não dorme
 que não cede com ferias nem verão
 Um peso que não mora no corpo
 mora na crença de que nunca basta o pão
@@ -182,7 +182,7 @@ Está aqui, no exacto lugar
 onde largaste a bicicleta
 
 [Bridge]
-O esforco encobriu o repouso
+O esforço encobriu o repouso
 a busca escondeu a chegada
 Tão ocupada a perseguir o sol
 que não viste a luz na tua sacada
@@ -226,7 +226,7 @@ and let the silence be your cradle
 [Outro]
 Desolation is not the end
 it is the pause before the garden
-The darkest field you'vê ever crossed
+The darkest field you've ever crossed
 is where the flowers learn to harden`,
 
   "livro-filosofico/7": `[Verse 1]
@@ -461,7 +461,7 @@ quando decides que mereces mais
 [Bridge]
 O dinheiro dos teus pais
 não precisa ser o teu
-Podes honrar a sua historia
+Podes honrar a sua história
 e escrever outra com a tua mão
 
 [Outro]
@@ -547,7 +547,7 @@ O espelho dourado agora es tu
 sem moldura, sem preço, só luz`,
 
   // ═══════════════════════════════════════════
-  // SANGUE E SEDA — "A tua mãe, a tua historia"
+  // SANGUE E SEDA — "A tua mãe, a tua história"
   // Árvore das Raizes Visiveis
   // ═══════════════════════════════════════════
 
@@ -564,7 +564,7 @@ e alimenta-se do que sentes
 [Verse 2]
 As raízes vão longe, tão longe
 até avos que nunca viste
-Carregas o peso de historias
+Carregas o peso de histórias
 que ninguém te pediu que ouvisse
 
 [Chorus]
@@ -643,19 +643,19 @@ quando alguém te diz que não
 Herdaste a forma de amar
 que parece sacrificio
 Herdaste o corpo que se cala
-e chama a isso de servico
+e chama a isso de serviço
 
 [Chorus]
 O sangue não é destino
-e materia, e memoria
+é matéria, é memória
 Podes sentir o que ela sentiu
-sem repetir a sua historia
+sem repetir a sua história
 
 [Chorus]
 O sangue não é destino
-e materia, e memoria
+é matéria, é memória
 Podes sentir o que ela sentiu
-sem repetir a sua historia
+sem repetir a sua história
 
 [Bridge]
 O que corre nas tuas veias
@@ -926,13 +926,13 @@ Mas a paisagem já e outra
 e o antigo não volta — já não dói
 
 [Chorus]
-Cinzas não são o fim da historia
+Cinzas não são o fim da história
 são o que resta quando a mentira arde
 O que sobrevive ao fogo
 e o que era verdade — cedo ou tarde
 
 [Chorus]
-Cinzas não são o fim da historia
+Cinzas não são o fim da história
 são o que resta quando a mentira arde
 O que sobrevive ao fogo
 e o que era verdade — cedo ou tarde
@@ -1176,7 +1176,7 @@ só o passo seguinte basta
 
 [Bridge]
 O nevoeiro está a levantar
-não porque forcaste a vista
+não porque forçaste a vista
 Mas porque te deixaste estar
 e a verdade fez-se conquista
 
@@ -1258,7 +1258,7 @@ Passa os dedos por cada linha
 e deixa o corpo falar
 
 [Bridge]
-Onde dói, há historia
+Onde dói, há história
 onde pesa, há verdade
 O corpo guarda o que a mente esquece
 e espera com paciência e saudade
@@ -1318,7 +1318,7 @@ Abrir a porta devagar
 e encontrar tudo onde estava
 
 [Verse 2]
-Os moveis podem ter mudado
+Os móveis podem ter mudado
 as paredes podem ter rachaduras
 Mas o chão ainda te conhece
 e as janelas ainda te procuram
@@ -1419,7 +1419,7 @@ e uma forma de sumir também
 [Bridge]
 Não é egoismo ter fronteira
 não é frieza ter contorno
-E saber que quem tu es
+E saber que quem tu és
 precisa de espaço para o retorno
 
 [Outro]
@@ -1555,7 +1555,7 @@ that says — this ground is sacred stone`,
 
 [Verse 1]
 A caverna não tem janelas
-não tem relógio nem saida
+não tem relógio nem saída
 O escuro é tão completo
 que o corpo esquece que é vida
 
@@ -2349,7 +2349,7 @@ Palavras que nunca foram ditas
 vivem como sombras nas arcas
 
 [Verse 2]
-A tua familia calou
+A tua família calou
 o que devia ter gritado
 E tu herdaste o silêncio
 como quem herda um legado
@@ -2367,7 +2367,7 @@ O que nunca foi dito
 pesa mais que mil excessos
 
 [Outro]
-O silêncio da familia
+O silêncio da família
 não é paz — e medo antigo
 Um rio que corre por baixo
 e espera por quem lhe de abrigo`,
@@ -2425,20 +2425,20 @@ transforma-se em voz a cantar
 [Verse 2]
 Cada palavra libertada
 ilumina uma sombra na parede
-O que a familia calou
+O que a família calou
 agora e a tua verdade que arde
 
 [Chorus]
 Ecos dourados
 onde antes era cinza
 A voz que sai agora
-e a mesma que a familia aprisiona
+e a mesma que a família aprisiona
 
 [Chorus]
 Ecos dourados
 onde antes era cinza
 A voz que sai agora
-e a mesma que a familia aprisiona
+e a mesma que a família aprisiona
 
 [Outro]
 As palavras libertadas
@@ -2521,9 +2521,9 @@ e uma prisão que não parece
 
 [Outro]
 Pertencer não devia custar
-a pessoa que tu es
+a pessoa que tu és
 Como a árvore pertence ao bosque
-sem perder as proprias raízes dos pés`,
+sem perder as próprias raízes dos pés`,
 
   "curso-teia/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -2896,8 +2896,8 @@ Coexistencia bonita
 sem culpa, sem fronteira
 
 [Outro]
-Não es só mãe
-não es só mulher
+Não és só mãe
+não és só mulher
 Es as duas coisas
 e isso é o teu poder`,
 
@@ -2967,13 +2967,13 @@ e a exaustão mede-se em sinais
 [Chorus]
 Maquinas, maquinas
 que não param de girar
-O oficio sem propósito
+O ofício sem propósito
 e uma forma lenta de apagar
 
 [Chorus]
 Maquinas, maquinas
 que não param de girar
-O oficio sem propósito
+O ofício sem propósito
 e uma forma lenta de apagar
 
 [Outro]
@@ -3035,7 +3035,7 @@ e lá fora há alguém
 [Verse 2]
 Trabalhas porque queres
 não porque deves ou tens medo
-O oficio e presença
+O ofício e presença
 não é uma fuga nem um degredo
 
 [Chorus]
@@ -3053,8 +3053,8 @@ e a mais bonita sentinela
 [Outro]
 O propósito não é o produto
 e a presença no fazer
-O oficio mais sagrado
-e o oficio de ser`,
+O ofício mais sagrado
+é o ofício de ser`,
 
   "curso-oficio-ser/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -3181,14 +3181,14 @@ to know when flowers wake`,
 
 [Verse 1]
 O relógio partiu
-e as estacoes coexistem
+e as estações coexistem
 Primavera e outono lado a lado
 e ambas insistem
 
 [Verse 2]
 Sentada no jardim
 sem pressa de chegar
-Todas as estacoes são agora
+Todas as estações são agora
 e agora e o único lugar
 
 [Chorus]

@@ -115,7 +115,7 @@ O que calei, o que doeu
 O suor dissolve
 
 [Verse 3]
-Os musculos ardem em fogo
+Os músculos ardem em fogo
 A pele brilha de sal
 Há qualquer coisa neste jogo
 Que me torna animal
@@ -287,8 +287,8 @@ Só este jogo sagrado
 [Verse 2]
 As celulas vibram em coro
 As mãos tremem de vitoria
-Cada musculo grita ouro
-Cada fibra conta a historia
+Cada músculo grita ouro
+Cada fibra conta a história
 
 [Chorus]
 Descarga
@@ -715,7 +715,7 @@ Inside a different scale
 The kettle whistles like before
 The street still hums its hum
 But I am standing at the door
-As someone I'vê become
+As someone I've become
 
 [Outro]
 I return
@@ -1205,7 +1205,7 @@ Pesado e casa`,
 [Verse 1]
 Where does the skin end and the sheet begin
 The borders blur like ink in rain
-I can't remember where I'vê been
+I can't remember where I've been
 Or what I thought was my domain
 
 [Verse 2]
@@ -1294,7 +1294,7 @@ Boa noite a mim`,
 [Verse 1]
 Antes de abrir os olhos
 O mundo já existe lá fora
-Os passaros cantam seus orgulhos
+Os pássaros cantam seus orgulhos
 Mas eu fico mais uma hora
 
 [Verse 2]
@@ -1632,9 +1632,9 @@ De quem prepara para amar
 
 [Chorus]
 A mesa posta
-A cerimonia de quem cuida
+A cerimónia de quem cuida
 A mesa posta
-É a ofrenda mais valida
+É a oferenda mais válida
 Cada prato no lugar
 É uma forma de dizer
 Eu preparei-me para te amar
@@ -1643,9 +1643,9 @@ Antes de te ver
 
 [Chorus]
 A mesa posta
-A cerimonia de quem cuida
+A cerimónia de quem cuida
 A mesa posta
-É a ofrenda mais valida
+É a oferenda mais válida
 Cada prato no lugar
 É uma forma de dizer
 Eu preparei-me para te amar
@@ -1960,7 +1960,7 @@ The road is mine`,
 Pela janela passa o campo
 Depois a vila, depois o campo
 Os pensamentos soltam-se como bando
-De passaros sem dono nem acampamento
+De pássaros sem dono nem acampamento
 
 [Verse 2]
 Não seguro nenhum
@@ -2013,7 +2013,7 @@ The silence underneath the cloud
 Miles and miles and miles
 The meditation of the road
 Every hundred changes the dial
-Of the weight I'vê always towed
+Of the weight I've always towed
 Miles are not just distance here
 They're a currency of peace
 Each one buys a little clear
@@ -2024,7 +2024,7 @@ Each one brings a small release
 Miles and miles and miles
 The meditation of the road
 Every hundred changes the dial
-Of the weight I'vê always towed
+Of the weight I've always towed
 Miles are not just distance here
 They're a currency of peace
 Each one buys a little clear
@@ -2042,7 +2042,7 @@ Just miles and quiet`,
 A janela abre e o vento entra
 O cabelo voa sem pedir licença
 O mundo inteiro se concentra
-Neste momento sem sentenca
+Neste momento sem sentença
 
 [Verse 2]
 Grito qualquer coisa para o ar
@@ -2347,7 +2347,7 @@ Entrega de pele
 Dar-me toda sem sobras
 Entrega de pele
 Onde as mãos são as obras
-O corpo sabe a lingua
+O corpo sabe a língua
 Que a mente nunca aprendeu
 Cada toque distingue
 O que é teu do que é meu
@@ -2359,7 +2359,7 @@ Entrega de pele
 Dar-me toda sem sobras
 Entrega de pele
 Onde as mãos são as obras
-O corpo sabe a lingua
+O corpo sabe a língua
 Que a mente nunca aprendeu
 Cada toque distingue
 O que é teu do que é meu
@@ -3226,7 +3226,7 @@ O vapor sobe como uma fuga
 De tudo o que foi um desvio
 
 [Verse 2]
-Os musculos soltam um a um
+Os músculos soltam um a um
 Como nós que se desfazem
 A água lava o que é comum
 E transforma em algo que me fazem
@@ -3237,8 +3237,8 @@ A primeira gentileza
 A água quente
 Cura qualquer aspereza
 Não preciso de mais nada
-Que este vapor e está pele
-A água e a mais sagrada
+Que este vapor e esta pele
+A água é a mais sagrada
 Das coisas que o corpo pede
 
 
@@ -3248,8 +3248,8 @@ A primeira gentileza
 A água quente
 Cura qualquer aspereza
 Não preciso de mais nada
-Que este vapor e está pele
-A água e a mais sagrada
+Que este vapor e esta pele
+A água é a mais sagrada
 Das coisas que o corpo pede
 
 [Outro]
@@ -3428,7 +3428,7 @@ Finalmente solto`,
 My hand upon my own warm cheek
 The gesture that I'd give a child
 The word I finally learned to speak
-To myself, só long exiled
+To myself, so long exiled
 
 [Verse 2]
 Tender, tender on the tongue
@@ -3444,7 +3444,7 @@ To the kindness of the scar
 You were taught to be só hard
 You were taught to be só strong
 But the tenderest regard
-Is where you'vê belonged all along
+Is where you've belonged all along
 
 
 [Chorus]
@@ -3455,7 +3455,7 @@ To the kindness of the scar
 You were taught to be só hard
 You were taught to be só strong
 But the tenderest regard
-Is where you'vê belonged all along
+Is where you've belonged all along
 
 [Outro]
 Tender
@@ -4059,7 +4059,7 @@ The body flinches at a smell it chose
 Before I was this frame
 
 [Verse 2]
-My muscles tense at sounds I'vê never heard
+My muscles tense at sounds I've never heard
 My hands grip in a pattern not my own
 The blood remembers every word
 In a dialect of flesh and bone
@@ -4192,7 +4192,7 @@ O que trouxeste
 O que carregaste sem escolher
 O que trouxeste
 É o que te faz quem vais ser
-O orgulho misturado com cansaco
+O orgulho misturado com cansaço
 De quem não larga o que é seu
 Cada habito é um abraco
 De quem veio antes e já morreu
@@ -4203,7 +4203,7 @@ O que trouxeste
 O que carregaste sem escolher
 O que trouxeste
 É o que te faz quem vais ser
-O orgulho misturado com cansaco
+O orgulho misturado com cansaço
 De quem não larga o que é seu
 Cada habito é um abraco
 De quem veio antes e já morreu
@@ -4517,7 +4517,7 @@ A filha torna-se mãe nas jornadas
 A mesma canção numa boca nova
 O mesmo amor em mãos novas
 Tudo volta como a chuva prova
-Que as estacoes são as mesmas trovas
+Que as estações são as mesmas trovas
 
 [Chorus]
 Volta
@@ -4775,21 +4775,21 @@ Antes da mente decidir
 A coluna ondula como um rio
 Os ombros largam o que carregavam
 O corpo quente contra o frio
-Das razoes que me aprisionavam
+Das razões que me aprisionavam
 
 [Chorus]
 O corpo sabe
 Celebrar antes de ter razão
 O corpo sabe
 A dança e a mais velha oração
-Os musculos lembram
+Os músculos lembram
 O ritmo que a mente esqueceu
 As celulas tremem
 Com o que o corpo aprendeu
 
 [Verse 3]
 Os braços desenham no ar
-Circulos que a logica não traça
+Círculos que a lógica não traça
 O corpo não precisa de pensar
 Para encontrar a sua graça
 
@@ -4798,7 +4798,7 @@ O corpo sabe
 Celebrar antes de ter razão
 O corpo sabe
 A dança e a mais velha oração
-Os musculos lembram
+Os músculos lembram
 O ritmo que a mente esqueceu
 As celulas tremem
 Com o que o corpo aprendeu
@@ -6095,7 +6095,7 @@ Is having nothing to decide
 Every great leap began right here
 With toes curled over the unknown
 The threshold isn't made of fear
-It's made of everything I'vê grown
+It's made of everything I've grown
 
 [Outro]
 Standing
