@@ -20,7 +20,7 @@ export const NO_LYRICS: Record<string, string> = {
 [Verse 1: vocal whispered, very close, maternal aching intimacy]
 Eu vi-te antes de te veres ao espelho
 Descalca pelo corredor a correr sem chão
-Tinhas nós olhos uma tempestade antiga
+Tinhas nos olhos uma tempestade antiga
 Que eu não sabia acalmar com a minha mão
 
 [Chorus]
@@ -336,7 +336,7 @@ E apenas um tremor que sai do fundo animal
 A primeira palavra é um rio que rebenta
 É a voz que se parte ao meio como vidro
 E dizer eu tenho medo é ouvir o eco
-E descobrir que tu tremias no mesmo sitio
+E descobrir que tu tremias no mesmo sítio
 
 [Verse 2]
 Não sabia que uma frase tão pequena
@@ -349,7 +349,7 @@ Que derreteu o gelo de tantos invernos sois
 A primeira palavra é um rio que rebenta
 É a voz que se parte ao meio como vidro
 E dizer eu tenho medo é ouvir o eco
-E descobrir que tu tremias no mesmo sitio
+E descobrir que tu tremias no mesmo sítio
 
 [Bridge]
 Não precisa de ser perfeita
@@ -680,7 +680,7 @@ At last`,
 
 [Verse 1]
 Encontrei-te num lugar sem mapa nem parede
-Sem nome, sem historia, sem moldura no olhar
+Sem nome, sem história, sem moldura no olhar
 Tu olhaste para mim como quem vê o mar
 E eu não tinha máscara para te entregar
 
@@ -842,7 +842,7 @@ Eu sei porque também calei o amor
 Quando duas pessoas se reconhecem
 Não é porque são espelhos iguais
 E porque a ferida de uma
-Fala a lingua da outra sem sinais
+Fala a língua da outra sem sinais
 
 [Outro]
 Eu vejo-te
@@ -954,7 +954,7 @@ A razão de te afastar`,
 
 [Verse 1]
 I held you like a bird inside my palm
-Só careful, só precise, só terrified
+So careful, so precise, so terrified
 I thought that if I opened up my fingers
 The wind would steal you from my wounded side
 
@@ -1140,7 +1140,7 @@ I crossed`,
 [Verse 1]
 Eramos inseparaveis, lembras-te Sofia
 Duas raparigas contra o mundo é o temporal
-Tu sabias os meus segredos de memoria
+Tu sabias os meus segredos de memória
 Eu sabia o nome de cada medo teu — cada sinal
 
 [Chorus]
@@ -1386,7 +1386,7 @@ Era feito do que nunca nós dissemos
 Era feito do silêncio que faz mal
 
 [Verse 2]
-Os moveis no lugar, os quadros na parede
+Os móveis no lugar, os quadros na parede
 A rotina perfeita de quem já desistiu
 Dois fantasmas educados numa casa bonita
 Onde o amor um dia morou e depois fugiu

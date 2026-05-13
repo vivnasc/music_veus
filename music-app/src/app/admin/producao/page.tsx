@@ -2899,12 +2899,12 @@ export default function AlbumProductionPage() {
               <div className="flex items-start justify-between gap-3 flex-wrap">
                 <div>
                   <h3 className="text-sm font-semibold text-amber-200">
-                    Regenerar faixas com letra corrigida (acentuação Incenso)
+                    Regenerar faixas com letra corrigida (acentuação Espelhos / Livro+Cursos / Nós / Vida)
                   </h3>
                   <p className="mt-1 text-[11px] text-amber-200/70">
                     Caso especial: {total} faixas em {Object.keys(byAlbum).length} álbuns já produzidas, cujas
                     letras foram corrigidas. Regenera tudo → substitui directamente o áudio principal no Supabase
-                    (não passa por "guardar versão"). Branch{" "}
+                    (não passa por "guardar versão"). Incenso já foi feito e foi removido deste manifesto. Branch{" "}
                     <code className="rounded bg-black/30 px-1">claude/fix-album-accents-1htRZ</code>.
                   </p>
                 </div>
