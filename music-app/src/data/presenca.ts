@@ -12,7 +12,11 @@
 
 import PRESENCA_DATA from "./presenca-data.json";
 import type { Album, AlbumTrack } from "./albums";
-import { wrapPresencaLyrics } from "./loranne-persona";
+
+// Nota: o bloco [Vocal:]+[CRITICAL:]+[Persona:] está embebido directamente
+// no início de cada t.sunoPrompt no source .md (PRESENÇA_Project/*.md).
+// Não fazemos wrap em runtime aqui para não duplicar o bloco — a fonte é
+// canónica.
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -155,10 +159,9 @@ export function getPresencaAlbumsAsAlbums(): Album[] {
         // Style instructions → Suno "Style" field
         prompt: t.style || "african meditation, contemplative ambient, presence, grounding, no performance, mantra repetition with development, low female voice, Mozambican Portuguese from Maputo only, hard consonants, no Brazilian",
         // Bracketed Suno custom lyrics block → Suno "Lyrics" field.
-        // Prepend o bloco [Vocal:]+[CRITICAL:]+[Persona:] (mesmo padrão que
-        // cortou BR accent nos álbuns Loranne pop) — sem isto o Suno deriva
-        // para BR mesmo com persona voice activa.
-        lyrics: t.sunoPrompt ? wrapPresencaLyrics(t.sunoPrompt) : "",
+        // O bloco [Vocal:]+[CRITICAL:]+[Persona:] já vem embebido no início
+        // do sunoPrompt (parseado do .md). Não voltar a aplicar aqui.
+        lyrics: t.sunoPrompt,
         durationSeconds: 480,
         audioUrl: null,
         bpm: sub.instrumental ? Number(sub.instrumental.bpm.split("-")[0]) || undefined : undefined,
