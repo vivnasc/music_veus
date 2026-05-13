@@ -42,6 +42,26 @@ export const LORANNE_VOCAL_SIGNATURE_DUET_EN = `[Vocal: ONE warm mezzo-contralto
 export type PersonaLang = "PT" | "EN";
 export type PersonaMode = "solo" | "duet";
 
+// ─── Presença — bloco vocal especializado ────────────────────────────────────
+// A coleção Presença (meditação cantada Loranne & Ancient Ground) usa sotaque
+// **moçambicano de Maputo** (lusofonia africana, consoantes duras), NÃO o
+// europeu da Loranne pop. O bloco abaixo segue exactamente o mesmo padrão que
+// já cortou BR accent na Loranne ([Vocal:]+[CRITICAL:]+[Persona:]), mas afinado
+// para a voz baixa/sussurrada do projecto e o sotaque pretendido.
+export const LORANNE_PRESENCA_VOCAL_SIGNATURE = `[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]`;
+
+export function presencaPersonaBlock(): string {
+  return LORANNE_PRESENCA_VOCAL_SIGNATURE;
+}
+
+export function wrapPresencaLyrics(body: string): string {
+  return `${LORANNE_PRESENCA_VOCAL_SIGNATURE}
+
+${body.trim()}`;
+}
+
 export function lorannePersonaBlock(lang: PersonaLang, mode: PersonaMode = "solo"): string {
   if (mode === "duet") {
     return lang === "PT" ? LORANNE_VOCAL_SIGNATURE_DUET_PT : LORANNE_VOCAL_SIGNATURE_DUET_EN;
