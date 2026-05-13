@@ -1,423 +1,417 @@
 # Álbum 4 — **Árvore** (Medo)
 
-> Função do álbum: enraizar através da verticalidade interior. Coluna como tronco, pés como raízes.
-> Hora interior: fim de tarde, luz dourada.
+> Sub-coleção: Medo · Eixo dominante: **Todo (Ubuntu)** · Tradição encarnada (não nomeada): Ubuntu
+> Função do álbum: enraizar pela verticalidade interior. Coluna como tronco, pés como raízes, topo como folha.
+> Hora interior: fim de tarde, luz dourada na vertical
+> Compliance: `ESCREVER-LETRAS.md`
 
-**Os 7 conceitos do álbum:**
+**Os 7 conceitos do álbum, sem sobreposição:**
 
-| # | Posição | Conceito |
-|---|---|---|
-| 4.1 | Chegada | **A verticalidade é decisão interior** — não postura forçada |
-| 4.2 | Reconhecimento | **A coluna trabalha em silêncio** — gratidão ao que sustenta sem se ver |
-| 4.3 | Aprofundamento | **As raízes são tão importantes como a copa** — o oculto sustenta o visível |
-| 4.4 | Centro | **Em pé inteira** — ponte entre o que está em baixo e o que está em cima |
-| 4.5 | Habitação | **A árvore balança sem cair** — flexibilidade enraizada |
-| 4.6 | Despedida | **Levo a coluna comigo** — verticalidade no movimento do dia |
-| 4.7 | Dissolução | **Mesmo o tronco se solta no fim** — aceitar que tudo se dissolve |
+| # | Posição | Mantra | Conceito |
+|---|---|---|---|
+| 4.1 | Chegada | **De Pé** — `de pé` | a coluna sabe estar em pé sem eu lhe pedir |
+| 4.2 | Reconhecimento | **Aguenta** — `aguenta` | a coluna trabalha em silêncio |
+| 4.3 | Aprofundamento | **Por Baixo** — `por baixo` | o que segura não está à vista |
+| 4.4 | Centro | **Entre** — `entre` | ponte entre o que está em baixo e em cima |
+| 4.5 | Habitação | **Balança** — `balança` | dobrar sem partir |
+| 4.6 | Despedida | **Vou Alta** — `vou alta` | levo a coluna ao dia |
+| 4.7 | Dissolução | **Cai** — `cai` | a folha cai no fim do dia |
 
 ---
 
-## 4.1 *Verticalidade é Decisão* (Chegada)
+## 4.1 *De Pé* (Chegada)
+
+**Conceito:** verticalidade não é postura forçada. A coluna já sabe; o corpo só se lembra dela. Mesmo sentada estou em pé.
 
 ```
-[Intro - kalimba grave solo, very deep low drone underneath, single notes with very long silences, 30 seconds]
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
+[Intro - kalimba grave solo, low drone vertical sustained, single notes with long silences, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-estar de pé por dentro
-não é postura física
+estou em pé
 
-é decisão interior
-de não me curvar perante o medo
+mesmo sentada
+estou em pé
 
-mesmo deitada posso estar erguida
-mesmo sentada posso estar plena
+a coluna sabe estar em pé
+sem eu lhe pedir
 
-a verticalidade é decisão
-não é exercício
+de pé
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que se ergue em mim
-é a dignidade
+o pescoço solta-se
+e o queixo levanta-se sozinho
 
-não orgulho
-não vaidade
-dignidade
+isto não é postura
+é só lembrar-me da coluna
 
-a verticalidade é decisão
-não é exercício
+de pé
 
-[Bridge - instrumental, kalimba and deep drone only, very sparse, no voice, 60 seconds]
+[Bridge - kalimba and vertical drone only, very sparse, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando decido estar de pé
-algo em mim responde
+quem antes de mim aprendeu a estar em pé
+ensinou o corpo a saber
 
-a coluna lembra-se
-o peito lembra-se
-o queixo lembra-se
+a minha bisavó tinha coluna
+mesmo quando lhe pediam para curvar
 
-a verticalidade é decisão
-não é exercício
-
-[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem decide estar de pé
-não precisa de provar verticalidade
-
-já está
-quando se decide
-
-[Outro - voice fades to whisper, kalimba sustains, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
 de pé
-por dentro de pé
-ah
-
-ah
-```
-
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave solo foreground, no frame drum, no percussion, very deep low drone underneath, single isolated notes with very long silences between, arrival, sparse to the extreme, vertical decision, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
-
----
-
-## 4.2 *A Coluna Trabalha em Silêncio* (Reconhecimento)
-
-```
-[Intro - kalimba grave with mbira distant, frame drum slow spaced pulse, low drone, 25 seconds]
-
-[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a coluna trabalha desde que nasci
-sem pedir atenção
-
-cada vértebra
-cada disco
-cada músculo profundo
-sustenta o que sou
-
-a coluna trabalha em silêncio
-e eu mal lhe agradeço
-
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando me curvo
-ela aguenta
-
-quando me ergo
-ela suporta
-
-quando me esforço demais
-ela paga em silêncio
-
-a coluna trabalha em silêncio
-e eu mal lhe agradeço
-
-[Bridge - instrumental, kalimba and frame drum sustained, mbira distant, no voice, 60 seconds]
-
-[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-hoje agradeço à coluna
-peço perdão à coluna
-prometo escutar a coluna
-
-quando ela falar
-não vou ignorar
-
-a coluna trabalha em silêncio
-e eu finalmente lhe agradeço
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que sustenta sem se ver
-merece o reconhecimento mais profundo
+de pé
+de pé
+de pé
 
-invisível
-mas indispensável
-
-[Outro - voices fade, kalimba sustains, frame drum slows, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-obrigada
-à coluna que me ergue
-obrigada
-
+[Outro - voices fade, kalimba sustains, 45 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+de pé
+de pé
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave with mbira distant, frame drum slow spaced pulse, low drone sustained, settling rhythm, recognition, gratitude, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave solo, vertical sustained drone, golden-hour stillness, body remembering uprightness, ancestral spine, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.3 *Raízes Para Baixo* (Aprofundamento)
+## 4.2 *Aguenta* (Reconhecimento)
+
+**Conceito:** a coluna trabalha em silêncio. Aguenta o dia, aguenta a noite, aguenta cada peça sem reclamar. Reconhecimento sem gratidão-lição.
 
 ```
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
+[Intro - kalimba grave with mbira, frame drum slow spaced pulse, low drone, 25 seconds]
+
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+a coluna aguenta
+
+aguenta o dia
+aguenta a noite
+aguenta a noite antes da noite
+
+sem dizer
+
+aguenta
+
+[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o diafragma aguenta
+o tendão aguenta
+o disco entre as vértebras aguenta
+
+cada peça do corpo aguenta sem reclamar
+
+aguenta
+
+[Bridge - kalimba and frame drum sustained, mbira distant, no voice, 55 seconds]
+
+[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+a coluna da minha avó aguentou
+um marido e quatro filhos
+e uma morte cedo demais
+
+ainda aguentou para me dar a sua mão
+
+aguenta
+
+[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+aguenta
+aguenta
+aguenta
+
+[Outro - voices fade, kalimba sustains, frame drum slows, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+aguenta
+aguenta
+ah
+```
+
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave with mbira distant, frame drum slow spaced pulse, low drone sustained, silent labor of the body, ancestral spine carrying, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+
+---
+
+## 4.3 *Por Baixo* (Aprofundamento)
+
+**Conceito:** raízes invisíveis. O que me segura nunca apareceu. Terra antiga, pedra mais antiga, calor por baixo.
+
+```
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
 [Intro - kalimba grave deeper, frame drum sustained low rumble, deep drone emerging, 30 seconds]
 
 [Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a árvore não cresce só para cima
-cresce para baixo também
+por baixo
 
-quanto mais alta a copa
-mais profunda a raiz
+por baixo do pé
+está terra antiga
 
-raízes para baixo
-para que eu possa subir sem cair
+por baixo da terra
+está pedra mais antiga
+
+por baixo da pedra
+está calor
+
+por baixo
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que sustenta a minha presença pública
-é a minha presença privada
+o que me segura
+não está à vista
 
-o que sustenta as minhas palavras
-é o meu silêncio
+o que me segura
+nunca apareceu
 
-raízes para baixo
-para que eu possa subir sem cair
+por baixo
 
-[Bridge - instrumental, deep drone full, kalimba grave, frame drum sustained low, no voice, 60 seconds]
+[Bridge - deep drone full, kalimba grave, frame drum sustained low, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-preciso de descer mais
-para poder subir mais
+quem antes de mim cresceu
+deixou raízes no que está por baixo
 
-preciso de calar mais
-para poder dizer mais
+eu cresço sobre essas raízes
+sem as ver
+mas a partir delas
 
-raízes para baixo
-para que eu possa subir sem cair
+por baixo
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem só tem copa
-o primeiro vento derruba
-
-quem tem raízes
-balança e fica
+por
+por baixo
+por
 
 [Outro - voices fade, kalimba sustains, drone holds, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-raízes
-raízes profundas
-ah
-
+por baixo
+por baixo
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper register, frame drum sustained low rumble not pulsed, deep emerging drone as new layer, descending mbira, no melodic movement, downward feeling, depth, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper register, frame drum sustained low rumble, deep emerging drone, invisible foundation, roots beneath roots, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.4 *Em Pé Inteira* (Centro)
+## 4.4 *Entre* (Centro)
+
+**Conceito:** o corpo como ponte. Entre o que está em baixo e o que está em cima. Entre quem me veio antes e quem vai vir depois. Sou meio.
 
 ```
-[Intro - kalimba grave, frame drum slow steady, mbira present, drone sustained, 30 seconds]
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-em pé inteira
-de baixo a cima
+[Intro - kalimba grave with mbira balanced, frame drum balanced pulse, sustained drone, 30 seconds]
 
+[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+entre
+
+entre o que está em baixo
+e o que está em cima
+
+estou entre
+
+o pé toca terra
+o topo da cabeça toca ar
+
+entre
+
+[Verse 2 - same whispered tone, slightly more present, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
 sou ponte
-entre o que pisa o chão
-e o que respira o ar
+entre quem me veio antes
+e quem vai vir depois
 
-a corrente sobe e desce em mim
-sem pedir licença
+passo o que recebi
+sem o reter
 
-em pé inteira
-canal aberto entre dois mundos
+entre
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-através de mim
-a terra encontra-se com o céu
+[Bridge - kalimba mbira frame drum balanced, no voice, sustained, 60 seconds]
 
-através de mim
-o oculto encontra-se com o visível
+[Verse 3 - sung low, deep female voice, no vibrato, grounded, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o tronco recebe da raiz
+e dá à copa
 
-através de mim
-o ancestral encontra-se com o futuro
+a copa recebe do céu
+e dá ao tronco
+e à raiz
 
-em pé inteira
-canal aberto entre dois mundos
+entre
 
-[Bridge - instrumental, all elements in balance, kalimba and mbira interweaving, frame drum steady, no voice, 60 seconds]
+[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+entre
+entre
+entre
 
-[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não tenho de escolher entre o em baixo e o em cima
-sou os dois ao mesmo tempo
-
-essa é a graça da árvore
-essa é a graça do humano
-
-em pé inteira
-canal aberto entre dois mundos
-
-[Verse 4 - layered female voices, two Loranne in unison and slight harmony, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-estar inteira
-é estar em duas dimensões ao mesmo tempo
-
-vertical e horizontal
-oculto e visível
-
-[Outro - voice fades to whisper, kalimba and frame drum sustain, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-inteira
-canal aberto
-inteira
-
+[Outro - voice fades to whisper, kalimba sustains, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+entre
+entre
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave, frame drum slow steady pulse, mbira present, low sustained drone, all elements in balance, centered, fullness without density, vertical wholeness, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, deep mbira, kalimba grave, frame drum balanced, low female voice, mantra repetition with development, dhikr-like, presence, grounding, no performance, fullness without density, body as bridge between earth and sky, ancestor and descendant, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.5 *A Árvore Balança Sem Cair* (Habitação)
+## 4.5 *Balança* (Habitação)
+
+**Conceito:** o vento vem, a árvore balança. Quando alguém me empurra com palavras, eu balanço. Não cair é flexibilidade, não rigidez.
 
 ```
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
 [Intro - mbira foreground warm, kalimba grave background, frame drum very slow regular, 25 seconds]
 
 [Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a árvore balança sem cair
-o vento passa por ela
-ela move-se
-mas fica
+o vento vem
+e a árvore não se opõe
 
-a flexibilidade enraizada
-não é fraqueza
-é a única força verdadeira
+a árvore balança
 
-balanço sem cair
-movimento sem perda de eixo
+balança
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem é demasiado rígido
-parte ao primeiro vento
+[Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quando alguém me empurra com palavras
+eu balanço
 
-quem é demasiado solto
-voa sem direção
+quando o dia é áspero
+eu balanço
 
-a árvore sabe a medida
-oscila e fica
+balança
 
-balanço sem cair
-movimento sem perda de eixo
-
-[Bridge - instrumental, mbira and kalimba sustained warm, frame drum slow regular, no voice, 60 seconds]
+[Bridge - mbira and kalimba sustained warm, frame drum slow regular, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-posso ser afectada
-sem perder quem sou
+quem antes de mim balançou
+não caiu
 
-posso ser tocada
-sem ser arrancada
+aprendeu a dobrar-se sem partir-se
+e a voltar ao centro depois
 
-balanço sem cair
-movimento sem perda de eixo
+balança
 
 [Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a árvore mais forte
-é a que balança mais
-sem cair
-
-a vida pede flexibilidade
-mas exige raiz
+balança
+balança
+balança
 
 [Outro - voices fade gently, mbira sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-balanço
-e fico
-balanço
-
+balança
+balança
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira foreground warm, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, settled rhythm, dwelling, inhabited, rooted flexibility, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira foreground warm, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, body swaying not breaking, return to center, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.6 *Levo a Coluna Comigo* (Despedida)
+## 4.6 *Vou Alta* (Despedida)
+
+**Conceito:** levo a coluna ao dia. Não é orgulho nem desafio — é só lembrança de que tenho coluna. Quem foi forçada a curvar sussurra-me que eu não tenho de.
 
 ```
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
 [Intro - kalimba grave more articulated, frame drum gentle awakening pulse, drone beginning to open, 25 seconds]
 
 [Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando me levantar agora
-a coluna não fica para trás
+levanto-me
+e a coluna vem comigo
 
-vou andar erguida
-vou trabalhar erguida
-vou conversar erguida
+vou alta
 
-a verticalidade vai comigo
-para todas as conversas difíceis
+para a reunião
+para o conflito
+para a conversa difícil
+
+vou alta
 
 [Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando alguém tentar dobrar-me hoje
-vou lembrar-me da árvore
+não é orgulho
+não é desafio
 
-quando alguém tentar arrancar-me
-vou lembrar-me das raízes
+é só lembrar
+que tenho coluna
 
-a verticalidade vai comigo
-para todas as conversas difíceis
+vou alta
 
-[Bridge - instrumental, kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]
+[Bridge - kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]
 
 [Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não é arrogância
-é dignidade
+quem antes de mim foi alta
+abriu o sítio para eu poder ir alta
 
-não é desafio
-é integridade
+quem antes de mim foi forçada a curvar
+sussurra-me que eu não tenho de
 
-a verticalidade vai comigo
-para todas as conversas difíceis
+vou alta
 
 [Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que aprendi enraizada
-serve para o conflito
-
-quem está enraizada
-não foge nem ataca
-fica e responde
+alta
+vou alta
+alta
 
 [Outro - voices fade to whisper, kalimba sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-levo
-ergo a coluna
-vou
-
+vou alta
+vou alta
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated notes, frame drum gentle awakening pulse, drone beginning to open upward, mbira lighter, preparing movement, transition feeling, embodied integrity, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated notes, frame drum gentle awakening pulse, drone beginning to open upward, taking spine into the world, ancestral permission to stand, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 4.7 *Mesmo o Tronco Se Solta* (Dissolução)
+## 4.7 *Cai* (Dissolução)
+
+**Conceito:** a folha cai no fim do dia. A coluna que carreguei não é minha para sempre. Vai voltar à terra e outra coluna vai erguer-se em seu lugar.
 
 ```
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
 [Intro - very sparse kalimba single notes, no frame drum, much silence, 20 seconds]
 
 [Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-mesmo a árvore mais forte
-um dia cai
+a folha cai
+no fim do dia
 
-mesmo o tronco mais grosso
-volta à terra
-
-a verticalidade não é permanência
-é dignidade enquanto dura
+cai
 
 [Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-solto a obsessão de estar sempre de pé
-posso descansar deitada também
+amanhã talvez não esteja em pé
+amanhã talvez me deite o tempo todo
 
-a árvore que cai não falhou
-cumpriu o seu tempo
+está bem
+
+cai
 
 [Bridge - very minimal instrumental, kalimba single notes with much silence, distant breath, 40 seconds]
 
 [Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-ser ergue-se
-ser cai
-ambas são gestos completos
+a coluna que carreguei
+não é minha para sempre
 
-a dignidade não está em durar
-a dignidade está em ser
+vai voltar à terra
+e outra coluna vai erguer-se em seu lugar
 
-[Outro - voices dissolve into breath, kalimba fades, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-solto
-mesmo a verticalidade
+cai
+
+[Verse 4 - layered voices, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+cai
+cai
 ah
 
+[Outro - voices dissolve into breath, kalimba fades to nothing, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+ah
+ah
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences between, frame drum disappears in first half, only breath and one residual instrument, dissolving texture, release, impermanence, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences, frame drum disappears, only breath, dissolving texture, leaf falling, body returning to earth, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register

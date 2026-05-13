@@ -1,418 +1,424 @@
 # Álbum 6 — **Sangue Antigo** (Medo)
 
-> Função: enraizar pela ancestralidade. Sentir-se herdeira, continuidade.
-> Hora interior: noite, recolhimento.
+> Sub-coleção: Medo · Eixo dominante: **Todo (Ubuntu)** · Tradição encarnada (não nomeada): Ubuntu
+> Função do álbum: enraizar pelos mortos vivos. Os que morreram não foram todos embora — ficaram no gesto.
+> Hora interior: noite, recolhimento (luz baixa, silêncio espesso)
+> Compliance: `ESCREVER-LETRAS.md`
 
-**Os 7 conceitos:**
+**Os 7 conceitos do álbum, sem sobreposição:**
 
-| # | Conceito |
-|---|---|
-| 6.1 | **Os meus mortos vivem em mim** — presença ancestral concreta |
-| 6.2 | **Reconheço os gestos herdados** — o que faço sem saber porquê |
-| 6.3 | **Falo línguas que não aprendi** — sabedoria sem origem nomeável |
-| 6.4 | **Sou continuação, não princípio** — humildade do lugar na corrente |
-| 6.5 | **Carrego os que não puderam ser** — quem antes não pôde, pode em mim |
-| 6.6 | **Levo-os ao mundo de hoje** — ancestralidade no quotidiano |
-| 6.7 | **Solto a posse dos antepassados** — não os possuo, atravessam-me |
+| # | Posição | Mantra | Conceito |
+|---|---|---|---|
+| 6.1 | Chegada | **Ainda** — `ainda` | os mortos vivem no gesto |
+| 6.2 | Reconhecimento | **Vem de Longe** — `vem de longe` | obediência antiga do corpo |
+| 6.3 | Aprofundamento | **Sem Aulas** — `sem aulas` | saberes que ninguém ensinou |
+| 6.4 | Centro | **Continuo** — `continuo` | meio, passagem viva |
+| 6.5 | Habitação | **Por Elas** — `por elas` | continuidade onde elas não puderam |
+| 6.6 | Despedida | **Passam Comigo** — `passam comigo` | levo-os ao dia |
+| 6.7 | Dissolução | **Atravessam** — `atravessam-me` | não os possuo |
 
 ---
 
-## 6.1 *Os Meus Mortos Vivem Em Mim* (Chegada)
+## 6.1 *Ainda* (Chegada)
+
+**Conceito:** os mortos não foram embora. Quando seguro a chávena, a minha avó segura a chávena. Quando rio com o queixo para cima, é a maneira do meu bisavô. Estão em forma de gesto.
 
 ```
-[Intro - kalimba grave solo, very deep low drone, single notes with very long silences, 30 seconds]
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
+[Intro - kalimba grave solo, mbira ancient register, very deep drone, long silences, 30 seconds]
 
 [Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-os meus mortos não estão mortos em mim
-estão a viver de forma diferente
+sento-me
 
-quando rio com a minha avó dentro
-ela ri também
+a minha avó morreu há vinte anos
+mas o gesto dela está nas minhas mãos
 
-quando me decido como o meu pai
-ele decide também
+ainda
 
-os meus mortos vivem em mim
-e isso é forma de eternidade
+quando seguro a chávena
+ela segura a chávena
+
+ainda
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não é metáfora
-é literal
+o meu bisavô morreu antes de eu nascer
+mas tem voz dentro de mim
 
-eles estão no gesto das mãos
-estão na entoação da voz
-estão na forma de olhar
+quando rio com o queixo para cima
+é a maneira dele
 
-os meus mortos vivem em mim
-e isso é forma de eternidade
+ainda
 
-[Bridge - instrumental, kalimba and deep drone only, very sparse, no voice, 60 seconds]
+[Bridge - kalimba and mbira ancient, deep drone, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep female voice, no vibrato, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não tenho de chamá-los
-estão sempre
+não os perdi
+trouxe-os para dentro
 
-mesmo quando esqueço deles
-estão sempre
+vivem em forma de gesto
+em forma de silêncio
+em forma de respirar
 
-os meus mortos vivem em mim
-e isso é forma de eternidade
-
-[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem se julga sozinho
-esqueceu-se dos seus mortos
-
-quem se lembra dos seus mortos
-nunca está só
-
-[Outro - voice fades to whisper, kalimba sustains, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-vivem
-em mim vivem
-vivem
-
-ah
-```
-
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave solo, very deep drone, single notes with long silences, ancestral presence, arrival, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
-
----
-
-## 6.2 *Reconheço os Gestos Herdados* (Reconhecimento)
-
-```
-[Intro - kalimba grave with mbira distant, frame drum slow spaced pulse, low drone, 25 seconds]
-
-[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-reconheço os gestos que faço sem saber porquê
-e são heranças
-
-a forma como esfrego as mãos quando estou nervosa
-foi da minha mãe
-
-a forma como inclino a cabeça quando escuto
-foi do meu pai
-
-reconheço os gestos
-e neles reconheço quem me fez
-
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o corpo guarda biografia que a memória esqueceu
-o corpo é arquivo vivo
-
-cada gesto é citação
-de alguém que veio antes
-
-reconheço os gestos
-e neles reconheço quem me fez
-
-[Bridge - instrumental, kalimba and frame drum sustained, mbira distant, no voice, 60 seconds]
-
-[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando reconheço a herança no gesto
-sinto-me menos sozinha
-
-estou a fazer o que muitos fizeram antes
-estou em corrente longa
-
-reconheço os gestos
-e neles reconheço quem me fez
+ainda
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-honro os gestos herdados que me servem
-escolho com calma os que quero soltar
+ainda
+ainda comigo
+ainda
 
-mas reconheço todos
-sem rejeitar nada à pressa
-
-[Outro - voices fade, kalimba sustains, frame drum slows, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-reconheço
-nos meus gestos quem antes
-reconheço
-
+[Outro - voices fade, kalimba sustains, 45 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+ainda
+ainda
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave with mbira distant, frame drum slow spaced pulse, low drone sustained, recognition, gesture inheritance, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave solo, mbira ancient register, very deep drone, night recollection, dead alive in gesture, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.3 *Línguas Que Não Aprendi* (Aprofundamento)
+## 6.2 *Vem de Longe* (Reconhecimento)
+
+**Conceito:** o corpo obedece a quem o fez. A forma de cruzar os pés, a forma de levantar uma colher, a forma de assinar o nome — não inventei, vem de longe.
 
 ```
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
+[Intro - mbira foreground ancient, kalimba grave background, frame drum slow spaced, low drone, 25 seconds]
+
+[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+a maneira de levantar uma colher
+vem de longe
+
+a maneira de assinar o meu nome
+vem de longe
+
+a forma de cruzar os pés quando estou sentada
+vem de longe
+
+vem de longe
+
+[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não treinei
+não escolhi
+não decidi
+
+aprendi por dentro de outros corpos antes do meu
+
+vem de longe
+
+[Bridge - mbira and kalimba sustained, frame drum slow, no voice, 55 seconds]
+
+[Verse 3 - sung low, deeper presence, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+quando o corpo faz algo sem eu lhe pedir
+está a obedecer a quem o fez
+
+a obediência não é minha
+é gratidão antiga
+
+vem de longe
+
+[Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+vem
+vem de longe
+vem
+
+[Outro - voices fade, mbira sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+vem de longe
+vem de longe
+ah
+```
+
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira ancient register foreground, kalimba grave background, frame drum slow spaced pulse, body obeying its makers, ancestral gesture, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+
+---
+
+## 6.3 *Sem Aulas* (Aprofundamento)
+
+**Conceito:** sei consolar um bebé sem ter visto fazer. Sei reconhecer perigo antes de a cabeça pensar. O corpo guarda saberes que ninguém ensinou explicitamente.
+
+```
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
 [Intro - kalimba grave deeper, frame drum sustained low rumble, deep drone emerging, 30 seconds]
 
 [Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sei coisas que não aprendi
-sei coisas que ninguém me ensinou
+há coisas que sei
+sem ter aprendido
 
-a sabedoria das mulheres da minha família
-está em mim sem aulas
+há coisas que sei
+sem que ninguém me tenha dito
 
-como apaziguar uma criança que chora
-como cuidar quando alguém adoece
-como saber se algo está mal sem que digam
-
-sei sem ter aprendido
-porque o sangue ensina
+sem aulas
 
 [Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-é como falar línguas que não estudei
-mas que conheço por dentro
+sei consolar um bebé
+sem ter visto fazer
 
-a tradição passa pelo corpo
-não só pelas palavras
+sei reconhecer perigo
+antes da cabeça pensar
 
-sei sem ter aprendido
-porque o sangue ensina
+sem aulas
 
-[Bridge - instrumental, deep drone full, kalimba grave, frame drum sustained low, no voice, 60 seconds]
+[Bridge - deep drone full, kalimba grave, frame drum sustained low, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep grounded register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando confio neste saber antigo
-acerto mais
+o corpo guarda saberes
+que ninguém ensinou explicitamente
 
-quando duvido dele em nome do moderno
-costumo errar
+vieram pela passagem
+pelo ritmo de viver perto
+pelo cheiro de quem me criou
 
-sei sem ter aprendido
-porque o sangue ensina
+sem aulas
 
 [Verse 4 - layered female voices, two Loranne, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o saber ancestral não é folclore
-é tecnologia funcional
-
-passou por milhares de anos
-porque funciona
+sem
+sem aulas
+sem
 
 [Outro - voices fade, kalimba sustains, drone holds, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-sei
-o sangue sabe
-sei
-
+sem aulas
+sem aulas
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper, frame drum sustained low rumble, deep emerging drone, descending mbira, downward feeling, ancestral knowledge, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave deeper register, frame drum sustained low rumble, deep emerging drone, body wisdom without explicit teaching, learning by proximity, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.4 *Continuação, Não Princípio* (Centro)
+## 6.4 *Continuo* (Centro)
+
+**Conceito:** não comecei comigo. Já vinha antes e vai depois. Não sou ponto de partida nem final. Sou meio, sou passagem viva.
 
 ```
-[Intro - kalimba grave, frame drum slow steady, mbira present, drone sustained, 30 seconds]
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
 
-[Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não sou princípio de nada
-sou meio de muita coisa
+[Intro - kalimba grave with mbira ancient, frame drum balanced pulse, sustained drone, 30 seconds]
 
-o que vivo
-foi começado por outros
+[Verse 1 - whispered, very close, low female voice, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não comecei comigo
 
-o que termino
-não terminará comigo
+já vinha antes
+e vai depois
 
-sou continuação
-e essa é a minha posição honesta
+continuo
 
-[Verse 2 - same whispered tone, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-esta verdade liberta
-não pesa
+a minha mãe continuou a sua mãe
+e eu continuo a minha mãe
 
-já não tenho de inventar tudo do zero
-já não tenho de provar originalidade absoluta
+continuo
 
-sou continuação
-e essa é a minha posição honesta
+[Verse 2 - same whispered tone, slightly more present, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+não sou ponto de partida
+não sou final
 
-[Bridge - instrumental, all elements in balance, kalimba and mbira interweaving, frame drum steady, no voice, 60 seconds]
+sou meio
+sou passagem viva
 
-[Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-o que faço com este lugar de continuação
-é a minha escolha
+continuo
 
-posso ser continuação consciente
-posso transmitir com cuidado
+[Bridge - kalimba mbira frame drum balanced, no voice, sustained, 60 seconds]
 
-sou continuação
-e essa é a minha posição honesta
+[Verse 3 - sung low, deep female voice, no vibrato, grounded, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+o que recebi não tenho de o aperfeiçoar
+não tenho de o terminar
 
-[Verse 4 - layered female voices, two Loranne in unison and slight harmony, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quem é apenas príncipio é orfã
-quem é apenas fim é estéril
+basta deixá-lo passar
+mais um pouco
 
-continuação é dignidade do meio
-é fertilidade
+continuo
 
-[Outro - voice fades to whisper, kalimba and frame drum sustain, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-continuação
-sou continuação
-sou
+[Verse 4 - layered female voices, two Loranne in unison, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+continuo
+continuo
+continuo
 
+[Outro - voice fades to whisper, kalimba sustains, 55 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+continuo
+continuo
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave, frame drum slow steady pulse, mbira present, low sustained drone, all elements in balance, centered, ancestral continuation, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, deep mbira ancient, kalimba grave, frame drum balanced, low female voice, mantra repetition with development, dhikr-like, presence, grounding, no performance, fullness without density, middle of the chain, passing what was received, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.5 *Os Que Não Puderam Ser* (Habitação)
+## 6.5 *Por Elas* (Habitação)
+
+**Conceito:** algumas vidas ficaram a meio. Mulheres antes de mim quiseram ler e não as deixaram, quiseram cantar e ficaram caladas. Quando leio em voz alta é também a voz delas.
 
 ```
-[Intro - mbira foreground warm, kalimba grave background, frame drum very slow regular, 25 seconds]
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
+[Intro - mbira foreground ancient warm, kalimba grave background, frame drum very slow regular, 25 seconds]
 
 [Verse 1 - whispered, very close, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-carrego em mim os que não puderam ser
-mulheres que viveram para os outros
-sem espaço para si
+algumas vidas
+ficaram a meio
 
-elas vivem agora através de mim
-e eu vivo por elas também
+algumas mulheres antes de mim
+quiseram ler e não as deixaram
 
-quando me autorizo
-estou a autorizar gerações inteiras
+quiseram cantar e ficaram caladas
 
-carrego os silenciados
-e na minha voz eles falam
+por elas
 
 [Verse 2 - same whispered tone, settled, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando descanso sem culpa
-descanso pelas que nunca puderam
+quando leio em voz alta
+é também a voz delas que sai
 
-quando exijo respeito
-exijo por todas as caladas
+quando ando à rua sozinha
+elas andam comigo
 
-carrego os silenciados
-e na minha voz eles falam
+por elas
 
-[Bridge - instrumental, mbira and kalimba sustained warm, frame drum slow regular, no voice, 60 seconds]
+[Bridge - mbira and kalimba sustained warm, frame drum slow regular, no voice, 60 seconds]
 
 [Verse 3 - sung low, deep settled register, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não é fardo
-é honra
+não é dívida
+é continuidade
 
-ser portadora do que não foi dito
-é missão sagrada
+faço o que elas não puderam fazer
+porque a vida continuou em mim
 
-carrego os silenciados
-e na minha voz eles falam
+por elas
 
 [Verse 4 - layered voices, two Loranne, settled together, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-a minha cura
-é cura de muitos
-
-a minha libertação
-liberta gerações para trás
-e gerações para a frente
+por
+por elas
+por
 
 [Outro - voices fade gently, mbira sustains, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-carrego
-honro com presença
-carrego
-
+por elas
+por elas
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira foreground warm, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, settled rhythm, dwelling, carrying ancestors, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, mbira ancient warm foreground, kalimba grave background, frame drum very slow regular pulse, sustained warm drone, continuation not debt, silenced women living through reading and walking, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.6 *Ancestralidade no Quotidiano* (Despedida)
+## 6.6 *Passam Comigo* (Despedida)
+
+**Conceito:** levanto-me e eles levantam-se comigo. A minha avó à reunião, o bisavô à conversa difícil. Vou trazê-los à luz, ao cheiro do café, ao toque do tecido.
 
 ```
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
 [Intro - kalimba grave more articulated, frame drum gentle awakening pulse, drone beginning to open, 25 seconds]
 
 [Verse 1 - whispered, very close, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-levo os meus ao trabalho
-levo os meus à conversa difícil
+levanto-me
 
-quando enfrento alguém de cargo superior
-os meus estão atrás de mim
+e eles levantam-se comigo
 
-quando defendo o que importa
-os meus estão atrás de mim
+passam comigo
 
-ancestralidade não é altar de domingo
-é apoio de segunda-feira
+a minha avó vem à reunião
+o meu bisavô vai à conversa difícil
+
+passam comigo
 
 [Verse 2 - same whispered tone, gentle preparation, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando me sentir pequena
-vou lembrar quem está comigo
+quando eu disser algo difícil hoje
+não vou dizer sozinha
 
-não estou só nesta reunião
-não estou só nesta decisão
+quando eu negar algo importante hoje
+não vou negar sozinha
 
-ancestralidade não é altar de domingo
-é apoio de segunda-feira
+passam comigo
 
-[Bridge - instrumental, kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]
+[Bridge - kalimba slightly more present, frame drum awakening, drone opens upward, no voice, 50 seconds]
 
 [Verse 3 - sung low, gentle gratitude, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-obrigada aos meus mortos
-por serem retaguarda viva
+o dia também é deles
+não só meu
 
-obrigada por estarem sempre
-mesmo invisíveis
+vou trazê-los à luz
+ao cheiro do café
+ao toque do tecido
 
-ancestralidade não é altar de domingo
-é apoio de segunda-feira
+passam comigo
 
 [Verse 4 - layered voices, two Loranne, gentle ascent, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-viver com ancestrais
-é viver com testemunhas constantes
-
-dignidade fica mais fácil
-quando se sabe acompanhada
+passam
+passam comigo
+passam
 
 [Outro - voices fade to whisper, kalimba sustains briefly, 40 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-acompanhada
-vou acompanhada
-vou
-
+passam
+passam
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated, frame drum gentle awakening pulse, drone beginning to open upward, mbira lighter, transition feeling, daily ancestrality, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, kalimba grave more articulated notes, frame drum gentle awakening pulse, drone beginning to open upward, ancestors crossing into the day, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
 
 ---
 
-## 6.7 *Solto a Posse dos Antepassados* (Dissolução)
+## 6.7 *Atravessam* (Dissolução)
+
+**Conceito:** não são meus, nunca foram. Atravessam-me como o ar, como a luz. Quando eu não estiver, vão atravessar outra alguém. Solto a posse.
 
 ```
+[Vocal: ONE warm low-register female voice, intimate whisper-to-low-sung quality, very close to the microphone, slight breathiness, no vibrato, no melisma, no belting, no riffs, no autotune, layered female voices ONLY where the lyric explicitly says "layered voices"]
+[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm, gritty low register. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — contemplative meditation, dhikr-like mantra repetition with development, presence, grounding, no performance]
+
 [Intro - very sparse kalimba single notes, no frame drum, much silence, 20 seconds]
 
 [Verse 1 - whispered, very close, releasing, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-não os possuo
-eles atravessam-me
-
 não são meus
-sou parte deles
+nunca foram meus
 
-soltar a posse é confiar
-que continuam mesmo sem o meu controlo
+atravessam
+
+atravessam-me como o ar
+atravessam-me como a luz
+
+atravessam
 
 [Verse 2 - whispered, almost dissolving, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-quando eu não estiver mais
-eles continuam noutros corpos
+não posso guardá-los
+não posso possuí-los
 
-a corrente é maior do que eu
-e eu sou-lhe pequena
-mas suficiente
+posso só deixá-los passar
+através de mim
+
+atravessam
 
 [Bridge - very minimal instrumental, kalimba single notes with much silence, distant breath, 40 seconds]
 
 [Verse 3 - whispered, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-solto a meditação ancestral
-mas eles ficam
+quando eu não estiver
+vão atravessar outra alguém
 
-eles não dependem da minha lembrança
-para continuar a existir
+vão passar para frente
+sem mim
 
-[Outro - voices dissolve into breath, kalimba fades, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-solto
-mas atravessam-me
+atravessam
+
+[Verse 4 - layered voices, almost only breath, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+atravessam
+atravessam-me
 ah
 
+[Outro - voices dissolve into breath, kalimba fades to nothing, 50 seconds, Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+ah
+ah
 ah
 ```
 
-**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences, frame drum disappears, only breath and one residual instrument, dissolving texture, release, ancestral surrender, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
+**Style:** african meditation, contemplative ambient, presence, grounding, no performance, dhikr-like, mantra repetition with development, low female voice, extremely sparse kalimba single notes, very long silences, frame drum disappears, only breath, dissolving texture, ancestors cross through not owned, Mozambican Portuguese from Maputo only, African Lusophone accent, hard consonants, pronounce 'ti' as 'ti' not 'tchi', pronounce 'di' as 'di' not 'dji', no nasal drag, no open vowels, closed European-style vowels with African rhythm, NOT Brazilian Portuguese, NOT carioca, NOT paulista, gritty low register
