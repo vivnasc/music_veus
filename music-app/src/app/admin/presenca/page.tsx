@@ -125,6 +125,26 @@ export default function AdminPresencaPage() {
       </div>
 
       <div className="max-w-screen-xl mx-auto px-4 py-6 space-y-8">
+        {/* Vocal lock — persona + accent block confirmados */}
+        <div className="rounded-xl border border-green-500/20 bg-green-500/5 px-4 py-3 flex items-start gap-3">
+          <div className="text-green-400 mt-0.5">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+          </div>
+          <div className="min-w-0 flex-1 text-[11px] text-[#c9c9d4] leading-relaxed">
+            <p className="font-medium text-green-400 mb-0.5">Voz da Loranne + lock de sotaque activos</p>
+            <p>
+              Cada geração envia <code className="text-[#C9A96E]">personaId = LORANNE_VOICE_ID</code> (Goodnight World seed)
+              {" "}e as letras são <strong>prepended</strong> com o bloco <code className="text-[#C9A96E]">[Vocal:]+[CRITICAL: Mozambican Portuguese from Maputo only, NOT Brazilian]+[Persona: Loranne]</code> —
+              mesmo padrão que cortou BR accent nos álbuns Loranne pop.
+            </p>
+            <p className="text-[#8a8a9a] mt-1">
+              Se ainda saírem BR, regenera (o Suno é estocástico) ou usa o botão "Style" na pipeline para reforçar.
+            </p>
+          </div>
+        </div>
+
         {/* Stats */}
         <section className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
           <Stat label="Álbuns escritos" value={`${stats.totalAlbumsWritten}/${stats.totalAlbumsPlanned}`} />
