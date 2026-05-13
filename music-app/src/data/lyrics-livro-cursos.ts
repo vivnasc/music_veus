@@ -1740,7 +1740,7 @@ es tu que decides se segues
 Cada pedra tem um nome
 cada peso tem um rosto
 Olha para o que carregas
-e pergunta se e teu de facto
+e pergunta se é teu de facto
 
 [Outro]
 O caminho está cheio de pedras
@@ -2368,9 +2368,9 @@ pesa mais que mil excessos
 
 [Outro]
 O silêncio da família
-não é paz — e medo antigo
+não é paz — é medo antigo
 Um rio que corre por baixo
-e espera por quem lhe de abrigo`,
+e espera por quem lhe dê abrigo`,
 
   "curso-silencio-grita/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
