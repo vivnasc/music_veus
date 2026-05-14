@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ALL_ALBUMS, type Album } from "@/data/albums";
@@ -7,6 +8,29 @@ import { getPresencaAlbumsAsAlbums } from "@/data/presenca";
 import { getAlbumCover, getTrackCoverUrl } from "@/lib/album-covers";
 import { useAlbumCovers } from "@/hooks/useAlbumCovers";
 import { usePublishedTracks } from "@/hooks/usePublishedTracks";
+
+// State-based cover image — evita o flicker do padrão `onError` puro
+// (que voltava ao src original em cada re-render quando o stream proxy
+// devolvia 404).
+function CoverImage({ album, trackNum }: { album: Album; trackNum: number }) {
+  const [src, setSrc] = useState(() => getTrackCoverUrl(album.slug, trackNum));
+  const [failed, setFailed] = useState(false);
+  return (
+    <Image
+      src={src}
+      alt={album.title}
+      width={160}
+      height={160}
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+      unoptimized
+      onError={() => {
+        if (failed) return;
+        setFailed(true);
+        setSrc(getAlbumCover(album));
+      }}
+    />
+  );
+}
 
 // Presença albums vivem fora de ALL_ALBUMS (estão num merge lyric-light em
 // albums-with-lyrics). Aqui consultamos a fonte primária — getPresencaAlbumsAsAlbums()
@@ -68,15 +92,7 @@ export default function NovidadesSection() {
             className="group"
           >
             <div className="relative aspect-square rounded-xl overflow-hidden shadow-lg mb-2">
-              <Image
-                src={getTrackCoverUrl(album.slug, getCoverTrack(album.slug))}
-                alt={album.title}
-                width={160}
-                height={160}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                unoptimized
-                onError={(e) => { (e.target as HTMLImageElement).src = getAlbumCover(album); }}
-              />
+              <CoverImage album={album} trackNum={getCoverTrack(album.slug)} />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
               <div className="absolute bottom-2 left-2">
                 <span className="text-[10px] text-white/70 bg-black/30 px-1.5 py-0.5 rounded">

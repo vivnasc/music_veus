@@ -77,9 +77,12 @@ export function PresencaSubPlayer({
       requestPlay(2, subLabel, accentColor);
       return;
     }
-    // Toca o primeiro álbum, faz queue dos restantes
+    // Filtrar SEMPRE pelas tracks com áudio — caso contrário o player tenta
+    // tocar faixas sem mp3 no Supabase e pára após a primeira.
     const albums = playableAlbums;
-    playAlbum(albums[0]);
+    const firstTracks = albums[0].tracks.filter((t) => publishedKeys.has(`${albums[0].slug}-t${t.number}`));
+    if (firstTracks.length === 0) return;
+    playAlbum({ ...albums[0], tracks: firstTracks });
     for (let i = 1; i < albums.length; i++) {
       const a = albums[i];
       const tracksWithAudio = a.tracks.filter((t) => publishedKeys.has(`${a.slug}-t${t.number}`));
@@ -93,13 +96,13 @@ export function PresencaSubPlayer({
       return;
     }
     if (!shuffle) toggleShuffle();
-    // Toca um álbum aleatório, faz queue dos restantes
     const albums = playableAlbums;
     const firstIdx = Math.floor(Math.random() * albums.length);
     const first = albums[firstIdx];
     const firstTracks = first.tracks.filter((t) => publishedKeys.has(`${first.slug}-t${t.number}`));
-    const randomStart = Math.floor(Math.random() * Math.max(firstTracks.length, 1));
-    playAlbum(first, randomStart);
+    if (firstTracks.length === 0) return;
+    const randomStart = Math.floor(Math.random() * firstTracks.length);
+    playAlbum({ ...first, tracks: firstTracks }, randomStart);
     for (let i = 0; i < albums.length; i++) {
       if (i === firstIdx) continue;
       const a = albums[i];
