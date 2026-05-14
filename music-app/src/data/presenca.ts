@@ -211,7 +211,7 @@ export function getPresencaAlbumsAsAlbums(): Album[] {
 export function getPresencaAlbumsAsAlbumsPublic(): Album[] {
   return getPresencaAlbumsAsAlbums().map((a) => ({
     ...a,
-    tracks: a.tracks.map((t) => ({ ...t, lyrics: undefined })),
+    tracks: a.tracks.map((t) => ({ ...t, lyrics: "" })),
   }));
 }
 
