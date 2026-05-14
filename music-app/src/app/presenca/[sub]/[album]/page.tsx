@@ -10,8 +10,8 @@ import {
   presencaAlbumCoverUrl,
   type PresencaSubSlug,
 } from "@/data/presenca";
-import { TrackPromptCopy } from "./TrackPromptCopy";
 import { PresencaAlbumActions } from "../../PresencaAlbumActions";
+import { PresencaAlbumTracks } from "../../PresencaAlbumTracks";
 
 export function generateStaticParams() {
   const params: { sub: string; album: string }[] = [];
@@ -95,42 +95,15 @@ export default async function PresencaAlbumPage({ params }: Params) {
         </div>
       </section>
 
-      {/* Tracks */}
-      <section className="max-w-screen-lg mx-auto px-4 mt-4 space-y-3">
-        <h3 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-1">
-          7 faixas — arco ritual
+      {/* Tracks — lista standard (mesma de /album/{slug}) */}
+      <section className="max-w-screen-lg mx-auto px-4 mt-4">
+        <h3 className="text-sm font-semibold text-[#a0a0b0] uppercase tracking-wider mb-3">
+          {album.tracks.length} faixas — arco ritual
         </h3>
-        {album.tracks.map((track) => (
-          <article
-            key={track.number}
-            className="rounded-xl border border-white/5 bg-white/[0.03] overflow-hidden"
-          >
-            <header className="px-4 py-3 flex items-start justify-between gap-3 border-b border-white/5">
-              <div className="min-w-0">
-                <p className="text-[10px] uppercase tracking-widest text-[#8a8a9a]">
-                  {album.number}.{track.number} · {track.position}
-                </p>
-                <h4 className="text-base font-semibold mt-0.5 text-[#F5F0E6]">{track.title}</h4>
-                {track.concept && (
-                  <p className="text-[12px] text-[#a0a0b0] mt-1 leading-relaxed">{track.concept}</p>
-                )}
-              </div>
-              {track.flag === "aprovada" && (
-                <span className="shrink-0 text-[10px] uppercase tracking-widest bg-green-500/15 text-green-400 px-2 py-1 rounded-full">
-                  aprovada
-                </span>
-              )}
-            </header>
-
-            {track.sunoPrompt && (
-              <TrackPromptCopy
-                trackTitle={track.title}
-                sunoPrompt={track.sunoPrompt}
-                style={track.style}
-              />
-            )}
-          </article>
-        ))}
+        <PresencaAlbumTracks
+          subSlug={sub.slug as PresencaSubSlug}
+          albumSlug={album.slug}
+        />
       </section>
     </main>
   );
