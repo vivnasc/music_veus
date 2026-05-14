@@ -60,13 +60,40 @@ export async function GET(req: NextRequest) {
     // etc.). track>=1 → capa Suno por faixa (faixa-XX-cover.<ext>). As duas
     // vivem em paralelo: a capa do álbum NÃO substitui as capas por faixa.
     const isAlbumCover = parseInt(track, 10) === 0;
+
+    // Build candidate URLs. Para slugs Presença, tentar também as pastas
+    // dedicadas `presenca-covers/{sub}/{albumSlug}.<ext>` (capa do álbum) e
+    // `presenca-covers/{sub}.<ext>` (capa da sub-coleção), porque as capas
+    // Presença vivem fora de `albums/...`.
+    const candidates: string[] = [];
     const folder = `albums/${safeAlbum}`;
     for (const ext of extensions) {
-      const url = isAlbumCover
-        ? `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${folder}/cover.${ext}`
-        : `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${folder}/faixa-${safeTrack}-cover.${ext}`;
+      candidates.push(
+        isAlbumCover
+          ? `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${folder}/cover.${ext}`
+          : `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${folder}/faixa-${safeTrack}-cover.${ext}`
+      );
+    }
+    // Presença fallbacks: presenca-{sub}-{...} → presenca-covers/{sub}/{slug}.<ext>
+    // e presenca-covers/{sub}.<ext>
+    if (safeAlbum.startsWith("presenca-")) {
+      const parts = safeAlbum.split("-");
+      const sub = parts[1];
+      const albumSlugPart = parts.slice(2).join("-");
+      if (sub) {
+        for (const ext of extensions) {
+          if (albumSlugPart) {
+            candidates.push(`${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/presenca-covers/${sub}/${albumSlugPart}.${ext}`);
+          }
+          candidates.push(`${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/presenca-covers/${sub}.${ext}`);
+        }
+      }
+    }
+
+    for (const url of candidates) {
       const res = await fetch(url);
       if (res.ok) {
+        const ext = url.split(".").pop()?.toLowerCase();
         const contentType = ext === "jpg" || ext === "jpeg" ? "image/jpeg"
           : ext === "png" ? "image/png"
           : "image/webp";

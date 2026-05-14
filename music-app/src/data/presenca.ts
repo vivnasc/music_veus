@@ -142,6 +142,24 @@ export function presencaAlbumCoverUrl(sub: PresencaSubSlug, albumSlug: string, v
  * A persona já configurada na pipeline (Loranne voice ID) aplica-se
  * automaticamente.
  */
+/**
+ * Encurta o `concept` (que costuma ser uma explicação literal de várias
+ * frases) para algo mais próximo do tom editorial das outras colecções:
+ * curto, evocativo, sem explicar demasiado.
+ *
+ * Estratégia: primeira oração (split por `.`/`!`/`?`), trim, capitalizada.
+ * Se ainda for >70 chars, corta na vírgula/travessão.
+ */
+function shortenConcept(c: string | undefined | null): string {
+  if (!c) return "";
+  const firstSentence = c.split(/[.!?]/)[0].trim();
+  let s = firstSentence.length <= 70
+    ? firstSentence
+    : firstSentence.split(/[,—–-]/)[0].trim();
+  if (s.length > 80) s = s.slice(0, 77) + "…";
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
 export function getPresencaAlbumsAsAlbums(): Album[] {
   const result: Album[] = [];
   for (const sub of PRESENCA_SUBS) {
@@ -151,7 +169,7 @@ export function getPresencaAlbumsAsAlbums(): Album[] {
       const tracks: AlbumTrack[] = album.tracks.map((t) => ({
         number: t.number,
         title: t.title,
-        description: t.concept || `${album.title} · ${t.position}`,
+        description: shortenConcept(t.concept) || album.title,
         lang: "PT",
         energy: "whisper",
         flavor: null,
@@ -170,7 +188,7 @@ export function getPresencaAlbumsAsAlbums(): Album[] {
       result.push({
         slug: `presenca-${sub.slug}-${album.slug}`,
         title: album.title,
-        subtitle: `${sub.label} · Álbum ${album.number}${album.funcao ? " — " + album.funcao : ""}`,
+        subtitle: shortenConcept(album.funcao) || sub.label,
         artist: "Loranne & Ancient Ground",
         product: "presenca",
         color: meta.color,
@@ -182,6 +200,19 @@ export function getPresencaAlbumsAsAlbums(): Album[] {
     }
   }
   return result;
+}
+
+/**
+ * Versão pública dos álbuns Presença — sem o campo `lyrics` (que contém
+ * o bloco Suno completo de ~2KB por faixa). Para uso em páginas públicas
+ * como NovidadesSection, descobre, etc., que não precisam de letras mas
+ * precisam dos álbuns no índice global `ALL_ALBUMS`.
+ */
+export function getPresencaAlbumsAsAlbumsPublic(): Album[] {
+  return getPresencaAlbumsAsAlbums().map((a) => ({
+    ...a,
+    tracks: a.tracks.map((t) => ({ ...t, lyrics: "" })),
+  }));
 }
 
 /** Stats — quantas faixas têm prompt Suno escrito (pronto para geração) vs. ainda por escrever. */
