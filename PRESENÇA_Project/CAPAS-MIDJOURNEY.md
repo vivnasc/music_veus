@@ -1,143 +1,110 @@
 # Capas Presença — prompts Midjourney
 
-Sete capas, uma por sub-coleção. Cada uma deve evocar a função e a tradição da sub sem as nomear directamente — nada de Budas, mandalas, cruzes ou anjos. O olhar é mais editorial-fotográfico do que ilustração espiritual. Aestética moçambicana/africana subtilmente infundida (terra, materiais orgânicos, luz natural).
+Sete capas, uma por sub-coleção, cada uma um **diagrama simbólico teosófico** no estilo de **Hilma af Klint** — a pintora sueca que no início do séc. XX pintou exactamente este vocabulário (raios, chakras, frequências, geometria sagrada esotérica). A Hilma é a referência canónica para esta família visual e Midjourney conhece-a bem: pedir "in the style of Hilma af Klint" produz pintura simbólica teosófica concreta, não Rothko genérico nem mandala de yoga store.
 
-## Princípios visuais do conjunto
+Cada capa visualiza explicitamente o sistema por trás da sub-coleção:
 
-Para as 7 capas funcionarem juntas como família:
+- **Chakra** → símbolo central com o número exacto de pétalas
+- **Elemento** → símbolo alquímico interno (triângulos, círculos)
+- **Raio teosófico** → movimento/força/direcção da composição
+- **Solfeggio + cor** → paleta vibracional específica
+- **Tradição** → hint subtilíssimo apenas (sem ícones literais)
 
-- **Formato:** 1024×1024 quadrado (`--ar 1:1`)
-- **Sem figuras humanas** (o texto que vai por cima precisa de espaço, e a estética manifesto pede ausência de performance)
-- **Sem texto na imagem** (o nome da sub-coleção é sobreposto em branco no app)
-- **Terço inferior intencionalmente mais escuro** para acomodar o texto sobreposto
-- **Paleta dominante** definida por sub-coleção (ver tabela abaixo) — Midjourney aceita "X palette" no prompt
-- **Texturas orgânicas** (terra, água, madeira, fumo, luz) em vez de digital/limpo
-- **Luz natural** (alvorada, fim de tarde, hora azul, vela) — nunca neon, nunca estúdio
-- **Estilo cinematográfico/editorial** (`--style raw` reduz a estilização Midjourney padrão)
-- **Modelo:** `--v 6` ou `--v 7` (V7 é mais coerente em V7 mas pode variar; V6 é mais previsível)
+A primeira foi aprovada em iteração — fica como âncora visual para as outras 6.
 
-## Truque para coerência entre as 7
+## Anchor: Medo (aprovada)
 
-Para que as capas pareçam um conjunto e não 7 imagens avulsas:
+```
+sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, four-petal circular root chakra symbol in the center, downward-pointing triangle inside representing the earth element, subtle root-like patterns extending downward from the symbol, deep umber and burnt sienna palette with hints of dawn ochre, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, contemplative grounded mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6
+```
 
-1. **Gera primeiro a capa de Medo** (a "âncora" do conjunto)
-2. **Escolhe a melhor variação** (a que mais te agrada)
-3. **Copia o URL dessa imagem** (clica direito → "Copy image link" no Discord)
-4. **Cola o URL no início dos outros 6 prompts** como referência de estilo, OU usa `--sref <URL>`
+**URL de referência:** `https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png`
 
-Isto faz com que as outras 6 sub-coleções partilhem a *gramática visual* (textura, luz, tonalidade geral) com Medo. A variação fica só na cor/atmosfera específica de cada sub.
+Para coerência visual entre as 7, **as outras 6 usam esta URL como `--sref`** (style reference). Garante que partilham gramática (pintura à mão, moldura escura, geometria simbólica) e variam apenas na cor + símbolos próprios.
 
-## Tabela de cores e atmosfera
+## Tabela do sistema
 
-| # | Sub-coleção | Verbo | Cor base | Atmosfera |
-|---|---|---|---|---|
-| 1 | Medo | Enraizar | umber/burnt sienna | terra antes do amanhecer |
-| 2 | Mágoa | Acolher | deep slate blue | água parada que recebe pedra |
-| 3 | Apatia | Acender | rust/amber | brasa única no escuro |
-| 4 | Inquietação | Clarear | sage grey-green | erva alta com vento, neblina a levantar |
-| 5 | Sufoco | Alinhar | muted violet | coluna vertical de luz no escuro |
-| 6 | Confusão | Ver | pale gold/pearl | luz dourada através de neblina |
-| 7 | Vazio | Pousar | indigo/midnight | céu nocturno antes do sono |
+| # | Sub | Chakra (pétalas) | Elemento | Raio | Solfeggio | Cor | Tradição (não nomeada) |
+|---|---|---|---|---|---|---|---|
+| 1 | Medo | Raiz (4) | Terra ▽ | 1 (Vontade) | 396 Hz | umber/burnt sienna | Ubuntu |
+| 2 | Mágoa | Sacro (6) | Água ▽ | 2 (Sabedoria-Amor) | 417 Hz | slate blue + warm core | Metta |
+| 3 | Apatia | Plexo Solar (10) | Fogo △ | 3 (Inteligência Activa) | 528 Hz | amber/gold + rust | Dhikr |
+| 4 | Inquietação | Coração (12) | Ar △̄ | 4 (Harmonia) | 639 Hz | sage green | Vipassana |
+| 5 | Sufoco | Garganta (16) | Éter ○ | 5 (Ciência Concreta) | 741 Hz | muted violet | Hesicasmo |
+| 6 | Confusão | Terceiro Olho (2) | Luz ✦ | 6 (Devoção) | 852 Hz | pearl gold + indigo | Mística cristã |
+| 7 | Vazio | Coroa (1000) | Éter Total ⊕ | 7 (Ordem Cerimonial) | 963 Hz | indigo + white | Compline |
 
 ---
 
 ## Os 7 prompts
 
-### 1. Medo · Enraizar
+### 1. Medo · Raiz · Terra (já aprovada, ver acima)
+
+### 2. Mágoa · Sacro · Água
 
 ```
-pre-dawn African earth in deep umber and burnt sienna, ancient root systems just beneath weathered soil surface, single warm shaft of dawn light from upper-right edge, organic ground textures of cracked clay and dry leaves, contemplative cinematic editorial photography, dawn ochre highlights against deep brown shadows, intentionally darker lower foreground for text overlay, Mozambican landscape mood, no figures, no text --ar 1:1 --style raw --v 6
+sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, six-petal circular sacral chakra symbol in the center, downward-pointing triangle representing the water element inside, concentric flowing water ripple patterns radiating outward, deep slate blue and muted teal palette with a warm amber-orange luminous glow at the very center, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative tender mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
 ```
 
-**Variações para testar:** "ancestral soil" em vez de "African earth"; "iron-rich red clay" para puxar mais para o vermelho; "single dry branch resting on ground" para um foco compositivo.
-
-### 2. Mágoa · Acolher
+### 3. Apatia · Plexo Solar · Fogo
 
 ```
-still pool of dark water meeting weathered river stone, single soft ripple expanding outward, deep slate blue and dove grey palette with hints of muted teal, soft overcast light from above, organic textures of wet stone and water surface, tender melancholic atmosphere, contemplative editorial photography, intentionally darker lower foreground for text overlay, no figures, no text --ar 1:1 --style raw --v 6
+sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, ten-petal circular solar plexus chakra symbol in the center, upward-pointing triangle representing the fire element inside, subtle radiating spiral pattern around the periphery suggesting prayer-bead rotation, warm amber and gold palette with rust shadows, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative warm mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
 ```
 
-**Variações:** "single tear-shaped drop suspended above water" para o gesto do choro; "river stones submerged in shallow water" para mais profundidade visual.
-
-### 3. Apatia · Acender
+### 4. Inquietação · Coração · Ar
 
 ```
-single glowing ember nested in deep grey ash, warm orange-amber core radiating into surrounding charcoal darkness, thin spiral of smoke rising into shadow, intimate macro photography, deep umber and rust palette, contemplative meditative mood, ember positioned upper-centre, dark surrounding shadow, intentionally darker lower foreground for text overlay, no figures, no flames, no fire --ar 1:1 --style raw --v 6
+sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, twelve-petal circular heart chakra symbol in the center, upward-pointing triangle with a horizontal bar inside representing the air element, gentle concentric breath-ring patterns drifting outward, pale sage green and dove grey palette with hints of silver-blue, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative calm mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
 ```
 
-**Variações:** "single match flame" se quiseres chama em vez de brasa; "morning sun through dust" para uma metáfora mais aberta.
-
-### 4. Inquietação · Clarear
+### 5. Sufoco · Garganta · Éter
 
 ```
-tall savanna grass swaying in soft wind at dawn, low morning mist clearing from valley floor, pale sage green and dove grey palette with hints of overcast silver-blue sky, distant horizon barely visible through haze, soft natural light from upper edge, contemplative cinematic landscape photography, intentionally darker lower foreground for text overlay, calm clear atmosphere, no figures, no text --ar 1:1 --style raw --v 6
+sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, sixteen-petal circular throat chakra symbol in the center, smaller circle inside representing the ether element, thin vertical column of warm amber light rising through the entire composition, muted plum and dusk violet palette, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative inward mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
 ```
 
-**Variações:** "distant flock of birds dispersing into pale sky" para movimento de pensamentos a soltar; "single feather drifting against mist" para particularidade.
-
-### 5. Sufoco · Alinhar
+### 6. Confusão · Terceiro Olho · Luz
 
 ```
-single thin vertical column of warm light through narrow opening in deep violet shadow, gentle smoke rising along the column, muted plum and dusk violet palette with warm amber at light core, intimate contemplative atmosphere, dark surrounding shadow, vertical composition, intentionally darker lower foreground for text overlay, no figures, no candles visible, no architecture --ar 1:1 --style raw --v 6
+sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, two-petal circular third eye chakra symbol in the center, an unfolding mystic rose at the very heart of the symbol, radiating thin lines of light outward from the center, pearlescent grey-cream and antique gold palette with deep indigo edges, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative mystical mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
 ```
 
-**Variações:** "narrow doorway with warm interior light" se quiseres mais arquitectura subtil; "throat-passage suggested by vertical light shaft" para a imagem da garganta (cuidado: Midjourney pode literalizar — usa só se a primeira versão for muito abstracta).
-
-### 6. Confusão · Ver
+### 7. Vazio · Coroa · Éter Total
 
 ```
-single shaft of pale gold light cutting through soft fog, suspended dust motes catching the beam, pearlescent grey-cream and antique gold palette, contemplative mystical atmosphere, light angled from upper-left, dim cool surroundings, intimate cinematic editorial photography, intentionally darker lower foreground for text overlay, no figures, no architecture, no buildings --ar 1:1 --style raw --v 6
+sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, thousand-petal crown chakra symbol unfolding fully in the center, a luminous white circle within representing total ether opening, dense layered petals radiating outward, deep indigo and midnight blue palette with bright white luminous core, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative crown-opening mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
 ```
-
-**Variações:** "light through forest canopy with dust suspended" para textura natural; "luminous fog at dawn over still water" para a versão mais aquosa.
-
-### 7. Vazio · Pousar
-
-```
-deep night sky in slate blue and indigo with single barely-visible distant point of light, soft dark horizon line at upper third of frame, vast quiet atmosphere, midnight palette with faintest hint of pre-dawn warmth at very bottom edge, contemplative landscape photography, intentionally darker lower foreground for text overlay, restful mood, no figures, no moon, no bright stars, no celestial objects beyond one tiny point --ar 1:1 --style raw --v 6
-```
-
-**Variações:** "moonless night over still ocean with horizon line" para mais oceano; "dark blanket folded on dim bed seen from above" se quiseres versão mais doméstica (ligada ao álbum *Travesseiro*).
 
 ---
 
-## Negative prompts opcionais
+## Princípios técnicos do conjunto
 
-Adiciona `--no` no fim do prompt se aparecerem clichés:
+- **Formato:** 1024×1024 (`--ar 1:1`)
+- **Modelo:** `--v 6` (V7 também aceita; manter consistência entre as 7)
+- **Estilo:** `--style raw` reduz a estilização Midjourney por defeito, mais painterly menos digital
+- **Referência de estilo:** `--sref <URL da Medo aprovada>` em todas as outras 6 — força gramática visual partilhada
+- **Negative comum em todas:** `no figures, no faces, no buddha, no om, no eye` — evita os clichês que aparecem por defeito
+
+## Negative prompt opcional (mais agressivo)
+
+Se aparecerem clichês de yoga-store, acrescenta:
 
 ```
---no people, faces, bodies, text, words, letters, lotus, mandala, buddha, cross, angel, halo, om, yoga, chakras, sacred geometry, ornate borders, gold filigree, watermark, signature
+--no people, faces, bodies, hands, feet, text, words, watermark, signature, lotus flower realistic, mandala generic, buddha statue, om symbol, ankh, cross, yin yang, third eye realistic, sacred geometry print, wellness aesthetic
 ```
 
-Exemplo aplicado ao prompt de Medo:
+## Workflow
 
-```
-pre-dawn African earth ... no figures, no text --ar 1:1 --style raw --v 6 --no people, faces, lotus, mandala, buddha, cross, sacred geometry, watermark
-```
+1. **Medo já está pronta** — usa a URL aprovada: `https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png`
+2. Para as outras 6: cola o prompt no Discord/web Midjourney, espera 4 variações, faz **Upscale (Subtle)** na que mais te agrada
+3. Faz download em 1024×1024
+4. Carrega em `/admin/presenca-capas` — uma a uma, com o slug certo (medo/magoa/apatia/inquietacao/sufoco/confusao/vazio)
+5. As capas aparecem em ~1h em todo o app (cache Supabase 3600s):
+   - `/descobre` (secção Presença)
+   - `/presenca` (grelha das 7)
+   - `/presenca/{sub}` (hero da sub-coleção)
+   - `/presenca/{sub}/{album}` (hero de cada álbum)
+   - `/album/presenca-{sub}-{album}` (página de player)
 
-## Parâmetros úteis
-
-- `--ar 1:1` — quadrado (obrigatório, é o formato esperado pelo app)
-- `--style raw` — reduz a estilização "Midjourney padrão" (mais fotográfico, menos ilustrado)
-- `--v 6` ou `--v 7` — modelo (V6 é mais previsível, V7 tem melhor coerência mas é mais experimental)
-- `--s 100` a `--s 250` — `--stylize` controla quanto Midjourney "embeleza". Para esta colecção, baixo: `--s 100` ou `--s 50`. Default é 100.
-- `--sref <URL>` — referência de estilo de outra imagem (usa para coerência entre as 7)
-- `--no <termos>` — negative prompt
-
-## Workflow recomendado
-
-1. Cola o **prompt de Medo** no Discord do Midjourney. Gera 4 variações. Escolhe uma e faz Upscale (U1/U2/U3/U4).
-2. **Copia o URL da imagem aprovada** (clica direito → Copy Image Address).
-3. Cola esse URL no início de cada um dos outros 6 prompts (não fica como `--sref` formal mas funciona como image-prompt). OU usa `--sref <URL>` explícito.
-4. Gera as outras 6 sub-coleções, uma a uma. Faz Upscale na melhor variação de cada.
-5. Faz **download de cada imagem em 1024×1024** (Discord serve em PNG/JPG).
-6. Vai a `/admin/presenca-capas` e carrega uma a uma.
-
-As capas aparecem em ~1h em todo o app (cache Supabase 3600s):
-- `/descobre` (secção Presença, cartão de cada sub)
-- `/presenca` (grelha das 7)
-- `/presenca/{sub}` (hero da sub-coleção)
-- `/presenca/{sub}/{album}` (hero de cada álbum da sub)
-- `/album/presenca-{sub}-{album}` (página de player de qualquer álbum dessa sub)
-
-A mesma capa é usada para todos os álbuns dessa sub-coleção (decisão deliberada — a unidade da sub-coleção é o que importa, não a particularidade de cada álbum).
+A mesma capa é usada para todos os álbuns dessa sub-coleção — decisão deliberada coerente com a filosofia: a unidade da sub-coleção é o que importa, não a particularidade de cada álbum dentro dela.
