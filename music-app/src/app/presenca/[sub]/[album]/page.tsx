@@ -7,9 +7,9 @@ import {
   getSub,
   getAlbum,
   getAlbumsForSub,
-  presencaAlbumCoverUrl,
   type PresencaSubSlug,
 } from "@/data/presenca";
+import { getTrackCoverUrl } from "@/lib/album-covers";
 import { PresencaAlbumActions } from "../../PresencaAlbumActions";
 import { PresencaAlbumTracks } from "../../PresencaAlbumTracks";
 
@@ -62,7 +62,7 @@ export default async function PresencaAlbumPage({ params }: Params) {
             style={{ background: `linear-gradient(135deg, ${meta.color}, ${meta.color}33)` }}
           >
             <Image
-              src={presencaAlbumCoverUrl(sub.slug as PresencaSubSlug, album.slug)}
+              src={getTrackCoverUrl(`presenca-${sub.slug}-${album.slug}`, 1)}
               alt={album.title}
               fill
               className="object-cover"
