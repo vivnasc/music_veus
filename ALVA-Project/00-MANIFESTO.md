@@ -38,7 +38,7 @@ Suficiente para chegar ao dia. Pouco para se tornar hábito que prende.
 
 ## Formato de produção
 
-Cada som é gerado em **Suno** com o prompt incluído na ficha respectiva. Os prompts são deliberadamente **detalhados em camadas** (5 elementos por faixa), em inglês (Suno responde melhor), com tags de estilo ambient/field-recording/soundscape e instrução explícita de *no vocals*.
+Cada som é montado a partir de **ElevenLabs Sound Effects** (`02-PROMPTS-ELEVENLABS.md`). O Suno (`01-SONS-MATINAIS.md`) foi descartado como motor — faz música, não paisagem sonora. ElevenLabs faz field recording sintético: cada dia divide-se em 2-3 *beds* loopáveis (22s) + 3-5 *events* one-shot, depois mistura-se num DAW (Audacity grátis ou Reaper). Resultado: 2-3 min por dia.
 
 ## Formato de publicação
 
