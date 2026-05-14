@@ -43,37 +43,37 @@ Para coerência visual entre as 7, **as outras 6 usam esta URL como `--sref`** (
 ### 2. Mágoa · Sacro · Água
 
 ```
-sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, six-petal circular sacral chakra symbol in the center, downward-pointing triangle representing the water element inside, concentric flowing water ripple patterns radiating outward, deep slate blue and muted teal palette with a warm amber-orange luminous glow at the very center, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative tender mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
+predominantly deep slate blue and indigo ink wash painting, sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, six-petal circular sacral chakra symbol in the center, downward-pointing triangle representing the water element inside, concentric flowing water ripple patterns radiating outward, muted teal palette with a warm amber-orange luminous glow only at the very center seed, dark navy painted frame border, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, contemplative tender mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png --sw 30
 ```
 
 ### 3. Apatia · Plexo Solar · Fogo
 
 ```
-sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, ten-petal circular solar plexus chakra symbol in the center, upward-pointing triangle representing the fire element inside, subtle radiating spiral pattern around the periphery suggesting prayer-bead rotation, warm amber and gold palette with rust shadows, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative warm mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
+predominantly warm amber and gold gouache painting with rust shadows, sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, ten-petal circular solar plexus chakra symbol in the center, upward-pointing triangle representing the fire element inside, subtle radiating spiral pattern around the periphery suggesting prayer-bead rotation, glowing gold at the center, dark rust painted frame border, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, contemplative warm mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png --sw 30
 ```
 
 ### 4. Inquietação · Coração · Ar
 
 ```
-sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, twelve-petal circular heart chakra symbol in the center, upward-pointing triangle with a horizontal bar inside representing the air element, gentle concentric breath-ring patterns drifting outward, pale sage green and dove grey palette with hints of silver-blue, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative calm mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
+predominantly pale sage green and silver-grey tempera painting, sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, twelve-petal circular heart chakra symbol in the center, upward-pointing triangle with a horizontal bar inside representing the air element, gentle concentric breath-ring patterns drifting outward, dove grey palette with hints of silver-blue, dark green-grey painted frame border, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, contemplative calm mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png --sw 30
 ```
 
 ### 5. Sufoco · Garganta · Éter
 
 ```
-sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, sixteen-petal circular throat chakra symbol in the center, smaller circle inside representing the ether element, thin vertical column of warm amber light rising through the entire composition, muted plum and dusk violet palette, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative inward mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
+predominantly muted plum and dusk violet ink wash painting, sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, sixteen-petal circular throat chakra symbol in the center, smaller circle inside representing the ether element, thin vertical column of warm amber light rising through the entire composition, dark violet painted frame border, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, contemplative inward mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png --sw 30
 ```
 
 ### 6. Confusão · Terceiro Olho · Luz
 
 ```
-sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, two-petal circular third eye chakra symbol in the center, an unfolding mystic rose at the very heart of the symbol, radiating thin lines of light outward from the center, pearlescent grey-cream and antique gold palette with deep indigo edges, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative mystical mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
+predominantly pearlescent grey-cream and antique gold painting with deep indigo edges, sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, two-petal circular third eye chakra symbol in the center, an unfolding mystic rose at the very heart of the symbol, radiating thin lines of light outward from the center, golden luminous core, dark indigo painted frame border, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, contemplative mystical mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png --sw 30
 ```
 
 ### 7. Vazio · Coroa · Éter Total
 
 ```
-sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, thousand-petal crown chakra symbol unfolding fully in the center, a luminous white circle within representing total ether opening, dense layered petals radiating outward, deep indigo and midnight blue palette with bright white luminous core, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, dark painted frame border, contemplative crown-opening mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png
+predominantly deep indigo and midnight blue painting with bright white luminous core, sacred symbolic composition in the style of Hilma af Klint and theosophical occult illustration, thousand-petal crown chakra symbol unfolding fully in the center, many concentric rings of overlapping slender petals, a luminous white circle within representing total ether opening, radiating outward, dark midnight blue painted frame border, hand-painted spiritual symbology, vintage early-twentieth-century esoteric chart aesthetic, contemplative crown-opening mood, darker lower portion for text overlay, no figures, no faces, no buddha, no om, no eye --ar 1:1 --style raw --v 6 --sref https://cdn.midjourney.com/c9ed0ead-6d84-4f71-8d0a-d2829ccdbe41/0_3.png --sw 30
 ```
 
 ---
@@ -83,7 +83,9 @@ sacred symbolic composition in the style of Hilma af Klint and theosophical occu
 - **Formato:** 1024×1024 (`--ar 1:1`)
 - **Modelo:** `--v 6` (V7 também aceita; manter consistência entre as 7)
 - **Estilo:** `--style raw` reduz a estilização Midjourney por defeito, mais painterly menos digital
-- **Referência de estilo:** `--sref <URL da Medo aprovada>` em todas as outras 6 — força gramática visual partilhada
+- **Referência de estilo:** `--sref <URL da Medo aprovada> --sw 30` em todas as outras 6 — `--sw 30` (style weight baixo) mantém a técnica pictórica e a moldura mas liberta a paleta para a cor específica de cada chakra
+- **Cor em primeiro lugar:** começar o prompt com `predominantly [cor] [suporte pictórico]` força a paleta — Midjourney pesa muito os primeiros tokens
+- **Suporte por cor:** ink wash (azul/violeta), gouache (amber/dourado), tempera (sage), painting puro (indigo) — vocabulário pictórico ajuda a cor a aterrar
 - **Negative comum em todas:** `no figures, no faces, no buddha, no om, no eye` — evita os clichês que aparecem por defeito
 
 ## Negative prompt opcional (mais agressivo)
