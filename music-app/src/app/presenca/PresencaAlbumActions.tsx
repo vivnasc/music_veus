@@ -73,7 +73,11 @@ export function PresencaAlbumActions({
       requestPlay(2, albumTitle, accentColor);
       return;
     }
-    playAlbum(album);
+    // Passar só as faixas com áudio aprovado — caso contrário o player
+    // tentaria tocar faixas sem mp3 no Supabase e parava após a primeira.
+    if (playableTracks.length === 0) return;
+    const filteredAlbum = { ...album, tracks: playableTracks };
+    playAlbum(filteredAlbum);
   }
 
   function playShuffle() {
@@ -82,9 +86,11 @@ export function PresencaAlbumActions({
       requestPlay(2, albumTitle, accentColor);
       return;
     }
+    if (playableTracks.length === 0) return;
     if (!shuffle) toggleShuffle();
-    const randomStart = Math.floor(Math.random() * Math.max(playableTracks.length, 1));
-    playAlbum(album, randomStart);
+    const filteredAlbum = { ...album, tracks: playableTracks };
+    const randomStart = Math.floor(Math.random() * playableTracks.length);
+    playAlbum(filteredAlbum, randomStart);
   }
 
   function addAllToQueue() {
