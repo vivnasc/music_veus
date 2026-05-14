@@ -13,17 +13,21 @@ import { ALL_ALBUMS, type Album } from "./albums";
 import { getLyrics } from "./all-lyrics";
 import { getPresencaAlbumsAsAlbums } from "./presenca";
 
-const HYDRATED: Album[] = ALL_ALBUMS.map((a) => ({
-  ...a,
-  tracks: a.tracks.map((t) => ({
-    ...t,
-    lyrics: t.lyrics || getLyrics(a.slug, t.number),
-  })),
-}));
+// ALL_ALBUMS já contém Presença via getPresencaAlbumsAsAlbumsPublic (versão
+// SEM lyrics, para reduzir o bundle das páginas públicas). Aqui filtramos
+// essas entradas antes de re-adicionar a versão completa COM lyrics — caso
+// contrário ficavam ambas e .find() encontrava primeiro a versão vazia.
+const HYDRATED: Album[] = ALL_ALBUMS
+  .filter((a) => a.product !== "presenca")
+  .map((a) => ({
+    ...a,
+    tracks: a.tracks.map((t) => ({
+      ...t,
+      lyrics: t.lyrics || getLyrics(a.slug, t.number),
+    })),
+  }));
 
-// Presença tracks already carry the full Suno custom-lyrics block in their
-// `lyrics` field (built by getPresencaAlbumsAsAlbums), so no rehydration is
-// needed.
+// Versão Presença COM lyrics completos (bloco Suno custom-mode em cada track).
 const PRESENCA_AS_ALBUMS = getPresencaAlbumsAsAlbums();
 
 export const ALL_ALBUMS_WITH_LYRICS: Album[] = [...HYDRATED, ...PRESENCA_AS_ALBUMS];
