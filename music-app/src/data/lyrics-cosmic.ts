@@ -12,7 +12,7 @@ export const COSMIC_LYRICS: Record<string, string> = {
   // ─────────────────────────────────────────────
 
   "eter-viagem/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, ethereal floating delivery on this track, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max), distant choir hum behind the chorus, no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Intro: deep ambient house pads with reverb-drenched piano single notes, distant choir hum, a single audible exhale, then silence for one bar]
@@ -55,8 +55,8 @@ Ao sítio de onde vim
 E lá ninguém me pergunta nada
 Porque lá eu não tenho fim
 
-[Bridge: Mozambican Portuguese (Maputo) — African Lusophone accent — vocal close, no harmonies, only ambient pads and reverb piano underneath]
-(Mozambican Portuguese from Maputo — hard consonants, African Lusophone accent:)
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only ambient pads and reverb piano underneath]
+(European Portuguese, Portugal accent:)
 O corpo dorme mas eu viajo
 Para um lugar anterior ao medo
 Anterior ao nome, anterior à dor
@@ -69,7 +69,7 @@ Mas o corpo guarda a viagem
 Num calor que eu reconheço`,
 
   "eter-viagem/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, weightless floating delivery on this track, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Intro: ambient synth layers floating, no drums anywhere, weightless arpeggio dissolving slowly, no vocal — instrumental opening for 8 bars]
@@ -125,7 +125,7 @@ Full of everything
 That has no weight`,
 
   "eter-viagem/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Intro: ancestral hum drone alone for 4 seconds, then Mozambican nylon guitar enters with timbila wooden percussion, no vocal yet]
@@ -168,8 +168,8 @@ Que não tem rosto nem razão
 Anterior
 Anterior ao meu coração
 
-[Bridge: Mozambican Portuguese (Maputo) — African Lusophone accent — vocal close, no harmonies, only ancestral hum drone underneath]
-(Mozambican Portuguese from Maputo — hard consonants, African Lusophone accent:)
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only ancestral hum drone underneath]
+(European Portuguese, Portugal accent:)
 Não preciso de me lembrar
 O corpo lembra por mim
 Cada célula sabe o caminho
@@ -181,7 +181,7 @@ Antes de tudo
 Eu já era`,
 
   "eter-viagem/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, yearning quality on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Intro: elastic jazz upright bass with single high piano note pulling on phrase end, brushed drums, vocal half-spoken almost asking]
@@ -240,7 +240,7 @@ Heavy with stars
 Hungry for bread`,
 
   "eter-viagem/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed on this track, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Intro: subtle low drone in vast empty space, distant cello bow on a single sustained note, a single audible exhale, then silence for one bar]
@@ -283,8 +283,8 @@ Não começo onde a pele diz
 Sem pele eu sou o espaço
 Entre a ferida e a cicatriz
 
-[Bridge: Mozambican Portuguese (Maputo) — African Lusophone accent — vocal close, almost spoken, only low drone underneath]
-(Mozambican Portuguese from Maputo — hard consonants, African Lusophone accent:)
+[Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, only low drone underneath]
+(European Portuguese, Portugal accent:)
 Não é perder-se
 É encontrar o tamanho real
 Que sempre foi maior
@@ -296,7 +296,7 @@ Finalmente do tamanho
 Que sempre fui`,
 
   "eter-viagem/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Intro: shimmering high-string starlight accents alone for 3 seconds, then fingerpicked steel-string folk guitar enters, no vocal yet]
@@ -352,7 +352,7 @@ Stardust
 Always`,
 
   "eter-viagem/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Intro: water field-recording (gentle waves) for 3 seconds, then nylon bossa guitar enters with swelling tide-shaped pad, no vocal yet]
@@ -395,8 +395,8 @@ Sobe até ao olhar
 A maré de dentro é tudo
 O que eu não consigo falar
 
-[Bridge: Mozambican Portuguese (Maputo) — African Lusophone accent — vocal close, no harmonies, only nylon guitar and water field-recording]
-(Mozambican Portuguese from Maputo — hard consonants, African Lusophone accent:)
+[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only nylon guitar and water field-recording]
+(European Portuguese, Portugal accent:)
 O médico chama-lhe ansiedade
 O padre chama-lhe alma
 Eu chamo-lhe o mar que herdei
@@ -409,7 +409,7 @@ A maré desce
 Eu fico`,
 
   "eter-viagem/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, dramatic pulse on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Intro: funk wah-guitar with rubbery bassline, snappy claps on 2 and 4, dramatic dissonant string stab on the four, no vocal — instrumental opening for 8 bars]
@@ -471,7 +471,7 @@ Gone
 But you saw me`,
 
   "eter-viagem/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, vocal hum drone underneath the words, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Intro: low vocal hum drone alone for 4 seconds (no words), then deep sub bass pulse enters, talking-drum rhythm joins, shaker on the off-beat]
@@ -514,8 +514,8 @@ Anterior à música, anterior à voz
 Frequência
 O som que eu era antes de nós
 
-[Bridge: Mozambican Portuguese (Maputo) — African Lusophone accent — vocal close, hum drone present, no harmonies]
-(Mozambican Portuguese from Maputo — hard consonants, African Lusophone accent:)
+[Bridge: European Portuguese, Lisbon accent — vocal close, hum drone present, no harmonies]
+(European Portuguese, Portugal accent:)
 A ciência chama-lhe radiação cósmica
 O corpo chama-lhe arrepio
 A alma chama-lhe reconhecimento
@@ -529,7 +529,7 @@ Com demasiado ruído
 Para ouvir`,
 
   "eter-viagem/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Intro: solo gospel piano opens with rich chords, log drum sparse, bright shaker enters on the four, Hammond organ swells gradually, no vocal yet — instrumental opening for 6 bars]
@@ -593,7 +593,7 @@ At all`,
   // ─────────────────────────────────────────────
 
   "eter/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -646,7 +646,7 @@ Entre
 Antes de acontecer`,
 
   "eter/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -702,7 +702,7 @@ That sound
 Cannot contain`,
 
   "eter/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -755,7 +755,7 @@ Mas eu sinto
 E isso basta`,
 
   "eter/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -809,7 +809,7 @@ I forgot
 To feel`,
 
   "eter/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -863,7 +863,7 @@ Mesmo quando já não há
 Ninguém para notar`,
 
   "eter/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -917,7 +917,7 @@ Not touching
 But held`,
 
   "eter/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -971,7 +971,7 @@ Mas segura
 Tudo`,
 
   "eter/8": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1026,7 +1026,7 @@ Like a museum
 Of air`,
 
   "eter/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1081,7 +1081,7 @@ Hoje
 De ter tentado`,
 
   "eter/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1143,7 +1143,7 @@ Together`,
   // ─────────────────────────────────────────────
 
   "eter-orbita/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1197,7 +1197,7 @@ Não é castigo
 Para finalmente ver`,
 
   "eter-orbita/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1255,7 +1255,7 @@ Pull
 I follow`,
 
   "eter-orbita/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1309,7 +1309,7 @@ Eu obedeço
 Com prazer`,
 
   "eter-orbita/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1363,7 +1363,7 @@ I walk through
 With my eyes open`,
 
   "eter-orbita/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1417,7 +1417,7 @@ A cabeça aprende
 Depois`,
 
   "eter-orbita/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1472,7 +1472,7 @@ The high
 Always returns`,
 
   "eter-orbita/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1526,7 +1526,7 @@ Estou mais perto
 Do centro`,
 
   "eter-orbita/8": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1581,7 +1581,7 @@ Just here
 Turning`,
 
   "eter-orbita/9": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1634,7 +1634,7 @@ Puxou-me
 Para mim`,
 
   "eter-orbita/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1693,7 +1693,7 @@ Wider eyes`,
   // ─────────────────────────────────────────────
 
   "eter-poeira/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1747,7 +1747,7 @@ Grato
 Breve`,
 
   "eter-poeira/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1803,7 +1803,7 @@ For every second
 Of the loan`,
 
   "eter-poeira/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1857,7 +1857,7 @@ Não é fim
 Para o que vem`,
 
   "eter-poeira/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1912,7 +1912,7 @@ Will be here
 After all of us`,
 
   "eter-poeira/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -1968,7 +1968,7 @@ Que vivem
 Em mim`,
 
   "eter-poeira/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2022,7 +2022,7 @@ To the soil
 I came from`,
 
   "eter-poeira/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2076,7 +2076,7 @@ Ainda a ser
 Ainda`,
 
   "eter-poeira/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2130,7 +2130,7 @@ I just had to get quiet
 Enough to listen`,
 
   "eter-poeira/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2184,7 +2184,7 @@ E fico
 Parte de tudo`,
 
   "eter-poeira/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2242,7 +2242,7 @@ That was enough`,
   // ─────────────────────────────────────────────
 
   "eter-vasto/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2296,7 +2296,7 @@ E caio
 Para dentro`,
 
   "eter-vasto/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2350,7 +2350,7 @@ Just small
 And free`,
 
   "eter-vasto/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2405,7 +2405,7 @@ Nada a fazer
 Tudo a ser`,
 
   "eter-vasto/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2459,7 +2459,7 @@ Just this
 Just here`,
 
   "eter-vasto/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2513,7 +2513,7 @@ Não é menos
 É real`,
 
   "eter-vasto/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2569,7 +2569,7 @@ So small
 So safe`,
 
   "eter-vasto/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2623,7 +2623,7 @@ Inteiro
 Aqui`,
 
   "eter-vasto/8": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2677,7 +2677,7 @@ By how much
 There is to feel`,
 
   "eter-vasto/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2732,7 +2732,7 @@ Uma vez
 É suficiente`,
 
   "eter-vasto/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2790,7 +2790,7 @@ Vast`,
   // ─────────────────────────────────────────────
 
   "eter-sinal/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2845,7 +2845,7 @@ Sigo-te
 Confio`,
 
   "eter-sinal/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2899,7 +2899,7 @@ The door opens
 When I stop running`,
 
   "eter-sinal/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -2953,7 +2953,7 @@ Mas sei
 Que sei`,
 
   "eter-sinal/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3008,7 +3008,7 @@ I trust you now
 Finally`,
 
   "eter-sinal/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3062,7 +3062,7 @@ O corpo é o meu radar
 O meu mais velho segredo`,
 
   "eter-sinal/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3118,7 +3118,7 @@ Waiting
 For us to look up`,
 
   "eter-sinal/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3173,7 +3173,7 @@ Estou aqui
 Sempre estive`,
 
   "eter-sinal/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3227,7 +3227,7 @@ Already known
 Still new`,
 
   "eter-sinal/9": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3281,7 +3281,7 @@ Eu finalmente
 Ouço`,
 
   "eter-sinal/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3741,7 +3741,7 @@ Wherever I land`,
   // ─────────────────────────────────────────────
 
   "eter-porto/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3774,7 +3774,7 @@ Abro
 O mundo`,
 
   "eter-porto/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3809,7 +3809,7 @@ One more goodbye
 One more beginning`,
 
   "eter-porto/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3840,7 +3840,7 @@ O meu sotaque
 Mais verdadeiro`,
 
   "eter-porto/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3879,7 +3879,7 @@ Same heart
 Wider`,
 
   "eter-porto/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3910,7 +3910,7 @@ Estava lá
 Outra vez`,
 
   "eter-porto/6": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3945,7 +3945,7 @@ Home
 Eventually`,
 
   "eter-porto/7": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -3978,7 +3978,7 @@ Ligo
 Sempre ligo`,
 
   "eter-porto/8": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -4014,7 +4014,7 @@ Wherever here is
 I belong`,
 
   "eter-porto/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
@@ -4049,7 +4049,7 @@ Porque é a prova
 De que amei`,
 
   "eter-porto/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
 [Verse 1]
