@@ -5639,6 +5639,16 @@ O meu corpo já te fazia espaço
 As ancas alargavam em silêncio
 O sono mudou de compasso
 
+[Chorus]
+Antes de ti
+O corpo já sabia
+Antes de ti
+Já havia uma canção
+Que eu não tinha escrito
+Mas que já existia
+Algures entre o peito
+E a imaginação
+
 [Verse 2]
 Não foi a cabeça que decidiu
 Foi qualquer coisa mais antiga
@@ -5662,6 +5672,16 @@ Mas o corpo prepara-se
 Como quem arruma a casa
 Para quem ainda não tem morada
 
+[Chorus]
+Antes de ti
+O corpo já sabia
+Antes de ti
+Já havia uma canção
+Que eu não tinha escrito
+Mas que já existia
+Algures entre o peito
+E a imaginação
+
 [Outro]
 Antes de ti
 Já eras
@@ -5677,6 +5697,16 @@ The room was cold and the gel was cold
 And the screen was grey and small
 Then a sound appeared — not mine
 Not a drum, not a bell, not a call
+
+[Chorus]
+Heartbeat — the first proof
+That I'm not alone in here
+Heartbeat — so tiny
+But louder than any fear
+The doctor said it's normal
+The doctor said it's fine
+But nothing will ever be normal
+After hearing yours inside mine
 
 [Verse 2]
 A tiny percussion inside of me
@@ -5700,6 +5730,16 @@ And the city looked brand new
 Every person walking past
 Was someone's heartbeat too
 
+[Chorus]
+Heartbeat — the first proof
+That I'm not alone in here
+Heartbeat — so tiny
+But louder than any fear
+The doctor said it's normal
+The doctor said it's fine
+But nothing will ever be normal
+After hearing yours inside mine
+
 [Outro]
 Heartbeat
 Tiny drum
@@ -5715,6 +5755,17 @@ Ninguém te avisa
 Que o corpo se abre como a terra
 Que a dor é um portal
 E a coragem é uma guerra
+
+[Chorus]
+Corpo partido
+Não é fraqueza — é passagem
+Corpo partido
+É a coragem mais antiga
+Cada mulher que pariu
+Abriu um caminho na pedra
+Cada mulher que pariu
+Sabe o que é ser a porta
+E a casa ao mesmo tempo
 
 [Verse 2]
 Segurei a mão de alguém
@@ -5741,6 +5792,17 @@ Que vieram antes de mim
 E disseram: vai, não pares
 O mundo começa assim
 
+[Chorus]
+Corpo partido
+Não é fraqueza — é passagem
+Corpo partido
+É a coragem mais antiga
+Cada mulher que pariu
+Abriu um caminho na pedra
+Cada mulher que pariu
+Sabe o que é ser a porta
+E a casa ao mesmo tempo
+
 [Outro]
 Parti
 E nasci
@@ -5755,6 +5817,19 @@ The room was painted yellow
 For someone who never came
 The mobile turns in silence
 Above an empty name
+
+[Chorus]
+Empty room
+With a crib that holds the air
+Empty room
+With a love that has nowhere to wear
+I carried you for weeks
+Inside a body made of hope
+And now I carry you
+Inside a body made of rope
+That holds — but barely
+That breathes — but barely
+That lives — but not the same
 
 [Verse 2]
 They say it happens often
@@ -5783,6 +5858,19 @@ Brief as dawn
 And you were loved
 Before you were gone
 
+[Chorus]
+Empty room
+With a crib that holds the air
+Empty room
+With a love that has nowhere to wear
+I carried you for weeks
+Inside a body made of hope
+And now I carry you
+Inside a body made of rope
+That holds — but barely
+That breathes — but barely
+That lives — but not the same
+
 [Outro]
 I will plant something
 In the garden
@@ -5801,6 +5889,16 @@ São três da manhã
 O mundo inteiro dorme
 Menos eu e esta boca pequena
 Que procura o que é enorme
+
+[Chorus]
+Leite — a primeira palavra
+Que o corpo fala sem voz
+Leite — a oração mais velha
+Que passa de nós para nós
+Às três da manhã
+Com a lua de testemunha
+O mundo é só este quarto
+E esta fome tão miúda
 
 [Verse 2]
 O cansaço é um rio
@@ -5826,6 +5924,16 @@ Este calor de primavera
 No escuro, contigo
 A mais bela das esperas
 
+[Chorus]
+Leite — a primeira palavra
+Que o corpo fala sem voz
+Leite — a oração mais velha
+Que passa de nós para nós
+Às três da manhã
+Com a lua de testemunha
+O mundo é só este quarto
+E esta fome tão miúda
+
 [Outro]
 Dorme
 Eu estou aqui
@@ -5841,6 +5949,18 @@ They call me mama in the morning
 And darling in the night
 But somewhere in between the names
 I lost the one that's mine by right
+
+[Chorus]
+Still a woman
+Before I am a mother
+Still a woman
+With dreams that aren't for another
+I will not shrink to fit the frame
+They built for those who bear the name
+Still a woman — with fire
+Still a woman — with want
+Still a woman — with a self
+That motherhood will never haunt
 
 [Verse 2]
 I love this life I'm building
@@ -5870,6 +5990,18 @@ These are not at war
 I am the ocean
 I am the shore
 
+[Chorus]
+Still a woman
+Before I am a mother
+Still a woman
+With dreams that aren't for another
+I will not shrink to fit the frame
+They built for those who bear the name
+Still a woman — with fire
+Still a woman — with want
+Still a woman — with a self
+That motherhood will never haunt
+
 [Outro]
 Still
 A woman
@@ -5885,6 +6017,16 @@ Dizem-me que vou mudar de ideias
 Dizem-me que é diferente quando é teu
 Dizem-me que uma mulher sem filhos
 É um jardim que não cresceu
+
+[Chorus]
+A escolha
+De não ser mãe também é sagrada
+A escolha
+Não precisa de ser explicada
+Não é falta, não é medo
+Não é egoísmo nem defeito
+É a liberdade de viver
+Um corpo inteiro, com respeito
 
 [Verse 2]
 Mas eu sou um jardim de outra espécie
@@ -5911,6 +6053,16 @@ Que o meu — é vosso
 Só vosso
 Sempre vosso
 
+[Chorus]
+A escolha
+De não ser mãe também é sagrada
+A escolha
+Não precisa de ser explicada
+Não é falta, não é medo
+Não é egoísmo nem defeito
+É a liberdade de viver
+Um corpo inteiro, com respeito
+
 [Outro]
 Inteira
 Sem filhos
@@ -5926,6 +6078,16 @@ My mother sang a song to me
 In a language she half-remembered
 A melody from her own mother
 From a kitchen in September
+
+[Chorus]
+Lullaby — the thread that doesn't break
+Lullaby — the river that keeps flowing
+From the mouth of every mother
+To the ear of every child
+Lullaby — the oldest song on earth
+Lullaby — the gentlest thing I know
+I sing it and my grandmother appears
+In the room, in the glow
 
 [Verse 2]
 I didn't know the words back then
@@ -5949,6 +6111,16 @@ I hum the shape of them
 And my daughter hums them back
 And the chain begins again
 
+[Chorus]
+Lullaby — the thread that doesn't break
+Lullaby — the river that keeps flowing
+From the mouth of every mother
+To the ear of every child
+Lullaby — the oldest song on earth
+Lullaby — the gentlest thing I know
+I sing it and my grandmother appears
+In the room, in the glow
+
 [Outro]
 Hush now
 The same hush
@@ -5966,6 +6138,20 @@ Começou com um soluço
 Pequeno como uma semente
 Depois os olhos brilharam
 E a boca ficou diferente
+
+[Chorus]
+A primeira gargalhada
+É o som mais bonito que existe
+A primeira gargalhada
+É a prova de que nada é triste
+Para sempre
+Nem a noite mais comprida
+Nem o parto mais difícil
+Nem a espera mais sofrida
+A primeira gargalhada
+Paga tudo
+Cura tudo
+Muda tudo
 
 [Verse 2]
 Não foi um riso perfeito
@@ -5994,6 +6180,20 @@ Não importa a razão
 Importa que já sabes
 O que é ser feliz
 
+[Chorus]
+A primeira gargalhada
+É o som mais bonito que existe
+A primeira gargalhada
+É a prova de que nada é triste
+Para sempre
+Nem a noite mais comprida
+Nem o parto mais difícil
+Nem a espera mais sofrida
+A primeira gargalhada
+Paga tudo
+Cura tudo
+Muda tudo
+
 [Outro]
 Ri
 Outra vez
@@ -6010,6 +6210,18 @@ My mother's mother carried water
 Three miles before the sun
 Her mother's mother carried children
 And a country on the run
+
+[Chorus]
+Lineage — the chain of women
+Who refused to let the line go dark
+Lineage — the quiet army
+Of mothers who carried every spark
+From hand to hand to hand to hand
+From womb to womb to womb
+Every woman in this chain
+Made room — for you, for me
+For every child who breathes
+Because a woman once believed
 
 [Verse 2]
 My mother carried silence
@@ -6038,6 +6250,18 @@ I am not self-made
 I am grandmother-made
 I am mother-made
 I am woman-made
+
+[Chorus]
+Lineage — the chain of women
+Who refused to let the line go dark
+Lineage — the quiet army
+Of mothers who carried every spark
+From hand to hand to hand to hand
+From womb to womb to womb
+Every woman in this chain
+Made room — for you, for me
+For every child who breathes
+Because a woman once believed
 
 [Outro]
 Lineage

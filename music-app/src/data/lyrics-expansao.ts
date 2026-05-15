@@ -457,11 +457,25 @@ to begin`,
   // Herança africana, diáspora, terra de origem, saudade de casa
   // ─────────────────────────────────────────────
 
-  "sangue-raiz/1": `[Verse 1]
+  "sangue-raiz/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Há um chão que me conhece de cor
 um chão vermelho que pintou os meus pés
 Antes de eu saber o meu nome
 a terra já o dizia — uma, duas, três
+
+[Chorus]
+Terra vermelha
+corre-me nas veias como sangue
+Terra vermelha
+não importa onde eu vá, o chão não mente
+Posso morar em qualquer sítio do mapa
+vestir outra língua, outro nome, outra gente
+Mas quando fecho os olhos
+é este chão que me sustenta
 
 [Verse 2]
 A mangueira do quintal da avó
@@ -485,6 +499,16 @@ Moçambique não é um país
 De andar devagar quando o sol aperta
 de rir com a barriga como um porto
 
+[Chorus]
+Terra vermelha
+corre-me nas veias como sangue
+Terra vermelha
+não importa onde eu vá, o chão não mente
+Posso morar em qualquer sítio do mapa
+vestir outra língua, outro nome, outra gente
+Mas quando fecho os olhos
+é este chão que me sustenta
+
 [Outro]
 Terra vermelha
 nos meus pés
@@ -492,11 +516,25 @@ na minha boca
 na memória
 que o corpo nunca perde`,
 
-  "sangue-raiz/2": `[Verse 1]
+  "sangue-raiz/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 There's a rhythm in my hips
 that no city could erase
 A drumbeat underneath my walk
 my grandmother's quiet grace
+
+[Chorus]
+Roots don't ask permission
+they grow through concrete floors
+Roots don't need your passport
+they remember older doors
+I carry continents inside my spine
+oceans underneath my skin
+Wherever I arrive
+my roots have already been
 
 [Verse 2]
 I learned to code-switch before I knew the word
@@ -522,6 +560,16 @@ I said — watch my lips
 The root is not the decoration
 it's the reason the tree exists
 
+[Chorus]
+Roots don't ask permission
+they grow through concrete floors
+Roots don't need your passport
+they remember older doors
+I carry continents inside my spine
+oceans underneath my skin
+Wherever I arrive
+my roots have already been
+
 [Outro]
 I am the seed
 that was carried across the water
@@ -529,11 +577,25 @@ I am the tree
 that grew where it was not planted
 And still — I bloom`,
 
-  "sangue-raiz/3": `[Verse 1]
+  "sangue-raiz/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 A capulana da minha mãe
 tem o mapa de quem ela foi
 Cada padrão é uma história
 que nenhuma escola me contou, nem um herói
+
+[Chorus]
+Capulana — pano sagrado
+que embala o bebé e cobre a mesa
+Capulana — a bandeira que não tem estado
+mas tem a dignidade inteira, ilesa
+A minha mãe usava-a de saia
+a avó usava-a de manta
+Eu uso-a de coroa
+porque é isso que ela canta
 
 [Verse 2]
 Amarro-a à cintura
@@ -557,6 +619,16 @@ o que cem livros não conseguem
 Uma mulher que se envolve num tecido
 sabe o que as raízes pedem
 
+[Chorus]
+Capulana — pano sagrado
+que embala o bebé e cobre a mesa
+Capulana — a bandeira que não tem estado
+mas tem a dignidade inteira, ilesa
+A minha mãe usava-a de saia
+a avó usava-a de manta
+Eu uso-a de coroa
+porque é isso que ela canta
+
 [Outro]
 Amarro e caminho
 amarro e danço
@@ -564,11 +636,25 @@ amarro e existo
 com a dignidade
 de quem sabe donde veio`,
 
-  "sangue-raiz/4": `[Verse 1]
+  "sangue-raiz/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The kitchen smells of cumin and bay
 my mother's hands move without looking
 She learned this recipe from her mother's mother
 and the spice is more than cooking
+
+[Chorus]
+Heritage tastes like this
+like slow fire and turmeric and time
+Heritage sounds like the wooden spoon
+against the pot — a steady rhyme
+You cannot read it in a textbook
+you cannot buy it at a store
+Heritage is the meal that says
+you were loved here long before
 
 [Verse 2]
 Piri piri, coconut milk, the slow heat
@@ -592,6 +678,16 @@ I don't say coordinates or flags
 I say — sit down, taste this
 my grandmother is in this pot, is in these rags
 
+[Chorus]
+Heritage tastes like this
+like slow fire and turmeric and time
+Heritage sounds like the wooden spoon
+against the pot — a steady rhyme
+You cannot read it in a textbook
+you cannot buy it at a store
+Heritage is the meal that says
+you were loved here long before
+
 [Outro]
 The spice
 the fire
@@ -599,11 +695,25 @@ the patient hand
 This is where I come from
 this is where I stand`,
 
-  "sangue-raiz/5": `[Verse 1]
+  "sangue-raiz/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Danço no escuro da sala
 como a avó dançava no terreiro
 Os pés descalços batem no chão
 com a urgência de um tambor primeiro
+
+[Chorus]
+A dança não se ensina
+a dança acorda — dorme no corpo
+Está nas costas das mulheres que te vieram
+no suor de cada esforço
+A dança é a língua-mãe
+a primeira, a que não se esquece
+Mesmo quando cala a boca
+o corpo dança — porque merece
 
 [Verse 2]
 A marrabenta corre-me no sangue
@@ -627,6 +737,16 @@ ninguém me disse como pôr os pés
 É o sangue que sabe a coreografia
 é a carne que foi treinada desde os dez
 
+[Chorus]
+A dança não se ensina
+a dança acorda — dorme no corpo
+Está nas costas das mulheres que te vieram
+no suor de cada esforço
+A dança é a língua-mãe
+a primeira, a que não se esquece
+Mesmo quando cala a boca
+o corpo dança — porque merece
+
 [Outro]
 Descalça
 no escuro
@@ -635,11 +755,25 @@ como quem reza
 como quem volta a casa
 sem sair do lugar`,
 
-  "sangue-raiz/6": `[Verse 1]
+  "sangue-raiz/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 I left home at seventeen
 with a suitcase and a prayer
 The airport smelled of floor wax and goodbye
 my mother's scarf still in my hair
+
+[Chorus]
+Diaspora child
+I am the bridge between two skies
+Diaspora child
+I hold two truths and neither lies
+My accent shifts depending on the room
+my heart shifts depending on the song
+I belong to everywhere
+and nowhere — all along
 
 [Verse 2]
 I learned to miss in a new language
@@ -663,17 +797,41 @@ home is what I carry in my jaw
 In the way I hold my tea
 in the way I say my mother's name — in awe
 
+[Chorus]
+Diaspora child
+I am the bridge between two skies
+Diaspora child
+I hold two truths and neither lies
+My accent shifts depending on the room
+my heart shifts depending on the song
+I belong to everywhere
+and nowhere — all along
+
 [Outro]
 I am not torn between two worlds
 I am two worlds
 whole
 and breathing`,
 
-  "sangue-raiz/7": `[Verse 1]
+  "sangue-raiz/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 O Índico é mais quente do que lembras
 a água abraça em vez de empurrar
 As ondas não têm pressa de chegar
 conhecem a costa — sabem esperar
+
+[Chorus]
+Índico — o meu primeiro espelho
+foi na tua água que me vi
+Índico — guardas o que perdi
+e devolves-mo sempre que volto aqui
+O mar não julga de onde venho
+nem pergunta quanto tempo fiquei
+Abre os braços como uma mãe
+e diz — eu sei, eu sei, eu sei
 
 [Verse 2]
 Cresci com areia entre os dedos
@@ -697,6 +855,16 @@ eu olho e vejo a varanda da avó
 O barco do pescador ao amanhecer
 o cheiro de peixe fresco, de terra e pó
 
+[Chorus]
+Índico — o meu primeiro espelho
+foi na tua água que me vi
+Índico — guardas o que perdi
+e devolves-mo sempre que volto aqui
+O mar não julga de onde venho
+nem pergunta quanto tempo fiquei
+Abre os braços como uma mãe
+e diz — eu sei, eu sei, eu sei
+
 [Outro]
 Índico
 levo-te nos olhos
@@ -705,11 +873,25 @@ de qualquer mar
 e procuro
 a tua cor`,
 
-  "sangue-raiz/8": `[Verse 1]
+  "sangue-raiz/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 The elders sit beneath the shade
 and time bends around their words
 They speak in proverbs, not in rush
 and every silence is a bridge, not a curse
+
+[Chorus]
+Wisdom doesn't need a degree
+it lives in hands that know the soil
+In eyes that watched a century
+of harvest, drought, and toil
+The elders carry libraries
+inside their quiet bones
+Every wrinkle is a chapter
+every story builds a home
 
 [Verse 2]
 My grandmother never went to school
@@ -733,6 +915,16 @@ as if forward was the only way
 But the tree that forgets its roots
 will fall on the windiest day
 
+[Chorus]
+Wisdom doesn't need a degree
+it lives in hands that know the soil
+In eyes that watched a century
+of harvest, drought, and toil
+The elders carry libraries
+inside their quiet bones
+Every wrinkle is a chapter
+every story builds a home
+
 [Outro]
 Tell me again, grandmother
 the story with no end
@@ -741,11 +933,25 @@ with a woman
 who refused
 to bend`,
 
-  "sangue-raiz/9": `[Verse 1]
+  "sangue-raiz/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 Volto a casa e já não reconheço
 as ruas mudaram de nome e de cor
 O mercado tem outros rostos
 mas o chão guarda o mesmo calor
+
+[Chorus]
+Regresso — o lugar ficou
+mas eu é que já não sou a mesma
+Regresso — o cheiro ficou
+a luz ficou, a brisa ficou, a crença
+Mas a menina que saiu daqui
+deixou os pés neste terreiro
+E a mulher que voltou
+já não sabe se é hóspede ou caseira
 
 [Verse 2]
 A vizinha morreu, o muro caiu
@@ -769,6 +975,16 @@ Regressar não é voltar atrás
 E perceber que o lugar que deixaste
 também te deixou — e sobreviviu
 
+[Chorus]
+Regresso — o lugar ficou
+mas eu é que já não sou a mesma
+Regresso — o cheiro ficou
+a luz ficou, a brisa ficou, a crença
+Mas a menina que saiu daqui
+deixou os pés neste terreiro
+E a mulher que voltou
+já não sabe se é hóspede ou caseira
+
 [Outro]
 Estou aqui
 de novo
@@ -777,11 +993,25 @@ mas aqui
 O chão reconhece-me
 mesmo que eu hesite`,
 
-  "sangue-raiz/10": `[Verse 1]
+  "sangue-raiz/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
+[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+
+[Verse 1]
 My daughter asks me where we're from
 and I hold continents in my reply
 I say — from warm red earth and ocean salt
 from women who refused to die
+
+[Chorus]
+I pass it on
+the way my mother passed it on to me
+Not in classrooms or in books
+but in the body's memory
+The way I cook, the way I laugh
+the way I hold her when she cries
+She will carry what I carry
+underneath her foreign skies
 
 [Verse 2]
 She doesn't speak the language yet
@@ -804,6 +1034,16 @@ One day she will ask again
 and I will tell her everything
 About the red earth and the mango tree
 the ocean and the offering
+
+[Chorus]
+I pass it on
+the way my mother passed it on to me
+Not in classrooms or in books
+but in the body's memory
+The way I cook, the way I laugh
+the way I hold her when she cries
+She will carry what I carry
+underneath her foreign skies
 
 [Outro]
 This is yours now

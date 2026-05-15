@@ -2880,6 +2880,16 @@ E dividíamos o mesmo banco
 Tu tinhas medo do escuro
 Eu tinha medo do silêncio branco
 
+[Chorus]
+A primeira
+A que me viu antes de eu me ver
+A primeira
+A que ficou sem eu pedir
+Sem contrato, sem razão
+Só a mão dentro da mão
+A primeira amiga
+Foi a primeira oração
+
 [Verse 2]
 Viste-me chorar antes da minha mãe
 Viste-me mentir antes do espelho
@@ -2904,6 +2914,16 @@ No banco da escola
 A dizer: estou aqui
 Não precisas de mais nada
 
+[Chorus]
+A primeira
+A que me viu antes de eu me ver
+A primeira
+A que ficou sem eu pedir
+Sem contrato, sem razão
+Só a mão dentro da mão
+A primeira amiga
+Foi a primeira oração
+
 [Outro]
 A primeira
 Ainda
@@ -2919,6 +2939,18 @@ I walk into the room and she tilts her head
 Half a second — that's all she needs
 She doesn't ask how are you
 She says: what happened, I can read
+
+[Chorus]
+She knows
+Before I speak she knows
+Before I cry she knows
+Before I lie she knows
+She knows the way I hold my keys
+When I'm about to break
+She knows the silence in my smile
+When everything's at stake
+She knows — and that's enough
+She knows — and I am safe
 
 [Verse 2]
 It's not magic, it's just years
@@ -2946,6 +2978,18 @@ But the language of someone
 Who's been paying attention
 Since we were very young
 
+[Chorus]
+She knows
+Before I speak she knows
+Before I cry she knows
+Before I lie she knows
+She knows the way I hold my keys
+When I'm about to break
+She knows the silence in my smile
+When everything's at stake
+She knows — and that's enough
+She knows — and I am safe
+
 [Outro]
 She knows
 And I know her
@@ -2961,6 +3005,18 @@ São duas da manhã e a garrafa está por metade
 Tu estás descalça e eu estou a rir
 Não sei como chegámos a este assunto
 Mas estamos as duas a decidir
+
+[Chorus]
+Mesa de cozinha
+É o altar mais honesto que eu conheço
+Mesa de cozinha
+Onde a verdade não tem preço
+Não precisa de velas
+Não precisa de padre
+Só precisa de vinho
+De riso e de uma amiga
+Que te diga: continua
+Que a vida é bonita
 
 [Verse 2]
 Que o amor perfeito não existe
@@ -2980,12 +3036,6 @@ De riso e de uma amiga
 Que te diga: continua
 Que a vida é bonita
 
-[Verse 3]
-Às três já resolvemos o mundo
-Às quatro já choramos de rir
-E quando o sol começa a nascer
-Sabemos que vai ficar tudo bem — por existir
-
 [Outro]
 Mesa de cozinha
 Vinho
@@ -3001,6 +3051,18 @@ You called at midnight
 Voice like crumpled paper
 I didn't say it's going to be okay
 I didn't offer you a saviour
+
+[Chorus]
+Holding space
+Is the bravest kind of quiet
+Holding space
+Is not fixing, not advising
+Just the steady sound of breathing
+On the other end of the line
+Holding space — I am here
+Holding space — take your time
+Holding space — you don't have to be okay
+You just have to be mine
 
 [Verse 2]
 I sat with you in the dark
@@ -3028,6 +3090,18 @@ Of someone saying: I understand
 Without understanding
 Just being there
 
+[Chorus]
+Holding space
+Is the bravest kind of quiet
+Holding space
+Is not fixing, not advising
+Just the steady sound of breathing
+On the other end of the line
+Holding space — I am here
+Holding space — take your time
+Holding space — you don't have to be okay
+You just have to be mine
+
 [Outro]
 I'm here
 That's all
@@ -3042,6 +3116,16 @@ Começa com um olhar
 Depois o lábio treme
 Depois é tarde demais
 O riso já não se contém
+
+[Chorus]
+Riso — o remédio que não se vende
+Riso — a oração que ninguém ensina
+Riso com a barriga a doer
+Riso com lágrimas na esquina
+Riso que cura o que o médico não vê
+Riso que lava o que a chuva não lava
+Riso — contigo
+É a minha terapia mais brava
 
 [Verse 2]
 Rimos da piada velha
@@ -3059,17 +3143,21 @@ Riso que lava o que a chuva não lava
 Riso — contigo
 É a minha terapia mais brava
 
-[Verse 3]
-Já rimos no funeral da tia
-Já rimos no dia mais triste
-E o mundo ficou mais leve
-Porque o teu riso existe
-
 [Bridge]
 Não me dês conselhos
 Não me dês abraços
 Dá-me essa gargalhada
 Que me desarma os braços
+
+[Chorus]
+Riso — o remédio que não se vende
+Riso — a oração que ninguém ensina
+Riso com a barriga a doer
+Riso com lágrimas na esquina
+Riso que cura o que o médico não vê
+Riso que lava o que a chuva não lava
+Riso — contigo
+É a minha terapia mais brava
 
 [Outro]
 Riso
@@ -3086,6 +3174,18 @@ I'm in the car park at the supermarket
 Mascara down my face like rain
 She picks up on the second ring
 And says: go on, I've got all day
+
+[Chorus]
+The ugly cry
+The one you save for safe places
+The ugly cry
+The snot and the shaking
+The words that come out sideways
+The truth that sounds like breaking
+The ugly cry — is sacred
+The ugly cry — is prayer
+The ugly cry — is trusting someone enough
+To let them see you there
 
 [Verse 2]
 I don't even know why I'm crying
@@ -3111,6 +3211,18 @@ She says: cry louder if you need
 She says: the strongest thing I've seen you do
 Is let yourself bleed
 
+[Chorus]
+The ugly cry
+The one you save for safe places
+The ugly cry
+The snot and the shaking
+The words that come out sideways
+The truth that sounds like breaking
+The ugly cry — is sacred
+The ugly cry — is prayer
+The ugly cry — is trusting someone enough
+To let them see you there
+
 [Outro]
 Thank you
 For the mess
@@ -3126,6 +3238,16 @@ Vi-te no palco com a luz na cara
 E o meu coração encheu de sol
 Não era inveja — era a alegria
 De ver-te ser o teu próprio farol
+
+[Chorus]
+Orgulho — o mais bonito dos sentimentos
+Quando a amiga brilha e tu também brilhas
+Orgulho — não diminui
+Orgulho multiplica
+Quando ela sobe, eu não desço
+Eu subo com ela
+A maré que levanta uma
+Levanta todas as outras velas
 
 [Verse 2]
 Quando eras pequena tinhas medo
@@ -3151,6 +3273,16 @@ Então eu sei
 Que há luz para todas
 Debaixo da mesma lua
 
+[Chorus]
+Orgulho — o mais bonito dos sentimentos
+Quando a amiga brilha e tu também brilhas
+Orgulho — não diminui
+Orgulho multiplica
+Quando ela sobe, eu não desço
+Eu subo com ela
+A maré que levanta uma
+Levanta todas as outras velas
+
 [Outro]
 Brilha
 Que eu aplaudo
@@ -3166,6 +3298,18 @@ You moved to London
 I stayed behind
 We used to share a coat
 Now we share a time zone line
+
+[Chorus]
+Separate lives
+Same heartbeat still
+Separate lives
+But the thread is real
+We don't need to talk every day
+We don't need to live down the street
+We just need to know
+That whenever we meet
+It's like we never left
+The kitchen table seat
 
 [Verse 2]
 Your daughter calls me auntie
@@ -3185,17 +3329,23 @@ That whenever we meet
 It's like we never left
 The kitchen table seat
 
-[Verse 3]
-You've changed and I've changed
-We're not who we were at twenty-three
-But the woman I became
-Still has a chair reserved for thee
-
 [Bridge]
 Distance is only geography
 It's not the heart
 The heart doesn't do kilometres
 The heart does: I'm here when you start
+
+[Chorus]
+Separate lives
+Same heartbeat still
+Separate lives
+But the thread is real
+We don't need to talk every day
+We don't need to live down the street
+We just need to know
+That whenever we meet
+It's like we never left
+The kitchen table seat
 
 [Outro]
 Separate lives
@@ -3211,6 +3361,20 @@ Não há música a tocar
 Mas estamos a dançar
 Na sala com as meias
 E o chão a brilhar
+
+[Chorus]
+Dança descalça
+Sem razão, sem motivo
+Dança descalça
+Porque o corpo está vivo
+Dança com a amiga
+Dança sem vergonha
+Dança até o chão sorrir
+Dança até a alma ser risonha
+Dança descalça
+Que a vida é agora
+Dança descalça
+Que o resto pode esperar lá fora
 
 [Verse 2]
 Tu giras e eu giro
@@ -3239,6 +3403,20 @@ Mas a loucura mais sábia
 É a alegria que se pouca
 Se guarda — apodrece
 Se se dança — floresce
+
+[Chorus]
+Dança descalça
+Sem razão, sem motivo
+Dança descalça
+Porque o corpo está vivo
+Dança com a amiga
+Dança sem vergonha
+Dança até o chão sorrir
+Dança até a alma ser risonha
+Dança descalça
+Que a vida é agora
+Dança descalça
+Que o resto pode esperar lá fora
 
 [Outro]
 Descalças
@@ -3595,6 +3773,20 @@ But we were forged in the same fire
 You held my hand through the earthquake
 And I held yours through the wire
 
+[Chorus]
+Sisters — not by blood
+But by every single scar
+Sisters — not by name
+But by who we really are
+The family I was given
+Taught me how to stand
+The family I chose
+Taught me I could land
+Sisters — you are my proof
+That love is not a debt
+Sisters — you are the roof
+Over the life I'll never regret
+
 [Verse 2]
 I chose you in a crowded room
 Before I even knew your name
@@ -3622,6 +3814,20 @@ And you chose me
 And that choice
 Is the most sacred thing
 I'll ever do
+
+[Chorus]
+Sisters — not by blood
+But by every single scar
+Sisters — not by name
+But by who we really are
+The family I was given
+Taught me how to stand
+The family I chose
+Taught me I could land
+Sisters — you are my proof
+That love is not a debt
+Sisters — you are the roof
+Over the life I'll never regret
 
 [Outro]
 Sisters
