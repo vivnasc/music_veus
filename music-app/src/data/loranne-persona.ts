@@ -22,21 +22,21 @@ export const LORANNE_PERSONA_SEED = {
 
 // Bloco vocal — para letras em PT
 export const LORANNE_VOCAL_SIGNATURE_PT = `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants (pronounce 'ti' as 'ti' not 'tchi', 'di' as 'di' not 'dji'), closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]`;
 
 // Bloco vocal — para letras em EN
 export const LORANNE_VOCAL_SIGNATURE_EN = `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]`;
 
 // Bloco vocal — para faixas em duet (Loranne lead + barítono masculino)
 export const LORANNE_VOCAL_SIGNATURE_DUET_PT = `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive, never dominant. Female vocal ALWAYS predominant: opens, closes, owns every chorus. Male vocal adds depth, never competes. No melisma, no belting, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: Mozambican Portuguese from Maputo — African Lusophone accent, hard consonants, closed vowels, no nasal drag, African rhythm. NOT Brazilian, NOT Lisbon European]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]`;
 
 export const LORANNE_VOCAL_SIGNATURE_DUET_EN = `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive, never dominant. Female vocal ALWAYS predominant: opens, closes, owns every chorus. Male vocal adds depth, never competes. No melisma, no belting, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]`;
 
 export type PersonaLang = "PT" | "EN";
