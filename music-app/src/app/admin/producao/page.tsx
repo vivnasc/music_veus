@@ -2349,12 +2349,30 @@ export default function AlbumProductionPage() {
     }));
 
     try {
+      // Garantir SEMPRE que o lyrics contém o bloco [Vocal:][CRITICAL:][Persona:]
+      // — mesmo que editedLyrics (do servidor/localStorage) tenha sido guardado
+      // sem ele. Sem este bloco o Suno ignora a persona voice e a voz varia.
+      const rawLyrics = (editedLyrics[key] || track.lyrics || "").toString();
+      let lyricsToSend = rawLyrics;
+      if (!rawLyrics.trimStart().startsWith("[Vocal:") && track.lyrics) {
+        // Se track.lyrics tem o bloco mas a versão editada não, prepend a
+        // partir do track.lyrics. Mantém o conteúdo da versão editada
+        // (verses, chorus) mas adiciona o cabeçalho persona em cima.
+        const trackLyrics = track.lyrics.toString();
+        if (trackLyrics.trimStart().startsWith("[Vocal:")) {
+          const headerEnd = trackLyrics.indexOf("\n[", trackLyrics.indexOf("[Persona:"));
+          if (headerEnd > 0) {
+            const header = trackLyrics.slice(0, headerEnd).trim();
+            lyricsToSend = header + "\n\n" + rawLyrics.trimStart();
+          }
+        }
+      }
       const res = await adminFetch("/api/admin/suno/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           prompt: usedPrompt,
-          lyrics: editedLyrics[key] || track.lyrics,
+          lyrics: lyricsToSend,
           title: editedTitles[key] || track.title,
           instrumental: false,
           model: sunoModel,
