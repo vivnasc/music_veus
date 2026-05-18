@@ -193,8 +193,10 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
   if (uniqueKeywords.length > 0) parts.push(uniqueKeywords.join(", "));
   parts.push(base);
 
-  // Add language
-  if (prompt?.includes("Portuguese")) parts.push("Portuguese, african accent");
+  // Add language ONLY. Accent goes in the lyrics [CRITICAL:] block, not the
+  // style — Suno treats anything here as a GENRE hint and "african accent"
+  // pushes generation toward afrobeat/funk. Keep style genre-clean.
+  if (prompt?.includes("Portuguese")) parts.push("Portuguese");
   else if (prompt?.includes("English")) parts.push("English");
 
   parts.push("full song");
