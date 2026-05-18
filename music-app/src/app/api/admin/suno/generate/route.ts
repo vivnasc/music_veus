@@ -48,15 +48,32 @@ function extractStyleTags(prompt: string): string {
     "Portuguese", "English",
   ];
 
+  // CRITICAL FIX: ignorar palavras que estão precedidas de negações
+  // ("NOT afrobeat", "no funk", "without samba", "do not add brazilian", etc.)
+  // Caso contrário um prompt que diz "NOT afrobeat, NOT funk" acaba a
+  // produzir style="afrobeat, funk" — exactamente o oposto.
   const lower = prompt.toLowerCase();
   const found: string[] = [];
+
+  function isNegated(idx: number): boolean {
+    // Olhar até ~40 chars antes da palavra por sinais de negação
+    const start = Math.max(0, idx - 40);
+    const before = lower.slice(start, idx);
+    // Padrões: "not ", "no ", "without ", "don't ", "do not ", "never ",
+    // "avoid ", "exclude ", "exclusion", "skip ", "isn't ", "NOT " (uppercase)
+    return /\b(?:not|no|without|don't|never|avoid|exclude|exclusion|skip|isn't|nem|sem|não)\s+(?:add|use|do|include|play|sound)?\s*$/i.test(before) ||
+           /\bnot\s+$/i.test(before) ||
+           /\bno\s+$/i.test(before);
+  }
 
   // Extract matching keywords (longest first to avoid partial matches)
   const sorted = [...keywords].sort((a, b) => b.length - a.length);
   for (const kw of sorted) {
-    if (lower.includes(kw.toLowerCase()) && !found.some(f => f.toLowerCase().includes(kw.toLowerCase()) || kw.toLowerCase().includes(f.toLowerCase()))) {
-      found.push(kw);
-    }
+    const idx = lower.indexOf(kw.toLowerCase());
+    if (idx < 0) continue;
+    if (isNegated(idx)) continue; // skip se for negação
+    if (found.some(f => f.toLowerCase().includes(kw.toLowerCase()) || kw.toLowerCase().includes(f.toLowerCase()))) continue;
+    found.push(kw);
   }
 
   let result = found.slice(0, 10).join(", ");
