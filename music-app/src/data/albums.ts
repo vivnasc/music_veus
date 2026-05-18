@@ -1483,7 +1483,10 @@ const VIDA_RAIZ = vidaAlbum("sangue-raiz", "Heritage", "O que a raiz custa quand
 ], "sangue");
 
 const VIDA_MAE = vidaAlbum("sangue-mae", "Mãe", "maternidade — o corpo que gera, o medo, o amor sem fundo", "#D4A853", [
-  { number: 1, title: "Nove Meses", description: "O corpo que já não é só teu", lang: "PT", energy: "whisper", prompt: vidaPrompt("pregnancy, body no longer just yours, planet forming inside", "wonder, fear, surrender, transformation", "soft piano, gentle strings, intimate vocal", "PT", "whisper"), durationSeconds: 260 },
+  // Track 1: prompt flat (bypass vidaPrompt) — ENERGY_STYLES.whisper prepende
+  // "Soft synth pads, piano, subtle percussion, strings" que o buildStyle()
+  // extraía e injectava no style → ritmo contaminado. Aqui só vai intenção/mood.
+  { number: 1, title: "Nove Meses", description: "O corpo que já não é só teu", lang: "PT", energy: "whisper", prompt: "Lyrics in Portuguese. Intimate songwriter ballad, contemplative tone. Theme: pregnancy, the body no longer only your own. Wonder and fear and surrender.", durationSeconds: 260 },
   { number: 2, title: "The First Cry", description: "O primeiro grito partiu a sala ao meio", lang: "EN", energy: "raw", prompt: vidaPrompt("first cry splitting the room, everything before was theory, now is rain", "raw, overwhelming, cracked open, reborn", "minimal piano, raw close-mic vocal, silence, then swelling strings, birth-like intensity", "EN", "raw"), durationSeconds: 260 },
   { number: 3, title: "Desvelo", description: "Três da manhã — o corpo levanta sem decidir", lang: "PT", energy: "whisper", flavor: "folk", prompt: vidaPrompt("3AM motherhood vigil, body rising without deciding, exhausted love", "tender, exhausted, fierce, intimate", "soft fingerpicked guitar, gentle vocal, lullaby-like, breath sounds, night textures", "PT", "whisper", "folk"), durationSeconds: 260 },
   { number: 4, title: "Good Enough", description: "A culpa que vem embrulhada no presente", lang: "EN", energy: "steady", prompt: vidaPrompt("motherhood guilt, good enough is not settling, 3AM and vomit on dress", "honest, compassionate, defiant, warm", "warm acoustic, steady rhythm, conversational vocal, building to affirmation", "EN", "steady"), durationSeconds: 240 },
