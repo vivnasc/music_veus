@@ -10,7 +10,7 @@ export const ELEVAR_LYRICS: Record<string, string> = {
 
   "incenso-acende/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo upright piano with felt damper, single note ringing into silence, breath audible
 [Verse 1]
@@ -82,7 +82,7 @@ ainda`,
 
   "incenso-acende/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo piano, single low cello bow, room tone, breath audible]
 [Verse 1]
@@ -151,7 +151,7 @@ before I asked`,
 
   "incenso-acende/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: soft Rhodes piano, light brushed drums entering on bar 4, warm fretless bass]
 [Verse 1]
@@ -218,7 +218,7 @@ Vai aprendendo`,
 
   "incenso-acende/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads, plucky synth motif, soft hand-claps on bar 4, faint footstep texture
 [Verse 1]
@@ -295,7 +295,7 @@ cinco passos`,
 
   "incenso-acende/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, Hammond organ swells gradually, no vocal yet — in
 [Verse 1]
@@ -370,7 +370,7 @@ voltei`,
 
   "incenso-acende/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: felt-piano with single warm pad swell, ambient room tone, breath audible, no drums]
 [Verse 1]
@@ -437,7 +437,7 @@ that I owe myself`,
 
   "incenso-acende/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: fingerpicked nylon guitar, soft cello drone underneath, faint street ambience, breath
 [Verse 1]
@@ -504,7 +504,7 @@ fui à esquina e voltei`,
 
   "incenso-acende/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads, plucky synth lead, sidechained kick entering on bar 4 mimicking hear
 [Verse 1]
@@ -575,7 +575,7 @@ firme`,
 
   "incenso-acende/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, Hammond organ swells, log-feel low drum sparse, n
 [Verse 1]
@@ -653,7 +653,7 @@ cá estou`,
 
   "incenso-acende/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo felt-piano, soft pad bed, room tone, breath audible, no drums]
 [Verse 1]
@@ -739,7 +739,7 @@ street ambience) sem comprometer clareza.`,
 
   "incenso-coro/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo mbira, soft pad bed, room tone with subtle static, distant hum almost impercepti
 [Verse 1]
@@ -810,7 +810,7 @@ alguém`,
 
   "incenso-coro/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: fingerpicked nylon guitar, soft kora line, low standing bass, room creak audible, no
 [Verse 1]
@@ -875,7 +875,7 @@ you are not`,
 
   "incenso-coro/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: soft Rhodes piano, light brushed drums entering on bar 4, warm fretless bass, no voca
 [Verse 1]
@@ -942,7 +942,7 @@ repete-se`,
 
   "incenso-coro/4": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo felt-piano, warm pad swell, subtle phone-buzz percussion as rhythmic texture, oc
 [Verse 1]
@@ -1007,7 +1007,7 @@ me too`,
 
   "incenso-coro/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, djembe entering on bar 4, hand-cl
 [Verse 1]
@@ -1084,7 +1084,7 @@ não sozinha`,
 
   "incenso-coro/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: soft pad bed, single sustained cello, room tone, collective female breath very faint,
 [Verse 1]
@@ -1149,7 +1149,7 @@ held`,
 
   "incenso-coro/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo nylon guitar, low fretless bass, breath audible, no drums]
 [Verse 1]
@@ -1214,7 +1214,7 @@ tia`,
 
   "incenso-coro/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads, plucky synth lead, djembe layered with sidechained kick entering on
 [Verse 1]
@@ -1284,7 +1284,7 @@ the floor`,
 
   "incenso-coro/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, djembe entering on bar 4, timbila
 [Verse 1]
@@ -1359,7 +1359,7 @@ porque nós`,
 
   "incenso-coro/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo felt-piano, soft pad bed, distant single mbira note repeating, room tone with su
 [Verse 1]
@@ -1428,7 +1428,7 @@ that holds`,
 
   "incenso-milagre/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo upright piano with felt damper, warm Wurlitzer pad, room tone, breath audible]
 
@@ -1496,7 +1496,7 @@ já não pedia`,
 
   "incenso-milagre/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo Wurlitzer piano, warm upright bass, room creak audible, no drums until chorus]
 [Verse 1]
@@ -1560,7 +1560,7 @@ the coffee was warm`,
 
   "incenso-milagre/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: soft Rhodes piano, light brushed drums entering on bar 4, warm fretless bass, faint b
 [Verse 1]
@@ -1628,7 +1628,7 @@ e foi tudo`,
 
   "incenso-milagre/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads, plucky synth motif, Wurlitzer chord stabs, sidechained kick entering
 [Verse 1]
@@ -1698,7 +1698,7 @@ anyway`,
 
   "incenso-milagre/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, Hammond organ swell, no vocal yet — instrumental
 [Verse 1]
@@ -1774,7 +1774,7 @@ misericórdia`,
 
   "incenso-milagre/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: felt-piano with warm Wurlitzer pad swell, ambient room tone with rain on window faint
 [Verse 1]
@@ -1840,7 +1840,7 @@ quiet mercy`,
 
   "incenso-milagre/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo nylon guitar, warm Wurlitzer chord swells, low fretless bass, faint street ambie
 
@@ -1907,7 +1907,7 @@ o vizinho viu`,
 
   "incenso-milagre/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads, plucky synth lead, Wurlitzer chord stabs, sidechained kick entering
 [Verse 1]
@@ -1978,7 +1978,7 @@ on a Thursday`,
 
   "incenso-milagre/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, Hammond organ swells, no vocal yet — instrumental
 [Verse 1]
@@ -2050,7 +2050,7 @@ sem eu pedir`,
 
   "incenso-milagre/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo felt-piano, warm Wurlitzer pad, room tone, breath audible, no drums]
 [Verse 1]
@@ -2121,7 +2121,7 @@ of my life`,
 
   "incenso-amen/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo upright piano with felt damper, soft pad bed, faint water sound (a tap dripping
 
@@ -2188,7 +2188,7 @@ empurrei a água`,
 
   "incenso-amen/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo piano, single low cello bow, room creak, breath audible]
 [Verse 1]
@@ -2253,7 +2253,7 @@ letting go`,
 
   "incenso-amen/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: soft Rhodes piano, light brushed drums entering on bar 4, warm fretless bass, faint s
 [Verse 1]
@@ -2319,7 +2319,7 @@ a maré sobe`,
 
   "incenso-amen/4": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: fingerpicked nylon guitar, soft cello drone underneath, faint clinical room tone, bre
 [Verse 1]
@@ -2385,7 +2385,7 @@ the diagnosis is true`,
 
   "incenso-amen/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, Hammond organ swell, no vocal yet — instrumental
 [Verse 1]
@@ -2464,7 +2464,7 @@ amen`,
 
   "incenso-amen/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: felt-piano with single warm pad swell, ambient room tone with kettle steam in the dis
 [Verse 1]
@@ -2528,7 +2528,7 @@ the yes that doesn't hurt`,
 
   "incenso-amen/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo nylon guitar, low fretless bass, room creak audible, no drums]
 [Verse 1]
@@ -2597,7 +2597,7 @@ pousei`,
 
   "incenso-amen/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads, plucky synth lead, sidechained kick (softer, rounded) entering on ba
 [Verse 1]
@@ -2669,7 +2669,7 @@ soft power`,
 
   "incenso-amen/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, Hammond organ swells, no vocal yet — instrumental
 [Verse 1]
@@ -2746,7 +2746,7 @@ sim`,
 
   "incenso-amen/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo felt-piano, soft pad bed, room tone, breath audible, no drums]
 [Verse 1]
@@ -2818,7 +2818,7 @@ the kettle quiet`,
 
   "incenso-aleluia/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo upright piano with felt damper, warm Hammond pad very low in mix, room tone, fai
 [Verse 1]
@@ -2884,7 +2884,7 @@ riso antigo`,
 
   "incenso-aleluia/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: fingerpicked nylon guitar, soft cello drone, room creak, no drums]
 [Verse 1]
@@ -2950,7 +2950,7 @@ the first smile`,
 
   "incenso-aleluia/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with soft Hammond, light brushed drums entering on bar 4, warm fretless
 [Verse 1]
@@ -3017,7 +3017,7 @@ a boca lembrou-se`,
 
   "incenso-aleluia/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads, plucky synth lead, Hammond chord stabs, sidechained kick entering on
 [Verse 1]
@@ -3088,7 +3088,7 @@ dancing in the kitchen`,
 
   "incenso-aleluia/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: warm marrabenta guitar picking, bass, congas, shaker entering on bar 4, hand-claps po
 [Verse 1]
@@ -3165,7 +3165,7 @@ festa pequena`,
 
   "incenso-aleluia/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: felt-piano, warm Hammond pad very low, ambient room tone with faint birdsong from a w
 [Verse 1]
@@ -3232,7 +3232,7 @@ joy without reason`,
 
   "incenso-aleluia/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano, warm Hammond chord swell, low fretless bass, no drums]
 [Verse 1]
@@ -3297,7 +3297,7 @@ cantei alto`,
 
   "incenso-aleluia/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: marrabenta guitar picking, bass, congas, shaker, djembe entering on bar 4, hand-claps
 [Verse 1]
@@ -3371,7 +3371,7 @@ o suor é oração`,
 
   "incenso-aleluia/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: marrabenta guitar picking, bass, congas, djembe, warm Hammond organ swell, hand-claps
 [Verse 1]
@@ -3456,7 +3456,7 @@ aleluia`,
 
   "incenso-aleluia/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo felt-piano, warm Hammond pad very low, faint distant tambourine echo (one hit, v
 [Verse 1]
@@ -3530,7 +3530,7 @@ the door unlocked`,
 
   "incenso-de-pe/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, vocal entering on bar 2 — no long instrumental opening
 
@@ -3603,7 +3603,7 @@ já é alguma coisa`,
 
   "incenso-de-pe/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, kick entering on bar 2 with vocal — no long instr
 [Verse 1]
@@ -3672,7 +3672,7 @@ this is the morning`,
 
   "incenso-de-pe/3": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -3743,7 +3743,7 @@ abro a janela`,
 
   "incenso-de-pe/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -3814,7 +3814,7 @@ bebo água`,
 
   "incenso-de-pe/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -3887,7 +3887,7 @@ aqui vamos`,
 
   "incenso-de-pe/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: felt-piano, warm Hammond pad very low, faint kettle steam, vocal entering on bar 2 —
 [Verse 1]
@@ -3953,7 +3953,7 @@ soft start`,
 
   "incenso-de-pe/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -4026,7 +4026,7 @@ vou indo`,
 
   "incenso-de-pe/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -4096,7 +4096,7 @@ the body already said yes`,
 
   "incenso-de-pe/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -4176,7 +4176,7 @@ para amanhã`,
 
   "incenso-de-pe/10": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
 
@@ -4264,7 +4264,7 @@ lado. Cor #F5A65B na tipografia. Sem rosto.`,
 
   "incenso-hoje-nao/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, vocal entering on bar 2 — no long instrumental opening
 [Verse 1]
@@ -4335,7 +4335,7 @@ para outro dia`,
 
   "incenso-hoje-nao/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -4407,7 +4407,7 @@ not today`,
 
   "incenso-hoje-nao/3": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -4478,7 +4478,7 @@ a culpa pode esperar`,
 
   "incenso-hoje-nao/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -4550,7 +4550,7 @@ I'm not picking up`,
 
   "incenso-hoje-nao/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -4624,7 +4624,7 @@ em saúde`,
 
   "incenso-hoje-nao/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: felt-piano, warm Hammond pad very low, vocal entering on bar 2 — no long instrumental
 [Verse 1]
@@ -4691,7 +4691,7 @@ that nobody hears`,
 
   "incenso-hoje-nao/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
 [Verse 1]
@@ -4758,7 +4758,7 @@ e o resto é silêncio bom`,
 
   "incenso-hoje-nao/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -4832,7 +4832,7 @@ the shoulders said no`,
 
   "incenso-hoje-nao/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -4909,7 +4909,7 @@ arquitectura`,
 
   "incenso-hoje-nao/10": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
 [Verse 1]
@@ -4998,7 +4998,7 @@ com força). Cor #7B9EA8 na tipografia. Sem rosto, mantém a estética Loranne.`
 
   "incenso-ar/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: felt-piano, warm Hammond pad very low, faint inhale, vocal entering on bar 2 — no lon
 [Verse 1]
@@ -5081,7 +5081,7 @@ lembrei-me
 
   "incenso-ar/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: felt-piano, warm Hammond pad very low, slow audible breathing, vocal entering on bar
 [Verse 1]
@@ -5166,7 +5166,7 @@ slow breath
 
   "incenso-ar/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, vocal entering on bar 2 — no long instrumental opening
 [Verse 1]
@@ -5236,7 +5236,7 @@ sabe o caminho`,
 
   "incenso-ar/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with breathing-rhythm sidechain, Hammond stabs, vocal entering on bar
 [Verse 1]
@@ -5307,7 +5307,7 @@ inhale, exhale`,
 
   "incenso-ar/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell (gentle), vocal entering on bar 2
 [Verse 1]
@@ -5380,7 +5380,7 @@ para mim`,
 
   "incenso-ar/6": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano, low fretless bass, audible long breath, vocal entering on bar 2 — no lo
 [Verse 1]
@@ -5451,7 +5451,7 @@ one long breath`,
 
   "incenso-ar/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
 [Verse 1]
@@ -5519,7 +5519,7 @@ hoje cabe em mim`,
 
   "incenso-ar/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -5592,7 +5592,7 @@ the lungs will be here last`,
 
   "incenso-ar/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -5669,7 +5669,7 @@ não pedi e veio`,
 
   "incenso-ar/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo felt-piano, warm Hammond pad very low, slow audible breathing, vocal entering on
 [Verse 1]
@@ -5761,7 +5761,7 @@ rosto.`,
 
   "incenso-mexe/1": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -5837,7 +5837,7 @@ e o resto vai aprendendo`,
 
   "incenso-mexe/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -5909,7 +5909,7 @@ the door is open`,
 
   "incenso-mexe/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, footstep texture, vocal entering on bar 2, kick f
 [Verse 1]
@@ -5984,7 +5984,7 @@ a manhã arruma-se`,
 
   "incenso-mexe/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, hand-claps polyrhythmic, vocal entering on bar 2,
 [Verse 1]
@@ -6057,7 +6057,7 @@ dance without asking`,
 
   "incenso-mexe/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -6134,7 +6134,7 @@ estive a viver`,
 
   "incenso-mexe/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, footstep texture, vocal entering on bar 2, kick f
 [Verse 1]
@@ -6206,7 +6206,7 @@ the chest is lighter`,
 
   "incenso-mexe/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
 [Verse 1]
@@ -6275,7 +6275,7 @@ não há pressa`,
 
   "incenso-mexe/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -6348,7 +6348,7 @@ the order matters`,
 
   "incenso-mexe/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, djembe, timbila, vocal entering o
 [Verse 1]
@@ -6425,7 +6425,7 @@ e ficou`,
 
   "incenso-mexe/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -6518,7 +6518,7 @@ Elevar principal.`,
 
   "incenso-volta-a-mim/1": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell (gentle), vocal entering on bar 2
 [Verse 1]
@@ -6593,7 +6593,7 @@ inteira`,
 
   "incenso-volta-a-mim/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -6665,7 +6665,7 @@ welcome back`,
 
   "incenso-volta-a-mim/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
 [Verse 1]
@@ -6734,7 +6734,7 @@ respira agora`,
 
   "incenso-volta-a-mim/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: felt-piano, warm Hammond pad very low, vocal entering on bar 2 — no long instrumental
 [Verse 1]
@@ -6803,7 +6803,7 @@ the woman who can be found`,
 
   "incenso-volta-a-mim/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -6877,7 +6877,7 @@ do sítio antigo`,
 
   "incenso-volta-a-mim/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
@@ -6949,7 +6949,7 @@ family, not tourist`,
 
   "incenso-volta-a-mim/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
 [Verse 1]
@@ -7017,7 +7017,7 @@ debaixo da civilizada`,
 
   "incenso-volta-a-mim/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: felt-piano, warm Hammond pad very low, vocal entering on bar 2 — no long instrumental
 [Verse 1]
@@ -7084,7 +7084,7 @@ that I trust now`,
 
   "incenso-volta-a-mim/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
@@ -7162,7 +7162,7 @@ em todos os quartos`,
 
   "incenso-volta-a-mim/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
-[Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 
