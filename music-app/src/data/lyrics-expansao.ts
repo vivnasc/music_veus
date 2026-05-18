@@ -1063,16 +1063,16 @@ that never ends`,
   // ─────────────────────────────────────────────
 
   "sangue-mae/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[CRITICAL: Mozambican Portuguese from Maputo ACCENT for pronunciation only (hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, closed vowels). Music style stays contemporary organic-electronic — DO NOT add Afrobeat, funk, Brazilian, samba, marrabenta, amapiano or any African/Latin genre. Vocal accent only. NOT Brazilian Portuguese, NOT carioca, NOT Lisbon European]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 1 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Antes de te conhecer já te carregava
 um peso doce debaixo do peito
 O corpo mudou de forma e de mapa
 e eu mudei de nome — mãe, sem jeito
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Nove meses — e eu já não sou eu
 Nove meses — e o corpo já não é meu
 É teu, é nosso, é de quem vier
@@ -1080,13 +1080,13 @@ Nove meses para aprender
 que amar é deixar de ser
 quem eu era — e não querer voltar
 
-[Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 2 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Não sabia que o medo tinha este tamanho
 que o amor podia doer nos ossos
 Que bastava um soluço teu no escuro
 para eu tremer como quem cai em poços
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Nove meses — e eu já não sou eu
 Nove meses — e o corpo já não é meu
 É teu, é nosso, é de quem vier
@@ -1094,19 +1094,19 @@ Nove meses para aprender
 que amar é deixar de ser
 quem eu era — e não querer voltar
 
-[Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 3 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Os meses contam-se pelo crescer
 da curva onde tu vives e respiras
 Cada chuto, cada espreguiço, cada virada
 é uma carta que ainda não decifras
 
-[Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Bridge - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 A barriga redonda como um planeta
 um universo inteiro a girar por dentro
 E eu — apenas uma mulher sentada
 a segurar o centro
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Nove meses — e eu já não sou eu
 Nove meses — e o corpo já não é meu
 É teu, é nosso, é de quem vier
@@ -1114,7 +1114,7 @@ Nove meses para aprender
 que amar é deixar de ser
 quem eu era — e não querer voltar
 
-[Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Outro - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Ainda não nasceste
 e já mudaste tudo
 O corpo sabe
@@ -1122,16 +1122,16 @@ antes da mente
 antes do mundo`,
 
   "sangue-mae/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), hard consonants, no nasal drag. NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), hard consonants, no nasal drag. Music style stays contemporary organic-electronic — DO NOT add Afrobeat, funk, Brazilian or any African/Latin genre. NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Verse 1 - African Lusophone English, hard consonants, no American, no British]
+[Verse 1 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 The first cry split the room in half
 and time began again
 Everything before that sound
 was theory — this was rain
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 I didn't know my body could
 make something more alive than me
 I didn't know that love could be
@@ -1141,13 +1141,13 @@ the prayer I didn't plan
 You are the answer to a question
 I didn't understand
 
-[Verse 2 - African Lusophone English, hard consonants, no American, no British]
+[Verse 2 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 They placed you on my chest
 still slippery, still blue
 And something in my ribcage locked
 into a shape made just for you
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 I didn't know my body could
 make something more alive than me
 I didn't know that love could be
@@ -1157,19 +1157,19 @@ the prayer I didn't plan
 You are the answer to a question
 I didn't understand
 
-[Verse 3 - African Lusophone English, hard consonants, no American, no British]
+[Verse 3 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 The nurses asked me what's her name
 and I forgot how to speak words
 The name we chose a month ago
 felt smaller than the room she filled
 
-[Bridge - African Lusophone English, hard consonants, no American, no British]
+[Bridge - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 They cleaned you and you screamed
 and I laughed — or maybe cried
 The border between the two
 dissolved the moment you arrived
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 I didn't know my body could
 make something more alive than me
 I didn't know that love could be
@@ -1179,7 +1179,7 @@ the prayer I didn't plan
 You are the answer to a question
 I didn't understand
 
-[Outro - African Lusophone English, hard consonants, no American, no British]
+[Outro - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Small thing
 impossible thing
 you just turned me
@@ -1188,16 +1188,16 @@ and I have never
 been more whole`,
 
   "sangue-mae/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[CRITICAL: Mozambican Portuguese from Maputo ACCENT for pronunciation only (hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, closed vowels). Music style stays contemporary organic-electronic — DO NOT add Afrobeat, funk, Brazilian, samba, marrabenta, amapiano or any African/Latin genre. Vocal accent only. NOT Brazilian Portuguese, NOT carioca, NOT Lisbon European]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 1 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 São três da manhã e o corpo levanta
 sem pensar, sem decidir
 Os pés encontram o chão no escuro
 a boca já sabe o que dizer — shh, estou aqui
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Desvelo — a noite é longa
 mas o teu corpo cabe no meu braço
 Desvelo — estou tão cansada
@@ -1207,13 +1207,13 @@ Desvelo — e mesmo assim
 não trocava esta noite acordada
 por nenhum sono sem ti
 
-[Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 2 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 O cansaço tem outro sabor agora
 não é o cansaço de antes, de mim
 É o cansaço de quem segura um mundo
 com um braço só — e não quer fim
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Desvelo — a noite é longa
 mas o teu corpo cabe no meu braço
 Desvelo — estou tão cansada
@@ -1223,19 +1223,19 @@ Desvelo — e mesmo assim
 não trocava esta noite acordada
 por nenhum sono sem ti
 
-[Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 3 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 A varanda quente da madrugada
 o silêncio que cabe entre soluços
 Aprendi a fazer chá com uma mão
 e a embalar com os braços ocupados
 
-[Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Bridge - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 As mães que vieram antes de mim
 também ficaram de pé no escuro
 Com o peito aberto e os olhos a arder
 a segurar o futuro
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Desvelo — a noite é longa
 mas o teu corpo cabe no meu braço
 Desvelo — estou tão cansada
@@ -1245,7 +1245,7 @@ Desvelo — e mesmo assim
 não trocava esta noite acordada
 por nenhum sono sem ti
 
-[Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Outro - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Dorme
 que eu fico
 Dorme
@@ -1255,16 +1255,16 @@ Não é sacrifício
 que já fiz`,
 
   "sangue-mae/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), hard consonants, no nasal drag. NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), hard consonants, no nasal drag. Music style stays contemporary organic-electronic — DO NOT add Afrobeat, funk, Brazilian or any African/Latin genre. NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Verse 1 - African Lusophone English, hard consonants, no American, no British]
+[Verse 1 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 They don't tell you about the guilt
 that comes wrapped in the gift
 The voice that says you're not enough
 between each feed, each lift
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Good enough — they say it like it's easy
 Good enough — like settling for less
 But good enough is three AM
@@ -1274,13 +1274,13 @@ when everything is breaking
 Good enough is not a compromise
 it's everything you're making
 
-[Verse 2 - African Lusophone English, hard consonants, no American, no British]
+[Verse 2 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 They don't tell you that the love
 makes you afraid of stairs
 Of fever, of the dark, of silence
 of a world that doesn't care as much as you
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Good enough — they say it like it's easy
 Good enough — like settling for less
 But good enough is three AM
@@ -1290,19 +1290,19 @@ when everything is breaking
 Good enough is not a compromise
 it's everything you're making
 
-[Verse 3 - African Lusophone English, hard consonants, no American, no British]
+[Verse 3 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 The Instagram of other mothers
 photos curated, faces calm
 I close the phone and look at us
 the milk-stained shirt, the trembling palm
 
-[Bridge - African Lusophone English, hard consonants, no American, no British]
+[Bridge - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 The perfect mother doesn't exist
 but the trying mother does
 She's sitting in a bathroom crying
 because her love exceeds her blood — because
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Good enough — they say it like it's easy
 Good enough — like settling for less
 But good enough is three AM
@@ -1312,23 +1312,23 @@ when everything is breaking
 Good enough is not a compromise
 it's everything you're making
 
-[Outro - African Lusophone English, hard consonants, no American, no British]
+[Outro - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 You are enough
 you are enough
 the trying
 is the proof`,
 
   "sangue-mae/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[CRITICAL: Mozambican Portuguese from Maputo ACCENT for pronunciation only (hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, closed vowels). Music style stays contemporary organic-electronic — DO NOT add Afrobeat, funk, Brazilian, samba, marrabenta, amapiano or any African/Latin genre. Vocal accent only. NOT Brazilian Portuguese, NOT carioca, NOT Lisbon European]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 1 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 O meu corpo tem um mapa novo
 feito de estrias e de leite
 Uma geografia que ninguém ensina
 mas que o espelho repete
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Corpo de mãe — território ocupado
 por alguém que ainda precisa de mim
 Corpo de mãe — não é o de antes
@@ -1338,13 +1338,13 @@ que nenhuma cirurgia pode apagar
 Corpo de mãe — o mais honesto
 que eu alguma vez vou habitar
 
-[Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 2 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 A cintura que era minha já não volta
 os seios pesam de outra maneira
 E eu olho para este corpo estranho
 e procuro a mulher que era inteira
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Corpo de mãe — território ocupado
 por alguém que ainda precisa de mim
 Corpo de mãe — não é o de antes
@@ -1354,19 +1354,19 @@ que nenhuma cirurgia pode apagar
 Corpo de mãe — o mais honesto
 que eu alguma vez vou habitar
 
-[Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 3 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Os meus braços têm uma memória
 de te embalar antes do sono
 A pele guarda o teu cheiro
 mesmo depois de te entregar ao outro
 
-[Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Bridge - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Não quero o corpo de antes
 quero a coragem deste
 O que se abriu, o que cedeu
 o que ficou — e não se esquece
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Corpo de mãe — território ocupado
 por alguém que ainda precisa de mim
 Corpo de mãe — não é o de antes
@@ -1376,7 +1376,7 @@ que nenhuma cirurgia pode apagar
 Corpo de mãe — o mais honesto
 que eu alguma vez vou habitar
 
-[Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Outro - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Estas marcas
 são o meu mapa
 de uma viagem
@@ -1384,16 +1384,16 @@ que ninguém mais
 pode fazer por mim`,
 
   "sangue-mae/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), hard consonants, no nasal drag. NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), hard consonants, no nasal drag. Music style stays contemporary organic-electronic — DO NOT add Afrobeat, funk, Brazilian or any African/Latin genre. NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Verse 1 - African Lusophone English, hard consonants, no American, no British]
+[Verse 1 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 I look at you asleep and count
 each breath like stolen gold
 I memorize your hand — so small
 it barely fills my hold
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Tender beast
 that's what I've become
 A love so fierce it scares me
@@ -1403,13 +1403,13 @@ and build another one from scratch
 Tender beast — I never knew
 that strength could be this soft to touch
 
-[Verse 2 - African Lusophone English, hard consonants, no American, no British]
+[Verse 2 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 The world outside keeps spinning
 with its noise and rush and need
 But in this room at half past four
 you're everything I feed
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Tender beast
 that's what I've become
 A love so fierce it scares me
@@ -1419,13 +1419,13 @@ and build another one from scratch
 Tender beast — I never knew
 that strength could be this soft to touch
 
-[Verse 3 - African Lusophone English, hard consonants, no American, no British]
+[Verse 3 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 The lullaby my mother sang to me
 falls out of my mouth without effort
 A language I didn't know I knew
 passed down like blood, like comfort
 
-[Bridge - African Lusophone English, hard consonants, no American, no British]
+[Bridge - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 My mother told me I would understand
 one day — and here it is
 Not a lesson but a flood
@@ -1433,7 +1433,7 @@ not a thought but a fist
 of love so dense it bends the light
 around your sleeping face
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Tender beast
 that's what I've become
 A love so fierce it scares me
@@ -1443,7 +1443,7 @@ and build another one from scratch
 Tender beast — I never knew
 that strength could be this soft to touch
 
-[Outro - African Lusophone English, hard consonants, no American, no British]
+[Outro - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Sleep
 my small impossible thing
 I am watching
@@ -1453,16 +1453,16 @@ between you
 and everything`,
 
   "sangue-mae/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[CRITICAL: Mozambican Portuguese from Maputo ACCENT for pronunciation only (hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, closed vowels). Music style stays contemporary organic-electronic — DO NOT add Afrobeat, funk, Brazilian, samba, marrabenta, amapiano or any African/Latin genre. Vocal accent only. NOT Brazilian Portuguese, NOT carioca, NOT Lisbon European]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 1 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Disseste "mamã" e o mundo parou
 como se a palavra tivesse peso
 A boca tão pequena para um nome tão grande
 e eu ali — presa no meio
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 A primeira palavra
 foi o meu nome na tua boca
 A primeira palavra
@@ -1472,13 +1472,13 @@ cada noite, cada dor, cada susto
 Porque uma boca pequena
 disse o nome mais justo
 
-[Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 2 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Chamaste-me pelo nome que me deste
 sem saber o que ele contém
 As noites sem dormir, o leite, o medo
 o amor que não cabe em ninguém
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 A primeira palavra
 foi o meu nome na tua boca
 A primeira palavra
@@ -1488,19 +1488,19 @@ cada noite, cada dor, cada susto
 Porque uma boca pequena
 disse o nome mais justo
 
-[Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 3 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 A segunda palavra foi água
 a terceira foi pão, foi mais
 Cada som novo é um milagre
 um mundo a ser nomeado em paz
 
-[Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Bridge - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Mamã — duas sílabas
 o peso do mundo numa só
 Mamã — a palavra mais bonita
 e a mais impossível de dizer só
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 A primeira palavra
 foi o meu nome na tua boca
 A primeira palavra
@@ -1510,7 +1510,7 @@ cada noite, cada dor, cada susto
 Porque uma boca pequena
 disse o nome mais justo
 
-[Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Outro - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Mamã
 disseste
 e eu
@@ -1519,16 +1519,16 @@ outra vez
 pela primeira vez`,
 
   "sangue-mae/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), hard consonants, no nasal drag. NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), hard consonants, no nasal drag. Music style stays contemporary organic-electronic — DO NOT add Afrobeat, funk, Brazilian or any African/Latin genre. NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Verse 1 - African Lusophone English, hard consonants, no American, no British]
+[Verse 1 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 She's outgrowing my arms now
 leaving fingerprints on the wall
 The height marks on the doorframe
 prove that I can't stop the fall — of time
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Letting go — the cruelest act of love
 Letting go — while still holding on above
 She doesn't need me like she did
@@ -1536,13 +1536,13 @@ but she needs me to let her fly
 Letting go is not abandonment
 it's the bravest kind of goodbye
 
-[Verse 2 - African Lusophone English, hard consonants, no American, no British]
+[Verse 2 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Her shoes are bigger every month
 her questions are sharper every week
 She doesn't reach for me the same
 but sometimes, in sleep, she still seeks
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Letting go — the cruelest act of love
 Letting go — while still holding on above
 She doesn't need me like she did
@@ -1550,19 +1550,19 @@ but she needs me to let her fly
 Letting go is not abandonment
 it's the bravest kind of goodbye
 
-[Verse 3 - African Lusophone English, hard consonants, no American, no British]
+[Verse 3 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 She showed me the school photograph
 I didn't recognise the year
 When did she become someone
 with stories I no longer hear?
 
-[Bridge - African Lusophone English, hard consonants, no American, no British]
+[Bridge - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 I'm practicing the art of standing still
 while she runs into the world
 My hands are empty and they ache
 for the weight of that small girl
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Letting go — the cruelest act of love
 Letting go — while still holding on above
 She doesn't need me like she did
@@ -1570,7 +1570,7 @@ but she needs me to let her fly
 Letting go is not abandonment
 it's the bravest kind of goodbye
 
-[Outro - African Lusophone English, hard consonants, no American, no British]
+[Outro - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Go
 my love
 go far
@@ -1581,16 +1581,16 @@ I'll be the door
 that's always open`,
 
   "sangue-mae/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: Mozambican Portuguese from Maputo only — African Lusophone accent, hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, no open vowels, closed European-style vowels with African rhythm. NOT Brazilian Portuguese, NOT carioca, NOT paulista, NOT Lisbon European]
+[CRITICAL: Mozambican Portuguese from Maputo ACCENT for pronunciation only (hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal drag, closed vowels). Music style stays contemporary organic-electronic — DO NOT add Afrobeat, funk, Brazilian, samba, marrabenta, amapiano or any African/Latin genre. Vocal accent only. NOT Brazilian Portuguese, NOT carioca, NOT Lisbon European]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 1 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Há dias em que me tranco na casa de banho
 e choro sem som, sem razão
 Não é tristeza — é excesso
 demasiado amor sem tradução
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Invisível — o trabalho da mãe
 é feito de mãos que ninguém vê
 Invisível — a carga silenciosa
@@ -1600,13 +1600,13 @@ o medo engolido, o sorriso
 Invisível — e mesmo assim
 é o trabalho mais preciso
 
-[Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 2 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Ninguém te prepara para a solidão
 de estar rodeada e sozinha
 De ser o pilar que não pode cair
 a adulta que ainda é menina
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Invisível — o trabalho da mãe
 é feito de mãos que ninguém vê
 Invisível — a carga silenciosa
@@ -1616,19 +1616,19 @@ o medo engolido, o sorriso
 Invisível — e mesmo assim
 é o trabalho mais preciso
 
-[Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Verse 3 - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Os outros perguntam-me como estás
 e eu digo bem — automaticamente
 Mas a verdade vive na lavandaria
 nos dobrar de lençóis silenciosamente
 
-[Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Bridge - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Quero ser vista — não como santa
 nem como mártir nem como herói
 Quero ser vista como uma mulher
 que dá tudo e às vezes dói
 
-[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Chorus - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Invisível — o trabalho da mãe
 é feito de mãos que ninguém vê
 Invisível — a carga silenciosa
@@ -1638,7 +1638,7 @@ o medo engolido, o sorriso
 Invisível — e mesmo assim
 é o trabalho mais preciso
 
-[Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+[Outro - Mozambican Portuguese Maputo ACCENT only for pronunciation, hard consonants, no Brazilian beats, no carioca, no Afrobeat, no funk — music stays organic-electronic]
 Vejo-te, mãe
 que ninguém vê
 Vejo-te
@@ -1647,16 +1647,16 @@ de joelhos
 com graça`,
 
   "sangue-mae/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), hard consonants, no nasal drag. NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English accent with African Lusophone undertone (Mozambican Portuguese speaker singing in English), hard consonants, no nasal drag. Music style stays contemporary organic-electronic — DO NOT add Afrobeat, funk, Brazilian or any African/Latin genre. NOT American, NOT exaggerated British]
 [Persona: Loranne — contemporary organic-electronic, AwakeSoul lineage, contemplative and transformative]
 
-[Verse 1 - African Lusophone English, hard consonants, no American, no British]
+[Verse 1 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 When she sleeps I become myself again
 for seventeen minutes, maybe less
 I drink cold tea standing at the window
 and remember my old address
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 I am still here
 underneath the mother, the woman breathes
 I am still here
@@ -1666,13 +1666,13 @@ the way you miss a friend who moved away
 I am still here
 I just visit differently these days
 
-[Verse 2 - African Lusophone English, hard consonants, no American, no British]
+[Verse 2 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 I was someone else before
 someone with a name that wasn't "mom"
 Someone who stayed up late for fun
 not fear — not her — just for a song
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 I am still here
 underneath the mother, the woman breathes
 I am still here
@@ -1682,19 +1682,19 @@ the way you miss a friend who moved away
 I am still here
 I just visit differently these days
 
-[Verse 3 - African Lusophone English, hard consonants, no American, no British]
+[Verse 3 - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 The friends who don't have children call
 to ask about the baby first
 I want to scream — ask about me
 ask if I have eaten or slept first
 
-[Bridge - African Lusophone English, hard consonants, no American, no British]
+[Bridge - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 Motherhood is not erasure
 though it sometimes feels that way
 I am the woman and the mother
 and both deserve to stay
 
-[Chorus - African Lusophone English, hard consonants, no American, no British]
+[Chorus - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 I am still here
 underneath the mother, the woman breathes
 I am still here
@@ -1704,7 +1704,7 @@ the way you miss a friend who moved away
 I am still here
 I just visit differently these days
 
-[Outro - African Lusophone English, hard consonants, no American, no British]
+[Outro - African Lusophone English ACCENT only, hard consonants, no American, no British, no Afrobeat, no funk — music stays organic-electronic]
 I am still here
 still here
 still mine
