@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { MOODS, getMoodTracks, weightedShuffle, type MoodSlug } from "@/data/moods";
+import { MOODS, getMoodTracks, moodMixCoverUrl, weightedShuffle, type MoodSlug } from "@/data/moods";
 import { useMusicPlayer } from "@/contexts/MusicPlayerContext";
 import { useMoodLikes } from "@/hooks/useMoodLikes";
 
@@ -15,9 +15,9 @@ import { useMoodLikes } from "@/hooks/useMoodLikes";
  */
 export default function MoodMixSection() {
   const [publishedKeys, setPublishedKeys] = useState<Set<string> | null>(null);
+  const [coverFailed, setCoverFailed] = useState<Record<string, boolean>>({});
   const { playTrack } = useMusicPlayer();
   const { isLiked, getLikedCount } = useMoodLikes();
-  const router = useRouter();
 
   useEffect(() => {
     fetch("/api/published-tracks")
@@ -63,6 +63,7 @@ export default function MoodMixSection() {
           const count = counts[m.slug] ?? 0;
           const likedCount = getLikedCount(m.slug);
           const isReady = publishedKeys !== null && count > 0;
+          const hasCover = !coverFailed[m.slug];
 
           return (
             <div
@@ -74,27 +75,38 @@ export default function MoodMixSection() {
                 disabled={!isReady}
                 aria-label={`Tocar mix ${m.label}`}
                 className="w-full aspect-[5/4] rounded-2xl p-4 text-left transition-all relative overflow-hidden disabled:opacity-50 disabled:cursor-not-allowed group-hover:scale-[1.02]"
-                style={{
-                  background: `linear-gradient(135deg, ${m.color} 0%, ${m.color2} 100%)`,
-                }}
+                style={
+                  !hasCover
+                    ? { background: `linear-gradient(135deg, ${m.color} 0%, ${m.color2} 100%)` }
+                    : undefined
+                }
               >
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
-                <div className="relative flex flex-col h-full justify-between">
-                  <div className="text-3xl">{m.emoji}</div>
-                  <div>
-                    <p className="font-display text-lg font-semibold text-white drop-shadow">{m.label}</p>
-                    <p className="text-[11px] text-white/80 mt-0.5 line-clamp-1">{m.description}</p>
-                    <p className="text-[10px] text-white/70 mt-1.5">
-                      {publishedKeys === null
-                        ? "…"
-                        : count === 0
-                          ? "Sem faixas"
-                          : `${count} faixa${count === 1 ? "" : "s"}${likedCount > 0 ? ` · ${likedCount} ♥` : ""}`}
-                    </p>
-                  </div>
+                {hasCover && (
+                  <Image
+                    src={moodMixCoverUrl(m.slug)}
+                    alt=""
+                    fill
+                    className="object-cover -z-10"
+                    unoptimized
+                    onError={() => setCoverFailed((s) => ({ ...s, [m.slug]: true }))}
+                  />
+                )}
+                {/* Dark overlay for text legibility on top of the image */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
+                <div className="relative flex flex-col h-full justify-end">
+                  <p className="font-display text-lg font-semibold text-white drop-shadow-md">{m.label}</p>
+                  <p className="text-[11px] text-white/80 mt-0.5 line-clamp-1 drop-shadow">{m.description}</p>
+                  <p className="text-[10px] text-white/70 mt-1.5 drop-shadow">
+                    {publishedKeys === null
+                      ? "…"
+                      : count === 0
+                        ? "Sem faixas"
+                        : `${count} faixa${count === 1 ? "" : "s"}${likedCount > 0 ? ` · ${likedCount} ♥` : ""}`}
+                  </p>
                 </div>
                 {/* Play hint icon */}
-                <div className="absolute top-3 right-3 h-9 w-9 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute top-3 right-3 h-9 w-9 rounded-full bg-white/25 backdrop-blur-sm flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
                   <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 ml-0.5">
                     <path d="M8 5v14l11-7z" />
                   </svg>
@@ -104,7 +116,7 @@ export default function MoodMixSection() {
               <Link
                 href={`/mood/${m.slug}`}
                 onClick={(e) => e.stopPropagation()}
-                className="absolute bottom-2 right-2 text-[10px] text-white/70 hover:text-white px-2 py-1 rounded-full bg-black/20 backdrop-blur-sm transition-colors"
+                className="absolute bottom-2 right-2 text-[10px] text-white/80 hover:text-white px-2 py-1 rounded-full bg-black/30 backdrop-blur-sm transition-colors"
                 aria-label={`Ver lista ${m.label}`}
               >
                 ver
