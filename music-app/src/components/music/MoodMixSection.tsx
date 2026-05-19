@@ -74,7 +74,7 @@ export default function MoodMixSection() {
                 onClick={() => startMix(m.slug)}
                 disabled={!isReady}
                 aria-label={`Tocar mix ${m.label}`}
-                className="w-full aspect-[5/4] rounded-2xl p-4 text-left transition-all relative overflow-hidden disabled:opacity-50 disabled:cursor-not-allowed group-hover:scale-[1.02]"
+                className="w-full aspect-[5/4] rounded-2xl text-left transition-all relative overflow-hidden disabled:opacity-50 disabled:cursor-not-allowed group-hover:scale-[1.02]"
                 style={
                   !hasCover
                     ? { background: `linear-gradient(135deg, ${m.color} 0%, ${m.color2} 100%)` }
@@ -86,18 +86,20 @@ export default function MoodMixSection() {
                     src={moodMixCoverUrl(m.slug)}
                     alt=""
                     fill
-                    className="object-cover -z-10"
+                    sizes="(max-width: 768px) 50vw, 25vw"
+                    className="object-cover"
                     unoptimized
                     onError={() => setCoverFailed((s) => ({ ...s, [m.slug]: true }))}
                   />
                 )}
-                {/* Dark overlay for text legibility on top of the image */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
-                <div className="relative flex flex-col h-full justify-end">
+                {/* Texto-overlay: gradiente escuro só no terço inferior, onde fica o título. */}
+                <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/75 via-black/30 to-transparent pointer-events-none" />
+                {/* Hover state subtil — apenas escurece ligeiramente, não esconde a imagem. */}
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors pointer-events-none" />
+                <div className="absolute inset-x-0 bottom-0 p-4">
                   <p className="font-display text-lg font-semibold text-white drop-shadow-md">{m.label}</p>
-                  <p className="text-[11px] text-white/80 mt-0.5 line-clamp-1 drop-shadow">{m.description}</p>
-                  <p className="text-[10px] text-white/70 mt-1.5 drop-shadow">
+                  <p className="text-[11px] text-white/85 mt-0.5 line-clamp-1 drop-shadow">{m.description}</p>
+                  <p className="text-[10px] text-white/75 mt-1.5 drop-shadow">
                     {publishedKeys === null
                       ? "…"
                       : count === 0
@@ -106,7 +108,7 @@ export default function MoodMixSection() {
                   </p>
                 </div>
                 {/* Play hint icon */}
-                <div className="absolute top-3 right-3 h-9 w-9 rounded-full bg-white/25 backdrop-blur-sm flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute top-3 right-3 h-9 w-9 rounded-full bg-white/30 backdrop-blur-sm flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
                   <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 ml-0.5">
                     <path d="M8 5v14l11-7z" />
                   </svg>
