@@ -25,6 +25,7 @@ const SECTIONS: AdminSection[] = [
 
   // Capas
   { href: "/admin/moods", title: "Capas dos 7 moods", subtitle: "Elevar, Aterrar, Acordar, Lembrar, Reunir-se, Respirar, Atravessar", emoji: "🌒", group: "capas" },
+  { href: "/admin/mood-mix", title: "Capas dos 4 Mix de Mood", subtitle: "Meditativo, Introspectivo, Animado, Energético — drag & drop", emoji: "🎚", group: "capas" },
   { href: "/admin/coleccoes", title: "Capas das 11 coleções", subtitle: "Incenso, Fibra, Maré, Grão, Nua, Sangue, Espelho, Nó, Éter, Livro, Curso", emoji: "📚", group: "capas" },
   { href: "/admin/presenca-capas", title: "Capas das 7 sub-Presença", subtitle: "Medo, Mágoa, Apatia, Inquietação, Sufoco, Confusão, Vazio", emoji: "🕯", group: "capas" },
   { href: "/admin/fotos", title: "Fotos / Loranne images", subtitle: "Banco de imagens da Loranne", emoji: "📷", group: "capas" },
