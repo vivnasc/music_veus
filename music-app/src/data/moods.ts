@@ -65,6 +65,18 @@ export const MOOD_BY_SLUG: Record<MoodSlug, MoodMeta> = MOODS.reduce(
   {} as Record<MoodSlug, MoodMeta>,
 );
 
+/**
+ * URL pública da capa do mood-mix (Midjourney import).
+ * Storage: audios/mood-mix-covers/{slug}.jpg (Supabase public bucket).
+ * Distinto de `mood-covers/` que pertence aos 7 moods Loranne (/admin/moods).
+ * Componentes devem fazer fallback ao gradient quando a imagem 404.
+ */
+export function moodMixCoverUrl(mood: MoodSlug, version?: number): string {
+  const base = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
+  const v = version ?? 1;
+  return `${base}/storage/v1/object/public/audios/mood-mix-covers/${mood}.jpg?v=${v}`;
+}
+
 /** Faixas Presença são todas meditativas/introspectivas por natureza (whisper, low-register). */
 function isPresencaAlbum(slug: string): boolean {
   return slug.startsWith("presenca-");
