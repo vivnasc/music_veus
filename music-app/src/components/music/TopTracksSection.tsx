@@ -32,7 +32,7 @@ function resolveTrack(trackNumber: number, albumSlug: string) {
 export default function TopTracksSection() {
   const [period, setPeriod] = useState<Period>("month");
   const { tracks, loading, userId } = useTopTracks(period, 10);
-  const { playTrack, currentTrack, currentAlbum, isPlaying, togglePlay } = useMusicPlayer();
+  const { playTrack, currentTrack, currentAlbum, isPlaying, togglePlay, addToQueue } = useMusicPlayer();
 
   if (!userId || (tracks.length === 0 && !loading)) return null;
 
@@ -88,40 +88,54 @@ export default function TopTracksSection() {
             const isActive = currentTrack?.number === track.number && currentAlbum?.slug === album.slug;
 
             return (
-              <button
+              <div
                 key={`${item.albumSlug}-${item.trackNumber}`}
-                onClick={() => handleClick(track, album)}
-                className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors text-left ${
+                className={`group w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors ${
                   isActive ? "bg-white/10" : "hover:bg-white/5"
                 }`}
               >
-                <span className="w-6 text-center text-xs font-medium text-[#666680] tabular-nums">
-                  {idx + 1}
-                </span>
-                <div className="h-10 w-10 shrink-0 rounded-md overflow-hidden" style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}88)` }}>
-                  <Image
-                    src={getTrackCoverUrl(album.slug, track.number)}
-                    alt=""
-                    width={48}
-                    height={48}
-                    className="w-full h-full object-cover"
-                    unoptimized
-                    onError={(e) => { const img = e.target as HTMLImageElement; img.onerror = null; img.src = getAlbumCover(album); }}
-                  />
-                </div>
-                <div className="flex-1 min-w-0">
-                  <p className={`text-sm font-medium truncate ${isActive ? "text-[#C9A96E]" : "text-[#F5F0E6]"}`}>
-                    {track.title}
-                  </p>
-                  <p className="text-xs text-[#666680] truncate">{album.title}</p>
-                </div>
-                <span className="text-[10px] text-[#666680] bg-white/5 px-1.5 py-0.5 rounded tabular-nums">
+                <button
+                  onClick={() => handleClick(track, album)}
+                  className="flex-1 min-w-0 flex items-center gap-3 text-left"
+                >
+                  <span className="w-6 text-center text-xs font-medium text-[#666680] tabular-nums">
+                    {idx + 1}
+                  </span>
+                  <div className="h-10 w-10 shrink-0 rounded-md overflow-hidden" style={{ background: `linear-gradient(135deg, ${album.color}, ${album.color}88)` }}>
+                    <Image
+                      src={getTrackCoverUrl(album.slug, track.number)}
+                      alt=""
+                      width={48}
+                      height={48}
+                      className="w-full h-full object-cover"
+                      unoptimized
+                      onError={(e) => { const img = e.target as HTMLImageElement; img.onerror = null; img.src = getAlbumCover(album); }}
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className={`text-sm font-medium truncate ${isActive ? "text-[#C9A96E]" : "text-[#F5F0E6]"}`}>
+                      {track.title}
+                    </p>
+                    <p className="text-xs text-[#666680] truncate">{album.title}</p>
+                  </div>
+                </button>
+                <span className="text-[10px] text-[#666680] bg-white/5 px-1.5 py-0.5 rounded tabular-nums shrink-0">
                   {item.listenCount}x
                 </span>
-                <span className="text-xs text-[#666680] tabular-nums w-10 text-right">
+                <button
+                  onClick={(e) => { e.stopPropagation(); addToQueue([track], album); }}
+                  aria-label="Adicionar à fila"
+                  title="Adicionar à fila"
+                  className="shrink-0 h-8 w-8 flex items-center justify-center rounded-full text-[#666680] hover:text-[#F5F0E6] hover:bg-white/10 transition-colors opacity-60 group-hover:opacity-100"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 6h13M3 12h13M3 18h9M16 16v6M19 19h-6" />
+                  </svg>
+                </button>
+                <span className="text-xs text-[#666680] tabular-nums w-10 text-right shrink-0 hidden sm:inline">
                   {fmt(track.durationSeconds)}
                 </span>
-              </button>
+              </div>
             );
           })}
         </div>

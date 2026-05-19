@@ -3,6 +3,7 @@ import TopTracksSection from "@/components/music/TopTracksSection";
 import RecentlyPlayedSection from "@/components/music/RecentlyPlayedSection";
 import ParaTiSection from "@/components/music/ParaTiSection";
 import NovidadesSection from "@/components/music/NovidadesSection";
+import MoodMixSection from "@/components/music/MoodMixSection";
 import Image from "next/image";
 import Link from "next/link";
 import NavBar from "@/components/music/NavBar";
@@ -40,6 +41,7 @@ export default function MusicHomePage() {
 
         <FraseDoDia />
         <RecentlyPlayedSection />
+        <MoodMixSection />
         <ParaTiSection />
         <NovidadesSection />
         <TopTracksSection />
