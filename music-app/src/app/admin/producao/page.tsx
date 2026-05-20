@@ -1857,6 +1857,7 @@ export default function AlbumProductionPage() {
     return p || "all";
   });
   const [moodFilter, setMoodFilter] = useState<LoranneMood | "all">("all");
+  const [searchQuery, setSearchQuery] = useState<string>("");
   const [viewMode, setViewMode] = useState<"producao" | "calendario">("producao");
   const [selectedAlbum, setSelectedAlbum] = useState<string | null>(() => {
     if (typeof window === "undefined") return null;
@@ -2231,7 +2232,7 @@ export default function AlbumProductionPage() {
 
   // Apply mood filter (track-level): keep albums that have at least 1 track
   // tagged with the selected mood (primary or secondary).
-  const albums = moodFilter === "all"
+  const albumsByMood = moodFilter === "all"
     ? albumsByProduct
     : albumsByProduct.filter((a) =>
         a.tracks.some((t) => {
@@ -2240,6 +2241,24 @@ export default function AlbumProductionPage() {
           return tag[0].split(",").includes(moodFilter);
         })
       );
+
+  // Apply free-text search across album title/subtitle/slug and track titles.
+  // Case-insensitive. Empty query passes everything.
+  const q = searchQuery.trim().toLowerCase();
+  const albumsBySearch = q === ""
+    ? albumsByMood
+    : albumsByMood.filter((a) => {
+        if (a.title.toLowerCase().includes(q)) return true;
+        if (a.subtitle?.toLowerCase().includes(q)) return true;
+        if (a.slug.toLowerCase().includes(q)) return true;
+        return a.tracks.some((t) => t.title.toLowerCase().includes(q));
+      });
+
+  // Sort albums alphabetically by title within the collection.
+  // Uso `localeCompare` com `pt` para tratar acentos correctamente.
+  const albums = [...albumsBySearch].sort((a, b) =>
+    a.title.localeCompare(b.title, "pt", { sensitivity: "base" }),
+  );
 
   const album = selectedAlbum
     ? ALL_ALBUMS.find((a) => a.slug === selectedAlbum) || null
@@ -2894,6 +2913,33 @@ export default function AlbumProductionPage() {
               );
             })}
           </div>
+
+          {/* Busca livre por título de álbum ou faixa */}
+          <div className="relative">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-mundo-muted/60 pointer-events-none">
+              <circle cx="11" cy="11" r="7" />
+              <path d="M21 21l-4.35-4.35" />
+            </svg>
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Procurar álbum ou faixa…"
+              className="w-full rounded-lg border border-mundo-muted-dark/30 bg-mundo-bg pl-10 pr-10 py-2 text-sm text-mundo-creme placeholder:text-mundo-muted/50 focus:border-violet-500 focus:outline-none"
+            />
+            {searchQuery && (
+              <button
+                onClick={() => setSearchQuery("")}
+                aria-label="Limpar busca"
+                className="absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 rounded-full text-mundo-muted hover:text-mundo-creme hover:bg-white/10 flex items-center justify-center"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-3 w-3">
+                  <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+              </button>
+            )}
+          </div>
+
           <div className="flex items-center gap-3 overflow-x-auto scrollbar-none -mx-4 px-4 pb-2 sm:flex-wrap sm:overflow-x-visible sm:mx-0 sm:px-0 sm:pb-0">
             {/* Suno model selector */}
             <div className="shrink-0 flex items-center gap-2">
