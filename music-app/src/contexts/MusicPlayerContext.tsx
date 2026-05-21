@@ -7,6 +7,34 @@ import { getAlbumCover } from "@/lib/album-covers";
 import { supabase } from "@/lib/supabase";
 import { buildTasteProfile, generateContinuation } from "@/lib/taste-engine";
 import { getLangFilter, matchesLangFilter } from "@/lib/lang-filter";
+import AnonPlayLimitModal from "@/components/music/AnonPlayLimitModal";
+
+// Anon users get N full tracks before being asked to register.
+// "Music is the funnel" — capture the email before the third skip.
+export const ANON_PLAY_LIMIT = 3;
+const ANON_PLAYS_KEY = "veus-anon-plays";
+
+function readAnonPlays(): Set<string> {
+  if (typeof window === "undefined") return new Set();
+  try {
+    const raw = localStorage.getItem(ANON_PLAYS_KEY);
+    if (!raw) return new Set();
+    const arr = JSON.parse(raw);
+    return Array.isArray(arr) ? new Set(arr) : new Set();
+  } catch {
+    return new Set();
+  }
+}
+
+function persistAnonPlays(plays: Set<string>): void {
+  try {
+    localStorage.setItem(ANON_PLAYS_KEY, JSON.stringify([...plays]));
+  } catch { /* quota full or storage disabled */ }
+}
+
+function trackKey(albumSlug: string, trackNumber: number): string {
+  return `${albumSlug}:${trackNumber}`;
+}
 
 export function formatTime(s: number): string {
   if (!isFinite(s) || s < 0) return "0:00";
@@ -216,6 +244,8 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
   // Pre-resolved URL for the upcoming track so the `ended` handler can swap
   // synchronously without awaits (gapless playback while backgrounded on iOS).
   const nextPreloadRef = useRef<{ key: string; src: string } | null>(null);
+  // Mirror of previewMode for use inside non-state-callback paths (event handlers).
+  const previewModeRef = useRef<boolean>(false);
   const [state, setState] = useState<MusicPlayerState>(() => {
     const base: MusicPlayerState = {
       currentTrack: null,
@@ -253,13 +283,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     }
     const audio = audioRef.current;
 
-    const PREVIEW_LIMIT = 45;
     const onTime = () => setState(s => {
-      // Preview mode: pause at 45s for non-logged users
-      if (s.previewMode && audio.currentTime >= PREVIEW_LIMIT) {
-        audio.pause();
-        return { ...s, currentTime: audio.currentTime, isPlaying: false, previewExpired: true };
-      }
       // Fallback: if duration is still 0 and audio.duration is now valid, update it
       if (s.duration === 0 && isFinite(audio.duration) && audio.duration > 0) {
         return { ...s, currentTime: audio.currentTime, duration: audio.duration };
@@ -311,7 +335,9 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
 
     // Check auth — preview mode for non-logged users
     supabase.auth.getUser().then(({ data }) => {
-      setState(s => ({ ...s, previewMode: !data.user }));
+      const anon = !data.user;
+      previewModeRef.current = anon;
+      setState(s => ({ ...s, previewMode: anon }));
     });
 
     return () => {
@@ -327,6 +353,16 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const handleEnded = useCallback(() => {
+    // Anon gate on auto-advance: if next track would be a new one and limit is hit, stop here.
+    if (previewModeRef.current) {
+      const plays = readAnonPlays();
+      if (plays.size >= ANON_PLAY_LIMIT) {
+        const audio = audioRef.current;
+        if (audio) audio.pause();
+        setState(s => ({ ...s, isPlaying: false, previewExpired: true }));
+        return;
+      }
+    }
     setState(prev => {
       if (prev.repeat === "one") {
         const audio = audioRef.current;
@@ -467,6 +503,23 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
   const playTrack = useCallback((track: AlbumTrack, album: Album, trackList?: AlbumTrack[]) => {
     const audio = audioRef.current;
     if (!audio) return;
+
+    // Anon gate: 3 unique tracks total, then ask to register.
+    // Replays of an already-heard track always go through.
+    const key = trackKey(album.slug, track.number);
+    const anonGated = previewModeRef.current && (() => {
+      const plays = readAnonPlays();
+      if (plays.has(key)) return false;
+      if (plays.size >= ANON_PLAY_LIMIT) return true;
+      plays.add(key);
+      persistAnonPlays(plays);
+      return false;
+    })();
+    if (anonGated) {
+      audio.pause();
+      setState(s => ({ ...s, isPlaying: false, previewExpired: true, showFullPlayer: false }));
+      return;
+    }
 
     // Ensure every track in the queue carries albumSlug for correct resolution
     const rawQueue = trackList || album.tracks;
@@ -707,8 +760,12 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
       if (event === "SIGNED_OUT") {
         stop();
+        previewModeRef.current = true;
         setState(s => ({ ...s, previewMode: true }));
       } else if (session?.user) {
+        // Logged in — clear anon counter so they aren't punished if they later log out
+        try { localStorage.removeItem(ANON_PLAYS_KEY); } catch { /* no-op */ }
+        previewModeRef.current = false;
         setState(s => ({ ...s, previewMode: false, previewExpired: false }));
       }
     });
@@ -841,6 +898,9 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       }}
     >
       {children}
+      {state.previewExpired && state.previewMode && (
+        <AnonPlayLimitModal onClose={clearPreviewExpired} />
+      )}
     </MusicPlayerContext.Provider>
   );
 }

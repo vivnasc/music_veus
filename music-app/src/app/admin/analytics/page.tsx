@@ -19,6 +19,35 @@ type FavStat = {
   count: number;
 };
 
+type RegisteredUser = {
+  id: string;
+  email: string;
+  created_at: string;
+  last_sign_in_at: string | null;
+};
+
+type WhatsappSubscriber = {
+  whatsapp: string;
+  name: string | null;
+  subscribed_at: string;
+};
+
+type PaidSubscriber = {
+  user_id: string;
+  email: string;
+  plan: string;
+  status: string;
+  expires_at: string | null;
+  started_at: string;
+};
+
+type Supporter = {
+  user_id: string;
+  email: string;
+  tier: string | null;
+  created_at: string;
+};
+
 type Analytics = {
   topTracks: TrackStat[];
   topFavorited: FavStat[];
@@ -27,7 +56,21 @@ type Analytics = {
   totalPlays: number;
   recentListeners: number;
   subscriberCount: number;
+  registeredUsers: RegisteredUser[];
+  whatsappSubscribers: WhatsappSubscriber[];
+  pushSubscriberCount: number;
+  paidSubscribers: PaidSubscriber[];
+  supporters: Supporter[];
 };
+
+function formatDate(iso: string | null): string {
+  if (!iso) return "—";
+  try {
+    return new Date(iso).toLocaleDateString("pt-PT", { day: "2-digit", month: "short", year: "numeric" });
+  } catch {
+    return iso;
+  }
+}
 
 function trackName(albumSlug: string, trackNumber: number): string {
   const album = ALL_ALBUMS.find(a => a.slug === albumSlug);
@@ -97,7 +140,7 @@ export default function AnalyticsPage() {
         </div>
 
         {/* Summary cards */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
           <div className="rounded-xl bg-white/[0.03] border border-white/5 p-4">
             <p className="text-2xl font-bold text-[#F5F0E6]">{data.totalPlays}</p>
             <p className="text-xs text-[#666680] mt-1">Plays totais</p>
@@ -111,10 +154,112 @@ export default function AnalyticsPage() {
             <p className="text-xs text-[#666680] mt-1">Activos (7 dias)</p>
           </div>
           <div className="rounded-xl bg-white/[0.03] border border-white/5 p-4">
+            <p className="text-2xl font-bold text-[#F5F0E6]">{data.registeredUsers?.length ?? 0}</p>
+            <p className="text-xs text-[#666680] mt-1">Contas registadas</p>
+          </div>
+          <div className="rounded-xl bg-white/[0.03] border border-white/5 p-4">
             <p className="text-2xl font-bold text-[#F5F0E6]">{data.subscriberCount}</p>
-            <p className="text-xs text-[#666680] mt-1">Subscritores</p>
+            <p className="text-xs text-[#666680] mt-1">WhatsApp novidades</p>
+          </div>
+          <div className="rounded-xl bg-white/[0.03] border border-white/5 p-4">
+            <p className="text-2xl font-bold text-[#F5F0E6]">{data.pushSubscriberCount ?? 0}</p>
+            <p className="text-xs text-[#666680] mt-1">Push activos</p>
+          </div>
+          <div className="rounded-xl bg-white/[0.03] border border-white/5 p-4">
+            <p className="text-2xl font-bold text-[#C9A96E]">{data.paidSubscribers?.length ?? 0}</p>
+            <p className="text-xs text-[#666680] mt-1">Subscritores pagos</p>
+          </div>
+          <div className="rounded-xl bg-white/[0.03] border border-white/5 p-4">
+            <p className="text-2xl font-bold text-[#C9A96E]">{data.supporters?.length ?? 0}</p>
+            <p className="text-xs text-[#666680] mt-1">Apoiantes</p>
           </div>
         </div>
+
+        {/* Inscritos — quem sao ── */}
+        <section className="mb-10">
+          <h2 className="text-sm font-medium text-[#a0a0b0] uppercase tracking-wider mb-4">Inscritos</h2>
+
+          {/* Contas registadas */}
+          <details className="rounded-xl bg-white/[0.02] border border-white/5 mb-3" open>
+            <summary className="cursor-pointer px-4 py-3 text-sm text-[#F5F0E6] flex items-center justify-between">
+              <span>Contas registadas <span className="text-xs text-[#666680]">({data.registeredUsers?.length ?? 0})</span></span>
+              <span className="text-[10px] text-[#666680]">email · registo · ultimo login</span>
+            </summary>
+            <div className="border-t border-white/5">
+              {(data.registeredUsers || []).length === 0 && (
+                <p className="px-4 py-6 text-xs text-[#666680] text-center">Ainda nao ha contas registadas</p>
+              )}
+              {(data.registeredUsers || []).map(u => (
+                <div key={u.id} className="flex items-center gap-3 px-4 py-2.5 border-b border-white/5 last:border-0">
+                  <p className="flex-1 text-sm text-[#F5F0E6] truncate">{u.email || "(sem email)"}</p>
+                  <span className="text-[10px] text-[#666680] w-20 text-right">{formatDate(u.created_at)}</span>
+                  <span className="text-[10px] text-[#666680] w-20 text-right">{u.last_sign_in_at ? formatDate(u.last_sign_in_at) : "nunca"}</span>
+                </div>
+              ))}
+            </div>
+          </details>
+
+          {/* WhatsApp novidades */}
+          <details className="rounded-xl bg-white/[0.02] border border-white/5 mb-3">
+            <summary className="cursor-pointer px-4 py-3 text-sm text-[#F5F0E6] flex items-center justify-between">
+              <span>WhatsApp novidades <span className="text-xs text-[#666680]">({data.whatsappSubscribers?.length ?? 0})</span></span>
+              <span className="text-[10px] text-[#666680]">numero · nome · data</span>
+            </summary>
+            <div className="border-t border-white/5">
+              {(data.whatsappSubscribers || []).length === 0 && (
+                <p className="px-4 py-6 text-xs text-[#666680] text-center">Sem inscritos ainda</p>
+              )}
+              {(data.whatsappSubscribers || []).map(s => (
+                <div key={s.whatsapp} className="flex items-center gap-3 px-4 py-2.5 border-b border-white/5 last:border-0">
+                  <p className="flex-1 text-sm text-[#F5F0E6] truncate tabular-nums">{s.whatsapp}</p>
+                  <p className="w-32 text-xs text-[#a0a0b0] truncate">{s.name || "—"}</p>
+                  <span className="text-[10px] text-[#666680] w-20 text-right">{formatDate(s.subscribed_at)}</span>
+                </div>
+              ))}
+            </div>
+          </details>
+
+          {/* Subscritores pagos */}
+          <details className="rounded-xl bg-white/[0.02] border border-white/5 mb-3">
+            <summary className="cursor-pointer px-4 py-3 text-sm text-[#F5F0E6] flex items-center justify-between">
+              <span>Subscritores pagos <span className="text-xs text-[#666680]">({data.paidSubscribers?.length ?? 0})</span></span>
+              <span className="text-[10px] text-[#666680]">email · plano · estado · expira</span>
+            </summary>
+            <div className="border-t border-white/5">
+              {(data.paidSubscribers || []).length === 0 && (
+                <p className="px-4 py-6 text-xs text-[#666680] text-center">Ainda ninguem pagou</p>
+              )}
+              {(data.paidSubscribers || []).map(p => (
+                <div key={p.user_id} className="flex items-center gap-3 px-4 py-2.5 border-b border-white/5 last:border-0">
+                  <p className="flex-1 text-sm text-[#F5F0E6] truncate">{p.email || p.user_id.slice(0, 8)}</p>
+                  <span className="text-xs text-[#C9A96E] w-16 text-right capitalize">{p.plan}</span>
+                  <span className={`text-[10px] w-16 text-right ${p.status === "active" ? "text-green-400" : "text-[#666680]"}`}>{p.status}</span>
+                  <span className="text-[10px] text-[#666680] w-20 text-right">{formatDate(p.expires_at)}</span>
+                </div>
+              ))}
+            </div>
+          </details>
+
+          {/* Apoiantes */}
+          <details className="rounded-xl bg-white/[0.02] border border-white/5">
+            <summary className="cursor-pointer px-4 py-3 text-sm text-[#F5F0E6] flex items-center justify-between">
+              <span>Apoiantes <span className="text-xs text-[#666680]">({data.supporters?.length ?? 0})</span></span>
+              <span className="text-[10px] text-[#666680]">email · tier · desde</span>
+            </summary>
+            <div className="border-t border-white/5">
+              {(data.supporters || []).length === 0 && (
+                <p className="px-4 py-6 text-xs text-[#666680] text-center">Sem apoiantes ainda</p>
+              )}
+              {(data.supporters || []).map(s => (
+                <div key={s.user_id} className="flex items-center gap-3 px-4 py-2.5 border-b border-white/5 last:border-0">
+                  <p className="flex-1 text-sm text-[#F5F0E6] truncate">{s.email || s.user_id.slice(0, 8)}</p>
+                  <span className="text-xs text-[#C9A96E] w-20 text-right">{s.tier || "—"}</span>
+                  <span className="text-[10px] text-[#666680] w-20 text-right">{formatDate(s.created_at)}</span>
+                </div>
+              ))}
+            </div>
+          </details>
+        </section>
 
         {/* Top tracks */}
         <section className="mb-10">
