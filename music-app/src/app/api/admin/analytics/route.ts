@@ -118,14 +118,73 @@ export async function GET(req: NextRequest) {
       nonAdminStats.filter(s => s.last_listened_at >= sevenDaysAgo).map(s => s.user_id)
     ).size;
 
-    // ── Subscribers count ──
+    // ── WhatsApp release subscribers (list + count) ──
     let subscriberCount = 0;
+    let whatsappSubscribers: { whatsapp: string; name: string | null; subscribed_at: string }[] = [];
+    try {
+      const { data: subs, count } = await supabase
+        .from("music_album_subscribers")
+        .select("whatsapp, name, subscribed_at", { count: "exact" })
+        .eq("active", true)
+        .order("subscribed_at", { ascending: false })
+        .limit(200);
+      subscriberCount = count || 0;
+      whatsappSubscribers = subs || [];
+    } catch { /* table may not exist */ }
+
+    // ── Registered users (auth.users, excluding admin) ──
+    const registeredUsers = (allUsers?.users || [])
+      .filter(u => u.email !== ADMIN_EMAIL)
+      .map(u => ({
+        id: u.id,
+        email: u.email || "",
+        created_at: u.created_at,
+        last_sign_in_at: u.last_sign_in_at || null,
+      }))
+      .sort((a, b) => (a.created_at < b.created_at ? 1 : -1));
+
+    const userEmailById = new Map(registeredUsers.map(u => [u.id, u.email]));
+
+    // ── Push subscribers (count only — endpoint isn't user-friendly) ──
+    let pushSubscriberCount = 0;
     try {
       const { count } = await supabase
-        .from("music_album_subscribers")
-        .select("*", { count: "exact", head: true })
-        .eq("active", true);
-      subscriberCount = count || 0;
+        .from("push_subscriptions")
+        .select("*", { count: "exact", head: true });
+      pushSubscriberCount = count || 0;
+    } catch { /* table may not exist */ }
+
+    // ── Paid subscribers (Veus Music) ──
+    let paidSubscribers: { user_id: string; email: string; plan: string; status: string; expires_at: string | null; started_at: string }[] = [];
+    try {
+      const { data: paid } = await supabase
+        .from("music_subscriptions")
+        .select("user_id, plan, status, expires_at, started_at")
+        .neq("status", "expired")
+        .order("started_at", { ascending: false });
+      paidSubscribers = (paid || []).map(p => ({
+        user_id: p.user_id,
+        email: userEmailById.get(p.user_id) || "",
+        plan: p.plan,
+        status: p.status,
+        expires_at: p.expires_at,
+        started_at: p.started_at,
+      }));
+    } catch { /* table may not exist */ }
+
+    // ── Supporters (donations) ──
+    let supporters: { user_id: string; email: string; tier: string | null; created_at: string }[] = [];
+    try {
+      const { data: sup } = await supabase
+        .from("music_supporters")
+        .select("user_id, tier, created_at")
+        .order("created_at", { ascending: false });
+      supporters = (sup || []).map(s => ({
+        user_id: s.user_id,
+        email: userEmailById.get(s.user_id) || "",
+        tier: s.tier,
+        created_at: s.created_at,
+      }));
     } catch { /* table may not exist */ }
 
     return NextResponse.json({
@@ -136,6 +195,11 @@ export async function GET(req: NextRequest) {
       totalPlays,
       recentListeners,
       subscriberCount,
+      registeredUsers,
+      whatsappSubscribers,
+      pushSubscriberCount,
+      paidSubscribers,
+      supporters,
     });
   } catch (err) {
     return NextResponse.json({ erro: String(err) }, { status: 500 });
