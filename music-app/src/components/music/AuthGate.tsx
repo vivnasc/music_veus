@@ -5,12 +5,11 @@ import { usePathname, useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 
 /**
- * Requires authentication to use the app.
- * Public routes (login, register, share pages) are exempt.
- * Music is free but you need an account to listen.
+ * Browsing and playback are open (anon users get a 3-track soft-wall via
+ * the music player). Only personal/admin areas require an account.
  */
 
-const PUBLIC_ROUTES = ["/login", "/registar", "/partilha", "/o/", "/apoiar", "/album/", "/inspira", "/offline"];
+const PROTECTED_ROUTES = ["/conta", "/library", "/upload", "/admin"];
 
 export default function AuthGate({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -18,7 +17,7 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
   const [checked, setChecked] = useState(false);
   const [authed, setAuthed] = useState(false);
 
-  const isPublic = PUBLIC_ROUTES.some(r => pathname.startsWith(r));
+  const isPublic = !PROTECTED_ROUTES.some(r => pathname.startsWith(r));
 
   useEffect(() => {
     if (isPublic) {
