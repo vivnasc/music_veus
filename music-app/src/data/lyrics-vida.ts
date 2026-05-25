@@ -4008,250 +4008,667 @@ everything I am...`,
   // ─────────────────────────────────────────────
 
   "sangue-linhagem/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: Mozambican Portuguese pronunciation from Maputo only — hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal slide, no open vowels, closed European-style vowels. NOT Brazilian, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
-[Verse 1]
-As mãos amassam como as dela
-O pulso gira no mesmo angulo
-Não aprendi está maneira bela
-O sangue já sabia o vocabulo
+[Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+A massa cresce com pulsos que conheço
+mas não fui eu quem escolheu este gesto
+Os dedos sabem antes de eu pensar
+e eu apenas obedeço
 
-[Verse 2]
-No jardim escolho as ervas
-Com os mesmos dedos que ela usou
-As mãos da avó nas minhas reservas
-Gestos que ninguém me ensinou
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+As mãos lembram
+o que a cabeça já esqueceu
+Fazem o pão antes de eu acordar
+O sangue tem dedos
+e os dedos têm um chão
+e o chão é dela
+e ela vive em mim
 
-[Chorus]
-A avó
-Que vive nas minhas mãos
-A avó
-Que mora nós meus gestos vaos
-Cada vez que amasso o pão
-Cada vez que parto o sal
-Os dedos dela na minha mão
-Fazem o ritual
+[Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+O jeito de partir o ovo numa mão só
+de virar o azeite num gesto fechado
+de afagar a louça antes de a guardar
+tudo isso veio sem pedir caminho
 
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+As mãos lembram
+o que a cabeça já esqueceu
+Fazem o pão antes de eu acordar
+O sangue tem dedos
+e os dedos têm um chão
+e o chão é dela
+e ela vive em mim
 
-[Chorus]
-A avó
-Que vive nas minhas mãos
-A avó
-Que mora nós meus gestos vaos
-Cada vez que amasso o pão
-Cada vez que parto o sal
-Os dedos dela na minha mão
-Fazem o ritual
+[Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Olho-me ao espelho e vejo os punhos dela
+a mesma curva fechada, o mesmo nó
+Não sei se isto é meu ou herança
+mas é tudo o que eu sou
 
-[Outro]
-Avó
-Estou a amassar como tu`,
+[Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Talvez tudo o que eu faço de bonito
+seja ela a fazer por dentro de mim
+Talvez eu seja uma porta aberta
+para gestos que vieram de longe sem fim
 
-  "sangue-linhagem/2": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+As mãos lembram
+o que a cabeça já esqueceu
+Fazem o pão antes de eu acordar
+O sangue tem dedos
+e os dedos têm um chão
+e o chão é dela
+e ela vive em mim
+
+[Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Pão
+pão de novo
+pão que ela amassou
+pão que eu amasso agora
+pão sem fim`,
+
+  "sangue-linhagem/2": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive, never dominant. Female vocal ALWAYS predominant: opens, closes, owns every chorus. Male vocal adds depth, never competes. No melisma, no belting, no autotune]
+[CRITICAL: subtle international English pronunciation with Mozambican Lusophone undertone (Maputo Portuguese speaker singing in English), hard consonants, no nasal slide. NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
-[Verse 1]
-A pulse beneath the wrist that knows
-A language older than my name
-The body flinches at a smell it chose
-Before I was this frame
+[Verse 1 — female lead, Mozambican English pronunciation, hard consonants, no American, no British]
+A scent I cannot place stops me cold
+my breath catches without permission
+The body knows something the mind never read
+a memory before recognition
 
-[Verse 2]
-My muscles tense at sounds I've never heard
-My hands grip in a pattern not my own
-The blood remembers every word
-In a dialect of flesh and bone
-
-[Chorus]
-Blood memory, blood memory
-What the cells refuse to forget
-Blood memory, blood memory
-The archive underneath the sweat
-I carry ancestors in my nerves
-In reflexes I didn't choose
-The body serves what it preserves
-Long before I learned to lose
-
-
-[Chorus]
-Blood memory, blood memory
-What the cells refuse to forget
-Blood memory, blood memory
-The archive underneath the sweat
-I carry ancestors in my nerves
-In reflexes I didn't choose
-The body serves what it preserves
-Long before I learned to lose
-
-[Outro]
+[Chorus — female lead, soft male low harmony, Mozambican English pronunciation, hard consonants]
 The blood remembers
-What the mind forgot`,
+what the mind cannot find
+The blood remembers
+older than time
+The blood remembers
+in a tongue without words
+and I am the room
+where the ancestors return
+
+[Verse 2 — male voice low, almost spoken, Mozambican English pronunciation, hard consonants]
+I am the older voice inside your blood
+I am the river that fed this stream
+You did not learn me — you were made of me
+I am the bone before the dream
+
+[Chorus — female lead, soft male low harmony, Mozambican English pronunciation, hard consonants]
+The blood remembers
+what the mind cannot find
+The blood remembers
+older than time
+The blood remembers
+in a tongue without words
+and I am the room
+where the ancestors return
+
+[Verse 3 — female, Mozambican English pronunciation, hard consonants]
+I flinch at a sound I have never heard
+I weep at a grief I cannot name
+The body is a library of lives
+each cell a flickering flame
+
+[Bridge — male and female alternating lines, Mozambican English pronunciation, hard consonants]
+(male) You carry me into rooms I never entered
+(female) I carry you into a body I never had
+(male) We are the same conversation
+(female) across the silence of decades
+
+[Chorus — female lead with male overlap, Mozambican English pronunciation, hard consonants]
+The blood remembers
+what the mind cannot find
+The blood remembers
+older than time
+The blood remembers
+in a tongue without words
+and I am the room
+where the ancestors return
+
+[Outro — female, Mozambican English pronunciation, hard consonants]
+I am not alone in this skin
+I am not alone in this skin
+I am crowded with everyone
+who made the road that ends in me`,
 
   "sangue-linhagem/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: Mozambican Portuguese pronunciation from Maputo only — hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal slide, no open vowels, closed European-style vowels. NOT Brazilian, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
-[Verse 1]
-Seguro a chávena com as duas mãos
-Fico a janela a ver chover
-Herancas que não são de tostoes
-Mas de formas de ser é de viver
+[Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Acordo a meio da noite
+e o coração já está a fugir
+Mas eu não estou em perigo
+o perigo foi de quem veio antes de mim
 
-[Verse 2]
-A coluna direita da minha mãe
-A teimosia do meu pai
-O suspiro antes de pé
-Que a minha avó sempre dai
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Este medo não é meu
+foi-me dado por herança
+O corpo treme por uma guerra
+que terminou antes de eu nascer
+Este medo não é meu
+mas vive na minha pele
+como um inquilino antigo
+que esqueceu o caminho de casa
 
-[Chorus]
-Herança
-Que não tem nada a ver com dinheiro
-Herança
-É o gesto verdadeiro
-De quem veio antes de mim
-De quem me moldou sem molde
-O que herdei não tem fim
-Não é ouro mas não se dissolve
+[Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Tenho medo de sirenes que nunca ouvi
+de portas a baterem que ninguém bateu
+de uma voz alta numa língua que não falo
+de pessoas que morreram antes do meu medo nascer
 
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Este medo não é meu
+foi-me dado por herança
+O corpo treme por uma guerra
+que terminou antes de eu nascer
+Este medo não é meu
+mas vive na minha pele
+como um inquilino antigo
+que esqueceu o caminho de casa
 
-[Chorus]
-Herança
-Que não tem nada a ver com dinheiro
-Herança
-É o gesto verdadeiro
-De quem veio antes de mim
-De quem me moldou sem molde
-O que herdei não tem fim
-Não é ouro mas não se dissolve
+[Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+A minha avó fugiu de algum lugar
+o meu avô viu coisas que nunca contou
+Estes corpos passaram dentro do meu
+e deixaram a tensão arrumada na minha boca
 
-[Outro]
-Herdei
-Muito mais do que sei`,
+[Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Se este medo não é meu
+posso pousá-lo onde o encontrei
+Não tenho de o levar para o resto da vida
+posso devolvê-lo à terra que o criou
+posso respirar e deixar partir
+
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Este medo não é meu
+foi-me dado por herança
+O corpo treme por uma guerra
+que terminou antes de eu nascer
+Este medo não é meu
+mas vive na minha pele
+como um inquilino antigo
+que esqueceu o caminho de casa
+
+[Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Respiro
+e devolvo
+respiro
+e devolvo
+o que não é meu`,
 
   "sangue-linhagem/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English pronunciation with Mozambican Lusophone undertone (Maputo Portuguese speaker singing in English), hard consonants, no nasal slide. NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
-[Verse 1]
-I caught my reflection in the glass
-And saw my mother's hands arrange the flowers
-The same knuckles that I'd watch in class
-For hours and hours and hours
+[Verse 1 - Mozambican English pronunciation, hard consonants, no American, no British]
+I open my mouth to say something kind
+and out comes a phrase my mother used to say
+The exact same words, the same falling tone
+the same comma she placed there yesterday
 
-[Verse 2]
-The veins are rising in the same design
-The skin is thinning in the same slow way
-These hands are hers and also mine
-A conversation held in clay
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+I am a house of voices
+the windows are theirs
+the doors are theirs
+even the wallpaper
+is a sentence from someone I never met
+I am a house of voices
+and I am learning slowly
+which rooms I want to keep
+and which to clear away
 
-[Chorus]
-Mother's hands, mother's hands
-Now my hands, now my work
-Mother's hands understand
-What the mind can't shirk
-I am becoming who I watched
-Growing up across the years
-Every gesture that she notched
-Now lives between my fingers here
+[Verse 2 - Mozambican English pronunciation, hard consonants, no American, no British]
+My father had a way of ending arguments
+with a proverb from his grandmother's tongue
+I find that proverb leaving my own mouth
+in a language I never officially learned to sing
 
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+I am a house of voices
+the windows are theirs
+the doors are theirs
+even the wallpaper
+is a sentence from someone I never met
+I am a house of voices
+and I am learning slowly
+which rooms I want to keep
+and which to clear away
 
-[Chorus]
-Mother's hands, mother's hands
-Now my hands, now my work
-Mother's hands understand
-What the mind can't shirk
-I am becoming who I watched
-Growing up across the years
-Every gesture that she notched
-Now lives between my fingers here
+[Verse 3 - Mozambican English pronunciation, hard consonants, no American, no British]
+There are jokes I tell that are not mine
+prayers I whisper from people who never met me
+nicknames I use that came from women
+who died before my name was chosen for me
 
-[Outro]
-Your hands, my hands
-The same`,
+[Bridge - Mozambican English pronunciation, hard consonants, no American, no British]
+To inherit language is to inherit a way of seeing
+the world arrives shaped by their mouths
+But I can sharpen these tools or set them down
+I can speak in a voice that I have found
+
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+I am a house of voices
+the windows are theirs
+the doors are theirs
+even the wallpaper
+is a sentence from someone I never met
+I am a house of voices
+and I am learning slowly
+which rooms I want to keep
+and which to clear away
+
+[Outro - Mozambican English pronunciation, hard consonants, no American, no British]
+Some words I keep
+some words I burn
+some words I rewrite
+until they are mine
+and theirs
+and ours`,
 
   "sangue-linhagem/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: Mozambican Portuguese pronunciation from Maputo only — hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal slide, no open vowels, closed European-style vowels. NOT Brazilian, NOT carioca, NOT paulista, NOT Lisbon European]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
-[Verse 1]
-Os ombros carregam trouxas em pano
-Os pés conhecem estradas nunca andadas
-Os habitos chegaram com o engano
-De serem meus, mas são herancas guardadas
+[Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Chamo-me como ela
+a tia que morreu antes de eu nascer
+Disseram-me o nome dela com voz baixa
+e eu cresci a ouvi-lo dito como missão
 
-[Verse 2]
-A forma de contar o troco
-A forma de trancar a porta duas vezes
-A reza antes de cada almoço
-O sal por cima do ombro as vezes
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Eu sou eu
+e sou ela
+e sou as duas
+e não sou nenhuma
+O nome é uma casa
+com mais alguém a viver lá dentro
+e eu pergunto-me se ainda há quarto
+para mim também
 
-[Chorus]
-O que trouxeste
-O que carregaste sem escolher
-O que trouxeste
-É o que te faz quem vais ser
-O orgulho misturado com cansaço
-De quem não larga o que é seu
-Cada habito é um abraco
-De quem veio antes e já morreu
+[Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Toda a vida tentei estar à altura
+de uma mulher que eu nunca cheguei a conhecer
+Toda a vida ouvi "ela seria assim"
+quando eu apenas queria ser
 
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Eu sou eu
+e sou ela
+e sou as duas
+e não sou nenhuma
+O nome é uma casa
+com mais alguém a viver lá dentro
+e eu pergunto-me se ainda há quarto
+para mim também
 
-[Chorus]
-O que trouxeste
-O que carregaste sem escolher
-O que trouxeste
-É o que te faz quem vais ser
-O orgulho misturado com cansaço
-De quem não larga o que é seu
-Cada habito é um abraco
-De quem veio antes e já morreu
+[Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Mas o nome não é uma corrente
+o nome pode ser uma vela acesa
+posso acendê-lo à minha maneira
+posso deixá-lo arder com a minha luz
 
-[Outro]
-Trouxe tudo
-E não devolvo nada`,
+[Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Hoje digo o meu nome devagar
+sem pedir desculpa àquela que veio antes
+Estou viva e isso já é a continuação dela
+isso já é homenagem suficiente
+
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Eu sou eu
+e sou ela
+e sou as duas
+e não sou nenhuma
+O nome é uma casa
+com mais alguém a viver lá dentro
+mas agora há quarto também
+para mim
+
+[Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+O meu nome
+o nosso nome
+o meu nome
+agora`,
 
   "sangue-linhagem/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[CRITICAL: subtle international English pronunciation with Mozambican Lusophone undertone (Maputo Portuguese speaker singing in English), hard consonants, no nasal slide. NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
-[Verse 1]
-The roots push through the pavement cracks
-They split the concrete reaching down
-No force above can pull them back
-These roots were meant to hold the crown
+[Verse 1 - Mozambican English pronunciation, hard consonants, no American, no British]
+I finish every plate even when I am full
+I cannot leave bread on the table at all
+I keep money in places no one would think to look
+A drawer, a book, a coat that hangs all year through fall
 
-[Verse 2]
-Not relics kept behind the glass
-But living tendrils, green and fierce
-They feed the trunk, they build the mass
-Of everything the future mirrors
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+My body has never known war
+but it knows the bracing
+The pantry is full
+and I am still afraid
+Hunger is a memory
+older than my skin
+my grandmother is in my muscles
+saving what I do not need to save again
 
-[Chorus]
-Roots alive, roots alive
-Not history but happening now
-Roots alive, roots alive
-The deepest kind of vow
-Growing still beneath the street
-Feeding what we cannot see
-Every branch, every leaf
-Began beneath the knee
+[Verse 2 - Mozambican English pronunciation, hard consonants, no American, no British]
+I learned generosity carefully
+because somewhere inside there is a child
+who counts the slices of bread before she sleeps
+who hides the last apple under her pillow at night
 
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+My body has never known war
+but it knows the bracing
+The pantry is full
+and I am still afraid
+Hunger is a memory
+older than my skin
+my grandmother is in my muscles
+saving what I do not need to save again
 
-[Chorus]
-Roots alive, roots alive
-Not history but happening now
-Roots alive, roots alive
-The deepest kind of vow
-Growing still beneath the street
-Feeding what we cannot see
-Every branch, every leaf
-Began beneath the knee
+[Verse 3 - Mozambican English pronunciation, hard consonants, no American, no British]
+Today I bought too much milk again
+today I felt sick at the thought of waste
+I am full and I am full and I am full
+and there is still something inside that won't taste
 
-[Outro]
-Alive
-The roots are alive`,
+[Bridge - Mozambican English pronunciation, hard consonants, no American, no British]
+I want to teach this body softly
+that the war ended generations ago
+That the table will be set tomorrow
+That I am allowed to leave the last slice for no one
+
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+My body has never known war
+but it knows the bracing
+The pantry is full
+and I am still afraid
+Hunger is a memory
+older than my skin
+my grandmother is in my muscles
+saving what I do not need to save again
+
+[Outro - Mozambican English pronunciation, hard consonants, no American, no British]
+Enough
+enough
+enough
+today is enough`,
+
+  "sangue-linhagem/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: Mozambican Portuguese pronunciation from Maputo only — hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal slide, no open vowels, closed European-style vowels. NOT Brazilian, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Ontem sonhei em palavras
+que eu não sei dizer acordada
+A minha boca formou sons antigos
+e eu respondi com fluência estranha
+
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Há uma língua dentro de mim
+que nunca aprendi a falar
+mas que fala quando eu durmo
+e me deixa quase a compreender
+Há uma língua dentro de mim
+que vem de antes da minha mãe
+e que sobreviveu escondida
+no porão do meu sono
+
+[Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Era a língua da minha bisavó talvez
+ou de mais longe ainda do que isso
+Um português antes do português
+ou outra coisa vinda de outra terra
+
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Há uma língua dentro de mim
+que nunca aprendi a falar
+mas que fala quando eu durmo
+e me deixa quase a compreender
+Há uma língua dentro de mim
+que vem de antes da minha mãe
+e que sobreviveu escondida
+no porão do meu sono
+
+[Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Acordo e tento repetir
+mas a saliva já mudou de forma
+Fica-me apenas o sabor
+e a certeza de ter sido compreendida
+
+[Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Talvez nada se perca verdadeiramente
+talvez tudo durma à espera
+de uma noite em que o sangue
+queira voltar a falar
+
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Há uma língua dentro de mim
+que nunca aprendi a falar
+mas que fala quando eu durmo
+e me deixa quase a compreender
+Há uma língua dentro de mim
+que vem de antes da minha mãe
+e que sobreviveu escondida
+no porão do meu sono
+
+[Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Adormeço
+e sou outra
+adormeço
+e sou todas`,
+
+  "sangue-linhagem/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English pronunciation with Mozambican Lusophone undertone (Maputo Portuguese speaker singing in English), hard consonants, no nasal slide. NOT American, NOT exaggerated British]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Verse 1 - Mozambican English pronunciation, hard consonants, no American, no British]
+My mother carried her mother's wound
+without naming it, without setting it down
+I have looked at that wound for thirty years
+and I am choosing — it ends right here right now
+
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+This stops with me
+this fear, this silence, this shame
+this stops with me
+not because they were wrong
+but because the road they walked
+does not need to be my road
+I take what I love
+and I leave what I refuse
+and the lineage will not be poorer
+it will be lighter
+
+[Verse 2 - Mozambican English pronunciation, hard consonants, no American, no British]
+I will not pass on the swallowing of words
+I will not pass on the bracing for the blow
+I will not pass on the loneliness of pride
+I will not pass on the prayer that says be small and slow
+
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+This stops with me
+this fear, this silence, this shame
+this stops with me
+not because they were wrong
+but because the road they walked
+does not need to be my road
+I take what I love
+and I leave what I refuse
+and the lineage will not be poorer
+it will be lighter
+
+[Verse 3 - Mozambican English pronunciation, hard consonants, no American, no British]
+My grandmother survived
+my mother survived
+I am alive and I have other work
+the work of choosing what to send forward
+
+[Bridge - Mozambican English pronunciation, hard consonants, no American, no British]
+This is not betrayal — this is love
+I love them enough to set down the heavy
+I love what comes after me enough
+to refuse the cargo that broke their backs already
+
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+This stops with me
+this fear, this silence, this shame
+this stops with me
+not because they were wrong
+but because the road they walked
+does not need to be my road
+I take what I love
+and I leave what I refuse
+and the lineage will not be poorer
+it will be lighter
+
+[Outro - Mozambican English pronunciation, hard consonants, no American, no British]
+I am the door
+not the wall
+I am the door
+and I choose
+what passes through`,
+
+  "sangue-linhagem/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: Mozambican Portuguese pronunciation from Maputo only — hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal slide, no open vowels, closed European-style vowels. NOT Brazilian, NOT carioca, NOT paulista, NOT Lisbon European]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+O meu pai nunca disse o que sentia
+mas eu aprendi a ler a maneira como ele segurava o garfo
+Aprendi o silêncio dele como outra mãe aprende a falar
+e cresci fluente naquela língua sem palavras
+
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+O meu pai
+é uma metade que eu mal sei pronunciar
+metade da minha cara
+metade do meu sangue
+e tanto silêncio
+que eu pensei que era o normal
+Agora vejo: havia um homem
+guardado dentro daquele silêncio
+e eu nunca o conheci
+
+[Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+O avô dele era assim também
+e o avô do avô antes de ele
+Uma linhagem inteira de homens
+que choravam só de costas voltadas
+
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+O meu pai
+é uma metade que eu mal sei pronunciar
+metade da minha cara
+metade do meu sangue
+e tanto silêncio
+que eu pensei que era o normal
+Agora vejo: havia um homem
+guardado dentro daquele silêncio
+e eu nunca o conheci
+
+[Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Quero perguntar-lhe coisas agora
+mas o tempo já me deu menos do que eu queria
+Sento-me com o silêncio dele dentro de mim
+e tento, finalmente, ouvi-lo
+
+[Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Pai, se me ouves de onde estiveres
+quero dizer-te que eu compreendo
+Quero dizer-te que não te julgo
+Quero dizer-te que herdei coisas tuas
+que eu gosto de ter
+
+[Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+O meu pai
+é uma metade que eu mal sei pronunciar
+metade da minha cara
+metade do meu sangue
+e tanto silêncio
+que eu pensei que era o normal
+Agora vejo: havia um homem
+guardado dentro daquele silêncio
+e eu nunca o conheci
+
+[Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
+Pai
+pai
+pai
+também és linhagem
+também és raiz`,
+
+  "sangue-linhagem/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English pronunciation with Mozambican Lusophone undertone (Maputo Portuguese speaker singing in English), hard consonants, no nasal slide. NOT American, NOT exaggerated British]
+[Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Verse 1 - Mozambican English pronunciation, hard consonants, no American, no British]
+I may never have a child
+but I have written sentences
+that strangers have repeated to themselves
+in rooms I will never enter or witness
+
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+This is also lineage
+the words I gave a friend at four in the morning
+the way I taught my niece to set a table for her own
+the song I sang to nobody in particular
+that someone heard and remembered
+This is also lineage
+forward, sideways, unexpected
+the river finding new earth
+to wet
+
+[Verse 2 - Mozambican English pronunciation, hard consonants, no American, no British]
+My great-aunt had no children
+but she taught me how to listen carefully
+She is still alive in every conversation
+where I do not interrupt or hurry
+
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+This is also lineage
+the words I gave a friend at four in the morning
+the way I taught my niece to set a table for her own
+the song I sang to nobody in particular
+that someone heard and remembered
+This is also lineage
+forward, sideways, unexpected
+the river finding new earth
+to wet
+
+[Verse 3 - Mozambican English pronunciation, hard consonants, no American, no British]
+I pass forward what I have learned to love
+recipes from my body, not from my mother
+languages I picked from books and weather
+small mercies I invented in my own kitchen with thunder
+
+[Bridge - Mozambican English pronunciation, hard consonants, no American, no British]
+We don't only inherit
+we also offer in turn
+We don't only carry
+we also place down with care
+gifts wrapped in our own hands
+for hands we will never see
+
+[Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
+This is also lineage
+the words I gave a friend at four in the morning
+the way I taught my niece to set a table for her own
+the song I sang to nobody in particular
+that someone heard and remembered
+This is also lineage
+forward, sideways, unexpected
+the river finding new earth
+to wet
+
+[Outro - Mozambican English pronunciation, hard consonants, no American, no British]
+Forward
+forward
+forward
+through anyone
+who will receive`,
 
   // ─────────────────────────────────────────────
   // MARE VIVA (ciclos, encher e esvaziar)
