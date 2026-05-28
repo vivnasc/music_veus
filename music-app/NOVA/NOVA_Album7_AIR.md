@@ -499,11 +499,9 @@ Is coming home to your own life
 
 [Final Chorus: maximum soaring synth-pop]
 I am flying without leaving the ground
-I am flying without leaving the ground
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-voo
 voo
 ```
 
@@ -537,7 +535,6 @@ SUN
 [Intro: bright marimba, tropical synth]
 (whispered European Portuguese, Portugal accent:)
 sol
-sol
 
 [Verse 1: tropical groove]
 I went outside today
@@ -552,7 +549,6 @@ There was sun, and I was a child
 
 (whispered European Portuguese, Portugal accent:)
 sol no rosto
-sol no rosto
 
 [Pre-Chorus: build]
 Out
@@ -562,11 +558,8 @@ Step out
 
 [Chorus: tropical drop, voice joyful]
 The sun on my face is a sermon
-The sun on my face is a sermon
-The body knows the gospel
 The body knows the gospel
 
-The sun on my face is a sermon
 The sun on my face is a sermon
 The temple was here all along
 The temple was the sky
@@ -584,12 +577,9 @@ The sky is free
 
 (whispered European Portuguese, Portugal accent:)
 está aqui
-está aqui
 
 [Chorus]
 The sun on my face is a sermon
-The sun on my face is a sermon
-The body knows the gospel
 The body knows the gospel
 
 [Bridge: marimba alone, voice intimate]
@@ -603,11 +593,9 @@ The medicine is free
 
 [Final Chorus: maximum tropical pop]
 The sun on my face is a sermon
-The sun on my face is a sermon
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-sou luz
 sou luz
 ```
 
@@ -641,7 +629,6 @@ HOLY PARTY
 [Intro: disco bassline, glittering synth]
 (whispered European Portuguese, Portugal accent:)
 festa sagrada
-festa sagrada
 
 [Verse 1: disco groove]
 I went to a wedding last week
@@ -656,7 +643,6 @@ And it felt like prayer
 
 (whispered European Portuguese, Portugal accent:)
 festa sagrada
-festa sagrada
 
 [Pre-Chorus: build]
 Sacred
@@ -665,8 +651,6 @@ Holy
 Holy
 
 [Chorus: disco drop, voice bright]
-The disco is a temple
-If you bring your soul
 The disco is a temple
 If you bring your soul
 
@@ -688,11 +672,8 @@ Our hearts knew different
 
 (whispered European Portuguese, Portugal accent:)
 festa sagrada
-festa sagrada
 
 [Chorus]
-The disco is a temple
-If you bring your soul
 The disco is a temple
 If you bring your soul
 
@@ -742,7 +723,6 @@ LIGHT BODY
 [Intro: reverbed guitar, soft pad]
 (whispered European Portuguese, Portugal accent:)
 luz
-luz
 
 [Verse 1: dream pop wash]
 I am eating less, but tasting more
@@ -757,7 +737,6 @@ Subtract the noise, subtract the weight, subtract the lie
 
 (whispered European Portuguese, Portugal accent:)
 mais leve
-mais leve
 
 [Pre-Chorus: dream pop build]
 Less
@@ -766,8 +745,6 @@ More
 More
 
 [Chorus: dream pop swell, voice ethereal]
-I am made of less and less
-And more and more
 I am made of less and less
 And more and more
 
@@ -789,11 +766,8 @@ And I float
 
 (whispered European Portuguese, Portugal accent:)
 floto
-floto
 
 [Chorus]
-I am made of less and less
-And more and more
 I am made of less and less
 And more and more
 
@@ -809,7 +783,6 @@ And more and more
 
 [Outro: reverb fade]
 (whispered European Portuguese, Portugal accent:)
-sou luz
 sou luz
 ```
 
@@ -843,7 +816,6 @@ PLAY
 [Intro: bouncy synth, bright kick]
 (whispered European Portuguese, Portugal accent, with smile:)
 brincar
-brincar
 
 [Verse 1: playful synth-pop]
 I bought paint last week
@@ -858,7 +830,6 @@ I wore my pyjamas to the store
 
 (whispered European Portuguese, Portugal accent:)
 brincar
-brincar
 
 [Pre-Chorus: lift]
 Useless
@@ -868,11 +839,9 @@ Useless joy
 
 [Chorus: synth-pop drop, voice playful]
 I am playing for the first time since I was nine
-I am playing for the first time since I was nine
 The grown-up world stole this from me
 But I am taking it back
 
-I am playing for the first time since I was nine
 I am playing for the first time since I was nine
 The play has no purpose
 The play is the purpose
@@ -890,10 +859,8 @@ The child was just delighting
 
 (whispered European Portuguese, Portugal accent:)
 volto a ser criança
-volto a ser criança
 
 [Chorus]
-I am playing for the first time since I was nine
 I am playing for the first time since I was nine
 The grown-up world stole this from me
 But I am taking it back
@@ -906,11 +873,9 @@ Do it for ten minutes
 
 [Final Chorus: maximum playful synth-pop]
 I am playing for the first time since I was nine
-I am playing for the first time since I was nine
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-brinco
 brinco
 ```
 
@@ -944,7 +909,6 @@ LEVITATE
 [Intro: euphoric synth riser, kick build]
 (whispered European Portuguese, Portugal accent:)
 levito
-levito
 
 [Verse 1: dance build]
 I dropped the weight that wasn't mine
@@ -959,7 +923,6 @@ But the opposite happened
 
 (whispered European Portuguese, Portugal accent:)
 levito
-levito
 
 [Pre-Chorus: euphoric riser]
 Up
@@ -968,8 +931,6 @@ Up
 Up —
 
 [Chorus: EURODANCE DROP, voice angelic, viral]
-I'm levitating
-I am light enough to rise
 I'm levitating
 I am light enough to rise
 
@@ -994,11 +955,8 @@ I am the rising, I am the rise
 
 (whispered European Portuguese, Portugal accent:)
 levito
-levito
 
 [Chorus]
-I'm levitating
-I am light enough to rise
 I'm levitating
 I am light enough to rise
 
@@ -1011,12 +969,9 @@ Of saying no
 [Final Chorus: maximum euphoric eurodance, angelic peak]
 I'm levitating
 I am light enough to rise
-I'm levitating
-I am light enough to rise
 
 [Outro: euphoric synth fade]
 (whispered European Portuguese, Portugal accent:)
-levito
 levito
 ```
 

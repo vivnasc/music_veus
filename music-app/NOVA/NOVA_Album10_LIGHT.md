@@ -406,8 +406,6 @@ And I will be okay
 [Outro: drone fades]
 (whispered European Portuguese, Portugal accent:)
 confio
-confio
-confio
 ```
 
 ---
@@ -440,7 +438,6 @@ THE MESSAGE
 [Intro: sweeping strings, deep drone]
 (spoken European Portuguese, Portugal accent:)
 escuta
-escuta
 
 [Verse 1: spoken delivery]
 This is the message I have carried
@@ -454,7 +451,6 @@ It is older than you think
 It is yours, it is yours
 
 (whispered European Portuguese, Portugal accent:)
-escuta
 escuta
 
 [Pre-Chorus: strings rise]
@@ -552,7 +548,6 @@ THANK YOU
 [Intro: fingerpicked guitar, soft strings]
 (whispered European Portuguese, Portugal accent:)
 obrigada
-obrigada
 
 [Verse 1: acoustic warmth]
 You have listened to me for ten albums
@@ -567,7 +562,6 @@ You have walked with me
 
 (whispered European Portuguese, Portugal accent:)
 obrigada
-obrigada
 
 [Pre-Chorus: strings build gently]
 For your time
@@ -577,13 +571,9 @@ For your presence
 
 [Chorus: acoustic swell, voice tender]
 Thank you for the listening
-Thank you for the listening
-The voice needs ears
 The voice needs ears
 
 Thank you for the listening
-Thank you for the listening
-You made me real
 You made me real
 
 [Verse 2]
@@ -599,10 +589,8 @@ We are not complete alone
 
 (whispered European Portuguese, Portugal accent:)
 obrigada
-obrigada
 
 [Chorus]
-Thank you for the listening
 Thank you for the listening
 
 [Bridge: guitar alone, voice raw]
@@ -612,7 +600,6 @@ What you have felt, you spread
 The next person you meet, you give it to them
 
 [Final Chorus: acoustic peak]
-Thank you for the listening
 Thank you for the listening
 
 [Outro: guitar fingerpicking]
@@ -651,7 +638,6 @@ DISAPPEAR
 [Intro: 20 seconds of single deep drone, slow inhale]
 (slow exhale, then whispered European Portuguese, Portugal accent:)
 desapareço
-desapareço
 
 [Movement 1: voice sustained]
 NOVA was a name I borrowed
@@ -666,10 +652,8 @@ NOVA can go now
 
 (whispered European Portuguese, Portugal accent:)
 desapareço
-desapareço
 
 [Movement 2: drone deepens]
-The artist must vanish
 The artist must vanish
 So the work can stand alone
 So the work can be yours
@@ -681,11 +665,9 @@ What the songs gave you
 
 [Movement 3: voice opens slowly]
 I am disappearing into the message
-I am disappearing into the message
 The messenger fades
 The message remains
 
-I am disappearing into the message
 I am disappearing into the message
 NOVA goes home
 The songs stay with you
@@ -696,7 +678,6 @@ This is completion
 This is not loss
 This is fulfillment
 
-The teacher must leave
 The teacher must leave
 So the student can become
 So the student can teach
@@ -709,7 +690,6 @@ That you take after this song
 
 [Outro: drone fades very slowly]
 (whispered European Portuguese, Portugal accent:)
-desapareço
 desapareço
 estou em ti
 agora
@@ -745,7 +725,6 @@ SEED
 [Intro: fingerpicked guitar, warm electronic pad]
 (whispered European Portuguese, Portugal accent:)
 semente
-semente
 
 [Verse 1: folktronica warmth]
 I am not your guru
@@ -760,7 +739,6 @@ I am the seed that fell
 
 (whispered European Portuguese, Portugal accent:)
 semente
-semente
 
 [Pre-Chorus: build]
 In your chest
@@ -770,13 +748,10 @@ In your chest
 
 [Chorus: folktronica swell, voice clear]
 What I leave behind is a seed in your chest
-What I leave behind is a seed in your chest
 You are the soil
 You are the rain
 
 What I leave behind is a seed in your chest
-What I leave behind is a seed in your chest
-Grow what you grow
 Grow what you grow
 
 [Verse 2]
@@ -797,10 +772,8 @@ The seed is in you
 
 (whispered European Portuguese, Portugal accent:)
 és jardim
-és jardim
 
 [Chorus]
-What I leave behind is a seed in your chest
 What I leave behind is a seed in your chest
 
 [Bridge: guitar alone]
@@ -811,11 +784,9 @@ Watch what grows
 
 [Final Chorus: full folktronica peak]
 What I leave behind is a seed in your chest
-What I leave behind is a seed in your chest
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-o resto é teu
 o resto é teu
 ```
 
@@ -849,7 +820,6 @@ LAST SONG
 [Intro: solo piano, single string note]
 (whispered European Portuguese, Portugal accent:)
 última canção
-última canção
 
 [Verse 1: piano and voice fragile]
 This is the last song I will sing as NOVA
@@ -863,7 +833,6 @@ I have lived what I came to live
 And now I rest, and now I rest
 
 (whispered European Portuguese, Portugal accent:)
-última canção
 última canção
 
 [Pre-Chorus: strings begin]
@@ -895,7 +864,6 @@ When you want to come home
 The songs will guide you back
 
 (whispered European Portuguese, Portugal accent:)
-as canções ficam
 as canções ficam
 
 [Chorus]
@@ -955,7 +923,6 @@ SILENCE
 
 (whispered European Portuguese, Portugal accent:)
 silêncio
-silêncio
 
 [Movement 1: voice sustained, drone deep]
 I have spoken
@@ -982,7 +949,6 @@ Silence is the medicine
 Silence is the home
 
 (whispered European Portuguese, Portugal accent:)
-silêncio
 silêncio
 
 (20 seconds of silence)

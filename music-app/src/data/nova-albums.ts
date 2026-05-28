@@ -5094,11 +5094,9 @@ Let it stay
 
 [Chorus: soul drop, voice solo]
 My heart is heavy and I'm not putting it down
-My heart is heavy and I'm not putting it down
 Some weights are sacred
 Some weights are home
 
-My heart is heavy and I'm not putting it down
 My heart is heavy and I'm not putting it down
 The mother who left
 The friend who died
@@ -5118,10 +5116,8 @@ Grief is the way the love stays
 
 (whispered European Portuguese, Portugal accent:)
 o amor permanece no peso
-o amor permanece no peso
 
 [Chorus]
-My heart is heavy and I'm not putting it down
 My heart is heavy and I'm not putting it down
 Some weights are sacred
 Some weights are home
@@ -5134,11 +5130,9 @@ That I loved them
 
 [Final Chorus: soul warmth]
 My heart is heavy and I'm not putting it down
-My heart is heavy and I'm not putting it down
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-amo-os ainda
 amo-os ainda`,
       durationSeconds: 240,
       audioUrl: null,
@@ -5159,7 +5153,6 @@ amo-os ainda`,
 [Intro: 15 seconds of single deep drone, water sounds, slow breath]
 (slow inhale, then whispered European Portuguese, Portugal accent:)
 sal
-sal
 
 [Movement 1: voice sustained]
 Salt water is the same
@@ -5174,7 +5167,6 @@ The body is always water
 
 (whispered European Portuguese, Portugal accent:)
 sou água
-sou água
 
 [Movement 2: drone deepens]
 The first home was water
@@ -5188,7 +5180,6 @@ That is why we long for the sea
 We are remembering
 
 [Movement 3: voice opens slowly]
-Let the salt come
 Let the salt come
 Don't hold the tears
 Don't dam the flood
@@ -5218,7 +5209,6 @@ The body knows the chemistry of birth
 [Outro: drone fades to water sounds, then silence]
 (whispered European Portuguese, Portugal accent:)
 sou água
-sou água
 
 (silence, 10 seconds)
 
@@ -5242,7 +5232,6 @@ sou água
 [Intro: solo piano, single string note]
 (whispered European Portuguese, Portugal accent:)
 leva-me
-leva-me
 
 [Verse 1: piano and voice fragile]
 I have been the strong one
@@ -5257,7 +5246,6 @@ But who holds the holder?
 
 (whispered European Portuguese, Portugal accent:)
 leva-me
-leva-me
 
 [Pre-Chorus: strings begin to swell]
 Just once
@@ -5267,11 +5255,9 @@ Who is carried
 
 [Chorus: full orchestral swell, voice opens]
 Carry me, just for one mile
-Carry me, just for one mile
 I have walked this far alone
 Just for one mile, carry me
 
-Carry me, just for one mile
 Carry me, just for one mile
 Don't fix me, don't save me
 Just carry me, just carry me
@@ -5289,10 +5275,8 @@ Everyone leans on but no one holds
 
 (whispered European Portuguese, Portugal accent:)
 leva-me
-leva-me
 
 [Chorus]
-Carry me, just for one mile
 Carry me, just for one mile
 I have walked this far alone
 Just for one mile, carry me
@@ -5304,7 +5288,6 @@ For the first time in my life
 I am asking
 
 [Final Chorus: maximum orchestral swell]
-Carry me, just for one mile
 Carry me, just for one mile
 
 [Outro: orchestra fades, piano alone]
@@ -5330,7 +5313,6 @@ e respirei`,
 [Intro: reverbed guitar, soft pad, ocean wave sound]
 (whispered European Portuguese, Portugal accent:)
 maré
-maré
 
 [Verse 1: dream pop wash]
 On Monday I was fine
@@ -5345,7 +5327,6 @@ And stay better forever
 
 (whispered European Portuguese, Portugal accent:)
 maré
-maré
 
 [Pre-Chorus: dream pop build]
 But the body has tides
@@ -5355,11 +5336,9 @@ Like the moon, like the moon
 
 [Chorus: dream pop swell, voice ethereal]
 The pain comes back, but so does the peace
-The pain comes back, but so does the peace
 I stopped fighting the wave
 I started learning to surf
 
-The pain comes back, but so does the peace
 The pain comes back, but so does the peace
 Healing is not arrival
 Healing is the rhythm
@@ -5377,10 +5356,8 @@ The tide is the gift, not the curse
 
 (whispered European Portuguese, Portugal accent:)
 volta tudo
-volta tudo
 
 [Chorus]
-The pain comes back, but so does the peace
 The pain comes back, but so does the peace
 I stopped fighting the wave
 I started learning to surf
@@ -5392,7 +5369,6 @@ The heart is the tide
 Eternally returning
 
 [Final Chorus: dream pop peak]
-The pain comes back, but so does the peace
 The pain comes back, but so does the peace
 
 [Outro: ocean waves, reverb fade]
@@ -5418,7 +5394,6 @@ volta tudo`,
 [Intro: atmospheric synth, breath]
 (whispered European Portuguese, Portugal accent:)
 parti
-parti
 
 [Verse 1: synth-pop groove]
 I broke down on a Tuesday at 2pm
@@ -5433,7 +5408,6 @@ And what spilled out was so much truth
 
 (whispered European Portuguese, Portugal accent:)
 parti
-parti
 
 [Pre-Chorus: synth swell]
 The break
@@ -5443,11 +5417,9 @@ Was the gift
 
 [Chorus: synth-pop drop, voice solo]
 Breaking is the only honest thing I've done this year
-Breaking is the only honest thing I've done this year
 Everything else was performance
 Everything else was holding it together
 
-Breaking is the only honest thing I've done this year
 Breaking is the only honest thing I've done this year
 The crack is where the light came in
 The crack is where I came back
@@ -5465,10 +5437,8 @@ And it was the kindest thing anyone had done
 
 (whispered European Portuguese, Portugal accent:)
 parti em paz
-parti em paz
 
 [Chorus]
-Breaking is the only honest thing I've done this year
 Breaking is the only honest thing I've done this year
 Everything else was performance
 Everything else was holding it together
@@ -5480,7 +5450,6 @@ The world will not end
 The world will not end
 
 [Final Chorus: maximum synth-pop]
-Breaking is the only honest thing I've done this year
 Breaking is the only honest thing I've done this year
 
 [Outro]
@@ -5506,7 +5475,6 @@ e está tudo bem`,
 [Intro: ambient guitar drone, distant strings]
 (whispered European Portuguese, Portugal accent:)
 naufrágio
-naufrágio
 
 [Movement 1: voice nude]
 I am sitting on the beach
@@ -5521,7 +5489,6 @@ The faith that broke
 
 (whispered European Portuguese, Portugal accent:)
 naufrágio
-naufrágio
 
 [Movement 2: strings enter]
 And I am not crying anymore
@@ -5532,11 +5499,8 @@ And the wreck is beautiful
 The light catches the broken pieces
 The wood is washed smooth by water
 The truth is here, finally
-The truth is here, finally
 
 [Movement 3: build, sparse drums]
-I was a beautiful wreck
-And the wreck was the beauty
 I was a beautiful wreck
 And the wreck was the beauty
 
@@ -5564,8 +5528,6 @@ With the wisdom of the deep
 
 [Outro: instruments fade]
 (whispered European Portuguese, Portugal accent:)
-sou bonita
-no naufrágio
 sou bonita
 no naufrágio`,
       durationSeconds: 240,
@@ -5884,10 +5846,8 @@ This freedom is in my saying no
 
 (whispered European Portuguese, Portugal accent:)
 sou livre
-sou livre
 
 [Chorus]
-I am free for the first time in my body
 I am free for the first time in my body
 Not free from
 Free toward
@@ -5899,7 +5859,6 @@ Freedom is choosing yourself
 Even when everyone else chooses something easier
 
 [Final Chorus: maximum folk-pop swell]
-I am free for the first time in my body
 I am free for the first time in my body
 
 [Outro]
@@ -5925,7 +5884,6 @@ finalmente`,
 [Intro: rising synth, breath]
 (whispered European Portuguese, Portugal accent:)
 voo
-voo
 
 [Verse 1: synth-pop groove]
 I didn't go anywhere today
@@ -5940,7 +5898,6 @@ The freedom was already here
 
 (whispered European Portuguese, Portugal accent:)
 voo aqui mesmo
-voo aqui mesmo
 
 [Pre-Chorus: lift]
 Wings
@@ -5950,11 +5907,9 @@ You always had wings
 
 [Chorus: synth-pop ascension, voice soaring]
 I am flying without leaving the ground
-I am flying without leaving the ground
 The plane is not the freedom
 The breath is the freedom
 
-I am flying without leaving the ground
 I am flying without leaving the ground
 The escape was a lie
 The arrival is here
@@ -5972,10 +5927,8 @@ Waiting in the kitchen, with coffee
 
 (whispered European Portuguese, Portugal accent:)
 estava em casa
-estava em casa
 
 [Chorus]
-I am flying without leaving the ground
 I am flying without leaving the ground
 The plane is not the freedom
 The breath is the freedom
@@ -5988,11 +5941,9 @@ Is coming home to your own life
 
 [Final Chorus: maximum soaring synth-pop]
 I am flying without leaving the ground
-I am flying without leaving the ground
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-voo
 voo`,
       durationSeconds: 240,
       audioUrl: null,
@@ -6013,7 +5964,6 @@ voo`,
 [Intro: bright marimba, tropical synth]
 (whispered European Portuguese, Portugal accent:)
 sol
-sol
 
 [Verse 1: tropical groove]
 I went outside today
@@ -6028,7 +5978,6 @@ There was sun, and I was a child
 
 (whispered European Portuguese, Portugal accent:)
 sol no rosto
-sol no rosto
 
 [Pre-Chorus: build]
 Out
@@ -6038,11 +5987,8 @@ Step out
 
 [Chorus: tropical drop, voice joyful]
 The sun on my face is a sermon
-The sun on my face is a sermon
-The body knows the gospel
 The body knows the gospel
 
-The sun on my face is a sermon
 The sun on my face is a sermon
 The temple was here all along
 The temple was the sky
@@ -6060,12 +6006,9 @@ The sky is free
 
 (whispered European Portuguese, Portugal accent:)
 está aqui
-está aqui
 
 [Chorus]
 The sun on my face is a sermon
-The sun on my face is a sermon
-The body knows the gospel
 The body knows the gospel
 
 [Bridge: marimba alone, voice intimate]
@@ -6079,11 +6022,9 @@ The medicine is free
 
 [Final Chorus: maximum tropical pop]
 The sun on my face is a sermon
-The sun on my face is a sermon
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-sou luz
 sou luz`,
       durationSeconds: 240,
       audioUrl: null,
@@ -6104,7 +6045,6 @@ sou luz`,
 [Intro: disco bassline, glittering synth]
 (whispered European Portuguese, Portugal accent:)
 festa sagrada
-festa sagrada
 
 [Verse 1: disco groove]
 I went to a wedding last week
@@ -6119,7 +6059,6 @@ And it felt like prayer
 
 (whispered European Portuguese, Portugal accent:)
 festa sagrada
-festa sagrada
 
 [Pre-Chorus: build]
 Sacred
@@ -6128,8 +6067,6 @@ Holy
 Holy
 
 [Chorus: disco drop, voice bright]
-The disco is a temple
-If you bring your soul
 The disco is a temple
 If you bring your soul
 
@@ -6151,11 +6088,8 @@ Our hearts knew different
 
 (whispered European Portuguese, Portugal accent:)
 festa sagrada
-festa sagrada
 
 [Chorus]
-The disco is a temple
-If you bring your soul
 The disco is a temple
 If you bring your soul
 
@@ -6192,7 +6126,6 @@ para Deus`,
 [Intro: reverbed guitar, soft pad]
 (whispered European Portuguese, Portugal accent:)
 luz
-luz
 
 [Verse 1: dream pop wash]
 I am eating less, but tasting more
@@ -6207,7 +6140,6 @@ Subtract the noise, subtract the weight, subtract the lie
 
 (whispered European Portuguese, Portugal accent:)
 mais leve
-mais leve
 
 [Pre-Chorus: dream pop build]
 Less
@@ -6216,8 +6148,6 @@ More
 More
 
 [Chorus: dream pop swell, voice ethereal]
-I am made of less and less
-And more and more
 I am made of less and less
 And more and more
 
@@ -6239,11 +6169,8 @@ And I float
 
 (whispered European Portuguese, Portugal accent:)
 floto
-floto
 
 [Chorus]
-I am made of less and less
-And more and more
 I am made of less and less
 And more and more
 
@@ -6259,7 +6186,6 @@ And more and more
 
 [Outro: reverb fade]
 (whispered European Portuguese, Portugal accent:)
-sou luz
 sou luz`,
       durationSeconds: 240,
       audioUrl: null,
@@ -6280,7 +6206,6 @@ sou luz`,
 [Intro: bouncy synth, bright kick]
 (whispered European Portuguese, Portugal accent, with smile:)
 brincar
-brincar
 
 [Verse 1: playful synth-pop]
 I bought paint last week
@@ -6295,7 +6220,6 @@ I wore my pyjamas to the store
 
 (whispered European Portuguese, Portugal accent:)
 brincar
-brincar
 
 [Pre-Chorus: lift]
 Useless
@@ -6305,11 +6229,9 @@ Useless joy
 
 [Chorus: synth-pop drop, voice playful]
 I am playing for the first time since I was nine
-I am playing for the first time since I was nine
 The grown-up world stole this from me
 But I am taking it back
 
-I am playing for the first time since I was nine
 I am playing for the first time since I was nine
 The play has no purpose
 The play is the purpose
@@ -6327,10 +6249,8 @@ The child was just delighting
 
 (whispered European Portuguese, Portugal accent:)
 volto a ser criança
-volto a ser criança
 
 [Chorus]
-I am playing for the first time since I was nine
 I am playing for the first time since I was nine
 The grown-up world stole this from me
 But I am taking it back
@@ -6343,11 +6263,9 @@ Do it for ten minutes
 
 [Final Chorus: maximum playful synth-pop]
 I am playing for the first time since I was nine
-I am playing for the first time since I was nine
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-brinco
 brinco`,
       durationSeconds: 240,
       audioUrl: null,
@@ -6368,7 +6286,6 @@ brinco`,
 [Intro: euphoric synth riser, kick build]
 (whispered European Portuguese, Portugal accent:)
 levito
-levito
 
 [Verse 1: dance build]
 I dropped the weight that wasn't mine
@@ -6383,7 +6300,6 @@ But the opposite happened
 
 (whispered European Portuguese, Portugal accent:)
 levito
-levito
 
 [Pre-Chorus: euphoric riser]
 Up
@@ -6392,8 +6308,6 @@ Up
 Up —
 
 [Chorus: EURODANCE DROP, voice angelic, viral]
-I'm levitating
-I am light enough to rise
 I'm levitating
 I am light enough to rise
 
@@ -6418,11 +6332,8 @@ I am the rising, I am the rise
 
 (whispered European Portuguese, Portugal accent:)
 levito
-levito
 
 [Chorus]
-I'm levitating
-I am light enough to rise
 I'm levitating
 I am light enough to rise
 
@@ -6435,12 +6346,9 @@ Of saying no
 [Final Chorus: maximum euphoric eurodance, angelic peak]
 I'm levitating
 I am light enough to rise
-I'm levitating
-I am light enough to rise
 
 [Outro: euphoric synth fade]
 (whispered European Portuguese, Portugal accent:)
-levito
 levito`,
       durationSeconds: 240,
       audioUrl: null,
@@ -6773,7 +6681,6 @@ This is family
 
 (whispered European Portuguese, Portugal accent:)
 estão aqui
-estão aqui
 
 [Chorus: sung]
 The dead are not gone
@@ -6814,7 +6721,6 @@ obrigada, avô`,
 [Intro: fingerpicked guitar, soft pad]
 (whispered European Portuguese, Portugal accent:)
 a velha em mim
-a velha em mim
 
 [Verse 1: folktronica intimacy]
 She is eighty-three years old
@@ -6829,7 +6735,6 @@ When I need to make a decision
 
 (whispered European Portuguese, Portugal accent:)
 a velha em mim
-a velha em mim
 
 [Pre-Chorus: pad swells]
 What would she say?
@@ -6839,11 +6744,9 @@ What would she ask me to leave?
 
 [Chorus: folktronica swell, voice solo]
 The old woman I will become is already inside me
-The old woman I will become is already inside me
 She is my compass
 She is my advisor
 
-The old woman I will become is already inside me
 The old woman I will become is already inside me
 What would she regret?
 What would she keep?
@@ -6861,10 +6764,8 @@ Is the silver of survival
 
 (whispered European Portuguese, Portugal accent:)
 ouve a velha
-ouve a velha
 
 [Chorus]
-The old woman I will become is already inside me
 The old woman I will become is already inside me
 
 [Bridge: guitar alone, voice intimate]
@@ -6880,11 +6781,9 @@ The presence will matter
 
 [Final Chorus: full folktronica peak]
 The old woman I will become is already inside me
-The old woman I will become is already inside me
 
 [Outro: guitar fingerpicking]
 (whispered European Portuguese, Portugal accent:)
-ela guia-me
 ela guia-me`,
       durationSeconds: 240,
       audioUrl: null,
@@ -6905,7 +6804,6 @@ ela guia-me`,
 [Intro: 15 seconds of single deep drone, slow inhale]
 (slow exhale, then whispered European Portuguese, Portugal accent:)
 devagar
-devagar
 
 [Movement 1: voice sustained]
 I made tea today
@@ -6919,7 +6817,6 @@ I did not eat at the screen
 I just sat with the food
 
 (whispered European Portuguese, Portugal accent:)
-devagar
 devagar
 
 [Movement 2: drone deepens]
@@ -6935,11 +6832,9 @@ The slow is the truth
 
 [Movement 3: voice opens slowly]
 Slow is the new radical
-Slow is the new radical
 The world is fast
 And the fast is killing us
 
-Slow is the new radical
 Slow is the new radical
 The body wants slow
 The soul wants slow
@@ -6957,15 +6852,11 @@ None of them last
 
 [Movement 5: descent]
 Slow is the new radical
-Slow is the new radical
-Choose one thing today
 Choose one thing today
 And do it slow
 
 [Outro: drone fades to actual silence, water sounds]
 (whispered European Portuguese, Portugal accent:)
-devagar
-devagar
 devagar`,
       durationSeconds: 240,
       audioUrl: null,
@@ -6986,7 +6877,6 @@ devagar`,
 [Intro: vinyl crackle, deep sub-bass, vintage sample]
 (whispered European Portuguese, Portugal accent:)
 ontem
-ontem
 
 [Verse 1: trip hop groove]
 I scrolled through old photos last night
@@ -7001,7 +6891,6 @@ I edited the past with longing
 
 (whispered European Portuguese, Portugal accent:)
 ontem
-ontem
 
 [Pre-Chorus: bass deepens]
 But yesterday
@@ -7011,11 +6900,9 @@ Wasn't real either
 
 [Chorus: trip hop drop, voice wistful]
 I keep visiting yesterday like it's still home
-I keep visiting yesterday like it's still home
 But yesterday closed its doors
 And the keys don't work anymore
 
-I keep visiting yesterday like it's still home
 I keep visiting yesterday like it's still home
 The past is not a country
 You can move back to
@@ -7033,10 +6920,8 @@ That was already someone else's
 
 (whispered European Portuguese, Portugal accent:)
 volto sempre
-volto sempre
 
 [Chorus]
-I keep visiting yesterday like it's still home
 I keep visiting yesterday like it's still home
 
 [Bridge: drums drop, voice raw]
@@ -7047,11 +6932,9 @@ That has my breath
 
 [Final Chorus: trip hop returns]
 I keep visiting yesterday like it's still home
-I keep visiting yesterday like it's still home
 
 [Outro: vinyl fade]
 (whispered European Portuguese, Portugal accent:)
-volto a hoje
 volto a hoje`,
       durationSeconds: 240,
       audioUrl: null,
@@ -7072,7 +6955,6 @@ volto a hoje`,
 [Intro: atmospheric synth, breath]
 (whispered European Portuguese, Portugal accent:)
 depois
-depois
 
 [Verse 1: synth-pop groove]
 I'll start that book later, when I have time
@@ -7087,7 +6969,6 @@ I'll be happy later, when I have arrived
 
 (whispered European Portuguese, Portugal accent:)
 depois
-depois
 
 [Pre-Chorus: synth lift]
 Later
@@ -7097,11 +6978,9 @@ Later
 
 [Chorus: synth-pop drop, voice clear]
 Later was a country I never visited
-Later was a country I never visited
 The visa expired
 The flight was cancelled
 
-Later was a country I never visited
 Later was a country I never visited
 Now is the only ticket
 Now is the only home
@@ -7119,10 +6998,8 @@ Later is a gamble
 
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Chorus]
-Later was a country I never visited
 Later was a country I never visited
 The visa expired
 The flight was cancelled
@@ -7134,7 +7011,6 @@ What if you started today?
 What if you didn't wait?
 
 [Final Chorus: maximum synth-pop]
-Later was a country I never visited
 Later was a country I never visited
 
 [Outro]
@@ -7160,7 +7036,6 @@ começo agora`,
 [Intro: glitchy fragmented pulse, breath]
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Verse 1: hyperpop punch]
 The yesterday is gone, gone, gone
@@ -7175,7 +7050,6 @@ I am here, I am here, I am here
 
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Pre-Chorus: glitch riser]
 Now
@@ -7185,11 +7059,9 @@ Now —
 
 [Chorus: HYPERPOP DROP, voice viral]
 Now is the only address that has my key
-Now is the only address that has my key
 The past locked itself behind me
 The future hasn't been built yet
 
-Now is the only address that has my key
 Now is the only address that has my key
 And I am turning the key
 And I am stepping inside
@@ -7207,10 +7079,8 @@ This is not the trailer
 
 (whispered European Portuguese, Portugal accent:)
 é agora
-é agora
 
 [Chorus]
-Now is the only address that has my key
 Now is the only address that has my key
 
 [Bridge: drops out, voice intimate]
@@ -7223,7 +7093,6 @@ Stay here
 Stay here
 
 [Final Chorus: maximum hyperpop]
-Now is the only address that has my key
 Now is the only address that has my key
 
 [Outro]
@@ -7249,7 +7118,6 @@ sempre agora`,
 [Intro: ambient guitar drone, slow]
 (whispered European Portuguese, Portugal accent:)
 eterno
-eterno
 
 [Movement 1: voice nude]
 I made coffee this morning
@@ -7263,7 +7131,6 @@ The same way my mother was held
 The arms remember
 
 (whispered European Portuguese, Portugal accent:)
-eterno em gesto
 eterno em gesto
 
 [Movement 2: strings enter]
@@ -7289,7 +7156,6 @@ The mystics looked for eternity in books
 But it was in the touch all along
 
 [Movement 4: post-rock peak, voice opens]
-I am living in the eternal disguised as a Tuesday
 I am living in the eternal disguised as a Tuesday
 The dishes are eternal
 The breath is eternal
@@ -7609,7 +7475,6 @@ I love you in this minute, here
 
 (whispered European Portuguese, Portugal accent:)
 sem contrato
-sem contrato
 
 [Pre-Chorus: bass deepens]
 The moment
@@ -7619,11 +7484,9 @@ Is the only vow
 
 [Chorus: R&B drop, voice intimate]
 I love you without the contract
-I love you without the contract
 The bond is in the choosing
 Not in the document
 
-I love you without the contract
 I love you without the contract
 Today I love you
 And today is enough
@@ -7646,10 +7509,8 @@ And today is the truth
 
 (whispered European Portuguese, Portugal accent:)
 hoje basta
-hoje basta
 
 [Chorus]
-I love you without the contract
 I love you without the contract
 The bond is in the choosing
 Not in the document
@@ -7661,7 +7522,6 @@ Because I am choosing you today
 Without the safety net
 
 [Final Chorus: R&B warmth]
-I love you without the contract
 I love you without the contract
 
 [Outro]
@@ -7712,11 +7572,9 @@ Forever
 
 [Chorus: jazz electronic swell, voice tender]
 I love you in a way I didn't know was possible
-I love you in a way I didn't know was possible
 Before you, I thought love had a ceiling
 You showed me there is no ceiling
 
-I love you in a way I didn't know was possible
 I love you in a way I didn't know was possible
 You are not mine
 But I am yours, I am yours
@@ -7734,10 +7592,8 @@ You taught me that the small is the holy
 
 (whispered European Portuguese, Portugal accent:)
 ensinaste-me
-ensinaste-me
 
 [Chorus]
-I love you in a way I didn't know was possible
 I love you in a way I didn't know was possible
 
 [Bridge: piano alone, voice raw]
@@ -7752,7 +7608,6 @@ You are the door
 To a love I am still becoming
 
 [Final Chorus: full jazz warmth]
-I love you in a way I didn't know was possible
 I love you in a way I didn't know was possible
 
 [Outro: piano fades]
@@ -7803,11 +7658,9 @@ Every one
 
 [Chorus: synth-pop drop, voice bright]
 I love the strangers, every one of them
-I love the strangers, every one of them
 We are all dying
 And we are all alive
 
-I love the strangers, every one of them
 I love the strangers, every one of them
 The cashier, the driver, the doctor
 The beggar, the child, the old
@@ -7825,10 +7678,8 @@ And I refuse to forget this
 
 (whispered European Portuguese, Portugal accent:)
 todos iguais
-todos iguais
 
 [Chorus]
-I love the strangers, every one of them
 I love the strangers, every one of them
 
 [Bridge: synths drop, voice intimate]
@@ -7838,7 +7689,6 @@ The act is small, the act is everything
 The act is small, the act is everything
 
 [Final Chorus: maximum synth-pop swell]
-I love the strangers, every one of them
 I love the strangers, every one of them
 
 [Outro]
@@ -7864,7 +7714,6 @@ I love the strangers, every one of them
 [Intro: solo piano, single string note]
 (whispered European Portuguese, Portugal accent:)
 mortos
-mortos
 
 [Verse 1: piano and voice fragile]
 My grandmother died seven years ago
@@ -7879,7 +7728,6 @@ The love did not die when she died
 
 (whispered European Portuguese, Portugal accent:)
 estás
-estás
 
 [Pre-Chorus: strings begin]
 The dead
@@ -7889,11 +7737,9 @@ Are loved still
 
 [Chorus: full orchestral swell, voice opens]
 I am still in love with the ones who are gone
-I am still in love with the ones who are gone
 The grief industry told me to "let go"
 But I am keeping them with me
 
-I am still in love with the ones who are gone
 I am still in love with the ones who are gone
 The love did not end
 Because the body did
@@ -7911,10 +7757,8 @@ For them, for them, for them
 
 (whispered European Portuguese, Portugal accent:)
 amo-vos ainda
-amo-vos ainda
 
 [Chorus]
-I am still in love with the ones who are gone
 I am still in love with the ones who are gone
 The grief industry told me to "let go"
 But I am keeping them with me
@@ -7926,7 +7770,6 @@ This is the way the love works
 The body dies, the love does not
 
 [Final Chorus: maximum orchestral swell]
-I am still in love with the ones who are gone
 I am still in love with the ones who are gone
 
 [Outro: orchestra fades, piano alone]
@@ -7952,7 +7795,6 @@ sempre`,
 [Intro: electric piano, deep bass]
 (whispered European Portuguese, Portugal accent:)
 eu
-eu
 
 [Verse 1: soul groove]
 For thirty years I have hated the woman in the mirror
@@ -7967,7 +7809,6 @@ A woman who has done her best
 
 (whispered European Portuguese, Portugal accent:)
 eu
-eu
 
 [Pre-Chorus: bass swells]
 For the first time
@@ -7977,11 +7818,9 @@ I see her
 
 [Chorus: soul drop, voice powerful]
 I am learning to love the woman in the mirror
-I am learning to love the woman in the mirror
 She has been here all along
 She has been waiting for me
 
-I am learning to love the woman in the mirror
 I am learning to love the woman in the mirror
 Not the woman I should be
 The woman I am
@@ -7999,10 +7838,8 @@ The freedom that came was worth everything
 
 (whispered European Portuguese, Portugal accent:)
 escolho-me
-escolho-me
 
 [Chorus]
-I am learning to love the woman in the mirror
 I am learning to love the woman in the mirror
 
 [Bridge: stripped, voice intimate]
@@ -8012,7 +7849,6 @@ This is how I love anyone else
 This is where it begins
 
 [Final Chorus: soul warmth peak]
-I am learning to love the woman in the mirror
 I am learning to love the woman in the mirror
 
 [Outro]
@@ -8038,7 +7874,6 @@ finalmente`,
 [Intro: acoustic guitar strum]
 (whispered European Portuguese, Portugal accent:)
 abro
-abro
 
 [Verse 1: indie folk pop groove]
 For years I closed myself
@@ -8053,7 +7888,6 @@ Because the heart had been broken
 
 (whispered European Portuguese, Portugal accent:)
 abro
-abro
 
 [Pre-Chorus: build]
 But not anymore
@@ -8063,11 +7897,9 @@ Open
 
 [Chorus: folk-pop swell, voice clear]
 I am open and I am not afraid
-I am open and I am not afraid
 What comes will come
 What goes will go
 
-I am open and I am not afraid
 I am open and I am not afraid
 The closed life is the dying life
 The open life is the living life
@@ -8085,10 +7917,8 @@ Than keep feeling nothing
 
 (whispered European Portuguese, Portugal accent:)
 abro tudo
-abro tudo
 
 [Chorus]
-I am open and I am not afraid
 I am open and I am not afraid
 
 [Bridge: stripped, guitar alone]
@@ -8099,11 +7929,9 @@ The open heart is the freedom
 
 [Final Chorus: maximum folk-pop swell]
 I am open and I am not afraid
-I am open and I am not afraid
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-abro
 abro`,
       durationSeconds: 240,
       audioUrl: null,
@@ -8124,7 +7952,6 @@ abro`,
 [Intro: ambient guitar drone]
 (whispered European Portuguese, Portugal accent:)
 tudo
-tudo
 
 [Movement 1: voice nude]
 I love the ones who hurt me
@@ -8138,7 +7965,6 @@ I love the collapses, I love the disappointments
 I love the betrayals, I love the goodbyes
 
 (whispered European Portuguese, Portugal accent:)
-tudo
 tudo
 
 [Movement 2: strings enter]
@@ -8154,7 +7980,6 @@ Even the dark taught me
 
 [Movement 3: build, sparse drums]
 I love it all, I love it all, I love it all
-I love it all, I love it all, I love it all
 The good and the broken
 The kept and the lost
 
@@ -8164,7 +7989,6 @@ I love the year I was nothing
 I love the year I was everything
 
 [Movement 4: post-rock peak, voice opens]
-I love it all, I love it all, I love it all
 I love it all, I love it all, I love it all
 This is the love without exception
 This is the love without condition
@@ -8185,8 +8009,6 @@ I see it
 
 [Outro: instruments fade slowly]
 (whispered European Portuguese, Portugal accent:)
-amo tudo
-amo tudo
 amo tudo`,
       durationSeconds: 240,
       audioUrl: null,
@@ -8433,10 +8255,8 @@ I am keeping the work that uses me well
 
 (whispered European Portuguese, Portugal accent:)
 fico só com o meu
-fico só com o meu
 
 [Chorus]
-I am letting go of everything that wasn't mine
 I am letting go of everything that wasn't mine
 
 [Bridge: guitar alone, voice intimate]
@@ -8446,7 +8266,6 @@ There is no force in this
 There is only honesty
 
 [Final Chorus: full folk peak]
-I am letting go of everything that wasn't mine
 I am letting go of everything that wasn't mine
 
 [Outro: guitar fingerpicking]
@@ -8472,7 +8291,6 @@ estou leve`,
 [Intro: single deep drone, slow piano note]
 (slow inhale, then whispered European Portuguese, Portugal accent:)
 confio
-confio
 
 [Movement 1: voice sustained]
 For thirty years I have planned
@@ -8487,7 +8305,6 @@ And I was left with what was real
 
 (whispered European Portuguese, Portugal accent:)
 confio
-confio
 
 [Movement 2: drone deepens]
 And what was real was always more
@@ -8497,11 +8314,9 @@ From what I had planned
 
 [Movement 3: voice opens slowly]
 I trust the unknown more than I trust the plan
-I trust the unknown more than I trust the plan
 The plan was small
 The unknown is vast
 
-I trust the unknown more than I trust the plan
 I trust the unknown more than I trust the plan
 The control was the cage
 The trust is the door
@@ -8519,15 +8334,12 @@ The mystery holds me
 
 [Movement 5: descent]
 I am soft, I am open
-I am soft, I am open
 What comes will come
 What goes will go
 And I will be okay
 
 [Outro: drone fades]
 (whispered European Portuguese, Portugal accent:)
-confio
-confio
 confio`,
       durationSeconds: 240,
       audioUrl: null,
@@ -8548,7 +8360,6 @@ confio`,
 [Intro: sweeping strings, deep drone]
 (spoken European Portuguese, Portugal accent:)
 escuta
-escuta
 
 [Verse 1: spoken delivery]
 This is the message I have carried
@@ -8562,7 +8373,6 @@ It is older than you think
 It is yours, it is yours
 
 (whispered European Portuguese, Portugal accent:)
-escuta
 escuta
 
 [Pre-Chorus: strings rise]
@@ -8647,7 +8457,6 @@ estás aqui
 [Intro: fingerpicked guitar, soft strings]
 (whispered European Portuguese, Portugal accent:)
 obrigada
-obrigada
 
 [Verse 1: acoustic warmth]
 You have listened to me for ten albums
@@ -8662,7 +8471,6 @@ You have walked with me
 
 (whispered European Portuguese, Portugal accent:)
 obrigada
-obrigada
 
 [Pre-Chorus: strings build gently]
 For your time
@@ -8672,13 +8480,9 @@ For your presence
 
 [Chorus: acoustic swell, voice tender]
 Thank you for the listening
-Thank you for the listening
-The voice needs ears
 The voice needs ears
 
 Thank you for the listening
-Thank you for the listening
-You made me real
 You made me real
 
 [Verse 2]
@@ -8694,10 +8498,8 @@ We are not complete alone
 
 (whispered European Portuguese, Portugal accent:)
 obrigada
-obrigada
 
 [Chorus]
-Thank you for the listening
 Thank you for the listening
 
 [Bridge: guitar alone, voice raw]
@@ -8707,7 +8509,6 @@ What you have felt, you spread
 The next person you meet, you give it to them
 
 [Final Chorus: acoustic peak]
-Thank you for the listening
 Thank you for the listening
 
 [Outro: guitar fingerpicking]
@@ -8733,7 +8534,6 @@ para sempre`,
 [Intro: 20 seconds of single deep drone, slow inhale]
 (slow exhale, then whispered European Portuguese, Portugal accent:)
 desapareço
-desapareço
 
 [Movement 1: voice sustained]
 NOVA was a name I borrowed
@@ -8748,10 +8548,8 @@ NOVA can go now
 
 (whispered European Portuguese, Portugal accent:)
 desapareço
-desapareço
 
 [Movement 2: drone deepens]
-The artist must vanish
 The artist must vanish
 So the work can stand alone
 So the work can be yours
@@ -8763,11 +8561,9 @@ What the songs gave you
 
 [Movement 3: voice opens slowly]
 I am disappearing into the message
-I am disappearing into the message
 The messenger fades
 The message remains
 
-I am disappearing into the message
 I am disappearing into the message
 NOVA goes home
 The songs stay with you
@@ -8778,7 +8574,6 @@ This is completion
 This is not loss
 This is fulfillment
 
-The teacher must leave
 The teacher must leave
 So the student can become
 So the student can teach
@@ -8791,7 +8586,6 @@ That you take after this song
 
 [Outro: drone fades very slowly]
 (whispered European Portuguese, Portugal accent:)
-desapareço
 desapareço
 estou em ti
 agora`,
@@ -8814,7 +8608,6 @@ agora`,
 [Intro: fingerpicked guitar, warm electronic pad]
 (whispered European Portuguese, Portugal accent:)
 semente
-semente
 
 [Verse 1: folktronica warmth]
 I am not your guru
@@ -8829,7 +8622,6 @@ I am the seed that fell
 
 (whispered European Portuguese, Portugal accent:)
 semente
-semente
 
 [Pre-Chorus: build]
 In your chest
@@ -8839,13 +8631,10 @@ In your chest
 
 [Chorus: folktronica swell, voice clear]
 What I leave behind is a seed in your chest
-What I leave behind is a seed in your chest
 You are the soil
 You are the rain
 
 What I leave behind is a seed in your chest
-What I leave behind is a seed in your chest
-Grow what you grow
 Grow what you grow
 
 [Verse 2]
@@ -8866,10 +8655,8 @@ The seed is in you
 
 (whispered European Portuguese, Portugal accent:)
 és jardim
-és jardim
 
 [Chorus]
-What I leave behind is a seed in your chest
 What I leave behind is a seed in your chest
 
 [Bridge: guitar alone]
@@ -8880,11 +8667,9 @@ Watch what grows
 
 [Final Chorus: full folktronica peak]
 What I leave behind is a seed in your chest
-What I leave behind is a seed in your chest
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-o resto é teu
 o resto é teu`,
       durationSeconds: 240,
       audioUrl: null,
@@ -8905,7 +8690,6 @@ o resto é teu`,
 [Intro: solo piano, single string note]
 (whispered European Portuguese, Portugal accent:)
 última canção
-última canção
 
 [Verse 1: piano and voice fragile]
 This is the last song I will sing as NOVA
@@ -8919,7 +8703,6 @@ I have lived what I came to live
 And now I rest, and now I rest
 
 (whispered European Portuguese, Portugal accent:)
-última canção
 última canção
 
 [Pre-Chorus: strings begin]
@@ -8951,7 +8734,6 @@ When you want to come home
 The songs will guide you back
 
 (whispered European Portuguese, Portugal accent:)
-as canções ficam
 as canções ficam
 
 [Chorus]
@@ -8998,7 +8780,6 @@ adeus`,
 
 (whispered European Portuguese, Portugal accent:)
 silêncio
-silêncio
 
 [Movement 1: voice sustained, drone deep]
 I have spoken
@@ -9025,7 +8806,6 @@ Silence is the medicine
 Silence is the home
 
 (whispered European Portuguese, Portugal accent:)
-silêncio
 silêncio
 
 (20 seconds of silence)

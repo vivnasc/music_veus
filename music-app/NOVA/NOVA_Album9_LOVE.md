@@ -521,7 +521,6 @@ To a love I am still becoming
 
 [Final Chorus: full jazz warmth]
 I love you in a way I didn't know was possible
-I love you in a way I didn't know was possible
 
 [Outro: piano fades]
 (whispered European Portuguese, Portugal accent:)
@@ -584,11 +583,9 @@ Every one
 
 [Chorus: synth-pop drop, voice bright]
 I love the strangers, every one of them
-I love the strangers, every one of them
 We are all dying
 And we are all alive
 
-I love the strangers, every one of them
 I love the strangers, every one of them
 The cashier, the driver, the doctor
 The beggar, the child, the old
@@ -606,10 +603,8 @@ And I refuse to forget this
 
 (whispered European Portuguese, Portugal accent:)
 todos iguais
-todos iguais
 
 [Chorus]
-I love the strangers, every one of them
 I love the strangers, every one of them
 
 [Bridge: synths drop, voice intimate]
@@ -619,7 +614,6 @@ The act is small, the act is everything
 The act is small, the act is everything
 
 [Final Chorus: maximum synth-pop swell]
-I love the strangers, every one of them
 I love the strangers, every one of them
 
 [Outro]
@@ -658,7 +652,6 @@ LOVE THE DEAD
 [Intro: solo piano, single string note]
 (whispered European Portuguese, Portugal accent:)
 mortos
-mortos
 
 [Verse 1: piano and voice fragile]
 My grandmother died seven years ago
@@ -673,7 +666,6 @@ The love did not die when she died
 
 (whispered European Portuguese, Portugal accent:)
 estás
-estás
 
 [Pre-Chorus: strings begin]
 The dead
@@ -683,11 +675,9 @@ Are loved still
 
 [Chorus: full orchestral swell, voice opens]
 I am still in love with the ones who are gone
-I am still in love with the ones who are gone
 The grief industry told me to "let go"
 But I am keeping them with me
 
-I am still in love with the ones who are gone
 I am still in love with the ones who are gone
 The love did not end
 Because the body did
@@ -705,10 +695,8 @@ For them, for them, for them
 
 (whispered European Portuguese, Portugal accent:)
 amo-vos ainda
-amo-vos ainda
 
 [Chorus]
-I am still in love with the ones who are gone
 I am still in love with the ones who are gone
 The grief industry told me to "let go"
 But I am keeping them with me
@@ -720,7 +708,6 @@ This is the way the love works
 The body dies, the love does not
 
 [Final Chorus: maximum orchestral swell]
-I am still in love with the ones who are gone
 I am still in love with the ones who are gone
 
 [Outro: orchestra fades, piano alone]
@@ -759,7 +746,6 @@ SELF
 [Intro: electric piano, deep bass]
 (whispered European Portuguese, Portugal accent:)
 eu
-eu
 
 [Verse 1: soul groove]
 For thirty years I have hated the woman in the mirror
@@ -774,7 +760,6 @@ A woman who has done her best
 
 (whispered European Portuguese, Portugal accent:)
 eu
-eu
 
 [Pre-Chorus: bass swells]
 For the first time
@@ -784,11 +769,9 @@ I see her
 
 [Chorus: soul drop, voice powerful]
 I am learning to love the woman in the mirror
-I am learning to love the woman in the mirror
 She has been here all along
 She has been waiting for me
 
-I am learning to love the woman in the mirror
 I am learning to love the woman in the mirror
 Not the woman I should be
 The woman I am
@@ -806,10 +789,8 @@ The freedom that came was worth everything
 
 (whispered European Portuguese, Portugal accent:)
 escolho-me
-escolho-me
 
 [Chorus]
-I am learning to love the woman in the mirror
 I am learning to love the woman in the mirror
 
 [Bridge: stripped, voice intimate]
@@ -819,7 +800,6 @@ This is how I love anyone else
 This is where it begins
 
 [Final Chorus: soul warmth peak]
-I am learning to love the woman in the mirror
 I am learning to love the woman in the mirror
 
 [Outro]
@@ -858,7 +838,6 @@ OPEN
 [Intro: acoustic guitar strum]
 (whispered European Portuguese, Portugal accent:)
 abro
-abro
 
 [Verse 1: indie folk pop groove]
 For years I closed myself
@@ -873,7 +852,6 @@ Because the heart had been broken
 
 (whispered European Portuguese, Portugal accent:)
 abro
-abro
 
 [Pre-Chorus: build]
 But not anymore
@@ -883,11 +861,9 @@ Open
 
 [Chorus: folk-pop swell, voice clear]
 I am open and I am not afraid
-I am open and I am not afraid
 What comes will come
 What goes will go
 
-I am open and I am not afraid
 I am open and I am not afraid
 The closed life is the dying life
 The open life is the living life
@@ -905,10 +881,8 @@ Than keep feeling nothing
 
 (whispered European Portuguese, Portugal accent:)
 abro tudo
-abro tudo
 
 [Chorus]
-I am open and I am not afraid
 I am open and I am not afraid
 
 [Bridge: stripped, guitar alone]
@@ -919,11 +893,9 @@ The open heart is the freedom
 
 [Final Chorus: maximum folk-pop swell]
 I am open and I am not afraid
-I am open and I am not afraid
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-abro
 abro
 ```
 
@@ -957,7 +929,6 @@ ALL
 [Intro: ambient guitar drone]
 (whispered European Portuguese, Portugal accent:)
 tudo
-tudo
 
 [Movement 1: voice nude]
 I love the ones who hurt me
@@ -971,7 +942,6 @@ I love the collapses, I love the disappointments
 I love the betrayals, I love the goodbyes
 
 (whispered European Portuguese, Portugal accent:)
-tudo
 tudo
 
 [Movement 2: strings enter]
@@ -987,7 +957,6 @@ Even the dark taught me
 
 [Movement 3: build, sparse drums]
 I love it all, I love it all, I love it all
-I love it all, I love it all, I love it all
 The good and the broken
 The kept and the lost
 
@@ -997,7 +966,6 @@ I love the year I was nothing
 I love the year I was everything
 
 [Movement 4: post-rock peak, voice opens]
-I love it all, I love it all, I love it all
 I love it all, I love it all, I love it all
 This is the love without exception
 This is the love without condition
@@ -1018,8 +986,6 @@ I see it
 
 [Outro: instruments fade slowly]
 (whispered European Portuguese, Portugal accent:)
-amo tudo
-amo tudo
 amo tudo
 ```
 

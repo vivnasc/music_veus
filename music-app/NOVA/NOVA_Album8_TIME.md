@@ -519,11 +519,9 @@ The presence will matter
 
 [Final Chorus: full folktronica peak]
 The old woman I will become is already inside me
-The old woman I will become is already inside me
 
 [Outro: guitar fingerpicking]
 (whispered European Portuguese, Portugal accent:)
-ela guia-me
 ela guia-me
 ```
 
@@ -557,7 +555,6 @@ SLOW
 [Intro: 15 seconds of single deep drone, slow inhale]
 (slow exhale, then whispered European Portuguese, Portugal accent:)
 devagar
-devagar
 
 [Movement 1: voice sustained]
 I made tea today
@@ -571,7 +568,6 @@ I did not eat at the screen
 I just sat with the food
 
 (whispered European Portuguese, Portugal accent:)
-devagar
 devagar
 
 [Movement 2: drone deepens]
@@ -587,11 +583,9 @@ The slow is the truth
 
 [Movement 3: voice opens slowly]
 Slow is the new radical
-Slow is the new radical
 The world is fast
 And the fast is killing us
 
-Slow is the new radical
 Slow is the new radical
 The body wants slow
 The soul wants slow
@@ -609,15 +603,11 @@ None of them last
 
 [Movement 5: descent]
 Slow is the new radical
-Slow is the new radical
-Choose one thing today
 Choose one thing today
 And do it slow
 
 [Outro: drone fades to actual silence, water sounds]
 (whispered European Portuguese, Portugal accent:)
-devagar
-devagar
 devagar
 ```
 
@@ -651,7 +641,6 @@ YESTERDAY
 [Intro: vinyl crackle, deep sub-bass, vintage sample]
 (whispered European Portuguese, Portugal accent:)
 ontem
-ontem
 
 [Verse 1: trip hop groove]
 I scrolled through old photos last night
@@ -666,7 +655,6 @@ I edited the past with longing
 
 (whispered European Portuguese, Portugal accent:)
 ontem
-ontem
 
 [Pre-Chorus: bass deepens]
 But yesterday
@@ -676,11 +664,9 @@ Wasn't real either
 
 [Chorus: trip hop drop, voice wistful]
 I keep visiting yesterday like it's still home
-I keep visiting yesterday like it's still home
 But yesterday closed its doors
 And the keys don't work anymore
 
-I keep visiting yesterday like it's still home
 I keep visiting yesterday like it's still home
 The past is not a country
 You can move back to
@@ -698,10 +684,8 @@ That was already someone else's
 
 (whispered European Portuguese, Portugal accent:)
 volto sempre
-volto sempre
 
 [Chorus]
-I keep visiting yesterday like it's still home
 I keep visiting yesterday like it's still home
 
 [Bridge: drums drop, voice raw]
@@ -712,11 +696,9 @@ That has my breath
 
 [Final Chorus: trip hop returns]
 I keep visiting yesterday like it's still home
-I keep visiting yesterday like it's still home
 
 [Outro: vinyl fade]
 (whispered European Portuguese, Portugal accent:)
-volto a hoje
 volto a hoje
 ```
 
@@ -750,7 +732,6 @@ LATER
 [Intro: atmospheric synth, breath]
 (whispered European Portuguese, Portugal accent:)
 depois
-depois
 
 [Verse 1: synth-pop groove]
 I'll start that book later, when I have time
@@ -765,7 +746,6 @@ I'll be happy later, when I have arrived
 
 (whispered European Portuguese, Portugal accent:)
 depois
-depois
 
 [Pre-Chorus: synth lift]
 Later
@@ -775,11 +755,9 @@ Later
 
 [Chorus: synth-pop drop, voice clear]
 Later was a country I never visited
-Later was a country I never visited
 The visa expired
 The flight was cancelled
 
-Later was a country I never visited
 Later was a country I never visited
 Now is the only ticket
 Now is the only home
@@ -797,10 +775,8 @@ Later is a gamble
 
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Chorus]
-Later was a country I never visited
 Later was a country I never visited
 The visa expired
 The flight was cancelled
@@ -812,7 +788,6 @@ What if you started today?
 What if you didn't wait?
 
 [Final Chorus: maximum synth-pop]
-Later was a country I never visited
 Later was a country I never visited
 
 [Outro]
@@ -851,7 +826,6 @@ NOW
 [Intro: glitchy fragmented pulse, breath]
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Verse 1: hyperpop punch]
 The yesterday is gone, gone, gone
@@ -866,7 +840,6 @@ I am here, I am here, I am here
 
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Pre-Chorus: glitch riser]
 Now
@@ -876,11 +849,9 @@ Now —
 
 [Chorus: HYPERPOP DROP, voice viral]
 Now is the only address that has my key
-Now is the only address that has my key
 The past locked itself behind me
 The future hasn't been built yet
 
-Now is the only address that has my key
 Now is the only address that has my key
 And I am turning the key
 And I am stepping inside
@@ -898,10 +869,8 @@ This is not the trailer
 
 (whispered European Portuguese, Portugal accent:)
 é agora
-é agora
 
 [Chorus]
-Now is the only address that has my key
 Now is the only address that has my key
 
 [Bridge: drops out, voice intimate]
@@ -914,7 +883,6 @@ Stay here
 Stay here
 
 [Final Chorus: maximum hyperpop]
-Now is the only address that has my key
 Now is the only address that has my key
 
 [Outro]
@@ -953,7 +921,6 @@ ETERNAL
 [Intro: ambient guitar drone, slow]
 (whispered European Portuguese, Portugal accent:)
 eterno
-eterno
 
 [Movement 1: voice nude]
 I made coffee this morning
@@ -967,7 +934,6 @@ The same way my mother was held
 The arms remember
 
 (whispered European Portuguese, Portugal accent:)
-eterno em gesto
 eterno em gesto
 
 [Movement 2: strings enter]
@@ -993,7 +959,6 @@ The mystics looked for eternity in books
 But it was in the touch all along
 
 [Movement 4: post-rock peak, voice opens]
-I am living in the eternal disguised as a Tuesday
 I am living in the eternal disguised as a Tuesday
 The dishes are eternal
 The breath is eternal

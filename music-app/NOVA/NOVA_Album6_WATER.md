@@ -565,7 +565,6 @@ We are remembering
 
 [Movement 3: voice opens slowly]
 Let the salt come
-Let the salt come
 Don't hold the tears
 Don't dam the flood
 
@@ -593,7 +592,6 @@ The body knows the chemistry of birth
 
 [Outro: drone fades to water sounds, then silence]
 (whispered European Portuguese, Portugal accent:)
-sou água
 sou água
 
 (silence, 10 seconds)
@@ -631,7 +629,6 @@ CARRY ME
 [Intro: solo piano, single string note]
 (whispered European Portuguese, Portugal accent:)
 leva-me
-leva-me
 
 [Verse 1: piano and voice fragile]
 I have been the strong one
@@ -646,7 +643,6 @@ But who holds the holder?
 
 (whispered European Portuguese, Portugal accent:)
 leva-me
-leva-me
 
 [Pre-Chorus: strings begin to swell]
 Just once
@@ -656,11 +652,9 @@ Who is carried
 
 [Chorus: full orchestral swell, voice opens]
 Carry me, just for one mile
-Carry me, just for one mile
 I have walked this far alone
 Just for one mile, carry me
 
-Carry me, just for one mile
 Carry me, just for one mile
 Don't fix me, don't save me
 Just carry me, just carry me
@@ -678,10 +672,8 @@ Everyone leans on but no one holds
 
 (whispered European Portuguese, Portugal accent:)
 leva-me
-leva-me
 
 [Chorus]
-Carry me, just for one mile
 Carry me, just for one mile
 I have walked this far alone
 Just for one mile, carry me
@@ -693,7 +685,6 @@ For the first time in my life
 I am asking
 
 [Final Chorus: maximum orchestral swell]
-Carry me, just for one mile
 Carry me, just for one mile
 
 [Outro: orchestra fades, piano alone]
@@ -732,7 +723,6 @@ TIDE
 [Intro: reverbed guitar, soft pad, ocean wave sound]
 (whispered European Portuguese, Portugal accent:)
 maré
-maré
 
 [Verse 1: dream pop wash]
 On Monday I was fine
@@ -747,7 +737,6 @@ And stay better forever
 
 (whispered European Portuguese, Portugal accent:)
 maré
-maré
 
 [Pre-Chorus: dream pop build]
 But the body has tides
@@ -757,11 +746,9 @@ Like the moon, like the moon
 
 [Chorus: dream pop swell, voice ethereal]
 The pain comes back, but so does the peace
-The pain comes back, but so does the peace
 I stopped fighting the wave
 I started learning to surf
 
-The pain comes back, but so does the peace
 The pain comes back, but so does the peace
 Healing is not arrival
 Healing is the rhythm
@@ -779,10 +766,8 @@ The tide is the gift, not the curse
 
 (whispered European Portuguese, Portugal accent:)
 volta tudo
-volta tudo
 
 [Chorus]
-The pain comes back, but so does the peace
 The pain comes back, but so does the peace
 I stopped fighting the wave
 I started learning to surf
@@ -794,7 +779,6 @@ The heart is the tide
 Eternally returning
 
 [Final Chorus: dream pop peak]
-The pain comes back, but so does the peace
 The pain comes back, but so does the peace
 
 [Outro: ocean waves, reverb fade]
@@ -833,7 +817,6 @@ BREAK
 [Intro: atmospheric synth, breath]
 (whispered European Portuguese, Portugal accent:)
 parti
-parti
 
 [Verse 1: synth-pop groove]
 I broke down on a Tuesday at 2pm
@@ -848,7 +831,6 @@ And what spilled out was so much truth
 
 (whispered European Portuguese, Portugal accent:)
 parti
-parti
 
 [Pre-Chorus: synth swell]
 The break
@@ -858,11 +840,9 @@ Was the gift
 
 [Chorus: synth-pop drop, voice solo]
 Breaking is the only honest thing I've done this year
-Breaking is the only honest thing I've done this year
 Everything else was performance
 Everything else was holding it together
 
-Breaking is the only honest thing I've done this year
 Breaking is the only honest thing I've done this year
 The crack is where the light came in
 The crack is where I came back
@@ -880,10 +860,8 @@ And it was the kindest thing anyone had done
 
 (whispered European Portuguese, Portugal accent:)
 parti em paz
-parti em paz
 
 [Chorus]
-Breaking is the only honest thing I've done this year
 Breaking is the only honest thing I've done this year
 Everything else was performance
 Everything else was holding it together
@@ -895,7 +873,6 @@ The world will not end
 The world will not end
 
 [Final Chorus: maximum synth-pop]
-Breaking is the only honest thing I've done this year
 Breaking is the only honest thing I've done this year
 
 [Outro]
@@ -934,7 +911,6 @@ WRECK
 [Intro: ambient guitar drone, distant strings]
 (whispered European Portuguese, Portugal accent:)
 naufrágio
-naufrágio
 
 [Movement 1: voice nude]
 I am sitting on the beach
@@ -949,7 +925,6 @@ The faith that broke
 
 (whispered European Portuguese, Portugal accent:)
 naufrágio
-naufrágio
 
 [Movement 2: strings enter]
 And I am not crying anymore
@@ -960,11 +935,8 @@ And the wreck is beautiful
 The light catches the broken pieces
 The wood is washed smooth by water
 The truth is here, finally
-The truth is here, finally
 
 [Movement 3: build, sparse drums]
-I was a beautiful wreck
-And the wreck was the beauty
 I was a beautiful wreck
 And the wreck was the beauty
 
@@ -992,8 +964,6 @@ With the wisdom of the deep
 
 [Outro: instruments fade]
 (whispered European Portuguese, Portugal accent:)
-sou bonita
-no naufrágio
 sou bonita
 no naufrágio
 ```
