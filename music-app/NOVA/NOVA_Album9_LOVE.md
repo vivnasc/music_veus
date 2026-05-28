@@ -68,7 +68,6 @@ NO ARMOR
 [Intro: electric piano, warm bass]
 (whispered European Portuguese, Portugal accent:)
 sem armadura
-sem armadura
 
 [Verse 1: neo-soul groove]
 I have loved with calculations
@@ -83,7 +82,6 @@ I have loved without ever loving
 
 (whispered European Portuguese, Portugal accent:)
 sem armadura
-sem armadura
 
 [Pre-Chorus: strings begin]
 But not anymore
@@ -93,11 +91,9 @@ Not this time
 
 [Chorus: neo-soul swell, voice opens]
 I love without the armor
-I love without the armor
 The armor was the wound
 The armor was the wall
 
-I love without the armor
 I love without the armor
 If I get hurt, I get hurt
 If I get hurt, at least I lived
@@ -115,10 +111,8 @@ And I am taking down the walls
 
 (whispered European Portuguese, Portugal accent:)
 abro
-abro
 
 [Chorus]
-I love without the armor
 I love without the armor
 The armor was the wound
 The armor was the wall
@@ -133,7 +127,6 @@ The armor was the cage
 The love is the freedom
 
 [Final Chorus: full neo-soul warmth]
-I love without the armor
 I love without the armor
 
 [Outro: piano fades]
@@ -172,7 +165,6 @@ MOTHER
 [Intro: fingerpicked guitar]
 (whispered European Portuguese, Portugal accent:)
 mãe
-mãe
 
 [Verse 1: folktronica intimacy]
 For thirty years I have loved my mother
@@ -187,7 +179,6 @@ She was doing her best, with the tools she had
 
 (whispered European Portuguese, Portugal accent:)
 mãe
-mãe
 
 [Pre-Chorus: pad swells]
 Now
@@ -197,11 +188,9 @@ I see you
 
 [Chorus: folktronica swell, voice tender]
 I am loving my mother for the first time
-I am loving my mother for the first time
 Not the mother I wanted
 The mother she was
 
-I am loving my mother for the first time
 I am loving my mother for the first time
 With all her wounds
 With all her failures, with all her trying
@@ -224,10 +213,8 @@ She gave me what she could carry
 
 (whispered European Portuguese, Portugal accent:)
 obrigada
-obrigada
 
 [Chorus]
-I am loving my mother for the first time
 I am loving my mother for the first time
 
 [Bridge: guitar alone]
@@ -240,7 +227,6 @@ I am both
 I am both
 
 [Final Chorus: folktronica peak]
-I am loving my mother for the first time
 I am loving my mother for the first time
 
 [Outro: guitar fingerpicking]
@@ -304,11 +290,9 @@ Was here all along
 
 [Chorus: indie pop drop, voice warm]
 My friends are the love story of my life
-My friends are the love story of my life
 Not the romance, not the wedding
 The friends who showed up
 
-My friends are the love story of my life
 My friends are the love story of my life
 Twenty years of holding
 Twenty years of being held
@@ -330,7 +314,6 @@ amigo
 
 [Chorus]
 My friends are the love story of my life
-My friends are the love story of my life
 
 [Bridge: stripped, voice intimate]
 Let us celebrate friendship like we celebrate marriage
@@ -339,7 +322,6 @@ Let us promise to show up
 Let us promise to stay
 
 [Final Chorus: maximum indie pop warmth]
-My friends are the love story of my life
 My friends are the love story of my life
 
 [Outro]
@@ -378,7 +360,6 @@ LOVE WITHOUT END
 [Intro: electric piano, deep bass]
 (whispered European Portuguese, Portugal accent:)
 amor sem fim
-amor sem fim
 
 [Verse 1: R&B groove]
 You said: prove you love me
@@ -393,7 +374,6 @@ I love you in this minute, here
 
 (whispered European Portuguese, Portugal accent:)
 sem contrato
-sem contrato
 
 [Pre-Chorus: bass deepens]
 The moment
@@ -403,11 +383,9 @@ Is the only vow
 
 [Chorus: R&B drop, voice intimate]
 I love you without the contract
-I love you without the contract
 The bond is in the choosing
 Not in the document
 
-I love you without the contract
 I love you without the contract
 Today I love you
 And today is enough
@@ -430,10 +408,8 @@ And today is the truth
 
 (whispered European Portuguese, Portugal accent:)
 hoje basta
-hoje basta
 
 [Chorus]
-I love you without the contract
 I love you without the contract
 The bond is in the choosing
 Not in the document
@@ -445,7 +421,6 @@ Because I am choosing you today
 Without the safety net
 
 [Final Chorus: R&B warmth]
-I love you without the contract
 I love you without the contract
 
 [Outro]
@@ -509,11 +484,9 @@ Forever
 
 [Chorus: jazz electronic swell, voice tender]
 I love you in a way I didn't know was possible
-I love you in a way I didn't know was possible
 Before you, I thought love had a ceiling
 You showed me there is no ceiling
 
-I love you in a way I didn't know was possible
 I love you in a way I didn't know was possible
 You are not mine
 But I am yours, I am yours
@@ -531,10 +504,8 @@ You taught me that the small is the holy
 
 (whispered European Portuguese, Portugal accent:)
 ensinaste-me
-ensinaste-me
 
 [Chorus]
-I love you in a way I didn't know was possible
 I love you in a way I didn't know was possible
 
 [Bridge: piano alone, voice raw]

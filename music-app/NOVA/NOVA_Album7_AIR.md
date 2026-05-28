@@ -68,7 +68,6 @@ AIR
 [Intro: warm rising synth, breath]
 (whispered European Portuguese, Portugal accent:)
 ar
-ar
 
 [Verse 1: bright synth-pop]
 I opened the window for the first time in weeks
@@ -83,7 +82,6 @@ Lighter than the weight I was carrying
 
 (whispered European Portuguese, Portugal accent:)
 ar
-ar
 
 [Pre-Chorus: synth lift]
 Breathe
@@ -93,11 +91,9 @@ Open
 
 [Chorus: synth-pop drop, voice angelic, uplifting]
 I forgot how light I was
-I forgot how light I was
 The world made me heavy
 But I am made of air
 
-I forgot how light I was
 I forgot how light I was
 Take off the weight
 That was never mine
@@ -115,10 +111,8 @@ Over the burnout
 
 (whispered European Portuguese, Portugal accent:)
 sou ar
-sou ar
 
 [Chorus]
-I forgot how light I was
 I forgot how light I was
 The world made me heavy
 But I am made of air
@@ -131,11 +125,9 @@ After the pause
 
 [Final Chorus: maximum bright synth-pop]
 I forgot how light I was
-I forgot how light I was
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-sou ar
 sou ar
 ```
 
@@ -169,7 +161,6 @@ LAUGH
 [Intro: bright electric guitar, upbeat drums]
 (whispered European Portuguese, Portugal accent, with smile:)
 rir
-rir
 
 [Verse 1: indie pop groove]
 The world is burning, the news is screaming
@@ -184,7 +175,6 @@ My body remembered being eight
 
 (whispered European Portuguese, Portugal accent:)
 ri
-ri
 
 [Pre-Chorus: lift]
 Don't apologize
@@ -193,8 +183,6 @@ For laughing
 While the world burns
 
 [Chorus: indie pop drop, voice joyful]
-Laughing is a revolutionary act
-In a burning world
 Laughing is a revolutionary act
 In a burning world
 
@@ -216,11 +204,8 @@ The river laughs in the stone
 
 (whispered European Portuguese, Portugal accent:)
 ri
-ri
 
 [Chorus]
-Laughing is a revolutionary act
-In a burning world
 Laughing is a revolutionary act
 In a burning world
 
@@ -270,7 +255,6 @@ DANCE ANYWAY
 [Intro: glittering synth, soft kick build]
 (whispered European Portuguese, Portugal accent:)
 dança na mesma
-dança na mesma
 
 [Verse 1: building house groove]
 The economy is collapsing
@@ -285,7 +269,6 @@ This is exactly the time"
 
 (whispered European Portuguese, Portugal accent:)
 dança
-dança
 
 [Pre-Chorus: kick punches]
 Move
@@ -295,11 +278,9 @@ Move your body
 
 [Chorus: HOUSE DROP, voice angelic, viral]
 Dance anyway
-Dance anyway
 The world will burn
 Whether you sit or move
 
-Dance anyway
 Dance anyway
 Joy is the most radical thing
 I've done this year
@@ -317,10 +298,8 @@ The presence might
 
 (whispered European Portuguese, Portugal accent:)
 dança
-dança
 
 [Chorus]
-Dance anyway
 Dance anyway
 The world will burn
 Whether you sit or move
@@ -333,11 +312,9 @@ The dance says: I am still here
 
 [Final Chorus: maximum house, angelic peak]
 Dance anyway
-Dance anyway
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-ainda danço
 ainda danço
 ```
 
@@ -371,7 +348,6 @@ FREE
 [Intro: acoustic guitar strum]
 (whispered European Portuguese, Portugal accent:)
 livre
-livre
 
 [Verse 1: folk pop groove]
 The job that didn't fit me, I left it
@@ -386,7 +362,6 @@ And I started to dance on it
 
 (whispered European Portuguese, Portugal accent:)
 livre
-livre
 
 [Pre-Chorus: build]
 First time
@@ -396,11 +371,9 @@ First time in my life
 
 [Chorus: folk-pop swell, voice powerful]
 I am free for the first time in my body
-I am free for the first time in my body
 Not free from
 Free toward
 
-I am free for the first time in my body
 I am free for the first time in my body
 Free toward myself
 Free toward my life
@@ -418,10 +391,8 @@ This freedom is in my saying no
 
 (whispered European Portuguese, Portugal accent:)
 sou livre
-sou livre
 
 [Chorus]
-I am free for the first time in my body
 I am free for the first time in my body
 Not free from
 Free toward
@@ -433,7 +404,6 @@ Freedom is choosing yourself
 Even when everyone else chooses something easier
 
 [Final Chorus: maximum folk-pop swell]
-I am free for the first time in my body
 I am free for the first time in my body
 
 [Outro]
@@ -472,7 +442,6 @@ FLY
 [Intro: rising synth, breath]
 (whispered European Portuguese, Portugal accent:)
 voo
-voo
 
 [Verse 1: synth-pop groove]
 I didn't go anywhere today
@@ -487,7 +456,6 @@ The freedom was already here
 
 (whispered European Portuguese, Portugal accent:)
 voo aqui mesmo
-voo aqui mesmo
 
 [Pre-Chorus: lift]
 Wings
@@ -497,11 +465,9 @@ You always had wings
 
 [Chorus: synth-pop ascension, voice soaring]
 I am flying without leaving the ground
-I am flying without leaving the ground
 The plane is not the freedom
 The breath is the freedom
 
-I am flying without leaving the ground
 I am flying without leaving the ground
 The escape was a lie
 The arrival is here
@@ -519,10 +485,8 @@ Waiting in the kitchen, with coffee
 
 (whispered European Portuguese, Portugal accent:)
 estava em casa
-estava em casa
 
 [Chorus]
-I am flying without leaving the ground
 I am flying without leaving the ground
 The plane is not the freedom
 The breath is the freedom

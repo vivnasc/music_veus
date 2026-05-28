@@ -68,7 +68,6 @@ TICKING
 [Intro: ticking clock sound, mechanical pulse]
 (whispered European Portuguese, Portugal accent:)
 tic tac
-tic tac
 
 [Verse 1: industrial groove, urgent]
 The clock is ticking, the deadline is closing
@@ -83,7 +82,6 @@ I have not had time to be a person
 
 (whispered European Portuguese, Portugal accent:)
 tic tac
-tic tac
 
 [Pre-Chorus: tension rising]
 Time
@@ -93,11 +91,9 @@ Time is running
 
 [Chorus: industrial drop, voice solo]
 The clock is ticking but the soul is timeless
-The clock is ticking but the soul is timeless
 The deadline is the lie
 The eternal is the truth
 
-The clock is ticking but the soul is timeless
 The clock is ticking but the soul is timeless
 The body has a deadline
 The being has none
@@ -115,10 +111,8 @@ What if the now is the only place?
 
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Chorus]
-The clock is ticking but the soul is timeless
 The clock is ticking but the soul is timeless
 The deadline is the lie
 The eternal is the truth
@@ -136,11 +130,9 @@ You have time to love
 
 [Final Chorus: maximum industrial energy]
 The clock is ticking but the soul is timeless
-The clock is ticking but the soul is timeless
 
 [Outro: clock slows]
 (whispered European Portuguese, Portugal accent:)
-o agora basta
 o agora basta
 ```
 
@@ -174,7 +166,6 @@ NINE YEARS OLD
 [Intro: fingerpicked guitar]
 (whispered European Portuguese, Portugal accent:)
 nove anos
-nove anos
 
 [Verse 1: indie folk warmth]
 There was a girl in 1996
@@ -189,7 +180,6 @@ She thought she was loved
 
 (whispered European Portuguese, Portugal accent:)
 ela
-ela
 
 [Pre-Chorus: build]
 What happened
@@ -199,11 +189,9 @@ To her
 
 [Chorus: indie folk swell]
 I am sorry I left you, nine year old
-I am sorry I left you, nine year old
 I traded your dreams for someone else's metrics
 I traded your wildness for a uniform
 
-I am sorry I left you, nine year old
 I am sorry I left you, nine year old
 I am coming back for you
 I am coming back
@@ -221,10 +209,8 @@ But I am bringing her back
 
 (whispered European Portuguese, Portugal accent:)
 volto por ti
-volto por ti
 
 [Chorus]
-I am sorry I left you, nine year old
 I am sorry I left you, nine year old
 I traded your dreams for someone else's metrics
 I traded your wildness for a uniform
@@ -239,7 +225,6 @@ I am listening now
 I am listening now
 
 [Final Chorus: full indie folk]
-I am sorry I left you, nine year old
 I am sorry I left you, nine year old
 I am coming back for you
 I am coming back
@@ -280,7 +265,6 @@ RUSH
 [Intro: rapid breakbeat, sub-bass]
 (whispered European Portuguese, Portugal accent:)
 pressa
-pressa
 
 [Verse 1: d&b groove, voice fast]
 I ate my breakfast in seven minutes
@@ -295,7 +279,6 @@ And I never stopped to look out the window
 
 (whispered European Portuguese, Portugal accent:)
 pressa
-pressa
 
 [Pre-Chorus: tension]
 Faster
@@ -305,11 +288,9 @@ Faster
 
 [Chorus: D&B DROP, voice fierce]
 I rushed through my own life and missed it
-I rushed through my own life and missed it
 The hurry was the lie
 The hurry was the loss
 
-I rushed through my own life and missed it
 I rushed through my own life and missed it
 The optimization stole the living
 The productivity ate the life
@@ -327,10 +308,8 @@ The next was a trap
 
 (whispered European Portuguese, Portugal accent:)
 parar
-parar
 
 [Chorus]
-I rushed through my own life and missed it
 I rushed through my own life and missed it
 
 [Bridge: drops out, voice intimate]
@@ -341,11 +320,9 @@ The life is now
 
 [Final Chorus: maximum d&b energy]
 I rushed through my own life and missed it
-I rushed through my own life and missed it
 
 [Outro: breakbeat fades]
 (whispered European Portuguese, Portugal accent:)
-pára
 pára
 ```
 
@@ -379,7 +356,6 @@ DEAD
 [Intro: deep ambient drone, slow piano note]
 (spoken European Portuguese, Portugal accent:)
 mortos
-mortos
 
 [Verse 1: spoken delivery]
 My grandmother died in 2018
@@ -393,7 +369,6 @@ I talk to them when I make a decision
 And I want to know what they would say
 
 (whispered European Portuguese, Portugal accent:)
-falo com eles
 falo com eles
 
 [Pre-Chorus: drone deepens]
@@ -430,7 +405,6 @@ This is not denial
 This is family
 
 (whispered European Portuguese, Portugal accent:)
-estão aqui
 estão aqui
 
 [Chorus: sung]
@@ -485,7 +459,6 @@ OLD WOMAN
 [Intro: fingerpicked guitar, soft pad]
 (whispered European Portuguese, Portugal accent:)
 a velha em mim
-a velha em mim
 
 [Verse 1: folktronica intimacy]
 She is eighty-three years old
@@ -500,7 +473,6 @@ When I need to make a decision
 
 (whispered European Portuguese, Portugal accent:)
 a velha em mim
-a velha em mim
 
 [Pre-Chorus: pad swells]
 What would she say?
@@ -510,11 +482,9 @@ What would she ask me to leave?
 
 [Chorus: folktronica swell, voice solo]
 The old woman I will become is already inside me
-The old woman I will become is already inside me
 She is my compass
 She is my advisor
 
-The old woman I will become is already inside me
 The old woman I will become is already inside me
 What would she regret?
 What would she keep?
@@ -532,10 +502,8 @@ Is the silver of survival
 
 (whispered European Portuguese, Portugal accent:)
 ouve a velha
-ouve a velha
 
 [Chorus]
-The old woman I will become is already inside me
 The old woman I will become is already inside me
 
 [Bridge: guitar alone, voice intimate]

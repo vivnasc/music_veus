@@ -68,7 +68,6 @@ TEAR
 [Intro: piano alone, slow]
 (whispered European Portuguese, Portugal accent:)
 deixa-me chorar
-deixa-me chorar
 
 [Verse 1: piano and voice fragile]
 I cried in the shower so nobody would hear
@@ -83,7 +82,6 @@ I have learned to cry alone, like an art
 
 (whispered European Portuguese, Portugal accent:)
 deixa-me chorar
-deixa-me chorar
 
 [Pre-Chorus: strings enter]
 Let me
@@ -93,11 +91,9 @@ In front of you
 
 [Chorus: piano + strings swell, voice breaking]
 Let me cry without an explanation
-Let me cry without an explanation
 I don't have to know why
 I don't have to be brave
 
-Let me cry without an explanation
 Let me cry without an explanation
 The body knows
 Even when the mind doesn't
@@ -115,10 +111,8 @@ Maybe the tears are for falling
 
 (whispered European Portuguese, Portugal accent:)
 não preciso de razão
-não preciso de razão
 
 [Chorus]
-Let me cry without an explanation
 Let me cry without an explanation
 I don't have to know why
 I don't have to be brave
@@ -130,7 +124,6 @@ Just sit with me
 Just sit with me
 
 [Final Chorus: full string crescendo]
-Let me cry without an explanation
 Let me cry without an explanation
 
 [Outro: piano fades]
@@ -169,7 +162,6 @@ DROWN SLOW
 [Intro: vinyl crackle, deep sub-bass, slow drum]
 (whispered European Portuguese, Portugal accent:)
 afogo devagar
-afogo devagar
 
 [Verse 1: trip hop groove]
 It's not the loud crisis
@@ -184,7 +176,6 @@ I'm forgetting how to ask
 
 (whispered European Portuguese, Portugal accent:)
 afogo
-afogo
 
 [Pre-Chorus: bass deepens]
 You don't see it
@@ -194,11 +185,9 @@ And nobody noticed
 
 [Chorus: trip hop drop, voice breathy]
 I'm drowning slow and you're checking your phone
-I'm drowning slow and you're checking your phone
 I never asked for the lifeboat
 I never knew how
 
-I'm drowning slow and you're checking your phone
 I'm drowning slow and you're checking your phone
 The new way to die
 Is invisibly
@@ -216,10 +205,8 @@ The branded burnout
 
 (whispered European Portuguese, Portugal accent:)
 afogo
-afogo
 
 [Chorus]
-I'm drowning slow and you're checking your phone
 I'm drowning slow and you're checking your phone
 I never asked for the lifeboat
 I never knew how
@@ -231,7 +218,6 @@ Put down the screen
 Put down the screen
 
 [Final Chorus: trip hop returns, full weight]
-I'm drowning slow and you're checking your phone
 I'm drowning slow and you're checking your phone
 
 [Outro: vinyl crackle fade]
@@ -270,7 +256,6 @@ DON'T SAVE ME
 [Intro: electric guitar arpeggio, atmospheric pad]
 (whispered European Portuguese, Portugal accent:)
 não me salves
-não me salves
 
 [Verse 1: indie groove, voice intimate]
 You want to fix me, you want to solve me
@@ -285,7 +270,6 @@ I need company
 
 (whispered European Portuguese, Portugal accent:)
 não me salves
-não me salves
 
 [Pre-Chorus: build]
 Just stay
@@ -295,11 +279,9 @@ Don't fix
 
 [Chorus: indie pop swell, voice solo]
 Don't save me, just stay with me
-Don't save me, just stay with me
 The pain doesn't need a hero
 The pain needs a witness
 
-Don't save me, just stay with me
 Don't save me, just stay with me
 Sit with me in the dark
 Don't try to turn on the light
@@ -317,10 +299,8 @@ Who didn't make my pain into a project
 
 (whispered European Portuguese, Portugal accent:)
 fica
-fica
 
 [Chorus]
-Don't save me, just stay with me
 Don't save me, just stay with me
 The pain doesn't need a hero
 The pain needs a witness
@@ -333,11 +313,9 @@ Don't say a word
 
 [Final Chorus: full indie warmth]
 Don't save me, just stay with me
-Don't save me, just stay with me
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-fica
 fica
 ```
 
@@ -371,7 +349,6 @@ SCAR
 [Intro: fingerpicked guitar]
 (whispered European Portuguese, Portugal accent:)
 cicatriz
-cicatriz
 
 [Verse 1: folk warmth]
 There is a scar on my knee from when I was nine
@@ -386,7 +363,6 @@ I used to perform unhurt
 
 (whispered European Portuguese, Portugal accent:)
 cicatriz
-cicatriz
 
 [Pre-Chorus: pad swells]
 But now
@@ -395,8 +371,6 @@ I show you
 I show you
 
 [Chorus: folktronica build, voice solo]
-The scar is not the failure
-The scar is the proof you survived
 The scar is not the failure
 The scar is the proof you survived
 
@@ -418,11 +392,8 @@ And where I started to heal
 
 (whispered European Portuguese, Portugal accent:)
 sou as cicatrizes
-sou as cicatrizes
 
 [Chorus]
-The scar is not the failure
-The scar is the proof you survived
 The scar is not the failure
 The scar is the proof you survived
 
@@ -438,7 +409,6 @@ The scar is the proof you survived
 
 [Outro: guitar fingerpicking]
 (whispered European Portuguese, Portugal accent:)
-sobrevivi
 sobrevivi
 ```
 
@@ -472,7 +442,6 @@ HEAVY HEART
 [Intro: electric piano, deep bass]
 (whispered European Portuguese, Portugal accent:)
 peso no peito
-peso no peito
 
 [Verse 1: neo-soul groove]
 The wellness app told me to "let it go"
@@ -487,7 +456,6 @@ And letting it go is the loss
 
 (whispered European Portuguese, Portugal accent:)
 fico com o peso
-fico com o peso
 
 [Pre-Chorus: bass deepens]
 Heavy
@@ -497,11 +465,9 @@ Let it stay
 
 [Chorus: soul drop, voice solo]
 My heart is heavy and I'm not putting it down
-My heart is heavy and I'm not putting it down
 Some weights are sacred
 Some weights are home
 
-My heart is heavy and I'm not putting it down
 My heart is heavy and I'm not putting it down
 The mother who left
 The friend who died
@@ -521,10 +487,8 @@ Grief is the way the love stays
 
 (whispered European Portuguese, Portugal accent:)
 o amor permanece no peso
-o amor permanece no peso
 
 [Chorus]
-My heart is heavy and I'm not putting it down
 My heart is heavy and I'm not putting it down
 Some weights are sacred
 Some weights are home
@@ -537,11 +501,9 @@ That I loved them
 
 [Final Chorus: soul warmth]
 My heart is heavy and I'm not putting it down
-My heart is heavy and I'm not putting it down
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-amo-os ainda
 amo-os ainda
 ```
 
@@ -575,7 +537,6 @@ SALT
 [Intro: 15 seconds of single deep drone, water sounds, slow breath]
 (slow inhale, then whispered European Portuguese, Portugal accent:)
 sal
-sal
 
 [Movement 1: voice sustained]
 Salt water is the same
@@ -589,7 +550,6 @@ When you bleed, you become the tide
 The body is always water
 
 (whispered European Portuguese, Portugal accent:)
-sou água
 sou água
 
 [Movement 2: drone deepens]

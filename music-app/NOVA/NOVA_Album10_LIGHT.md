@@ -68,7 +68,6 @@ LIGHT
 [Intro: bright synth, slow strings build]
 (whispered European Portuguese, Portugal accent:)
 luz
-luz
 
 [Verse 1: cinematic warmth]
 I have been looking for the light for thirty years
@@ -83,7 +82,6 @@ Not knowing I was the source
 
 (whispered European Portuguese, Portugal accent:)
 luz
-luz
 
 [Pre-Chorus: strings rise]
 The search ends
@@ -93,11 +91,9 @@ Here
 
 [Chorus: cinematic swell, voice opens]
 I am the light I was looking for
-I am the light I was looking for
 The treasure was in the field
 The field was in me
 
-I am the light I was looking for
 I am the light I was looking for
 The teacher was in my chest
 The teacher was the breath
@@ -120,20 +116,15 @@ I was the only thing in its way
 
 (whispered European Portuguese, Portugal accent:)
 sou luz
-sou luz
 
 [Chorus]
-I am the light I was looking for
 I am the light I was looking for
 
 [Bridge: strings drop, voice intimate]
 And so are you
-And so are you
-The light is in everyone
 The light is in everyone
 
 [Final Chorus: maximum cinematic swell]
-I am the light I was looking for
 I am the light I was looking for
 
 [Outro: orchestra fades]
@@ -172,7 +163,6 @@ I AM ENOUGH
 [Intro: electric piano, soft strings]
 (whispered European Portuguese, Portugal accent:)
 basto
-basto
 
 [Verse 1: soul ballad warmth]
 I have spent my whole life trying to be more
@@ -186,7 +176,6 @@ The mirror told me: not enough
 The screen told me: not enough
 
 (whispered European Portuguese, Portugal accent:)
-basto
 basto
 
 [Pre-Chorus: strings begin]
@@ -223,7 +212,6 @@ I forgot, but I remember now
 I am enough, I am enough
 
 (whispered European Portuguese, Portugal accent:)
-sempre fui suficiente
 sempre fui suficiente
 
 [Chorus]
@@ -276,7 +264,6 @@ LET GO
 [Intro: fingerpicked guitar]
 (whispered European Portuguese, Portugal accent:)
 solto
-solto
 
 [Verse 1: indie folk warmth]
 The expectations my mother had for me, I let go
@@ -291,7 +278,6 @@ The version of me that was never enough, I let go
 
 (whispered European Portuguese, Portugal accent:)
 solto
-solto
 
 [Pre-Chorus: build]
 Let go
@@ -301,11 +287,9 @@ Let go
 
 [Chorus: folk swell, voice clear]
 I am letting go of everything that wasn't mine
-I am letting go of everything that wasn't mine
 The dreams that were sold to me
 The fears that were inherited
 
-I am letting go of everything that wasn't mine
 I am letting go of everything that wasn't mine
 What's left is what's mine
 What's left is the truth
@@ -323,10 +307,8 @@ I am keeping the work that uses me well
 
 (whispered European Portuguese, Portugal accent:)
 fico só com o meu
-fico só com o meu
 
 [Chorus]
-I am letting go of everything that wasn't mine
 I am letting go of everything that wasn't mine
 
 [Bridge: guitar alone, voice intimate]
@@ -336,7 +318,6 @@ There is no force in this
 There is only honesty
 
 [Final Chorus: full folk peak]
-I am letting go of everything that wasn't mine
 I am letting go of everything that wasn't mine
 
 [Outro: guitar fingerpicking]
@@ -375,7 +356,6 @@ TRUST
 [Intro: single deep drone, slow piano note]
 (slow inhale, then whispered European Portuguese, Portugal accent:)
 confio
-confio
 
 [Movement 1: voice sustained]
 For thirty years I have planned
@@ -390,7 +370,6 @@ And I was left with what was real
 
 (whispered European Portuguese, Portugal accent:)
 confio
-confio
 
 [Movement 2: drone deepens]
 And what was real was always more
@@ -400,11 +379,9 @@ From what I had planned
 
 [Movement 3: voice opens slowly]
 I trust the unknown more than I trust the plan
-I trust the unknown more than I trust the plan
 The plan was small
 The unknown is vast
 
-I trust the unknown more than I trust the plan
 I trust the unknown more than I trust the plan
 The control was the cage
 The trust is the door
@@ -421,7 +398,6 @@ The breath holds me
 The mystery holds me
 
 [Movement 5: descent]
-I am soft, I am open
 I am soft, I am open
 What comes will come
 What goes will go
