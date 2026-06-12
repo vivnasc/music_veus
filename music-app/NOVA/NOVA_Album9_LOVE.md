@@ -68,7 +68,6 @@ NO ARMOR
 [Intro: electric piano, warm bass]
 (whispered European Portuguese, Portugal accent:)
 sem armadura
-sem armadura
 
 [Verse 1: neo-soul groove]
 I have loved with calculations
@@ -83,7 +82,6 @@ I have loved without ever loving
 
 (whispered European Portuguese, Portugal accent:)
 sem armadura
-sem armadura
 
 [Pre-Chorus: strings begin]
 But not anymore
@@ -93,11 +91,9 @@ Not this time
 
 [Chorus: neo-soul swell, voice opens]
 I love without the armor
-I love without the armor
 The armor was the wound
 The armor was the wall
 
-I love without the armor
 I love without the armor
 If I get hurt, I get hurt
 If I get hurt, at least I lived
@@ -115,10 +111,8 @@ And I am taking down the walls
 
 (whispered European Portuguese, Portugal accent:)
 abro
-abro
 
 [Chorus]
-I love without the armor
 I love without the armor
 The armor was the wound
 The armor was the wall
@@ -133,7 +127,6 @@ The armor was the cage
 The love is the freedom
 
 [Final Chorus: full neo-soul warmth]
-I love without the armor
 I love without the armor
 
 [Outro: piano fades]
@@ -172,7 +165,6 @@ MOTHER
 [Intro: fingerpicked guitar]
 (whispered European Portuguese, Portugal accent:)
 mãe
-mãe
 
 [Verse 1: folktronica intimacy]
 For thirty years I have loved my mother
@@ -187,7 +179,6 @@ She was doing her best, with the tools she had
 
 (whispered European Portuguese, Portugal accent:)
 mãe
-mãe
 
 [Pre-Chorus: pad swells]
 Now
@@ -197,11 +188,9 @@ I see you
 
 [Chorus: folktronica swell, voice tender]
 I am loving my mother for the first time
-I am loving my mother for the first time
 Not the mother I wanted
 The mother she was
 
-I am loving my mother for the first time
 I am loving my mother for the first time
 With all her wounds
 With all her failures, with all her trying
@@ -224,10 +213,8 @@ She gave me what she could carry
 
 (whispered European Portuguese, Portugal accent:)
 obrigada
-obrigada
 
 [Chorus]
-I am loving my mother for the first time
 I am loving my mother for the first time
 
 [Bridge: guitar alone]
@@ -240,7 +227,6 @@ I am both
 I am both
 
 [Final Chorus: folktronica peak]
-I am loving my mother for the first time
 I am loving my mother for the first time
 
 [Outro: guitar fingerpicking]
@@ -304,11 +290,9 @@ Was here all along
 
 [Chorus: indie pop drop, voice warm]
 My friends are the love story of my life
-My friends are the love story of my life
 Not the romance, not the wedding
 The friends who showed up
 
-My friends are the love story of my life
 My friends are the love story of my life
 Twenty years of holding
 Twenty years of being held
@@ -330,7 +314,6 @@ amigo
 
 [Chorus]
 My friends are the love story of my life
-My friends are the love story of my life
 
 [Bridge: stripped, voice intimate]
 Let us celebrate friendship like we celebrate marriage
@@ -339,7 +322,6 @@ Let us promise to show up
 Let us promise to stay
 
 [Final Chorus: maximum indie pop warmth]
-My friends are the love story of my life
 My friends are the love story of my life
 
 [Outro]
@@ -378,7 +360,6 @@ LOVE WITHOUT END
 [Intro: electric piano, deep bass]
 (whispered European Portuguese, Portugal accent:)
 amor sem fim
-amor sem fim
 
 [Verse 1: R&B groove]
 You said: prove you love me
@@ -393,7 +374,6 @@ I love you in this minute, here
 
 (whispered European Portuguese, Portugal accent:)
 sem contrato
-sem contrato
 
 [Pre-Chorus: bass deepens]
 The moment
@@ -403,11 +383,9 @@ Is the only vow
 
 [Chorus: R&B drop, voice intimate]
 I love you without the contract
-I love you without the contract
 The bond is in the choosing
 Not in the document
 
-I love you without the contract
 I love you without the contract
 Today I love you
 And today is enough
@@ -430,10 +408,8 @@ And today is the truth
 
 (whispered European Portuguese, Portugal accent:)
 hoje basta
-hoje basta
 
 [Chorus]
-I love you without the contract
 I love you without the contract
 The bond is in the choosing
 Not in the document
@@ -445,7 +421,6 @@ Because I am choosing you today
 Without the safety net
 
 [Final Chorus: R&B warmth]
-I love you without the contract
 I love you without the contract
 
 [Outro]
@@ -509,11 +484,9 @@ Forever
 
 [Chorus: jazz electronic swell, voice tender]
 I love you in a way I didn't know was possible
-I love you in a way I didn't know was possible
 Before you, I thought love had a ceiling
 You showed me there is no ceiling
 
-I love you in a way I didn't know was possible
 I love you in a way I didn't know was possible
 You are not mine
 But I am yours, I am yours
@@ -531,10 +504,8 @@ You taught me that the small is the holy
 
 (whispered European Portuguese, Portugal accent:)
 ensinaste-me
-ensinaste-me
 
 [Chorus]
-I love you in a way I didn't know was possible
 I love you in a way I didn't know was possible
 
 [Bridge: piano alone, voice raw]
@@ -549,7 +520,6 @@ You are the door
 To a love I am still becoming
 
 [Final Chorus: full jazz warmth]
-I love you in a way I didn't know was possible
 I love you in a way I didn't know was possible
 
 [Outro: piano fades]
@@ -613,11 +583,9 @@ Every one
 
 [Chorus: synth-pop drop, voice bright]
 I love the strangers, every one of them
-I love the strangers, every one of them
 We are all dying
 And we are all alive
 
-I love the strangers, every one of them
 I love the strangers, every one of them
 The cashier, the driver, the doctor
 The beggar, the child, the old
@@ -635,10 +603,8 @@ And I refuse to forget this
 
 (whispered European Portuguese, Portugal accent:)
 todos iguais
-todos iguais
 
 [Chorus]
-I love the strangers, every one of them
 I love the strangers, every one of them
 
 [Bridge: synths drop, voice intimate]
@@ -648,7 +614,6 @@ The act is small, the act is everything
 The act is small, the act is everything
 
 [Final Chorus: maximum synth-pop swell]
-I love the strangers, every one of them
 I love the strangers, every one of them
 
 [Outro]
@@ -687,7 +652,6 @@ LOVE THE DEAD
 [Intro: solo piano, single string note]
 (whispered European Portuguese, Portugal accent:)
 mortos
-mortos
 
 [Verse 1: piano and voice fragile]
 My grandmother died seven years ago
@@ -702,7 +666,6 @@ The love did not die when she died
 
 (whispered European Portuguese, Portugal accent:)
 estás
-estás
 
 [Pre-Chorus: strings begin]
 The dead
@@ -712,11 +675,9 @@ Are loved still
 
 [Chorus: full orchestral swell, voice opens]
 I am still in love with the ones who are gone
-I am still in love with the ones who are gone
 The grief industry told me to "let go"
 But I am keeping them with me
 
-I am still in love with the ones who are gone
 I am still in love with the ones who are gone
 The love did not end
 Because the body did
@@ -734,10 +695,8 @@ For them, for them, for them
 
 (whispered European Portuguese, Portugal accent:)
 amo-vos ainda
-amo-vos ainda
 
 [Chorus]
-I am still in love with the ones who are gone
 I am still in love with the ones who are gone
 The grief industry told me to "let go"
 But I am keeping them with me
@@ -749,7 +708,6 @@ This is the way the love works
 The body dies, the love does not
 
 [Final Chorus: maximum orchestral swell]
-I am still in love with the ones who are gone
 I am still in love with the ones who are gone
 
 [Outro: orchestra fades, piano alone]
@@ -788,7 +746,6 @@ SELF
 [Intro: electric piano, deep bass]
 (whispered European Portuguese, Portugal accent:)
 eu
-eu
 
 [Verse 1: soul groove]
 For thirty years I have hated the woman in the mirror
@@ -803,7 +760,6 @@ A woman who has done her best
 
 (whispered European Portuguese, Portugal accent:)
 eu
-eu
 
 [Pre-Chorus: bass swells]
 For the first time
@@ -813,11 +769,9 @@ I see her
 
 [Chorus: soul drop, voice powerful]
 I am learning to love the woman in the mirror
-I am learning to love the woman in the mirror
 She has been here all along
 She has been waiting for me
 
-I am learning to love the woman in the mirror
 I am learning to love the woman in the mirror
 Not the woman I should be
 The woman I am
@@ -835,10 +789,8 @@ The freedom that came was worth everything
 
 (whispered European Portuguese, Portugal accent:)
 escolho-me
-escolho-me
 
 [Chorus]
-I am learning to love the woman in the mirror
 I am learning to love the woman in the mirror
 
 [Bridge: stripped, voice intimate]
@@ -848,7 +800,6 @@ This is how I love anyone else
 This is where it begins
 
 [Final Chorus: soul warmth peak]
-I am learning to love the woman in the mirror
 I am learning to love the woman in the mirror
 
 [Outro]
@@ -887,7 +838,6 @@ OPEN
 [Intro: acoustic guitar strum]
 (whispered European Portuguese, Portugal accent:)
 abro
-abro
 
 [Verse 1: indie folk pop groove]
 For years I closed myself
@@ -902,7 +852,6 @@ Because the heart had been broken
 
 (whispered European Portuguese, Portugal accent:)
 abro
-abro
 
 [Pre-Chorus: build]
 But not anymore
@@ -912,11 +861,9 @@ Open
 
 [Chorus: folk-pop swell, voice clear]
 I am open and I am not afraid
-I am open and I am not afraid
 What comes will come
 What goes will go
 
-I am open and I am not afraid
 I am open and I am not afraid
 The closed life is the dying life
 The open life is the living life
@@ -934,10 +881,8 @@ Than keep feeling nothing
 
 (whispered European Portuguese, Portugal accent:)
 abro tudo
-abro tudo
 
 [Chorus]
-I am open and I am not afraid
 I am open and I am not afraid
 
 [Bridge: stripped, guitar alone]
@@ -948,11 +893,9 @@ The open heart is the freedom
 
 [Final Chorus: maximum folk-pop swell]
 I am open and I am not afraid
-I am open and I am not afraid
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-abro
 abro
 ```
 
@@ -986,7 +929,6 @@ ALL
 [Intro: ambient guitar drone]
 (whispered European Portuguese, Portugal accent:)
 tudo
-tudo
 
 [Movement 1: voice nude]
 I love the ones who hurt me
@@ -1000,7 +942,6 @@ I love the collapses, I love the disappointments
 I love the betrayals, I love the goodbyes
 
 (whispered European Portuguese, Portugal accent:)
-tudo
 tudo
 
 [Movement 2: strings enter]
@@ -1016,7 +957,6 @@ Even the dark taught me
 
 [Movement 3: build, sparse drums]
 I love it all, I love it all, I love it all
-I love it all, I love it all, I love it all
 The good and the broken
 The kept and the lost
 
@@ -1026,7 +966,6 @@ I love the year I was nothing
 I love the year I was everything
 
 [Movement 4: post-rock peak, voice opens]
-I love it all, I love it all, I love it all
 I love it all, I love it all, I love it all
 This is the love without exception
 This is the love without condition
@@ -1047,8 +986,6 @@ I see it
 
 [Outro: instruments fade slowly]
 (whispered European Portuguese, Portugal accent:)
-amo tudo
-amo tudo
 amo tudo
 ```
 

@@ -68,7 +68,6 @@ TEAR
 [Intro: piano alone, slow]
 (whispered European Portuguese, Portugal accent:)
 deixa-me chorar
-deixa-me chorar
 
 [Verse 1: piano and voice fragile]
 I cried in the shower so nobody would hear
@@ -83,7 +82,6 @@ I have learned to cry alone, like an art
 
 (whispered European Portuguese, Portugal accent:)
 deixa-me chorar
-deixa-me chorar
 
 [Pre-Chorus: strings enter]
 Let me
@@ -93,11 +91,9 @@ In front of you
 
 [Chorus: piano + strings swell, voice breaking]
 Let me cry without an explanation
-Let me cry without an explanation
 I don't have to know why
 I don't have to be brave
 
-Let me cry without an explanation
 Let me cry without an explanation
 The body knows
 Even when the mind doesn't
@@ -115,10 +111,8 @@ Maybe the tears are for falling
 
 (whispered European Portuguese, Portugal accent:)
 não preciso de razão
-não preciso de razão
 
 [Chorus]
-Let me cry without an explanation
 Let me cry without an explanation
 I don't have to know why
 I don't have to be brave
@@ -130,7 +124,6 @@ Just sit with me
 Just sit with me
 
 [Final Chorus: full string crescendo]
-Let me cry without an explanation
 Let me cry without an explanation
 
 [Outro: piano fades]
@@ -169,7 +162,6 @@ DROWN SLOW
 [Intro: vinyl crackle, deep sub-bass, slow drum]
 (whispered European Portuguese, Portugal accent:)
 afogo devagar
-afogo devagar
 
 [Verse 1: trip hop groove]
 It's not the loud crisis
@@ -184,7 +176,6 @@ I'm forgetting how to ask
 
 (whispered European Portuguese, Portugal accent:)
 afogo
-afogo
 
 [Pre-Chorus: bass deepens]
 You don't see it
@@ -194,11 +185,9 @@ And nobody noticed
 
 [Chorus: trip hop drop, voice breathy]
 I'm drowning slow and you're checking your phone
-I'm drowning slow and you're checking your phone
 I never asked for the lifeboat
 I never knew how
 
-I'm drowning slow and you're checking your phone
 I'm drowning slow and you're checking your phone
 The new way to die
 Is invisibly
@@ -216,10 +205,8 @@ The branded burnout
 
 (whispered European Portuguese, Portugal accent:)
 afogo
-afogo
 
 [Chorus]
-I'm drowning slow and you're checking your phone
 I'm drowning slow and you're checking your phone
 I never asked for the lifeboat
 I never knew how
@@ -231,7 +218,6 @@ Put down the screen
 Put down the screen
 
 [Final Chorus: trip hop returns, full weight]
-I'm drowning slow and you're checking your phone
 I'm drowning slow and you're checking your phone
 
 [Outro: vinyl crackle fade]
@@ -270,7 +256,6 @@ DON'T SAVE ME
 [Intro: electric guitar arpeggio, atmospheric pad]
 (whispered European Portuguese, Portugal accent:)
 não me salves
-não me salves
 
 [Verse 1: indie groove, voice intimate]
 You want to fix me, you want to solve me
@@ -285,7 +270,6 @@ I need company
 
 (whispered European Portuguese, Portugal accent:)
 não me salves
-não me salves
 
 [Pre-Chorus: build]
 Just stay
@@ -295,11 +279,9 @@ Don't fix
 
 [Chorus: indie pop swell, voice solo]
 Don't save me, just stay with me
-Don't save me, just stay with me
 The pain doesn't need a hero
 The pain needs a witness
 
-Don't save me, just stay with me
 Don't save me, just stay with me
 Sit with me in the dark
 Don't try to turn on the light
@@ -317,10 +299,8 @@ Who didn't make my pain into a project
 
 (whispered European Portuguese, Portugal accent:)
 fica
-fica
 
 [Chorus]
-Don't save me, just stay with me
 Don't save me, just stay with me
 The pain doesn't need a hero
 The pain needs a witness
@@ -333,11 +313,9 @@ Don't say a word
 
 [Final Chorus: full indie warmth]
 Don't save me, just stay with me
-Don't save me, just stay with me
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-fica
 fica
 ```
 
@@ -371,7 +349,6 @@ SCAR
 [Intro: fingerpicked guitar]
 (whispered European Portuguese, Portugal accent:)
 cicatriz
-cicatriz
 
 [Verse 1: folk warmth]
 There is a scar on my knee from when I was nine
@@ -386,7 +363,6 @@ I used to perform unhurt
 
 (whispered European Portuguese, Portugal accent:)
 cicatriz
-cicatriz
 
 [Pre-Chorus: pad swells]
 But now
@@ -395,8 +371,6 @@ I show you
 I show you
 
 [Chorus: folktronica build, voice solo]
-The scar is not the failure
-The scar is the proof you survived
 The scar is not the failure
 The scar is the proof you survived
 
@@ -418,11 +392,8 @@ And where I started to heal
 
 (whispered European Portuguese, Portugal accent:)
 sou as cicatrizes
-sou as cicatrizes
 
 [Chorus]
-The scar is not the failure
-The scar is the proof you survived
 The scar is not the failure
 The scar is the proof you survived
 
@@ -438,7 +409,6 @@ The scar is the proof you survived
 
 [Outro: guitar fingerpicking]
 (whispered European Portuguese, Portugal accent:)
-sobrevivi
 sobrevivi
 ```
 
@@ -472,7 +442,6 @@ HEAVY HEART
 [Intro: electric piano, deep bass]
 (whispered European Portuguese, Portugal accent:)
 peso no peito
-peso no peito
 
 [Verse 1: neo-soul groove]
 The wellness app told me to "let it go"
@@ -487,7 +456,6 @@ And letting it go is the loss
 
 (whispered European Portuguese, Portugal accent:)
 fico com o peso
-fico com o peso
 
 [Pre-Chorus: bass deepens]
 Heavy
@@ -497,11 +465,9 @@ Let it stay
 
 [Chorus: soul drop, voice solo]
 My heart is heavy and I'm not putting it down
-My heart is heavy and I'm not putting it down
 Some weights are sacred
 Some weights are home
 
-My heart is heavy and I'm not putting it down
 My heart is heavy and I'm not putting it down
 The mother who left
 The friend who died
@@ -521,10 +487,8 @@ Grief is the way the love stays
 
 (whispered European Portuguese, Portugal accent:)
 o amor permanece no peso
-o amor permanece no peso
 
 [Chorus]
-My heart is heavy and I'm not putting it down
 My heart is heavy and I'm not putting it down
 Some weights are sacred
 Some weights are home
@@ -537,11 +501,9 @@ That I loved them
 
 [Final Chorus: soul warmth]
 My heart is heavy and I'm not putting it down
-My heart is heavy and I'm not putting it down
 
 [Outro]
 (whispered European Portuguese, Portugal accent:)
-amo-os ainda
 amo-os ainda
 ```
 
@@ -575,7 +537,6 @@ SALT
 [Intro: 15 seconds of single deep drone, water sounds, slow breath]
 (slow inhale, then whispered European Portuguese, Portugal accent:)
 sal
-sal
 
 [Movement 1: voice sustained]
 Salt water is the same
@@ -590,7 +551,6 @@ The body is always water
 
 (whispered European Portuguese, Portugal accent:)
 sou água
-sou água
 
 [Movement 2: drone deepens]
 The first home was water
@@ -604,7 +564,6 @@ That is why we long for the sea
 We are remembering
 
 [Movement 3: voice opens slowly]
-Let the salt come
 Let the salt come
 Don't hold the tears
 Don't dam the flood
@@ -633,7 +592,6 @@ The body knows the chemistry of birth
 
 [Outro: drone fades to water sounds, then silence]
 (whispered European Portuguese, Portugal accent:)
-sou água
 sou água
 
 (silence, 10 seconds)
@@ -671,7 +629,6 @@ CARRY ME
 [Intro: solo piano, single string note]
 (whispered European Portuguese, Portugal accent:)
 leva-me
-leva-me
 
 [Verse 1: piano and voice fragile]
 I have been the strong one
@@ -686,7 +643,6 @@ But who holds the holder?
 
 (whispered European Portuguese, Portugal accent:)
 leva-me
-leva-me
 
 [Pre-Chorus: strings begin to swell]
 Just once
@@ -696,11 +652,9 @@ Who is carried
 
 [Chorus: full orchestral swell, voice opens]
 Carry me, just for one mile
-Carry me, just for one mile
 I have walked this far alone
 Just for one mile, carry me
 
-Carry me, just for one mile
 Carry me, just for one mile
 Don't fix me, don't save me
 Just carry me, just carry me
@@ -718,10 +672,8 @@ Everyone leans on but no one holds
 
 (whispered European Portuguese, Portugal accent:)
 leva-me
-leva-me
 
 [Chorus]
-Carry me, just for one mile
 Carry me, just for one mile
 I have walked this far alone
 Just for one mile, carry me
@@ -733,7 +685,6 @@ For the first time in my life
 I am asking
 
 [Final Chorus: maximum orchestral swell]
-Carry me, just for one mile
 Carry me, just for one mile
 
 [Outro: orchestra fades, piano alone]
@@ -772,7 +723,6 @@ TIDE
 [Intro: reverbed guitar, soft pad, ocean wave sound]
 (whispered European Portuguese, Portugal accent:)
 maré
-maré
 
 [Verse 1: dream pop wash]
 On Monday I was fine
@@ -787,7 +737,6 @@ And stay better forever
 
 (whispered European Portuguese, Portugal accent:)
 maré
-maré
 
 [Pre-Chorus: dream pop build]
 But the body has tides
@@ -797,11 +746,9 @@ Like the moon, like the moon
 
 [Chorus: dream pop swell, voice ethereal]
 The pain comes back, but so does the peace
-The pain comes back, but so does the peace
 I stopped fighting the wave
 I started learning to surf
 
-The pain comes back, but so does the peace
 The pain comes back, but so does the peace
 Healing is not arrival
 Healing is the rhythm
@@ -819,10 +766,8 @@ The tide is the gift, not the curse
 
 (whispered European Portuguese, Portugal accent:)
 volta tudo
-volta tudo
 
 [Chorus]
-The pain comes back, but so does the peace
 The pain comes back, but so does the peace
 I stopped fighting the wave
 I started learning to surf
@@ -834,7 +779,6 @@ The heart is the tide
 Eternally returning
 
 [Final Chorus: dream pop peak]
-The pain comes back, but so does the peace
 The pain comes back, but so does the peace
 
 [Outro: ocean waves, reverb fade]
@@ -873,7 +817,6 @@ BREAK
 [Intro: atmospheric synth, breath]
 (whispered European Portuguese, Portugal accent:)
 parti
-parti
 
 [Verse 1: synth-pop groove]
 I broke down on a Tuesday at 2pm
@@ -888,7 +831,6 @@ And what spilled out was so much truth
 
 (whispered European Portuguese, Portugal accent:)
 parti
-parti
 
 [Pre-Chorus: synth swell]
 The break
@@ -898,11 +840,9 @@ Was the gift
 
 [Chorus: synth-pop drop, voice solo]
 Breaking is the only honest thing I've done this year
-Breaking is the only honest thing I've done this year
 Everything else was performance
 Everything else was holding it together
 
-Breaking is the only honest thing I've done this year
 Breaking is the only honest thing I've done this year
 The crack is where the light came in
 The crack is where I came back
@@ -920,10 +860,8 @@ And it was the kindest thing anyone had done
 
 (whispered European Portuguese, Portugal accent:)
 parti em paz
-parti em paz
 
 [Chorus]
-Breaking is the only honest thing I've done this year
 Breaking is the only honest thing I've done this year
 Everything else was performance
 Everything else was holding it together
@@ -935,7 +873,6 @@ The world will not end
 The world will not end
 
 [Final Chorus: maximum synth-pop]
-Breaking is the only honest thing I've done this year
 Breaking is the only honest thing I've done this year
 
 [Outro]
@@ -974,7 +911,6 @@ WRECK
 [Intro: ambient guitar drone, distant strings]
 (whispered European Portuguese, Portugal accent:)
 naufrágio
-naufrágio
 
 [Movement 1: voice nude]
 I am sitting on the beach
@@ -989,7 +925,6 @@ The faith that broke
 
 (whispered European Portuguese, Portugal accent:)
 naufrágio
-naufrágio
 
 [Movement 2: strings enter]
 And I am not crying anymore
@@ -1000,11 +935,8 @@ And the wreck is beautiful
 The light catches the broken pieces
 The wood is washed smooth by water
 The truth is here, finally
-The truth is here, finally
 
 [Movement 3: build, sparse drums]
-I was a beautiful wreck
-And the wreck was the beauty
 I was a beautiful wreck
 And the wreck was the beauty
 
@@ -1032,8 +964,6 @@ With the wisdom of the deep
 
 [Outro: instruments fade]
 (whispered European Portuguese, Portugal accent:)
-sou bonita
-no naufrágio
 sou bonita
 no naufrágio
 ```

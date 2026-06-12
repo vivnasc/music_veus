@@ -68,7 +68,6 @@ TICKING
 [Intro: ticking clock sound, mechanical pulse]
 (whispered European Portuguese, Portugal accent:)
 tic tac
-tic tac
 
 [Verse 1: industrial groove, urgent]
 The clock is ticking, the deadline is closing
@@ -83,7 +82,6 @@ I have not had time to be a person
 
 (whispered European Portuguese, Portugal accent:)
 tic tac
-tic tac
 
 [Pre-Chorus: tension rising]
 Time
@@ -93,11 +91,9 @@ Time is running
 
 [Chorus: industrial drop, voice solo]
 The clock is ticking but the soul is timeless
-The clock is ticking but the soul is timeless
 The deadline is the lie
 The eternal is the truth
 
-The clock is ticking but the soul is timeless
 The clock is ticking but the soul is timeless
 The body has a deadline
 The being has none
@@ -115,10 +111,8 @@ What if the now is the only place?
 
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Chorus]
-The clock is ticking but the soul is timeless
 The clock is ticking but the soul is timeless
 The deadline is the lie
 The eternal is the truth
@@ -136,11 +130,9 @@ You have time to love
 
 [Final Chorus: maximum industrial energy]
 The clock is ticking but the soul is timeless
-The clock is ticking but the soul is timeless
 
 [Outro: clock slows]
 (whispered European Portuguese, Portugal accent:)
-o agora basta
 o agora basta
 ```
 
@@ -174,7 +166,6 @@ NINE YEARS OLD
 [Intro: fingerpicked guitar]
 (whispered European Portuguese, Portugal accent:)
 nove anos
-nove anos
 
 [Verse 1: indie folk warmth]
 There was a girl in 1996
@@ -189,7 +180,6 @@ She thought she was loved
 
 (whispered European Portuguese, Portugal accent:)
 ela
-ela
 
 [Pre-Chorus: build]
 What happened
@@ -199,11 +189,9 @@ To her
 
 [Chorus: indie folk swell]
 I am sorry I left you, nine year old
-I am sorry I left you, nine year old
 I traded your dreams for someone else's metrics
 I traded your wildness for a uniform
 
-I am sorry I left you, nine year old
 I am sorry I left you, nine year old
 I am coming back for you
 I am coming back
@@ -221,10 +209,8 @@ But I am bringing her back
 
 (whispered European Portuguese, Portugal accent:)
 volto por ti
-volto por ti
 
 [Chorus]
-I am sorry I left you, nine year old
 I am sorry I left you, nine year old
 I traded your dreams for someone else's metrics
 I traded your wildness for a uniform
@@ -239,7 +225,6 @@ I am listening now
 I am listening now
 
 [Final Chorus: full indie folk]
-I am sorry I left you, nine year old
 I am sorry I left you, nine year old
 I am coming back for you
 I am coming back
@@ -280,7 +265,6 @@ RUSH
 [Intro: rapid breakbeat, sub-bass]
 (whispered European Portuguese, Portugal accent:)
 pressa
-pressa
 
 [Verse 1: d&b groove, voice fast]
 I ate my breakfast in seven minutes
@@ -295,7 +279,6 @@ And I never stopped to look out the window
 
 (whispered European Portuguese, Portugal accent:)
 pressa
-pressa
 
 [Pre-Chorus: tension]
 Faster
@@ -305,11 +288,9 @@ Faster
 
 [Chorus: D&B DROP, voice fierce]
 I rushed through my own life and missed it
-I rushed through my own life and missed it
 The hurry was the lie
 The hurry was the loss
 
-I rushed through my own life and missed it
 I rushed through my own life and missed it
 The optimization stole the living
 The productivity ate the life
@@ -327,10 +308,8 @@ The next was a trap
 
 (whispered European Portuguese, Portugal accent:)
 parar
-parar
 
 [Chorus]
-I rushed through my own life and missed it
 I rushed through my own life and missed it
 
 [Bridge: drops out, voice intimate]
@@ -341,11 +320,9 @@ The life is now
 
 [Final Chorus: maximum d&b energy]
 I rushed through my own life and missed it
-I rushed through my own life and missed it
 
 [Outro: breakbeat fades]
 (whispered European Portuguese, Portugal accent:)
-pára
 pára
 ```
 
@@ -379,7 +356,6 @@ DEAD
 [Intro: deep ambient drone, slow piano note]
 (spoken European Portuguese, Portugal accent:)
 mortos
-mortos
 
 [Verse 1: spoken delivery]
 My grandmother died in 2018
@@ -393,7 +369,6 @@ I talk to them when I make a decision
 And I want to know what they would say
 
 (whispered European Portuguese, Portugal accent:)
-falo com eles
 falo com eles
 
 [Pre-Chorus: drone deepens]
@@ -430,7 +405,6 @@ This is not denial
 This is family
 
 (whispered European Portuguese, Portugal accent:)
-estão aqui
 estão aqui
 
 [Chorus: sung]
@@ -485,7 +459,6 @@ OLD WOMAN
 [Intro: fingerpicked guitar, soft pad]
 (whispered European Portuguese, Portugal accent:)
 a velha em mim
-a velha em mim
 
 [Verse 1: folktronica intimacy]
 She is eighty-three years old
@@ -500,7 +473,6 @@ When I need to make a decision
 
 (whispered European Portuguese, Portugal accent:)
 a velha em mim
-a velha em mim
 
 [Pre-Chorus: pad swells]
 What would she say?
@@ -510,11 +482,9 @@ What would she ask me to leave?
 
 [Chorus: folktronica swell, voice solo]
 The old woman I will become is already inside me
-The old woman I will become is already inside me
 She is my compass
 She is my advisor
 
-The old woman I will become is already inside me
 The old woman I will become is already inside me
 What would she regret?
 What would she keep?
@@ -532,10 +502,8 @@ Is the silver of survival
 
 (whispered European Portuguese, Portugal accent:)
 ouve a velha
-ouve a velha
 
 [Chorus]
-The old woman I will become is already inside me
 The old woman I will become is already inside me
 
 [Bridge: guitar alone, voice intimate]
@@ -551,11 +519,9 @@ The presence will matter
 
 [Final Chorus: full folktronica peak]
 The old woman I will become is already inside me
-The old woman I will become is already inside me
 
 [Outro: guitar fingerpicking]
 (whispered European Portuguese, Portugal accent:)
-ela guia-me
 ela guia-me
 ```
 
@@ -589,7 +555,6 @@ SLOW
 [Intro: 15 seconds of single deep drone, slow inhale]
 (slow exhale, then whispered European Portuguese, Portugal accent:)
 devagar
-devagar
 
 [Movement 1: voice sustained]
 I made tea today
@@ -603,7 +568,6 @@ I did not eat at the screen
 I just sat with the food
 
 (whispered European Portuguese, Portugal accent:)
-devagar
 devagar
 
 [Movement 2: drone deepens]
@@ -619,11 +583,9 @@ The slow is the truth
 
 [Movement 3: voice opens slowly]
 Slow is the new radical
-Slow is the new radical
 The world is fast
 And the fast is killing us
 
-Slow is the new radical
 Slow is the new radical
 The body wants slow
 The soul wants slow
@@ -641,15 +603,11 @@ None of them last
 
 [Movement 5: descent]
 Slow is the new radical
-Slow is the new radical
-Choose one thing today
 Choose one thing today
 And do it slow
 
 [Outro: drone fades to actual silence, water sounds]
 (whispered European Portuguese, Portugal accent:)
-devagar
-devagar
 devagar
 ```
 
@@ -683,7 +641,6 @@ YESTERDAY
 [Intro: vinyl crackle, deep sub-bass, vintage sample]
 (whispered European Portuguese, Portugal accent:)
 ontem
-ontem
 
 [Verse 1: trip hop groove]
 I scrolled through old photos last night
@@ -698,7 +655,6 @@ I edited the past with longing
 
 (whispered European Portuguese, Portugal accent:)
 ontem
-ontem
 
 [Pre-Chorus: bass deepens]
 But yesterday
@@ -708,11 +664,9 @@ Wasn't real either
 
 [Chorus: trip hop drop, voice wistful]
 I keep visiting yesterday like it's still home
-I keep visiting yesterday like it's still home
 But yesterday closed its doors
 And the keys don't work anymore
 
-I keep visiting yesterday like it's still home
 I keep visiting yesterday like it's still home
 The past is not a country
 You can move back to
@@ -730,10 +684,8 @@ That was already someone else's
 
 (whispered European Portuguese, Portugal accent:)
 volto sempre
-volto sempre
 
 [Chorus]
-I keep visiting yesterday like it's still home
 I keep visiting yesterday like it's still home
 
 [Bridge: drums drop, voice raw]
@@ -744,11 +696,9 @@ That has my breath
 
 [Final Chorus: trip hop returns]
 I keep visiting yesterday like it's still home
-I keep visiting yesterday like it's still home
 
 [Outro: vinyl fade]
 (whispered European Portuguese, Portugal accent:)
-volto a hoje
 volto a hoje
 ```
 
@@ -782,7 +732,6 @@ LATER
 [Intro: atmospheric synth, breath]
 (whispered European Portuguese, Portugal accent:)
 depois
-depois
 
 [Verse 1: synth-pop groove]
 I'll start that book later, when I have time
@@ -797,7 +746,6 @@ I'll be happy later, when I have arrived
 
 (whispered European Portuguese, Portugal accent:)
 depois
-depois
 
 [Pre-Chorus: synth lift]
 Later
@@ -807,11 +755,9 @@ Later
 
 [Chorus: synth-pop drop, voice clear]
 Later was a country I never visited
-Later was a country I never visited
 The visa expired
 The flight was cancelled
 
-Later was a country I never visited
 Later was a country I never visited
 Now is the only ticket
 Now is the only home
@@ -829,10 +775,8 @@ Later is a gamble
 
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Chorus]
-Later was a country I never visited
 Later was a country I never visited
 The visa expired
 The flight was cancelled
@@ -844,7 +788,6 @@ What if you started today?
 What if you didn't wait?
 
 [Final Chorus: maximum synth-pop]
-Later was a country I never visited
 Later was a country I never visited
 
 [Outro]
@@ -883,7 +826,6 @@ NOW
 [Intro: glitchy fragmented pulse, breath]
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Verse 1: hyperpop punch]
 The yesterday is gone, gone, gone
@@ -898,7 +840,6 @@ I am here, I am here, I am here
 
 (whispered European Portuguese, Portugal accent:)
 agora
-agora
 
 [Pre-Chorus: glitch riser]
 Now
@@ -908,11 +849,9 @@ Now —
 
 [Chorus: HYPERPOP DROP, voice viral]
 Now is the only address that has my key
-Now is the only address that has my key
 The past locked itself behind me
 The future hasn't been built yet
 
-Now is the only address that has my key
 Now is the only address that has my key
 And I am turning the key
 And I am stepping inside
@@ -930,10 +869,8 @@ This is not the trailer
 
 (whispered European Portuguese, Portugal accent:)
 é agora
-é agora
 
 [Chorus]
-Now is the only address that has my key
 Now is the only address that has my key
 
 [Bridge: drops out, voice intimate]
@@ -946,7 +883,6 @@ Stay here
 Stay here
 
 [Final Chorus: maximum hyperpop]
-Now is the only address that has my key
 Now is the only address that has my key
 
 [Outro]
@@ -985,7 +921,6 @@ ETERNAL
 [Intro: ambient guitar drone, slow]
 (whispered European Portuguese, Portugal accent:)
 eterno
-eterno
 
 [Movement 1: voice nude]
 I made coffee this morning
@@ -999,7 +934,6 @@ The same way my mother was held
 The arms remember
 
 (whispered European Portuguese, Portugal accent:)
-eterno em gesto
 eterno em gesto
 
 [Movement 2: strings enter]
@@ -1025,7 +959,6 @@ The mystics looked for eternity in books
 But it was in the touch all along
 
 [Movement 4: post-rock peak, voice opens]
-I am living in the eternal disguised as a Tuesday
 I am living in the eternal disguised as a Tuesday
 The dishes are eternal
 The breath is eternal
