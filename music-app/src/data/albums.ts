@@ -1258,6 +1258,46 @@ const COSMIC_VIAGEM: AlbumDef = {
   ],
 };
 
+const COSMIC_CASA: AlbumDef = {
+  slug: "eter-casa",
+  title: "Casa",
+  subtitle: "A casa não é sítio, é frequência. Pertencer em todo o lado e em lugar nenhum.",
+  product: "eter",
+  color: "#2a1810",
+  tracks: [
+    { number: 1, title: "The Hum", description: "A frequência que trago, a única casa que nunca se mudou", lang: "EN", energy: "whisper", flavor: "folk",
+      bpm: 68, signatureElement: "a low vocal hum drone as the bed of the whole song, fingerpicked steel-string guitar, no drums", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("the frequency you arrived with and carry everywhere, the hum as the only home that never moved", "hushed, weightless, almost a lullaby, warm and slow", "intimate ambient-folk, warm breathy lead very close to the mic, low vocal hum drone underneath the words, fingerpicked steel-string guitar, soft ambient pad, no percussion or faintest pulse, three-voice airy harmony only on the chorus, no autotune", "EN", "whisper", "folk", { bpm: 68, signatureElement: "low vocal hum drone + fingerpicked guitar + no drums", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 2, title: "Saudade", description: "A palavra para a casa que não está no mapa", lang: "EN", energy: "anthem", flavor: "gospel-africano",
+      bpm: 92, signatureElement: "gospel choir building from solo to 6-voice on the final chorus, log drum, bright shaker, Hammond, gospel piano, full band from the final chorus", exclusionLock: VIAGEM_AFRO_FRIENDLY,
+      prompt: cosmicPrompt("homesickness for a place that is not on any map, the ache itself as a compass, one untranslatable Portuguese word as the title", "stadium tenderness, declarative but tender, intimate then vast, never aggressive, never shouts", "contemporary contemplative anthem, warm female lead full chest on choruses and breathy close on verses, layered gospel choir building solo to 6-voice on final chorus, log drum, bright shaker, warm Hammond organ, gospel piano fills, no autotune", "EN", "anthem", "gospel", { bpm: 92, signatureElement: "gospel choir solo to 6-voice + log drum + bright shaker + Hammond + gospel piano", exclusionLock: VIAGEM_AFRO_FRIENDLY }), durationSeconds: 270, audioUrl: null },
+    { number: 3, title: "A Casa Sem Morada", description: "A casa que me sonha enquanto eu durmo aqui", lang: "PT", energy: "whisper", flavor: "bossa",
+      bpm: 72, signatureElement: "nylon bossa guitar with brushed snare and upright bass, intimate close vocal, slow tide-shaped pad", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("a home with no address that dreams you and keeps a light on, the body's certainty that it is real", "gentle, tidal, warm, never rises, never shouts", "intimate bossa, warm female lead whispered and very close, three-voice airy harmony only on choruses, nylon bossa guitar, soft brushed snare, warm upright bass, a slow tide-shaped pad, no autotune. Lyrics in European Portuguese (pós-AO90), Lisbon accent", "PT", "whisper", "bossa", { bpm: 72, signatureElement: "nylon bossa guitar + brushed snare + upright bass + tide pad", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 4, title: "Homing", description: "O instinto que aponta para uma casa que nunca se viu", lang: "EN", energy: "anthem", flavor: "gospel",
+      bpm: 90, signatureElement: "gospel piano and Hammond with choir building solo to 6-voice, log drum, bright shaker, rising strings on the last chorus", exclusionLock: VIAGEM_AFRO_FRIENDLY,
+      prompt: cosmicPrompt("the homing instinct shared with birds and whales, the body navigating toward a home it has never seen", "soaring but grounded, uplifting, never aggressive, never shouts", "contemporary gospel anthem, warm female lead breathy on verses and full chest on choruses, gospel choir building solo to 6-voice on final chorus, gospel piano, log drum, bright shaker, warm Hammond organ, full band from final chorus, rising strings on the last chorus, no autotune", "EN", "anthem", "gospel", { bpm: 90, signatureElement: "gospel piano + Hammond + choir solo to 6-voice + log drum + bright shaker", exclusionLock: VIAGEM_AFRO_FRIENDLY }), durationSeconds: 270, audioUrl: null },
+    { number: 5, title: "Estrangeira", description: "Visitante numa dimensão que não é a minha casa", lang: "PT", energy: "anthem", flavor: "gospel-africano",
+      bpm: 88, signatureElement: "marrabenta nylon guitar meeting gospel choir and log drum, full band from the final chorus", exclusionLock: VIAGEM_AFRO_FRIENDLY,
+      prompt: cosmicPrompt("being a visitor in this dimension, at home everywhere and nowhere, longing for a home without an address", "intimate then expansive, settled, never aggressive, never shouts", "contemporary contemplative anthem with a soft marrabenta lilt, warm female lead intimate on verses and full chest on choruses, layered gospel choir building solo to 6-voice on final chorus, Mozambican nylon guitar with marrabenta lilt, log drum, bright shaker on the off-beat, warm Hammond organ, gospel piano fills, no autotune. Lyrics in European Portuguese (pós-AO90), Lisbon accent", "PT", "anthem", "gospel", { bpm: 88, signatureElement: "marrabenta nylon + gospel choir + log drum + Hammond", exclusionLock: VIAGEM_AFRO_FRIENDLY }), durationSeconds: 270, audioUrl: null },
+    { number: 6, title: "I've Been Here Before", description: "O déjà vu de casa, sentir falta de um sítio enquanto se está acordada", lang: "EN", energy: "steady", flavor: "jazz",
+      bpm: 78, signatureElement: "warm Rhodes with brushed drums and soft bass, intimate vocal", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("the déjà vu of home, recognising a place the life never visited, missing it while wide awake", "tender, settled, yearning, never shouts", "warm contemporary soul, smoky and intimate, warm female lead breathy and close on verses with three-voice harmony on choruses, Rhodes electric piano, brushed drums, soft bass, occasional Hammond chord, light strings on the final chorus, no autotune", "EN", "steady", "jazz", { bpm: 78, signatureElement: "warm Rhodes + brushed drums + soft bass + occasional Hammond", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 7, title: "O Sítio Antes do Sítio", description: "A primeira casa, anterior ao ventre", lang: "PT", energy: "anthem", flavor: "gospel-africano",
+      bpm: 86, signatureElement: "marrabenta nylon guitar and ancestral hum meeting gospel choir and log drum", exclusionLock: VIAGEM_AFRO_FRIENDLY,
+      prompt: cosmicPrompt("the first home before the womb, the place the body points to when the world gets too big", "rooted, rising, never aggressive, never shouts, ancestral undertone", "contemporary marrabenta-gospel anthem with an ancestral undertone, warm female lead breathy on verses and full chest on choruses, gospel choir building solo to 6-voice on final chorus, Mozambican nylon guitar with marrabenta lilt, log drum, bright shaker on the off-beat, warm Hammond organ, a low ancestral hum drone underneath, full band from final chorus, no autotune. Lyrics in European Portuguese (pós-AO90), Lisbon accent", "PT", "anthem", "gospel", { bpm: 86, signatureElement: "marrabenta nylon + ancestral hum + gospel choir + log drum + Hammond", exclusionLock: VIAGEM_AFRO_FRIENDLY }), durationSeconds: 270, audioUrl: null },
+    { number: 8, title: "Everywhere and Nowhere", description: "Pertencer em todo o lado e em lugar nenhum, sem mentir sobre o preço", lang: "EN", energy: "steady", flavor: "folk",
+      bpm: 82, signatureElement: "fingerpicked nylon guitar with upright bass and brushed drums, intimate vocal", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("the paradox of belonging everywhere and nowhere, holding both its freedom and its ache, refusing to mistake any one place for the true home", "settled, wry, tender, never shouts", "warm soul-folk, honest and easy, warm female lead breathy and close on verses with three-voice harmony on choruses, fingerpicked nylon guitar, warm upright bass, soft brushed drums, sustained Hammond note, light strings on the final chorus, no autotune", "EN", "steady", "folk", { bpm: 82, signatureElement: "fingerpicked nylon + upright bass + brushed drums + sustained Hammond", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 9, title: "Quando o Ruído Para", description: "A casa que só aparece quando o barulho cessa", lang: "PT", energy: "whisper", flavor: "gospel",
+      bpm: 70, signatureElement: "ambient pads and reverb piano with a distant choir hum opening into stillness, almost no percussion", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("the home that appears only when the noise stops, stillness as the door that was never locked", "still, spacious, hushed, never shouts", "ambient-gospel, warm female lead whispered and very close, distant choir hum building to soft three-voice harmony late, deep ambient pads, reverb-drenched piano single notes, a single audible exhale, soft Hammond entering near the end, faintest log drum on the final chorus, no autotune. Lyrics in European Portuguese (pós-AO90), Lisbon accent", "PT", "whisper", "gospel", { bpm: 70, signatureElement: "ambient pads + reverb piano + distant choir hum + audible exhale", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 10, title: "When I Get There", description: "A certeza do regresso, sem medo", lang: "EN", energy: "anthem", flavor: "gospel",
+      bpm: 80, signatureElement: "gospel piano and Hammond with a choir building from solo to 6-voice, brushed drums, strings rising on the final chorus", exclusionLock: VIAGEM_AFRO_FRIENDLY,
+      prompt: cosmicPrompt("the calm certainty of the return, loving this life more because the home was never far", "intimate then luminous, peaceful, never aggressive, never shouts", "contemporary gospel-soul anthem, warm female lead breathy and close on verses and full chest consoling on choruses, layered gospel choir building solo to 6-voice on final chorus, gospel piano, warm Hammond organ, brushed drums, bright shaker, rising strings entering on the final chorus, no autotune", "EN", "anthem", "gospel", { bpm: 80, signatureElement: "gospel piano + Hammond + choir solo to 6-voice + brushed drums + rising strings", exclusionLock: VIAGEM_AFRO_FRIENDLY }), durationSeconds: 300, audioUrl: null },
+  ],
+};
+
 const ROMANCE_PELE: AlbumDef = {
   slug: "nua-romance",
   title: "Pele",
@@ -2853,6 +2893,7 @@ export const ALL_ALBUMS: Album[] = [
   VIDA_PENUMBRA,
   // Cosmic
   COSMIC_VIAGEM,
+  COSMIC_CASA,
   // Romance
   ROMANCE_PELE,
   ROMANCE_CARTA,

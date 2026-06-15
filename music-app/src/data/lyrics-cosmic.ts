@@ -1139,6 +1139,587 @@ Everything
 Together`,
 
   // ─────────────────────────────────────────────
+  // CASA — Álbum gémeo de Viagem
+  // A casa não é sítio, é frequência
+  // ─────────────────────────────────────────────
+
+  "eter-casa/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, breathy on sustained notes, sings very close to the microphone, a low vocal hum drone underneath the words, layered airy harmonies emerging only on the chorus (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: low vocal hum drone alone for 4 seconds, then fingerpicked steel-string guitar enters softly, no drums, no vocal words yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close]
+There is a sound I have always made
+Under every word I say
+A low note no one taught me
+That will not go away
+
+[Verse 2]
+It was there before the language
+It was there before the fear
+A frequency I came in with
+And the one thing that stays clear
+
+[Chorus]
+The hum
+The note that never moved
+The hum
+When the name and the walls are removed
+It stays beneath the noise
+Low and warm and slow
+The hum is the only home
+I take with me when I go
+
+[Verse 3]
+I used to try to silence it
+I thought it was a flaw
+Now I follow it at night
+Like a door left slightly ajar
+
+[Chorus]
+The hum
+The note that never moved
+The hum
+When the name and the walls are removed
+It stays beneath the noise
+Low and warm and slow
+The hum is the only home
+I take with me when I go
+
+[Bridge: vocal close, no harmonies, only drone and fingerpicked guitar]
+You can take the country
+You can take the bed
+You can take the language
+The hum will hum instead
+
+[Outro]
+The hum
+Still here
+The home
+That hums
+Me back`,
+
+  "eter-casa/2": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano opens with rich chords, log drum sparse, bright shaker enters on the four, Hammond organ swells gradually, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, settled intimacy]
+There is a word I keep in Portuguese
+Because the English lets it fall
+It means the missing of a something
+That you cannot name at all
+
+[Verse 2]
+It is not the missing of a person
+It is not the missing of a town
+It is older, it is quieter
+It is the floor beneath the ground
+
+[Chorus]
+Saudade
+For a home with no address
+Saudade
+For a warmth I would confess
+I have never even touched
+But would know it in the dark
+The way the body finds a door
+Long before the mind can mark
+
+[Verse 3]
+I have looked for it in houses
+I have looked for it in skin
+I have searched the eyes of strangers
+For the place I have not been
+
+[Chorus]
+Saudade
+For a home with no address
+Saudade
+For a warmth I would confess
+I have never even touched
+But would know it in the dark
+The way the body finds a door
+Long before the mind can mark
+
+[Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
+Maybe it is not behind me
+Maybe it is up ahead
+Maybe the missing is the compass
+And the ache is being led
+
+[Outro]
+Saudade
+Not a wound
+A direction
+That I follow
+All the way
+Back`,
+
+  "eter-casa/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: nylon bossa guitar alone with soft brushed snare, warm upright bass entering, a slow tide-shaped pad, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close, tidal phrasing]
+Há uma casa que me sonha
+Quando eu durmo por aqui
+Tem a luz sempre acesa
+A contar que eu volte ali
+
+[Verse 2]
+Não tem número nem rua
+Não tem chave nem portão
+Mas conhece o meu cansaço
+Melhor do que a minha mão
+
+[Chorus]
+A casa sem morada
+Não fica em lado nenhum
+E mesmo assim, à noite,
+Vem chamar por mim
+Não tem paredes nem telhado
+Só tem a temperatura
+Exata de um regaço
+Que me espera sem pressa nenhuma
+
+[Verse 3]
+Às vezes acho que a inventei
+Para aguentar o dia
+Mas o corpo não inventa
+Esta certeza que me guia
+
+[Chorus]
+A casa sem morada
+Não fica em lado nenhum
+E mesmo assim, à noite,
+Vem chamar por mim
+Não tem paredes nem telhado
+Só tem a temperatura
+Exata de um regaço
+Que me espera sem pressa nenhuma
+
+[Bridge: European Portuguese, Lisbon accent, vocal close, no harmonies, only nylon guitar and brushed snare]
+(European Portuguese, Portugal accent:)
+Talvez seja a casa
+Onde estive antes de mim
+Talvez seja o sítio
+A que chamo o meu sem-fim
+
+[Outro]
+A casa sem morada
+Acende
+E eu adormeço
+A caminho`,
+
+  "eter-casa/4": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano with rich chords, log drum sparse, bright shaker on the four, Hammond organ swelling, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+The swallow never reads a map
+The whale was never told
+The salmon climbs the wrong way up
+Toward something in the cold
+
+[Verse 2]
+Nobody taught the turtle
+Which dark sea to cross
+They move toward a pull they cannot see
+And they are never lost
+
+[Chorus]
+Homing
+There is a field I cannot name
+Homing
+That turns me like a weathervane
+Toward a place I have never seen
+But the body swears it knows
+I am migrating in my sleep
+Toward wherever the warmth goes
+
+[Verse 3]
+So when the pull comes over me
+At a red light, in a queue
+I do not call it madness now
+I call it pointing true
+
+[Chorus]
+Homing
+There is a field I cannot name
+Homing
+That turns me like a weathervane
+Toward a place I have never seen
+But the body swears it knows
+I am migrating in my sleep
+Toward wherever the warmth goes
+
+[Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
+They do not doubt the instinct
+They do not ask it why
+They just lift, in their thousands,
+And they trust the empty sky
+
+[Outro]
+Homing
+Wings I cannot see
+Pointing
+All of me
+Toward home`,
+
+  "eter-casa/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: Mozambican nylon guitar with a soft marrabenta lilt, log drum sparse, warm Hammond organ swelling, bright shaker on the off-beat, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, settled intimacy]
+Aprendi a língua toda
+Aprendi a pôr a mesa
+Aprendi a rir na hora certa
+Mas nunca aprendi a pertença
+
+[Verse 2]
+Tenho os papéis em ordem
+Tenho a morada e o talão
+Mas há em mim uma janela
+Que dá para outro chão
+
+[Chorus]
+Estrangeira
+Até na minha própria cama
+Estrangeira
+Como quem de longe chama
+Por uma casa sem morada
+Que me sonha e que me espera
+Estrangeira
+Numa terra passageira
+
+[Verse 3]
+Não é tristeza, é viagem
+Não é vazio, é direção
+Trago uma bússola guardada
+No bolso do coração
+
+[Chorus]
+Estrangeira
+Até na minha própria cama
+Estrangeira
+Como quem de longe chama
+Por uma casa sem morada
+Que me sonha e que me espera
+Estrangeira
+Numa terra passageira
+
+[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath, log drum sparse]
+(European Portuguese, Portugal accent:)
+Talvez não seja exílio
+Talvez seja memória
+De um lugar que me formou
+E me guarda fora da história
+
+[Outro]
+Estrangeira
+Aqui de passagem
+Em casa
+Em todo o lado
+E em lugar nenhum
+Ao mesmo tempo`,
+
+  "eter-casa/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, yearning quality on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: warm Rhodes electric piano with brushed drums, soft bass, a single Hammond chord, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, yearning intimacy]
+Sometimes a light through a window
+Or the way a hallway turns
+Or the smell of rain on warm stone
+And something in me learns
+
+[Verse 2]
+That I have stood exactly here
+In a life I can't recall
+The body goes completely still
+Like it recognises all
+
+[Chorus]
+I've been here before
+Not the room, not the town
+Somewhere underneath it
+Where I used to lay me down
+I've been here before
+And the strangest, softest ache
+Is missing a place so much
+While I am standing wide awake
+
+[Verse 3]
+It never lasts more than a breath
+Then the traffic starts again
+But for one second I was home
+And I cannot say from when
+
+[Chorus]
+I've been here before
+Not the room, not the town
+Somewhere underneath it
+Where I used to lay me down
+I've been here before
+And the strangest, softest ache
+Is missing a place so much
+While I am standing wide awake
+
+[Bridge: vocal close, no harmonies, only Rhodes]
+Maybe every place I love
+Is a postcard from one place
+A single home that keeps on
+Wearing a different face
+
+[Outro]
+I've been here before
+Just once
+Before the start
+And every door since then
+Has felt
+A little like the way back`,
+
+  "eter-casa/7": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, a low ancestral hum drone underneath, no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: Mozambican nylon guitar with a marrabenta lilt, log drum, bright shaker on the off-beat, warm Hammond swelling, a low ancestral hum underneath, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, ancient phrasing]
+Antes da primeira casa
+Houve uma casa de água
+Antes dessa casa quente
+Houve um sítio sem mágoa
+
+[Verse 2]
+Não me lembro com a cabeça
+Lembro com o arrepio
+Quando uma certa luz ao fim da tarde
+Me devolve aquele fio
+
+[Chorus]
+O sítio antes do sítio
+Onde já fui inteira
+Sem nome, sem pressa, sem peso
+Sem fronteira
+O sítio antes do sítio
+Para onde o corpo aponta
+Quando o mundo fica grande demais
+E eu já não dou conta
+
+[Verse 3]
+Toda a gente chama por uma casa
+Que não é esta nem aquela
+É a primeira de todas
+A que a alma não revela
+
+[Chorus]
+O sítio antes do sítio
+Onde já fui inteira
+Sem nome, sem pressa, sem peso
+Sem fronteira
+O sítio antes do sítio
+Para onde o corpo aponta
+Quando o mundo fica grande demais
+E eu já não dou conta
+
+[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath, ancestral hum present]
+(European Portuguese, Portugal accent:)
+Não nasci do nada
+Nasci de um lugar
+Que não cabe num mapa
+Mas cabe no respirar
+
+[Outro]
+O sítio antes do sítio
+Não ficou para trás
+Vai comigo
+Em cada
+Inspiração`,
+
+  "eter-casa/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: fingerpicked nylon guitar with warm upright bass and soft brushed drums, a single sustained Hammond note, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close]
+I can settle anywhere
+A new town by the afternoon
+I learn the bakery, the bus
+I belong again by June
+
+[Verse 2]
+But I have learned the other half
+That nowhere holds me whole
+I am a guest in every kitchen
+And a native of my soul
+
+[Chorus]
+Everywhere and nowhere
+Is the bargain that I struck
+At home in every harbour
+Never anchored, never stuck
+And some days that is freedom
+And some days it is a wound
+But I would rather miss a home
+Than mistake one for the truth
+
+[Verse 3]
+So I keep my bags half-open
+And my heart the same way
+Ready to belong completely
+Ready to not stay
+
+[Chorus]
+Everywhere and nowhere
+Is the bargain that I struck
+At home in every harbour
+Never anchored, never stuck
+And some days that is freedom
+And some days it is a wound
+But I would rather miss a home
+Than mistake one for the truth
+
+[Bridge: vocal close, no harmonies, only guitar and bass]
+The birds that fly the furthest
+Do not hate the ground
+They just know the sky is bigger
+Than any patch they found
+
+[Outro]
+Everywhere
+And nowhere
+Which is just another way
+Of saying
+The home is not a place`,
+
+  "eter-casa/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, breathy on sustained notes, distant choir hum building to soft layered harmonies late (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: deep ambient pad with reverb-drenched piano single notes, distant choir hum, a single audible exhale, no vocal words yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close]
+Passo o dia a fazer barulho
+Para não ouvir o resto
+Encho a casa, encho a agenda
+Encho a boca de pretexto
+
+[Verse 2]
+Mas às vezes, sem aviso,
+O barulho todo cessa
+E no buraco que ele deixa
+Está a casa, à minha espera
+
+[Chorus]
+Quando o ruído para
+E o corpo amolece
+E o maxilar solta
+E o olhar adormece
+A casa aparece
+Não vinda de fora
+Estava sempre por baixo
+Do barulho de cada hora
+
+[Verse 3]
+Não preciso de ir a lado nenhum
+Não preciso de partir
+Só preciso de parar
+O tempo de a sentir
+
+[Chorus]
+Quando o ruído para
+E o corpo amolece
+E o maxilar solta
+E o olhar adormece
+A casa aparece
+Não vinda de fora
+Estava sempre por baixo
+Do barulho de cada hora
+
+[Bridge: European Portuguese, Lisbon accent, vocal close, only pad and reverb piano, distant choir hum]
+(European Portuguese, Portugal accent:)
+O mundo ensinou-me a fugir
+Do silêncio como da morte
+Mas era ali, no sossego,
+Que me esperava o meu norte
+
+[Outro]
+Quando o ruído para
+Eu chego
+Sem sair
+Do sítio
+Onde sempre estive`,
+
+  "eter-casa/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano with rich chords, soft Hammond organ underneath, brushed drums enter gently, bright shaker on the four, no vocal yet, instrumental opening for 8 bars]
+
+[Verse 1: vocal close, breathy, settled tenderness]
+I am not afraid of leaving
+I have rehearsed it every night
+When I close my eyes on purpose
+And the body lets go of the fight
+
+[Verse 2]
+I do not know the colour of it
+I do not know the shape
+But the body leans towards it
+Like a sailor towards a cape
+
+[Chorus]
+When I get there
+I will know it like my breath
+When I get there
+I will feel the gentle theft
+Of the name I had to carry
+And the weight I called my own
+And the warmth will rise to meet me
+Like I never really left my home
+
+[Verse 3]
+And everyone I ever lost
+Will not be lost out there
+Just early, just ahead of me
+Already breathing that air
+
+[Chorus]
+When I get there
+I will know it like my breath
+When I get there
+I will feel the gentle theft
+Of the name I had to carry
+And the weight I called my own
+And the warmth will rise to meet me
+Like I never really left my home
+
+[Bridge: vocal opens but never shouts, choir hums underneath, piano and Hammond only]
+This is not a wish for ending
+This is not a tired goodbye
+I have never loved this life so much
+As since I stopped fearing the sky
+
+[Outro]
+When I get there
+I will not arrive
+I will just stop pretending
+I was ever far
+From home`,
+
+  // ─────────────────────────────────────────────
   // ÓRBITA — As forças invisíveis que nos movem
   // ─────────────────────────────────────────────
 
