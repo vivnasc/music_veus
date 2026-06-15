@@ -246,6 +246,10 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
   const nextPreloadRef = useRef<{ key: string; src: string } | null>(null);
   // Mirror of previewMode for use inside non-state-callback paths (event handlers).
   const previewModeRef = useRef<boolean>(false);
+  // Tracks whether the user intends playback. iOS Safari/iPadOS pauses audio
+  // when the app is backgrounded for too long — we use this to auto-resume
+  // on return without resuming after an explicit user pause.
+  const playIntentRef = useRef<boolean>(false);
   const [state, setState] = useState<MusicPlayerState>(() => {
     const base: MusicPlayerState = {
       currentTrack: null,
@@ -357,6 +361,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     if (previewModeRef.current) {
       const plays = readAnonPlays();
       if (plays.size >= ANON_PLAY_LIMIT) {
+        playIntentRef.current = false;
         const audio = audioRef.current;
         if (audio) audio.pause();
         setState(s => ({ ...s, isPlaying: false, previewExpired: true }));
@@ -516,6 +521,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       return false;
     })();
     if (anonGated) {
+      playIntentRef.current = false;
       audio.pause();
       setState(s => ({ ...s, isPlaying: false, previewExpired: true, showFullPlayer: false }));
       return;
@@ -529,6 +535,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     });
     const enrichedTrack = queue.find(t => t.number === track.number && (t as QueueTrack).albumSlug === ((track as QueueTrack).albumSlug || album.slug)) || { ...track, albumSlug: album.slug } as QueueTrack;
 
+    playIntentRef.current = true;
     setSourceAndPlay(audio, enrichedTrack, album, blobUrlRef);
 
     // Fire-and-forget play event tracking
@@ -620,8 +627,10 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
     const audio = audioRef.current;
     if (!audio || !state.currentTrack) return;
     if (state.isPlaying) {
+      playIntentRef.current = false;
       audio.pause();
     } else {
+      playIntentRef.current = true;
       audio.play().catch(() => {});
     }
   }, [state.isPlaying, state.currentTrack]);
@@ -731,6 +740,7 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const stop = useCallback(() => {
+    playIntentRef.current = false;
     const audio = audioRef.current;
     if (audio) {
       audio.pause();
@@ -847,6 +857,31 @@ export function MusicPlayerProvider({ children }: { children: ReactNode }) {
       });
     } catch { /* invalid state — ignore */ }
   }, [state.currentTime, state.duration]);
+
+  // ── Auto-resume on app foreground ──
+  // iPadOS/iOS Safari pauses HTML5 audio when the app is backgrounded for too
+  // long, even with Media Session metadata set. The browser fires `pause` on
+  // the audio element and there is no separate "system pause" signal — so we
+  // record the user's last intent and, on return to foreground, resume if the
+  // audio was paused by the system rather than by the user.
+  useEffect(() => {
+    const onVisibility = () => {
+      if (document.visibilityState !== "visible") return;
+      if (!playIntentRef.current) return;
+      const audio = audioRef.current;
+      if (!audio || !audio.src) return;
+      if (!audio.paused) return;
+      audio.play().catch(() => {});
+    };
+    document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("focus", onVisibility);
+    window.addEventListener("pageshow", onVisibility);
+    return () => {
+      document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener("focus", onVisibility);
+      window.removeEventListener("pageshow", onVisibility);
+    };
+  }, []);
 
   // ── Wake Lock — keep audio playing when screen locks ──
   useEffect(() => {
