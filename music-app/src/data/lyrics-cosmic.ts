@@ -1720,6 +1720,594 @@ I was ever far
 From home`,
 
   // ─────────────────────────────────────────────
+  // ENQUANTO DURA — Álbum irmão de Viagem e Casa
+  // O tempo, a impermanência, segurar a vida como água
+  // ─────────────────────────────────────────────
+
+  "eter-enquanto-dura/1": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano with rich chords, soft Hammond underneath, brushed drums enter gently, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, tender]
+There was a last time I carried you asleep
+Up the stairs, your head against my neck
+And I did not know it was the last
+So I did not stop to check
+
+[Verse 2]
+There is a last time for everything
+The last time a small hand fits in mine
+The last time someone calls me by a name
+That no one will use in time
+
+[Chorus]
+The last time
+We never get to know it
+The last time
+The body does it, doesn't show it
+We think we have forever
+So we look down at our phones
+While the last time slips so softly
+Through the ordinary bones
+
+[Verse 3]
+So now I try to hold each thing
+Like it might not come again
+The way she laughs before she sleeps
+The smell of coming rain
+
+[Chorus]
+The last time
+We never get to know it
+The last time
+The body does it, doesn't show it
+We think we have forever
+So we look down at our phones
+While the last time slips so softly
+Through the ordinary bones
+
+[Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
+I am not trying to be sad
+I am trying to be here
+Because the only cure for the last time
+Is to notice while it's near
+
+[Outro]
+The last time
+Is always now
+Disguised
+As just
+Another day`,
+
+  "eter-enquanto-dura/2": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: Mozambican nylon guitar with a marrabenta lilt, log drum, bright shaker on the off-beat, warm Hammond swelling, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+O passado é uma sala
+Onde a luz já se apagou
+O futuro é uma porta
+Que ainda não se desenhou
+
+[Verse 2]
+E eu passo a vida toda
+Entre uma e outra a correr
+Sem reparar que o único sítio
+Onde se pode viver
+
+[Chorus]
+É agora
+O resto é memória ou medo
+Agora
+É o único lugar secreto
+Onde a vida acontece mesmo
+Onde o corpo está de facto
+Agora
+O único tempo exato
+
+[Verse 3]
+Não é fuga, não é técnica
+Não é a mente a esvaziar
+É só chegar onde já estou
+E deixar de me adiar
+
+[Chorus]
+É agora
+O resto é memória ou medo
+Agora
+É o único lugar secreto
+Onde a vida acontece mesmo
+Onde o corpo está de facto
+Agora
+O único tempo exato
+
+[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath]
+(European Portuguese, Portugal accent:)
+Amanhã é uma promessa
+Que ninguém me assegurou
+Ontem é uma fotografia
+Hoje é tudo o que restou
+
+[Outro]
+Agora
+Respiro
+E está tudo
+Aqui
+Inteiro`,
+
+  "eter-enquanto-dura/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: fingerpicked steel-string folk guitar, soft brushed drums, warm upright bass, a single high string accent, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, contemplative]
+They say you cannot step
+Into one stream again
+The water that just held you
+Is already past the bend
+
+[Verse 2]
+And I am the same, a river
+Wearing one steady name
+But none of me from yesterday
+Is here, and none will stay the same
+
+[Chorus]
+The river, the river
+Does not mourn the water gone
+The river, the river
+Is the going, not the one
+Drop that thinks it is the whole
+Just because it's passing through
+I am not the water
+I am the running, and so are you
+
+[Verse 3]
+So when I grieve the person
+That I was three years ago
+I am grieving water
+That had always meant to go
+
+[Chorus]
+The river, the river
+Does not mourn the water gone
+The river, the river
+Is the going, not the one
+Drop that thinks it is the whole
+Just because it's passing through
+I am not the water
+I am the running, and so are you
+
+[Bridge: vocal close, no harmonies, only fingerpicked guitar]
+You cannot keep the river
+You can only stand and bless
+Each handful as it leaves you
+Cold and bright and merciless
+
+[Outro]
+The river
+Keeps going
+And the going
+Is the gift`,
+
+  "eter-enquanto-dura/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, slight breathiness on sustained notes, layered airy harmonies emerging only on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: nylon bossa guitar, soft brushed snare, warm upright bass, a tide-shaped pad, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close, tidal phrasing]
+Há uma flor que abre ao amanhecer
+E ao cair da noite já não está
+Não se queixa do que durou
+Floresce todo o tempo que lhe dá
+
+[Verse 2]
+Não guarda pétalas para amanhã
+Não poupa cor, não poupa cheiro
+Dá-se inteira num só dia
+Como se o primeiro fosse o derradeiro
+
+[Chorus]
+Flor de um dia
+Mais bela por ser breve
+Flor de um dia
+Não pede o que não deve
+Não quer ser eterna
+Quer ser inteira enquanto dura
+E talvez seja isso a vida
+E não a longa duração que se procura
+
+[Verse 3]
+E eu que conto os anos
+Como quem tem medo de os perder
+Devia aprender com a flor
+A abrir-me em vez de os temer
+
+[Chorus]
+Flor de um dia
+Mais bela por ser breve
+Flor de um dia
+Não pede o que não deve
+Não quer ser eterna
+Quer ser inteira enquanto dura
+E talvez seja isso a vida
+E não a longa duração que se procura
+
+[Bridge: European Portuguese, Lisbon accent, vocal close, no harmonies, only nylon guitar and brushed snare]
+(European Portuguese, Portugal accent:)
+Ninguém pede à madrugada
+Que dure mais um bocado
+É linda porque acaba
+E recomeça do outro lado
+
+[Outro]
+Flor de um dia
+Abro
+Dou tudo
+E deixo cair`,
+
+  "eter-enquanto-dura/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: warm Rhodes electric piano, brushed drums, soft bass, a single Hammond chord, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close]
+The coffee going cold beside me
+The light across the floor at four
+The sound of someone in the kitchen
+Doing nothing, nothing more
+
+[Verse 2]
+I used to rush straight through these
+Toward some bigger, brighter thing
+Not knowing these were it
+Not knowing this was everything
+
+[Chorus]
+Drink the day
+Before it goes flat and warm
+Drink the day
+The ordinary, the unadorned
+Not the holidays, the weddings
+Just the Tuesday, just the rain
+This is the wine they will not pour
+For you again
+
+[Verse 3]
+So I am learning how to taste it
+Slow, the way you taste a loss
+To notice while I have it
+What it later will have cost
+
+[Chorus]
+Drink the day
+Before it goes flat and warm
+Drink the day
+The ordinary, the unadorned
+Not the holidays, the weddings
+Just the Tuesday, just the rain
+This is the wine they will not pour
+For you again
+
+[Bridge: vocal close, no harmonies, only Rhodes]
+Attention is the only prayer
+I am sure that I believe
+Just to look at something fully
+Before I have to leave
+
+[Outro]
+Drink the day
+All of it
+The dregs
+And the gold
+The same`,
+
+  "eter-enquanto-dura/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, smoky after-midnight feel on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: elastic jazz upright bass, brushed drums, warm Rhodes chord, a single high piano note pulling on phrase end, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, smoky]
+O relógio diz que passou um ano
+Mas o corpo diz que foi um sopro
+O relógio marca sessenta segundos
+Mas há esperas que duram um outono
+
+[Verse 2]
+Há tardes que não acabam
+Há anos que não se sentem
+Há um beijo que ainda dura
+E relógios que sempre mentem
+
+[Chorus]
+O relógio mente
+O tempo não é o que marca
+O relógio mente
+A vida sente-se, não se abarca
+Há minutos que são tudo
+Há horas que não existem
+O tempo é a intensidade
+Não os números que insistem
+
+[Verse 3]
+Por isso não me perguntes a idade
+Pergunta-me antes o que senti
+Não conto os anos que vivi
+Conto as vezes que estive aqui
+
+[Chorus]
+O relógio mente
+O tempo não é o que marca
+O relógio mente
+A vida sente-se, não se abarca
+Há minutos que são tudo
+Há horas que não existem
+O tempo é a intensidade
+Não os números que insistem
+
+[Bridge: European Portuguese, Lisbon accent, vocal close, no harmonies, only Rhodes and elastic bass]
+(European Portuguese, Portugal accent:)
+Há um tempo que se arrasta
+E um tempo que se acende
+Vivi tanto no primeiro
+À espera do segundo, que ninguém me vende
+
+[Outro]
+O relógio mente
+Eu fico
+Com o que ardeu
+Não com o que passou`,
+
+  "eter-enquanto-dura/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, breathy on sustained notes, a low hum drone underneath, layered airy harmonies emerging only on the chorus (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: ambient pad, fingerpicked nylon guitar, a low hum drone, no drums, no vocal yet, instrumental opening for 8 bars]
+
+[Verse 1: vocal whispered, very close]
+I have been moving so fast
+That the days blur into one
+I cannot tell you what I did
+In any week that's gone
+
+[Verse 2]
+Speed is a kind of sleeping
+You can cross whole years awake
+And arrive with empty hands
+At a future you did not make
+
+[Chorus]
+Slow
+Is not a waste of time
+Slow
+Is how the moment becomes mine
+The faster that I go
+The less of it I keep
+Slow is the only way
+A life goes deep
+
+[Verse 3]
+So I am learning how to walk
+At the speed of what I feel
+To let one cup of morning
+Be the whole of what is real
+
+[Chorus]
+Slow
+Is not a waste of time
+Slow
+Is how the moment becomes mine
+The faster that I go
+The less of it I keep
+Slow is the only way
+A life goes deep
+
+[Bridge: vocal close, no harmonies, only pad and guitar]
+The body cannot hurry
+Into yesterday or soon
+It only knows this breath
+This pulse, this afternoon
+
+[Outro]
+Slow
+The day
+Opens
+Like a hand
+That stops
+Grabbing`,
+
+  "eter-enquanto-dura/8": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: warm Rhodes electric piano, soft Hammond, brushed drums, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+Um dia hei de ser velha
+E hei de olhar para trás
+E esta tarde tão banal
+Vai valer o que já não há
+
+[Verse 2]
+Vou ter saudades disto
+Que hoje nem sei ver
+Da pressa, do cansaço
+Do simples acontecer
+
+[Chorus]
+Quando eu olhar para trás
+Vou querer voltar a agora
+A este dia que não vi
+Por andar sempre a ir-me embora
+Então deixa-me vê-lo
+Enquanto ainda é meu
+Para que a saudade seja gratidão
+E não um adeus
+
+[Verse 3]
+Não quero chegar ao fim
+A chorar o que passou
+Quero ter estado cá
+Em cada hora que voou
+
+[Chorus]
+Quando eu olhar para trás
+Vou querer voltar a agora
+A este dia que não vi
+Por andar sempre a ir-me embora
+Então deixa-me vê-lo
+Enquanto ainda é meu
+Para que a saudade seja gratidão
+E não um adeus
+
+[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath]
+(European Portuguese, Portugal accent:)
+A mim, mais velha, prometo
+Não te deixar só com retratos
+Vou viver isto por dentro
+Para te dar dias, não fragmentos
+
+[Outro]
+Quando eu olhar para trás
+Quero sorrir
+E dizer
+Estive lá
+Estive mesmo lá`,
+
+  "eter-enquanto-dura/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano with rich chords, log drum sparse, bright shaker on the four, Hammond organ swelling, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+I held it all so tightly
+The people and the days
+Sure that if I gripped them
+They would stay
+
+[Verse 2]
+But the tighter that I held
+The more it turned to sand
+You cannot keep the ocean
+In a fist, only a hand
+
+[Chorus]
+Open hand
+Is the only way to hold
+Open hand
+Lets the water and the gold
+Move through me like they're meant to
+Stay as long as they will stay
+Open hand
+Is how you love a passing day
+
+[Verse 3]
+It is not that I love less
+By letting fingers part
+It is that holding open
+Is the braver, truer art
+
+[Chorus]
+Open hand
+Is the only way to hold
+Open hand
+Lets the water and the gold
+Move through me like they're meant to
+Stay as long as they will stay
+Open hand
+Is how you love a passing day
+
+[Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
+The flower does not clutch the bee
+The sky does not hold the rain
+They give and let it go
+And it all comes round again
+
+[Outro]
+Open hand
+Nothing kept
+Nothing lost
+Just held
+While it lasted`,
+
+  "eter-enquanto-dura/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano with rich chords, log drum sparse, bright shaker enters on the four, Hammond organ swells gradually, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, settled]
+Dizem-me que tudo passa
+Como se fosse uma tristeza
+Mas se a alegria passa
+Também a dor não fica presa
+
+[Verse 2]
+Já passei noites tão escuras
+Que jurei que eram eternas
+E a manhã chegou na mesma
+Sem pedir licença às trevas
+
+[Chorus]
+Ainda bem que passa
+Ainda bem que nada dura
+Que até a noite mais fechada
+Acaba por virar abertura
+Ainda bem que passa
+O que me faz e o que me parte
+Tudo é maré, tudo é passagem
+E é nisso que mora a arte
+
+[Verse 3]
+Por isso já não me agarro
+Nem ao bom nem ao que dói
+Seguro a vida como água
+E vejo-a a brilhar enquanto foi
+
+[Chorus]
+Ainda bem que passa
+Ainda bem que nada dura
+Que até a noite mais fechada
+Acaba por virar abertura
+Ainda bem que passa
+O que me faz e o que me parte
+Tudo é maré, tudo é passagem
+E é nisso que mora a arte
+
+[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath, building]
+(European Portuguese, Portugal accent:)
+Nada que é meu fica
+E nada que dói também
+Talvez seja essa a misericórdia
+De um mundo que não retém
+
+[Final Chorus: choir builds from solo to 6-voice, full band, never shouts]
+Ainda bem que passa
+Ainda bem que nada dura
+Que até a noite mais fechada
+Acaba por virar abertura
+Ainda bem que passa
+O que me faz e o que me parte
+Tudo é maré, tudo é passagem
+E é nisso que mora a arte
+
+[Outro]
+Ainda bem que passa
+Eu também
+Hei de passar
+E está tudo
+Bem`,
+
+  // ─────────────────────────────────────────────
   // ÓRBITA — As forças invisíveis que nos movem
   // ─────────────────────────────────────────────
 
