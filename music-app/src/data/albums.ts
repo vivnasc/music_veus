@@ -1298,6 +1298,46 @@ const COSMIC_CASA: AlbumDef = {
   ],
 };
 
+const COSMIC_ENQUANTO_DURA: AlbumDef = {
+  slug: "eter-enquanto-dura",
+  title: "Enquanto Dura",
+  subtitle: "O tempo não volta, e por isso tudo arde. Segurar a vida como água, de mão aberta.",
+  product: "eter",
+  color: "#3a2018",
+  tracks: [
+    { number: 1, title: "The Last Time", description: "As últimas vezes que não reconhecemos como últimas", lang: "EN", energy: "anthem", flavor: "gospel",
+      bpm: 84, signatureElement: "gospel piano and Hammond with choir building solo to 6-voice, brushed drums, strings on the final chorus", exclusionLock: VIAGEM_AFRO_FRIENDLY,
+      prompt: cosmicPrompt("the last times we never recognise as last, attention as the only cure, the present moment in disguise", "tender, aching but warm, intimate then luminous, never aggressive, never shouts", "contemporary gospel-soul anthem, warm female lead breathy and close on verses and full chest consoling on choruses, layered gospel choir building solo to 6-voice on final chorus, gospel piano, soft Hammond organ, brushed drums, bright shaker, rising strings on the final chorus, no autotune", "EN", "anthem", "gospel", { bpm: 84, signatureElement: "gospel piano + Hammond + choir solo to 6-voice + brushed drums + rising strings", exclusionLock: VIAGEM_AFRO_FRIENDLY }), durationSeconds: 270, audioUrl: null },
+    { number: 2, title: "Agora", description: "O único tempo onde a vida acontece de facto", lang: "PT", energy: "anthem", flavor: "gospel-africano",
+      bpm: 88, signatureElement: "marrabenta nylon guitar meeting gospel choir and log drum", exclusionLock: VIAGEM_AFRO_FRIENDLY,
+      prompt: cosmicPrompt("the now as the only place the body actually lives, presence as homecoming to the moment", "grounded, rising, never aggressive, never shouts", "contemporary marrabenta-gospel anthem, warm female lead breathy on verses and full chest settled on choruses, gospel choir building solo to 6-voice on final chorus, Mozambican nylon guitar with marrabenta lilt, log drum, bright shaker on the off-beat, warm Hammond organ, gospel piano fills, full band from final chorus, no autotune. Lyrics in European Portuguese (pós-AO90), Lisbon accent", "PT", "anthem", "gospel", { bpm: 88, signatureElement: "marrabenta nylon + gospel choir + log drum + Hammond + gospel piano", exclusionLock: VIAGEM_AFRO_FRIENDLY }), durationSeconds: 270, audioUrl: null },
+    { number: 3, title: "The River", description: "Não se entra duas vezes no mesmo rio, e nós somos o rio", lang: "EN", energy: "steady", flavor: "folk",
+      bpm: 80, signatureElement: "fingerpicked folk guitar with brushed drums and upright bass, intimate vocal", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("impermanence and the self as flux, grieving the water that was always meant to move on, the going itself as the gift", "flowing, settled, contemplative, never shouts", "warm contemplative folk, warm female lead breathy and close on verses with three-voice harmony on choruses, fingerpicked steel-string guitar, soft brushed drums, warm upright bass, light string accents on the final chorus, no autotune", "EN", "steady", "folk", { bpm: 80, signatureElement: "fingerpicked folk guitar + brushed drums + upright bass + light strings", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 4, title: "Flor de Um Dia", description: "Mais bela por ser breve", lang: "PT", energy: "whisper", flavor: "bossa",
+      bpm: 72, signatureElement: "nylon bossa guitar with brushed snare and upright bass, intimate close vocal, tide-shaped pad", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("the one-day flower, more beautiful because it is brief, life as fullness rather than length", "tender, gentle, never rises, never shouts", "intimate bossa, warm female lead whispered and very close, three-voice airy harmony only on choruses, nylon bossa guitar, soft brushed snare, warm upright bass, a slow tide-shaped pad, no autotune. Lyrics in European Portuguese (pós-AO90), Lisbon accent", "PT", "whisper", "bossa", { bpm: 72, signatureElement: "nylon bossa + brushed snare + upright bass + tide-shaped pad", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 5, title: "Drink the Day", description: "Beber o dia comum como se fosse vinho que não voltam a servir", lang: "EN", energy: "steady", flavor: "jazz",
+      bpm: 78, signatureElement: "warm Rhodes with brushed drums and soft bass, intimate vocal, occasional Hammond chord", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("savouring the ordinary day as one-time wine, attention as devotion to the passing moment", "tender, savouring, smoky, never shouts", "warm contemporary soul, smoky and intimate, warm female lead breathy and close on verses with three-voice harmony on choruses, Rhodes electric piano, brushed drums, soft bass, occasional Hammond chord, light strings on the final chorus, no autotune", "EN", "steady", "jazz", { bpm: 78, signatureElement: "warm Rhodes + brushed drums + soft bass + occasional Hammond + light strings", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 6, title: "O Relógio Mente", description: "O tempo não se mede, sente-se", lang: "PT", energy: "steady", flavor: "jazz",
+      bpm: 76, signatureElement: "elastic jazz upright bass with brushed drums and Rhodes, single high piano pulling on phrase ends", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("felt time against measured time, keeping what burned rather than what merely passed", "loose, swung, intimate, smoky after-midnight feel, never shouts", "late-night jazz, smoky and elastic, warm female lead intimate and close with three-voice harmony on choruses, elastic jazz upright bass, brushed drums, warm Rhodes, a single high piano note pulling on phrase ends, soft Hammond on the final chorus, no autotune. Lyrics in European Portuguese (pós-AO90), Lisbon accent", "PT", "steady", "jazz", { bpm: 76, signatureElement: "elastic jazz upright bass + brushed drums + Rhodes + single high piano pull", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 7, title: "Slow", description: "A pressa é uma forma de dormir acordada", lang: "EN", energy: "whisper", flavor: "folk",
+      bpm: 66, signatureElement: "ambient pad and fingerpicked guitar over a low hum drone, no drums", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("speed as a kind of sleep, slowness as the only way a life goes deep, the body that lives only in this breath", "still, weightless, hushed, unhurried, never shouts", "intimate ambient-folk, warm female lead whispered and very close, a low hum drone under the words, three-voice harmony only on the chorus, ambient pad, fingerpicked nylon guitar, no percussion or faintest pulse, no autotune", "EN", "whisper", "folk", { bpm: 66, signatureElement: "ambient pad + fingerpicked guitar + low hum drone + no drums", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 240, audioUrl: null },
+    { number: 8, title: "Quando Eu Olhar Para Trás", description: "Viver agora para que a saudade futura seja gratidão", lang: "PT", energy: "anthem", flavor: "jazz",
+      bpm: 82, signatureElement: "warm Rhodes with choir building solo to 6-voice, brushed drums, strings on the final chorus", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS,
+      prompt: cosmicPrompt("nostalgia in advance, a promise to the future self, living the present so the looking-back becomes gratitude and not goodbye", "tender, swelling, never aggressive, never shouts", "warm contemporary soul building to anthem, warm female lead breathy on verses and full chest on choruses, gospel choir building solo to 6-voice on final chorus, Rhodes electric piano, soft Hammond organ, brushed drums, bright shaker, rising strings on the final chorus, full band from the final chorus, no autotune. Lyrics in European Portuguese (pós-AO90), Lisbon accent", "PT", "anthem", "gospel", { bpm: 82, signatureElement: "warm Rhodes + choir solo to 6-voice + brushed drums + rising strings", exclusionLock: VIAGEM_DEFAULT_EXCLUSIONS }), durationSeconds: 270, audioUrl: null },
+    { number: 9, title: "Open Hand", description: "Segura-se mais de mão aberta do que de punho fechado", lang: "EN", energy: "anthem", flavor: "gospel",
+      bpm: 90, signatureElement: "gospel piano and Hammond with choir building solo to 6-voice, log drum, bright shaker, rising strings on the last chorus", exclusionLock: VIAGEM_AFRO_FRIENDLY,
+      prompt: cosmicPrompt("holding life with an open hand, non-attachment as the truer form of love, letting the moment pass without grasping", "uplifting, generous, warm and releasing, never aggressive, never shouts", "contemporary gospel anthem, warm female lead breathy on verses and full chest on choruses, gospel choir building solo to 6-voice on final chorus, gospel piano, log drum, bright shaker, warm Hammond organ, full band from the final chorus, rising strings on the last chorus, no autotune", "EN", "anthem", "gospel", { bpm: 90, signatureElement: "gospel piano + Hammond + choir solo to 6-voice + log drum + bright shaker + rising strings", exclusionLock: VIAGEM_AFRO_FRIENDLY }), durationSeconds: 270, audioUrl: null },
+    { number: 10, title: "Ainda Bem Que Passa", description: "A impermanência como misericórdia: também a dor não fica presa", lang: "PT", energy: "anthem", flavor: "gospel-africano",
+      bpm: 92, signatureElement: "gospel choir building solo to 6-voice with log drum, bright shaker, Hammond, gospel piano, full band from final chorus, rising strings", exclusionLock: VIAGEM_AFRO_FRIENDLY,
+      prompt: cosmicPrompt("impermanence as mercy, the night always turning into an opening, holding life like water and being at peace that it and I will pass", "intimate then vast, peaceful, consoling, never aggressive, never shouts", "contemporary gospel-africano anthem, warm female lead breathy on verses and full chest on choruses, gospel choir building solo to 6-voice on final chorus, gospel piano, log drum, bright shaker, warm Hammond organ, full band from the final chorus, rising strings on the last chorus, no autotune. Lyrics in European Portuguese (pós-AO90), Lisbon accent", "PT", "anthem", "gospel", { bpm: 92, signatureElement: "gospel choir solo to 6-voice + log drum + bright shaker + Hammond + gospel piano + rising strings", exclusionLock: VIAGEM_AFRO_FRIENDLY }), durationSeconds: 300, audioUrl: null },
+  ],
+};
+
 const ROMANCE_PELE: AlbumDef = {
   slug: "nua-romance",
   title: "Pele",
@@ -2894,6 +2934,7 @@ export const ALL_ALBUMS: Album[] = [
   // Cosmic
   COSMIC_VIAGEM,
   COSMIC_CASA,
+  COSMIC_ENQUANTO_DURA,
   // Romance
   ROMANCE_PELE,
   ROMANCE_CARTA,
