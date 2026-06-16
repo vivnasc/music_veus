@@ -3451,6 +3451,593 @@ A luz
 Já vem a caminho`,
 
   // ─────────────────────────────────────────────
+  // AVESSO — O lado de dentro da costura
+  // O que não mostro à luz do dia, amado por inteiro
+  // ─────────────────────────────────────────────
+
+  "eter-avesso/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate but with cold steel underneath, very controlled, breathy turning to a low chest-voice intensity on the choruses, never raised, never shouts, layered low harmonies on the final chorus, no melisma, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: a single low sustained note, sparse reverbed guitar with long decay, brushed drums far back, a low drone, tense and spacious, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close, controlled]
+Sorri tantas vezes
+Quando devia dizer não
+Calei-me para caber
+Na tua mão
+
+[Verse 2]
+Chamaste-lhe doçura
+Mas era só medo
+Cada sim que eu não queria
+Tirava-me um bocado, em segredo
+
+[Chorus]
+Não
+E não preciso de gritar
+Não
+Dito baixo sabe ficar
+Não é vingança, não é guerra
+É só eu, pela primeira vez,
+A ficar do meu próprio lado
+E a não me desfazer
+
+[Verse 3]
+A culpa vai chegar
+Já a oiço a bater
+Mas desta vez deixo-a lá fora
+E fico aqui a viver
+
+[Chorus]
+Não
+E não preciso de gritar
+Não
+Dito baixo sabe ficar
+Não é vingança, não é guerra
+É só eu, pela primeira vez,
+A ficar do meu próprio lado
+E a não me desfazer
+
+[Bridge: vocal close, almost spoken, only drone and sparse guitar]
+Não te odeio
+Isso era fácil
+Só deixei de me trair
+Para te ser dócil
+
+[Outro]
+Não
+Devagar
+Sem levantar a voz
+E pela primeira vez
+Ninguém me convence
+Do contrário`,
+
+  "eter-avesso/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate, low and close, breathy with a held heat, layered airy harmonies on choruses, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: reverb-drenched hazy guitar, warm analog synth pad, slow dreamy drums, a low pulse, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, low]
+I have spent so long being grateful
+Being calm, being light
+That I forgot the other thing
+The wanting in the night
+
+[Verse 2]
+Not the soul's serene desire
+For something pure and far
+A lower, warmer kind of want
+For exactly where you are
+
+[Chorus]
+Hunger
+Is not a flaw to mend
+Hunger
+Is the animal, my friend,
+That keeps me in the world
+Awake and wanting, alive
+I will not spiritualise it
+I will let it arrive
+
+[Verse 3]
+I am allowed to want
+With my skin and not my prayer
+To be a body, not a temple
+Just for one night, bare
+
+[Chorus]
+Hunger
+Is not a flaw to mend
+Hunger
+Is the animal, my friend,
+That keeps me in the world
+Awake and wanting, alive
+I will not spiritualise it
+I will let it arrive
+
+[Bridge: vocal low, close, only pad and hazy guitar]
+Desire is not the enemy
+Of everything I am
+It is the proof the holy thing
+Has hands, and wants, and can
+
+[Outro]
+Hunger
+I let you
+Sit at the table
+Instead of
+The hall`,
+
+  "eter-avesso/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, breathy, honest and a little ashamed in the tone, layered airy harmonies on choruses, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: warm Rhodes electric piano, brushed drums, soft bass, a single Hammond chord, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, honest]
+Vi a vida dela e doeu
+Não de mágoa, de inveja
+A coisa feia que ninguém
+Confessa nem na igreja
+
+[Verse 2]
+Sorri e disse que bom
+Com o verde a subir-me ao peito
+Fingi a generosidade
+Que não senti, a jeito
+
+[Chorus]
+Verde
+A cor que eu não admito
+Verde
+Quando o bem do outro me irrita
+Não é nobre, não é bonito
+Mas é meu, e está aqui
+E talvez só o solte
+Quando parar de o fingir
+
+[Verse 3]
+A inveja diz-me uma coisa
+Se eu a ouvir sem castigo
+Mostra-me o que eu quero
+E ainda não me permito
+
+[Chorus]
+Verde
+A cor que eu não admito
+Verde
+Quando o bem do outro me irrita
+Não é nobre, não é bonito
+Mas é meu, e está aqui
+E talvez só o solte
+Quando parar de o fingir
+
+[Bridge: vocal close, only Rhodes]
+Não sou só a parte boa
+Que mostro à luz do dia
+Sou também este ciúme
+Que ninguém fotografia
+
+[Outro]
+Verde
+Olá
+Já não finjo
+Que não te conheço`,
+
+  "eter-avesso/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate and conversational, a wry half-smile in the tone, breathy and close, light layered harmonies on choruses, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: reverb-drenched hazy guitar, warm analog synth pad, slow dreamy brushed drums, a sleepy bass, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, wry]
+At three a.m. they gather
+The committee in my head
+They have pulled the files again
+Of everything I said
+
+[Verse 2]
+Exhibit A, that message
+From two thousand and nine
+Exhibit B, the thing I did
+At someone's party, fine
+
+[Chorus]
+The three a.m. committee
+Never rules in my favour
+They review my every blunder
+With a thoroughness to savour
+No one asked them to convene
+No one gave them the address
+But they meet, without a quorum,
+To discuss my every mess
+
+[Verse 3]
+But here is the thing about them
+They only sit at night
+By breakfast they have vanished
+And the verdict won't recite
+
+[Chorus]
+The three a.m. committee
+Never rules in my favour
+They review my every blunder
+With a thoroughness to savour
+No one asked them to convene
+No one gave them the address
+But they meet, without a quorum,
+To discuss my every mess
+
+[Bridge: vocal close, warmer, only pad and hazy guitar]
+So I have learned to tell them
+Thank you, not tonight
+You are not the supreme court
+You are just the lack of light
+
+[Outro]
+The committee
+Adjourns
+At dawn
+Case
+Permanently
+Dismissed`,
+
+  "eter-avesso/5": `[Vocal: ONE warm mezzo-contralto female voice leading, intimate verses with a restless heat, full chest on choruses, layered harmonies building to a swell on the final chorus, an intimate band rather than a choir, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: Mozambican nylon guitar with mbira texture, close-mic indie warmth, warm tape, sparse percussion, a restless pulse, no marrabenta lilt, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+Tenho uma vida boa
+Bonita de se ver
+E há dias em que só me apetece
+Pegar nela e arder
+
+[Verse 2]
+Não porque seja má
+Mas porque é tão segura
+Que às vezes a calma
+Sabe a sepultura
+
+[Chorus]
+Tenho fósforos no bolso
+E nunca os acendo
+Mas gosto de os ter ali
+Só para ir sabendo
+Que podia, que escolho ficar
+Não por não ter saída
+A diferença entre prisão e lar
+É a porta estar do meu lado
+
+[Verse 3]
+A parte de mim que quer fugir
+Não é a minha inimiga
+É só a que me lembra
+Que estou viva, não presa, antiga
+
+[Chorus]
+Tenho fósforos no bolso
+E nunca os acendo
+Mas gosto de os ter ali
+Só para ir sabendo
+Que podia, que escolho ficar
+Não por não ter saída
+A diferença entre prisão e lar
+É a porta estar do meu lado
+
+[Bridge: vocal opens but never shouts, harmonies swell underneath]
+Não vou queimar nada
+Mas fico com o saber
+De que sou eu, e não as grades,
+Quem escolheu não arder
+
+[Outro]
+Fósforos
+No bolso
+Intactos
+E a vida
+Que eu escolhi
+Outra vez`,
+
+  "eter-avesso/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, wry and honest in the tone, gospel choir building from solo to 6-voice on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: gospel piano with rich chords, soft Hammond underneath, brushed drums enter gently, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, wry-honest]
+I pretend I do not need it
+The clapping and the gaze
+That I make the thing for its own sake
+And not the little praise
+
+[Verse 2]
+But I check who saw, who liked it
+I count the little hearts
+And the saint I play in daylight
+Has a vainer, hungrier part
+
+[Chorus]
+I want to be seen
+There, I finally said it
+I want to be seen
+Not above it, not past it
+The part of me that wants the room
+To turn and know my name
+Is not my finest angle
+But I will not call it shame
+
+[Verse 3]
+Maybe under all the wanting
+To be admired and known
+Is a smaller, older hunger
+Just to not feel so alone
+
+[Chorus]
+I want to be seen
+There, I finally said it
+I want to be seen
+Not above it, not past it
+The part of me that wants the room
+To turn and know my name
+Is not my finest angle
+But I will not call it shame
+
+[Bridge: vocal opens but never shouts, choir hums underneath]
+So I will let the want be human
+Neither feed it nor pretend
+A little wish to matter
+Is not a sin to mend
+
+[Outro]
+Seen
+Just once
+Fully
+By someone
+Who stays`,
+
+  "eter-avesso/7": `[Vocal: ONE warm mezzo-contralto female voice, warm and smiling, breathy on verses opening to joyful full chest on the chorus, layered harmonies and handclaps, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: fingerpicked acoustic guitar over a warm analog synth pulse, organic shaker and soft handclaps building a gentle groove, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, warming]
+Passei tanto tempo a pensar
+Que esqueci de mexer
+O corpo todo à espera
+De licença para viver
+
+[Verse 2]
+Hoje não há plateia
+Não há certo nem errado
+Só esta música baixinha
+E o chão a ser pisado
+
+[Chorus]
+Solta
+Deixa o corpo decidir
+Solta
+Não é para ninguém ver, é para sentir
+Os ombros, as ancas, os pés
+Que andavam tão calados
+Solta
+E deixa-os festejar o que guardaram
+
+[Verse 3]
+A alegria também é sabedoria
+Ninguém me tinha dito
+Que mexer sem objetivo
+É uma reza sem grito
+
+[Chorus]
+Solta
+Deixa o corpo decidir
+Solta
+Não é para ninguém ver, é para sentir
+Os ombros, as ancas, os pés
+Que andavam tão calados
+Solta
+E deixa-os festejar o que guardaram
+
+[Bridge: vocal warm, handclaps, groove opens]
+Não preciso de saber dançar
+Preciso de me deixar
+O corpo sabe o caminho
+Se eu sair-lhe da frente, a brincar
+
+[Outro]
+Solta
+Mais um bocadinho
+Os olhos fechados
+E um sorriso
+Que ninguém encomendou`,
+
+  "eter-avesso/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate and smoky, a little hard in the tone, layered airy harmonies on choruses, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: warm Rhodes electric piano, brushed drums, soft bass, a low Hammond chord, smoky, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, smoky]
+It started out as wine
+A sweetness I could pour
+But I left it in the dark too long
+And now it's something more
+
+[Verse 2]
+I keep it on a high shelf
+And I sip it when I'm low
+A bitterness that tastes like being right
+And I am loath to let it go
+
+[Chorus]
+Vinegar
+Is what the sweet things turn to
+Vinegar
+When you hold a hurt you cling to
+And the worst of it, the truth of it,
+Is no one drinks it but me
+The grudge was always poison
+That I called my memory
+
+[Verse 3]
+And I could keep on drinking
+Being right until I'm old
+Or I could pour the bottle out
+And let the warm replace the cold
+
+[Chorus]
+Vinegar
+Is what the sweet things turn to
+Vinegar
+When you hold a hurt you cling to
+And the worst of it, the truth of it,
+Is no one drinks it but me
+The grudge was always poison
+That I called my memory
+
+[Bridge: vocal close, only Rhodes]
+Forgiving is not saying
+That the wound was ever fair
+It is just deciding
+I will no longer live in there
+
+[Outro]
+Vinegar
+Poured out
+And the glass
+Rinsed clean
+For something else`,
+
+  "eter-avesso/9": `[Vocal: ONE warm mezzo-contralto female voice leading, breathy verses with a wry, slightly fierce edge, full chest on choruses, stacked reverbed vocal harmonies building to a swell on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: fingerpicked guitar with warm tape texture, soft brushed drums, a low pad, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, wry]
+I used to read the room
+Like a test I had to pass
+Editing myself to fit
+Each face behind the glass
+
+[Verse 2]
+Then one day I was tired
+Too tired to perform
+And I said the wrong, true thing
+And survived the little storm
+
+[Chorus]
+So I shrug
+At the thing I would have died for
+The good opinion
+I was always dying for
+It is not that I stopped caring
+About kindness, about right
+I just stopped auditioning
+For approval every night
+
+[Verse 3]
+Half the eyes I feared
+Were never even watching
+And the ones that judged the loudest
+Were the ones with the most missing
+
+[Chorus]
+So I shrug
+At the thing I would have died for
+The good opinion
+I was always dying for
+It is not that I stopped caring
+About kindness, about right
+I just stopped auditioning
+For approval every night
+
+[Bridge: vocal close, stacked harmonies underneath]
+Their version of me
+Was always theirs to keep
+I gave it back, politely,
+And I finally got some sleep
+
+[Outro]
+Shrug
+And walk
+A little lighter
+Caring less
+About the wrong things`,
+
+  "eter-avesso/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal choir and strings building from solo to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: lush 70s orchestral strings swelling slowly, warm Hammond organ, a single piano figure, brushed drums entering gently, no vocal yet, instrumental opening for 8 bars]
+
+[Verse 1: vocal close, breathy]
+Durante anos mostrei
+Só metade de mim
+A parte mansa, a parte clara
+A que cabia no jardim
+
+[Verse 2]
+A outra ficou na cave
+A inveja, a raiva, a fome
+Como se amar-me fosse
+Esconder o que tem nome
+
+[Chorus]
+Mas eu sou inteira
+A luz e o avesso
+A que reza e a que morde
+Não só a parte que confesso
+E só me tenho mesmo
+Quando paro de escolher
+Entre a metade bonita
+E a verdade do meu ser
+
+[Verse 3]
+Não vim para ser metade
+Bem comportada e meia
+Vim inteira, com tudo,
+Com o jardim e a fogueira
+
+[Chorus]
+Mas eu sou inteira
+A luz e o avesso
+A que reza e a que morde
+Não só a parte que confesso
+E só me tenho mesmo
+Quando paro de escolher
+Entre a metade bonita
+E a verdade do meu ser
+
+[Bridge: vocal opens but never shouts, choir and strings swell underneath]
+Olá a tudo isto
+À sombra e ao clarão
+Já não vos ponho fora
+Sois também o meu coração
+
+[Final Chorus: choir and strings build from solo to a 6-voice swell, full arrangement, never shouts]
+Mas eu sou inteira
+A luz e o avesso
+A que reza e a que morde
+Não só a parte que confesso
+E só me tenho mesmo
+Quando paro de escolher
+Entre a metade bonita
+E a verdade do meu ser
+
+[Outro]
+Inteira
+Finalmente
+Com o avesso
+Para fora
+E sem medo`,
+
+  // ─────────────────────────────────────────────
   // ÓRBITA — As forças invisíveis que nos movem
   // ─────────────────────────────────────────────
 
