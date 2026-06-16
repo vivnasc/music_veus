@@ -3333,13 +3333,13 @@ Passo`,
 [Intro: lush 70s orchestral strings swelling slowly, warm Hammond, a single piano figure, brushed drums entering, no vocal yet, instrumental opening for 8 bars]
 
 [Verse 1: vocal close, breathy]
-I stood so long on the edge of it
+I stood so long at the start of it
 That the standing became the cage
 Safer not to try at all
-Than to fail upon the stage
+Than to falter on the stage
 
 [Verse 2]
-But the edge was never the danger
+But the moment was never the danger
 The danger was the years
 I'd spend not knowing if I could
 Bound by my own fears
@@ -3351,14 +3351,14 @@ I leap
 With it loud and holding on
 Because brave is not the absence
 Of the trembling in the knee
-It is jumping while you tremble
+It is moving while you tremble
 And discovering you're free
 
 [Verse 3]
-And maybe I will fall
+And maybe I will stumble
 That was always on the page
-But I would rather fall awake
-Than be safe inside the cage
+But I would rather live awake
+Than stay safe inside the cage
 
 [Chorus]
 So I leap
@@ -3367,21 +3367,21 @@ I leap
 With it loud and holding on
 Because brave is not the absence
 Of the trembling in the knee
-It is jumping while you tremble
+It is moving while you tremble
 And discovering you're free
 
 [Bridge: vocal opens but never shouts, choir and strings swell underneath]
-Every door I ever loved
-Was on the far side of a fright
+Every room I ever loved
+Was on the other side of a fright
 Nothing soft and worth the having
-Came without the leap, the height
+Came without the saying yes, in spite
 
 [Outro]
 I leap
-And the air
+And the road
 That terrified me
 Turns out
-To hold`,
+To meet me`,
 
   "eter-levanta/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal choir and strings building from solo to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
