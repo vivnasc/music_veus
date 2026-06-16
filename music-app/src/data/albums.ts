@@ -3230,4 +3230,16 @@ export const FLAVOR_LABELS: Record<TrackFlavor, { label: string; emoji: string; 
   gospel: { label: "Gospel", emoji: "g", color: "bg-yellow-50 text-yellow-700" },
   amapiano: { label: "Amapiano", emoji: "a", color: "bg-emerald-50 text-emerald-700" },
   "gospel-africano": { label: "Gospel Africano", emoji: "G", color: "bg-amber-50 text-amber-700" },
+  // ── Núcleo da alma ──
+  soul: { label: "Soul", emoji: "s", color: "bg-purple-50 text-purple-700" },
+  "gospel-soul": { label: "Gospel Soul", emoji: "S", color: "bg-violet-50 text-violet-700" },
+  "ambient-gospel": { label: "Ambient Gospel", emoji: "A", color: "bg-sky-50 text-sky-700" },
+  // ── Família indie da alma ──
+  "dream-pop": { label: "Dream Pop", emoji: "d", color: "bg-rose-50 text-rose-700" },
+  "cinematic-art-pop": { label: "Cinematic Art Pop", emoji: "c", color: "bg-red-50 text-red-700" },
+  "chamber-pop": { label: "Chamber Pop", emoji: "p", color: "bg-teal-50 text-teal-700" },
+  slowcore: { label: "Slowcore", emoji: "w", color: "bg-slate-50 text-slate-700" },
+  folktronica: { label: "Folktronica", emoji: "t", color: "bg-lime-50 text-lime-700" },
+  "indie-folk": { label: "Indie Folk", emoji: "i", color: "bg-stone-50 text-stone-700" },
+  "afro-indie": { label: "Afro Indie", emoji: "F", color: "bg-orange-50 text-orange-600" },
 };
