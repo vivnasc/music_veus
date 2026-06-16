@@ -2175,24 +2175,72 @@ export default function AlbumProductionPage() {
         if (allDone) {
           clearInterval(pollingRef.current[key]);
           delete pollingRef.current[key];
-          setErrors((e) => ({ ...e, [key]: "A descarregar clips..." }));
+          setErrors((e) => ({ ...e, [key]: "A descarregar e guardar clips..." }));
 
-          // Download all clips to browser memory immediately
+          // Download all clips and persist to Supabase staging so the URL
+          // does not expire. Suno chirp-fenix URLs die after about an hour
+          // and were causing "Failed to fetch" on approve plus dead players.
+          // Resolve album/track from the polling key so we can build the
+          // Supabase staging path. key format: "<albumSlug>-t<trackNum>".
+          const keyMatch = key.match(/^(.+)-t(\d+)$/);
+          const albumSlugFromKey = keyMatch ? keyMatch[1] : "";
+          const trackNumberFromKey = keyMatch ? Number(keyMatch[2]) : 0;
+
           const cached: SunoClip[] = [];
           for (const c of data.clips as SunoClip[]) {
-            if (!c.audioUrl) { cached.push(c); continue; }
+            if (!c.audioUrl) {
+              cached.push(c);
+              continue;
+            }
+            // Fetch blob, prefer direct then fall back to server proxy
+            let blob: Blob | null = null;
             try {
-              const audioRes = await fetch(c.audioUrl);
-              if (audioRes.ok) {
-                const blob = await audioRes.blob();
-                if (blob.size > 1000) {
-                  const localUrl = URL.createObjectURL(blob);
-                  cached.push({ ...c, audioUrl: localUrl, originalAudioUrl: c.audioUrl });
-                  continue;
-                }
+              const directRes = await fetch(c.audioUrl);
+              if (directRes.ok) {
+                const b = await directRes.blob();
+                if (b.size > 1000) blob = b;
               }
-            } catch { /* keep original URL */ }
-            cached.push(c);
+            } catch {
+              // CORS or expired URL — try proxy
+            }
+            if (!blob) {
+              try {
+                const proxyRes = await adminFetch("/api/admin/proxy-download", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ url: c.audioUrl }),
+                });
+                if (proxyRes.ok) {
+                  const b = await proxyRes.blob();
+                  if (b.size > 1000) blob = b;
+                }
+              } catch {
+                // give up, keep original
+              }
+            }
+            if (!blob) {
+              cached.push(c);
+              continue;
+            }
+            // Upload to Supabase staging using clipId so two clips per
+            // generation do not collide on the same path.
+            let persistentUrl = "";
+            if (albumSlugFromKey && trackNumberFromKey) {
+              const rawClipId = c.id || `c${Date.now()}`;
+              const safeClipId = rawClipId.replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 40) || `c${Date.now()}`;
+              const stagingPath = `albums/${albumSlugFromKey}/pending/faixa-${String(trackNumberFromKey).padStart(2, "0")}-${safeClipId}.mp3`;
+              try {
+                persistentUrl = await uploadViaSignedUrl(blob, stagingPath);
+              } catch (err) {
+                console.warn("[staging upload failed]", err);
+              }
+            }
+            const localBlobUrl = URL.createObjectURL(blob);
+            cached.push({
+              ...c,
+              audioUrl: persistentUrl || localBlobUrl,
+              originalAudioUrl: c.audioUrl,
+            });
           }
 
           setGeneratedClips((g) => ({
