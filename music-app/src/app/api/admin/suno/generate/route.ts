@@ -119,6 +119,18 @@ function buildStyle(energy?: string, flavor?: string, prompt?: string): string {
     gospel: "gospel-pop, choir harmonies",
     amapiano: "Amapiano, log drum, shaker loops, percussive, 112 BPM, bouncy, bright",
     "gospel-africano": "Afropop, 115 BPM, syncopated drums, bright percussion, punchy bass, log drum, shaker loops, bouncy, gospel choir, building anthem, warm strings, powerful female vocals, declarative, stadium energy meets intimacy",
+    // ── Núcleo da alma ──
+    soul: "warm soul, Rhodes electric piano, brushed drums, soft bass, occasional Hammond, smoky intimate, three-voice harmony",
+    "gospel-soul": "gospel-soul, gospel piano, warm Hammond organ, brushed drums, bright shaker, choir building solo to 6-voice, rising strings",
+    "ambient-gospel": "ambient gospel, deep pads, reverb piano single notes, distant choir hum, soft Hammond, almost no percussion",
+    // ── Família indie da alma ──
+    "dream-pop": "dream pop, reverb-drenched tremolo guitars, slow dreamy drums, warm analog synth pad, ethereal layered vocal in reverb, weightless",
+    "cinematic-art-pop": "cinematic art pop, lush 70s orchestral strings, soaring choir swell, warm Hammond, grand building arrangement, vast yet intimate",
+    "chamber-pop": "chamber pop, intimate piano with string quartet and cello, baroque touches, close hushed female vocal",
+    slowcore: "slowcore, extremely slow and spacious, sparse reverbed guitar, brushed drums far back, breathy intimate vocal, low hum drone",
+    folktronica: "folktronica, fingerpicked acoustic guitar with warm analog synth pads, subtle organic percussion, soulful electronic warmth",
+    "indie-folk": "indie folk, layered reverbed vocal harmonies, fingerpicked guitar, warm tape texture, hushed verses building to harmony swells",
+    "afro-indie": "afro-indie, Mozambican nylon guitar with mbira and kora, raw close-mic indie aesthetic, warm tape, sparse percussion, organic and earthy, no marrabenta lilt, no gospel choir",
   };
 
   // ─── Extract unique keywords from THIS track's prompt ───
