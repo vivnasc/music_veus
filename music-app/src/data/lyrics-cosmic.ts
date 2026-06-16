@@ -3339,10 +3339,10 @@ Safer not to try at all
 Than to fail upon the stage
 
 [Verse 2]
-But the cliff was never the danger
+But the edge was never the danger
 The danger was the years
 I'd spend not knowing if I could
-Hostage to my fears
+Bound by my own fears
 
 [Chorus]
 So I leap
