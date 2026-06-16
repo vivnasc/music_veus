@@ -3345,9 +3345,9 @@ I'd spend not knowing if I could
 Bound by my own fears
 
 [Chorus]
-So I leap
+So I move
 Not because the fear is gone
-I leap
+I move
 With it loud and holding on
 Because brave is not the absence
 Of the trembling in the knee
@@ -3361,9 +3361,9 @@ But I would rather live awake
 Than stay safe inside the cage
 
 [Chorus]
-So I leap
+So I move
 Not because the fear is gone
-I leap
+I move
 With it loud and holding on
 Because brave is not the absence
 Of the trembling in the knee
@@ -3377,7 +3377,7 @@ Nothing soft and worth the having
 Came without the saying yes, in spite
 
 [Outro]
-I leap
+I move
 And the road
 That terrified me
 Turns out
