@@ -2866,6 +2866,591 @@ Por nada
 Obrigada`,
 
   // ─────────────────────────────────────────────
+  // LEVANTA — Para os dias em que estás no chão
+  // Dez maneiras de te pores de pé outra vez
+  // ─────────────────────────────────────────────
+
+  "eter-levanta/1": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal choir and strings building from solo to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: lush 70s orchestral strings swelling slowly, warm Hammond organ underneath, a single piano figure, brushed drums entering gently, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+Nobody saw the morning
+That I almost didn't get up
+When the floor felt like an ocean
+And the day was too much
+
+[Verse 2]
+There were no crowds, no music
+No one filming it for proof
+Just me, and the decision
+To put one foot on the truth
+
+[Chorus]
+Rise
+Not above anybody
+Rise
+Just up, out of the body's
+Heavy argument for staying down
+I lift, I lift, I lift again
+The bravest thing I ever did
+Was simply not give in
+
+[Verse 3]
+And no one hands a medal
+For the quiet kind of brave
+For getting through a Tuesday
+That you thought you'd never save
+
+[Chorus]
+Rise
+Not above anybody
+Rise
+Just up, out of the body's
+Heavy argument for staying down
+I lift, I lift, I lift again
+The bravest thing I ever did
+Was simply not give in
+
+[Bridge: vocal opens but never shouts, choir and strings hum underneath]
+Falling is not the failure
+Staying down would be
+So I rise the only way there is
+One ordinary degree
+
+[Outro]
+Rise
+Again
+And if I fall
+Then I will learn
+To rise from there as well`,
+
+  "eter-levanta/2": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal harmonies building from solo to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: warm Rhodes electric piano, soft Hammond, brushed drums, soft bass, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+Passei anos a empurrar
+Uma porta que era de puxar
+A jurar que estava presa
+Quando bastava reparar
+
+[Verse 2]
+A gaiola não tinha tecto
+Era eu que não olhava
+De tanto ver as grades
+Já não via que voava
+
+[Chorus]
+A porta está aberta
+Sempre esteve, afinal
+O medo é que era a tranca
+Nunca houve grade nem metal
+Podes sair quando quiseres
+A única prisão real
+Era pensares que não podes
+E ficares no portal
+
+[Verse 3]
+Não foi tudo invenção minha
+Houve grades que me impuseram
+Mas as piores de todas
+Em mim é que nasceram
+
+[Chorus]
+A porta está aberta
+Sempre esteve, afinal
+O medo é que era a tranca
+Nunca houve grade nem metal
+Podes sair quando quiseres
+A única prisão real
+Era pensares que não podes
+E ficares no portal
+
+[Bridge: vocal opens but never shouts, harmonies hum underneath]
+Dá um passo para fora
+Só um, para começar
+E vais ver que o chão lá fora
+Sempre soube o teu andar
+
+[Outro]
+A porta está aberta
+Eu saio
+Devagar
+E o medo
+Fica lá dentro`,
+
+  "eter-levanta/3": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, stacked reverbed vocal harmonies building from solo to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: fingerpicked guitar with warm tape texture, soft brushed drums, a low sustained pad, a faint layered hum, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+Count them up, the worst days
+The ones you swore would end you
+The grief, the fear, the morning after
+The nights you thought would bend you
+
+[Verse 2]
+And here you are, still counting
+Which means you made it through
+Every single one of them
+A perfect record, you
+
+[Chorus]
+So far
+You have survived it all
+So far
+Every single time you'd fall
+You're still here to be afraid
+And that is the whole proof
+You have a perfect record
+Of living through the truth
+
+[Verse 3]
+The fear forgets your history
+It speaks like you are new
+But you have done the impossible
+On a hundred Tuesdays, you
+
+[Chorus]
+So far
+You have survived it all
+So far
+Every single time you'd fall
+You're still here to be afraid
+And that is the whole proof
+You have a perfect record
+Of living through the truth
+
+[Bridge: vocal opens but never shouts, reverbed harmonies hum underneath]
+You are not untested metal
+You are the one who stayed
+Every ghost behind you
+Is a thing you were afraid
+
+[Outro]
+So far
+And so far
+Is the only word
+That fear
+Cannot argue with`,
+
+  "eter-levanta/4": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal harmonies building to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: fingerpicked acoustic guitar meeting warm analog synth pads, subtle organic percussion, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+Habituaste-te a carregar
+Como se fosse só teu
+Sorris para não pesar
+E ninguém sabe o que doeu
+
+[Verse 2]
+Mas há mãos à tua volta
+Que esperam só que peças
+Não é fraqueza precisar
+É humano, não te esqueças
+
+[Chorus]
+Não estás só
+Mesmo quando o sentes
+Não estás só
+Há quem fique, há quem aguente
+Pousa um pouco desse peso
+Deixa alguém segurar
+O que tu carregas sozinha
+Não tens de carregar
+
+[Verse 3]
+Pedir ajuda é uma porta
+Não é cair, é confiar
+É deixar que te encontrem
+No escuro onde estás a ficar
+
+[Chorus]
+Não estás só
+Mesmo quando o sentes
+Não estás só
+Há quem fique, há quem aguente
+Pousa um pouco desse peso
+Deixa alguém segurar
+O que tu carregas sozinha
+Não tens de carregar
+
+[Bridge: vocal opens but never shouts, harmonies hum underneath]
+Ninguém foi feito
+Para aguentar tudo a sós
+A vida pesa menos
+Quando é dividida entre nós
+
+[Outro]
+Não estás só
+Estende a mão
+Vais ver
+Quanta gente
+Estava à espera de a segurar`,
+
+  "eter-levanta/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, gospel choir building from solo to 6-voice on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: gospel piano with rich chords, soft Hammond underneath, brushed drums enter gently, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+You learned to make yourself small
+To fit through someone's door
+You folded up your wingspan
+And forgot what it was for
+
+[Verse 2]
+You believed the smallest story
+Just because it came first
+And you carried someone's verdict
+Like it was the truth, rehearsed
+
+[Chorus]
+You are more
+Than the room that made you shrink
+You are more
+Than the lie you learned to think
+More than the fear, more than the name
+They handed you to wear
+You were always, always more
+You just forgot you were there
+
+[Verse 3]
+And no one gets to measure you
+With a ruler made of doubt
+You are not the smallest reading
+They could ever work you out
+
+[Chorus]
+You are more
+Than the room that made you shrink
+You are more
+Than the lie you learned to think
+More than the fear, more than the name
+They handed you to wear
+You were always, always more
+You just forgot you were there
+
+[Bridge: vocal opens but never shouts, choir hums underneath]
+Unfold now, slowly
+There is so much more of you
+Than the careful, frightened corner
+You learned to squeeze into
+
+[Outro]
+You are more
+Always were
+Take up
+The whole
+Of your room`,
+
+  "eter-levanta/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, breathy on sustained notes, three-voice airy harmony emerging late, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: intimate piano with cello, a soft string quartet swell, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close]
+Carregas isso há tanto tempo
+Que já nem sentes o peso
+Tornou-se a tua postura
+Curvada, mas sem aviso
+
+[Verse 2]
+Mas e se pousasses agora
+Só por um momento, só para ver
+Como ficava o peito
+Sem isso para suster
+
+[Chorus]
+Põe no chão
+O que já não é para levar
+Põe no chão
+Não nasceste para o carregar
+A culpa, o que te disseram,
+O que tentaste e não foi
+Põe no chão, devagar
+E repara como já não dói
+
+[Verse 3]
+Não tens de o resolver
+Não tens de o entender
+Só tens de abrir a mão
+E deixá-lo descer
+
+[Chorus]
+Põe no chão
+O que já não é para levar
+Põe no chão
+Não nasceste para o carregar
+A culpa, o que te disseram,
+O que tentaste e não foi
+Põe no chão, devagar
+E repara como já não dói
+
+[Bridge: vocal close, only piano and cello]
+O chão aguenta
+Para isso é que ele existe
+Confia o peso à terra
+E ergue-te menos triste
+
+[Outro]
+Põe no chão
+Endireita as costas
+E vê
+Quanto mais alta
+Sempre foste`,
+
+  "eter-levanta/7": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, gospel choir building from solo to 6-voice on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano with rich chords, soft Hammond organ, brushed drums, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+I used to think by now
+I would be finished, set, complete
+A final, polished version
+With the whole thing on its feet
+
+[Verse 2]
+But I am still unfinished
+Still a sketch, still in the making
+And I have quit apologising
+For the form that I am taking
+
+[Chorus]
+Becoming
+Is not the same as broken
+Becoming
+Is the truest word unspoken
+For a soul that is still moving
+Still arriving, still en route
+I am not behind, I'm growing
+And the growing is the fruit
+
+[Verse 3]
+The river is not failing
+Because it has not reached the sea
+The reaching is the river
+And the becoming is the me
+
+[Chorus]
+Becoming
+Is not the same as broken
+Becoming
+Is the truest word unspoken
+For a soul that is still moving
+Still arriving, still en route
+I am not behind, I'm growing
+And the growing is the fruit
+
+[Bridge: vocal opens but never shouts, choir hums underneath]
+So I will be gentle
+With the unfinished thing I am
+Watering the becoming
+Like it deserves to stand
+
+[Outro]
+Becoming
+Still
+And that
+Is not a flaw
+That is the whole point`,
+
+  "eter-levanta/8": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal harmonies building to a swell on the final chorus, intimate band rather than a choir, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: Mozambican nylon guitar with mbira and kora texture, close-mic indie warmth, warm tape, sparse percussion, no marrabenta lilt, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+Disseram-te que era tarde
+Que esse comboio já passou
+Que os sonhos têm idade
+E a tua já se esgotou
+
+[Verse 2]
+Mas quem te disse isso
+Tinha medo de tentar
+Pôs em ti o próprio gelo
+Para não ter de arriscar
+
+[Chorus]
+Ainda vais a tempo
+Ouve bem, ainda vais
+A vida não tranca a porta
+À hora que tu temes mais
+Ninguém marcou um prazo
+Para tu te encontrares
+Ainda vais a tempo
+De começares
+
+[Verse 3]
+A árvore que dá tarde
+Não dá fruta pior
+Floresce no seu tempo
+Sem pedir desculpa ou favor
+
+[Chorus]
+Ainda vais a tempo
+Ouve bem, ainda vais
+A vida não tranca a porta
+À hora que tu temes mais
+Ninguém marcou um prazo
+Para tu te encontrares
+Ainda vais a tempo
+De começares
+
+[Bridge: vocal opens but never shouts, harmonies hum underneath]
+Tarde é não tentar
+Tarde é desistir parada
+O resto é só partir
+De onde estás, sem mais nada
+
+[Outro]
+Ainda vais a tempo
+Levanta
+E dá
+O primeiro
+Passo`,
+
+  "eter-levanta/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal choir and strings building from solo to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: lush 70s orchestral strings swelling slowly, warm Hammond, a single piano figure, brushed drums entering, no vocal yet, instrumental opening for 8 bars]
+
+[Verse 1: vocal close, breathy]
+I stood so long on the edge of it
+That the standing became the cage
+Safer not to try at all
+Than to fail upon the stage
+
+[Verse 2]
+But the cliff was never the danger
+The danger was the years
+I'd spend not knowing if I could
+Hostage to my fears
+
+[Chorus]
+So I leap
+Not because the fear is gone
+I leap
+With it loud and holding on
+Because brave is not the absence
+Of the trembling in the knee
+It is jumping while you tremble
+And discovering you're free
+
+[Verse 3]
+And maybe I will fall
+That was always on the page
+But I would rather fall awake
+Than be safe inside the cage
+
+[Chorus]
+So I leap
+Not because the fear is gone
+I leap
+With it loud and holding on
+Because brave is not the absence
+Of the trembling in the knee
+It is jumping while you tremble
+And discovering you're free
+
+[Bridge: vocal opens but never shouts, choir and strings swell underneath]
+Every door I ever loved
+Was on the far side of a fright
+Nothing soft and worth the having
+Came without the leap, the height
+
+[Outro]
+I leap
+And the air
+That terrified me
+Turns out
+To hold`,
+
+  "eter-levanta/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal choir and strings building from solo to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: lush 70s orchestral strings swelling gradually, warm Hammond organ, a single piano figure, brushed drums entering gently, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, settled]
+Houve noites que eu jurava
+Que o sol se tinha esquecido
+Que aquela escuridão
+Era um lugar, não um sentido
+
+[Verse 2]
+Mas o céu não me perguntou
+Se eu acreditava ou não
+Clareou à mesma hora
+Sem pedir a minha permissão
+
+[Chorus]
+Amanhece
+Sempre, sempre amanhece
+Por mais longa que seja a noite
+A luz não esquece
+Amanhece
+E o que parecia o fim
+Era só a hora mais escura
+Mesmo antes de chegar a mim
+
+[Verse 3]
+Não foi a minha força
+Que trouxe a madrugada
+Foi só eu ter ficado
+Mais um pouco, mais nada
+
+[Chorus]
+Amanhece
+Sempre, sempre amanhece
+Por mais longa que seja a noite
+A luz não esquece
+Amanhece
+E o que parecia o fim
+Era só a hora mais escura
+Mesmo antes de chegar a mim
+
+[Bridge: vocal opens but never shouts, choir and strings hum underneath, building]
+Se estás na noite agora
+Não preciso que acredites
+Só que fiques, só que aguentes
+Até onde a luz te visite
+
+[Final Chorus: choir and strings build from solo to a 6-voice swell, full arrangement, never shouts]
+Amanhece
+Sempre, sempre amanhece
+Por mais longa que seja a noite
+A luz não esquece
+Amanhece
+E o que parecia o fim
+Era só a hora mais escura
+Mesmo antes de chegar a mim
+
+[Outro]
+Amanhece
+Aguenta
+Mais um pouco
+A luz
+Já vem a caminho`,
+
+  // ─────────────────────────────────────────────
   // ÓRBITA — As forças invisíveis que nos movem
   // ─────────────────────────────────────────────
 
