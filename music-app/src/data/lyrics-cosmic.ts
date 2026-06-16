@@ -1144,7 +1144,6 @@ Together`,
   // ─────────────────────────────────────────────
 
   "eter-casa/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, breathy on sustained notes, sings very close to the microphone, a low vocal hum drone underneath the words, layered airy harmonies emerging only on the chorus (3 voices max), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: low vocal hum drone alone for 4 seconds, then fingerpicked steel-string guitar enters softly, no drums, no vocal words yet, instrumental opening for 6 bars]
@@ -1201,7 +1200,6 @@ That hums
 Me back`,
 
   "eter-casa/2": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano opens with rich chords, log drum sparse, bright shaker enters on the four, Hammond organ swells gradually, no vocal yet, instrumental opening for 6 bars]
@@ -1259,7 +1257,6 @@ All the way
 Back`,
 
   "eter-casa/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: nylon bossa guitar alone with soft brushed snare, warm upright bass entering, a slow tide-shaped pad, no vocal yet, instrumental opening for 6 bars]
@@ -1302,8 +1299,7 @@ Só tem a temperatura
 Exata de um regaço
 Que me espera sem pressa nenhuma
 
-[Bridge: European Portuguese, Lisbon accent, vocal close, no harmonies, only nylon guitar and brushed snare]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal close, no harmonies, only nylon guitar and brushed snare]
 Talvez seja a casa
 Onde estive antes de mim
 Talvez seja o sítio
@@ -1316,7 +1312,6 @@ E eu adormeço
 A caminho`,
 
   "eter-casa/4": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, log drum sparse, bright shaker on the four, Hammond organ swelling, no vocal yet, instrumental opening for 6 bars]
@@ -1373,7 +1368,6 @@ All of me
 Toward home`,
 
   "eter-casa/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: Mozambican nylon guitar with a soft marrabenta lilt, log drum sparse, warm Hammond organ swelling, bright shaker on the off-beat, no vocal yet, instrumental opening for 6 bars]
@@ -1416,8 +1410,7 @@ Que me sonha e que me espera
 Estrangeira
 Numa terra passageira
 
-[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath, log drum sparse]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
 Talvez não seja exílio
 Talvez seja memória
 De um lugar que me formou
@@ -1432,7 +1425,6 @@ E em lugar nenhum
 Ao mesmo tempo`,
 
   "eter-casa/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, yearning quality on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: warm Rhodes electric piano with brushed drums, soft bass, a single Hammond chord, no vocal yet, instrumental opening for 6 bars]
@@ -1490,7 +1482,6 @@ Has felt
 A little like the way back`,
 
   "eter-casa/7": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, a low ancestral hum drone underneath, no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: Mozambican nylon guitar with a marrabenta lilt, log drum, bright shaker on the off-beat, warm Hammond swelling, a low ancestral hum underneath, no vocal yet, instrumental opening for 6 bars]
@@ -1533,8 +1524,7 @@ Para onde o corpo aponta
 Quando o mundo fica grande demais
 E eu já não dou conta
 
-[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath, ancestral hum present]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal opens but never shouts, choir hums underneath, ancestral hum present]
 Não nasci do nada
 Nasci de um lugar
 Que não cabe num mapa
@@ -1548,7 +1538,6 @@ Em cada
 Inspiração`,
 
   "eter-casa/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: fingerpicked nylon guitar with warm upright bass and soft brushed drums, a single sustained Hammond note, no vocal yet, instrumental opening for 6 bars]
@@ -1605,7 +1594,6 @@ Of saying
 The home is not a place`,
 
   "eter-casa/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, breathy on sustained notes, distant choir hum building to soft layered harmonies late (3 voices max), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep ambient pad with reverb-drenched piano single notes, distant choir hum, a single audible exhale, no vocal words yet, instrumental opening for 6 bars]
@@ -1648,8 +1636,7 @@ Não vinda de fora
 Estava sempre por baixo
 Do barulho de cada hora
 
-[Bridge: European Portuguese, Lisbon accent, vocal close, only pad and reverb piano, distant choir hum]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal close, only pad and reverb piano, distant choir hum]
 O mundo ensinou-me a fugir
 Do silêncio como da morte
 Mas era ali, no sossego,
@@ -1663,7 +1650,6 @@ Do sítio
 Onde sempre estive`,
 
   "eter-casa/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, soft Hammond organ underneath, brushed drums enter gently, bright shaker on the four, no vocal yet, instrumental opening for 8 bars]
@@ -1725,7 +1711,6 @@ From home`,
   // ─────────────────────────────────────────────
 
   "eter-enquanto-dura/1": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, soft Hammond underneath, brushed drums enter gently, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
@@ -1782,7 +1767,6 @@ As just
 Another day`,
 
   "eter-enquanto-dura/2": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: Mozambican nylon guitar with a marrabenta lilt, log drum, bright shaker on the off-beat, warm Hammond swelling, no vocal yet, instrumental opening for 6 bars]
@@ -1825,8 +1809,7 @@ Onde o corpo está de facto
 Agora
 O único tempo exato
 
-[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal opens but never shouts, choir hums underneath]
 Amanhã é uma promessa
 Que ninguém me assegurou
 Ontem é uma fotografia
@@ -1840,7 +1823,6 @@ Aqui
 Inteiro`,
 
   "eter-enquanto-dura/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: fingerpicked steel-string folk guitar, soft brushed drums, warm upright bass, a single high string accent, no vocal yet, instrumental opening for 6 bars]
@@ -1896,7 +1878,6 @@ And the going
 Is the gift`,
 
   "eter-enquanto-dura/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, slight breathiness on sustained notes, layered airy harmonies emerging only on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: nylon bossa guitar, soft brushed snare, warm upright bass, a tide-shaped pad, no vocal yet, instrumental opening for 6 bars]
@@ -1939,8 +1920,7 @@ Quer ser inteira enquanto dura
 E talvez seja isso a vida
 E não a longa duração que se procura
 
-[Bridge: European Portuguese, Lisbon accent, vocal close, no harmonies, only nylon guitar and brushed snare]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal close, no harmonies, only nylon guitar and brushed snare]
 Ninguém pede à madrugada
 Que dure mais um bocado
 É linda porque acaba
@@ -1953,7 +1933,6 @@ Dou tudo
 E deixo cair`,
 
   "eter-enquanto-dura/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: warm Rhodes electric piano, brushed drums, soft bass, a single Hammond chord, no vocal yet, instrumental opening for 6 bars]
@@ -2010,7 +1989,6 @@ And the gold
 The same`,
 
   "eter-enquanto-dura/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, smoky after-midnight feel on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: elastic jazz upright bass, brushed drums, warm Rhodes chord, a single high piano note pulling on phrase end, no vocal yet, instrumental opening for 6 bars]
@@ -2053,8 +2031,7 @@ Há horas que não existem
 O tempo é a intensidade
 Não os números que insistem
 
-[Bridge: European Portuguese, Lisbon accent, vocal close, no harmonies, only Rhodes and elastic bass]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal close, no harmonies, only Rhodes and elastic bass]
 Há um tempo que se arrasta
 E um tempo que se acende
 Vivi tanto no primeiro
@@ -2067,7 +2044,6 @@ Com o que ardeu
 Não com o que passou`,
 
   "eter-enquanto-dura/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, breathy on sustained notes, a low hum drone underneath, layered airy harmonies emerging only on the chorus (3 voices max), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: ambient pad, fingerpicked nylon guitar, a low hum drone, no drums, no vocal yet, instrumental opening for 8 bars]
@@ -2125,7 +2101,6 @@ That stops
 Grabbing`,
 
   "eter-enquanto-dura/8": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: warm Rhodes electric piano, soft Hammond, brushed drums, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
@@ -2168,8 +2143,7 @@ Enquanto ainda é meu
 Para que a saudade seja gratidão
 E não um adeus
 
-[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal opens but never shouts, choir hums underneath]
 A mim, mais velha, prometo
 Não te deixar só com retratos
 Vou viver isto por dentro
@@ -2183,7 +2157,6 @@ Estive lá
 Estive mesmo lá`,
 
   "eter-enquanto-dura/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, log drum sparse, bright shaker on the four, Hammond organ swelling, no vocal yet, instrumental opening for 6 bars]
@@ -2240,7 +2213,6 @@ Just held
 While it lasted`,
 
   "eter-enquanto-dura/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, log drum sparse, bright shaker enters on the four, Hammond organ swells gradually, no vocal yet, instrumental opening for 6 bars]
@@ -2283,8 +2255,7 @@ O que me faz e o que me parte
 Tudo é maré, tudo é passagem
 E é nisso que mora a arte
 
-[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath, building]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal opens but never shouts, choir hums underneath, building]
 Nada que é meu fica
 E nada que dói também
 Talvez seja essa a misericórdia
@@ -2313,7 +2284,6 @@ Bem`,
   // ─────────────────────────────────────────────
 
   "eter-graca/1": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, log drum sparse, bright shaker on the four, Hammond organ swells gradually, no vocal yet, instrumental opening for 6 bars]
@@ -2370,7 +2340,6 @@ Astonished
 To be`,
 
   "eter-graca/2": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: Mozambican nylon guitar with a marrabenta lilt, log drum, bright shaker on the off-beat, warm Hammond swelling, no vocal yet, instrumental opening for 6 bars]
@@ -2413,8 +2382,7 @@ São raros no universo inteiro
 E eu, distraída, ainda lhes chamo
 Apenas o costumeiro
 
-[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal opens but never shouts, choir hums underneath]
 Não preciso de mais
 Preciso de ver melhor
 O que já tenho nas mãos
@@ -2428,7 +2396,6 @@ De ver
 Vou ver outra vez`,
 
   "eter-graca/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: warm Rhodes electric piano, brushed drums, soft bass, a single Hammond chord, no vocal yet, instrumental opening for 6 bars]
@@ -2485,7 +2452,6 @@ By something
 That loves me without words`,
 
   "eter-graca/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, slight breathiness on sustained notes, layered airy harmonies emerging only on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: nylon bossa guitar, soft brushed snare, warm upright bass, a tide-shaped pad, no vocal yet, instrumental opening for 6 bars]
@@ -2528,8 +2494,7 @@ Quero perder o costume
 De achar que já vi tudo
 Quando tudo ainda acende
 
-[Bridge: European Portuguese, Lisbon accent, vocal close, no harmonies, only nylon guitar and brushed snare]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal close, no harmonies, only nylon guitar and brushed snare]
 O milagre não gastou
 Fui eu que me distraí
 A primeira vez está sempre lá
@@ -2543,7 +2508,6 @@ Como quem
 Acaba de chegar`,
 
   "eter-graca/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, log drum sparse, bright shaker on the four, Hammond organ swelling, no vocal yet, instrumental opening for 6 bars]
@@ -2600,7 +2564,6 @@ Admiring
 Itself`,
 
   "eter-graca/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, breathy on sustained notes, distant choir hum building to soft layered harmonies late (3 voices max), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: deep ambient pad with reverb-drenched piano single notes, distant choir hum, a single audible exhale, no vocal words yet, instrumental opening for 6 bars]
@@ -2643,8 +2606,7 @@ A agradecer-se a si mesma
 Por dentro de mim, por um instante
 Como uma onda que regressa
 
-[Bridge: European Portuguese, Lisbon accent, vocal close, only pad and reverb piano, distant choir hum]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal close, only pad and reverb piano, distant choir hum]
 Se calhar agradecer
 Nem precisa de destino
 É só o amor a saber-se amor
@@ -2658,7 +2620,6 @@ Ninguém
 Obrigada na mesma`,
 
   "eter-graca/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: fingerpicked steel-string folk guitar, soft brushed drums, warm upright bass, no vocal yet, instrumental opening for 6 bars]
@@ -2715,7 +2676,6 @@ To be
 Noticed`,
 
   "eter-graca/8": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: warm Rhodes electric piano, soft Hammond, brushed drums, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
@@ -2758,8 +2718,7 @@ Que se recusa a achar normal
 O sol, a laranja, a tua voz
 A vida, esta coisa irreal
 
-[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal opens but never shouts, choir hums underneath]
 Crescer não é perder o espanto
 É a única queda que escolhi não dar
 Quero morrer ainda capaz
@@ -2773,7 +2732,6 @@ Por isto existir
 De todo`,
 
   "eter-graca/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, soft Hammond underneath, brushed drums enter gently, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
@@ -2830,7 +2788,6 @@ More
 Thank you`,
 
   "eter-graca/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: solo gospel piano with rich chords, log drum sparse, bright shaker enters on the four, Hammond organ swells gradually, no vocal yet, instrumental opening for 6 bars]
@@ -2873,8 +2830,7 @@ Por nada disto ser garantido
 Obrigada por ter sido
 Convidada para ter existido
 
-[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath, building]
-(European Portuguese, Portugal accent:)
+[Bridge: vocal opens but never shouts, choir hums underneath, building]
 Não sei rezar direito
 Mas sei dizer obrigada
 E talvez seja a mesma coisa
