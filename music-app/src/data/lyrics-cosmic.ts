@@ -2308,6 +2308,596 @@ E está tudo
 Bem`,
 
   // ─────────────────────────────────────────────
+  // GRAÇA — Álbum irmão de Viagem, Casa e Enquanto Dura
+  // O espanto e a gratidão por existir de todo
+  // ─────────────────────────────────────────────
+
+  "eter-graca/1": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano with rich chords, log drum sparse, bright shaker on the four, Hammond organ swells gradually, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, wondering]
+Think of all the ones who had to
+Meet, and stay, and dare
+Across ten thousand years of maybe
+Just to put me here
+
+[Verse 2]
+One different harvest, one cold winter
+One ship that never sailed
+One argument that ended it
+And the whole of me had failed
+
+[Chorus]
+The odds
+I should not be here at all
+The odds
+Were a mountain, I stood small
+And still, somehow, the dice fell open
+Here I am, awake, alive
+And the only right response
+Is the wonder that I arrived
+
+[Verse 3]
+So I will not waste it being bored
+I will not waste it being numb
+I am the winning lottery ticket
+Of every age that's come
+
+[Chorus]
+The odds
+I should not be here at all
+The odds
+Were a mountain, I stood small
+And still, somehow, the dice fell open
+Here I am, awake, alive
+And the only right response
+Is the wonder that I arrived
+
+[Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
+Not owed, not earned, not promised
+Just given, free and wild
+The improbable gift of morning
+To an improbable child
+
+[Outro]
+The odds
+And here I am
+Anyway
+Astonished
+To be`,
+
+  "eter-graca/2": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: Mozambican nylon guitar with a marrabenta lilt, log drum, bright shaker on the off-beat, warm Hammond swelling, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+Abro a torneira e vem água
+Limpa, certa, sem pensar
+Reis morreram com menos
+Do que eu deito a lavar
+
+[Verse 2]
+Carrego no interruptor
+E faz-se luz na escuridão
+Como quem não sabe que repete
+Todas as manhãs a criação
+
+[Chorus]
+E eu habituei-me
+Ao milagre de cada dia
+Dou de banal ao impossível
+Que me chega sem que eu pedia
+A água, o pão, a luz, a mão
+São raros no universo inteiro
+E eu, distraída, ainda lhes chamo
+Apenas o costumeiro
+
+[Verse 3]
+O que será preciso perder
+Para eu voltar a reparar
+Que a água a correr na mão
+Já era razão para chorar
+
+[Chorus]
+E eu habituei-me
+Ao milagre de cada dia
+Dou de banal ao impossível
+Que me chega sem que eu pedia
+A água, o pão, a luz, a mão
+São raros no universo inteiro
+E eu, distraída, ainda lhes chamo
+Apenas o costumeiro
+
+[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath]
+(European Portuguese, Portugal accent:)
+Não preciso de mais
+Preciso de ver melhor
+O que já tenho nas mãos
+E ainda chamo de menor
+
+[Outro]
+Água da torneira
+Milagre
+Que eu deixei
+De ver
+Vou ver outra vez`,
+
+  "eter-graca/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: warm Rhodes electric piano, brushed drums, soft bass, a single Hammond chord, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, tender]
+My heart has kept its rhythm
+Through every year I've known
+And never once has asked me
+To keep it on its own
+
+[Verse 2]
+While I slept, it worked
+While I worried, still it beat
+A loyalty I never thanked
+Faithful and discreet
+
+[Chorus]
+Still breathing
+After all that I have done
+Still breathing
+The body carries on
+It forgives me every morning
+It begins me once again
+Thank you to the quiet engine
+That has never once complained
+
+[Verse 3]
+The lungs that fill without me
+The wound that knits itself
+The eyes that turn the light to meaning
+With no instruction, by themselves
+
+[Chorus]
+Still breathing
+After all that I have done
+Still breathing
+The body carries on
+It forgives me every morning
+It begins me once again
+Thank you to the quiet engine
+That has never once complained
+
+[Bridge: vocal close, no harmonies, only Rhodes]
+I spent so long at war with it
+Counting every flaw
+When all along it carried me
+Faithfully, and asked for nothing more
+
+[Outro]
+Still breathing
+Still here
+Still carried
+By something
+That loves me without words`,
+
+  "eter-graca/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, slight breathiness on sustained notes, layered airy harmonies emerging only on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: nylon bossa guitar, soft brushed snare, warm upright bass, a tide-shaped pad, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close]
+Lembras-te da primeira vez
+Que viste o mar de verdade
+Ficaste sem palavra
+Tomada pela imensidade
+
+[Verse 2]
+E hoje passas-lhe ao lado
+Quase sem o reparar
+O mar é o mesmo mar
+Mudaste tu a olhar
+
+[Chorus]
+Quero ver a primeira vez
+Outra vez, em cada vez
+O pão, a cara dele, a chuva
+Como se Deus os fizesse
+Mesmo agora à minha frente
+Quero perder o costume
+De achar que já vi tudo
+Quando tudo ainda acende
+
+[Verse 3]
+A criança não se cansa
+De pedir a mesma história
+Para ela nada é repetido
+Cada vez é estreia, é glória
+
+[Chorus]
+Quero ver a primeira vez
+Outra vez, em cada vez
+O pão, a cara dele, a chuva
+Como se Deus os fizesse
+Mesmo agora à minha frente
+Quero perder o costume
+De achar que já vi tudo
+Quando tudo ainda acende
+
+[Bridge: European Portuguese, Lisbon accent, vocal close, no harmonies, only nylon guitar and brushed snare]
+(European Portuguese, Portugal accent:)
+O milagre não gastou
+Fui eu que me distraí
+A primeira vez está sempre lá
+À espera que eu volte a ali
+
+[Outro]
+A primeira vez
+Outra vez
+Abro os olhos
+Como quem
+Acaba de chegar`,
+
+  "eter-graca/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano with rich chords, log drum sparse, bright shaker on the four, Hammond organ swelling, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+I forget to look up
+For weeks at a time
+Then one clear night I tilt my head
+And the whole thing is mine
+
+[Verse 2]
+A billion burning suns
+So far the light is old
+Some of them already gone
+But still arriving, still bold
+
+[Chorus]
+Look up
+You are made of the same fire
+Look up
+You are not below it, you are higher
+Than you ever let yourself believe
+A piece of all that light
+Standing on a spinning stone
+Awake inside the night
+
+[Verse 3]
+It does not make me smaller
+It makes me belong to more
+The atoms in the far-off stars
+Are the atoms at my core
+
+[Chorus]
+Look up
+You are made of the same fire
+Look up
+You are not below it, you are higher
+Than you ever let yourself believe
+A piece of all that light
+Standing on a spinning stone
+Awake inside the night
+
+[Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
+We are the way the universe
+Looks back and says its name
+We are how the cosmos
+Gets to marvel at the flame
+
+[Outro]
+Look up
+And know
+You are the night
+Admiring
+Itself`,
+
+  "eter-graca/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, whispered and very close, breathy on sustained notes, distant choir hum building to soft layered harmonies late (3 voices max), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: deep ambient pad with reverb-drenched piano single notes, distant choir hum, a single audible exhale, no vocal words yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close]
+Às vezes, sem motivo,
+Acordo com vontade de agradecer
+E não sei bem a quem
+Nem por onde começar a dizer
+
+[Verse 2]
+Não é uma reza aprendida
+Não é a igreja, não é o medo
+É só o peito cheio
+A transbordar em segredo
+
+[Chorus]
+Obrigada
+Sem saber bem a quem
+Obrigada
+À manhã, ao ar, a alguém
+Que talvez seja a própria vida
+A agradecer-se a si mesma
+Por dentro de mim, por um instante
+Como uma onda que regressa
+
+[Verse 3]
+Não preciso de saber o nome
+Não preciso de uma certeza
+Basta o peito a reconhecer
+Que recebi com largueza
+
+[Chorus]
+Obrigada
+Sem saber bem a quem
+Obrigada
+À manhã, ao ar, a alguém
+Que talvez seja a própria vida
+A agradecer-se a si mesma
+Por dentro de mim, por um instante
+Como uma onda que regressa
+
+[Bridge: European Portuguese, Lisbon accent, vocal close, only pad and reverb piano, distant choir hum]
+(European Portuguese, Portugal accent:)
+Se calhar agradecer
+Nem precisa de destino
+É só o amor a saber-se amor
+E a voltar para o princípio
+
+[Outro]
+Obrigada
+A quem quer que sejas
+Ou ainda que não sejas
+Ninguém
+Obrigada na mesma`,
+
+  "eter-graca/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: fingerpicked steel-string folk guitar, soft brushed drums, warm upright bass, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close]
+Nobody charged me for the morning
+Nobody billed me for the rain
+The smell of coffee, the dog's hello
+The light along the lane
+
+[Verse 2]
+No one sent me an invoice
+For the laughing of a friend
+For the way the evening softens
+At the day's far end
+
+[Chorus]
+The free things
+Are the ones I'd never sell
+The free things
+Are the ones I love so well
+No money ever made a sunrise
+No wealth has bought the sea
+The richest things were always given
+Always given, always free
+
+[Verse 3]
+And I chased the things with price tags
+Half my life or more
+While the priceless ones were waiting
+Quietly outside my door
+
+[Chorus]
+The free things
+Are the ones I'd never sell
+The free things
+Are the ones I love so well
+No money ever made a sunrise
+No wealth has bought the sea
+The richest things were always given
+Always given, always free
+
+[Bridge: vocal close, no harmonies, only fingerpicked guitar]
+The bird does not pay rent
+For the branch it sings upon
+And neither, in the end, do I
+For this borrowed, golden dawn
+
+[Outro]
+The free things
+All of them
+Just waiting
+To be
+Noticed`,
+
+  "eter-graca/8": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: warm Rhodes electric piano, soft Hammond, brushed drums, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+O mundo não é normal
+Nós é que nos habituámos
+Uma árvore é um espanto
+Que de tão visto, ignoramos
+
+[Verse 2]
+Que existe alguma coisa
+Em vez de não haver nada
+Já devia ser bastante
+Para eu acordar pasmada
+
+[Chorus]
+Espanto
+Não me quero curar dele
+Espanto
+Quero manter a pele
+Que ainda treme com o comum
+Que se recusa a achar normal
+O sol, a laranja, a tua voz
+A vida, esta coisa irreal
+
+[Verse 3]
+A indiferença é que é estranha
+O tédio é que não faz sentido
+Estar vivo e achar pouco
+Um mundo assim acontecido
+
+[Chorus]
+Espanto
+Não me quero curar dele
+Espanto
+Quero manter a pele
+Que ainda treme com o comum
+Que se recusa a achar normal
+O sol, a laranja, a tua voz
+A vida, esta coisa irreal
+
+[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath]
+(European Portuguese, Portugal accent:)
+Crescer não é perder o espanto
+É a única queda que escolhi não dar
+Quero morrer ainda capaz
+De parar a meio da rua a olhar
+
+[Outro]
+Espanto
+Por tudo
+Por nada
+Por isto existir
+De todo`,
+
+  "eter-graca/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano with rich chords, soft Hammond underneath, brushed drums enter gently, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+I asked for just enough to manage
+And a whole sky arrived
+I asked for a sip of water
+And a river came alive
+
+[Verse 2]
+I counted on so little
+Braced myself for less
+And life kept setting down in front of me
+This unearned excess
+
+[Chorus]
+More than I asked for
+More than I dared to name
+More than the careful little life
+I thought that I could claim
+I keep my hands out, still surprised
+At everything they hold
+I came expecting copper
+And the days keep handing gold
+
+[Verse 3]
+And no, it has not all been easy
+There were years that took their toll
+But even in the hardest rooms
+There was more than I was owed
+
+[Chorus]
+More than I asked for
+More than I dared to name
+More than the careful little life
+I thought that I could claim
+I keep my hands out, still surprised
+At everything they hold
+I came expecting copper
+And the days keep handing gold
+
+[Bridge: vocal opens but never shouts, choir hums underneath]
+I will stop my careful adding up
+Of all I think I lack
+And start to count the other column
+The long, the bright, the back-to-back
+
+[Outro]
+More
+Than I asked for
+Always
+More
+Thank you`,
+
+  "eter-graca/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building from solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: solo gospel piano with rich chords, log drum sparse, bright shaker enters on the four, Hammond organ swells gradually, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy, full]
+Obrigada pelo corpo
+Que me trouxe até aqui
+Pelas mãos, pelos cansaços
+Por tudo o que já vi
+
+[Verse 2]
+Obrigada pelos que ficaram
+E também pelos que se foram
+Cada um me deu um pouco
+Da luz com que hoje moro
+
+[Chorus]
+Obrigada
+Por tudo, mesmo o que doeu
+Obrigada
+Por isto tudo ser meu
+Por um instante, por de empréstimo
+Por nada disto ser garantido
+Obrigada por ter sido
+Convidada para ter existido
+
+[Verse 3]
+Não vim para ficar
+Vim para ver, para amar
+E mesmo que acabe amanhã
+Já valeu a pena estar
+
+[Chorus]
+Obrigada
+Por tudo, mesmo o que doeu
+Obrigada
+Por isto tudo ser meu
+Por um instante, por de empréstimo
+Por nada disto ser garantido
+Obrigada por ter sido
+Convidada para ter existido
+
+[Bridge: European Portuguese, Lisbon accent, vocal opens but never shouts, choir hums underneath, building]
+(European Portuguese, Portugal accent:)
+Não sei rezar direito
+Mas sei dizer obrigada
+E talvez seja a mesma coisa
+Dita por outra estrada
+
+[Final Chorus: choir builds from solo to 6-voice, full band, never shouts]
+Obrigada
+Por tudo, mesmo o que doeu
+Obrigada
+Por isto tudo ser meu
+Por um instante, por de empréstimo
+Por nada disto ser garantido
+Obrigada por ter sido
+Convidada para ter existido
+
+[Outro]
+Obrigada
+Por tudo
+Mesmo
+Por nada
+Obrigada`,
+
+  // ─────────────────────────────────────────────
   // ÓRBITA — As forças invisíveis que nos movem
   // ─────────────────────────────────────────────
 
