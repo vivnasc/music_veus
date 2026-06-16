@@ -4038,6 +4038,591 @@ Para fora
 E sem medo`,
 
   // ─────────────────────────────────────────────
+  // CINZA — Irmão de Avesso, um degrau mais fundo
+  // O que fica depois do fogo, não o que senti, o que fiz
+  // ─────────────────────────────────────────────
+
+  "eter-cinza/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate and smoky, confessional, layered airy harmonies on choruses, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: warm Rhodes electric piano, brushed drums, soft bass, a low Hammond chord, smoky, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, smoky]
+I have a version where I'm clean
+Where the fault was never mine
+I have rehearsed it till it shines
+And I almost think it's fine
+
+[Verse 2]
+I left out the part where I knew
+I left out the part where I chose
+I kept the lighting on my side
+And buried all the rest in prose
+
+[Chorus]
+Alibi
+The story where I'm good
+Alibi
+The truth, cleaned up, rewrote, reviewed
+But I was there, I know the cut
+I know which line I crossed
+And no amount of telling it well
+Brings back the thing it cost
+
+[Verse 3]
+The worst lies are the comfortable
+The ones I tell in my own voice
+Until I half believe
+I never had a choice
+
+[Chorus]
+Alibi
+The story where I'm good
+Alibi
+The truth, cleaned up, rewrote, reviewed
+But I was there, I know the cut
+I know which line I crossed
+And no amount of telling it well
+Brings back the thing it cost
+
+[Bridge: vocal close, only Rhodes]
+I do not need a jury
+I was the only witness there
+And I have spent a lot of nights
+Editing the air
+
+[Outro]
+Alibi
+Set down
+I know
+What happened
+And so do I`,
+
+  "eter-cinza/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate, whispered and very close, a cold edge in the tone, very controlled, never raised, never shouts, no melisma, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: a single low sustained note, sparse reverbed guitar with long decay, brushed drums far back, a low drone, tense and spacious, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close]
+Disse aquilo a sorrir
+Como se fosse brincadeira
+Mas escolhi a palavra
+Que magoava mais inteira
+
+[Verse 2]
+Vi-te a mudar de cara
+E gostei, por um segundo
+Da farpa bem espetada
+No teu ponto mais fundo
+
+[Chorus]
+A farpa
+Eu sabia onde doía
+A farpa
+E acertei de propósito, à boa pontaria
+Disfarçada de verdade
+Embrulhada em razão
+Mas o que eu quis ali
+Não foi razão, foi lesão
+
+[Verse 3]
+Pedir desculpa seria
+Tirar a farpa que pus
+Mas deixei-a ficar
+E fingi-me de luz
+
+[Chorus]
+A farpa
+Eu sabia onde doía
+A farpa
+E acertei de propósito, à boa pontaria
+Disfarçada de verdade
+Embrulhada em razão
+Mas o que eu quis ali
+Não foi razão, foi lesão
+
+[Bridge: vocal close, almost spoken, only drone and sparse guitar]
+Não foi sem querer
+Foi com muita pontaria
+A pior crueldade
+É a que se sabe fria
+
+[Outro]
+A farpa
+Ainda lá está
+E fui eu
+Que a pus
+A sorrir`,
+
+  "eter-cinza/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate, soft and knowing in the tone, close, three-voice airy harmony emerging late, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: intimate piano with cello, a soft string quartet, baroque touches, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, knowing]
+I know exactly when to soften
+When to let my voice go small
+I have a tremble I can summon
+That makes you drop it all
+
+[Verse 2]
+I learned that weak gets rescued
+That soft gets to win
+So I wore my helplessness like silk
+And let you walk right in
+
+[Chorus]
+Helpless
+Is the cleverest disguise
+Helpless
+With the rescue in your eyes
+I never had to ask for it
+I only had to seem
+Too fragile to be guilty
+Of the very thing I'd scheme
+
+[Verse 3]
+The tear arrives on cue
+I almost believe it too
+And that is the cleverest part
+I fooled myself right through
+
+[Chorus]
+Helpless
+Is the cleverest disguise
+Helpless
+With the rescue in your eyes
+I never had to ask for it
+I only had to seem
+Too fragile to be guilty
+Of the very thing I'd scheme
+
+[Bridge: vocal close, only piano and cello]
+There is a kind of power
+That dresses up as none
+The softest hand can also
+Be the one that's spun
+
+[Outro]
+Helpless
+On purpose
+Which means
+I was never
+Helpless at all`,
+
+  "eter-cinza/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate, low and hazy, a little ashamed in the tone, layered airy harmonies on choruses, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: reverb-drenched hazy guitar, warm analog synth pad, slow dreamy drums, a low pulse, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, hazy]
+Disseram-me que te correu mal
+E eu disse que pena
+Mas algo dentro de mim
+Endireitou-se na cadeira
+
+[Verse 2]
+Não te queria mal, juro
+Só me soube bem
+Que a tua queda, por um instante,
+Me pusesse acima de alguém
+
+[Chorus]
+Boa notícia
+A tua má notícia
+Boa notícia
+Que vergonha esta cobiça
+De medir-me pela tua queda
+De respirar quando tropeças
+A inveja era ao contrário
+Eu só queria que perdesses
+
+[Verse 3]
+Não somei nada à minha vida
+Com a tua a ruir
+Mas por um triste segundo
+Foi mais fácil de seguir
+
+[Chorus]
+Boa notícia
+A tua má notícia
+Boa notícia
+Que vergonha esta cobiça
+De medir-me pela tua queda
+De respirar quando tropeças
+A inveja era ao contrário
+Eu só queria que perdesses
+
+[Bridge: vocal close, only pad and hazy guitar]
+A pior parte não é gostar
+É o disfarce do meu cuidado
+Dar-te a mão por fora
+E festejar do lado
+
+[Outro]
+Boa notícia
+Eu sei o que senti
+E não foi pena
+Foi alívio
+Que me envergonha ainda`,
+
+  "eter-cinza/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate, whispered and distant, breathy, distant choir hum, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: deep ambient pads, reverb-drenched piano single notes, distant choir hum, a single audible exhale, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close]
+I have a switch I do not talk about
+A way to go all cold
+To look at someone that I love
+And feel the warmth withhold
+
+[Verse 2]
+It saved me once, the going numb
+When feeling was too much
+But now I reach for it too soon
+And turn off at a touch
+
+[Chorus]
+Frost
+I can lower it at will
+Frost
+And the room goes very still
+You think that you are talking
+To a woman who is there
+But I have left already
+And the cold is how I disappear
+
+[Verse 3]
+It is not that I don't feel
+It is that I can choose
+To freeze the feeling over
+When I'm scared of what I'd lose
+
+[Chorus]
+Frost
+I can lower it at will
+Frost
+And the room goes very still
+You think that you are talking
+To a woman who is there
+But I have left already
+And the cold is how I disappear
+
+[Bridge: vocal close, only pads and distant hum]
+The cruellest thing I do
+Is not a word, not a blow
+It is the warmth I have
+And will not let you know
+
+[Outro]
+Frost
+And one day
+The switch
+Might stick
+And I will be alone in there`,
+
+  "eter-cinza/6": `[Vocal: ONE warm mezzo-contralto female voice, breathy on verses building to harmony swells, stacked reverbed vocal harmonies on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: fingerpicked guitar with warm tape texture, soft brushed drums, a low pad, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+Houve gente que eu deixei cair
+Sem aviso, sem porquê
+Parei de responder
+E deixei-as sem saber
+
+[Verse 2]
+Não houve briga, não houve adeus
+Só um desaparecer
+Achei mais fácil sumir-me
+Do que ter de doer
+
+[Chorus]
+Sem adeus
+Foi como as deixei
+Sem adeus
+Nunca lhes expliquei
+Que não foram elas, fui eu
+Que não soube ficar
+Mais fácil cortar do que dizer
+Que eu é que ia falhar
+
+[Verse 3]
+Algumas ainda escrevem
+De vez em quando, no escuro
+E eu vejo, e não respondo
+E chamo a isso futuro
+
+[Chorus]
+Sem adeus
+Foi como as deixei
+Sem adeus
+Nunca lhes expliquei
+Que não foram elas, fui eu
+Que não soube ficar
+Mais fácil cortar do que dizer
+Que eu é que ia falhar
+
+[Bridge: vocal opens but never shouts, harmonies swell underneath]
+Abandonar em silêncio
+Também é abandonar
+Só que sem a coragem
+De o dizer na cara
+
+[Outro]
+Sem adeus
+A elas
+Devo
+Pelo menos
+A verdade`,
+
+  "eter-cinza/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate, cool and controlled, layered airy harmonies on choruses, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: fingerpicked acoustic guitar meeting warm analog synth pads, subtle organic percussion, a low pulse, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, cool]
+I never raised my voice
+I never made a scene
+I smiled and let you think
+That I had been serene
+
+[Verse 2]
+But I kept a quiet ledger
+And I balanced it in time
+A word withheld, a door not held
+A slow and tidy crime
+
+[Chorus]
+Even
+Is the coldest little word
+Even
+Said so calm it goes unheard
+I told myself it's justice
+That I only set it straight
+But fairness doesn't taste like this
+This was the quiet ache of hate
+
+[Verse 3]
+The worst of it was how good
+The composure felt on me
+Looking gracious on the outside
+While I settled every fee
+
+[Chorus]
+Even
+Is the coldest little word
+Even
+Said so calm it goes unheard
+I told myself it's justice
+That I only set it straight
+But fairness doesn't taste like this
+This was the quiet ache of hate
+
+[Bridge: vocal close, only pads and guitar]
+Revenge that wears a calm face
+Is still revenge, just neat
+I did not need to shout it
+To make somebody bleed
+
+[Outro]
+Even
+And it never
+Made me full
+Just colder
+And alone`,
+
+  "eter-cinza/8": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, gospel choir building from solo to 6-voice on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: gospel piano with rich chords, soft Hammond underneath, brushed drums enter gently, bright shaker on the four, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal close, breathy]
+Carreguei tanta cruz
+E chamei a tudo sina
+Mas algumas escolhi
+Porque a mágoa me ilumina
+
+[Verse 2]
+Há um conforto em ser coitada
+Um trono em ter sofrido
+Enquanto a culpa for dos outros
+Não há nada a ser mexido
+
+[Chorus]
+A cruz
+Que eu finjo não querer
+A cruz
+Que me dá razão de ser
+Larguei-a tantas vezes
+Para a voltar a pegar
+Porque quem sou eu sem a ferida
+Que aprendi a exibir
+
+[Verse 3]
+Doer dava-me um lugar
+Uma história, um papel
+E eu agarrei-me ao sofrimento
+Como quem se agarra ao céu
+
+[Chorus]
+A cruz
+Que eu finjo não querer
+A cruz
+Que me dá razão de ser
+Larguei-a tantas vezes
+Para a voltar a pegar
+Porque quem sou eu sem a ferida
+Que aprendi a exibir
+
+[Bridge: vocal opens but never shouts, choir hums underneath]
+E se eu pousasse a cruz
+E não tivesse desculpa
+Teria de viver
+Sem o álibi da culpa
+
+[Outro]
+A cruz
+Eu mesma a carreguei
+E agora, sem público,
+Pergunto se a quero
+Mesmo`,
+
+  "eter-cinza/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate, whispered and very close, sparse, no melisma, never shouts, no autotune]
+[CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: a single low sustained note, sparse reverbed guitar with long decay, brushed drums far back, a low drone, tense and spacious, no vocal yet, instrumental opening for 6 bars]
+
+[Verse 1: vocal whispered, very close]
+I called it keeping peace
+The times I should have spoke
+When someone needed me to stand
+And I just let it soak
+
+[Verse 2]
+I told myself I'm gentle
+That silence is a grace
+But it was fear, dressed up as calm
+A coward in a peaceful face
+
+[Chorus]
+Quiet
+Is not always kind
+Quiet
+Can be the place I hide
+When saying the true thing
+Would have cost me something real
+I let the wrong go by
+And called my fear a steady will
+
+[Verse 3]
+There were rooms I should have shaken
+Things I should have named
+And I sat with my hands folded
+And let the weak be blamed
+
+[Chorus]
+Quiet
+Is not always kind
+Quiet
+Can be the place I hide
+When saying the true thing
+Would have cost me something real
+I let the wrong go by
+And called my fear a steady will
+
+[Bridge: vocal close, almost spoken, only drone and sparse guitar]
+Peace that costs me nothing
+And costs the truth its voice
+Was never really peace at all
+It was the easy choice
+
+[Outro]
+Quiet
+Not peace
+Just the price
+I made
+Somebody else pay`,
+
+  "eter-cinza/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal choir and strings building from solo to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
+[Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
+
+[Intro: lush 70s orchestral strings swelling slowly, warm Hammond organ, a single piano figure, brushed drums entering gently, no vocal yet, instrumental opening for 8 bars]
+
+[Verse 1: vocal close, breathy]
+Não vou dizer que não foi nada
+Não vou dizer que era o melhor
+Menti, magoei, calei-me, fugi
+E fi-lo, sem favor
+
+[Verse 2]
+Não há trauma que apague
+A escolha que foi minha
+Não venho buscar desculpa
+Venho de mãos vazias, sozinha
+
+[Chorus]
+E mesmo assim
+Eu perdoo-me
+Mesmo assim
+Não porque me iludo
+Mas porque continuar a odiar-me
+Não desfaz o que fiz
+Só me prende ao avesso
+E a ninguém faz feliz
+
+[Verse 3]
+O perdão não é absolvição
+Não me limpa as mãos
+É só parar de me bater
+Por punhos que já são vãos
+
+[Chorus]
+E mesmo assim
+Eu perdoo-me
+Mesmo assim
+Não porque me iludo
+Mas porque continuar a odiar-me
+Não desfaz o que fiz
+Só me prende ao avesso
+E a ninguém faz feliz
+
+[Bridge: vocal opens but never shouts, choir and strings swell underneath]
+Reparo onde puder
+Carrego o que ficar
+E o que não tem reparo
+Aprendo a transportar
+
+[Final Chorus: choir and strings build from solo to a 6-voice swell, full arrangement, never shouts]
+E mesmo assim
+Eu perdoo-me
+Mesmo assim
+Não porque me iludo
+Mas porque continuar a odiar-me
+Não desfaz o que fiz
+Só me prende ao avesso
+E a ninguém faz feliz
+
+[Outro]
+Mesmo assim
+Levanto-me
+Com tudo o que fiz
+Sem desculpa
+E sem desistir de mim`,
+
+  // ─────────────────────────────────────────────
   // ÓRBITA — As forças invisíveis que nos movem
   // ─────────────────────────────────────────────
 
