@@ -465,6 +465,31 @@ function ClipApprovalRow({
   const [versionName, setVersionName] = useState(`suno-v${clipIndex + 1}`);
   const [energy, setEnergy] = useState(trackEnergy || "whisper");
 
+  // Like state — keyed by albumSlug/trackNumber/clipId so the same generated
+  // clip can be re-marked across renders. Stored in localStorage under
+  // "producao_liked_clips" as a Record<string, true>.
+  const likeKey = `${albumSlug}/${trackNumber}/${clip.id || `idx-${clipIndex}`}`;
+  const [liked, setLiked] = useState<boolean>(() => {
+    if (typeof window === "undefined") return false;
+    try {
+      const raw = localStorage.getItem("producao_liked_clips");
+      if (!raw) return false;
+      const map = JSON.parse(raw) as Record<string, true>;
+      return !!map[likeKey];
+    } catch { return false; }
+  });
+  function toggleLike(ev: React.MouseEvent) {
+    ev.stopPropagation();
+    try {
+      const raw = localStorage.getItem("producao_liked_clips");
+      const map: Record<string, true> = raw ? JSON.parse(raw) : {};
+      if (liked) delete map[likeKey];
+      else map[likeKey] = true;
+      localStorage.setItem("producao_liked_clips", JSON.stringify(map));
+    } catch { /* ignore */ }
+    setLiked(!liked);
+  }
+
   const nameExists = existingVersions.some(v => v.name === versionName);
 
   return (
@@ -638,6 +663,14 @@ function ClipApprovalRow({
         <span className="text-[10px] text-mundo-muted font-mono">#{clipIndex + 1}</span>
         {clip.title && <span className="text-xs text-mundo-creme">{clip.title}</span>}
         {clip.model && <span className="text-[10px] text-mundo-muted/50">{clip.model}</span>}
+        <button
+          onClick={toggleLike}
+          title={liked ? "Tirar like" : "Marcar como favorito"}
+          aria-label={liked ? "Tirar like" : "Like"}
+          className={`ml-auto rounded-full px-2 py-1 text-base leading-none transition ${liked ? "bg-rose-500/20 text-rose-400 hover:bg-rose-500/30" : "bg-mundo-muted-dark/20 text-mundo-muted/60 hover:bg-rose-500/10 hover:text-rose-300"}`}
+        >
+          {liked ? "♥" : "♡"}
+        </button>
       </div>
       <MiniPlayer src={clip.audioUrl!} />
 
