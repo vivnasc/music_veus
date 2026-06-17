@@ -3330,58 +3330,58 @@ Passo`,
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
-[Intro: lush 70s orchestral strings swelling slowly, warm Hammond, a single piano figure, brushed drums entering, no vocal yet, instrumental opening for 8 bars]
+[Intro: lush 70s orchestral strings swelling slowly, warm Hammond, a single piano figure, brushed drums entering gently, no vocal yet, instrumental opening for 6 bars]
 
 [Verse 1: vocal close, breathy]
-I stood so long at the start of it
-That the standing became the cage
-Safer not to try at all
-Than to falter on the stage
+Some mornings the big yes
+Is too far for the hand
+The whole new life I planned
+Will not quite stand
 
 [Verse 2]
-But the moment was never the danger
-The danger was the years
-I'd spend not knowing if I could
-Bound by my own fears
+So I say a smaller one
+Something the day can hold
+The coffee, the open door,
+The slow putting on of the coat
 
 [Chorus]
-So I move
-Not because the fear is gone
-I move
-With it loud and holding on
-Because brave is not the absence
-Of the trembling in the knee
-It is moving while you tremble
-And discovering you're free
+One small yes
+Is enough for the morning
+One small yes
+And the room starts warming
+The longest road is taken
+By a hundred little yeses
+Not the grand and tender promise
+Just the kind a body makes
 
 [Verse 3]
-And maybe I will stumble
-That was always on the page
-But I would rather live awake
-Than stay safe inside the cage
+The yes to standing up
+The yes to combing my hair
+The yes to one quiet message
+That says I am still there
 
 [Chorus]
-So I move
-Not because the fear is gone
-I move
-With it loud and holding on
-Because brave is not the absence
-Of the trembling in the knee
-It is moving while you tremble
-And discovering you're free
+One small yes
+Is enough for the morning
+One small yes
+And the room starts warming
+The longest road is taken
+By a hundred little yeses
+Not the grand and tender promise
+Just the kind a body makes
 
 [Bridge: vocal opens but never shouts, choir and strings swell underneath]
-Every room I ever loved
-Was on the other side of a fright
-Nothing soft and worth the having
-Came without the saying yes, in spite
+I will not promise the mountain
+I will promise the next door
+A glass of water, a curtain,
+A tender step, and one more
 
 [Outro]
-I move
-And the road
-That terrified me
-Turns out
-To meet me`,
+One small yes
+And then
+The next one
+Quietly
+On`,
 
   "eter-levanta/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal choir and strings building from solo to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
