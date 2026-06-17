@@ -668,7 +668,6 @@ to meet the world with your unguarded face
 
 [Outro]
 One step then another
-the ground holds
 the ground holds`,
 
   "incenso-humus/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
@@ -1628,8 +1627,6 @@ Hum
 antes do amém é o hum
 
 [Outro: vocal hum fading, Hammond holds the final note, no words]
-Hum
-Hum
 Hum
 Só isso
 só isso...`,
@@ -3262,7 +3259,6 @@ In what it was born to be
 
 [Outro]
 Running
-Running
 Into the open sea`,
 
   "incenso-correnteza/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
@@ -3694,7 +3690,6 @@ Still burning — that is all I have to do
 [Outro]
 Still burning
 That is not hope
-That is fact
 That is fact`,
 
   "incenso-o-que-resta/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -4561,7 +4556,6 @@ O que fica depois de tudo cair
 É o único que nunca vai partir
 
 [Outro]
-Sem nome
 Sem nome
 Aqui`,
 

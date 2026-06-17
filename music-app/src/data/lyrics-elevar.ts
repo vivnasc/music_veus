@@ -75,7 +75,6 @@ E é estranho
 E é verdade
 [Outro: vocal exhaled, piano fading]
 Pequena chama
-Pequena chama
 Repara
 Ainda há fogo aqui dentro
 ainda`,
@@ -714,7 +713,6 @@ And meant it
 
 [Outro: vocal exhaled, piano resolves softly to C major in last bar]
 What stays
-What stays
 The body, the breath, the woman
 the woman who noticed
 
@@ -870,7 +868,6 @@ But it is there
 It is there
 [Outro: vocal soft, guitar and kora fading]
 You are not the first
-you are not
 you are not`,
 
   "incenso-coro/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -1075,8 +1072,6 @@ Faça o resto
 [Final Chorus: 6-voice female chorus layered, peak warmth, never shouted]
 
 Não sozinha
-Não sozinha
-Não sozinha
 [Outro: vocal soft, chorus fades]
 Não sozinha
 repete comigo
@@ -1279,7 +1274,6 @@ Sisters without names
 The coro you cannot see
 [Outro: vocal soft, djembe and pads fading]
 We are the floor of the world
-the floor
 the floor`,
 
   "incenso-coro/9": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
@@ -1347,7 +1341,6 @@ A professora que te ouviu
 A estranha que te deu água
 Conta — e a solidão não cabe
 [Final Chorus: 8-voice female chorus layered, peak warmth, never shouted]
-Eu sou porque tu és
 Eu sou porque tu és
 Eu sou
 porque tu és
@@ -3559,7 +3552,6 @@ Pede-me só os pés
 E eu trago os pés
 [Chorus]
 Pés no chão
-Pés no chão
 O chão está cá
 Já é alguma coisa
 Pés no chão
@@ -3577,7 +3569,6 @@ O chão fez isto a milhões de mulheres
 Antes de eu cá chegar
 
 [Chorus: 3-voice harmonies enter, tambourine on the four]
-Pés no chão
 Pés no chão
 O chão está cá
 Já é alguma coisa
@@ -3878,7 +3869,6 @@ Sem estar a puxar
 Sem coação
 [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
 Aqui vamos
-Aqui vamos
 Cada um ao seu passo
 [Outro: vocal warm, choir fading]
 Aqui vamos
@@ -4164,7 +4154,6 @@ Hoje, amanhã, na próxima quarta
 
 Pé que consigas, pé que basta
 [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
-De pé
 De pé
 De pé é o que faço hoje
 De pé é o que canto hoje
@@ -4897,8 +4886,6 @@ Não te peço para expulsar ninguém
 Peço-te que reorganizes a tua planta
 
 [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
-A casa é minha
-A casa é minha
 A casa é minha
 E há sítios onde só eu vou
 [Outro: vocal warm, choir fading, djembe lingers]
