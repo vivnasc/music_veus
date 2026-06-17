@@ -345,7 +345,7 @@ Eu sempre estive aqui`,
   // ─────────────────────────────────────────────
 
   "espelho-medo/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -444,7 +444,7 @@ And suddenly the desert
 Doesn't feel like home alone`,
 
   "espelho-medo/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -491,7 +491,7 @@ Mas e meu, e vivo
 E vale mais que cem perfeitos no caderno`,
 
   "espelho-medo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -589,7 +589,7 @@ I will not run from you again
 We'll find the morning at the same pace`,
 
   "espelho-medo/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -640,7 +640,7 @@ Com as pernas a tremer
 Vou`,
 
   "espelho-medo/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -694,7 +694,7 @@ Cada tremor é uma canção`,
   // ─────────────────────────────────────────────
 
   "espelho-culpa/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, raw and exposed, slight rasp on sustained notes, sings very close to the microphone, no harmonies (this is a raw track), breath sounds audible, no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: low piano drone with metronome-like synth pulse on off-beat, vocal half-whispered]
@@ -737,7 +737,7 @@ Tem o peso da fé
 Mas não é minha, não é minha
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, drone alone]
-(European Portuguese, Portugal accent:)
+(African accent Portuguese:)
 A voz cala-se quando eu caminho
 Para o jardim com os pés descalços
 Cala-se quando o corpo decide
@@ -804,7 +804,7 @@ Love should leave you fuller
 not an empty jar...`,
 
   "espelho-culpa/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, rhythmic phrasing on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: staccato piano right hand (duty), legato piano left hand (joy), vocal whispered]
@@ -844,7 +844,7 @@ Vem do fundo, vem da barriga
 Vem do lugar onde a vida é festa
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only legato piano underneath]
-(European Portuguese, Portugal accent:)
+(African accent Portuguese:)
 Não quero só o suspiro do fim
 Quero o arrepio do início
 Não quero só o alívio
@@ -857,7 +857,7 @@ E pela primeira vez em anos
 a manhã inteira me sorriu...`,
 
   "espelho-culpa/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: distant ancestral hum drone, single nylon guitar pluck per bar like a clock pendulum, vocal whispered]
@@ -899,7 +899,7 @@ Esta culpa antiga como a chuva
 De querer mais do que a vida nos deixa
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, no harmonies, only nylon guitar pluck]
-(European Portuguese, Portugal accent:)
+(African accent Portuguese:)
 Avó, perdoa-me por querer o sol
 Mãe, perdoa-me por dizer que não
 Não é traição ao vosso sangue
@@ -974,7 +974,7 @@ But because I'm here
 and here was never mine to pay...`,
 
   "espelho-culpa/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: descending piano arpeggio resolving to low resonant note that lingers, vocal whispered]
@@ -1014,7 +1014,7 @@ E o espaço que aparece
 Tem o tamanho de mil perdões
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, descending piano alone]
-(European Portuguese, Portugal accent:)
+(African accent Portuguese:)
 Pousar não é abandonar
 É dar ao corpo o que lhe pertence
 É dizer aos ombros cansados
@@ -1027,7 +1027,7 @@ Pousei
 e eu nasci...`,
 
   "espelho-culpa/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, very soft and tender on this track, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: warm felt-piano with single soft bell on each phrase ending, vocal whispered]
@@ -1067,7 +1067,7 @@ Agora nasce dos meus dedos
 E toca-me como quem vive
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, no harmonies, only felt-piano underneath]
-(European Portuguese, Portugal accent:)
+(African accent Portuguese:)
 Há uma força que não grita
 Que não parte, que não dói
 Que chega de mansinho como a brisa
@@ -1092,7 +1092,7 @@ E chega, e chega
   // ─────────────────────────────────────────────
 
   "espelho-identidade/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -1191,7 +1191,7 @@ These lips have ever said
 The truest, sweetest thing`,
 
   "espelho-identidade/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -1242,7 +1242,7 @@ Quente, viva
 A respirar`,
 
   "espelho-identidade/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -1345,7 +1345,7 @@ Just whole
 Just breathing`,
 
   "espelho-identidade/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -1395,7 +1395,7 @@ Descansa feliz
 Porque já não precisa de se esconder`,
 
   "espelho-identidade/7": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -1452,7 +1452,7 @@ E isso é tudo o que preciso de dizer`,
   // ─────────────────────────────────────────────
 
   "espelho-controlo/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -1553,7 +1553,7 @@ Also human
 Also here`,
 
   "espelho-controlo/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -1604,7 +1604,7 @@ Dorme, querida
 Amanha o mundo continua assim`,
 
   "espelho-controlo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -1704,7 +1704,7 @@ I let go of the rain
 And I danced till dawn`,
 
   "espelho-controlo/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -1760,7 +1760,7 @@ Com as mãos abertas
 Finalmente abertas`,
 
   "espelho-controlo/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -1817,7 +1817,7 @@ Só a respirar`,
   // ─────────────────────────────────────────────
 
   "espelho-desejo/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: fragmented arpeggio with off-beat synth stab, restless filtered hi-hat that never lands cleanly, no vocal — instrumental opening for 8 bars, deliberately busy and unsettled]
@@ -1856,7 +1856,7 @@ O que mora lá no fundo
 O que tem medo de existir
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, all rhythm drops away — only voice and a single pad note]
-(European Portuguese, Portugal accent:)
+(African accent Portuguese:)
 E se eu ficasse quieta um minuto
 E se eu deixasse o vazio falar
 E se o vazio não fosse o inimigo
@@ -1924,7 +1924,7 @@ In the silence I've been running from
 For years and years and years`,
 
   "espelho-desejo/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, contained and small on this track, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: muted upright piano with single small-bell touch on each phrase ending, vocal hums very softly with no words, almost as if afraid to be heard]
@@ -1965,7 +1965,7 @@ O meu tamanho real é um segredo
 Que o mundo ainda não viu, mas vai
 
 [Bridge: European Portuguese, Lisbon accent — vocal opens (still no shout), no harmonies, only muted piano underneath]
-(European Portuguese, Portugal accent:)
+(African accent Portuguese:)
 A menina que encolheram
 Tem o tamanho de um oceano
 Tem a força de uma mare
@@ -1980,7 +1980,7 @@ Bonita, selvagem
 E minha`,
 
   "espelho-desejo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: 6 seconds of complete silence, then a single piano note emerges gradually, then another, the silence is the instrument — no vocal yet]
@@ -2019,7 +2019,7 @@ Uma menina a correr descalca
 Com um riso de animal
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only piano emerging]
-(European Portuguese, Portugal accent:)
+(African accent Portuguese:)
 Na hora vazia o desejo fala
 Não pede coisas, não pede pressa
 Pede só que eu fique quieta
@@ -2086,7 +2086,7 @@ And I am free
 Beautifully, terrifyingly free`,
 
   "espelho-desejo/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered airy harmonies emerging on choruses (3 voices building to 5 on final chorus), no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: rich warm synth pad alone for 4 seconds, ascending bass pedal beginning to climb slowly, no vocal — instrumental opening for 6 bars]
@@ -2125,7 +2125,7 @@ Que nunca ninguém mandou bater
 Que não tenho de aprender
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, ascending bass pedal continues climbing]
-(European Portuguese, Portugal accent:)
+(African accent Portuguese:)
 Não é o que eu devia querer
 Não é o que ficava bem na foto
 É o que me faz tremer por dentro
@@ -2139,7 +2139,7 @@ Como um fogo que ninguém acendeu
 Mas que arde, arde, arde`,
 
   "espelho-desejo/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, voice floating in long-tail reverb, layered airy harmonies emerging only on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Intro: vast soundscape with an open harmonic chord that resolves slowly across 8 seconds, no vocal — instrumental opening, the space itself is the instrument]
@@ -2178,7 +2178,7 @@ Onde a semente encontra terra
 Onde o amor encontra a face
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only open harmonic chord underneath]
-(European Portuguese, Portugal accent:)
+(African accent Portuguese:)
 A pausa entre duas notas
 É a música mais bonita
 O branco entre as palavras
@@ -2198,7 +2198,7 @@ Para deixar florescer`,
   // ─────────────────────────────────────────────
 
   "espelho-separacao/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -2296,7 +2296,7 @@ But not this gentle war
 This almost-touching empty space`,
 
   "espelho-separacao/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -2346,7 +2346,7 @@ Por está pergunta
 Que finalmente saiu`,
 
   "espelho-separacao/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -2448,7 +2448,7 @@ What remains
 Is all`,
 
   "espelho-separacao/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
@@ -2499,7 +2499,7 @@ Por quem mais importa
 Por mim`,
 
   "espelho-separacao/7": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
-[CRITICAL: European Portuguese (Lisbon accent), NOT Brazilian, NOT African]
+[CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
