@@ -165,8 +165,6 @@ e a sombra é a única obra
 O dia mais longo
 e eu não fiz nada com ele
 Nada
-que bom
-que bom
 que bom`,
 
   "grao-estacoes/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -2764,8 +2762,6 @@ quando já não aguentas a conta
 [Outro]
 Chove
 e eu fico
-e eu fico
-e eu fico
 cada vez mais
 leve`,
 
@@ -3717,7 +3713,6 @@ está prestes a partir — ou a vir
 Abro as mãos
 e nelas cabe
 o vazio
-e o possível
 e o possível
 é mais
 do que eu pensava`,

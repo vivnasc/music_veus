@@ -6386,7 +6386,6 @@ Open hands — the human race
 
 [Outro]
 Open your hands
-Open your hands
 And see — they were never empty
 They were holding you`,
 
@@ -7179,7 +7178,6 @@ Ask — three words that change the shape of things
 Ask — the smallest, bravest solution
 
 [Outro]
-I need help
 I need help
 And the world answered
 Gently`,
@@ -8759,7 +8757,6 @@ Uphill — the mountain doesn't lie
 Uphill — it gives back what you've kept
 
 [Outro]
-One more step
 One more step
 The top is closer
 Than you think`,

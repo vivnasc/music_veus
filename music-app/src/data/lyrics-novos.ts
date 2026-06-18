@@ -232,7 +232,6 @@ Of healing
 [Outro]
 The questions stay
 But they get quieter
-They get quieter
 They get quieter`,
 
   "nua-traco/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -355,7 +354,6 @@ To live inside that
 [Outro]
 What was real
 Stays real
-Even now
 Even now`,
 
   "nua-traco/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -470,7 +468,6 @@ And trusting it
 Before I need the proof
 
 [Outro]
-Starting with me
 Starting with me
 That's where trust begins`,
 
@@ -1086,7 +1083,6 @@ And let go of that too
 [Outro]
 Grieving
 And releasing
-Both at once
 Both at once`,
 
   "nua-nao-era-amor/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -1442,7 +1438,6 @@ It isn't real
 
 [Outro]
 Nobody knows
-Yet
 Yet`,
 
   "incenso-cinzento/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -1555,7 +1550,6 @@ Still here counts
 Still here counts
 
 [Outro]
-Still here
 Still here
 That's enough
 For today`,
@@ -5530,7 +5524,6 @@ It lived
 [Outro]
 This body
 Lived
-And lives
 And lives`,
 
   "grao-ferias/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]

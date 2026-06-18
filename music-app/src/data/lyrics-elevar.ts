@@ -1039,7 +1039,6 @@ Nem que o quarto esteja vazio
 O mundo é cheio de mulheres
 Que sabem o que tu sabes
 Não sozinha
-Não sozinha
 A partir de hoje, não sozinha
 [Verse 3]
 A solidão era um hábito
@@ -1058,7 +1057,6 @@ Não sozinha
 Nem que o quarto esteja vazio
 O mundo é cheio de mulheres
 Que sabem o que tu sabes
-Não sozinha
 Não sozinha
 A partir de hoje, não sozinha
 [Bridge: vocal close, chorus hums underneath — opens, does not resolve]
@@ -1387,7 +1385,6 @@ Is a quiet floor under your feet
 The room is empty
 The night is long
 But the floor holds
-But the floor holds
 And that is the gift, that is the gift
 [Verse 3]
 If one day you cannot find the people
@@ -1411,7 +1408,6 @@ You can feel it if you stop
 You can feel it if you stop
 [Outro: vocal exhaled, mbira lingers, piano resolves softly]
 What the coro leaves
-is a quiet floor
 is a quiet floor
 that holds`,
 
@@ -2105,7 +2101,6 @@ And the tally is long
 [Outro: vocal exhaled, piano resolves softly to C major in last bar]
 What I did not have to earn
 the larger half
-the larger half
 of my life`,
 
   // ─────────────────────────────────────────────
@@ -2729,8 +2724,6 @@ Alguma coisa por ti
 [Final Chorus: 6-voice gospel choir layered, peak energy, never shouted]
 Sim
 À vida que ficou
-Sim
-Sim
 Sim
 [Outro: vocal soft, choir fades]
 Sim
@@ -3555,7 +3548,6 @@ Pés no chão
 O chão está cá
 Já é alguma coisa
 Pés no chão
-Pés no chão
 Hoje basta este gesto
 Hoje basta começar
 [Verse 3]
@@ -3572,7 +3564,6 @@ Antes de eu cá chegar
 Pés no chão
 O chão está cá
 Já é alguma coisa
-Pés no chão
 Pés no chão
 Hoje basta este gesto
 Hoje basta começar
@@ -3766,7 +3757,6 @@ Bebo água
 Trato de mim
 Como trato de outro
 Bebo água
-Bebo água
 A reza mais antiga
 Que o corpo conhece
 Bebo água
@@ -3839,7 +3829,6 @@ Aqui vamos
 Vou — e tu vens se quiseres
 A porta fica aberta
 A música fica a tocar
-Aqui vamos
 Aqui vamos
 Cada um ao seu passo
 [Verse 3]
@@ -4050,7 +4039,6 @@ The body already said yes
 And the day is happening anyway
 Don't wait for the mind
 The mind takes its time
-The body is doing the work
 The body is doing the work
 [Verse 3]
 By lunchtime the mind will agree
@@ -4357,7 +4345,6 @@ Not today, not like this
 The peso doesn't get the wheel today
 I am driving, the peso is in the back
 Quiet, with the seatbelt on
-Not today, not like this
 Not today, not like this
 [Verse 3]
 The peso has good arguments
@@ -4855,7 +4842,6 @@ A casa é minha
 Digo-te onde tu não entras
 Não é guerra, é planta
 Não é briga, é arquitectura
-A casa é minha
 A casa é minha
 E há sítios onde só eu vou
 [Verse 3]
@@ -6400,7 +6386,6 @@ Põe a música e deixa o corpo
 Lembrar-se daquilo que ele sempre soube
 
 [Final Chorus: 6-voice chorus layered, peak warmth, never shouted, djembe + timbila + Hammond
-A ginga voltou
 A ginga voltou
 A passada bonita
 A rua reconheceu-me

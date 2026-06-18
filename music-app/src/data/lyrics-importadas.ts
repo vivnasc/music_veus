@@ -1658,7 +1658,6 @@ Nos ombros
 No maxilar
 Na forma como durmo
 Sempre
-Sempre
 A carregar`,
   // nua-por-dentro/6 — Permission (pele-por-dentro-letras.md)
   "nua-por-dentro/6": `[Verse 1]
