@@ -26,7 +26,7 @@ E sobe como fumo de fogueira
 [Verse 2]
 Conheço este caminho de cor
 Já o fiz mil vezes sem saber
-O tecto abre-se como água
+O teto abre-se como água
 E eu passo sem nada dizer
 
 [Chorus]
@@ -366,7 +366,7 @@ Como se a lua mandasse nele
 [Verse 2]
 Não tem sal nem tem areia
 Não tem fundo nem tem fim
-Tem a temperatura exacta
+Tem a temperatura exata
 Do que eu sinto dentro de mim
 
 [Chorus]
@@ -836,7 +836,7 @@ Que ainda não aprendeu a partir
 
 [Verse 3]
 Amanhã ninguém se lembra
-Da forma exacta da conversa
+Da forma exata da conversa
 Mas o corpo lembra o calor
 E o calor é o que atravessa
 
@@ -2940,7 +2940,7 @@ A jurar que estava presa
 Quando bastava reparar
 
 [Verse 2]
-A gaiola não tinha tecto
+A gaiola não tinha teto
 Era eu que não olhava
 De tanto ver as grades
 Já não via que voava
@@ -4638,7 +4638,7 @@ O mesmo fome
 
 [Verse 2]
 Jurei que desta vez seria diferente
-Que a curva ia mudar de direcção
+Que a curva ia mudar de direção
 Mas o corpo conhece o caminho
 Melhor que a intenção
 
@@ -5624,7 +5624,7 @@ O oxigénio, o ferro, a água
 Tudo o que o universo me deu
 
 [Verse 2]
-Não é triste — é correcto
+Não é triste — é correto
 Como devolver um livro à estante
 Li cada página duas vezes
 E sublinhei a mais importante
@@ -5674,7 +5674,7 @@ Parte de tudo`,
 [Verse 1]
 I am dust and I am fine with it
 Not the poetic kind
-The actual kind
+The atual kind
 Under the bed, behind the door
 
 [Verse 2]
@@ -5711,7 +5711,7 @@ After the party of its death
 
 [Bridge]
 Humility is not making yourself small
-It's knowing your actual size
+It's knowing your atual size
 And being amazed
 That dust can open its eyes
 
@@ -5993,7 +5993,7 @@ Eram os que sabiam mais da guerra
 [Outro]
 Humilde
 Não é menos
-É exacto
+É exato
 É real`,
 
   "eter-vasto/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -6076,7 +6076,7 @@ A praia inteira numa casta
 De areia que não quer ser mais
 Que não quer ser o mar
 Grão — completa
-No acto simples de estar
+No ato simples de estar
 
 [Verse 3]
 O universo não precisa
@@ -6092,7 +6092,7 @@ A praia inteira numa casta
 De areia que não quer ser mais
 Que não quer ser o mar
 Grão — completa
-No acto simples de estar
+No ato simples de estar
 
 [Bridge]
 A grandeza não é tamanho
@@ -6829,7 +6829,7 @@ Open my eyes`,
 Nasci numa terra de pó vermelho
 Antes de ter nome já tinha chão
 Os pés descalços sabiam o caminho
-Antes de eu saber o que era direcção
+Antes de eu saber o que era direção
 
 [Verse 2]
 O embondeiro guardava os segredos

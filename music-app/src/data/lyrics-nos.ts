@@ -270,7 +270,7 @@ Ocupa a cadeira, serve-se do vinho
 E nós fingimos não o notar
 
 [Bridge]
-O medo fez de nós dois actores
+O medo fez de nós dois atores
 Num palco onde ninguém aplaude
 Tu calas o que eu preciso ouvir
 Eu escondo o que tu precisas saber
@@ -1165,7 +1165,7 @@ Com o chão que eu não sabia encontrar
 [Bridge]
 O desejo não foi de corpo — foi de alma
 Foi a fome de quem não se sabe alimentar
-Quis que fosses o meu chão é o meu tecto
+Quis que fosses o meu chão é o meu teto
 E esqueci que tu também precisavas de andar
 
 [Outro]

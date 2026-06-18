@@ -710,7 +710,7 @@ Diz que a tua paz é uma mentira estranha
 [Verse 2: same raw intimacy, slight rasp]
 Sento-me a ler e ela sussurra
 Devias estar a fazer mais
-Deito-me a olhar para o tecto
+Deito-me a olhar para o teto
 E ela conta-me os pecados mortais
 
 [Chorus: voice opens slightly, still no harmonies, low piano drone steady]
@@ -1557,7 +1557,7 @@ Also here`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O tecto escuro não me responde
+O teto escuro não me responde
 Mas eu pergunto na mesma
 O que eu devia ter dito ao almoço
 O que vai acontecer na sexta
@@ -1987,7 +1987,7 @@ E minha`,
 
 [Verse 1: vocal close, slow walking phrasing, sitting with nothing]
 Desliguei tudo e fiquei
-Com o tecto e com o chão
+Com o teto e com o chão
 Com o tic-tac do relógio
 E as minhas mãos sem ocupação
 
@@ -2362,7 +2362,7 @@ Perdi o contorno, perdi a margem
 Perdi a praia onde a onda acabava
 
 [Chorus]
-Mas separar é um acto de amor
+Mas separar é um ato de amor
 Como a terra que solta a raiz
 Para a árvore crescer mais alta
 Para o fruto ser mais feliz
@@ -2373,7 +2373,7 @@ Eu inteira, tu inteiro
 
 
 [Chorus]
-Mas separar é um acto de amor
+Mas separar é um ato de amor
 Como a terra que solta a raiz
 Para a árvore crescer mais alta
 Para o fruto ser mais feliz

@@ -1,6 +1,6 @@
 /**
  * Letras dos 4 álbuns Fibra Corrida — chill house para corredores
- * Sem mencionar corrida directamente. Corpo, movimento, sensação.
+ * Sem mencionar corrida diretamente. Corpo, movimento, sensação.
  *
  * Chave: "slug-do-album/numero-da-faixa"
  */
@@ -24,7 +24,7 @@ Como quem abre uma porta que sempre esteve aberta
 A mente ainda dorme mas as pernas já sabem
 O caminho que os ossos decoraram sozinhos
 Não preciso de pensar para avançar
-O corpo tem a sua própria direcção
+O corpo tem a sua própria direção
 
 [Pre-Chorus]
 O primeiro passo não se pensa
@@ -195,7 +195,7 @@ Nada no mundo é mais presente
 Nem a mente mais treinada
 Nem o plano mais perfeito
 Consegue o que o ritmo faz
-Quando entra directo no peito
+Quando entra direto no peito
 
 [Chorus]
 Ritmo, ritmo, ritmo
@@ -287,7 +287,7 @@ That flies`,
 A sombra cai no ombro esquerdo
 O sol acerta o lado direito
 O corpo alterna entre dois mundos
-A cada esquina mudo de projecto
+A cada esquina mudo de projeto
 
 [Verse 2]
 As árvores recortam a luz
@@ -835,7 +835,7 @@ Os semáforos piscam para ninguém — amarelos, perdidos
 Às seis da manhã o mundo é meu
 Não por conquista nem por direito
 Mas porque eu sou a única acordada
-E a cidade é o meu tecto e o meu leito
+E a cidade é o meu teto e o meu leito
 
 [Chorus]
 Rua vazia, rua minha
@@ -1493,7 +1493,7 @@ O chão é uma linha que não sigo — ela segue-me
 [Verse 2]
 A velocidade apaga o ruído
 O vento leva tudo o que não importa
-Fica só este momento exacto
+Fica só este momento exato
 Esta fracção de segundo — esta nota
 
 [Pre-Chorus]
@@ -1531,7 +1531,7 @@ Mas há dias em que pensar é o problema
 E a velocidade é a cura
 Para uma mente que não para
 O corpo rápido é a moldura
-Que enquadra o momento exacto
+Que enquadra o momento exato
 Em que existo sem censura
 
 [Chorus]
@@ -1660,7 +1660,7 @@ A lembrar-me que sei viver
 Chamam-lhe stress, chamam-lhe tensão
 Mas eu chamo-lhe o despertar
 Do animal que vive em mim
-E que sabe exactamente quando lutar
+E que sabe exatamente quando lutar
 Não contra alguém, não contra o mundo
 Mas contra o sono da rotina
 A adrenalina é o grito do corpo
@@ -2591,7 +2591,7 @@ Encontra sempre o caminho certo
 
 [Bridge]
 Eu queria ser como esta água
-Que não questiona a direcção
+Que não questiona a direção
 Que não tem medo da descida
 Nem ansiedade pela inclinação
 Só corre, só flui, só segue
@@ -2825,12 +2825,12 @@ Quiet`,
 [Verse 1]
 O cobertor pesa como betão
 Os ombros afundam no colchão
-Os braços são objectos que não me pertencem
+Os braços são objetos que não me pertencem
 As pernas são troncos de árvores cortadas
 
 [Verse 2]
 A gravidade duplicou durante a noite
-O tecto está mais baixo do que ontem
+O teto está mais baixo do que ontem
 Cada centímetro entre a cama e o chão
 É um desfiladeiro que não sei se quero descer
 
@@ -2864,7 +2864,7 @@ De um cansaço tão antigo
 
 [Bridge]
 Há dias em que levantar o corpo
-É o acto mais violento que conheço
+É o ato mais violento que conheço
 Não porque alguém me prende
 Mas porque o peso é meu e eu reconheço
 Cada grama, cada quilo
@@ -3136,7 +3136,7 @@ Que não tem moral da história
 Nos outros álbuns a chuva lava
 Nos outros álbuns o céu abre
 Mas hoje a chuva é só chuva
-E o céu é só um tecto que não abre
+E o céu é só um teto que não abre
 E eu estou aqui debaixo
 Sem metáfora e sem lição
 Molhada até aos ossos

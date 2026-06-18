@@ -614,9 +614,9 @@ Do que isto custou para acontecer
 Tu não me conheces
 E eu não te conheço
 E no entanto canto isto
-A pensar exactamente em ti
+A pensar exatamente em ti
 Que estás a ouvir agora
-À frente do tecto
+À frente do teto
 A contar respirações
 Cá estou para te dizer
 [Chorus: full gospel choir enters, Hammond blooms, tambourine, warm strings rising]
@@ -743,7 +743,7 @@ street ambience) sem comprometer clareza.`,
 [Verse 1]
 É de madrugada aqui
 E eu pensei que estava só
-A olhar para o tecto
+A olhar para o teto
 A contar respirações
 Mas algures, agora
 Outra mulher tem os meus olhos abertos
@@ -753,7 +753,7 @@ E no entanto estamos juntas
 Ela pode estar em Maputo
 Ela pode estar em Lisboa
 Ela pode estar a dois quarteirões
-A contar o mesmo tecto
+A contar o mesmo teto
 Não sabemos uma da outra
 E isto não muda nada
 As duas estamos acordadas
@@ -762,7 +762,7 @@ As duas estamos a aguentar
 Não é poesia
 Não é consolo
 É matemática
-Neste momento, em mil tectos
+Neste momento, em mil tetos
 [Chorus]
 Alguém está acordada
 Como eu, agora
@@ -1438,7 +1438,7 @@ Pequena, sem aviso
 Um café quente que ninguém pediu
 Um sol pela janela à hora certa
 Uma palavra de uma estranha
-Que era exactamente a palavra
+Que era exatamente a palavra
 [Pre-Chorus]
 Não foi resposta
 Não foi prémio
@@ -1901,7 +1901,7 @@ o vizinho viu`,
 [Intro: deep house pads, plucky synth lead, Wurlitzer chord stabs, sidechained kick entering
 [Verse 1]
 The light came back on a Thursday
-Not the metaphor — the actual light
+Not the metaphor — the atual light
 The room got brighter
 The kitchen got warmer
 And I had not earned this
@@ -2717,7 +2717,7 @@ Há um sim teu hoje
 Que está à espera de ser dito
 Não te peço para o dizeres alto
 Diz-o dentro da cabeça
-Diz-o ao tecto
+Diz-o ao teto
 Diz-o à parede
 E vê se a parede não solta
 Alguma coisa por ti
@@ -4841,7 +4841,7 @@ Não te peço para saíres
 A casa é minha
 Digo-te onde tu não entras
 Não é guerra, é planta
-Não é briga, é arquitectura
+Não é briga, é arquitetura
 A casa é minha
 E há sítios onde só eu vou
 [Verse 3]
@@ -4878,7 +4878,7 @@ E há sítios onde só eu vou
 A casa é minha
 geografia
 a casa é minha
-arquitectura`,
+arquitetura`,
 
   "incenso-hoje-nao/10": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -4960,13 +4960,13 @@ Tracks-âncora deste EP (puxam ouvinte novo): T3 A Culpa Pode Esperar, T5 Limite
 Calmo, T9 A Casa É Minha (anthems PT) e T2 Not Today, Not Like This, T4 I’m Not
 Picking Up (pulses EN para alcance internacional).
 Coexistência com De Pé: os dois EPs alternam-se bem. De Pé empurra para fora
-(acção); Hoje Não estabelece o perímetro (limite). Juntos cobrem a manhã da pessoa
+(ação); Hoje Não estabelece o perímetro (limite). Juntos cobrem a manhã da pessoa
 que precisa.
 Capa sugerida: mão feminina em close-up a fechar uma porta com gesto calmo (não
 com força). Cor #7B9EA8 na tipografia. Sem rosto, mantém a estética Loranne.`,
 
   // ─────────────────────────────────────────────
-  // AR — Respirar como acto
+  // AR — Respirar como ato
   // ─────────────────────────────────────────────
 
   "incenso-ar/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -5718,7 +5718,7 @@ the body breathes slow
 
 Notas para o canal YouTube
 Posicionamento da playlist: EP3 entra como bálsamo. Funciona em qualquer hora do
-dia onde a ansiedade está activa — antes de uma reunião, depois de uma chamada
+dia onde a ansiedade está ativa — antes de uma reunião, depois de uma chamada
 difícil, à noite quando a coisa pesa. Diferentemente de De Pé (manhã) e Hoje Não (limite
 contra pressão), Ar é a respiração de fundo da playlist.
 Tracks-âncora deste EP: T1 Lembrar de Respirar, T5 Espaço Para o Ar, T9 Ar de Volta
@@ -6793,7 +6793,7 @@ Reaprendo a chorar quando faz falta
 Reaprendo a rir alto sem vergonha
 Reaprendo a dizer "não sei"
 E a deixar a frase ficar sem completar
-Reaprendo a olhar para o tecto
+Reaprendo a olhar para o teto
 Sem culpa de não estar a produzir
 Reaprendo a estar comigo
 Sem ter de ter resultados
@@ -6945,7 +6945,7 @@ Numa anotação que não publico
 [Pre-Chorus]
 A voz debaixo da civilizada
 Não é selvagem
-É exacta
+É exata
 É a voz que diz o nome verdadeiro
 
 [Chorus]
@@ -6961,7 +6961,7 @@ E que ela me conhece melhor
 Hoje escrevi sem editar
 Hoje falei sem ensaiar
 Hoje pensei alto sem corrigir
-Hoje fui exacta em vez de educada
+Hoje fui exata em vez de educada
 A voz que tinha antes
 Reaparece nos pequenos espaços
 Nas margens da agenda
@@ -7140,7 +7140,7 @@ em todos os quartos`,
 
 [Verse 1]
 At home in my own body
-Not metaphor — the actual house
+Not metaphor — the atual house
 The skin is the front door
 The chest is the kitchen
 The belly is the long room where I live most
@@ -7164,8 +7164,8 @@ At home in my own body is daily occupation
 [Chorus]
 At home in my own body
 Not metaphor
-The actual house
-The actual key
+The atual house
+The atual key
 The skin holds me, the lungs hold me
 The bones hold me, the blood holds me
 And I — I hold the body
@@ -7185,8 +7185,8 @@ The corridors will be walked
 [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, war
 At home in my own body
 Not metaphor
-The actual house
-The actual key
+The atual house
+The atual key
 [Bridge: vocal close, choir hums underneath, warm strings rising — opens, does not resolve]
 You are at home in your body
 Even if you do not feel it yet
@@ -7194,18 +7194,18 @@ The body has not left
 The body has been waiting
 For you to return as the owner, not the tenant
 You can begin the renovation today
-With one act of kindness toward the actual house
+With one act of kindness toward the atual house
 That carries you through the world
 [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
 At home in my own body
 Not metaphor
-The actual house
-The actual key
+The atual house
+The atual key
 [Outro: vocal warm, choir fading]
 At home in my own body
-the actual house
+the atual house
 at home in my own body
-the actual key
+the atual key
 
 Notas para o canal YouTube
 Posicionamento da playlist: EP5 é o fechamento da colecção dos cinco EPs.

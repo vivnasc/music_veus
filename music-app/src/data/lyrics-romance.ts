@@ -496,7 +496,7 @@ Do que no jantar de luar
 [Bridge]
 O amor nos filmes acaba
 Quando começa a vida real
-O meu amor começa exactamente
+O meu amor começa exatamente
 Onde acaba o carnaval
 
 [Outro]
@@ -1061,7 +1061,7 @@ O romance mais moderno — e mais frio
 Os nossos avós escreviam cartas
 Esperavam semanas sem sinal
 Nós temos tudo instantâneo
-E a espera é exactamente igual
+E a espera é exatamente igual
 
 [Outro]
 Visto
@@ -1937,7 +1937,7 @@ Meia-noite
 Onde tudo começa por fim
 
 [Verse 3]
-As sombras no tecto mexem-se
+As sombras no teto mexem-se
 Ao ritmo da respiração
 E nós inventamos um mundo
 Que só existe na escuridão

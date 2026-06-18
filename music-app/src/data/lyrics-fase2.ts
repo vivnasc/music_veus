@@ -1125,8 +1125,8 @@ A sesta chega como maré
 [Bridge]
 Dormir de dia é uma rebelião
 Contra o mundo que nunca pára
-Um acto de desobediência e não
-Um acto de quem prepara
+Um ato de desobediência e não
+Um ato de quem prepara
 
 [Chorus]
 A sesta veio e eu deixei
@@ -1350,7 +1350,7 @@ De terra depois da chuva — o que dói
 
 [Verse 3]
 Passei pela padaria e parei
-O cheiro era exactamente igual
+O cheiro era exatamente igual
 Ao pão que a avó me deu e eu comi
 Sentada no banco de metal
 
@@ -1692,7 +1692,7 @@ A memória é uma romancista
 Que escreve sempre a mesma receita
 Com açúcar a mais e uma vista
 De um passado que nunca existiu
-Exactamente como eu lembro
+Exatamente como eu lembro
 Mas a mentira que o corpo sentiu
 É mais verdade que o Dezembro
 
@@ -2052,7 +2052,7 @@ Espanto que é o primeiro amor
 Chorou e eu segurei mais forte
 Não o dedo — o coração
 E naquela mão sem norte
-Encontrei toda a direcção
+Encontrei toda a direção
 
 [Chorus]
 Bebé que agarra o meu dedo
@@ -2858,7 +2858,7 @@ Quando a dizes sem rede por baixo
 Nua — não de roupa mas de tudo
 De cada pose, cada máscara, cada escudo
 Nua — como quem decide ser
-Exactamente o que é, sem parecer
+Exatamente o que é, sem parecer
 É a nudez que mais custa
 A que não é de pele mas de alma
 A que o mundo não ajusta
@@ -3113,7 +3113,7 @@ Folha que nasce no impossível
 [Bridge]
 Não preciso de permissão
 Para crescer no meu betão
-A vida encontra a direcção
+A vida encontra a direção
 Mesmo na mais dura estação
 
 [Chorus]
@@ -4265,7 +4265,7 @@ Charco — não sou nenhum canhudo
 Sou uma mulher que não tem preço
 A água espirra para todo o lado
 Os pés estão encharcados e felizes
-E este acto descontrolado
+E este ato descontrolado
 É o mais saudável das raízes
 
 [Verse 3]
@@ -4285,7 +4285,7 @@ Mas o charco diz — vens ou não vais
 E eu salto — sem consenso
 
 [Chorus]
-Charco — o baptismo da alegria
+Charco — o batismo da alegria
 Charco — a licença da infância
 Charco — porque sim e porque é dia
 Charco — porque a vida é uma dança
@@ -5383,7 +5383,7 @@ A sala vazia é uma montanha
 De mim — devolvida em protocolo
 
 [Pre-Chorus]
-Ouvir-se é o acto mais solitário
+Ouvir-se é o ato mais solitário
 E o mais revelador
 
 [Chorus]
@@ -5504,7 +5504,7 @@ Fica — e cresce no escuro
 
 [Chorus]
 O não-dito mora nesta sala
-Vive nas paredes, no tecto, no chão
+Vive nas paredes, no teto, no chão
 Cada palavra que a boca cala
 Vira fantasma e ocupa a estação
 Nunca disse que estava com medo
@@ -5520,7 +5520,7 @@ E cada verdade que eu não permiti
 
 [Chorus]
 O não-dito mora nesta sala
-Vive nas paredes, no tecto, no chão
+Vive nas paredes, no teto, no chão
 
 [Bridge]
 E se eu abrisse a boca agora
@@ -6956,7 +6956,7 @@ Far away
 And that's the thing about love — it knows`,
 
 // ─────────────────────────────────────────────
-// PASSO PEQUENO (pequenos actos de bravura)
+// PASSO PEQUENO (pequenos atos de bravura)
 // ─────────────────────────────────────────────
 
 "grao-passo-pequeno/1": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
@@ -7551,7 +7551,7 @@ E a terra responde quando quer e como quer
 [Verse 3]
 Os vizinhos pensam que é passatempo
 Eu sei que é terapia profunda
-Cada semente é um acto de fé
+Cada semente é um ato de fé
 E cada broto uma resposta do mundo
 
 [Chorus]
@@ -7994,7 +7994,7 @@ Que um ser humano pode ter
 Rega — ao fim da tarde
 Rega — o ritual mais doce
 Dar água a quem tem sede
-É o acto mais simples e mais nobre
+É o ato mais simples e mais nobre
 
 [Verse 3]
 A criança olha e quer ajudar
@@ -8006,7 +8006,7 @@ Duas jardineiras no conforto
 Rega — ao fim da tarde
 Rega — o ritual mais doce
 Dar água a quem tem sede
-É o acto mais simples e mais nobre
+É o ato mais simples e mais nobre
 
 [Bridge]
 E quando a água cai na terra seca
@@ -8782,7 +8782,7 @@ Sujar-se é a permissão
 Para voltar a ser selvagem
 
 [Chorus]
-Lama — o baptismo da montanha
+Lama — o batismo da montanha
 Lama — a liberdade de sujar
 Nos joelhos, na cara, na alma
 Lama — a coragem de escorregar
@@ -8794,7 +8794,7 @@ Mas quem já correu na lama sabe
 Que é ali que se aprende a existir
 
 [Chorus]
-Lama — o baptismo da montanha
+Lama — o batismo da montanha
 Lama — a liberdade de sujar
 Nos joelhos, na cara, na alma
 Lama — a coragem de escorregar
@@ -9455,7 +9455,7 @@ Com a força de quem tudo recolhe
 
 [Pre-Chorus]
 Amar quem ainda não existe
-É o acto mais corajoso
+É o ato mais corajoso
 
 [Chorus]
 Filho futuro — já te conheço
@@ -10121,7 +10121,7 @@ And breathe — you're free`,
 Duas linhas cor-de-rosa
 Num teste de farmácia barato
 A casa de banho é o sítio mais importante
-Do planeta — neste exacto acto
+Do planeta — neste exato ato
 
 [Verse 2]
 Rio e choro ao mesmo tempo
@@ -10811,8 +10811,8 @@ O corpo sabe o norte
 Sempre soube
 
 [Chorus]
-Direcção — o corpo é a bússola
-Direcção — os ossos sabem onde
+Direção — o corpo é a bússola
+Direção — os ossos sabem onde
 Mesmo sem mapa, sem rede, sem sinal
 O corpo encontra — e responde
 
@@ -10823,8 +10823,8 @@ E eu navego pela mesma ciência
 A intuição que o corpo declara
 
 [Chorus]
-Direcção — o corpo é a bússola
-Direcção — os ossos sabem onde
+Direção — o corpo é a bússola
+Direção — os ossos sabem onde
 Mesmo sem mapa, sem rede, sem sinal
 O corpo encontra — e responde
 
@@ -10835,8 +10835,8 @@ Ainda mora um animal antigo
 Que sabe o norte — sem prólogo
 
 [Chorus]
-Direcção — confio no meu corpo
-Direcção — confio no meu norte
+Direção — confio no meu corpo
+Direção — confio no meu norte
 O GPS pode falhar
 Mas a bússola interna é mais forte
 

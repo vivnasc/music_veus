@@ -184,7 +184,7 @@ Não tenho pressa e não é tarde
 Para gostar do que vejo
 Sem condições, sem reforma
 Gosto de mim como estou
-Nesta exacta, imperfeita forma
+Nesta exata, imperfeita forma
 
 [Chorus]
 Gosto de mim, gosto de mim
@@ -620,7 +620,7 @@ De dizer: mesmo assim, estou bem
 Boa, boa, estou boa
 Não perfeita, não completa, não resolvida
 Boa — com as peças que tenho
-Com a vida exacta que é a minha vida
+Com a vida exata que é a minha vida
 Boa não é ausência de problema
 Boa é a presença de saber
 Que mesmo com o caos todo
@@ -634,7 +634,7 @@ E estas são as riquezas — todas, sem cortes, sem edição
 
 [Chorus]
 Boa, boa, estou boa
-Com a vida exacta que é a minha vida
+Com a vida exata que é a minha vida
 Boa é a presença de saber
 Eu escolho estar bem
 
@@ -796,7 +796,7 @@ Can adjust`,
   "nua-inteira/3": `[Verse 1]
 Disseram podes ficar até mais tarde
 E eu disse não
-Disseram precisamos de ti neste projecto
+Disseram precisamos de ti neste projeto
 E eu disse não
 
 [Verse 2]
@@ -987,7 +987,7 @@ Demais
 Sempre fui
 Agora sei
 Que demais
-É exactamente
+É exatamente
 O que eu devia ser`,
   // nua-inteira/6 — Quiet Power (pele-inteira-letras.md)
   "nua-inteira/6": `[Verse 1]
@@ -1527,7 +1527,7 @@ São duas palavras
 Duas
 E ninguém
 As diz
-Na minha direcção`,
+Na minha direção`,
   // nua-por-dentro/4 — Cracked Open (pele-por-dentro-letras.md)
   "nua-por-dentro/4": `[Verse 1]
 It happened in the supermarket
