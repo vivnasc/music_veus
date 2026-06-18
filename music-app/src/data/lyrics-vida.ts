@@ -8,7 +8,7 @@
  * adormecer, manhã, casa, estrada, intimidade, choro, raiva,
  * ansiedade, solidão, autocuidado, reconciliação, gratidão,
  * herança, ciclos, celebração, força quieta, crescimento,
- * despertar colectivo, e o limiar.
+ * despertar coletivo, e o limiar.
  */
 export const VIDA_LYRICS: Record<string, string> = {
 
@@ -369,7 +369,7 @@ Rest now`,
 [Verse 1]
 Sento-me no chão
 Os joelhos tocam a terra
-A coluna encontra a direcção
+A coluna encontra a direção
 Que o dia inteiro enterra
 
 [Verse 2]
@@ -1411,7 +1411,7 @@ Pes no chão
 O dia começa a ter um porto
 Cada passo é um contrato
 Com a terra que me segura
-De pé, descalca, exacto
+De pé, descalca, exato
 Nesta fria formosura
 
 [Verse 3]
@@ -1427,13 +1427,13 @@ Pes no chão
 O dia começa a ter um porto
 Cada passo é um contrato
 Com a terra que me segura
-De pé, descalca, exacto
+De pé, descalca, exato
 Nesta fria formosura
 
 [Bridge]
 O primeiro contacto com o chão
 É o corpo a lembrar que existe
-Que tem peso e tem direcção
+Que tem peso e tem direção
 E que a gravidade insiste
 
 [Outro]
@@ -1502,7 +1502,7 @@ But gently`,
 De pé junto a janela
 A chávena quente na mão
 O dia estica a sua tela
-E eu escolho a direcção
+E eu escolho a direção
 
 [Verse 2]
 Não é uma lista nem um plano
@@ -1512,7 +1512,7 @@ Para o norte do coração
 
 [Chorus]
 Intenção
-Sem força, só direcção
+Sem força, só direção
 Intenção
 A bussola sem pressão
 Aponto para onde quero ir
@@ -1522,13 +1522,13 @@ Só de apontar e respirar
 
 [Verse 3]
 A manhã aceita o que eu lhe dou
-A direcção que escolhi sem peso
+A direção que escolhi sem peso
 O dia torna-se o que eu sou
 Quando começo sem excesso
 
 [Chorus]
 Intenção
-Sem força, só direcção
+Sem força, só direção
 Intenção
 A bussola sem pressão
 Aponto para onde quero ir
@@ -2796,9 +2796,9 @@ It was here all along`,
 
 [Verse 1]
 Cinco coisas que eu vejo agora
-A cortina azul, a fenda no tecto
+A cortina azul, a fenda no teto
 Quatro coisas que a pele explora
-O tecido da cadeira, o metal directo
+O tecido da cadeira, o metal direto
 
 [Verse 2]
 Três sons que entram nos ouvidos
@@ -3143,7 +3143,7 @@ E cada pedaco tem amor
 Jantar sozinha
 Com a vela e o vinho e o meu prato
 Jantar sozinha
-É o mais sagrado acto
+É o mais sagrado ato
 De quem se trata como hospede
 De quem se cozinha com carinho
 A noite inteira e o meu vespere
@@ -3154,7 +3154,7 @@ E eu sou o meu próprio caminho
 Jantar sozinha
 Com a vela e o vinho e o meu prato
 Jantar sozinha
-É o mais sagrado acto
+É o mais sagrado ato
 De quem se trata como hospede
 De quem se cozinha com carinho
 A noite inteira e o meu vespere
@@ -3471,7 +3471,7 @@ A almofada húmida, a rotina
 De um dia que começa com ressaca
 
 [Verse 2]
-A chaleira é um acto de fé
+A chaleira é um ato de fé
 A chávena quente entre as mãos
 O silêncio já não é
 O que era antes das questões
@@ -3913,7 +3913,7 @@ De cada coisa uma constelação
 [Verse 2: same intimacy, light congas join, warm upright bass walks]
 Saúde para estar aqui sentada
 Olhos para ver, ar para respirar
-Tecto, chão, o prato e a faca
+Teto, chão, o prato e a faca
 Já é tanto, já é demais para contar
 
 [Chorus: 3-voice harmonies enter, brass touches accent the chorus, joyful steady]
@@ -5082,7 +5082,7 @@ Não precisa de cadeia
 Sem razão
 Celebro sem motivo
 Sem razão
-É o acto mais vivo
+É o ato mais vivo
 Porque o sol entrou pela janela
 Porque o café estava bom
 Porque estou viva e bela
@@ -5098,7 +5098,7 @@ De cada riso e cada passo
 Sem razão
 Celebro sem motivo
 Sem razão
-É o acto mais vivo
+É o ato mais vivo
 Porque o sol entrou pela janela
 Porque o café estava bom
 Porque estou viva e bela
@@ -5919,7 +5919,7 @@ I was already here
 I always was`,
 
   // ─────────────────────────────────────────────
-  // RESSONANCIA (despertar colectivo)
+  // RESSONANCIA (despertar coletivo)
   // ─────────────────────────────────────────────
 
   "incenso-ressonancia/1": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -6258,9 +6258,9 @@ Agora ecoa como um mar
 
 [Chorus]
 Todas
-O sim colectivo
+O sim coletivo
 Todas
-O acto mais vivo
+O ato mais vivo
 Não somos soldadas, somos danças
 Não é raiva, é chegada
 O trovão das nossas danças
@@ -6274,9 +6274,9 @@ Agora cantam com liberdade
 
 [Chorus]
 Todas
-O sim colectivo
+O sim coletivo
 Todas
-O acto mais vivo
+O ato mais vivo
 Não somos soldadas, somos danças
 Não é raiva, é chegada
 O trovão das nossas danças
@@ -6304,7 +6304,7 @@ Todas juntas`,
 [Verse 1]
 O último azul antes do preto
 O céu segura a respiração
-As formas existem sem projecto
+As formas existem sem projeto
 Entre a luz é a escuridão
 
 [Verse 2]
@@ -6956,7 +6956,7 @@ Because I lived`,
 O vinho novo é verde e impaciente
 Tropeça na língua, não sabe esperar
 O vinho velho é calmo e tem corpo
-Sabe exactamente quando falar
+Sabe exatamente quando falar
 
 [Verse 2]
 Não me comparem a um fruto de verão
@@ -7278,7 +7278,7 @@ Sei que valeu — por quem
 
 [Chorus]
 Mesa posta — é dignidade
-Mesa posta — é amor em acção
+Mesa posta — é amor em ação
 Não importa se é simples
 Se é arroz ou se é pão
 Mesa posta — é dizer
@@ -7791,14 +7791,14 @@ E o polegar continua
 Sem saber porquê
 Scroll — larga
 Scroll — olha para cima
-O tecto é mais bonito
+O teto é mais bonito
 Do que qualquer timeline
 
 [Outro]
 Larguei
 O telefone
 E encontrei
-O tecto
+O teto
 E o silêncio`,
 
   "grao-ecra/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -8059,7 +8059,7 @@ Que vale a pena abrir
 
 [Chorus]
 Olhos nos olhos — a revolução mais simples
-Olhos nos olhos — o acto mais radical
+Olhos nos olhos — o ato mais radical
 Num mundo de ecrãs
 Olhar para alguém
 É o mais bonito dos sinais

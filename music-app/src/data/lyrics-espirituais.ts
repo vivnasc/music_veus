@@ -218,7 +218,7 @@ só a coragem de mergulhar
 [Verse 2]
 A água cobre-me a cabeça
 o silêncio é o mais antigo
-não há vela nem baptismo
+não há vela nem batismo
 só o corpo como abrigo
 
 [Chorus]
@@ -2385,7 +2385,7 @@ O que pulsa o que é amado
 [Verse 2]
 Não foram feitas de pedra
 Mas aguentam tudo o que peso
-A arquitectura mais antiga
+A arquitetura mais antiga
 Vive dentro deste peito
 
 [Chorus]
@@ -2410,7 +2410,7 @@ O coração não tem porta — tem osso
 (African accent Portuguese:)
 Quantas vezes curvei o corpo
 Quantas vezes o osso aguentou
-Não foi tecto nem parede
+Não foi teto nem parede
 Foi este arco que me salvou
 
 [Outro]
@@ -2615,7 +2615,7 @@ não há vergonha nesta repetição
 O inverno vive dentro de mim quatro semanas
 o verão regressa sem pedir licença
 a dor que vem não é castigo, não é drama
-e o peso exacto de quem cria existência
+e o peso exato de quem cria existência
 
 [Chorus]
 Sangue e lua, sangue e lua
@@ -3032,7 +3032,7 @@ And maybe that's the point`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Dar não é um acto de coragem
+Dar não é um ato de coragem
 Não é título nem lição
 É a mão que pousa o pão na mesa
 Sem discurso, sem comoção
@@ -3827,7 +3827,7 @@ E pus a mão no peito — parei
 [Chorus]
 O altar é aqui — sempre esteve aqui
 Dentro do peito — não no edifício
-O sagrado não precisa de tecto
+O sagrado não precisa de teto
 O altar sou eu — esse é o início
 
 [Verse 3]
@@ -3839,7 +3839,7 @@ Para entrar na minha catedral
 [Chorus]
 O altar é aqui — sempre esteve aqui
 Dentro do peito — não no edifício
-O sagrado não precisa de tecto
+O sagrado não precisa de teto
 O altar sou eu — esse é o início
 
 [Bridge]
@@ -4075,7 +4075,7 @@ O corpo inteiro feito de segurar
 cada músculo uma suplicação
 
 [Verse 2]
-Seguro o tecto com os ombros curvados
+Seguro o teto com os ombros curvados
 Seguro o chão com os joelhos no chão
 Seguro o ar nos pulmões contraídos
 como se largar fosse a minha traição
@@ -4329,7 +4329,7 @@ Não precisa de igreja
 não precisa de altar
 A água cai sobre o justo
 e sobre quem não sabe rezar
-O baptismo é de barro
+O batismo é de barro
 de cabelo colado à pele
 De roupa encharcada e riso
 de quem já não foge de si mesma
@@ -4449,7 +4449,7 @@ sou de mim o que me convém`,
 O alho parte entre os dedos
 o azeite aquece na mão
 O sal não pede licença
-cai como quem sabe a direcção
+cai como quem sabe a direção
 
 [Verse 2]
 A cebola chora por mim
@@ -5047,7 +5047,7 @@ fico`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Não tem tecto nem campainha
+Não tem teto nem campainha
 não tem vitral nem altar de pedra
 Só o peito aberto na escuridão
 e o silêncio que nele se entrega
@@ -5059,8 +5059,8 @@ tinha o espaço entre respirações
 e uma luz que nenhuma vela trave
 
 [Chorus]
-Catedral interior — sem arquitecto
-Catedral interior — sem projecto
+Catedral interior — sem arquiteto
+Catedral interior — sem projeto
 A nave é o meu peito a se abrir
 o altar é o meu centro quieto
 Catedral que não precisa de ser vista
@@ -5073,8 +5073,8 @@ Sentei no chão de pedra do meu corpo
 e encontrei o que não tem exemplo
 
 [Chorus]
-Catedral interior — sem arquitecto
-Catedral interior — sem projecto
+Catedral interior — sem arquiteto
+Catedral interior — sem projeto
 A nave é o meu peito a se abrir
 o altar é o meu centro quieto
 Catedral que não precisa de ser vista
@@ -6148,7 +6148,7 @@ Muda tudo
 Não foi um riso perfeito
 Foi um som entre o espanto e o ar
 Como se o mundo todo coubesse
-No acto mais simples de amar
+No ato mais simples de amar
 
 [Chorus]
 A primeira gargalhada
@@ -6166,7 +6166,7 @@ Muda tudo
 
 [Bridge]
 Ris-te de quê, meu amor?
-Do tecto? Da luz? Do meu nariz?
+Do teto? Da luz? Do meu nariz?
 Não importa a razão
 Importa que já sabes
 O que é ser feliz
@@ -6278,7 +6278,7 @@ E que come o que eu como
 A cama é um país
 De onde não consigo emigrar
 Os lençóis prendem-me os pés
-E o tecto é tudo o que sei olhar
+E o teto é tudo o que sei olhar
 
 [Chorus]
 Não consigo — e não preciso de explicar

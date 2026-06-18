@@ -137,7 +137,7 @@ E eu continuei a cozinhar
 
 [Chorus]
 Fazer o jantar naquele dia
-Foi o acto mais corajoso da minha vida
+Foi o ato mais corajoso da minha vida
 Ninguém vai escrever sobre isso
 Ninguém vai saber
 Mas eu pus a comida na mesa
@@ -153,7 +153,7 @@ E sentei no chão
 
 [Chorus]
 Fazer o jantar naquele dia
-Foi o acto mais corajoso da minha vida
+Foi o ato mais corajoso da minha vida
 Pus a comida na mesa
 Com o coração partido ao meio
 
@@ -2638,7 +2638,7 @@ O primeiro apartamento meu
 Onde o cheiro é só meu
 Onde as regras são só minhas
 Onde acordo e o dia
-Começa exactamente como eu quero
+Começa exatamente como eu quero
 O primeiro apartamento meu
 É o maior presente
 Que já me dei
@@ -3372,7 +3372,7 @@ Sem desculpa
 Sem apologia
 Sem verificar se está bem
 Sem pedir licença
-Para ser exactamente
+Para ser exatamente
 O que sou
 
 [Verse 3]
@@ -3385,7 +3385,7 @@ Como sempre devia ter sido
 
 [Chorus]
 Sem pedir licença
-Para ser exactamente o que sou
+Para ser exatamente o que sou
 
 [Bridge]
 O espaço que eu ocupo

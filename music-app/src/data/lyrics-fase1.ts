@@ -41,7 +41,7 @@ Neste gesto de existir
 [Pre-Chorus: voice opens slightly, breath audible]
 Um pé de cada vez no chão
 O ar sabe o que fazer
-Não peças à mente a direcção
+Não peças à mente a direção
 Deixa o corpo conduzir
 
 [Chorus: 3-voice airy harmony enters, sub bass joins, no kick]
@@ -262,7 +262,7 @@ Encontra o centro
 E o corpo é o próprio salmo
 
 [Outro: vocal soft, fading, last line spoken]
-Aqui, exactamente aqui
+Aqui, exatamente aqui
 Não à frente nem atrás
 O centro és tu
 E tu és capaz
@@ -377,9 +377,9 @@ As costas entregam o peso
 De dias que não larguei a tempo
 Cada vértebra é um regresso
 A um corpo antes do pensamento
-O tecto lá em cima é branco
+O teto lá em cima é branco
 E eu aqui em baixo sou pequena
-Mas neste exacto flanco
+Mas neste exato flanco
 O pequeno é o que me serena
 
 [Pre-Chorus: voice opens slightly, still horizontal]
@@ -1065,7 +1065,7 @@ E neste copo mora outra hora
 O vidro contra a luz da vela
 Desenha sombras cor de vinho
 E a noite torna-se mais bela
-No exacto instante em que a bebo sozinha
+No exato instante em que a bebo sozinha
 
 [Verse 2]
 Tinto ou branco não importa
@@ -1623,7 +1623,7 @@ Que cada brinde é o mais leve
 Brinde ao que vem
 Brinde ao que foi
 Brinde — a nós
-Exactamente como somos
+Exatamente como somos
 
 [Outro]
 A nós
@@ -2249,7 +2249,7 @@ Como se fosse a última estação
 A felicidade é assim
 Pequena, fria, temporária
 Derrete antes de chegar ao fim
-Mas é exactamente necessária
+Mas é exatamente necessária
 
 [Chorus]
 Gelado na praia
@@ -2444,7 +2444,7 @@ O mundo não tem forma
 Não há pressa de ir embora
 Não há razão para sair
 A noite de verão demora
-Exactamente para nos deixar sentir
+Exatamente para nos deixar sentir
 Que há noites que são perfeitas
 Não por serem planeadas
 Mas por serem imperfeitas
@@ -3393,8 +3393,8 @@ Ou posso abrir a janela e começar
 
 [Verse 2]
 Não é obrigação nem heroísmo
-É só uma escolha pequena e exacta
-Levantar é um acto de optimismo
+É só uma escolha pequena e exata
+Levantar é um ato de optimismo
 Que o corpo faz antes de a mente se adapta
 
 [Pre-Chorus]
@@ -3554,7 +3554,7 @@ Café, o ritual que não falha
 Café, a primeira medalha
 Do dia que começa agora
 Com este gole que demora
-Exactamente o tempo certo
+Exatamente o tempo certo
 Entre o sonho e o despertar aberto
 É sagrado este momento
 De café e contentamento
@@ -3879,7 +3879,7 @@ De pôr o caos mais quedo
 E navegar o que sonhei
 
 [Chorus]
-A lista é um acto de amor
+A lista é um ato de amor
 Pelo dia que ainda vem
 A lista é um pequeno favor
 Que faço a mim e a mais ninguém
@@ -3899,7 +3899,7 @@ E entre o breve e o miúdo
 Cabe o essencial
 
 [Chorus]
-A lista é um acto de amor
+A lista é um ato de amor
 Pelo dia que ainda vem
 A lista é um pequeno favor
 Que faço a mim e a mais ninguém
@@ -3915,7 +3915,7 @@ Eu herdei o caderno nervoso
 Mas aprendi a ser menos mudo
 
 [Chorus]
-A lista é um acto de amor
+A lista é um ato de amor
 O papel mais honesto que tenho
 
 [Outro]
@@ -6460,7 +6460,7 @@ Deslizo sem fazer barulho
 A água envolve sem pressa
 Este silêncio é um orgulho
 Que o inverno me confessa
-As luzes reflectem no tecto
+As luzes reflectem no teto
 Ondas de luz a dançar
 O momento é tão perfeito
 Que dói só de pensar em parar
@@ -6804,7 +6804,7 @@ Do ritual que me construi
 Aquecimento, aquecimento
 O corpo pede permissão
 Aquecimento, o primeiro momento
-Entre a vontade e a acção
+Entre a vontade e a ação
 Ainda não é treino
 Mas já é caminho
 O corpo acorda devagar
@@ -6824,7 +6824,7 @@ Que me prepara para o que vem de si
 Aquecimento, aquecimento
 O corpo pede permissão
 Aquecimento, o primeiro momento
-Entre a vontade e a acção
+Entre a vontade e a ação
 Ainda não é treino
 Mas já é caminho
 
@@ -7162,7 +7162,7 @@ Eu escolhi o ferro para me lavar
 Das coisas que me inspiram — medo
 
 [Chorus]
-Suor, o baptismo do ferro
+Suor, o batismo do ferro
 Suor, o que a água não lava
 Suor, não há nenhum erro
 Em transpirar o que me agrava
@@ -7182,7 +7182,7 @@ Mas o peso que carreguei calado
 Já não é meu — é do suor frio
 
 [Chorus]
-Suor, o baptismo do ferro
+Suor, o batismo do ferro
 Suor, o que a água não lava
 Suor, não há nenhum erro
 Em transpirar o que me agrava
@@ -7201,7 +7201,7 @@ De transformar a mágoa
 Em algo que se evaporou
 
 [Chorus]
-Suor, o baptismo do ferro
+Suor, o batismo do ferro
 Suor, o que a água não lava
 Cada gota é uma carta
 Que o corpo escreve e descarta
@@ -7538,7 +7538,7 @@ Trata-se de ir
 Trata-se de estar no sítio
 Quando o corpo diz que não
 De transformar o desperdício
-De um dia mau em acção
+De um dia mau em ação
 
 [Chorus]
 Ferro e fé, ferro e fé
@@ -8057,7 +8057,7 @@ São as que mais persistem
 A brisa não pede licença
 A brisa entra e acalma
 A brisa é uma presença
-Que chega directa à alma
+Que chega direta à alma
 Sem forçar, sem empurrar
 Só chegar e melhorar
 A pele arrepia suave
@@ -8078,7 +8078,7 @@ O mundo faz-me uma festa
 A brisa não pede licença
 A brisa entra e acalma
 A brisa é uma presença
-Que chega directa à alma
+Que chega direta à alma
 Sem forçar, sem empurrar
 Só chegar e melhorar
 

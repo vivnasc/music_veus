@@ -862,7 +862,7 @@ Antes do ouvido dar o veredicto
 Os joelhos dobram sozinhos
 As ancas encontram o ritmo
 Como pássaros nos seus ninhos
-O corpo regressa ao seu baptismo
+O corpo regressa ao seu batismo
 
 [Pre-Chorus]
 Não penses, não planeies
@@ -1517,7 +1517,7 @@ Depois muda sem ninguém mandar
 De um tempo antes de pensar
 Os pés batem no mesmo ritmo
 Cem corações num só tambor
-E a roda é um baptismo
+E a roda é um batismo
 De suor e de calor
 
 [Pre-Chorus]
@@ -1531,7 +1531,7 @@ A roda gira e nós giramos
 A roda canta e nós cantamos
 Juntos somos o que buscamos
 Sozinhos nunca encontramos
-Esta alegria colectiva
+Esta alegria coletiva
 Esta união sem contrato
 Esta coisa primitiva
 De dançar como um só retrato
@@ -2214,7 +2214,7 @@ Vem dentro de cada inspiração
 [Chorus]
 A dádiva de estar vivo
 É o presente que ninguém embrulhou
-Está aqui, está activo
+Está aqui, está ativo
 Em cada dia que chegou
 Sem garantia nem devolução
 Sem recibo e sem prazo
@@ -2234,7 +2234,7 @@ De um milagre que vibra
 [Chorus]
 A dádiva de estar vivo
 É um fogo que não precisa de fósforo
-Está aqui, está activo
+Está aqui, está ativo
 No teu sangue e no teu fósforo
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, choir hums softly underneath]
@@ -3029,7 +3029,7 @@ Com a vergonha de quem não serve
 O pé descalço que importa
 É o que sente a erva e se atreve
 A pisar as poças de inverno
-Com a seriedade de um baptismo
+Com a seriedade de um batismo
 Cada pé é um governo
 De um pequeno reino sem catecismo
 
@@ -4213,7 +4213,7 @@ Que sobrevive a toda a ambulância
 
 [Chorus]
 Mesmo sangue, mesmo chão
-Mesmo tecto sobre a cabeça
+Mesmo teto sobre a cabeça
 Mesmo sangue, mesma mão
 Que bate e que depois endireça
 Somos o espelho um do outro
@@ -4452,13 +4452,13 @@ We'll be alright — and we moved on
 With nothing but the words you fed
 
 [Pre-Chorus]
-A protector never tells you
+A protetor never tells you
 What it cost to hold the line
 They just keep standing where they fell
 And pretend that they are fine
 
 [Chorus]
-Protector, older, braver one
+Protetor, older, braver one
 Who carried more than any child should bear
 You held the weight beneath the sun
 And made it look like you didn't care
@@ -4478,7 +4478,7 @@ And everything that you erected
 Was still holding in my hands
 
 [Chorus]
-Protector, thank you for the shield
+Protetor, thank you for the shield
 Thank you for the years between
 The world and me — you never yield
 To anything that might have been
@@ -4490,11 +4490,11 @@ That you became the one who'd dare
 To take the blame for someone else's crime
 But everything you gave to me
 Lives on in how I love my own
-The protector that you used to be
+The protetor that you used to be
 Is the reason I have grown
 
 [Chorus]
-Protector, I see you now
+Protetor, I see you now
 Not as the giant from before
 But as a child who made a vow
 To guard a smaller heart's front door
@@ -4590,7 +4590,7 @@ Na voz que não tem culpa
 Irmão, irmã, sangue meu
 A distância não muda o facto
 De que metade do que sou és tu
-E isso não tem contracto`,
+E isso não tem contrato`,
 
   "sangue-mesmo-sangue/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -4686,7 +4686,7 @@ De um ano que foi um açoite
 Os irmãos chegam aos poucos
 Com filhos que cresceram um metro
 E os olhares menos loucos
-Do que quando dormíamos no mesmo tecto
+Do que quando dormíamos no mesmo teto
 
 [Verse 2]
 Tu sentas-te onde sempre sentaste
@@ -5557,7 +5557,7 @@ Perdoo-te com a mão
 Que tu nunca me deste — mas eu dou
 
 [Bridge]
-O perdão é um acto do corpo
+O perdão é um ato do corpo
 Não da mente que analisa
 É soltar o morto e o corpo
 Que ficou preso na divisa
@@ -5684,7 +5684,7 @@ Era o som de alguém a cortar
 O meu pai na ponta da mesa
 Com o rosto dentro do prato
 A minha mãe numa tristeza
-Disfarçada de acto e tacto
+Disfarçada de ato e tacto
 Eu no meio com o garfo
 A desenhar nos restos de arroz
 As palavras que em vão embarco
@@ -6023,7 +6023,7 @@ E a coragem de quem vai e de quem vem
 [Verse 2]
 A mochila tem um bolso secreto
 Onde guardei uma carta
-Que a minha avó com todo o afecto
+Que a minha avó com todo o afeto
 Escreveu antes da partida farta
 Dizia: não te esqueças de comer
 E de ligar às terças e aos domingos
@@ -6059,7 +6059,7 @@ De memórias que eu trouxe e que eu gastei
 [Chorus]
 A mochila não era o destino
 Era o caminho em forma de saco
-Cada objecto era um hino
+Cada objeto era um hino
 Ao que eu era antes de cada impacto
 
 [Bridge]
@@ -6402,7 +6402,7 @@ Mais bonita do que o custo
 
 [Chorus]
 A primeira conta — nunca esqueci
-O valor exacto e o dia
+O valor exato e o dia
 Porque nesse dia eu cresci
 De uma forma que não sabia
 
@@ -6918,7 +6918,7 @@ Que sou igual a ela assim
 E eu saio do quarto devagar
 Com o vestido a sussurrar
 Que tudo vai ficar
-Exactamente como deve estar`,
+Exatamente como deve estar`,
 
   "grao-no-de-ouro/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -7312,12 +7312,12 @@ A life with someone else's bread
 [Bridge]
 The weddings in the movies end
 With a kiss and then the credits roll
-But the actual love begins to bend
+But the atual love begins to bend
 Around the ordinary soul
 Of laundry, taxes, parent meetings
 Flat tyres, flu, and overcooked rice
 And every one of these small greetings
-Is forever — at its actual price
+Is forever — at its atual price
 
 [Chorus]
 Forever is not a mountain
@@ -7360,7 +7360,7 @@ E a doçura é a armadura
 Do que acabou de ser unido
 
 [Pre-Chorus]
-Cortar o bolo é o primeiro acto
+Cortar o bolo é o primeiro ato
 De fazer juntos uma coisa
 É o primeiro artefacto
 De uma vida a dois — e preciosa
@@ -7585,7 +7585,7 @@ A aparecer no azul escuro
 Vou ficar até que parem
 De me chamar para o futuro
 A varanda quente é o agora
-É o exacto sítio onde quero estar
+É o exato sítio onde quero estar
 E o tempo que aqui demora
 É o tempo de respirar`,
 
@@ -8018,7 +8018,7 @@ Companhia que a varanda me dá
 [Verse 2]
 O vinho sabe a verão
 A fruta e o sal e a preguiça
-É o sabor da não-acção
+É o sabor da não-ação
 De quem não tem hora nem cobiça
 O primeiro gole desce lento
 Como um beijo que demora
@@ -8194,7 +8194,7 @@ As estrelas não se apressam
 Aparecem quando é hora
 E cada uma interessa
 Porque cada uma mora
-No seu ponto exacto
+No seu ponto exato
 
 [Chorus]
 As estrelas uma a uma
@@ -8217,9 +8217,9 @@ Mas que são os mais juntos
 Vizinhos que me aquecem
 
 [Chorus]
-As estrelas são o meu tecto
+As estrelas são o meu teto
 Quando a varanda é o meu chão
-E o espectáculo mais directo
+E o espectáculo mais direto
 Que Deus ou o acaso me dão
 
 [Bridge]

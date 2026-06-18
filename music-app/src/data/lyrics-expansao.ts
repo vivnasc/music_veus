@@ -2149,7 +2149,7 @@ okay`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O tecto tem fissuras que só eu conheço
+O teto tem fissuras que só eu conheço
 sei o mapa delas de cor
 São três da manhã e o corpo não desliga
 o relógio é um torturador
@@ -2174,11 +2174,11 @@ em que me oiço sem o tom
 O silêncio das três da manhã
 não é paz — é um amplificador
 Cada pensamento soa a trovão
-cada memória é um projector
+cada memória é um projetor
 
 [Outro]
 Três e quinze
-e o tecto continua
+e o teto continua
 e eu continuo
 e a noite continua
 e nada pára
@@ -2330,7 +2330,7 @@ que o sono vem se eu fizer o açoite
 Fico aqui deitada e aceito
 que hoje a noite é maior do que eu
 Fico aqui — sem luta, sem pressa
-com o tecto como meu museu
+com o teto como meu museu
 
 [Bridge]
 Talvez o sono não seja o ponto
@@ -2399,7 +2399,7 @@ at four`,
 Ouço a respiração de toda a casa
 o cão que sonha, a máquina que zumbe
 O frigorífico é um órgão de catedral
-que ninguém ouve — excepto quem não dorme
+que ninguém ouve — exceto quem não dorme
 
 [Verse 2]
 Cada som é uma companhia estranha
@@ -3268,7 +3268,7 @@ Mesa para uma — o primeiro brinde
 a mim — só a mim — por me escolher
 
 [Bridge]
-O jantar sozinha é um acto político
+O jantar sozinha é um ato político
 quando passaste a vida a servir
 Sentar, comer, saborear
 sem ninguém para aplaudir
@@ -3353,7 +3353,7 @@ quando estava pronto — não quando eu mandei
 
 [Bridge]
 A planta não se compara com a árvore ao lado
-cresce ao seu ritmo, na sua direcção
+cresce ao seu ritmo, na sua direção
 E eu olho para ela na janela
 e aprendo a mesma lição
 

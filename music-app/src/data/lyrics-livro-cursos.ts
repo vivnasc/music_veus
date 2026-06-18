@@ -17,7 +17,7 @@ export const LIVRO_LYRICS: Record<string, string> = {
 
   "livro-filosofico/1": `[Verse 1]
 Há uma porta que não se vê
-no centro exacto do teu peito
+no centro exato do teu peito
 Ninguém te disse que existia
 ninguém te ensinou o seu jeito
 
@@ -172,13 +172,13 @@ mora na crença de que nunca basta o pão
 [Chorus]
 Para — não há nada a conquistar
 A plenitude não é uma meta
-Está aqui, no exacto lugar
+Está aqui, no exato lugar
 onde largaste a bicicleta
 
 [Chorus]
 Para — não há nada a conquistar
 A plenitude não é uma meta
-Está aqui, no exacto lugar
+Está aqui, no exato lugar
 onde largaste a bicicleta
 
 [Bridge]
@@ -527,13 +527,13 @@ para tudo o que criaste
 [Chorus]
 O novo espelho não distorce
 não te pede que sejas mais
-Reflecte exactamente o que es
+Reflecte exatamente o que es
 e o que es já e de mais
 
 [Chorus]
 O novo espelho não distorce
 não te pede que sejas mais
-Reflecte exactamente o que es
+Reflecte exatamente o que es
 e o que es já e de mais
 
 [Bridge]
@@ -1077,8 +1077,8 @@ you're the version that the flames believed through`,
 [Verse 1]
 O nevoeiro e tão espesso
 que as mãos não veem os dedos
-Cada passo é um acto de fé
-cada direcção um segredo
+Cada passo é um ato de fé
+cada direção um segredo
 
 [Verse 2]
 Ficas parada no cruzamento
@@ -1483,13 +1483,13 @@ A porta ensina-te a diferença
 entre o amor é a ferida crua
 
 [Chorus]
-A porta e o acto mais sagrado
+A porta e o ato mais sagrado
 decidir quem entra, quem fica
 Não é rejeição, não é castigo
 e a escolha de quem cuida
 
 [Chorus]
-A porta e o acto mais sagrado
+A porta e o ato mais sagrado
 decidir quem entra, quem fica
 Não é rejeição, não é castigo
 e a escolha de quem cuida
@@ -3494,7 +3494,7 @@ cada sabor é uma promessa
 [Verse 2]
 O corpo não é inimigo
 o apetite não é defeito
-Comer é um acto de amor
+Comer é um ato de amor
 quando e feito com respeito
 
 [Chorus]
