@@ -332,8 +332,6 @@ And even silence needs the room
 Let me hold you
 Not to fix
 Not to keep
-Just to hold
-Just to hold
 Just to hold`,
 
   "nua-romance/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
@@ -1518,7 +1516,6 @@ Quando já só sabe amar
 Chá para dois
 Só estou eu
 Mas o gesto
-Ainda é teu
 Ainda é teu`,
 
   "nua-saudade/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -2465,7 +2462,6 @@ And the ordinary sane
 
 [Outro]
 Ordinary
-Ordinary
 The most extraordinary
 Word I know`,
 
@@ -2797,7 +2793,6 @@ Made at seven AM
 With the coffee and precision
 
 [Outro]
-Still choosing
 Still choosing
 Every day
 Every fight

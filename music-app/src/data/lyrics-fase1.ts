@@ -1372,7 +1372,6 @@ Through the meal we spoke
 [Outro]
 Pull up a chair
 There's always room
-There's always room
 For one more plate
 One more story
 One more chance

@@ -311,7 +311,6 @@ e a força delas não me deixa recuar
 Mãe da minha mãe
 da mãe da minha mãe
 eu estou de pé
-eu estou de pé
 eu estou de pé por vocês`,
 
   "incenso-travessia/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -1558,7 +1557,6 @@ One red point against the endless night
 
 [Outro: vocal exhaled, fading, last word whispered]
 Ember
-Still here
 Still here
 Warm to the touch
 still here...`,
@@ -2811,7 +2809,6 @@ the face beneath the face I play
 
 [Outro]
 There you are
-still here
 still here
 still yours`,
 
@@ -6623,7 +6620,6 @@ It's just on its way
 [Outro]
 Light
 Returns
-Always
 Always
 Returns`,
 

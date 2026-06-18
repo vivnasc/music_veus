@@ -409,7 +409,6 @@ No ending
 No arriving
 Just the beautiful lie
 Of one more step
-And one more
 And one more`,
 
   "fibra-km-dourados/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -939,8 +938,6 @@ Heartbeat, heartbeat
 The proof that something in me cares
 
 [Outro]
-I'm here
-I'm here
 I'm here
 Says every beat
 I never asked for

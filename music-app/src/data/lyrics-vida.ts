@@ -210,8 +210,6 @@ Mais longe do que o medo me prediz
 
 [Outro]
 Mais uma
-Mais uma
-Mais uma
 Sempre mais uma`,
 
   "fibra-sangue-aceso/6": `[Verse 1]
@@ -260,7 +258,6 @@ And is patiently celebrating
 
 [Outro]
 One more step
-One more
 One more
 Through the wall`,
 
@@ -760,7 +757,6 @@ Um caminho de orgulho
 Entre mim e o após
 
 [Outro]
-Segue o fio
 Segue o fio`,
 
   "grao-o-tear/2": `[Verse 1]
@@ -1070,7 +1066,6 @@ You don't need to hold it all
 Just lay your head upon your chest
 
 [Outro]
-Close now
 Close now
 Let them fall`,
 
@@ -2200,7 +2195,6 @@ O último milimetro e o verso
 Que eu nunca soube de cor até agora não
 
 [Outro]
-Mais perto
 Mais perto`,
 
   "nua-corpo-a-corpo/2": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
@@ -4129,7 +4123,6 @@ where the ancestors return
 
 [Outro — female, Mozambican English pronunciation, hard consonants]
 I am not alone in this skin
-I am not alone in this skin
 I am crowded with everyone
 who made the road that ends in me`,
 
@@ -4393,7 +4386,6 @@ saving what I do not need to save again
 [Outro - Mozambican English pronunciation, hard consonants, no American, no British]
 Enough
 enough
-enough
 today is enough`,
 
   "sangue-linhagem/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -4596,7 +4588,6 @@ e eu nunca o conheci
 [Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
 Pai
 pai
-pai
 também és linhagem
 também és raiz`,
 
@@ -4665,7 +4656,6 @@ to wet
 
 [Outro - Mozambican English pronunciation, hard consonants, no American, no British]
 Forward
-forward
 forward
 through anyone
 who will receive`,
