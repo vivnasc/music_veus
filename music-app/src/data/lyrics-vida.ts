@@ -3257,246 +3257,439 @@ I am enough`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A água quente bate na nuca
-O corpo curva-se de alívio
-O vapor sobe como uma fuga
-De tudo o que foi um desvio
+A torneira range no chuveiro de azulejo
+O vapor sobe pela cortina às riscas
+A nuca recebe o primeiro fio quente
+A omoplata desce um dedo pelas costas
+O sabonete na prateleira de zinco
+Espera com a sua marca já meio gasta
+A clavícula encontra o jacto que abre
+O tornozelo fica firme no tapete
 
 [Verse 2]
-Os músculos soltam um a um
-Como nós que se desfazem
-A água lava o que é comum
-E transforma em algo que me fazem
+Os ombros descem da posição do dia
+O queixo solta-se da boca apertada
+A gengiva afrouxa sem eu mandar
+O pulso pousa contra a parede fria
+A água escorre pelo esterno até à anca
+Os dedos do pé sentem o esgoto morno
+A pálpebra fecha por um segundo só
+E o joelho dobra-se contra a outra perna
+
+[Pre-Chorus]
+O dia inteiro cabe nesta meia hora
+Antes de o lençol e o jantar chamarem
+Antes da cozinha pedir mais um gesto
 
 [Chorus]
-A água quente
-A primeira gentileza
-A água quente
-Cura qualquer aspereza
-Não preciso de mais nada
-Que este vapor e esta pele
-A água é a mais sagrada
-Das coisas que o corpo pede
+O chuveiro tem o relógio parado
+A têmpora desencosta da semana
+O ombro esquerdo lembra-se que existe
+O ombro direito segue o mesmo aviso
+A palma da mão escorrega pelo braço
+O sabão faz espuma na dobra do cotovelo
+A costela conta cada respiração nova
+E a pele agradece em voz baixa de vapor
 
+[Verse 3]
+O dente solta a pressão da tarde
+A língua descansa atrás dos lábios
+O cabelo molhado pesa sobre a nuca
+Como uma toalha que ainda não chegou
+A perna direita pousa contra a esquerda
+A planta do pé toca o resvalo do chão
+Os azulejos brancos guardam o som
+De uma mulher que voltou para dentro
 
 [Chorus]
-A água quente
-A primeira gentileza
-A água quente
-Cura qualquer aspereza
-Não preciso de mais nada
-Que este vapor e esta pele
-A água é a mais sagrada
-Das coisas que o corpo pede
+O chuveiro tem o relógio parado
+A têmpora desencosta da semana
+O ombro esquerdo lembra-se que existe
+O ombro direito segue o mesmo aviso
+A palma da mão escorrega pelo braço
+O sabão faz espuma na dobra do cotovelo
+A costela conta cada respiração nova
+E a pele agradece em voz baixa de vapor
+
+[Bridge]
+A toalha à espera no gancho da porta
+A camisola dobrada em cima da cadeira
+O chinelo no canto, paciente, sem pressa
+A cozinha lá fora com o café por fazer
+A janela do quarto com a luz a baixar
 
 [Outro]
-Água quente
-A mais simples oração`,
+Fecho a torneira, fica o vapor
+Pego na toalha sem olhar
+Saio com o ombro descido
+Com a anca solta na curva
+Volto à cozinha de outra mulher`,
 
   "grao-porcelana/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The jar opens, the scent arrives
-A signal that the day is done
-My fingers dip, my skin revives
-A ceremony begun
+The cream jar opens by the porcelain sink
+The label peels a little on one side
+My fingertip dips down into the pink
+A thumbprint left on glass like a small tide
+The mirror keeps the bathroom light up close
+The brush rests with the toothpaste on a shelf
+The hand towel hangs from a brass hook
+Folded by a slower version of myself
 
 [Verse 2]
-The mirror, then the brush, the cream
-Each gesture placed with care
-A ritual made of steam
-And time I choose to spare
+The chin lifts, the cheekbone catches glow
+The eyelid closes for the dab of balm
+The collarbone receives a drop or two
+The wrist completes the circle on the palm
+The shoulder drops one notch from the long day
+The jawbone slackens from a meeting held
+The earlobe finds the fingertip's small weight
+The neck remembers what the spine has spelled
+
+[Pre-Chorus]
+No one is watching from the hallway tonight
+No one is keeping score on what I've done
+The bathroom holds the steam of the bathtub
+The kitchen waits with one lamp on
 
 [Chorus]
-Ceremony, ceremony
-The small daily prayer
-Ceremony, ceremony
-Of tending what is there
-No audience, no stage
-Just the bathroom and the light
-This body at this age
-Deserving of the night
+The porcelain sink, the marble of the counter
+The wood of the small stool beside the door
+The bathmat folded on the radiator
+The bottle standing at the mirror's floor
+The lip receives the balm, the tongue stays still
+The cuticle gets pressed back with the nail
+The fingernail goes shorter by a curve
+The hair gets parted slowly, strand by strand
 
+[Verse 3]
+A drawer opens on a slow oiled hinge
+The hand finds rosewater in a small brown bottle
+A drop falls on the temple, then the throat
+The wrist gets perfumed by the same gentle nozzle
+The light above the mirror hums a little
+The taps drip once into the white basin
+The hand cream stays beside the toothbrush cup
+The shoulder warms inside the cotton sleeve
 
 [Chorus]
-Ceremony, ceremony
-The small daily prayer
-Ceremony, ceremony
-Of tending what is there
-No audience, no stage
-Just the bathroom and the light
-This body at this age
-Deserving of the night
+The porcelain sink, the marble of the counter
+The wood of the small stool beside the door
+The bathmat folded on the radiator
+The bottle standing at the mirror's floor
+The lip receives the balm, the tongue stays still
+The cuticle gets pressed back with the nail
+The fingernail goes shorter by a curve
+The hair gets parted slowly, strand by strand
+
+[Bridge]
+The window is dark behind the bathroom blind
+The kitchen clock ticks faintly down the hall
+The cat is somewhere on a kitchen chair
+A glass of water waits beside the bed
+A book lies open at a marked-up page
 
 [Outro]
-The small ceremony
-That nobody sees`,
+I close the cream jar with both hands
+I switch the bathroom light to half
+I walk towards the bedroom in bare feet
+I pull the sheet up to my collarbone
+I sleep inside the small house I have kept`,
 
   "grao-porcelana/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-As mãos passam creme no braco
-Com a mesma atenção que dou a outros
-O cotovelo, o pulso, o laco
-Entre mim e os meus proprios encontros
+O frasco de creme em cima da cómoda
+A tampa de plástico azul-claro gasta
+A palma da mão recebe um bocado
+O dedo médio começa pela palma
+A outra mão espera o seu turno calmo
+O cotovelo apoia na borda da mesa
+A pele do antebraço bebe a primeira camada
+A clavícula ainda dorme dentro da camisola
 
 [Verse 2]
-Nunca me toquei assim
-Com intenção e sem pressa
-As minhas mãos cuidam de mim
-Como quem reza sem missa
+O joelho dobra-se no banco de madeira
+A panturrilha recebe o creme com sossego
+O tornozelo descobre uma marca antiga
+De uma queda na cozinha em pequena
+A planta do pé pousa no soalho frio
+O pulso passa pela curva da anca
+A pele guarda o calor de quem foi dura
+E agora aprende uma outra forma de pressa
+
+[Pre-Chorus]
+A cadeira range debaixo do meu peso
+A janela do quarto deixa entrar a rua
+O frasco volta à cómoda meio cheio
 
 [Chorus]
-Creme na pele
-As mãos que cuidam sem pedir
-Creme na pele
-A forma mais gentil de existir
-Tocar-me como se importasse
-Tratar-me como se eu fosse
-Alguém que merecesse que passasse
-As mãos com a mesma doce
+A cómoda de pinho com a marca do copo
+O espelho do roupeiro com a fenda pequena
+O lençol amarrotado na cama por fazer
+A camisola pendurada no encosto da cadeira
+O queixo encosta no ombro a meio do gesto
+A omoplata recebe um pouco do creme que sobra
+A nuca espera com o cabelo apanhado
+E a têmpora vai depois, com a ponta do dedo
 
+[Verse 3]
+A perna esquerda cruza por cima da direita
+A unha do polegar arranha o joelho seco
+O lábio inferior fica entre os dentes
+Enquanto a mão trabalha sem instrução
+A janela tem o estendal a pingar
+O cão do prédio ladra duas vezes ao longe
+O frasco range ao soltar mais um bocado
+A pele agradece em silêncio de algodão
 
 [Chorus]
-Creme na pele
-As mãos que cuidam sem pedir
-Creme na pele
-A forma mais gentil de existir
-Tocar-me como se importasse
-Tratar-me como se eu fosse
-Alguém que merecesse que passasse
-As mãos com a mesma doce
+A cómoda de pinho com a marca do copo
+O espelho do roupeiro com a fenda pequena
+O lençol amarrotado na cama por fazer
+A camisola pendurada no encosto da cadeira
+O queixo encosta no ombro a meio do gesto
+A omoplata recebe um pouco do creme que sobra
+A nuca espera com o cabelo apanhado
+E a têmpora vai depois, com a ponta do dedo
+
+[Bridge]
+A cozinha lá fora com o jantar por fazer
+A varanda com a roupa do dia ainda fora
+A escada do prédio com a luz já a apagar
+O chinelo descalço ao pé da cama
+O telemóvel virado para baixo na mesinha
 
 [Outro]
-Toca com cuidado
-Toca como quem ama`,
+Fecho a tampa azul com os dois polegares
+Pouso o frasco na cómoda, ao lado da fita
+Cruzo as mãos por cima da camisola
+Sinto a pele do braço a brilhar baixinho
+E vou para a cama com a janela aberta`,
 
   "grao-porcelana/4": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I stand before the glass and look
-Not the quick glance of the morning rush
-But the long gaze of an open book
-Without the need to blush
+The bathroom mirror sits above the sink
+A small crack runs across the upper right
+The bulb above the cabinet glows pink
+A toothbrush rests beside a tube held tight
+The collarbone shows up beneath the strap
+The shoulder bears a freckle from one summer
+The pulse along the neck makes the skin tap
+The chin has held a thousand kinds of weather
 
 [Verse 2]
-The lines around my eyes are maps
-Of every laugh and every cry
-The belly soft, perhaps, perhaps
-This is the body that won't lie
+The eyelid carries lines from squinting hard
+The temple holds a vein I never saw
+The lip wears chapped places from the cold
+The ear has heard a great deal raw
+The cheekbone caught a slap when I was seven
+The eyebrow keeps a scar from running fast
+The nose has not been broken but has bent
+The forehead holds a worry from the past
+
+[Pre-Chorus]
+The bathroom door is closed behind my back
+The kitchen radio plays through the wall
+The hallway smells of coffee from the pot
 
 [Chorus]
-The mirror, the mirror
-Without cruelty, without a filter
-The mirror, the mirror
-Shows me I am built, not wilter
-Every mark a story told
-Every curve a chapter lived
-This body growing old
-Is the truest gift I'm given
+The bathroom tile, the porcelain, the brass
+The towel on the rail beside my hip
+The floor mat cool beneath my heel and arch
+The plant beside the window keeps its grip
+The collarbone gets witnessed for one breath
+The belly button gets the same long look
+The shoulder shows the place a strap once bit
+The wrist becomes a page inside a book
 
+[Verse 3]
+The hip bone juts a little to the left
+The knee carries a bruise from yesterday
+The ankle has the swelling of the week
+The toenail catches light along the way
+The thigh has stretch marks like the rivers do
+The calf shows muscle from the kitchen stairs
+The arch falls slightly tired by the night
+The sole presses against the cool small squares
 
 [Chorus]
-The mirror, the mirror
-Without cruelty, without a filter
-The mirror, the mirror
-Shows me I am built, not wilter
-Every mark a story told
-Every curve a chapter lived
-This body growing old
-Is the truest gift I'm given
+The bathroom tile, the porcelain, the brass
+The towel on the rail beside my hip
+The floor mat cool beneath my heel and arch
+The plant beside the window keeps its grip
+The collarbone gets witnessed for one breath
+The belly button gets the same long look
+The shoulder shows the place a strap once bit
+The wrist becomes a page inside a book
+
+[Bridge]
+The kitchen waits with one chair pulled out
+The bed is made up by the window light
+The cat sleeps on a folded shirt by the door
+The book is open at a marked-up page
+The lamp beside the bed is still turned on
 
 [Outro]
-I see you
-And I choose to be kind`,
+I switch the bathroom light off with the thumb
+I walk into the bedroom in bare feet
+I pull the cotton shirt across my chest
+I sit beside the lamp and read one page
+I close the book and sleep in my own room`,
 
   "grao-porcelana/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O elastico sai do cabelo
-O peso cai sobre os ombros
-O couro cabeludo sente o zelo
-De finalmente estar sem escombros
+O elástico está pousado no balcão da cozinha
+Ao lado das chaves do carro e da carteira
+Os dedos passam pela nuca pela primeira vez
+A clavícula sente a queda do cabelo solto
+A têmpora liberta-se da pressão do dia
+O ombro esquerdo desce dois dedos do colete
+O queixo encontra outra forma de ficar parado
+E o pulso pousa no mármore fresco do balcão
 
 [Verse 2]
-Agito a cabeça devagar
-O cabelo dança sem vergonha
-O dia soltou-se a par
-Da máscara e da sua ronha
+A camisola da rua ainda está vestida
+O sapato direito caiu na entrada de casa
+A mala está aberta em cima da mesa
+O telemóvel pisca duas vezes na cadeira
+Os dedos passam pelo couro cabeludo
+A unha do mindinho coça atrás da orelha
+O cotovelo encosta no canto do balcão
+A cozinha guarda o silêncio do regresso
+
+[Pre-Chorus]
+A janela da cozinha mostra o pátio escuro
+A torneira pinga uma vez no lava-loiça
+O frigorífico zumbe ao fundo, paciente
 
 [Chorus]
-Cabelo solto
-O sinal de que o dia acabou
-Cabelo solto
-A mulher que se libertou
-Do que os outros precisam de ver
-Da forma que esperam de mim
-Cabelo solto e ser
-Quem sou quando o publico tem fim
+O balcão de mármore com a marca do copo
+A cadeira de pinho com a almofada gasta
+A mesa redonda com a toalha às riscas
+O fogão com a panela de ontem por lavar
+O cabelo cai pela omoplata até à costela
+A nuca recebe o ar frio da janela aberta
+O ombro respira como há horas não respirava
+E o queixo desencosta da boca apertada
 
+[Verse 3]
+A mão direita procura o copo de água
+A esquerda passa pelo cabelo outra vez
+O dedo médio encontra um nó por desfazer
+A unha do polegar segue a curva da têmpora
+A nuca dobra-se para a frente devagar
+A omoplata sente o peso a sair do colarinho
+O esterno respira como uma janela aberta
+E o cabelo desce até à dobra da cintura
 
 [Chorus]
-Cabelo solto
-O sinal de que o dia acabou
-Cabelo solto
-A mulher que se libertou
-Do que os outros precisam de ver
-Da forma que esperam de mim
-Cabelo solto e ser
-Quem sou quando o publico tem fim
+O balcão de mármore com a marca do copo
+A cadeira de pinho com a almofada gasta
+A mesa redonda com a toalha às riscas
+O fogão com a panela de ontem por lavar
+O cabelo cai pela omoplata até à costela
+A nuca recebe o ar frio da janela aberta
+O ombro respira como há horas não respirava
+E o queixo desencosta da boca apertada
+
+[Bridge]
+O sofá lá fora com a manta dobrada ao meio
+O candeeiro da sala com a luz amarela baixa
+O tapete da entrada com os sapatos torcidos
+A porta da rua fechada à chave duas voltas
+O jantar à espera na panela de ontem
 
 [Outro]
-Solto
-Finalmente solto`,
+Pouso o elástico ao lado das chaves
+Tiro o casaco e ponho-o nas costas da cadeira
+Caminho até ao sofá com os pés descalços
+Encosto a cabeça na almofada de algodão
+Adormeço com o cabelo a tocar o ombro`,
 
   "grao-porcelana/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-My hand upon my own warm cheek
-The gesture that I'd give a child
-The word I finally learned to speak
-To myself, so long exiled
+The bedroom lamp is on beside the headboard
+The blanket sits in folds across the chair
+The right hand finds the left hand on the sheet
+The thumb traces a small circle on a finger
+The shoulder turns into the cotton pillow
+The cheekbone meets the pillowcase still cool
+The eyelid closes for the first long second
+The breath arrives like footsteps in a hall
 
 [Verse 2]
-Tender, tender on the tongue
-Like medicine, like morning rain
-The word I should have always sung
-Instead of shouldering the pain
+The wrist remembers being held in childhood
+The palm has carried bags and books and bread
+The fingertip has read in many braille kinds
+The knuckle bears a scar from kitchen years
+The collarbone has had a hand laid on it
+The throat has swallowed words it would not say
+The jawline has been clenched for forty winters
+The temple has held headaches like a tray
+
+[Pre-Chorus]
+The bedside table holds a half-read book
+The water glass sits sweating on the wood
+The kitchen down the hall has cooled to dark
 
 [Chorus]
-Tender, be tender
-With the body that you are
-Tender, surrender
-To the kindness of the scar
-You were taught to be só hard
-You were taught to be só strong
-But the tenderest regard
-Is where you've belonged all along
+The right palm pauses on the left shoulder
+The thumb sits resting at the collarbone
+The other hand lies open on the belly
+The wrist receives the wrist beside the bone
+The fingertip traces from the cheek to ear
+The thumb walks softly down the temple's slope
+The knuckle finds the hollow of the throat
+The hand has come back home along the rope
 
+[Verse 3]
+The knee folds gently toward the other knee
+The ankle rests beside its quiet twin
+The hip remembers carrying a child
+The belly holds the laughter and the food
+The ribcage rises slowly with the breath
+The sternum settles back inside its cage
+The shoulder finds the pillow as a friend
+The cheekbone leaves a print upon the page
 
 [Chorus]
-Tender, be tender
-With the body that you are
-Tender, surrender
-To the kindness of the scar
-You were taught to be só hard
-You were taught to be só strong
-But the tenderest regard
-Is where you've belonged all along
+The right palm pauses on the left shoulder
+The thumb sits resting at the collarbone
+The other hand lies open on the belly
+The wrist receives the wrist beside the bone
+The fingertip traces from the cheek to ear
+The thumb walks softly down the temple's slope
+The knuckle finds the hollow of the throat
+The hand has come back home along the rope
+
+[Bridge]
+The bedroom window holds the street's small lamp
+The wardrobe door is half ajar from morning
+The hallway floor still creaks beneath the rug
+The kitchen tap drips once into the basin
+The cat is sleeping curled inside one shoe
 
 [Outro]
-Tender
-Be tender with yourself`,
+I switch the lamp off with a slow soft thumb
+I roll the blanket up around my shoulder
+I rest the right hand back upon the left
+I let the breath get longer in the dark
+I sleep beside the body I have kept`,
 
 
   // ─────────────────────────────────────────────
@@ -3508,38 +3701,73 @@ Be tender with yourself`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A chávena de ontem na mesinha
-Com um anel castanho no fundo
-O lençol amarrotado num canto
-Como um mapa de um mau mundo
+A chávena de ontem em cima da mesinha
+Com um anel castanho ao fundo da loiça
+O lençol amarrotado a meio da cama
+A camisola do avesso na cadeira de pinho
+O cotovelo apoia na borda da janela aberta
+A clavícula fria sente o ar da madrugada
+A têmpora encosta ao vidro embaciado
+Os pés descalços tocam o soalho de manhã
 
 [Verse 2]
-O cinzeiro tem três pontas
-Uma ainda meio dobrada
-A janela ficou aberta a noite toda
-E o cortinado segue parada
+O cinzeiro na mesa com três pontas dobradas
+O telemóvel virado para baixo na cadeira
+O copo de água pela metade na cómoda
+A almofada com a marca da nuca da noite
+O ombro recolhe o cobertor caído
+O queixo apoia na palma da mão esquerda
+A pálpebra pesa do choro contido
+O lábio inferior morde-se sem querer
+
+[Pre-Chorus]
+A cozinha lá fora com a luz a entrar
+O fogão com a panela de ontem por lavar
+A porta do quarto encostada sem fechar
 
 [Chorus]
-Chávena fria com borra seca
-Cinzeiro com três cotos torcidos
-Lençol amarrotado a meio
-Da cama, sapatos caídos
-A camisola do avesso na cadeira
-O telemóvel virado para baixo
-O copo de água pela metade
-Marcando o sítio do baixo
+A mão pega na chávena com cuidado
+O polegar passa pela borda lascada
+O pulso leva-a até ao lavatório
+A torneira range, a água vem cansada
+A esponja amarela espera no rebordo
+O ombro pousa contra o azulejo branco
+A nuca dobra-se ao lavar a louça
+E o esterno respira o vapor que sobe baixinho
+
+[Verse 3]
+Recolho o cinzeiro com a outra mão
+Despejo o conteúdo no caixote castanho
+A cinza cai como neve velha no fundo
+O cotovelo limpa a mesa devagar
+A toalha de pano sai do gancho da parede
+A palma estende-se na madeira escura
+O telemóvel volta a estar virado para cima
+E a cadeira é arrumada contra a mesa
+
+[Chorus]
+A mão pega na chávena com cuidado
+O polegar passa pela borda lascada
+O pulso leva-a até ao lavatório
+A torneira range, a água vem cansada
+A esponja amarela espera no rebordo
+O ombro pousa contra o azulejo branco
+A nuca dobra-se ao lavar a louça
+E o esterno respira o vapor que sobe baixinho
 
 [Bridge]
-A mão pega na chávena
-Leva-a até ao lavatório
-Abre a torneira sem pensar
-A água escorre, é o início provisório
+A cama por fazer com o lençol caído
+A janela aberta com o cortinado parado
+A varanda com a roupa do estendal a balouçar
+A cozinha à espera do café por fazer
+O sofá com a manta torta de outra noite
 
 [Outro]
-Chávena
-Cinzeiro
-Lençol
-Copo`,
+Dobro o lençol e ponho-o em cima da cama
+Fecho a janela e puxo o cortinado direito
+Saio para a cozinha em chinelos de algodão
+Ponho a chaleira ao lume com a mão calma
+E começo de novo, esta manhã, este dia`,
 
   "incenso-rescaldo/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

@@ -9139,224 +9139,270 @@ And the foot writes its letter to the skies`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A névoa desce e o mundo desaparece
-Dez metros de visibilidade — talvez menos
-Corro no vazio branco e cinzento
-E a montanha torna-se mistério — e veneno
+A pestana apanha a primeira gota da bruma
+A pupila procura uma sombra dez metros à frente
+A nuca arrepia com o branco do silêncio
+O ombro encolhe dentro do casaco quente
+A mão fechada guarda um pouco de calor
+E o joelho dobra sobre a pedra ausente
 
 [Verse 2]
-Não vejo para onde vou
-Só vejo o passo que estou a dar
-O trilho existe debaixo dos pés
-Mesmo quando o olhar não consegue confirmar
+A planta do pé conhece o trilho que os olhos perderam
+O calcanhar sente o sulco sob a folha encharcada
+O tornozelo lê a inclinação da terra
+A coxa carrega a memória da caminhada
+A respiração desenha vapor na minha frente
+E a face molhada apaga a estrada gravada
 
 [Pre-Chorus]
-Correr na névoa é confiar
-No que não se vê
+O lóbulo apanha o som da água escondida
+O cotovelo bate contra a giesta invisível
+A clavícula sustenta o peso do nevoeiro
 
 [Chorus]
-Névoa — correr no vazio
-Névoa — confiar no chão
-Quando o mundo desaparece
-Só resta a fé — e a minha mão
+A palma da mão toca o ar molhado
+O peito do pé pousa onde o olho não viu
+A boca abre para o branco da serra
+A omoplata pesa do lado fugido
+O dedo médio segue o cordão do meu peito
+O queixo encolhe contra a gola húmida
+A canela aprende a falha do terreno
+E a barriga respira no ritmo da subida
 
 [Verse 3]
-Os sons amplificam na bruma
-Uma gota cai como um trovão
-O meu coração é o único GPS
-E bate como uma instrução
+A gota da pestana escorre para o lábio
+A unha desenha um arco na pele do braço
+A nuca recebe o pingo do carvalho fantasma
+A coxa sente o peso de um abraço escasso
+O coração bate dentro da camisola
+E o pulmão enche de leite branco e baço
 
 [Chorus]
-Névoa — correr no vazio
-Névoa — confiar no chão
-Quando o mundo desaparece
-Só resta a fé — e a minha mão
+A palma da mão toca o ar molhado
+O peito do pé pousa onde o olho não viu
+A boca abre para o branco da serra
+A omoplata pesa do lado fugido
 
 [Bridge]
-E há uma beleza neste branco
-Nesta solidão tão absoluta
-Eu e a montanha e mais nada
-A névoa como um véu — a rota
-
-[Chorus]
-Névoa — ensinas-me a confiar
-Névoa — no que não posso ver
-Que o chão existe mesmo sem prova
-E que basta um passo para o saber
+A bochecha sente a pedra junto à mão
+O joelho pousa na folha do chão cinzento
+A clavícula desce com a pausa do peito
+O cabelo cola à têmpora num momento
+E a planta dos dois pés segura o mundo
+Que a vista entregou sem aviso ao vento
 
 [Outro]
-Corro
-Sem ver
-Confio
-E o trilho aparece — sempre`,
+A planta do pé segue o sulco da terra
+A pestana solta a gota acumulada
+A boca prova a bruma como leite
+O ombro pousa contra a casca enrugada
+O dedo grande encontra a marca de um pneu
+E a coluna recolhe a serra na chegada`,
 
 "fibra-lama-e-ceu/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The descent begins and gravity takes over
-My legs become a negotiation
-Between control and reckless joy
-A falling, flying conversation
+The kneecap lifts above the falling stone
+The hip drops loose into the angled track
+The arm swings wide above the leaning shoulder
+The wrist counts the seconds at the back
+The cervical spine releases the ridge tension
+And the toe lands light along the running rack
 
 [Verse 2]
-My knees absorb each rocky impact
-My arms swing wide for balance now
-The downhill runner doesn't fight
-The mountain down — just learns to bow
+The quadriceps absorbs the rocky landing
+The calf braces on the buried granite step
+The kneecap floats above the angled patella
+The forearm balances the breathing pet
+The chest stays loose above the rolling hip
+And the jaw unclenches what the climb had kept
 
 [Pre-Chorus]
-Let gravity be your partner
-Not your enemy
+The ankle softens for the loose gravel
+The shoulder rolls beneath the falling shell
+The arch lifts above the buried elbow
 
 [Chorus]
-Downhill — the controlled fall
-Downhill — where reckless meets the wall
-Knees bent, arms wide, eyes forward
-Downhill — the wildest ride of all
+The thigh holds the angle of the descent
+The arm carves the air above the slope
+The eye reads the trail three metres out
+The hip swings wide above the rocky rope
+The toe lands soft along the lower switchback
+The lung opens for the speed of falling air
+The cheek catches the breeze of the descent
+And the spine flows down the woodland stair
 
 [Verse 3]
-Each switchback is a small surrender
-Each straight a burst of speed and trust
-The mountain drops beneath my feet
-And fear gives way to wanderlust
+The kneecap shivers on the steeper section
+The shoelace catches at the buried thorn
+The forearm grazes the bark of a young birch
+The fingertip blackens with the pine-resin worn
+The hamstring fires above the loose earth
+And the breath returns to the body newly born
 
 [Chorus]
-Downhill — the controlled fall
-Downhill — where reckless meets the wall
-Knees bent, arms wide, eyes forward
-Downhill — the wildest ride of all
+The thigh holds the angle of the descent
+The arm carves the air above the slope
+The eye reads the trail three metres out
+The hip swings wide above the rocky rope
 
 [Bridge]
-They say it's harder going down
-Than climbing up — and it's true
-The uphill tests your body's strength
-The downhill tests your courage through
-
-[Chorus]
-Downhill — I'm flying now
-Downhill — the earth falls fast
-Downhill — gravity and I
-Downhill — are friends at last
+The clavicle releases the climbing pressure
+The lower back loosens at the gentler grade
+The earlobe catches the song of the village
+The collarbone gleams under the canopy shade
+The wrist tilts to read the watch one final time
+And the body remembers the bed where it was made
 
 [Outro]
-Falling forward
-Catching ground
-Downhill running
-Is the best sound`,
+The thigh stops trembling on the flatter trail
+The hip swings easy at the lower bend
+The shoulder lets the rucksack hang again
+The lung breathes slow toward the trail's end
+The eye finds the chimney of the village kitchen
+And the body knows the house it will defend`,
 
 "fibra-lama-e-ceu/9": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A frontal corta o escuro
-Um cone de luz no nada
-Corro de noite pela montanha
-E o mundo inteiro é esta estrada
+A testa carrega a fita da frontal nova
+A pupila aceita o cone de luz amarela
+O pulso bate dentro do casaco mais escuro
+O calcanhar pousa onde a luz toca a folha velha
+O lóbulo escuta a coruja da carvalhal cerrada
+E a clavícula arrepia com a noite que se atrela
 
 [Verse 2]
-Cada som é dez vezes maior
-O ramo que parte, a coruja, o vento
-Os olhos não servem para nada
-Só os pés e o pressentimento
+A boca solta vapor no ar de janeiro
+O joelho dobra junto à pedra fria
+A planta do pé conhece a raiz pela memória
+A mão fechada guarda a chave de casa que escondia
+A nuca recebe um pingo de orvalho no escuro
+E a coxa lembra a sala onde a candeia ardia
 
 [Pre-Chorus]
-De noite a montanha é outra
-Mais honesta e mais crua
+A testa pousa a luz na próxima pedra
+O ombro escuta a ramada do sobreiro
+A planta do pé encontra o rasto da raposa
 
 [Chorus]
-Noite no monte — só eu e a luz
-Noite no monte — o medo e a coragem
-Corro no escuro com uma frontal
-E descubro que a bravura é a paisagem
+O feixe da frontal pousa na raiz curva
+A planta do pé pousa onde o feixe iluminou
+A pupila dilatada apanha a sombra dos troncos
+O pulso bate dentro do tecido que apertou
+A nuca recebe a brisa da fonte escondida
+A mão escorrega ao longo do trilho que mudou
+A coluna sobe na curva da subida noturna
+E o coração marca o passo do que ficou
 
 [Verse 3]
-As sombras dançam com a frontal
-E tudo parece vivo e atento
-A montanha respira à minha volta
-E eu sou mais pequena — e mais contente
+A sombra do meu próprio braço dança na faia
+O joelho dobra no degrau que a chuva moldou
+A testa baixa para o feixe não cegar o sapo
+O dedo polegar encontra o botão que apagou
+A respiração desenha vapor sobre o queixo
+E o pé sente a manta do chão onde pousou
 
 [Chorus]
-Noite no monte — só eu e a luz
-Noite no monte — o medo e a coragem
-Corro no escuro com uma frontal
-E descubro que a bravura é a paisagem
+O feixe da frontal pousa na raiz curva
+A planta do pé pousa onde o feixe iluminou
+A pupila dilatada apanha a sombra dos troncos
+O pulso bate dentro do tecido que apertou
 
 [Bridge]
-De noite não há como mentir
-Não há filtro, não há fachada
-És tu, a montanha e o teu medo
-E o medo — torna-se estrada
-
-[Chorus]
-Noite no monte — o mais cru de tudo
-Noite no monte — o mais puro correr
-Quando o escuro te tira o controlo
-É aí que descobres quem podes ser
+A bochecha pousa contra a casca do castanheiro
+A respiração desce até ao âmago do peito
+A planta dos dedos prova o frio do granito
+A omoplata pousa contra o tronco direito
+A nuca sente o eco da água lá no fundo
+E o corpo inteiro entra na noite com jeito
 
 [Outro]
-Escuro
-Frontal
-Coragem
-E corro — até o sol nascer`,
+A frontal pousa o feixe na soleira da porta
+A chave roda dentro da fechadura da cozinha
+A mão pendura o casaco na parede da entrada
+O calcanhar descansa no tapete da salinha
+A planta do pé toca o ladrilho da cozinha
+E o copo de água espera na mesinha`,
 
 "fibra-lama-e-ceu/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-This is for everyone who chose the dirt
-Who left the pavement for the trees
-Who traded clean shoes for the mud
-And straight lines for the wild degrees
+The boot finds the doormat caked with woodland
+The sock slides off above the swollen calf
+The thumb tucks under the kitchen tap warm
+The forehead leans against the bathroom shelf
+The shoulder lets the rucksack down at last
+And the lung breathes slow beneath the cottage roof
 
 [Verse 2]
-This is for summit mornings frozen
-For stream crossings sharp with cold
-For mud-baptisms and night-run terrors
-For the stories trails have told
+The thigh rests against the rim of the bath
+The ankle bruise blooms into a purple ring
+The kneecap remembers the granite of the ridge
+The fingertip carries the smell of broken bing
+The collarbone gleams above the towel rail
+And the kidney warms where the cold could only sting
 
 [Pre-Chorus]
-We chose the hard and beautiful
-We chose the wild and free
+The body holds the whole mountain inside it
+The kettle whistles on the kitchen stove
+The lower back releases on the linen
 
 [Chorus]
-Wild — the anthem of the trail
-Wild — for every who chose the mountain
-Wild — for mud and fog and summits
-Wild — for drinking from the fountain
+The foot pad still feels the muddy switchback
+The calf still flickers with the climbing fire
+The arch remembers the angle of the cairn
+The shoulder still rolls beneath the loose attire
+The pupil still scans the trail two metres out
+The lung still expands beyond the kitchen rib
+The wrist still tilts to read the watch one final time
+And the body still belongs to the wooded jib
 
 [Verse 3]
-We're not runners on a treadmill
-We're conversations with the earth
-We measure runs in views, not minutes
-In wonder, not in worth
+The kettle pours into the chipped white mug
+The thumb hooks beneath the handle of the cup
+The lower lip meets the steam above the brew
+The sock pile waits beneath the laundry's slope
+The boot drips its peat into the doormat
+And the kitchen window holds the village dome
 
 [Chorus]
-Wild — the anthem of the trail
-Wild — for everyone who chose the mountain
-Wild — for mud and fog and summits
-Wild — for drinking from the fountain
+The foot pad still feels the muddy switchback
+The calf still flickers with the climbing fire
+The arch remembers the angle of the cairn
+The shoulder still rolls beneath the loose attire
 
 [Bridge]
-The mountain doesn't care about your time
-Your splits, your pace, your PB chart
-It only cares that you showed up
-And gave it everything — your heart
+The hip lowers onto the wooden kitchen chair
+The forearm leans into the table by the door
+The cheekbone catches the last sun through the curtain
+The pupil drops onto the muddy floor
+The thumb traces the rim of the chipped white mug
+And the body knows the kitchen and the moor
 
-[Chorus]
-Wild — we are the trail runners
-Wild — we are the dirt believers
-Wild — we chose lama e céu
-Wild — and we are mountain weavers
+[Final Chorus]
+The foot pad still feels the muddy switchback
+The calf still flickers with the climbing fire
+The arch remembers the angle of the cairn
+The shoulder still rolls beneath the loose attire
+The pupil still scans the trail two metres out
+The lung still expands beyond the kitchen rib
+The wrist still tilts to read the watch one final time
+And the body still belongs to the wooded jib
 
 [Outro]
-Run wild
-Run free
-Run dirty
-Run — like the mountain made you`,
+The boot dries beside the cottage hearth
+The sock pile flops into the laundry bin
+The wool blanket folds around the resting hip
+The mug sits warm against the open chin
+The pupil drops into the slower light
+And the body holds the mountain it was in`,
 
 // ─────────────────────────────────────────────
 // AMANHÃ INVENTADO (saudade do que ainda não aconteceu)
