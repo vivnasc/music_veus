@@ -5693,265 +5693,365 @@ A omoplata afunda e o dia acaba pelo dorso`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Midnight on the kitchen floor
-Bare feet on the cold linoleum
-Wine glass spinning, wanting more
-Of this private delirium
+Midnight in the kitchen, the linoleum hums
+The collarbone rolls back and the hip leans west
+The kettle on the hob makes its small drum
+The radio plays a song I can't quite catch best
+My right palm slaps the counter once, then twice
+The ankle finds the loop of someone's beat
+The fridge door magnet falls and on the tile
+The shadow of my elbow does its feat
 
 [Verse 2]
-Nobody's watching, nobody cares
-My hips remember what they're for
-Dancing solo up the stairs
-The secret show on my own floor
+The dish soap bottle wobbles by the tap
+The thumbnail draws a circle on the wood
+The sock on the left foot has a strap
+That came undone halfway through where I stood
+The neck rolls slowly, temple to shoulder blade
+The lower back releases what it kept
+The kitchen tile is cool, slightly afraid
+Of the heel that hits where the floor has slept
+
+[Pre-Chorus]
+The wrist finds the rhythm of the dripping tap
+The hip swings out against the fridge's edge
+The thumb taps softly on the kitchen flap
 
 [Chorus]
-Kitchen floor, kitchen floor
-The dance that no one sees
-Kitchen floor, kitchen floor
-I'm dancing as I please
-Midnight and the fridge hums low
-The world is fast asleep
-But here beneath the kitchen glow
-I move to my own beat
+The kitchen at half past one is a different room
+The microwave clock is the only watching light
+The shoulder blade rolls slow against the broom
+That leans against the cabinet through the night
+The ankle pivots, the kneecap unwinds
+The chest rises with a breath that I forgot
+The kitchen tile holds the count of feet that find
+Their own slow tempo on the cooler spot
 
 [Verse 3]
-The song ends but my body stays
-Still swaying in the afterglow
-Some dances last for all my days
-This one the world will never know
+I cross the linoleum to the cabinet door
+The forearm reaches for the cup behind the rim
+The shoulder blade catches on the apron once more
+That hangs from the hook beside the kitchen brim
+The pulse beneath the jaw is steady now
+The temple presses on the cabinet wood
+The kitchen radio fades to the soft how
+Of something that almost says it should
 
 [Chorus]
-Kitchen floor, kitchen floor
-The dance that no one sees
-Kitchen floor, kitchen floor
-I'm dancing as I please
-Midnight and the fridge hums low
-The world is fast asleep
-But here beneath the kitchen glow
-I move to my own beat
+The kitchen at half past one is a different room
+The microwave clock is the only watching light
+The shoulder blade rolls slow against the broom
+That leans against the cabinet through the night
+The ankle pivots, the kneecap unwinds
+The chest rises with a breath that I forgot
+The kitchen tile holds the count of feet that find
+Their own slow tempo on the cooler spot
 
 [Bridge]
-The tiles are cold beneath my soles
-The moonlight strips the room of lies
-I dance to fill the quiet holes
-That daylight never satisfies
+The cup of water on the counter trembles still
+The hairpin slips and lands beside the chair
+The wrist rests on the edge of the kitchen sill
+The ankle bone catches a current of air
+The neighbour's window across the alley dims
+The kitchen holds the count of my own limbs
 
 [Outro]
-Dance alone
-Dance at home
-The truest stage I own`,
+I sit on the kitchen chair, the floor still warm
+The clavicle drops, the chin finds the chest
+The fridge resumes its low and steady form
+And the foot rests softly on the linoleum's rest`,
 
   "grao-descalca/3": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Numa terca-feira qualquer
-Sem razão nem justificação
-Os braços abrem como mulher
-Que encontrou a sua estação
+Terça-feira de manhã, a cozinha estava limpa
+A chaleira começou a apitar contra a parede
+O pulso direito acendeu a luz da bancada
+A clavícula esquerda riu sem saber porque
+A omoplata fez um pequeno gesto solto
+E o quadril girou contra o canto do balcão
+A planta do pé bateu duas vezes no soalho frio
+Sem música nenhuma, só o silêncio do verão
 
 [Verse 2]
-O corpo gira na cozinha
-A saia roda sem plateia
-A alegria que é só minha
-Não precisa de cadeia
+O cotovelo descansa no tampo de fórmica
+A pálpebra direita treme com o sol que entra
+Pela janela da cozinha que dá para a rua
+O queixo levanta-se um pouco e a coluna se concentra
+Os dedos do pé esticam-se no mosaico antigo
+A omoplata desce pela parede pintada
+A nuca dobra-se sobre a chávena do café
+E o lábio inferior sorri sem ter sido convidada
+
+[Pre-Chorus]
+A anca direita roça no canto do fogão
+O pulso esquerdo bate na bancada três vezes
+A planta do pé esquerdo apoia no chão
 
 [Chorus]
-Sem razão
-Celebro sem motivo
-Sem razão
-É o ato mais vivo
-Porque o sol entrou pela janela
-Porque o café estava bom
-Porque estou viva e bela
-E isso é motivo de som
+A meio do almoço de uma quarta qualquer
+A clavícula direita treme com a luz do tecto
+A omoplata esquerda desce pelo encosto da cadeira
+O tornozelo cruza sobre o outro com efeito
+A gengiva guarda o sabor do limão na água
+O queixo apoia na mão direita por um instante
+A pálpebra fecha-se um pouco contra o vento
+E o lábio inferior sorri ao prato distante
 
 [Verse 3]
-As mãos batem palmas sozinhas
-Os pés marcam o compasso
-As paredes são testemunhas
-De cada riso e cada passo
+A palma da mão direita bate na mesa de jantar
+Não com força, só uma vez, um som pequeno
+O pé esquerdo bate no chão de mosaico claro
+A coxa esquerda apoia no banco moreno
+A omoplata afunda no encosto da cadeira
+A nuca dobra para trás contra o ar da janela
+O queixo levanta-se e a clavícula respira
+A gengiva guarda o gosto do pão e da panela
 
 [Chorus]
-Sem razão
-Celebro sem motivo
-Sem razão
-É o ato mais vivo
-Porque o sol entrou pela janela
-Porque o café estava bom
-Porque estou viva e bela
-E isso é motivo de som
+A meio do almoço de uma quarta qualquer
+A clavícula direita treme com a luz do tecto
+A omoplata esquerda desce pelo encosto da cadeira
+O tornozelo cruza sobre o outro com efeito
+A gengiva guarda o sabor do limão na água
+O queixo apoia na mão direita por um instante
+A pálpebra fecha-se um pouco contra o vento
+E o lábio inferior sorri ao prato distante
 
 [Bridge]
-Quantas vezes esperei permissão
-Para sentir o que já sentia
-Hoje danço sem explicação
-A alegria é a minha geografia
+A varanda do quarto andar tem roupa pendurada
+A clavícula direita aquece com o sol entornado
+O pulso esquerdo apoia no parapeito de ferro
+O joelho dobra-se contra o banco encostado
+A omoplata roça no caixilho da porta
+A planta esquerda toca o mosaico que se conforta
 
 [Outro]
-Sem razão
-A melhor razão
-A única razão`,
+Levanto, levo a chávena para o lava-loiça
+A omoplata desce, a clavícula respira
+A panela arrefece, a tarde permite
+Que o corpo descanse sem que ninguém o pira`,
 
   "grao-descalca/4": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The shout that comes from deep below
-The lungs that open like a church
-My feet don't touch the ground, I know
-I'm standing on a holy perch
+The laughter started in the kitchen sink
+The clavicle was bent over the bowl of grapes
+The thumb slipped on the wet bowl, then the pink
+Of the wrist caught the rim, and then the shapes
+Of the hip and the ribcage shook against the wall
+The forehead pressed the cabinet's hardwood face
+The knees half buckled, the foot began to fall
+And the laughter took the kitchen by the case
 
 [Verse 2]
-The laughter spills without a plan
-The body shakes with something raw
-I'm not performing for a man
-I'm breaking every quiet law
+He stood beside the kettle, the elbow cracked
+Against the doorway, the shoulder went down hard
+The lower lip caught between the teeth, the back
+Of the neck damp with the laughter from the yard
+Where the kids were running with the orange ball
+The window frame held the noise like a glove
+The chest shook, the diaphragm against the wall
+Of the kitchen made a sound we both could love
+
+[Pre-Chorus]
+The pulse beneath the wrist is keeping count
+The collarbone is jumping with the breath
+The temple presses to the cabinet's mount
 
 [Chorus]
-Joy, joy, joy
-Explosive and unapologetic
-Joy, joy, joy
-The body is magnetic
-No explanation, no excuse
-The holy yes of flesh and bone
-A woman finally breaking loose
-From every rule she's ever known
+A Tuesday in the kitchen with the bowl half full
+The laughter built itself between the two of us
+The clavicle shook, the diaphragm did pull
+The ribs gave way to something without fuss
+The thumbnail caught the rim, the cup fell sideways
+The orange rolled across the kitchen tile
+The shoulder blade pressed hard against the doorway
+The knees gave out and held us for a while
 
 [Verse 3]
-The neighbours hear and let them hear
-The walls are shaking with my sound
-I lost the need to disappear
-The joy has burned the ceiling down
+The neighbour rang the bell, we couldn't stand
+The forehead pressed against the kitchen drawer
+The thumb wiped tears from underneath the eye and
+The lower back was aching from the floor
+The cat had jumped onto the kitchen chair
+The kettle clicked, forgotten by the sink
+The chest rose slowly, finding back the air
+The kitchen tile cooled the heel and shin
 
 [Chorus]
-Joy, joy, joy
-Explosive and unapologetic
-Joy, joy, joy
-The body is magnetic
-No explanation, no excuse
-The holy yes of flesh and bone
-A woman finally breaking loose
-From every rule she's ever known
+A Tuesday in the kitchen with the bowl half full
+The laughter built itself between the two of us
+The clavicle shook, the diaphragm did pull
+The ribs gave way to something without fuss
+The thumbnail caught the rim, the cup fell sideways
+The orange rolled across the kitchen tile
+The shoulder blade pressed hard against the doorway
+The knees gave out and held us for a while
 
 [Bridge]
-Jump with both feet off the ground
-Feel the impact when you land
-Jump again, the only sound
-Is the glory in your hand
+We sat on the kitchen floor against the cabinet
+The shoulder leaning on the shoulder warm
+The wrist on the linoleum, palm half open
+The ankles crossed, the kneecaps holding form
+The lower lip still curling at the edge
+The temple resting on the kitchen ledge
 
 [Outro]
-Joy
-Pure reckless joy
-The only prayer I need`,
+The kitchen settled, the orange was on the chair
+The cup was broken in the corner by the sink
+The pulse beneath the jaw was finding the soft air
+The ribcage rested on the cabinet's brink`,
 
   "grao-descalca/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-As ancas balancam antes do pensamento
-Os pés batem antes do ouvido ouvir
-O corpo sabe o seu sacramento
-Antes da mente decidir
+A anca esquerda começou a balançar primeiro
+Antes da rádio entrar no compasso da canção
+O pé direito bateu no soalho de madeira
+A planta esquerda apoiou no tapete do salão
+A clavícula direita rolou contra a parede
+O ombro esquerdo desceu pela almofada do sofá
+O queixo apoiou no peito e o pulso já se move
+Antes que o ouvido reconheça o que toca, e já
 
 [Verse 2]
-A coluna ondula como um rio
-Os ombros largam o que carregavam
-O corpo quente contra o frio
-Das razões que me aprisionavam
+A coluna ondula sobre o encosto da cadeira
+A omoplata direita roça no caixilho da janela
+O cotovelo bate na mesa do café e na frieira
+Do azulejo que ainda guarda o sol da manhã pequena
+Os tornozelos cruzam-se por baixo do banco
+O joelho esquerdo toca o tampo da mesa baixa
+A nuca dobra sobre o ombro direito e o branco
+Da camisa apanha o som que a tarde encaixa
+
+[Pre-Chorus]
+A planta do pé esquerdo bate uma vez
+A clavícula desliza pelo decote em V
+O pulso esquerdo conta o tempo na bandeja
 
 [Chorus]
-O corpo sabe
-Celebrar antes de ter razão
-O corpo sabe
-A dança e a mais velha oração
-Os músculos lembram
-O ritmo que a mente esqueceu
-As celulas tremem
-Com o que o corpo aprendeu
+A cozinha aceitou o passo antes da mente
+O frigorífico bate o seu compasso surdo
+O queixo apoia no peito, a clavícula contente
+O ombro esquerdo gira como um disco rasgado
+A anca direita bate na pega do armário
+O pulso esquerdo desce ao longo do balcão
+A omoplata direita rola pelo caixilho do diário
+Que ficou aberto sobre a mesa de jantar
 
 [Verse 3]
-Os braços desenham no ar
-Círculos que a lógica não traça
-O corpo não precisa de pensar
-Para encontrar a sua graça
+Os braços desenham um arco contra o ar
+A palma direita encontra a outra palma morna
+O cotovelo direito apoia na cintura ao girar
+A pálpebra direita treme com a luz da forma
+O queixo levanta-se, a nuca dobra para trás
+A omoplata esquerda apanha o ar da janela
+O tornozelo direito bate contra o vaso de fás
+A planta esquerda volta a apoiar na cerâmica clara
 
 [Chorus]
-O corpo sabe
-Celebrar antes de ter razão
-O corpo sabe
-A dança e a mais velha oração
-Os músculos lembram
-O ritmo que a mente esqueceu
-As celulas tremem
-Com o que o corpo aprendeu
+A cozinha aceitou o passo antes da mente
+O frigorífico bate o seu compasso surdo
+O queixo apoia no peito, a clavícula contente
+O ombro esquerdo gira como um disco rasgado
+A anca direita bate na pega do armário
+O pulso esquerdo desce ao longo do balcão
+A omoplata direita rola pelo caixilho do diário
+Que ficou aberto sobre a mesa de jantar
 
 [Bridge]
-Antes das palavras havia o gesto
-Antes da razão havia o pulso
-O corpo guarda o que é mais honesto
-No ritmo antigo de cada impulso
+A bancada da cozinha guarda a marca do quadril
+Onde a anca direita bateu durante um bom bocado
+O mosaico do chão tem o desenho subtil
+Do pé esquerdo a girar contra o lado contornado
+A omoplata esquerda roça no canto do balcão
+A clavícula direita aprende a sua canção
 
 [Outro]
-O corpo sabe
-Confia nele
-Sempre soube`,
+O sofá da sala recebe a mulher cansada
+A omoplata afunda na almofada bordada
+A planta do pé direito apoia no tapete antigo
+E o queixo apoia no peito, sem nada a saber comigo`,
 
   "grao-descalca/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Every surface is a stage
-The grass, the sand, the kitchen tile
-My feet have turned another page
-Of dancing in a wilder style
+The kitchen tile is cool against my arch
+The toe finds the gap between the tiles in line
+The shoulder leans against the cabinet's march
+The wrist hangs loose, my pinky finds the wine
+That spilled this morning from the breakfast cup
+The thumbnail catches on the kitchen mat
+The collarbone is warm beneath the cup
+That I drink standing barefoot like a cat
 
 [Verse 2]
-The earth is warm beneath my arch
-The puddles splash without a care
-I walk through rain without the march
-Of someone going somewhere
+I cross the rug between the kitchen door
+The wool is rough against the lower heel
+The ankle bone is grazing on the floor
+Where the wooden planks reveal what they conceal
+The hip leans on the doorway to the hall
+The temple presses on the painted frame
+The throat works once, the breath begins to crawl
+Up through the lungs that know my given name
+
+[Pre-Chorus]
+The pinky toe finds the cool of the kitchen tile
+The right palm rests against the cabinet's edge
+The left foot lifts a little, holds for a while
 
 [Chorus]
-Barefoot, barefoot
-Limitless and free
-Barefoot, barefoot
-The truest I can be
-The toes that grip the world again
-Remember what the shoes forgot
-That every step can be amen
-And every floor's a sacred spot
+The kitchen tile is cooler than the rug
+The bedroom floor is warmer than the hall
+The bathroom tile is the coldest, the slow drug
+Of waking up that gets me through the day's small fall
+The carpet in the living room is bare
+The kitchen lino's worn beneath the chair
+The bathroom mat is folded by the sink
+The body counts the floors, learns how to think
 
 [Verse 3]
-From carpet to the morning dew
-From pavement to the river's edge
-Each surface tells me something new
-About the body and its pledge
+The back garden grass is wet beneath the heel
+The patio stone is warm against the sole
+The kitchen tile is cool, the wooden wheel
+Of the chair scrapes against the rug's small role
+The hip leans on the counter while I drink
+The collarbone is warm beneath the throw
+The fingers wrap around the cup, the kitchen sink
+Reflects the body learning what I know
 
 [Chorus]
-Barefoot, barefoot
-Limitless and free
-Barefoot, barefoot
-The truest I can be
-The toes that grip the world again
-Remember what the shoes forgot
-That every step can be amen
-And every floor's a sacred spot
+The kitchen tile is cooler than the rug
+The bedroom floor is warmer than the hall
+The bathroom tile is the coldest, the slow drug
+Of waking up that gets me through the day's small fall
+The carpet in the living room is bare
+The kitchen lino's worn beneath the chair
+The bathroom mat is folded by the sink
+The body counts the floors, learns how to think
 
 [Bridge]
-I peeled away the armour from my feet
-And found the nerve that feels the world
-Each texture and each grain of heat
-A universe beneath me, unfurled
+The shoes are by the door, the laces undone
+The socks are balled together in the chair
+The kitchen lino bears the prints of one
+Who walked the kitchen all day, here and there
+The bedroom rug has held the shape of feet
+That walked across it every night for years
 
 [Outro]
-Barefoot
-Barefoot and infinite
-Barefoot and alive`,
+The body rests against the kitchen wall
+The sole presses against the cabinet door
+The kitchen tile is cool beneath it all
+And the body holds the count of every floor`,
 
   // ─────────────────────────────────────────────
   // BRASA LENTA (força quieta, paciência)
@@ -5962,106 +6062,146 @@ Barefoot and alive`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-As mãos pousam no colo sem pressa
-A decisão ainda não está pronta
-A paciência não é fraqueza
-É a força que ninguém conta
+A chávena descansa sobre o pires de loiça
+Os dedos cruzam-se na borda da mesa redonda
+A clavícula desce, a omoplata acomoda
+O peso de uma carta meio escrita sobre a lombada
+De um livro que abri há três dias e não fechei
+Os pés cruzam-se debaixo da cadeira de pinho
+A pálpebra direita treme com a luz amarelada
+Da candeeira que veio da casa do meu vizinho
 
 [Verse 2]
-O relógio bate sem me apressar
-As horas passam como água no rio
-O corpo sabe quando é hora de actuar
-Até lá respiro o meu silêncio frio
+A janela da sala mostra o passeio molhado
+A poça do canto da rua reflecte o letreiro
+Do café da esquina onde estive ontem sentada
+O cotovelo apoia na almofada do braço inteiro
+Do sofá que era da minha avó na casa antiga
+O pulso esquerdo gira o anel sem motivo
+A nuca dobra contra o encosto que castiga
+A coluna num ponto fixo e definitivo
+
+[Pre-Chorus]
+A planta esquerda apoia no rodapé pintado
+A clavícula direita treme com a chuva fina
+O lápis pousa em cima do papel rabiscado
 
 [Chorus]
-Paciencia
-Não como espera mas como poder
-Paciencia
-É a arte de saber ser
-A mulher que não se apressa
-Não é lenta, e certeira
-A força que nunca cessa
-É a que arde na fogueira mais ligeira
+A cozinha guarda a panela do feijão de ontem
+Que ainda não decidi se vou comer hoje
+A omoplata desce pelo encosto da cadeira que se conformem
+Com o peso de uma decisão que não foge
+Mas também não chega nesta hora da tarde
+O queixo apoia na mão direita por um instante
+A pálpebra fecha-se um pouco, ainda não tarde
+O pulso esquerdo conta o tempo distante
 
 [Verse 3]
-As respostas chegam quando estão maduras
-As raízes crescem antes das flores
-A paciência mora nas texturas
-Do tempo que não cede a pressões exteriores
+Saio para a varanda, a clavícula apanha o ar
+A poça do passeio ainda guarda o reflexo
+Do letreiro do café que fica à direita ao virar
+A omoplata encosta no caixilho de cimento, complexo
+De pintura velha que ninguém raspou ainda
+Os pés tocam o mosaico que conheço de cor
+A planta esquerda guarda a marca da cinta linda
+Que tirei há uma hora e pousei sobre o cobertor
 
 [Chorus]
-Paciencia
-Não como espera mas como poder
-Paciencia
-É a arte de saber ser
-A mulher que não se apressa
-Não é lenta, e certeira
-A força que nunca cessa
-É a que arde na fogueira mais ligeira
+A cozinha guarda a panela do feijão de ontem
+Que ainda não decidi se vou comer hoje
+A omoplata desce pelo encosto da cadeira que se conformem
+Com o peso de uma decisão que não foge
+Mas também não chega nesta hora da tarde
+O queixo apoia na mão direita por um instante
+A pálpebra fecha-se um pouco, ainda não tarde
+O pulso esquerdo conta o tempo distante
 
 [Bridge]
-Quem me ensinou que esperar era fraqueza
-Nunca viu a semente abrir a pedra
-A paciência é a maior riqueza
-De quem sabe que o tempo não recua
+A clavícula direita aprende a esperar sentada
+Sem se mover, sem dar um sinal de cansaço
+A omoplata esquerda apoia na almofada bordada
+Da minha tia que me deu há um ano um abraço
+O cotovelo direito desenha um arco contra a mesa
+A pálpebra fecha-se com a paciência de uma certeza
 
 [Outro]
-Espero
-Porque sei o que sei
-É o que sei vale a espera`,
+A chávena arrefece, a chaleira fica calada
+O queixo apoia no peito, a clavícula encosta
+A omoplata afunda na almofada bordada
+E a tarde fica, com tempo, sem resposta`,
 
   "mare-brasa-lenta/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The coals glow orange in the dark
-No flame to see, just steady heat
-The room warms from a single spark
-That doesn't rush and won't retreat
+The kitchen radiator clicks against the wall
+The collarbone is warm beneath the cardigan's pull
+The ankle crosses on the cushion of the chair
+The thumbnail catches the wool by the ankle of the chair
+The mug sits steaming on the kitchen counter top
+The shoulder blade pressed flat against the cabinet door
+The pulse beneath the jaw is a steady drum that won't stop
+The temple rests on the corner of the kitchen drawer
 
 [Verse 2]
-The flashy fire burns itself out
-In minutes flat, in ash and smoke
-But coals don't need to scream or shout
-They warm the room before you woke
+I bring the cup of tea over to the sofa
+The wrist holds the handle just below the curl
+The collarbone receives the steam that climbs over
+The lower lip blows softly across the swirl
+The ankle crosses on the corner of the throw
+The hip leans into the corner of the cushion
+The shoulder blade finds the place it knows
+The temple rests against the sofa's mission
+
+[Pre-Chorus]
+The forearm rests along the wooden armrest's edge
+The forefinger taps once against the cup's rim
+The hairpin slips slightly from the temple's wedge
 
 [Chorus]
-Slow burn, slow burn
-The fire that doesn't rush
-Slow burn, slow burn
-The power in the hush
-No drama, no display
-Just heat that finds its way
-Through walls and through the clay
-Of everything that stays
+The kettle on the hob, the radiator's hum
+The shoulder blade against the cushion of the chair
+The pulse beneath the jaw is slow and oh so dumb
+With the steady heat that climbs up through the air
+The cardigan is wrapped against the lower spine
+The forearm rests against the corner of the throw
+The temple presses on the cabinet kitchen line
+The body holds the heat that doesn't need to show
 
 [Verse 3]
-The morning comes and still they glow
-A patience carved from living coal
-The kind of warmth that's always slow
-And always reaching for the whole
+The lamp throws yellow on the kitchen tile and door
+The fridge resumes its slow and steady hum
+The shoulder leans against the cabinet floor
+Of the cupboard where the tea bags come
+The thumbnail circles round the rim again
+The lower back is warmed beneath the cardigan
+The temple rests, the breath comes in by ten
+The pulse beneath the jaw drums on, again
 
 [Chorus]
-Slow burn, slow burn
-The fire that doesn't rush
-Slow burn, slow burn
-The power in the hush
-No drama, no display
-Just heat that finds its way
-Through walls and through the clay
-Of everything that stays
+The kettle on the hob, the radiator's hum
+The shoulder blade against the cushion of the chair
+The pulse beneath the jaw is slow and oh so dumb
+With the steady heat that climbs up through the air
+The cardigan is wrapped against the lower spine
+The forearm rests against the corner of the throw
+The temple presses on the cabinet kitchen line
+The body holds the heat that doesn't need to show
 
 [Bridge]
-I used to envy those who blazed
-Bright and loud and quickly gone
-Now I know the ones who stayed
-Are the ones who kept burning on
+The window holds the rain against the kitchen glass
+The radiator clicks once more against the wall
+The shoulder blade rolls slowly through the night that pass
+The temple presses on the cushion's slow small fall
+The hairpin slips, the cardigan unfolds
+The body keeps the count of what it holds
 
 [Outro]
-Burning slow
-Burning sure
-Burning still`,
+The kettle clicks, the mug is on the table
+The shoulder blade is warm beneath the throw
+The radiator hums against the kitchen gable
+And the body holds the heat that's all I know`,
 
   "mare-brasa-lenta/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
