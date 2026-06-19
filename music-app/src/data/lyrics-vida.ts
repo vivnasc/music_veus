@@ -6208,212 +6208,292 @@ And the body holds the heat that's all I know`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O pão fermenta debaixo do pano
-O fermento trabalha sem ter pressa
-A fome quer o imediato engano
-Mas o tempo e quem confessa
+O pano sobre a tigela do pão fica esticado
+A clavícula direita encosta na borda da bancada
+A omoplata esquerda apoia no caixilho pintado
+Da porta que dá para a despensa da casa atravessada
+Pelo corredor onde o tapete dobra na ponta
+A planta do pé esquerdo apoia no rodapé
+A pálpebra direita treme com a luz que se monta
+Pela janela da cozinha onde o sol ainda é
 
 [Verse 2]
-A sopa precisa do lume baixo
-O arroz precisa do seu vapor
-O que é bom nunca vem de despacho
-O que é bom nasce devagar do amor
+A panela do feijão está no lume baixo
+A colher de pau apoia no rebordo do bico
+A clavícula direita treme com o vapor que despacho
+Da panela do meio que ainda mexo pouco
+O cotovelo esquerdo apoia no canto da mesa
+A omoplata direita roça no caixilho da porta
+Os pés cruzam-se debaixo do banco da defesa
+A nuca dobra contra o encosto que conforta
+
+[Pre-Chorus]
+O pulso direito gira a colher na panela
+A clavícula esquerda treme com o calor da bancada
+A pálpebra direita treme com a luz amarela
 
 [Chorus]
-O tempo certo
-Não o tempo rápido
-O tempo certo
-É o mais capacitado
-Para dar o que a pressa não da
-O sabor que só o tempo traz
-Cada coisa no seu já
-Cada fruto na sua paz
+O pão fermenta na tigela debaixo do pano molhado
+A omoplata desce, o cotovelo apoia na mesa
+A clavícula direita aquece com o feijão guisado
+Que ferve baixinho na panela com destreza
+O queixo apoia na mão direita por um momento
+A pálpebra direita treme contra a luz da janela
+A planta esquerda apoia no mosaico cimento
+E o pulso conta o tempo do pão e da panela
 
 [Verse 3]
-A criança cresce centimetro a centimetro
-O inverno derrete folha a folha
-O que resiste ao cronometro
-É o que a vida recolha
+Levanto, abro o forno para meter o pão
+O pulso direito segura a tigela pela borda
+A omoplata direita treme com o calor que vão
+Lançar contra a clavícula que se acomoda
+A planta do pé esquerdo apoia no soalho
+A coxa direita roça no canto da bancada
+A pálpebra direita treme com o cheiro que espalha
+A cozinha em direcção à varanda fechada
 
 [Chorus]
-O tempo certo
-Não o tempo rápido
-O tempo certo
-É o mais capacitado
-Para dar o que a pressa não da
-O sabor que só o tempo traz
-Cada coisa no seu já
-Cada fruto na sua paz
+O pão fermenta na tigela debaixo do pano molhado
+A omoplata desce, o cotovelo apoia na mesa
+A clavícula direita aquece com o feijão guisado
+Que ferve baixinho na panela com destreza
+O queixo apoia na mão direita por um momento
+A pálpebra direita treme contra a luz da janela
+A planta esquerda apoia no mosaico cimento
+E o pulso conta o tempo do pão e da panela
 
 [Bridge]
-Vivi a vida a correr para a frente
-Sem notar que o caminho era o destino
-Agora sento e o tempo é diferente
-Cada segundo tem o seu hino
+A panela mexe-se baixinho contra o fogão de ferro
+A tampa salta uma vez e cai sobre a bancada
+A omoplata direita treme contra o caixilho do erro
+Da janela que ninguém arranja desde a Páscoa passada
+A clavícula direita aprende o tempo do feijão guisado
+E o pulso esquerdo conta o vapor do pão fermentado
 
 [Outro]
-O tempo certo
-Nunca chega tarde
-Sempre chega certo`,
+O forno aberto liberta o pão dourado e quente
+A omoplata direita treme com o calor da bandeja
+A clavícula desce, o queixo apoia consciente
+E a cozinha respira pelo cheiro que se almeja`,
 
   "mare-brasa-lenta/4": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The tree bends in the hurricane
-But doesn't break, it holds the line
-Beneath the soil, no wind, no rain
-Can reach the roots that intertwine
+The hospital chair is plastic, cold beneath the thigh
+The clavicle aches where the bag strap dug all day
+The pulse beneath the jaw is steady, will not lie
+The fluorescent kitchen light has nothing left to say
+The vending machine in the corridor hums on
+The temple presses on the magazine I haven't read
+The thumbnail circles round the edge of the styrofoam
+The lower back complains against the chair instead
 
 [Verse 2]
-The branches snap but the trunk stays true
-The leaves are gone but the bark is thick
-What holds the tree is out of view
-The deepest strength is the slowest trick
+The forearm rests along the armrest of the seat
+The eyelid heavy with the waiting room's slow grind
+The pinky finger taps a small and even beat
+Against the styrofoam cup with what's left behind
+Of the coffee that the nurse brought hours back
+The ankle crosses on the chair, then crosses back
+The shoulder blade presses on the wall's grey track
+The collarbone holds steady on the same slow lack
+
+[Pre-Chorus]
+The pulse beneath the jaw is even, will not break
+The shoulder blade rests on the painted hospital wall
+The thumbnail keeps its count of every hour I take
 
 [Chorus]
-Roots hold, roots hold
-Invisible and fierce below
-Roots hold when storms unfold
-The strength that doesn't show
-The power underground
-The grip you'll never see
-The deepest, truest ground
-That keeps the standing tree
+The hospital corridor at three or four AM
+The kitchen of the waiting floor is closed and dark
+The pulse beneath the jaw is keeping count of them
+The hours, the news, the small and quiet spark
+Of the vending machine's red dial in the hall
+The ankle crosses on the plastic chair again
+The temple presses on the cold wall by the hall
+The lower back is holding all the weight, and then
 
 [Verse 3]
-The storm will pass as storms all do
-The sky will clear and birds return
-But what stood firm while the wind blew
-Is what the roots had time to learn
+The doctor walks across the kitchen of the floor
+The clavicle goes tight, the breath catches, then holds
+The shoulder blade presses on the chair once more
+The pulse beneath the jaw is racing through the folds
+But then the news is good, the breath comes back
+The shoulder blade relaxes on the seat
+The clavicle drops, the temple finds the slack
+The pulse beneath the jaw resumes its beat
 
 [Chorus]
-Roots hold, roots hold
-Invisible and fierce below
-Roots hold when storms unfold
-The strength that doesn't show
-The power underground
-The grip you'll never see
-The deepest, truest ground
-That keeps the standing tree
+The hospital corridor at three or four AM
+The kitchen of the waiting floor is closed and dark
+The pulse beneath the jaw is keeping count of them
+The hours, the news, the small and quiet spark
+Of the vending machine's red dial in the hall
+The ankle crosses on the plastic chair again
+The temple presses on the cold wall by the hall
+The lower back is holding all the weight, and then
 
 [Bridge]
-Nobody claps for what survives
-No trophy for the tree that stayed
-The quiet glory of our lives
-Is in the ground that we have laid
+I walk down to the lobby for the dawn
+The shoulder blade releases at the door
+The clavicle catches the cold of the lawn
+The ankle steps across the lobby floor
+The thumbnail finds the keychain in my pocket
+The pulse beneath the jaw begins to dock it
 
 [Outro]
-Holding
-The roots are holding
-The roots have always held`,
+The car keys in the palm, the body finds the car
+The clavicle drops, the temple rests on the wheel
+The shoulder blade gives way to what we are
+The pulse beneath the jaw begins to feel`,
 
   "mare-brasa-lenta/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-As mesmas mãos abrem a mesma porta
-Cada manhã sem aplausos
-O corpo senta-se e não importa
-Se há inspiração ou se há pausas
+A mesma chave entra na fechadura da porta
+A mesma mão direita gira sempre para o mesmo lado
+A clavícula desce, a omoplata se conforta
+Com a almofada do sofá já meio gasto
+O saco do pão pousa em cima do balcão
+A planta esquerda apoia no rodapé pintado
+A pálpebra direita treme com a luz da televisão
+Que ficou acesa desde o dia anterior despachado
 
 [Verse 2]
-A repetição não é monotonia
-É a forma mais nobre de estar
-A constância tem a sua melodia
-Que só quem insiste pode escutar
+Sento na cadeira do café do meu trabalho
+A omoplata direita encosta no encosto velho
+A pálpebra fecha-se contra a luz do espelho
+Que reflecte o passeio onde o autocarro espalho
+A mesma chávena de café com o mesmo açúcar
+A mesma colher de pau no mesmo pires partido
+A clavícula direita aprende a esperar a hora rara
+Em que o relógio bate as oito e meia confundido
+
+[Pre-Chorus]
+O pulso direito gira o relógio na sua direção
+A planta esquerda apoia no mosaico do passeio
+A clavícula desce com a chuva que entra pelo portão
 
 [Chorus]
-Constancia
-O poder de aparecer outra vez
-Constancia
-A heroina do talvez
-Sem drama nem holofote
-Só a cadeira e as mãos
-Constancia e o pacote
-Mais bonito entre as canções
+A bancada do café do quarteirão guarda a memória
+Do meu cotovelo direito que apoia todos os dias
+A omoplata esquerda encosta no encosto da história
+Da mesma cadeira que recebe todas as minhas frias
+Manhãs de inverno e tardes de verão
+A clavícula direita aprende a sua rotina
+A pálpebra fecha-se com a mesma sensação
+De uma vida que se constrói lentamente, fina
 
 [Verse 3]
-Nos dias bons e nós dias cinzentos
-A mesma cadeira, o mesmo lugar
-Os grandes feitos são feitos de momentos
-Pequenos que ninguém vai notar
+A mesma chave volta a entrar na mesma porta
+A mesma mão direita gira sempre para o mesmo lado
+A clavícula desce, a omoplata conforta
+A almofada do sofá já meio gasto e estimado
+O saco do pão pousa em cima do balcão
+A planta esquerda apoia no rodapé pintado
+A pálpebra direita treme com a luz da televisão
+Que ficou acesa desde o dia que veio passado
 
 [Chorus]
-Constancia
-O poder de aparecer outra vez
-Constancia
-A heroina do talvez
-Sem drama nem holofote
-Só a cadeira e as mãos
-Constancia e o pacote
-Mais bonito entre as canções
+A bancada do café do quarteirão guarda a memória
+Do meu cotovelo direito que apoia todos os dias
+A omoplata esquerda encosta no encosto da história
+Da mesma cadeira que recebe todas as minhas frias
+Manhãs de inverno e tardes de verão
+A clavícula direita aprende a sua rotina
+A pálpebra fecha-se com a mesma sensação
+De uma vida que se constrói lentamente, fina
 
 [Bridge]
-O talento é barulhento e fugaz
-A disciplina é muda e leal
-A constância é o que realmente faz
-O extraordinário parecer normal
+A mesma calçada conhece os meus passos diários
+A planta esquerda guarda o mosaico do passeio
+A clavícula direita reconhece os caixilhos vários
+Das janelas do café por onde entro e tropeço no meio
+A omoplata direita encosta no caixilho da porta
+A pálpebra direita treme com a luz que se conforta
 
 [Outro]
-Outra vez
-Apareco outra vez
-E amanhã outra vez`,
+Pouso a chave no prato da entrada da casa
+A omoplata desce contra o encosto da cadeira
+A clavícula direita treme com a luz que se atrasa
+E o dia recebe o mesmo gesto da maneira`,
 
   "mare-brasa-lenta/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The last glow in the fireplace
-At three AM when no one's here
-The heat that holds the room in grace
-Long after every flame is clear
+The kitchen at four AM is dark and bare
+The fridge hums low against the painted wall
+The ankle crosses on the kitchen chair
+The temple rests on the cabinet's small fall
+Of moulded edge that pressed into the brow
+The lamp throws yellow on the table top
+The thumbnail traces circles slowly now
+On the kitchen wood that doesn't want to stop
 
 [Verse 2]
-The house is sleeping, walls are still
-The ember pulses like a heart
-A warmth that bends to its own will
-The final act, the truest part
+The neighbour's porch light flickers across the lawn
+The radiator clicks against the wall once more
+The collarbone is warm beneath the worn
+Pyjama collar I have had for years before
+The cup of tea is steaming on the table
+The forearm rests against the cabinet edge
+The shoulder blade leans on the kitchen gable
+The pulse beneath the jaw is on the ledge
+
+[Pre-Chorus]
+The pinky toe finds the cool of the kitchen tile
+The right palm rests against the cabinet's door
+The eyelid heavy, holds for a long while
 
 [Chorus]
-Embers, embers
-Glow longer than the flame
-Embers, embers
-More warmth without the name
-The fire that stays when shows are done
-The heat that holds you through the night
-The quiet after everyone
-Has gone and left the light
+The kitchen at four AM is the warmest room
+The cup of tea is heating up the palm
+The radiator clicks beneath the kitchen broom
+That leans against the wall in the kitchen's calm
+The shoulder blade is warm beneath the throw
+The temple rests against the cabinet door
+The pulse beneath the jaw is steady, slow
+The kitchen tile is warm beneath the floor
 
 [Verse 3]
-Come morning there's a trace of ash
-A circle where the warmth once lived
-No spectacle, no bright white flash
-Just everything the ember gives
+The first bird calls outside the kitchen window
+The sky begins to lighten over the small roof
+The thumb finds the warm rim of the cup, the elbow
+Rests on the table that has held the proof
+Of every late night and every early start
+The collarbone is warm beneath the wool
+The pulse beneath the jaw begins its part
+The kitchen takes the dawn into its bowl
 
 [Chorus]
-Embers, embers
-Glow longer than the flame
-Embers, embers
-More warmth without the name
-The fire that stays when shows are done
-The heat that holds you through the night
-The quiet after everyone
-Has gone and left the light
+The kitchen at four AM is the warmest room
+The cup of tea is heating up the palm
+The radiator clicks beneath the kitchen broom
+That leans against the wall in the kitchen's calm
+The shoulder blade is warm beneath the throw
+The temple rests against the cabinet door
+The pulse beneath the jaw is steady, slow
+The kitchen tile is warm beneath the floor
 
 [Bridge]
-The ones who last are never loud
-They warm the room from underneath
-Not looking for a cheering crowd
-Just glowing with a quiet belief
+The light comes slowly through the kitchen blind
+The cup is empty, set beside the sink
+The shoulder blade releases what was kind
+Of stiff against the wood, the temple's brink
+Lifts slightly with the day's first breath of air
+The pulse beneath the jaw is even there
 
 [Outro]
-Embers
-The warmth that stays
-Long after the fire forgets its name`,
+The kitchen settles, the kettle clicks once more
+The shoulder blade rolls forward off the chair
+The pulse beneath the jaw is even at the core
+And the body holds the heat the kitchen shared`,
 
   // ─────────────────────────────────────────────
   // RAIZ MUDA (crescimento invisível)
@@ -6424,318 +6504,438 @@ Long after the fire forgets its name`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A terra prensa de todos os lados
-A escuridão húmida onde ninguém vê
-As sementes abrem nos seus estados
-Privados de qualquer porque
+Sento na cozinha às onze da noite
+A omoplata desce contra o encosto da cadeira
+O cotovelo apoia no caderno aberto que se acoite
+Sobre a mesa redonda da bancada inteira
+A clavícula direita treme com a luz da candeeira
+Que ilumina só o canto onde estou escrevendo
+A pálpebra direita treme com a noite traseira
+A planta esquerda apoia no mosaico do tempo
 
 [Verse 2]
-As minhocas trabalham em silêncio
-Os fungos tecem redes invisíveis
-A vida pulsa sem reconhecimento
-Em camadas profundas e temíveis
+O lápis pousa, o queixo apoia na mão
+A omoplata esquerda roça no caixilho da porta
+A clavícula direita treme contra a respiração
+Do cão que dorme no tapete da varanda morta
+A pálpebra direita treme com a luz amarelada
+A planta esquerda toca o rodapé pintado
+O pulso direito conta as horas que tem dada
+A nuca dobra sobre o caderno rabiscado
+
+[Pre-Chorus]
+A clavícula direita treme com a luz do candeeiro
+A omoplata desce, o cotovelo apoia na mesa
+O pulso esquerdo conta o tempo passageiro
 
 [Chorus]
-Debaixo da terra
-Onde ninguém vem ver
-Debaixo da terra
-É onde eu aprendo a ser
-O trabalho verdadeiro
-Acontece no escuro
-Sem plateia nem letreiro
-Só o futuro
+A cozinha de noite com o caderno e a caneta
+A omoplata direita encosta no caixilho da porta
+A clavícula direita aprende a paciência completa
+De escrever para ninguém no canto da bancada morta
+O queixo apoia na mão, o pulso desce devagar
+A pálpebra direita treme com a luz do candeeiro
+A planta esquerda apoia no chão sem se queixar
+E a noite ouve o que ninguém ouve, primeiro
 
 [Verse 3]
-Os meus dias parecem iguais por fora
-As mudanças não se veem na superfície
-Mas lá dentro algo se demora
-E cresce sem que ninguém o noticie
+Saio da cozinha para o corredor escuro
+A clavícula direita treme com o frio que vem
+Da janela que ficou aberta sobre o muro
+Da casa do vizinho que está dormindo também
+A pálpebra direita treme com a luz da rua
+A planta esquerda apoia no mosaico do passeio
+O pulso direito gira a chave que actua
+Sobre a fechadura da porta do meio
 
 [Chorus]
-Debaixo da terra
-Onde ninguém vem ver
-Debaixo da terra
-É onde eu aprendo a ser
-O trabalho verdadeiro
-Acontece no escuro
-Sem plateia nem letreiro
-Só o futuro
+A cozinha de noite com o caderno e a caneta
+A omoplata direita encosta no caixilho da porta
+A clavícula direita aprende a paciência completa
+De escrever para ninguém no canto da bancada morta
+O queixo apoia na mão, o pulso desce devagar
+A pálpebra direita treme com a luz do candeeiro
+A planta esquerda apoia no chão sem se queixar
+E a noite ouve o que ninguém ouve, primeiro
 
 [Bridge]
-O visível é só a ponta
-Do que se construiu sem testemunha
-A vida mais bonita é a que se conta
-Depois de germinar na penumbra
+A varanda de noite recebe a clavícula molhada
+Pela chuva fina que cai sobre o passeio escuro
+A omoplata esquerda encosta no caixilho da escada
+A pálpebra direita treme com o reflexo do muro
+A planta esquerda apoia no mosaico do parapeito
+O pulso direito conta o tempo do que ninguém viu, feito
 
 [Outro]
-No escuro
-Onde tudo começa
-E ninguém vê`,
+Volto para a cama, o caderno fica na mesa
+A omoplata desce contra o lençol fresco
+A clavícula direita treme com a luz que atravessa
+A janela meio aberta para o passeio fresco`,
 
   "incenso-raiz-muda/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The long cold winter of the bulb
-Alive but showing nothing new
-A patience that the mind can't sculpt
-The body knows what it must do
+The studio above the laundromat is small
+The shoulder leans against the easel's wooden frame
+The thumbnail catches on the canvas's small wall
+The lower back complains, knows my given name
+The radio plays softly from the kitchen wall
+The cup of coffee cooled an hour ago
+The pulse beneath the jaw is even, slow and tall
+The temple presses on the cabinet, slow
 
 [Verse 2]
-The snow above, the frost below
-The world has written me as dead
-But underneath the silent show
-A different story's being fed
+Nobody knows I come here every Tuesday night
+The laundromat below me hums and spins
+The shoulder blade is warm beneath the light
+The thumbnail catches on the canvas, then it begins
+The work that nobody will see for months or years
+The pulse beneath the jaw is steady on the brush
+The collarbone is warm beneath the wool that wears
+The hours that I give to the patient hush
+
+[Pre-Chorus]
+The forearm rests along the easel's lower edge
+The pinky finger drums against the wooden ledge
+The temple presses on the cabinet's small wedge
 
 [Chorus]
-Before the bloom
-The long invisible work
-Before the bloom
-In the patient dark I lurk
-Building roots that no one sees
-Storing strength for the unseen
-Growing slowly by degrees
-Toward a spring I've never been
+The laundromat below me spins, the kitchen hums
+The studio holds the work that no one knows
+The shoulder blade is warm beneath the wool that comes
+The cup of coffee cools beside the canvas glows
+The pulse beneath the jaw is even, slow and right
+The thumbnail catches on the bristle's gentle pull
+The forearm rests along the wood, the kitchen light
+Is yellow on the canvas, on the wool
 
 [Verse 3]
-Months of nothing, months of still
-The surface frozen, hard and bare
-But deep inside the quiet will
-Is braiding something beyond compare
+I clean the brush against the rag beside the sink
+The thumbnail's caked with paint from hours back
+The shoulder blade releases, finds the brink
+Of stiff against the wool, the lower back
+Stretches as I stand and look at what is there
+The collarbone is warm beneath the throw
+The pulse beneath the jaw is even in the air
+The kitchen light is yellow on the show
 
 [Chorus]
-Before the bloom
-The long invisible work
-Before the bloom
-In the patient dark I lurk
-Building roots that no one sees
-Storing strength for the unseen
-Growing slowly by degrees
-Toward a spring I've never been
+The laundromat below me spins, the kitchen hums
+The studio holds the work that no one knows
+The shoulder blade is warm beneath the wool that comes
+The cup of coffee cools beside the canvas glows
+The pulse beneath the jaw is even, slow and right
+The thumbnail catches on the bristle's gentle pull
+The forearm rests along the wood, the kitchen light
+Is yellow on the canvas, on the wool
 
 [Bridge]
-The ones who bloom the brightest knew
-The longest winters underground
-The beauty everyone will view
-Was built in silence, without sound
+The window holds the rain against the kitchen glass
+The radiator clicks against the wall once more
+The shoulder blade rolls slowly through the night that pass
+The temple presses on the cabinet's slow small floor
+The hairpin slips, the cardigan unfolds
+The body keeps the count of what it holds
 
 [Outro]
-Not yet
-But soon
-The bloom is near`,
+I lock the studio door, the keys are in my hand
+The shoulder blade releases as I find the stair
+The clavicle drops, the temple finds the band
+Of cold against the wall, the kitchen air`,
 
   "incenso-raiz-muda/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O composto, a bela podridão
-Que faz nascer a vida nova
-As mãos na terra escura, a mão
-Que se entrega ao que se prova
+As cascas de laranja caem no caixote do lixo
+A clavícula direita treme contra o cheiro forte
+A omoplata esquerda apoia no caixilho da porta fixo
+Que dá para a varanda onde as cascas tem outra sorte
+Vou pôr as cascas no balde do composto da varanda
+O pulso esquerdo segura o caixote pela borda
+A planta esquerda apoia no mosaico da varanda
+A pálpebra direita treme com a luz que se acorda
 
 [Verse 2]
-As cascas de laranja e o café
-As folhas mortas do outono
-O que acabou transforma-se em fé
-Na escuridão sem dono
+O balde do composto tem cascas de banana
+Folhas mortas que apanhei do quintal do meio
+Pó de café que tirei da máquina pela manhã sã
+A clavícula direita treme contra o cheiro do esteio
+Que sai do composto que está fermentando há semanas
+A omoplata esquerda roça no caixilho da porta
+A pálpebra direita treme com as palmeiras temperãs
+Que dão sombra ao pátio onde o cão se conforta
+
+[Pre-Chorus]
+A planta esquerda apoia no mosaico do parapeito
+A omoplata direita roça no caixilho da porta
+O pulso esquerdo gira o balde sobre o peito
 
 [Chorus]
-Escuro fértil
-A escuridão que cria
-Escuro fértil
-Não é a noite fria
-É o útero da terra
-É o ventre do chão
-O escuro que se aferra
-A transformação
+A varanda guarda o balde do composto na sombra
+A clavícula direita treme com o cheiro forte
+A omoplata esquerda encosta no caixilho que sombra
+A pálpebra direita treme com a luz da sorte
+Que entra pela palmeira do quintal do vizinho
+A planta esquerda apoia no mosaico molhado
+O pulso direito mexe o composto com carinho
+E a varanda guarda o que ninguém viu, calado
 
 [Verse 3]
-A morte alimenta o que vai nascer
-O lixo vira jardim
-O que pareceu acabar e morrer
-Era um começo sem fim
+Pego no vaso da hortelã que está na varanda
+A omoplata direita roça no caixilho da porta
+A clavícula direita treme contra a terra que anda
+Sobre os meus dedos quando faço a mistura curta
+Do composto velho com a terra nova da bancada
+A pálpebra direita treme com a luz da palmeira
+A planta esquerda apoia no mosaico da varanda
+O pulso direito gira o vaso sobre a cadeira
 
 [Chorus]
-Escuro fértil
-A escuridão que cria
-Escuro fértil
-Não é a noite fria
-É o útero da terra
-É o ventre do chão
-O escuro que se aferra
-A transformação
+A varanda guarda o balde do composto na sombra
+A clavícula direita treme com o cheiro forte
+A omoplata esquerda encosta no caixilho que sombra
+A pálpebra direita treme com a luz da sorte
+Que entra pela palmeira do quintal do vizinho
+A planta esquerda apoia no mosaico molhado
+O pulso direito mexe o composto com carinho
+E a varanda guarda o que ninguém viu, calado
 
 [Bridge]
-As minhas dores mais antigas
-São o composto do que vem
-As feridas mais fadigas
-Alimentam o meu amanhã também
+A hortelã da varanda recebe a terra nova hoje
+A clavícula direita treme contra o calor do sol
+A omoplata esquerda encosta no caixilho que foge
+A pálpebra direita treme com a sombra do farol
+Da casa do vizinho que ficou aceso de manhã
+A planta esquerda apoia no mosaico que reluz
 
 [Outro]
-No escuro
-A vida fermenta
-E prepara-se para nascer`,
+Volto para a cozinha, o balde fica na varanda
+A clavícula direita treme com a água do lava-loiça
+A omoplata desce contra o pano da banca
+E a tarde fica, no composto que se conduza`,
 
   "incenso-raiz-muda/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A seed in dry earth has no clock
-No calendar, no deadline due
-It waits without a single knock
-For rain it always knew was true
+The seeds are in a jar above the kitchen sink
+The thumbnail catches on the metal lid's small lip
+The shoulder leans against the cabinet brink
+The clavicle is warm beneath my cotton slip
+The morning light comes through the kitchen blind
+The radiator clicks against the wall once more
+The pulse beneath the jaw is slow and kind
+The temple presses on the cabinet's small door
 
 [Verse 2]
-No bargaining with the soil or sky
-No panic in the endless wait
-The seed has never asked it why
-It simply trusts the rain won't be late
+I haven't planted yet, the soil is still too cold
+The kitchen window holds the frost against the glass
+The shoulder blade is warm beneath the wool that's old
+The thumbnail catches on the jar that I held last
+A year ago when I forgot to plant in spring
+The pulse beneath the jaw is even, slow and right
+The forearm rests along the counter, the kettle's ring
+Begins to whistle as the morning takes the light
+
+[Pre-Chorus]
+The pinky finger taps against the jar of seeds
+The forearm rests along the counter's lower edge
+The thumbnail circles round the lid, the kitchen feeds
 
 [Chorus]
-Patience of seeds
-No concept of delay
-Patience of seeds
-They don't know the word for late
-The readiness is all there is
-When conditions come they rise
-The wisdom of their gentle fizz
-Asks nothing of the skies
+The kitchen counter holds the jar of seeds for spring
+The radiator clicks against the wall once more
+The shoulder blade is warm beneath the wool I bring
+The thumbnail catches on the metal jar's small floor
+The pulse beneath the jaw is even, kind and slow
+The forearm rests along the counter's lower edge
+The kettle whistles as the kitchen starts to grow
+With morning light against the cabinet's small ledge
 
 [Verse 3]
-A thousand seeds will never sprout
-A million more will feed the birds
-But one will push its green shoot out
-Without a need for human words
+I take the jar down to the kitchen table now
+The thumbnail twists the lid against the rim
+The shoulder blade is warm beneath the throw
+The seeds pour out onto the wood, the kitchen dim
+With morning light against the cabinet's small door
+The pulse beneath the jaw is even, kind and right
+The forearm rests along the table, the kitchen floor
+Is warm beneath the sock, the morning takes the light
 
 [Chorus]
-Patience of seeds
-No concept of delay
-Patience of seeds
-They don't know the word for late
-The readiness is all there is
-When conditions come they rise
-The wisdom of their gentle fizz
-Asks nothing of the skies
+The kitchen counter holds the jar of seeds for spring
+The radiator clicks against the wall once more
+The shoulder blade is warm beneath the wool I bring
+The thumbnail catches on the metal jar's small floor
+The pulse beneath the jaw is even, kind and slow
+The forearm rests along the counter's lower edge
+The kettle whistles as the kitchen starts to grow
+With morning light against the cabinet's small ledge
 
 [Bridge]
-What if I could trust like that
-Without the clock, without the dread
-Just hold the shape of where I'm at
-And let the rain find my seedbed
+The cup of tea is steaming on the kitchen wood
+The seeds are scattered on the table in a row
+The shoulder blade releases what it should
+The pulse beneath the jaw is even, kind and slow
+The forearm rests along the table's lower edge
+The temple presses on the cabinet's small ledge
 
 [Outro]
-Seeds don't hurry
-Seeds just know
-And so do I`,
+The seeds are gathered, back into the kitchen jar
+The thumbnail twists the lid against the rim
+The shoulder blade is warm beneath my star
+Of cotton wool, the kitchen light is dim`,
 
   "incenso-raiz-muda/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A fenda no solo onde o verde empurra
-A folha impossível que moveu terra
-O primeiro sinal depois da penumbra
-Pequeno e frágil mas que nunca erra
+A varanda do meu apartamento tem três vasos
+A omoplata direita roça no caixilho da porta
+A clavícula direita treme com o sol que cria laços
+Sobre a terra molhada do vaso que se conforta
+Na curva do peitoril onde plantei feijão
+A planta esquerda apoia no mosaico da varanda
+A pálpebra direita treme com a luz da palmeira do irmão
+Que cresceu no quintal do vizinho com gana
 
 [Verse 2]
-Tão pequena que quase não se nota
-Translúcida contra a luz do sol
-Mas carrega a força de uma rota
-Que nenhuma tempestade tirou do farol
+Há três semanas que olho para a terra do vaso
+Sem ver sinal nenhum, sem ver folha nenhuma
+A clavícula direita treme com o calor do braço
+Que apoia no parapeito de ferro pintado, sem fortuna
+A pálpebra direita treme com o sol que se inclina
+Sobre o vaso do meio onde nada nasceu ainda
+A planta esquerda apoia no mosaico da janela
+A omoplata direita roça no caixilho da varanda
+
+[Pre-Chorus]
+O pulso direito gira a regadora sobre o vaso
+A clavícula direita treme com a água que cai
+A planta esquerda apoia no mosaico ralo
 
 [Chorus]
-A primeira folha
-Triunfo silencioso
-A primeira folha
-O gesto mais formoso
-Depois dos meses de escuro
-Depois da paciência toda
-Rompe o chão o futuro
-Numa folha que é uma boda
+Esta manhã, o vaso do meio tem uma fenda
+A omoplata direita treme contra o caixilho da porta
+A clavícula direita aprende a alegria da renda
+Pequena que rompeu a terra na varanda morta
+A pálpebra direita treme com a luz do sol
+O pulso esquerdo toca a fenda com cuidado
+A planta esquerda apoia no mosaico do farol
+Que ficou aceso a noite toda sem ser apagado
 
 [Verse 3]
-Amanhã já ninguém se lembra
-Deste momento de ruptura
-Mas a folha sabe que nasceu em Setembro
-Dentro da mais densa escuridão pura
+Aponto a fenda para a minha filha mais nova
+A clavícula direita treme com a alegria dela
+A omoplata esquerda encosta no caixilho da porta
+A pálpebra direita treme com a luz da varanda paralela
+Ao quintal do vizinho onde o cão está deitado
+A planta esquerda apoia no mosaico ainda molhado
+O pulso direito segura a regadora pelo lado
+E a manhã da varanda recebe o gesto encantado
 
 [Chorus]
-A primeira folha
-Triunfo silencioso
-A primeira folha
-O gesto mais formoso
-Depois dos meses de escuro
-Depois da paciência toda
-Rompe o chão o futuro
-Numa folha que é uma boda
+Esta manhã, o vaso do meio tem uma fenda
+A omoplata direita treme contra o caixilho da porta
+A clavícula direita aprende a alegria da renda
+Pequena que rompeu a terra na varanda morta
+A pálpebra direita treme com a luz do sol
+O pulso esquerdo toca a fenda com cuidado
+A planta esquerda apoia no mosaico do farol
+Que ficou aceso a noite toda sem ser apagado
 
 [Bridge]
-Eu também rompi a superfície
-Depois de tanto tempo enterrada
-O mundo viu e não deu notícia
-Mas eu sei o que custou esta chegada
+A minha filha apoia o queixo no parapeito da varanda
+A omoplata dela apoia no caixilho da porta
+A clavícula dela treme com a luz que se anda
+Pela palmeira do quintal onde a sombra se corta
+A pálpebra direita dela treme com a alegria
+Que o vaso do meio guarda como uma honraria
 
 [Outro]
-Rompi
-A primeira folha sou eu
-E estou aqui`,
+Volto para a cozinha, a regadora fica vazia
+A omoplata desce contra o pano da bancada
+A clavícula direita treme com a luz da varia
+E a manhã segue com a fenda na terra plantada`,
 
   "incenso-raiz-muda/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The slow unfurling of what always was
-Coiled inside like a spring
-Not transformation but the cause
-Revealing what was always happening
+The kitchen mirror reflects a face I almost know
+The thumbnail catches on the eyebrow at the brow
+The shoulder blade is warm beneath the throw
+The temple presses on the cabinet, slow and now
+The hairpin slips from where it held my crown
+The pulse beneath the jaw is even, slow and right
+The forearm rests along the counter, the kitchen down
+Is yellow on the cabinet, the morning light
 
 [Verse 2]
-I thought I needed to be fixed
-To be remade, to be reborn
-But everything was always mixed
-Inside me since before the dawn
+I look at my mother's hands on my own wrist
+The thumbnail bears the same half-moon scar she had
+The shoulder blade is warm beneath the kitchen mist
+Of steam from the kettle on the hob, slow and glad
+The pulse beneath the jaw is even, like her own
+The forearm rests along the counter where she stood
+The collarbone is warm beneath the wool she sewn
+For me when I was small, the kitchen wood
+
+[Pre-Chorus]
+The thumbnail catches on the cup against the lip
+The pulse beneath the jaw is even, slow and sure
+The shoulder blade is warm beneath the kitchen drip
 
 [Chorus]
-Becoming, becoming
-What I already am
-Becoming, becoming
-Without a master plan
-The face I was growing toward
-The hands I was always building
-The life I was moving toward
-Is the one I'm finally living
+The kitchen at half past seven holds the same
+Slow ritual my mother held when I was small
+The cup of tea, the kettle's whistling name
+The shoulder blade against the cabinet's small fall
+The thumbnail bears the scar that she had too
+The pulse beneath the jaw is even like her own
+The forearm rests along the counter she once knew
+The kitchen holds the body that has grown
 
 [Verse 3]
-The caterpillar doesn't know
-The butterfly was there all along
-The becoming is the letting go
-Of the story that I had it wrong
+I take the cup of tea to the kitchen table
+The shoulder blade is warm beneath the wool
+The thumbnail catches on the wood, the kitchen gable
+The pulse beneath the jaw is even, kind and full
+The forearm rests along the table where she sat
+The collarbone is warm beneath my mother's throw
+The kitchen holds the count of every minute that
+Has brought me to the woman that I know
 
 [Chorus]
-Becoming, becoming
-What I already am
-Becoming, becoming
-Without a master plan
-The face I was growing toward
-The hands I was always building
-The life I was moving toward
-Is the one I'm finally living
+The kitchen at half past seven holds the same
+Slow ritual my mother held when I was small
+The cup of tea, the kettle's whistling name
+The shoulder blade against the cabinet's small fall
+The thumbnail bears the scar that she had too
+The pulse beneath the jaw is even like her own
+The forearm rests along the counter she once knew
+The kitchen holds the body that has grown
 
 [Bridge]
-There's nothing to achieve or earn
-No final form to reach or find
-The only lesson left to learn
-Is that I was never behind
+The kitchen mirror holds my face above the sink
+The thumbnail catches on the brow, the temple's edge
+The shoulder blade is warm beneath the throw, the brink
+Of stiff against the wool, the cabinet's small ledge
+The pulse beneath the jaw is even, slow and right
+The forearm rests along the counter, the kitchen light
 
 [Outro]
-Becoming
-I was already here
-I always was`,
+I take the cup of tea to the kitchen chair
+The shoulder blade is warm beneath the wool
+The temple presses on the cabinet, the air
+Is kind against the kitchen, the cup is full`,
 
   // ─────────────────────────────────────────────
   // RESSONANCIA (despertar coletivo)
@@ -6746,371 +6946,511 @@ I always was`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Uma voz num quarto vazio
-Uma mulher com os olhos fechados
-A vibração começa no fio
-Do peito e sai pelos lados
+Sento no banco da cozinha às oito da noite
+A omoplata direita encosta no encosto baixo
+O pulso esquerdo apoia o caderno que se acoite
+Sobre a mesa redonda perto do fogão na bancada
+A clavícula direita treme com a luz amarelada
+Da candeeira que veio do quarto da minha mãe
+A pálpebra direita treme com a brisa da varanda
+A planta esquerda apoia no mosaico da casa também
 
 [Verse 2]
-A nota encontra a parede
-E volta transformada em eco
-O som não pede nem concede
-Só vibra dentro do que é seco
+A vizinha do quinto andar bate no chão
+Três vezes leves, depois quatro mais firmes
+É o sinal dela para dizer que está bem só
+A clavícula direita treme com o ritmo dos limes
+Que o cão dela ladra quando o postal chega
+A omoplata esquerda encosta no caixilho da porta
+A pálpebra direita treme com a luz que entrega
+A varanda do quarto andar, ainda morta
+
+[Pre-Chorus]
+O pulso direito bate três vezes no soalho
+A clavícula esquerda escuta o eco da vizinha
+A omoplata direita encosta no encosto baralho
 
 [Chorus]
-Uma nota
-Uma mulher, um começo
-Uma nota
-É o mais puro apreço
-Pelo silêncio que existia
-Antes de eu abrir a boca
-Uma nota é a poesia
-Mais corajosa que se toca
+A vizinha bate três vezes no chão acima do meu tecto
+Eu bato duas vezes em resposta com o pulso na mesa
+A clavícula direita treme com o nosso código completo
+Que ninguém mais entende, nem na sala, nem na empresa
+A omoplata esquerda encosta no caixilho da porta
+A pálpebra direita treme com a luz da varanda
+A planta esquerda apoia no mosaico da escada torta
+E a vizinha bate de novo na sua cama branda
 
 [Verse 3]
-A vizinha ouve através da porta
-O som atravessa sem licença
-Uma nota nunca está morta
-Quando carrega a sua essência
+Levanto, vou à varanda olhar para a janela dela
+A clavícula direita treme com a luz que sai do quarto dela
+A omoplata esquerda encosta no parapeito da varanda paralela
+A pálpebra direita treme com a sombra que se revela
+Na cortina branca que ela tem na janela do quarto
+A planta esquerda apoia no mosaico da varanda fria
+O pulso direito gira o anel sobre o ferro quarto
+E a vizinha acena de longe a sua melodia
 
 [Chorus]
-Uma nota
-Uma mulher, um começo
-Uma nota
-É o mais puro apreço
-Pelo silêncio que existia
-Antes de eu abrir a boca
-Uma nota é a poesia
-Mais corajosa que se toca
+A vizinha bate três vezes no chão acima do meu tecto
+Eu bato duas vezes em resposta com o pulso na mesa
+A clavícula direita treme com o nosso código completo
+Que ninguém mais entende, nem na sala, nem na empresa
+A omoplata esquerda encosta no caixilho da porta
+A pálpebra direita treme com a luz da varanda
+A planta esquerda apoia no mosaico da escada torta
+E a vizinha bate de novo na sua cama branda
 
 [Bridge]
-Não preciso que o mundo ouça
-Não preciso de ser coro
-Uma voz que se debruça
-Sobre o silêncio é um tesouro
+A clavícula direita treme com a noite que se forma
+Sobre o passeio da rua estreita do nosso bairro
+A omoplata esquerda encosta no caixilho da porta
+A pálpebra direita treme com o farol antigo
+Que a câmara nunca veio arranjar há três anos
+A planta esquerda apoia no mosaico antigo
 
 [Outro]
-Uma nota
-Só uma nota
-É o silêncio nunca mais é o mesmo`,
+Volto para a cozinha, o caderno fica aberto
+A omoplata desce contra o encosto baixo
+A clavícula direita treme com o eco solto
+Da vizinha que bate três vezes no soalho`,
 
   "incenso-ressonancia/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A stone dropped in the water still
-The circles spreading past my sight
-One woman's voice, one woman's will
-That reached a shore I'll never write
+I left a note on the kitchen table that morning
+Three lines in pencil for the babysitter to see
+The pulse beneath the jaw is even, not warning
+The shoulder blade is warm beneath the tea
+That I poured into the cup beside the door
+The thumbnail caught the corner of the paper
+The forearm rested on the table, the kitchen floor
+Was warm beneath my sock, the kitchen vapour
 
 [Verse 2]
-The message sent without a stamp
-The kindness thrown without a net
-A single light inside a lamp
-That lit a room I've never met
+A year later I found that note inside a book
+The babysitter's daughter sent it back to me
+The pulse beneath the jaw is even, slow as the look
+On her face when she opened up the kitchen key
+She wrote me back a card on the kitchen table
+The thumbnail catches on the paper's lower edge
+The shoulder blade is warm beneath the gable
+Of light against the cabinet's small ledge
+
+[Pre-Chorus]
+The thumbnail catches on the paper's worn-out edge
+The pulse beneath the jaw is even, slow and right
+The shoulder blade is warm against the kitchen ledge
 
 [Chorus]
-Ripple, ripple
-The wave I never see arrive
-Ripple, ripple
-The echo that's still alive
-In someone else's room tonight
-A word I said last summer
-Became somebody's light
-Their winter became their summer
+A note I left for somebody one Tuesday morning
+Turned up a year later in a stranger's kitchen drawer
+The pulse beneath the jaw is even, without warning
+The shoulder blade is warm against the cabinet door
+The forearm rests along the table, the kitchen light
+Is yellow on the paper, on the wool
+The thumbnail catches on the corner, slow and right
+The kitchen holds the note that came back full
 
 [Verse 3]
-I'll never know the lives I touched
-The doors that opened from my voice
-The hearts that quietly were hushed
-And then made a different choice
+The babysitter's daughter sat with me at the table
+She read the note out loud beside the kitchen sink
+The pulse beneath the jaw was steady, kind and stable
+The shoulder blade was warm beneath the kitchen drink
+The thumbnail caught the paper's worn-out edge
+The forearm rested on the wooden kitchen table
+The collarbone was warm beneath the kitchen ledge
+And the kitchen held the note that came back able
 
 [Chorus]
-Ripple, ripple
-The wave I never see arrive
-Ripple, ripple
-The echo that's still alive
-In someone else's room tonight
-A word I said last summer
-Became somebody's light
-Their winter became their summer
+A note I left for somebody one Tuesday morning
+Turned up a year later in a stranger's kitchen drawer
+The pulse beneath the jaw is even, without warning
+The shoulder blade is warm against the cabinet door
+The forearm rests along the table, the kitchen light
+Is yellow on the paper, on the wool
+The thumbnail catches on the corner, slow and right
+The kitchen holds the note that came back full
 
 [Bridge]
-We measure impact by what we can count
-But the truest waves are never seen
-They travel past the furthest mount
-To places where we've never been
+The kitchen at half past eight held both of us
+The shoulder blade was warm beneath the throw
+The pulse beneath the jaw was steady, without fuss
+The thumbnail caught the paper's lower row
+The forearm rested on the table, the kitchen light
+Was yellow on the cup, on the kitchen white
 
 [Outro]
-Ripple
-Further than I know
-Further than I'll ever know`,
+The note is back inside the kitchen drawer
+The shoulder blade is warm beneath the throw
+The pulse beneath the jaw is steady at the core
+The kitchen holds the count of what we know`,
 
   "incenso-ressonancia/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Duas mulheres numa mesa
-A mesma ferida diferente
-O choque do reconhecimento pesa
-E ao mesmo tempo é um presente
+Sento numa mesa do café da Avenida Joaquim Chissano
+A clavícula direita encosta no encosto da cadeira de ferro
+A omoplata esquerda apoia na parede do café muito sano
+O cotovelo direito apoia no tampo de mármore preto
+Da mesa para dois onde a outra mulher chega
+A pálpebra direita treme com o sol das nove da manhã
+A planta esquerda apoia no mosaico do passeio que sega
+A clavícula direita treme com a luz do letreiro distante
 
 [Verse 2]
-Os olhos encontram-se por cima do café
-A frase começa e o corpo treme
-Alguém que sabe o que eu sei
-Alguém que carrega a mesma semente
+Ela sentou-se à minha frente com o saco no ombro
+A omoplata direita dela apoia no encosto da cadeira
+A clavícula direita dela treme com o calor que ronca
+Do fogão da cozinha do café que está aberta inteira
+O cotovelo dela apoia no tampo de mármore preto
+A pálpebra direita dela treme com o sol das nove
+A planta esquerda dela apoia no mosaico do prefeito
+Do passeio onde o autocarro do meio-dia se move
+
+[Pre-Chorus]
+A clavícula direita dela treme com o café que chega
+A omoplata esquerda dela encosta na parede do café
+O pulso direito dela gira a chávena que se entrega
 
 [Chorus]
-Duas vozes
-Encontram-se no escuro
-Duas vozes
-Mais fortes que qualquer muro
-Tu também? Tu também?
-A harmonia do encontro
-Quando a verdade convém
-É o mundo ganha contorno
+Duas mulheres na mesa do café da Avenida
+A clavícula direita treme com a luz do letreiro
+A omoplata esquerda encosta na parede pintada de fora
+O cotovelo direito apoia no tampo de mármore inteiro
+A pálpebra direita treme com o sol das nove da manhã
+A planta esquerda apoia no mosaico do passeio quente
+O pulso direito gira a chávena com calma plana
+E a mulher à minha frente sorri devagar e contente
 
 [Verse 3]
-A vergonha dissolve-se entre as duas
-As histórias cruzam-se como rios
-As palavras já não são cruas
-Quando encontram os seus pares e os seus fios
+Ela conta uma história que eu já contei a outras
+A clavícula direita treme com o reconhecimento
+A omoplata esquerda dela encosta na parede pintada de fora
+O cotovelo dela apoia no tampo de mármore lento
+A pálpebra direita dela treme com a luz do letreiro
+A planta esquerda dela apoia no mosaico do passeio
+O pulso direito dela gira a chávena por inteiro
+E eu sorrio, a clavícula direita treme no meu seio
 
 [Chorus]
-Duas vozes
-Encontram-se no escuro
-Duas vozes
-Mais fortes que qualquer muro
-Tu também? Tu também?
-A harmonia do encontro
-Quando a verdade convém
-É o mundo ganha contorno
+Duas mulheres na mesa do café da Avenida
+A clavícula direita treme com a luz do letreiro
+A omoplata esquerda encosta na parede pintada de fora
+O cotovelo direito apoia no tampo de mármore inteiro
+A pálpebra direita treme com o sol das nove da manhã
+A planta esquerda apoia no mosaico do passeio quente
+O pulso direito gira a chávena com calma plana
+E a mulher à minha frente sorri devagar e contente
 
 [Bridge]
-A solidão mais funda é a que pensa
-Que ninguém no mundo sente igual
-Mas basta uma voz que vença
-O silêncio para curar o mal
+A mão direita dela apoia sobre a minha mão esquerda
+A clavícula direita treme com o calor da palma dela
+A omoplata esquerda encosta na parede pintada de aberta
+A pálpebra direita treme com a luz do letreiro paralela
+A planta esquerda apoia no mosaico do passeio quente
+O pulso direito gira a chávena com calma plana
 
 [Outro]
-Tu também
-Não estou sozinha
-Nunca estive`,
+Levanto, pago as duas chávenas no balcão de mármore
+A omoplata desce, a clavícula direita treme com o vento
+A planta esquerda apoia no mosaico do passeio que se acomore
+E o café da Avenida guarda o nosso encontro lento`,
 
   "incenso-ressonancia/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Women standing, shoulders close
-Breathing in the same slow time
-Nobody leads, nobody chose
-But the circle holds the rhyme
+The living room is set with eight kitchen chairs
+The lamp is on, the curtains are pulled tight
+The clavicle of the woman beside me wears
+A silver chain that catches the kitchen light
+The shoulder blade of the woman across leans back
+The temple of the woman next to her presses
+Against the cushion of the sofa's faded track
+The pulse beneath the jaw of each one confesses
 
 [Verse 2]
-A hand extends without a word
-A stranger's palm against my own
-The warmth of being seen and heard
-Without a single judgement thrown
+We sit in silence for the first three minutes
+The shoulder blades release against the chairs
+The clavicles drop slowly, knowing their limits
+The forearms rest along the wooden chairs' airs
+The pulse beneath the jaw of all of us slow down
+The temples press against the cushions warm
+The kitchen lamp throws yellow on the gown
+Of the woman closest to the kitchen form
+
+[Pre-Chorus]
+The clavicle of the woman beside me settles
+The shoulder blade of the woman next door slows
+The pulse beneath the jaw of every one nestles
 
 [Chorus]
-The circle, the circle
-That holds everyone who enters
-The circle, the circle
-Where nobody is at the centre
-Except the space between us all
-The breath that we all share
-The circle doesn't rise or fall
-It just holds us there
+Eight women in the living room of Marian's flat
+The clavicles releasing one by one, slow and low
+The shoulder blades against the wooden chair backs
+The pulse beneath the jaw of every one I know
+The lamp throws yellow on the cushion's worn out wool
+The thumbnail circles round the cup of cooling tea
+The kitchen door is closed, the kettle's bowl is full
+The eight of us inside the room, just simply be
 
 [Verse 3]
-The tears of one become the rain
-That waters every root below
-In circles we transform our pain
-Into a river's gentle flow
+The woman to my left starts speaking soft and slow
+Her clavicle releases as the words come out
+The shoulder blade of the woman across goes
+Forward in the chair, no shout, no doubt
+The pulse beneath the jaw of all of us slows down
+The thumbnails circle round the cups of tea
+The shoulder blades release into the wooden gown
+Of the chairs that hold us steady as can be
 
 [Chorus]
-The circle, the circle
-That holds everyone who enters
-The circle, the circle
-Where nobody is at the centre
-Except the space between us all
-The breath that we all share
-The circle doesn't rise or fall
-It just holds us there
+Eight women in the living room of Marian's flat
+The clavicles releasing one by one, slow and low
+The shoulder blades against the wooden chair backs
+The pulse beneath the jaw of every one I know
+The lamp throws yellow on the cushion's worn out wool
+The thumbnail circles round the cup of cooling tea
+The kitchen door is closed, the kettle's bowl is full
+The eight of us inside the room, just simply be
 
 [Bridge]
-I walked in as a single note
-And found myself inside a chord
-The circle wrapped around my throat
-And turned my silence into word
+The cups of tea are cold beside our hands
+The shoulder blades against the chairs are still
+The pulse beneath the jaw of each one stands
+The thumbnails circle round the cups at will
+The lamp throws yellow on the worn out wool
+The kitchen door is closed, the kettle's bowl is full
 
 [Outro]
-The circle holds
-The circle holds us all
-Every one of us`,
+We gather coats and bags from the kitchen chair
+The shoulder blades release as we stand up tall
+The clavicles drop slowly with the kitchen air
+The eight of us walk softly through the hall`,
 
   "incenso-ressonancia/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A voz atravessa paredes
-Não é um grito, é uma frequência
-Que encontra quem está nas redes
-Do mesmo sono, da mesma ausência
+A vizinha do segundo andar tem uma voz que treme
+A clavícula direita treme quando ela me cumprimenta
+A omoplata esquerda dela encosta no caixilho da porta lerme
+Do edifício antigo que dá para a praça quase deserta
+A pálpebra direita treme com a luz das oito da manhã
+A planta esquerda dela apoia no mosaico do passeio frio
+O pulso direito dela segura o saco de feira que sãe
+Da carteira velha que ela herdou da tia do navio
 
 [Verse 2]
-Uma mulher levanta-se primeiro
-Depois outra e depois mais dez
-O despertar é contagioso e inteiro
-Quando uma voz diz o que todas sentem uma vez
+Hoje ela parou e disse uma frase que mudou
+A omoplata direita dela apoia no caixilho da porta
+A clavícula direita dela treme com o que ela disse, dormou
+Sobre o marido dela que a empurrou contra a porta morta
+Da cozinha do segundo andar onde ninguém ouve
+A pálpebra direita dela treme com a luz da manhã
+A planta esquerda dela apoia no mosaico do passeio louve
+O pulso direito dela segura o saco da feira sã
+
+[Pre-Chorus]
+A clavícula direita dela treme com o frio do dito
+A omoplata esquerda dela encosta no caixilho do prédio
+O pulso direito dela segura o saco da feira no recito
 
 [Chorus]
-Chamada
-A voz que acorda as outras
-Chamada
-As portas que se abrem contra as troutas
-Do rio que corre sozinho
-Acorda, acorda, acorda
-O chamamento é o caminho
-Que a tua voz acorda
+A vizinha do segundo andar disse-me a frase no passeio
+A clavícula direita treme com o peso do dito
+A omoplata esquerda dela encosta no caixilho do prédio inteiro
+A pálpebra direita dela treme com a luz do edifício escrito
+Em azul e branco no portão do segundo andar
+A planta esquerda dela apoia no mosaico do passeio frio
+O pulso direito dela segura o saco que vai levar
+Para a cozinha do segundo andar do edifício escrito
 
 [Verse 3]
-Não é preciso gritar para ser ouvida
-Basta a verdade na voz que treme
-Uma palavra pode mudar uma vida
-Quando encontra o coração que geme
+Eu chamo a mulher da loja da esquina pelo nome dela
+A clavícula direita treme com o convite da minha boca
+A omoplata esquerda apoia no caixilho da porta paralela
+A pálpebra direita treme com a luz do passeio que choca
+Com o reflexo do letreiro do café da outra esquina
+A planta esquerda apoia no mosaico do passeio que sega
+O pulso direito gira o saco da feira na carteira menina
+E a mulher da loja apanha o saco e a outra entrega
 
 [Chorus]
-Chamada
-A voz que acorda as outras
-Chamada
-As portas que se abrem contra as troutas
-Do rio que corre sozinho
-Acorda, acorda, acorda
-O chamamento é o caminho
-Que a tua voz acorda
+A vizinha do segundo andar disse-me a frase no passeio
+A clavícula direita treme com o peso do dito
+A omoplata esquerda dela encosta no caixilho do prédio inteiro
+A pálpebra direita dela treme com a luz do edifício escrito
+Em azul e branco no portão do segundo andar
+A planta esquerda dela apoia no mosaico do passeio frio
+O pulso direito dela segura o saco que vai levar
+Para a cozinha do segundo andar do edifício escrito
 
 [Bridge]
-A primeira a falar carrega o peso
-De todas as que virão depois
-Mas o silêncio tem um preço
-Mais alto que a coragem das vozes
+A mulher da loja chama outra mulher pela manhã
+A clavícula direita treme com o nome dito em voz alta
+A omoplata esquerda encosta no caixilho da porta da banca
+A pálpebra direita treme com a luz da manhã que se exalta
+A planta esquerda apoia no mosaico do passeio que sega
+O pulso direito gira o saco da feira que se entrega
 
 [Outro]
-Acorda
-Acorda comigo
-O mundo precisa da tua voz`,
+Volto para casa, o saco da feira pesa no quadril
+A omoplata desce contra o caixilho da porta de casa
+A clavícula direita treme com o eco do nome subtil
+Que ainda ressoa no passeio entre a feira e a brasa`,
 
   "incenso-ressonancia/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A room of lungs expanding as one
-Fifty women breathing in
-The isolation is undone
-The unity begins to spin
+The choir practice room is on the second floor
+The chairs are set in three slow rows, semicircular
+The shoulder blade of the woman to my right falls
+Against the backrest of the wooden, slow particular
+Chair we sit on every Wednesday at eight
+The clavicle of the woman to my left releases
+The temple of the woman behind me presses
+On the cushion of the chair her body creases
 
 [Verse 2]
-The exhale of one lifts the next
-The rhythm finds itself in air
-No conductor, no pretext
-Just bodies learning how to share
+The conductor lifts her arm beside the kitchen door
+Of the practice room where we have met for years
+The pulse beneath the jaw of all of us slow more
+The shoulder blades release into the chairs' veneers
+The clavicles drop, the forearms rest along the chairs
+The thumbnails circle round the pencil marks
+On the scores we hold against our cardigans, the airs
+Begin to fill, the kitchen door makes its small marks
+
+[Pre-Chorus]
+The forearm rests against the chair's wood lower edge
+The pulse beneath the jaw is even, slow and right
+The shoulder blade is warm against the chair's small ledge
 
 [Chorus]
-We breathe, we breathe
-Together as one lung
-We breathe, we breathe
-The oldest song unsung
-Rising not like soldiers march
-But swelling like the tide
-Underneath the sacred arch
-Of women side by side
+The forty of us in the practice room of St. Anne's
+The clavicles releasing one by one along the row
+The shoulder blades against the wooden chairs we ran
+Our hands across the score, the pencils' marks below
+The pulse beneath the jaw of each one even, slow
+The forearms rest against the chairs, the kitchen door
+Is closed, the kitchen lamp throws yellow on the row
+Of forty women's shoulder blades against the floor
 
 [Verse 3]
-The room becomes a single chest
-That rises with a common will
-Each woman giving it her best
-By simply being deeply still
+The first note enters the practice room of St. Anne's
+The clavicle of the woman to my right releases
+The shoulder blade of the woman to my left expands
+The temple of the woman behind me presses, ceases
+To press against the cushion of her chair
+The forearm rests along the wooden chair's small edge
+The thumbnail catches on the pencil mark, the air
+Of practice room is held against the chair's small ledge
 
 [Chorus]
-We breathe, we breathe
-Together as one lung
-We breathe, we breathe
-The oldest song unsung
-Rising not like soldiers march
-But swelling like the tide
-Underneath the sacred arch
-Of women side by side
+The forty of us in the practice room of St. Anne's
+The clavicles releasing one by one along the row
+The shoulder blades against the wooden chairs we ran
+Our hands across the score, the pencils' marks below
+The pulse beneath the jaw of each one even, slow
+The forearms rest against the chairs, the kitchen door
+Is closed, the kitchen lamp throws yellow on the row
+Of forty women's shoulder blades against the floor
 
 [Bridge]
-I came alone into this room
-A stranger among strangers here
-But breath undid the lonely gloom
-And turned the distant into near
+The practice room at half past nine is warm and still
+The shoulder blades release against the chairs
+The pulse beneath the jaw of each one keeps the will
+The thumbnails circle round the pencil's lower airs
+The forearms rest against the wooden chair small edge
+The kitchen door is closed, the kettle on the ledge
 
 [Outro]
-We breathe
-One breath, all of us
-One breath that holds the world`,
+We gather scores and cardigans from the chairs
+The shoulder blades release as we stand up tall
+The clavicles drop slowly with the kitchen airs
+The forty of us walk softly through the hall`,
 
   "incenso-ressonancia/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Cada mulher que engoliu a voz
-Agora abre a boca ao mesmo tempo
-O chão treme debaixo de nós
-Como um terramoto de contentamento
+A praça do bairro acordou cheia de mulheres na manhã
+A clavícula direita de cada uma treme com a luz dourada
+A omoplata esquerda de cada uma encosta no caixilho da banca
+Da feira que abre todos os sábados na praça quase nada
+A pálpebra direita de cada uma treme com o vento da feira
+A planta esquerda de cada uma apoia no mosaico do passeio
+O pulso direito de cada uma segura o saco da feira inteira
+E a praça do bairro acolhe cada uma sem receio
 
 [Verse 2]
-As mãos encontram outras mãos
-Os olhos brilham sem combinar
-O que estava preso nas gavetas e nos vãos
-Agora ecoa como um mar
+A mulher da banca do peixe pesa o garoupa com a mão direita
+A clavícula direita dela treme com o peso do peixe inteiro
+A omoplata esquerda dela apoia no toldo da banca eleita
+A pálpebra direita dela treme com a luz do letreiro
+A mulher do café atravessa a praça com a bandeja na mão
+A planta esquerda dela apoia no mosaico do passeio
+A clavícula direita dela treme com o vapor do café que vão
+Beber as outras mulheres da feira sem receio
+
+[Pre-Chorus]
+A clavícula direita de cada uma treme com a luz do toldo
+A omoplata esquerda de cada uma encosta no caixilho da banca
+O pulso direito de cada uma segura o saco com o molho
 
 [Chorus]
-Todas
-O sim coletivo
-Todas
-O ato mais vivo
-Não somos soldadas, somos danças
-Não é raiva, é chegada
-O trovão das nossas danças
-Faz tremer a estrada
+A praça do bairro num sábado de manhã cheia de mulheres
+A clavícula direita de cada uma treme com a luz dourada
+A omoplata esquerda de cada uma encosta no toldo das bancas e parteres
+A pálpebra direita de cada uma treme com a luz da feira encantada
+A planta esquerda de cada uma apoia no mosaico do passeio
+O pulso direito de cada uma segura o saco da feira
+A clavícula direita de cada uma treme com o cheiro do peixe meio
+E a praça do bairro recebe cada uma na sua maneira
 
 [Verse 3]
-Uma começou e as outras seguiram
-Não por obrigação mas por verdade
-As vozes que durante anos se calaram
-Agora cantam com liberdade
+A mulher do quiosque do canto da praça arruma as canecas
+A clavícula direita dela treme com o calor da chávena
+A omoplata esquerda dela encosta no caixilho do quiosque que peca
+Por estar pintado de azul-claro há mais de uma dezena
+De anos sem ninguém renovar a tinta velha do bairro
+A pálpebra direita dela treme com a luz da manhã dourada
+A planta esquerda dela apoia no mosaico do quiosque diário
+O pulso direito dela segura a chávena que está acabada
 
 [Chorus]
-Todas
-O sim coletivo
-Todas
-O ato mais vivo
-Não somos soldadas, somos danças
-Não é raiva, é chegada
-O trovão das nossas danças
-Faz tremer a estrada
+A praça do bairro num sábado de manhã cheia de mulheres
+A clavícula direita de cada uma treme com a luz dourada
+A omoplata esquerda de cada uma encosta no toldo das bancas e parteres
+A pálpebra direita de cada uma treme com a luz da feira encantada
+A planta esquerda de cada uma apoia no mosaico do passeio
+O pulso direito de cada uma segura o saco da feira
+A clavícula direita de cada uma treme com o cheiro do peixe meio
+E a praça do bairro recebe cada uma na sua maneira
 
 [Bridge]
-Os pés batem em unissono
-O sim viaja pelo ar
-O corpo inteiro é um hino
-Que ninguém nos vai calar
+As mulheres da feira encontram-se no banco de cimento
+A clavícula direita de cada uma treme com o sol das onze
+A omoplata esquerda de cada uma encosta no encosto do banco lento
+A pálpebra direita de cada uma treme com a luz que se debronze
+Sobre a praça do bairro onde tantas manhãs se passaram
+A planta esquerda de cada uma apoia no mosaico que dispararam
 
 [Outro]
-Todas
-Todas nós
-Todas juntas`,
+Volto para casa com o saco da feira no quadril
+A omoplata desce contra o caixilho da porta da rua
+A clavícula direita treme com o eco da feira subtil
+Que ainda ressoa no passeio entre a praça e a minha rua nua`,
 
   // ─────────────────────────────────────────────
   // PENUMBRA (o limiar, o espaço entre)
