@@ -112,98 +112,142 @@ is my cathedral and my vow`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Os pés afundam na lama
-o barro sobe entre os dedos
-Não há templo mais antigo
-do que este chão sem segredos
+A planta do pé afunda no barro do pátio
+a anca desce um palmo na soleira da cozinha
+o tendão atrás do joelho cede sem aviso
+a palma encontra a lama fresca da varanda
+o pulso pousa no banco baixo de madeira
+a clavícula firma quando o ar passa devagar
+a gengiva guarda o gosto de água do lavatório
 
 [Verse 2]
-A chuva fez este caminho
-as raízes abriram a pedra
-Não precisas de altar nem cântico
-ajoelha aqui — a terra te agrada
+O esterno toca o pano da fronha velha
+o ombro cabe no côncavo da soleira
+o queixo encosta ao joelho na cozinha de pedra
+a têmpora descansa contra a porta da gaveta
+a escápula desenha o sítio onde a noite ficou
+o peito acolhe o cheiro do fósforo apagado
+a anca lembra a forma do banco da igreja
+
+[Pre-Chorus]
+o fósforo treme na mão
+a vela espera no peitoril
+o pulso aprende o chão
 
 [Chorus]
-Terra, terra, tens o meu nome
-feito de argila, feito de sal
-Terra, terra, tu és o corpo
-antes de qualquer sinal
+A palma reconhece a soleira de barro
+o esterno desce com o lume da cozinha
+o tendão da perna firma no chão de terra
+a clavícula respira o pão deixado na mesa
+a gengiva guarda o sal da manhã na varanda
+a anca pousa onde o avô se sentava
+o pulso encosta ao copo de barro no lavatório
+o ombro cede ao banco da igreja antiga
+
+[Verse 3]
+A escápula desliza pelo lençol gasto
+o queixo procura o pano da fronha
+a palma toca a parede fria do pátio
+o tendão da mão lembra o gesto de amassar
+o peito desce no degrau da soleira
+a têmpora pousa no granito da cozinha
 
 [Chorus]
-Terra, terra, tens o meu nome
-feito de argila, feito de sal
-Terra, terra, tu és o corpo
-antes de qualquer sinal
+A palma reconhece a soleira de barro
+o esterno desce com o lume da cozinha
+o tendão da perna firma no chão de terra
+a clavícula respira o pão deixado na mesa
+a gengiva guarda o sal da manhã na varanda
+a anca pousa onde o avô se sentava
+o pulso encosta ao copo de barro no lavatório
+o ombro cede ao banco da igreja antiga
 
 [Bridge]
-Não é medo que me dobra ao chão
-é reconhecimento, é fidelidade
-Esta terra já me conhecia
-antes de eu saber a minha identidade
+A anca encontra o chão sem pressa
+o esterno conhece a mesa de cozinha
+o pulso aprende o peso da gaveta
+a palma cabe na soleira que me viu nascer
+o tendão guarda a memória do quintal
+o ombro pousa onde a noite me espera
 
 [Outro]
-Enterro os pés
-e fico
-Aqui é sagrado
-aqui é real`,
+A palma no barro
+o esterno na mesa
+a anca no banco
+o queixo na fronha
+o peito na soleira
+o pulso na vela`,
 
   "incenso-travessia/4": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-There's a fire in my chest that I was told to swallow
-a fist behind my teeth they said was not allowed
-I smiled through every theft and turned the other hollow
-but the ground beneath my feet is screaming loud
+The sternum holds the heat behind the kitchen door
+the jaw locks tight against the bathroom mirror
+the palm presses flat on the worn wood table
+the wrist tightens above the cold tap of the sink
+the gum keeps the salt of words I never said
+the shoulder remembers the weight of the church bench
+the tendon along the forearm starts to hum
 
 [Verse 2]
-They dressed my rage in shame and called it ugly woman
-they said be soft, be sweet, be less, be still
-but anger is the oldest thing that's human
-and mine has kept me breathing through the kill
+The collarbone braces against the kitchen wall
+the temple rests on the windowpane at dusk
+the scapula slides past the laundered sheet
+the chin tips toward the candle on the threshold
+the hip finds the corner of the wooden chair
+the chest gathers the smoke of the matchstick
+the throat keeps a sound the cup of clay knows
+
+[Pre-Chorus]
+the match trembles in the palm
+the candle waits on the sill
+the sternum learns to climb
 
 [Chorus]
-Holy rage, holy rage
-burn what needs to burn
-holy rage, holy rage
-I am done with swallowing the world
-this fire is not madness
-this fire is not sin
-holy rage, holy rage
-the NO that lets me begin
+The jaw releases at the kitchen sink
+the sternum lifts above the threshold stone
+the palm opens wide on the bathroom mirror
+the wrist breaks free of the drawer's old grip
+the gum lets go of the salt of the long silence
+the shoulder steps back from the church bench
+the tendon hums along the kitchen counter
+the chest fills with the air of the open yard
 
 [Verse 3]
-My mother bit her tongue until it bled in silence
-my sister broke her knuckles on a wall
-I will not turn this heat into polite compliance
-I'd rather be the storm than never fall
+The temple leaves the pillowcase behind
+the hip lifts from the corner of the worn chair
+the collarbone draws a line across the porch
+the scapula remembers how to push the door
+the palm finds the matchstick on the table
+the chest carries the candle to the threshold
 
 [Chorus]
-Holy rage, holy rage
-burn what needs to burn
-holy rage, holy rage
-I am done with swallowing the world
-this fire is not madness
-this fire is not sin
-holy rage, holy rage
-the NO that lets me begin
+The jaw releases at the kitchen sink
+the sternum lifts above the threshold stone
+the palm opens wide on the bathroom mirror
+the wrist breaks free of the drawer's old grip
+the gum lets go of the salt of the long silence
+the shoulder steps back from the church bench
+the tendon hums along the kitchen counter
+the chest fills with the air of the open yard
 
 [Bridge]
-I am not asking for permission
-I am not sorry for the heat
-every woman who was told to simmer
-is the reason that I'm on my feet
-feel it in the jaw
-feel it in the hands
-the body knows when enough
-is enough is enough
+The jaw of every grandmother in the kitchen
+the wrist of every aunt at the wooden table
+the palm of every sister at the church bench
+the sternum of every woman on the threshold
+the shoulder I inherited from the back porch
+the tendon that ran across the family yard
 
 [Outro]
-Let it burn
-let it burn
-what survives the fire
-was always yours`,
+The palm on the table
+the sternum at the door
+the wrist by the candle
+the jaw at the sink
+the chest on the threshold
+the shoulder in the yard`,
 
   "incenso-travessia/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -318,47 +362,71 @@ eu estou de pé por vocês`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Sit still — not because it's peaceful
-but because the muscles learn
-to stop performing rest for others
-and let the silence take its turn
+The hip settles on the wooden chair in the kitchen
+the palm rests flat against the table's worn grain
+the sternum gives up its rehearsed posture
+the shoulder lowers a quarter inch toward the wall
+the tendon along the thigh begins to soften
+the gum unclenches behind the closed teeth
+the throat lets the cup of clay touch the bottom lip
 
 [Verse 2]
-The mind will rage, the body fidget
-the clock will judge you from the shelf
-But stillness isn't calm — it's practice
-the discipline of staying with yourself
+The jaw stops keeping the next sentence ready
+the wrist forgets the drawer it was about to open
+the temple finds the cool wall of the bathroom
+the scapula releases its hold on the doorframe
+the collarbone widens past the kitchen window
+the chest pauses near the candle on the threshold
+the chin tilts toward the matchstick on the sill
+
+[Pre-Chorus]
+the match stays in the palm
+the candle waits on the sill
+the wrist learns to wait
 
 [Chorus]
-Still — not peace but presence
-Still — not calm but choice
-Hold the trembling without fixing
-let the quiet find its voice
-Still — until the noise becomes a hum
+The shoulder stays on the kitchen bench
+the hip stays at the corner of the chair
+the palm stays flat across the wooden table
+the sternum stays low along the threshold stone
+the chin stays close to the pillowcase
+the tendon stays loose behind the knee
+the temple stays against the bathroom tile
+the chest stays open above the candle's flame
 
 [Verse 3]
-You'll want to reach for something certain
-some sound to fill the aching room
-But underneath the want for comfort
-there's a clarity that needs the gloom
+The wrist hangs loose beside the kitchen drawer
+the gum holds the salt from the morning bread
+the collarbone rests above the open window
+the palm leaves a print on the bathroom mirror
+the scapula draws a slow line on the wall
+the chin pauses near the cup of clay
 
 [Chorus]
-Still — not peace but presence
-Still — not calm but choice
-Hold the trembling without fixing
-let the quiet find its voice
-Still — until the noise becomes a hum
+The shoulder stays on the kitchen bench
+the hip stays at the corner of the chair
+the palm stays flat across the wooden table
+the sternum stays low along the threshold stone
+the chin stays close to the pillowcase
+the tendon stays loose behind the knee
+the temple stays against the bathroom tile
+the chest stays open above the candle's flame
 
 [Bridge]
-You will want to run — sit anyway
-You will want to speak — breathe instead
-Stillness built with trembling hands
-is the bravest thing you've ever said
+The hand that would have reached toward the drawer
+the throat that would have filled the kitchen sound
+the wrist that would have turned the kitchen tap
+the chest that would have crossed the threshold quickly
+the palm finds the table and stays with the grain
+the sternum finds the chair and keeps its place
 
 [Outro]
-Stillness is not a gift
-It is a skill
-Built with trembling hands`,
+The palm on the table
+the hip on the chair
+the chin near the pillow
+the wrist by the drawer
+the shoulder at the wall
+the temple on the tile`,
 
   "incenso-travessia/8": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -479,48 +547,71 @@ first green`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Antes de haver palavra
-há um peito que se fecha
-O ar não quer entrar
-a noite não arrefece
+O esterno fecha contra a pedra fria do pátio
+o ombro pesa no canto da soleira de barro
+o tendão da garganta agarra o ar da cozinha
+a clavícula trava na quina da gaveta velha
+o queixo desce contra o lençol da cama estreita
+a palma encontra a parede gasta do quarto
+o pulso descansa sobre o copo de barro
 
 [Verse 2]
-Deito no chão de pedra
-os ossos pedem tudo
-Não há o que pedir
-só este corpo rude
+A escápula afunda na fronha amassada
+a anca cabe no côncavo do colchão antigo
+a têmpora pousa onde a noite ficou parada
+o esterno desce devagar contra o chão da casa
+o peito acolhe o cheiro do fósforo gasto
+a gengiva guarda o sabor da água do lavatório
+o joelho dobra junto ao banco da igreja
+
+[Pre-Chorus]
+o fósforo treme na palma
+a vela espera na soleira
+o esterno aprende a abrir
 
 [Chorus]
-Respira
-antes do nome que tens
-Respira
-antes do que ainda vens
-O peito é o templo
-a língua pode calar
-Respira
-que isso já é rezar
+O esterno sobe com a luz da cozinha
+o pulmão alarga contra a parede do quarto
+o pulso pousa no copo de barro da mesa
+a palma encontra o pano da fronha lavada
+o tendão da garganta cede ao ar do pátio
+a clavícula respira o lume da vela
+o ombro larga o peso do banco da igreja
+a anca encontra o chão sem pedir nada
+
+[Verse 3]
+A têmpora descansa contra o azulejo da casa de banho
+o queixo encontra a borda do lavatório de barro
+o esterno desce com o vapor da panela velha
+o peito acolhe o cheiro da gaveta aberta
+a palma pousa no lençol gasto pela noite
+o pulso lembra a forma do copo da avó
 
 [Chorus]
-Respira
-antes do nome que tens
-Respira
-antes do que ainda vens
-O peito é o templo
-a língua pode calar
-Respira
-que isso já é rezar
+O esterno sobe com a luz da cozinha
+o pulmão alarga contra a parede do quarto
+o pulso pousa no copo de barro da mesa
+a palma encontra o pano da fronha lavada
+o tendão da garganta cede ao ar do pátio
+a clavícula respira o lume da vela
+o ombro larga o peso do banco da igreja
+a anca encontra o chão sem pedir nada
 
 [Bridge]
-Não há altar mais limpo
-do que um pulmão cansado
-Não há oração mais honesta
-do que um corpo deitado
+O esterno conhece a soleira da casa antiga
+o pulmão lembra o pátio onde a chuva caía
+a clavícula firma com o vento da varanda
+o peito guarda o pão deixado sobre a mesa
+a palma pousa onde a avó pousava a mão
+o pulso fica com a vela no peitoril
 
 [Outro]
-Antes de haver palavra
-há um peito que se abre
-O ar quer entrar agora
-a noite já é madre`,
+O esterno na cozinha
+o pulmão na varanda
+a palma na soleira
+o pulso na vela
+o ombro no lençol
+o peito no pátio`,
 
   "incenso-travessia/11": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -674,57 +765,71 @@ the ground holds`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Chorei tanto que fui ao mar perguntar
-Onde vai o que eu choro aqui
-O mar disse não sei distinguir
-O que é meu do que é de ti
+A têmpora encosta ao espelho da casa de banho
+o pulso encontra o granito frio do lavatório
+a gengiva guarda o sabor salgado do queixo
+a palma recolhe a água da torneira aberta
+o tendão da garganta firma e depois cede
+o esterno desce uma vez junto da soleira
+a clavícula recebe o sal que escorre devagar
 
 [Verse 2]
-Levo a língua ao canto dos lábios
-Tem o gosto do oceano fundo
-O corpo já sabe o que a cabeça
-Ainda está a descobrir no mundo
+O queixo pousa contra o pano da fronha velha
+a escápula afunda no lençol amassado
+a anca cabe no côncavo do colchão antigo
+o ombro lembra o peso do banco da igreja
+o peito acolhe o sal que veio do peitoril
+a palma encontra a vela apagada na mesa
+o pulso descansa no copo de barro cheio
+
+[Pre-Chorus]
+o sal na palma
+o sal na fronha
+o sal no copo de barro
 
 [Chorus]
-Sal
-o teu choro é sal
-Sal
-o mar é sal
-A dor que te encharca por dentro
-Já viveu no litoral
-Sal
-o que cais é sal
-Não choras só por ti
-Choras por todas as que choram igual
+A palma guarda o sal do lavatório
+o pulso descansa no copo de barro
+a gengiva conhece o salgado do queixo
+o esterno desce com o cheiro da maresia
+a têmpora pousa contra o espelho molhado
+a clavícula recebe a água da torneira
+o ombro larga o sal do banco da igreja
+a anca cabe no chão da cozinha gasta
 
 [Verse 3]
-Passo a mão no rosto molhado
-Não sei se é chuva ou se sou eu
-O céu também tem os seus dias
-O céu também às vezes chove e deu
+O esterno desce junto da janela do quarto
+a escápula desliza sobre o lençol fino
+o queixo encontra a borda do lavatório
+a têmpora pousa na fronha de algodão velho
+a palma molha-se contra o azulejo da parede
+o tendão da mão lembra o gesto de enxugar
 
 [Chorus]
-Sal
-o teu choro é sal
-Sal
-o mar é sal
-A dor que te encharca por dentro
-Já viveu no litoral
-Sal
-o que cais é sal
-Não choras só por ti
-Choras por todas as que choram igual
+A palma guarda o sal do lavatório
+o pulso descansa no copo de barro
+a gengiva conhece o salgado do queixo
+o esterno desce com o cheiro da maresia
+a têmpora pousa contra o espelho molhado
+a clavícula recebe a água da torneira
+o ombro larga o sal do banco da igreja
+a anca cabe no chão da cozinha gasta
 
 [Bridge]
-Sente o sal na garganta
-Sente o ardor nos olhos teus
-Esse é o mesmo sal do mar
-Esse é o mesmo sal de Deus
+A gengiva conhece o sal de quem chorou antes
+o pulso conhece a água que outras lavaram
+a palma conhece o pano que a avó passou
+o esterno conhece a soleira da casa antiga
+a têmpora conhece o vidro do espelho gasto
+o ombro conhece o banco da igreja vazia
 
 [Outro]
-Sal no rosto
-Sal no mar
-Sal`,
+O sal no queixo
+o sal no copo
+o sal na fronha
+o sal na palma
+o sal no espelho
+o sal na soleira`,
 
   "incenso-humus/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

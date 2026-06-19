@@ -16,332 +16,349 @@ export const FASE1B_LYRICS: Record<string, string> = {
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Os passos ecoam na calçada
-Como perguntas sem resposta
-A cidade está calada
-E a noite está bem posta
-Nenhum carro, nenhuma voz
-Só o bater do meu sapato
-O silêncio fala por nós
-E cada esquina é um retrato
+A sola encontra a pedra
+Antes do joelho saber
+A anca solta o peso
+Que o dia veio trazer
+O cotovelo dobra leve
+Junto à porta do café fechado
+A fossa nasal recebe
+O ar do chão lavado
 
 [Verse 2]
-As sombras crescem nos muros
-Desenham corpos que não estão
-Os candeeiros são maduros
-Frutos de luz no chão
-Caminho sem destino certo
-Sem hora para regressar
-O mundo está todo aberto
-Quando não há onde chegar
+A janela da padaria
+Tem farinha no balcão
+O ombro desce sozinho
+Quando passo o portão
+A palma roça um muro
+Que ainda guarda o sol
+A nuca recebe escuro
+Como quem recebe lençol
 
 [Pre-Chorus]
-Passo a passo sem razão
-Sem mapa, sem relógio
-A noite é uma oração
-Que não precisa de prólogo
+O calcanhar sabe ir
+Sem que a boca dirija
+A garganta deixa cair
+A palavra que não exija
 
 [Chorus]
-Os meus passos sabem coisas
-Que a minha boca nunca disse
-São perguntas silenciosas
-Que o asfalto benedisse
-Cada passo é uma sílaba
-De um poema sem autor
-A cidade é uma válvula
-Que abre quando paro de ter medo do escuro e da dor
+A calçada por baixo do pé
+A escada por baixo da calçada
+A cozinha por baixo da escada
+Onde alguém deixou a luz acesa
+O pulso bate devagar
+Contra a manga molhada
+A esquina cheira a chá
+De uma cadeira encostada
+A travessa fica e fica
 
 [Verse 3]
-Passo por uma montra escura
-Vejo o meu reflexo a andar
-Uma figura insegura
-Que aprendeu a confiar
-No ritmo dos seus próprios pés
-No eco que a rua devolve
-Sou mais eu do que alguma vez
-Quando a noite me envolve
+Passo a montra do sapateiro
+A bota do dono fica lá dentro
+O peito enche-se primeiro
+Depois esvazia por dentro
+A clavícula reconhece
+O fresco do passeio
+A perna lembra-se da rua
+Mesmo quando esqueço
 
 [Chorus]
-Os meus passos sabem coisas
-Que a minha boca nunca disse
-São perguntas silenciosas
-Que o asfalto benedisse
-Cada passo é uma sílaba
-De um poema sem autor
+A calçada por baixo do pé
+A escada por baixo da calçada
+A cozinha por baixo da escada
+Onde alguém deixou a luz acesa
+O pulso bate devagar
+Contra a manga molhada
+A esquina fica e fica
 
 [Bridge]
-Não preciso de companhia
-Nem de música nos ouvidos
-A noite é uma melodia
-Feita de passos repetidos
-De portas que já fecharam
-De janelas com luz acesa
-De vidas que se deitaram
-Enquanto eu caminho sem pressa
+Uma janela mal fechada
+Deixa sair música baixa
+Para a rua amassada
+Pela chuva que já passa
+A têmpora aquece um pouco
+Contra a parede caiada
+O queixo desce sozinho
+Para a gola desabotoada
 
 [Chorus]
-Os meus passos sabem coisas
-Que a minha boca nunca disse
-São perguntas silenciosas
-Que a noite benedisse
+A calçada por baixo do pé
+A escada por baixo da calçada
+A cozinha por baixo da escada
+Onde alguém deixou a luz acesa
+O pulso fica e fica
 
 [Outro]
-E quando finalmente paro
-Num banco frio de jardim
-Percebo que nada é raro
-Nesta cidade dentro de mim
-Os passos eram o destino
-O caminho era o fim
-E a noite — o meu hino
-Canta-se assim`,
+Sento num banco de jardim
+A coxa sente a madeira
+A planta do pé apoia
+Numa folha derradeira
+O esterno desce três vezes
+A boca não diz nada
+Fica, fica
+A pedra fica`,
 
   "mare-lua-acordada/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The rain fell hours ago
-But the streets still hold the light
-Every puddle is a window
-To a city made of night
-The neon bends and shivers
-On the wet and broken stone
-The pavement is a river
-Of colours I have never known
+My boot finds the puddle first
+The ankle knows before the knee
+The shin reads the cold of asphalt
+Through a sock that's halfway free
+A pharmacy sign drops green
+On the back of my left hand
+The wrist turns to catch the colour
+Like a coin held in damp sand
 
 [Verse 2]
-A pharmacy sign bleeds green
-Across the cobblestones below
-A bar sign hums unseen
-In a warm electric glow
-The reflections stretch like fingers
-Reaching for the other side
-And the beauty always lingers
-In the places where the light has died
+The collarbone gathers air
+Above a zipped-up coat
+The throat is dry from walking
+And swallows what it brought
+A bar door breathes warm yellow
+Across the side of my face
+The cheekbone takes the borrowed light
+Then gives it back to the place
 
 [Pre-Chorus]
-The city writes in colour
-On the blackboard of the rain
-Every letter is a lover
-Every word a different stain
+The shoulder lowers on its own
+Between one block and the next
+The jaw forgets what it was saying
+Mid-sentence, mid-text
 
 [Chorus]
-Neon on the water
-Neon on the ground
-The city is a daughter
-Of light and rain and sound
-Every broken puddle
-Holds a cathedral of glow
-And I am just a body
-Walking through a late-night show
+A kitchen window upstairs
+The kettle going off alone
+A staircase wet with rain
+Going up to someone's home
+The palm slides on a railing
+Cold iron, paint half-gone
+The sternum rises slowly
+And the puddle carries on
+The puddle stays and stays
 
 [Verse 3]
-A taxi passes slowly
-Its headlights paint the wall
-The shadows move so holy
-Like saints inside a hall
-I step across a mirror
-Made of rain and city dust
-And everything feels nearer
-When the world is stripped to rust
+A taxi sweeps its headlight
+Across my open hand
+The thumb learns red, then nothing
+The way a tide leaves sand
+A bakery's window glows
+Behind a metal grate
+The hip leans on the brickwork
+The knee agrees to wait
 
 [Chorus]
-Neon on the water
-Neon on the ground
-The city is a daughter
-Of light and rain and sound
-Every broken puddle
-Holds a cathedral of glow
+A kitchen window upstairs
+The kettle going off alone
+A staircase wet with rain
+Going up to someone's home
+The palm slides on a railing
+Cold iron, paint half-gone
+The puddle stays and stays
 
 [Bridge]
-The signs don't care who's reading
-They burn for empty streets
-The light goes on repeating
-Like a heart that never sleeps
-And I am just a witness
-To the colours no one claims
-Walking through the fitness
-Of a city calling names
+A laundry line above me
+Holds a shirt against the dark
+A balcony door opens
+Then closes on its mark
+The eardrum keeps the click of it
+The ribcage keeps the air
+The heel of my hand finds the wall
+And the wall is glad it's there
 
 [Chorus]
-Neon on the water
-Neon on the ground
-A city made of colour
-And a silence made of sound
+A kitchen window upstairs
+The kettle going off alone
+A staircase wet with rain
+Going up to someone's home
+The puddle stays and stays
 
 [Outro]
-When the rain returns tomorrow
-These colours will be new
-Every puddle full of sorrow
-Turns to something bright and true
-The neon doesn't judge you
-It just paints you as you are
-Standing in the avenue
-A body beneath a star`,
+I sit on a low step
+The thigh meets cold concrete
+The forearm rests on the knee
+The forehead finds the sleeve
+A puddle by my left boot
+Catches one slow light
+The sternum drops three times
+The window stays bright`,
 
   "mare-lua-acordada/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Às três da manhã a cidade é minha
-Cada rua é um corredor privado
-A lua é a única vizinha
-Que sabe onde tenho estado
-Os semáforos piscam amarelo
-Como olhos meio adormecidos
-O mundo perdeu o apelo
-De todos os seus ruídos
+O pulso encontra o frio
+Da chave dentro do bolso
+O joelho dobra devagar
+Sobre o passeio sem socorro
+Um semáforo amarelo
+Bate na pálpebra direita
+A clavícula descansa
+Contra a gola já desfeita
 
 [Verse 2]
-O padeiro já acendeu a luz
-Mas a rua ainda dorme
-O cheiro a pão que seduz
-É a única coisa enorme
-Nesta hora que não pertence
-Nem ao dia nem à noite
-Uma hora que me convence
-De que o tempo é um açoite
+O padeiro abriu a porta
+Mas não levanta os olhos
+A fossa nasal recebe
+A farinha entre os mochos
+A planta do pé segue
+O ritmo do balcão
+A omoplata afunda
+Quando passo o corrimão
 
 [Pre-Chorus]
-Três da manhã, terra de ninguém
-Nem os sonhos estão acordados
-E eu caminho como quem
-Colecciona os lados errados
+A nuca recebe a brisa
+Que entra pela camisa
+O esterno desce um pouco
+Sem que ninguém o avisa
 
 [Chorus]
-Três da manhã e a cidade é minha
-Toda minha sem pedir licença
-Cada rua uma linha
-De um poema sem sentença
-Nesta hora sou gigante
-Nesta hora sou pequena
-Sou a última viajante
-De uma noite que me ordena
+Uma cadeira na esplanada
+Com uma chávena esquecida
+Uma escada de serviço
+Encostada à parede caída
+A coxa apoia na pedra
+Da fonte que está parada
+O pulso bate no balcão
+De uma cozinha apagada
+A cadeira fica e fica
 
 [Verse 3]
-Um gato cruza a avenida
-Com a calma de quem sabe
-Que a pressa é uma ferida
-E a lentidão é a chave
-Passo por um banco onde alguém
-Deixou um jornal de ontem
-As notícias já não servem
-Nesta hora que não mente
+Um gato no muro baixo
+A cauda toca o caixilho
+O cotovelo encosta
+Onde o ferro está velhinho
+Um banco com um jornal
+Dobrado por outra mão
+A palma roça o papel
+Sem a leitura ou razão
 
 [Chorus]
-Três da manhã e a cidade é minha
-Toda minha sem pedir licença
-Cada rua uma linha
-De um poema sem sentença
+Uma cadeira na esplanada
+Com uma chávena esquecida
+Uma escada de serviço
+Encostada à parede caída
+A coxa apoia na pedra
+Da fonte que está parada
+A cadeira fica e fica
 
 [Bridge]
-Os relógios nesta hora
-São mentirosos gentis
-Prometem que vem a aurora
-Mas a noite diz que não quis
-Que ainda há tempo para tudo
-Para nada, para ficar
-No silêncio mais agudo
-Que é o silêncio de andar
+Uma janela do segundo andar
+Tem uma luz de cozinha
+Alguém está a aquecer
+Um leite ou uma rotina
+A têmpora reconhece
+O cheiro do leite a subir
+O ombro lembra-se de quando
+Eu também sabia dormir
 
 [Chorus]
-Três da manhã e sou toda minha
-A cidade e eu somos uma
-Cada rua uma vizinha
-Cada sombra uma fortuna
+Uma cadeira na esplanada
+Com uma chávena esquecida
+Uma escada de serviço
+Encostada à parede caída
+A cadeira fica e fica
 
 [Outro]
-Quando o céu começar a mudar
-De azul-preto para cinza
-Vou ter saudades deste andar
-Sem hora, sem pressa, sem pinta
-As três da manhã são sagradas
-São o único relógio real
-De horas desocupadas
-Que sabem a liberdade e a sal`,
+Sento no degrau de pedra
+A coxa contra o granito
+O esterno desce três vezes
+A boca fica em silêncio escrito
+O céu muda no caixilho
+De preto para um tom de chá
+A planta do pé descansa
+A cadeira fica
+Fica lá`,
 
   "mare-lua-acordada/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The seats are mostly empty
-Just a woman and her phone
-The engine hums so gently
-Like a lullaby of chrome
-The driver doesn't look back
-He knows the route by heart
-Through the city dressed in black
-Every stop a work of art
+The seat is cold against the thigh
+The plastic fogs my breath
+The forearm rests on metal
+That keeps the window's death
+A woman three rows forward
+Has her temple to the glass
+Her wrist hangs from the handhold
+Like a clock that lost its pass
 
 [Verse 2]
-A man gets on at Central
-His jacket wet with rain
-He sits without a preamble
-And stares out at the lane
-We share this metal capsule
-This cocoon of fluorescent light
-Each passenger a parcel
-Delivered through the night
+The shoulder finds the corner
+Of the seat behind my head
+The knee falls to the aisle
+On the route my feet have read
+A man boards at the station
+His coat heavy with the wet
+The collarbone of his jacket
+Drips on the rubber mat
 
 [Pre-Chorus]
-Strangers in the same direction
-Sharing air and sharing time
-A temporary connection
-In a temporary rhyme
+The jaw goes loose with humming
+Engine through the floor
+The sternum rises softly
+With each opened door
 
 [Chorus]
-The night bus knows the lonely
-The tired and the free
-It carries us — the only
-Ones who chose not to sleep
-Through amber lights and silence
-Through streets without a name
-The night bus is a kindness
-That never asks you to explain
+A kitchen at a bus stop
+Yellow light behind a blind
+A staircase to a basement
+With the laundry left behind
+The hip leans on the heater
+The palm sleeps on the bar
+The window holds a shoulder
+That is travelling not far
+The seat stays warm and stays
 
 [Verse 3]
-A girl is half asleep now
-Her head against the glass
-The city lights endow
-Her face with colours as they pass
-Green then gold then nothing
-Then the white of a garage
-Each window tells her something
-In a luminous collage
+A girl across the aisle
+Has her cheek upon the rail
+Her eyelid catches amber
+Then violet, then pale
+A bag against her ankle
+A scarf around her wrist
+The bus rocks at a corner
+And her shoulder gives a twist
 
 [Chorus]
-The night bus knows the lonely
-The tired and the free
-It carries us — the only
-Ones who chose not to sleep
+A kitchen at a bus stop
+Yellow light behind a blind
+A staircase to a basement
+With the laundry left behind
+The hip leans on the heater
+The palm sleeps on the bar
+The seat stays warm and stays
 
 [Bridge]
-We never speak to each other
-But something here is shared
-Like children of the same mother
-We are quietly prepared
-For the end of every journey
-For the door that hisses wide
-For the cold that hits you firmly
-When you step back outside
+The driver's hand on the wheel
+Is patient with the road
+The neck of the man beside me
+Holds a quietly heavy load
+We breathe the same recycled air
+Through nostrils slightly chapped
+The eardrum keeps the engine
+The lung keeps what was wrapped
 
 [Chorus]
-The night bus knows us gently
-The restless and the raw
-It loves us evidently
-Without condition, without law
+A kitchen at a bus stop
+Yellow light behind a blind
+A staircase to a basement
+With the laundry left behind
+The seat stays warm and stays
 
 [Outro]
-I press the bell at my stop
-The driver nods goodnight
-The bus rolls on, won't stop
-Until the morning light
-And somewhere in the city
-Another soul gets on
-Looking tired, looking pretty
-Riding till the dark is gone`,
+I press the bell, the wrist remembers
+The yellow plastic give
+The boot meets cold pavement
+The thigh forgets what was live
+A bench is waiting nearby
+A kitchen window glows
+The sternum drops three times
+The bus keeps and goes`,
 
   "mare-lua-acordada/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -845,164 +862,164 @@ When you walk it on your own`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O primeiro passo é o mais difícil
-Não porque o corpo não queira
-Mas porque a mente diz que é inútil
-Mover-se assim de qualquer maneira
-O pé levanta-se do chão
-A música entra pelos ossos
-E de repente a hesitação
-Transforma-se em mil destroços
+O calcanhar direito ainda no azulejo da cozinha
+A ponta do pé esquerdo já no soalho da sala
+A música entrou pela fossa nasal
+Antes de chegar ao tímpano
+A anca direita pesa mais que a esquerda
+O peso muda quando o joelho dobra
+A mão pousada no balcão da cozinha
+Larga o balcão a meio do compasso
 
 [Verse 2]
-A pista está quase vazia
-Mas os graves tremem no peito
-O corpo sabe a melodia
-Antes do ouvido dar o veredicto
-Os joelhos dobram sozinhos
-As ancas encontram o ritmo
-Como pássaros nos seus ninhos
-O corpo regressa ao seu batismo
+A pista da sala está quase vazia
+Os graves passam pelo esterno
+E descem pela barriga até à virilha
+Os joelhos cedem dois centímetros
+O ombro direito desce
+A nuca solta uma coisa apertada
+A palma da mão abre devagar
+Como se largasse uma chave
 
 [Pre-Chorus]
-Não penses, não planeies
-Não contes os tempos
-Deixa que os pés criem
-Os seus próprios ventos
+O pé esquerdo ainda no chão
+O direito já no ar
+A boca não conta os tempos
+A garganta também não
 
 [Chorus]
-O primeiro passo é sagrado
-É o corpo a dizer que sim
-Antes da mente ter chegado
-A dança já mora em mim
-Cada passo destrói um muro
-Que eu construí sem saber
-O primeiro passo é o futuro
-Do corpo que quer viver
+O calcanhar bate primeiro no soalho
+A ponta do pé chega depois
+A anca roda sem ordem da cabeça
+O joelho dobra do seu lado
+A coluna ondula da cintura para cima
+Os ombros descem com o ar do peito
+A palma da mão abre na altura da cara
+A nuca larga o que tinha guardado
 
 [Verse 3]
-Os braços abrem-se no ar
-Como asas que se lembraram
-De que nasceram para voar
-Não para os lados onde as prenderam
-A coluna ondula e sobe
-O suor começa a brilhar
-E o corpo antigo descobre
-Que nunca deixou de dançar
+O cotovelo desenha um arco curto
+A mão direita chega à altura do ombro
+A pele do pescoço aquece primeiro
+Depois aquece a pele do peito
+O suor começa entre as omoplatas
+Escorre pela coluna até à cintura
+A camisola cola por baixo do braço
+Os dedos dos pés agarram a tábua
 
 [Chorus]
-O primeiro passo é sagrado
-É o corpo a dizer que sim
-Antes da mente ter chegado
-A dança já mora em mim
+O calcanhar bate primeiro no soalho
+A ponta do pé chega depois
+A anca roda sem ordem da cabeça
+O joelho dobra do seu lado
 
 [Bridge]
-Dançar não é acertar
-É errar com elegância
-É o corpo a confessar
-O que guardou desde a infância
-Cada gesto é uma palavra
-Que a boca nunca soube
-E o corpo finalmente lavra
-O campo onde a mente não coube
+A mão esquerda passa pelo cabelo
+Demora-se na nuca dois segundos
+O queixo desce um pouco para o peito
+Os olhos fecham sem eu mandar
+A planta do pé conhece a tábua
+A tábua tem uma falha junto à parede
+O pé direito evita a falha sozinho
+Sem a cabeça ter dado a ordem
 
 [Chorus]
-O primeiro passo é sagrado
-E o último é igual
-O corpo nunca está errado
-Quando a dança é animal
+O calcanhar volta ao soalho
+A ponta do pé encontra o seu lugar
+A anca pousa do lado direito
+O joelho descansa do lado esquerdo
 
 [Outro]
-Tira os sapatos, tira o medo
-Tira a vergonha e o juízo
-O primeiro passo é um segredo
-Entre o teu corpo e o paraíso
-O chão está à tua espera
-A música já começou
-E o teu primeiro passo era
-Tudo o que te faltou`,
+Os sapatos ficaram à porta da cozinha
+A meia esquerda em cima da cadeira
+A planta do pé inteira no soalho
+O pulso a bater na garganta
+A mão pousa no balcão outra vez
+Os ombros descem mais um dedo
+A respiração entra pelas costas
+E sai pela boca devagar`,
 
   "incenso-pes-descalcos/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Take off your shoes and feel the ground
-The cold tile underneath your skin
-The texture that your feet have found
-Is where the dancing will begin
-The earth is talking through the floor
-A pulse that comes from somewhere deep
-A rhythm knocking at the door
-Of every muscle still asleep
+The left sneaker drops beside the door
+The right one tilts against the wall
+The sock peels off the heel first
+The toes stretch wider on the tile
+The kitchen tile is cold along the arch
+The grout line presses up between two toes
+The right palm rests against the counter
+The left hand finds the back of a chair
 
 [Verse 2]
-The concrete holds a thousand beats
-Of everyone who walked before
-The dancers and the empty streets
-All echo in this one dance floor
-My toes spread wide, my arches lift
-I feel the bass come through the stone
-My body starts its ancient drift
-Connected to a rhythmic bone
+The cold travels up the calf
+Settles in the knee for a second
+The hip drops two centimetres on the left
+The shoulder follows half a beat later
+The collarbone catches the bass
+The breath enters through the nose
+The throat unclenches around a word
+That was never said today
 
 [Pre-Chorus]
-No barrier between the beat
-And the body that receives
-When you dance with naked feet
-The ground itself believes
+The heel finds the seam between two tiles
+The ball of the foot finds the rug
+The toes find the wooden floor
+The body knows three surfaces now
 
 [Chorus]
-Barefoot on the sacred ground
-Where the rhythm meets the skin
-Every step becomes a sound
-That the earth has always been
-No shoe can hold what I am feeling
-No sole can block this ancient call
-Barefoot is the way of healing
-Barefoot is the way I fall — into the groove
+Heel on the tile, toe on the rug
+The arch crossing the doorway
+The hip leading the shoulder
+The shoulder leading the wrist
+The wrist drawing a slow circle
+At the height of the sternum
+The jaw releasing
+The eyelids closing on their own
 
 [Verse 3]
-The wooden floor is warm and worn
-By all the feet that came to pray
-To this religion, music-born
-Where bodies have the final say
-I slide, I stomp, I barely touch
-The surface hums beneath my weight
-I never knew I needed much
-Less than this to feel great
+The bass reaches the small of the back
+The spine answers from the tailbone up
+A vertebra cracks near the neck
+The skin warms between the shoulder blades
+The cotton of the shirt clings under the arm
+A drop of sweat runs along the ribs
+The thumb of the right hand
+Brushes the wrist of the left
 
 [Chorus]
-Barefoot on the sacred ground
-Where the rhythm meets the skin
-Every step becomes a sound
-That the earth has always been
+Heel on the tile, toe on the rug
+The arch crossing the doorway
+The hip leading the shoulder
+The shoulder leading the wrist
 
 [Bridge]
-My grandmother danced barefoot too
-On red dirt under African sun
-The ground remembers what we knew
-Before the shoes, before the run
-And somewhere in my city feet
-That ancient knowledge still remains
-A barefoot child on a concrete street
-Dancing in the rain
+The wooden floor has a soft spot
+Near the leg of the table
+The right foot avoids it without thinking
+The left foot remembers the same map
+The palm passes over the belly
+The fingers spread across the hip bone
+The chin drops toward the collarbone
+The mouth stays closed and breathing
 
 [Chorus]
-Barefoot on the sacred ground
-Where the body meets the earth
-Every step a primal sound
-Every dance a second birth
+Heel back on the tile
+Toe back on the rug
+The arch resting in the doorway
+The wrist resting on the hip
 
 [Outro]
-Put your shoes beside the door
-Let the soles of your feet breathe
-The ground has so much more in store
-Than what your shoes allow you to receive
-Dance barefoot once
-And you will know
-The earth was always playing drums
-Beneath you, slow and low`,
+The sneakers stay beside the door
+The socks lie on the kitchen chair
+The arch of the foot on the wooden floor
+The pulse beating in the throat
+The hand pours water into a glass
+The glass meets the lower lip
+The shoulders drop one more finger
+The breath leaves through the mouth slowly`,
 
   "incenso-pes-descalcos/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]

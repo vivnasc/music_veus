@@ -293,52 +293,78 @@ Fico aqui
 E deixo-me chegar`,
 
   "espelho-ilusao/7": `[Verse 1]
-Eu vi, eu vi
-O que não se pode des-ver
-O pano caiu no chão
-É o chão tremeu de prazer
+A palma abre na soleira da cozinha
+O pulso solta o copo na mesa
+A clavícula desce até ao avental
+A gengiva descansa sobre o queixo
+O esterno encontra o sol da varanda
+A omoplata desliza pelo lavatório
+A anca firma o peso na taburete
 
 [Verse 2]
-Não foi um raio, não foi um grito
-Foi o vento a passar na pele
-Foi olhar para o espelho partido
-E ver beleza em cada pedaco dele
+A escápula desenha o vinco da fronha
+A têmpora encosta no espelho da casa de banho
+O tendão cede um passo na escada
+O ombro afrouxa o nó do lenço na gaveta
+A costela alarga no lençol da marquesa
+O peito mede a manhã na varanda
+A garganta engole o resto do café
+
+[Pre-Chorus]
+A palma reconhece a palma
+O queixo desce mais um dedo
+A anca fica parada por dentro
 
 [Chorus]
-O véu cai e eu danço na luz
-O véu cai e não dói
-O véu cai e debaixo do medo
-Só havia eu, só havia eu
-Sempre fui eu
-Nua, inteira, viva
-Sempre fui eu
+O esterno respira sem aviso
+A omoplata desce pela escada
+O pulso pousa na soleira da cozinha
+A clavícula segura a manhã na varanda
+O peito caminha sozinho na sala
+A gengiva amolece no banco da igreja
+A têmpora encosta na vela acesa
+A anca volta a casa pela palma
+Costela, costela, sem pressa
+A escápula descansa na fronha
 
 [Verse 3]
-A menina que escondi no armario
-Saiu descalca e a rir
-Com o cabelo ao vento
-E sem pedir licença pra existir
+O fósforo arde junto à vela na mesa
+A palma recolhe a cinza para a gaveta
+O pulso lava a louça no lavatório
+A gengiva descansa contra o queixo
+A omoplata encontra o canto da marquesa
+A anca senta na taburete da cozinha
+O ombro acolhe o sol na varanda
 
 [Chorus]
-O véu cai e eu danço na luz
-O véu cai e não dói
-O véu cai e debaixo do medo
-Só havia eu, só havia eu
-Sempre fui eu
-Nua, inteira, viva
-Sempre fui eu
+O esterno respira sem aviso
+A omoplata desce pela escada
+O pulso pousa na soleira da cozinha
+A clavícula segura a manhã na varanda
+O peito caminha sozinho na sala
+A gengiva amolece no banco da igreja
+A têmpora encosta na vela acesa
+A anca volta a casa pela palma
+Costela, costela, sem pressa
+A escápula descansa na fronha
 
 [Bridge]
-Uma vez que sentes
-Não voltas a dormir
-Uma vez que danças
-Não voltas a fingir
+A palma já não fecha nada
+O esterno já não pede licença
+A anca conhece a sua escada
+O ombro conhece a sua gaveta
+A gengiva conhece o seu copo
+A têmpora conhece a sua vela
+O peito conhece a sua mesa
 
 [Outro]
-O véu caiu
-E eu ri
-Porque debaixo de tudo
-Eu sempre estive aqui`,
+O pulso na soleira da cozinha
+A palma na fronha da marquesa
+O esterno na varanda da manhã
+A omoplata no lençol da casa
+A costela no banco da igreja
+A gengiva no fósforo da vela
+A anca aqui, a anca aqui`,
 
   // ─────────────────────────────────────────────
   // ESPELHO DO MEDO (Véu 2 — fear deciding for you)
@@ -593,101 +619,156 @@ We'll find the morning at the same pace`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Ouves a tua voz na minha orelha
-Sinto o teu peso nós meus pés
-Conheco-te como se conhece uma canção velha
-Que a gente canta sem saber porque
+A têmpora ouve uma voz no travesseiro
+A gengiva guarda o nome antigo da fronha
+O pulso treme contra o lençol da marquesa
+A clavícula recua para o canto da gaveta
+O esterno escuta a escada a ranger
+A omoplata aperta o ombro contra a parede
+A palma fecha sobre a beira do copo
 
 [Verse 2]
-Falas-me de abismos e de quedas
-De noites frias e de fins
-Mas eu olho para as minhas mãos abertas
-E vejo que estão cheias de jardins
+A anca pesa na taburete da cozinha
+O queixo desce sobre o peito do avental
+A escápula cede à fronha da almofada
+A costela conta o tempo da varanda
+O tendão segura o passo na soleira
+A gengiva descansa sobre a vela apagada
+O peito mede o vento que entra na sala
+
+[Pre-Chorus]
+A palma abre na mesa da cozinha
+O pulso decide pela escada
+A anca já se move sem permissão
 
 [Chorus]
-Ouço-te, ouço-te
-Mas os meus pés já decidiram
-Ouço-te, ouço-te
-Mas as raízes que me prendem
-Hoje viraram asas
-E eu vou com o teu nome nos ouvidos
-Vou tremendo, vou cantando
-Vou
+A palma sobe a escada da cozinha
+O esterno atravessa a soleira da casa
+O pulso pousa o copo sobre a mesa
+A clavícula desencosta da gaveta
+A omoplata solta a fronha da marquesa
+A anca caminha pelo banco da igreja
+O peito acende o fósforo da vela
+A gengiva amolece contra o queixo
+O ombro carrega a manhã pela varanda
+A costela canta sem palavras
 
+[Verse 3]
+A palma encontra a chave no lavatório
+O pulso lava o medo no copo da cozinha
+A escápula recolhe a fronha do lençol
+A anca firma o passo na taburete da varanda
+O tendão acolhe o tremor sem o calar
+A gengiva sustenta o nome sem o gritar
+O esterno acolhe o medo como hóspede
 
 [Chorus]
-Ouço-te, ouço-te
-Mas os meus pés já decidiram
-Ouço-te, ouço-te
-Mas as raízes que me prendem
-Hoje viraram asas
-E eu vou com o teu nome nos ouvidos
-Vou tremendo, vou cantando
-Vou
+A palma sobe a escada da cozinha
+O esterno atravessa a soleira da casa
+O pulso pousa o copo sobre a mesa
+A clavícula desencosta da gaveta
+A omoplata solta a fronha da marquesa
+A anca caminha pelo banco da igreja
+O peito acende o fósforo da vela
+A gengiva amolece contra o queixo
+O ombro carrega a manhã pela varanda
+A costela canta sem palavras
 
 [Bridge]
-A coragem tem o gosto do medo
-Temperado com um bocadinho de sol
-É um bocadinho de loucura
-É um bocadinho de a vida é só uma
+O medo senta na taburete ao lado da anca
+A palma aceita a sua presença na mesa
+A gengiva oferece-lhe o copo da cozinha
+A clavícula faz lugar na soleira da casa
+O esterno respira ao seu ritmo na varanda
+A omoplata acolhe o seu peso na fronha
+O peito caminha com ele pela escada
 
 [Outro]
-Ouço-te
-Agradeco-te
-E vou
-Com as pernas a tremer
-É o coração aos pulos
-Vou`,
+A palma na soleira da cozinha
+O pulso na fronha da marquesa
+A anca no banco da igreja
+A gengiva no fósforo da vela
+A escápula no lençol da casa
+O esterno aqui, o esterno aqui
+A clavícula segue o passo da palma`,
 
   "espelho-medo/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A vela treme na minha mão
-A chama e tão pequena, tão frágil
-Mas ilumina mais que qualquer trovão
-Porque a luz que dura nasce fácil
+A palma segura o fósforo na mesa
+A vela acende na soleira da cozinha
+O pulso pousa o copo perto da chama
+A gengiva descansa contra o queixo
+O esterno mede a manhã sobre a varanda
+A clavícula afrouxa o nó da fronha
+A omoplata desliza pelo lavatório
 
 [Verse 2]
-Não preciso de matar o medo
-Nem de o vencer numa batalha
-Posso caminhar com ele ao lado
-Como quem leva um filho pela manhã
+A anca senta na taburete da cozinha
+O ombro acolhe a vela como hóspede
+A costela alarga sob o lençol da marquesa
+A escápula descansa no canto da fronha
+O tendão suaviza o passo na escada
+A têmpora encosta no espelho da casa de banho
+O peito conhece o caminho da varanda
+
+[Pre-Chorus]
+A palma sem pressa sobre o fósforo
+O pulso sem pressa sobre o copo
+A anca sem pressa sobre a escada
 
 [Chorus]
-Devagar como a lua sobe
-Devagar como a mare vem
-Devagar como a ferida fecha
-Devagar como quem quer bem
-Não há pressa nesta estrada
-Não há meta nem final
-Há só a luz desta vela
-É a beleza de andar, de andar
+A palma acende a vela na cozinha
+A gengiva amolece contra o queixo
+O pulso pousa sobre o lavatório
+A clavícula descansa na varanda
+A omoplata segue a fronha da marquesa
+O esterno respira o tempo da chama
+A anca caminha o tempo da escada
+O peito atravessa a soleira da casa
+A costela canta o tempo do fósforo
+O ombro segura a manhã sem aviso
 
+[Verse 3]
+A palma recolhe a cinza para a gaveta
+O pulso lava a louça no lavatório
+A gengiva guarda o nome sem o gritar
+A anca firma o passo na soleira da cozinha
+A escápula desenha o vinco da fronha
+O esterno acolhe o medo como vizinho
+O tendão acompanha a vela até apagar
 
 [Chorus]
-Devagar como a lua sobe
-Devagar como a mare vem
-Devagar como a ferida fecha
-Devagar como quem quer bem
-Não há pressa nesta estrada
-Não há meta nem final
-Há só a luz desta vela
-É a beleza de andar, de andar
+A palma acende a vela na cozinha
+A gengiva amolece contra o queixo
+O pulso pousa sobre o lavatório
+A clavícula descansa na varanda
+A omoplata segue a fronha da marquesa
+O esterno respira o tempo da chama
+A anca caminha o tempo da escada
+O peito atravessa a soleira da casa
+A costela canta o tempo do fósforo
+O ombro segura a manhã sem aviso
 
 [Bridge]
-O medo é eu somos vizinhos velhos
-Partilhamos a varanda e o pôr-do-sol
-Ele conta-me historias de perigo
-Eu ofereco-lhe um lugar ao sol
+A palma e o medo partilham a mesa
+A clavícula e o medo partilham a varanda
+A anca e o medo partilham a taburete
+O esterno e o medo partilham a fronha
+A gengiva e o medo partilham a vela
+A omoplata e o medo partilham a escada
+O peito e o medo partilham o copo
 
 [Outro]
-Devagar, devagar
-A cura não tem relógio
-Devagar, devagar
-Cada passo é uma oração
-Cada tremor é uma canção`,
+A palma sobre o fósforo da mesa
+O pulso sobre o copo da cozinha
+A anca sobre a taburete da varanda
+A gengiva sobre a vela acesa
+A escápula sobre a fronha da marquesa
+O esterno aqui, sem relógio
+A clavícula aqui, sem aviso`,
 
   // ─────────────────────────────────────────────
   // ESPELHO DA CULPA (Véu 3 — guilt for wanting more)
@@ -697,57 +778,79 @@ Cada tremor é uma canção`,
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
-[Intro: low piano drone with metronome-like synth pulse on off-beat, vocal half-whispered]
-essa voz...
-essa voz...
+[Verse 1]
+A gengiva acorda antes da têmpora
+A clavícula recua sob o lençol da marquesa
+O esterno endurece contra a fronha
+O pulso aperta o copo na mesa da cozinha
+A palma esfrega o sono do queixo
+A omoplata recolhe-se no banco da igreja
+A anca senta sem ainda querer
 
-[Verse 1: vocal raw, very close, almost spoken, breath audible]
-Há uma voz que mora entre os ossos
-Que acorda antes de mim de manhã
-Diz levanta-te, não descansas
-Diz que a tua paz é uma mentira estranha
+[Verse 2]
+A escápula carrega o peso da escada
+O ombro segura o avental da cozinha
+A costela conta os pecados da varanda
+O tendão estica contra o degrau da soleira
+A gengiva guarda a frase antiga da mãe
+A têmpora encosta no espelho da casa de banho
+O peito pede licença para respirar
 
-[Verse 2: same raw intimacy, slight rasp]
-Sento-me a ler e ela sussurra
-Devias estar a fazer mais
-Deito-me a olhar para o teto
-E ela conta-me os pecados mortais
+[Pre-Chorus]
+A palma escuta a boca antiga
+O esterno escuta o padre antigo
+A gengiva escuta o peso da fé
 
-[Chorus: voice opens slightly, still no harmonies, low piano drone steady]
-Essa voz, essa voz
-Tem a boca da minha mãe
-Tem os olhos do padre
-Tem o peso da fé
-Mas não é minha, não é minha
-Eu aprendi a repeti-la
-Até esquecer que a garganta
-Tinha outra voz, mais tranquila
+[Chorus]
+A palma fecha sobre o fósforo da mesa
+O pulso pousa o copo no lavatório
+A clavícula recua sob a fronha da marquesa
+A gengiva amolece contra o queixo
+O esterno carrega a mãe pela escada
+A omoplata carrega o padre pela soleira
+A anca carrega a fé pela cozinha
+O peito recolhe a frase para a gaveta
+A garganta antiga não é a minha garganta
+A costela respira o seu próprio nome
 
-[Verse 3: back to raw whisper]
-O sol entra pela janela
-E a voz diz que não o mereço
-A chuva cai no meu cabelo
-E a voz diz que o prazer tem preço
+[Verse 3]
+A palma encontra o sol na varanda
+A gengiva descansa sobre o queixo da manhã
+O pulso lava o nome no lavatório
+A clavícula afrouxa o nó da fronha
+A escápula desliza pelo lençol da marquesa
+O esterno respira sem pedir licença
+A anca firma o passo na taburete da cozinha
 
-[Chorus: voice slightly fuller, pulse audible underneath]
-Essa voz, essa voz
-Tem a boca da minha mãe
-Tem os olhos do padre
-Tem o peso da fé
-Mas não é minha, não é minha
+[Chorus]
+A palma fecha sobre o fósforo da mesa
+O pulso pousa o copo no lavatório
+A clavícula recua sob a fronha da marquesa
+A gengiva amolece contra o queixo
+O esterno carrega a mãe pela escada
+A omoplata carrega o padre pela soleira
+A anca carrega a fé pela cozinha
+O peito recolhe a frase para a gaveta
+A garganta antiga não é a minha garganta
+A costela respira o seu próprio nome
 
-[Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, drone alone]
-(African accent Portuguese:)
-A voz cala-se quando eu caminho
-Para o jardim com os pés descalços
-Cala-se quando o corpo decide
-Que a manhã não precisa de mais passos
+[Bridge]
+A palma cala a voz contra a mesa
+O pulso cala a voz contra o copo
+A gengiva cala a voz contra o queixo
+A clavícula cala a voz contra a fronha
+A omoplata cala a voz contra a escada
+O esterno cala a voz contra a soleira
+A anca cala a voz contra a taburete
 
-[Outro: vocal exhaled, fading, last word spoken]
-Hoje a voz falou
-E eu deixei-a falar
-Mas os meus pés
-Levaram-me ao jardim na mesma...`,
+[Outro]
+A palma na soleira da cozinha
+O pulso no copo da mesa
+A gengiva no banco da igreja
+A clavícula na fronha da marquesa
+A escápula no lençol da casa
+A anca no banco do jardim
+O esterno aqui, o esterno aqui`,
 
   "espelho-culpa/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -916,62 +1019,79 @@ Não é traição
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
-[Intro: warm sustained string ensemble, ascending bass-note pedal climbs slowly, vocal whispered]
-deserve...
-deserve...
+[Verse 1]
+The palm earned the kitchen counter
+The wrist earned the cup on the table
+The sternum earned the breath on the balcony
+The gum earned the chin against the pillow
+The shoulder earned the apron in the cupboard
+The hip earned the stool at the doorway
+The collarbone earned the morning by the sink
 
-[Verse 1: vocal close, breathy, slightly bruised]
-I earned my breakfast with obedience
-I earned my bed by being small
-I earned my mother's tired approval
-By never asking much at all
+[Verse 2]
+The shoulder blade paid the staircase rent
+The temple paid the bathroom mirror dues
+The tendon paid the threshold its toll
+The rib paid the bedsheet in silence
+The chest paid the window for its light
+The gum paid the candle for its flame
+The palm paid the matchstick on the table
 
-[Verse 2: same intimacy, voice begins to lift, kick joins on second half]
-I grew into a woman earning
-Every sunrise, every meal
-As if the sky would ask for payment
-As if the rain would make me kneel
+[Pre-Chorus]
+The palm without payment on the matchstick
+The hip without payment on the stool
+The gum without payment on the chin
 
-[Pre-Chorus / lift: voice opens, anticipation builds]
-[Chorus: 3-voice harmonies enter, building drums, ascending bass pedal climbs]
-But the birds don't earn the morning
-And the river doesn't pay for rain
-The wildflower grows without permission
-And still the sun comes back again
-So tell me, tell me, who decided
-That my breath must have a price
-That my rest must be a trophy
-And my joy must be earned twice
+[Chorus]
+The palm rests on the kitchen counter
+The wrist sets the cup on the table
+The sternum breathes on the balcony
+The gum softens against the chin
+The shoulder loosens in the pillow
+The hip settles on the wooden stool
+The collarbone meets the morning light
+The chest walks slowly down the staircase
+The rib opens by the candle on the table
+The shoulder blade lies on the bedsheet
 
-[Verse 3: voice back to breathy intimacy, harmonies drop, drums soften]
-The child I was would laugh at all this
-She'd roll in grass without a thought
-She never asked if she was worthy
-She simply was, and that was all she brought
+[Verse 3]
+The palm of the child rolled on the floor
+The wrist of the child held the cup loosely
+The sternum of the child rose on the balcony
+The gum of the child rested against the chin
+The hip of the child sat without permission
+The shoulder of the child carried no debt
+The rib of the child sang without earning
 
-[Chorus: full harmonies, climbing bass pedal, full kit]
-But the birds don't earn the morning
-And the river doesn't pay for rain
-The wildflower grows without permission
-And still the sun comes back again
+[Chorus]
+The palm rests on the kitchen counter
+The wrist sets the cup on the table
+The sternum breathes on the balcony
+The gum softens against the chin
+The shoulder loosens in the pillow
+The hip settles on the wooden stool
+The collarbone meets the morning light
+The chest walks slowly down the staircase
+The rib opens by the candle on the table
+The shoulder blade lies on the bedsheet
 
-[Bridge: vocal close, no harmonies, only string ensemble underneath]
-The child inside me rolls in grass
-She doesn't ask if she may stay
-She fills her lungs with summer air
-And never thinks to earn the day
+[Bridge]
+The palm opens on the windowsill
+The wrist forgets the price of water
+The hip forgets the cost of sitting
+The gum forgets the rent of breath
+The collarbone forgets the toll of light
+The sternum forgets the fee of morning
+The shoulder blade forgets the bedsheet's bill
 
-[Final Chorus: 5-voice female backing harmonies layered, peak energy, climax]
-But the birds don't earn the morning
-And the river doesn't pay for rain
-The wildflower grows without permission
-And still the sun comes back again
-
-[Outro: vocal soft, strings sustain, last word whispered]
-I deserve the light
-Not because I've earned my stay
-But because I'm here
-and here was never mine to pay...`,
+[Outro]
+The palm on the kitchen counter
+The wrist on the cup at the table
+The hip on the stool by the doorway
+The gum on the candle on the table
+The shoulder blade on the bedsheet
+The sternum here, the sternum here
+The collarbone here, without paying`,
 
   "espelho-culpa/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]

@@ -3717,69 +3717,75 @@ abro a janela`,
 
 [Intro: deep house pads with Hammond stabs, vocal entering on bar 2, kick from bar 4 — no lon
 [Verse 1]
-Bebo água
-A primeira coisa que entra em mim
-Antes do café, antes da notícia
-Antes do que o dia me vai pedir
-A água não tem opinião sobre mim
-A água só me hidrata
-A água é a forma mais simples
-De cuidar de mim ao acordar
+O copo está no escorredor da loiça
+De cabeça para baixo, da noite passada
+Viro o copo, abro a torneira
+A água bate no fundo, sobe pelas paredes
+A mão fria, o pulso fresco
+A primeira coisa que toco antes do dia tocar em mim
+Antes do telemóvel, antes da escada, antes da rua
+O balcão da cozinha por baixo do cotovelo
 [Verse 2]
-Lembrei-me anos a esquecer-me
-A esquecer-me do copo da manhã
-A esquecer-me da água do dia
-A esquecer-me de mim como sujeito
-Hoje encho o copo
-Hoje bebo até ao fim
-Hoje sou a primeira pessoa
-
-Que cuida de mim
+Levo o copo à boca devagar
+A água passa na gengiva primeiro, depois na língua
+Desce pelo esterno, sinto o sítio
+Onde o frio para e o corpo aquece de novo
+Anos a sair de casa com a garganta apertada
+Anos a tomar café numa boca seca
+Hoje a boca chegou ao café já molhada
+Hoje cheguei à rua já por dentro
 [Pre-Chorus]
-A água é gesto, não é ideia
-A água é prova, não é símbolo
-Quem bebe água de manhã
-Está a votar em si
+Não é hábito, não é regra
+É o copo, é o balcão, é a torneira
+É a manhã a entrar pela palma
+Antes de eu lhe pedir licença
 [Chorus]
-Bebo água
-Trato de mim
-Como trato de outro
-Bebo água
-A reza mais antiga
-Que o corpo conhece
-Bebo água
+A torneira aberta sobre o copo
+A água que sobe até quase transbordar
+O reflexo da janela na superfície a tremer
+A mão a fechar a torneira no momento exacto
+O primeiro gole na gengiva fria
+O segundo a descer pelo esterno
+O terceiro a chegar onde nenhuma palavra chega
+E o copo pousado de novo no balcão
+A marca da minha mão no vidro embaciado
+A cozinha que recebeu o gesto sem comentário
 [Verse 3]
-Vou beber outro copo daqui a uma hora
-Vou beber outro à hora de almoço
-Vou beber outro antes do café da tarde
-Vou beber outro à noite
-A vida é uma sequência
-De copos de água
-E quem se lembra disto
-Está a tratar de si
+Volto ao copo a meio da manhã
+A boca já não está seca, mas vou na mesma
+A água não precisa de motivo
+A água continua a ser água ao meio-dia
+O pulso por baixo da torneira a refrescar
+A nuca a soltar o que estava presa
+Os ombros que descem um dedo
+Sem ninguém ter dito nada
 [Chorus]
-Bebo água
-Trato de mim
-Como trato de outro
-Bebo água
+A torneira aberta sobre o copo
+A água que sobe até quase transbordar
+O reflexo da janela na superfície a tremer
+A mão a fechar a torneira no momento exacto
+O primeiro gole na gengiva fria
+O segundo a descer pelo esterno
+O copo pousado de novo no balcão
 [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
-Se ouves isto agora
-Vai ao copo
-Vai à torneira, vai ao filtro
-Vai à garrafa que tens à mão
-Bebe um copo até ao fim
-Não a meias, até ao fim
-E vê o que se passa no peito
+A água do Limpopo lá longe
+A água da bica da minha avó
+A água do filtro em cima do frigorífico
+A água da garrafa do meu pai no carro
+Toda a água que já me atravessou
+Está no copo desta manhã
+E o copo é só vidro
+E o vidro é só transparente
 [Final Chorus: full harmony stack, sidechained pads peak]
-Bebo água
-Trato de mim
-Como trato de outro
-
-Bebo água
+O copo na palma, a água na gengiva
+O esterno a aquecer por dentro
+A cozinha a receber o gesto
+Sem comentário, sem aplauso
 [Outro: vocal soft, kick fades]
-Bebo água
-trato de mim
-bebo água`,
+O copo pousado no balcão
+a marca da mão no vidro
+a cozinha em silêncio
+e eu, por dentro, molhada`,
 
   "incenso-de-pe/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -4066,78 +4072,76 @@ the body already said yes`,
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
-De pé
-Não foi épico, não foi heróico
-De pé pela ordem dos gestos
-Pés no chão, copo de água, janela
-De pé como quem aprende um verbo
-Devagar, com sotaque
-Mas de pé
-E o dia recebeu-me
+Saí da cama com a planta do pé inteira no soalho
+Primeiro o calcanhar direito, depois o esquerdo
+O joelho dobrou sem eu lhe pedir
+A anca subiu na sequência que conhece
+A clavícula encontrou o ar
+A cabeça veio por último, como costuma
+O corpo sabe a coreografia
+Eu só fui atrás dele
 [Verse 2]
-De pé pelas que não estão hoje
-De pé pelas que ontem não conseguiram
-De pé pela mulher do quarto andar
-Que ainda está deitada agora
-De pé não é mérito
-De pé é geografia
-Hoje calhei deste lado
-
-Hoje é o lado de pé
+A coluna alongou-se contra a parede da cozinha
+O esterno virou-se para a janela
+Os ombros desceram um dedo
+A nuca soltou o que tinha guardado da noite
+Não foi conquista, não foi prémio
+Foi anatomia, foi articulação
+Os ossos lembraram-se de onde eram
+E o resto seguiu a memória dos ossos
 [Pre-Chorus]
-De pé não é a única forma
-De estar viva
-De pé é a forma de hoje
-E hoje basta
+A vertical não é mérito
+A vertical é o sítio onde os ossos param
+Hoje pararam aqui
+Em cima do meu próprio pé
 [Chorus]
-De pé
-Não como guerra
-Como verbo
-De pé é o que faço hoje
-De pé é o que canto hoje
-De pé é o que digo hoje
-À que ainda não está
-Que tenho fé que estará amanhã
+A planta do pé encostada ao chão da cozinha
+Os dedos abertos a sentir o ladrilho frio
+O calcanhar firme onde a casa começa
+O peso a distribuir-se da anca para o joelho
+O joelho a passar o peso para o tornozelo
+O tornozelo a entregá-lo ao chão sem queixa
+A coluna a empilhar-se vértebra a vértebra
+A clavícula a abrir como uma porta lateral
+A cabeça a flutuar no fim da coluna
+E o corpo inteiro a ficar onde está
 [Verse 3]
-De pé na rua
-De pé na cozinha
-De pé no autocarro
-De pé no escritório
-De pé com cansaço
-De pé com saudade
-De pé com tudo o que o dia traz
-Sem deixar de estar de pé
-
+No banco da escada de casa estou sentada
+E a coluna mantém o mesmo eixo
+Na cadeira do balcão estou sentada
+E a clavícula mantém a mesma abertura
+A vertical não é só estar em pé
+A vertical é o eixo que atravessa o corpo
+Quando me deito esta noite, o eixo vai comigo
+Para a almofada, para o lado direito, para o sono
 [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, dje
-De pé
-Não como guerra
-Como verbo
-De pé é o que faço hoje
-De pé é o que canto hoje
-De pé é o que digo hoje
-À que ainda não está
-Que tenho fé que estará amanhã
-
+A planta do pé encostada ao chão da cozinha
+Os dedos abertos a sentir o ladrilho frio
+O calcanhar firme onde a casa começa
+O peso a distribuir-se da anca para o joelho
+A coluna a empilhar-se vértebra a vértebra
+A clavícula a abrir como uma porta lateral
+E o corpo inteiro a ficar onde está
 [Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady — opens, does
 (African accent Portuguese:)
-Se estás de pé agora
-Não te peço orgulho
-Peço-te continuação
-E se ainda estás deitada
-Não te peço pressa
-Peço-te o pé que conseguires
-Hoje, amanhã, na próxima quarta
-
-Pé que consigas, pé que basta
+A minha mãe nunca falou de postura
+A minha mãe carregava a bacia da água na cabeça
+E a coluna dela sabia o que fazer
+A coluna dela ensinou a minha
+A minha vai ensinar a da minha filha
+Os ossos passam de uma para a outra
+Sem precisarem de palavra
+A vertical é herança no esterno
 [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
-De pé
-De pé é o que faço hoje
-De pé é o que canto hoje
+A planta do pé no chão da cozinha
+A coluna empilhada vértebra a vértebra
+A clavícula aberta para a manhã
+O corpo inteiro a ficar onde está
 [Outro: vocal warm, choir fading, djembe lingers]
-De pé
-hoje
-de pé
-para amanhã`,
+A planta do pé
+no chão da cozinha
+o calcanhar firme
+a casa por baixo`,
 
   "incenso-de-pe/10": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -4146,68 +4150,71 @@ para amanhã`,
 [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
 
 [Verse 1]
-Hoje eu fico
-Fui à rua e voltei
-Vi pessoas, atravessei
-Comi à hora certa
-E agora estou na sala
-Sem fugir para fora
-Sem fugir para dentro
-Hoje eu fico no que é
+A cadeira da sala tem a marca do meu corpo
+A almofada do lado direito cedeu um pouco mais
+Ali fica o cotovelo, ali fica a anca
+Ali fica o livro fechado na página de ontem
+A luz da tarde entra pela janela da cozinha
+Atravessa o corredor, chega à sala em diagonal
+Bate na parede ao lado da minha mão
+E eu não me levanto para a perseguir
 [Verse 2]
-Não tem palmas, não tem prémio
-Esta sala continua a ser sala
-A luz continua a ser a luz
-A tarde continua a ser a tarde
-Mas eu — eu estou cá
-Em vez de fora
-Em vez de longe
-Em vez de na cabeça que me leva sempre
+A chávena ao lado tem um dedo de chá
+Mais frio do que devia, ainda assim chá
+A mão direita fechada à volta da chávena
+A palma a guardar o pouco calor que resta
+A cozinha lá ao fundo com a loiça por lavar
+A rua lá fora com a vida dos outros a passar
+A cabeça com as três tarefas que não fiz
+E nenhuma delas a conseguir tirar-me daqui
 [Pre-Chorus]
-Hoje eu fico
-Não como castigo
-Hoje eu fico
-Como exercício de presença
+A planta dos pés no tapete
+O peso da anca na almofada
+A clavícula descansada no encosto
+Os ossos a darem permissão para ficar
 [Chorus]
-Hoje eu fico
-Não foi vitória
-Foi escolha pequena
-Hoje eu fico
-A casa recebeu-me
-A tarde recebeu-me
-Hoje eu fico
-E é mais do que ontem
-E é menos do que amanhã
+A tarde a passar devagar pelo soalho
+A luz a mudar de ângulo na parede de cal
+O ponteiro do relógio da cozinha a fazer o seu trabalho
+A chávena a perder o último grau de calor na palma
+A respiração a entrar pela fossa nasal direita
+A sair pela esquerda sem eu mandar
+O esterno a subir e a descer no seu ritmo
+A sala a continuar a ser sala enquanto eu cá estou
+O sofá a guardar a forma da minha anca
+E a casa inteira a respirar comigo
 [Verse 3]
-Vou jantar daqui a duas horas
-Vou ler um bocadinho antes
-Vou pôr a roupa para amanhã
-Vou apagar a luz quando for tempo
-Não é programa de vida
-É só programa de hoje
-E hoje basta o programa de hoje
-Amanhã faço o de amanhã
-
+A vizinha do segundo andar abriu a janela
+Ouve-se a panela dela, ouve-se a rádio dela
+O vento bate na persiana da cozinha
+A persiana faz aquele barulho de sempre
+O frigorífico arranca, faz o seu ciclo, pára
+O cão lá em baixo na rua late uma vez
+A casa toda continua o seu trabalho de casa
+E eu, sentada, continuo o meu trabalho de estar
 [Chorus: small female choir enters, hand-claps soft]
-Hoje eu fico
-Não foi vitória
-Foi escolha pequena
-Hoje eu fico
+A tarde a passar devagar pelo soalho
+A luz a mudar de ângulo na parede de cal
+A chávena a perder o último grau de calor na palma
+A respiração a entrar pela fossa nasal direita
+O esterno a subir e a descer no seu ritmo
+A sala a continuar a ser sala enquanto eu cá estou
+E a casa inteira a respirar comigo
 [Bridge: vocal close, choir hums underneath, only piano — opens, does not resolve]
 (African accent Portuguese:)
-Se estás a ouvir isto ao fim da tarde
-E aguentaste o dia
-Não te peço orgulho — peço-te ficar
-Não fujas para o telefone
-Não fujas para a comida que não tens fome
-Não fujas para o sono que ainda não é
-Fica os minutos que conseguires
-E vê o que a tarde te dá
+Há uma vela na mesa de centro
+Que não acendi hoje, e está bem assim
+Há um fósforo na caixa em cima do livro
+Que não risquei hoje, e está bem assim
+A vela amanhã, talvez na quarta
+O fósforo quando for tempo do fósforo
+Hoje a tarde tem a luz que basta
+E eu tenho a cadeira que basta
 [Outro: vocal soft, piano fading, choir lingers]
-Hoje eu fico
-foi escolha pequena
-hoje eu fico
-e amanhã fazemos o de amanhã
+A sombra a alongar-se no chão
+a chávena vazia na mesa ao lado
+a almofada com a marca do cotovelo
+e eu ainda aqui quando a luz já mudou
 
 Notas para o canal YouTube
 Ordem na playlist Elevar: as 10 tracks deste EP funcionam tanto isoladas como em

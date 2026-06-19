@@ -16,40 +16,75 @@
 export const LIVRO_LYRICS: Record<string, string> = {
 
   "livro-filosofico/1": `[Verse 1]
-Há uma porta que não se vê
-no centro exato do teu peito
-Ninguém te disse que existia
-ninguém te ensinou o seu jeito
+A cozinha às cinco da manhã
+o fósforo na minha palma esquerda
+A vela acende e o pulso treme
+o esterno guarda uma porta fechada
+A gengiva morde o queixo dorido
+a omoplata escuta o azulejo frio
+O peito conta o que a boca calou
+no banco da igreja onde dormi vazio
 
 [Verse 2]
-Não é coragem o que te falta
-não é força nem outro livro
-E só parar, largar o peso
-e ouvir o rio que sempre esteve vivo
+A escada range debaixo da anca
+o tendão da perna sabe a hora certa
+A clavícula aponta para o lavatório
+a têmpora bate contra a porta aberta
+O ombro carrega a fronha de ontem
+a costela conhece a mesa do café
+O queixo aprende o nome da soleira
+o pulso encontra o copo em pé
+
+[Pre-Chorus]
+A varanda guarda o lençol que secou
+a gengiva treme antes da palavra
+A escápula descobre a chave fria
 
 [Chorus]
-O convite não vem de fora
-não chega numa voz alheia
-Chega quando finalmente paras
-e descobres que es tu a vela
+A palma abre a gaveta velha
+o peito reconhece o esterno do espelho
+A clavícula encosta no batente
+a costela aprende o seu joelho
+O queixo desce até ao lavatório
+a têmpora encosta na fronha quente
+A omoplata respira na cozinha
+o tendão amolece na soleira presente
+
+[Verse 3]
+A vela no espelho da casa de banho
+o pulso reflete o que a anca sabia
+A garganta encontra a escada antiga
+a gengiva guarda a noite vazia
+O ombro empurra a porta da despensa
+a costela acolhe o banco partido
+A palma toca o fósforo apagado
+o esterno aceita o que tinha lido
 
 [Chorus]
-O convite não vem de fora
-não chega numa voz alheia
-Chega quando finalmente paras
-e descobres que es tu a vela
+A palma abre a gaveta velha
+o peito reconhece o esterno do espelho
+A clavícula encosta no batente
+a costela aprende o seu joelho
+O queixo desce até ao lavatório
+a têmpora encosta na fronha quente
+A omoplata respira na cozinha
+o tendão amolece na soleira presente
 
 [Bridge]
-Não há mapa para este trilho
-não há guia que va a frente
-Só a tua respiração
-e o silêncio que consente
+A escápula contra a parede da sala
+o pulso conta o pingo do copo
+A gengiva e a têmpora trocam de turno
+o queixo aceita o silêncio do toco
+A varanda chama a clavícula nua
+o esterno escuta a vela na mesa
 
 [Outro]
-Entra devagar
-como quem volta a casa
-Tudo o que procuras
-já tem o teu nome na brasa`,
+O fósforo morre na minha palma
+a anca senta no banco da igreja
+A omoplata encosta o azulejo
+o peito guarda o lençol e a soleira
+A clavícula descansa na fronha
+a vela apaga e a costela respira`,
 
   "livro-filosofico/2": `[Verse 1]
 We carved our names from solid stone
@@ -88,38 +123,75 @@ Let it flow like water through your hands
 the only truth is in the unfolding`,
 
   "livro-filosofico/3": `[Verse 1]
-A memória é uma sala escura
-com cadeiras viradas para trás
-Sentas-te e olhas o que já foi
-como se pudesses mudar o que já não faz
+A gaveta range debaixo da palma
+a fronha guarda o cheiro da têmpora
+O esterno desenha a cadeira virada
+a clavícula sabe a marca do tempo
+A gengiva morde o queixo da infância
+a anca conhece a soleira do quarto
+O peito guarda o banco da igreja
+o tendão lembra o degrau do salto
 
 [Verse 2]
-Cada história que contas de ti
-tem uma porta que não abres nunca mais
-O presente bate e tu não atendes
-a sala antiga e a que mais te atrai
+A escada antiga sob a omoplata
+o ombro carrega a mesa de jantar
+A costela aprende o nome do espelho
+a palma fechada sem querer largar
+O pulso bate na varanda parada
+o queixo escuta o copo na pia
+A garganta engole o azulejo gasto
+a têmpora pesa a noite vazia
+
+[Pre-Chorus]
+A palma abre a gaveta calada
+a anca sai do banco da igreja
+A escápula respira na soleira
 
 [Chorus]
-Larga a cadeira, abre a janela
-O presente não precisa de permissão
-A liberdade não está no que viveste
-está no que fazes com a respiração
+A janela toca o ombro dormente
+a clavícula recebe o vento da rua
+A omoplata larga a fronha velha
+o queixo descansa na lua nua
+O peito desce até ao lavatório
+a costela escuta a varanda fria
+A palma solta o fósforo apagado
+o esterno respira na pia vazia
+
+[Verse 3]
+A vela na cozinha aquece o pulso
+a anca encontra o banco que ficou
+A gengiva afrouxa diante do espelho
+o tendão da perna já não tropeçou
+O peito agora cabe na soleira
+a têmpora descansa no lençol limpo
+A clavícula aprende a fronha nova
+o queixo aceita a mesa do princípio
 
 [Chorus]
-Larga a cadeira, abre a janela
-O presente não precisa de permissão
-A liberdade não está no que viveste
-está no que fazes com a respiração
+A janela toca o ombro dormente
+a clavícula recebe o vento da rua
+A omoplata larga a fronha velha
+o queixo descansa na lua nua
+O peito desce até ao lavatório
+a costela escuta a varanda fria
+A palma solta o fósforo apagado
+o esterno respira na pia vazia
 
 [Bridge]
-Não es o que te aconteceu
-não es a cicatriz no mapa
-Es o corpo que está aqui agora
-es o ar que entra e que escapa
+A escada não pesa na minha anca
+a gaveta não morde a minha palma
+O banco da igreja ficou no canto
+o azulejo já não fere a têmpora calma
+A costela respira o ar da cozinha
+o pulso encontra o copo do dia
 
 [Outro]
-O passado já te deu o que tinha
-o presente espera, quieto, por ti`,
+A omoplata encosta na varanda
+a gengiva afrouxa contra o queixo
+O esterno guarda a vela acesa
+o tendão escuta o fósforo desfeito
+A palma descansa na soleira aberta
+o peito aceita a manhã e o leito`,
 
   "livro-filosofico/4": `[Verse 1]
 Thoughts arrive like starving birds
@@ -158,40 +230,75 @@ Like the sky behind the storm
 forever patient, forever true`,
 
   "livro-filosofico/5": `[Verse 1]
-Aprendeste que parar e morrer
-que o descanso é para os fracos
-Cada dia uma nova trincheira
-cada noite um novo abaco
+O ombro carrega o saco da manhã
+a clavícula range debaixo do casaco
+A gengiva mastiga o pão da pressa
+o pulso aperta o copo no buraco
+A escápula puxa a porta da cozinha
+o esterno empurra a escada do prédio
+A têmpora bate contra o relógio
+o tendão da perna esquece o meio
 
 [Verse 2]
-Mas há um cansaço que não dorme
-que não cede com ferias nem verão
-Um peso que não mora no corpo
-mora na crença de que nunca basta o pão
+A anca cede no banco da paragem
+o queixo desce sobre a fronha gasta
+A costela conta o peso da semana
+a palma fechada sem comida na pasta
+A garganta engole o azulejo seco
+o peito guarda a soleira do trabalho
+O ombro descobre a mesa da janta
+a omoplata aprende o lençol baralho
+
+[Pre-Chorus]
+A palma abre a gaveta sem pressa
+a anca senta na varanda da casa
+A gengiva afrouxa contra o queixo
 
 [Chorus]
-Para — não há nada a conquistar
-A plenitude não é uma meta
-Está aqui, no exato lugar
-onde largaste a bicicleta
+O esterno respira na cozinha fria
+a clavícula descansa no batente
+A palma larga o fósforo gasto
+o peito aceita a vela quente
+O queixo desce até ao lavatório
+a costela escuta a pia parada
+A omoplata encosta no azulejo
+o tendão amolece na soleira calada
+
+[Verse 3]
+A varanda recebe a têmpora cansada
+o ombro pousa a fronha do dia
+A gengiva descobre o copo de água
+a palma abre o lençol vazia
+O peito reconhece o banco da igreja
+a anca encontra a mesa do silêncio
+A clavícula bate contra a janela
+o esterno solta o que era começo
 
 [Chorus]
-Para — não há nada a conquistar
-A plenitude não é uma meta
-Está aqui, no exato lugar
-onde largaste a bicicleta
+O esterno respira na cozinha fria
+a clavícula descansa no batente
+A palma larga o fósforo gasto
+o peito aceita a vela quente
+O queixo desce até ao lavatório
+a costela escuta a pia parada
+A omoplata encosta no azulejo
+o tendão amolece na soleira calada
 
 [Bridge]
-O esforço encobriu o repouso
-a busca escondeu a chegada
-Tão ocupada a perseguir o sol
-que não viste a luz na tua sacada
+A escada já não morde a minha anca
+o saco já não pesa na clavícula
+A gengiva descansa do pão da pressa
+o pulso solta o copo da partícula
+A omoplata encosta o lençol fresco
+o esterno respira a mesa vazia
 
 [Outro]
-Senta-te, respira fundo
-A vida não precisa de mais nada
-Só do corpo quieto no chão
-e da alma desarmada`,
+A vela acende na palma quieta
+a costela aceita a noite que chega
+A varanda guarda o queixo dormente
+o tendão da perna na fronha sega
+A gengiva afrouxa contra o azulejo
+o peito descansa na soleira inteira`,
 
   "livro-filosofico/6": `[Verse 1]
 There is a field that frightens you
@@ -2033,40 +2140,75 @@ sing, because the song is you`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O lago está parado como vidro
-a superficie não mostra nada
-Sozinha na margem do mundo
-sem reflexo e sem pegada
+A palma toca a varanda parada
+o pulso conta o copo no peitoril
+A gengiva guarda o nome do vizinho
+o esterno escuta o lavatório febril
+O queixo desce sobre a mesa antiga
+a clavícula encosta no batente cego
+A omoplata aprende a fronha calada
+o peito reconhece o seu apego
 
 [Verse 2]
-Acreditaste que eras ilha
-que o teu caminho era só teu
-Mas por baixo da água escura
-há fios que o silêncio teceu
+A escada do prédio na minha anca
+o tendão da perna sabe o degrau
+A têmpora bate contra o espelho
+a costela aceita o azulejo mau
+O ombro carrega a soleira de outrem
+a palma fechada esconde o fósforo
+A gengiva morde o queixo sozinho
+a vela desenha o lençol gosto
+
+[Pre-Chorus]
+A gaveta range debaixo da palma
+a anca senta no banco da igreja
+A escápula escuta a soleira aberta
 
 [Chorus]
-Superficie opaca
-que esconde o que nós liga
-Um fio invisível
-que nenhuma distância obriga
+O pulso encontra o pulso da outra
+a clavícula sabe a clavícula vizinha
+A omoplata respira na cozinha alheia
+o queixo descansa na fronha minha
+A palma toca a palma da soleira
+o esterno reconhece o esterno da rua
+A costela escuta a costela do banco
+o tendão amolece na varanda nua
+
+[Verse 3]
+A gengiva da minha avó na minha
+o pulso da minha mãe no meu lavatório
+A costela da vizinha contra a parede
+o queixo do irmão no mesmo dormitório
+A palma de quem nunca conheci
+toca a minha mesa sem que eu saiba
+A clavícula longínqua pousa o copo
+no peitoril da varanda da Maxaquene
 
 [Chorus]
-Superficie opaca
-que esconde o que nós liga
-Um fio invisível
-que nenhuma distância obriga
+O pulso encontra o pulso da outra
+a clavícula sabe a clavícula vizinha
+A omoplata respira na cozinha alheia
+o queixo descansa na fronha minha
+A palma toca a palma da soleira
+o esterno reconhece o esterno da rua
+A costela escuta a costela do banco
+o tendão amolece na varanda nua
 
 [Bridge]
-Não precisas de o ver
-para saber que ele existe
-O fio entre nós dois
-e anterior a qualquer triste
+A vela na minha mesa acende
+a têmpora de outrem na fronha distante
+A gengiva calada na minha cozinha
+o queixo de longe na soleira constante
+A omoplata aceita o azulejo do outro
+o esterno aprende a respirar com
 
 [Outro]
-O lago espera
-que olhes para a água
-e descubras que nunca estiveste
-tão só como a sombra te água`,
+A palma descansa na gaveta fechada
+o pulso encontra o copo na pia
+A clavícula encosta no batente quieto
+a anca senta no banco da igreja fria
+A omoplata respira a fronha do mundo
+o peito guarda a soleira de cada dia`,
 
   "curso-fio-invisivel/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

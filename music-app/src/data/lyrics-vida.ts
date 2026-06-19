@@ -367,43 +367,81 @@ Rest now`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Sento-me no chão
-Os joelhos tocam a terra
-A coluna encontra a direção
-Que o dia inteiro enterra
+O tapete da sala recebe os joelhos
+A pele toca a fibra gasta de tantos pés
+A nuca cede para a omoplata
+Os ombros baixam de uma vez
+A janela da cozinha deixa passar
+O som do trânsito a sete andares
+A almofada de algodão sustém o cóccix
+Sem perguntar de onde eu vim
 
 [Verse 2]
-Os ombros descem devagar
-Como folhas que largam o ramo
-Já não preciso de carregar
-O peso de quem finjo que amo
+A clavícula deixa o telemóvel pousado
+Numa cadeira a três passos do tapete
+O esterno encontra o ângulo cansado
+Entre a respiração e o que ainda compete
+O queixo desce um dedo para o peito
+A gengiva solta os dentes apertados
+Os pulsos largam o relógio inquieto
+Dos emails ainda por responder
+
+[Pre-Chorus]
+A palma esquerda sobre a coxa
+A palma direita sobre o joelho
+O ar do bairro entra pelas costas
+Pela janela da varanda velha
 
 [Chorus]
-Sentar
-Só sentar e já chegar
-Não há nada para resolver
-Só este chão e este respirar
-Só este corpo a aprender
-A estar
+O tapete sustém o peso
+Sem pedir contrapartida
+A almofada aceita o cóccix
+Como aceita a roupa estendida
+A parede da cozinha recebe
+O som dos vizinhos a almoçar
+Os ombros largam o teto
+Que carregaram o dia inteiro
+O esterno desce um pouco mais
+Para o sítio onde fica o ar
 
 [Verse 3]
-O mundo pode esperar lá fora
-A lista pode crescer
-Aqui dentro não há hora
-Só o agora a acontecer
-
+A pálpebra direita treme uma vez
+Depois fica pousada no globo do olho
+O lábio inferior solta o lábio de cima
+A têmpora aceita a luz oblíqua
+A anca direita pesa mais no chão
+Que a anca esquerda na almofada
+O tornozelo cruza o outro tornozelo
+Sem decidir, sem perguntar nada
 
 [Chorus]
-Sentar
-Só sentar e já chegar
-Não há nada para resolver
-Só este chão e este respirar
-Só este corpo a aprender
-A estar
+O tapete sustém o peso
+Sem pedir contrapartida
+A almofada aceita o cóccix
+Como aceita a roupa estendida
+A parede da cozinha recebe
+O som dos vizinhos a almoçar
+Os ombros largam o teto
+Que carregaram o dia inteiro
+O esterno desce um pouco mais
+Para o sítio onde fica o ar
+
+[Bridge]
+A cozinha continua atrás de mim
+O frigorífico mantém o seu ritmo
+A mesa fica posta para o jantar
+Que ainda nem comecei a pensar
+O tempo da sala não é o tempo do mundo
+A sala tem a hora do tapete
+Que mede pelo peso dos ombros
+E pela respiração do esterno
 
 [Outro]
-Sentada, cheguei
-Sentada, estou aqui`,
+O tapete e o cóccix
+A almofada e a anca
+A janela e a nuca
+A cozinha atrás de mim
+O esterno e o ar`,
 
   "incenso-silencio-fertil/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -4670,243 +4708,438 @@ who will receive`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A água entra pela areia
-Enche as pegadas uma a uma
-Sem pressa, sem cadeia
-Só a certeza da sua espuma
+A chaleira assobia na cozinha pequena
+Encosto a clavícula ao azulejo frio
+A chávena pesa três dedos a meia
+A janela mostra o quintal vazio
+Os pés cruzam na cadeira de palha
+A gengiva guarda o sabor do limão
+A manhã chega como quem espalha
+Açúcar fino na palma da mão
 
 [Verse 2]
-Os pulmões expandem com a mare
-O corpo aceita o que se aproxima
-Não há nada que prepare
-Para a plenitude que se estima
+Saio para o pátio com a sandália solta
+A omoplata bate na ombreira da porta
+O cão da vizinha resmunga e revolta
+A camisa do estendal cai e fica torta
+Apanho-a com o joelho dobrado no chão
+A têmpora apoia no ferro do varal
+Cheira a sabão, a sol e algodão
+A vida começa neste gesto banal
+
+[Pre-Chorus]
+A anca encosta no balcão de mármore
+O pulso esquerdo bate no mexer do café
+Conto os passos do corredor até à porta
 
 [Chorus]
-Encher
-A mare que vem sem avisar
-Encher
-O corpo que aprende a aceitar
-Devagar e sempre
-A água sabe o caminho
-Encher como quem sembre
-Um campo com o seu carinho
+Abro a janela que dá para a rua estreita
+A luz entra pelas costelas e pelo lençol
+O esterno respira o ar que se aceita
+A cozinha cheira a tosta e a girassol
+A chávena descansa no pires lascado
+A unha do polegar passa pela borda
+A nuca dobra, o pescoço inclinado
+Escuta o relógio que na parede acorda
 
+[Verse 3]
+Vou pé descalço até à mesa pequena
+A planta toca o tapete de juta gasto
+Sento na cadeira que range a cantilena
+De cada manhã que faço a meu gosto
+O cotovelo apoia no jornal de ontem
+A pálpebra ainda pesa do sono
+Os dedos partem a casca quente que pousem
+Sobre o prato esmaltado de outro dono
 
 [Chorus]
-Encher
-A mare que vem sem avisar
-Encher
-O corpo que aprende a aceitar
-Devagar e sempre
-A água sabe o caminho
-Encher como quem sembre
-Um campo com o seu carinho
+Abro a janela que dá para a rua estreita
+A luz entra pelas costelas e pelo lençol
+O esterno respira o ar que se aceita
+A cozinha cheira a tosta e a girassol
+A chávena descansa no pires lascado
+A unha do polegar passa pela borda
+A nuca dobra, o pescoço inclinado
+Escuta o relógio que na parede acorda
+
+[Bridge]
+A porta da rua range na dobradiça antiga
+O saco do pão apoia no quadril direito
+O tornozelo doí da escadaria que castiga
+Mas o lábio sorri sozinho e sem jeito
+A varanda do segundo piso tem roupa pendurada
+A vizinha do quinto bate o tapete na sala
 
 [Outro]
-Enche, enche
-Devagar e com certeza`,
+Volto à cozinha, pouso a chave no balcão
+O queixo encosta no peito quando me dobro
+A panela ferve, a tampa salta da mão
+A manhã caminha com o pé dela e com o nosso`,
 
   "mare-viva/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Standing chest-deep in the warm
-Every pore is open wide
-The body held without a storm
-By the fullness of the tide
+The sink is full, the plates are clean
+The clavicle aches where the strap dug in
+A wisp of hair across my pale cheek
+The dish soap drying on my thumb and shin
+I lean my hip against the kitchen drawer
+The lower back complains about the day
+The thumbnail of my left hand finds a sore
+The radio mumbles something far away
 
 [Verse 2]
-The glass is trembling at the rim
-The meniscus holds its breath
-Everything is full to the brim
-Beautiful and close to death
+The sofa cushion holds the print of me
+The remote control is wedged behind the seat
+My ankle crosses over the other knee
+The ceiling fan is turning out of beat
+The neighbour's dog is barking at the gate
+The dishwasher is humming through the wall
+The fridge door magnet won't sit straight
+The kettle clicks, the tea bag starts to fall
+
+[Pre-Chorus]
+The shoulder blade presses on the cotton throw
+The eyelid heavy with the working day
+The pulse beneath the jaw is keeping slow
 
 [Chorus]
-High tide, high tide
-Everything is brimming now
-High tide, high tide
-The body doesn't know just how
-Much it can contain
-Before it overflows
-The pleasure and the pain
-Of fullness as it grows
+The body keeps the count of every chore
+The shoulder of the day that I just had
+The kettle steams against the kitchen door
+The knee aches from the stairs, not really bad
+The pillow holds the shape of my round head
+The collarbone is warm beneath the throw
+The mug sits half-drunk beside the bed
+The body keeps the score of how I go
 
+[Verse 3]
+I run a bath that's almost too damn hot
+The water meets the ankle then the calf
+The collarbone goes under, then the throat
+The mirror over the sink keeps half a laugh
+The toes float pale beneath the surface tile
+The shin bone shines under the kitchen light
+A washcloth on the forehead for a while
+The sternum lifts a little with delight
 
 [Chorus]
-High tide, high tide
-Everything is brimming now
-High tide, high tide
-The body doesn't know just how
-Much it can contain
-Before it overflows
-The pleasure and the pain
-Of fullness as it grows
+The body keeps the count of every chore
+The shoulder of the day that I just had
+The kettle steams against the kitchen door
+The knee aches from the stairs, not really bad
+The pillow holds the shape of my round head
+The collarbone is warm beneath the throw
+The mug sits half-drunk beside the bed
+The body keeps the score of how I go
+
+[Bridge]
+The towel wraps around the shoulder blade
+The bath mat sticks against the heel and toe
+The kitchen light is still the only shade
+The cat sits on the table, blinks me slow
+The car keys clatter on the entry shelf
+The phone is plugged in by the bedroom door
 
 [Outro]
-Full
-Completely full`,
+I sit on the edge of the unmade bed
+The temple rests against the wooden post
+The lamp is off, the day is finally led
+Into the lung that needs the silence most`,
 
   "mare-viva/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-No topo da onda o tempo para
-O corpo pesa zero entre dois mundos
-A respiração suspende a sua cara
-E tudo fica imove nós segundos
+Sento na cadeira da varanda ao fim da tarde
+O lápis pousa em cima da revista aberta
+Um copo de água meio cheio na borda do parapeito tarde
+A omoplata encosta na almofada certa
+O carro do vizinho parte e a poeira sobe
+Os dedos do pé esquerdo bocejam na sandália
+A pálpebra direita treme um pouco e cobe
+O sol que passa pela lâmina da palmeira amarela
 
 [Verse 2]
-Antes de descer, antes de cair
-Há este instante que não tem nome
-Nem o futuro pode intervir
-Nesta pausa que ninguém consome
+A pausa não pede licença, ela apenas chega
+O queixo pousa na mão direita curvada
+O pulso esquerdo conta o tempo que não nega
+A batida lenta da rua quase parada
+O tornozelo cruza sobre o joelho contrário
+O esterno respira em três tempos amplos
+Os lábios mexem como quem lê o calendário
+De uma semana feita de pequenos campos
+
+[Pre-Chorus]
+Os pés descalços no mosaico ainda morno
+O pulso direito apoia no ferro do balcão
+A gengiva guarda o gosto do café morno
 
 [Chorus]
-A pausa no topo
-Onde a água esquece a gravidade
-A pausa no topo
-É a mais bela liberdade
-Nem subida nem descida
-Só o ponto onde tudo se encontra
-A vida suspendida
-Na beleza de quem não confronta
+Entre o almoço e o telefonema da prima
+A varanda recebe a luz que se demora
+A costela esquerda alarga e logo se anima
+A camisa branca apanha o vento que mora
+Por trás da palmeira velha do passeio
+A nuca pousa no encosto que range na junta
+O fio do colar arrefece sobre o seio
+A tarde vai passando sem que ninguém pergunte
 
+[Verse 3]
+Levanto e ponho a chaleira a apitar de novo
+O lábio sopra o chá que treme na chávena
+A coxa toca o canto da bancada do povo
+Que vendeu esta casa ao meu pai há uma cena
+Os tornozelos cruzam-se debaixo da mesa
+O cotovelo descansa no tampo de madeira
+A omoplata afunda e logo desempresa
+O peso de uma manhã inteira
 
 [Chorus]
-A pausa no topo
-Onde a água esquece a gravidade
-A pausa no topo
-É a mais bela liberdade
-Nem subida nem descida
-Só o ponto onde tudo se encontra
-A vida suspendida
-Na beleza de quem não confronta
+Entre o almoço e o telefonema da prima
+A varanda recebe a luz que se demora
+A costela esquerda alarga e logo se anima
+A camisa branca apanha o vento que mora
+Por trás da palmeira velha do passeio
+A nuca pousa no encosto que range na junta
+O fio do colar arrefece sobre o seio
+A tarde vai passando sem que ninguém pergunte
+
+[Bridge]
+A esfregona pousa contra a parede do corredor
+A toalha do almoço encaixa na cadeira virada
+Os pés sobem ao tapete que tem uma cor
+De areia molhada e roupa esquecida na varanda
+O pulso direito risca uma linha no papel
+Sem que o lápis saiba o nome do que escreve
 
 [Outro]
-Suspensa
-No topo`,
+A varanda fica, eu fico nela
+A clavícula desce com o ar que se devolve
+O sol bate no esmalte azul da panela
+E a tarde leva o tempo que se resolve`,
 
   "mare-viva/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The sweat dries cool on the upper lip
-A film of salt across the brow
-The shirt sticks where the back curves in
-The pulse settles, slow now
+The sweat dries cool along the upper lip
+A film of salt across the broad brow
+The shirt sticks where the lower back curves in
+The kettle clicks, the kitchen settles slow now
+Two fingers find the inside of the wrist
+Counting the small drum beneath the skin
+The breath catches on a slow loose yawn
+And lets a longer measured one back in
 
 [Verse 2]
-Two fingers on the inside of the wrist
-Counting the small drum under the skin
-The breath catches on a yawn
-And lets a longer one back in
+The thumbnail bears a small half-moon scar
+The temple holds a hair stuck wet and dark
+The thigh aches from the stairwell, distant car
+The knee is bent against the dining park
+Bench where I sat through half the working week
+The collarbone is bruised from the strap
+The radio plays something I won't seek
+The sofa cushion is wedged into a gap
+
+[Pre-Chorus]
+The thumb rests on the dish I have not washed
+The ankle crosses on the kitchen chair
+The sternum lifts beneath the cotton, soft
 
 [Chorus]
-Salt on the lip
-Drum at the wrist
-A hair stuck to the temple
-The lung still does its twist
-The thigh aches from the stair
-The thumbnail has a half-moon scar
-The body keeps its small receipts
-Of how far, how far
+The body keeps the receipts of every day
+The kitchen, the bathroom, the laundry sink
+The ankle on the rug where the light is grey
+The chin against the chest, I sit and think
+The pulse beneath the jaw is keeping count
+Of every dish, of every walk, of every stair
+The wrist remembers carrying the weight that mounts
+The body files the day with quiet care
+
+[Verse 3]
+A glass of water at the bathroom tap
+The throat works once, the tongue catches the chill
+The cabinet mirror holds the worn-out cap
+Of evening, on the eyebrow and the still
+The toes find the cold edge of the tile
+The shoulder blade rests on the basin's rim
+The bathroom light is yellow for a while
+The pale knee shines beneath the towel's hem
+
+[Chorus]
+The body keeps the receipts of every day
+The kitchen, the bathroom, the laundry sink
+The ankle on the rug where the light is grey
+The chin against the chest, I sit and think
+The pulse beneath the jaw is keeping count
+Of every dish, of every walk, of every stair
+The wrist remembers carrying the weight that mounts
+The body files the day with quiet care
 
 [Bridge]
-A glass of water at the sink
-Tilted, swallowed, set down
-The throat works once
-The kitchen makes its low sound
+The bed is unmade, sheets pulled to the floor
+The pillow smells of yesterday's late shower
+The phone is plugged in by the bedroom door
+The lamp throws yellow on the closet for an hour
+The laundry basket leans against the wall
+The cat is on the radiator curled up small
 
 [Outro]
-Salt
-Wrist
-Throat
-Sink`,
+The clavicle eases on the lower fold
+The eyelid drops, the room is finally dim
+The throat works once, the breath grows old
+And the kitchen tap stops dripping on the rim`,
 
   "mare-viva/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O fundo do mar está exposto
-As conchas, as criaturas, o chão
-O vazio mostra o seu rosto
-E não é feio, e clarificação
+A cozinha amanheceu sem nada na bancada
+O frigorífico fechado guarda quase nada
+A clavícula treme contra a camisa lavada
+Que ficou estendida toda a noite na varanda
+O pé direito procura o chinelo de palha
+A omoplata bate na ombreira pintada de azul
+O queixo encosta no peito e tremalha
+Com o ar frio que entra do quintal do sul
 
 [Verse 2]
-As mãos abertas sem nada dentro
-A barriga vazia depois da mare
-O vazio é o verdadeiro centro
-Onde tudo que nasce se refere
+Abro o armário do canto e está vazio
+Só uma chávena lascada e um pires partido
+A pálpebra fecha contra o cheiro frio
+Da despensa que já não guarda nada de querido
+Mas o vazio das prateleiras tem uma luz
+Que não tinha quando estavam cheias e fartas
+A mesa de madeira sem pano me conduz
+A passar a palma da mão por todas as cartas
+
+[Pre-Chorus]
+A janela aberta sopra na nuca direita
+Os dedos descem pelas costelas devagar
+Os pés cruzam debaixo da mesa estreita
 
 [Chorus]
-Vazio fértil
-O chão depois da água ir
-Vazio fértil
-Onde tudo vai vir
-Não é falta, e espaço
-Não é perda, e preparação
-O vazio é o braco
-Que se abre para a estação
+A cozinha vazia tem o seu próprio som
+O esterno respira mais fundo do que ontem
+A bancada limpa, o azulejo ainda bom
+O tornozelo desce pelo banco do canto
+A chávena lascada espera o pão que virá
+A janela mostra o passeio quase deserto
+O lábio bebe a água da torneira que está
+Quase a ferver da manhã que vem por perto
 
+[Verse 3]
+Saio para a praça com o saco vazio na mão
+A omoplata direita carrega o vento que sopra
+A mulher do quiosque sorri com a abano de pão
+E o cesto enche-se de fruta, de salsa, de outra coisa
+Volto pela rua estreita do café da esquina
+A anca esquerda roça no muro caiado
+Os tornozelos cansam, mas o pulso sina
+Um relógio interno que não é apressado
 
 [Chorus]
-Vazio fértil
-O chão depois da água ir
-Vazio fértil
-Onde tudo vai vir
-Não é falta, e espaço
-Não é perda, e preparação
-O vazio é o braco
-Que se abre para a estação
+A cozinha vazia tem o seu próprio som
+O esterno respira mais fundo do que ontem
+A bancada limpa, o azulejo ainda bom
+O tornozelo desce pelo banco do canto
+A chávena lascada espera o pão que virá
+A janela mostra o passeio quase deserto
+O lábio bebe a água da torneira que está
+Quase a ferver da manhã que vem por perto
+
+[Bridge]
+Pouso o saco no chão e tiro o lenço da cabeça
+A nuca apanha o ar que vem da janela aberta
+O joelho dobra na cadeira que range na peça
+Do encosto que está solto desde a casa de minha tia certa
+A clavícula sobe e desce com o ar do passeio
+O pulso direito conta o tempo que vem pelo meio
 
 [Outro]
-Vazio
-E pronto para encher de novo`,
+Tiro a panela do armário, ponho na mesa baixa
+O lábio assopra o pó que ficou no fundo
+A omoplata afunda no encosto, a chávena pousa
+A manhã vai começar de novo neste mundo`,
 
   "mare-viva/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Somewhere in the silence the water turns
-A pivot point no instrument can find
-The outgoing tide no longer yearns
-It simply changes its own mind
+The afternoon turns over on the sofa cushion
+The shoulder shifts beneath the woollen throw
+The collarbone is warmed by sleep's confusion
+The book I dropped is open on my toe
+The cat moves from the radiator to the chair
+The light against the wall is changing hue
+A fly is at the kitchen window, somewhere
+The ceiling fan is moving something through
 
 [Verse 2]
-The exhale shifts to an inhale
-The grief softens into green
-The body tells a different tale
-Without a word to mark the scene
+I peel the orange on the chopping board
+The thumbnail digs beneath the pithy rind
+The juice runs down my wrist toward the cord
+Of the laptop charger I had left behind
+The kitchen sink is full of breakfast plates
+The radio is muttering the news
+The eyelid drops, the body waits
+For something it can't yet refuse
+
+[Pre-Chorus]
+The cup is half full, half empty on the sill
+The hip leans on the counter, leaning still
+The ankle crosses, the slow knee is at the till
 
 [Chorus]
-Turn, turn
-The invisible reversal
-Turn, turn
-The quiet universal
-Moment where it all begins
-To come back from the edge
-The magic in the thins
-That holds the water's pledge
+A turning happens halfway through the day
+The shoulder unclenches without me knowing
+The kitchen light is shifting into grey
+The window shows the neighbour's laundry blowing
+The throat swallows once, the lung lets go
+A hairpin slips from where it held my crown
+The tap drips slower, slow and slow
+The afternoon is putting itself down
 
+[Verse 3]
+The kettle whistles for the second time
+I pour it on the leaves I scoop from the drawer
+The steam climbs slow against the kitchen mime
+Of the clock above the back door floor
+The cup against my collarbone is warm
+The temple rests against the cabinet's edge
+The afternoon is taking on its form
+The day has crossed an invisible ledge
 
 [Chorus]
-Turn, turn
-The invisible reversal
-Turn, turn
-The quiet universal
-Moment where it all begins
-To come back from the edge
-The magic in the thins
-That holds the water's pledge
+A turning happens halfway through the day
+The shoulder unclenches without me knowing
+The kitchen light is shifting into grey
+The window shows the neighbour's laundry blowing
+The throat swallows once, the lung lets go
+A hairpin slips from where it held my crown
+The tap drips slower, slow and slow
+The afternoon is putting itself down
+
+[Bridge]
+The phone face down beside the kitchen bowl
+The sock has slipped beneath the heel and toe
+The radiator clicks against the wall
+The cardigan is folded on the chair below
+The pulse beneath the jaw is even now
+The chin lifts slightly, knowing what and how
 
 [Outro]
-It's turning
-It's already coming back`,
+The cup is empty, set on the tile
+The shoulder blade rests on the cabinet wood
+The kitchen has gone soft for a long while
+And the body knows it's where it should`,
 
   "mare-viva/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]

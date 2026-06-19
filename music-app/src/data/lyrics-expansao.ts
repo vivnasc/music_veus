@@ -87,85 +87,160 @@ mas porque eu decidi nascer`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-There was a stone I carried in my chest
-for months or maybe more
-I called it safety, called it rest
-but it was just a door — sealed shut, nailed to the floor
+Sternum heavy on the kitchen table
+elbow pressing where the bread should rise
+collarbone tilted toward the window
+palm flat against the cold of glass
+The throat keeps a stone the size of a fist
+the gum aches from teeth that grind at dawn
+my shoulder remembers a door that never opened
+my wrist learned the shape of waiting too long
 
 [Verse 2]
-No trumpet came, no angel wing
-no hand reached through the dark
-Just one morning something in me
-remembered how to spark
+Knuckle drags along the bathroom sink
+chin lifts toward the cracked ceiling tile
+the temple presses cool tile in the hallway
+ribcage counts the slow stairs to the landing
+A drawer pulled open, my thumb finds a key
+the matchstick trembles in my fingertip
+candle wax drips onto my forearm
+the wick takes the spark my throat could not give
+
+[Pre-Chorus]
+Scapula unhooks from the chair
+hip leaves the print it pressed for years
+tongue tastes the soot of a kitchen morning
 
 [Chorus]
-Roll the stone away
-I don't need saving — I need rising
-Roll the stone away
-Not by miracle but by deciding
-That the tomb I built with careful hands
-was never where I'm meant to stay
-I am the resurrection
-I am Easter — starting today
+Push the stone, palm on the cold doorframe
+push the stone, heel against the threshold
+ankle bones turning toward the corridor
+calves remembering how to climb
+The mouth opens at the church bench
+empty pew under my bony seat
+my chest will not stay in the tomb
+my forehead lifts from the marble sheet
+I rise inside the ribcage
+I rise inside the skin
 
 [Verse 3]
-My knees still shake
-my hands still bleed from pushing
-But the air outside the cave
-tastes like the life I've been refusing
+Knee on the cooking pot's rim, balance
+the ladle in my fist still warm with broth
+my back unhooks from the sofa cushion
+the nape lifts where the pillow held it
+The varanda railing under my forearm
+the soleira cool beneath my bare instep
+I count the bones the night tried to lock
+each vertebra answers with a yes
+
+[Chorus]
+Push the stone, palm on the cold doorframe
+push the stone, heel against the threshold
+ankle bones turning toward the corridor
+calves remembering how to climb
+The mouth opens at the church bench
+empty pew under my bony seat
+my chest will not stay in the tomb
+my forehead lifts from the marble sheet
+I rise inside the ribcage
+I rise inside the skin
 
 [Bridge]
-Easter isn't what returns from death
-Easter is what refuses to stay buried
-Every woman who stood up and left
-every truth too long in silence carried
+Easter is the jaw that loosens at the lavatório
+Easter is the elbow off the kitchen wall
+the woman who lifts her hip from the bench
+the throat that lets the swallow fall
+The omoplata pushing open the gaveta
+the fingertip writing on the fronha at dawn
 
 [Outro]
-I am rising
-dirt beneath my nails
-light behind my eyes
-I am rising
-not because the story says I should
-but because my body finally decided
-that it could`,
+My shin against the bedframe, awake
+my pulse loud in the hollow of my wrist
+the candle out, the matchstick cool
+my chest opens to the corridor air
+sternum first
+heel last
+out`,
 
   "grao-estacoes/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O sol demora mais hoje
-como quem se recusa a sair
-O ar tem peso de ouro
-e o corpo quer só existir
+A planta do pé na soleira morna
+o tornozelo descalço na terra batida
+calcanhar afunda devagar no quintal
+o joelho dobra contra o banco de madeira
+A omoplata pesa na esteira de capulana
+clavícula a apanhar o sol baixo da varanda
+gengiva seca da sede do meio-dia
+têmpora a bater o tempo do verão
 
 [Verse 2]
-Descalça na terra quente
-os pés afundam devagar
-O verão não é uma estação
-é uma forma de respirar
+Cotovelo no rebordo do lavatório frio
+queixo levantado para a janela aberta
+escápula deslizando contra a parede caiada
+costela a contar o ritmo lento das horas
+A palma da mão na pele da panela
+pulso queimado pelo vapor do tacho
+o polegar prova o sal da pele
+o lábio inferior cola-se ao copo de barro
+
+[Pre-Chorus]
+A nuca solta o peso do colar
+o tendão da coxa afrouxa contra o banco
+a pálpebra desce devagar sobre a face
 
 [Chorus]
-Solstício — o dia mais longo do ano
-e eu escolho gastá-lo em nada
-Deitar na relva sem destino
-com a barriga ao sol, desarmada
-Solstício — tudo no máximo
-a luz, o calor, a sede
-E eu no meio de tudo isto
-finalmente sem parede
+Solstício, o ombro descansa na esteira
+solstício, a anca larga o cinto de pano
+o ventre ao sol da soleira da casa
+sem agenda na boca, sem pressa nos pés
+A escápula contra a tábua da varanda
+o cotovelo no chão do quintal
+o esterno aberto para o céu de Maputo
+a planta do pé sente a terra a mudar
+o corpo é o relógio
+o corpo é a hora
+
+[Verse 3]
+A face contra a fronha de algodão lavado
+o ombro pousa no degrau da escada baixa
+a clavícula molhada pela água do lavatório
+o tendão do pulso a desenrolar-se devagar
+A coxa contra o banco da igreja vazia
+a costela conta o respirar de tarde
+o queixo apoiado na palma da mão direita
+a anca larga o nó que prendia o pano
+
+[Chorus]
+Solstício, o ombro descansa na esteira
+solstício, a anca larga o cinto de pano
+o ventre ao sol da soleira da casa
+sem agenda na boca, sem pressa nos pés
+A escápula contra a tábua da varanda
+o cotovelo no chão do quintal
+o esterno aberto para o céu de Maputo
+a planta do pé sente a terra a mudar
+o corpo é o relógio
+o corpo é a hora
 
 [Bridge]
-O calor dissolve a pressa
-o suor lava o que sobra
-Hoje o corpo é a única agenda
-e a sombra é a única obra
+O suor escorre pela linha da costela
+o sal pousa na curva da clavícula
+a nuca encontra o frio do copo
+a têmpora encosta ao tacho de barro
+a omoplata reconhece a esteira
+a planta do pé reconhece o chão
 
 [Outro]
-O dia mais longo
-e eu não fiz nada com ele
-Nada
-que bom`,
+A palma aberta sobre o esterno
+o queixo solto contra a clavícula
+a costela conta devagar
+o ombro larga
+a anca larga
+o corpo fica
+o dia também`,
 
   "grao-estacoes/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -373,42 +448,80 @@ and will not stop`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Meia-noite e o mundo finge que muda
-os relógios voltam ao início
-Mas a mudança verdadeira
-não precisa de artifício
+O fósforo trémulo entre o polegar e o indicador
+a vela na mesa baixa da cozinha
+a clavícula curva sobre o pavio escuro
+o queixo apoiado na palma esquerda
+A janela aberta sobre a varanda fria
+o tornozelo descalço no chão de cimento
+a têmpora reflectida no espelho da casa de banho
+a costela conta o segundo que falta
 
 [Verse 2]
-O fogo que acendi não é lá fora
-é este que me arde no olhar
-O ano novo começa no gesto
-de quem decidiu não esperar
+A palma encosta-se ao copo de barro morno
+o lábio toca a borda do tacho ainda quente
+o pulso descansa no rebordo do lavatório
+o cotovelo apoia o peso do silêncio
+A gengiva guarda o gosto do chá amargo
+o ombro larga o xaile pesado de inverno
+a escápula afasta-se da parede caiada
+o calcanhar pousa firme na soleira
+
+[Pre-Chorus]
+A nuca solta o lenço apertado
+a anca larga o cinto de pano
+a planta do pé sente o cimento mudar
 
 [Chorus]
-Fogo novo — não preciso de Janeiro
-para começar de novo
-Fogo novo — qualquer segunda-feira
-é terreno fértil, terreno novo
-Acendo o que quero que viva
-enterro o que já morreu
-O calendário é uma moldura
-o tempo real sou eu
+O fósforo na minha mão direita
+o pavio entre os meus dois dedos
+não espero o relógio da torre
+não espero a badalada do sino
+A omoplata abre como uma porta
+o esterno acolhe a chama curta
+o joelho dobra no banco da igreja
+a face encontra a fronha lavada
+a costela conta um novo ritmo
+o corpo decide a hora
+
+[Verse 3]
+A palma sobre a chama protegida
+o polegar e o indicador dobrados
+a clavícula molhada de orvalho de Janeiro
+o tendão do pulso a desenrolar a corda
+A escápula contra a esteira de capulana
+o cotovelo no degrau da escada baixa
+a têmpora encosta ao copo de água
+o queixo apoia-se na borda da mesa
+
+[Chorus]
+O fósforo na minha mão direita
+o pavio entre os meus dois dedos
+não espero o relógio da torre
+não espero a badalada do sino
+A omoplata abre como uma porta
+o esterno acolhe a chama curta
+o joelho dobra no banco da igreja
+a face encontra a fronha lavada
+a costela conta um novo ritmo
+o corpo decide a hora
 
 [Bridge]
-Doze badaladas ou nenhuma
-tanto faz, tanto vale
-O corpo sabe quando muda
-sem precisar de confetes nem de baile
+A vela escorre cera sobre o meu antebraço
+a chama lambe o ar perto do meu queixo
+a gengiva treme com o frio da soleira
+o pulso bate forte no relógio da pele
+a omoplata respira o cheiro de cera
+a anca encosta-se à mesa de madeira
 
 [Outro]
-Fogo novo
-hoje
-agora
-sem contagem
-sem champanhe
-sem plateia
-Só eu
-e a decisão de arder`,
+A palma fecha-se sobre a chama acesa
+o esterno aquece com o calor curto
+a costela larga
+o ombro larga
+a anca larga
+o pé continua
+o corpo continua`,
 
   "grao-estacoes/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

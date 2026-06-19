@@ -66,333 +66,339 @@ Tudo um pouco mais para baixo
 E eu não dei ordem nenhuma`,
   // nua-boa/2 — Kitchen Dancing (pele-boa-letras.md)
   "nua-boa/2": `[Verse 1]
-The playlist is on shuffle
-The rice is on the stove
-The baby's on my hip
-And we're in our own little cove
+The playlist skipped onto a song from before her
+The rice steams the tile above the stove
+She is on my left hip with one fist in my collar
+And the other in the cupboard above the spoons
+The pan is at low, the timer reads four
+And the radio is louder than the extractor fan
 
 [Verse 2]
-She grabs my ear for balance
-I spin her and she screams
-The kitchen smells like garlic
-And everything she dreams — is right here
+She grips the lobe of my ear for balance
+I lift my heel and she laughs into my throat
+The garlic browns under the lid
+The dish towel is over my shoulder
+A drop of oil lands on the back of my wrist
+And neither of us looks at the floor
 
 [Pre-Chorus]
-No one is watching
-No one needs to see
-The best dancing in the world
-Happens between the fridge and me
+The window over the sink is open onto the yard
+The neighbour's TV is on through the wall
+Nothing about this minute is being filmed
+By anyone, by any phone, by any eye
 
 [Chorus]
-Kitchen dancing, kitchen dancing
-Barefoot on the tiles with a baby on my hip
-Kitchen dancing, kitchen dancing
-The sauce is burning but I'll deal with it
-This is the joy they never photograph
-The happiness that has no frame
-Kitchen dancing is the richest thing
-And it doesn't even have a name
+Her cheek is on my clavicle
+My palm is flat against her back
+Her foot is hooked behind my elbow
+My hip carries the weight of her ribs
+The sauce is sticking to the bottom of the pan
+The timer has three minutes left
+I am not counting any of it
+Because she fits exactly where she fits
 
 [Verse 3]
-The older ones walk in and roll their eyes
-Then slowly start to sway
-The kitchen gets too small for four
-And that's the best part of the day
+The older two come in for water
+The boy leans on the doorframe and watches
+The girl puts her glass down on the counter
+And the four of us are in a square of light
+Between the fridge and the back of the chair
+Where the floor tile is warm from the oven
 
 [Chorus]
-Kitchen dancing, kitchen dancing
-The sauce is burning but I'll deal with it
-Kitchen dancing is the richest thing
-And it doesn't even have a name
+Her cheek is on my clavicle
+My palm is flat against her back
+Her foot is hooked behind my elbow
+My hip carries the weight of her ribs
+The sauce is sticking to the bottom of the pan
+The timer has three minutes left
+I am not counting any of it
+Because she fits exactly where she fits
 
 [Bridge]
-My mother danced like this
-With me where she is now
-The same hip, the same spin
-The same unwritten vow
-That the kitchen is the church
-And the music is the prayer
-And the child who learns to dance here
-Will dance anywhere
-
-[Chorus]
-Kitchen dancing, kitchen dancing
-Barefoot on the tiles
-Kitchen dancing is the richest thing
-That doesn't have a name
+My mother held me on her hip in a kitchen
+With a different stove and a different song
+I do not remember the song
+But I remember the bone of her hip under my thigh
+And the way her collarbone smelled of soap
+After she came in from the line of washing
 
 [Outro]
-The sauce burned
-Nobody cared
-We danced
-Until the rice
-Was ready
-And then
-We danced
-A little more`,
+The rice is done
+The garlic is brown
+The baby is still on the hip
+The older two drift back to the room
+The pan goes off the heat
+The floor tile cools
+The song ends mid line`,
   // nua-boa/3 — Gosto de Mim (pele-boa-letras.md)
   "nua-boa/3": `[Verse 1]
-Passei pelo espelho sem parar
-Mas voltei atrás — porquê não sei
-Olhei sem a lista dos defeitos
-E pela primeira vez não me julguei
+Passei pelo espelho do corredor
+Aquele que fica entre a porta da cozinha e a casa de banho
+Voltei atrás depois de três passos
+Sem perceber porquê
+Pousei a chávena no parapeito do espelho
+E fiquei o tempo que demora uma água a ferver
 
 [Verse 2]
-O cabelo está como está
-A pele mostra o que mostra
-Mas hoje vi qualquer coisa
-Que normalmente fica à porta
+A camisola dele largueirona, a calça do treino
+Os pés descalços no tapete que precisa de ir à máquina
+A clavícula esquerda mais marcada do que a direita
+Uma marca do colchão ainda no maxilar
+O cabelo do lado em que dormi mais achatado
+E uma sardinha nova ao lado do nariz
 
 [Pre-Chorus]
-Não sei explicar o que mudou
-Não perdi peso, não dormi mais
-Só hoje o espelho mostrou
-A versão que os meus filhos vêem — e nada mais
+Não fiz a lista dos defeitos
+Não comecei pelo queixo, pela barriga, pelas coxas
+A boca não disse a frase que costuma dizer
+Antes do café, antes da cara dos miúdos
 
 [Chorus]
-Gosto de mim, gosto de mim
-Hoje — sem razão, sem motivo
-Gosto de mim, gosto de mim
-Não da versão perfeita que persigo
-Mas desta, a de agora
-A que está aqui, com esta cara
-Gosto de mim é a frase mais difícil
-E hoje saiu — rara, clara
+A imagem do espelho ficou parada
+A imagem dentro de mim ficou parada
+As duas demoraram a coincidir
+Mas coincidiram, talvez por dez segundos
+A clavícula esquerda no sítio dela
+A marca do colchão no maxilar onde estava
+A sardinha nova ao lado do nariz
+E nenhuma das três a precisar de ser corrigida
 
 [Verse 3]
-Vesti a saia que estava no fundo
-A que nunca ponho porque acho que não fica
-Hoje fica — ou talvez não
-Mas hoje não interessa a crítica
+Tirei a saia preta do fundo da gaveta
+A que comprei há quatro anos e nunca usei
+Vesti em frente ao espelho do quarto
+Que tem mais luz do que o do corredor
+A cintura da saia pousou onde tinha de pousar
+E os pés ficaram afastados à largura das ancas
 
 [Chorus]
-Gosto de mim, gosto de mim
-Não da versão perfeita que persigo
-Gosto de mim é a frase mais difícil
-E hoje saiu — rara, clara
+A imagem do espelho ficou parada
+A imagem dentro de mim ficou parada
+As duas demoraram a coincidir
+Mas coincidiram, talvez por dez segundos
+A clavícula esquerda no sítio dela
+A marca do colchão no maxilar onde estava
+A sardinha nova ao lado do nariz
+E nenhuma das três a precisar de ser corrigida
 
 [Bridge]
-Não sei se amanhã consigo
-Não sei se dura até à tarde
-Mas agora, neste segundo
-Não tenho pressa e não é tarde
-Para gostar do que vejo
-Sem condições, sem reforma
-Gosto de mim como estou
-Nesta exata, imperfeita forma
-
-[Chorus]
-Gosto de mim, gosto de mim
-Hoje — sem razão, sem motivo
-Desta, a de agora
-E hoje chega
+Daqui a duas horas o queixo volta a empurrar
+A mão volta a procurar o que falta na barriga
+A boca volta a dizer a frase de sempre
+Antes de sair de casa
+Mas agora a chávena ainda está no parapeito
+E o café dentro dela já não está quente
 
 [Outro]
-Gosto
-Hoje gosto
-Amanhã não sei
-Mas hoje
-Gosto
-E isso
-É tudo`,
+A chávena no parapeito
+A saia preta vestida
+A marca no maxilar
+A sardinha ao lado do nariz
+As duas imagens
+Por dez segundos
+No mesmo sítio`,
   // nua-boa/4 — Small Luxury (pele-boa-letras.md)
   "nua-boa/4": `[Verse 1]
-The coffee before anyone wakes
-Drunk standing up, both hands on the mug
-The heat through the ceramic
-Is the closest thing I get to a hug — at six AM
+Six twelve, before anyone wakes
+The kettle clicks off at the same minute every morning
+Both palms wrap the green mug from my mother
+The handle is chipped on the inside of the curve
+The ceramic heat moves into the bones of my fingers
+And stays there longer than the coffee will
 
 [Verse 2]
-The shower five minutes longer
-When the house is finally quiet
-The hot water on the shoulders
-Is a holiday I buy in secret — every night
+The shower at ten past nine, after the kids are down
+Five extra minutes I steal from the laundry pile
+The hot water hits the back of the neck
+The trapezius softens between the shoulder blades
+The forehead tilts down to meet the tiled wall
+And the tile is cold against the bridge of my nose
 
 [Pre-Chorus]
-Nobody sees these moments
-They don't make the highlight reel
-But they're the only reason
-Some days I remember how to feel
+Nobody knows the kettle clicks at six twelve
+Nobody knows the tile is cold at ten past nine
+These are not stories I tell at the school gate
+Or at the desk where I sit between meetings
 
 [Chorus]
-Small luxury, small luxury
-The things that cost me nothing
-Small luxury, small luxury
-The silence and the something
-That lives between the chaos and the sleep
-The stolen minute at the door
-Small luxury is not a spa or trip
-Small luxury is the thing I live for
+The mug, the green one with the chip on the handle
+The shower tile against the bridge of the nose
+The square of chocolate eaten on the third stair
+The page of the book read with one eye closed
+None of these belong to anyone but me
+None of these were given to me by anyone
+They are the small pockets I sewed into the day
+With a needle no one in this house can find
 
 [Verse 3]
-The chocolate after bedtime
-Eaten in the dark without a plate
-The book I'll never finish
-But the three pages are enough — they're great
+The chocolate after the bedtime story
+The wrapper unwrapped on the third stair from the top
+So the foil does not crack in the kitchen
+The book on the floor by my side of the bed
+Three pages with my finger between the cover
+Before the chin drops to the chest
 
 [Chorus]
-Small luxury, small luxury
-The things that cost me nothing
-Small luxury is not a spa or trip
-Small luxury is the thing I live for
+The mug, the green one with the chip on the handle
+The shower tile against the bridge of the nose
+The square of chocolate eaten on the third stair
+The page of the book read with one eye closed
+None of these belong to anyone but me
+None of these were given to me by anyone
+They are the small pockets I sewed into the day
+With a needle no one in this house can find
 
 [Bridge]
-I used to think joy was an event
-A holiday, a gift, a plan
-But joy is the coffee standing up
-The shower, the chocolate, the contraband
-Of tiny pleasures hidden in a day
-That nobody designed for me
-Small luxury is the rebellion
-Of a woman making space — to breathe
-
-[Chorus]
-Small luxury, small luxury
-The silence and the something
-Small luxury is the thing I live for
+I used to wait for the holiday, the dinner out, the trip
+For the photo that would prove the year was good
+Now I wait for the click of the kettle at six twelve
+For the cold tile under the bridge of the nose
+For the foil that does not crack on the third stair
+For the finger that holds the page until the chin drops
 
 [Outro]
-The mug
-The water
-The chocolate
-The page
-Small things
-That save
-Whole days`,
+The green mug
+The cold tile
+The third stair
+The finger in the book
+Small pockets
+Sewn into the day
+With a needle nobody finds`,
   // nua-boa/5 — Sábado (pele-boa-letras.md)
   "nua-boa/5": `[Verse 1]
-Sábado sem alarme
-Sábado sem agenda
-Ele levou os três ao parque
-E a casa é minha — sem emenda
+Dez e quarenta da manhã, sábado
+Os três saíram com ele para o parque da Costa
+Levaram a bola, o saco com a fruta, o boné da pequena
+A porta bateu, depois bateu o portão
+E o eco do portão demorou no corredor
+Mais tempo do que costuma demorar
 
 [Verse 2]
-Sento-me no sofá com as pernas cruzadas
-Ponho um programa que não interessa
-Não faço nada com as mãos
-E não sinto que estou em dívida — nem com pressa
+Sentei-me no canto direito do sofá
+O canto que tem a almofada com o forro mais gasto
+Pus os pés em cima da mesa baixa
+Sem tirar os meus calcanhares de cima da revista
+Cruzei os pulsos sobre a barriga
+E não pus a televisão
 
 [Pre-Chorus]
-Não fazer nada é um verbo
-Que as mulheres não conjugam
-Há sempre algo por dobrar
-Há sempre culpas que se juntam
+A roupa por dobrar continua no cesto da lavandaria
+A loiça do pequeno-almoço continua no lava-loiça
+O tapete da entrada continua com areia da praia da semana passada
+E nada disto se vai mover até à uma da tarde
 
 [Chorus]
-Sábado, sábado
-O dia em que me dou licença
-Sábado, sábado
-De não ser útil, de não ter urgência
-De estar sentada sem motivo
-De respirar sem estar a treinar
-Sábado é o dia em que pratico
-A arte difícil de não me ocupar
+O canto direito do sofá com a almofada gasta
+Os calcanhares em cima da revista da semana passada
+Os pulsos cruzados sobre a barriga
+A respiração que desce até abaixo do umbigo
+O frigorífico que arranca o motor na cozinha
+A torneira da casa de banho que pinga de meia em meia hora
+Eu sentada sem mover nem o joelho
+Pela primeira vez desde a quarta de manhã
 
 [Verse 3]
-Ouço a casa vazia
-Os ruídos que nunca ouço
-O frigorífico zumbe baixo
-E eu percebo que este é o meu poço
-De silêncio — e que estava cheio à espera
+Ouço o relógio da cozinha pela primeira vez em três anos
+O tique fica claro quando os outros sons saem da casa
+O ralo do duche assenta com um ruído pequeno
+A persiana da sala range na corrente do corredor
+E a minha mão pousada no joelho não tem nada para agarrar
+Nem o telemóvel, nem o copo, nem a mão de ninguém
 
 [Chorus]
-Sábado, sábado
-De não ser útil, de não ter urgência
-Sábado é o dia em que pratico
-A arte difícil de não me ocupar
+O canto direito do sofá com a almofada gasta
+Os calcanhares em cima da revista da semana passada
+Os pulsos cruzados sobre a barriga
+A respiração que desce até abaixo do umbigo
+O frigorífico que arranca o motor na cozinha
+A torneira da casa de banho que pinga de meia em meia hora
+Eu sentada sem mover nem o joelho
+Pela primeira vez desde a quarta de manhã
 
 [Bridge]
-Daqui a duas horas voltam
-Com areia nos sapatos e fome
-E a casa enche-se outra vez
-De barulho e de nome
-Mãe, mãe, mãe
-Mas por agora
-Sou só eu
-E o frigorífico
-E o sábado
-Que não me pede nada
-
-[Chorus]
-Sábado, sábado
-O dia em que me dou licença
-De respirar sem estar a treinar
+Daqui a duas horas e dezoito minutos voltam
+Com areia nas dobras dos calções
+A pequena com sumo seco no canto da boca
+O do meio com o joelho esfolado de propósito
+A mais velha a pedir o telemóvel à porta da entrada
+E ele a perguntar se já decidi o que é o almoço
 
 [Outro]
-Duas horas
-Sem ninguém
-Sem nada
-Com tudo
-O luxo
-Mais caro
-Que conheço`,
+A almofada gasta
+A revista por baixo dos calcanhares
+A torneira a pingar de meia em meia hora
+O relógio da cozinha pela primeira vez em três anos
+A respiração abaixo do umbigo
+Duas horas e dezoito minutos
+Antes do portão`,
   // nua-boa/6 — Good Tired (pele-boa-letras.md)
   "nua-boa/6": `[Verse 1]
-There's a tiredness that hurts
-And a tiredness that hums
-Tonight is the second kind
-The one that comes from sums
-Of laughter, meals, and bedtime songs
+The arch of the right foot aches at the third metatarsal
+From standing at the counter peeling onions for an hour
+The left shoulder pulls a little at the back of the blade
+From the basket of laundry on the hip up the stairs
+The throat is rough at the top of the windpipe
+From reading the dragon book in three different voices
 
 [Verse 2]
-My feet ache from the kitchen
-My voice is hoarse from reading
-Three different books to three different kids
-Each one a different needing
+The skin on the inside of the wrist smells of soap
+From the bath of the smallest one at seven fifteen
+A small smear of toothpaste is dried on the cuff of the sleeve
+From the second one who spits before she rinses
+A red mark on the inside of the index finger
+From the corner of the storybook held open too long
 
 [Pre-Chorus]
-Good tired is the tiredness
-That doesn't ask for pity
-It asks for a pillow and a sigh
-And maybe something pretty — like silence
+The bedroom door clicks shut at nine forty one
+The hallway lamp throws a line under the door
+The husband is reading on his side of the bed
+And the house has the particular quiet of a stove turning off
 
 [Chorus]
-Good tired, good tired
-The kind that means the day was full
-Good tired, good tired
-The kind that pulled and pushed and pulled
-But left me here with nothing broken
-Just a woman emptied out
-In the best way, in the only way
-That doesn't carry doubt
+The arch of the right foot on the cool wooden floor
+The left shoulder against the edge of the headboard
+The throat held still against the rim of the water glass
+The wrist of the right arm draped across the duvet
+The body in the bed is heavier than the mind
+Which is unusual for this hour of this house
+The list that lives behind the forehead is quiet
+And the breath is finally lower than the collarbone
 
 [Verse 3]
-The kids are down, the kitchen's done
-The house smells like soap and bread
-I sit on the edge of the bed
-And the tiredness feels like something — soft, well-fed
+The kitchen down the hall smells of the soap from the dishes
+And the heel of bread that did not go into the box
+The bath upstairs smells of the orange shampoo
+And the towel that is still warm on the radiator rail
+A single light is on in the corridor
+For the smallest who still wakes at two to find the bathroom
 
 [Chorus]
-Good tired, good tired
-The kind that means the day was full
-Just a woman emptied out
-In the best way
+The arch of the right foot on the cool wooden floor
+The left shoulder against the edge of the headboard
+The throat held still against the rim of the water glass
+The wrist of the right arm draped across the duvet
+The body in the bed is heavier than the mind
+Which is unusual for this hour of this house
+The list that lives behind the forehead is quiet
+And the breath is finally lower than the collarbone
 
 [Bridge]
-Not every day ends like this
-Some days the tired is sharp and mean
-But tonight the tired is golden
-Tonight the tired is clean
-And I will sleep without the list
-Without the three AM parade
-Good tired is the rarest gift
-A woman gives herself — handmade
-
-[Chorus]
-Good tired, good tired
-The kind that doesn't carry doubt
-Good tired
-Tonight
+There are nights when the tired lives in the jaw
+And clicks against the molars until four in the morning
+Tonight the tired lives in the arch of the foot
+And the back of the shoulder blade and the rim of the throat
+Which means it will leave with the morning shower
+And not follow me into the meeting at nine
 
 [Outro]
-Full day
-Full house
-Full heart
-Empty
-In the best way
-Sleep
-Now
-Sleep`,
+The arch of the foot
+The back of the shoulder
+The rim of the throat
+The wrist on the duvet
+The line of light
+Under the door
+And the breath, lower than the collarbone`,
   // nua-boa/7 — Riso (pele-boa-letras.md)
   "nua-boa/7": `[Verse 1]
 O riso saiu sem avisar

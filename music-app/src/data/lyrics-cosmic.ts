@@ -247,54 +247,80 @@ Hungry for bread`,
 [Intro: subtle low drone in vast empty space, distant cello bow on a single sustained note, a single audible exhale, then silence for one bar]
 
 [Verse 1: vocal raw, very close, almost spoken, breath audible]
-Tirei a pele e não doeu
-Tirei o nome e não chorei
-Tirei o medo e o que ficou
-Foi tão vasto que me perdi
+A clavícula encosta no algodão da camisa
+O pulso descansa na mesa da cozinha
+A palma abre virada para o tecto
+A unha do polegar arranha o joelho devagar
+A planta do pé sente o chão da casa de banho
+A gengiva guarda o gosto do café
+O esterno sobe quando o ar entra
+A omoplata pousa contra a cadeira da janela
 
-[Verse 2]
-Sem fronteira entre eu e o ar
-Sem fronteira entre o sangue e o mar
-O vento passa-me por dentro
-Como se eu fosse um lugar
+[Verse 2: same raw whispered tone, breath audible]
+A fossa nasal recebe o cheiro do balcão
+A pálpebra desce sobre o reflexo do frigorífico
+A anca encontra a borda da mesa
+A coxa quente toca a perna fria
+O lóbulo da orelha apanha o som do Pingo Doce
+A nuca repousa no encosto da cadeira
+O queixo desce um dedo, depois outro
+A boca abre, fecha, abre outra vez
 
-[Chorus]
-Sem pele
-Sou tudo o que toco
-Sem pele
-Sou o fogo e sou o foco
-Não acabo onde o corpo acaba
-Não começo onde a pele diz
-Sem pele eu sou o espaço
-Entre a ferida e a cicatriz
-
-[Verse 3]
-É isto que a morte será
-Ou é isto que a vida é
-Quando paramos de defender
-As bordas do que pensamos que se vê
+[Pre-Chorus]
+O lençol roça no peito do pé
+A toalha velha no cabide do corredor
+A cadeira range
+O ar entra
 
 [Chorus]
-Sem pele
-Sou tudo o que toco
-Sem pele
-Sou o fogo e sou o foco
-Não acabo onde o corpo acaba
-Não começo onde a pele diz
-Sem pele eu sou o espaço
-Entre a ferida e a cicatriz
+A mão direita pousa sobre o esterno
+Sente o calor que sobe do peito
+A mão esquerda pousa sobre a anca
+E lá fica, sem pressa nenhuma
+A janela aberta deixa entrar a tarde
+A cortina toca na omoplata
+O pijama velho conhece os ombros
+Conhece a curva do pescoço, a covinha do queixo
+O lençol pesa pouco
+Pesa o que tem de pesar
 
-[Bridge: European Portuguese, Lisbon accent — vocal close, almost spoken, only low drone underneath]
-(African accent Portuguese:)
-Não é perder-se
-É encontrar o tamanho real
-Que sempre foi maior
-Que esta moldura de pele e sal
+[Verse 3: vocal raw, close, breath audible]
+A planta do pé encontra a alcatifa
+Os dedos do pé separam-se devagar
+A barriga sobe com a respiração
+A barriga desce, a barriga sobe
+A gengiva inferior fica salgada
+A clavícula esquerda aceita a luz da janela
+A clavícula direita aceita a sombra do armário
+O esterno fica ali, no meio
+
+[Chorus]
+A mão direita pousa sobre o esterno
+Sente o calor que sobe do peito
+A mão esquerda pousa sobre a anca
+E lá fica, sem pressa nenhuma
+A janela aberta deixa entrar a tarde
+A cortina toca na omoplata
+O pijama velho conhece os ombros
+Conhece a curva do pescoço, a covinha do queixo
+O lençol pesa pouco
+Pesa o que tem de pesar
+
+[Bridge: vocal close, almost spoken, only low drone underneath]
+A escada de casa range no terceiro degrau
+A janela da cozinha está meio aberta
+A cadeira está virada para o balcão
+A chinela esquerda fica do lado do frigorífico
+A mão pousa, descansa, fica
+O cotovelo encontra a borda da mesa
 
 [Outro]
-Sem pele
-Finalmente do tamanho
-Que sempre fui`,
+A clavícula
+A anca
+O joelho
+A planta do pé
+O ar entra
+E fica`,
 
   "eter-viagem/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -479,56 +505,82 @@ But you saw me`,
 [Intro: low vocal hum drone alone for 4 seconds (no words), then deep sub bass pulse enters, talking-drum rhythm joins, shaker on the off-beat]
 
 [Verse 1: vocal close, resonant cosmic intimacy, hum drone underneath]
-Há uma nota que o universo toca
-Desde o princípio sem parar
-Grave demais para os ouvidos
-Mas o corpo sabe escutar
+O esterno apanha o som do frigorífico
+A clavícula apanha o ar do corredor
+O pulso pousa em cima do balcão
+Os dedos batem três vezes na chávena
+A gengiva guarda o gosto do pão
+A fossa nasal apanha o cheiro da cebola
+O joelho encosta no joelho da cadeira
+A planta do pé fica na alcatifa fria
 
-[Verse 2]
-Às vezes apanho-a de surpresa
-No zumbido antes de dormir
-Na vibração de um comboio ao longe
-No silêncio antes de partir
+[Verse 2: same close intimacy, hum drone underneath]
+O zumbido do candeeiro entra pela orelha
+A mão larga o copo no balcão de mármore
+O comboio passa por trás do prédio
+A janela treme um pouco com o som
+A omoplata aceita o encosto da cadeira
+A pálpebra desce sobre o reflexo da torneira
+O peito sobe, o peito desce
+O lençol da escada de casa pesa no joelho
 
-[Chorus]
-Frequência
-O universo vibra e eu vibro com ele
-Frequência
-Não é crença, é a pele
-Que reconhece o tom
-Anterior à música, anterior à voz
-Frequência
-O som que eu era antes de nós
-
-[Verse 3]
-Não preciso de meditar
-Não preciso de me sentar
-Basta ficar quieta o suficiente
-Para o ruído se calar
+[Pre-Chorus]
+A cadeira da cozinha range no chão
+O chinelo esquerdo está no corredor
+A torneira pinga uma vez
+Depois mais uma
 
 [Chorus]
-Frequência
-O universo vibra e eu vibro com ele
-Frequência
-Não é crença, é a pele
-Que reconhece o tom
-Anterior à música, anterior à voz
-Frequência
-O som que eu era antes de nós
+A mão direita pousa em cima da mesa
+A unha do dedo médio risca o tampo
+O cotovelo encontra a borda de madeira
+O pulso conhece esta posição há anos
+A nuca pousa no encosto da cadeira da janela
+A clavícula aceita o ar morno da tarde
+O esterno apanha a vibração da rua
+O ombro desce um centímetro, depois outro
+A cozinha guarda o som da minha respiração
+E o frigorífico arranca outra vez
 
-[Bridge: European Portuguese, Lisbon accent — vocal close, hum drone present, no harmonies]
-(African accent Portuguese:)
-A ciência chama-lhe radiação cósmica
-O corpo chama-lhe arrepio
-A alma chama-lhe reconhecimento
-Eu chamo-lhe o meu rio
+[Verse 3: vocal close, hum drone underneath]
+A coxa direita aquece a coxa esquerda
+A planta do pé reconhece o tapete da casa de banho
+A unha do polegar arranha o esmalte do balcão
+A gengiva inferior guarda o frio da água
+A omoplata desliza contra a parede do corredor
+A clavícula bate ao mesmo tempo que o relógio
+O esterno é o sítio onde tudo chega
+Antes de eu saber que chegou
+
+[Chorus]
+A mão direita pousa em cima da mesa
+A unha do dedo médio risca o tampo
+O cotovelo encontra a borda de madeira
+O pulso conhece esta posição há anos
+A nuca pousa no encosto da cadeira da janela
+A clavícula aceita o ar morno da tarde
+O esterno apanha a vibração da rua
+O ombro desce um centímetro, depois outro
+A cozinha guarda o som da minha respiração
+E o frigorífico arranca outra vez
+
+[Bridge: vocal close, hum drone present, no harmonies]
+A casa range no terceiro degrau da escada
+O chinelo bate na escada quando subo
+A janela da casa de banho fica meio aberta
+O cheiro do sabão fica nos dedos
+A mão pousa, descansa, fica
+A cabeça encosta na almofada do lado direito
 
 [Outro]
-Frequência
-Sempre esteve aqui
-Eu é que andava
-Com demasiado ruído
-Para ouvir`,
+A clavícula
+O esterno
+A anca
+O pulso
+A cozinha
+A cadeira da janela
+E o ar
+Que entra`,
 
   "eter-viagem/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir building solo to 6-voice on final chorus, no melisma, never shouts, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -4639,54 +4691,80 @@ E sem desistir de mim`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O mesmo erro com outro rosto
-O mesmo bar com outro nome
-A mesma ferida com outra desculpa
-O mesmo fome
+A mão direita pega na chave em cima do balcão
+A planta do pé encontra o tapete do corredor
+O ombro empurra a porta da rua
+O joelho dobra ao terceiro degrau da escada
+A unha do polegar arranha o botão do elevador
+A clavícula aceita o frio do hall
+A gengiva guarda o gosto do café da manhã
+Os dedos contam as moedas no bolso do casaco
 
 [Verse 2]
-Jurei que desta vez seria diferente
-Que a curva ia mudar de direção
-Mas o corpo conhece o caminho
-Melhor que a intenção
+A anca encosta na borda do balcão do Pingo Doce
+O cotovelo descansa em cima do cesto
+A omoplata reconhece a fila da caixa
+O pulso pousa as compras na esteira
+A planta do pé sabe o caminho de volta
+A mão direita procura a chave outra vez
+O ombro empurra a mesma porta da rua
+O joelho dobra no mesmo terceiro degrau
+
+[Pre-Chorus]
+A chinela esquerda fica no corredor
+A direita fica atrás da porta
+A cadeira da cozinha
+Está virada para a janela
 
 [Chorus]
-Ciclo
-Os planetas não escolhem a rota
-Ciclo
-E eu também não
-Giro em volta do mesmo sol escuro
-Com os bolsos cheios de lição
-Que nunca aprendo — só repito
-Como estação
+A mão pousa a chave em cima da mesa da cozinha
+A unha do dedo médio arranha o tampo de madeira
+O cotovelo encontra a borda do balcão de mármore
+O pulso conhece esta posição há tantos anos
+A nuca encosta no encosto da cadeira da janela
+A omoplata aceita a forma da almofada velha
+A planta do pé pousa na alcatifa quente
+Os dedos do pé separam-se debaixo da mesa
+A cozinha guarda o som dos meus passos
+E o frigorífico arranca outra vez
 
 [Verse 3]
-A minha mãe fez o mesmo giro
-E a mãe dela também
-O ciclo não é só meu
-É de todas as que vieram e de todas as que vêm
+A minha mãe pousava as chaves na mesma mesa
+A avó dela pousava o cesto no mesmo balcão
+A mão delas conhecia esta cozinha antes da minha
+A anca delas encostava no mesmo sítio do balcão
+A planta do pé delas sabia este corredor
+Os dedos delas contavam as moedas no mesmo bolso
+A omoplata delas pousava no mesmo encosto
+A gengiva delas guardava o mesmo gosto do café
 
 [Chorus]
-Ciclo
-Os planetas não escolhem a rota
-Ciclo
-E eu também não
-Giro em volta do mesmo sol escuro
-Com os bolsos cheios de lição
-Que nunca aprendo — só repito
-Como estação
+A mão pousa a chave em cima da mesa da cozinha
+A unha do dedo médio arranha o tampo de madeira
+O cotovelo encontra a borda do balcão de mármore
+O pulso conhece esta posição há tantos anos
+A nuca encosta no encosto da cadeira da janela
+A omoplata aceita a forma da almofada velha
+A planta do pé pousa na alcatifa quente
+Os dedos do pé separam-se debaixo da mesa
+A cozinha guarda o som dos meus passos
+E o frigorífico arranca outra vez
 
 [Bridge]
-Mas e se o ciclo não é prisão
-E se é o corpo a tentar mostrar
-A mesma ferida de outro ângulo
-Até eu finalmente olhar
+A casa range no terceiro degrau da escada
+A chinela bate no chão do corredor
+A janela da cozinha está meio aberta
+A cortina toca na clavícula esquerda
+O cheiro do café fica nos dedos
+A mão pousa, descansa, fica
 
 [Outro]
-Ciclo
-Não é castigo
-É convite
-Para finalmente ver`,
+A chave em cima da mesa
+A mão na borda do balcão
+A nuca no encosto
+O joelho no terceiro degrau
+A cozinha sabe
+A cozinha guarda`,
 
   "eter-orbita/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -4751,54 +4829,80 @@ I follow`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A lua não pergunta se pode
-Entrar pela janela do meu quarto
-Não pede licença ao meu sangue
-Para mudar de compasso
+A luz da janela do quarto bate na almofada
+A clavícula esquerda fica fria contra o lençol
+A pálpebra recusa fechar até às quatro
+A mão direita pousa em cima da barriga
+O pulso sente o sangue a passar
+A gengiva fica salgada na boca
+A planta do pé escapa do cobertor
+O ar da casa de banho entra debaixo da porta
 
 [Verse 2]
-Nos dias de lua cheia choro
-Nos dias de lua nova durmo
-Não é superstição é o corpo
-A obedecer a um ritmo surdo
+A anca acorda antes do despertador
+A coxa dobra debaixo do lençol
+A omoplata pousa contra o colchão
+A nuca afunda na almofada do lado direito
+O esterno sobe com a respiração lenta
+O dedo grande do pé encontra o cobertor
+A barriga aperta uma vez, depois larga
+A unha do polegar arranha o lóbulo da orelha
+
+[Pre-Chorus]
+A cortina toca na borda da janela
+O candeeiro fica aceso no corredor
+A casa range
+O frigorífico arranca
 
 [Chorus]
-Lua
-A minha maré interior
-Lua
-O relógio mais anterior
-Ao despertador e ao telemóvel
-A lua manda no meu sal
-No meu humor, no meu desejo
-A lua manda — e faz-me bem e mal
+A mão pousa sobre o baixo ventre
+Sente o calor que sobe da anca
+A outra mão pousa sobre o esterno
+E lá fica, a aceitar a noite cheia
+A cadeira da janela está virada para o jardim
+A almofada guarda a forma da cabeça
+A planta do pé encontra o tapete do quarto
+Os dedos do pé separam-se devagar
+A janela aberta deixa entrar o ar morno
+E o lençol cobre só a coxa direita
 
 [Verse 3]
-As mulheres antes de mim
-Sangravam com a lua sem vergonha
-Eu escondo-me na casa de banho
-Como se o corpo fosse uma desonra
+A minha mãe pousava a mão no mesmo sítio
+A avó dela acordava à mesma hora
+A unha delas arranhava a mesma almofada
+A planta do pé delas encontrava o mesmo tapete
+A clavícula delas aceitava o mesmo frio
+O esterno delas sabia esta posição
+A anca delas conhecia este peso
+A omoplata delas pousava no mesmo encosto
 
 [Chorus]
-Lua
-A minha maré interior
-Lua
-O relógio mais anterior
-Ao despertador e ao telemóvel
-A lua manda no meu sal
-No meu humor, no meu desejo
-A lua manda — e faz-me bem e mal
+A mão pousa sobre o baixo ventre
+Sente o calor que sobe da anca
+A outra mão pousa sobre o esterno
+E lá fica, a aceitar a noite cheia
+A cadeira da janela está virada para o jardim
+A almofada guarda a forma da cabeça
+A planta do pé encontra o tapete do quarto
+Os dedos do pé separam-se devagar
+A janela aberta deixa entrar o ar morno
+E o lençol cobre só a coxa direita
 
 [Bridge]
-Quero voltar a sangrar com a lua
-Quero voltar a chorar com a maré
-Quero que o corpo mande no calendário
-E não o calendário em mim
+A casa de banho fica fria às quatro da manhã
+A torneira pinga uma vez, depois mais uma
+A toalha velha no cabide cheira a sabão
+A mão pousa na borda do lavatório de mármore
+A clavícula direita aceita a luz do candeeiro
+O queixo desce dois dedos
 
 [Outro]
-Lua
-Manda
-Eu obedeço
-Com prazer`,
+A almofada do lado direito
+A mão no baixo ventre
+A planta do pé no tapete
+A janela meio aberta
+O ar entra
+E fica`,
 
   "eter-orbita/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5034,108 +5138,162 @@ Do centro`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I circle you the way the earth
-Circles the indifferent sun
-Close enough to feel the warmth
-Too far to be undone
+The right hand rests on the kitchen counter
+The left palm flat against the wooden door
+The collarbone catches the light from the window
+The hip leans into the edge of the sink
+The fingernail scratches the rim of the mug
+The gum holds the taste of cold coffee
+The shoulder blade meets the back of the chair
+The sole of the foot finds the cool tile floor
 
 [Verse 2]
-You don't know I'm here perhaps
-The way the sun forgets the moon
-I orbit in your periphery
-Humming your favourite tune
+The wrist rests on the rim of the bowl
+The forearm follows the line of the table
+The eyelid lowers over the reflection of the kettle
+The nostril takes in the smell of the bread
+The knee bends against the chair leg
+The thumb traces the chip on the white plate
+The sternum rises with the slow breath in
+The shoulder drops one centimetre, then another
+
+[Pre-Chorus]
+The slipper waits by the bedroom door
+The cardigan hangs on the back of the chair
+The clock ticks
+The fridge starts up
 
 [Chorus]
-Orbit
-The loneliest devotion
-Orbit
-A gravitational emotion
-I cannot leave, I cannot land
-I cannot look away
-Orbit — the love that never touches
-But never goes away
+The right hand rests on the windowsill of the kitchen
+The fingernail of the thumb scratches the paint
+The elbow finds the corner of the wooden table
+The wrist knows this position by now
+The nape settles on the back of the window chair
+The shoulder blade accepts the shape of the cushion
+The sole of the foot rests on the warm rug
+The toes spread out beneath the table
+The kitchen holds the sound of my breathing
+And the fridge starts up once more
 
 [Verse 3]
-The moon does not complain
-About the distance or the dark
-It simply reflects what it receives
-And leaves the rest to the arc
+The right palm finds the rim of the white mug
+The left hand pours water from the kettle
+The thumbnail catches against the chip in the rim
+The wrist tilts toward the open window
+The collarbone accepts the afternoon air
+The gum holds the warmth of the morning tea
+The sternum is the place where everything lands
+Before I know it has landed
 
 [Chorus]
-Orbit
-The loneliest devotion
-Orbit
-A gravitational emotion
-I cannot leave, I cannot land
-I cannot look away
-Orbit — the love that never touches
-But never goes away
+The right hand rests on the windowsill of the kitchen
+The fingernail of the thumb scratches the paint
+The elbow finds the corner of the wooden table
+The wrist knows this position by now
+The nape settles on the back of the window chair
+The shoulder blade accepts the shape of the cushion
+The sole of the foot rests on the warm rug
+The toes spread out beneath the table
+The kitchen holds the sound of my breathing
+And the fridge starts up once more
 
 [Bridge]
-What if orbit is not failure
-What if distance is a kind of care
-What if love at arm's length
-Is braver than the love that's always there
+The bathroom tile is cold against the heel
+The old towel on the hook smells of soap
+The hand rests on the rim of the marble basin
+The right collarbone catches the lamp from the hall
+The chin drops two fingers
+The eyelid lowers
 
 [Outro]
-Orbit
-Not closer
-Not further
-Just here
-Turning`,
+The collarbone
+The sternum
+The hip
+The wrist
+The kitchen
+The window chair
+And the air
+Coming in`,
 
   "eter-orbita/9": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Há qualquer coisa que me puxa
-Para baixo quando quero subir
-Para a esquerda quando vou à direita
-Para trás quando quero partir
+A anca afunda na cadeira da cozinha
+A omoplata pousa no encosto de madeira
+A planta do pé encontra o chão frio
+O joelho dobra para baixo da mesa
+A clavícula desce com o ar a sair
+A pálpebra fecha sobre a luz da janela
+O esterno aceita o peso da camisa velha
+A nuca encontra a almofada da cadeira
 
 [Verse 2]
-Não é preguiça nem é medo
-É mais antigo que os dois
-É uma força que vem de antes
-De antes do antes — de antes de depois
+O cotovelo descansa em cima da mesa
+O pulso vira para cima, depois para baixo
+A mão direita pousa sobre a barriga
+A mão esquerda fica em cima da coxa
+O dedo grande do pé toca a perna da cadeira
+A unha do polegar arranha a madeira do tampo
+A gengiva guarda o gosto do pão duro
+A fossa nasal apanha o cheiro do balcão
+
+[Pre-Chorus]
+A chinela esquerda no corredor
+A direita atrás da porta
+O frigorífico arranca
+A torneira pinga
 
 [Chorus]
-O que me puxa
-Não tem rosto nem tem voz
-O que me puxa
-Vem de antes de nós
-É a gravidade do que não resolvi
-É o peso do que não chorei
-O que me puxa é o convite
-Para o luto que adiei
+A mão pousa em cima da mesa da cozinha
+O cotovelo encontra a borda de madeira
+A omoplata afunda no encosto da cadeira
+A nuca cai contra o ombro direito
+A planta do pé pousa sobre o chão de mármore
+Os dedos do pé separam-se debaixo da mesa
+O esterno desce, a barriga sobe
+A clavícula aceita o peso da cabeça
+A cozinha guarda o som da minha respiração
+E a cadeira aguenta tudo o que lhe ponho
 
 [Verse 3]
-E se eu parar de resistir
-E me deixar puxar ao fundo
-E se o fundo não é o fim
-Mas o princípio de outro mundo
+A mão da minha mãe pousava aqui
+A anca dela afundava na mesma cadeira
+A omoplata dela pousava no mesmo encosto
+A planta do pé dela conhecia este chão
+A clavícula dela aceitava o mesmo peso
+A unha dela arranhava o mesmo tampo
+A gengiva dela guardava o mesmo gosto
+A nuca dela caía contra o mesmo ombro
 
 [Chorus]
-O que me puxa
-Não tem rosto nem tem voz
-O que me puxa
-Vem de antes de nós
-É a gravidade do que não resolvi
-É o peso do que não chorei
-O que me puxa é o convite
-Para o luto que adiei
+A mão pousa em cima da mesa da cozinha
+O cotovelo encontra a borda de madeira
+A omoplata afunda no encosto da cadeira
+A nuca cai contra o ombro direito
+A planta do pé pousa sobre o chão de mármore
+Os dedos do pé separam-se debaixo da mesa
+O esterno desce, a barriga sobe
+A clavícula aceita o peso da cabeça
+A cozinha guarda o som da minha respiração
+E a cadeira aguenta tudo o que lhe ponho
 
 [Bridge]
-Deixo-me ir
-Deixo o fundo chegar
-E no fundo encontro
-Chão para finalmente estar
+A escada de casa range no terceiro degrau
+A janela da casa de banho fica meio aberta
+O cheiro do sabão fica na pele dos dedos
+A mão pousa na borda do lavatório
+A toalha velha cobre a omoplata direita
+A planta do pé fica no tapete frio
 
 [Outro]
-O que me puxa
-Puxou-me
-Para mim`,
+A cadeira aguenta
+O chão aguenta
+A mesa aguenta
+A nuca cai
+A respiração desce
+E fica`,
 
   "eter-orbita/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5201,54 +5359,82 @@ Wider eyes`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Este carbono que me faz
-Já foi estrela, já foi sol
-Já foi a folha de uma árvore
-Que caiu antes do arrebol
+A clavícula direita aceita a luz da cozinha
+A unha do polegar arranha a casca da laranja
+A gengiva guarda o gosto azedo do sumo
+A fossa nasal apanha o cheiro da casca
+A mão esquerda segura a chávena na borda
+O pulso pousa em cima do balcão de mármore
+A omoplata afunda no encosto da cadeira
+A planta do pé encontra o tapete da cozinha
 
 [Verse 2]
-Cada átomo do meu corpo
-Viajou bilhões de anos
-Para chegar a esta forma
-A estes dedos, a estas mãos
+O esterno sobe quando o ar entra
+A barriga desce quando o ar sai
+O dedo médio risca o tampo da mesa
+O cotovelo descansa na borda de madeira
+A pálpebra fecha sobre a luz da janela
+A nuca pousa no encosto da cadeira da janela
+A coxa direita aquece a coxa esquerda
+Os dedos do pé separam-se debaixo da mesa
+
+[Pre-Chorus]
+A torneira pinga uma vez
+O frigorífico arranca
+A escada de casa range
+A cortina toca na parede
 
 [Chorus]
-Carbono
-Não sou nova — sou antiga
-Carbono
-A matéria que me abriga
-Já foi fogo, já foi gelo
-Já foi fundo de oceano
-Carbono — eu sou o resultado
-De um acidente soberano
+A mão pousa sobre o esterno
+Sente o calor que sobe do peito
+A outra mão pousa sobre a clavícula
+E lá fica, sem pressa nenhuma
+A cadeira da janela conhece os ombros
+A almofada guarda a forma da nuca
+A planta do pé reconhece o tapete frio
+A unha do polegar conhece a borda da chávena
+A cozinha guarda o som da minha respiração
+E o pão na mesa cheira ao forno da manhã
 
 [Verse 3]
-Quando morrer o carbono volta
-A ser outra coisa qualquer
-Talvez flor, talvez pedra
-Talvez filha de outra mulher
+A minha avó pousava a chávena no mesmo balcão
+A mão dela arranhava a mesma casca da laranja
+A clavícula dela aceitava a mesma luz da cozinha
+A nuca dela pousava no mesmo encosto
+A planta do pé dela conhecia o mesmo tapete
+A omoplata dela afundava na mesma cadeira
+A gengiva dela guardava o mesmo gosto
+A fossa nasal dela apanhava o mesmo cheiro
 
 [Chorus]
-Carbono
-Não sou nova — sou antiga
-Carbono
-A matéria que me abriga
-Já foi fogo, já foi gelo
-Já foi fundo de oceano
-Carbono — eu sou o resultado
-De um acidente soberano
+A mão pousa sobre o esterno
+Sente o calor que sobe do peito
+A outra mão pousa sobre a clavícula
+E lá fica, sem pressa nenhuma
+A cadeira da janela conhece os ombros
+A almofada guarda a forma da nuca
+A planta do pé reconhece o tapete frio
+A unha do polegar conhece a borda da chávena
+A cozinha guarda o som da minha respiração
+E o pão na mesa cheira ao forno da manhã
 
 [Bridge]
-Nada em mim nasceu comigo
-Tudo foi emprestado pelo tempo
-E devolver não é morrer
-É mudar de instrumento
+A casa range no terceiro degrau da escada
+A janela da casa de banho fica meio aberta
+A toalha velha no cabide cheira a sabão
+A mão pousa na borda do lavatório de mármore
+A clavícula esquerda aceita o frio do azulejo
+A pálpebra desce sobre o reflexo do espelho
 
 [Outro]
-Carbono
-Emprestado
-Grato
-Breve`,
+A chávena
+A laranja
+O pão
+A cadeira
+A planta do pé
+A respiração
+Que entra
+E fica`,
 
   "eter-poeira/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5422,56 +5608,80 @@ After all of us`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O ferro no meu sangue
-Nasceu numa supernova
-Uma estrela que morreu
-Para eu ter vida nova
+A mão pousa em cima da mesa da cozinha
+A unha do polegar segue o veio da madeira
+A clavícula direita aceita a luz da janela
+O pulso descansa em cima do balcão de mármore
+A gengiva guarda o gosto do café da manhã
+A fossa nasal apanha o cheiro do pão
+O esterno sobe quando o ar entra devagar
+A planta do pé encontra o tapete da cozinha
 
 [Verse 2]
-O cálcio nos meus dentes
-Veio do fundo do espaço
-O oxigénio que respiro
-É o último abraço
-De uma estrela que explodiu
-Há quatro bilhões de anos
+A omoplata pousa contra o encosto da cadeira
+A nuca afunda na almofada da janela
+O cotovelo encontra a borda da mesa de madeira
+O joelho dobra para baixo do balcão
+A coxa direita aquece a coxa esquerda
+A pálpebra fecha sobre o reflexo da torneira
+A barriga desce com a respiração lenta
+Os dedos do pé separam-se debaixo da mesa
+
+[Pre-Chorus]
+A torneira da casa de banho pinga
+O frigorífico arranca outra vez
+A cortina toca na parede
+A cadeira range no chão
 
 [Chorus]
-Herança de estrelas
-Sou filha do que explodiu
-Herança de estrelas
-De tudo o que já ardeu e não se extinguiu
-Não venho da minha mãe apenas
-Venho do cosmos inteiro
-Herança de estrelas
-O meu sangue é o universo primeiro
+A mão pousa sobre o esterno e fica
+A outra mão pousa em cima da anca
+A clavícula esquerda aceita a luz da tarde
+A clavícula direita aceita a sombra do armário
+A almofada da cadeira da janela conhece a nuca
+A planta do pé reconhece o tapete da cozinha
+O tapete reconhece a planta do pé da minha mãe
+A cozinha guarda o cheiro do café da minha avó
+A casa range, o frigorífico arranca
+E a respiração desce, e fica
 
 [Verse 3]
-Quando olho para o céu
-Não estou a olhar para fora
-Estou a olhar para casa
-Para o sítio de onde vim
+A minha mãe pousava a mão na mesma mesa
+A avó dela pousava a mão na mesma mesa
+A bisavó dela pousava o cesto no mesmo chão
+A clavícula delas aceitava a mesma luz
+A nuca delas pousava na mesma almofada
+A planta do pé delas pisava o mesmo tapete
+A gengiva delas guardava o mesmo gosto
+A fossa nasal delas apanhava o mesmo cheiro
 
 [Chorus]
-Herança de estrelas
-Sou filha do que explodiu
-Herança de estrelas
-De tudo o que já ardeu e não se extinguiu
-Não venho da minha mãe apenas
-Venho do cosmos inteiro
-Herança de estrelas
-O meu sangue é o universo primeiro
+A mão pousa sobre o esterno e fica
+A outra mão pousa em cima da anca
+A clavícula esquerda aceita a luz da tarde
+A clavícula direita aceita a sombra do armário
+A almofada da cadeira da janela conhece a nuca
+A planta do pé reconhece o tapete da cozinha
+O tapete reconhece a planta do pé da minha mãe
+A cozinha guarda o cheiro do café da minha avó
+A casa range, o frigorífico arranca
+E a respiração desce, e fica
 
 [Bridge]
-A solidão é uma mentira
-Estou ligada a cada sol
-A cada pedra, a cada rio
-A cada grão de girassol
+A escada de casa range no terceiro degrau
+A chinela bate na escada quando subo
+A janela da casa de banho fica meio aberta
+A toalha velha no cabide cheira a sabão
+A mão pousa na borda do lavatório de mármore
+A clavícula aceita o frio do azulejo
 
 [Outro]
-Herança
-De estrelas mortas
-Que vivem
-Em mim`,
+A mão na mesa
+A nuca na almofada
+A planta do pé no tapete
+A clavícula na luz da tarde
+A cozinha guarda
+A casa aguenta`,
 
   "eter-poeira/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5532,54 +5742,80 @@ I came from`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Fui moldada pelo primeiro grito
-E remoldada pela primeira perda
-Fui barro nas mãos da vida
-Que nunca me devolveu certa
+A mão direita pousa em cima do balcão
+Os dedos abrem, fecham, abrem outra vez
+A unha do polegar arranha a borda do mármore
+A clavícula esquerda aceita o ar da janela
+A omoplata pousa contra a parede da cozinha
+A gengiva guarda o gosto da água da torneira
+A planta do pé encontra o tapete frio
+O joelho dobra ao pegar no cesto
 
 [Verse 2]
-Cada década uma forma nova
-Cada dor uma nova curva
-A menina tornou-se mulher
-Que tornou-se dúvida e depois procura
+A anca encosta na borda do balcão
+O cotovelo descansa em cima da mesa
+A pálpebra fecha sobre a luz da tarde
+A fossa nasal apanha o cheiro do pão
+O esterno sobe quando o ar entra
+A barriga desce quando o ar sai
+O dedo grande do pé toca a perna da cadeira
+A nuca pousa no encosto da cadeira da janela
+
+[Pre-Chorus]
+A torneira pinga uma vez
+O frigorífico arranca
+A escada de casa range
+A cortina toca na clavícula
 
 [Chorus]
-Argila
-Nunca a forma final
-Argila
-O que parece defeito é sinal
-De que ainda estou a ser feita
-De que o molde ainda não fechou
-Argila — as mãos do tempo
-Ainda não acabaram o que começou
+A mão pousa em cima da barriga
+Sente a barriga subir e descer
+A outra mão pousa em cima do esterno
+A clavícula esquerda recebe a luz da janela
+A clavícula direita recebe a sombra do armário
+A planta do pé descansa no chão da cozinha
+A nuca pousa no encosto da cadeira da janela
+A almofada guarda a forma da cabeça
+A cozinha guarda o som da respiração
+E o pão na mesa cheira ao forno
 
 [Verse 3]
-E se eu nunca ficar pronta
-E se a forma nunca parar
-E se o sentido da vida
-É estar sempre a mudar
+A minha mãe pousava a mão na mesma barriga
+A avó dela pousava a mão no mesmo esterno
+A clavícula delas aceitava a mesma luz da tarde
+A planta do pé delas conhecia o mesmo tapete
+A omoplata delas pousava no mesmo encosto
+A unha delas arranhava a mesma borda
+A gengiva delas guardava o mesmo gosto da água
+A fossa nasal delas apanhava o mesmo cheiro do pão
 
 [Chorus]
-Argila
-Nunca a forma final
-Argila
-O que parece defeito é sinal
-De que ainda estou a ser feita
-De que o molde ainda não fechou
-Argila — as mãos do tempo
-Ainda não acabaram o que começou
+A mão pousa em cima da barriga
+Sente a barriga subir e descer
+A outra mão pousa em cima do esterno
+A clavícula esquerda recebe a luz da janela
+A clavícula direita recebe a sombra do armário
+A planta do pé descansa no chão da cozinha
+A nuca pousa no encosto da cadeira da janela
+A almofada guarda a forma da cabeça
+A cozinha guarda o som da respiração
+E o pão na mesa cheira ao forno
 
 [Bridge]
-A cerâmica mais bonita
-Tem rachas douradas no meio
-A imperfeição é o ouro
-Que o tempo pôs sem receio
+A escada de casa range no terceiro degrau
+A chinela esquerda fica no corredor
+A direita atrás da porta da casa de banho
+A toalha velha no cabide cheira a sabão
+A mão pousa na borda do lavatório
+A clavícula aceita o frio do azulejo
 
 [Outro]
-Argila
-Ainda mole
-Ainda a ser
-Ainda`,
+A mão na barriga
+A mão no esterno
+A nuca na almofada
+A planta do pé no tapete
+A cozinha guarda
+A respiração fica`,
 
   "eter-poeira/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5694,54 +5930,80 @@ Parte de tudo`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I am dust and I am fine with it
-Not the poetic kind
-The atual kind
-Under the bed, behind the door
+The right hand rests on the kitchen counter
+The fingertip catches the grain of the wood
+The collarbone accepts the light from the window
+The wrist leans on the edge of the marble
+The gum holds the taste of the morning coffee
+The nostril takes in the smell of the bread
+The sternum lifts as the air comes in slowly
+The sole of the foot finds the kitchen rug
 
 [Verse 2]
-Before I was a woman
-I was particles of things
-Bits of broken mountains
-Ash of unnamed things
+The shoulder blade rests against the chair back
+The nape settles into the window cushion
+The elbow finds the edge of the wooden table
+The knee bends under the kitchen counter
+The right thigh warms against the left
+The eyelid drops over the reflection of the kettle
+The belly falls with the slow breath out
+The toes spread out beneath the table
+
+[Pre-Chorus]
+The tap drips once in the bathroom
+The fridge starts up again
+The curtain touches the wall
+The chair creaks against the floor
 
 [Chorus]
-Dust
-The most honest word for what I am
-Dust
-No delusion and no scam
-I did not come from glory
-I came from what was left
-Dust — the universe's confetti
-After the party of its death
+The hand rests on the sternum and stays
+The other hand rests on the collarbone
+The left shoulder accepts the afternoon light
+The right shoulder accepts the cupboard's shade
+The cushion holds the shape of the head
+The window chair knows the curve of the back
+The sole of the foot recognises the rug
+The thumbnail traces the chip in the white mug
+The kitchen holds the sound of my breathing
+And the fridge starts up once more
 
 [Verse 3]
-When they sweep me from the floor
-One day in some far year
-I hope the dust remembers
-That it briefly danced right here
+My mother rested her hand on this same table
+Her mother rested her hand on this same edge
+Their collarbones accepted the same afternoon light
+Their soles knew the same kitchen rug
+Their shoulder blades rested on the same cushion
+Their thumbnails traced the same chipped mug
+Their gums held the same taste of coffee
+Their nostrils took in the same smell of bread
 
 [Chorus]
-Dust
-The most honest word for what I am
-Dust
-No delusion and no scam
-I did not come from glory
-I came from what was left
-Dust — the universe's confetti
-After the party of its death
+The hand rests on the sternum and stays
+The other hand rests on the collarbone
+The left shoulder accepts the afternoon light
+The right shoulder accepts the cupboard's shade
+The cushion holds the shape of the head
+The window chair knows the curve of the back
+The sole of the foot recognises the rug
+The thumbnail traces the chip in the white mug
+The kitchen holds the sound of my breathing
+And the fridge starts up once more
 
 [Bridge]
-Humility is not making yourself small
-It's knowing your atual size
-And being amazed
-That dust can open its eyes
+The third step of the staircase creaks
+The bathroom window stays half open
+The old towel on the hook smells of soap
+The hand rests on the rim of the marble basin
+The right collarbone accepts the cold of the tile
+The eyelid lowers over the bathroom mirror
 
 [Outro]
-Dust
-That danced
-That loved
-That was enough`,
+The hand on the sternum
+The hand on the collarbone
+The nape on the cushion
+The sole on the rug
+The kitchen holds
+The breath stays`,
 
   // ─────────────────────────────────────────────
   // VASTO — O medo e a beleza de ser pequena
@@ -7269,32 +7531,82 @@ Wherever I land`,
 
 [Verse 1]
 A mala está aberta há três dias
-Tiro e ponho, ponho e tiro
-O casaco de inverno ou o vestido leve
-Como se a roupa decidisse o destino
+No chão, à beira esquerda da cama
+O casaco de inverno por cima da blusa
+O vestido leve em cima do pijama
+A foto da família entre dobras
+Numa pasta de plástico azul
+A escova de dentes ainda na casa de banho
+Quase fora do estojo
 
 [Verse 2]
-Meto a foto da família
-Tiro — meto outra vez
+Meto a foto, tiro, meto outra vez
+Pego no caderno, ponho-o ao lado
+Penso o casaco, penso o vestido
+Volto a pôr os dois empilhados
 Há coisas que não cabem na mala
-Mas que levo de qualquer maneira aos pés
+E que vão no bolso interior
+A chave da porta da rua
+Uma noz no fundo, dobrada num lenço
+
+[Pre-Chorus]
+A cremalheira range no canto
+Onde a alça encontra a costura
+Eu paro
+Olho
 
 [Chorus]
-Mala — nunca está completa
-Mala — sempre falta algo
-O que se leva pesa menos
-Do que o que se deixa atrás
-Mala — é o resumo impossível
-De uma vida que não se dobra
-Mala — é a coragem
-De partir com pouco
-E chegar com tudo
+A mala nunca fecha à primeira
+Sento-me em cima, joelho na fivela
+O peso encontra o meu peito
+Antes de encontrar a balança
+A chave da casa fica na mesa
+Em cima do envelope branco
+O cheiro do café da cozinha
+Já está no fundo do meu pulôver
+A mão direita aperta o fecho
+Mais devagar do que ontem
+
+[Verse 3]
+Levanto-me e ouço o frigorífico
+O som que faz de madrugada
+Tiro a foto outra vez, ponho-a no bolso
+Para não ter de ir buscá-la depois
+Conto os passos até à porta
+Onze entre a cadeira e a entrada
+Os mesmos onze de sempre
+Hoje mais lentos, mais arrumados
+
+[Chorus]
+A mala nunca fecha à primeira
+Sento-me em cima, joelho na fivela
+O peso encontra o meu peito
+Antes de encontrar a balança
+A chave da casa fica na mesa
+Em cima do envelope branco
+O cheiro do café da cozinha
+Já está no fundo do meu pulôver
+A mão direita aperta o fecho
+Mais devagar do que ontem
+
+[Bridge]
+Sento-me na borda da cama
+Com a mala fechada ao lado
+Passo a mão sobre a alça
+Como quem cumprimenta um conhecido
+A cadeira da cozinha
+Ficou virada para a janela
+A chinela esquerda no corredor
+A direita perdida atrás da porta
 
 [Outro]
-Fecho
-A mala
-Abro
-O mundo`,
+A fivela estala
+Eu pouso a mão sobre a tampa
+Encosto a testa um segundo
+À pega de couro
+E ouço a casa
+Mais um minuto
+Antes da escada`,
 
   "eter-porto/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
