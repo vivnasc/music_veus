@@ -1058,83 +1058,84 @@ Same beautiful noise`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O primeiro gole desce devagar
-A pressa fica do lado de fora
-O mundo começa a abrandar
-E neste copo mora outra hora
-O vidro contra a luz da vela
-Desenha sombras cor de vinho
-E a noite torna-se mais bela
-No exato instante em que a bebo sozinha
+A toalha cai sobre a madeira
+O vinco do meio fica a meio
+O prato pousa, a luz inteira
+Apanha a borda do copo cheio
+O garfo do lado esquerdo
+Os dedos alinham o cabo
+A dobra do guardanapo lembra
+Uma carta que ninguém abriu
 
 [Verse 2]
-Tinto ou branco não importa
-O que importa é quem está
-À volta desta mesa torta
-Que me ensinou a saborear
-As palavras vêm mais mansas
-Os segredos saem mais leves
-E até as velhas esperanças
-Parecem menos breves
+O sal aparece num pires fundo
+O pão parte-se sem faca
+A miga cai e fica no canto
+Da toalha, perto da mão
+A vela queima de um lado
+A cera escorre, pára, seca
+O copo enche-se até ao bordo
+E o bordo treme sem entornar
 
 [Pre-Chorus]
-Não é a uva nem o álcool
-É o ritual, o gesto lento
-O copo erguido como um farol
-Que ilumina o momento
+A cadeira chega para a frente
+O joelho toca a perna da mesa
+O queixo desce um bocadinho
+A garganta abre antes do gole
 
 [Chorus]
-Um gole e o tempo pára
-O vinho sabe a calma
-Um gole e a noite é clara
-O vinho lava a alma
-Não é bebida — é cerimónia
-De quem aprendeu a parar
-A uva transformou-se em crónica
-De um dia que valeu a pena contar
+A mesa posta — devagar
+Os dedos pousam o garfo
+A toalha aguenta o peso
+Do prato, do copo, do braço
+O guardanapo no colo
+O joelho contra a madeira
+A boca espera o primeiro bocado
+Sem pressa, sem cerimónia
 
 [Verse 3]
-As conversas ficam lentas
-As gargalhadas mais sinceras
-As palavras são mais atentas
-Como se fossem as primeiras
-Alguém conta a mesma piada
-De há vinte anos atrás
-E toda a gente ri, cansada
-De tanto amor que este copo traz
+A conversa cai entre os pratos
+Uma palavra fica no garfo
+Outra escorre pelo copo
+Como gota de azeite na chávena
+Alguém estende a mão pelo sal
+Outra mão chega pelo pão
+Os dedos cruzam-se um instante
+Sobre a toalha branca e gasta
 
 [Chorus]
-Um gole e o tempo pára
-O vinho sabe a calma
-Um gole e a noite é clara
-O vinho lava a alma
+A mesa posta — devagar
+Os dedos pousam o garfo
+A toalha aguenta o peso
+Do prato, do copo, do braço
 
 [Bridge]
-O copo contra a luz escuro
-Transforma a noite em sacramento
-Cada gole é um murmúrio
-Entre o prazer e o contentamento
-Não é excesso que procuro
-É a medida certa de estar presente
-E o vinho — tinto ou maduro —
-É só o pretexto de quem sente
+A cera da vela cai outra vez
+O guardanapo recolhe a gota
+O copo deixa um círculo molhado
+Que o pano absorve devagar
+O cotovelo apoia o lado
+O ombro desce três dedos
+A boca abre e fecha
+Sobre o garfo que volta vazio
 
 [Chorus]
-Um gole e o tempo pára
-O vinho sabe a calma
-Mais uma noite que fica
-Guardada na palma
+A mesa posta — devagar
+Os dedos pousam o garfo
+O prato esvazia-se aos poucos
+Sem ninguém ter pressa
 
 [Outro]
-Mais um copo
-Mais uma história
-A noite é nossa
-E o vinho sabe
-A tudo o que importa
-A conversa longa
-A casa, a porta
-A vida que fermentou
-Devagar`,
+A toalha
+O prato
+O copo
+A dobra do guardanapo
+O sal no pires
+O pão no centro
+A vela quase no fim
+A mão pousada
+Sobre a madeira
+Que aguenta tudo`,
 
   "grao-toalha-posta/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -3386,54 +3387,77 @@ Is mine`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Os pés tocam o chão antes de pensar
-O frio do soalho diz que é real
-Este dia existe — posso recusar
-Ou posso abrir a janela e começar
+A pálpebra abre antes de querer
+O queixo afunda no travesseiro
+O lençol descansa sobre o joelho
+A respiração ainda não decidiu
+Há um peso no ombro direito
+Que pousou ali durante a noite
+O pulso roda devagar
+A mão encontra a borda do colchão
 
 [Verse 2]
-Não é obrigação nem heroísmo
-É só uma escolha pequena e exata
-Levantar é um ato de optimismo
-Que o corpo faz antes de a mente se adapta
+O pé direito sai primeiro
+Toca o chão antes do outro
+O dedo grande encontra o frio
+A planta encosta-se devagar
+A coluna desenrola-se de baixo
+Vértebra a vértebra, sem pressa
+A cabeça é a última a subir
+O queixo paralelo ao chão
 
 [Pre-Chorus]
-Nenhum dia começa sozinho
-Começa porque alguém decidiu
+O ar entra pelo nariz
+Toca a parte de trás da garganta
+Desce até abaixo da clavícula
+E volta sem ter sido pedido
 
 [Chorus]
-Primeira luz — e eu escolho ver
-Primeira luz — não me aconteceu
-Fui eu que abri os olhos para ela
-Fui eu que disse: este dia é meu
-Não é grande, não é promessa
-É só o gesto de aparecer
-Primeira luz — e eu estou cá
-E isso já é suficiente para ser
+Primeira luz — pelo canto da pálpebra
+Primeira luz — sobre a parede
+O corpo abre antes da vontade
+A mão estende-se para o copo
+O copo ainda da noite passada
+A água morna toca a língua
+O queixo sobe, desce, sobe
+A garganta engole sem pensar
 
 [Verse 3]
-A chávena aquece as duas mãos
-O vapor sobe como quem respira
-Há uma calma nestes primeiros sons
-Que a pressa do dia ainda não inspira
+A chávena aquece a palma
+O vapor toca o lábio de cima
+O dedo indicador no asa
+O polegar contra a cerâmica
+O primeiro gole desce
+Quente até ao centro do peito
+A garganta abre um bocadinho
+E o ombro desce três dedos
 
 [Chorus]
-Primeira luz — e eu escolho ver
-Primeira luz — não me aconteceu
-Fui eu que abri os olhos para ela
-Fui eu que disse: este dia é meu
+Primeira luz — pelo canto da pálpebra
+Primeira luz — sobre a parede
+O corpo abre antes da vontade
+A mão estende-se para o copo
 
 [Bridge]
-Não precisa de ser bonito
-Não precisa de ser perfeito
-Só precisa de ser meu
-Este começo imperfeito
+A pele do braço fica de pé
+O ar do quarto ainda é da noite
+O pé esquerdo segue o direito
+Encontra o mesmo frio do chão
+O joelho dobra-se sem ordem
+O peso passa para a outra perna
+A anca encontra o eixo
+E o corpo fica em pé sem aviso
 
 [Outro]
-Primeira luz
-Primeira vez
-Este dia
-Começa em mim`,
+A pálpebra
+O queixo
+O lençol
+O pé no chão
+A coluna devagar
+O ombro que desce
+A mão na chávena
+O ar que entra
+Sem ninguém o ter chamado`,
 
   "grao-primeira-luz/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -4282,82 +4306,83 @@ Ri`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I made a face in the mirror
-And laughed at what I saw
-The sillier I got the clearer
-That fun requires no law
-I danced across the kitchen
-In socks upon the floor
-A grown-up with an itching
-To be a child once more
+My mouth fell open in the kitchen
+Cold air met the front teeth
+The tongue rested low and forward
+Behind the incisors, just behind
+A word was waiting on the lip
+Half-formed, half-given up
+The jaw hung soft, unhinged a little
+The chin a finger lower than usual
 
 [Verse 2]
-I sang into the spatula
-A song that made no sense
-A wild spectacular
-Of joyful self-defence
-The cat looked at me sideways
-The neighbours heard the tune
-I turned my Tuesday sideways
-And made it afternoon
+I caught it in the window glass
+The mouth still open, slightly off
+The breath fogging the pane
+The lower lip a little wet
+A laugh came up but didn't finish
+It stopped somewhere near the throat
+The cheek pressed against the cold
+The mouth still open, soft and dumb
 
 [Pre-Chorus]
-The world wants you together
-Polished, neat, and tight
-But sometimes silly weather
-Is the only thing that's right
+The teeth feel the air come in
+The tongue stays where it is
+The jaw forgets to close itself
+The sentence never quite arrives
 
 [Chorus]
-Silly, silly, beautifully silly
-The art of looking dumb
-Silly, silly, wonderfully silly
-Where all the best things come from
-No audience, no judge, no score
-Just you being more
-Than the serious person
-Everyone is used to
+Mouth open — cold air on the teeth
+Mouth open — a word at half-distance
+The tongue behind the incisors
+The jaw a finger lower than before
+No sentence, no answer, no shape
+Just breath crossing the lip
+The chin soft against the collarbone
+The mouth still open, still arriving
 
 [Verse 3]
-My daughter caught me dancing
-And joined without a word
-Two humans wildly prancing
-The most beautiful absurd
-We spun until we stumbled
-We laughed until we cried
-And everything that crumbled
-Today — was healed inside
+My daughter saw and copied me
+Her mouth fell open too
+We stood there at the counter
+Two mouths catching the same air
+She didn't ask, I didn't say
+The tongue stayed where it was
+The breath went in, the breath went out
+Across the bottom lip, unspent
 
 [Chorus]
-Silly, silly, beautifully silly
-The art of looking dumb
-Silly, silly, wonderfully silly
-Where all the best things come from
+Mouth open — cold air on the teeth
+Mouth open — a word at half-distance
+The tongue behind the incisors
+The jaw a finger lower than before
 
 [Bridge]
-Maturity is knowing
-When to let the armour fall
-Wisdom is not showing
-That you're too old to crawl
-Across the kitchen laughing
-At a joke that has no end
-The silliest thing about us
-Is pretending we've outgrown our friend
+The cheek slack against the bone
+The corner of the lip uncurled
+The throat open to the chest
+The chest open to the rib
+There's no smile, there's no answer
+There's a mouth that forgot its job
+And a face that stopped performing
+For the window, for the room, for itself
 
 [Chorus]
-Silly, silly, beautifully silly
-The most courageous thing I know
+Mouth open — cold air on the teeth
+The jaw a finger lower than before
 
 [Outro]
-Be ridiculous
-Be absurd
-Be free
-Be the version of you
-That dances in the kitchen
-And sings into the spatula
-And laughs at nothing
-Because nothing
-Is sometimes
-Everything`,
+The mouth
+Open
+The tongue
+Low
+The teeth
+Cold
+The breath
+In
+And out
+Across the bottom lip
+Unspent`,
 
   "grao-boca-aberta/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -5131,85 +5156,86 @@ E o resto
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The pain was there at mile one
-A heaviness in my chest
-My lungs were begging to be done
-My calves refused the test
-But somewhere past the setting sun
-Past the voice that said to quit
-My body found its second run
-And everything just clicked — just lit
+The calf tightens on the first mile
+A small knot behind the shin
+The foot lands hard on the heel
+Then forward, then off the toe
+The breath is short, the chest is tight
+The shoulder forgets to drop
+The hand is half a fist
+The jaw is half-locked too
 
 [Verse 2]
-The legs that screamed for mercy
-Now hum a different tune
-The lungs that felt so thirsty
-Now breathe beneath the moon
-The arms that hung like anchors
-Now pump like pistons clean
-My body shed its rancour
-And became a running machine
+Somewhere past the second corner
+The leg stops asking permission
+The foot picks the rhythm itself
+Three steps to a breath, then four
+The calf unknots a little
+The shin forgets its complaint
+The knee finds the same height
+On the left and on the right
 
 [Pre-Chorus]
-There's a moment every runner knows
-When the pain just steps aside
-When the suffering decompose
-And becomes a different ride
+The air goes deeper now
+Past the collarbone, under it
+The shoulder drops a finger
+The hand opens at the side
 
 [Chorus]
-Runner's high, runner's high
-The moment pain takes flight
-Runner's high, runner's high
-When heavy becomes light
-The body breaks its chains
-And dances in the rain
-You're not running anymore
-You're flying through the door
-Of something you can't name
+The leg decides — without me
+The foot picks the ground itself
+The calf and the shin agree
+The breath fits inside the step
+Three in, three out, three in
+The jaw forgets to clench
+The shoulder is lower than before
+The hand swings open at the side
+And nothing in me is running anymore
 
 [Verse 3]
-The street becomes a river
-The buildings start to blur
-I'm floating, I deliver
-A version I prefer
-The traffic lights are colours
-The people streaks of paint
-My body has no borders
-My mind has no complaint
+The pavement passes underneath
+Grey, then patched, then grey
+The foot finds the flat parts
+Avoids the cracked tile without looking
+The hip rolls with the stride
+The arm answers the opposite leg
+The chest stays open, soft
+The chin parallel to the road
 
 [Chorus]
-Runner's high, runner's high
-The moment pain takes flight
-Runner's high, runner's high
-When heavy becomes light
-The body breaks its chains
-And dances in the rain
+The leg decides — without me
+The foot picks the ground itself
+The calf and the shin agree
+The breath fits inside the step
 
 [Bridge]
-They say it's just endorphins
-A chemical parade
-But I say it's the morphing
-Of everything I'm afraid
-Into everything I'm not
-Into someone light and free
-The runner's high is what I've got
-When I finally let me be
+The hamstring lets go a little
+The quad takes the weight clean
+The ankle rolls through the landing
+Heel, mid, toe, push off
+The arm crosses the centre
+But not too far, not too far
+The thumb rests on the index
+The fingers loose, half-curled
 
 [Chorus]
-Runner's high, runner's high
-The moment pain takes flight
-You're flying through the door
-Of something you can't name
+The leg decides — without me
+The foot picks the ground itself
+And nothing in me is running anymore
 
 [Outro]
-This is flying
-This is freedom
-This is the body
-Forgiving the mind
-For every lie it told
-This is what I came for
-Every single morning
-This is what I run for`,
+The calf
+The shin
+The foot
+The breath
+The shoulder dropped
+The hand open
+The jaw unlocked
+The pavement passing
+Underneath
+A body
+That stopped asking
+For instructions`,
 
   "fibra-asfalto-vivo/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -6077,85 +6103,88 @@ Be held`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Um braço corta a água
-Depois o outro segue
-O ritmo limpa a mágoa
-Como uma prece que se reze
-A mão entra aberta, sai fechada
-O cotovelo alto, firme
-Cada braçada é uma espada
-Que corta o que quer me oprimir
+A mão entra aberta na água
+O cotovelo passa alto, depois desce
+A boca abre de lado, um instante
+O ar entra pela comissura
+Desce até abaixo da clavícula
+Espalha-se pelas costelas de baixo
+Toca a barriga por dentro
+E fica lá um segundo antes de sair
 
 [Verse 2]
-De um lado ao outro da piscina
-A mente esvazia devagar
-A braçada é uma disciplina
-Que ensina a não pensar
-A respiração marca o compasso
-De um lado inspiro, ergo o braço
-Do outro lado solto o passo
-De tudo o que é cansaço
+A face encosta de novo à água
+Os lábios soltam o ar devagar
+Bolhas saem pela boca primeiro
+Depois pelo nariz, em fio fino
+O peito esvazia-se de cima para baixo
+A barriga é a última a soltar
+O queixo aponta para o fundo
+A coluna alinha-se outra vez
 
 [Pre-Chorus]
-A água não é terapia
-Não é conselho nem sermão
-É a mais antiga companhia
-Do corpo em meditação
+O ar entra pela boca de lado
+Vai até abaixo do esterno
+Enche o pulmão por trás da costela
+E desce até onde a barriga começa
 
 [Chorus]
-Braçada após braçada
-O pensamento dissolve
-Braçada após braçada
-A água tudo resolve
-O ritmo limpa a mente
-A mente limpa o presente
-E quando chego ao fim da pista
-Já não sou a mesma pessoa
+A respiração marca tudo
+O ar entra até à barriga
+O pulmão enche por baixo da clavícula
+A boca abre de lado, um instante
+A bolha sai pelo nariz, fina
+O ombro roda sobre a água
+O peito desce, sobe, desce
+Sem que ninguém o tenha pedido
 
 [Verse 3]
-Os dedos cortam a superfície
-Como lâminas de calma
-Cada metro é um exercício
-De dar descanso à alma
-O problema que trouxe comigo
-Ficou na primeira pista
-Na terceira já é antigo
-Na quinta já não existe
+Os dedos tocam a parede do fundo
+A cabeça volta para o ar inteiro
+A boca abre virada para o tecto
+O ar entra de uma vez só
+Enche o peito até ao limite
+Pára um instante na garganta
+Depois desce até à barriga
+E demora a sair, devagar
 
 [Chorus]
-Braçada após braçada
-O pensamento dissolve
-Braçada após braçada
-A água tudo resolve
-O ritmo limpa a mente
-A mente limpa o presente
+A respiração marca tudo
+O ar entra até à barriga
+O pulmão enche por baixo da clavícula
+A boca abre de lado, um instante
 
 [Bridge]
-Não sei quantas vezes fui
-De um lado e voltei
-Mas sei que quando saí
-A mente já não pesava o que eu sei
-O corpo estava exausto
-Mas a cabeça estava limpa
-Como um quadro feito a custo
-Onde a água redesenha e pinta
+O pé bate na água atrás
+A coxa empurra, o joelho segue
+A barriga aguenta o eixo
+As costelas abrem de cada lado
+A respiração não é decidida
+Vem quando o ombro roda
+Sai quando a face desce
+E volta quando a face sobe
 
 [Chorus]
-Braçada após braçada
-O pensamento dissolve
-Já não sou a mesma pessoa
+A respiração marca tudo
+O ar entra até à barriga
+O pulmão enche por baixo da clavícula
 
 [Outro]
-Um braço
-Depois o outro
-Repete
-Respira
-Não penses
-O corpo sabe
-A água sabe
-Tu sabes
-Mesmo quando pensas
-Que não sabes`,
+A boca
+Aberta de lado
+O ar
+Até à barriga
+A bolha
+Pelo nariz
+O ombro
+Que roda
+O peito
+Que enche
+Por baixo
+Da clavícula
+E desce
+Até onde
+A barriga começa`,
 
   "fibra-azul-fundo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -7852,86 +7881,83 @@ Everything already is`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
+O copo está pousado na mesa
+A água lá dentro não treme
+A luz da janela atravessa o vidro
+E desenha um círculo no tampo
 A rede balança entre duas árvores
-O corpo pesa e não pesa
-Os pensamentos são avatares
-De uma mente que não tem pressa
-O tecido abraça as costas
-As mãos pendem pelos lados
-As preocupações são postas
-Em gavetas de outros andados
+Devagar, sem que ninguém empurre
+As costas encontram o tecido
+O ombro desce até parar
 
 [Verse 2]
+A chávena ao lado do copo
+O leite quieto à superfície
+Uma película fina por cima
+Que ninguém quebrou ainda
 Para a esquerda, para a direita
-O vento decide por mim
-A vida não é perfeita
-Mas esta rede não tem fim
-O céu aparece entre as folhas
-Como quadros recortados
-As horas não são bolhas
-São momentos emoldurados
+O peso passa de um lado ao outro
+O pé arrasta na terra de leve
+E volta a recolher sem pressa
 
 [Pre-Chorus]
-Há uma sabedoria ancestral
-Na arte de balançar
-Não é vertical nem horizontal
-É a arte de se deixar levar
+O ar entra pelo nariz
+Toca a parte alta do peito
+Desce até abaixo da clavícula
+E sai sem se ter anunciado
 
 [Chorus]
-Balança, balança
-A rede não tem pressa
-Balança, balança
-Entre dois pensamentos
-Um sobre o que já foi
-Outro sobre o que vem depois
-E no meio desses dois
-O presente — o mais bonito dos herois
+A água do copo parada
+O leite na chávena sem tremer
+A rede a balançar devagar
+O ombro que desce três dedos
+O queixo descansa no peito
+A mão pendurada pelo lado
+Os dedos abertos para baixo
+Sobre a terra que cheira a folha
 
 [Verse 3]
 Uma formiga sobe a árvore
-O sol filtra pelas folhas
-O tempo aqui é nobre
-E as horas não são bolhas
-Um pássaro canta sem motivo
-Uma brisa toca sem pedir
-O momento é tão vivo
-Que dói só de pensar em partir
+Passa pela corda da rede
+Os olhos seguem-na um bocado
+Depois fecham-se outra vez
+A folha cai do galho de cima
+Toca o joelho e desliza
+A mão não se mexe para a apanhar
+O joelho aceita o peso pequeno
 
 [Chorus]
-Balança, balança
-A rede não tem pressa
-Balança, balança
-Entre dois pensamentos
-Um sobre o que já foi
-Outro sobre o que vem depois
+A água do copo parada
+O leite na chávena sem tremer
+A rede a balançar devagar
+O ombro que desce três dedos
 
 [Bridge]
-A rede ensina o que o sofá não sabe
-Que o equilíbrio é suave
-Que o descanso não é grave
-Quando o corpo tem a chave
-Que ficar parado a mexer
-Devagar entre dois pontos
-É a forma mais pura de ser
-E de juntar todos os contos
+O copo fica onde está
+A água continua sem tremer
+A chávena ao lado do copo
+O leite com a película intacta
+O peito sobe e desce
+Por baixo da camisa larga
+A barriga acompanha a respiração
+Sem fazer mais nada
 
 [Chorus]
-Balança, balança
-A rede não tem pressa
-O presente — o mais bonito dos herois
+A água do copo parada
+O leite na chávena sem tremer
+A rede que balança devagar
 
 [Outro]
-Para a esquerda
-Para a direita
-Aqui está bem
-Aqui está perfeito
-Não mudes nada
-Não faças nada
-Só balança
-E deixa o mundo
-Fazer o que faz
-Enquanto tu
-Fazes o que importa
+O copo
+A chávena
+A rede
+O ombro
+O queixo
+A mão pendurada
+A formiga na corda
+A folha no joelho
+E nada
+A pedir mais nada
 Nada`,
 
   "mare-luz-mansa/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]

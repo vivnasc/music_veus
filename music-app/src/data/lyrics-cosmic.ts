@@ -17,56 +17,57 @@ export const COSMIC_LYRICS: Record<string, string> = {
 
 [Intro: deep ambient house pads with reverb-drenched piano single notes, distant choir hum, a single audible exhale, then silence for one bar]
 
-[Verse 1: vocal whispered, very close, body-leaving intimacy]
-Fecho os olhos e o corpo fica
-Como roupa pousada na cadeira
-Algo em mim levanta sem peso
-E sobe como fumo de fogueira
+[Verse 1: vocal whispered, very close, walking-paced intimacy]
+O pé esquerdo encontra o chão
+Depois o direito, depois o esquerdo
+Ninguém me ensinou esta ordem
+E mesmo assim eu acerto
 
 [Verse 2]
-Conheço este caminho de cor
-Já o fiz mil vezes sem saber
-O teto abre-se como água
-E eu passo sem nada dizer
+O ombro desce um centímetro
+Quando a porta se fecha atrás
+A mão larga a chave no bolso
+E o passo já não desfaz
 
 [Chorus]
-Volto a casa todas as noites
-A casa que não tem paredes
-Onde não preciso de nome
-Onde não preciso de pele
-Volto a casa todas as noites
-Ao sítio de onde vim
-E lá ninguém me pergunta nada
-Porque lá eu não tenho fim
+O corpo conhece o caminho
+Pelo desgaste da sola
+Vai da padaria ao portão
+Vai do portão até à escola
+Os joelhos sabem a curva
+Os pulmões sabem a subida
+Eu chego antes de pensar
+Como quem já fez a vida
 
 [Verse 3]
-Há quem chame sonho
-Há quem chame ilusão
-Mas eu sei o peso do regresso
-Quando o corpo me puxa a mão
+Há quem chame distracção
+Há quem chame automatismo
+Eu chamo passo que avança
+Sem precisar de mim mesmo
 
 [Chorus]
-Volto a casa todas as noites
-A casa que não tem paredes
-Onde não preciso de nome
-Onde não preciso de pele
-Volto a casa todas as noites
-Ao sítio de onde vim
-E lá ninguém me pergunta nada
-Porque lá eu não tenho fim
+O corpo conhece o caminho
+Pelo desgaste da sola
+Vai da padaria ao portão
+Vai do portão até à escola
+Os joelhos sabem a curva
+Os pulmões sabem a subida
+Eu chego antes de pensar
+Como quem já fez a vida
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only ambient pads and reverb piano underneath]
 (African accent Portuguese:)
-O corpo dorme mas eu viajo
-Para um lugar anterior ao medo
-Anterior ao nome, anterior à dor
-Anterior ao primeiro segredo
+A anca empurra o passo
+A cabeça segue atrás
+O queixo desce devagar
+Antes de eu saber porque é que vais
 
 [Outro]
-Todas as noites volto
-E todas as manhãs esqueço
-Mas o corpo guarda a viagem
-Num calor que eu reconheço`,
+O pé esquerdo
+Depois o direito
+Depois o esquerdo
+O chão recebe
+E eu continuo`,
 
   "eter-viagem/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, weightless floating delivery on this track, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -357,56 +358,57 @@ Always`,
 
 [Intro: water field-recording (gentle waves) for 3 seconds, then nylon bossa guitar enters with swelling tide-shaped pad, no vocal yet]
 
-[Verse 1: vocal whispered, very close, tidal phrasing]
-Há um oceano que não molha
-Que não se vê da janela
-Sobe de noite pelo peito acima
-Como se a lua mandasse nele
+[Verse 1: vocal whispered, very close, slowing-to-sleep phrasing]
+A cabeça encontra a almofada
+Do lado direito, como sempre
+A face contra o algodão fresco
+E o joelho que dobra primeiro
 
 [Verse 2]
-Não tem sal nem tem areia
-Não tem fundo nem tem fim
-Tem a temperatura exata
-Do que eu sinto dentro de mim
+O lençol pesa pouco
+Mas pesa o suficiente
+A mão pousa na barriga
+A respiração desce devagar
 
 [Chorus]
-A maré de dentro sobe
-Quando o mundo adormece
-A maré de dentro sabe
-O que a boca não conhece
-Sobe até à garganta
-Sobe até ao olhar
-A maré de dentro é tudo
-O que eu não consigo falar
+A boca abre-se um pouco
+O ombro cai do lado
+O candeeiro fica aceso
+E eu não me lembro de o ter apagado
+O relógio bate na cozinha
+O frigorífico arranca de novo
+E é por isso que eu sei
+Que ainda estou em casa, ainda estou nova
 
 [Verse 3]
-Às vezes transborda
-E eu choro sem razão
-Às vezes recua
-E eu fico seca de emoção
+A perna procura o sítio fresco
+Do outro lado do colchão
+O dedo grande encontra o cobertor
+E para ali, sem razão
 
 [Chorus]
-A maré de dentro sobe
-Quando o mundo adormece
-A maré de dentro sabe
-O que a boca não conhece
-Sobe até à garganta
-Sobe até ao olhar
-A maré de dentro é tudo
-O que eu não consigo falar
+A boca abre-se um pouco
+O ombro cai do lado
+O candeeiro fica aceso
+E eu não me lembro de o ter apagado
+O relógio bate na cozinha
+O frigorífico arranca de novo
+E é por isso que eu sei
+Que ainda estou em casa, ainda estou nova
 
 [Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, only nylon guitar and water field-recording]
 (African accent Portuguese:)
-O médico chama-lhe ansiedade
-O padre chama-lhe alma
-Eu chamo-lhe o mar que herdei
-De uma vida anterior mais calma
+O queixo desce dois dedos
+A pálpebra desce um milímetro
+Já não ouço o vizinho de cima
+Já não ouço a torneira do meio
 
 [Outro]
-A maré sobe
-Eu deixo
-A maré desce
-Eu fico`,
+A almofada do lado direito
+A mão na barriga
+O cobertor até ao queixo
+E o sono chega
+Sem eu chamar`,
 
   "eter-viagem/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, dramatic pulse on this track, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -1319,55 +1321,56 @@ A caminho`,
 [Intro: solo gospel piano with rich chords, log drum sparse, bright shaker on the four, Hammond organ swelling, no vocal yet, instrumental opening for 6 bars]
 
 [Verse 1: vocal close, breathy]
-The swallow never reads a map
-The whale was never told
-The salmon climbs the wrong way up
-Toward something in the cold
+The keys land on the wooden bowl
+The same wooden bowl, the same dent
+The jacket finds the second hook
+Without me asking where it went
 
 [Verse 2]
-Nobody taught the turtle
-Which dark sea to cross
-They move toward a pull they cannot see
-And they are never lost
+The lamp by the doorway clicks on
+The yellow lands on the same wall
+My slippers wait where I left them
+Heel facing heel, beside the hall
 
 [Chorus]
-Homing
-There is a field I cannot name
-Homing
-That turns me like a weathervane
-Toward a place I have never seen
-But the body swears it knows
-I am migrating in my sleep
-Toward wherever the warmth goes
+This is what holding looks like
+A bowl, a hook, a lamp, a chair
+The foot of the bed where I sit
+To take the day out of my hair
+Nobody told the slippers
+To stop facing the door
+But they did — and so did I
+And neither of us asks what for
 
 [Verse 3]
-So when the pull comes over me
-At a red light, in a queue
-I do not call it madness now
-I call it pointing true
+The kettle clicks at the same temperature
+The mug has a chip on the left
+The fridge hums its same tired note
+And the floorboard creaks where it's left
 
 [Chorus]
-Homing
-There is a field I cannot name
-Homing
-That turns me like a weathervane
-Toward a place I have never seen
-But the body swears it knows
-I am migrating in my sleep
-Toward wherever the warmth goes
+This is what holding looks like
+A bowl, a hook, a lamp, a chair
+The foot of the bed where I sit
+To take the day out of my hair
+Nobody told the slippers
+To stop facing the door
+But they did — and so did I
+And neither of us asks what for
 
 [Bridge: vocal opens but never shouts, choir hums underneath, log drum sparse]
-They do not doubt the instinct
-They do not ask it why
-They just lift, in their thousands,
-And they trust the empty sky
+The bowl does not need a name for me
+The lamp does not need a word
+I drop the keys and the bowl receives them
+And nothing else has to be heard
 
 [Outro]
-Homing
-Wings I cannot see
-Pointing
-All of me
-Toward home`,
+The keys
+The hook
+The lamp
+The foot of the bed
+And the day
+Comes off`,
 
   "eter-casa/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest on choruses, breathy on verses, no melisma, never shouts, no autotune. Layered female vocal harmonies building from solo to a 6-voice swell on the final chorus, rendered as stacked reverbed harmonies, intimate band swell, no gospel choir]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -2355,55 +2358,58 @@ To be`,
 [Intro: Mozambican nylon guitar with mbira and kora texture, raw close-mic indie aesthetic, warm tape, sparse percussion, organic and earthy, no marrabenta lilt, no vocal yet, instrumental opening for 6 bars]
 
 [Verse 1: vocal close, breathy]
-Abro a torneira e vem água
-Limpa, certa, sem pensar
-Reis morreram com menos
-Do que eu deito a lavar
+A chuva pára quando eu chego à porta
+Sem eu pedir, sem ninguém ver
+Fecho o guarda-chuva no degrau
+E o último pingo desce a manga
 
 [Verse 2]
-Carrego no interruptor
-E faz-se luz na escuridão
-Como quem não sabe que repete
-Todas as manhãs a criação
+O comboio entra quando eu acabo a frase
+Como se tivesse esperado o ponto final
+Aponto o cartão e a porta abre
+E ninguém repara que isto não é normal
 
 [Chorus]
-E eu habituei-me
-Ao milagre de cada dia
-Dou de banal ao impossível
-Que me chega sem que eu pedia
-A água, o pão, a luz, a mão
-São raros no universo inteiro
-E eu, distraída, ainda lhes chamo
-Apenas o costumeiro
+Aconteceu agora
+A luz mudou de verde para amarelo
+E eu parei a tempo
+Sem ter visto o sinal
+A senhora do café entregou-me o troco
+Os dedos dela tocaram nos meus
+E nada explodiu, nada caiu
+Só ficou o calor entre os dois
 
 [Verse 3]
-O que será preciso perder
-Para eu voltar a reparar
-Que a água a correr na mão
-Já era razão para chorar
+A mosca pousa no copo de água
+Levanta voo antes de eu mexer
+O pão cai sempre do lado da manteiga
+Excepto hoje, que caiu do outro lado
 
 [Chorus]
-E eu habituei-me
-Ao milagre de cada dia
-Dou de banal ao impossível
-Que me chega sem que eu pedia
-A água, o pão, a luz, a mão
-São raros no universo inteiro
-E eu, distraída, ainda lhes chamo
-Apenas o costumeiro
+Aconteceu agora
+A luz mudou de verde para amarelo
+E eu parei a tempo
+Sem ter visto o sinal
+A senhora do café entregou-me o troco
+Os dedos dela tocaram nos meus
+E nada explodiu, nada caiu
+Só ficou o calor entre os dois
 
 [Bridge: vocal close, intimate band swell, mbira and nylon guitar, no gospel choir]
-Não preciso de mais
-Preciso de ver melhor
-O que já tenho nas mãos
-E ainda chamo de menor
+A chuva pára
+O comboio chega
+Os dedos tocam
+E a luz fica amarela
+Eu não chamo nada a isto
+Só fico a olhar
+Enquanto dura
 
 [Outro]
-Água da torneira
-Milagre
-Que eu deixei
-De ver
-Vou ver outra vez`,
+A chuva parou
+O guarda-chuva fechado
+O degrau seco
+E eu ainda aqui
+A olhar para a porta`,
 
   "eter-graca/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max, root third fifth), no melisma, no belting, no riffs, no autotune]
 [Persona: Loranne, AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
@@ -2991,55 +2997,56 @@ Fica lá dentro`,
 [Intro: fingerpicked guitar with warm tape texture, soft brushed drums, a low sustained pad, a faint layered hum, no vocal yet, instrumental opening for 6 bars]
 
 [Verse 1: vocal close, breathy]
-Count them up, the worst days
-The ones you swore would end you
-The grief, the fear, the morning after
-The nights you thought would bend you
+The right leg pushes against the mattress
+The left hand finds the edge of the bed
+The hip turns toward the window
+Before any word is in my head
 
 [Verse 2]
-And here you are, still counting
-Which means you made it through
-Every single one of them
-A perfect record, you
+The foot lands on the cold tile floor
+The toes find the rug by the door
+The palm braces against the wall
+And the body has already done more
 
 [Chorus]
-So far
-You have survived it all
-So far
-Every single time you'd fall
-You're still here to be afraid
-And that is the whole proof
-You have a perfect record
-Of living through the truth
+The body got up
+Without asking permission
+The knee took the weight
+The ankle took the mission
+The hand reached for the windowsill
+And held the wood while I stood
+The kettle was already filling
+Before I knew it could
 
 [Verse 3]
-The fear forgets your history
-It speaks like you are new
-But you have done the impossible
-On a hundred Tuesdays, you
+The other leg follows the first
+The spine remembers its line
+The shoulder finds the cardigan
+On the back of the chair, just fine
 
 [Chorus]
-So far
-You have survived it all
-So far
-Every single time you'd fall
-You're still here to be afraid
-And that is the whole proof
-You have a perfect record
-Of living through the truth
+The body got up
+Without asking permission
+The knee took the weight
+The ankle took the mission
+The hand reached for the windowsill
+And held the wood while I stood
+The kettle was already filling
+Before I knew it could
 
 [Bridge: vocal opens but never shouts, reverbed harmonies hum underneath]
-You are not untested metal
-You are the one who stayed
-Every ghost behind you
-Is a thing you were afraid
+The body knows the route
+From mattress to kitchen tile
+From the wall to the windowsill
+From the dark to the first light
 
 [Outro]
-So far
-And so far
-Is the only word
-That fear
-Cannot argue with`,
+The right leg
+The left hand
+The hip
+The floor
+And I'm standing
+Before the thought arrives`,
 
   "eter-levanta/4": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female vocal harmonies building to a 6-voice swell on the final chorus, no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -4277,55 +4284,56 @@ Que me envergonha ainda`,
 [Intro: deep ambient pads, reverb-drenched piano single notes, distant choir hum, a single audible exhale, no vocal yet, instrumental opening for 6 bars]
 
 [Verse 1: vocal whispered, very close]
-I have a switch I do not talk about
-A way to go all cold
-To look at someone that I love
-And feel the warmth withhold
+The incense stick has burned right down
+A grey snake on the saucer
+It held its shape until I touched it
+Then collapsed into a softer
 
 [Verse 2]
-It saved me once, the going numb
-When feeling was too much
-But now I reach for it too soon
-And turn off at a touch
+The fireplace from last winter
+Still has its powder on the grate
+I sweep it into a metal pan
+And it does not protest the fate
 
 [Chorus]
-Frost
-I can lower it at will
-Frost
-And the room goes very still
-You think that you are talking
-To a woman who is there
-But I have left already
-And the cold is how I disappear
+Ash on the rim of the saucer
+Ash on the iron grate
+Ash on the edge of the letter
+I burned at a quarter past eight
+The paper kept its handwriting
+Until the flame found the page
+Then it curled and it lifted
+And settled — light as my age
 
 [Verse 3]
-It is not that I don't feel
-It is that I can choose
-To freeze the feeling over
-When I'm scared of what I'd lose
+I rub the ash between two fingers
+It marks the skin and the cloth
+It is not a metaphor for anything
+It is what was left of what was
 
 [Chorus]
-Frost
-I can lower it at will
-Frost
-And the room goes very still
-You think that you are talking
-To a woman who is there
-But I have left already
-And the cold is how I disappear
+Ash on the rim of the saucer
+Ash on the iron grate
+Ash on the edge of the letter
+I burned at a quarter past eight
+The paper kept its handwriting
+Until the flame found the page
+Then it curled and it lifted
+And settled — light as my age
 
 [Bridge: vocal close, only pads and distant hum]
-The cruellest thing I do
-Is not a word, not a blow
-It is the warmth I have
-And will not let you know
+I shake the saucer over the bin
+The grey snake breaks in two
+The handwriting is gone now
+And so is everything I knew
 
 [Outro]
-Frost
-And one day
-The switch
-Might stick
-And I will be alone in there`,
+The incense
+The fireplace
+The letter
+The pan
+The ash on my fingertip
+The ash on my hand`,
 
   "eter-cinza/6": `[Vocal: ONE warm mezzo-contralto female voice, breathy on verses building to harmony swells, stacked reverbed vocal harmonies on the final chorus, no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -4905,55 +4913,67 @@ Depois`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The blood rises without permission
-Twice a day the chest fills
-Then empties like the shoreline
-When the ocean drinks its fill
+The glass on the kitchen table
+Holds water from this morning
+The hand picks it up at noon
+Without asking, without warning
 
 [Verse 2]
-I did not choose this rhythm
-I did not set this clock
-But every six hours something shifts
-Like tumblers in a lock
+The plate goes to the left
+The fork goes to the right
+The salt sits between them
+Like it has every night
 
 [Chorus]
-Tides
-Inside the body first
-Tides
-The fullness and the thirst
-I swell and then I empty
-I flood and then I dry
-Tides — the oldest dance I know
-That I never chose to try
+The hand finds the glass
+The mouth finds the rim
+The water goes down
+And the day goes in
+The chair holds the body
+The body holds the cup
+The table holds the chair
+And nobody made it up
+This is the orbit I keep
+Between the sink and the door
+Between the kettle and the kettle
+Between this and what came before
 
 [Verse 3]
-In the morning I am ocean
-By the afternoon I'm shore
-By the evening I am neither
-By the night I'm something more
+The mug rotates in the cupboard
+Handle out, then handle in
+Whoever washed it last decided
+And the choice begins again
 
 [Chorus]
-Tides
-Inside the body first
-Tides
-The fullness and the thirst
-I swell and then I empty
-I flood and then I dry
-Tides — the oldest dance I know
-That I never chose to try
+The hand finds the glass
+The mouth finds the rim
+The water goes down
+And the day goes in
+The chair holds the body
+The body holds the cup
+The table holds the chair
+And nobody made it up
+This is the orbit I keep
+Between the sink and the door
+Between the kettle and the kettle
+Between this and what came before
 
 [Bridge]
-I used to fight the low tide
-Call it sadness, call it wrong
-Now I wait — the water always
-Comes back twice as strong
+The table is the centre
+The hand is the small moon
+The glass is the smaller moon
+That circles every afternoon
 
 [Outro]
-Tides
-I trust the low
-Because I've learned
-The high
-Always returns`,
+The hand
+The glass
+The table
+The chair
+The kettle
+The door
+And me
+Going round
+Once more`,
 
   "eter-orbita/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -5291,54 +5311,56 @@ Of the loan`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A cinza não é o fim
-É o princípio disfarçado
-O que parece destruição
-É o solo a ser preparado
+Passo o dedo pela estante
+E sai uma risca limpa
+Por baixo do pó, a madeira
+Por cima do pó, a minha pista
 
 [Verse 2]
-A floresta que ardeu
-No verão mais quente
-Já tem brotos verdes
-Entre o carvão e a semente
+O rebordo da janela
+Tem uma linha cinzenta
+A luz da manhã atravessa
+E mostra o que se assenta
 
 [Chorus]
-Cinza
-Fertilidade escura
-Cinza
-A mais honesta cura
-Não é a fénix que renasce
-É mais simples do que isso
-É a vida a insistir
-No velho exercício
+Pó na lombada do livro
+Pó no quadro da parede
+Pó no candeeiro, na chave
+Pó na orelha do bebé
+Não venho com pano nem com plano
+Só passo o dedo, só vejo
+A pegada que fica
+E o brilho do que estava por baixo
 
 [Verse 3]
-A minha mãe morreu no inverno
-E na primavera seguinte
-O jardim dela explodiu
-Como se soubesse que era urgente
+Na pele do braço esquerdo
+Quando bate a luz oblíqua
+Vê-se uma camada fina
+De algo que ainda fica
 
 [Chorus]
-Cinza
-Fertilidade escura
-Cinza
-A mais honesta cura
-Não é a fénix que renasce
-É mais simples do que isso
-É a vida a insistir
-No velho exercício
+Pó na lombada do livro
+Pó no quadro da parede
+Pó no candeeiro, na chave
+Pó na orelha do bebé
+Não venho com pano nem com plano
+Só passo o dedo, só vejo
+A pegada que fica
+E o brilho do que estava por baixo
 
 [Bridge]
-Não preciso de metáforas bonitas
-A cinza é cinza e é chão
-E do chão nasce tudo
-Incluindo a próxima canção
+O pó é o que cai
+De tudo, devagar
+Do tecto, da pele, do papel
+De quem entrou e voltou a sair
 
 [Outro]
-Cinza
-Não é fim
-É adubo
-Para o que vem`,
+Pó na estante
+Pó no peito
+Pó no rebordo
+Da janela
+E a luz da tarde
+Mostra-o todo`,
 
   "eter-poeira/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5784,54 +5806,59 @@ Para dentro`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I am small enough to sit
-Inside a single beam of light
-Small enough to be forgotten
-By a Tuesday afternoon in sight
+The street goes down past the bakery
+Past the bench, past the dog that always barks
+Then it bends to the left at the postbox
+And stops where the harbour starts
 
 [Verse 2]
-My problems fill my skull
-But from the moon they don't exist
-My heartbreak my rent my mother
-The universe would not be missed
+The roof of the neighbour's house
+Cuts the sky into two uneven slices
+One blue, one a little less blue
+The chimney points where the wind decides
 
 [Chorus]
-Small
-And what a relief that is
-Small
-Like the pause inside a kiss
-Not important enough to carry
-The weight of getting it right
-Small — and finally free
-To simply be here tonight
+The end of the street is the sea
+That is all the horizon I need
+A line where the grey meets the grey
+A line that does not require me
+The cargo ship moves left to right
+The way it has done all afternoon
+I follow with my eyes, not my feet
+And the sky leans down to the roof
 
 [Verse 3]
-The ant does not apologise
-For being smaller than the tree
-The raindrop does not wish
-To be the sea
+A pigeon sits on the antenna
+The antenna leans toward the south
+The line between the roofs and the water
+Is wider than my open mouth
 
 [Chorus]
-Small
-And what a relief that is
-Small
-Like the pause inside a kiss
-Not important enough to carry
-The weight of getting it right
-Small — and finally free
-To simply be here tonight
+The end of the street is the sea
+That is all the horizon I need
+A line where the grey meets the grey
+A line that does not require me
+The cargo ship moves left to right
+The way it has done all afternoon
+I follow with my eyes, not my feet
+And the sky leans down to the roof
 
 [Bridge]
-The ego wants enormity
-The soul just wants to rest
-Being small is not a failure
-It might be the bravest test
+I do not need to climb the antenna
+I do not need to follow the ship
+The roof and the sea and the bend in the street
+Are enough horizon for this trip
 
 [Outro]
-Small
-Not less
-Just small
-And free`,
+The bakery
+The bench
+The postbox
+The harbour
+The roof
+The sea
+And me
+At the kitchen window
+Still`,
 
   "eter-vasto/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -6441,55 +6468,67 @@ Que sei`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Before my head decided no
-My stomach had already turned
-Before the logic lined up right
-My gut had already learned
+The light in the kitchen changed
+Yellow to a colder yellow
+The wind that was pushing the curtain
+Stopped pushing it — for no reason I follow
 
 [Verse 2]
-It's not a voice, it's lower
-Somewhere near the navel
-A clenching or a warming
-That no textbook can unravel
+The dog stopped sniffing the carpet
+And sat down facing the door
+The fridge that was humming
+Was not humming anymore
 
 [Chorus]
-Gut
-The brain between my hips
-Gut
-The truth beneath the lips
-Before I know I know
-The belly knows it first
-Gut — the oldest oracle
-The wisest and the worst
+The light changed
+The wind stopped
+The dog sat
+The fridge went quiet
+I do not say what it means
+I do not say what comes next
+I just write down what happened
+On the back of the receipt
+The cup on the table is still
+Half-full and slightly tilted
+The clock on the wall keeps moving
+The afternoon is not finished
 
 [Verse 3]
-Every time I didn't listen
-Every wrong turn, every stay
-My gut had said it clearly
-And I chose to look away
+The neighbour's radio cut out
+Mid-sentence, then came back on
+A different song than before
+And nobody knew it was gone
 
 [Chorus]
-Gut
-The brain between my hips
-Gut
-The truth beneath the lips
-Before I know I know
-The belly knows it first
-Gut — the oldest oracle
-The wisest and the worst
+The light changed
+The wind stopped
+The dog sat
+The fridge went quiet
+I do not say what it means
+I do not say what comes next
+I just write down what happened
+On the back of the receipt
+The cup on the table is still
+Half-full and slightly tilted
+The clock on the wall keeps moving
+The afternoon is not finished
 
 [Bridge]
-Five hundred million neurons
-Live inside my gut
-More than in my spinal cord
-The body's not a but — it's a therefore
+I used to read the moments
+Like a book about myself
+Now I just put down the pen
+And leave the page on the shelf
 
 [Outro]
-Gut
-I hear you now
-Gut
-I trust you now
-Finally`,
+The light
+The wind
+The dog
+The fridge
+The cup
+The clock
+Everything
+Where I left it
+Almost`,
 
   "eter-sinal/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]

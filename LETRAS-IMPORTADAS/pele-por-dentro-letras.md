@@ -360,77 +360,67 @@ A carregar
 
 ---
 
-## 06. Permission
-*The day you stop asking for permission to be yourself*
+## 06. Inside, Stitched Straight
+*The internal seam — breath in the belly, hip under the shoulder*
 Energia: steady | Língua: EN | Sabor: afrobeat
 
 [Verse 1]
-I used to ask before I spoke
-Raise my hand before I thought
-Wait for someone to approve
-Every idea that I brought
+The breath finds the belly again
+Not the chest, not the throat
+The hip sits under the shoulder
+Without me having to ask it to
 
 [Verse 2]
-Permission to feel, permission to cry
-Permission to want more than this
-Permission to say no to the dinner
-Permission to exist — without a list
+The left foot under the left knee
+The right foot under the right
+The spine stacks itself up the chair
+And no one is holding it tight
 
 [Pre-Chorus]
-The day I stopped asking
-Was not a revolution
-It was a Tuesday afternoon
-And the only resolution
-Was to stop waiting for a yes
-That was never going to come
+Nothing has been fixed
+Nothing has been added
+But the seam down the front of the body
+Has stopped pulling sideways
 
 [Chorus]
-Permission — I don't need it anymore
-Permission — I'm not asking anymore
-Not your approval, not your nod
-Not the room's collective breath
-Permission was the chain I wore
-And I took it off — like a dress
-That never fit, that never will
-Permission is the word I kill
-Every morning when I choose
-Without consulting anyone
+The breath returns to the belly
+The hip lines up with the shoulder
+The jaw sits over the throat
+The throat sits over the chest
+A small stitching from the floor of the foot
+To the crown of the head
+Nothing in me is pulling
+Against anything else in me
 
 [Verse 3]
-My mother asked permission all her life
-From her father, from her husband, from the priest
-I watched her shrink inside the asking
-And decided I would be the one — at least
-The one who stopped
+The collarbone is open across the room
+The tongue is soft behind the teeth
+The hand rests palm down on the thigh
+And the thigh rests against the seat
 
 [Chorus]
-Permission — I don't need it anymore
-Permission was the chain I wore
-Every morning when I choose
-Without consulting anyone
+The breath returns to the belly
+The hip lines up with the shoulder
+The jaw sits over the throat
+The throat sits over the chest
+A small stitching from the floor of the foot
+To the crown of the head
+Nothing in me is pulling
+Against anything else in me
 
 [Bridge]
-This is not rebellion
-This is not a war
-This is just a woman
-Walking through an open door
-That was always open
-But she kept knocking anyway
-Permission is the habit
-I am unlearning every day
-
-[Chorus]
-Permission — I'm not asking anymore
-Permission is the word I kill
-Every morning when I choose
+For most of the day the seam pulls
+The shoulder rides up under the ear
+The breath stays high in the rib
+And the belly forgets it is there
 
 [Outro]
-The door
-Was always open
-I just kept
-Knocking
-Out of habit
-Not anymore
+The breath
+In the belly
+The hip
+Under the shoulder
+The seam
+Holding
 
 ---
 

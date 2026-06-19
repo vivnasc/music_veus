@@ -2530,38 +2530,48 @@ sem perder as próprias raízes dos pés`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Some threads needed cutting
-not in anger, not in spite
-But in the quiet knowing
-that belonging needs your light
+The key sits on the table
+beside the open book
+The coat hangs on the hook
+and holds the shape I took
 
 [Verse 2]
-You cut the ones that strangled
-kept the ones that held with care
-Now the web is reorganized
-and you can finally breathe in there
+A glass next to the pages
+a ring of damp on the wood
+The sleeve of the coat still moving
+from the door I just shut for good
 
 [Chorus]
-Cut free, cut free
-not from love but from the cage
-Selective liberation
-is the bravest kind of stage
+Key beside the spine
+coat against the wall
+The glass leaves a circle
+where the lamp begins to fall
+A button on the cuff
+catches the light of the page
+The room keeps the order
+of a hand I did not stage
 
 [Chorus]
-Cut free, cut free
-not from love but from the cage
-Selective liberation
-is the bravest kind of stage
+Key beside the spine
+coat against the wall
+The glass leaves a circle
+where the lamp begins to fall
+A button on the cuff
+catches the light of the page
+The room keeps the order
+of a hand I did not stage
 
 [Bridge]
-The forest fills with golden light
-where tangled darkness used to grow
-Each thread you chose to keep
-now has the space to glow
+I lift the glass, the ring stays
+the coat sways one inch more
+The page I left turned over
+holds the breath I had before
 
 [Outro]
-Freedom is not leaving
-freedom is choosing how to stay`,
+The key, the coat, the glass
+each one where I put it down
+I do not move them yet
+I let the lamp move around`,
 
   "curso-teia/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -2721,34 +2731,42 @@ that lives inside your heart`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A lava flui em canais
-controlada, não destruida
-O fogo agora ilumina
-a paisagem da tua vida
+O fósforo risca duas vezes
+antes da cabeça apanhar
+A chama curva-se ao polegar
+e eu sopro sem pensar
 
 [Verse 2]
-A raiva não é o contrario do amor
-a raiva é a guarda do que importa
-Sem fogo não há limites
-sem chama não há porta
+No fogão de baixo
+o bico azul faz ranhura
+O pavio do candeeiro
+escurece à altura
 
 [Chorus]
-Fogo controlado
-que ilumina em vez de queimar
-A raiva como aliada
-que te ensina a não calar
+Fósforo na unha
+pavio no vidro fumado
+Cinza no prato pequeno
+do lado já apagado
+O bico azul respira
+a chama corta o ar
+A panela cobre o som
+que eu nem queria escutar
 
 [Chorus]
-Fogo controlado
-que ilumina em vez de queimar
-A raiva como aliada
-que te ensina a não calar
+Fósforo na unha
+pavio no vidro fumado
+Cinza no prato pequeno
+do lado já apagado
+O bico azul respira
+a chama corta o ar
+A panela cobre o som
+que eu nem queria escutar
 
 [Outro]
-O vulcão não explode
-quando o deixas respirar
-O fogo controlado
-e o mais bonito de guardar`,
+O candeeiro fica acesso
+até a manhã chegar
+A cinza no pires
+não preciso de varrer já`,
 
   "curso-chama/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -3214,39 +3232,48 @@ e tudo o que podes sentir`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-No clock, no rush, no running
-the garden breathes in time
-All seasons live together
-and every moment is sublime
+The cup of tea sits half done
+a skin already on the top
+I picked it up to drink
+and a knock made the spoon stop
 
 [Verse 2]
-I sit beneath the autumn tree
-beside the springtime bloom
-There is no past or future here
-there is no leaving room
+The message in the thread
+ends in three small dots
+I typed a name, a comma
+and then I lost the plot
 
 [Chorus]
-Present, present
-the only place that's real
-When the clock stops ticking
-you begin to feel
+Half a cup on the table
+half a word on the screen
+The sentence I left open
+with the comma in between
+A door pulled shut behind me
+a sleeve caught in the hinge
+The spoon against the saucer
+keeps the rhythm of the singe
 
 [Chorus]
-Present, present
-the only place that's real
-When the clock stops ticking
-you begin to feel
+Half a cup on the table
+half a word on the screen
+The sentence I left open
+with the comma in between
+A door pulled shut behind me
+a sleeve caught in the hinge
+The spoon against the saucer
+keeps the rhythm of the singe
 
 [Bridge]
-Amber light and silver calm
-the garden knows no haste
-Every second lived in presence
-is a second not gone to waste
+The cursor blinks beside the comma
+the tea has gone to grey
+I rest my hand against the cup
+without a thing to say
 
 [Outro]
-The clock is broken
-and I am finally free
-The garden has no schedule
+The skin sits on the surface
+the dots wait on the line
+I leave them where I left them
+and step back from the time
 and neither now does me`,
 
   // ═══════════════════════════════════════════
@@ -3293,40 +3320,48 @@ só porque fechas a janela dele`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The cloths are slipping slowly
-revealing gold and deep dark purple
-You see it now, the throne
-and your heart begins to circle
+Sweat sits at my temple
+where the hairline used to start
+A loose strand on the pillow
+a slow ache behind the part
 
 [Verse 2]
-Fear and curiosity
-dancing in your chest
-You want to look away
-but something whispers you are blessed
+I press a thumb to the root
+still damp from the night before
+The mirror keeps the angle
+I am not ready to look for
 
 [Chorus]
-Unveiled, unveiled
-the power you were hiding from
-It was never someone else's
-it was yours, the whole time, all along
+Hand at the temple
+salt on the fingertip
+The hairs I lost last week
+counted on the tap, the slip
+A weight along the parting
+a heat that will not pass
+The forehead holds the weather
+that my mouth would never ask
 
 [Chorus]
-Unveiled, unveiled
-the power you were hiding from
-It was never someone else's
-it was yours, the whole time, all along
+Hand at the temple
+salt on the fingertip
+The hairs I lost last week
+counted on the tap, the slip
+A weight along the parting
+a heat that will not pass
+The forehead holds the weather
+that my mouth would never ask
 
 [Bridge]
-Touch it if you dare
-the wood is warm beneath your hand
-This throne was always waiting
-for the woman brave enough to stand
+A drop slides past the brow
+catches the corner of the eye
+I do not wipe it yet
+I let it find the jaw and dry
 
 [Outro]
-The cloths are on the floor
-the throne is bare and bright
-You are the only one
-who can choose to take a seat tonight`,
+The strand stays on the cotton
+the root keeps its damp print
+I lower the comb
+and breathe against my wrist`,
 
   "curso-coroa/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -3412,34 +3447,42 @@ was the closing of your doors`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A mesa está vazia
-o prato não tem nada
-Sentada em frente ao silêncio
-faminta e calada
+Onze da manhã
+a gengiva já se aperta
+A saliva chega antes
+da panela estar coberta
 
 [Verse 2]
-A fome não é de comida
-e de algo sem nome
-Comes para encher o vazio
-e o vazio come-te e some
+A língua passa pelo dente
+do lado em que mastigo mais
+O queixo treme baixinho
+quando a tampa cai
 
 [Chorus]
-Mesa vazia
-fome sem fundo
-Comes o que não precisas
-para não sentir o mundo
+Saliva na gengiva
+antes da mesa pôr
+A hora que me apanha
+sempre entre o meio e o pior
+O dente do canto direito
+guarda o que não digo
+A boca enche-se sozinha
+mesmo quando estou comigo
 
 [Chorus]
-Mesa vazia
-fome sem fundo
-Comes o que não precisas
-para não sentir o mundo
+Saliva na gengiva
+antes da mesa pôr
+A hora que me apanha
+sempre entre o meio e o pior
+O dente do canto direito
+guarda o que não digo
+A boca enche-se sozinha
+mesmo quando estou comigo
 
 [Outro]
-A fome mais antiga
-não se mata com comida
-Mata-se com o nome certo
-e a coragem de ser ouvida`,
+A colher chega à boca
+e a gengiva ainda aperta
+Engulo devagar
+mantenho a janela aberta`,
 
   "curso-fome/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

@@ -216,68 +216,68 @@ Que és tu`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Halfway across the bridge the wind arrives
-It takes my breath and gives it back renewed
-The city spreads below like scattered light
-A map of lives I'll never know but feel
+Six oh four and the light comes yellow
+Sideways down the empty street
+The asphalt turns the colour of honey
+Right beneath my running feet
 
 [Verse 2]
-The steel hums underneath my feet
-A frequency that only bodies hear
-Above the traffic and the noise
-There's nothing here but wind and clarity
+My shadow stretches twenty metres
+Thin and long against the wall
+The clavicle catches the first warm angle
+The diaphragm pulls a slower breath
 
 [Pre-Chorus]
-From up here the problems look so small
-The rooftops hold them like open hands
-And I am weightless for a moment
-Suspended between two different lands
+The shop fronts hold the colour for a minute
+The dust above the road turns gold
+Not me, the hour — the hour is yellow
+The body is just here to hold it
 
 [Chorus]
-Bridges take you somewhere new
-Even when they bring you back
-Bridges show the wider view
-Of everything you thought you lacked
-The wind up here knows your name
-It strips away the heavy things
-And for a moment crossing over
-You remember you have wings
+The light arrives at the left shoulder
+The shadow lays across the kerb
+Calf muscle warming on the second mile
+Wrist loose at the bottom of the swing
+The hour stays yellow for eleven minutes
+Then the white comes back at the top
+My feet move through the honey colour
+Before the day turns flat
 
 [Verse 3]
-The water down below reflects the clouds
-The boats are slow, the seagulls barely move
-I stop midway and lean against the rail
-And let the evening air do what it does
+A man unlocks a shutter, nods
+A cat sits sideways in the gold
+The seagulls hold against the warm wind
+The river underneath goes slow
 
 [Chorus]
-Bridges take you somewhere new
-Even when they bring you back
-The wind up here knows your name
-It strips away the heavy things
+The light arrives at the left shoulder
+The shadow lays across the kerb
+The hour stays yellow for eleven minutes
+Then the white comes back at the top
 
 [Bridge]
-I've crossed a hundred bridges
-In this city that I love
-And every single crossing
-Reminds me what I'm made of
-Not the steel beneath my feet
-Not the cables overhead
-But the willingness to cross
-When everything says stay in bed
+The hamstring loosens at the sixth lamp post
+The heel lands quieter on the warm stone
+The wrist remembers how to swing the watch
+The breath finds the count of three
+There is no lesson in the yellow hour
+There is asphalt the colour of honey
+And a body moving through it
+Before the colour goes
 
 [Chorus]
-Bridges take you somewhere new
-And for a moment crossing over
-You remember you have wings
+The light arrives at the left shoulder
+My feet move through the honey colour
+Before the day turns flat
 
 [Outro]
-The bridge ends
-The ground returns
-But something stays
-Up there
-In the wind
-That version of me
-That flies`,
+The yellow goes
+The white returns
+The shadow shortens
+At the kerb
+The calf stays warm
+A while longer
+Than the hour`,
 
   "fibra-km-dourados/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -688,64 +688,66 @@ To go out`,
 
 [Verse 1]
 Cinco e quarenta e cinco
-O ecrã grita no escuro
-As pálpebras pesam como pedra
-Mas os pés já tocam o chão duro
+O ecrã treme no escuro
+A panturrilha estica primeiro
+Antes da pálpebra abrir o muro
 
 [Verse 2]
-A casa dorme toda inteira
-O silêncio tem textura
-A cozinha cheira a noite ainda
-Mas o corpo já tem outra postura
+O dedo grande do pé direito
+Puxa o lençol para baixo
+A clavícula procura o ar frio
+Da janela meio aberta no quarto
 
 [Pre-Chorus]
-Antes da mente dar permissão
-Antes do café e da razão
-O corpo já se pôs de pé
-Numa decisão que não precisa de porquê
+Não fui eu que disse vamos
+Foi o gémeo que disse primeiro
+A planta tocou o azulejo
+Antes do pensamento inteiro
 
 [Chorus]
-Cinco e quarenta e cinco
-O mundo ainda dorme
-Mas o corpo tem um ritmo antigo
-Que nenhum alarme deforme
-Levanta, levanta
-Antes da luz, antes do dia
-Levanta, levanta
-O corpo sabe a melodia
+A panturrilha estica antes da cabeça
+O calcanhar encontra o chão frio
+O pulso roda devagar três vezes
+O diafragma puxa o ar do quintal sombrio
+A clavícula sobe meio centímetro
+A planta lê a temperatura da casa
+O corpo já está de pé na cozinha
+Quando a decisão finalmente passa
 
 [Verse 3]
 Os vizinhos são sombras nas janelas
-As ruas são promessas não cumpridas
-A escuridão tem uma doçura
-Que só quem acorda cedo conhece na vida
+A rua tem cheiro a chuva fina
+O dedo do pé encontra a sandália
+Antes da luz da cozinha
 
 [Chorus]
-Cinco e quarenta e cinco
-O corpo sabe a melodia
-Levanta, levanta
-Antes da luz, antes do dia
+A panturrilha estica antes da cabeça
+O calcanhar encontra o chão frio
+A clavícula sobe meio centímetro
+O diafragma puxa o ar do quintal sombrio
 
 [Bridge]
-Há uma versão de mim que existe
-Só entre as cinco e as seis
-Uma versão que não resiste
-Que não se explica nem uma vez
-É mais crua, mais simples, mais pura
-Sem o peso das horas que vêm
-E eu acordo por causa dela
-Porque ela é a versão que eu quero ser
+Entre as cinco e as seis
+O corpo trabalha sozinho
+A canela passa pela ombreira da porta
+O ombro roça o caixilho
+A mão direita encontra a chave
+A esquerda encontra o copo de água
+Tudo isto acontece antes
+De eu perceber que estou acordada
 
 [Chorus]
-Levanta, levanta
-O corpo sabe a melodia
+A panturrilha estica antes da cabeça
+A clavícula sobe meio centímetro
 
 [Outro]
-O alarme é só o início
-O verdadeiro despertar
-É o pé no chão frio
-E o corpo a dizer
-Estou cá`,
+O alarme cala-se
+O dedo grande encontra
+A sandália fria
+O pulso roda
+Três vezes
+Antes de eu
+Decidir nada`,
 
   "fibra-corpo-acorda/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -1617,66 +1619,67 @@ I'm willing to be`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O sangue ferve nas veias
-Como água a chegar aos cem
-As pontas dos dedos formigam
-E o corpo não pertence a ninguém
+A planta toca o asfalto à frente
+O calcanhar passa por cima sem tocar
+O dedo grande empurra para trás
+E a passada já não pede para parar
 
 [Verse 2]
-O coração bate fora do peito
-A pele arrepia sem frio
-Os músculos cantam um hino
-Que a mente não reconhece mas é meu, é rio
+O peso desloca-se para a almofada
+Logo atrás dos cinco dedos
+A panturrilha solta a corda
+Que prendia os joelhos quietos
 
 [Pre-Chorus]
-A adrenalina não pede licença
-Chega e ocupa o corpo inteiro
-É o animal mais antigo a acordar
-No primeiro instante verdadeiro
+Não há travão na planta do pé
+Só há rolar de frente para trás
+O calcanhar deixou de tocar há quinhentos metros
+E o passo seguinte vem atrás
 
 [Chorus]
-Adrenalina, adrenalina
-Cada célula acorda e grita
-Adrenalina, adrenalina
-O corpo é uma bomba bonita
-Não é medo, é combustível
-Não é pânico, é poder
-A adrenalina é o corpo
-A lembrar-me que sei viver
+A planta toca, o calcanhar não toca
+O dedo grande empurra o chão
+A almofada à frente recebe o peso
+A panturrilha devolve à mão
+O pulso bate junto à cintura
+O cotovelo abre noventa graus
+A passada já não tem freio
+Porque o pé esqueceu o atrás
 
 [Verse 3]
-As pupilas dilatam para beber mais luz
-A respiração corta e volta
-O mundo fica mais nítido
-Como uma fotografia que finalmente ficou nítida
+As pupilas dilatam para a curva
+A planta lê o piso pela textura
+Pedra, gravilha, alcatrão, terra
+Cada uma com a sua medida certa
 
 [Chorus]
-Adrenalina, adrenalina
-O corpo é uma bomba bonita
-A adrenalina é o corpo
-A lembrar-me que sei viver
+A planta toca, o calcanhar não toca
+O dedo grande empurra o chão
+A passada já não tem freio
+Porque o pé esqueceu o atrás
 
 [Bridge]
-Chamam-lhe stress, chamam-lhe tensão
-Mas eu chamo-lhe o despertar
-Do animal que vive em mim
-E que sabe exatamente quando lutar
-Não contra alguém, não contra o mundo
-Mas contra o sono da rotina
-A adrenalina é o grito do corpo
-A dizer que ainda estou aqui
+Chamam-lhe ritmo, chamam-lhe forma
+Mas é só o calcanhar a não pousar
+A almofada do pé a fazer o trabalho
+Que o calcanhar costumava carregar
+O tornozelo solta-se na descida
+O joelho dobra noventa e cinco
+O quadril roda quatro centímetros
+E o passo seguinte já está dentro
 
 [Chorus]
-Adrenalina, adrenalina
-Cada célula acorda e grita
+A planta toca, o calcanhar não toca
+O dedo grande empurra o chão
 
 [Outro]
-O sangue ferve
-O corpo sabe
-Estou viva
-Tão viva
-Que o ar
-Tem medo de mim`,
+A planta toca
+O dedo empurra
+O calcanhar
+Passa por cima
+Sem tocar
+Mais um quilómetro
+Sem pousar`,
 
   "fibra-sem-travoes/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

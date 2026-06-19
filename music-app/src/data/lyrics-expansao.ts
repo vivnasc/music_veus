@@ -1124,58 +1124,61 @@ antes do mundo`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1 - Mozambican English pronunciation, hard consonants, no American, no British]
-The first cry split the room in half
-and time began again
-Everything before that sound
-was theory — this was rain
+The phone rings at four in the morning
+her voice scratches through the line
+She asks if I have eaten
+I lie — I say I'm fine
 
 [Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
-I didn't know my body could
-make something more alive than me
-I didn't know that love could be
-this terrifying and this free
-You are the poem I didn't write
-the prayer I didn't plan
-You are the answer to a question
-I didn't understand
+Mother
+the word lives in my throat
+under the collarbone
+behind the ribs
+I carry it in the headscarf
+folded in the drawer
+in the silver ring she pressed
+into my palm before the plane
+Mother
 
 [Verse 2 - Mozambican English pronunciation, hard consonants, no American, no British]
-They placed you on my chest
-still slippery, still blue
-And something in my ribcage locked
-into a shape made just for you
+The headscarf still smells of her kitchen
+cumin and woodsmoke and rain
+I tie it around my waist when I cook
+my hands move the way her hands moved
 
 [Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
-I didn't know my body could
-make something more alive than me
-I didn't know that love could be
-this terrifying and this free
-You are the poem I didn't write
-the prayer I didn't plan
-You are the answer to a question
-I didn't understand
+Mother
+the word lives in my throat
+under the collarbone
+behind the ribs
+I carry it in the headscarf
+folded in the drawer
+in the silver ring she pressed
+into my palm before the plane
+Mother
 
 [Verse 3 - Mozambican English pronunciation, hard consonants, no American, no British]
-The nurses asked me what's her name
-and I forgot how to speak words
-The name we chose a month ago
-felt smaller than the room she filled
+She sends voice notes I save and don't open
+afraid of the day I'll need them
+The ring sits cold against my finger
+until my body warms it through
 
 [Bridge - Mozambican English pronunciation, hard consonants, no American, no British]
-They cleaned you and you screamed
-and I laughed — or maybe cried
-The border between the two
-dissolved the moment you arrived
+I catch her accent in my own mouth
+when I'm tired, when I'm late
+The shape of her vowels on my tongue
+older than the words I make
 
 [Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
-I didn't know my body could
-make something more alive than me
-I didn't know that love could be
-this terrifying and this free
-You are the poem I didn't write
-the prayer I didn't plan
-You are the answer to a question
-I didn't understand
+Mother
+the word lives in my throat
+under the collarbone
+behind the ribs
+I carry it in the headscarf
+folded in the drawer
+in the silver ring she pressed
+into my palm before the plane
+Mother
 
 [Outro - Mozambican English pronunciation, hard consonants, no American, no British]
 Small thing
@@ -2648,41 +2651,42 @@ than the other`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Afundei — não de uma vez
-mas devagar, como quem desce escadas
-Cada degrau mais fundo, mais escuro
-mais longe das janelas iluminadas
+Entrei na água ao fim da tarde
+o fato de banho ainda morno do sol
+A areia agarrou-se ao calcanhar
+e o sal subiu-me até ao queixo
 
 [Verse 2]
-Ninguém viu porque afundar é silencioso
-não faz barulho nem salpica
-Só um dia olhas para cima
-e a superfície é uma linha — fina, única
+Fiquei até os dedos enrugarem
+até a luz baixar sobre a linha do horizonte
+Ninguém me chamou para sair
+e eu também não chamei
 
 [Chorus]
-Debaixo de água — o mundo emudece
-o som chega distorcido e lento
-Debaixo de água — o corpo pesa
-mas o pensamento pára — e esse é o momento
-De perceber que o fundo não é o fim
-é onde a pressão revela
-o que sobrevive a tudo
-o que é osso, o que é pérola
+Boio — a anca solta
+os ombros largados na espuma
+O mar carrega o peso
+e eu não preciso de empurrar
+O sal pica num corte
+que eu não sabia que tinha
+A onda passa por baixo
+e o corpo aprende a deixar
 
 [Bridge]
-Afundar não é morrer
-é tocar no chão do que se é
-E empurrar para cima
-com os pés
+Saí com o cabelo pesado
+o fato de banho a escorrer pelas coxas
+Sentei-me na toalha
+e fiquei a olhar para o pé descalço
 
 [Outro]
-Toco no fundo
-e empurro
-não com força
-mas com certeza
-a certeza
-de quem já não tem
-mais nada a perder`,
+O sal seca-me na pele
+puxa-me a sobrancelha
+A areia fica no fundo do saco
+durante semanas
+Levo o mar para casa
+no calcanhar
+no queixo
+na fivela do cabelo`,
 
   "eter-oceano/4": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

@@ -6369,36 +6369,50 @@ Atravessei`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The room is small, the chair is soft
-The clock ticks louder than it should
-She asks me how I feel
-And I say something I never thought I would
+The window held my breath all night
+By morning the glass was white
+I press my palm flat to the cold
+A handprint opens, the street comes through
 
 [Verse 2]
-The truth — out loud — in air
-Not written, not rehearsed
-Just the sound of someone saying
-What they've held for years
-And finding that the room
-Doesn't collapse, and neither do I
+A drop runs from the top corner
+Down past my knuckle to the sill
+I follow it with my eyes
+Not the meaning of it
+Just the water
+Just the way it goes
 
 [Chorus]
-Therapy — is the room
-Where the truth has a chair
-Therapy — is the hour
-Where I'm allowed to care
-About myself, about the mess
-About the parts I never dress
-In front of anyone
-Therapy — is not fixing
-Therapy — is witnessing
-What was always there
+Wipe with the side of the hand
+Skin against fogged glass
+One stroke, then another
+The kettle ticking behind me
+Outside there's a man with a dog
+A blue bin, a wet kerb
+The window doesn't clear all at once
+It clears where I touch it
+
+[Verse 3]
+I sit back down on the floor
+Heel under my thigh
+The pane keeps fogging where I breathe
+I keep my breath low
+
+[Chorus]
+Wipe with the side of the hand
+Skin against fogged glass
+One stroke, then another
+The kettle ticking behind me
+Outside there's a man with a dog
+A blue bin, a wet kerb
+The window doesn't clear all at once
+It clears where I touch it
 
 [Outro]
-I spoke
-And the walls
-Held
-And so did I`,
+My palm
+On the cold
+A drop
+On the sill`,
 
   "incenso-nevoeiro/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -6695,89 +6709,78 @@ Aprendo
 A ouvir`,
 
   "incenso-frequencia/2": `[Verse 1]
-The world went quiet
-Not because it stopped
-But because I found the thing
-That made everything else drop
-Before the morning even settled
-Before the noise could form
-I was already somewhere deeper
-Inside a different storm
+O frigorífico tem um zumbido grave
+Vem da parte de baixo, do compressor
+Mantém-se quase no Lá abaixo do meio
+Sobe meio tom quando o motor liga
+O relógio da cozinha bate noutro andar
+Tic mais agudo, tac mais grave
+Não estão em sincronia, nunca estão
+Mas hoje a sala aceita os dois
 
 [Verse 2]
-Hours pass like minutes
-The clock forgets to tick
-I'm inside the work, the art, the thought
-And nothing else can stick
-My body fades to background
-My mind becomes the room
-Every detail sharp as glass
-Every movement finds its groove
+Fechei os olhos a meio da tarefa
+Pousei a caneta em cima do papel
+A primeira coisa que ouvi foi o frigorífico
+A segunda foi o relógio na parede
+A terceira foi um carro lá fora a passar
+A quarta foi a minha própria garganta a engolir
+Não havia silêncio, nunca houve
+Havia uma camada por cima da outra
 
 [Pre-Chorus]
-Don't call me — I won't hear it
-Don't ask — I won't reply
-It's not that I don't see you
-I'm just somewhere else entirely
+Não tenho palavra mística para isto
+Tenho um aparelho a fazer o seu trabalho
+E um ponteiro a saltar de segundo em segundo
+Acima da banca, junto à janela
 
 [Chorus]
-Hyperfocus — the world disappears
-Hyperfocus — the gift nobody sees
-When the chaos turns to crystal
-And the noise becomes a breeze
-Hyperfocus — it's the superpower
-Hidden in the storm
-The moment when the different brain
-Becomes its truest form
+O zumbido do frigorífico no chão da cozinha
+O tic-tac do relógio em cima da banca
+Um carro a passar de seis em seis minutos
+A minha respiração entre todos
+Os ombros vão descendo um pouco em cada som
+Não procuro silêncio, procuro a camada
+O sítio onde os ruídos ficam soltos
+E nenhum deles me pede nada
 
 [Verse 3]
-I forget to eat, to breathe, to move
-Forget the passing light
-The outside fades to nothing
-While the inside burns so bright
-It's not control, it's gravity
-Pulling me within
-Like falling into something
-That was always under skin
+O frigorífico mudou de tom
+O motor desligou-se com um pequeno estalido
+Por dois segundos o relógio fica sozinho
+Mais alto do que estava antes
+Depois o motor volta a entrar
+E o relógio recua para o seu lugar
+A garganta engole outra vez
+E o esterno desce meio centímetro
 
 [Chorus]
-Hyperfocus — the world disappears
-Hyperfocus — the gift nobody sees
-When the chaos turns to crystal
-And the noise becomes a breeze
-Hyperfocus — it's the superpower
-Hidden in the storm
-The moment when the different brain
-Becomes its truest form
+O zumbido do frigorífico no chão da cozinha
+O tic-tac do relógio em cima da banca
+Um carro a passar de seis em seis minutos
+A minha respiração entre todos
 
 [Bridge]
-They call it disorder
-But in this moment
-I am more ordered
-Than the world has ever been
-Every piece in perfect sequence
-Every thought aligned
-This is not a broken system
-This is a focused mind
+Não é frequência
+É um motor a arrefecer comida
+É um mecanismo a bater segundos
+São coisas a fazer o que fazem
+Eu estou sentada no meio
+A reparar, sem mexer
 
 [Chorus]
-Hyperfocus — the world disappears
-Hyperfocus — the gift nobody sees
-Now I feel it stronger
-Than I ever did before
-Hyperfocus — I don't fight it
-I let it take the form
-Of everything I could be
-If I stop closing the door
+O zumbido grave debaixo da porta do frigorífico
+O ponteiro do relógio a saltar
+O carro que passa, a garganta a engolir
+Os ombros descem, o queixo desce
+A planta dos pés inteira na tábua
+A camada de baixo é só som a fazer som
 
 [Outro]
-Focused
-Still
-Perfect
-Flow
-I disappear
-To finally
-Be whole`,
+O frigorífico
+o relógio
+o carro a passar
+a garganta a engolir`,
 
   "incenso-frequencia/3": `[Verse 1]
 De manhã visto a máscara
