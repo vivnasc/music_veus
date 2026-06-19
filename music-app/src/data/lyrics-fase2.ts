@@ -18,120 +18,128 @@ export const FASE2_LYRICS: Record<string, string> = {
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Apareceu sem avisar
-Um calor no peito sem razão
-Ela sorriu e eu quis chorar
-Não de dor — de comparação
+Ela entrou com leite na mão
+Pousou a chave no balcão da cozinha
+Eu lavava o peito do frango
+E o pulso parou na pia branquinha
+Senti o esterno apertar
+Como se a casa toda inclinasse
 
 [Verse 2]
-Olhei para o que ela tinha
-A casa clara, o riso fácil
-E senti dentro de mim uma linha
-Que partia o meu dia em metade
+Ela falou da janela nova
+Da figueira no quintal de trás
+Eu mexi a colher na chávena
+Devagar para não dizer demais
+A garganta guardou a palavra
+Que mordia por dentro do maxilar
 
 [Pre-Chorus]
-Não é ódio, não é raiva
-É um espelho que arde e que cala
+A omoplata pesa do lado esquerdo
+A nuca sabe antes da boca
 
 [Chorus]
-Verde, verde nos meus olhos
-Verde que eu não quis sentir
-Verde que me mostra os buracos
-Onde eu não me deixo ir
-Verde como uma ferida
-Que não sangra mas que dói
-Verde que ilumina a vida
-Que eu fingi que não me foi
+A anca encosta ao balcão da cozinha
+A palma fechada por cima do pano
+A fossa nasal aprende o cheiro
+Do café dela no meu tacho velho
+O joelho dobra na cadeira torta
+A toalha cai sobre o azulejo
+A boca sorri por cima do prato
+E o ombro fica três dedos mais alto
 
 [Verse 3]
-A garganta aperta devagar
-Os dedos fecham sem querer
-O ciúme é um animal
-Que morde antes de eu perceber
+Lavei os copos depois dela sair
+A esponja amarela na minha mão
+A torneira pingava no inox
+Como quem conta horas no chão
+Sentei na cadeira da varanda
+O pijama colado ao joelho dobrado
 
 [Chorus]
-Verde, verde nos meus olhos
-Verde que eu não quis sentir
-Verde que me mostra os buracos
-Onde eu não me deixo ir
+A anca encosta ao balcão da cozinha
+A palma fechada por cima do pano
+A fossa nasal aprende o cheiro
+Do café dela no meu tacho velho
 
 [Bridge]
-E se este verde for um mapa
-Do que eu quero e não admito
-Se for a porta e não a trapa
-Se for desejo e não delito
-
-[Chorus]
-Verde, verde nos meus olhos
-Verde que eu não quis sentir
-Verde que me mostra o caminho
-Para onde eu preciso ir
+Abri o armário e vi o pacote
+De farinha que ela me trouxe um dia
+A mão tocou no saco de pano
+Onde a minha avó guardava a vasilha
+O peito amoleceu por dentro do colete
+E a casa voltou a estar direita
 
 [Outro]
-O verde amanhece devagar
-Quando o deixo simplesmente estar
-Não é monstro — é um sinal
-Do que me falta e é real`,
+Pousei o pano dobrado na mesa
+Fechei a torneira que pingava
+A escada rangeu no segundo degrau
+Quando subi para o quarto pequeno
+O lençol estava fresco no pé da cama
+E a fossa nasal já não cheirava café`,
 
   "incenso-espelho-verde/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I saw it in the way she walked
-The ease of someone at home in her skin
-I felt a tightness in my talk
-A smallness creeping from within
+She walked into the bathroom first
+Her hip against the porcelain rim
+I stood behind her at the sink
+My palm flat on the cold ceramic
+The mirror held both our shoulders
+Mine an inch lower than hers
 
 [Verse 2]
-Her success was not my failure
-Her light was not my dark
-But my body told a different tale
-A jealous beating of the heart
+She brushed her hair beside the bath
+The wrist turning like a small wheel
+I watched my own knuckle whiten
+On the edge of the towel rail
+My sternum tightened under the robe
+And the steam fogged my collarbone
 
 [Pre-Chorus]
-Not hate, not rage, just a mirror
-Showing me what I won't face
+The jaw locks before the throat
+The kneecap knows before the word
 
 [Chorus]
-Mirror, mirror on the wall
-Show me what I'm really wanting
-Mirror, mirror, hear me call
-Every envy hides a longing
-What I covet, what I crave
-Lives inside me, locked and waiting
-Mirror, mirror, make me brave
-Enough to name what I've been hating
+Hip against the porcelain rim
+Knuckle white on the towel rail
+Nostril full of her shampoo
+Shoulder bone an inch too low
+Foot cold on the bathroom tile
+Elbow leaning on the basin
+Palm flat where the mirror sweats
+Breath caught in the upper rib
 
 [Verse 3]
-She got the job I never tried for
-The trip I said I couldn't take
-And jealousy became a sign
-Of every risk I didn't make
+She left her hairpin on the shelf
+A small brass thing beside my comb
+I picked it up between two fingers
+And put it down beside the soap
+The kitchen smelled of her perfume
+For four hours after she went home
 
 [Chorus]
-Mirror, mirror on the wall
-Show me what I'm really wanting
-Mirror, mirror, hear me call
-Every envy hides a longing
+Hip against the porcelain rim
+Knuckle white on the towel rail
+Nostril full of her shampoo
+Shoulder bone an inch too low
 
 [Bridge]
-What if jealousy is just a torch
-Lighting up the rooms I've closed
-What if it's a map, not a scorch
-Showing gardens I forgot to grow
-
-[Chorus]
-Mirror, mirror on the wall
-Show me what I'm really wanting
-Mirror, mirror, set me free
-From the fear of finally starting
+I sat on the edge of the bath
+My heels flat on the cold floor
+The robe loose around my waist
+A glass of water on the chair
+The window held a square of sky
+And the steam slowly cleared the glass
 
 [Outro]
-The mirror cracks and light comes through
-What I envied was the unlived me
-Now I know what I must do
-Not become her — just be free`,
+I wiped the mirror with my sleeve
+My own face came back to the glass
+The cheekbone, the brow, the wet hair
+The mouth slightly open at rest
+I put the hairpin in a drawer
+And closed it with my second knuckle`,
 
   "incenso-espelho-verde/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -2980,116 +2988,136 @@ Is free now — free to rise`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Disseram-me para parar
-Disseram que não ia dar
-Que o mundo não espera por quem cai
-E eu caí — e levantei-me na mesma
+Os joelhos têm crosta da queda de ontem
+Os cotovelos guardam a marca do chão
+Na cozinha o relógio insiste na parede
+A mão volta a pegar no cabo do fogão
+Os pés descalços no soalho frio
+Sabem o caminho até à pia da loiça
 
 [Verse 2]
-O corpo dói dos joelhos esfolados
-O orgulho tem nódoas de lama
-Mas estes pés ensanguentados
-Conhecem o chão e a sua cama
+A boca enxagua o sabor da noite
+A nuca arde do peso da fronha
+A barra do avental rasgou no prego
+Da porta de madeira da despensa
+Os ombros levam o saco para a rua
+O pescoço aguenta a manhã sem queixa
 
 [Pre-Chorus]
-Teimosa — é o nome que me deram
-Teimosa — é o nome que eu aceito
+Os dentes cerram sobre a palavra
+A garganta engole e atravessa a sala
+E os pés alcançam a soleira da varanda
 
 [Chorus]
-Teimosa — a mulher que não pára
-Teimosa — com os ossos partidos
-Teimosa — que a vida é cara
-Mas eu pago com os dias vividos
-Não me peçam para ser sensata
-Não me peçam para aceitar o não
-A teimosia é a minha bata
-E a esperança é a minha canção
+A coluna que dobra na cama por desfazer
+A canela que bate no canto da mesa
+Os dedos a contar moedas no balcão
+A testa encostada ao vidro da janela
+O peito que respira sobre o lume aceso
+A planta dos pés sobre o tapete gasto
+A omoplata carregando o cesto da roupa
+O queixo levantado na soleira do quarto
 
 [Verse 3]
-A avó era teimosa também
-Criou seis filhos com um salário
-E nunca disse pobre de quem
-Disse vamos — sem calendário
+A avó tinha as mãos rachadas do sabão
+E os pulsos finos da máquina de costura
+A cozinha dela cheirava a manjericão
+O quarto dela dormia de porta aberta
+Os pés dela calçavam meias de lã grossa
+E a voz dela atravessava a parede fina
 
 [Chorus]
-Teimosa — a mulher que não pára
-Teimosa — com os ossos partidos
+A coluna que dobra na cama por desfazer
+A canela que bate no canto da mesa
 
 [Bridge]
-A teimosia é a flor mais feia
-Que dá o fruto mais bonito
-É a raiz que não areia
-E o coração que não é finito
+O fígado cala o que o estômago grita
+A clavícula sustenta o colar da mãe
+Os rins guardam a água do tanque
+O pulso bate na cabeceira de pinho
+A pele da nuca conhece a fronha
+A unha do polegar parte na fechadura
 
 [Chorus]
-Teimosa — o hino de quem insiste
-Teimosa — de quem se levanta
-Teimosa — porque a vida existe
-E enquanto existir eu canto — e canta
+A coluna que se ergue do chão da casa de banho
+O calcanhar que aprende o azulejo da cozinha
+O ouvido que escuta a torneira no escuro
+O ventre que segura o pão da véspera
 
 [Outro]
-Amanhã vou cair outra vez
-E outra vez vou levantar
-Porque a teimosia é a minha tez
-E a esperança é o meu lugar`,
+A mão direita abre a porta da rua
+O sapato direito pisa o degrau de pedra
+O ombro empurra o portão pesado de ferro
+A testa apanha o sol do pátio interior
+Os pulmões enchem do ar da varanda da cozinha`,
 
   "incenso-teimosa/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I made it through another day
-Not thriving, not shining, just here
-The victory is small and grey
-But it's mine — and it's crystal clear
+My eyelids open onto the ceiling fan
+My feet find the floor before my mind
+The kettle waits on the kitchen counter
+And the mug is the one with the chipped rim
+My hand reaches for the cupboard handle
+And the dog's tail brushes my ankle
 
 [Verse 2]
-I got up when the alarm went off
-I brushed my teeth, I tied my shoes
-I walked into the world, cast off
-The voice that said there's nothing left to choose
+The alarm clock sits on the bedside drawer
+My thumb finds the button without looking
+The toothbrush hangs above the bathroom sink
+And the cold tap runs over my wrist bone
+My shoulders carry the towel to the rack
+And my knees crack on the way to the hall
 
 [Pre-Chorus]
-One more day is not a headline
-But some days it's the only win
+My throat swallows the lukewarm coffee
+My palm presses the lock on the front door
+And my back straightens at the bus stop bench
 
 [Chorus]
-One more day — I call that winning
-One more breath — I call that gold
-One more morning — new beginning
-One more story left untold
-The world expects a grand survival
-A comeback with a symphony
-But sometimes just arriving at the rival
-Of another sunrise — that is victory
+My ribs expanding in the kitchen doorway
+My calves climbing the stairs to the landing
+My fingers folding the laundry on the bed
+My eyes closing against the hallway light
+My elbows resting on the kitchen table
+My ankles crossed beneath the office chair
+My shoulders dropping at the sink with the dishes
+My collarbone warm in the afternoon window
 
 [Verse 3]
-The dishes done, the kids to school
-The meeting held with steady voice
-Nobody saw the broken tool
-That held itself together — by choice
+The kettle hisses on the stovetop burner
+The cat winds round the leg of the chair
+The mail slot rattles against the front door
+And the radio mumbles from the shelf
+My hip bumps the corner of the counter
+And my forearm lifts the bag of groceries
 
 [Chorus]
-One more day — I call that winning
-One more breath — I call that gold
+My ribs expanding in the kitchen doorway
+My calves climbing the stairs to the landing
 
 [Bridge]
-The heroes in the movies fight with swords
-The heroes in my kitchen fight with spoons
-And every single one of their rewards
-Is hearing the alarm — and choosing to resume
+The hairbrush sits on the chest of drawers
+The kettle cools on the kitchen tile
+My elbow rests against the window frame
+My heel taps the linoleum in the hallway
+The spoon lifts soup from the cooling bowl
+And my jaw unclenches against the pillow
 
 [Chorus]
-One more day — the bravest chorus
-One more day — the quiet hymn
-For everyone who walked before us
-And everyone who's barely hanging by a limb
+My eyelids softening on the bathroom mirror
+My knuckles loosening on the doorframe
+My shoulders falling against the headboard
+My breath warming the bedroom air
 
 [Outro]
-Tonight I'll put my head on the pillow
-And count this day as done
-Tomorrow grows beneath my window
-One more day — another one`,
+My cheek presses into the cotton pillowcase
+My toes find the bottom of the duvet
+My hand reaches for the bedside lamp switch
+The window shows the streetlight through the curtain
+And my chest rises in the dark of the bedroom`,
 
   "incenso-teimosa/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -8711,335 +8739,400 @@ That ever left its mark`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O asfalto acaba e a terra começa
-Os ténis afundam, o corpo acorda
-O trilho serpenteia entre os carvalhos
-E a cidade fica para trás — absorta
+Os ténis pousam na borda do alcatrão
+A planta do pé sente a primeira pinha
+Os carvalhos abrem o portão de musgo
+A minha tíbia entra na manhã sozinha
+A nuca arrepia com o cheiro do orvalho
+O tornozelo dobra na primeira raiz
 
 [Verse 2]
-O cheiro muda — pinheiro e musgo
-O som muda — pássaros e vento
-Os pulmões enchem de outra coisa
-E o corpo lembra o que é alimento
+A clavícula respira mais fundo no mato
+Os ombros largam o peso da cozinha
+Os carris da cidade ficam no esterno
+A coluna estica entre a urze e a giestinha
+O diafragma encontra o ritmo do pinheiro
+E os pulmões enchem do que a serra cozinha
 
 [Pre-Chorus]
-A terra debaixo dos pés
-É mais honesta que o betão
+A panturrilha aprende a pedra
+A planta do pé aprende a folha
+A anca encontra a sua linha
 
 [Chorus]
-Trilho — começa onde a estrada acaba
-Trilho — a terra toma conta de mim
-Os pés encontram raízes e pedras
-E eu encontro-me — finalmente assim
+A perna sobe sobre a raiz molhada
+A pupila dilata na luz partida
+A canela arde no fetal alto
+O coração marca o passo da subida
+A palma roça o tronco do sobreiro
+A boca abre para o ar de resina
+O quadríceps reconhece o declive
+E a coluna lembra de onde vinha
 
 [Verse 3]
-As primeiras centenas de metros doem
-O corpo resmunga, a mente duvida
-Mas depois de um quilómetro no mato
-Já não sei onde acaba a floresta e começa a minha vida
+Os primeiros quilómetros mordem o gémeo
+O joelho discute com a descida curta
+A nuca sua sob o boné de pano
+A bolha cresce no calcanhar à surda
+Depois o corpo entrega a mochila ao trilho
+E a respiração apanha a serra inteira
 
 [Chorus]
-Trilho — começa onde a estrada acaba
-Trilho — a terra toma conta de mim
-Os pés encontram raízes e pedras
-E eu encontro-me — finalmente assim
+A perna sobe sobre a raiz molhada
+A pupila dilata na luz partida
+A canela arde no fetal alto
+O coração marca o passo da subida
 
 [Bridge]
-Cada curva é uma surpresa
-Cada subida uma decisão
-Correr no trilho é a pergunta:
-Confias em ti? — e a resposta é o chão
-
-[Chorus]
-Trilho — a minha estrada de terra
-Trilho — o meu caminho sagrado
-Onde o asfalto acaba
-Eu começo — e corro — e sou
+Cada curva pousa nova pedra na sola
+Cada subida muda o ângulo da espinha
+O pulso bate dentro da pulseira gasta
+O suor escorre pela maçã do rosto à china
+A omoplata move o casaco amarrado
+E a perna escolhe a pedra mais firme da margem
 
 [Outro]
-A terra chama
-Eu respondo
-Com os pés
-E com o corpo todo`,
+Os dedos do pé encontram a terra fofa
+A clavícula desce no fim do declive
+A boca prova o sal da própria face
+O joelho dobra na curva do ribeiro
+A planta aceita a folha do castanheiro
+A coluna pousa contra a casca da árvore`,
 
 "fibra-lama-e-ceu/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The incline hits and the quads ignite
-Each step a small negotiation
-Between the pull of gravity
-And the push of pure determination
+The quad lights up against the slope
+The hip flexor remembers last week's hill
+The sternum opens for a deeper draw
+The trapezius shrugs the pack into the kill
+The thumb hooks beneath the chest strap
+The calf finds the stone above the heel
 
 [Verse 2]
-The lungs are screaming, legs are heavy
-But the view keeps getting wide
-Every metre up the mountain
-Is a layer of self that's purified
+The forearm wipes the brow on the switchback
+The earlobe burns where the cold has crept
+The diaphragm widens past the ribcage
+The clavicle remembers what the kitchen kept
+The pulse climbs into the temple bone
+And the heel learns the angle of the step
 
 [Pre-Chorus]
-Up, up, up
-The climb is the teacher
+The hamstring tightens at the boulder
+The lower back loosens at the bend
+The eyelid blinks the sweat away
 
 [Chorus]
-Uphill — the fight against the earth
-Uphill — where strength meets stubborn will
-Each step a tiny revolution
-Uphill — the mountain tests until
+The knee lifts above the buried root
+The lung fills past the bottom of the chest
+The palm catches on the bark of pine
+The shoulder rolls the rucksack into rest
+The tongue meets the salt along the lip
+The eye finds the marker in the moss
+The arch of the foot reads every pebble
+And the spine keeps count of every loss
 
 [Verse 3]
-My heart rate peaks, my vision narrows
-Everything reduces to the ground
-One foot in front of one more foot
-The simplest, hardest sound
+The vision narrows to a metre of dirt
+The jaw unclenches on the second wind
+The toenail bruises in the muddy shoe
+The kneecap floats above the bone within
+The collarbone gleams with the morning rain
+And the elbow steers around the broken limb
 
 [Chorus]
-Uphill — the fight against the earth
-Uphill — where strength meets stubborn will
-Each step a tiny revolution
-Uphill — the mountain tests until
+The knee lifts above the buried root
+The lung fills past the bottom of the chest
+The palm catches on the bark of pine
+The shoulder rolls the rucksack into rest
 
 [Bridge]
-And just when I think I can't keep going
-A gap between the trees reveals
-The whole world spread below like mercy
-And that's the view that heals
-
-[Chorus]
-Uphill — I earned this view
-Uphill — with every burning step
-Uphill — the mountain doesn't lie
-Uphill — it gives back what you've kept
+A gap opens through the laurel branches
+The whole valley unrolls beneath the ridge
+The eye drinks the slate roofs of the village
+The lip cracks open for the cold cold breeze
+The kidney warms beneath the merino layer
+And the calf signs its name into the trees
 
 [Outro]
-One more step
-The top is closer
-Than you think`,
+The thigh stops shaking on the flatter ground
+The wrist checks the watch without a sound
+The ankle finds the stone that holds its weight
+The shoulder blade releases what it bore
+The breath returns and slows along the throat
+And the foot remembers what the foot is for`,
 
 "fibra-lama-e-ceu/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A lama engole o ténis inteiro
-Escorrego, agarro-me a um ramo
-Rio alto como uma criança
-E perco a dignidade sem reclamar
+O ténis afunda até ao tornozelo no barro
+A mão agarra a casca do salgueiro tombado
+O joelho desliza dentro da poça pesada
+O cotovelo aterra na poça do lado
+A coxa risca uma linha castanha no calção
+E o riso sai pelo diafragma destrancado
 
 [Verse 2]
-O barro nos joelhos, na cara, nas mãos
-A chuva transforma o trilho em rio
-E eu danço nesta confusão
-Com uma alegria que desafia o frio
+A bochecha apanha o respingo da pisada
+A palma vermelha desenha cinco dedos no peito
+O cabelo cola ao maxilar com terra preta
+O lóbulo carrega uma estrela de barro direito
+A canela escorrega sobre a folha podre
+E a anca acerta com a pedra sob o leito
 
 [Pre-Chorus]
-Sujar-se é a permissão
-Para voltar a ser selvagem
+A unha guarda meia colher de chão
+A meia escorre dentro da bota
+A coluna inteira fica mais leve
 
 [Chorus]
-Lama — o batismo da montanha
-Lama — a liberdade de sujar
-Nos joelhos, na cara, na alma
-Lama — a coragem de escorregar
+O calcanhar afunda no charco do declive
+O queixo recolhe o salpico da descida
+A palma do pé prova a lama dos passos
+O ombro mergulha contra a giesta cheia
+A omoplata desenha um arco castanho
+A nuca recebe a chuva da ramagem
+E a boca abre com a alegria de criança
+Quando o joelho dobra na curva da margem
 
 [Verse 3]
-Os da cidade não compreendem
-Porque volto suja e a sorrir
-Mas quem já correu na lama sabe
-Que é ali que se aprende a existir
+A cidade pousada no sofá da sala
+Não conhece a temperatura do barro novo
+A panela do almoço espera na cozinha
+A toalha estendida no parapeito do povo
+E a sola dos meus ténis traz a serra inteira
+Para o tapete da entrada do meu povo
 
 [Chorus]
-Lama — o batismo da montanha
-Lama — a liberdade de sujar
-Nos joelhos, na cara, na alma
-Lama — a coragem de escorregar
+O calcanhar afunda no charco do declive
+O queixo recolhe o salpico da descida
+A palma do pé prova a lama dos passos
+O ombro mergulha contra a giesta cheia
 
 [Bridge]
-A lama leva o verniz todo embora
-A pose, o perfume, o controlo
-E debaixo desse barro todo
-Encontras a pessoa — o miolo
-
-[Chorus]
-Lama — sou mais eu na lama
-Lama — do que em qualquer espelho
-A montanha lava-me com barro
-E eu volto limpa — por dentro
+A lama lava a pintura das unhas da semana
+A lama tira o perfume do pulso da camisa
+A lama come a sombra dos olhos da festa
+A lama desfaz a marca do anel na lisa
+A pele aparece debaixo do disfarce
+E a face encontra o seu próprio sorriso
 
 [Outro]
-Suja
-Feliz
-Viva
-É isto — correr na lama`,
+A camisola larga o cheiro do sabão
+A meia espreme um fio castanho na pia
+A unha do polegar guarda um pouco de serra
+O ombro relaxa contra a parede da arrecadação
+O cabelo escorre na nuca para o lavatório
+E a planta do pé pousa fresca no piso da divisão`,
 
 "fibra-lama-e-ceu/4": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The final push through thinning trees
-The air so clear it cuts my lungs
-I crest the ridge and there it is
-The view the mountain always sung
+The lung pushes through the thinning birch line
+The thumb tucks under the strap of the pack
+The temple beats against the woollen band
+The femur burns above the swollen calf
+The trapezius rolls beneath the wet shell
+And the cheekbone meets the cold across the back
 
 [Verse 2]
-My legs are shot, my hands are mud
-My heart is louder than the wind
-But the world below unfolds like cloth
-And every step has been redeemed
+The boot lands on the granite of the spine ridge
+The fingertip blackens with the morning frost
+The wrist tilts to read the watch at the cairn
+The vertebra straightens at the cost
+The kidney warms above the kit belt
+And the iris widens for the world below the moss
 
 [Pre-Chorus]
-The summit doesn't lie
-You either earned it or you didn't
+The lower lip cracks in the high wind
+The chest hollow fills with the long view
+The collarbone pushes through the merino
 
 [Chorus]
-Summit — the view that pays for everything
-Summit — where breath and beauty fight
-The mountain gave me what I earned
-Summit — a cathedral of light
+The boot rests on the highest granite stone
+The lung expands beyond the kitchen rib
+The eye walks the valley like a finger
+The hand braces on the trig point above the lip
+The hamstring shakes against the windward face
+The hair pulls flat across the salt-wet brow
+The throat releases a sound without a word
+And the ankle balances the body now
 
 [Verse 3]
-I stand here gasping, filthy, broken
-And more alive than I have been
-The world below is ants and problems
-Up here — it's everything between
+The cuticle is black with peat and stone
+The knee shakes inside the muddy compression
+The jaw drops loose at the unrolling valley
+The eyebrow lifts in slow uncomprehension
+The thigh trembles along the rocky cornice
+And the rib finds room for a deeper expression
 
 [Chorus]
-Summit — the view that pays for everything
-Summit — where breath and beauty fight
-The mountain gave me what I earned
-Summit — a cathedral of light
+The boot rests on the highest granite stone
+The lung expands beyond the kitchen rib
+The eye walks the valley like a finger
+The hand braces on the trig point above the lip
 
 [Bridge]
-There's no shortcut to this feeling
-No helicopter to this view
-The summit only speaks to those
-Who climbed the whole way through
-
-[Chorus]
-Summit — I scream into the wind
-Summit — and the wind screams back
-Summit — this is why I run
-Summit — this is what I lack — no more
+The pinky reaches for the orange peel inside the pocket
+The molar bites the cold sweet citrus rind
+The forehead leans against the granite marker
+The shoulder blade releases what it pinned
+The sock peels back to show the toe in bloom
+And the wrist remembers what the watch will find
 
 [Outro]
-Look at this
-Just look at this
-The whole world
-From the top — and it was worth every step`,
+The hip lowers onto the flat stone facing west
+The palm flattens on the lichen warm with sun
+The eyelid drops against the bright blue dome
+The lung breathes slow above the work undone
+The heel taps the granite like a sister
+And the body knows the climb is what it spun
+
+[Final Chorus]
+The boot rests on the highest granite stone
+The lung expands beyond the kitchen rib
+The eye walks the valley like a finger
+The hand braces on the trig point above the lip
+The hamstring shakes against the windward face
+The hair pulls flat across the salt-wet brow
+The throat releases a sound without a word
+And the ankle balances the body now`,
 
 "fibra-lama-e-ceu/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O riacho aparece entre as pedras
-Gelado, transparente, vivo
-Tiro os ténis e entro sem pensar
-O grito que dou é primitivo
+A corrente aparece atrás do amieiro torto
+A mão pousa a mochila sobre a pedra chata
+O cordão do ténis desfaz no calcanhar
+O dedo grande sai da meia molhada
+A planta do pé toca a água do degelo
+E a coluna inteira estremece de uma vez
 
 [Verse 2]
-A água corta o calor dos pés
-Cada dedo acorda como novo
-Os músculos agradecem em silêncio
-E o cansaço sai com o renovo
+A canela mergulha até ao joelho fundo
+O músculo da coxa contrai e amolece
+A mão em concha apanha água da margem
+A nuca recebe um pingo que se esquece
+A garganta engole o frio do granito
+E o estômago acorda como quem aquece
 
 [Pre-Chorus]
-A natureza é a melhor enfermeira
-Não cobra e não pergunta
+O peito do pé descansa na areia
+A maçã do rosto perde o vermelho da subida
+A omoplata pousa contra o tronco do choupo
 
 [Chorus]
-Riacho — gelado e santo
-Riacho — o alívio que a montanha dá
-Os pés na água cristalina
-E o corpo diz — obrigada, estou cá
+O calcanhar afunda na pedra do leito
+A palma da mão prova a água do regato
+O lábio molha-se na concha dos meus dedos
+O queixo escorre uma gota para o peito
+A planta aceita o seixo redondo e liso
+A unha do pé brilha sob a corrente clara
+O cotovelo apoia na laje da margem
+E a face encontra o reflexo da serra
 
 [Verse 3]
-Bebo um gole da corrente
-Sabe a pedra, a musgo, a raiz
-É a água mais pura que provei
-E o momento mais feliz
+A meia estendida na pedra do sol
+O ténis virado de boca para o ar
+O calção pingando para a terra debaixo
+A camisola subida acima da cintura à par
+A pele do braço com pele de galinha
+E a clavícula brilhando com gota a brotar
 
 [Chorus]
-Riacho — gelado e santo
-Riacho — o alívio que a montanha dá
-Os pés na água cristalina
-E o corpo diz — obrigada, estou cá
+O calcanhar afunda na pedra do leito
+A palma da mão prova a água do regato
+O lábio molha-se na concha dos meus dedos
+O queixo escorre uma gota para o peito
 
 [Bridge]
-A montanha dá e a montanha tira
-Dá subidas que te partem ao meio
-Mas depois dá-te um riacho assim
-E o equilíbrio volta — cheio
-
-[Chorus]
-Riacho — o posto de socorro da natureza
-Riacho — sem fila e sem espera
-A água gelada nos pés quentes
-É a melhor coisa da carreira
+A bochecha pousa contra a laje fria
+A orelha escuta o riacho por dentro
+O joelho dobra contra a mochila aberta
+A barriga sobe e desce com o vento
+A planta dos dedos enruga na água parada
+E o corpo inteiro fica do tamanho do momento
 
 [Outro]
-Fico mais um minuto
-Os pés na corrente
-A montanha cuida de mim
-E eu cuido dela — igualmente`,
+A meia já seca na pedra do sol
+O pé entra de novo no ténis morno
+A perna estica para a curva do trilho
+O ombro carrega a mochila no torno
+A nuca despede-se do choupo da margem
+E o calcanhar volta ao caminho do mato`,
 
 "fibra-lama-e-ceu/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Eyes down, feet quick, the roots are waiting
-Each one a lesson in attention
-You can't run trails with half a mind
-The forest demands your full intention
+The pupil drops onto the muddy braid
+The toe lands soft between the cedar veins
+The arch lifts above the buried elbow of pine
+The ankle threads the gap left by the rains
+The shin reads the angle of the slope ahead
+And the wrist counts time along the laces' chains
 
 [Verse 2]
-A rock, a root, a hidden dip
-The ground is never what it seems
-Trail running is a conversation
-Between your feet and forest dreams
+The big toe finds the gap between two stones
+The little toe brushes against the moss
+The heel clears the rib of the old oak
+The hip swings wide to clear the swollen toss
+The shoulder dips beneath the lowest branch
+And the chin tucks to take the woodland loss
 
 [Pre-Chorus]
-Focus — or fall
-The trail decides
+The eyelid blinks against the dappled sun
+The earlobe catches at the holly leaf
+The calf softens for the buried curve
 
 [Chorus]
-Roots — each one a teacher
-Roots — each one a test
-The trail doesn't care about your playlist
-Roots — they demand your best
+The sole reads the spine of every root
+The kneecap floats above the buried wood
+The ankle pivots on the smallest stone
+The toe lands soft where larger ones have stood
+The eye scans the trail two metres out
+The chest opens for the rhythm of the run
+The forearm balances the breathing pack
+And the spine rolls between the trees as one
 
 [Verse 3]
-I learned to read the ground like braille
-Each bump a letter, each gap a word
-The trail is telling me a story
-In a language only feet have heard
+The shoelace catches on a hidden splinter
+The fingertip flicks the bark out of the eye
+The kneecap brushes past the lower beech
+The cheekbone feels the sun between the high
+The collarbone catches a single pine needle
+And the breath finds its rhythm on the fly
 
 [Chorus]
-Roots — each one a teacher
-Roots — each one a test
-The trail doesn't care about your playlist
-Roots — they demand your best
+The sole reads the spine of every root
+The kneecap floats above the buried wood
+The ankle pivots on the smallest stone
+The toe lands soft where larger ones have stood
 
 [Bridge]
-And when you find the flow between the roots
-When feet and forest sync in time
-It's meditation at full speed
-It's prayer without a rhyme
-
-[Chorus]
-Roots — I dance between you now
-Roots — we found our rhythm somehow
-Roots — you taught me how to see
-Roots — by making me look down — to set me free
+The hip rolls forward through the canopy shadow
+The hamstring lengthens through the corridor of oak
+The lung fills with the smell of broken cedar
+The temple cools beneath the woollen yoke
+The shoulder finds its angle to the foliage
+And the body learns the alphabet of stroke
 
 [Outro]
-Over roots
-Between stones
-My feet have found
-A language of their own`,
+The toe pad knows the bark of every fall
+The arch knows the curve of every rise
+The heel knows the give of every leaf bed
+The ankle knows the rotation of the eyes
+The calf knows the angle of the woodland
+And the foot writes its letter to the skies`,
 
 "fibra-lama-e-ceu/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]

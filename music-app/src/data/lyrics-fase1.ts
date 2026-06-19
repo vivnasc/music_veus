@@ -19,83 +19,86 @@ respira...
 respira...
 
 [Verse 1: vocal whispered, very close, almost spoken]
-O ar entra devagar
-Como se pedisse licença ao corpo
-O peito abre sem forçar
-Sem manual, sem mapa, sem esforço
-A barriga sobe e desce
-Num ritmo que eu não escolhi
-Algo antigo me aquece
-Antes de eu saber que estou aqui
+A costela sobe sozinha
+Antes de eu pedir licença
+O ar entra na cozinha
+Sem aviso, sem sentença
+O esterno desenha um arco
+Que ninguém lhe ensinou
+A fossa nasal abre o cerco
+Que o dia inteiro fechou
 
 [Verse 2: same intimacy, slight rasp on sustained vowels]
-Os olhos fecham sozinhos
-O mundo pára lá fora
-Os pensamentos são vizinhos
-Que batem à porta e vão embora
-Não preciso de responder
-Nem de abrir nem de fingir
-Só preciso de me deter
-Neste gesto de existir
+A clavícula descansa
+Encostada à mesa antiga
+O joelho dobra-se em confiança
+Como quem nada obriga
+A palma poisa no balcão
+Frio da pedra a subir
+O corpo faz a sua versão
+De um silêncio por descobrir
 
 [Pre-Chorus: voice opens slightly, breath audible]
-Um pé de cada vez no chão
-O ar sabe o que fazer
-Não peças à mente a direção
-Deixa o corpo conduzir
+Não foi a mente que abriu
+O peito desta manhã
+Foi um sopro que veio do rio
+Onde a costela amanhã
 
 [Chorus: 3-voice airy harmony enters, sub bass joins, no kick]
-Respira, só respira
-O ar conhece o caminho inteiro
-Respira, não tem pressa
-Não há erro, não há primeiro
-O corpo sabe antes de ti
-Onde está a calma verdadeira
-Respira, e descobre aqui
-Que a paz mora na costela e na cadeira
+O ar conhece a cozinha
+A escada de casa, o degrau
+A gengiva amolece sozinha
+Onde o dia foi mau
+A costela sobe e desce
+Como vela acesa na mesa
+O corpo é uma prece
+Que se reza sem pressa
+A fossa nasal recebe
+O mundo que se atravessa
 
 [Verse 3: back to whisper, harmonies drop out]
-As mãos poisam no ventre
-O ritmo nasce de dentro
-Cada inspiração me sente
-E cada expiração é um momento
-Que não volta e não precisa
-De voltar para ser pleno
-A vida toda é feita desta brisa
-E deste sopro pequeno
+O pulso bate na madeira
+Da cadeira encostada à porta
+A anca encontra a maneira
+De pousar como folha morta
+A palma esquece o copo
+A mão esquece o que apertou
+E há um sopro novo no topo
+Da costela que se entregou
 
 [Chorus: full harmonies, brushed shaker on the off-beat]
-Respira, só respira
-O ar conhece o caminho inteiro
-Respira, não tem pressa
-Não há erro, não há primeiro
-O corpo sabe antes de ti
-Onde está a calma verdadeira
+O ar conhece a cozinha
+A escada de casa, o degrau
+A gengiva amolece sozinha
+Onde o dia foi mau
+A costela sobe e desce
+Como vela acesa na mesa
+O corpo é uma prece
+Que se reza sem pressa
 
-[Bridge: European Portuguese, Lisbon accent — vocal close, intimate, no harmonies]
-(African accent Portuguese:)
-Inspira o que te falta
-Expira o que não és
-A calma não se salta
-Constrói-se desta vez
-Cada sopro é um recomeço
-Cada silêncio entre dois ares
-É o mais honesto dos endereços
-Para quem quer chegar sem pares
+[Bridge: vocal close, intimate, no harmonies]
+O fósforo risca o silêncio
+O pavio entende o lume
+A clavícula tem um princípio
+Que a pressa nunca resume
+O esterno guarda a memória
+De cada manhã que voltou
+A costela conta a história
+De um corpo que se encontrou
 
 [Chorus: harmonies layered fuller, voice softer not louder]
-Respira, só respira
-O ar conhece o caminho
-Respira, não tem pressa
-Estás aqui, e isso é lindo
+O ar conhece a cozinha
+A escada de casa, o chão
+A gengiva amolece sozinha
+Na palma da própria mão
 
 [Outro: vocal exhaled, fading, last word spoken not sung]
-Inspira — o mundo entra
-Expira — o mundo sai
-E entre os dois respira
-Tudo o que de ti não vai
-Estás aqui
-Sempre estiveste
+A costela sobe
+A fossa nasal abre
+O pulso pousa
+A palma fica
+O ar entra
+sem mim
 respira...`,
 
   "fibra-corpo-aberto/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -107,83 +110,84 @@ stretch...
 stretch...
 
 [Verse 1: vocal whispered, very close, almost spoken]
-The shoulders hold a story
-Of everything unsaid
-A library of worry
-Archived beneath the dread
-The neck remembers arguments
-The jaw recalls the bite
-The body is a document
-Of every sleepless night
+The shoulder unsticks at the wall
+A small click, a slow give
+The clavicle takes the call
+That the night refused to live
+The jaw lets the towel hold it
+The towel still warm from the bath
+The cheekbone meets the cotton
+Half a smile, half a laugh
 
 [Verse 2: same intimacy, slight rasp on sustained notes]
-But slowly, something opens
-A door that had no key
-The muscle that was frozen
-Begins to set me free
-Not with force, not with violence
-Just a gentle leaning in
-The stretch becomes a silence
-That lets the healing begin
+The wrist rolls on the counter
+The knee bends without a plan
+The palm finds its own answer
+On the tile by the pan
+The hip leans into the doorframe
+Wood that knows my weight
+The rib makes its own claim
+On a breath that came in late
 
 [Pre-Chorus: voice opens, breath audible between phrases]
-One inch at a time
-The body starts to speak
-Not in words or rhyme
-But in the way the tight things creak
+The shoulder, the towel, the wall
+The kitchen still half-dark
+The body moves before I call
+The body knows the mark
 
 [Chorus: 3-voice airy harmony enters, soft Rhodes joins, no kick]
-Stretch into the morning
-Stretch into the light
-The body has been warning
-It's time to feel alright
-Every edge you reach beyond
-Is a wall you didn't know you'd built
-Stretch — and feel the bond
-Between the pain you held and what you've spilt
+The shoulder unsticks at the wall
+The jaw softens on the towel
+The palm warms on the counter
+The knee bends without a vowel
+The body keeps a quiet diary
+Written in tile and wood
+A morning of small openings
+A morning understood
+The clavicle finds its country
+Where the doorframe always stood
 
 [Verse 3: back to whisper, harmonies drop out]
-The fingertips are reaching
-For something they can't name
-The edges keep on teaching
-That nothing stays the same
-The hamstrings hold their stubborn ground
-The calves refuse to give
-But somewhere in between I found
-That this is how I learn to live
+The fingertip touches the mug
+Steam climbs the cheekbone slow
+The hip lets go of the rug
+Where the cat slept hours ago
+The sternum lifts on the inhale
+The shoulder blade drops behind
+And the room becomes a quiet trail
+Of a body the body designed
 
 [Chorus: full harmonies, brushed snare on off-beat]
-Stretch into the morning
-Stretch into the light
-The body has been warning
-It's time to feel alright
-Every edge you reach beyond
-Is a wall you didn't know you'd built
+The shoulder unsticks at the wall
+The jaw softens on the towel
+The palm warms on the counter
+The knee bends without a vowel
+The body keeps a quiet diary
+Written in tile and wood
 
 [Bridge: vocal close, intimate, no harmonies, vibraphone alone underneath]
-Every inch that opens
-Is a year that falls away
-Every muscle softly spoken
-Finds a gentler way to stay
-You don't need to be elastic
-You just need to try and reach
-The change is never drastic
-The body moves to teach
+The doorframe holds the elbow
+The chair holds the spine
+The window holds the jawline
+In a soft and yellow line
+Every object in the house
+Becomes a quiet hinge
+The body opens like a blouse
+Loosened at the fringe
 
 [Chorus: harmonies layered fuller, voice softer not louder]
-Stretch into the morning
-Stretch into the light
-The body has a warning
-And it sounds like feeling right
+The shoulder unsticks at the wall
+The jaw softens on the towel
+The palm warms on the counter
+The body moves on its own
 
 [Outro: vocal exhaled, fading, last word spoken not sung]
-Reach a little further
-Not to break — to breathe
-You're not almost there
-You're already here
-You've always been
-Just stretch
-and see...`,
+The towel, the wall, the wood
+The knee, the palm, the jaw
+A morning understood
+A morning that I saw
+And the shoulder, finally,
+listening to the wall...`,
 
   "fibra-corpo-aberto/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -1813,80 +1817,80 @@ Lá em cima`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The ocean dries upon my arm
-A white and gentle trace
-The sun has done its simple charm
-And left its salt on my face
-My hair is stiff, my skin is tight
-My lips taste like the sea
-And everything about this light
-Says I am wild and free
+The forearm has a white edge now
+A line where the towel did not quite reach
+The chair on the balcony holds my weight
+The wood warm against the back of the knee
+A small crust of salt sits on the wrist
+Another one near the collarbone
+The hair is stiff above the ear
+And the palm tastes faintly of the sea
 
 [Verse 2]
-The towel's warm, the sand is stuck
-Between my toes and time
-This lazy, sun-soaked stroke of luck
-Is all I need to shine
-The book I brought lies face-down still
-The pages dry and curled
-I didn't need a plot to fill
-The emptiness of the world
+The towel is folded over the chair
+A blue corner drying in the slow wind
+A glass of water sweats on the table
+The thumb leaves a clean print on the side
+The smell of seaweed lingers in the room
+Inside the nostril, behind the lower jaw
+The shoulder has the soft burn of an hour
+Spent floating on a back that knew nothing
 
 [Pre-Chorus]
-The sea writes on my body
-What the year tried to erase
-A signature — this is somebody
-Who remembered how to taste
+The breath comes lower now
+Below the sternum, into the belly
+The clavicle lifts and falls
+At the speed of a body that swam enough
 
 [Chorus]
-Salt on my skin
-Summer written on my body
-Salt on my skin
-The ocean's way of saying sorry
-For every winter, every grey
-For every cold and lonely day
-It gives us back this salty trace
-And writes the sun across my face
+The afternoon dries on the forearm
+A quiet evidence of where I was
+The chair takes the weight of the shoulder
+The table holds the glass and the book
+The smell of warm cotton and of brine
+Settles into the gum and behind the teeth
+A fine grit lives at the corner of the eye
+The skin pulls a little around the hip
+And the body remembers the long horizon
+Without needing the word for what it felt
 
 [Verse 3]
-In December I'll find crystals
-In the lining of my coat
-And the memory will whistle
-Through my body like a note
-The smell of sunscreen and of seaweed
-The sound of waves at three
-Proof that I was once this free
-Proof that I was by the sea
+The hand opens flat against the thigh
+Reading the texture the swim left behind
+A fingernail finds a grain of sand
+Trapped in the bracelet against the wrist
+The light slants across the wooden floor
+Across the empty cup and the folded shirt
+The breath slows again on the inhale
+The diaphragm settles below the ribs
 
 [Chorus]
-Salt on my skin
-Summer written on my body
-Salt on my skin
-The ocean's way of saying sorry
+The afternoon dries on the forearm
+A quiet evidence of where I was
+The chair takes the weight of the shoulder
+The table holds the glass and the book
+The smell of warm cotton and of brine
+Settles into the gum and behind the teeth
 
 [Bridge]
-You can't keep summer in a jar
-But you can keep its taste
-The salt will show you who you are
-Long after summer's laced its way
-Into your shoulders and your feet
-Into the freckles and the heat
-Summer doesn't stay — but salt does
-
-[Chorus]
-Salt on my skin
-Summer written on my body
-Salt — and I remember everything
+The window frame catches the late sun
+A bar of light across the kneecap
+The towel finally stiff in its blue corner
+The salt finally still on the upper arm
+The phone face down on the wooden table
+The book open at the page from this morning
+The shoulder dropping a last millimetre
+Into the slats of the old garden chair
 
 [Outro]
-Taste the salt
-Taste the sun
-Same thing, really
-The ocean gave me
-What the winter took
-And wrote it
-On my skin
-For free`,
+The forearm
+The collarbone
+The slow palm
+The corner of the mouth
+Still tasting
+Of an hour
+That did not ask
+To become anything else`,
 
   "grao-sal-na-pele/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -2562,82 +2566,82 @@ And you`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O som começa no telhado
-Primeiro leve, depois mais
-A casa fica do meu lado
-O mundo lava-se em sinais
-Cada gota é uma palavra
-Que ninguém precisa de dizer
-A chuva limpa o que não falta
-E ensina-me a esquecer
+O vidro da cozinha embacia primeiro
+A gota desce, traça uma linha torta
+A cadeira de pinho range no costume
+Quando dobro o joelho contra a almofada
+Há um chá quase frio no balcão
+A manta de lã cobre-me a anca
+O esterno aquece devagar
+Contra o tecido áspero da camisa
 
 [Verse 2]
-A janela embaciada
-O dedo desenha no vidro
-Um rosto, uma casa, um nada
-Que se apaga como um livro
-Que se lê com os olhos fechados
-A calefacção ronrona
-E os pensamentos cansados
-Encontram finalmente a sua dona
+A telha bate um compasso desigual
+Cinco gotas, depois quatro, depois nove
+A palma da mão pousa no peitoril
+O dedo segue o caminho de uma água
+A fossa nasal abre com o cheiro
+De terra molhada do quintal do lado
+O pulso descansa na madeira
+Que outro inverno escureceu
 
 [Pre-Chorus]
-Não há nada para resolver
-Quando a chuva assim começa
-Há apenas que me deter
-E deixar que a água desça
+A clavícula desce um centímetro
+O ombro larga uma teimosia velha
+A respiração encontra o seu lugar
+Entre o vidro embaciado e a manta
 
 [Chorus]
-Chove e eu fico
-Chove e eu estou
-Chove e o abrigo
-É este som que me encontrou
-A chuva lava por fora
-O que eu limpo por dentro
-E nesta tarde sem hora
-O telhado é o meu instrumento
+A água lá fora pinta o jardim
+De um cinzento que não pede explicação
+A cadeira segura o que sou agora
+Sem perguntar para onde vai a tarde
+O chá aquece a gengiva e o céu da boca
+A manta pesa o que pesa um corpo em paz
+E o ruído fino do telhado por cima
+Constrói uma casa dentro da casa
+Onde a anca encosta na madeira
+E o pensamento aprende a ficar quieto
 
 [Verse 3]
-Pego num livro e leio três páginas
-Largo-o e ouço a chuva mais
-As tardes de inverno são mágicas
-Porque não prometem jamais
-Nada de extraordinário
-Nada que precise de ser feito
-Só o som ordinário
-De um mundo a lavar-se por preceito
+O livro aberto na página vinte e três
+Ficou de lado, esquecido na mesa
+A escada de casa estala lá ao fundo
+O frio sobe sem pressa pelos degraus
+A gota maior bate contra a chaminé
+Um som redondo, quase de tambor pequeno
+A mão direita segura o caneca morna
+A esquerda procura o canto da manta
 
 [Chorus]
-Chove e eu fico
-Chove e eu estou
-Chove e o abrigo
-É este som que me encontrou
+A água lá fora pinta o jardim
+De um cinzento que não pede explicação
+A cadeira segura o que sou agora
+Sem perguntar para onde vai a tarde
+O chá aquece a gengiva e o céu da boca
+A manta pesa o que pesa um corpo em paz
+E o ruído fino do telhado por cima
+Constrói uma casa dentro da casa
 
 [Bridge]
-Não há nada para fazer
-Quando chove assim de noite
-A chuva é o meu parecer
-Sobre o que importa e o que foi
-E amanhã pode vir o sol
-E a correria e o barulho
-Mas agora — agora o caracol
-Que vive em mim recolhe-se ao seu orgulho
-
-[Chorus]
-Chove e eu fico
-Chove e eu estou
-E isso basta
-Isso é tudo
+O relógio do balcão atrasa três minutos
+Há semanas que não corrijo a hora
+A janela tem uma fenda pequena
+Por onde entra um fio de cheiro a inverno
+A clavícula encontra a manta de novo
+O joelho dobra do outro lado da cadeira
+A palma da mão arrefece no vidro
+E aquece outra vez contra a cerâmica
 
 [Outro]
-Chove lá fora
-Aqui dentro há calma
-O som da chuva
-É a mais antiga
-Canção de embalar
-Que a terra inventou
-Para quem precisa
-De parar`,
+A tarde fica
+A manta fica
+A cadeira fica
+A palma na cerâmica fica
+O som de água
+Contra a telha velha
+Cobre a cozinha de uma quietude
+Que ninguém precisa de nomear`,
 
   "grao-abrigo/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5242,84 +5246,80 @@ For instructions`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Inspira dois três quatro
-Expira dois três quatro
-O ritmo não é abstracto
-É o coração no seu retrato
-O nariz puxa o ar da manhã
-A boca solta o que ficou
-A respiração é a irmã
-Do passo que nunca parou
+Saio do prédio quando o azul ainda é fino
+A escada de casa cheira a café antigo
+O joelho dobra no primeiro degrau de cimento
+O pé encontra o asfalto da rua Mouzinho
+Três passos para o ar entrar, dois para sair
+A clavícula sobe um pouco, depois cede
+O diafragma desce contra o esterno
+E a manhã abre uma fenda no bairro
 
 [Verse 2]
-Os pés marcam a cadência
-O ar entra e sai
-O corpo tem a ciência
-De um metrónomo que vai
-Sem pressa, sem relógio
-Sem meta nem cronómetro
-O ritmo é o elogio
-De um corpo no seu diâmetro
+A esquina do café fechado fica para trás
+O cão do número quarenta e quatro ladra meio
+A palma da mão vai aberta, depois fecha
+O polegar toca a primeira falange do índice
+A anca encontra o seu eixo na descida
+O pulso esquerdo bate contra o tecido fino
+A fossa nasal puxa o ar húmido da rua
+E a gengiva seca um pouco no terceiro quarteirão
 
 [Pre-Chorus]
-Há uma música escondida
-Entre o pulmão e o pé
-Uma sinfonia tecida
-De ar e de fé
+O ombro larga um peso na esquina seguinte
+A clavícula encontra a sua altura certa
+O ar vai mais fundo do que ia há cinco minutos
+E a passada acerta com a respiração
 
 [Chorus]
-Respiração, respiração
-O metrónomo do corpo
-Respiração, respiração
-Inspira o vivo, expira o morto
-Dois passos para inspirar
-Dois passos para largar
-E no compasso que se faz
-O corpo encontra a sua paz
+O asfalto continua debaixo da sola
+O passo encontra o passo que vem a seguir
+A clavícula sobe e desce com o compasso
+O diafragma trabalha sem precisar de ordem
+A manhã passa de azul fino para amarelo morno
+A palma abre contra o ar da avenida nova
+E o corpo deixa de pedir explicações
+A cada cruzamento que aparece sem aviso
+Há uma cadência que conhece a rua
+E uma rua que aprendeu a cadência do corpo
 
 [Verse 3]
-A mente acalma no ritmo
-O pensamento segue o ar
-Correr é um catecismo
-Que se reza sem parar
-Cada inspiração limpa
-Cada expiração solta
-A ansiedade que se estampa
-Sai pela boca e não volta
+A subida da Rua das Flores aperta a anca
+O joelho protesta um instante, depois cede
+O esterno aquece por dentro do colete fino
+A gota desce da têmpora até à mandíbula
+O quiosque da praça abre a porta de metal
+O homem do jornal acena com a mão direita
+O pé bate no degrau baixo do passeio
+E o pulmão encontra mais espaço no peito
 
 [Chorus]
-Respiração, respiração
-O metrónomo do corpo
-Respiração, respiração
-Inspira o vivo, expira o morto
-Dois passos para inspirar
-Dois passos para largar
+O asfalto continua debaixo da sola
+O passo encontra o passo que vem a seguir
+A clavícula sobe e desce com o compasso
+O diafragma trabalha sem precisar de ordem
+A manhã passa de azul fino para amarelo morno
+A palma abre contra o ar da avenida nova
 
 [Bridge]
-Quando o ar e o passo alinham
-O corpo desaparece
-As pernas sozinhas caminham
-E a alma agradece
-Não há problema que resista
-A mil passos de ar
-A corrida é a lista
-De tudo o que posso soltar
-
-[Chorus]
-Respiração, respiração
-O metrónomo do corpo
-O corpo encontra a sua paz
+Há um quilómetro em que o corpo desaparece
+Fica só a passada e o ar que entra na boca
+A escada de casa parece longe e perto ao mesmo tempo
+O joelho esqueceu que se queixou na subida
+O pulso pulsa contra o tecido do casaco
+A fossa nasal já não distingue cheiros
+A gengiva voltou a humedecer com a saliva
+E o esterno é só um sítio onde o ar passa
 
 [Outro]
-Inspira
-Expira
-Corre
-Repete
-É só isto
-Tão simples
-Tão antigo
-Quanto o primeiro fôlego
-Que alguma vez tiraste`,
+A última esquina
+A última passada
+O joelho dobra na escada de casa
+A palma encosta ao corrimão de ferro
+A clavícula desce uma vez mais
+O esterno arrefece devagar
+E a manhã fica do lado de fora
+Já completamente amarela`,
 
   "fibra-asfalto-vivo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

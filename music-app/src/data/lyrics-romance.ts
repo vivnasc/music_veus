@@ -116,54 +116,71 @@ Stays`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Acordo com o teu cheiro na almofada
-E tu já não estás
-Mas o corpo ainda guarda
-O peso de onde estavas — e a paz
+A almofada do lado guarda a tua cova
+Onde a cabeça pousou
+O lençol tem um vinco, da anca à costela
+No sítio onde dormiste, ficou
+A minha palma viaja por esse mapa
+Sem pressa de chegar ao fim
 
 [Verse 2]
-A marca no lençol onde dormiste
-Ainda está quente
-Ponho a mão em cima como quem reza
-Num altar de algodão e do presente
+A chávena na mesa está fria há horas
+Com a tua marca no rebordo
+O casaco no encosto da cadeira
+Cheira a pescoço, a tabaco, a ombro
+Cada objeto da casa
+Aprendeu o teu jeito antes de mim
+
+[Pre-Chorus]
+O esterno ficou diferente
+A respiração tem outro ângulo
+A omoplata aprendeu uma curva nova
 
 [Chorus]
 Depois de ti
-O quarto tem outro ar
-Depois de ti
-Até o silêncio sabe a luar
-Não é saudade — é o corpo
-A guardar o que viveu
-Depois de ti o mundo é o mesmo
-Mas eu — eu já não sou eu
+A cozinha tem outra altura
+Os joelhos dobram-se devagar
+Os dedos tocam o balcão de madeira
+E sabem o que não sabiam
+A boca pronuncia o teu nome em segredo
+Entre o frigorífico e a janela
+A nuca lembra-se da tua palma
+E o corpo anda mais leve por dentro
 
 [Verse 3]
-O café da manhã sabe diferente
-A água do banho cai de outra maneira
-Até a luz que entra pela janela
-Entra mais inteira
+Lavo a louça com a água a correr morna
+A pulseira bate na borda da pia
+Antes era barulho, agora é música
+Da varanda chega o cheiro do café da vizinha
+A minha clavícula respira sem armadura
+Pela primeira vez sem se defender
 
 [Chorus]
 Depois de ti
-O quarto tem outro ar
-Depois de ti
-Até o silêncio sabe a luar
-Não é saudade — é o corpo
-A guardar o que viveu
-Depois de ti o mundo é o mesmo
-Mas eu — eu já não sou eu
+A cozinha tem outra altura
+Os joelhos dobram-se devagar
+Os dedos tocam o balcão de madeira
+E sabem o que não sabiam
+A boca pronuncia o teu nome em segredo
+Entre o frigorífico e a janela
+A nuca lembra-se da tua palma
+E o corpo anda mais leve por dentro
 
 [Bridge]
-Como é que alguém que veio
-E ficou tão pouco tempo
-Conseguiu mudar o peso
-De todos os meus movimentos
+Estiveste aqui três meses
+O suficiente para o tornozelo
+Aprender a descer as escadas sem pressa
+Para a gengiva descobrir o sabor da tua boca
+Para a costela direita ceder
+Quando me chamavas da cozinha
 
 [Outro]
-Depois de ti
-Tudo igual
-Tudo diferente
-Tudo`,
+A almofada com a tua cova
+O lençol com o vinco da anca
+A chávena com a marca do polegar
+A pulseira a bater na pia
+A clavícula sem armadura
+O passo mais leve no corredor`,
 
   "nua-romance/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -224,55 +241,71 @@ Holds`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Dança comigo na cozinha
-Com a luz do frigorífico aberta
-Com os pés descalços no chão frio
-Com a vida imperfeita e certa
+Os meus pés descalços no mosaico da cozinha
+A planta a aprender o frio
+A tua mão pousa na minha anca
+Como se sempre tivesse pousado ali
+O frigorífico zumbe baixinho
+E é essa a banda de jazz desta noite
 
 [Verse 2]
-Não preciso de música
-O teu coração basta
-Esse ritmo irregular
-Que acelera quando me agarra
+Tens o avental ainda atado na cintura
+Cheira a cebola e a sabão de limão
+O meu queixo encosta-te no ombro
+Bem onde a clavícula faz uma curva
+A panela do arroz silva no fogão
+A gente esquece, depois lembra, depois esquece
+
+[Pre-Chorus]
+Uma volta entre o balcão e a janela
+O tornozelo roça no rodapé
+A tua palma sobe da anca à costela
 
 [Chorus]
-Dança comigo
-Sem palco, sem plateia, sem ensaio
-Dança comigo
-No lugar mais ordinário
-Entre os pratos por lavar
-E o arroz que queimou
-Dança comigo — aqui
-No sítio onde o amor não se ensaiou
+Dança comigo na cozinha
+Com o azulejo gelado debaixo do calcanhar
+Com o cheiro do alho no teu pulso
+Com o pano da loiça pendurado no ombro
+Dança comigo perto do lava-loiça
+Onde o vapor sobe e me molha a têmpora
+A tua testa pousa na minha
+Como quem encaixa duas chávenas
+Na prateleira certa, sem barulho
 
 [Verse 3]
-As minhas ancas sabem coisas
-Que a minha boca não diz
-O teu ombro encaixa no meu queixo
-Como um puzzle que sempre quis
+Os teus pés cobrem os meus no mosaico
+Eu fico mais alta sem me esticar
+A tua barba raspa-me a gengiva
+Quando ris contra a minha boca
+A camisola sobe meio dedo nas costas
+E o ar da janela aberta encontra a pele
 
 [Chorus]
-Dança comigo
-Sem palco, sem plateia, sem ensaio
-Dança comigo
-No lugar mais ordinário
-Entre os pratos por lavar
-E o arroz que queimou
-Dança comigo — aqui
-No sítio onde o amor não se ensaiou
+Dança comigo na cozinha
+Com o azulejo gelado debaixo do calcanhar
+Com o cheiro do alho no teu pulso
+Com o pano da loiça pendurado no ombro
+Dança comigo perto do lava-loiça
+Onde o vapor sobe e me molha a têmpora
+A tua testa pousa na minha
+Como quem encaixa duas chávenas
+Na prateleira certa, sem barulho
 
 [Bridge]
-O amor mais bonito que conheço
-Não tem banda sonora nem guião
-Tem cheiro a alho e a terça-feira
-E um pé em cima do meu — sem querer — e perdão
+A panela transbordou
+O arroz colou no fundo
+Tu ris contra a minha orelha
+A tua mão ainda na minha cintura
+Ninguém vai escrever um poema
+Sobre este cheiro a queimado e a nós
 
 [Outro]
-Dança
-Aqui
-Descalços
-Imperfeitos
-Juntos`,
+O mosaico debaixo do meu calcanhar
+O teu polegar na minha costela
+O vapor a subir do lava-loiça
+O arroz colado no fundo da panela
+A tua testa pousada na minha
+A camisola subida meio dedo nas costas`,
 
   "nua-romance/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
