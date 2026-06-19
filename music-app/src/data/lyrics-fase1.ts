@@ -283,80 +283,92 @@ bend...
 bend...
 
 [Verse 1: vocal close, conversational, slight smile in delivery]
-They said be strong, be rigid
-Stand tall and never break
-But strength was never frigid
-It bends for its own sake
-They built a world of straight lines
-And called the curves a flaw
-But everything in nature winds
-And that's the oldest law
+The chair is the same chair
+That held me through the morning
+The desk has a thin scar
+Where the lamp leaves a warning
+My spine has found its corner
+Against the wooden slat
+The wrist sits like a mourner
+On the edge of where I sat
+The keyboard knows my knuckles
+The cup is half undone
 
 [Verse 2: same intimacy, slight rasp on sustained notes]
-The willow knows the secret
-The river knows the way
-You don't resist to keep it
-You flow and choose to stay
-The bamboo doesn't argue
-With the storm that makes it lean
-It bows and then it rises
-Like nothing in between
+The right knee rests its weight
+Against the chair leg, light
+The left foot starts to wait
+For the floor to feel right
+The clavicle drops its load
+Three centimetres down
+The jaw lets go of the road
+It carried into town
+The pelvis softens slow
+Into the seat it knows
 
 [Pre-Chorus: voice opens, breath audible]
-Rigidity cracks under pressure
-Flexibility absorbs the blow
-The body is a living measure
-Of everything you let go
+The breath is doing its work
+Without a single order
+The ribcage finds the curve
+That isn't a disorder
 
 [Chorus: 3-voice harmonies enter, fretless bass joins]
-Bend, don't break
-There's wisdom in the give
-Bend, don't break
-That's how you learn to live
-The strongest thing about you
-Is not the wall you've built
-It's the way you move right through
-The weight of what you've spilt
+The desk holds what I gave it
+The chair holds what it must
+The spine has its own gravity
+And nothing here is rust
+The wrist softens on the wood
+The palm opens its line
+The knee against the chair leg
+Stops asking to be fine
+The lamp keeps its small circle
+On the page where it began
 
 [Verse 3: back to verse intimacy, harmonies drop]
-The body holds its lessons
-In every joint and curve
-Flexibility's a blessing
-That fear does not deserve
-I used to hold my spine so tight
-I thought that was my power
-But power is the way I light
-The softness of this hour
+The phone is face-down, quiet
+The notebook keeps its place
+A pencil and a diet
+Of small things, in this space
+The shoulder blade releases
+A weight I did not name
+The room itself increases
+Without becoming flame
+The window holds the morning
+Without explaining why
 
 [Chorus: full harmonies, brushed percussion]
-Bend, don't break
-There's wisdom in the give
-Bend, don't break
-That's how you learn to live
+The desk holds what I gave it
+The chair holds what it must
+The spine has its own gravity
+And nothing here is rust
+The wrist softens on the wood
+The palm opens its line
 
 [Bridge: vocal close, no harmonies, Rhodes alone bending pitch underneath]
-Softness is not weakness
-Yielding is not loss
-The strongest trees are reckless
-The gentle ones hold on
-And when the wind has finished
-And the sky is clear again
-The ones still standing
-Are the ones who learned to bend
+The floor is wood, not metaphor
+The chair is chair, not throne
+The clavicle is a real bone
+That carried me here home
+The hours that I spent upright
+Settle into the seat
+And the body, on its own quiet
+Does its slow accounting
 
 [Chorus: harmonies layered fuller, voice softer]
-Bend, don't break
-There's wisdom in the give
-Bend, don't break
-And you will learn to live
+The desk holds what I gave it
+The chair holds what it must
+The spine has its own gravity
+The lamp keeps its small circle
+On the page where it began
 
 [Outro: vocal soft, fading, last word spoken]
-Be water — it shapes the stone
-Be wind — it moves the mountain
-Be everything that bends
-And you will never
-Be broken
-just reshaped...`,
+The chair, the desk, the lamp
+The wrist against the grain
+The knee against the chair leg
+The clavicle, the breath
+And nothing here is metaphor
+Just furniture
+and bone...`,
 
   "fibra-corpo-aberto/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -632,83 +644,90 @@ align...
 align...
 
 [Verse 1: vocal close, grounded, slow phrasing]
-The spine remembers standing
-Before the world pushed down
-Each vertebra demanding
-Its rightful place and ground
-The shoulders that were hunching
-Over screens and sorrow both
-Slowly start to uncrunch
-Like a long-delayed growth
+The wall is cold against the heel
+The plaster is a little rough
+The shoulder blade begins to feel
+The flatness of the stuff
+The lumbar leaves a thumb of air
+Between the spine and paint
+The heel and the occiput share
+The same vertical complaint
+The crown sits where it can
 
 [Verse 2: same intimacy, slight rasp on sustained notes]
-The ribs expand like petals
-Of a flower finding light
-No more invisible medals
-For all the pain you hide at night
-The chest lifts open, softly
-Like a window in a room
-That's been closed for years — and loftily
-It lets the morning bloom
+One vertebra finds the one above
+A small, patient stacking
+The ribcage finds the room it loves
+The sternum stops attacking
+The jaw lets go of the lower teeth
+The tongue drops from the roof
+The clavicles widen underneath
+The collar of the shirt as proof
+The breath grows long and slow
+Without my saying so
 
 [Pre-Chorus: voice opens, breath audible, single bell rings]
-Not a straight line imposed
-But a column finding centre
-Every curve and corner closed
-Begins again to enter
+The crown is pressing the plaster
+A small, exact contact
+The spine is its own master
+And the wall is only fact
 
 [Chorus: 3-voice harmonies enter, brushed kit, single bell at the start]
-Align, align
-Every bone finds home
-Align, align
-You were never alone
-The body has a map
-Written into every cell
-That guides you to the gap
-Between the broken and the well
+The wall is at my back
+The crown is at the wall
+The vertebrae make their stack
+Without a single call
+The heel against the skirting
+The shoulder finds its plane
+The lumbar is a small curving
+The hip a quiet frame
+The kitchen clock is ticking
+On the wall across the room
 
 [Verse 3: back to verse intimacy, harmonies drop]
-The feet press down in knowing
-The crown lifts to the sky
-Between these two points growing
-Is everything called I
-Not the I that people see
-Not the name upon the card
-But the I that's finally free
-To stand without a guard
+The light is from the window
+The floor is from the tile
+The mirror in the hallway
+Returns me, for a while
+The cat walks past the threshold
+Indifferent to the work
+The kettle, in the kitchen
+Begins its small, low murmur
+The wall behind me holds
+Without asking what it costs
 
 [Chorus: full harmonies, ascending chord-stack peaks]
-Align, align
-Every bone finds home
-Align, align
-You were never alone
+The wall is at my back
+The crown is at the wall
+The vertebrae make their stack
+Without a single call
+The heel against the skirting
+The shoulder finds its plane
 
 [Bridge: vocal close, no harmonies, single bell on each line ending]
-You don't need to be perfect
-You just need to be honest
-With the body's architecture
-And the weight of every promise
-Posture isn't punishment
-It's the body saying — here
-This is where I'm meant to stand
-This is where I'm clear
+The plaster is not symbol
+The crown is bone, not light
+The hallway has a number
+The hour has a height
+And every small adjustment
+That the spine makes on its own
+Is just the body figuring
+What it has always known
 
 [Chorus: harmonies layered fuller, voice softer]
-Align, align
-Every bone finds home
-Align, align
-I was never alone
+The wall is at my back
+The crown is at the wall
+The kitchen clock is ticking
+On the wall across the room
 
 [Outro: vocal soft, fading, last line spoken]
-Stand tall
-Not rigid — tall
-There's a difference
-Between a fortress
-And a spine
-One keeps people out
-The other holds
-You up
-from the inside...`,
+The plaster, the heel
+The crown, the clock
+The lumbar curving
+The shoulder blade flat
+And nothing here is metaphor
+Just hallway
+and bone...`,
 
   "fibra-corpo-aberto/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -5246,80 +5265,80 @@ For instructions`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Saio do prédio quando o azul ainda é fino
-A escada de casa cheira a café antigo
-O joelho dobra no primeiro degrau de cimento
-O pé encontra o asfalto da rua Mouzinho
-Três passos para o ar entrar, dois para sair
-A clavícula sobe um pouco, depois cede
-O diafragma desce contra o esterno
-E a manhã abre uma fenda no bairro
+A porta do prédio fecha com aquele baque seco
+A chave fica no bolso interior do casaco
+O pé direito acerta a primeira pedra da calçada
+O pé esquerdo segue, meio segundo depois
+A clavícula sobe um pouco com o frio da manhã
+A fossa nasal puxa o ar de azulejo molhado
+O diafragma desce contra o esterno por sua conta
+E o bairro abre como uma porta entreaberta
 
 [Verse 2]
-A esquina do café fechado fica para trás
-O cão do número quarenta e quatro ladra meio
-A palma da mão vai aberta, depois fecha
-O polegar toca a primeira falange do índice
-A anca encontra o seu eixo na descida
-O pulso esquerdo bate contra o tecido fino
-A fossa nasal puxa o ar húmido da rua
-E a gengiva seca um pouco no terceiro quarteirão
+O cruzamento da Rua da Sé com a Avenida do Trabalho
+O sinal vermelho dá uma pausa de quatro tempos
+A palma da mão direita roça o tecido da calça
+O pulso esquerdo bate contra a manga, devagar
+A anca encontra o seu próprio eixo na descida
+O joelho cede um instante na irregularidade do cimento
+A gengiva está húmida de saliva matinal
+E o esterno aquece por dentro do colete fino
 
 [Pre-Chorus]
-O ombro larga um peso na esquina seguinte
-A clavícula encontra a sua altura certa
-O ar vai mais fundo do que ia há cinco minutos
-E a passada acerta com a respiração
+O ombro deixa cair o peso que trazia da casa
+A clavícula encontra a altura que lhe pertence
+O ar entra mais fundo do que entrava há um quilómetro
+E a passada já não precisa de ser pensada
 
 [Chorus]
-O asfalto continua debaixo da sola
-O passo encontra o passo que vem a seguir
-A clavícula sobe e desce com o compasso
-O diafragma trabalha sem precisar de ordem
-A manhã passa de azul fino para amarelo morno
-A palma abre contra o ar da avenida nova
-E o corpo deixa de pedir explicações
-A cada cruzamento que aparece sem aviso
-Há uma cadência que conhece a rua
-E uma rua que aprendeu a cadência do corpo
+A rua continua a passar debaixo dos pés
+O diafragma trabalha por conta própria, sem ordem
+A clavícula sobe e desce no seu próprio compasso
+A palma abre contra o ar da avenida larga
+O joelho dobra e estica no seu próprio ritmo
+A fossa nasal puxa o ar da manhã sem pedir
+O esterno aquece sem que ninguém lho diga
+E o bairro vai passando dos azuis para os amarelos
+Há uma cadência que conhece a rua de cor
+E uma rua que conhece o passo deste corpo
 
 [Verse 3]
-A subida da Rua das Flores aperta a anca
-O joelho protesta um instante, depois cede
-O esterno aquece por dentro do colete fino
-A gota desce da têmpora até à mandíbula
-O quiosque da praça abre a porta de metal
-O homem do jornal acena com a mão direita
-O pé bate no degrau baixo do passeio
-E o pulmão encontra mais espaço no peito
+A subida da Travessa da Palmeira aperta a anca
+O quadríceps acende um fogo pequeno por dentro
+A gota desce da têmpora até ao ângulo da mandíbula
+O quiosque da praça abre a porta de metal pintado
+O homem do jornal levanta a mão direita um instante
+O pé direito bate no degrau baixo do passeio gasto
+O esterno encontra mais um centímetro de espaço
+E o pulmão lembra-se de uma largura antiga
 
 [Chorus]
-O asfalto continua debaixo da sola
-O passo encontra o passo que vem a seguir
-A clavícula sobe e desce com o compasso
-O diafragma trabalha sem precisar de ordem
-A manhã passa de azul fino para amarelo morno
-A palma abre contra o ar da avenida nova
+A rua continua a passar debaixo dos pés
+O diafragma trabalha por conta própria, sem ordem
+A clavícula sobe e desce no seu próprio compasso
+A palma abre contra o ar da avenida larga
+O joelho dobra e estica no seu próprio ritmo
+A fossa nasal puxa o ar da manhã sem pedir
 
 [Bridge]
-Há um quilómetro em que o corpo desaparece
-Fica só a passada e o ar que entra na boca
-A escada de casa parece longe e perto ao mesmo tempo
-O joelho esqueceu que se queixou na subida
-O pulso pulsa contra o tecido do casaco
-A fossa nasal já não distingue cheiros
-A gengiva voltou a humedecer com a saliva
-E o esterno é só um sítio onde o ar passa
+Há um quilómetro em que o corpo se esquece de si
+Fica apenas a passada e o ar que entra na boca
+A clavícula esqueceu que tinha trazido um peso
+O joelho esqueceu o protesto da terceira rua
+O pulso pulsa contra o tecido áspero do casaco
+A fossa nasal já não separa os cheiros do bairro
+A gengiva voltou a ter a humidade da saliva
+E o esterno é só o sítio onde o ar passa, agora
 
 [Outro]
-A última esquina
-A última passada
-O joelho dobra na escada de casa
-A palma encosta ao corrimão de ferro
-A clavícula desce uma vez mais
-O esterno arrefece devagar
-E a manhã fica do lado de fora
-Já completamente amarela`,
+A última esquina antes do prédio
+A última passada na pedra escorregadia
+O joelho dobra no primeiro degrau da escada
+A palma encosta ao corrimão de ferro frio
+A clavícula desce uma vez, depois outra
+O esterno arrefece devagar dentro do tecido
+A chave sai do bolso interior do casaco
+E a manhã fica do lado de fora, amarela completa`,
 
   "fibra-asfalto-vivo/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5412,85 +5431,80 @@ Tomorrow`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A rua inclina sem aviso
-O corpo pede para parar
-As pernas perdem o sorriso
-Mas os pés continuam a marchar
-A gravidade puxa para trás
-Como um inimigo que ri
-Mas a vontade é mais capaz
-Do que o peso que senti
+A Ladeira da Penha começa devagar
+Os primeiros vinte metros enganam o corpo
+O gémeo direito acende a primeira brasa pequena
+A planta do pé encontra a pedra inclinada
+A clavícula sobe, depois desce com dificuldade
+O esterno aperta-se contra o tecido do colete
+A fossa nasal puxa o ar mais curto que tinha
+E o ângulo da rua aumenta sem perguntar
 
 [Verse 2]
-A ladeira é uma pergunta
-Que o corpo não quer responder
-Mas a resposta sempre junta
-Mais força do que se pode ver
-Os quadríceps ardem em fogo
-A respiração fica curta
-Mas cada metro é um jogo
-Que a ladeira nunca furta
+Aos cinquenta metros o gémeo esquerdo entra na brasa
+O quadríceps direito acende a segunda chama
+O joelho dobra um milímetro a menos do que devia
+A palma da mão abre e fecha no compasso curto
+O pulso bate audível contra o tecido do casaco
+A gengiva seca um pouco com a boca entreaberta
+O ombro tenta subir, depois lembra-se de descer
+E a costela do lado direito aperta o pulmão
 
 [Pre-Chorus]
-A subida não é castigo
-É convite disfarçado
-Porque no topo está contigo
-Tudo o que tinhas desejado
+O pulmão começa a procurar largura nova
+A traqueia abre um milímetro que não usava
+O diafragma desce mais fundo contra o estômago
+E o esterno cede para deixar entrar mais ar
 
 [Chorus]
-Sobe, sobe, a ladeira é cruel
-Mas no topo o mundo é mel
-Sobe, sobe, os joelhos a gritar
-Mas a vista vai-te calar
-Cada metro é uma vitória
-Cada passo conta a história
-De alguém que não parou
-De alguém que se superou
+A ladeira continua, indiferente ao gémeo
+A pedra continua, indiferente ao joelho
+O pulmão encontra mais espaço dentro da costela
+A clavícula encontra um ritmo que não escolhi
+O quadríceps queima sem pedir negociação
+A fossa nasal puxa o ar do meio-dia quente
+O esterno abre uma fenda que não conhecia
+E o pulmão lembra-se de uma largura antiga, esquecida
+Há um corpo a saber o que não lhe ensinaram
+E uma ladeira que é só ladeira, sem moral
 
 [Verse 3]
-O topo aparece ao longe
-Uma promessa no horizonte
-O corpo dobra mas não se rompe
-E a vista é a melhor ponte
-As pernas queimam, os pulmões ardem
-Mas os olhos já conseguem ver
-Que os momentos que mais valem
-São os que custam a vencer
+A meio da ladeira aparece o muro do convento
+A sombra cobre três passos, depois o sol volta
+A planta do pé encontra a pedra escorregadia
+O gémeo direito treme uma vez, depois firma
+A palma da mão direita roça o muro caiado
+A têmpora pulsa contra a têmpora oposta
+O esterno encontra mais dois milímetros de espaço
+E o ar entra mais fundo do que entrava no início
 
 [Chorus]
-Sobe, sobe, a ladeira é cruel
-Mas no topo o mundo é mel
-Sobe, sobe, os joelhos a gritar
-Mas a vista vai-te calar
-Cada metro é uma vitória
-Cada passo conta a história
+A ladeira continua, indiferente ao gémeo
+A pedra continua, indiferente ao joelho
+O pulmão encontra mais espaço dentro da costela
+A clavícula encontra um ritmo que não escolhi
+O quadríceps queima sem pedir negociação
+A fossa nasal puxa o ar do meio-dia quente
 
 [Bridge]
-As coisas melhores da vida
-Estão sempre no cimo da encosta
-Depois de uma subida
-A descida é uma aposta
-E quando olhares para trás
-Para a ladeira que subiste
-Vais perceber que és capaz
-De muito mais do que pensaste e disseste
-
-[Chorus]
-Sobe, sobe, a ladeira é cruel
-Mas no topo o mundo é mel
-De alguém que não parou
-De alguém que se superou
+Os últimos cinquenta metros são quase planos
+O gémeo solta a brasa devagar, sem aviso
+O quadríceps deixa de queimar, ainda lentamente
+A clavícula encontra uma altura que não tinha
+O pulmão fica com a largura que descobriu
+O esterno guarda a fenda nova como prova
+A gengiva volta a humedecer com a saliva
+E o topo da Ladeira da Penha aparece em silêncio
 
 [Outro]
-Olha a vista
-Valeu cada passo
-Cada metro
-Cada gota de suor
-Cada músculo que ardeu
-Olha a vista
-E lembra-te
-Que a subida
-É onde te constróis`,
+O cimo é só uma esquina
+Com uma padaria e um sinal de stop
+O gémeo arrefece dentro do tecido
+O pulmão fica com a largura nova
+A clavícula desce uma vez, depois outra
+O esterno guarda o que encontrou
+E o corpo, no cimo da Ladeira da Penha
+Não pede explicações nem dá`,
 
   "fibra-asfalto-vivo/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -6277,86 +6291,88 @@ You've earned this`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A cor da piscina é outra
-Diferente do mar e do céu
-Um azul que acalma e que mostra
-Que há paz no que é só meu
-Não é o azul do oceano
-Que é imenso e amedronta
-É o azul mais humano
-Que me acolhe e não me afronta
+O azulejo da cozinha tem uma rachadela fina
+Que sobe da terceira fila até quase ao tecto
+A palma da mão passa por cima sem o sentir
+A mãe dizia que o azul é o azul de Évora
+Comprado num talho velho que já não existe
+A cor não conta uma história, só está
+A junta entre dois azulejos guarda um pouco de gordura
+Que o pano não tira por mais que insista
 
 [Verse 2]
-O azul não pede nada
-Não exige nem pressiona
-É uma cor que é dada
-E que nunca abandona
-Está lá quando chego
-Está lá quando parto
-O azul é o meu sossego
-O meu mais fiel contrato
+A parede da piscina municipal é mais clara
+Um azul cerâmico com uma linha branca em baixo
+A clavícula encosta à parede no fim da carreira
+O joelho dobra contra o azulejo molhado
+A planta do pé empurra a parede para a viragem
+A palma da mão toca a linha branca por uma fração
+A fossa nasal sai da água com o cheiro do cloro
+E o azul fica gravado nas pálpebras por um instante
 
 [Pre-Chorus]
-Dizem que o azul é triste
-Blue em inglês é melancolia
-Mas este azul insiste
-Em ser a mais pura alegria
+O azulejo é só azulejo, cozido a alta temperatura
+A cor é só uma fórmula de cobalto e estanho
+A parede da piscina é só parede pintada
+E a cor não tem moral, só tem química
 
 [Chorus]
-Azul, azul
-A cor que me acalma
-Azul, azul
-Que entra pela alma
-Sem pedir licença nem razão
-O azul é uma bênção
-Uma presença sem intenção
-Que me acalma sem sermão
+O azulejo da cozinha tem a rachadela fina
+A parede da piscina tem a linha branca em baixo
+A palma da mão conhece as duas superfícies
+O joelho conhece o azulejo molhado da piscina
+A clavícula conhece a frieza da parede caiada
+O cobalto está nas duas, em proporções diferentes
+A mãe escolheu o azul de Évora há quarenta anos
+A câmara escolheu o azul cerâmico há vinte
+E os dois azuis vivem no mesmo corpo, simultâneos
+Sem se cruzarem, sem se explicarem
 
 [Verse 3]
-Olho para o fundo da piscina
-E vejo só esta cor
-Uma paleta que me ensina
-Que a calma tem esta cor
-Que a paz não precisa
-De razão nem explicação
-Como a brisa que desliza
-Sem pedir autorização
+O balcão da cozinha apoia o cotovelo direito
+A chávena de chá deixa um anel claro na madeira
+O azulejo está atrás, com a rachadela ao alcance
+Os dedos passam por cima como quem cumprimenta
+O cobalto não se gasta com o roçar da palma
+A junta entre azulejos guarda mais um pouco de pó
+A claridade da janela cai sobre a parede toda
+E o azul fica mais claro perto do peitoril
 
 [Chorus]
-Azul, azul
-A cor que me acalma
-Azul, azul
-Que entra pela alma
-Sem pedir licença nem razão
-O azul é uma bênção
+O azulejo da cozinha tem a rachadela fina
+A parede da piscina tem a linha branca em baixo
+A palma da mão conhece as duas superfícies
+O joelho conhece o azulejo molhado da piscina
+A clavícula conhece a frieza da parede caiada
+O cobalto está nas duas, em proporções diferentes
 
 [Bridge]
-Se eu pudesse pintar o silêncio
-Seria desta cor
-Um azul sem pretensão nem ensejo
-Só presença, só amor
-Se eu pudesse guardar uma cor
-Para os dias mais cinzentos
-Guardava este azul maior
-Que cabe em todos os momentos
+O azul de Évora é um azul de cobalto e ferro
+A parede da piscina leva mais titânio e estanho
+O mar do Tofo é outra coisa, com sal e areia
+O céu não é cor, é distância e luz dispersa
+A cozinha tem o azul que a mãe escolheu no talho
+A piscina tem o azul que o concurso público escolheu
+A palma da mão atravessa os dois sem comentário
+E o corpo guarda os dois sem hierarquia
 
 [Chorus]
-Azul, azul
-A cor que me acalma
-Uma presença sem intenção
-Que me acalma sem sermão
+O azulejo da cozinha tem a rachadela fina
+A parede da piscina tem a linha branca em baixo
+O cobalto está nas duas, em proporções diferentes
+E os dois azuis vivem no mesmo corpo
 
 [Outro]
-Azul
-Só azul
-E nada mais
-Não preciso de mais nada
-Do que esta cor
-E este silêncio
-E esta água
-Que me diz
-Sem palavras
-Que tudo vai ficar bem`,
+A rachadela no azulejo
+A linha branca na piscina
+A junta com pó na cozinha
+A junta com cloro no fundo
+A palma da mão sabe as duas
+O joelho sabe as duas
+A clavícula sabe as duas
+E a cor é só cor
+Sem pedir nada
+Sem prometer nada`,
 
   "fibra-azul-fundo/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

@@ -4240,70 +4240,69 @@ lado. Cor #F5A65B na tipografia. Sem rosto.`,
 
 [Intro: gospel piano with rich chords, vocal entering on bar 2 — no long instrumental opening
 [Verse 1]
-
-Hoje não
-A primeira frase da manhã
-Hoje não te entrego o dia inteiro
-Hoje não, peso
-Hoje não, voz que me fala dentro
-Hoje não, lista que nunca acaba
-Hoje não, tudo o que tu queres
-Hoje não, tudo de uma vez
+A mão fica na maçaneta
+Não roda, não puxa, não abre
+A campainha tocou duas vezes
+O passeio lá fora continua
+A palma quente contra a madeira fria
+O pulso bate devagar
+A cozinha cheira a café de ontem
+E a chávena ainda está no balcão
 [Verse 2]
-Não é guerra, não é raiva
-É higiene, é perímetro
-Hoje há sítios onde tu não entras
-Hoje há horas que são minhas
-Não te explico mais
-Não te justifico mais
-Hoje não é palavra completa
-Não precisa de continuação
+O telefone vibra na mesa
+A mesa é de pinho, tem uma mancha de chá
+A mancha tem o feitio de Moçambique
+O dedo passa por cima da mancha
+O dedo não pega no telefone
+A clavícula desce um centímetro
+A gengiva relaxa, o maxilar abre
+E o silêncio ocupa a divisão toda
 [Pre-Chorus]
-Cada hoje não
-É um hoje sim
-A outra coisa
-Que o dia tem para mim
+A casa fica em mim
+A janela fica fechada
+A escada de casa
+Tem sete degraus que não vou descer
 [Chorus]
-Hoje não
-Não te entrego tudo
-Hoje não
-O resto fica para outro dia
-Não é fraqueza, é escolha
-Não é fuga, é foco
-Hoje não
-Hoje não, hoje não
-E é para o teu bem também
+A maçaneta esfria debaixo da palma
+O passeio segue sem mim
+A chávena com café de ontem
+Espera na bancada da cozinha
+A campainha cala-se à terceira
+O esterno levanta-se sozinho
+A costela esquerda abre espaço
+Para um ar que ninguém me pediu
+E a porta fica fechada por dentro
+Com a chave na fechadura
 [Verse 3]
-Hoje não vou pensar nisso
-Hoje não vou falar disso
-Hoje não vou ler aquilo
-Hoje não vou abrir aquela conversa
-Amanhã talvez sim
-Daqui a uma semana talvez sim
-Mas hoje não
-E hoje não basta saber
+A vizinha do quarto andar
+Subiu as escadas a falar alto
+Eu estava sentada no chão da cozinha
+Com as costas contra o armário de baixo
+O joelho dobrado, o outro estendido
+A anca a encostar no azulejo frio
+Não respondi a ninguém
+E ninguém ficou a saber
 [Chorus: 3-voice harmonies enter, tambourine on the four]
-
-Hoje não
-Não te entrego tudo
-Hoje não
-O resto fica para outro dia
-
+A maçaneta esfria debaixo da palma
+O passeio segue sem mim
+A chávena com café de ontem
+Espera na bancada da cozinha
+A campainha cala-se à terceira
+O esterno levanta-se sozinho
 [Bridge: vocal close, harmonies hum underneath, gospel piano carries — opens, does not resolv
 (African accent Portuguese:)
-Tu chegaste a um ponto
-Em que aprendeste a guardar
-A dizer que não
-Sem teres de gritar
-Sem teres de explicar
-A dizer que não
-Como se fosse uma coisa simples
-Que finalmente é
+Aprendi a dizer que não
+Sem levantar a voz, sem fechar com força
+O corpo aprendeu primeiro
+A garganta aprendeu depois
+A fossa nasal direita aprendeu por último
+O ar entra, fica, sai
+E o dia segue sem me obrigar a nada
 [Outro: vocal warm, piano fading]
-Hoje não
-o resto fica
-hoje não
-para outro dia`,
+a palma na maçaneta
+o telefone na mesa
+a chávena no balcão
+e a casa fica em mim`,
 
   "incenso-hoje-nao/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5207,70 +5206,73 @@ o diafragma`,
 
 [Intro: deep house pads with breathing-rhythm sidechain, Hammond stabs, vocal entering on bar
 [Verse 1]
-Inhale, exhale
-The only choreography I need today
-Inhale, exhale
-The dance the lungs were doing all along
-While I was busy
-While I was distracted
-The lungs kept dancing
-And the body stayed alive
+The desk is laminate, fake oak
+There is a coffee ring near the corner
+The keyboard is warm under both wrists
+The screen has eleven tabs open
+And the lungs are filling without my permission
+The clavicle lifts a millimeter
+The sternum follows half a beat behind
+The body did not wait for me to remember
 [Verse 2]
-Today I am dancing with my lungs
-Today I am following their lead
-The kick is the heart, the sidechain is the breath
-The body and the music are in time
-For once, for once
-I'm not trying to override the body
-I'm trying to keep up
-And keeping up is enough
+The glass of water sits to the right of the keyboard
+The glass is real, the water is from the tap
+There is a thumbprint on the rim
+The thumb was mine, two hours ago
+The throat swallows on its own clock
+The gum at the back of the jaw unclenches
+A rib I had forgotten about widens
+And the chair holds the spine where it falls
 [Pre-Chorus]
-Inhale, exhale
-The first dance I ever knew
-Inhale, exhale
-The dance my body wants to keep doing
+The desk is here
+The water is here
+The lungs were always here
+Doing the work I forgot to thank them for
 [Chorus]
-Inhale, exhale
-The only choreography I need today
-Inhale, exhale
-The lungs lead, I follow
-The mind can sit this one out
-The mind can take a break
-The body is doing the choreography
-That has worked since the first breath
+The glass leaves a fresh ring beside the old one
+The keyboard cools where my wrists were
+The lungs fill the space between the seventh
+And the eighth rib without being asked
+The nostril takes the dry office air
+The diaphragm drops, the belly softens
+The shoulder blades unhook from the ears
+The chair takes the weight of the pelvis
+And the meeting on the screen carries on without me
 [Verse 3]
-At a red light, inhale, exhale
-At a meeting, inhale, exhale
-In a difficult conversation, inhale, exhale
-In the elevator before the call, inhale, exhale
-The choreography is portable
-The choreography is private
-
-The choreography is mine
-And the choreography is enough
+The phone rings in the next room
+I do not stand up to answer it
+The kneecap presses into the underside of the desk
+The heel rests against the metal leg of the chair
+The palm flattens on the laminate
+The pulse runs through the wrist into the wood
+The body keeps breathing through the ringing
+And the ringing eventually stops
 [Chorus: full harmony stack, sidechained pads peak with breath rhythm]
-Inhale, exhale
-The only choreography I need today
-Inhale, exhale
-The lungs lead, I follow
+The glass leaves a fresh ring beside the old one
+The keyboard cools where my wrists were
+The lungs fill the space between the seventh
+And the eighth rib without being asked
+The nostril takes the dry office air
+The diaphragm drops, the belly softens
 [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
-You know the choreography
-You have been doing it since you were born
-You don't need a new dance
-You need to remember the dance you have
-Inhale, inhale, exhale
-On the kick, on the kick, off the kick
-That is the dance
-And the body remembers
+The lungs were working in the elevator
+The lungs were working in the lobby
+The lungs were working through the bad email
+The lungs were working through the worse reply
+They never stopped, they never asked
+The body kept its side of the deal
+And the glass of water is still half full
+On the corner of the laminate desk
 [Final Chorus: full harmony stack, peaks]
-Inhale, exhale
-The only choreography I need today
-Inhale, exhale
-The lungs lead, I follow
+The glass leaves a fresh ring beside the old one
+The lungs fill the space between the seventh
+And the eighth rib without being asked
+The chair takes the weight of the pelvis
 [Outro: vocal soft, kick fades, sidechain breath continues]
-Inhale, exhale
-the lungs lead
-inhale, exhale`,
+the glass of water
+the warm keyboard
+the seventh rib
+the eighth rib`,
 
   "incenso-ar/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -5641,74 +5643,72 @@ não pedi e veio`,
 [Intro: solo felt-piano, warm Hammond pad very low, slow audible breathing, vocal entering on
 [Verse 1]
 (slow inhale, slow exhale)
-Soft landing
-The breath came back during the afternoon
-And by the evening I was sitting here
-With both feet on the ground
-And the chest doing its work
-Without my supervision
-This is the destination
-That nobody promised me
+The couch is the brown one near the window
+The cushion still has the dent from last night
+The lamp on the side table is on
+The bulb is warm yellow, the shade is linen
+The light falls across one knee
+The other knee stays in shadow
+And the back of the head sinks into the cushion
+Like it has been waiting all day for this
 [Verse 2]
 (slow inhale, slow exhale)
-The day is doing its work
-Without me — I am at the kitchen window
-The phone is silent, or maybe it's not
-I am not checking
-The body is breathing slow now
-After the long day of breathing fast
-The body is allowed
-The body has earned this
+The bed in the next room is made
+The sheets are the white ones, washed yesterday
+The pillow on the left has my smell
+The pillow on the right is colder
+The bedside book is open at page eighty-one
+The page is creased at the corner
+The lamp by the bed is off, for now
+And the body knows the way through the dark
 [Pre-Chorus]
-Soft landing
-
-Not the high, not the low
-Soft landing
-The middle place where the body sits
+The lamp on the side table is on
+The cushion holds the shape of the spine
+The clock on the kitchen counter ticks
+And the building settles into its bones
 [Chorus]
-Soft landing
-The breath is back
-The day is doing its work without me
-Soft landing
-The chest is open
-The shoulders are lower
-Soft landing
-The version of evening
-Where I let the world be
+The couch takes the weight of both shoulder blades
+The linen shade holds the bulb in warm yellow
+The knee in the light, the knee in the shadow
+The book on the bed open at page eighty-one
+The clavicle drops a finger's width
+The jaw unhooks behind the molars
+The diaphragm finds its slowest gear
+And the lamp burns steady through the evening
+Without anyone watching it burn
 [Verse 3]
 (slow inhale, slow exhale)
-This is the landing the body wanted
-Not the crash, not the conquest
-The slow descent
-With nothing burning, nothing celebrated
-Tomorrow the breath may be short again
-But tonight, the breath is long
-And I will sleep with the long breath
-And the body will continue
+The fridge hums in the next room
+The neighbor upstairs walks across the floor
+The pipe behind the wall makes its night sound
+The palm rests on the inside of the wrist
+The thumb finds the pulse and stays there
+The pulse is slower than it was at noon
+The eyelids weigh more than they did at five
+And the lamp keeps the room from being black
 [Chorus: soft female choir hum enters, faraway]
-Soft landing
-The breath is back
-The day is doing its work without me
-Soft landing
-The chest is open
+The couch takes the weight of both shoulder blades
+The linen shade holds the bulb in warm yellow
+The knee in the light, the knee in the shadow
+The book on the bed open at page eighty-one
+The diaphragm finds its slowest gear
 [Bridge: vocal close, choir hums, only piano — opens, does not resolve]
 (audible slow inhale, 6 seconds)
 (audible slow exhale, 8 seconds)
-You may not have arrived yet
-You may still be in the high or the low
-But the soft landing is real
-The soft landing is reachable
-Not by force, by patience
-Tomorrow, the next day, eventually
-Soft landing is what the body returns to
-When you let the body lead
+The couch will still be here tomorrow
+The lamp will still be here tomorrow
+The bed will still be made when I walk to it
+The body will carry me the eight steps
+From this cushion to that pillow
+The hip will rotate, the heel will lift
+The shoulder will lower onto the white sheet
+And the lamp will go off on its own clock
 [Outro: vocal soft, piano fading, slow breathing continues, choir lingers]
 (slow inhale, slow exhale)
-
-Soft landing
-the breath is back
-soft landing
-the body breathes slow
+the lamp is warm yellow
+the cushion holds the spine
+the white sheet waits
+and the eyelids close
 
 Notas para o canal YouTube
 Posicionamento da playlist: EP3 entra como bálsamo. Funciona em qualquer hora do
@@ -5876,73 +5876,66 @@ the door is open`,
 
 [Intro: deep house pads with Hammond stabs, footstep texture, vocal entering on bar 2, kick f
 [Verse 1]
-Anda comigo
-Saí de casa há quinze minutos
-Estou na rua de baixo
-A passada é rápida mas não é corrida
-Anda comigo
-Não tenho destino
-Tenho rua, tenho passos
-Tenho ar a entrar pelo peito
+Saí de casa há um quarto de hora
+A rua de baixo cheira a pão velho
+A anca encontrou o seu compasso sozinha
+O ombro direito aqueceu primeiro
+A palma da mão a abrir e a fechar
+A respiração arruma-se nas costelas
 [Verse 2]
-Não me importa para onde vamos
-Importa-me que vamos juntas
-Mesmo sem nos vermos
-Mesmo sem nos falarmos
-Tu na tua rua, eu na minha
-Mas a passada é a mesma
-A música é a mesma
-E isso já é estarmos juntas
-
+A esquina da padaria tem um banco
+Hoje não me sento, hoje passo
+O joelho responde sem que eu peça
+A clavícula desce, o queixo levanta
+Atravesso o passeio das mangueiras
+A sombra desenha-se ao lado do pé
 [Pre-Chorus]
-Anda comigo
-Não te peço explicação
-Anda comigo
-Não te peço companhia eterna
-Apenas — esta hora
+A passada faz as contas do dia
+Por dentro das costas, por dentro do peito
+A cabeça desarruma-se a favor
 [Chorus]
-Anda comigo
-Não tenho mapa, tenho passada
-Anda comigo
-A rua é boa para nós duas
-Não preciso da tua palavra
-Preciso da tua presença
-Anda comigo
-E a manhã arruma-se à volta de nós
+A esquina da farmácia conhece-me melhor
+Do que a cadeira do escritório
+A anca conduz, eu vou atrás
+O esterno aquecido pelo sol da manhã
+A rua acerta o passo comigo
+A gengiva relaxa, a mandíbula desce
+O pulso bate calmo na palma da mão
+E o quarteirão arruma-se à volta de mim
 [Verse 3]
-Quando voltarmos a casa
-Vamos chegar diferentes
-Não diferentes mulheres
+Quando voltar a casa
+Vou chegar diferente
 A mesma mulher mais arejada
-A passada arruma a cabeça
-A passada arruma o peito
-A passada faz o que terapias antigas
-Demoraram anos a fazer
+A fossa nasal limpa do ar da rua
+A planta do pé reconhece o degrau
+O peito assentou onde costumava apertar
 [Chorus]
-Anda comigo
-Não tenho mapa, tenho passada
-Anda comigo
-A rua é boa para nós duas
-
-[Bridge: vocal opens, harmonies stack, kick keeps going, footsteps surge — opens, does not re
-Há um quarteirão à tua espera
-Um quarteirão pequeno, conhecido, gasto
-Nem sequer precisa de ser bonito
-Anda à volta dele uma vez, devagar
-Não é exercício
-É comemoração de teres pernas
-E hoje as pernas estão a postos
-E as pernas têm saudade
+A esquina da farmácia conhece-me melhor
+Do que a cadeira do escritório
+A anca conduz, eu vou atrás
+O esterno aquecido pelo sol da manhã
+A rua acerta o passo comigo
+A gengiva relaxa, a mandíbula desce
+O pulso bate calmo na palma da mão
+E o quarteirão arruma-se à volta de mim
+[Bridge: vocal opens, harmonies stack, kick keeps going, footsteps surge, opens, does not resolve]
+Há um quarteirão gasto à minha espera
+Não precisa de ser bonito
+A escada de casa vai estar lá depois
+O balcão da cozinha vai estar lá depois
+Agora é a rua, é a esquina do quiosque
+É o passeio que conhece o meu calcanhar
+A costela direita lembra-se da curva
+A anca segue sem comentário
 [Final Chorus: full harmony stack, sidechained pads peak]
-Anda comigo
-Não tenho mapa, tenho passada
-Anda comigo
-
-A rua é boa para nós duas
+A esquina da farmácia conhece-me melhor
+Do que a cadeira do escritório
+A anca conduz, eu vou atrás
+O esterno aquecido pelo sol da manhã
 [Outro: vocal soft, kick fades, footsteps lingering]
-Anda comigo
-a rua é boa
-anda comigo
+A rua acerta o passo
+a anca conduz
+o ombro aquece
 a manhã arruma-se`,
 
   "incenso-mexe/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -5951,72 +5944,69 @@ a manhã arruma-se`,
 
 [Intro: deep house pads with Hammond stabs, hand-claps polyrhythmic, vocal entering on bar 2,
 [Verse 1]
-Dance without asking
-The body knew before the music started
-The hips were already moving slightly
-Before the bar count began
-Dance without asking
-
-Permission is for performance
-This is not performance
-This is the body remembering itself
+The kettle is whistling on the back ring
+The radio caught a song from the year I turned twenty
+The hip moved before I noticed it moved
+The linoleum is cool under the right heel
+The left heel lifts, the right heel answers
+The clavicle remembers something older than me
 [Verse 2]
-Nobody is watching
-And nobody needs to be
-The kitchen is the dance floor
-The corridor is the dance floor
-The bedroom mirror is the dance floor
-The bathroom is the dance floor
-Anywhere with two square metres
-Is the dance floor
+The mug is in the sink, the cloth is on the counter
+There is half a tomato on the chopping board
+None of this needs me right this minute
+The wrist circles around the kitchen tap
+The shoulder rolls back into its socket
+The sternum loosens by half an inch
+The jaw unclenches on its own
 [Pre-Chorus]
-Dance without asking
-Nobody is the judge
-Dance without asking
-The body has its own grammar
-And the grammar is fine
+Nobody is in the doorway
+Nobody is keeping score
+The body has its own grammar this morning
 [Chorus]
-Dance without asking
-The body knew before the music started
-Dance without asking
-The hips are wiser than the head
-The body knows the rhythm
-The body has always known the rhythm
-Dance without asking
-And see what comes loose
+The hip finds the rhythm at the counter edge
+The kitchen tiles know my heel by name
+The cotton of the t-shirt slides on the rib
+The knee bends low and comes up easy
+The radio is real, the song is real
+The palm rests flat against the cool stone
+The breath drops down past the navel
+The shoulder blade opens like a fan
+The morning is the dance floor I already paid for
 [Verse 3]
-Three minutes will change the chest
-Three minutes will rearrange the day
-The body will sweat just enough
-To remember it has skin
-The lungs will work harder for once
-And the lungs are pleased about that
-Dance without asking
-And the body will thank you tonight
-[Chorus: full harmony stack, sidechained pads peak]
-Dance without asking
-The body knew before the music started
-Dance without asking
-The hips are wiser than the head
-
-[Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
-Right now, where you are
-Wherever you are, however you are
-Move one part of the body for ten seconds
-Hand, foot, hip, shoulder
-You don't have to do it well
-You don't have to do it pretty
-You just have to do it
-And the body will remember the rest
+Three minutes will rearrange the chest
+Three minutes will change the colour of the day
+The sweat will rise on the collarbone
+The lungs will work a little harder for once
+The cotton t-shirt darkens at the spine
+The mug will still be there in the sink
+[Chorus]
+The hip finds the rhythm at the counter edge
+The kitchen tiles know my heel by name
+The cotton of the t-shirt slides on the rib
+The knee bends low and comes up easy
+The radio is real, the song is real
+The palm rests flat against the cool stone
+The breath drops down past the navel
+The shoulder blade opens like a fan
+The morning is the dance floor I already paid for
+[Bridge: vocal opens, harmonies stack, kick keeps going, opens, does not resolve]
+The fridge hums in a key I never noticed
+The window above the sink is half open
+A car passes outside, the body keeps the pulse
+The wrist remembers a wedding from years ago
+The hip remembers a kitchen from another house
+The body stitches the rooms together
+The palm finds the counter, the heel finds the tile
 [Final Chorus: full harmony stack, peaks]
-Dance without asking
-The body knew before the music started
-Dance without asking
-The hips are wiser than the head
+The hip finds the rhythm at the counter edge
+The kitchen tiles know my heel by name
+The cotton of the t-shirt slides on the rib
+The knee bends low and comes up easy
 [Outro: vocal soft, kick fades]
-Dance without asking
-the body knew
-dance without asking`,
+The hip finds the rhythm
+the heel answers
+the clavicle warms
+the song was already in the room`,
 
   "incenso-mexe/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -6024,76 +6014,70 @@ dance without asking`,
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
-Suor bom
-A camisola colada à testa
-A nuca quente
-A respiração funda
-Suor bom
-O suor de ter caminhado
-O suor de ter dançado
-O suor de ter trabalhado o corpo
+A clavícula brilhou primeiro
+A t-shirt de algodão escureceu na nuca
+Voltei da rua há cinco minutos
+A respiração ainda conta o quarteirão
+A palma da mão pousada no balcão da cozinha
+O peito sobe, o peito desce, devagar
 [Verse 2]
-Há suor que é pânico
-E há suor que é prova
-O primeiro veio comigo durante anos
-O segundo aprendi tarde
-O suor bom é vitamina
-O suor bom é purga
-O suor bom é a confissão do corpo
-De que esteve a viver
+A jarra de água está em cima da mesa
+O copo de vidro com a marca do polegar
+A primeira golada desce até ao esterno
+A segunda lembra-me que tenho costelas
+O algodão da t-shirt cola-se à omoplata
+A pele do antebraço está quente, está real
+A janela da cozinha tem cortina de linho
 [Pre-Chorus]
-Suor bom não é vergonha
-Suor bom é assinatura
-Suor bom é o nome
-Que o corpo deixa no dia
+Não é vergonha, é assinatura
+É o corpo a contar a sua manhã
+Pela testa, pela clavícula, pelas costas
 [Chorus]
-Suor bom
-O suor que prova
-Que estive a viver
-Suor bom
-A roupa molhada
-A pele quente
-O coração rápido
-Tudo prova de existência
-Suor bom
+A clavícula guarda a memória da rua
+Em duas linhas pequenas de sal
+O copo de vidro pousa no balcão
+A t-shirt de algodão arrefece a pele
+O cabelo molhado na linha da nuca
+A janela aberta deixa entrar o ar
+O joelho descansa contra o armário baixo
+A respiração arruma-se nas costelas
+A cozinha cheira a água e a passada
 [Verse 3]
-Anos a fugir do suor
-Anos a desodorizar a vida
-Hoje aceito o suor
-Como aceito a chuva
-
-Vem do corpo, vem do esforço
-Vem do trabalho honesto da carne
-Que carregou a vida pelas escadas
-Que pôs a roupa a estender ao sol
-
-[Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, dje
-Suor bom
-O suor que prova
-Que estive a viver
-Suor bom
-A roupa molhada
-
-[Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady — opens, does
+Anos a fugir do esforço da carne
+A pôr perfume por cima da verdade
+Hoje aceito o sal como aceito a chuva
+A clavícula é onde o dia se assina
+A t-shirt vai para o cesto da máquina
+A jarra volta ao seu lugar no frigorífico
+[Chorus]
+A clavícula guarda a memória da rua
+Em duas linhas pequenas de sal
+O copo de vidro pousa no balcão
+A t-shirt de algodão arrefece a pele
+O cabelo molhado na linha da nuca
+A janela aberta deixa entrar o ar
+O joelho descansa contra o armário baixo
+A respiração arruma-se nas costelas
+A cozinha cheira a água e a passada
+[Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady, opens, does not resolve]
 (African accent Portuguese:)
-Suor é água que sai
-Suor é água que entrou outro dia
-Suor é circulação
-Suor é confirmação
-A pessoa que sua hoje
-É a pessoa que se moveu hoje
-E a pessoa que se moveu hoje
-Vai dormir melhor esta noite
+A água que sai pela pele
+É a água que entrou ontem
+O sal que pousa na clavícula
+É o sal que andou na rua comigo
+A palma da mão larga o copo
+O pulso bate calmo na pia
+O balcão da cozinha foi testemunha
 [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
-Suor bom
-o suor que prova
-suor bom
-estive a viver
+A clavícula guarda a memória da rua
+Em duas linhas pequenas de sal
+O copo de vidro pousa no balcão
+A t-shirt de algodão arrefece a pele
 [Outro: vocal warm, choir fading, djembe lingers]
-Suor bom
-assinatura
-suor bom
-estive a viver`,
+A clavícula assina
+a t-shirt arrefece
+o copo descansa
+a manhã ficou no corpo`,
 
   "incenso-mexe/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -6484,74 +6468,73 @@ Elevar principal.`,
 
 [Intro: gospel piano with rich chords, Hammond organ swell (gentle), vocal entering on bar 2
 [Verse 1]
-Volta a mim
-Não à mulher das fotografias antigas
-Não à dos anos antes do casamento
-Não à dos anos antes do filho
-Volta a mim
-À que sou agora
-Que tem o corpo destes anos
-Que tem a voz destes anos
+O espelho da casa de banho tem uma marca
+No canto de baixo, do creme que respingou
+A mulher dentro do espelho hoje tem quarenta e três
+Tem uma ruga nova entre as sobrancelhas
+Tem uma cicatriz fina no queixo, do berço da Inês
+Tem o cabelo mais grosso do lado direito
+E os olhos cansados de quem dormiu seis horas
+Mas ainda assim acordou antes do despertador
 [Verse 2]
-Andei muito tempo a tentar voltar
-À versão anterior
-Como quem procura uma chave
-Numa porta que já não existe
-Hoje aprendi que a chave é outra
-A chave abre a porta de hoje
-A mulher que voltou
-É mais nova porque é mais inteira
+O sabão azul está no canto do lavatório
+A barra está partida ao meio
+A palma esfrega o sabão até espumar
+A espuma sobe pelo pulso e pelo antebraço
+A água sai morna porque a caldeira é antiga
+O esterno aparece no espelho por cima da camisola
+A clavícula esquerda mais saliente que a direita
+E a mulher no espelho não desvia o olhar
 [Pre-Chorus]
-Volta a mim não é nostalgia
-Volta a mim é descoberta
-Volta a mim é encontrar quem sou
-Por baixo dos papéis que joguei
+A toalha branca pendurada no gancho
+O gancho de latão que o pai pôs há vinte anos
+O azulejo verde-água atrás do lavatório
+E uma mulher inteira a olhar para si
 [Chorus]
-Volta a mim
-Não a quem fui
-À que sou agora
-Volta a mim
-Com a história, com as cicatrizes
-Com a textura das décadas
-Volta a mim
-A mulher inteira que ficou
-Quando os papéis se foram caindo
+A espuma escorre pelo cotovelo até ao lavatório
+A mulher no espelho não baixa os olhos
+A ruga entre as sobrancelhas fica
+A cicatriz no queixo fica
+O cabelo mais grosso do lado direito fica
+A toalha branca seca a fossa nasal direita
+A toalha branca seca a fossa nasal esquerda
+O esterno reflectido no vidro embaciado
+E ninguém aqui pede licença para existir
 [Verse 3]
-Mãe sou ainda
-Mas mãe não é o nome todo
-Mulher de alguém sou ainda
-Mas isso não é o nome todo
-Filha sou ainda
-Mas isso não é o nome todo
-
-Volta a mim — ao nome de baixo
-Que é apenas o meu
+A mãe que sou está aqui no espelho
+A filha que sou está aqui no espelho
+A amiga que sou está aqui no espelho
+A mulher que ninguém conhece também
+A anca encosta no bordo frio do lavatório
+O joelho dobra contra o armário de baixo
+O dedo passa pela marca de creme no canto
+E não a limpa, deixa-a ficar onde está
 [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic]
-Volta a mim
-Não a quem fui
-À que sou agora
-Volta a mim
-Com a história, com as cicatrizes
+A espuma escorre pelo cotovelo até ao lavatório
+A mulher no espelho não baixa os olhos
+A toalha branca seca a fossa nasal direita
+A toalha branca seca a fossa nasal esquerda
+O esterno reflectido no vidro embaciado
 [Bridge: vocal close, choir hums underneath, warm strings rising — opens, does not resolve]
 (African accent Portuguese:)
-Não te peço para voltares atrás
-Atrás é mentira, atrás é fotografia
-Pede-te para voltares para baixo
-Para a mulher que está debaixo dos papéis
-Que tu jogas no mundo todos os dias
-Ela está aí, ela esperou-te
-E ela não está zangada
-Ela está aliviada
+A mulher do espelho não é a das fotografias
+Não é a do álbum de casamento
+Não é a do dia em que a Inês nasceu
+É a de hoje, com a marca de creme no canto
+Com o sabão azul partido ao meio
+Com a toalha branca que cheira a alfazema
+Com a ruga entre as sobrancelhas
+E com a calma que demorou anos a chegar
 [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
-Volta a mim
-À que sou agora
-Volta a mim
-A mulher inteira que ficou
+A mulher no espelho não baixa os olhos
+A toalha branca seca a fossa nasal direita
+O esterno reflectido no vidro embaciado
+E a casa de banho cheira a alfazema
 [Outro: vocal warm, choir fading]
-Volta a mim
-descoberta
-volta a mim
-inteira`,
+o sabão azul no lavatório
+a toalha branca no gancho
+o azulejo verde-água
+e a mulher inteira no espelho`,
 
   "incenso-volta-a-mim/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
