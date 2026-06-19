@@ -1244,82 +1244,88 @@ Where she never left`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Um grão de sal na ponta do dedo
-O prato acorda num segundo
-O sal não pede nem tem medo
-É o tempero mais profundo
-A cozinha cheira a caril
-O alho dança no azeite
-O sal torna o simples gentil
-E o amargo vira deleite
+A panela de barro está no fogão pequeno
+O caril fervilha devagar com o tampo entreaberto
+A minha mãe está à minha direita, ao balcão
+A mão direita dela mergulha no frasco de barro do sal
+Os três dedos pinçam o sal, o polegar contra o indicador
+Os grãos caem dentro da panela em câmara lenta
+A colher de pau remexe três vezes, no sentido dos ponteiros
+E o cheiro muda no segundo que se segue à pinçada
 
 [Verse 2]
-As mãos da minha mãe sabiam
-Quanto sal cada prato quer
-Os dedos nunca se esqueciam
-Do gesto antigo de temperar sem ver
-Sem balança, sem medida
-Só a memória das palmas
-Que aprenderam com a vida
-A dose certa para as almas
+A colher de pau tem um cabo gasto de quarenta anos
+A ponta está mais escura do lado que toca o fundo
+O cabo apoia-se no canto da panela quando descansa
+A palma da minha mãe abre e fecha contra o avental
+O joelho dela encosta ao armário inferior da cozinha
+A clavícula desce um pouco quando ela se debruça
+O frasco de barro do sal está aberto entre nós
+E os dedos voltam para uma segunda pinçada, mais pequena
 
 [Pre-Chorus]
-Cada grão conta uma história
-De um mar que o sol secou
-De uma viagem sem memória
-Até ao prato que alguém amou
+Não há balança, não há colher de medida
+Há só a polpa do indicador, do polegar, do médio
+Há só o conhecimento que mora na pele dos dedos
+E a panela que conhece a mão que a tempera
 
 [Chorus]
-Sal na ferida, sal na comida
-Sal que desperta a vida inteira
-O sal é a alma da refeição
-A primeira e a última tempera
-Sem ele o mundo é plano
-O sabor não tem contorno
-O sal é o mais humano
-Dos gestos — voltar ao forno
+O frasco de barro entre a minha mãe e o fogão
+A pinçada com três dedos, polegar contra indicador
+A colher de pau a remexer no sentido dos ponteiros
+O caril a mudar de cheiro no segundo que se segue
+A panela de barro a guardar o calor dentro do barro
+O balcão da cozinha com a marca circular do tacho
+A janela aberta para o pátio do limoeiro pequeno
+A mão da minha mãe a saber sem perguntar quanto
+Há uma cozinha que conhece esta dose desde sempre
+E uma dose que mora na polpa do indicador
 
 [Verse 3]
-Na costa moçambicana
-O sal seca ao sol de janeiro
-A mesma receita arcana
-Que alimenta o mundo inteiro
-E no meu prato de hoje
-A memória dessas mãos
-Que tiravam sal da noite
-E punham luz nas refeições
+A segunda pinçada cai sobre o caril de coco
+A colher de pau atravessa o líquido três vezes
+A ponta da colher raspa o fundo da panela de barro
+O cheiro do alho refogado sobe contra a cara
+A clavícula da minha mãe está à altura do meu ombro
+Os joelhos dela dobram um pouco para alcançar o fogão
+A palma da mão direita limpa o avental por costume
+E a panela continua a fervilhar com o tampo entreaberto
 
 [Chorus]
-Sal na ferida, sal na comida
-Sal que desperta a vida inteira
-O sal é a alma da refeição
-A primeira e a última tempera
+O frasco de barro entre a minha mãe e o fogão
+A pinçada com três dedos, polegar contra indicador
+A colher de pau a remexer no sentido dos ponteiros
+O caril a mudar de cheiro no segundo que se segue
+A panela de barro a guardar o calor dentro do barro
+O balcão da cozinha com a marca circular do tacho
 
 [Bridge]
-O mar deixou-nos este ouro
-Branco como a verdade nua
-Cada grão é um tesouro
-Que faz a comida tua
-E quando provo o que cozinho
-E ajusto com um dedo
-Estou a repetir o caminho
-Da minha mãe — sem medo
+A colher de pau pousa no pires de barro pequeno
+O frasco do sal fica destapado entre nós, no balcão
+A minha mãe prova o caril com a ponta da colher de chá
+A gengiva dela sente o sal antes da língua o saber
+Ela acena que não com a cabeça, devagar uma vez
+A mão direita volta ao frasco, terceira pinçada, mínima
+Os grãos caem como pó branco contra o vermelho do caril
+E desta vez ela acena que sim, devagar duas vezes
 
 [Chorus]
-Sal na ferida, sal na comida
-O sal que muda tudo
-E torna a vida — vivida
+O frasco de barro entre a minha mãe e o fogão
+A pinçada com três dedos, polegar contra indicador
+A panela de barro a guardar o calor dentro do barro
+A mão da minha mãe a saber sem perguntar quanto
 
 [Outro]
-Um grão de sal
-Na ponta do dedo
-Muda tudo
-Sempre mudou
-E entre o pouco
-E o demasiado
-Mora a sabedoria
-De quem cozinhou
-Com amor`,
+O frasco de barro destapado no balcão
+A colher de pau pousada no pires
+A panela de barro com o tampo de novo fechado
+A minha mãe a desapertar o nó do avental
+O caril a continuar sozinho no lume baixo
+O limoeiro do pátio a ranger contra o muro
+E eu, ao lado dela
+A guardar na polpa do meu indicador
+A dose que a mão da minha mãe conhece
+Sem dizer nada`,
 
   "grao-toalha-posta/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -7001,88 +7007,88 @@ três...
 quatro...
 
 [Verse 1: vocal close, rhythmic counted-rep delivery]
-Uma vez, outra vez, mais uma
-O corpo conta sem contar
-A dor é espuma
-O ritmo não vai parar
-O músculo contrai e solta
-Contrai e solta sem pensar
-A repetição é a volta
-Que o corpo dá sem se cansar — ainda
+A barra olímpica está pousada no rack do ginásio
+Vinte quilos de aço com o serrilhado gasto a meio
+A palma direita pousa primeiro, depois a esquerda
+O serrilhado deixa uma marca clara na pele do dedo
+Os polegares fecham por cima dos indícios
+O esterno aproxima-se da barra um centímetro
+Os joelhos dobram contra a borracha do chão
+E a anca encontra a altura que o exercício pede
 
 [Verse 2]
-Oito, nove, a décima arde
-Os braços tremem e insistem
-Não há quem diga que é tarde
-Enquanto as repetições existem
-O suor cai na borracha
-O espelho mostra a verdade
-Cada repetição desmancha
-Uma camada de vaidade
+O olhar vai à parede, dois metros à frente, fixo
+A planta do pé encontra a sola contra a borracha
+A clavícula sobe um milímetro, depois firma
+A primeira subida acontece com a coxa a empurrar
+A barra passa pelo joelho, depois pela coxa
+O esterno levanta-se e a anca acompanha o gesto
+A palma sente o serrilhado contra a pele do indicador
+E o aço pousa de volta no rack com o som de aço
 
 [Pre-Chorus]
-O segredo de tudo o que importa
-Nunca foi o talento ou a sorte
-É a repetição que suporta
-O peso de se tornar forte
+A respiração entra antes da segunda subida
+O diafragma desce contra a parede abdominal
+A pressão interna prepara-se para o segundo levantamento
+E os joelhos dobram contra a borracha outra vez
 
 [Chorus]
-Repetição, repetição
-O corpo aprende a obedecer
-Repetição, repetição
-A disciplina de não morrer
-Uma e mais uma e mais
-Até o corpo dizer paz
-A arte não é o gesto
-A arte é o gesto repetido
-Até ser honesto
+A palma da mão conhece o serrilhado da barra
+O polegar fecha por cima dos indícios direitos
+Os joelhos dobram contra a borracha cinzenta do chão
+A anca encontra a altura que o exercício pede
+O esterno levanta a sua parte do peso, na sua hora
+A clavícula firma-se sem pedir conselho a ninguém
+A barra desliza ao longo da coxa, sem pressa
+A barra pousa no rack com o som que o aço faz
+Há um corpo que aprende o gesto pela palma
+E um gesto que aprende o corpo pela repetição
 
 [Verse 3]
-A última é sempre mentira
-Porque depois vem mais uma
-O músculo estira e respira
-E encontra força nenhuma
-Mas faz outra vez na mesma
-Porque o hábito é mais forte
-Que a dor ou a fadiga extrema
-O corpo conhece a sua sorte
+O ginásio do bairro tem o chão de borracha verde
+O espelho da parede direita tem uma fenda em baixo
+O ventilador do tecto faz um clique a cada volta
+Na quarta subida o quadríceps começa a tremer
+O joelho esquerdo cede um milímetro, depois firma
+A palma transpira um pouco contra o serrilhado
+O suor desce da clavícula para o esterno, devagar
+E a barra pousa de novo no rack com o seu som
 
 [Chorus]
-Repetição, repetição
-O corpo aprende a obedecer
-Repetição, repetição
-A disciplina de não morrer
-Uma e mais uma e mais
-Até o corpo dizer paz
+A palma da mão conhece o serrilhado da barra
+O polegar fecha por cima dos indícios direitos
+Os joelhos dobram contra a borracha cinzenta do chão
+A anca encontra a altura que o exercício pede
+O esterno levanta a sua parte do peso, na sua hora
+A clavícula firma-se sem pedir conselho a ninguém
 
-[Bridge: European Portuguese, Lisbon accent — vocal close, no harmonies, looping motif continues underneath]
-(African accent Portuguese:)
-Não é talento nem é dom
-É mostrar-se e repetir
-O segredo não é ser bom
-É não desistir de ir
-Os campeões não são especiais
-São repetidores profissionais
-De gestos simples e banais
-Que fazem mil vezes a mais
+[Bridge: vocal close, no harmonies, looping motif continues underneath]
+O ginásio do bairro abre às seis e fecha às onze
+O dono limpa o espelho com um pano azul gasto
+A música baixa toca do altifalante do canto
+Os meus joelhos conhecem a borracha do chão de cor
+A minha palma conhece o serrilhado da barra de cor
+A clavícula conhece o peso por dentro do osso
+A anca conhece a altura sem ter que perguntar
+E o corpo, no quinto levantamento, já não pensa
 
 [Chorus]
-Repetição, repetição
-O corpo aprende a obedecer
-A arte é o gesto repetido
-Até ser honesto
+A palma da mão conhece o serrilhado da barra
+Os joelhos dobram contra a borracha cinzenta do chão
+A anca encontra a altura que o exercício pede
+E o corpo, no quinto levantamento, já não pensa
 
 [Outro]
-Mais uma
-Só mais uma
-A última
-Mentira — mais uma
-E mais uma
-E outra
-Porque é assim
-Que se constrói
-Tudo o que importa
-Repetição`,
+A barra no rack
+A palma marcada pelo serrilhado
+Os joelhos com a impressão da borracha
+A clavícula a desaparecer devagar
+O suor a secar contra o tecido
+O ventilador a clicar no tecto
+O espelho com a fenda em baixo
+O dono a passar o pano azul gasto
+E o aço, depois de tudo
+Continua a ser aço`,
 
   "fibra-barra-carregada/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -8331,94 +8337,88 @@ E nunca decepciona`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The evening settles in like dust
-On furniture you love
-And all the daily rush and trust
-Dissolves to stars above
-The room grows dim without a switch
-The air grows soft and kind
-And somewhere in this gentle pitch
-I leave the day behind
+The lamp on the side table clicks once
+A yellow circle on the rug
+The couch keeps its old shape
+Around the place I sat last night
+The teacup sits on the saucer, blue
+The handle turned toward the right hand
+The kettle in the kitchen has stopped clicking
+And the wood floor settles back to wood
 
 [Verse 2]
-My chest expands with evening air
-My shoulders find the ground
-And in this act of gentle care
-The day becomes unwound
-The muscles that I held so tight
-Release without a sound
-And in the fading of the light
-My body finds its ground
+My hip finds the cushion's familiar dent
+The right knee folds against the left
+The clavicle drops three centimetres
+Without my asking it to drop
+The palm wraps around the cup, warm
+The thumb rests on the small chip in the rim
+The sternum softens against the cotton shirt
+And the jaw lets go of the lower teeth
 
 [Pre-Chorus]
-There's a moment between the day
-And the night when nothing moves
-When the world is in its own halfway
-And the body finally proves
-That rest is not a weakness
+The teacup is just a teacup, white with a blue stripe
+The couch is just a couch, second-hand from the upstairs flat
+The lamp is just a lamp, with a paper shade slightly tilted
+And the body, on its own, knows what to do here
 
 [Chorus]
-Breathe in the evening
-Breathe out the day
-Breathe in the meaning
-Breathe out the fray
-Inhale the quiet
-Exhale the noise
-The evening is a riot
-Of the simplest joys
-And every breath that deepens
-Is the body's way of saying
-Thank you for this day
+The lamp keeps its yellow circle on the rug
+The couch keeps the shape of last night around my hip
+The cup keeps the small chip under the thumb
+The clavicle keeps dropping its three centimetres
+The kettle in the kitchen is quiet, having done its work
+The wood floor keeps the sound it makes when it settles
+The sternum keeps softening against the cotton, slow
+The jaw keeps releasing the lower teeth, by itself
+And the room, around the lamp's small circle, holds
+Without anyone asking it to hold
 
 [Verse 3]
-The curtains close on today's show
-The audience is one
-And in this soft and tender glow
-I'm grateful for what's done
-The triumphs and the failures both
-Are resting side by side
-I don't need to take an oath
-Just breathe and let them ride
+The cat walks past the lamp once, indifferent
+The window holds the last grey of the street
+The book on the arm of the couch is closed
+With a receipt marking page eighty-four
+The radio in the kitchen is off, for once
+The neighbour's footsteps cross the ceiling, twice
+The teacup empties slowly, against the palm
+And the saucer takes the cup back, with a small ceramic sound
 
 [Chorus]
-Breathe in the evening
-Breathe out the day
-Breathe in the meaning
-Breathe out the fray
-Inhale the quiet
-Exhale the noise
-The evening is a riot
-Of the simplest joys
+The lamp keeps its yellow circle on the rug
+The couch keeps the shape of last night around my hip
+The cup keeps the small chip under the thumb
+The clavicle keeps dropping its three centimetres
+The kettle in the kitchen is quiet, having done its work
+The wood floor keeps the sound it makes when it settles
 
 [Bridge]
-The day asked everything of you
-And you gave more than your share
-The evening asks for nothing new
-Just to breathe and to be there
-No score to settle, no fight to win
-No argument to prove
-Just the gentle breathing in
-Of everything you love
+The lamp is a fact, not a symbol
+The couch is a fact, not a metaphor
+The teacup with the small chip is a fact
+The clavicle dropping is a fact, also
+The evening is just the time when the lamp gets used
+The couch is just the place where the body chose to sit
+The hip is just the hip, finding the cushion's dent
+And nothing here needs to be more than it is
 
 [Chorus]
-Breathe in the evening
-Breathe out the day
-And every breath that deepens
-Is the body's way of saying
-Thank you for this day
+The lamp keeps its yellow circle on the rug
+The couch keeps the shape of last night around my hip
+The clavicle keeps dropping its three centimetres
+And the room, around the lamp's small circle, holds
 
 [Outro]
-Inhale
-Exhale
-The day is done
-Well done
-You showed up
-You gave what you had
-And now
-The evening holds you
-Softly
-Like you always deserved
-To be held`,
+The lamp, the couch, the cup
+The chip in the rim, the dent in the cushion
+The clavicle three centimetres lower
+The jaw released, the hip settled
+The cat past the lamp once
+The kettle quiet in the kitchen
+The book closed on page eighty-four
+And nothing here is metaphor
+Just furniture
+and bone`,
 
   "mare-luz-mansa/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]

@@ -6157,68 +6157,65 @@ the chest is lighter`,
 
 [Intro: gospel piano, low fretless bass, vocal entering on bar 2 — no long instrumental openi
 [Verse 1]
-Levanta-te devagar
-Não como quem foge
-Como quem aceita o convite
-Sem se esforçar para parecer entusiasmado
-Levanta-te devagar
-A coluna agradece o devagar
-Os joelhos agradecem o devagar
-A cabeça agradece o devagar
+O lençol de algodão desce até à anca
+A mão esquerda procura a borda do colchão
+O joelho dobra primeiro, sem pressa
+A planta do pé pousa na tábua de madeira
+A madeira está fria, a madeira está real
+A coluna acorda vértebra a vértebra
 [Verse 2]
-Não tens de superar nada
-Não tens de provar a ninguém
-Tens de te encontrar de pé
-Naquela posição familiar e antiga
-Vertical, com os pés no chão
-Como há milhões de antepassados
-Antes de te terem dito
-
-Que tinhas de fazer mais
+A cabeça pesa um pouco para o lado direito
+A mandíbula afrouxa do dente da noite
+A respiração desce até à fossa nasal
+O ombro abre como uma porta antiga
+O cotovelo encontra o joelho na curva
+A palma da mão pousa no peito da perna
+A clavícula recebe o ar do quarto
 [Pre-Chorus]
-Levanta-te devagar
-A vida não é pressa
-Levanta-te devagar
-O dia tem horas suficientes
+O dia espera do outro lado da porta
+A escada de casa também espera
+O quarto não tem pressa nenhuma
 [Chorus]
-Levanta-te devagar
-Não tens de te superar
-Tens de te encontrar de pé
-Levanta-te devagar
-A passada vem depois
-A passada espera por ti
-Levanta-te devagar
-E o dia vai começando a teu ritmo
+A tábua do soalho conhece o meu peso
+O lençol guarda a forma do meu lado
+O joelho dobra, o joelho estica
+A anca encontra a sua linha vertical
+A clavícula sobe sem esforço
+A mandíbula desce sem aviso
+O pulso bate calmo no relógio do quarto
+O quarto inteiro respira comigo
+A janela traz luz pela cortina branca
 [Verse 3]
-Vou levantar-me hoje sete vezes
-Da cama, da cadeira, do sofá
-Cada vez vou ser devagar
-Cada vez vou agradecer aos joelhos
-Cada vez vou notar o privilégio
-Da pessoa que ainda se levanta
-Sem ajuda, com tempo, com música
-Levantar-se devagar é privilégio agradecido
-[Chorus: small female choir enters, hand-claps soft]
-Levanta-te devagar
-Não tens de te superar
-Tens de te encontrar de pé
-Levanta-te devagar
-[Bridge: vocal close, choir hums underneath, only piano — opens, does not resolve]
+Há sete maneiras de me pôr de pé hoje
+Da cama, da cadeira, do banco da cozinha
+De cada vez o joelho recebe o agradecimento
+De cada vez a planta do pé reconhece o chão
+De cada vez a coluna escolhe a sua hora
+O privilégio de quem ainda se ergue sozinha
+[Chorus]
+A tábua do soalho conhece o meu peso
+O lençol guarda a forma do meu lado
+O joelho dobra, o joelho estica
+A anca encontra a sua linha vertical
+A clavícula sobe sem esforço
+A mandíbula desce sem aviso
+O pulso bate calmo no relógio do quarto
+O quarto inteiro respira comigo
+A janela traz luz pela cortina branca
+[Bridge: vocal close, choir hums underneath, only piano, opens, does not resolve]
 (African accent Portuguese:)
-Se estás na cama agora
-Não te peço para saltares
-Peço-te três centímetros
-Os primeiros três centímetros
-Que separam estar deitada de estar sentada
-A cama não te vai engolir nesses três
-A cama não vai contar-se de ti
-Os três centímetros são teus
+Os primeiros três centímetros do lençol
+São a distância maior do dia
+O cotovelo encosta no colchão duro
+O peso passa do ombro para a anca
+A anca passa o peso para o pé
+O pé entrega o peso ao soalho
+O soalho entrega-me a casa toda
 [Outro: vocal soft, piano fading, choir lingers]
-Levanta-te devagar
-
-encontra-te de pé
-levanta-te devagar
-não há pressa`,
+A tábua do soalho
+a planta do pé
+o joelho devagar
+a casa em volta`,
 
   "incenso-mexe/8": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -6299,75 +6296,70 @@ the order matters`,
 
 [Intro: gospel piano with rich chords, Hammond organ swell, djembe, timbila, vocal entering o
 [Verse 1]
-
-A ginga voltou
-Não a aprendi em aulas
-Não veio de um curso
-Não veio de um espelho
-A ginga voltou no quadril
-Quando a música bateu na rua
-A ginga é mais antiga que a minha mãe
-A ginga é mais antiga que a avó da avó
+A anca acordou primeiro no passeio
+A rua tinha um som baixo de carro distante
+Não pedi licença, não houve aula
+O ombro esquerdo desceu meia polegada
+O ombro direito subiu para responder
+A passada encontrou o seu ritmo de família
 [Verse 2]
-Foi tirada à força um tempo
-Por escolas que ensinavam o andar reto
-Por chefes que ensinavam o sentar formal
-Por séculos que ensinavam vergonha do corpo
-Mas a ginga é água
-A água lembra o caminho
-E hoje, hoje voltou ao quadril
-Sem me ter pedido autorização
+A planta do pé desenha um arco no chão
+O calcanhar pousa, a anca passa, o joelho segue
+A clavícula respira como tambor pequeno
+A coluna acorda da cadeira do escritório
+A rua dos correios cheira a chuva de ontem
+O passeio tem uma pedra solta na esquina
+A mão direita balança ao lado da costela
 [Pre-Chorus]
-A ginga é herança
-Não é frivolidade
-A ginga é a forma do corpo africano
-A ler o ritmo do mundo
+É herança no osso, não é decoração
+A memória vem pela anca, vem pelo ombro
+O corpo escreve a sua frase pela rua
 [Chorus]
-A ginga voltou
-Não a aprendi nas aulas
-Aprendi-a no sangue
-A ginga voltou
-A passada bonita, o quadril vivo
-O ombro a contar a sua versão da canção
-A ginga voltou
-E a rua reconheceu-me
+A anca lembra-se sem que eu lhe peça
+O ombro conta a sua versão da canção
+A passada desenha-se larga no passeio
+O calcanhar marca a pedra com peso bom
+A clavícula sobe e desce em compasso
+O pulso bate calmo do lado da costela
+A rua dos correios reconhece o meu andar
+A esquina da farmácia faz-me coro pequeno
+O joelho dobra com a graça antiga
 [Verse 3]
-Levam séculos a tirar a ginga
-A ginga volta numa terça
-Levam séculos a ensinar o reto
-A ginga volta numa quarta
-A ginga é forma de resistência
-A ginga é forma de memória
-A ginga é forma de eu dizer ao mundo
-Que ainda não me converteram inteira
-
-[Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, dje
-A ginga voltou
-
-Não a aprendi nas aulas
-Aprendi-a no sangue
-A ginga voltou
-
-[Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady — opens, does
+Levam séculos a tirar este andar do corpo
+A anca volta numa terça à tarde
+A esquina do quiosque guarda a memória
+O ombro acerta com o tambor invisível
+A passada larga é forma de resistência
+O corpo escreve uma frase que não me converteram
+[Chorus]
+A anca lembra-se sem que eu lhe peça
+O ombro conta a sua versão da canção
+A passada desenha-se larga no passeio
+O calcanhar marca a pedra com peso bom
+A clavícula sobe e desce em compasso
+O pulso bate calmo do lado da costela
+A rua dos correios reconhece o meu andar
+A esquina da farmácia faz-me coro pequeno
+O joelho dobra com a graça antiga
+[Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady, opens, does not resolve]
 (African accent Portuguese:)
-Se há ginga na tua família
-Sabes do que estou a falar
-Se foi tirada da tua família
-Também sabes — pelo lado da ausência
-A ginga reaprende-se
-Não com técnica, com permissão
-Põe a música e deixa o corpo
-Lembrar-se daquilo que ele sempre soube
-
-[Final Chorus: 6-voice chorus layered, peak warmth, never shouted, djembe + timbila + Hammond
-A ginga voltou
-A passada bonita
-A rua reconheceu-me
+A música chega pela janela aberta
+A anca move-se antes da decisão
+O ombro segue, o ombro não pergunta
+A planta do pé desenha o seu meio círculo
+A casa toda fica a olhar com calma
+O passeio lá fora continua o compasso
+A rua dos correios sabe a minha passada
+[Final Chorus: 6-voice chorus layered, peak warmth, never shouted, djembe + timbila + Hammond]
+A anca lembra-se sem que eu lhe peça
+O ombro conta a sua versão da canção
+A passada desenha-se larga no passeio
+O calcanhar marca a pedra com peso bom
 [Outro: vocal warm, choir fading, djembe and timbila lingering]
-A ginga voltou
-no sangue
-a ginga voltou
-e ficou`,
+A anca lembra-se
+o ombro responde
+a passada larga
+a rua dos correios reconhece`,
 
   "incenso-mexe/10": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

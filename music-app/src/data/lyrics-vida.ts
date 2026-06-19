@@ -3774,205 +3774,365 @@ E começo de novo, esta manhã, este dia`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-My fingers sift through what is left
-The outlines hold though substance burned
-In devastation, strangely deft
-At seeing what I never learned
+The fireplace bricks still hold a little warmth
+The metal grate is grey with cold debris
+The poker leans against the bedroom wall
+The kindling box is empty by the door
+The knee bends down beside the hearth's small ledge
+The palm hovers above the cooling ash
+The fingertip dips into yesterday
+The wrist gets dusted by a quiet grey
 
 [Verse 2]
-The ash is warm beneath my hands
-A residue of what was real
-The truth revealed in blackened lands
-Is simpler than I thought I'd feel
+The eye finds buttons in the burnt-out pile
+A small brass hinge that held a wooden box
+The tooth of a comb survives the long night
+A coin half-melted in the flame's old socks
+The thumb picks through with the small kitchen tongs
+The forearm rests against the marble edge
+The shoulder drops a notch from yesterday
+The jawline softens at the cold hearth's hedge
+
+[Pre-Chorus]
+The living room is empty in the morning
+The curtains hang half-drawn against the light
+The kitchen down the hall is making coffee
 
 [Chorus]
-Ash, just ash
-But still warm enough to mean
-Ash, just ash
-The clearest I have ever been
-What burns away was never mine
-What stays is mineral and true
-The fire drew a crooked line
-Between the false and the breakthrough
+The fireplace stone, the iron of the grate
+The wooden floor a little singed in places
+The cushion of the armchair pulled aside
+The kitchen tray with one cup left out
+The collarbone receives the morning chill
+The temple presses to the marble edge
+The wrist gets dusted as the fingers dig
+The knuckle scrapes against a small charred ledge
 
+[Verse 3]
+The window opens to let the smoke out
+The breath of the room arrives across the floor
+The kettle whistles from the kitchen counter
+The cat walks past me toward the open door
+The kneecap finds the carpet beside the hearth
+The shoulder eases as the ash gets swept
+The dustpan fills with what is left of last night
+The palm gets washed at the kitchen sink, accepted
 
 [Chorus]
-Ash, just ash
-But still warm enough to mean
-Ash, just ash
-The clearest I have ever been
-What burns away was never mine
-What stays is mineral and true
-The fire drew a crooked line
-Between the false and the breakthrough
+The fireplace stone, the iron of the grate
+The wooden floor a little singed in places
+The cushion of the armchair pulled aside
+The kitchen tray with one cup left out
+The collarbone receives the morning chill
+The temple presses to the marble edge
+The wrist gets dusted as the fingers dig
+The knuckle scrapes against a small charred ledge
+
+[Bridge]
+The hallway carries the smell of cold smoke
+The bedroom door is closed against the dust
+The bathroom mirror waits to see my face
+The kitchen window holds the morning light
+The garden chair sits empty in the rain
 
 [Outro]
-In the ash
-I found what's real`,
+I sweep the ash into the metal pail
+I carry it out through the kitchen door
+I tip it slowly onto the wet earth
+I wash my hands beneath the kitchen tap
+I sit at the table with the cup of tea`,
 
   "incenso-rescaldo/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A chávena de café na mesa sem palavra
-A mão que encontra a outra mão na cama
-O cobertor puxado sobre quem descansa
-A desculpa que não precisa de programa
+A chaleira ao lume na cozinha pequena
+A chávena dele em cima do balcão de madeira
+O açúcar com a colher que ele costuma
+Duas voltas pela direita, é assim que ele toma
+A minha mão pousa a chávena na mesa
+O ombro encosta na ombreira da cozinha
+A clavícula respira o vapor que sobe
+Os dedos largam, e o silêncio começa
 
 [Verse 2]
-O almoço feito sem que ninguém peça
-A porta aberta para o ar entrar
-As mãos dizem o que a boca não começa
-As mãos sabem como reparar
+A camisola dele na cadeira da sala
+Apanho-a, dobro-a no encosto certo
+A almofada do sofá pousa no canto
+O cobertor cobre os pés que dormem perto
+A porta do quarto encostada sem fechar
+A mão pousa na maçaneta sem premir
+O ombro espera contra o vão da entrada
+A nuca dobra-se, eu não digo nada
+
+[Pre-Chorus]
+A janela da cozinha mostra o pátio molhado
+O relógio da sala marca as nove e tal
+O cão dele dorme aos pés da poltrona
 
 [Chorus]
-Desculpa muda
-O pedido que vem nas mãos
-Desculpa muda
-Mais verdadeira que sermões
-Um gesto vale mais que mil palavras
-Quando as palavras já falharam
-As mãos reparam as traves
-Que as bocas quebraram
+A panela do almoço fica no lume baixo
+O alho frita devagar no azeite morno
+A cebola corta-se na tábua de pinho
+O pulso passa pelo avental amarrado
+O tomate parte-se com a faca de cozinha
+O sal cai da pitada que a palma segura
+A colher mexe no fundo da panela
+E a cozinha cheira a uma promessa caseira
 
+[Verse 3]
+Levo-lhe o café à beira da cama
+O pires range na palma da mão estendida
+Ele dorme com o ombro fora do lençol
+Pouso a chávena na mesinha de cabeceira
+A minha mão hesita no ar uns segundos
+Pousa devagar no ombro descoberto
+O dedo polegar traça uma linha pequena
+E volto para a cozinha sem fazer barulho
 
 [Chorus]
-Desculpa muda
-O pedido que vem nas mãos
-Desculpa muda
-Mais verdadeira que sermões
-Um gesto vale mais que mil palavras
-Quando as palavras já falharam
-As mãos reparam as traves
-Que as bocas quebraram
+A panela do almoço fica no lume baixo
+O alho frita devagar no azeite morno
+A cebola corta-se na tábua de pinho
+O pulso passa pelo avental amarrado
+O tomate parte-se com a faca de cozinha
+O sal cai da pitada que a palma segura
+A colher mexe no fundo da panela
+E a cozinha cheira a uma promessa caseira
+
+[Bridge]
+A mesa de jantar com os dois lugares postos
+O guardanapo de pano dobrado em triângulo
+A garrafa de água com gás no centro
+O pão na cesta com a toalha de linho
+A janela aberta para o pátio do prédio
 
 [Outro]
-Um café na mesa
-E tudo o que precisas de dizer`,
+Ele entra na cozinha com o cabelo molhado
+Senta-se na cadeira de pinho do meu lado
+Eu pouso o prato à frente sem palavra
+Ele toca-me a mão por cima da mesa
+Começamos a comer e o almoço fala`,
 
   "incenso-rescaldo/4": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-One hand drum first, then bass arrives
-Then guitar finds a careful chord
-Two people building what survives
-Not with a speech but with a board
+The kitchen table holds two cups of tea
+The chairs are pulled around from either side
+My hand sits on the wood between the cups
+His hand rests next to mine, no longer hid
+The lamp above the table glows on low
+The window shows the dark backyard outside
+The clock above the stove ticks past the hour
+The cat is sleeping near the kitchen door
 
 [Verse 2]
-Stone by stone from either bank
-The bridge extends across the flood
-No word of blame, no word of rank
-Just labour done in quiet blood
+He picks up the salt from the wooden tray
+He passes it across the open palm
+I take the bread and break it into two
+The knife rests crooked on the wooden board
+His thumb traces the rim of the white cup
+My elbow leans against the table edge
+The shoulder eases from the week's long carry
+The collarbone receives the warmer kitchen
+
+[Pre-Chorus]
+The hallway light has been turned down to half
+The bedroom door is open at the end
+The bathroom tap drips once into the basin
 
 [Chorus]
-Rebuild, rebuild
-Not the old bridge painted new
-Rebuild, rebuild
-Something we've never walked through
-Stone by careful stone
-From my side and from yours
-The bridge is better grown
-When both of us lay floors
+The kitchen wall, the small clock by the door
+The wooden chair with paint chipped on the back
+The plate between us holding sliced brown bread
+The teapot sitting on the cooling rack
+My wrist crosses the table to his wrist
+His thumb rests on the pulse beside my knuckle
+The shoulder drops a notch toward his shoulder
+The temple finds the place that was a struggle
 
+[Verse 3]
+He stands and clears the cups into the sink
+The tap runs once across the porcelain
+I bring the bread plate to the kitchen counter
+The drawer opens for a folded towel
+His shoulder leans against the cabinet door
+My hip presses against the open drawer
+The kitchen does the small ceremony
+Of putting back the day that came before
 
 [Chorus]
-Rebuild, rebuild
-Not the old bridge painted new
-Rebuild, rebuild
-Something we've never walked through
-Stone by careful stone
-From my side and from yours
-The bridge is better grown
-When both of us lay floors
+The kitchen wall, the small clock by the door
+The wooden chair with paint chipped on the back
+The plate between us holding sliced brown bread
+The teapot sitting on the cooling rack
+My wrist crosses the table to his wrist
+His thumb rests on the pulse beside my knuckle
+The shoulder drops a notch toward his shoulder
+The temple finds the place that was a struggle
+
+[Bridge]
+The bedroom waits beyond the kitchen door
+The sheets are turned back at one corner only
+The lamp beside the bed is glowing soft
+The book is open at a marked-up page
+The window opens to the kitchen garden
 
 [Outro]
-We're building
-We're building something new`,
+He turns the kitchen light off with his thumb
+He follows me along the wooden hallway
+He sits beside me on the edge of bed
+His hand rests on my shoulder, then my hip
+We sleep in the same room, in the same bed`,
 
   "incenso-rescaldo/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O dedo passa pela cicatriz
-A pele levantada como um mapa
-O corpo guarda o que a mente diz
-Que não merece mas que nunca escapa
+A casa de banho com o azulejo branco
+O espelho do roupeiro reflectido na porta
+O dedo passa pela linha do joelho
+Uma queda na cozinha, eu tinha sete
+A unha do polegar traça o caminho fino
+A clavícula respira ao ver-se de perto
+A pálpebra esquerda treme uma vez
+E a mão pousa contra o ombro coberto
 
 [Verse 2]
-Não é castigo esta marca
-E prova de que sobrevivi
-O corpo escreve a sua arca
-Na pele de quem nunca desistiu de si
+A outra mão segue para o cotovelo
+Onde a cama partiu o gesso há dez anos
+A pele guarda a sombra da queda na escada
+O ombro lembra-se da semana de gesso
+A têmpora tem uma linha pequena
+Da janela do carro num dia de chuva
+O queixo guarda um corte da bicicleta
+Na esquina da rua que eu já não conheço
+
+[Pre-Chorus]
+A cozinha lá fora com o jantar a cheirar
+A janela do quarto com a tarde a cair
+A cadeira encostada à parede da entrada
 
 [Chorus]
-A cicatriz
-Não é vergonha, é história
-A cicatriz
-É a mais honesta memória
-Cada marca é um capítulo
-Que o corpo não editou
-A cicatriz é o título
-Do livro que a vida me contou
+O espelho do quarto, a cómoda de pinho
+A janela aberta para o pátio molhado
+A toalha de banho dobrada na cadeira
+O frasco do óleo em cima da cómoda
+O dedo passa pela curva do joelho
+A palma cobre a marca do cotovelo
+A unha do polegar segue a linha da têmpora
+E a outra mão pousa contra o esterno
 
+[Verse 3]
+Sento-me na cama com a luz da janela
+A planta do pé toca o tapete de juta
+O joelho dobra-se para a frente devagar
+A mão direita pousa na curva da anca
+O dedo passa por uma marca pequena
+De uma cirurgia que ninguém vê de fora
+A pele guarda o que a memória esqueceu
+E o corpo conta a tarde sem pressa, agora
 
 [Chorus]
-A cicatriz
-Não é vergonha, é história
-A cicatriz
-É a mais honesta memória
-Cada marca é um capítulo
-Que o corpo não editou
-A cicatriz é o título
-Do livro que a vida me contou
+O espelho do quarto, a cómoda de pinho
+A janela aberta para o pátio molhado
+A toalha de banho dobrada na cadeira
+O frasco do óleo em cima da cómoda
+O dedo passa pela curva do joelho
+A palma cobre a marca do cotovelo
+A unha do polegar segue a linha da têmpora
+E a outra mão pousa contra o esterno
+
+[Bridge]
+A cama por fazer com o lençol caído
+O candeeiro da mesinha com a luz a baixar
+A roupa do dia dobrada na cadeira de palha
+A janela aberta com o cortinado a balouçar
+O chinelo descalço encostado ao roupeiro
 
 [Outro]
-Esta cicatriz
-É minha e eu fico com ela`,
+Pouso o frasco do óleo na cómoda escura
+Dobro o joelho contra a outra perna
+Estendo-me na cama com a luz apagada
+A mão pousa no peito sobre a costela
+E adormeço com o corpo todo recolhido`,
 
   "incenso-rescaldo/6": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-We walk across the wood still pale
-The railing smooth beneath our hands
-Below the water tells its tale
-Of bridges lost in other lands
+The kitchen has a new chair by the window
+The old one went out with the rain last Tuesday
+The mug I bought him sits beside the kettle
+The mug I broke is in the back yard, sleeping
+His shoulder leans against the kitchen door
+My elbow rests against the wooden table
+The clock above the stove ticks past the hour
+The light above us hums in the new shade
 
 [Verse 2]
-This one we chose, this one we built
-Not from the rubble of the past
-A different shape, a different tilt
-A bridge designed at last to last
+We changed the bedroom around in November
+The bed now faces toward the window light
+The wardrobe moved across against the wall
+The lamp I never liked is on his side
+His palm sits on the back of my left hand
+My thumb traces the knuckle of his finger
+The shoulder eases into something newer
+The collarbone breathes in a different kitchen
+
+[Pre-Chorus]
+The hallway has a different rug now
+The bathroom holds a second toothbrush cup
+The kitchen drawer has knives that we both chose
 
 [Chorus]
-New bridge, new bridge
-Not the old one rebuilt but new
-New bridge, new bridge
-With a better view
-The water flows the same below
-The river hasn't changed its mind
-But we chose a different way to go
-And left the old design behind
+The kitchen tile, the painted wooden table
+The chair beside the window, his and mine
+The teapot from the market by the cathedral
+The bread board with a knife along the line
+My wrist rests on the edge of the new counter
+His palm sits warm against the small of my back
+The shoulder finds his shoulder by the cooker
+The temple presses to the kitchen rack
 
+[Verse 3]
+We sit together in the kitchen evening
+He cuts the bread, I stir the wooden pot
+The cat walks slowly between both our ankles
+The wind comes in across the kitchen plot
+My collarbone receives the steam from cooking
+His jaw relaxes in the lamplight gold
+The hands that broke a thing in spring last summer
+Now hold a kitchen that has not gone cold
 
 [Chorus]
-New bridge, new bridge
-Not the old one rebuilt but new
-New bridge, new bridge
-With a better view
-The water flows the same below
-The river hasn't changed its mind
-But we chose a different way to go
-And left the old design behind
+The kitchen tile, the painted wooden table
+The chair beside the window, his and mine
+The teapot from the market by the cathedral
+The bread board with a knife along the line
+My wrist rests on the edge of the new counter
+His palm sits warm against the small of my back
+The shoulder finds his shoulder by the cooker
+The temple presses to the kitchen rack
+
+[Bridge]
+The living room has both our books on the shelf
+The sofa has the blanket from his old house
+The window box outside has herbs we planted
+The hallway holds two coats upon the hook
+The bedroom door is open at the end
 
 [Outro]
-A new bridge
-Between us`,
+He brings the plates across to the small table
+I bring the salad in the wooden bowl
+He pulls the chair out for me on his side
+I sit beside him at the kitchen window
+We eat the food we made inside this kitchen`,
 
   // ─────────────────────────────────────────────
   // OFERENDA (gratidão, o sagrado sem igreja)
@@ -4724,71 +4884,79 @@ e sou todas`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1 - Mozambican English pronunciation, hard consonants, no American, no British]
-My mother carried her mother's wound
-without naming it, without setting it down
-I have looked at that wound for thirty years
-and I am choosing — it ends right here right now
+My mother carried her mother's wound to the kitchen
+to the table, to the bed, into the hallway light
+I have looked at that wound across thirty kitchen mornings
+and today my hand sets it down on the counter, quiet
 
 [Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
-This stops with me
-this fear, this silence, this shame
-this stops with me
-not because they were wrong
-but because the road they walked
-does not need to be my road
-I take what I love
-and I leave what I refuse
-and the lineage will not be poorer
-it will be lighter
+The kitchen has a chair I keep for me
+the table has a plate I set for me
+the bedroom has a lamp I leave on softly
+the bathroom has a mirror I look at slowly
+The shoulder learns to drop in the kitchen evening
+the jaw learns to soften by the kitchen sink
+the wrist learns to rest along the kitchen counter
+the throat learns to swallow what it wants to drink
 
 [Verse 2 - Mozambican English pronunciation, hard consonants, no American, no British]
-I will not pass on the swallowing of words
-I will not pass on the bracing for the blow
-I will not pass on the loneliness of pride
-I will not pass on the prayer that says be small and slow
+The kitchen knife is in the wooden block by the stove
+the bread is on the counter by the window light
+the salt is in the small bowl beside the pepper
+the chair I do not pass on is on the right
+The pantry holds the prayer that I will not repeat
+the cupboard holds the silence that I will not pass on
+the hallway holds the bracing that ends with my own breath
+the bedroom holds a body that is allowed to yawn
+
+[Pre-Chorus]
+The hallway light is on across the corridor
+the bedroom door is open at the very end
+the bathroom tap drips once into the basin
 
 [Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
-This stops with me
-this fear, this silence, this shame
-this stops with me
-not because they were wrong
-but because the road they walked
-does not need to be my road
-I take what I love
-and I leave what I refuse
-and the lineage will not be poorer
-it will be lighter
+The kitchen has a chair I keep for me
+the table has a plate I set for me
+the bedroom has a lamp I leave on softly
+the bathroom has a mirror I look at slowly
+The shoulder learns to drop in the kitchen evening
+the jaw learns to soften by the kitchen sink
+the wrist learns to rest along the kitchen counter
+the throat learns to swallow what it wants to drink
 
 [Verse 3 - Mozambican English pronunciation, hard consonants, no American, no British]
-My grandmother survived
-my mother survived
-I am alive and I have other work
-the work of choosing what to send forward
+My grandmother survived inside her own small kitchen
+my mother survived inside the kitchen of her marriage
+I am alive inside this kitchen with the window open
+and the work is choosing what to send across the table
+The cup I keep is the one my grandmother gave me
+the plate I keep is the one my mother painted at fifty
+the kitchen towel I keep is the one with the small flowers
+the rest goes out with the rubbish on the kitchen morning
 
 [Bridge - Mozambican English pronunciation, hard consonants, no American, no British]
-This is not betrayal — this is love
-I love them enough to set down the heavy
-I love what comes after me enough
-to refuse the cargo that broke their backs already
+This is love, this kitchen morning, this gentle setting down
+I love them in the chair beside the kitchen window
+I love them at the table with the bread between us
+I love them by the small lamp on the bedroom dresser
+I love them and I set down the things they had to carry
 
 [Chorus - Mozambican English pronunciation, hard consonants, no American, no British]
-This stops with me
-this fear, this silence, this shame
-this stops with me
-not because they were wrong
-but because the road they walked
-does not need to be my road
-I take what I love
-and I leave what I refuse
-and the lineage will not be poorer
-it will be lighter
+The kitchen has a chair I keep for me
+the table has a plate I set for me
+the bedroom has a lamp I leave on softly
+the bathroom has a mirror I look at slowly
+The shoulder learns to drop in the kitchen evening
+the jaw learns to soften by the kitchen sink
+the wrist learns to rest along the kitchen counter
+the throat learns to swallow what it wants to drink
 
 [Outro - Mozambican English pronunciation, hard consonants, no American, no British]
-I am the door
-not the wall
-I am the door
-and I choose
-what passes through`,
+I close the kitchen drawer with my left hand
+I switch the kitchen light off with my thumb
+I walk across the hallway in bare feet
+I sit beside the lamp inside the bedroom
+I keep the chair beside the kitchen window`,
 
   "sangue-linhagem/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: Mozambican Portuguese pronunciation from Maputo only — hard consonants, pronounce ti as ti not tchi, pronounce di as di not dji, no nasal slide, no open vowels, closed European-style vowels. NOT Brazilian, NOT carioca, NOT paulista, NOT Lisbon European]
