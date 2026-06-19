@@ -5542,41 +5542,73 @@ And the body knows it's where it should`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A água volta para as mesmas pegadas
-As mesmas conchas, as mesmas rochas
-A filha torna-se mãe nas jornadas
-É a mãe torna-se avó nas colchas
+Domingo de manhã, a casa cheia de gente
+A minha mãe na cozinha mexe o arroz
+A minha filha mais nova passa na frente
+Com o copo de sumo apoiado na voz
+A clavícula da tia roça na minha
+Quando ela se inclina para a panela do peixe
+O cotovelo do meu primo na cozinha
+Bate na bancada que range e se queixe
 
 [Verse 2]
-A mesma canção numa boca nova
-O mesmo amor em mãos novas
-Tudo volta como a chuva prova
-Que as estações são as mesmas trovas
+A mesa grande está posta com pratos antigos
+Os que eram da minha avó e ninguém partiu
+A omoplata do meu marido encosta nos pingos
+Da chaleira que a minha sobrinha não viu
+Os pés de toda a gente cruzam-se debaixo
+Da mesa que range numa perna torta
+A gengiva guarda o sabor do encaixo
+Do limão na água que fica perto da porta
+
+[Pre-Chorus]
+A clavícula da prima pousa no meu ombro
+Os tornozelos dos primos pequenos no chão
+A nuca do meu pai dobra sobre o assombro
 
 [Chorus]
-Volta
-Tudo volta, nada se perde
-Volta
-O ciclo nunca desmente
-O que foi vai ser de novo
-Não igual mas semelhante
-O rio encontra o seu povo
-É o mar beija o navegante
+O almoço de domingo na casa da família
+A mesa grande, a toalha de bordado
+A panela do meio mexe-se sozinha
+Com o vapor da carne e do tomate cortado
+O queixo do meu pai descansa na mão direita
+A omoplata da minha mãe encosta no banco
+Os dedos das crianças procuram a colheita
+Do prato grande do meio, sem branco
 
+[Verse 3]
+Eu sento na cadeira que era da minha avó
+A almofada bordada ainda guarda o cheiro
+Do sabão azul que ela usava só
+Para os panos da casa, era o seu lema certeiro
+A coxa esquerda apoia no braço da cadeira
+A pálpebra direita treme com a luz
+Da janela aberta para a videira inteira
+Que a minha mãe plantou na rua e na cruz
 
 [Chorus]
-Volta
-Tudo volta, nada se perde
-Volta
-O ciclo nunca desmente
-O que foi vai ser de novo
-Não igual mas semelhante
-O rio encontra o seu povo
-É o mar beija o navegante
+O almoço de domingo na casa da família
+A mesa grande, a toalha de bordado
+A panela do meio mexe-se sozinha
+Com o vapor da carne e do tomate cortado
+O queixo do meu pai descansa na mão direita
+A omoplata da minha mãe encosta no banco
+Os dedos das crianças procuram a colheita
+Do prato grande do meio, sem branco
+
+[Bridge]
+A minha filha mais velha levanta o copo da bisavó
+Que ninguém usa há anos por ser muito fino
+A clavícula dela é igual à da minha avó
+E ela nem sabe que faz aquele mesmo trino
+Com o pulso esquerdo quando pousa o copo na mesa
+Como se a memória do osso já tivesse a destreza
 
 [Outro]
-Volta, volta
-Tudo volta a casa`,
+Levanto, levo os pratos para o lava-loiça
+A omoplata da minha mãe encosta na minha
+A panela arrefece, a tarde quase nossa
+Continua na cozinha, ainda nova`,
 
 
   // ─────────────────────────────────────────────
@@ -5588,53 +5620,73 @@ Tudo volta a casa`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Os sapatos voam para o canto
-Os dedos abrem no chão frio
-O pé respira como um canto
-De quem voltou do seu desvio
+Chego a casa, atiro os sapatos para o canto
+A planta esquerda toca o mosaico fresco
+A omoplata desce pela parede do canto
+A camisa do trabalho tem o suor do almoço
+A bolsa pousa em cima da mesa do corredor
+Os tornozelos pulsam do dia em pé
+O lábio inferior solta um suspiro maior
+Que o queixo apoiado no peito que se vê
 
 [Verse 2]
-A meia sai como uma pele
-Que já não serve para nada
-O chão recebe quem se atreve
-A sentir a terra sagrada
+A meia direita prende no calcanhar
+O pulso esquerdo puxa o elástico do colant
+A coxa marca a linha onde o tecido apertou todo o dia
+A pálpebra direita treme e o sono já anda
+Pelos cabelos soltos sobre o ombro esquerdo
+A nuca encosta na almofada do banco
+A clavícula respira pelo decote aberto
+Da blusa de algodão que ainda guarda o branco
+
+[Pre-Chorus]
+A planta direita toca o tapete de juta
+A esquerda apoia no soalho mais frio
+O joelho dobra na cadeira da disputa
 
 [Chorus]
-Tira os sapatos
-O chão é teu, a noite é tua
-Tira os sapatos
-A liberdade é nua
-Os pés sabem o que a cabeça esquece
-Que a terra está aqui em baixo
-É o corpo agradece
-Cada passo descalco
+A cozinha à noite com a luz do tecto baixa
+O frigorífico ronrona contra a parede do corredor
+A planta do pé pousa na cerâmica que descalça
+A clavícula desce e o ombro perde o pavor
+Os dedos do pé esticam-se pela primeira vez
+A coxa cansada apoia no banco da bancada
+A respiração fica um pouco mais distraída e talvez
+Mais leve sem a sola apertada
 
 [Verse 3]
-De pé na relva molhada
-Os dedos agarram a terra
-A planta do pé encontra a morada
-Que nenhum sapato encerra
+Vou descalça até à varanda do segundo piso
+Os mosaicos ainda guardam o calor do sol da tarde
+O tornozelo cruza no parapeito conciso
+De ferro pintado que a tinta já não esconde
+A omoplata encosta no caixilho da porta
+Os pés pendurados sobre a planta da varanda
+A pálpebra fecha e a anca direita se conforta
+Com o vento da rua que à esta hora anda
 
 [Chorus]
-Tira os sapatos
-O chão é teu, a noite é tua
-Tira os sapatos
-A liberdade é nua
-Os pés sabem o que a cabeça esquece
-Que a terra está aqui em baixo
-É o corpo agradece
-Cada passo descalco
+A cozinha à noite com a luz do tecto baixa
+O frigorífico ronrona contra a parede do corredor
+A planta do pé pousa na cerâmica que descalça
+A clavícula desce e o ombro perde o pavor
+Os dedos do pé esticam-se pela primeira vez
+A coxa cansada apoia no banco da bancada
+A respiração fica um pouco mais distraída e talvez
+Mais leve sem a sola apertada
 
 [Bridge]
-Houve um tempo em que corria descalca
-Sem pensar no que o chão podia fazer
-Os pés sabiam o caminho sem falta
-Antes de eu aprender a temer
+Volto para dentro pela porta da varanda
+A planta esquerda apanha um grão de areia trazido
+Do tapete do corredor que ninguém varre
+A clavícula direita roça no batente partido
+O queixo encosta no peito quando me dobro
+Para apanhar a meia que caiu junto ao soalho
 
 [Outro]
-Descalca
-O chão é meu
-E sempre foi`,
+A pala da cama recebe os pés cansados
+O tornozelo direito apoia sobre o outro
+A planta sente o algodão do lençol acolhedor
+A omoplata afunda e o dia acaba pelo dorso`,
 
   "grao-descalca/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
