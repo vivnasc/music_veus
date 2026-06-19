@@ -62,54 +62,54 @@ Só fica`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-You touched my wrist and something old
-Woke up beneath the skin
-Like a room that's been locked for years
-And someone just walked in
+Six in the morning
+Your mouth on my collarbone
+A small heat finding the bone
+Before the window is open
 
 [Verse 2]
-I don't know what you did
-Your hand was barely there
-But the body has its own memory
-And mine remembered your prayer
+The sheet has the shape of a leg
+Yours, then mine, then the hour
+Your thumb finds the dip below the ear
+And stays there longer than a word would
 
 [Chorus]
-Skin on skin
-The oldest language spoken
-Skin on skin
-The silence finally broken
-Not with words but with warmth
-Not with promises but with pulse
-Skin on skin
-The only truth that I trust
+The salt on the line of the jaw
+The sleep still soft in the wrist
+Light coming in sideways
+Crossing the shoulder, the hip
+Nothing is named yet
+Nothing has had to begin
+The collarbone learns
+What the morning has done to the skin
 
 [Verse 3]
-Your fingers traced my spine
-Like reading something ancient
-A sentence written in braille
-That my bones have been saving
+Your breath finds the inside of the elbow
+A pulse I had forgotten lives there
+The sheet pulls when you turn
+And the cold finds my back, then your hand
 
 [Chorus]
-Skin on skin
-The oldest language spoken
-Skin on skin
-The silence finally broken
-Not with words but with warmth
-Not with promises but with pulse
-Skin on skin
-The only truth that I trust
+The salt on the line of the jaw
+The sleep still soft in the wrist
+Light coming in sideways
+Crossing the shoulder, the hip
+Nothing is named yet
+Nothing has had to begin
+The collarbone learns
+What the morning has done to the skin
 
 [Bridge]
-I have been touched before
-But not like this — not read
-Not like someone looking for
-What the body keeps unsaid
+The kettle clicks off in the kitchen
+Neither of us moves
+A foot finds another foot
+Under the warm part of the sheet
 
 [Outro]
-Touch me again
-Like I'm a page
-You want to memorise
-Before the light goes out`,
+The hour holds
+The pillow keeps the shape
+The mouth on the collarbone
+Stays`,
 
   "nua-romance/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -170,60 +170,54 @@ Tudo`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I want to be the last thing you hear
-Before you fall asleep
-Not a word — just a breath
-The kind the body doesn't keep
+Your palm at the back of my neck
+A warmth that does not move
+Sweat finds the line below the shoulder blade
+And stays there, slow
 
 [Verse 2]
-I want to be the weight
-That your mattress remembers
-Not the summer love that blazes
-But the coal beneath the embers
+My foot against the cold edge of yours
+The sheet between us a thin country
+The heat goes nowhere fast
+Travels by millimetre, finds the kidney
 
 [Chorus]
-Stay
-Not forever — I don't trust forever
-Stay
-Like rain stays in the river
-After the cloud has gone
-Stay — the way warmth stays
-In a chair where someone sat
-Stay — not because you must
-But because your body wants exactly that
+The hand stays where the neck is hottest
+The thumb does not yet move
+The mouth waits at the temple
+The mouth waits at the wrist
+Skin warmer where the cotton has been
+Cooler where the air comes in
+The slow part of the body
+Is the part that is being kept
 
 [Verse 3]
-I'm not asking you to love me
-With the kind of love that swears
-I'm asking you to be here
-With the kind of love that dares
-To be ordinary
-To be Tuesday
-To be quiet and still there
+I can feel where you ended
+And where the room begins
+A degree of warmth held at the elbow
+Held at the small of the back, held in
 
 [Chorus]
-Stay
-Not forever — I don't trust forever
-Stay
-Like rain stays in the river
-After the cloud has gone
-Stay — the way warmth stays
-In a chair where someone sat
-Stay — not because you must
-But because your body wants exactly that
+The hand stays where the neck is hottest
+The thumb does not yet move
+The mouth waits at the temple
+The mouth waits at the wrist
+Skin warmer where the cotton has been
+Cooler where the air comes in
+The slow part of the body
+Is the part that is being kept
 
 [Bridge]
-Every love I've had before
-Was lightning — bright and gone
-I don't want the storm this time
-I want the slow slow dawn
+The radiator clicks once
+Somewhere a tap drips
+Your hand has not moved from my neck
+And mine has not asked it to
 
 [Outro]
-Stay
-Like warmth
-Like breath
-Like something
-That was always here`,
+The warm of the palm
+The cool of the air
+The line of sweat
+Holds`,
 
   "nua-romance/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -285,54 +279,55 @@ Juntos`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-There are things I cannot say
-With my mouth open
-So I say them with my hands
-On your back — the unspoken
+Your hip releases first
+Before either of us notices
+The jaw goes a half-second later
+And the room is the same room
 
 [Verse 2]
-My thumb finds the knot
-Between your shoulder blades
-I press until you breathe
-The breath you've been saving for days
+My thumb on the knot below your shoulder
+Not pressing, just there
+Your breath finds a deeper place
+Without being asked anywhere
 
 [Chorus]
-Let me hold you
-Not the way the world holds you
-With conditions and agendas
-Let me hold you
-The way gravity holds the moon
-Invisible and constant
-The way the dark holds every star
-Without asking it to shine
+The hip lets go of the day
+The jaw stops holding the morning
+The sole of the foot finds the floor
+And finds it warm
+The knee stops bracing the chair
+The tongue stops sitting against the teeth
+Nothing is asked of the spine
+And the spine notices
 
 [Verse 3]
-You carry your jaw so tight
-Like a door you will not open
-Let me be the room behind it
-Where the clenching is forgiven
+Your hand drops onto the table
+Heavier than it was a minute ago
+Your shoulder finds its lower place
+The one it forgot it knew
 
 [Chorus]
-Let me hold you
-Not the way the world holds you
-With conditions and agendas
-Let me hold you
-The way gravity holds the moon
-Invisible and constant
-The way the dark holds every star
-Without asking it to shine
+The hip lets go of the day
+The jaw stops holding the morning
+The sole of the foot finds the floor
+And finds it warm
+The knee stops bracing the chair
+The tongue stops sitting against the teeth
+Nothing is asked of the spine
+And the spine notices
 
 [Bridge]
-I know you don't need saving
-I know you're not a wound
-But even mountains need the valley
-And even silence needs the room
+I am not doing anything to you
+You are not doing anything to me
+The body is finding its way down
+By itself, by inches, by degrees
 
 [Outro]
-Let me hold you
-Not to fix
-Not to keep
-Just to hold`,
+The hip
+The jaw
+The shoulder
+The sole of the foot
+Down`,
 
   "nua-romance/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -456,54 +451,54 @@ No apology`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Apaixonei-me pelo teu cansaço
-Pela forma como despes o dia
-Pelo suspiro entre a porta e o sofá
-Pela tua falta de energia
+A mesma chávena na minha mão
+Aquela com a falha azul no rebordo
+Tu enches sem perguntar
+E pousas do meu lado do tampo
 
 [Verse 2]
-Apaixonei-me pelo teu defeito
-O riso demasiado alto
-As meias no chão da sala
-O café com açúcar de mais — e o sobressalto
+A cadeira da cozinha onde sentas
+Tem o teu peso desenhado na palhinha
+Eu sento-me nela quando sais
+E está sempre um bocadinho morna
 
 [Chorus]
-Amo o que ninguém vê
-Amo o que não vai para a foto
-Amo o ordinário em ti
-O imperfeito, o roto
-A forma como coças o nariz
-Quando estás a pensar
-Amo-te mais na terça-feira
-Do que no jantar de luar
+A chávena com a falha azul
+A cadeira que guarda a forma
+A escova de dentes ao lado da minha
+O segundo café feito sem se pedir
+Não é casa porque o disseste
+É casa porque o teu pé descalço
+Sabe o caminho do quarto para o lavatório
+Sem acender a luz
 
 [Verse 3]
-O mundo quer o extraordinário
-O cinema quer a chuva e o beijo
-Mas eu quero o silêncio na cozinha
-O jornal e o bocejo
+O teu casaco na minha cadeira
+A minha pulseira no teu bolso
+Não nos perguntamos onde estão as coisas
+Sabemos como se sabe o próprio cotovelo
 
 [Chorus]
-Amo o que ninguém vê
-Amo o que não vai para a foto
-Amo o ordinário em ti
-O imperfeito, o roto
-A forma como coças o nariz
-Quando estás a pensar
-Amo-te mais na terça-feira
-Do que no jantar de luar
+A chávena com a falha azul
+A cadeira que guarda a forma
+A escova de dentes ao lado da minha
+O segundo café feito sem se pedir
+Não é casa porque o disseste
+É casa porque o teu pé descalço
+Sabe o caminho do quarto para o lavatório
+Sem acender a luz
 
 [Bridge]
-O amor nos filmes acaba
-Quando começa a vida real
-O meu amor começa exatamente
-Onde acaba o carnaval
+Hoje partiste a chávena
+Lavei os bocados sem dizer nada
+Comprámos outra na quarta-feira
+E já é nossa há um mês
 
 [Outro]
-Amo-te banal
-Amo-te cansado
-Amo-te real
-Amo-te ao lado`,
+A chávena
+A cadeira
+O pé descalço
+O caminho sem luz`,
 
   "nua-romance/10": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -1750,54 +1745,56 @@ Infinito`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I knew before you touched me
-The way you know before the rain
-A pressure change inside the chest
-A pleasure just this side of pain
+Your hand stops a centimetre from my arm
+And stays there
+The breath I am taking
+Gets caught for a beat behind the sternum
 
 [Verse 2]
-Your eyes did something to my spine
-Three seconds before your hand
-A current running underground
-A fire nobody planned
+A small heat under the shoulder blade
+Sweat surprised at being early
+Your knee a finger's width from mine
+Under the table, under the talk
 
 [Chorus]
-Slow burn
-The wanting is the thing
-Slow burn
-The almost is the king
-Not the arrival but the road
-Not the flame but the heat
-Slow burn
-The sweetest kind of incomplete
+The hand that pauses before the wrist
+The mouth that does not yet arrive
+The breath caught one second behind the rib
+The pulse the throat can feel
+Nothing crosses, nothing is taken
+A warmth in the palm of the held-still hand
+The slow part of the wanting
+Is the part the body learns to stand
 
 [Verse 3]
-We sat across the table
-Your knee one inch from mine
-That inch contained a universe
-That inch contained all time
+Your thumb on the rim of your glass
+Mine on the rim of mine
+The table is a country wider
+Than the half-second between
 
 [Chorus]
-Slow burn
-The wanting is the thing
-Slow burn
-The almost is the king
-Not the arrival but the road
-Not the flame but the heat
-Slow burn
-The sweetest kind of incomplete
+The hand that pauses before the wrist
+The mouth that does not yet arrive
+The breath caught one second behind the rib
+The pulse the throat can feel
+Nothing crosses, nothing is taken
+A warmth in the palm of the held-still hand
+The slow part of the wanting
+Is the part the body learns to stand
 
 [Bridge]
-I don't want the explosion
-I don't want the crash
-I want the low hum of longing
-I want the glow before the flash
+I do not move first
+You do not move first
+The kettle in the kitchen finds its boil
+And neither of us turns the head
 
 [Outro]
-Burn slowly
-Take your time
-The fire that lasts
-Is the fire that's kind`,
+The hand
+A centimetre
+The breath
+A beat behind
+The wrist
+Still its own`,
 
   "nua-fogo-lento/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -1915,55 +1912,56 @@ Who's here`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A cidade desligou as luzes
-Os carros pararam de passar
-A rua é só nossa agora
-E o silêncio sabe a luar
+A minha mão parou no botão da camisa
+Não por hesitação — por gosto
+O ombro que a tua mão segurava
+Desceu um centímetro sozinho
 
 [Verse 2]
-Meia-noite e o teu corpo
-Tem outra temperatura
-A pele acorda diferente
-Quando a noite faz a cura
+A minha respiração ficou mais comprida
+Sobretudo na expiração
+A planta do pé reconheceu o chão
+E ficou ali um bocado a mais
 
 [Chorus]
-Meia-noite
-A cidade dorme, nós não
-Meia-noite
-A hora da rendição
-Quando o dia já não manda
-E o corpo diz que sim
-Meia-noite
-Onde tudo começa por fim
+A mão para no botão
+A boca espera no maxilar
+O joelho pousa contra o joelho
+Sem motivo para passar
+O relógio na parede da sala
+Pode continuar a girar
+A minha barriga encontrou
+A respiração que tinha esquecido
 
 [Verse 3]
-As sombras no teto mexem-se
-Ao ritmo da respiração
-E nós inventamos um mundo
-Que só existe na escuridão
+O queixo deixou de avançar
+A língua descansou contra os dentes
+A anca acomodou-se no colchão
+Como quem encontra uma forma sua
 
 [Chorus]
-Meia-noite
-A cidade dorme, nós não
-Meia-noite
-A hora da rendição
-Quando o dia já não manda
-E o corpo diz que sim
-Meia-noite
-Onde tudo começa por fim
+A mão para no botão
+A boca espera no maxilar
+O joelho pousa contra o joelho
+Sem motivo para passar
+O relógio na parede da sala
+Pode continuar a girar
+A minha barriga encontrou
+A respiração que tinha esquecido
 
 [Bridge]
-De dia somos pessoas
-Com nomes e obrigações
-De noite somos só corpos
-Com instintos e sem razões
+Não estou a desacelerar
+Estou só a notar
+O ritmo que o corpo tinha
+Por baixo do que eu tinha a fazer
 
 [Outro]
-Meia-noite
-Nós dois
-O escuro
-O fogo
-O sim`,
+A mão
+O botão
+A barriga
+A respiração
+A planta do pé
+O chão`,
 
   "nua-fogo-lento/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -2080,56 +2078,56 @@ E isso basta`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The room is quiet now
-The sheets have lost their heat
-Your breathing has that rhythm
-That means you're almost asleep
+The fireplace is grey now
+A red eye left somewhere in the ash
+My foot finds the cold tile
+Coming back from the kitchen tap
 
 [Verse 2]
-My hand is on your chest
-Feeling the slow descend
-The body after wanting
-Is the gentlest kind of friend
+The sheet is cool where it was hot
+Hot where my back has been
+You turn — the warm side of the pillow
+Finds the side of my face that was facing the wind
 
 [Chorus]
-Aftermath
-The silence after the storm
-Aftermath
-When the body returns to form
-Not the fire but the embers
-Not the hunger but the full
-Aftermath
-The most beautiful kind of lull
+A coal at the back of the grate
+Still burning, not flame, just orange
+The morning air at the window
+Cold against the warm of the bed
+My hand on the spot of your chest
+Where the heat is keeping its hour
+The cup on the floor is room temperature
+And neither of us moves to drink
 
 [Verse 3]
-Your eyelids are half closed
-Your fingers barely curl
-In this quiet after everything
-I feel like the whole world
+The kettle has gone quiet
+The tap drip is the only sound
+Your hand finds my wrist without looking
+Warm where the sleeve has been
 
 [Chorus]
-Aftermath
-The silence after the storm
-Aftermath
-When the body returns to form
-Not the fire but the embers
-Not the hunger but the full
-Aftermath
-The most beautiful kind of lull
+A coal at the back of the grate
+Still burning, not flame, just orange
+The morning air at the window
+Cold against the warm of the bed
+My hand on the spot of your chest
+Where the heat is keeping its hour
+The cup on the floor is room temperature
+And neither of us moves to drink
 
 [Bridge]
-Nobody writes songs about this part
-The cooling down — the soft
-But this is where I love you most
-In the ordinary aloft
+The ash settles a little
+A draft from under the door
+The warm part of the bed is small now
+And we have made it smaller
 
 [Outro]
-After
-The fire
-The quiet
-The warm
-The still
-The us`,
+The grey
+The orange eye
+The cold tile
+The warm wrist
+The room
+Still holding`,
 
   "nua-fogo-lento/9": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -3042,65 +3040,66 @@ E tu`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-You called at midnight
-Voice like crumpled paper
-I didn't say it's going to be okay
-I didn't offer you a saviour
+You drop your chin the way I drop mine
+Same half-second before the laugh lands
+The waiter says something flat
+And we catch each other's eyes in the glass
 
 [Chorus]
-Holding space
-Is the bravest kind of quiet
-Holding space
-Is not fixing, not advising
-Just the steady sound of breathing
-On the other end of the line
-Holding space — I am here
-Holding space — take your time
-Holding space — you don't have to be okay
-You just have to be mine
+Lean in at the same table
+Bite the lip on the same word
+Pause on the same beat
+Before the laugh comes through
+Same shoulder lifting first
+Same hand on the same knee
+Whoever taught us this
+Taught us both at once
 
 [Verse 2]
-I sat with you in the dark
-On my kitchen floor three hundred miles away
-I held the phone like holding hands
-And let you find your way
+You finish the bread crust
+The way our grandmother did
+I notice my own foot
+Tapping under your chair
+We didn't rehearse this
+Nobody handed it down on paper
+It walked into our hips
+And stayed there
 
 [Chorus]
-Holding space
-Is the bravest kind of quiet
-Holding space
-Is not fixing, not advising
-Just the steady sound of breathing
-On the other end of the line
-Holding space — I am here
-Holding space — take your time
-Holding space — you don't have to be okay
-You just have to be mine
+Lean in at the same table
+Bite the lip on the same word
+Pause on the same beat
+Before the laugh comes through
+Same shoulder lifting first
+Same hand on the same knee
+Whoever taught us this
+Taught us both at once
 
 [Bridge]
-Sometimes love is not a word
-It's not a hug, it's not a plan
-Sometimes love is just the sound
-Of someone saying: I understand
-Without understanding
-Just being there
+You tell the joke
+I already feel it in my throat
+The punchline hits the floor
+Between our two feet
+Same tilt of the head
+Same long breath after
+No one is performing
+The room just gets warm
 
 [Chorus]
-Holding space
-Is the bravest kind of quiet
-Holding space
-Is not fixing, not advising
-Just the steady sound of breathing
-On the other end of the line
-Holding space — I am here
-Holding space — take your time
-Holding space — you don't have to be okay
-You just have to be mine
+Lean in at the same table
+Bite the lip on the same word
+Pause on the same beat
+Before the laugh comes through
+Same shoulder lifting first
+Same hand on the same knee
+Whoever taught us this
+Taught us both at once
 
 [Outro]
-I'm here
-That's all
-I'm here`,
+Your chin
+My chin
+Same dip
+Same beat`,
 
   "sangue-irmas/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -3529,33 +3528,50 @@ Meu`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The water's hot, the candles lit
-The door is locked, the world is out
-I sink below the surface
-And I remember what I'm about
+The bed is empty on the left side
+By choosing, not by missing
+I pull the cover to my chin
+With a hand that does not have to ask
 
 [Verse 2]
-Not a mother, not a worker
-Not a daughter, not a wife
-Just a body in the water
-Just the oldest form of life
+Cream on the heel
+The other heel, then the arch
+I take my time with the right ankle
+Nobody is waiting for the light to go out
 
 [Chorus]
-The bath — my temple
-Where I worship no one else
-The bath — where I am sacred
-Where I am myself
-The water holds me
-Like the first water ever did
-Before names, before shame
-Before anyone told me to hide
-What I am
+The empty side of the bed I chose
+The cream on the sole of the foot
+The book open at page seventy-one
+And no hand reaching for it
+The window cracked the width I wanted
+The cup of water on my own side of the table
+The hour my own hour
+The breathing my own count
+
+[Verse 3]
+I turn the pillow to the cool side
+Without negotiating with another head
+I take the whole middle of the bed
+Without sliding back
+
+[Chorus]
+The empty side of the bed I chose
+The cream on the sole of the foot
+The book open at page seventy-one
+And no hand reaching for it
+The window cracked the width I wanted
+The cup of water on my own side of the table
+The hour my own hour
+The breathing my own count
 
 [Outro]
-Water
-Warmth
-Me
-Enough`,
+The cream
+The empty side
+The pillow turned
+The light out
+When my hand
+Says so`,
 
   "nua-meu/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]

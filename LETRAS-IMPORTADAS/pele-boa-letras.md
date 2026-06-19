@@ -9,67 +9,62 @@
 Energia: steady | Língua: PT | Sabor: marrabenta
 
 [Verse 1]
-Hoje não tenho queixa
-O café saiu quente, a torrada no ponto
-A pequena dormiu a noite inteira
-E eu acordei sem o peso do mundo no rosto
+Acordei e os ombros estavam mais em baixo
+Sem eu lhes ter pedido
+O café aqueceu na mão
+E a mão não fechou em punho
 
 [Verse 2]
-A roupa que vesti serve
-O cabelo obedeceu sem luta
-O trânsito até foi manso
-E a manhã tem sabor a fruta
+A pequena dormiu a noite inteira
+A minha mandíbula não avançou ao espelho
+A roupa caiu sobre os ombros
+Sem ter de ajustar nada à frente do peito
 
 [Pre-Chorus]
 Não aconteceu nada de especial
 Não ganhei nada, não resolvi nada
-Mas tudo está no sítio certo
-E eu estou aqui — descansada
+Mas o queixo está dois milímetros mais para trás
+E a barriga está mais funda na respiração
 
 [Chorus]
-Hoje está bom, hoje está bom
-Não preciso de mais do que isto
-Hoje está bom, hoje está bom
-E não vou estragar com a lista
-Do que falta, do que falha, do que vem
-Hoje o dia é só o que é
-Está bom — e eu estou bem
-E não preciso de porquê
+Os ombros largaram
+Sem eu ter dado ordem
+O queixo parou de avançar
+A língua descansou contra os dentes
+O passo não tem pressa
+A planta do pé sente o chão antes do salto
+Não é um bom dia que me digo
+É o corpo a notar onde está
 
 [Verse 3]
 O sol entrou pela janela do escritório
 E parei só para olhar
-Não por inspiração nem por poesia
-Só porque o sol estava ali — a dar
+A nuca encontrou o encosto da cadeira
+Sem ter de o procurar
 
 [Chorus]
-Hoje está bom, hoje está bom
-E não vou estragar com a lista
-Está bom — e eu estou bem
-E não preciso de porquê
+Os ombros largaram
+Sem eu ter dado ordem
+O queixo parou de avançar
+A língua descansou contra os dentes
+O passo não tem pressa
+A planta do pé sente o chão antes do salto
+Não é um bom dia que me digo
+É o corpo a notar onde está
 
 [Bridge]
-Amanhã pode ser difícil
-Ontem sei que foi
-Mas hoje está bom
-E eu vou ficar aqui
-Neste bom
-Sem culpa de não estar a sofrer
-Sem medo de que acabe
-Só aqui — a ser
-
-[Chorus]
-Hoje está bom, hoje está bom
-Não preciso de mais do que isto
-Hoje está bom
+Amanhã o queixo pode voltar a empurrar-se
+Ontem voltou
+Mas a esta hora a clavícula está aberta
+E a respiração chega até à barriga sem combate
 
 [Outro]
-Bom
-Só bom
-Sem mais
-Sem menos
-Bom
-E chega
+Os ombros
+A mandíbula
+A planta do pé
+A barriga
+Tudo um pouco mais para baixo
+E eu não dei ordem nenhuma
 
 ---
 

@@ -2040,50 +2040,55 @@ De tudo o que importa`,
 [Intro: descending piano melody starting full with soft cello underneath, a single audible exhale, then silence for one bar before verse]
 
 [Verse 1: vocal raw, very close, almost spoken, breath audible]
-I filled my house with pretty things
-My calendar with golden dates
-I wore the smile, I played the part
-And set the table, fixed the plates
+I wanted the last slice on the plate
+The one my sister always took
+I wanted to stay home that Tuesday
+And nobody ever wanted to look
 
 [Verse 2]
-But every drawer was overflowing
-Every shelf was picture-true
-And in the middle of the plenty
-Stood a woman hungry through and through
+I wanted the phone to ring at seven
+I wanted the rain to hold one more day
+I kept my hands flat on the table
+While the wanting walked the other way
 
 [Chorus]
-Let me be empty, let me be bare
-Let me be the bowl before the soup
-Let me be the garden before the seed
-Let me be the sky before the droop
-Of rain, of colour, of anything
-Let me stand in nothing for a while
-Let me learn to love the empty page
-Before I try to fill it with a smile
+I wanted the window seat
+I wanted my name said slow
+I wanted to leave the party at ten
+With my coat still warm from the row
+I wanted the bread before the soup
+I wanted the chair by the door
+I wanted the small wants out of my throat
+And onto the kitchen floor
 
+[Verse 3]
+The list is long and most of it is small
+A pear, a quiet, a hand on my back
+I keep my jaw loose while I count them
+On the wood between the cup and the rack
 
 [Chorus]
-Let me be empty, let me be bare
-Let me be the bowl before the soup
-Let me be the garden before the seed
-Let me be the sky before the droop
-Of rain, of colour, of anything
-Let me stand in nothing for a while
-Let me learn to love the empty page
-Before I try to fill it with a smile
+I wanted the window seat
+I wanted my name said slow
+I wanted to leave the party at ten
+With my coat still warm from the row
+I wanted the bread before the soup
+I wanted the chair by the door
+I wanted the small wants out of my throat
+And onto the kitchen floor
 
 [Bridge: vocal close, no harmonies, only single piano note remaining — voice essentially alone]
-Empty isn't broken
-Empty isn't wrong
-Empty is the deepest breath
-Before the deepest song
+I wanted the second cup of tea
+I wanted to say no on Friday
+I wanted the door left open
+While I walked the long way
 
 [Outro]
-I'm empty now
-And honest, finally
-The cupboards are bare
-And I am free
-Beautifully, terrifyingly free`,
+My shoulder against the doorframe
+The wanting still in my chest
+I wanted the last slice
+And I said it out loud
+And the kitchen heard the rest`,
 
   "espelho-desejo/6": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered airy harmonies emerging on choruses (3 voices building to 5 on final chorus), no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -2300,50 +2305,55 @@ This almost-touching empty space`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Há uma pergunta guardada há anos
-No fundo da gaveta dos lençóis
-Debaixo da rotina e dos enganos
-Debaixo dos sorrisos e dos nóis
+A mão pousada na mesa de pinho
+O dedo a seguir o veio da tábua
+A unha encontra o nó da madeira
+E fica ali, sem pressa nenhuma
 
 [Verse 2]
-Não é traição, não é abandono
-Não quer destruir nenhum castelo
-Quer só saber se debaixo do trono
-Há alguém vivo debaixo do véu
+O copo de água ao lado do prato
+O vidro está frio, o vidro está cheio
+Encosto a palma no flanco do copo
+E o frio sobe até ao cotovelo
 
 [Chorus]
-Se eu fosse só eu, quem seria
-Sem o sobrenome é sem o anel
-Se eu fosse só eu, o que eu faria
-Com este corpo, com este céu
-Se não houvesse ninguém a espera
-Se o jantar não fosse obrigação
-Quem sou eu quando sou só eu
-Qual é a minha própria canção
+A mão na mesa, a mesa no chão
+O chão na casa, a casa na rua
+O pé descalço sobre o tijolo
+A planta do pé encontra a sua
+O queixo no peito, o peito a subir
+O ombro a descer com o ar a sair
+A mão na mesa enquanto respiro
+A mesa não foge, a mesa está aqui
 
+[Verse 3]
+O dedo no copo, o copo na mesa
+A gota de água a descer pelo vidro
+Sigo a gota até ao tampo de pinho
+E ali a gota encontra o seu sítio
 
 [Chorus]
-Se eu fosse só eu, quem seria
-Sem o sobrenome é sem o anel
-Se eu fosse só eu, o que eu faria
-Com este corpo, com este céu
-Se não houvesse ninguém a espera
-Se o jantar não fosse obrigação
-Quem sou eu quando sou só eu
-Qual é a minha própria canção
+A mão na mesa, a mesa no chão
+O chão na casa, a casa na rua
+O pé descalço sobre o tijolo
+A planta do pé encontra a sua
+O queixo no peito, o peito a subir
+O ombro a descer com o ar a sair
+A mão na mesa enquanto respiro
+A mesa não foge, a mesa está aqui
 
 [Bridge]
-Talvez a resposta não seja um nome
-Mas um sabor, um cheiro, uma textura
-A forma como respiro quando ninguém olha
-A forma como danço no escuro
+A anca encosta no canto da bancada
+A madeira pressiona, a madeira sustém
+O ombro larga o peso que trazia
+Da porta da cozinha até aqui
 
 [Outro]
-Se eu fosse só eu
-Começava aqui
-Por este suspiro
-Por está pergunta
-Que finalmente saiu`,
+A mão na mesa
+O pé no chão
+O dedo no copo
+O queixo no peito
+E a casa à volta a aguentar`,
 
   "espelho-separacao/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]

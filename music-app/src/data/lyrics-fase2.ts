@@ -913,58 +913,68 @@ De beber antes que esfrie — ou não`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The book lies open on my chest
-Page one-forty-something, lost
-I stopped reading but I didn't rest
-I just drifted at no cost
+Tuesday, three in the afternoon
+The sun lands on the kitchen wall in a stripe
+The chair across from mine is empty
+The fridge hums and then forgets to
 
 [Verse 2]
-My eyes are heavy, not with sleep
-But with the weight of nothing new
-A lazy kind of feeling, deep
-An afternoon of passing through
+The mug is the green one with the chip
+Tea inside, gone the temperature of the room
+My hand around it more than drinking it
+The clock on the oven says fifteen-oh-two
 
 [Pre-Chorus]
-Not sleeping, not awake
-Just floating in the in-between
+The afternoon has a shape
+And no one is in it but me
 
 [Chorus]
-Pages on my chest, eyes half-closed
-A body somewhere between here and dream
-Pages on my chest, the afternoon composed
-A symphony of nothing as its theme
-Not reading, not sleeping, just being
-A creature on a sofa, warm and slow
-The afternoon has its own meaning
-When you finally let the pages go
+Tuesday, three o'clock
+The sun on the wall, the chair across, empty
+Tuesday, three o'clock
+The mug in the hand, the tea gone cold
+Tuesday, three o'clock
+The fridge starts, the fridge stops
+Tuesday, three o'clock
+And nothing is asking anything of me
 
 [Verse 3]
-The bookmark fell behind the cushion
-I'll find it later, or I won't
-The plot can wait for my attention
-The afternoon will wait — I don't
+A fly lands on the windowsill
+Walks two inches, decides against it
+The stripe of sun moves a centimetre west
+I notice this and notice nothing else
 
 [Chorus]
-Pages on my chest, eyes half-closed
-A body somewhere between here and dream
+Tuesday, three o'clock
+The sun on the wall, the chair across, empty
+Tuesday, three o'clock
+The mug in the hand, the tea gone cold
+Tuesday, three o'clock
+The fly on the sill, gone now
+Tuesday, three o'clock
+And nothing is asking anything of me
 
 [Bridge]
-There are entire lives in pausing
-In the gap between one breath and next
-The book was just an alibi, causing
-This beautiful excuse to rest
+The phone is in the other room
+On purpose, or by accident, I don't remember
+The afternoon is dated, located
+Tuesday, three, the kitchen, the wall, the chair
 
 [Chorus]
-Pages on my chest, afternoon on mine
-A treaty signed between my body and the day
-Nothing to accomplish, nothing to define
-Just a human being, gently underway
+Tuesday, three twelve
+The sun on the wall, moved further along
+Tuesday, three twelve
+The mug still in the hand, colder
+Tuesday, three twelve
+The chair across, still empty
+Tuesday, three twelve
+And nothing is asking anything of me
 
 [Outro]
-The book slides off, I let it fall
-The sofa catches what the hand released
-This afternoon was nothing at all
-And nothing — was a feast`,
+Tuesday, three eighteen
+The sun leaves the wall
+Tuesday, three eighteen
+And I am still here`,
 
   "mare-tardes-vazias/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -1497,58 +1507,69 @@ O eco de quem eu aprendi a amar`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I found the letters in a drawer
-Tied with string, the ink gone pale
-Handwriting I don't know anymore
-From a love that left no trail
+The smell of the coffee at the corner shop
+Brings back my grandmother's hand
+The way her wrist turned the cezve
+And tapped the rim, and let it stand
 
 [Verse 2]
-"My dearest" — that's how they begin
-Words from someone I once held
-A version of a love that's been
-Rewritten every time I've knelt
+I did not ask to remember
+I was buying a loaf of bread
+But the steam from the metal pot
+Put her face inside my head
 
 [Pre-Chorus]
-Paper holds what skin forgets
-The weight of words we used to mean
+The memory comes without me calling
+And leaves before I can hold it well
 
 [Chorus]
-Letters from a love I've lost
-Not to death but just to time
-Handwriting I've almost crossed
-Off the map inside my mind
-Who were we when we wrote these lines
-On paper thin as breath and bone
-We were younger, drawing signs
-On each other's skin — now I read alone
+The coffee brought the face
+The hinge of a door brought the kitchen
+The wool of a stranger's coat
+Brought the cardigan she had stitched in
+The smell of rain on hot tar
+Brought the bus stop on the way to school
+The chord of a song on the radio
+Brought a man whose name I had buried
+I am not the one remembering
+The body is remembering me
+And handing me back the afternoons
+I had quietly agreed not to see
 
 [Verse 3]
-"I miss you when the morning comes"
-He wrote that in July, I think
-Now morning comes and morning drums
-And I don't even pause to blink
+The cinnamon in the supermarket
+Brought my mother's Sunday hands
+The wet wool of a child's mitten
+Brought a winter I did not plan
 
 [Chorus]
-Letters from a love I've lost
-Not to death but just to time
+The coffee brought the face
+The hinge of a door brought the kitchen
+The wool of a stranger's coat
+Brought the cardigan she had stitched in
+The smell of rain on hot tar
+Brought the bus stop on the way to school
+The chord of a song on the radio
+Brought a man whose name I had buried
+I am not the one remembering
+The body is remembering me
+And handing me back the afternoons
+I had quietly agreed not to see
 
 [Bridge]
-Should I burn them, should I keep
-These archives of another heart
-They're not mine, they're not his — deep
-In the drawer, they are their own art
-
-[Chorus]
-Letters from a life I lived
-From a hand I held and let go free
-Every word a gift I give
-Back to the people we used to be
+I do not go looking
+The smells come and find me
+The wool, the steam, the tar, the chord
+Open a door I had locked behind me
 
 [Outro]
-I tie the string and close the drawer
-These letters don't need me to read them
-They just need a place to store
-The love that time could never bleed from`,
+The coffee
+The wool
+The rain
+The chord
+The face arrives
+And leaves
+While I pay for the bread`,
 
   "eter-fotografia-velha/7": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -5313,58 +5334,69 @@ Encontro tudo o que perdi`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The pause between my words and yours
-Is where the meaning actually lives
-The silence in between the doors
-Of what the sentence takes and gives
+The chair across the table
+Is not pulled out for anyone tonight
+The placemat sits there anyway
+Folded in the corner, square and tight
 
 [Verse 2]
-I said I'm fine — the pause said more
-I said it's nothing — silence screamed
-And in the space beneath the floor
-Of language — everything redeemed
+The side of the bed by the wall
+Has its sheet still tucked under tight
+The pillow is plumped, the cover is straight
+Nothing on that side moves in the night
 
 [Pre-Chorus]
-Words are just the furniture
-The silence is the room
+The empty is in the furniture
+Not in the air, not in the head
 
 [Chorus]
-Between words — the truth is hiding
-Between words — the love is stored
-Between words — the fear is sliding
-Between words — the most ignored
-We listen to the nouns and verbs
-But never to the space between
-Where everything we feel disturbs
-The surface of what's heard and seen
+The chair that nobody pulls
+The mug that I do not lift down
+The toothbrush holder with one toothbrush
+The two-pillow indent gone to one
+The side of the bed by the wall
+The hook by the door with one coat
+The shoe rack with the second shelf empty
+The boots I bought him still in the box
+This is what empty looks like
+A chair, a mug, a sheet, a hook
+And me — still cooking for two
+Out of an old habit, an old book
 
 [Verse 3]
-She said goodbye with such a pause
-Before the bye — I heard the stay
-And in that micro-silence's cause
-I found the thing she couldn't say
+The salt shaker sits centre-table
+Without a pepper grinder beside
+The pepper went with him in the move
+And I have not bought another, I have tried
 
 [Chorus]
-Between words — the truth is hiding
-Between words — the love is stored
+The chair that nobody pulls
+The mug that I do not lift down
+The toothbrush holder with one toothbrush
+The two-pillow indent gone to one
+The side of the bed by the wall
+The hook by the door with one coat
+The shoe rack with the second shelf empty
+The boots I bought him still in the box
+This is what empty looks like
+A chair, a mug, a sheet, a hook
+And me — still cooking for two
+Out of an old habit, an old book
 
 [Bridge]
-If we could learn to hear the gaps
-The silences that sentences surround
-We'd find the music in the maps
-Of everything that makes no sound
-
-[Chorus]
-Between words — listen carefully
-Between words — the real song plays
-Between words — tenderly, tenderly
-Is where the truest love stays
+The chair is not a metaphor
+The chair is a chair, not pulled out
+The bed has a side without a body
+That is all I am talking about
 
 [Outro]
-I sit in silence with you now
-No words, no noise, no need to fill
-And in this quiet I find how
-The space between us speaks — and always will`,
+The chair
+The mug
+The sheet
+The hook
+The pepper that I did not replace
+And the empty side of the bed
+By the wall`,
 
   "eter-sala-vazia/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -7020,56 +7052,80 @@ Do que nunca fui contigo`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Everyone around me ran for exits
-When the room got hard to breathe
-I looked at all the open doors
-And chose the hardest thing — to not leave
+The left shoe pinches at the small toe
+Has done since Tuesday, won't admit it
+I walk slower on that side
+And the hip starts asking questions about it
 
 [Verse 2]
-Staying isn't glamorous or pretty
-No one writes a song about the one who stayed
-Sat down in the discomfort and decided
-This is where the real gets made
+One step, the toe folds under
+The next, it finds a way to lie flat
+I notice the shoe before the street
+And the street before whatever comes after that
 
 [Pre-Chorus]
-No applause for staying
-Just the quiet knowing
+A step is a small country
+With its own weather
 
 [Chorus]
-Stay — when leaving would be lighter
-Stay — when every muscle pulls
-Stay — the quiet kind of courage
-Stay — the bravest thing of all
+Step
+The foot half asleep on the kitchen tile
+Step
+The toe that catches on the doorframe sill
+Step
+The heel that finds the floor before the eye does
+Step
+And the body keeps an inventory I never read
+Step
+The ankle that knows the third stair is loose
+Step
+And I don't think — I just continue
 
 [Verse 3]
-I stayed in the conversation
-When the silence turned to stone
-I stayed in the marriage, in the friendship
-I stayed when I could've gone
+The right foot landed wrong on Sunday
+Sole on a pebble I didn't see
+The whole leg sent a memo upward
+Filed under: pay attention to me
 
 [Chorus]
-Stay — when leaving would be lighter
-Stay — when every muscle pulls
-Stay — the quiet kind of courage
-Stay — the bravest thing of all
+Step
+The toe that finds the gap in the rug
+Step
+The arch that complains on the cold floor
+Step
+The heel that lifts before the calf agrees
+Step
+And the body keeps an inventory I never read
+Step
+The knee that bends a fraction less today
+Step
+And I don't think — I just continue
 
 [Bridge]
-There's a heroism no one sees
-In the one who doesn't move
-Who sits with what is broken
-And believes there's still a groove
+A step is not a metaphor
+It is a foot, a floor, a weight
+The pinch in the small toe is information
+Older than language, slower than thought
 
 [Chorus]
-Stay — not because it's easy
-Stay — because it matters
-Stay — the ground beneath my feet
-Stay — even when it shatters
+Step
+The foot that chooses the cool side of the tile
+Step
+The toe that tests the bathwater first
+Step
+The sole that learns the floor by touching it
+Step
+And the body keeps an inventory I never read
+Step
+The pinch in the small toe, still there
+Step
+And I don't think — I just continue
 
 [Outro]
-I stayed
-And something shifted
-I stayed
-And so did love`,
+The small toe is still folded
+I notice now
+The small toe is still folded
+And the next step happens anyway`,
 
 "grao-passo-pequeno/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -9274,56 +9330,69 @@ E o futuro brilha — de cá`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Someday — the word that weighs like gold
-And floats like dust at the same time
-Someday I'll write, someday I'll go
-Someday I'll cross that finish line
+Tomorrow starts tonight
+With the dishes I leave in the sink
+With the bedroom door I close at eleven
+And the lamp I do not switch off, I think
 
 [Verse 2]
-Someday the house with the blue door
-Someday the conversation that heals
-Someday the trip without return
-Someday the love that finally feels
+Tomorrow is the clothes I lay out
+On the back of the kitchen chair
+Tomorrow is the alarm I set
+For ten minutes earlier than I dare
 
 [Pre-Chorus]
-Someday — beautiful and heavy
-A promise or a prison
+Tomorrow is built tonight
+In what I do not finish
 
 [Chorus]
-Someday — the most hopeful word I know
-Someday — the weight I carry slow
-It glows inside like a small lamp
-Someday — a fire from a damp
+I leave the dishes in the sink
+I close the door to the bedroom
+I put the book face down on the arm
+I turn the lamp toward the wall
+The kettle is filled but not boiled
+The toast is in the toaster, not down
+Tomorrow is already moving
+Through the gestures of tonight
+This is the only tomorrow I can touch
+The one I am setting up right now
+With my hands, with my left foot
+On the cold side of the floor
 
 [Verse 3]
-My grandmother said someday too
-And some of hers never came true
-But the somedays that she whispered
-Still light up everything I do
+I write the list on the back of an envelope
+I leave it on top of the keys
+I leave the keys on top of the wallet
+I leave the wallet on top of the keys
 
 [Chorus]
-Someday — the most hopeful word I know
-Someday — the weight I carry slow
-It glows inside like a small lamp
-Someday — a fire from a damp
+I leave the dishes in the sink
+I close the door to the bedroom
+I put the book face down on the arm
+I turn the lamp toward the wall
+The kettle is filled but not boiled
+The toast is in the toaster, not down
+Tomorrow is already moving
+Through the gestures of tonight
+This is the only tomorrow I can touch
+The one I am setting up right now
+With my hands, with my left foot
+On the cold side of the floor
 
 [Bridge]
-What if someday isn't procrastination
-But anticipation's quiet art
-What if the pleasure of someday
-Is the rehearsal of the heart
-
-[Chorus]
-Someday — I'm not waiting, I'm preparing
-Someday — the light inside the seed
-Someday — isn't weakness, it's believing
-Someday — is everything I need
+I do not promise myself anything
+I just stack the morning the night before
+The cup on top of the saucer
+The shoes pointing toward the door
 
 [Outro]
-Someday
-Not yet — but soon
-Someday
-The most beautiful tune`,
+The dishes
+The bedroom door
+The book
+The lamp
+The shoes pointing toward the door
+And the morning
+Already arranged`,
 
 "eter-amanha-inventado/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -9894,56 +9963,65 @@ That follows`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Não sei quando é que começou
-Se foi o sorriso ou a voz
-Mas de repente o telemóvel
-Já não é meu — é de nós dois
+Arde no esterno primeiro
+Um ponto quente do tamanho de uma moeda
+Pus a mão por cima e ficou lá
+Aquecendo a palma por dentro da pele
 
 [Verse 2]
-Verifico o ecrã de dois em dois minutos
-Sorrio sozinha no metro como louca
-O estômago faz coisas que a ciência
-Não explica — e a cabeça está pouca
+Arde na gengiva de cima
+Atrás do dente da frente, onde a língua bate
+Bebi água fria e não passou
+Continuou a arder, paciente
 
 [Pre-Chorus]
-Já é tarde para fugir
-A queda já começou
+Não é febre
+Não vou ao médico
 
 [Chorus]
-Apaixonar — o tombo mais bonito
-Apaixonar — o medo mais gostoso
-Sei que vou sofrer, sei que vou voar
-E escolho tudo — por ser tão luminoso
+Arde
+Arde
+Arde
+No esterno, na gengiva, na raiz do cabelo
+Arde sem chama
+Arde sem fumo
+Arde e eu fico a ver onde
 
 [Verse 3]
-O mundo ganha cores que não tinha
-O café sabe melhor, a rua brilha
-E eu rio-me de mim mesma a apaixonar
-Como uma adolescente com uma anilha
+Arde na planta do pé esquerdo
+Quando descalço o sapato e piso o soalho
+Arde no sítio onde se apoia o peso
+Como se tivesse andado descalça num atalho
 
 [Chorus]
-Apaixonar — o tombo mais bonito
-Apaixonar — o medo mais gostoso
-Sei que vou sofrer, sei que vou voar
-E escolho tudo — por ser tão luminoso
+Arde
+Arde
+Arde
+Na nuca, no pulso, na curva do joelho
+Arde sem chama
+Arde sem fumo
+Arde e eu fico a ver onde
 
 [Bridge]
-A ciência diz que é dopamina
-Serotonina, oxitocina
-Mas o corpo diz que é magia
-E o coração ganha e elimina
+Há fogos que ficam dentro
+E não saem pela boca
+Arde no esterno há três dias
+E ninguém de fora desconfia
 
 [Chorus]
-Apaixonar — a combustão mais doce
-Apaixonar — a mais bonita febre
-Caio de propósito e com gosto
-Apaixonar — e que o mundo me celebre
+Arde
+Arde
+Arde
+No queixo, no ombro, na ponta do indicador
+Arde sem chama
+Arde sem fumo
+Arde e eu fico a ver onde
 
 [Outro]
-Estou a cair
-E a sorrir
-Estou a cair
-E não quero parar`,
+Arde
+E eu respiro
+Arde
+E não apago`,
 
 "grao-combustao/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -10346,56 +10424,66 @@ And the world hears you`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O arrepio subiu pelo braço
-Sem aviso, sem razão aparente
-A pele soube antes de mim
-Que algo estava diferente
+A chave entrou na fechadura sem eu olhar
+A mão sabia a altura, o ângulo, o quarto de volta
+Eu estava a pensar noutra coisa qualquer
+E a porta abriu antes do pensamento acabar
 
 [Verse 2]
-Não é frio, não é medo
-É o corpo a mandar um telegrama
-Uma mensagem cifrada na pele
-Que a cabeça ainda não reclama
+O pé virou na esquina da padaria
+Sem consultar a cabeça, sem consultar o mapa
+Eu queria ir ao outro sítio
+E o pé escolheu a rua de casa
 
 [Pre-Chorus]
-A pele sabe
-Antes de tudo o resto
+A mão soube
+O pé soube
+Eu cheguei depois
 
 [Chorus]
-Arrepio — o alarme mais antigo
-Arrepio — o corpo a falar primeiro
-A pele avisa antes das palavras
-E eu aprendo a ser o meu mensageiro
+A chave entra
+O pé vira
+A boca diz o nome certo antes de eu o procurar
+A mão alcança a chávena no escuro
+O dedo encontra o interruptor sem ver
+A perna desce o degrau que falta no terceiro lance
+E eu chego depois — sempre depois
 
 [Verse 3]
-Quando entrei naquela sala
-O arrepio disse — sai daqui
-Não havia razão para ter medo
-Mas o corpo insistiu — e eu ouvi
+A mão pegou no telefone antes de tocar
+Pousou-o de novo antes de ver quem era
+O ombro baixou três centímetros
+Quando entrou na cozinha da minha avó
 
 [Chorus]
-Arrepio — o alarme mais antigo
-Arrepio — o corpo a falar primeiro
-A pele avisa antes das palavras
-E eu aprendo a ser o meu mensageiro
+A chave entra
+O pé vira
+A boca diz o nome certo antes de eu o procurar
+A mão alcança a chávena no escuro
+O dedo encontra o interruptor sem ver
+A perna desce o degrau que falta no terceiro lance
+E eu chego depois — sempre depois
 
 [Bridge]
-Milhões de anos de evolução
-Moram debaixo desta pele
-O arrepio não é capricho
-É a sabedoria mais fiel que eu conheço — dele
+Não é magia, não é sinal
+É memória guardada noutro sítio
+A anca lembra-se do banco da igreja
+O pulso lembra-se do peso do balde
 
 [Chorus]
-Arrepio — confio em ti
-Arrepio — meu guia silencioso
-A pele tem razões que a razão desconhece
-E eu sigo — o caminho mais precioso
+A chave entra
+O pé vira
+O queixo vira-se para a porta antes de bater
+A mão alcança a chávena no escuro
+O joelho dobra-se no sítio do degrau
+A garganta engole antes do gole chegar
+E eu chego depois — sempre depois
 
 [Outro]
-A pele arrepia
-E eu escuto
-A pele arrepia
-E eu confio — no escuro`,
+A chave já entrou
+Eu ainda estou a tirar o casaco
+O pé já parou em frente da porta
+E a cabeça ainda vem a meio do corredor`,
 
 "incenso-norte-interno/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

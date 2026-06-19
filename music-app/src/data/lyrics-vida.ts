@@ -1033,41 +1033,38 @@ A noite já chegou`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-My eyelids pull like velvet curtains
-Across a stage that's done its show
-The muscles soften into certain
-Surrender only bodies know
+The knee gives at the second stair
+The hand finds the banister rail
+The shoulder drops an inch in the dark
+The keys still loose in the bag, the mail
 
 [Verse 2]
-The jaw unclenches, forehead smooths
-The face forgets the mask it wore
-The body finds its oldest grooves
-And asks for nothing anymore
+The sternum sinks beneath the shirt
+The breath goes lower than the chest
+The hip lands sideways on the bed
+A pillow takes the rest
 
 [Chorus]
-Heavy lids, heavy lids
-Close the day behind your eyes
-Let the dark do what it did
-Before we learned to theorize
-Heavy lids, let them fall
-The body's asking you to rest
-You don't need to hold it all
-Just lay your head upon your chest
+The knee folds
+The sternum sinks low
+The jaw lets the back teeth go
+The pelvis spreads on the sheet
+The skull rests its full weight
+On a pillow that does not push back
+The hand opens, the fingers slack
+The body lays down its slow attack
 
-
-[Chorus]
-Heavy lids, heavy lids
-Close the day behind your eyes
-Let the dark do what it did
-Before we learned to theorize
-Heavy lids, let them fall
-The body's asking you to rest
-You don't need to hold it all
-Just lay your head upon your chest
+[Bridge]
+The ankle stops bracing
+The tongue rests on the floor of the mouth
+The collarbone lets the shirt
+Settle into its south
 
 [Outro]
-Close now
-Let them fall`,
+Knee
+Sternum
+Skull
+Sheet`,
 
   "mare-rendicao/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -2243,41 +2240,49 @@ The truest conversation`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O espaço entre dois corpos
-E mais carregado que o toque
-Sinto os pelos como soros
-Electricos antes do choque
+Almoço de quarta-feira
+A tua mão pousada no copo
+A minha mão pousada na minha
+A mesa entre nós, do tamanho de uma palma
 
 [Verse 2]
-O último centimetro treme
-Como corda de violino
-O ar entre nós e a semente
-De tudo o que será destino
+O garfo desceu sem ruído
+O guardanapo dobrado em quatro
+O teu dedo encontrou a borda do prato
+E ficou ali enquanto não falei
 
 [Chorus]
-O espaço entre
-E mais quente que a pele
-O espaço entre
-E onde o desejo se rebele
-Não toco ainda
-Deixo o ar arder
-A distância e linda
-Quando está prestes a morrer
+A hora do almoço, a luz baixa na cozinha
+O teu dedo na borda do prato
+O meu polegar no rebordo do copo
+A distância de uma palma e meia
+Não atravesso ainda
+A toalha aguenta
+O ar entre as duas mãos
+Tem peso, tem temperatura, tem hora
 
+[Verse 3]
+O relógio na parede da cozinha
+Marcou a uma e dezassete
+A tua mão deslizou um centímetro
+A minha não respondeu
 
 [Chorus]
-O espaço entre
-E mais quente que a pele
-O espaço entre
-E onde o desejo se rebele
-Não toco ainda
-Deixo o ar arder
-A distância e linda
-Quando está prestes a morrer
+A hora do almoço, a luz baixa na cozinha
+O teu dedo na borda do prato
+O meu polegar no rebordo do copo
+A distância de uma palma e meia
+Não atravesso ainda
+A toalha aguenta
+O ar entre as duas mãos
+Tem peso, tem temperatura, tem hora
 
 [Outro]
-Quase
-Quase lá`,
+A palma e meia
+A toalha
+A uma e dezassete
+O copo, o prato
+A espera`,
 
   "nua-corpo-a-corpo/4": `[Vocal: ONE warm mezzo-contralto female voice leading (Loranne) — intimate speaking quality, slight breathiness, close to the microphone. ONE warm baritone male voice (consistent throughout) entering on alternate verses, bridges and low harmonies — slightly husky, poetic, never aggressive. Female vocal ALWAYS predominant: opens, closes, owns every chorus. No melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -3465,41 +3470,38 @@ Be tender with yourself`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A luz entra cinzenta pela cortina
-O corpo rígido de quem dormiu em guarda
-A almofada húmida, a rotina
-De um dia que começa com ressaca
+A chávena de ontem na mesinha
+Com um anel castanho no fundo
+O lençol amarrotado num canto
+Como um mapa de um mau mundo
 
 [Verse 2]
-A chaleira é um ato de fé
-A chávena quente entre as mãos
-O silêncio já não é
-O que era antes das questões
+O cinzeiro tem três pontas
+Uma ainda meio dobrada
+A janela ficou aberta a noite toda
+E o cortinado segue parada
 
 [Chorus]
-A manhã seguinte
-Depois da guerra que ficou
-A manhã seguinte
-É frágil mas chegou
-A luz não é bonita
-Mas é luz e chega
-A manhã não é escrita
-Mas o dia não se nega
+Chávena fria com borra seca
+Cinzeiro com três cotos torcidos
+Lençol amarrotado a meio
+Da cama, sapatos caídos
+A camisola do avesso na cadeira
+O telemóvel virado para baixo
+O copo de água pela metade
+Marcando o sítio do baixo
 
-
-[Chorus]
-A manhã seguinte
-Depois da guerra que ficou
-A manhã seguinte
-É frágil mas chegou
-A luz não é bonita
-Mas é luz e chega
-A manhã não é escrita
-Mas o dia não se nega
+[Bridge]
+A mão pega na chávena
+Leva-a até ao lavatório
+Abre a torneira sem pensar
+A água escorre, é o início provisório
 
 [Outro]
-Amanheceu
-Apesar de tudo amanheceu`,
+Chávena
+Cinzeiro
+Lençol
+Copo`,
 
   "incenso-rescaldo/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -4131,66 +4133,65 @@ who made the road that ends in me`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-Acordo a meio da noite
-e o coração já está a fugir
-Mas eu não estou em perigo
-o perigo foi de quem veio antes de mim
+Mexo o açúcar no chá
+em três voltas pela direita
+Foi a minha avó que mexeu assim
+muito antes desta colher feita
 
 [Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-Este medo não é meu
-foi-me dado por herança
-O corpo treme por uma guerra
-que terminou antes de eu nascer
-Este medo não é meu
-mas vive na minha pele
-como um inquilino antigo
-que esqueceu o caminho de casa
+Tenho a mão da minha avó
+no jeito de partir o pão
+Tenho o passo do meu pai
+no descer da escada de chinelo
+Tenho a forma de pousar o copo
+de uma mulher que nunca conheci
+A linhagem mora no pulso
+não no nome que recebi
 
 [Verse 2 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-Tenho medo de sirenes que nunca ouvi
-de portas a baterem que ninguém bateu
-de uma voz alta numa língua que não falo
-de pessoas que morreram antes do meu medo nascer
+Dobro a roupa pelas mesmas dobras
+que a minha mãe dobrava à mesa
+Esfrego o sal na panela
+com a pressão de uma bisavó acesa
 
 [Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-Este medo não é meu
-foi-me dado por herança
-O corpo treme por uma guerra
-que terminou antes de eu nascer
-Este medo não é meu
-mas vive na minha pele
-como um inquilino antigo
-que esqueceu o caminho de casa
+Tenho a mão da minha avó
+no jeito de partir o pão
+Tenho o passo do meu pai
+no descer da escada de chinelo
+Tenho a forma de pousar o copo
+de uma mulher que nunca conheci
+A linhagem mora no pulso
+não no nome que recebi
 
 [Verse 3 - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-A minha avó fugiu de algum lugar
-o meu avô viu coisas que nunca contou
-Estes corpos passaram dentro do meu
-e deixaram a tensão arrumada na minha boca
+O meu avô dobrava o jornal em quatro
+antes de o pousar à mesa
+Faço igual sem pensar
+o cotovelo lembra com certeza
 
 [Bridge - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-Se este medo não é meu
-posso pousá-lo onde o encontrei
-Não tenho de o levar para o resto da vida
-posso devolvê-lo à terra que o criou
-posso respirar e deixar partir
+A colher mexe sozinha
+o ombro guarda o ângulo antigo
+A boca abre como abriu a dela
+quando o riso fica baixinho
+o gesto fica, o nome esquece
 
 [Chorus - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-Este medo não é meu
-foi-me dado por herança
-O corpo treme por uma guerra
-que terminou antes de eu nascer
-Este medo não é meu
-mas vive na minha pele
-como um inquilino antigo
-que esqueceu o caminho de casa
+Tenho a mão da minha avó
+no jeito de partir o pão
+Tenho o passo do meu pai
+no descer da escada de chinelo
+Tenho a forma de pousar o copo
+de uma mulher que nunca conheci
+A linhagem mora no pulso
+não no nome que recebi
 
 [Outro - Mozambican Portuguese Maputo accent, hard consonants, no Brazilian, no carioca]
-Respiro
-e devolvo
-respiro
-e devolvo
-o que não é meu`,
+Colher
+ombro
+pão
+chinelo`,
 
   "sangue-linhagem/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English pronunciation with Mozambican Lusophone undertone (Maputo Portuguese speaker singing in English), hard consonants, no nasal slide. NOT American, NOT exaggerated British]
@@ -4792,41 +4793,38 @@ No topo`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The water pulls across the stones
-A sound of gentle giving back
-The warmth leaves slowly from the bones
-The beach grows wider, cold and black
+The sweat dries cool on the upper lip
+A film of salt across the brow
+The shirt sticks where the back curves in
+The pulse settles, slow now
 
 [Verse 2]
-The room empties after everyone goes
-The chair still warm where someone sat
-The tide recedes, the body knows
-That fullness was a borrowed hat
+Two fingers on the inside of the wrist
+Counting the small drum under the skin
+The breath catches on a yawn
+And lets a longer one back in
 
 [Chorus]
-Ebb, ebb
-The dignity of letting go
-Ebb, ebb
-Without a scene, without a show
-The courage of retreating
-From the places we once filled
-The beauty of depleting
-What was never ours to build
+Salt on the lip
+Drum at the wrist
+A hair stuck to the temple
+The lung still does its twist
+The thigh aches from the stair
+The thumbnail has a half-moon scar
+The body keeps its small receipts
+Of how far, how far
 
-
-[Chorus]
-Ebb, ebb
-The dignity of letting go
-Ebb, ebb
-Without a scene, without a show
-The courage of retreating
-From the places we once filled
-The beauty of depleting
-What was never ours to build
+[Bridge]
+A glass of water at the sink
+Tilted, swallowed, set down
+The throat works once
+The kitchen makes its low sound
 
 [Outro]
-Let it go
-Let the water leave`,
+Salt
+Wrist
+Throat
+Sink`,
 
   "mare-viva/5": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -7074,37 +7072,38 @@ O fim`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-They said get a real job
-They said art won't pay the rent
-They said passion is a hobby
-Not a way to pay the rent
+The ATM beeps at me twice
+Insufficient funds in red
+I stand with my card in my hand
+Reading the screen instead
 
 [Verse 2]
-But I chose the road with no map
-And the salary with no name
-Some months I eat like a queen
-Some months I eat my shame
+The café receipt curls in my pocket
+Three euros forty for the cup
+The tax line eats the small print
+My thumb smooths the paper up
 
 [Chorus]
-The price — of choosing what you love
-Is sleeping with the doubt
-The price — of following the fire
-Is never knowing how it turns out
-But the price of not trying
-Is a life that's comfortable and dead
-And I'd rather be alive and broke
-Than buried in a well-made bed
+The card goes back in the wallet
+The wallet goes back in the bag
+The shoulder takes the weight again
+Strap pressing through the rag
+Coins sit cold in my palm
+Bus fare counted, exact
+The jaw sets a little harder
+On the way home from the act
 
 [Bridge]
-To everyone who chose the risk
-Who said yes when the world said no
-The price is real, the fear is real
-But so is the glow
+Bank app open on the train
+Numbers small, screen dim
+The breath stays in the chest
+Counted to the rim
 
 [Outro]
-I chose
-And I'd choose again
-Every time`,
+Card
+Receipt
+Coin
+Palm`,
 
   "grao-moeda/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -7408,33 +7407,32 @@ Was me`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Acordei e o sol já estava
-A pintar a parede de ouro
-Não há nada de especial hoje
-E isso é o maior tesouro
+Acordei com a marca do lençol
+Riscada na face direita
+O sol entrou pela frincha
+E pousou-me no ombro à espreita
 
 [Verse 2]
-O café sabe melhor
-Quando não há nenhuma pressa
-A manhã estende-se como gata
-E o dia é uma promessa
+O café derramou no pires
+A chinela ficou no corredor
+Tenho açúcar nos dedos
+E a manhã sabe ao seu morno tremor
 
 [Chorus]
-Manhã bonita
-Sem razão, sem motivo
-Manhã bonita
-Porque estou viva
-E o sol entrou sem pedir licença
-E o pássaro cantou sem plateia
-Manhã bonita
-É a festa que ninguém organiza
-Mas que acontece — sempre que abro os olhos
+Festa no peito sem convite
+Suor a secar no decote
+Sapato fora da porta
+Copo na mão errada, sem pote
+A música entra pelo queixo
+Antes de chegar ao ouvido
+E o dia escorre devagar
+Pelo pulso adormecido
 
 [Outro]
-Manhã
-Sol
-Café
-Basta`,
+Lençol
+Pires
+Chinela
+Manhã`,
 
   "grao-festa/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -7806,35 +7804,38 @@ E o silêncio`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Ding — my pocket vibrates
-Ding — my attention breaks
-Ding — I was mid-sentence
-Now I've lost what was at stake
+The buzz lifts the pocket fabric
+A small jump against the thigh
+The hand was holding a spoon
+Now the spoon hovers mid-sky
 
 [Verse 2]
-The bell owns me more
-Than any boss I've had
-It rings and I respond
-Like a reflex, not a choice — how sad
+The thumb is already moving
+Before the eyes have caught up
+Sliding without a question
+The screen lights, the screen lights up
 
 [Chorus]
-Notification — the digital leash
-Notification — the modern bell
-That rings and rings and rings
-Until you can't tell
-The difference between urgent
-And the noise that sells
-Notification — off
-Notification — mute
-The most rebellious thing I did today
-Was leave my phone on silent
-And go out to play
+Thumb slides on its own
+Glass against the print
+The neck folds forward
+At a familiar tilt
+The mug goes cold on the counter
+The sentence stays half-said
+The thumb keeps going
+Past the things it never read
+
+[Bridge]
+Pocket on the table
+Face turned to the wall
+The thigh remembers the buzz
+That did not come at all
 
 [Outro]
-Silent
-Free
-Present
-Here`,
+Spoon
+Thumb
+Glass
+Wall`,
 
   "grao-ecra/3": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]

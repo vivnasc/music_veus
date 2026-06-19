@@ -8,67 +8,62 @@
 export const IMPORTADAS_LYRICS: Record<string, string> = {
   // nua-boa/1 — Hoje Está Bom (pele-boa-letras.md)
   "nua-boa/1": `[Verse 1]
-Hoje não tenho queixa
-O café saiu quente, a torrada no ponto
-A pequena dormiu a noite inteira
-E eu acordei sem o peso do mundo no rosto
+Acordei e os ombros estavam mais em baixo
+Sem eu lhes ter pedido
+O café aqueceu na mão
+E a mão não fechou em punho
 
 [Verse 2]
-A roupa que vesti serve
-O cabelo obedeceu sem luta
-O trânsito até foi manso
-E a manhã tem sabor a fruta
+A pequena dormiu a noite inteira
+A minha mandíbula não avançou ao espelho
+A roupa caiu sobre os ombros
+Sem ter de ajustar nada à frente do peito
 
 [Pre-Chorus]
 Não aconteceu nada de especial
 Não ganhei nada, não resolvi nada
-Mas tudo está no sítio certo
-E eu estou aqui — descansada
+Mas o queixo está dois milímetros mais para trás
+E a barriga está mais funda na respiração
 
 [Chorus]
-Hoje está bom, hoje está bom
-Não preciso de mais do que isto
-Hoje está bom, hoje está bom
-E não vou estragar com a lista
-Do que falta, do que falha, do que vem
-Hoje o dia é só o que é
-Está bom — e eu estou bem
-E não preciso de porquê
+Os ombros largaram
+Sem eu ter dado ordem
+O queixo parou de avançar
+A língua descansou contra os dentes
+O passo não tem pressa
+A planta do pé sente o chão antes do salto
+Não é um bom dia que me digo
+É o corpo a notar onde está
 
 [Verse 3]
 O sol entrou pela janela do escritório
 E parei só para olhar
-Não por inspiração nem por poesia
-Só porque o sol estava ali — a dar
+A nuca encontrou o encosto da cadeira
+Sem ter de o procurar
 
 [Chorus]
-Hoje está bom, hoje está bom
-E não vou estragar com a lista
-Está bom — e eu estou bem
-E não preciso de porquê
+Os ombros largaram
+Sem eu ter dado ordem
+O queixo parou de avançar
+A língua descansou contra os dentes
+O passo não tem pressa
+A planta do pé sente o chão antes do salto
+Não é um bom dia que me digo
+É o corpo a notar onde está
 
 [Bridge]
-Amanhã pode ser difícil
-Ontem sei que foi
-Mas hoje está bom
-E eu vou ficar aqui
-Neste bom
-Sem culpa de não estar a sofrer
-Sem medo de que acabe
-Só aqui — a ser
-
-[Chorus]
-Hoje está bom, hoje está bom
-Não preciso de mais do que isto
-Hoje está bom
+Amanhã o queixo pode voltar a empurrar-se
+Ontem voltou
+Mas a esta hora a clavícula está aberta
+E a respiração chega até à barriga sem combate
 
 [Outro]
-Bom
-Só bom
-Sem mais
-Sem menos
-Bom
-E chega`,
+Os ombros
+A mandíbula
+A planta do pé
+A barriga
+Tudo um pouco mais para baixo
+E eu não dei ordem nenhuma`,
   // nua-boa/2 — Kitchen Dancing (pele-boa-letras.md)
   "nua-boa/2": `[Verse 1]
 The playlist is on shuffle
@@ -794,69 +789,62 @@ The room
 Can adjust`,
   // nua-inteira/3 — Não (pele-inteira-letras.md)
   "nua-inteira/3": `[Verse 1]
-Disseram podes ficar até mais tarde
-E eu disse não
-Disseram precisamos de ti neste projeto
-E eu disse não
+A luz da cozinha às oito e meia
+O pão na tábua, a faca ao lado
+A chávena, o leite, o açucareiro
+Tudo no sítio onde já está
 
 [Verse 2]
-Disseram mas tu é que sabes fazer isto
-E eu disse sei — mas não
-Disseram vais deixar toda a gente mal
-E eu disse vou — e disse não
+A chave da porta no prego do corredor
+Os sapatos dela onde os largou
+A toalha por dobrar no encosto da cadeira
+E nada disto a pedir mais nada
 
 [Pre-Chorus]
-O não custou-me mais
-Do que qualquer sim que já dei
-O sim sai fácil, o sim sai leve
-O não pesa como lei
+Ninguém me disse hoje que estou bem
+Ninguém me disse hoje que sou suficiente
+A frase não está na boca de ninguém
+Mas o pão está cá em cima do tampo
 
 [Chorus]
-Não — a palavra mais curta
-E a mais difícil de dizer
-Não — sem desculpa, sem motivo
-Sem precisar de convencer
-Não é uma frase completa
-Não precisa de explicação
-Não é a primeira palavra
-Que uma mulher diz como libertação
+O pão na mesa, a luz na cozinha
+A chave no prego, a toalha na cadeira
+A planta da janela já regada
+O telefone virado para baixo
+Não me falta o que ninguém me deu
+Não me falta o que não está na lista
+O que está, está
+E é o que está aqui
 
 [Verse 3]
-A culpa veio logo a seguir
-Como veio sempre que disse não
-Sentou-se ao lado no carro
-E sussurrou: devias ter dito sim, irmã
+A minha mão pousada no rebordo da mesa
+Sem nada por agarrar
+A respiração que volta à barriga
+Quando paro de procurar
 
 [Chorus]
-Não — sem desculpa, sem motivo
-Não é uma frase completa
-Não é a primeira palavra
-Que uma mulher diz como libertação
+O pão na mesa, a luz na cozinha
+A chave no prego, a toalha na cadeira
+A planta da janela já regada
+O telefone virado para baixo
+Não me falta o que ninguém me deu
+Não me falta o que não está na lista
+O que está, está
+E é o que está aqui
 
 [Bridge]
-Aprendi o sim antes de andar
-Sim senhor, sim senhora, sim claro que sim
-Fui educada para agradar
-Para ser útil até ao fim
-Mas o não que aprendi aos quarenta
-Vale mais que mil sins aos vinte
-O não protege o que é meu
-E o que é meu já não se finge — nem se minte
-
-[Chorus]
-Não — a palavra mais curta
-E a mais difícil de dizer
-Não é a primeira palavra
-Que aprendi a dizer — por mim
+Há manhãs em que procuro o que me falta
+Hoje a cozinha respondeu antes de eu perguntar
+A torneira pinga uma vez
+E a casa continua a ser casa
 
 [Outro]
-Não
-Sem vírgula
-Sem mas
-Sem talvez
-Não
-E o mundo
-Não acabou`,
+O pão
+A chave
+A luz
+A planta
+A torneira
+Tudo no sítio onde sempre esteve`,
   // nua-inteira/4 — The Bill (pele-inteira-letras.md)
   "nua-inteira/4": `[Verse 1]
 I remember the dentist appointment
@@ -1661,72 +1649,62 @@ Sempre
 A carregar`,
   // nua-por-dentro/6 — Permission (pele-por-dentro-letras.md)
   "nua-por-dentro/6": `[Verse 1]
-I used to ask before I spoke
-Raise my hand before I thought
-Wait for someone to approve
-Every idea that I brought
+The breath finds the belly again
+Not the chest, not the throat
+The hip sits under the shoulder
+Without me having to ask it to
 
 [Verse 2]
-Permission to feel, permission to cry
-Permission to want more than this
-Permission to say no to the dinner
-Permission to exist — without a list
+The left foot under the left knee
+The right foot under the right
+The spine stacks itself up the chair
+And no one is holding it tight
 
 [Pre-Chorus]
-The day I stopped asking
-Was not a revolution
-It was a Tuesday afternoon
-And the only resolution
-Was to stop waiting for a yes
-That was never going to come
+Nothing has been fixed
+Nothing has been added
+But the seam down the front of the body
+Has stopped pulling sideways
 
 [Chorus]
-Permission — I don't need it anymore
-Permission — I'm not asking anymore
-Not your approval, not your nod
-Not the room's collective breath
-Permission was the chain I wore
-And I took it off — like a dress
-That never fit, that never will
-Permission is the word I kill
-Every morning when I choose
-Without consulting anyone
+The breath returns to the belly
+The hip lines up with the shoulder
+The jaw sits over the throat
+The throat sits over the chest
+A small stitching from the floor of the foot
+To the crown of the head
+Nothing in me is pulling
+Against anything else in me
 
 [Verse 3]
-My mother asked permission all her life
-From her father, from her husband, from the priest
-I watched her shrink inside the asking
-And decided I would be the one — at least
-The one who stopped
+The collarbone is open across the room
+The tongue is soft behind the teeth
+The hand rests palm down on the thigh
+And the thigh rests against the seat
 
 [Chorus]
-Permission — I don't need it anymore
-Permission was the chain I wore
-Every morning when I choose
-Without consulting anyone
+The breath returns to the belly
+The hip lines up with the shoulder
+The jaw sits over the throat
+The throat sits over the chest
+A small stitching from the floor of the foot
+To the crown of the head
+Nothing in me is pulling
+Against anything else in me
 
 [Bridge]
-This is not rebellion
-This is not a war
-This is just a woman
-Walking through an open door
-That was always open
-But she kept knocking anyway
-Permission is the habit
-I am unlearning every day
-
-[Chorus]
-Permission — I'm not asking anymore
-Permission is the word I kill
-Every morning when I choose
+For most of the day the seam pulls
+The shoulder rides up under the ear
+The breath stays high in the rib
+And the belly forgets it is there
 
 [Outro]
-The door
-Was always open
-I just kept
-Knocking
-Out of habit
-Not anymore`,
+The breath
+In the belly
+The hip
+Under the shoulder
+The seam
+Holding`,
   // nua-por-dentro/7 — Sozinha Com Tudo (pele-por-dentro-letras.md)
   "nua-por-dentro/7": `[Verse 1]
 Não é solidão de estar sozinha

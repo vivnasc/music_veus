@@ -674,59 +674,62 @@ Em que deixei de ser`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I stopped wearing red
-Because you didn't like attention
-I stopped calling my friends
-Because it caused too much tension
+The spare key is still in the kitchen drawer
+On a hook with no other key beside it
+Your toothbrush stayed in the cup for a month
+And then I threw the cup away
 
 [Verse 2]
-I made myself smaller
-In increments so small
-I didn't notice I was disappearing
-Until I hit the wall
+Sunday morning, the second pillow
+Has the smell of the laundry soap
+Not of a head
+That stopped sleeping there in February
 
 [Pre-Chorus]
-The version of me that fit you
-Was not me
-It was a me-shaped silence
-Wearing my face
+What I called love
+Was a key with no door now
+What I called love
+Was a toothbrush in a cup with no twin
 
 [Chorus]
-Smaller — I made myself smaller
-Smaller — I folded my edges in
-Smaller — until I couldn't remember
-What size I was
-Before you
-Smaller — was never love
-Smaller — was a slow erasure
-And I called it compromise
-Because I didn't know the difference yet
+The key with no door
+The toothbrush I threw out in March
+The Sunday morning that smells of detergent
+Not of another head on the pillow
+The mug with the chipped handle
+Still in the cupboard, never used
+What I called love
+Was these things, kept for someone who had gone
 
 [Verse 3]
-The day I wore red again
-I cried in the mirror
-Not from sadness
-From recognition
+I found a shirt of yours behind the dryer
+Six months after
+I did not cry — I just folded it
+And put it in the bag for the charity bin
 
 [Chorus]
-Smaller — was never love
-Smaller — was a slow erasure
-I called it compromise
-Because I didn't know the difference yet
+The key with no door
+The toothbrush I threw out in March
+The Sunday morning that smells of detergent
+Not of another head on the pillow
+The mug with the chipped handle
+Still in the cupboard, never used
+What I called love
+Was these things, kept for someone who had gone
 
 [Bridge]
-I know the difference now
-Love makes you larger
-Love gives you room
-Love doesn't ask you
-To disappear
-To make space for the bloom
+The kitchen drawer is lighter now
+The pillow is mine on both sides
+A Sunday morning is a Sunday morning
+Without a second cup
 
 [Outro]
-Never smaller
-Never again
-I take up space
-That's mine`,
+The key
+The cup
+The pillow
+The shirt
+Gone
+And the cupboard quieter`,
 
   "nua-nao-era-amor/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -1335,53 +1338,61 @@ For now`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Há dias em que a cama
-É a única coisa que faz sentido
-O edredão como fronteira
-Entre mim e o que lá está
+O céu da janela
+Da cor da chapa do telhado
+O lavatório com uma mancha
+Que já não sai
 
 [Verse 2]
-Não é preguiça
-É o corpo que sabe
-Que hoje não tem mais
-Para além disto
+O espelho de manhã
+Devolve a mesma face
+A pele sem cor
+O lábio inferior seco
 
 [Pre-Chorus]
-A cama não julga
-A cama não pergunta
-A cama só segura
-O peso que não tem nome
+A água da banheira arrefeceu
+Há uma hora
+Continuo lá dentro
+Os dedos enrugados
 
 [Chorus]
-A cama hoje
-É suficiente
-A cama hoje
-É o que consigo
-Não é rendição
-É saber ouvir
-O que o corpo pede
-Quando o dia pesa mais que eu
+Cinzento da chapa
+Cinzento do lavatório
+Cinzento da água que arrefeceu
+A toalha dobrada na cadeira
+Espera por mim
+O peito sobe devagar
+Desce devagar
+O queixo no joelho
+A unha contra o azulejo
 
 [Verse 3]
-Levantei-me às três da tarde
-Bebi água
-Voltei
-E isso também conta
+Saí da banheira às três
+Pus a roupa de ontem
+Voltei para a cama
+Por cima do edredão
 
 [Chorus]
-A cama hoje
-É o que consigo
-Isso também conta
+Cinzento do espelho
+Cinzento da água
+A toalha ainda dobrada
+O peito a subir
 
 [Bridge]
-Amanhã pode ser diferente
-Hoje é isto
-E hoje
-É suficiente
+Amanhã a chapa pode brilhar
+Hoje não brilha
+A mancha do lavatório
+Continua
+A face no espelho
+Continua
+A mão no rebordo
+Continua
 
 [Outro]
-A cama
-Segurou
+Cinzento
+Da água
+Que arrefeceu
+Comigo
 Eu deixei`,
 
   "incenso-cinzento/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
@@ -2026,57 +2037,62 @@ Now`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O meu domingo começa quando eu quero
-Às vezes às dez
-Às vezes ao meio-dia
-Ninguém está à espera
+O lado direito da cama está liso
+Há quatro meses
+A almofada de cima ainda lá está
+Sem cabeça que a use
 
 [Verse 2]
-Faço chá
-Leio qualquer coisa
-Olho pela janela durante tempo a mais
-E não me apresso
+Pus um copo a mais na mesa esta manhã
+Sem pensar
+Levantei-o, lavei-o, arrumei-o
+E o tampo ficou mais largo
 
 [Pre-Chorus]
-O domingo sem agenda
-É o dia mais honesto da semana
-É onde descubro o que gosto
-Quando ninguém está a ver
+A cozinha é maior agora
+A escova de dentes está sozinha no copo
+A toalha de mãos seca antes de eu voltar a usá-la
+E o silêncio chega antes do café
 
 [Chorus]
-O domingo meu
-Que não partilho
-O domingo meu
-Em roupa de casa
-O domingo meu
-Onde aprendo
-O que sou
-Quando não há ninguém
-A definir-me
+O lado direito da cama
+A almofada que não se amassa
+O copo a mais que pus na mesa
+E voltei a guardar
+A casa da banda do corredor
+Onde já não fica luz acesa
+Está tudo no sítio
+Onde antes havia mais alguém
 
 [Verse 3]
-À tarde fiz um bolo que ficou torto
-Comi metade quente
-Guarei a outra metade para ninguém
-E foi perfeito
+À tarde o sofá tem o meu peso só
+Do meu lado
+A almofada do outro lado
+Continua a forma que tinha de manhã
 
 [Chorus]
-O domingo meu
-Onde aprendo
-O que sou
-Quando não há ninguém
+O lado direito da cama
+A almofada que não se amassa
+O copo a mais que pus na mesa
+E voltei a guardar
+A casa da banda do corredor
+Onde já não fica luz acesa
+Está tudo no sítio
+Onde antes havia mais alguém
 
 [Bridge]
-Há uma versão de mim
-Que só aparece ao domingo
-Quando o mundo está quieto
-E eu também
-E ela é a minha favorita
+A casa aprendeu o meu peso
+A cadeira da cozinha onde sento
+Já tem a curva do meu corpo
+E a outra continua de pé como veio da loja
 
 [Outro]
-O domingo
-Meu
-Todo meu`,
+O lado da cama
+A almofada
+O copo
+A cadeira
+O corredor
+Tudo do meu tamanho`,
 
   "nua-so/6": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -2378,59 +2394,63 @@ I always was`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Quarenta e dois anos
-E uma manhã em que acordei
-E não reconheci a mulher
-Que a vida tinha feito de mim
+A padaria da esquina
+A senhora já sabe
+Um papo-seco
+E meia bica curta
 
 [Verse 2]
-Não foi de repente
-Foi uma construção lenta
-De escolhas que não eram bem minhas
-De uma vida que ficou pequena
+O banco do jardim
+O terceiro a contar do portão
+A madeira gasta
+Onde o joelho encaixa
 
 [Pre-Chorus]
-Não é crise de meia-idade
-Não é isso
-É acordar e ver com clareza
-Que quero mais do que isto
+A chávena com a asa rachada
+Que ninguém deita fora
+Ainda segura o café
+Ainda me serve
 
 [Chorus]
-Quarenta e dois anos
-E começo outra vez
-Quarenta e dois anos
-E o medo é real
-Mas o tédio de ficar
-É maior que o medo de ir
-Quarenta e dois anos
-E esta é a decisão mais honesta
-Que alguma vez tomei
+A padaria
+O banco
+A chávena
+Faço o mesmo caminho
+Que fazia antes
+A mão sabe abrir o portão
+O pé sabe a altura do degrau
+O ombro relaxa antes de entrar
+A garganta lembra-se do calor da bica
 
 [Verse 3]
-A minha mãe disse que era loucura
-A minha filha disse que me apoiava
-Eu disse que estava com medo
-E fui na mesma
+A minha mãe não percebeu
+A minha filha sentou-se ao meu lado no banco
+Comemos o papo-seco a meias
+Sem dizer nada
 
 [Chorus]
-Quarenta e dois anos
-E começo outra vez
-O medo é real
-Mas fui na mesma
+A padaria
+O banco
+A chávena
+A mão sabe
+O pé sabe
 
 [Bridge]
-Há um tipo de coragem
-Que não parece coragem por fora
-Parece loucura
-Parece irresponsabilidade
-Por dentro
-É só ser honesta
-Sobre o que ainda queres
+Não é coragem
+É um corpo
+Que voltou ao sítio
+Onde sabia estar
+O cheiro do pão quente
+A tinta a descascar no banco
+O dedo no rebordo da chávena
+A anca no banco
+A respiração a descer
 
 [Outro]
-Quarenta e dois
-Começo
-Outra vez`,
+Mesma padaria
+Mesmo banco
+Mesma chávena
+Aqui`,
 
   "grao-segunda-vez/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -3155,63 +3175,60 @@ Continuo eu`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-She's ambitious they said
-With the tone reserved
-For people who want too much
-Who don't know their place
+Eleven in the morning
+The kitchen smells of bread
+My stomach turns over
+Once, then again
 
 [Verse 2]
-She's driven they said
-Like drive was a character flaw
-Like wanting things
-Was something to contain
+I used to call it weakness
+A thing to push past
+Until lunch, until later
+Until I had earned it
 
 [Pre-Chorus]
-I heard it enough times
-That I started to believe it
-That my appetite was a problem
-That needed to be managed
+Today the bread is on the counter
+The butter is soft
+I tear a corner
+I eat standing up
 
 [Chorus]
-Ambitious — yes I am
-Ambitious — and I'm done apologising
-Ambitious — is not a warning
-It's a description
-Ambitious — and the women who came before me
-Were called the same thing
-For wanting the vote, the education, the door
-Ambitious — I wear it like a crown
-And I earned every stone in it
+Hungry at eleven
+The body says now
+Hungry at eleven
+I lay the table for one
+A plate, a knife
+The salt where I can reach it
+The window open
+The kettle on
+I sit before I am asked to
 
 [Verse 3]
-Call me ambitious
-I will answer
-Call me too much
-I will expand
-Call me difficult
-I will persist
-And I will not
-Shrink myself
-To make it easier for you
+My grandmother ate
+When she was hungry
+She did not ask the clock
+She asked her belly
 
 [Chorus]
-Ambitious — yes I am
-I wear it like a crown
+Hungry at eleven
+I lay the table for one
+The kettle on
+I sit before I am asked to
 
 [Bridge]
-Ambition in a woman
-Is just a woman
-Who decided
-That her dreams
-Were as valid as anyone else's
-And acted accordingly
-That's it
-That's all it is
+There is a hunger that lies
+And a hunger that tells the truth
+This one tells the truth
+Warm crust, soft middle
+Crumbs on the wooden board
+A second slice
+Without negotiation
 
 [Outro]
-Ambitious
-Yes
-And?`,
+The plate
+The hand
+The mouth
+Fed`,
 
   "grao-fome-boa/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -4429,64 +4446,62 @@ Preciso de saber`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-I made a list once
-Of why I was staying
-The children came first
-Then the mortgage
-Then the years invested
+The kitchen doorway was narrower last year
+My shoulder had to turn sideways
+Now I stand square in it
+And the frame still presses both arms
 
 [Verse 2]
-It was a very practical list
-A sensible list
-A list that said
-This is rational
-This makes sense
+The left side of the bed had a dip
+That fit me when I was twenty-eight
+The dip is still there
+And I lie on the right side now
 
 [Pre-Chorus]
-But love wasn't on the list
-And I noticed that
-And I folded the list
-And I put it in the drawer
-And I didn't look at it for a year
+I did not grow
+The house grew smaller
+The chair grew tighter at the hips
+The hallway grew shorter at the breath
 
 [Chorus]
-Staying for what
-Staying for the children — yes
-Staying for the structure — yes
-Staying for the habit
-Of a life we built together
-Staying for what
-Staying because leaving is terrifying
-Staying because I remember who we were
-And hoping we're still in there
-Staying for what
-I need to know the answer
+The doorway pressed both arms
+The dip in the bed kept the old shape
+The chair held the old measurement
+The hallway took the old breath
+I did not fit in the kitchen
+I did not fit in the chair
+I did not fit on the side of the bed
+That was given to me by habit
 
 [Verse 3]
-I took the list out of the drawer last week
-And looked at it again
-And added one question
-At the bottom
-Is this enough
+I tried the hallway again last week
+Walked it slowly, breath in the belly
+The shoulder grazed the wall on the left
+And I knew I had not imagined it
 
 [Chorus]
-Staying for what
-I need to know the answer
-Is this enough
+The doorway pressed both arms
+The dip in the bed kept the old shape
+The chair held the old measurement
+The hallway took the old breath
+I did not fit in the kitchen
+I did not fit in the chair
+I did not fit on the side of the bed
+That was given to me by habit
 
 [Bridge]
-Staying can be brave
-Staying can also be fear
-And only you know
-Which one is keeping you
-On the sofa
-At eleven on a Tuesday
-Not quite touching
+Staying was a measurement
+The walls were the same walls
+The mattress was the same mattress
+And I was the one who had grown
 
 [Outro]
-Staying
-For what
-Answer honestly`,
+The doorway
+The dip
+The chair
+The hallway
+Not made
+For this body anymore`,
 
   "nua-pequeno-demais/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -5192,62 +5207,62 @@ Fico`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-They act like desire has an expiry date
-Like at a certain age
-The wanting stops
-Excuse me — no
+The hand is already smoothing the hair
+Behind the ear, slowly
+The leg is already stretching down the bed
+The foot finding the cool sheet at the end
 
 [Verse 2]
-The wanting changes
-It knows itself better
-It knows what it actually wants
-Instead of what it thought it wanted
+The thumb is already on the inside of the wrist
+Reading its own pulse
+The mouth is already turning at the corner
+Without a mirror to need
 
 [Pre-Chorus]
-Desire at twenty was urgent and confused
-Desire at forty is patient and precise
-Desire doesn't retire
-It just gets better at its job
+Nothing has begun
+Nothing is being decided
+The body has been moving since the alarm
+And the mind is just now catching up
 
 [Chorus]
-Desire doesn't age
-Desire doesn't retire
-Desire just changes address
-From urgency to knowing
-From performance to pleasure
-From wanting to be wanted
-To wanting what I actually want
-Desire doesn't age
-And I am more desiring now
-Than I have ever been
-And more particular
-About where I put it
+The hand smooths the hair
+The leg stretches down the bed
+The thumb finds the pulse at the wrist
+The mouth turns at the corner
+The hip rolls into the morning
+The shoulder draws back from the ear
+None of this is a plan
+The body was already there
 
 [Verse 3]
-I know what I want in a room
-I know what I want in a morning
-I know what makes me feel alive
-And I no longer settle for less
+The foot has already pushed the sheet down
+The arm has already curled around the pillow
+The breath has already found the belly
+And the eyes are still half closed
 
 [Chorus]
-Desire doesn't retire
-I am more desiring now than ever
-More particular
-About where I put it
+The hand smooths the hair
+The leg stretches down the bed
+The thumb finds the pulse at the wrist
+The mouth turns at the corner
+The hip rolls into the morning
+The shoulder draws back from the ear
+None of this is a plan
+The body was already there
 
 [Bridge]
-The most erotic thing I know
-Is a woman
-Who knows exactly what she wants
-And is not ashamed of it
-And I am becoming her
-Year by year
+I do not start the day
+The day starts in the hand
+The hand has been smoothing
+Before the eyes have agreed
 
 [Outro]
-Desire
-Doesn't age
-Doesn't retire
-Just gets better`,
+The hand
+The leg
+The thumb
+The mouth
+Already
+Underway`,
 
   "nua-tempo-no-corpo/7": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -5779,66 +5794,59 @@ It's mine`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Este bronzeado não é de jardim às escondidas
-É de praia em tempo real
-Não é roubado em intervalos
-É ganho de propósito
+Almocei às quatro
+Pão com queijo, em pé
+A laranja ficou na bancada
+Ninguém a contou
 
 [Verse 2]
-Deitei-me ao sol durante horas
-Sem agenda
-Sem culpa
-Com protetor solar e sem remorsos
+Tomei banho à tarde
+A toalha morna no ombro
+O cabelo a pingar
+Para dentro da camisola
 
 [Pre-Chorus]
-Há uma versão de mim que pede desculpa
-Por cada hora que não foi produtiva
-Essa versão ficou em casa
-Com a lista de tarefas
+Adormeci no sofá
+Com a luz acesa
+Acordei e não fui ver
+Que horas eram
 
 [Chorus]
-Bronzeado
-Que é só meu
-Bronzeado
-De horas ao sol sem prestação de contas
-Bronzeado
-Que diz: estive aqui
-Estive presente
-No meu corpo
-No meu prazer
-No meu descanso
-Bronzeado
-Como prova
-De que me dei
-O que precisava
+Comi quando tive fome
+Bebi quando tive sede
+A janela aberta
+O ventilador a rodar devagar
+Dormi com a luz da cozinha acesa
+Não desliguei
+Não me lembrei
+O queixo no braço
+O braço na almofada
 
 [Verse 3]
-Quando voltar ao trabalho
-Com esta cor
-Vou dizer sim fui de férias
-E fui mesmo
-De verdade
-Sem culpa
+Hoje o relógio do micro-ondas
+Pisca meia-noite
+Desde quarta
+Não o acertei
 
 [Chorus]
-Bronzeado
-Prova de que me dei o que precisava
+Comi quando tive fome
+Dormi com a luz acesa
+Não me lembrei
 
 [Bridge]
-O descanso não precisa de ser ganho
-O prazer não precisa de ser justificado
-O bronzeado não precisa de desculpa
-O corpo que descansou
-Trabalha melhor depois
-Mas esse não é o ponto
-O ponto é que mereces
-Ponto final
+O leite estava fora do prazo por um dia
+Cheirei e bebi
+A casca da banana ficou na mesa
+Até de manhã
+A roupa lavada
+No cesto, ainda dobrada
+Os pés descalços no chão de cimento
 
 [Outro]
-Bronzeado
-Descansada
-De volta
-Melhor`,
+Sem hora
+Sem aviso
+O corpo
+A guiar`,
 
   "grao-ferias/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]

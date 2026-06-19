@@ -14,70 +14,67 @@ export const ELEVAR_LYRICS: Record<string, string> = {
 
 [Intro: solo upright piano with felt damper, single note ringing into silence, breath audible
 [Verse 1]
-Eu não me apaguei toda
-Por mais que tenha tentado
-Há um ponto de luz no escuro
-Que ficou
-Não pediu autorização para ficar
-Não me consultou
-
-Está aqui, pequenino
-A respirar antes de eu respirar
+Tirei o fósforo da caixa
+A caixa estava em cima do fogão
+A mão direita demorou um bocado
+A garganta engoliu uma vez
+O pavio é um fio castanho
+Mais curto do que a unha do mindinho
+Esperou ali três meses
+Sem me cobrar nada
 [Verse 2]
-Reparei nele de repente
-Numa terça-feira sem nada
-A acender o que pensei perdido
-A aquecer o que estava frio
-Não é grande
-Não promete nada
-Mas existe
-E hoje isso já é tudo
+A cabeça do fósforo arranha o lado da caixa
+Há um cheiro a enxofre primeiro
+A chama é pequena, da altura do dedo
+Aproxima-se devagar do pavio
+A mão tremeu uma vez no caminho
+E o ombro desceu meio centímetro
+O pavio aceita
+Sem fazer barulho
 [Pre-Chorus]
-Não acreditei que sobrava
-Não acreditei que aguentava
-Mas há fogo aqui dentro ainda
-A teimar, a teimar
+Não decidi acreditar em nada
+Não fiz promessa
+A mão aproximou-se
+E o pavio ficou aceso
 [Chorus]
-Pequena chama
-Que não pediste licença
-Pequena chama
-Que ficou contra a evidência
-Não te apago
-Não te explico
-Apenas reparo
-Que ainda existes
-Que ainda existo
+A chama está do tamanho do dedo
+A chama come o pavio devagar
+O queixo desce, o peito alarga
+Por dentro do esterno passa calor
+Não tenho nome para isto
+Não preciso de nome
+A mão pousou a caixa em cima do fogão
+E ficou ali, ao lado, a olhar
 [Verse 3]
-Não me digas que vai melhorar
-Não me digas que se passa
-Diz-me só que reparas
-Como eu reparo nesta chama
-Que é só ela e basta
-Que é só ela hoje
+A cera começa a derreter no bordo
+Forma uma gota que não cai
+A planta dos pés está fria no soalho
+Os ombros não pesam tanto agora
+Não vou apagar
+Não vou explicar
+Fico sentada com o que está aceso
+A ver o que o pavio sabe fazer
 [Chorus: 3-voice airy harmonies enter softly, soft brushed snare on the off-beat]
-Pequena chama
-Que não pediste licença
-Pequena chama
-Que ficou contra a evidência
-Não te apago
-Não te explico
-Apenas reparo
-Que ainda existes
+A chama está do tamanho do dedo
+A chama come o pavio devagar
+O queixo desce, o peito alarga
+Por dentro do esterno passa calor
+Não tenho nome para isto
 
-Que ainda existo
+Não preciso de nome
 [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
 (African accent Portuguese:)
-Não sei o que isto vai ser amanhã
-Não te prometo que dure
-Só te digo o que vejo agora
-Há fogo aqui dentro ainda
-E é estranho
-E é verdade
+Não te peço que penses no que isto é
+Não te peço que digas obrigada
+Olha só para o pavio
+Olha como come a chama devagar
+A mão direita arde um pouco
+Está bem, está só perto
 [Outro: vocal exhaled, piano fading]
-Pequena chama
-Repara
-Ainda há fogo aqui dentro
-ainda`,
+A chama do tamanho do dedo
+o pavio
+a mão ao lado
+da caixa`,
 
   "incenso-acende/2": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -221,76 +218,73 @@ Vai aprendendo`,
 
 [Intro: deep house pads, plucky synth motif, soft hand-claps on bar 4, faint footstep texture
 [Verse 1]
-Cinco passos da cama à janela
-Hoje foi a viagem inteira
-Não fui à esquina
-Não fui ao mercado
-Fui à janela
-E fiquei lá quinze minutos
-A ver o que o mundo fazia
-Sem mim, sem ter dado por mim
+Um raio caiu na parede da cozinha
+Por cima do azulejo do canto
+Veio pela claraboia do prédio em frente
+E ficou ali um quarto de hora
+A chávena estava em cima da mesa
+A chávena ficou quente do lado direito
+O dedo polegar reparou primeiro
+A garganta engoliu, sem aviso
 [Verse 2]
-Conta-se em metros, não em quilómetros
-Conta-se em respirações, não em horas
-A vida pequena tem o seu sistema
-De medir o que custou
-Não me perguntes para onde vou
-Pergunta-me até onde cheguei
-Cinco passos é um continente
-Quando se vinha de tão longe
+Não fui eu que produzi
+Não foi a casa, não foi o sol sozinho
+Foi a janela do vizinho, foi o ângulo
+Foi a hora, foi o vidro a deixar passar
+A planta dos pés sentiu a tábua morna
+O queixo desceu um pouco para o peito
+Reparei na mancha rectangular
+A descer devagar pelo lavatório
 [Pre-Chorus]
-Não me peças o salto
-Não me peças a corrida
-Pede-me cinco passos
-E eu trago cinco passos
+Não me chamo nenhum nome desses
+Não tenho frequência, não tenho aura
+Tenho um rectângulo na parede da cozinha
+Que aquece a chávena por dentro
 [Chorus]
-Cinco passos
-Mais do que ontem
-
-Cinco passos
-E a janela aberta um bocadinho
-Não o céu inteiro
-Só este pedaço
-Que cabe na vidraça
-E hoje cabe em mim
+Há um raio que cai aqui aos sábados
+Por volta das nove e meia da manhã
+Aquece o esmalte da chávena branca
+Aquece o pulso onde eu pouso a mão
+Não é meu, não é prémio
+Não é resposta a coisa nenhuma
+Mas hoje encontrei a poltrona
+Com o ângulo certo da claraboia
 [Verse 3]
-Amanhã talvez sejam dez
-Talvez sejam outra vez três
-Não há linha recta neste regresso
-Há só dias e dias
-Eu não conto adiante
-Eu conto este dia
-E neste dia foram cinco
-E foram suficientes
+Amanhã o raio pode não cair
+Pode estar nuvem em cima do prédio
+Hoje calhou, hoje está aqui
+E o lado direito da chávena guarda
+A planta dos pés morna na tábua
+O dedo polegar sabe o sítio
+Não conto adiante, não prometo
+Só fico ali até o raio andar
 [Chorus]
-Cinco passos
-Mais do que ontem
-Cinco passos
-E a janela aberta um bocadinho
+Há um raio que cai aqui aos sábados
+Por volta das nove e meia da manhã
+Aquece o esmalte da chávena branca
+Aquece o pulso onde eu pouso a mão
 [Bridge: vocal close, kick drops out, only pads underneath]
 (African accent Portuguese:)
-Há quem corra maratonas
-Há quem dê cinco passos
-Hoje a glória é a mesma
-Para os dois
-E ninguém te vai dar medalha
-Por isto
-Mas eu vejo
-E hoje basta que eu veja
+A claraboia é do prédio do outro lado
+Eu nunca lá entrei, nem sei quem mora
+Mas o vidro deles deixa-me a manhã
+Em cima da minha mesa, aos sábados
+Os ombros descem sem eu mandar
+A boca solta o queixo
 [Final Chorus: kick returns, harmonies layered, key shift to A major]
-Cinco passos
-Mais do que ontem
-Cinco passos
-E a janela aberta um bocadinho
-Não o céu inteiro
-Só este pedaço
-Que cabe na vidraça
-E hoje cabe em mim
+Há um raio que cai aqui aos sábados
+Por volta das nove e meia da manhã
+Aquece o esmalte da chávena branca
+Aquece o pulso onde eu pouso a mão
+Não é meu, não é prémio
+Hoje encontrei a poltrona certa
+Por debaixo do rectângulo
+Que vem da claraboia do vizinho
 [Outro: vocal soft, pads fade]
-Cinco passos
-foi a viagem
-
-cinco passos`,
+Um raio
+em cima da chávena
+o pulso quente
+o queixo desce`,
 
   "incenso-acende/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -812,63 +806,64 @@ alguém`,
 
 [Intro: fingerpicked nylon guitar, soft kora line, low standing bass, room creak audible, no
 [Verse 1]
-Whatever you are carrying tonight
-A woman in 1873 carried it too
-She didn't have a name for it
-She didn't have a song for it
-She washed the same clothes
-She fed the same children
-She lay down with the same weight
-And somehow she got up
+When I open my mouth the first sound
+Is breath leaving the soft palate
+The chest plate lifts a centimetre
+The shoulders drop and stay dropped
+The note doesn't come from the throat
+It comes from somewhere lower
+A pocket between the ribs
+That I forget about most days
 [Verse 2]
-A woman in your own street
-Fifty years ago, in your own kitchen
-Looked at the same window
-With the same exhaustion in her face
-She is dust now
-But she got up
-Not beautifully, not cleanly
-She got up
+The lips part, the jaw releases
+The tongue lies flat on the floor of the mouth
+The feet stay quiet on the kitchen tile
+Not tapping, not bracing
+The hands rest on the thighs
+Palms upward, fingers slack
+There is no word yet, only column
+Air going up through bone and tissue
 [Pre-Chorus]
-This is not a comfort
-This is the truth
-You are joining a long line
-Of women who did not give up
+I am not telling anyone anything
+I am not asking for anything back
+The mouth opens
+And the chest finds more room
 [Chorus]
-You are not the first
-And that is the kindest news
-You are not the first
-And you will not be the last
-The weight you carry tonight
-Has been carried
-
-The weight you carry tonight
-Will be put down
-By hands like yours, eventually
+The sound is a tunnel through the sternum
+The sound is the rib cage learning width
+The throat is open like a door propped
+The feet are still, the knees are soft
+There is nothing to confess
+There is nothing to prove
+The room takes the note
+And gives back the silence after
 [Verse 3]
-They couldn't write to you
-They couldn't reach you
-But their bodies did this work
-So your body could do this work
-They didn't make it pretty
-They didn't make it clean
-They just made it through
-And you are made of them
+Halfway through the second phrase
+The eyes water without crying
+The back of the neck warms up
+A small ache lets go from under the shoulder
+I didn't know that ache was there
+The voice goes around it, then through it
+By the end of the line
+The collarbone is sitting lower
 [Chorus]
-You are not the first
-And that is the kindest news
-You are not the first
-And you will not be the last
+The sound is a tunnel through the sternum
+The sound is the rib cage learning width
+The throat is open like a door propped
+The feet are still, the knees are soft
 [Bridge: vocal close, almost spoken, only guitar — opens, does not resolve]
-Somewhere a great-grandmother
-Is reaching across the years
-And putting her hand on your shoulder
-You won't feel it
-But it is there
-It is there
+The kora keeps going underneath
+And I keep my feet where they are
+There is no audience in this kitchen
+There is the floor, the chair, the wall
+And the small column of air
+Moving up from somewhere in the belly
+To somewhere just behind the teeth
 [Outro: vocal soft, guitar and kora fading]
-You are not the first
-you are not`,
+The chest open
+the feet quiet
+the throat propped
+nothing to prove`,
 
   "incenso-coro/3": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -1767,65 +1762,63 @@ misericórdia`,
 
 [Intro: felt-piano with warm Wurlitzer pad swell, ambient room tone with rain on window faint
 [Verse 1]
-The mercy did not announce itself
-It came in through the side
-
-Not as a great wave
-Not as the light through the curtain
-But as a small temperature shift
-In the corner of the kitchen
-Where I had been losing the day
-And was, suddenly, not
+The papaya on the counter has opened a seam
+A small line where the skin pulled apart
+A bead of clear juice along the seam
+A faint smell of sweet that wasn't there at six
+The tap is dripping into the metal sink
+One drop every nine seconds, more or less
+I counted, three drops, then I stopped counting
+Because the chest had already softened
 [Verse 2]
-I did not know to thank it
-I had no posture for it
-It was so quiet
-That I almost did not notice
-And I think — I think
-That is its nature
-Loud mercy is not mercy
-It is something else
+The fruit did not perform anything
+The tap did not arrange itself
+They are doing what fruit and taps do
+And I happened to be in the kitchen
+The right palm rested on the counter edge
+The cold of the formica came up the wrist
+A single drop hit the bottom of the sink
+And the shoulder I had been holding came down
 [Pre-Chorus]
-The big rescue does not come
-The big door does not open
-The small one comes
-And changes the shape of the day
+I do not need a name for this
+I do not need a category
+A papaya splitting, a tap dripping
+And the body changing shape because of them
 [Chorus]
-Quiet mercy
-That did not knock
-Quiet mercy
-That just sat down beside me
-No question, no demand
-No record kept
-The kind of grace
-That does not need to be remembered
+The papaya seam, the drop on the metal
+The smell of sweet, the cold under the wrist
+The right shoulder coming down a centimetre
+The breath finding more space without trying
+This is not arranged for anybody
+It is happening in the kitchen at noon
+The fruit will keep opening, the tap will keep dropping
+And I happened to be in the room
 [Verse 3]
-If I had been louder
-I would have missed it
-If I had been waiting
-For the trumpets
-The quiet thing would have come
-And I would have looked past it
-This is the lesson, almost
-Not lesson — practice
+Later the papaya will be on the cutting board
+Halved, the seeds shiny and black
+The tap will be turned off properly with the wrench
+The kitchen will move on to the next thing
+But this minute is the minute I noticed
+The seam, the drop, the cold under the wrist
+The shoulder. The breath. The seam again
+Five things, in no particular order
 [Chorus]
-Quiet mercy
-That did not knock
-Quiet mercy
-
-That just sat down beside me
+The papaya seam, the drop on the metal
+The smell of sweet, the cold under the wrist
+The right shoulder coming down a centimetre
+The breath finding more space without trying
 [Bridge: vocal close, no harmonies, only piano — opens, does not resolve]
-There may be many of these
-That I did not catch
-I am not anxious about them
-What was for me has reached me
-What didn't reach me
-Wasn't for me
-Maybe
+There is fruit opening on a lot of counters
+There are taps dripping in a lot of sinks
+Most of the time, nobody is in the kitchen
+Most of the time, the body does not notice
+This minute, the body noticed
+This minute, the papaya and the tap and the wrist met
 [Outro: vocal exhaled, piano fades]
-Quiet mercy
-no record
-quiet mercy`,
+The papaya seam
+the drop, the cold
+the shoulder down
+the breath finding room`,
 
   "incenso-milagre/7": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -2245,65 +2238,64 @@ letting go`,
 
 [Intro: soft Rhodes piano, light brushed drums entering on bar 4, warm fretless bass, faint s
 [Verse 1]
-A maré sobe à hora dela
-Eu posso lutar contra ela
-Posso correr para a praia
-Posso encher os pulmões e gritar
-A maré sobe à mesma
-A maré não sabe quem eu sou
-A maré tem o seu calendário
-E é mais antigo que o meu
+A mão direita pousou na coxa
+A mão esquerda pousou em cima
+Os dedos não entrelaçados
+Só uma palma em cima da outra
+O queixo desceu devagar
+Até tocar no osso do esterno
+A nuca soltou alguma coisa
+Que estava apertada há horas
 [Verse 2]
-Hoje aprendo a flutuar
-Não a vencer
-Não a empurrar
-Só a flutuar
-A água sobe e eu subo com ela
-A água desce e eu desço
-Não é resignação
-É outra forma de estar viva
+Não há frase a sair
+Não há palavra que feche o assunto
+Há duas mãos pousadas
+E o queixo a tocar no peito
+O ar entra pelo nariz
+Sai pela boca meio fechada
+Os ombros descem outro centímetro
+A coluna larga a pressa
 [Pre-Chorus]
-Há coisas que não posso decidir
-A morte do pai foi uma
-A doença do filho foi outra
-A idade que chega é outra ainda
+Não decidi terminar nada
+Não estou a despachar
+As mãos é que se pousaram primeiro
+E o queixo seguiu-as
 [Chorus]
-A maré sobe
-À hora dela, sem licença
-A maré sobe
-E eu posso estar molhada ou flutuar
-Não é a mesma coisa
-Não é desistir
-É escolher outra forma
-De habitar o mar
-
-Que sempre foi este mar
+As mãos pousadas, uma sobre a outra
+O queixo a tocar a vala do esterno
+A planta dos pés inteira no chão
+Os calcanhares com peso lá em baixo
+Não preciso de dizer
+Não preciso de selar
+O corpo já está em forma de gesto fechado
+E o gesto chega para hoje
 [Verse 3]
-A flutuar não vou para a praia
-Mas também não me afundo
-Estou na superfície
-E é mais leve do que eu pensei
-Os meus pais flutuaram antes
-Os pais deles também
-Talvez a sabedoria de uma família
-Seja saber quando flutuar
+Há uma costela do lado esquerdo
+Que estava a empurrar para fora
+Recua agora um bocado
+Volta para dentro da caixa
+O pulso de cima sente o pulso de baixo
+A bater devagar, mais devagar
+Não há contagem, não há final
+Há este formato que o corpo encontrou
 [Chorus: 3-voice airy harmonies enter, brushed drums steady]
-A maré sobe
-À hora dela, sem licença
-A maré sobe
-E eu posso estar molhada ou flutuar
+As mãos pousadas, uma sobre a outra
+O queixo a tocar a vala do esterno
+A planta dos pés inteira no chão
+Os calcanhares com peso lá em baixo
 [Bridge: vocal close, no harmonies, only Rhodes — opens, does not resolve]
 (African accent Portuguese:)
-Não te digo para flutuares já
-Não te digo que é para todos
-Há marés que ainda se conseguem subir
-Há marés que não
-A inteligência é saber qual é qual
-E essa é uma aprendizagem lenta
+Não tens de chamar a isto nada
+Não tens de saber porque resulta
+Põe a mão de cima da outra
+Deixa o queixo descer até onde quiser
+Vê o que o ombro faz a seguir
+Sem o mandares
 [Outro: vocal soft, Rhodes fading]
-A maré sobe
-e eu também
-a maré sobe`,
+As mãos
+uma sobre a outra
+o queixo no esterno
+os pés inteiros`,
 
   "incenso-amen/4": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -3078,76 +3070,72 @@ dancing in the kitchen`,
 
 [Intro: warm marrabenta guitar picking, bass, congas, shaker entering on bar 4, hand-claps po
 [Verse 1]
-Festa pequena na cozinha
-Eu, a panela e o rádio
-Não convidei ninguém
-Não pus cartaz na rua
-A festa é minha hoje
-E pode ser de uma só
-Não tem fotografia
-Não tem testemunha
+Subo a escada de casa devagar
+Sete degraus, mais o patamar
+A mão direita na parede pintada
+Sente a tinta granulada do reboco
+O ar entra pela fossa nasal
+Desce até abaixo do umbigo
+E volta a subir pelo pescoço
+Sem se atropelar a ele próprio
 [Verse 2]
-Pus a música alta
-Pus o tempero a mais
-Dancei com a colher de pau
-Cantei para o frigorífico
-Não estou a fingir bem
-
-Estou a estar bem
-E é diferente
-É finalmente diferente
+A voz quer sair pela garganta
+Mas hoje sobe primeiro pelas costas
+Trepa pela coluna até à nuca
+Encontra um caminho que eu não conhecia
+A planta do pé direito apoia
+O joelho dobra meio milímetro
+O calcanhar empurra o degrau
+E o degrau empurra-me a mim
 [Pre-Chorus]
-A festa pequena é privada
-Não tem dono, não tem público
-A festa pequena é o ensaio
-Da festa grande que vem aí
+Não estou a subir para chegar
+Não tenho andar de destino
+Subo porque a escada está aqui
+E o ar está a subir pelo nariz
 [Chorus]
-Festa pequena na cozinha
-O mundo lá fora não vai saber
-E ainda bem
-A celebração é minha
-O meu corpo, o meu chão, o meu fogão
-Toda a gente que sofreu como eu sofri
-Tem direito a esta festa
-Sem precisar de pedir licença
+Sobe a escada do prédio devagar
+Sobe o ar pela fossa nasal direita
+Sobe a voz pelo lado de trás do pescoço
+Sobe o calor pela costela esquerda
+Não é elevação, é só este patamar
+Não é altura, é só este degrau
+A mão direita encostada à parede
+A planta do pé inteira no quinto
 [Verse 3]
-Vais dizer-me que é pouco
-Que celebrar sozinha não é festa
-Mas eu digo-te que aprendi
-Que a festa começa em casa
-Antes de ter convidados
-Antes de ter razão
-Antes de ter motivo
-A festa é decisão
+Cheguei ao patamar do segundo andar
+Parei ali três respirações
+A vizinha não está em casa hoje
+O cheiro a sabão fica no ar
+A garganta não está apertada
+A nuca solta uma coisa pequena
+A escada continua para cima
+Mas hoje fico aqui um pouco
 [Chorus: full female chorus enters humming, congas + hand-claps polyrhythmic peak]
-Festa pequena na cozinha
-O mundo lá fora não vai saber
-E ainda bem
-A celebração é minha
-O meu corpo, o meu chão, o meu fogão
-Toda a gente que sofreu como eu sofri
-Tem direito a esta festa
-Sem precisar de pedir licença
+Sobe a escada do prédio devagar
+Sobe o ar pela fossa nasal direita
+Sobe a voz pelo lado de trás do pescoço
+Sobe o calor pela costela esquerda
+Não é elevação, é só este patamar
+Não é altura, é só este degrau
 
 [Bridge: vocal close, chorus hums underneath, marrabenta guitar continues — opens, does not r
 (African accent Portuguese:)
-Há uma festa pequena à tua espera
-Numa noite qualquer desta semana
-Não esperes a razão
-Põe a música, fecha a cozinha
-Dança até o frango ficar pronto
-
-Canta para o teflon
-E vê o que acontece dentro do peito
+A escada é a do prédio onde moro
+Não tem nada de especial
+Tem corrimão de madeira lascada
+E uma lâmpada que pisca no terceiro
+Hoje os pés sobem a vontade
+E a vontade sobe atrás dos pés
 [Final Chorus: 4-voice female chorus layered, peak warmth, never shouted]
-Festa pequena
-e ainda bem
-festa pequena
-e ainda bem
+Sobe o ar pela fossa nasal
+sobe a voz pela nuca
+sobe o calcanhar do degrau
+sobe a costela do lado esquerdo
 [Outro: vocal soft, marrabenta guitar lingers]
-Festa pequena
-na cozinha
-festa pequena`,
+A escada
+o patamar do segundo
+a mão na parede
+o pé inteiro`,
 
   "incenso-aleluia/6": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -3589,68 +3577,68 @@ já é alguma coisa`,
 
 [Intro: deep house pads with Hammond stabs, kick entering on bar 2 with vocal — no long instr
 [Verse 1]
-This is the morning
-And I am in it
-This is the morning
-And it did not ask my opinion
-The light came in through the window
-The kettle started its work
-And I — I was here
-Without having to decide anything yet
+The heels meet the kitchen tile first
+The right one slightly ahead of the left
+The weight rolls forward to the balls
+Then back to the middle of the sole
+The knees stay soft, not locked
+The kneecaps float a millimetre above the joint
+The pelvis is not pushed forward
+It is just sitting on top of the legs
 [Verse 2]
-This is the morning
-And I am dressing
-Not pretty, not for anyone
-Just dressing because the day is here
-The shirt is the shirt I have
-The shoes are the shoes I have
-Nothing about this is a performance
-This is the morning, and I am in it
+The spine stacks itself, one bone after another
+The lower back lengthens without effort
+The shoulders fall away from the ears
+The collarbone widens at both ends
+The chin is level, not lifted
+The top of the head reaches toward the ceiling
+Not because I am asking it to
+It just does, when the rest is in place
 [Pre-Chorus]
-The morning came without my prayer
-The morning came without my consent
-The morning is not asking how I feel
-The morning is just here
+This is not a posture I built
+This is what the bones remember
+When I get out of their way
+And let them carry me
 [Chorus]
-This is the morning
-And I am in it
-This is the morning
-And so are you
-Nothing required, nothing earned
-Just the simple fact of presence
-This is the morning
-And I am in it
+The heel on the cold tile
+The arch lifting off a hair
+The big toe steady, the small toes spread
+The knees soft, the hips wide and low
+The ribcage floating over the belly
+The shoulders heavy and dropped
+This is what standing is made of
+Twenty small agreements between bones
 [Verse 3]
-
-This is the morning
-And I am drinking water
-This is the morning
-And I am tying my shoes
-The body is doing what the body does
-On Tuesdays and Wednesdays alike
-The body is older than my mood
-The body knows the way
+I notice the left foot is colder than the right
+I notice my right shoulder is higher
+I do not correct it on purpose
+I just notice, and something shifts
+The jaw releases a small click
+The eyes blink slower
+The breath finds a longer line
+And the stand is taller without me trying
 [Chorus: full harmony stack, sidechained pads peak]
-This is the morning
-And I am in it
-This is the morning
-And so are you
+The heel on the cold tile
+The arch lifting off a hair
+The big toe steady, the small toes spread
+The knees soft, the hips wide and low
 [Bridge: vocal opens, harmonies stack, kick keeps going — opens, does not resolve]
-If you are listening to this in your kitchen right now
-Or in your car, or with the light not yet on
-This is the morning
-And you are in it
-That is enough
-That is the whole work for now
+If you are standing in your kitchen right now
+The floor is doing more than half the work
+Press the heel down for a second
+Feel the tile come back up to meet it
+The bone is older than the mood
+The bone knows how this is done
 [Final Chorus: full harmony stack, peaks, never shouted]
-This is the morning
-And I am in it
-This is the morning
-And so are you
+The heel, the arch, the big toe
+The knee soft, the hip wide
+The rib floating over the belly
+The shoulder heavy and dropped
 [Outro: vocal soft, kick fades]
-This is the morning
-and I am in it
-this is the morning`,
+Heel on tile
+arch off a hair
+shoulder dropped
+the bone knows`,
 
   "incenso-de-pe/3": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -4387,70 +4375,71 @@ not today`,
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
-A culpa pode esperar
-Eu disse-lhe assim mesmo
-Hoje senta-te na cadeira
-Hoje toma a tua senha
-Hoje há fila à minha porta
-E tu não és a primeira
-Hoje há outras a entrar
-Que andaram à espera demais
+O telefone tocou em cima do balcão
+Eu vi o nome aparecer no ecrã
+A mão direita estava a descascar batata
+Não a tirei da batata
+O telefone tocou cinco vezes
+Depois ficou quieto
+A casca da batata caiu para a tigela
+E a chamada foi para o correio
 [Verse 2]
-Quem entra primeiro é o descanso
-Quem entra a seguir é o pão
-Quem entra a seguir é a amiga
-Que me telefonou e eu não atendi
-A culpa fica aí
-Sentada com as mãos no colo
-Pode esperar, sabe esperar
-A culpa tem todo o tempo do mundo
+Continuei sentada na cadeira da cozinha
+A cadeira de madeira com o assento gasto
+Os ombros não subiram para a orelha
+O queixo não ficou apertado
+A batata acabou de descascar
+A faca foi pousada no escorredor
+A mão direita ficou em cima da coxa
+Por mais um minuto, sem fazer nada
 [Pre-Chorus]
-A culpa não é urgente
-Embora finja sê-lo
-A culpa pode esperar
-E hoje vai esperar
+Não precisei de dizer não
+Não precisei de inventar desculpa
+A mão ficou na batata
+E foi essa a resposta
 [Chorus]
-A culpa pode esperar
-Tem fila, tem hora marcada
-
-A culpa pode esperar
-E hoje não é a vez dela
-Hoje é a vez do que me alimenta
-Hoje é a vez do que me reconstrói
-A culpa pode esperar
-Não é hoje a sua hora
+O telefone toca, eu fico
+Na cadeira da cozinha onde estou sentada
+A casca cai para dentro da tigela
+A faca encosta ao escorredor
+Não atendo, não escrevo, não explico
+A planta do pé fica encostada à tábua
+O queixo desce, o ombro desce
+E o telefone para de tocar sozinho
 [Verse 3]
-Aprendi tarde a fazer fila
-A pôr a culpa no fim
-A não a deixar furar
-Como se fosse de família
-Não és de família
-És hábito antigo
-E hoje os hábitos antigos
-Esperam que eu lhes diga
+Daqui a duas horas talvez ligue
+Daqui a três dias talvez não
+Hoje a cadeira da cozinha tem-me
+E eu tenho a cadeira da cozinha
+A batata vai para o tacho
+A chama do fogão acende-se com clique
+A panela vai para cima do bico
+E eu fico onde estou
 [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic]
-A culpa pode esperar
-Tem fila, tem hora marcada
-A culpa pode esperar
-E hoje não é a vez dela
+O telefone toca, eu fico
+Na cadeira da cozinha onde estou sentada
+A casca cai para dentro da tigela
+A faca encosta ao escorredor
+Não atendo, não escrevo, não explico
+A planta do pé fica encostada à tábua
 [Bridge: vocal close, choir hums underneath, warm strings rising — opens, does not resolve]
 (African accent Portuguese:)
-Não te peço para deitar fora a culpa
-A culpa às vezes ensina coisas verdadeiras
-Mas pede-lhe que tire senha
-Pede-lhe que espere
-Trata-a como tratas um vizinho persistente
-Atende-a quando estiveres pronta
-Não quando ela achar que é hora
+Amanhã pode ser que atenda
+Daqui a duas horas pode ser que sim
+Hoje a mão está dentro da casca
+Hoje a cadeira está debaixo de mim
+O telefone fica em cima do balcão
+A tocar ou a não tocar
 [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
-A culpa pode esperar
-Tem fila, tem hora marcada
-A culpa pode esperar
-E hoje não é a vez dela
+O telefone em cima do balcão
+a mão na casca da batata
+a cadeira da cozinha debaixo
+e o queixo a descer um pouco
 [Outro: vocal warm, choir fading, strings linger]
-A culpa pode esperar
-hoje não é a vez dela
-a culpa pode esperar`,
+A mão na batata
+a cadeira da cozinha
+o telefone a parar
+sozinho`,
 
   "incenso-hoje-nao/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5143,69 +5132,67 @@ slow breath
 
 [Intro: gospel piano with rich chords, vocal entering on bar 2 — no long instrumental opening
 [Verse 1]
-O peito alarga
-
-Não por minha vontade
-Por sua sabedoria antiga
-O peito sabe o caminho
-Há quanto tempo não alargava
-Anos de respiração curta
-Anos de espreitar pelo lado
-Hoje — hoje finalmente
+A fossa nasal direita está fechada hoje
+A esquerda é por onde entra primeiro
+O ar passa pela parede do nariz
+Refresca o céu da boca por trás
+Desce pela parede de trás da garganta
+Roça na úvula sem a tocar
+Encontra a parte de cima do esterno
+E faz uma pequena pausa ali
 [Verse 2]
-Não força nada
-Não puxa nada
-Apenas permite
-Apenas convida
-O peito alarga porque o peito é assim
-Quando o deixam ser
-Quando o deixam ter o seu ritmo
-Quando o deixam ter o seu tempo
+Do esterno desce até à terceira costela
+A do lado esquerdo, a que carrega mais
+Empurra a costela para fora um milímetro
+A costela aceita, com um pequeno estalido
+A costela direita segue meio segundo depois
+O diafragma desce, vai para baixo do umbigo
+E volta a subir mais depressa do que desceu
+Trazendo o ar a sair pela mesma fossa
 [Pre-Chorus]
-O peito alarga
-Como o céu alarga
-Não há técnica
-Há permissão
+Não tenho técnica
+Tenho a fossa nasal esquerda
+Tenho o esterno
+Tenho a terceira costela
 [Chorus]
-O peito alarga
-Lentamente, sem permissão de ninguém
-O peito alarga
-O peito sabe o caminho
-Não preciso de respirar bem
-Preciso de respirar inteiro
-O peito alarga
-Quando lhe dou licença
+A fossa nasal esquerda abre-se
+O esterno sobe meio centímetro
+A terceira costela do lado esquerdo abre
+O diafragma desce até abaixo do umbigo
+Não é peito inteiro a alargar
+São três sítios pequenos a fazer um caminho
+O ar sabe a parede do nariz
+O esterno sabe a costela esquerda
 [Verse 3]
-Hoje conto com o peito
-Que durante anos não contei
-Hoje deixo-o ser orgânico
-Em vez de mecânico
-O peito conhece-me melhor
-Do que eu me conheço
-O peito é o sítio onde a vida
-Acontece em silêncio
+A fossa direita talvez abra à tarde
+Não a forço, espero pelo seu turno
+A terceira costela bate por dentro
+Mais devagar do que há uma hora
+O esterno fica em cima do diafragma
+Sem o esmagar para baixo
+A nuca larga uma pequena dureza
+Que estava lá desde a manhã
 [Chorus: 3-voice harmonies enter, tambourine on the four]
-O peito alarga
-Lentamente, sem permissão de ninguém
-
-O peito alarga
-O peito sabe o caminho
+A fossa nasal esquerda abre-se
+O esterno sobe meio centímetro
+A terceira costela do lado esquerdo abre
+O diafragma desce até abaixo do umbigo
 
 [Bridge: vocal close, harmonies hum underneath, gospel piano carries — opens, does not resolv
 (African accent Portuguese:)
-Põe a mão no peito agora
-Por cinco segundos
-Não para o controlar
-Para o reconhecer
-Está aí — debaixo da mão
-A bater, a alargar, a descansar
-Está vivo
-Tem sido fiel sem te apresentares
+Põe a ponta do dedo no esterno
+Em cima, na concavidade junto à garganta
+Sente o osso a subir um pouco
+Quando o ar entra pela fossa esquerda
+Sente o osso a descer
+Quando o ar sai pela mesma porta
+Não é metáfora
+É um osso pequeno a mexer-se
 [Outro: vocal warm, piano fading]
-O peito alarga
-sem permissão
-o peito alarga
-sabe o caminho`,
+A fossa esquerda
+o esterno
+a terceira costela
+o diafragma`,
 
   "incenso-ar/4": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -5738,75 +5725,71 @@ rosto.`,
 
 [Intro: gospel piano with rich chords, Hammond organ swell, vocal entering on bar 2 — no long
 [Verse 1]
-Mexe
-A primeira ordem que dou a mim mesma
-Não pensa, mexe
-Não decide, mexe
-Não espera vontade, mexe
-A vontade não chega antes
-A vontade chega depois
-Mexe primeiro, e a vontade vem
+A anca encontrou ritmo antes da cabeça
+O rádio estava baixinho na cozinha
+A cabeça ainda estava a pensar na conta
+Mas a anca já tinha começado
+Um pequeno balanço de lado a lado
+Sem permissão, sem decisão
+A planta do pé esquerdo bateu a tábua
+O joelho dobrou meio dedo
 [Verse 2]
-Levanto, ando até à porta
-Toco no batente, volto
-Já mexi
-Já mexi e não morri
-A primeira vez é assim
-Pequena, ridícula, suficiente
-A primeira vez é a porta
-Que abre todas as outras
+A mão pousou o pano em cima da banca
+Não foi a vontade que mandou
+Foi o ombro que largou primeiro
+E o pulso seguiu o ombro
+A cintura encontrou a curva
+A coluna lembrou-se de uma forma de S
+E o queixo desceu um bocadinho
+Sem ninguém o empurrar
 [Pre-Chorus]
-Mexe não é exercício
-Mexe não é projeto
-Mexe é o gesto mais antigo
-Que o corpo conhece bem
+Eu não comecei isto
+A anca começou
+A cabeça vem atrás
+Em geral chega tarde
 [Chorus]
-Mexe
-Eu mexo, vem comigo
-Mexe
-A casa está cansada de te ver parada
-Não te peço a corrida
-Não te peço o ginásio
-Mexe
-Apenas mexe
-E o resto vai aprendendo
+A anca encontra o ritmo
+A planta do pé responde à tábua
+O ombro larga primeiro, o pulso segue
+A cintura faz a curva sozinha
+Não há programa, não há projeto
+Há um corpo que se lembra
+O rádio está baixinho, a luz está suave
+E o joelho dobra de seu acordo
 [Verse 3]
-Lavo a louça e mexe
-Estendo a roupa e mexe
-Vou ao quintal e mexe
-Subo as escadas e mexe
-A vida inteira é mexe
-Em cada passo, em cada gesto
-
-Tu sabes mexer-te
-Lembra-te que tu sabes
-
+Daqui a um bocado pode parar
+O corpo vai saber quando para
+Por enquanto a sola desliza no soalho
+A perna direita passa à frente da esquerda
+O cotovelo encontra a costela
+A mão direita encontra o ar
+Não estou a dançar para ninguém
+Estou só a deixar a anca continuar
 [Chorus: full female chorus enters, Hammond blooms, tambourine + hand-claps polyrhythmic, dje
-Mexe
-Eu mexo, vem comigo
-Mexe
-A casa está cansada de te ver parada
-
+A anca encontra o ritmo
+A planta do pé responde à tábua
+O ombro larga primeiro, o pulso segue
+A cintura faz a curva sozinha
 [Bridge: vocal close, choir hums underneath, warm strings rising, djembe steady — opens, does
 (African accent Portuguese:)
-Estás a ouvir isto sentada
-Levanta-te agora — só por dois segundos
-Se voltares a sentar-te logo está bem
-Mas levanta-te agora
-Não pelo programa, pelo gesto
-Os teus joelhos sabem o que fazer
-A tua coluna sabe o que fazer
-Confia no que sabe sem ti
+Se estiveres sentada agora
+Repara primeiro na anca, antes de mais
+Vê se já está a balançar um bocadinho
+Sem teres dito que sim
+A anca às vezes sabe antes
+Sabe que é hora, sabe o ritmo
+O ombro vai a seguir, e a planta do pé
+Tu chegas no fim, a última a saber
 [Final Chorus: 6-voice chorus layered, peak warmth, never shouted]
-Mexe
-Eu mexo, vem comigo
-Mexe
-A casa está cansada
+A anca, a planta do pé
+o ombro, a cintura
+o cotovelo, a costela
+o joelho que dobra
 [Outro: vocal warm, choir fading, djembe lingers]
-Mexe
-vem comigo
-mexe
-e o resto vai aprendendo`,
+A anca encontrou o ritmo
+o ombro largou primeiro
+a cabeça
+chegou no fim`,
 
   "incenso-mexe/2": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -6710,68 +6693,64 @@ respira agora`,
 
 [Intro: felt-piano, warm Hammond pad very low, vocal entering on bar 2 — no long instrumental
 [Verse 1]
-The smaller self
-Is the one I am with no audience
-The one with the cup of tea, alone
-The one who watches the sky for no reason
-The one who reads the sentence twice
-Not because I missed it
-But because I liked it
-And there is nobody to impress
+I lost the breath in the upper chest again
+Halfway through a meeting I could not leave
+The shoulders had climbed up to the ears
+The jaw had been clenched for over an hour
+The way back is not in the head
+The way back is the belly under the navel
+Two fingers below the belt line
+Where the air had stopped going
 [Verse 2]
-
-The smaller self is quiet
-The smaller self does not announce
-The smaller self does not perform
-The smaller self does not curate
-The smaller self takes the long way home
-The smaller self picks up a leaf
-The smaller self does not photograph anything
-And does not regret not photographing
+I put the right hand flat on the lower belly
+Just under the navel, palm warm
+The left hand stays on the thigh
+The first breath in does not reach
+The second one only reaches halfway
+By the fourth, the palm starts to lift
+The belly remembered what it was for
 [Pre-Chorus]
-The smaller self is not less of me
-The smaller self is more
-The bigger self was the costume
-The smaller self is the body underneath
+This is not a technique
+This is the place where the breath lives
+The chest is the second floor
+The belly is the foundation
 [Chorus]
-The smaller self
-Is not less of me
-It is more
-The smaller self
-Is the woman who is not selling
-Is the woman who is not posting
-Is the woman who is not climbing
-And finally
-Is the woman who can be found
+Back to the belly under the palm
+Back to the right hand resting there
+Back to the rise that lifts the fingers
+Back to the fall that lets the spine soften
+Not back to a feeling, not back to a thought
+Back to the place where the belly meets the breath
+The shoulder drops without me telling it
+The jaw releases on the third long exhale
 [Verse 3]
-I will go back to the bigger self tomorrow
-I have to, the world wants the bigger one
-The world pays the bigger one
-The world likes the bigger one
-But every day I will return
-For an hour or two
-To the smaller self
-Where I actually live
+The right hand is the marker, the anchor
+Wherever the right hand is, I can find myself
+On the belly, on the chest, on the collarbone
+Whichever bone needs the witness today
+The breath finds the hand
+The hand finds the bone
+The bone returns to its place
+And I am where I am, again
 [Chorus: soft female choir hum enters, faraway]
-The smaller self
-Is not less of me
-It is more
-The smaller self
-Is the woman who can be found
+Back to the belly under the palm
+Back to the right hand resting there
+Back to the rise that lifts the fingers
+Back to the fall that lets the spine soften
 [Bridge: vocal close, choir hums, only piano — opens, does not resolve]
-You have a smaller self
-That nobody at work has met
-That nobody on social media has met
-
-That maybe even the people closest to you
-Have only met in glimpses
-Spend an hour with her this week
-She has been waiting
+If your shoulders are at your ears right now
+Put the right hand on the lower belly
+Just below the navel
+Let it stay there for five breaths
+The breath will find it
+The shoulders will fall, eventually
+Not because you asked them to
+Because the body knows
 [Outro: vocal soft, piano fading, choir lingers]
-The smaller self
-is more
-the smaller self
-the woman who can be found`,
+The right hand on the belly
+the breath finds the palm
+the shoulder drops
+the jaw lets go`,
 
   "incenso-volta-a-mim/5": `[Vocal: ONE warm mezzo-contralto female voice leading, full chest voice on choruses, breathy on verses, layered female backing choir on final chorus (3 voices building to 6), no melisma, never shouts, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]

@@ -143,74 +143,67 @@ Can adjust
 
 ---
 
-## 03. Não
-*A palavra mais curta e mais difícil de dizer*
+## 03. Não Falto Nada
+*A presença das coisas pequenas no sítio onde estão*
 Energia: steady | Língua: PT | Sabor: house
 
 [Verse 1]
-Disseram podes ficar até mais tarde
-E eu disse não
-Disseram precisamos de ti neste projecto
-E eu disse não
+A luz da cozinha às oito e meia
+O pão na tábua, a faca ao lado
+A chávena, o leite, o açucareiro
+Tudo no sítio onde já está
 
 [Verse 2]
-Disseram mas tu é que sabes fazer isto
-E eu disse sei — mas não
-Disseram vais deixar toda a gente mal
-E eu disse vou — e disse não
+A chave da porta no prego do corredor
+Os sapatos dela onde os largou
+A toalha por dobrar no encosto da cadeira
+E nada disto a pedir mais nada
 
 [Pre-Chorus]
-O não custou-me mais
-Do que qualquer sim que já dei
-O sim sai fácil, o sim sai leve
-O não pesa como lei
+Ninguém me disse hoje que estou bem
+Ninguém me disse hoje que sou suficiente
+A frase não está na boca de ninguém
+Mas o pão está cá em cima do tampo
 
 [Chorus]
-Não — a palavra mais curta
-E a mais difícil de dizer
-Não — sem desculpa, sem motivo
-Sem precisar de convencer
-Não é uma frase completa
-Não precisa de explicação
-Não é a primeira palavra
-Que uma mulher diz como libertação
+O pão na mesa, a luz na cozinha
+A chave no prego, a toalha na cadeira
+A planta da janela já regada
+O telefone virado para baixo
+Não me falta o que ninguém me deu
+Não me falta o que não está na lista
+O que está, está
+E é o que está aqui
 
 [Verse 3]
-A culpa veio logo a seguir
-Como veio sempre que disse não
-Sentou-se ao lado no carro
-E sussurrou: devias ter dito sim, irmã
+A minha mão pousada no rebordo da mesa
+Sem nada por agarrar
+A respiração que volta à barriga
+Quando paro de procurar
 
 [Chorus]
-Não — sem desculpa, sem motivo
-Não é uma frase completa
-Não é a primeira palavra
-Que uma mulher diz como libertação
+O pão na mesa, a luz na cozinha
+A chave no prego, a toalha na cadeira
+A planta da janela já regada
+O telefone virado para baixo
+Não me falta o que ninguém me deu
+Não me falta o que não está na lista
+O que está, está
+E é o que está aqui
 
 [Bridge]
-Aprendi o sim antes de andar
-Sim senhor, sim senhora, sim claro que sim
-Fui educada para agradar
-Para ser útil até ao fim
-Mas o não que aprendi aos quarenta
-Vale mais que mil sins aos vinte
-O não protege o que é meu
-E o que é meu já não se finge — nem se minte
-
-[Chorus]
-Não — a palavra mais curta
-E a mais difícil de dizer
-Não é a primeira palavra
-Que aprendi a dizer — por mim
+Há manhãs em que procuro o que me falta
+Hoje a cozinha respondeu antes de eu perguntar
+A torneira pinga uma vez
+E a casa continua a ser casa
 
 [Outro]
-Não
-Sem vírgula
-Sem mas
-Sem talvez
-Não
-E o mundo
-Não acabou
+O pão
+A chave
+A luz
+A planta
+A torneira
+Tudo no sítio onde sempre esteve
 
 ---
 

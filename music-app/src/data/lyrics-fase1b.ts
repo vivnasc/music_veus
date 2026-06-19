@@ -1173,82 +1173,76 @@ And the funk that burns it away`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-Gira, gira, gira sem parar
-O mundo é um borrão de cor
-Os braços abertos como o mar
-A tontura é uma forma de amor
-O vestido abre como um leque
-A sala desaparece
-Quem me vir pensará que enlouqueço
-Mas isto é o que acontece
+O azulejo da cozinha está frio no calcanhar
+Tem juntas de cimento que a planta sente
+A planta do pé direito reconhece primeiro
+A esquerda demora meio segundo a chegar
+A junta entre o quarto e o quinto azulejo
+Tem uma pequena saliência no canto
+A pele do calcanhar lembra-se da saliência
+Sem eu ter de olhar para baixo
 
 [Verse 2]
-Quando a música agarra a cintura
-E o corpo não diz que não
-Quando a dança é tão pura
-Que não cabe na razão
-Giro como os planetas giram
-Sem perguntar para quê
-As estrelas também não se admiram
-De existir sem saber porquê
+Passo para a sala, para o tapete de lã
+A lã não é fria, é morna por baixo
+A planta afunda dois milímetros
+Os dedos abrem para os dois lados
+O tapete tem uma costura ao meio
+A costura levanta a sola um pouco
+Não está direito, nunca esteve direito
+E é por isso que reconheço o tapete
 
 [Pre-Chorus]
-O centro está aqui dentro
-No eixo que não se vê
-Quanto mais giro, mais encontro
-O sítio onde eu sou eu sem saber
+Não é chão, são três sítios diferentes
+O azulejo, o tapete da sala, a alcatifa
+Cada um tem o seu nome para a planta
+E hoje a planta percorreu todos
 
 [Chorus]
-Gira que o mundo gira contigo
-Gira que o chão é uma roda
-Gira que cada passo é um abrigo
-E cada giro é uma boda
-Entre o corpo e a liberdade
-Entre o medo e o soltar
-Gira — que a verdade
-É que nascemos para girar
+Azulejo frio no calcanhar direito
+Tapete morno com a costura levantada
+Alcatifa baixa do corredor do quarto
+Que prende um pouco entre os dedos
+Não estou a meditar em cima de chão
+Estou a passar por cima de três chãos
+A planta do pé é a que sabe
+A cabeça é a última a reconhecer
 
 [Verse 3]
-As crianças sabem isto
-Giram até cair no chão
-A rir sem nexo nem juízo
-Com uma enorme precisão
-De quem sabe que a tontice
-É sagrada, é necessária
-Que o corpo que se entontece
-É o corpo que se liberta e é aliado
+A alcatifa do corredor é mais áspera
+Foi posta nos anos noventa, está rala
+A planta do pé esquerdo sente o forro por baixo
+Em alguns sítios já só tem o forro
+Os dedos fecham um pouco para não picar
+O passo encurta sem eu mandar
+A nuca larga uma coisa
+Quando os pés sabem o caminho deles
 
 [Chorus]
-Gira que o mundo gira contigo
-Gira que o chão é uma roda
-Gira que cada passo é um abrigo
-E cada giro é uma boda
+Azulejo frio no calcanhar direito
+Tapete morno com a costura levantada
+Alcatifa baixa do corredor do quarto
+Que prende um pouco entre os dedos
 
 [Bridge]
-Os sufis giram há séculos
-Para encontrar o divino
-Os derviches não são espectáculos
-São oração em forma de caminho
-E eu giro aqui na pista
-Sem religião nem nome
-Com a fé de uma ciclista
-Que pedala contra a fome
+Cada chão tem o seu cheiro
+O azulejo cheira a pano de chão húmido
+O tapete cheira a pó de domingo
+A alcatifa cheira a casa antiga
+Os ombros descem em cada divisão
+A planta do pé reconhece, a cabeça vem atrás
 
 [Chorus]
-Gira que a vida gira contigo
-Gira sem medo de cair
-Cada giro é um antigo
-Passo para revivir
+Azulejo, tapete, alcatifa
+Calcanhar, costura, fios baixos
+A planta sabe a casa de cor
+Sem precisar de pensar nela
 
 [Outro]
-Quando finalmente paro
-O mundo ainda gira
-E tudo fica mais claro
-Quando a tontice respira
-O corpo encontrou o centro
-A pista encontrou a paz
-E aqui dentro, bem dentro
-A dança nunca se desfaz`,
+O azulejo da cozinha frio
+o tapete da sala com a costura
+a alcatifa rala do corredor
+e a planta do pé inteira em cada um`,
 
   "incenso-pes-descalcos/6": `[Vocal: ONE warm mezzo-contralto female voice, raw and exposed, intimate speaking quality, slight rasp on sustained notes, sings very close to the microphone, breath sounds audible, no harmonies (this is a raw track), no melisma, no belting, no autotune]
 [CRITICAL: subtle international English accent, NOT American, NOT exaggerated British]
@@ -1931,82 +1925,77 @@ E por cada doce açoite de estar viva`,
 [Intro: minimal Rhodes piano with single double-bass pluck per phrase, brushed cymbal, a single audible exhale, then silence for one beat]
 
 [Verse 1: vocal whispered, very close, almost spoken]
-There is a line that no one draws
-Between the wanting and the need
-A border where the hunger thaws
-And all that's left is just the seed
-Of something simpler, something true
-A table set for one or two
-With nothing fancy, nothing new
-And somehow that is more than due
+The right hand holds the orange against the wood
+The left thumb finds the dimple at the stem
+The nail slides under the skin, the peel lifts
+A bright spray comes out, fine and oily
+A small sting hits the cut on the index finger
+The orange smell sits on the wrist for an hour
+The peel curls onto the cutting board
+In one long piece that does not break
 
 [Verse 2]
-The wardrobe holds five things I wear
-The cupboard has what feeds a week
-The window frames the open air
-That I don't have to buy or seek
-The bed is warm, the roof is dry
-The tap runs water cold and clear
-And every day that passes by
-I find there's less that I need here
+The book closes under the right palm
+A finger marks the page first, then slides away
+The cover meets the cover with a soft sound
+The spine settles back into its older shape
+The left hand pushes the book toward the lamp
+The lamp does not move, the book stops
+The palms come back to the lap, face up
+And stay there for the length of one breath
 
 [Pre-Chorus]
-Enough is not a giving up
-It's a discovery, a shore
-Where you set down your heavy cup
-And find you need to carry no more
+The hands are not folded in prayer
+The hands are doing the next quiet thing
+Peel a fruit, close a book, rinse a plate
+The hands know the sequence already
 
 [Chorus]
-Enough is radical and brave
-In a world that screams for more
-Enough is what the wise ones gave
-When they stepped outside the store
-And felt the wind and felt the sun
-And realised it was always free
-That everything they'd ever won
-Was already inside the tree
+The hands rinse the plate under warm water
+The thumb sweeps the rim, the fingers find the back
+A fleck of rice lets go and goes down the drain
+The plate is laid on the cloth to dry
+There is no ceremony in this
+The hands are just doing
+The shoulders drop with each plate set down
+The jaw releases on the third one
 
 [Verse 3]
-I used to make a list of wants
-That grew each time I crossed one off
-A garden full of hungry haunts
-That never tired and never stopped
-But somewhere in the middle of the race
-I sat down on the ground and looked
-At all the beauty of this place
-And noticed I was overbooked
+The hands fold the corner of the sheet
+The right hand pulls, the left hand follows
+The crease lines up with the edge of the bed
+A flat surface where there was rumpled cotton
+The pillow is shaken once and set down
+The hands rest on the foot of the bed
+Then come back to the body
+Empty, palms slightly warm
 
 [Chorus]
-Enough is radical and brave
-In a world that wants you small
-Enough is the returning wave
-That doesn't need to drown at all
+The hands rinse the plate under warm water
+The thumb sweeps the rim, the fingers find the back
+A fleck of rice lets go and goes down the drain
+The plate is laid on the cloth to dry
 
 [Bridge: vocal close, no harmonies, only Rhodes and double-bass pluck underneath]
-The richest person in the room
-Is often the one who needs the least
-Who finds in every silent bloom
-An uninvited, daily feast
-Who walks outside without a list
-And feels the morning on their face
-And knows that nothing will be missed
-Because the world is full of grace
+There is the orange peel, the closed book, the clean plate
+The folded sheet, the lamp left where it was
+The hands have done four small things in a row
+And the shoulders are lower than they were at the start
+This is not prayer, exactly
+This is the hand finding the next handle
+And the next, and the next, until the body softens
 
 [Chorus]
-Enough is not a limit
-It's a freedom made of air
-The moment you stop chasing it
-You find it's everywhere
+The hands are doing the next thing
+The orange, the book, the plate, the sheet
+The body follows the hands today
+Instead of the hands following the body
 
 [Outro]
-Tonight I have enough of everything
-The stars, the bread, the quiet sound
-Of nothing lacking, nothing missing
-Just a body on the ground
-Looking up at what was given
-Without a price, without a deed
-And knowing this is how the living
-Finally learn to feed`,
+The orange peel in one long piece
+the book back on the lamp side
+the plate on the cloth
+the sheet folded at the corner`,
 
   "incenso-maos-juntas/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings close to the microphone, layered airy harmonies emerging on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -2774,82 +2763,71 @@ Do caminho e da poeira`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The table is a mountain range
-My mother's legs are redwood trees
-The staircase is a world of strange
-And the ceiling is a frozen sea
-Everything is larger here
-When you're three feet off the ground
-Every door a new frontier
-Every closet, lost and found
+An ant crosses the windowsill
+Carrying a piece of bread
+Larger than its own body
+It does not stop where I have read
 
 [Verse 2]
-My father's shoes could be two boats
-That sailed a black and shiny sea
-His voice comes down in rumbling notes
-From somewhere high above the tree
-Of me — this little sapling thing
-That looks up at the world amazed
-At how the adults always bring
-Their faces down to mine, half-glazed
+The thread of water from the tap
+Was not entirely turned off
+It hits the bottom of the steel sink
+With a sound I almost forgot
 
 [Pre-Chorus]
-When you are small the world is tall
-And everything has teeth or wings
-The bathroom is a concert hall
-The kitchen — where the music sings
+I am thirty-eight and I am watching
+A small thing do a small thing well
 
 [Chorus]
-Giants walk the world I know
-With keys and wallets, phones and shoes
-They reach the shelves where I can't go
-They read the letters and the news
-But I can see what they cannot
-The beetle's journey across the tile
-The tiny kingdom they forgot
-When they grew past the final mile
+The ant on the windowsill
+The thread of water in the sink
+The hair on the back of the cardigan
+The tea that has gone cold to drink
+The fly that walks across the table
+And rubs its forelegs once, twice
+The dust on the lampshade
+The cat that does not look at me twice
+I am not noticing for a reason
+I am not making it mean
+I am just here at the table
+With my elbows and my caffeine
 
 [Verse 3]
-The supermarket is a cathedral
-With aisles that stretch to kingdom come
-Each cereal box a stained glass gleam
-Each trolley wheel a rolling drum
-I sit inside the metal cart
-A throne of wire and of wheels
-And watch the giants play their part
-In a world of ordinary deals
+A spider has built between the chair
+And the leg of the dining table
+A web the width of my palm
+That holds nothing, but is stable
 
 [Chorus]
-Giants walk the world I know
-But they've forgotten how to stare
-At the wonder down below
-At the magic in the air
+The ant on the windowsill
+The thread of water in the sink
+The hair on the back of the cardigan
+The tea that has gone cold to drink
+The fly that walks across the table
+And rubs its forelegs once, twice
+The dust on the lampshade
+The cat that does not look at me twice
+I am not noticing for a reason
+I am not making it mean
+I am just here at the table
+With my elbows and my caffeine
 
 [Bridge]
-One day I'll be a giant too
-With keys and schedules and a car
-But somewhere in the residue
-Of childhood, there's a tiny star
-That still remembers being small
-And looking up with open mouth
-At how the giants owned it all
-And yet missed everything about
-
-[Chorus]
-Giants walk the world today
-But the smallest eyes can see
-The things that giants look away
-From — the things that set me free
+I do not need the eyes of a child
+I have the eyes of a woman who waited
+Long enough at the kitchen table
+For the small things to become unmediated
 
 [Outro]
-So let me stay here just a while
-This close to the ground and the ants
-Let me keep this giant smile
-On this tiny face that chants
-Everything is big, everything is bright
-Everything is possible and tall
-And the world is just a kite
-That I am holding — string and all`,
+The ant
+The thread of water
+The fly
+The dust
+The web
+The cat
+And the tea
+Going cold
+In my hand`,
 
   "eter-olhos-de-crianca/5": `[Vocal: ONE warm mezzo-contralto female voice, intimate speaking quality, slight breathiness on sustained notes, sings very close to the microphone, layered airy harmonies emerging only on choruses (3 voices max — root, third, fifth), no melisma, no belting, no riffs, no autotune]
 [CRITICAL: African accent Portuguese, NOT European, NOT Lisbon accent, NOT Brazilian]
@@ -4186,72 +4164,72 @@ Between the buried and the ground`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-O mesmo sangue corre em nós
-Vermelho escuro, quente, antigo
-A mesma cor, o mesmo atroz
-Teimoso e fiel — como um amigo
-Que não se escolhe mas que está
-No mesmo quarto, na mesma mesa
-Que vê o pior e que não vai
-Embora — porque é feito da mesma peça
+Cerras o punho como o pai
+O polegar por cima dos outros
+Eu também — sem pensar — vai
+A mão fecha sozinha nos cotovelos
+Estamos no Pingo Doce, fila do peixe
+Tu a ouvir o homem do balcão
+E eu reparo no teu punho fechado
+E noto o meu na mesma posição
 
 [Verse 2]
-Partilhámos a mesma mãe
-O mesmo leite, a mesma história
-O mesmo medo de ninguém
-E a mesma pequena glória
-De um Natal com três prendas
-De um verão com uma piscina
-De umas férias sem emendas
-De uma infância que não termina
+Viras a cabeça para a esquerda
+Quando alguém te chama de trás
+E eu viro do mesmo lado, à mesma altura
+Com a mesma pausa antes do que dizes
+Partilhámos a mãe, o leite, o Natal
+A piscina insuflável no quintal
+A casa de banho com a porta partida
+E o modo de descer as escadas
 
 [Pre-Chorus]
-O sangue é mais forte que a razão
-Mais teimoso que a distância
-É o fio de uma ligação
-Que sobrevive a toda a ambulância
+Não é o sangue na cabeça
+É a mão no bolso, igual à tua
+É o queixo que se levanta
+Antes de atravessares a rua
 
 [Chorus]
-Mesmo sangue, mesmo chão
-Mesmo teto sobre a cabeça
-Mesmo sangue, mesma mão
-Que bate e que depois endireça
-Somos o espelho um do outro
-O melhor e o pior retrato
-Mesmo sangue — mesmo rosto
-De um amor que nunca assina contrato
+Mesmo punho a cerrar
+Polegar por cima dos dedos
+Mesma cabeça a virar
+Para a esquerda, sem segredos
+Mesma pausa antes de rir
+Curta — meio segundo, talvez
+Mesmo modo de partir
+Sem dizer adeus desta vez
 
 [Verse 3]
-Quando eras pequena e caías
-Eu corria mais que o vento
-Quando eu chorava tu sabias
-O que eu sentia sem eu dizer o lamento
-Porque o sangue comunica
-Num idioma que não se aprende
-Numa frequência que não se explica
-Que não se compra nem se vende
+Lembras-te de quando caíste da bicicleta
+Em Inhambane, na estrada de terra
+Eu corri sem pensar, sem decidir
+Chegaste a casa com o joelho aberto
+E eu chorei mais alto que tu
+Não sabia o nome do que sentia
+Só sabia que o teu joelho era meu
+E a tua dor entrava por uma porta minha
 
 [Chorus]
-Mesmo sangue, mesmo rio
-Correndo dentro de dois corpos
-Mesmo sangue, mesmo frio
-Que nos aquece os olhos mortos
+Mesmo dedo a tamborilar
+Na mesa, quando a conversa atrasa
+Mesmo ombro a encolher
+Antes de dizer que sim por casa
 
 [Bridge]
-Podem passar cem anos
-Podem mudar as moradas
-Podem crescer os enganos
-Podem calar-se as chamadas
-Mas o sangue que me corre
-É o mesmo que te corre a ti
-E enquanto o coração não morre
-Estamos ligados aqui
+Podem passar dez anos
+Podes mudar de cidade
+Posso ficar em Maputo
+Tu seguir a tua vontade
+Mas amanhã, num café
+Em Joanesburgo ou em Quelimane
+Vais fechar o punho daquela forma
+E alguém ao lado vai pensar — conheço
 
 [Chorus]
-Mesmo sangue, para sempre
-Sem contrato e sem papel
-O sangue é o mais leal entre
-Tudo o que é cruel e fiel
+Mesmo gesto a chegar
+Sem aviso, sem espelho
+Mesmo punho a fechar
+Mesma pausa, mesmo joelho
 
 [Outro]
 Quando a vida nos separar
@@ -5340,72 +5318,72 @@ At the table — just because`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-A carta começa querido pai
-E pára ali durante um ano
-Porque depois da vírgula não vai
-Nenhuma palavra sem engano
-Sem mentira ou sem disfarce
-Sem o verniz da educação
-Querido pai — e antes que o laço se arce
-Eu paro e rasgo a oração
+O pai está na oficina ao fundo do quintal
+Camisa azul, mãos com massa preta
+Curvado sobre o capô do Datsun de mil-novecentos-e-tal
+Que nunca acabou de arranjar até hoje
+Eu tinha sete anos, encostada à porta
+Com a mão no batente, sem entrar
+Ele não olhou — porque a chave inglesa
+Não largava o parafuso desde o jantar
 
 [Verse 2]
-Tentei de novo em Março
-Querido pai, eu queria que soubesses
-Que o espaço e o abraço
-Que me negaste não tem preces
-Que façam desaparecer
-A marca dos teus silêncios
-Nem a marca de não te ver
-Nos momentos mais intensos
+O Domingo era almoço de arroz com galinha
+À mesa de fórmica amarela
+Ele comia depressa, com a cabeça baixa
+E saía antes do café à janela
+Voltava à oficina, à mesma posição
+Curvado, com a chave na mão
+E eu via as costas dele, a camisa azul
+A coluna a fazer um arco do tamanho do chão
 
 [Pre-Chorus]
-Uma carta que nunca se envia
-Pesa mais que mil que se enviam
-Porque vive e cresce e cria
-Raízes que nunca se criam
+Não é a ausência — ele estava
+A vinte metros, do outro lado do pátio
+Mas a chave na ignição não rodava
+E o capô ficava sempre meio fechado
 
 [Chorus]
-A carta que nunca te enviei
-Tem mais páginas que um livro
-Tem tudo o que nunca te contei
-E tudo o que manteve vivo
-O amor que eu tenho por ti
-Misturado com a raiva
-A carta mora dentro de mim
-Como uma ferida que não se acaba
+O pai na oficina ao fundo do quintal
+Curvado sobre o motor que não pega
+Camisa azul, mão com massa preta
+E a minha mão no batente, à espera
+Sem entrar, sem chamar
+Sem saber se podia
+A oficina cheirava a óleo e a gasolina
+E o cheiro entrava no meu vestido todo o dia
 
 [Verse 3]
-Tentei pela última vez
-Em Setembro, já com quarenta
-Querido pai, desta vez
-O que escrevo não me atormenta
-Escrevo para te dizer
-Que te perdoo pelo que não deste
-E que aprendi a viver
-Com a ausência que me fizeste
+Tenho quarenta agora, e ele tem setenta
+Continua a curvar-se sobre o capô
+Não do Datsun — esse já foi para a sucata
+Mas sobre um Toyota castanho, no mesmo sítio, ao fundo
+Fui visitá-lo em Junho
+Encostei-me ao mesmo batente
+Ele levantou a cabeça desta vez
+E disse — passa-me a chave de onze, se faz favor
 
 [Chorus]
-A carta que nunca te enviei
-Hoje tem um ponto final
-Tudo o que nunca te contei
-Já não me faz tanto mal
+O pai na oficina ao fundo do quintal
+A camisa azul agora tem manchas brancas
+O cabelo tem manchas brancas também
+E a chave de onze passa entre nós duas mãos
 
 [Bridge]
-Não vou enviar esta carta
-Porque não preciso de resposta
-O que precisava era escrevê-la — basta
-Abrir a porta que estava encosta
-E deixar o ar entrar
-No quarto onde guardei
-Tudo o que te quis falar
-E nunca encontrei
+Não houve abraço, não houve conversa
+Eu segurei o candeeiro enquanto ele apertava
+O parafuso que não queria entrar
+E o cotovelo dele encostou ao meu sem querer
+Ficámos assim durante quinze minutos
+A respirar o mesmo cheiro a óleo
+E foi a coisa mais próxima que tivemos
+Em quarenta anos de Domingo
 
 [Chorus]
-A carta fica comigo
-Como um diário sem leitor
-Mas o que nela abrigo
-Já não é dor — é amor
+O pai na oficina, eu de pé ao lado
+A chave de onze passou de mão em mão
+A camisa azul, o capô meio levantado
+E o silêncio entre nós — sem ressentimento, sem perdão
 
 [Outro]
 Querido pai
@@ -6925,73 +6903,74 @@ Exatamente como deve estar`,
 [Persona: Loranne — AwakeSoul lineage, contemplative and transformative presence, intimate songwriter]
 
 [Verse 1]
-The paper shakes inside my hands
-These words I wrote at three AM
-When nothing in the world demands
-More honesty than what I pen
-To you — who stood beside my bed
-When I was sick and couldn't speak
-Who heard the things I never said
-And loved me at my very peak
-Of imperfection and of flaws
+My fingers find the knot at the nape
+The small one my mother tied
+Before the mirror, before the cape
+Before I knew the word bride
+A thin thread, the colour of straw
+Pulled tight against my skin
+She said — leave it, don't undo, don't pull
+This is where the day begins
 
 [Verse 2]
-I promise you my Monday mornings
-The ones with bad breath and no grace
-My Wednesday evenings and their yawnings
-My Sunday face — the tired face
-I promise you the ordinary
-Because the extraordinary is rare
-And what survives is the January
-Of just being there
+I touch it when the bus is late
+When the meeting goes too long
+When my hand forgets how to wait
+And the room is loud and wrong
+Two fingers to the back of the neck
+Where the knot sits, warm and small
+And the morning my mother put it there
+Returns into the hall
 
 [Pre-Chorus]
-Vows are not for the wedding day
-They're for the Tuesday after rain
-When everything has gone to grey
-And you choose love again
+Not a charm, not a prayer
+Just a thread against the bone
+Just my hand finding it there
+When I sit in the kitchen alone
 
 [Chorus]
-I vow to see you — really see you
-Past the argument and the door
-I vow to need you and to free you
-In the same breath, on the same floor
-These words will shake and maybe stumble
-But the love beneath the sound
-Is the earthquake, not the rumble
-Is the root, not the ground
+The knot at the nape — I touch it
+Two fingers, a quiet test
+The thread is rough where the skin is soft
+And the shoulder finds its rest
+My mother's hands tied it loose
+My grandmother's hands before
+A line of women, a line of looms
+Reaching me through the floor
+Of every house I ever closed the door
 
 [Verse 3]
-I promise you my silence too
-The kind that sits beside your hand
-I promise every déjà vu
-Of coming home and finding land
-In your eyes and in your kitchen
-In the way you fold the sheets
-I promise this — no omission
-From the love to the defeats
+It slips sometimes, comes undone
+In the shower, in the sheet
+And I tie it back with one wet hand
+And the chin returns to meet
+The collarbone, the breath, the place
+Where the song begins to land
+Not in the head, not in the face
+Just the knot, just the hand
 
 [Chorus]
-I vow today and every day
-That follows this one to the grave
-That I will stay and I will stay
-And I will be the wave
-That never leaves the shore
+The knot at the nape — I keep it
+Through the airport, through the call
+Two fingers, a slow check
+Walking down the corridor wall
+With the thread against my skin
 
 [Bridge]
-These vows will be forgotten
-By the guests within a week
-But the words that I have gotten
-From the bravest part of me that speaks
-Will live inside our house
-Between the arguments and the tea
-Quiet as a mouse
-But as permanent as the sea
+One day my hand will tie it
+On a daughter's narrow neck
+And she'll forget, and she'll deny it
+And she'll touch it as a reflex
+In a city I don't know
+In a kitchen far from mine
+And the thread will hold her shoulder low
+Like a quiet, common sign
 
 [Chorus]
-I vow — with shaking hands
-And a voice that barely holds
-These small and human demands
+The knot at the nape — still there
+Rough thread, warm skin, small weight
+My hand and the back of my hair
+Meeting at the gate
 Are the greatest stories ever told
 
 [Outro]
